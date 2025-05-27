@@ -1,0 +1,45 @@
+/* Tailwind v4 core layers */
+@import "tailwindcss";
+
+/*  CSS custom properties  */
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --site-blue: #262443;
+  --site-green: #8cc542;
+  --color-green: #8cc542;
+  --color-site-gray: #f4f4f4;
+}
+
+/* Custom gradients */
+.hero_banner {
+  background: linear-gradient(to right, #137b3c 0%, #262443 100%);
+}
+
+.top_header {
+  background: linear-gradient(-247deg, var(--site-blue) 50%, var(--site-green) 50%);
+}
+
+/* TopColleges -------------------------------------- */
+.top_college_radius_th {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.top_college_radius_td {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+/* Optional base styles (uncomment if needed)
+@layer base {
+  h1 {
+    font-size: var(--text-2xl);
+  }
+  h2 {
+    font-size: var(--text-xl);
+  }
+}
+*/
