@@ -1,8 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import { navigateToSearchPage } from "../navigationToSearchPage";
+import { ArrowRight } from "lucide-react";
 
 const Recommendations = () => {
-  const navigate = useNavigate(); // Get the navigate function from useNavigate hook
+  const navigate = useNavigate();
 
   const recommendedColleges = [
     {
@@ -44,35 +45,58 @@ const Recommendations = () => {
   ];
 
   return (
-    <section className="bg-white-100 p-6">
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl font-bold text-gray-800 mb-8">Recommended Comparisons</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+    <section className="bg-[#f9fbfc] py-12">
+      <div className="max-w-7xl mx-auto px-4">
+        <h1 className="text-4xl font-extrabold text-[#15314b] mb-10">Recommended Comparisons</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           {recommendedColleges.map((item) => (
-            <div key={item.id} className="border border-gray-200 rounded-lg p-4 mb-4">
-              <div className="flex justify-between items-center mb-4">
-                <img alt="VIT Vellore Chennai logo" className="w-12 h-12 rounded-full" height="50" src={item.img1} width="50" />
-                <span className="text-xl font-bold">VS</span>
-                <img alt="VIT Vellore Amaravati logo" className="w-12 h-12 rounded-full" height="50" src={item.img2} width="50" />
+            <div
+              key={item.id}
+              className="border border-[#d6e7db] rounded-xl bg-white p-8 flex flex-col items-center shadow-sm hover:shadow-md transition-shadow duration-200"
+            >
+              <div className="flex items-center justify-center gap-10 mb-8">
+                <img
+                  alt="VIT Vellore Chennai logo"
+                  className="w-14 h-14 rounded-full object-cover border border-gray-200"
+                  height="56"
+                  src={item.img1}
+                  width="56"
+                />
+                <span className="text-2xl font-bold text-[#15314b]">VS</span>
+                <img
+                  alt="VIT Vellore Amaravati logo"
+                  className="w-14 h-14 rounded-full object-cover border border-gray-200"
+                  height="56"
+                  src={item.img2}
+                  width="56"
+                />
               </div>
-
-              <div className="flex justify-between items-center mb-4 text-sm">
+              <div className="flex w-full justify-between items-center mb-8 text-base">
                 <div className="text-left">
-                  <p className="font-semibold">{item.name1}</p>
-                  <p className="text-gray-600 mt-2">NIRF Rank: {item.rank1}</p>
+                  <p className="font-semibold text-[#15314b] leading-tight">{item.name1}</p>
+                  <p className="text-gray-500 text-sm mt-1">NIRF Rank: {item.rank1}</p>
                 </div>
-                <div className="text-right my-4">
-                  <p className="font-semibold">{item.name2}</p>
-                  <p className="text-gray-600 mt-2">NIRF Rank: {item.rank2}</p>
+                <div className="text-right">
+                  <p className="font-semibold text-[#15314b] leading-tight">{item.name2}</p>
+                  <p className="text-gray-500 text-sm mt-1">NIRF Rank: {item.rank2}</p>
                 </div>
               </div>
-              <div className="text-center">
-                <button className="bg-green-500 text-white py-1 px-4 rounded-full w-full text-sm" onClick={() => navigateToSearchPage(navigate, `${item.name1} VS ${item.name2}`)}>
-                  Compare
-                </button>
-              </div>
+              <button
+                className="bg-[#8cc542] hover:bg-[#7ab03a] text-white font-semibold py-3 px-8 rounded-full w-full text-base transition-colors duration-200 mt-2"
+                onClick={() => navigateToSearchPage(navigate, `${item.name1} VS ${item.name2}`)}
+              >
+                Compare
+              </button>
             </div>
           ))}
+        </div>
+        <div className="flex justify-center">
+          <button
+            className="flex items-center gap-2 bg-[#8cc542] hover:bg-[#7ab03a] text-white font-semibold py-3 px-8 rounded-full text-lg shadow-md transition-colors duration-200"
+            onClick={() => navigateToSearchPage(navigate, "Compare Colleges")}
+          >
+            Explore All <ArrowRight size={22} />
+          </button>
         </div>
       </div>
     </section>

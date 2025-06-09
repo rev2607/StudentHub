@@ -1,0 +1,22 @@
+service: frontend
+runtime: python39
+instance_class: F1
+
+handlers:
+- url: /assets/(.*)
+  static_files: dist/assets/\1
+  upload: dist/assets/.*
+  secure: always
+
+- url: /(.*\.(json|ico|js|css|png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot))$
+  static_files: dist/\1
+  upload: dist/.*\.(json|ico|js|css|png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$
+  secure: always
+
+- url: /.*
+  static_files: dist/index.html
+  upload: dist/index.html
+  secure: always
+
+env_variables:
+  PYTHONUNBUFFERED: "true" 

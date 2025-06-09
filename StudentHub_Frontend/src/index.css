@@ -22,6 +22,37 @@
   background: linear-gradient(-247deg, var(--site-blue) 50%, var(--site-green) 50%);
 }
 
+/* Main green button utility */
+.main-green-btn {
+  background: var(--site-green);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 9999px;
+  padding: 0.75rem 2rem;
+  font-size: 1.125rem;
+  transition: background 0.2s;
+}
+.main-green-btn:hover {
+  background: #7bb53a;
+}
+
+/* Headings */
+h1, .h1 {
+  font-size: 2.75rem;
+  font-weight: 800;
+}
+h2, .h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.button, button, .btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  border-radius: 9999px;
+  transition: background 0.2s;
+}
+
 /* TopColleges -------------------------------------- */
 .top_college_radius_th {
   border-top-left-radius: 20px;

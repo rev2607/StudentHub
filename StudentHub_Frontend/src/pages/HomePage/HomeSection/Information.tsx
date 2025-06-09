@@ -41,7 +41,7 @@ const Information = () => {
               </div>
               <div className="flex flex-wrap gap-2">
                 {rankings.map((label, index) => (
-                  <button key={index} className={`px-4 py-1 rounded-full text-sm  border border-green-500 ${index === 0 ? "bg-green-500 text-white" : "bg-white text-black-500"}`} onClick={() => navigateToSearchPage(navigate, label)}>
+                  <button key={index} className={`px-4 py-1 rounded-full text-sm  border border-[var(--site-green)] ${index === 0 ? "bg-[var(--site-green)] text-white" : "bg-white text-black"}`} onClick={() => navigateToSearchPage(navigate, label)}>
                     {label}
                   </button>
                 ))}
@@ -55,7 +55,7 @@ const Information = () => {
               </div>
               <div className="flex flex-wrap gap-2">
                 {exams.map((label, index) => (
-                  <button key={index} className="bg-white text-black-500 border border-green-500 px-4 py-1 rounded-full text-sm" onClick={() => navigateToSearchPage(navigate, label)}>
+                  <button key={index} className="bg-white text-black border border-[var(--site-green)] px-4 py-1 rounded-full text-sm" onClick={() => navigateToSearchPage(navigate, label)}>
                     {label}
                   </button>
                 ))}

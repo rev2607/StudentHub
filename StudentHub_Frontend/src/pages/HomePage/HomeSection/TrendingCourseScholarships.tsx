@@ -43,7 +43,7 @@ const TrendingCourseScholarships = () => {
                 {trendingCourses.map((label, index) => (
                   <span
                     key={index}
-                    className={`border border-green-500 px-4 py-1 rounded-full text-sm ${index === 0 ? "bg-green-500 text-white" : "bg-white text-black-500 "}`}
+                    className={`border border-[var(--site-green)] px-4 py-1 rounded-full text-sm ${index === 0 ? "bg-[var(--site-green)] text-white" : "bg-white text-black"}`}
                     onClick={() => navigateToSearchPage(navigate, label)}
                   >
                     {label}
@@ -64,7 +64,7 @@ const TrendingCourseScholarships = () => {
                 {trendingScholarships.map((label, index) => (
                   <span
                     key={index}
-                    className={`border border-green-500 px-4 py-1 rounded-full text-sm ${index === 0 ? "bg-green-500 text-white" : "bg-white text-black-500 "}`}
+                    className={`border border-[var(--site-green)] px-4 py-1 rounded-full text-sm ${index === 0 ? "bg-[var(--site-green)] text-white" : "bg-white text-black"}`}
                     onClick={() => navigateToSearchPage(navigate, label)}
                   >
                     {label}

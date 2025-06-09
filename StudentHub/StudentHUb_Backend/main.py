@@ -1,0 +1,13 @@
+# ... existing code ...
+# from database import Base, engine
+# ... existing code ...
+# Base.metadata.create_all(bind=engine)
+# ... existing code ...
+# app.include_router(colleges.router) 
+# app.include_router(private_colleges.router)  
+# app.include_router(search.router)     
+# app.include_router(edu_updates.router)  
+# app.include_router(reviews.router)
+# app.include_router(latest_news.router)
+# app.include_router(auth.router) 
+# ... existing code ... 

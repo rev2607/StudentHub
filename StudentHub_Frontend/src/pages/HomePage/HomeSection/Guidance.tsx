@@ -27,7 +27,7 @@ const Guidance = () => {
             <div className="flex items-center space-x-4">
               <div className="flex-shrink-0">
                 <div className="bg-white p-2 rounded-full shadow-lg">
-                  <MdWindow className="text-green-500 h-8 w-8" />
+                  <MdWindow className="text-[var(--site-green)] h-8 w-8" />
                 </div>
               </div>
               <div>
@@ -40,7 +40,7 @@ const Guidance = () => {
             <div className="flex items-center space-x-4">
               <div className="flex-shrink-0">
                 <div className="bg-white p-2 rounded-full shadow-lg">
-                  <FaUsers className="text-green-500 h-8 w-8 align-top" />
+                  <FaUsers className="text-[var(--site-green)] h-8 w-8 align-top" />
                 </div>
               </div>
               <div>
