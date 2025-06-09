@@ -4,13 +4,10 @@ import { Menu, X /* Phone, Mail, MessageCircle */ } from "lucide-react";
 import { Link } from "react-router-dom";
 import callIcon from '../assets/call.png';
 import emailIcon from '../assets/email.png';
-import whatsappIcon from '../assets/whatsapp_logo.svg.png';
 import fbIcon from '../assets/FB_header.png';
 import instaIcon from '../assets/insta_header.png';
 import twitterIcon from '../assets/X_header.png';
-import linkedinIcon from '../assets/LN_header.png';
 import ytIcon from '../assets/YT_header.png';
-import shareIcon from '../assets/share_headere.png';
 import headerBg from '../assets/header.png';
 import lnIcon from '../assets/LN_header.png';
 
