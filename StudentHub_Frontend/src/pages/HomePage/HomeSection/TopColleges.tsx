@@ -118,41 +118,41 @@ const TopColleges = () => {
   const colorArray = ["#8AC442", "#7FB442", "#74A342", "#6A9342", "#5F8242", "#547243", "#496143", "#3F5143", "#344043", "#293043"];
 
   return (
-    <section className="bg-white p-6">
+    <section className="bg-white p-4 sm:p-6">
       <div className="container mx-auto">
-        <h1 className="text-2xl font-bold mb-4">Top 10 Colleges</h1>
+        <h1 className="text-xl sm:text-2xl font-bold mb-4">Top 10 Colleges</h1>
         <div className="flex flex-wrap gap-2 mb-6">
-          <span className="bg-[var(--site-green)] text-white border border-[var(--site-green)] px-4 py-1 rounded-full text-sm">Computer Science</span>
-          <span className="bg-white text-black border border-[var(--site-green)] px-4 py-1 rounded-full text-sm">Mechanical Engineering</span>
-          <span className="bg-white text-black border border-[var(--site-green)] px-4 py-1 rounded-full text-sm">Electrical Engineering</span>
-          <span className="bg-white text-black border border-[var(--site-green)] px-4 py-1 rounded-full text-sm">Civil Engineering</span>
+          <span className="bg-[var(--site-green)] text-white border border-[var(--site-green)] px-3 sm:px-4 py-1 rounded-full text-xs sm:text-sm">Computer Science</span>
+          <span className="bg-white text-black border border-[var(--site-green)] px-3 sm:px-4 py-1 rounded-full text-xs sm:text-sm">Mechanical Engineering</span>
+          <span className="bg-white text-black border border-[var(--site-green)] px-3 sm:px-4 py-1 rounded-full text-xs sm:text-sm">Electrical Engineering</span>
+          <span className="bg-white text-black border border-[var(--site-green)] px-3 sm:px-4 py-1 rounded-full text-xs sm:text-sm">Civil Engineering</span>
         </div>
         <div className="overflow-x-auto">
-          <table className="min-w-full bg-white table-auto">
+          <table className="w-full min-w-[800px]">
             <thead>
-              <tr className="text-white text-center">
-                <th className="px-6 py-3 text-xs font-medium text-black tracking-wider">Ranking</th>
-                <th className="px-6 py-3 bg-[#ADAFB2]   text-xs font-medium  tracking-wider rounded-tl-lg  rounded-tr-lg top_college_radius_th">College</th>
-                <th className="px-6 py-3 bg-[#8A8C8E]  text-xs font-medium  tracking-wider rounded-tl-lg  rounded-tr-lg top_college_radius_th">NIRF Ranking</th>
-                <th className="px-6 py-3 bg-[#ADAFB2]  text-xs font-medium  tracking-wider rounded-tl-lg  rounded-tr-lg top_college_radius_th">Highest Package</th>
-                <th className="px-6 py-3 bg-[#8A8C8E]  text-xs font-medium  tracking-wider rounded-tl-lg  rounded-tr-lg top_college_radius_th">Courses Offered</th>
-                <th className="px-6 py-3 bg-[#ADAFB2]   text-xs font-medium  tracking-wider rounded-tl-lg  rounded-tr-lg top_college_radius_th">Fee</th>
+              <tr className="bg-[var(--site-blue)] text-white">
+                <th className="top_college_radius_th px-4 py-3 text-center">Rank</th>
+                <th className="px-4 py-3 text-left">College Name</th>
+                <th className="px-4 py-3 text-center">NIRF Ranking</th>
+                <th className="px-4 py-3 text-center">Highest Package</th>
+                <th className="px-4 py-3 text-center">Courses Offered</th>
+                <th className="px-4 py-3 text-center">Fee Structure</th>
               </tr>
             </thead>
             <tbody>
               {topCollegesData.map((college: any, index: number) => (
                 <tr key={index} dir="ltr" className="even:bg-[#E5E5E5]">
-                  <td style={{ backgroundColor: colorArray[index] }} className="top_college_radius_td px-4 py-4 text-center rounded-s-lg">
+                  <td style={{ backgroundColor: colorArray[index] }} className="top_college_radius_td px-3 sm:px-4 py-3 text-center rounded-s-lg text-sm sm:text-base">
                     0{index + 1}
                   </td>
-                  <td className="px-4 py-4 flex items-center">
-                    <img src={college.logo_url} alt="Logo" className="w-10 h-10 mr-4 rounded-full" />
-                    {college.name}
+                  <td className="px-3 sm:px-4 py-3 flex items-center text-sm sm:text-base">
+                    <img src={college.logo_url} alt="Logo" className="w-8 h-8 sm:w-10 sm:h-10 mr-2 sm:mr-4 rounded-full" />
+                    <span className="truncate">{college.name}</span>
                   </td>
-                  <td className="px-4 py-4">{college.nirf_ranking}</td>
-                  <td className="px-4 py-4">{college.highest_package}</td>
-                  <td className="px-4 py-4">{college.courses_offered}</td>
-                  <td className="px-4 py-4">{college.fee_structure}</td>
+                  <td className="px-3 sm:px-4 py-3 text-center text-sm sm:text-base">{college.nirf_ranking}</td>
+                  <td className="px-3 sm:px-4 py-3 text-center text-sm sm:text-base">{college.highest_package}</td>
+                  <td className="px-3 sm:px-4 py-3 text-center text-sm sm:text-base">{college.courses_offered}</td>
+                  <td className="px-3 sm:px-4 py-3 text-center text-sm sm:text-base">{college.fee_structure}</td>
                 </tr>
               ))}
             </tbody>

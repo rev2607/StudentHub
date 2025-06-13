@@ -42,7 +42,7 @@ function NewsItemTop() {
   return (
     <section style={{ transform: 'translateY(-65%)' }}>
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-xl text-white text-center mb-4">Latest News and Notifications</h2>
+        <h2 className="text-xl text-white text-center mb-4 md:mb-6">Latest News and Notifications</h2>
 
         <div className="relative">
           <div className="overflow-hidden rounded-lg shadow-xl">
@@ -54,7 +54,7 @@ function NewsItemTop() {
                       <div key={index} className="flex-1 bg-white rounded-lg overflow-hidden shadow-2xl transition-shadow duration-300 border-s-15 border-[var(--site-green)] ">
                         <div className="flex h-full">
                           <div className="w-1/3 relative">
-                            <img src={item.image_url || "https://placehold.co/200x150.png"} alt="image" className="absolute inset-0 w-30 h-25 object-cover rounded-3xl  p-2" />
+                            <img src={(!item.image_url || item.image_url === 'image') ? 'https://placehold.co/200x150.png' : item.image_url} alt={item.title || 'News image'} className="absolute inset-0 w-30 h-25 object-cover rounded-3xl p-2" />
                           </div>
                           <div className="w-2/3 p-4 px-2 flex flex-col justify-between">
                             <div>

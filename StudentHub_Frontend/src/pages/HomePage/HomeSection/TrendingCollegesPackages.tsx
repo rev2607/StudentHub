@@ -110,52 +110,24 @@ function getGradientBorder(rank: number) {
   return `rgb(${r},${g},${b})`;
 }
 
-const getRankColor = (rank: number) => {
-  if (rank <= 3) return "bg-[var(--site-green)] text-white";
-  return "bg-gray-400 text-white";
-};
-
 const TrendingCollegesPackages = () => {
   return (
-    <section className="py-10 px-2 md:px-8 bg-white">
+    <section className="py-8 sm:py-10 px-2 sm:px-8 bg-white">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-10 text-gray-800">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-8 sm:mb-10 text-gray-800">
           Trending Colleges With Highest Packages & Placements
         </h2>
         <div className="relative flex flex-col items-center">
           {/* Vertical line */}
           <div className="absolute left-1/2 top-0 w-1 h-full bg-gray-200 z-0 hidden md:block" style={{transform: 'translateX(-50%)'}}></div>
-          <div className="w-full flex flex-col gap-6">
+          <div className="w-full flex flex-col gap-4 sm:gap-6">
             {colleges.map((college, idx) => {
               const isLeft = idx % 2 === 0;
               return (
                 <div key={college.rank} className="relative flex flex-col md:flex-row items-center md:items-stretch w-full z-10">
-                  {/* For desktop: alternate left/right, for mobile: stack */}
-                  <div className={`flex-1 flex justify-${isLeft ? 'end' : 'start'} md:pr-8 md:pl-8 ${isLeft ? 'md:justify-end' : 'md:justify-start'} ${isLeft ? 'order-1' : 'order-3'} md:order-none`}> 
-                    {isLeft && (
-                      <div className="max-w-xs w-full md:text-right text-center mb-4 md:mb-0">
-                        <h3 className="font-semibold text-lg mb-1 text-gray-800">
-                          {college.name}
-                        </h3>
-                        <div className="text-sm text-gray-600 mb-1">
-                          <span className="font-medium">NIRF Ranking:</span> {college.nirf}
-                        </div>
-                        <div className="text-sm text-gray-600 mb-1">
-                          <span className="font-medium">NAAC Grade:</span> {college.naac}
-                        </div>
-                        <div className="text-sm text-gray-600 mb-1">
-                          <span className="font-medium">Highest Package:</span> {college.highest}
-                        </div>
-                        <div className="text-sm text-gray-600">
-                          <span className="font-medium">Average Package:</span> {college.average}
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                  {/* Badge in center */}
                   <div className="flex flex-col items-center z-10">
                     <div
-                      className={`relative flex items-center justify-center w-24 h-24 rounded-full mb-2 bg-white`}
+                      className={`relative flex items-center justify-center w-20 h-20 sm:w-24 sm:h-24 rounded-full mb-2 bg-white`}
                       style={{
                         borderWidth: '4px',
                         borderStyle: 'solid',
@@ -165,10 +137,10 @@ const TrendingCollegesPackages = () => {
                       <img
                         src={college.logo}
                         alt="College Logo"
-                        className="w-16 h-16 rounded-full object-cover"
+                        className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover"
                       />
                       <span
-                        className={`absolute -bottom-3 left-1/2 -translate-x-1/2 px-3 py-1 rounded-full text-xs font-bold shadow ${getRankColor(college.rank)}`}
+                        className="absolute -bottom-4 sm:-bottom-5 left-1/2 -translate-x-1/2 px-4 sm:px-5 py-2 rounded-full text-base font-extrabold shadow-lg bg-[var(--site-green)] text-white border-4 border-white z-20"
                       >
                         {college.rank}
                       </span>
@@ -177,19 +149,19 @@ const TrendingCollegesPackages = () => {
                   <div className={`flex-1 flex justify-${!isLeft ? 'end' : 'start'} md:pr-8 md:pl-8 ${!isLeft ? 'md:justify-end' : 'md:justify-start'} ${!isLeft ? 'order-1' : 'order-3'} md:order-none`}>
                     {!isLeft && (
                       <div className="max-w-xs w-full md:text-left text-center mt-4 md:mt-0">
-                        <h3 className="font-semibold text-lg mb-1 text-gray-800">
+                        <h3 className="font-semibold text-base sm:text-lg mb-1 text-gray-800">
                           {college.name}
                         </h3>
-                        <div className="text-sm text-gray-600 mb-1">
+                        <div className="text-xs sm:text-sm text-gray-600 mb-1">
                           <span className="font-medium">NIRF Ranking:</span> {college.nirf}
                         </div>
-                        <div className="text-sm text-gray-600 mb-1">
+                        <div className="text-xs sm:text-sm text-gray-600 mb-1">
                           <span className="font-medium">NAAC Grade:</span> {college.naac}
                         </div>
-                        <div className="text-sm text-gray-600 mb-1">
+                        <div className="text-xs sm:text-sm text-gray-600 mb-1">
                           <span className="font-medium">Highest Package:</span> {college.highest}
                         </div>
-                        <div className="text-sm text-gray-600">
+                        <div className="text-xs sm:text-sm text-gray-600">
                           <span className="font-medium">Average Package:</span> {college.average}
                         </div>
                       </div>

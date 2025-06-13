@@ -61,33 +61,33 @@ const LatestNews = () => {
   ];
 
   return (
-    <section className="bg-white px-6 py-16">
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-8">
-          <h1 className="text-3xl font-semibold text-gray-800 mb-2 sm:mb-0 whitespace-nowrap">Latest News & Notifications</h1>
-          <button className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-8 py-2 rounded-full text-lg font-light flex items-center transition">
+    <section className="bg-white px-4 sm:px-6 py-12 sm:py-16">
+      <div className="container mx-auto">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-6 sm:mb-8">
+          <h1 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4 sm:mb-0">Latest News & Notifications</h1>
+          <button className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-6 sm:px-8 py-2 rounded-full text-base sm:text-lg font-light flex items-center justify-center transition w-full sm:w-auto">
             Explore All
             <ArrowRightCircle />
           </button>
         </div>
-        <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-2 sm:space-y-0 mb-8">
-          <button className="bg-[var(--site-green)] font-light text-white px-4 py-2 rounded-full">Exam Alerts</button>
-          <button className="bg-white font-light text-black border border-[var(--site-green)] px-4 py-2 rounded-full">College Alerts</button>
-          <button className="bg-white font-light text-black border border-[var(--site-green)] px-4 py-2 rounded-full">Admission Alerts</button>
+        <div className="flex flex-col sm:flex-row flex-wrap gap-2 sm:gap-4 mb-6 sm:mb-8 mt-4 sm:mt-0">
+          <button className="bg-[var(--site-green)] font-light text-white px-3 sm:px-4 py-2 rounded-full text-sm">Exam Alerts</button>
+          <button className="bg-white font-light text-black border border-[var(--site-green)] px-3 sm:px-4 py-2 rounded-full text-sm">College Alerts</button>
+          <button className="bg-white font-light text-black border border-[var(--site-green)] px-3 sm:px-4 py-2 rounded-full text-sm">Admission Alerts</button>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {data.map((article) => (
             <div key={article.id} className="rounded-lg overflow-hidden shadow-md" style={{background: 'var(--color-site-gray)'}}>
-              <img alt="News" className="w-full h-48 object-cover rounded-t-lg" height="400" src={article.imgSrc} width="600" />
-              <div className="p-6">
-                <div className="flex items-center text-sm text-gray-500 mb-2">
+              <img alt="News" className="w-full h-40 sm:h-48 object-cover rounded-t-lg" height="400" src={article.imgSrc} width="600" />
+              <div className="p-4 sm:p-6">
+                <div className="flex items-center text-xs sm:text-sm text-gray-500 mb-2">
                   <CalendarIcon />
-                  <span>{article.date}</span>
+                  <span className="ml-1">{article.date}</span>
                   <UserIcon />
-                  <span>{article.author}</span>
+                  <span className="ml-1">{article.author}</span>
                 </div>
-                <h2 className="text-lg font-bold text-gray-800 mb-4">{article.title}</h2>
-                <button className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-6 py-2 rounded-full flex items-center font-light transition" onClick={() => navigateToSearchPage(navigate, article.title)}>
+                <h2 className="text-base sm:text-lg font-bold text-gray-800 mb-4">{article.title}</h2>
+                <button className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-4 sm:px-6 py-2 rounded-full flex items-center justify-center font-light transition w-full sm:w-auto" onClick={() => navigateToSearchPage(navigate, article.title)}>
                   Read More
                   <ArrowRightCircle />
                 </button>

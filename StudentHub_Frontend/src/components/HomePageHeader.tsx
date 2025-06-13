@@ -37,17 +37,17 @@ const HomePageHeader = () => {
           minHeight: 64,
         }}
       >
-        <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-2 text-xs" style={{ minHeight: 64 }}>
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between px-4 py-2 text-xs" style={{ minHeight: 64 }}>
           {/* Left: Contact Info (vertical stacked) */}
-          <div className="flex flex-col sm:flex-row items-center gap-6">
-            <div className="flex items-center gap-2 border-r border-white pr-6">
+          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 w-full sm:w-auto justify-center sm:justify-start">
+            <div className="flex items-center gap-2 border-b sm:border-b-0 sm:border-r border-white pb-4 sm:pb-0 sm:pr-6">
               <img src={callIcon} alt="call" className="w-6 h-6 mr-2" />
               <div className="flex flex-col items-start">
                 <span className="text-white opacity-80 leading-tight">Contact Us</span>
                 <span className="text-white font-semibold text-base leading-tight">9000090000</span>
               </div>
             </div>
-            <div className="flex items-center gap-2 pl-6">
+            <div className="flex items-center gap-2 sm:pl-6">
               <img src={emailIcon} alt="email" className="w-6 h-6 mr-2" />
               <div className="flex flex-col items-start">
                 <span className="text-white opacity-80 leading-tight">Send Email</span>
@@ -55,27 +55,27 @@ const HomePageHeader = () => {
               </div>
             </div>
           </div>
-          {/* Right: Write a review button + dots (unchanged) */}
-          <div className="flex items-center gap-6">
-            <button className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-[#262443] border border-[#262443] px-6 py-2 rounded-md font-semibold text-base transition-all shadow">
+          {/* Right: Write a review button + dots */}
+          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 mt-4 sm:mt-0">
+            <button className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-[#262443] border border-[#262443] px-4 sm:px-6 py-2 rounded-md font-semibold text-sm sm:text-base transition-all shadow w-full sm:w-auto">
               Write a review
             </button>
             {/* Social Media Icons */}
             <div className="flex items-center gap-4">
               <a href="#" target="_blank" rel="noopener noreferrer">
-                <img src={ytIcon} alt="YouTube" className="w-8 h-8 hover:opacity-80 transition" />
+                <img src={ytIcon} alt="YouTube" className="w-6 h-6 sm:w-8 sm:h-8 hover:opacity-80 transition" />
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer">
-                <img src={instaIcon} alt="Instagram" className="w-8 h-8 hover:opacity-80 transition" />
+                <img src={instaIcon} alt="Instagram" className="w-6 h-6 sm:w-8 sm:h-8 hover:opacity-80 transition" />
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer">
-                <img src={twitterIcon} alt="Twitter/X" className="w-8 h-8 hover:opacity-80 transition" />
+                <img src={twitterIcon} alt="Twitter/X" className="w-6 h-6 sm:w-8 sm:h-8 hover:opacity-80 transition" />
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer">
-                <img src={fbIcon} alt="Facebook" className="w-8 h-8 hover:opacity-80 transition" />
+                <img src={fbIcon} alt="Facebook" className="w-6 h-6 sm:w-8 sm:h-8 hover:opacity-80 transition" />
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer">
-                <img src={lnIcon} alt="LinkedIn" className="w-8 h-8 hover:opacity-80 transition" />
+                <img src={lnIcon} alt="LinkedIn" className="w-6 h-6 sm:w-8 sm:h-8 hover:opacity-80 transition" />
               </a>
             </div>
           </div>
@@ -89,7 +89,7 @@ const HomePageHeader = () => {
             <div className="flex items-center">
               <Link to="/" className="flex-shrink-0">
                 <h1 className="text-2xl font-extrabold text-[var(--site-green)] flex items-center gap-2">
-                  <img src="StudentHub_Blue_Logo.svg" className="w-38 md:w-44 lg:w-52 xl:w-58" alt="Logo" />
+                  <img src="StudentHub_Blue_Logo.svg" className="w-32 sm:w-38 md:w-44 lg:w-52 xl:w-58" alt="Logo" />
                   <span className="hidden">STUDENT HUB.IN</span>
                 </h1>
               </Link>
@@ -98,7 +98,7 @@ const HomePageHeader = () => {
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center space-x-8">
               {menuItems.map((item) => (
-                <Link key={item.title} to={item.path} className="text-[#262443]  hover:text-[var(--site-green)] transition-colors duration-200">
+                <Link key={item.title} to={item.path} className="text-[#262443] hover:text-[var(--site-green)] transition-colors duration-200">
                   {item.title}
                 </Link>
               ))}
@@ -115,10 +115,15 @@ const HomePageHeader = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden">
+          <div className="md:hidden absolute w-full bg-white shadow-lg z-50">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {menuItems.map((item) => (
-                <Link key={item.title} to={item.path} className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50" onClick={() => setIsOpen(false)}>
+                <Link 
+                  key={item.title} 
+                  to={item.path} 
+                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50" 
+                  onClick={() => setIsOpen(false)}
+                >
                   {item.title}
                 </Link>
               ))}

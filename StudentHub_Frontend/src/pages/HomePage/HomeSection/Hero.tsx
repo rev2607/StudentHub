@@ -27,15 +27,15 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative hero_banner pt-24 pb-24 md:pb-40 min-h-[600px] flex items-center">
-      <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-12">
+    <section className="relative hero_banner pt-16 sm:pt-24 pb-16 sm:pb-24 md:pb-40 min-h-[500px] sm:min-h-[600px] flex items-center">
+      <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-8 sm:gap-12">
         {/* Left: Heading and Search */}
         <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left">
-          <h1 className="text-5xl sm:text-6xl font-normal text-white mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>Let's Explore</h1>
-          <form onSubmit={handleSearch} className="w-[120%] relative right-0 flex items-center bg-white rounded-full shadow-lg overflow-hidden mt-0">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-normal text-white mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>Let's Explore</h1>
+          <form onSubmit={handleSearch} className="w-full sm:w-[120%] relative right-0 flex flex-col sm:flex-row items-center bg-white rounded-full shadow-lg overflow-hidden mt-0">
             <input
               type="text"
-              className="flex-1 px-6 py-3 text-base text-gray-700 outline-none bg-transparent"
+              className="w-full px-4 sm:px-6 py-3 text-base text-gray-700 outline-none bg-transparent"
               placeholder="Search for Colleges, Exams, Results & More"
               value={searchValue}
               onChange={e => setSearchValue(e.target.value)}
@@ -43,7 +43,7 @@ const Hero = () => {
             />
             <button
               type="submit"
-              className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-8 py-3 text-lg font-semibold"
+              className="w-full sm:w-auto bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-6 sm:px-8 py-3 text-base sm:text-lg font-semibold mt-2 sm:mt-0"
               style={{ borderRadius: '9999px', margin: '4px', minHeight: '40px', minWidth: '120px', border: '3px solid #fff' }}
             >
               Search
@@ -51,8 +51,8 @@ const Hero = () => {
           </form>
         </div>
         {/* Right: 3x3 Grid */}
-        <div className="flex-1 flex justify-center md:justify-start mt-12 md:mt-0 md:pl-32">
-          <div className="grid grid-cols-3 gap-3">
+        <div className="flex-1 flex justify-center md:justify-start mt-8 md:mt-0 md:pl-8 lg:pl-32">
+          <div className="grid grid-cols-3 gap-2 sm:gap-3">
             {menuItems.map((item) => {
               const IconComponent = item.icon;
               return (
@@ -62,12 +62,12 @@ const Hero = () => {
                   className="flex flex-col items-center justify-center border border-[var(--site-green)] bg-transparent transition-all duration-300 shadow-sm p-0"
                   style={{
                     borderRadius: '8px',
-                    width: '128px',
-                    height: '128px',
-                    minWidth: '128px',
-                    minHeight: '128px',
-                    maxWidth: '128px',
-                    maxHeight: '128px',
+                    width: '100px',
+                    height: '100px',
+                    minWidth: '100px',
+                    minHeight: '100px',
+                    maxWidth: '100px',
+                    maxHeight: '100px',
                     boxShadow: '0 2px 8px 0 rgba(0,0,0,0.04)',
                     padding: 0,
                   }}
@@ -86,8 +86,8 @@ const Hero = () => {
                     }
                   }}
                 >
-                  <IconComponent className="text-[var(--site-green)]" style={{ width: '40px', height: '40px', transition: 'transform 0.2s', marginTop: 0, marginBottom: 0 }} />
-                  <span className="text-white text-sm font-normal text-center" style={{ marginTop: '6px', marginBottom: 0, whiteSpace: 'pre-line' }}>{item.label}</span>
+                  <IconComponent className="text-[var(--site-green)]" style={{ width: '32px', height: '32px', transition: 'transform 0.2s', marginTop: 0, marginBottom: 0 }} />
+                  <span className="text-white text-xs sm:text-sm font-normal text-center" style={{ marginTop: '4px', marginBottom: 0, whiteSpace: 'pre-line' }}>{item.label}</span>
                 </button>
               );
             })}
