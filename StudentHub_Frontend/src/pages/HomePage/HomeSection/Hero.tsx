@@ -32,19 +32,22 @@ const Hero = () => {
         {/* Left: Heading and Search */}
         <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-normal text-white mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>Let's Explore</h1>
-          <form onSubmit={handleSearch} className="w-full sm:w-[120%] relative right-0 flex flex-col sm:flex-row items-center bg-white rounded-full shadow-lg overflow-hidden mt-0">
+          <form
+            onSubmit={handleSearch}
+            className="w-full flex flex-col gap-2 sm:w-[120%] sm:flex-row sm:items-center bg-white rounded-xl sm:rounded-full shadow-lg overflow-hidden mt-0 p-2"
+          >
             <input
               type="text"
-              className="w-full px-4 sm:px-6 py-3 text-base text-gray-700 outline-none bg-transparent"
+              className="w-full px-3 py-2 text-base text-gray-700 outline-none bg-transparent rounded-md sm:rounded-full border border-gray-200"
               placeholder="Search for Colleges, Exams, Results & More"
               value={searchValue}
               onChange={e => setSearchValue(e.target.value)}
-              style={{ minHeight: '48px' }}
+              style={{ minHeight: '40px' }}
             />
             <button
               type="submit"
-              className="w-full sm:w-auto bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-6 sm:px-8 py-3 text-base sm:text-lg font-semibold mt-2 sm:mt-0"
-              style={{ borderRadius: '9999px', margin: '4px', minHeight: '40px', minWidth: '120px', border: '3px solid #fff' }}
+              className="w-full sm:w-auto bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-4 py-2 text-base sm:text-lg font-semibold rounded-md sm:rounded-full border-0 sm:border-4 sm:border-white"
+              style={{ minHeight: '40px' }}
             >
               Search
             </button>

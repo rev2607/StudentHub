@@ -28,7 +28,7 @@ const HomePageHeader = () => {
     <>
       {/* Custom Top Header */}
       <div
-        className="w-full"
+        className="w-full hidden md:block"
         style={{
           backgroundImage: `url(${headerBg})`,
           backgroundRepeat: 'no-repeat',
@@ -117,15 +117,33 @@ const HomePageHeader = () => {
         {isOpen && (
           <div className="md:hidden absolute w-full bg-white shadow-lg z-50">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              {menuItems.map((item) => (
-                <Link 
-                  key={item.title} 
-                  to={item.path} 
-                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50" 
-                  onClick={() => setIsOpen(false)}
-                >
-                  {item.title}
-                </Link>
+              {menuItems.map((item, idx) => (
+                <>
+                  <Link 
+                    key={item.title} 
+                    to={item.path} 
+                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50" 
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {item.title}
+                  </Link>
+                  {/* After Training Institutes, insert contact info and review button for mobile */}
+                  {item.title === 'Training Institutes' && (
+                    <div className="my-4 px-3 flex flex-col gap-2">
+                      <div className="flex items-center gap-2">
+                        <img src={callIcon} alt="call" className="w-5 h-5" />
+                        <span className="text-xs text-gray-700">9000090000</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <img src={emailIcon} alt="email" className="w-5 h-5" />
+                        <span className="text-xs text-gray-700">info@studenthub.in</span>
+                      </div>
+                      <button className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-[#262443] border border-[#262443] px-4 py-2 rounded-md font-semibold text-xs transition-all shadow w-full">
+                        Write a review
+                      </button>
+                    </div>
+                  )}
+                </>
               ))}
             </div>
           </div>

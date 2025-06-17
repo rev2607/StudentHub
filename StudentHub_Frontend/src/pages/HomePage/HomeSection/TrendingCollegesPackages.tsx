@@ -113,64 +113,66 @@ function getGradientBorder(rank: number) {
 const TrendingCollegesPackages = () => {
   return (
     <section className="py-8 sm:py-10 px-2 sm:px-8 bg-white">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-8 sm:mb-10 text-gray-800">
+      <div className="max-w-5xl mx-auto">
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-10 text-[#22314A]">
           Trending Colleges With Highest Packages & Placements
         </h2>
-        <div className="relative flex flex-col items-center">
-          {/* Vertical line */}
-          <div className="absolute left-1/2 top-0 w-1 h-full bg-gray-200 z-0 hidden md:block" style={{transform: 'translateX(-50%)'}}></div>
-          <div className="w-full flex flex-col gap-4 sm:gap-6">
-            {colleges.map((college, idx) => {
-              const isLeft = idx % 2 === 0;
-              return (
-                <div key={college.rank} className="relative flex flex-col md:flex-row items-center md:items-stretch w-full z-10">
-                  <div className="flex flex-col items-center z-10">
-                    <div
-                      className={`relative flex items-center justify-center w-20 h-20 sm:w-24 sm:h-24 rounded-full mb-2 bg-white`}
-                      style={{
-                        borderWidth: '4px',
-                        borderStyle: 'solid',
-                        borderColor: getGradientBorder(college.rank),
-                      }}
-                    >
-                      <img
-                        src={college.logo}
-                        alt="College Logo"
-                        className="w-14 h-14 sm:w-16 sm:h-16 rounded-full object-cover"
-                      />
-                      <span
-                        className="absolute -bottom-4 sm:-bottom-5 left-1/2 -translate-x-1/2 px-4 sm:px-5 py-2 rounded-full text-base font-extrabold shadow-lg bg-[var(--site-green)] text-white border-4 border-white z-20"
-                      >
-                        {college.rank}
-                      </span>
+        <div className="flex flex-col gap-4">
+          {colleges.map((college, idx) => {
+            const isEven = idx % 2 === 0;
+            return (
+              <div
+                key={college.rank}
+                className="grid grid-cols-1 md:grid-cols-[1fr_min-content_1fr] items-center gap-0 md:gap-4"
+              >
+                {/* Left details (odd rows) */}
+                <div className={`hidden md:block ${isEven ? '' : ''} text-right`}>
+                  {!isEven && (
+                    <div>
+                      <h3 className="font-bold text-base md:text-lg mb-1 text-[#22314A]">{college.name}</h3>
+                      <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">NIRF Ranking:</span> {college.nirf}</div>
+                      <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">NAAC Grade:</span> {college.naac}</div>
+                      <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">Highest Package:</span> {college.highest}</div>
+                      <div className="text-xs md:text-sm text-gray-700"><span className="font-semibold">Average Package:</span> {college.average}</div>
+                      <div className="h-1 w-16 bg-[var(--site-green)] mt-2 ml-auto rounded" />
                     </div>
-                  </div>
-                  <div className={`flex-1 flex justify-${!isLeft ? 'end' : 'start'} md:pr-8 md:pl-8 ${!isLeft ? 'md:justify-end' : 'md:justify-start'} ${!isLeft ? 'order-1' : 'order-3'} md:order-none`}>
-                    {!isLeft && (
-                      <div className="max-w-xs w-full md:text-left text-center mt-4 md:mt-0">
-                        <h3 className="font-semibold text-base sm:text-lg mb-1 text-gray-800">
-                          {college.name}
-                        </h3>
-                        <div className="text-xs sm:text-sm text-gray-600 mb-1">
-                          <span className="font-medium">NIRF Ranking:</span> {college.nirf}
-                        </div>
-                        <div className="text-xs sm:text-sm text-gray-600 mb-1">
-                          <span className="font-medium">NAAC Grade:</span> {college.naac}
-                        </div>
-                        <div className="text-xs sm:text-sm text-gray-600 mb-1">
-                          <span className="font-medium">Highest Package:</span> {college.highest}
-                        </div>
-                        <div className="text-xs sm:text-sm text-gray-600">
-                          <span className="font-medium">Average Package:</span> {college.average}
-                        </div>
-                      </div>
-                    )}
-                  </div>
+                  )}
                 </div>
-              );
-            })}
-          </div>
+                {/* Center: logo and number */}
+                <div className="flex flex-col items-center justify-center relative">
+                  <div
+                    className="flex items-center justify-center w-20 h-20 md:w-24 md:h-24 rounded-full bg-white border-4"
+                    style={{ borderColor: getGradientBorder(college.rank) }}
+                  >
+                    <img src={college.logo} alt="College Logo" className="w-14 h-14 md:w-16 md:h-16 rounded-full object-cover" />
+                  </div>
+                  <span className="absolute -bottom-5 left-1/2 -translate-x-1/2 px-4 py-2 rounded-full text-base font-extrabold shadow bg-white border-4 border-white z-20" style={{ background: getGradientBorder(college.rank), color: '#fff' }}>{college.rank}</span>
+                </div>
+                {/* Right details (even rows) */}
+                <div className={`hidden md:block ${isEven ? '' : ''} text-left`}>
+                  {isEven && (
+                    <div>
+                      <h3 className="font-bold text-base md:text-lg mb-1 text-[#22314A]">{college.name}</h3>
+                      <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">NIRF Ranking:</span> {college.nirf}</div>
+                      <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">NAAC Grade:</span> {college.naac}</div>
+                      <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">Highest Package:</span> {college.highest}</div>
+                      <div className="text-xs md:text-sm text-gray-700"><span className="font-semibold">Average Package:</span> {college.average}</div>
+                      <div className="h-1 w-16 bg-[var(--site-green)] mt-2 rounded" />
+                    </div>
+                  )}
+                </div>
+                {/* Mobile: always show details below icon */}
+                <div className="block md:hidden mt-6 text-center">
+                  <h3 className="font-bold text-base md:text-lg mb-1 text-[#22314A]">{college.name}</h3>
+                  <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">NIRF Ranking:</span> {college.nirf}</div>
+                  <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">NAAC Grade:</span> {college.naac}</div>
+                  <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">Highest Package:</span> {college.highest}</div>
+                  <div className="text-xs md:text-sm text-gray-700"><span className="font-semibold">Average Package:</span> {college.average}</div>
+                  <div className="h-1 w-16 bg-[var(--site-green)] mt-2 mx-auto rounded" />
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

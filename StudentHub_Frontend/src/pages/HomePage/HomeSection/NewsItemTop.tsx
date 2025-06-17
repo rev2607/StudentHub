@@ -40,9 +40,9 @@ function NewsItemTop() {
   };
 
   return (
-    <section style={{ transform: 'translateY(-65%)' }}>
+    <section className="relative mb-8 md:-translate-y-2/3 md:mb-0" style={{ transform: undefined }}>
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-xl text-white text-center mb-4 md:mb-6">Latest News and Notifications</h2>
+        <h2 className="text-xl text-black md:text-white text-center mb-4 md:mb-6">Latest News and Notifications</h2>
 
         <div className="relative">
           <div className="overflow-hidden rounded-lg shadow-xl">
