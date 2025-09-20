@@ -8,7 +8,7 @@ const menuItems = [
   { icon: Newspaper, label: "News", path: "/news" },
   { icon: Calendar, label: "Exams", path: "/exams" },
   { icon: GraduationCap, label: "Engineering", path: "/engineering-colleges" },
-  { icon: Award, label: "Scholarships", path: "/scholarships" },
+  { icon: Award, label: "Mock Tests", path: "/mock-tests" },
   { icon: Users, label: "Training\nInstitutes", path: "/training-institutes" },
   { icon: BookOpen, label: "MBBS", path: "/mbbs" },
   { icon: FileSpreadsheet, label: "Study Abroad", path: "/study-abroad" },

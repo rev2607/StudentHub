@@ -1,7 +1,11 @@
 import { useState } from "react";
 // import { Menu, X, Phone, Mail, MessageCircle } from "lucide-react";
-import { Menu, X /* Phone, Mail, MessageCircle */ } from "lucide-react";
+import { Menu, X, User, LogOut, Settings /* Phone, Mail, MessageCircle */ } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useAuth } from '../contexts/AuthContext';
+import SignInModal from './auth/SignInModal';
+import SignUpModal from './auth/SignUpModal';
+import ProfileModal from './auth/ProfileModal';
 import callIcon from '../assets/call.png';
 import emailIcon from '../assets/email.png';
 import fbIcon from '../assets/FB_header.png';
@@ -13,6 +17,12 @@ import lnIcon from '../assets/LN_header.png';
 
 const HomePageHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [showAuthDropdown, setShowAuthDropdown] = useState(false);
+  const [showSignInModal, setShowSignInModal] = useState(false);
+  const [showSignUpModal, setShowSignUpModal] = useState(false);
+  const [showProfileModal, setShowProfileModal] = useState(false);
+  
+  const { user, profile, signOut } = useAuth();
 
   const menuItems = [
     { title: "Home", path: "/" },
@@ -20,7 +30,7 @@ const HomePageHeader = () => {
     { title: "News", path: "/news" },
     { title: "Engineering Colleges", path: "/engineering-colleges" },
     { title: "Exams", path: "/exams" },
-    { title: "Scholarships", path: "/scholarships" },
+    { title: "Mock Tests", path: "/mock-tests" },
     { title: "Training Institutes", path: "/training-institutes" },
   ];
 
@@ -102,10 +112,96 @@ const HomePageHeader = () => {
                   {item.title}
                 </Link>
               ))}
+              
+              {/* Auth Section */}
+              <div className="relative">
+                {user ? (
+                  <div className="relative">
+                    <button
+                      onClick={() => setShowAuthDropdown(!showAuthDropdown)}
+                      className="flex items-center gap-2 text-[#262443] hover:text-[var(--site-green)] transition-colors duration-200"
+                    >
+                      <User size={20} />
+                      <span>{profile?.name || 'User'}</span>
+                      <svg className={`w-4 h-4 transition-transform ${showAuthDropdown ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
+                    
+                    {showAuthDropdown && (
+                      <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg z-50 border">
+                        <div className="py-1">
+                          <button
+                            onClick={() => {
+                              setShowProfileModal(true);
+                              setShowAuthDropdown(false);
+                            }}
+                            className="flex items-center gap-2 w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                          >
+                            <Settings size={16} />
+                            Edit Profile
+                          </button>
+                          <button
+                            onClick={() => {
+                              signOut();
+                              setShowAuthDropdown(false);
+                            }}
+                            className="flex items-center gap-2 w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                          >
+                            <LogOut size={16} />
+                            Sign Out
+                          </button>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  <div className="flex items-center gap-4">
+                    <button
+                      onClick={() => setShowSignInModal(true)}
+                      className="text-[#262443] hover:text-[var(--site-green)] transition-colors duration-200"
+                    >
+                      Sign In
+                    </button>
+                    <button
+                      onClick={() => setShowSignUpModal(true)}
+                      className="bg-[var(--site-green)] text-white px-4 py-2 rounded-md hover:bg-[#7bb53a] transition-colors duration-200"
+                    >
+                      Sign Up
+                    </button>
+                  </div>
+                )}
+              </div>
             </div>
 
-            {/* Mobile menu button */}
-            <div className="md:hidden flex items-center">
+            {/* Mobile menu button and auth */}
+            <div className="md:hidden flex items-center gap-4">
+              {user ? (
+                <div className="flex items-center gap-2">
+                  <span className="text-sm text-gray-700">{profile?.name || 'User'}</span>
+                  <button
+                    onClick={() => setShowProfileModal(true)}
+                    className="text-gray-700 hover:text-[var(--site-green)]"
+                  >
+                    <User size={20} />
+                  </button>
+                </div>
+              ) : (
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={() => setShowSignInModal(true)}
+                    className="text-gray-700 hover:text-[var(--site-green)] text-sm"
+                  >
+                    Sign In
+                  </button>
+                  <button
+                    onClick={() => setShowSignUpModal(true)}
+                    className="bg-[var(--site-green)] text-white px-3 py-1 rounded text-sm"
+                  >
+                    Sign Up
+                  </button>
+                </div>
+              )}
               <button onClick={() => setIsOpen(!isOpen)} className="text-gray-700 hover:text-[var(--site-green)] focus:outline-none">
                 {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
               </button>
@@ -145,10 +241,60 @@ const HomePageHeader = () => {
                   )}
                 </>
               ))}
+              
+              {/* Mobile Auth Section */}
+              {user ? (
+                <div className="border-t pt-2 mt-2">
+                  <button
+                    onClick={() => {
+                      setShowProfileModal(true);
+                      setIsOpen(false);
+                    }}
+                    className="flex items-center gap-2 w-full px-3 py-2 text-base font-medium text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50"
+                  >
+                    <Settings size={20} />
+                    Edit Profile
+                  </button>
+                  <button
+                    onClick={() => {
+                      signOut();
+                      setIsOpen(false);
+                    }}
+                    className="flex items-center gap-2 w-full px-3 py-2 text-base font-medium text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50"
+                  >
+                    <LogOut size={20} />
+                    Sign Out
+                  </button>
+                </div>
+              ) : null}
             </div>
           </div>
         )}
       </nav>
+      
+      {/* Auth Modals */}
+      <SignInModal
+        isOpen={showSignInModal}
+        onClose={() => setShowSignInModal(false)}
+        onSwitchToSignUp={() => {
+          setShowSignInModal(false);
+          setShowSignUpModal(true);
+        }}
+      />
+      
+      <SignUpModal
+        isOpen={showSignUpModal}
+        onClose={() => setShowSignUpModal(false)}
+        onSwitchToSignIn={() => {
+          setShowSignUpModal(false);
+          setShowSignInModal(true);
+        }}
+      />
+      
+      <ProfileModal
+        isOpen={showProfileModal}
+        onClose={() => setShowProfileModal(false)}
+      />
     </>
   );
 };

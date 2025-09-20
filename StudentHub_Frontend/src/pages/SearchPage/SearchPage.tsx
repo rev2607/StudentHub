@@ -88,7 +88,7 @@ function SearchPage() {
             </a>
             <a className="flex items-center gap-3 text-white hover:text-white transition whitespace-nowrap" href="#">
               <i className="fas fa-graduation-cap text-[#7AC142]"></i>
-              Scholarships
+              Mock Tests
             </a>
             <a className="flex items-center gap-3 text-white hover:text-white transition whitespace-nowrap" href="#">
               <i className="fas fa-briefcase text-[#7AC142]"></i>

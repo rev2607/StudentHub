@@ -5,7 +5,7 @@ import Guidance from "./HomeSection/Guidance";
 import TopColleges from "./HomeSection/TopColleges";
 import Information from "./HomeSection/Information";
 import TrendingCollegesPackages from "./HomeSection/TrendingCollegesPackages";
-import TrendingCourseScholarships from "./HomeSection/TrendingCourseScholarships";
+import TrendingCourseMockTests from "./HomeSection/TrendingCourseMockTests";
 import Recommendations from "./HomeSection/Recommendations";
 import LatestNews from "./HomeSection/LatestNews";
 
@@ -24,7 +24,7 @@ const HomePage = () => {
       <TopColleges />
       <Information />
       <TrendingCollegesPackages />
-      <TrendingCourseScholarships />
+      <TrendingCourseMockTests />
       <Recommendations />
       <LatestNews />
 
