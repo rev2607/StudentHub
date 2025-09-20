@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supabase Auth Test</title>
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <h1>Supabase Authentication Test</h1>
+    <div id="status">Testing Supabase auth...</div>
+    <div id="result"></div>
+
+    <script>
+        const supabaseUrl = 'https://bdhqbjrjazdfkoulwduo.supabase.co'
+        const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJkaHFianJqYXpkZmtvdWx3ZHVvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgzNDgzODgsImV4cCI6MjA3MzkyNDM4OH0.yCm-nqKFNR1n8H0tC6T3rPb1K3d-cR8CA4oZ9nL_KSQ'
+        
+        const supabase = window.supabase.createClient(supabaseUrl, supabaseKey)
+        
+        async function testAuth() {
+            try {
+                // Test 1: Check current session
+                const { data: { session }, error: sessionError } = await supabase.auth.getSession()
+                document.getElementById('status').textContent = 'Session check: ' + (sessionError ? 'ERROR' : 'OK')
+                
+                // Test 2: Try to sign up a test user
+                const testEmail = 'test' + Date.now() + '@example.com'
+                const testPassword = 'testpassword123'
+                
+                console.log('Testing signup with:', testEmail)
+                
+                const { data: signupData, error: signupError } = await supabase.auth.signUp({
+                    email: testEmail,
+                    password: testPassword
+                })
+                
+                console.log('Signup response:', { signupData, signupError })
+                
+                if (signupError) {
+                    document.getElementById('result').innerHTML = `
+                        <p style="color: red;">❌ Signup Error: ${signupError.message}</p>
+                        <p>Error code: ${signupError.status}</p>
+                    `
+                } else {
+                    const user = signupData.user
+                    const needsConfirmation = user && user.email_confirmed_at === null
+                    
+                    document.getElementById('result').innerHTML = `
+                        <p style="color: green;">✅ Signup successful!</p>
+                        <p><strong>User ID:</strong> ${user?.id}</p>
+                        <p><strong>Email:</strong> ${user?.email}</p>
+                        <p><strong>Email Confirmed:</strong> ${user?.email_confirmed_at ? 'Yes' : 'No'}</p>
+                        <p><strong>Needs Confirmation:</strong> ${needsConfirmation ? 'Yes' : 'No'}</p>
+                        ${needsConfirmation ? '<p style="color: orange;">⚠️ Email confirmation is required!</p>' : ''}
+                    `
+                }
+                
+            } catch (error) {
+                document.getElementById('result').innerHTML = `
+                    <p style="color: red;">💥 Error: ${error.message}</p>
+                `
+            }
+        }
+        
+        testAuth()
+    </script>
+</body>
+</html>

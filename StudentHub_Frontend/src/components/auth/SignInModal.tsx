@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
+import { X } from 'lucide-react'
 import { useAuth } from '../../contexts/AuthContext'
-import { X, Eye, EyeOff } from 'lucide-react'
 
 interface SignInModalProps {
   isOpen: boolean
@@ -10,14 +10,12 @@ interface SignInModalProps {
 
 const SignInModal: React.FC<SignInModalProps> = ({ isOpen, onClose, onSwitchToSignUp }) => {
   const { signIn } = useAuth()
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState<string | null>(null)
-  const [showPassword, setShowPassword] = useState(false)
-  
   const [formData, setFormData] = useState({
     email: '',
     password: ''
   })
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState<string | null>(null)
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target
@@ -33,17 +31,13 @@ const SignInModal: React.FC<SignInModalProps> = ({ isOpen, onClose, onSwitchToSi
     setLoading(true)
 
     try {
-      const { error } = await signIn(formData.email, formData.password)
+      const result = await signIn(formData.email, formData.password)
       
-      if (error) {
-        setError(error.message || 'Invalid email or password')
-      } else {
-        // Success - close modal
+      if (result.success) {
         onClose()
-        setFormData({
-          email: '',
-          password: ''
-        })
+        setFormData({ email: '', password: '' })
+      } else {
+        setError(result.error || 'Sign in failed')
       }
     } catch (err) {
       setError('An unexpected error occurred')
@@ -86,7 +80,7 @@ const SignInModal: React.FC<SignInModalProps> = ({ isOpen, onClose, onSwitchToSi
               onChange={handleInputChange}
               required
               className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[var(--site-green)] focus:border-transparent"
-              placeholder="Enter your email address"
+              placeholder="Enter your email"
             />
           </div>
 
@@ -94,25 +88,16 @@ const SignInModal: React.FC<SignInModalProps> = ({ isOpen, onClose, onSwitchToSi
             <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-1">
               Password
             </label>
-            <div className="relative">
-              <input
-                type={showPassword ? "text" : "password"}
-                id="password"
-                name="password"
-                value={formData.password}
-                onChange={handleInputChange}
-                required
-                className="w-full px-3 py-2 pr-10 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[var(--site-green)] focus:border-transparent"
-                placeholder="Enter your password"
-              />
-              <button
-                type="button"
-                onClick={() => setShowPassword(!showPassword)}
-                className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
-              >
-                {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
-              </button>
-            </div>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              value={formData.password}
+              onChange={handleInputChange}
+              required
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[var(--site-green)] focus:border-transparent"
+              placeholder="Enter your password"
+            />
           </div>
 
           <button
@@ -123,15 +108,17 @@ const SignInModal: React.FC<SignInModalProps> = ({ isOpen, onClose, onSwitchToSi
             {loading ? 'Signing In...' : 'Sign In'}
           </button>
 
-          <div className="text-center text-sm text-gray-600">
-            Don't have an account?{' '}
-            <button
-              type="button"
-              onClick={onSwitchToSignUp}
-              className="text-[var(--site-green)] hover:underline"
-            >
-              Create account
-            </button>
+          <div className="text-center">
+            <p className="text-sm text-gray-600">
+              Don't have an account?{' '}
+              <button
+                type="button"
+                onClick={onSwitchToSignUp}
+                className="text-[var(--site-green)] hover:underline font-medium"
+              >
+                Sign up here
+              </button>
+            </p>
           </div>
         </form>
       </div>

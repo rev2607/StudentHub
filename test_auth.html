@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth Test</title>
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <h1>Supabase Auth Test</h1>
+    <div id="status">Testing connection...</div>
+    <div id="result"></div>
+
+    <script>
+        const supabaseUrl = 'https://bdhqbjrjazdfkoulwduo.supabase.co'
+        const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJkaHFianJqYXpkZmtvdWx3ZHVvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgzNDgzODgsImV4cCI6MjA3MzkyNDM4OH0.yCm-nqKFNR1n8H0tC6T3rPb1K3d-cR8CA4oZ9nL_KSQ'
+        
+        const supabase = window.supabase.createClient(supabaseUrl, supabaseKey)
+        
+        async function testConnection() {
+            try {
+                // Test auth connection
+                const { data: { session }, error: authError } = await supabase.auth.getSession()
+                document.getElementById('status').textContent = 'Auth connection: OK'
+                
+                // Test database connection
+                const { data, error: dbError } = await supabase
+                    .from('user_profiles')
+                    .select('count')
+                    .limit(1)
+                
+                if (dbError) {
+                    document.getElementById('result').innerHTML = `
+                        <p style="color: red;">Database Error: ${dbError.message}</p>
+                        <p>Make sure you've run the SQL script in Supabase!</p>
+                    `
+                } else {
+                    document.getElementById('result').innerHTML = `
+                        <p style="color: green;">Database connection: OK</p>
+                        <p>Authentication system is ready!</p>
+                    `
+                }
+            } catch (error) {
+                document.getElementById('result').innerHTML = `
+                    <p style="color: red;">Error: ${error.message}</p>
+                `
+            }
+        }
+        
+        testConnection()
+    </script>
+</body>
+</html>

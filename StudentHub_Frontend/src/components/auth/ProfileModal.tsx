@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
+import { X } from 'lucide-react'
 import { useAuth } from '../../contexts/AuthContext'
-import { X, Eye, EyeOff } from 'lucide-react'
 
 interface ProfileModalProps {
   isOpen: boolean
@@ -64,17 +64,19 @@ const ProfileModal: React.FC<ProfileModalProps> = ({ isOpen, onClose }) => {
     setLoading(true)
 
     try {
-      const { error } = await updateProfile(formData)
+      console.log('Updating profile with data:', formData)
+      const result = await updateProfile(formData)
       
-      if (error) {
-        setError(error.message || 'An error occurred while updating profile')
-      } else {
+      if (result.success) {
         setSuccess('Profile updated successfully!')
         setTimeout(() => {
           setSuccess(null)
         }, 3000)
+      } else {
+        setError(result.error || 'Failed to update profile')
       }
     } catch (err) {
+      console.error('Profile update error:', err)
       setError('An unexpected error occurred')
     } finally {
       setLoading(false)

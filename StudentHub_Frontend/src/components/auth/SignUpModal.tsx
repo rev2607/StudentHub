@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
+import { X } from 'lucide-react'
 import { useAuth } from '../../contexts/AuthContext'
-import { X, Eye, EyeOff } from 'lucide-react'
 
 interface SignUpModalProps {
   isOpen: boolean
@@ -10,10 +10,6 @@ interface SignUpModalProps {
 
 const SignUpModal: React.FC<SignUpModalProps> = ({ isOpen, onClose, onSwitchToSignIn }) => {
   const { signUp } = useAuth()
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState<string | null>(null)
-  const [showPassword, setShowPassword] = useState(false)
-  
   const [formData, setFormData] = useState({
     name: '',
     phone_number: '',
@@ -24,6 +20,8 @@ const SignUpModal: React.FC<SignUpModalProps> = ({ isOpen, onClose, onSwitchToSi
     pincode: '',
     city_area: ''
   })
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState<string | null>(null)
 
   const targetExams = [
     'JEE Main',
@@ -67,23 +65,29 @@ const SignUpModal: React.FC<SignUpModalProps> = ({ isOpen, onClose, onSwitchToSi
     const { confirmPassword, ...profileData } = formData
 
     try {
-      const { error } = await signUp(formData.email, formData.password, profileData)
+      const result = await signUp(formData.email, formData.password, profileData)
       
-      if (error) {
-        setError(error.message || 'An error occurred during signup')
+      if (result.success) {
+        if (result.error) {
+          // Account created but needs email confirmation
+          setError(result.error)
+          // Don't close modal, let user see the message
+        } else {
+          // Account created and confirmed
+          onClose()
+          setFormData({
+            name: '',
+            phone_number: '',
+            email: '',
+            password: '',
+            confirmPassword: '',
+            target_exam: '',
+            pincode: '',
+            city_area: ''
+          })
+        }
       } else {
-        // Success - close modal
-        onClose()
-        setFormData({
-          name: '',
-          phone_number: '',
-          email: '',
-          password: '',
-          confirmPassword: '',
-          target_exam: '',
-          pincode: '',
-          city_area: ''
-        })
+        setError(result.error || 'Sign up failed')
       }
     } catch (err) {
       setError('An unexpected error occurred')
@@ -98,7 +102,7 @@ const SignUpModal: React.FC<SignUpModalProps> = ({ isOpen, onClose, onSwitchToSi
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
       <div className="bg-white rounded-lg max-w-md w-full max-h-[90vh] overflow-y-auto">
         <div className="flex justify-between items-center p-6 border-b">
-          <h2 className="text-xl font-semibold text-gray-800">Create Account</h2>
+          <h2 className="text-xl font-semibold text-gray-800">Sign Up</h2>
           <button
             onClick={onClose}
             className="text-gray-400 hover:text-gray-600"
@@ -116,7 +120,7 @@ const SignUpModal: React.FC<SignUpModalProps> = ({ isOpen, onClose, onSwitchToSi
 
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-              Full Name *
+              Full Name
             </label>
             <input
               type="text"
@@ -132,7 +136,7 @@ const SignUpModal: React.FC<SignUpModalProps> = ({ isOpen, onClose, onSwitchToSi
 
           <div>
             <label htmlFor="phone_number" className="block text-sm font-medium text-gray-700 mb-1">
-              Phone Number *
+              Phone Number
             </label>
             <input
               type="tel"
@@ -148,7 +152,7 @@ const SignUpModal: React.FC<SignUpModalProps> = ({ isOpen, onClose, onSwitchToSi
 
           <div>
             <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-              Email Address *
+              Email Address
             </label>
             <input
               type="email"
@@ -163,8 +167,40 @@ const SignUpModal: React.FC<SignUpModalProps> = ({ isOpen, onClose, onSwitchToSi
           </div>
 
           <div>
+            <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-1">
+              Password
+            </label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              value={formData.password}
+              onChange={handleInputChange}
+              required
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[var(--site-green)] focus:border-transparent"
+              placeholder="Create a password"
+            />
+          </div>
+
+          <div>
+            <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-700 mb-1">
+              Confirm Password
+            </label>
+            <input
+              type="password"
+              id="confirmPassword"
+              name="confirmPassword"
+              value={formData.confirmPassword}
+              onChange={handleInputChange}
+              required
+              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[var(--site-green)] focus:border-transparent"
+              placeholder="Confirm your password"
+            />
+          </div>
+
+          <div>
             <label htmlFor="target_exam" className="block text-sm font-medium text-gray-700 mb-1">
-              Target Exam *
+              Target Exam
             </label>
             <select
               id="target_exam"
@@ -183,7 +219,7 @@ const SignUpModal: React.FC<SignUpModalProps> = ({ isOpen, onClose, onSwitchToSi
 
           <div>
             <label htmlFor="pincode" className="block text-sm font-medium text-gray-700 mb-1">
-              Pincode *
+              Pincode
             </label>
             <input
               type="text"
@@ -199,7 +235,7 @@ const SignUpModal: React.FC<SignUpModalProps> = ({ isOpen, onClose, onSwitchToSi
 
           <div>
             <label htmlFor="city_area" className="block text-sm font-medium text-gray-700 mb-1">
-              City/Area *
+              City/Area
             </label>
             <input
               type="text"
@@ -213,64 +249,25 @@ const SignUpModal: React.FC<SignUpModalProps> = ({ isOpen, onClose, onSwitchToSi
             />
           </div>
 
-          <div>
-            <label htmlFor="password" className="block text-sm font-medium text-gray-700 mb-1">
-              Password *
-            </label>
-            <div className="relative">
-              <input
-                type={showPassword ? "text" : "password"}
-                id="password"
-                name="password"
-                value={formData.password}
-                onChange={handleInputChange}
-                required
-                className="w-full px-3 py-2 pr-10 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[var(--site-green)] focus:border-transparent"
-                placeholder="Create a password"
-              />
-              <button
-                type="button"
-                onClick={() => setShowPassword(!showPassword)}
-                className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600"
-              >
-                {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
-              </button>
-            </div>
-          </div>
-
-          <div>
-            <label htmlFor="confirmPassword" className="block text-sm font-medium text-gray-700 mb-1">
-              Confirm Password *
-            </label>
-            <input
-              type="password"
-              id="confirmPassword"
-              name="confirmPassword"
-              value={formData.confirmPassword}
-              onChange={handleInputChange}
-              required
-              className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[var(--site-green)] focus:border-transparent"
-              placeholder="Confirm your password"
-            />
-          </div>
-
           <button
             type="submit"
             disabled={loading}
             className="w-full bg-[var(--site-green)] text-white py-2 px-4 rounded-md hover:bg-[#7bb53a] focus:outline-none focus:ring-2 focus:ring-[var(--site-green)] focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            {loading ? 'Creating Account...' : 'Create Account'}
+            {loading ? 'Creating Account...' : 'Sign Up'}
           </button>
 
-          <div className="text-center text-sm text-gray-600">
-            Already have an account?{' '}
-            <button
-              type="button"
-              onClick={onSwitchToSignIn}
-              className="text-[var(--site-green)] hover:underline"
-            >
-              Sign in here
-            </button>
+          <div className="text-center">
+            <p className="text-sm text-gray-600">
+              Already have an account?{' '}
+              <button
+                type="button"
+                onClick={onSwitchToSignIn}
+                className="text-[var(--site-green)] hover:underline font-medium"
+              >
+                Sign in here
+              </button>
+            </p>
           </div>
         </form>
       </div>
