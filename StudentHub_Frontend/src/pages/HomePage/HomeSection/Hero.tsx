@@ -44,7 +44,7 @@ const Hero = () => {
         <div 
           className="hero-grid grid items-center gap-8 md:grid-cols-3 grid-cols-1"
           style={{
-            gridTemplateColumns: '1fr minmax(320px, 640px) 380px',
+            gridTemplateColumns: '0fr minmax(320px, 700px) 380px',
             minHeight: '400px'
           }}
         >
@@ -52,7 +52,7 @@ const Hero = () => {
           <div className="hidden md:block" />
           
           {/* Center column: Title and Search */}
-          <div className="flex flex-col items-center text-center md:col-start-2 md:col-end-3">
+          <div className="flex flex-col items-start text-left md:col-start-2 md:col-end-3">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-normal text-white mb-6" style={{ fontFamily: 'Poppins, sans-serif' }}>
               Let's Explore
             </h1>
