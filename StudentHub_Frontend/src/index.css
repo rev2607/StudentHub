@@ -64,6 +64,13 @@ h2, .h2 {
   border-bottom-left-radius: 20px;
 }
 
+/* Hero section responsive grid */
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
 /* Optional base styles (uncomment if needed)
 @layer base {
   h1 {
