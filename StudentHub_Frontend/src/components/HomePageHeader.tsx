@@ -8,12 +8,12 @@ import SignUpModal from './auth/SignUpModal';
 import ProfileModal from './auth/ProfileModal';
 import callIcon from '../assets/call.png';
 import emailIcon from '../assets/email.png';
-import fbIcon from '../assets/FB_header.png';
-import instaIcon from '../assets/insta_header.png';
-import twitterIcon from '../assets/X_header.png';
+import fbIcon from '../assets/FB.svg';
+import instaIcon from '../assets/Insta.svg';
+import twitterIcon from '../assets/Twitter.svg';
 import ytIcon from '../assets/YT_header.png';
 import headerBg from '../assets/header.png';
-import lnIcon from '../assets/LN_header.png';
+import lnIcon from '../assets/linkedin.svg';
 
 const HomePageHeader = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +28,7 @@ const HomePageHeader = () => {
     { title: "Home", path: "/" },
     { title: "Results", path: "/results" },
     { title: "News", path: "/news" },
-    { title: "Engineering Colleges", path: "/engineering-colleges" },
+    { title: "Colleges", path: "/engineering-colleges" },
     { title: "Exams", path: "/exams" },
     { title: "Mock Tests", path: "/mock-tests" },
     { title: "Training Institutes", path: "/training-institutes" },
@@ -213,7 +213,7 @@ const HomePageHeader = () => {
         {isOpen && (
           <div className="md:hidden absolute w-full bg-white shadow-lg z-50">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              {menuItems.map((item, idx) => (
+              {menuItems.map((item) => (
                 <>
                   <Link 
                     key={item.title} 
@@ -297,6 +297,6 @@ const HomePageHeader = () => {
       />
     </>
   );
-};
+}
 
 export default HomePageHeader;

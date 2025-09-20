@@ -40,23 +40,23 @@ const LatestNews = () => {
     {
       id: 1,
       imgSrc: latestNewsImg,
-      date: "14 June 2025",
-      author: "Paras Jain",
-      title: "VIT Vellore Announces New Research Center for AI and Machine Learning",
+      date: "April 8, 2025",
+      author: "Admin",
+      title: "KSEAB to Declare 2nd PUC Results",
     },
     {
       id: 2,
       imgSrc: latestNewsImg,
-      date: "13 June 2025",
-      author: "Rahul Sharma",
-      title: "VIT Chennai Hosts International Tech Conference 2025",
+      date: "Recent weeks",
+      author: "Admin",
+      title: "Delhi Govt Launches Crackdown on Private...",
     },
     {
       id: 3,
       imgSrc: latestNewsImg,
-      date: "12 June 2025",
-      author: "Priya Patel",
-      title: "VIT Bhopal Launches New Industry-Academia Partnership Program",
+      date: "Starting April 7, 2025",
+      author: "Admin",
+      title: "Punjab's 'Sikhya Kranti' Education Festival",
     },
   ];
 
@@ -64,7 +64,7 @@ const LatestNews = () => {
     <section className="bg-white px-4 sm:px-6 py-12 sm:py-16">
       <div className="container mx-auto">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-6 sm:mb-8">
-          <h1 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4 sm:mb-0">Latest News & Notifications</h1>
+          <h1 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4 sm:mb-0">Latest News and Notifications</h1>
           <button className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-6 sm:px-8 py-2 rounded-full text-base sm:text-lg font-light flex items-center justify-center transition w-full sm:w-auto">
             Explore All
             <ArrowRightCircle />
