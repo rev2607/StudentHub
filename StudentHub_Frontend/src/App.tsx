@@ -4,6 +4,7 @@ import "./index.css";
 import MainLayout from "./pages/HomePage/MainLayout";
 import HomePage from "./pages/HomePage/HomePage";
 import SearchPage from "./pages/SearchPage/SearchPage";
+import MockTests from "./pages/MockTests";
 import { AuthProvider } from "./contexts/AuthContext";
 
 // import Search from "./pages/Other/Search";
@@ -22,6 +23,7 @@ function App() {
             {/* Wrap routes that need Header in a layout */}
             <Route element={<MainLayout />}>
               <Route path="/" element={<HomePage />} />
+              <Route path="/mock-tests" element={<MockTests />} />
             </Route>
 
             <Route path="/search" element={<SearchPage />} />
