@@ -102,7 +102,14 @@ const SignupWithProfile: React.FC = () => {
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-    const { name, value } = e.target;
+    const { name } = e.target;
+    let { value } = e.target as HTMLInputElement;
+    
+    // Sanitize phone: digits only and max 10
+    if (name === 'phone') {
+      value = value.replace(/\D/g, '').slice(0, 10);
+    }
+
     setFormData(prev => ({ ...prev, [name]: value }));
     
     // Clear errors and info messages when user starts typing
@@ -336,6 +343,9 @@ const SignupWithProfile: React.FC = () => {
                   errors.phone ? 'border-red-300' : 'border-gray-300'
                 }`}
                 placeholder="Enter your 10 digit Number"
+                inputMode="numeric"
+                pattern="[0-9]{10}"
+                maxLength={10}
                 data-testid="signup-phone"
               />
               {errors.phone && (

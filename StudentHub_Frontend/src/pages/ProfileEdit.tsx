@@ -124,7 +124,13 @@ const ProfileEdit: React.FC = () => {
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-    const { name, value } = e.target;
+    const { name } = e.target;
+    let { value } = e.target as HTMLInputElement;
+    
+    if (name === 'phone') {
+      value = value.replace(/\D/g, '').slice(0, 10);
+    }
+
     setProfileData(prev => ({ ...prev, [name]: value }));
     
     // Clear error when user starts typing
@@ -290,6 +296,9 @@ const ProfileEdit: React.FC = () => {
                   errors.phone ? 'border-red-300' : 'border-gray-300'
                 }`}
                 placeholder="Enter your 10 digit Number"
+                inputMode="numeric"
+                pattern="[0-9]{10}"
+                maxLength={10}
               />
               {errors.phone && (
                 <p className="mt-1 text-sm text-red-600">{errors.phone}</p>

@@ -16,8 +16,8 @@ const Navbar = () => {
     { title: "Home", path: "/" },
     { title: "Results", path: "/results" },
     { title: "News", path: "/news" },
-    { title: "Colleges", path: "/engineering-colleges" },
     { title: "Exams", path: "/exams" },
+    { title: "Colleges", path: "/engineering-colleges" },
     { title: "Mock Tests", path: "/mock-tests" },
     { title: "Training Institutes", path: "/training-institutes" },
   ];

@@ -86,7 +86,7 @@ const Hero = () => {
                 return (
                   <button
                     key={item.label}
-                    onClick={() => navigateToSearchPage(navigate, item.label)}
+                    onClick={() => item.path ? navigate(item.path) : navigateToSearchPage(navigate, item.label)}
                     className="flex flex-col items-center justify-center border border-[var(--site-green)] bg-transparent transition-all duration-300 shadow-sm p-0"
                     style={{
                       borderRadius: '8px',
