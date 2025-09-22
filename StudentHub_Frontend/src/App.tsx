@@ -5,6 +5,7 @@ import MainLayout from "./pages/HomePage/MainLayout";
 import HomePage from "./pages/HomePage/HomePage";
 import SearchPage from "./pages/SearchPage/SearchPage";
 import MockTests from "./pages/MockTests";
+import MockTestsStart from "./pages/MockTestsStart";
 
 // import Search from "./pages/Other/Search";
 // import Test from "./pages/Other/Test";
@@ -25,6 +26,7 @@ function App() {
           </Route>
 
           <Route path="/search" element={<SearchPage />} />
+          <Route path="/mock-tests/start" element={<MockTestsStart />} />
           {/* <Route path="/search-page" element={<Search />} /> */}
           {/* <Route path="/test" element={<Test />} /> */}
           {/* Other routes without header */}

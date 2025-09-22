@@ -1,0 +1,14 @@
+{
+  "name": "studenthub-backend",
+  "version": "1.0.0",
+  "description": "Backend scripts for StudentHub",
+  "type": "module",
+  "main": "scripts/insert_synthetic_questions.js",
+  "scripts": {
+    "insert-questions": "node scripts/insert_synthetic_questions.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "dotenv": "^16.4.5"
+  }
+}
