@@ -143,12 +143,18 @@ const SignupWithProfile: React.FC = () => {
     setIsLoading(true);
 
     try {
-      // 2. Call signUp with redirectTo
+      // 2. Call signUp with redirectTo and user metadata
       const { data: signUpData, error: signUpError } = await supabase.auth.signUp({
         email: formData.email,
         password: formData.password,
         options: {
-          emailRedirectTo: window.location.origin
+          emailRedirectTo: window.location.origin,
+          data: {
+            full_name: formData.full_name.trim(),
+            phone: formData.phone.trim(),
+            city: formData.city.trim(),
+            target_exam: formData.target_exam
+          }
         }
       });
 
@@ -195,6 +201,20 @@ const SignupWithProfile: React.FC = () => {
       // 5. Once we have a session, insert profile into profiles
       if (session?.user) {
         console.log('Inserting profile for user:', session.user.id);
+        
+        // Check if phone number already exists
+        const { data: existingPhone } = await supabase
+          .from('profiles')
+          .select('phone')
+          .eq('phone', formData.phone.trim())
+          .single();
+        
+        if (existingPhone) {
+          console.error('Phone number already exists:', formData.phone);
+          setErrorMsg('This phone number is already registered. Please use a different number.');
+          setIsLoading(false);
+          return;
+        }
         
         const { data: profileData, error: profileError } = await supabase.from('profiles').insert([{
           user_id: session.user.id,
