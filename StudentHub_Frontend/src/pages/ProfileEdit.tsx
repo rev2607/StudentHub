@@ -34,34 +34,55 @@ const ProfileEdit: React.FC = () => {
   useEffect(() => {
     const loadProfile = async () => {
       try {
-        const { data: { user } } = await supabase.auth.getUser();
+        const { data: { user }, error: userError } = await supabase.auth.getUser();
         
-        if (!user) {
+        console.log('GetUser response:', { data: { user }, error: userError });
+        
+        if (userError || !user) {
+          console.error('No authenticated user:', userError);
           navigate('/login');
           return;
         }
 
-        const { data: profile, error } = await supabase
+        console.log('Fetching profile for user:', user.id);
+
+        const { data: profile, error: profileError } = await supabase
           .from('profiles')
           .select('*')
           .eq('user_id', user.id)
           .single();
 
-        if (error) {
-          console.error('Error loading profile:', error);
-          setSubmitError('Failed to load profile data');
+        console.log('Profile fetch response:', { data: profile, error: profileError });
+
+        if (profileError) {
+          // Check if it's a "no rows" error (profile doesn't exist)
+          if (profileError.code === 'PGRST116') {
+            console.log('No profile found for user:', user.id, '- allowing creation via form');
+            // Don't show error, just leave form empty for user to fill out
+            setIsLoadingProfile(false);
+            return;
+          } else {
+            console.error('Error loading profile:', profileError);
+            setSubmitError('Failed to load profile data. Please try again.');
+            setIsLoadingProfile(false);
+            return;
+          }
+        }
+
+        if (!profile) {
+          console.log('No profile found for user:', user.id, '- allowing creation via form');
+          // Allow user to create profile via form - don't show error, just leave form empty
           setIsLoadingProfile(false);
           return;
         }
 
-        if (profile) {
-          setProfileData({
-            full_name: profile.full_name || '',
-            phone: profile.phone || '',
-            city: profile.city || '',
-            target_exam: profile.target_exam || ''
-          });
-        }
+        console.log('Profile loaded successfully:', profile);
+        setProfileData({
+          full_name: profile.full_name || '',
+          phone: profile.phone || '',
+          city: profile.city || '',
+          target_exam: profile.target_exam || ''
+        });
       } catch (error) {
         console.error('Profile loading error:', error);
         setSubmitError('An unexpected error occurred');
@@ -123,33 +144,68 @@ const ProfileEdit: React.FC = () => {
     setIsLoading(true);
 
     try {
-      const { data: { user } } = await supabase.auth.getUser();
+      const { data: { user }, error: userError } = await supabase.auth.getUser();
       
-      if (!user) {
+      console.log('GetUser for update:', { data: { user }, error: userError });
+      
+      if (userError || !user) {
+        console.error('No authenticated user for update:', userError);
         navigate('/login');
         return;
       }
 
-      const { error: updateError } = await supabase
-        .from('profiles')
-        .update({
-          full_name: profileData.full_name.trim(),
-          phone: profileData.phone.trim(),
-          city: profileData.city.trim(),
-          target_exam: profileData.target_exam
-        })
-        .eq('user_id', user.id);
+      console.log('Saving profile for user:', user.id, 'with data:', profileData);
 
-      if (updateError) {
-        if (updateError.message.includes('duplicate key') || updateError.message.includes('unique')) {
+      // Check if profile exists first
+      const { data: existingProfile } = await supabase
+        .from('profiles')
+        .select('id')
+        .eq('user_id', user.id)
+        .single();
+
+      let result;
+      if (existingProfile) {
+        // Update existing profile
+        console.log('Updating existing profile');
+        result = await supabase
+          .from('profiles')
+          .update({
+            full_name: profileData.full_name.trim(),
+            phone: profileData.phone.trim(),
+            city: profileData.city.trim(),
+            target_exam: profileData.target_exam
+          })
+          .eq('user_id', user.id)
+          .select();
+      } else {
+        // Create new profile
+        console.log('Creating new profile');
+        result = await supabase
+          .from('profiles')
+          .insert([{
+            user_id: user.id,
+            full_name: profileData.full_name.trim(),
+            phone: profileData.phone.trim(),
+            city: profileData.city.trim(),
+            target_exam: profileData.target_exam
+          }])
+          .select();
+      }
+
+      console.log('Profile save response:', { data: result.data, error: result.error });
+
+      if (result.error) {
+        console.error('Profile save error:', result.error);
+        if (result.error.message.includes('duplicate key') || result.error.message.includes('unique')) {
           setSubmitError('Phone already in use. Please use a different number.');
         } else {
-          setSubmitError('Failed to update profile. Please try again.');
+          setSubmitError('Failed to save profile. Please try again.');
         }
         setIsLoading(false);
         return;
       }
 
+      console.log('Profile saved successfully:', result.data);
       // Success - redirect to home page
       navigate('/');
     } catch (error) {
@@ -181,8 +237,12 @@ const ProfileEdit: React.FC = () => {
       <div className="max-w-md mx-auto">
         <div className="bg-white shadow rounded-lg p-6">
           <div className="mb-6">
-            <h2 className="text-2xl font-bold text-gray-900">Edit Profile</h2>
-            <p className="text-sm text-gray-600">Update your profile information</p>
+            <h2 className="text-2xl font-bold text-gray-900">
+              {profileData.full_name || profileData.phone || profileData.city ? 'Edit Profile' : 'Create Profile'}
+            </h2>
+            <p className="text-sm text-gray-600">
+              {profileData.full_name || profileData.phone || profileData.city ? 'Update your profile information' : 'Complete your profile information'}
+            </p>
           </div>
           
           <form onSubmit={handleSubmit} className="space-y-4">
@@ -294,10 +354,10 @@ const ProfileEdit: React.FC = () => {
                 {isLoading ? (
                   <div className="flex items-center">
                     <div className="animate-spin rounded-full h-4 w-4 border-b-2 border-white mr-2"></div>
-                    Updating...
+                    {profileData.full_name || profileData.phone || profileData.city ? 'Updating...' : 'Creating...'}
                   </div>
                 ) : (
-                  'Update Profile'
+                  profileData.full_name || profileData.phone || profileData.city ? 'Update Profile' : 'Create Profile'
                 )}
               </button>
 

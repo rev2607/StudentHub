@@ -1,64 +1,42 @@
-// src/lib/supabaseClient.ts
 import { createClient } from "@supabase/supabase-js";
 
 const url = import.meta.env.VITE_SUPABASE_URL;
 const key = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
-if (!url || !key) {
-  console.error("Missing VITE_SUPABASE_URL or VITE_SUPABASE_ANON_KEY in environment. Restart dev server after setting .env");
-}
+if (!url || !key) console.error("Missing VITE_SUPABASE_URL or VITE_SUPABASE_ANON_KEY");
 
 export const supabase = createClient(url, key);
 
-// Database types
-export interface Paper {
-  id: number;
-  exam: string;
-  year: number;
-  title: string;
-  created_at?: string;
-}
-
-export interface Question {
-  id: number;
-  paper_id: number;
-  qnum: number;
-  type: 'single' | 'multi' | 'numeric';
-  subject: string;
-  topic: string;
-  question_text: string;
-  marks: number;
-  created_at?: string;
-}
-
-export interface Choice {
-  id: number;
-  question_id: number;
-  choice_label: string;
-  choice_text: string;
-  is_correct: boolean;
-}
-
-export interface Answer {
-  id: number;
-  question_id: number;
-  correct_answer: string;
-  explanation: string;
-}
-
-export interface Topic {
+// Export types for use in other components
+export type Paper = {
   id: number;
   name: string;
-  subject: string;
-  exam: string;
-}
+  duration_minutes: number;
+  total_questions: number;
+};
 
-export interface Profile {
-  id: string;
+export type Question = {
+  id: number;
+  paper_id: number;
+  question_text: string;
+  question_type: 'single' | 'multiple' | 'text';
+  marks: number;
+  order_index: number;
+};
+
+export type Choice = {
+  id: number;
+  question_id: number;
+  choice_text: string;
+  is_correct: boolean;
+  order_index: number;
+};
+
+export type Answer = {
+  id: number;
   user_id: string;
-  full_name: string;
-  phone: string;
-  city: string;
-  target_exam: string;
-  created_at?: string;
-}
+  question_id: number;
+  answer_text: string;
+  is_correct: boolean;
+  created_at: string;
+};

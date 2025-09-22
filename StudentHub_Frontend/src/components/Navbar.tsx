@@ -22,7 +22,7 @@ const Navbar = () => {
     { title: "Training Institutes", path: "/training-institutes" },
   ];
 
-  // Check auth state on mount and subscribe to changes
+  // Check auth state on mount and subscribe to changes (non-blocking)
   useEffect(() => {
     const checkSession = async () => {
       try {
@@ -30,14 +30,21 @@ const Navbar = () => {
         setSession(currentSession);
         
         if (currentSession?.user) {
-          // Fetch user profile (non-blocking)
-          const { data: profile } = await supabase
-            .from('profiles')
-            .select('full_name')
-            .eq('user_id', currentSession.user.id)
-            .single();
-
-          setProfileName(profile?.full_name || currentSession.user.email || '');
+          // Fetch user profile (non-blocking - don't await, let it load in background)
+          (async () => {
+            try {
+              const { data: profile } = await supabase
+                .from('profiles')
+                .select('full_name')
+                .eq('user_id', currentSession.user.id)
+                .single();
+              setProfileName(profile?.full_name || currentSession.user.email || '');
+            } catch (error: any) {
+              // Fallback to email if profile fetch fails (e.g., profile doesn't exist)
+              console.log('Profile fetch failed in Navbar:', error.code);
+              setProfileName(currentSession.user.email || '');
+            }
+          })();
         } else {
           setProfileName('');
         }
@@ -57,13 +64,20 @@ const Navbar = () => {
       
       if (newSession?.user) {
         // Fetch user profile (non-blocking)
-        const { data: profile } = await supabase
-          .from('profiles')
-          .select('full_name')
-          .eq('user_id', newSession.user.id)
-          .single();
-
-        setProfileName(profile?.full_name || newSession.user.email || '');
+        (async () => {
+          try {
+            const { data: profile } = await supabase
+              .from('profiles')
+              .select('full_name')
+              .eq('user_id', newSession.user.id)
+              .single();
+            setProfileName(profile?.full_name || newSession.user.email || '');
+          } catch (error: any) {
+            // Fallback to email if profile fetch fails (e.g., profile doesn't exist)
+            console.log('Profile fetch failed in Navbar auth change:', error.code);
+            setProfileName(newSession.user.email || '');
+          }
+        })();
       } else {
         setProfileName('');
       }

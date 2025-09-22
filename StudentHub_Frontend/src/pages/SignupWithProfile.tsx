@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { supabase } from '../lib/supabaseClient';
 
@@ -39,6 +39,17 @@ const SignupWithProfile: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string>('');
   const [infoMsg, setInfoMsg] = useState<string>('');
+
+  // Subscribe to auth state changes for debugging
+  useEffect(() => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+      console.log("AUTH EVENT", event, session);
+    });
+
+    return () => {
+      subscription.unsubscribe();
+    };
+  }, []);
 
   const validateForm = (): boolean => {
     const newErrors: ValidationErrors = {};
@@ -141,26 +152,38 @@ const SignupWithProfile: React.FC = () => {
         }
       });
 
+      console.log('SignUp response:', { data: signUpData, error: signUpError });
+
       // 3. If signUp returns an error → show it and stop
       if (signUpError) {
-        setErrorMsg(signUpError.message);
+        console.error('SignUp error:', signUpError);
+        let errorMessage = 'Signup failed. ';
+        if (signUpError.message) {
+          errorMessage += signUpError.message;
+        } else {
+          errorMessage += 'Please check your connection and try again.';
+        }
+        setErrorMsg(errorMessage);
         setIsLoading(false);
         return;
       }
 
       let session = signUpData?.session;
 
-      // 4. If signUp returns no session (common when email confirmation required)
+      // 4. If no session returned → fallback to signInWithPassword
       if (!session) {
-        // Attempt immediate sign-in fallback
+        console.log('No session returned, attempting signInWithPassword fallback...');
         const { data: signInData, error: signInError } = await supabase.auth.signInWithPassword({
           email: formData.email,
           password: formData.password,
         });
 
+        console.log('SignIn fallback response:', { data: signInData, error: signInError });
+
         if (signInError) {
-          // Likely due to email confirmation - show friendly banner
-          setInfoMsg("Account created. Please confirm your email — we've sent a link. If you didn't receive it, click Resend.");
+          // Likely due to email confirmation - show banner
+          console.log('SignIn fallback failed, showing email confirmation banner');
+          setInfoMsg("Account created. Please confirm your email. Click 'Resend' if you didn't receive it.");
           setIsLoading(false);
           return;
         }
@@ -169,32 +192,46 @@ const SignupWithProfile: React.FC = () => {
         session = signInData?.session;
       }
 
-      if (!session) {
-        setErrorMsg('Failed to create session. Please try again.');
-        setIsLoading(false);
-        return;
-      }
-
       // 5. Once we have a session, insert profile into profiles
-      const { error: profileError } = await supabase.from('profiles').insert([{
-        user_id: session.user.id,
-        full_name: formData.full_name.trim(),
-        phone: formData.phone.trim(),
-        city: formData.city.trim(),
-        target_exam: formData.target_exam
-      }]);
+      if (session?.user) {
+        console.log('Inserting profile for user:', session.user.id);
+        
+        const { data: profileData, error: profileError } = await supabase.from('profiles').insert([{
+          user_id: session.user.id,
+          full_name: formData.full_name.trim(),
+          phone: formData.phone.trim(),
+          city: formData.city.trim(),
+          target_exam: formData.target_exam
+        }]).select();
 
-      // 6. If profileError occurs (e.g., phone uniqueness/RLS)
-      if (profileError) {
-        console.error('Profile insert error:', profileError);
-        // Call signOut to clear partial session
-        await supabase.auth.signOut();
-        setErrorMsg(profileError.message || 'Failed to create profile.');
+        console.log('Profile insert response:', { data: profileData, error: profileError });
+
+        // 6. If profile insert fails → log error, sign out user, show error message
+        if (profileError) {
+          console.error('Profile insert error:', profileError);
+          await supabase.auth.signOut();
+          // Show more detailed error information
+          let errorMessage = 'Failed to create profile. ';
+          if (profileError.message) {
+            errorMessage += profileError.message;
+          } else {
+            errorMessage += 'Please check your connection and try again.';
+          }
+          setErrorMsg(errorMessage);
+          setIsLoading(false);
+          return;
+        }
+
+        console.log('Profile created successfully:', profileData);
+      } else {
+        console.error('No user available for profile creation');
+        setErrorMsg('Failed to create user account. Please try again.');
         setIsLoading(false);
         return;
       }
 
-      // 7. On full success, redirect to /
+      // 7. On success → redirect to `/` or `next` param
+      console.log('Signup successful, redirecting...');
       setIsLoading(false);
       const redirectTo = searchParams.get('next') || '/';
       navigate(redirectTo);

@@ -46,9 +46,107 @@ Before testing the signup flow, ensure your Supabase project is configured corre
 - `2025-09-create-profiles.sql` - Creates the profiles table with RLS policies
 - `2025-09-fix-profiles-rls.sql` - Fixes RLS policies for profiles table (run this one)
 
+## RLS Policies Compatibility
+
+The current RLS policies support the following operations:
+
+### ✅ **SELECT** - Users can view their own profile
+```sql
+CREATE POLICY "Users can view their own profile"
+  ON public.profiles
+  FOR SELECT
+  USING (auth.uid() = user_id);
+```
+
+### ✅ **INSERT** - Users can create their own profile (during signup)
+```sql
+CREATE POLICY "Users can insert their own profile"
+  ON public.profiles
+  FOR INSERT
+  WITH CHECK (auth.uid() = user_id);
+```
+
+### ✅ **UPDATE** - Users can update their own profile (in ProfileEdit)
+```sql
+CREATE POLICY "Users can update their own profile"
+  ON public.profiles
+  FOR UPDATE
+  USING (auth.uid() = user_id)
+  WITH CHECK (auth.uid() = user_id);
+```
+
+### Required SQL to Run
+
+**Copy and run this SQL in Supabase SQL Editor:**
+
+```sql
+-- Enable RLS on profiles table
+ALTER TABLE public.profiles ENABLE ROW LEVEL SECURITY;
+
+-- Drop existing policies if they exist
+DROP POLICY IF EXISTS "Users can insert their own profile" ON public.profiles;
+DROP POLICY IF EXISTS "Users can view their own profile" ON public.profiles;
+DROP POLICY IF EXISTS "Users can update their own profile" ON public.profiles;
+
+-- Create safe policies for profiles table
+CREATE POLICY "Users can insert their own profile"
+  ON public.profiles
+  FOR INSERT
+  WITH CHECK (auth.uid() = user_id);
+
+CREATE POLICY "Users can view their own profile"
+  ON public.profiles
+  FOR SELECT
+  USING (auth.uid() = user_id);
+
+CREATE POLICY "Users can update their own profile"
+  ON public.profiles
+  FOR UPDATE
+  USING (auth.uid() = user_id)
+  WITH CHECK (auth.uid() = user_id);
+```
+
+## Setup Instructions
+
+### 1. Configure Environment Variables
+Create `.env` file in `StudentHub_Frontend/`:
+```
+VITE_SUPABASE_URL=https://your-project.supabase.co
+VITE_SUPABASE_ANON_KEY=your-anon-key
+```
+
+### 2. Configure Supabase Auth Settings
+In Supabase Dashboard → Authentication → Settings:
+- **Site URL**: `http://localhost:5173`
+- **Redirect URLs**: Add `http://localhost:5173`
+
+### 3. Run Database Migration
+Copy and run the SQL from `2025-09-fix-profiles-rls.sql` in Supabase SQL Editor.
+
+## Authentication Flow Verification
+
+After setup:
+
+1. **Sign up** with a fresh email
+2. **Check console** for `AUTH EVENT` logs:
+   - `AUTH EVENT SIGNED_IN`
+   - `AUTH EVENT SIGNED_OUT` 
+   - `AUTH EVENT TOKEN_REFRESHED`
+3. **Verify** navbar updates immediately on auth state changes
+4. **Test** sign out functionality
+5. **Check** profiles table for new user entries
+
 ## Security Notes
 
 - All tables have Row Level Security (RLS) enabled
 - Users can only access their own profile data
 - Phone numbers are enforced to be unique across all users
 - User IDs reference auth.users table with cascade delete
+- Only anon key used in frontend (no service role key)
+
+## Troubleshooting
+
+- **403 RLS errors**: Ensure `2025-09-fix-profiles-rls.sql` has been run
+- **Email confirmation issues**: Check Supabase Auth settings
+- **Redirect loops**: Verify Redirect URLs include `http://localhost:5173`
+- **Missing env vars**: Restart dev server after updating `.env`

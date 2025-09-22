@@ -12,6 +12,7 @@ const RequireAuth: React.FC<RequireAuthProps> = ({ children }) => {
   const location = useLocation();
 
   useEffect(() => {
+    // Check session immediately on mount
     const checkAuth = async () => {
       try {
         const { data: { session } } = await supabase.auth.getSession();
@@ -20,16 +21,18 @@ const RequireAuth: React.FC<RequireAuthProps> = ({ children }) => {
         console.error('Auth check error:', error);
         setIsAuthenticated(false);
       } finally {
+        // Always clear loading state - never hang
         setIsLoading(false);
       }
     };
 
     checkAuth();
 
-    // Listen for auth state changes
+    // Subscribe to auth state changes and redirect when session becomes null
     const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
       console.log("AUTH EVENT in RequireAuth", event, session);
       setIsAuthenticated(!!session);
+      // Clear loading on any auth state change
       setIsLoading(false);
     });
 
@@ -38,7 +41,7 @@ const RequireAuth: React.FC<RequireAuthProps> = ({ children }) => {
     };
   }, []);
 
-  // Show loading only briefly, then redirect if not authenticated
+  // Show brief loading state, then redirect or render children
   if (isLoading) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
@@ -50,12 +53,13 @@ const RequireAuth: React.FC<RequireAuthProps> = ({ children }) => {
     );
   }
 
+  // If not authenticated, redirect to signup (not login) as per original flow
   if (!isAuthenticated) {
-    // Redirect to login with the current path as the next parameter
     const currentPath = location.pathname + location.search;
-    return <Navigate to={`/login?next=${encodeURIComponent(currentPath)}`} replace />;
+    return <Navigate to={`/signup?next=${encodeURIComponent(currentPath)}`} replace />;
   }
 
+  // Render protected content
   return <>{children}</>;
 };
 
