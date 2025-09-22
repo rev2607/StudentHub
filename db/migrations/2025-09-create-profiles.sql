@@ -15,15 +15,24 @@ create index if not exists idx_profiles_user_id on public.profiles (user_id);
 -- Enable Row Level Security (RLS)
 alter table public.profiles enable row level security;
 
--- Create policies for profiles table
--- Users can view their own profile
-create policy "Users can view own profile" on public.profiles
-  for select using (auth.uid() = user_id);
+-- Drop existing policies if they exist
+drop policy if exists "Users can insert their own profile" on public.profiles;
+drop policy if exists "Users can view their own profile" on public.profiles;
+drop policy if exists "Users can update their own profile" on public.profiles;
 
+-- Create policies for profiles table
 -- Users can insert their own profile
-create policy "Users can insert own profile" on public.profiles
-  for insert with check (auth.uid() = user_id);
+create policy "Users can insert their own profile"
+  on public.profiles for insert
+  with check (auth.uid() = user_id);
+
+-- Users can view their own profile
+create policy "Users can view their own profile"
+  on public.profiles for select
+  using (auth.uid() = user_id);
 
 -- Users can update their own profile
-create policy "Users can update own profile" on public.profiles
-  for update using (auth.uid() = user_id);
+create policy "Users can update their own profile"
+  on public.profiles for update
+  using (auth.uid() = user_id)
+  with check (auth.uid() = user_id);

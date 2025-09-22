@@ -37,7 +37,7 @@ const SignupWithProfile: React.FC = () => {
   
   const [errors, setErrors] = useState<ValidationErrors>({});
   const [isLoading, setIsLoading] = useState(false);
-  const [submitError, setSubmitError] = useState<string>('');
+  const [errorMsg, setErrorMsg] = useState<string>('');
 
   const validateForm = (): boolean => {
     const newErrors: ValidationErrors = {};
@@ -93,15 +93,18 @@ const SignupWithProfile: React.FC = () => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
     
-    // Clear error when user starts typing
+    // Clear errors when user starts typing
     if (errors[name as keyof ValidationErrors]) {
       setErrors(prev => ({ ...prev, [name]: undefined }));
+    }
+    if (errorMsg) {
+      setErrorMsg('');
     }
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitError('');
+    setErrorMsg('');
 
     if (!validateForm()) {
       return;
@@ -111,23 +114,20 @@ const SignupWithProfile: React.FC = () => {
 
     try {
       // Step 1: Sign up with Supabase Auth
-      const { data: authData, error: authError } = await supabase.auth.signUp({
+      const { data: signUpData, error: signUpError } = await supabase.auth.signUp({
         email: formData.email,
         password: formData.password,
       });
 
-      if (authError) {
-        if (authError.message.includes('already registered')) {
-          setSubmitError('Email already registered. Please login instead.');
-        } else {
-          setSubmitError(authError.message);
-        }
+      if (signUpError) {
+        setErrorMsg(signUpError.message);
         setIsLoading(false);
         return;
       }
 
-      if (!authData.user) {
-        setSubmitError('Failed to create account. Please try again.');
+      const user = signUpData.user;
+      if (!user) {
+        setErrorMsg('Failed to create account. Please try again.');
         setIsLoading(false);
         return;
       }
@@ -135,31 +135,27 @@ const SignupWithProfile: React.FC = () => {
       // Step 2: Insert profile data
       const { error: profileError } = await supabase
         .from('profiles')
-        .insert({
-          user_id: authData.user.id,
+        .insert([{
+          user_id: user.id,
           full_name: formData.full_name.trim(),
           phone: formData.phone.trim(),
           city: formData.city.trim(),
           target_exam: formData.target_exam
-        });
+        }]);
 
       if (profileError) {
-        if (profileError.message.includes('duplicate key') || profileError.message.includes('unique')) {
-          setSubmitError('Phone already in use. Use a different number or login.');
-        } else {
-          setSubmitError('Failed to create profile. Please try again.');
-        }
+        setErrorMsg(profileError.message || 'Failed to create profile.');
+        await supabase.auth.signOut();
         setIsLoading(false);
         return;
       }
 
       // Success - redirect to home page or next parameter
       const redirectTo = searchParams.get('next') || '/';
-      navigate(redirectTo);
+      window.location.href = redirectTo;
     } catch (error) {
       console.error('Signup error:', error);
-      setSubmitError('An unexpected error occurred. Please try again.');
-    } finally {
+      setErrorMsg('An unexpected error occurred. Please try again.');
       setIsLoading(false);
     }
   };
@@ -177,9 +173,9 @@ const SignupWithProfile: React.FC = () => {
         </div>
         
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
-          {submitError && (
-            <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-md">
-              {submitError}
+          {errorMsg && (
+            <div className="text-red-600 mb-4 bg-red-50 border border-red-200 px-4 py-3 rounded-md">
+              {errorMsg}
             </div>
           )}
 
