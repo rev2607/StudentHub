@@ -51,3 +51,13 @@ export interface Topic {
   subject: string;
   exam: string;
 }
+
+export interface Profile {
+  id: string;
+  user_id: string;
+  full_name: string;
+  phone: string;
+  city: string;
+  target_exam: string;
+  created_at?: string;
+}

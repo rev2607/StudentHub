@@ -6,6 +6,10 @@ import HomePage from "./pages/HomePage/HomePage";
 import SearchPage from "./pages/SearchPage/SearchPage";
 import MockTests from "./pages/MockTests";
 import MockTestsStart from "./pages/MockTestsStart";
+import SignupWithProfile from "./pages/SignupWithProfile";
+import Login from "./pages/Login";
+import ProfileEdit from "./pages/ProfileEdit";
+import RequireAuth from "./components/RequireAuth";
 
 // import Search from "./pages/Other/Search";
 // import Test from "./pages/Other/Test";
@@ -22,11 +26,32 @@ function App() {
           {/* Wrap routes that need Header in a layout */}
           <Route element={<MainLayout />}>
             <Route path="/" element={<HomePage />} />
-            <Route path="/mock-tests" element={<MockTests />} />
+            <Route path="/mock-tests" element={
+              <RequireAuth>
+                <MockTests />
+              </RequireAuth>
+            } />
           </Route>
 
+          {/* Auth routes */}
+          <Route path="/signup" element={<SignupWithProfile />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/profile/edit" element={
+            <RequireAuth>
+              <ProfileEdit />
+            </RequireAuth>
+          } />
+
+          {/* Protected mock test routes */}
+          <Route path="/mock-tests/start" element={
+            <RequireAuth>
+              <MockTestsStart />
+            </RequireAuth>
+          } />
+
+          {/* Other routes */}
           <Route path="/search" element={<SearchPage />} />
-          <Route path="/mock-tests/start" element={<MockTestsStart />} />
+          
           {/* <Route path="/search-page" element={<Search />} /> */}
           {/* <Route path="/test" element={<Test />} /> */}
           {/* Other routes without header */}
@@ -36,7 +61,6 @@ function App() {
           {/* <Route path="/courses/*" element={<Courses />} /> */}
           {/* <Route path="/exams/*" element={<Exams />} /> */}
           {/* <Route path="/resources/*" element={<Resources />} /> */}
-          {/* <Route path="/login" element={<Login />} /> */}
         </Routes>
       </div>
     </Router>
