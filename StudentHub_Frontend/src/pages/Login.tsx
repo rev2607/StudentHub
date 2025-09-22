@@ -51,13 +51,12 @@ const Login: React.FC = () => {
         return;
       }
 
-      // Get the redirect URL from query params, default to home
+      // Success - get the redirect URL from query params, default to home
       const redirectTo = searchParams.get('next') || '/';
       navigate(redirectTo);
     } catch (error) {
       console.error('Login error:', error);
       setError('An unexpected error occurred. Please try again.');
-    } finally {
       setIsLoading(false);
     }
   };

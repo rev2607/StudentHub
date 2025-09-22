@@ -1,20 +1,14 @@
 import { useState, useEffect, useRef } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
-import { supabase, type Profile } from '../lib/supabaseClient';
-
-interface AuthUser {
-  id: string;
-  email?: string;
-  profile?: Profile;
-}
+import { supabase } from '../lib/supabaseClient';
 
 const Navbar = () => {
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
-  const [user, setUser] = useState<AuthUser | null>(null);
-  const [loading, setLoading] = useState(false);
+  const [session, setSession] = useState<any>(null);
+  const [profileName, setProfileName] = useState<string>('');
   const userMenuRef = useRef<HTMLDivElement>(null);
   const mobileMenuRef = useRef<HTMLDivElement>(null);
 
@@ -30,51 +24,48 @@ const Navbar = () => {
 
   // Check auth state on mount and subscribe to changes
   useEffect(() => {
-    const checkUser = async () => {
+    const checkSession = async () => {
       try {
-        const { data: { session } } = await supabase.auth.getSession();
+        const { data: { session: currentSession } } = await supabase.auth.getSession();
+        setSession(currentSession);
         
-        if (session?.user) {
-          // Fetch user profile
-          const { data: profile, error } = await supabase
+        if (currentSession?.user) {
+          // Fetch user profile (non-blocking)
+          const { data: profile } = await supabase
             .from('profiles')
-            .select('*')
-            .eq('user_id', session.user.id)
+            .select('full_name')
+            .eq('user_id', currentSession.user.id)
             .single();
 
-          setUser({
-            id: session.user.id,
-            email: session.user.email,
-            profile: profile || undefined
-          });
+          setProfileName(profile?.full_name || currentSession.user.email || '');
         } else {
-          setUser(null);
+          setProfileName('');
         }
       } catch (error) {
         console.error('Error checking auth state:', error);
-        setUser(null);
+        setSession(null);
+        setProfileName('');
       }
     };
 
-    checkUser();
+    checkSession();
 
-    // Subscribe to auth state changes
-    const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, session) => {
-      if (session?.user) {
-        // Fetch user profile
-        const { data: profile, error } = await supabase
+    // Subscribe to auth state changes with console logging for dev
+    const { data: { subscription } } = supabase.auth.onAuthStateChange(async (event, newSession) => {
+      console.log("AUTH EVENT", event, newSession);
+      setSession(newSession);
+      
+      if (newSession?.user) {
+        // Fetch user profile (non-blocking)
+        const { data: profile } = await supabase
           .from('profiles')
-          .select('*')
-          .eq('user_id', session.user.id)
+          .select('full_name')
+          .eq('user_id', newSession.user.id)
           .single();
 
-        setUser({
-          id: session.user.id,
-          email: session.user.email,
-          profile: profile || undefined
-        });
+        setProfileName(profile?.full_name || newSession.user.email || '');
       } else {
-        setUser(null);
+        setProfileName('');
       }
     });
 
@@ -103,7 +94,6 @@ const Navbar = () => {
   const handleLogout = async () => {
     try {
       await supabase.auth.signOut();
-      setUser(null);
       navigate('/');
     } catch (error) {
       console.error('Error signing out:', error);
@@ -111,14 +101,12 @@ const Navbar = () => {
   };
 
   const getUserDisplayName = () => {
-    if (user?.profile?.full_name) {
-      return user.profile.full_name;
-    }
-    return user?.email || 'User';
+    const name = profileName || 'User';
+    return name.length > 9 ? name.substring(0, 9) + '...' : name;
   };
 
   const getUserAvatar = () => {
-    const name = user?.profile?.full_name || user?.email || 'U';
+    const name = profileName || session?.user?.email || 'U';
     return name.charAt(0).toUpperCase();
   };
 
@@ -143,11 +131,11 @@ const Navbar = () => {
               </Link>
             ))}
             
-            {/* Auth Section */}
+            {/* Auth Section - Immediately renders without blocking */}
             <div className="flex items-center space-x-4 ml-4">
-              {user ? (
+              {session?.user ? (
                 // User dropdown menu
-                <div className="relative" ref={userMenuRef}>
+                <div className="relative" ref={userMenuRef} data-testid="nav-user">
                   <button
                     onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
                     className="flex items-center space-x-3 text-[#262443] hover:text-[var(--site-green)] transition-colors duration-200 focus:outline-none"
@@ -189,17 +177,19 @@ const Navbar = () => {
                   )}
                 </div>
               ) : (
-                // Sign in / Sign up buttons
+                // Sign in / Sign up buttons - immediately visible
                 <>
                   <Link
                     to="/login"
                     className="text-[#262443] hover:text-[var(--site-green)] transition-colors duration-200"
+                    data-testid="nav-signin"
                   >
                     Sign In
                   </Link>
                   <Link
                     to="/signup"
                     className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-[#262443] px-4 py-2 rounded-md font-semibold text-sm transition-all shadow"
+                    data-testid="nav-signup"
                   >
                     Sign Up
                   </Link>
@@ -234,7 +224,7 @@ const Navbar = () => {
             
             {/* Mobile Auth Section */}
             <div className="border-t border-gray-200 pt-4 mt-4">
-              {user ? (
+              {session?.user ? (
                 <>
                   <div className="flex items-center px-3 py-2 mb-2">
                     {/* Mobile Profile Avatar */}
@@ -282,6 +272,7 @@ const Navbar = () => {
                     to="/login"
                     className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50"
                     onClick={() => setIsOpen(false)}
+                    data-testid="nav-signin"
                   >
                     Sign In
                   </Link>
@@ -289,6 +280,7 @@ const Navbar = () => {
                     to="/signup"
                     className="block px-3 py-2 rounded-md text-base font-medium bg-[var(--site-green)] hover:bg-[#7bb53a] text-[#262443] mx-3"
                     onClick={() => setIsOpen(false)}
+                    data-testid="nav-signup"
                   >
                     Sign Up
                   </Link>

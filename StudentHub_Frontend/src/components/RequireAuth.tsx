@@ -28,6 +28,7 @@ const RequireAuth: React.FC<RequireAuthProps> = ({ children }) => {
 
     // Listen for auth state changes
     const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+      console.log("AUTH EVENT in RequireAuth", event, session);
       setIsAuthenticated(!!session);
       setIsLoading(false);
     });
@@ -37,6 +38,7 @@ const RequireAuth: React.FC<RequireAuthProps> = ({ children }) => {
     };
   }, []);
 
+  // Show loading only briefly, then redirect if not authenticated
   if (isLoading) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
@@ -49,9 +51,9 @@ const RequireAuth: React.FC<RequireAuthProps> = ({ children }) => {
   }
 
   if (!isAuthenticated) {
-    // Redirect to signup with the current path as the next parameter
+    // Redirect to login with the current path as the next parameter
     const currentPath = location.pathname + location.search;
-    return <Navigate to={`/signup?next=${encodeURIComponent(currentPath)}`} replace />;
+    return <Navigate to={`/login?next=${encodeURIComponent(currentPath)}`} replace />;
   }
 
   return <>{children}</>;

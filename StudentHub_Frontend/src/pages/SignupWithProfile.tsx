@@ -38,6 +38,7 @@ const SignupWithProfile: React.FC = () => {
   const [errors, setErrors] = useState<ValidationErrors>({});
   const [isLoading, setIsLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string>('');
+  const [infoMsg, setInfoMsg] = useState<string>('');
 
   const validateForm = (): boolean => {
     const newErrors: ValidationErrors = {};
@@ -47,11 +48,11 @@ const SignupWithProfile: React.FC = () => {
       newErrors.full_name = 'Full name is required';
     }
 
-    // Phone validation
+    // Phone validation - exactly 10 digits
     if (!formData.phone.trim()) {
       newErrors.phone = 'Phone number is required';
     } else if (!/^[0-9]{10}$/.test(formData.phone)) {
-      newErrors.phone = 'Phone must be 10 digits';
+      newErrors.phone = 'Phone must be exactly 10 digits';
     }
 
     // Email validation
@@ -61,14 +62,14 @@ const SignupWithProfile: React.FC = () => {
       newErrors.email = 'Please enter a valid email address';
     }
 
-    // Password validation
+    // Password validation - minimum 6 characters
     if (!formData.password) {
       newErrors.password = 'Password is required';
     } else if (formData.password.length < 6) {
       newErrors.password = 'Password must be at least 6 characters';
     }
 
-    // Confirm password validation
+    // Confirm password validation - must match
     if (!formData.confirmPassword) {
       newErrors.confirmPassword = 'Please confirm your password';
     } else if (formData.password !== formData.confirmPassword) {
@@ -93,19 +94,37 @@ const SignupWithProfile: React.FC = () => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
     
-    // Clear errors when user starts typing
+    // Clear errors and info messages when user starts typing
     if (errors[name as keyof ValidationErrors]) {
       setErrors(prev => ({ ...prev, [name]: undefined }));
     }
     if (errorMsg) {
       setErrorMsg('');
     }
+    if (infoMsg) {
+      setInfoMsg('');
+    }
+  };
+
+  const handleResendConfirmation = async () => {
+    try {
+      await supabase.auth.resend({
+        type: 'signup',
+        email: formData.email,
+      });
+      setInfoMsg('Confirmation email sent! Please check your inbox.');
+    } catch (error) {
+      console.error('Resend error:', error);
+      setErrorMsg('Failed to resend confirmation email. Please try again.');
+    }
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setErrorMsg('');
+    setInfoMsg('');
 
+    // 1. Validate client-side
     if (!validateForm()) {
       return;
     }
@@ -113,46 +132,72 @@ const SignupWithProfile: React.FC = () => {
     setIsLoading(true);
 
     try {
-      // Step 1: Sign up with Supabase Auth
+      // 2. Call signUp with redirectTo
       const { data: signUpData, error: signUpError } = await supabase.auth.signUp({
         email: formData.email,
         password: formData.password,
+        options: {
+          emailRedirectTo: window.location.origin
+        }
       });
 
+      // 3. If signUp returns an error → show it and stop
       if (signUpError) {
         setErrorMsg(signUpError.message);
         setIsLoading(false);
         return;
       }
 
-      const user = signUpData.user;
-      if (!user) {
-        setErrorMsg('Failed to create account. Please try again.');
+      let session = signUpData?.session;
+
+      // 4. If signUp returns no session (common when email confirmation required)
+      if (!session) {
+        // Attempt immediate sign-in fallback
+        const { data: signInData, error: signInError } = await supabase.auth.signInWithPassword({
+          email: formData.email,
+          password: formData.password,
+        });
+
+        if (signInError) {
+          // Likely due to email confirmation - show friendly banner
+          setInfoMsg("Account created. Please confirm your email — we've sent a link. If you didn't receive it, click Resend.");
+          setIsLoading(false);
+          return;
+        }
+
+        // Sign-in succeeded, use signInData.session
+        session = signInData?.session;
+      }
+
+      if (!session) {
+        setErrorMsg('Failed to create session. Please try again.');
         setIsLoading(false);
         return;
       }
 
-      // Step 2: Insert profile data
-      const { error: profileError } = await supabase
-        .from('profiles')
-        .insert([{
-          user_id: user.id,
-          full_name: formData.full_name.trim(),
-          phone: formData.phone.trim(),
-          city: formData.city.trim(),
-          target_exam: formData.target_exam
-        }]);
+      // 5. Once we have a session, insert profile into profiles
+      const { error: profileError } = await supabase.from('profiles').insert([{
+        user_id: session.user.id,
+        full_name: formData.full_name.trim(),
+        phone: formData.phone.trim(),
+        city: formData.city.trim(),
+        target_exam: formData.target_exam
+      }]);
 
+      // 6. If profileError occurs (e.g., phone uniqueness/RLS)
       if (profileError) {
-        setErrorMsg(profileError.message || 'Failed to create profile.');
+        console.error('Profile insert error:', profileError);
+        // Call signOut to clear partial session
         await supabase.auth.signOut();
+        setErrorMsg(profileError.message || 'Failed to create profile.');
         setIsLoading(false);
         return;
       }
 
-      // Success - redirect to home page or next parameter
+      // 7. On full success, redirect to /
+      setIsLoading(false);
       const redirectTo = searchParams.get('next') || '/';
-      window.location.href = redirectTo;
+      navigate(redirectTo);
     } catch (error) {
       console.error('Signup error:', error);
       setErrorMsg('An unexpected error occurred. Please try again.');
@@ -174,8 +219,23 @@ const SignupWithProfile: React.FC = () => {
         
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
           {errorMsg && (
-            <div className="text-red-600 mb-4 bg-red-50 border border-red-200 px-4 py-3 rounded-md">
+            <div className="text-red-600 mb-4 bg-red-50 border border-red-200 px-4 py-3 rounded-md" data-testid="signup-error">
               {errorMsg}
+            </div>
+          )}
+          
+          {infoMsg && (
+            <div className="text-blue-600 mb-4 bg-blue-50 border border-blue-200 px-4 py-3 rounded-md" data-testid="signup-info">
+              <div className="mb-2">{infoMsg}</div>
+              {infoMsg.includes('confirm') && (
+                <button
+                  type="button"
+                  onClick={handleResendConfirmation}
+                  className="text-blue-600 hover:text-blue-800 underline text-sm font-medium"
+                >
+                  Resend confirmation email
+                </button>
+              )}
             </div>
           )}
 
