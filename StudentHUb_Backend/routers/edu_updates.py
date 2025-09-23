@@ -1,102 +1,82 @@
-import requests
-import os
-import json
-import re
-from dotenv import load_dotenv
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, BackgroundTasks
 from typing import List
+from services.news_service import news_service
 
-load_dotenv()
-PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY")
+router = APIRouter(prefix="/api", tags=["education", "news"])
 
-if not PERPLEXITY_API_KEY:
-    raise ValueError("API Key not found! Ensure PERPLEXITY_API_KEY is set in your .env file.")
-
-router = APIRouter(prefix="/api/education", tags=["education"])
-
-INSTRUCTIONS = """
-Search the internet and return the 5 most recent and real educational news articles published in India. For each article, provide:
-1. Title
-2. Accurate published date (e.g., April 3, 2025 | 02:45 PM IST)
-3. Short summary or description
-4. Real image URL (from the article or its preview)
-5. Read more URL (link to full article)
-
-Only respond with a valid JSON array like this:
-[
-  {
-    "title": "CBSE Board Exams 2025 Dates Out",
-    "date": "April 3, 2025 | 02:45 PM IST",
-    "description": "CBSE has announced the date sheet for the upcoming board exams.",
-    "image_url": "https://example.com/news1.jpg",
-    "read_more_url": "https://example.com/article1"
-  }
-]
-
-Only include **real data**, not placeholders. Ensure URLs are valid links from reliable sources like ndtv.com, indianexpress.com, timesofindia.com, etc.
-"""
-
-def extract_json_from_response(content: str) -> List[dict]:
+# Background task to refresh news cache
+def refresh_news_cache():
+    """Background task to fetch and cache news from Perplexity API"""
     try:
-        return json.loads(content)
-    except json.JSONDecodeError:
-        json_match = re.search(r"```json\s*(\[[\s\S]*?\])\s*```", content, re.DOTALL)
-        if json_match:
-            cleaned_json = json_match.group(1).strip()
-            if cleaned_json.endswith(","):
-                cleaned_json = cleaned_json.rstrip(",") + "]"
-            return json.loads(cleaned_json)
-    raise ValueError("No valid JSON found in AI response.")
-def query_perplexity(prompt: str) -> List[dict]:
-    url = "https://api.perplexity.ai/chat/completions"
-    headers = {
-        "Authorization": f"Bearer {PERPLEXITY_API_KEY}",
-        "Content-Type": "application/json",
-    }
-    payload = {
-        "model": "sonar",
-        "messages": [
-            {"role": "system", "content": INSTRUCTIONS},
-            {"role": "user", "content": prompt}
-        ],
-        "max_tokens": 3000
-    }
-
-    try:
-        print(f"🔹 Sending Query to Perplexity AI: {prompt}")
-        response = requests.post(url, json=payload, headers=headers)
-        response.raise_for_status()
-
-        print("🔹 Raw AI Response:", response.text)  # Helps with debugging
-
-        data = response.json()
-
-        if "choices" not in data or not data["choices"]:
-            raise ValueError("Invalid AI response structure: 'choices' missing.")
-
-        content = "".join(
-            choice.get("message", {}).get("content", "") +
-            choice.get("delta", {}).get("content", "")
-            for choice in data["choices"]
-        )
-
-        if not content:
-            raise ValueError("Empty content in AI response.")
-
-        return extract_json_from_response(content)
-
-    except requests.RequestException as e:
-        raise HTTPException(status_code=502, detail=f"API request failed: {str(e)}")
+        news_service.fetch_and_cache_news()
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Internal Server Error: {str(e)}")
+        print(f"❌ Background news refresh failed: {str(e)}")
 
-
-# ✅ API route
-@router.get("/")
-def get_education_updates():
-    prompt = "Give me the latest educational news from India."
+# ✅ API routes - both /api/education/ and /api/news/ point to the same function
+@router.get("/education/")
+@router.get("/news/")
+def get_education_updates(background_tasks: BackgroundTasks):
+    """
+    Get cached education news from Supabase.
+    If cache is empty, trigger background refresh.
+    If Supabase is not available, fetch directly from Perplexity.
+    """
     try:
-        updates = query_perplexity(prompt)
-        return updates
+        # Get cached news from Supabase
+        cached_news = news_service.get_cached_news(limit=10)
+        
+        # If we have cached news, return it
+        if cached_news:
+            # Transform data to match frontend expectations
+            formatted_news = []
+            for article in cached_news:
+                formatted_article = {
+                    "title": article.get("title", ""),
+                    "date": article.get("date", ""),
+                    "description": article.get("snippet", ""),
+                    "image_url": "https://placehold.co/400x300/4ade80/ffffff?text=News",
+                    "read_more_url": article.get("link", "")
+                }
+                formatted_news.append(formatted_article)
+            
+            return formatted_news
+        
+        # If no cached news and Supabase is available, trigger background refresh
+        if news_service.supabase_enabled:
+            background_tasks.add_task(refresh_news_cache)
+            return []
+        
+        # If Supabase is not available, fetch directly from Perplexity as fallback
+        print("⚠️ Supabase not available, fetching news directly from Perplexity")
+        news_items = news_service.fetch_news_from_perplexity()
+        
+        # Transform data to match frontend expectations using processed data
+        formatted_news = []
+        for item in news_items:
+            processed_item = news_service._process_news_item(item)
+            formatted_article = {
+                "title": processed_item.get("title", ""),
+                "date": processed_item.get("date", ""),
+                "description": processed_item.get("snippet", ""),
+                "image_url": "https://placehold.co/400x300/4ade80/ffffff?text=News",
+                "read_more_url": processed_item.get("link", "")
+            }
+            formatted_news.append(formatted_article)
+        
+        return formatted_news
+        
+    except Exception as e:
+        print(f"❌ Error fetching news: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.post("/news/refresh")
+def refresh_news_manual(background_tasks: BackgroundTasks):
+    """
+    Manually trigger news refresh from Perplexity API.
+    Useful for testing or manual updates.
+    """
+    try:
+        background_tasks.add_task(refresh_news_cache)
+        return {"message": "News refresh triggered successfully"}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

@@ -7,3 +7,5 @@ dotenv
 requests
 psycopg2-binary
 python-dotenv
+supabase
+apscheduler

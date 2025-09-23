@@ -144,9 +144,44 @@ After setup:
 - User IDs reference auth.users table with cascade delete
 - Only anon key used in frontend (no service role key)
 
+## News Caching Setup (NEW)
+
+### 1. Create News Articles Table
+
+Run the following SQL in your Supabase SQL Editor:
+
+```sql
+-- Run the contents of: 2025-09-create-news-articles.sql
+```
+
+### 2. Backend Environment Variables
+
+Add these to your `.env` file in the backend:
+
+```
+SUPABASE_URL=your_supabase_project_url
+SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
+```
+
+### 3. News Caching Features
+
+- **Hourly Updates**: News is automatically fetched from Perplexity API every hour
+- **Startup Cache**: Initial news is fetched when backend starts
+- **Supabase Storage**: All news is cached in `news_articles` table
+- **Public Read Access**: Frontend fetches from `/api/news` endpoint
+- **Manual Refresh**: Use `POST /api/news/refresh` for manual updates
+
+### 4. Testing News Caching
+
+1. Start the backend server
+2. Check logs for "Running scheduled news refresh..."
+3. Call `GET /api/news` endpoint
+4. Verify data appears in Supabase `news_articles` table
+
 ## Troubleshooting
 
 - **403 RLS errors**: Ensure `2025-09-fix-profiles-rls.sql` has been run
 - **Email confirmation issues**: Check Supabase Auth settings
 - **Redirect loops**: Verify Redirect URLs include `http://localhost:5173`
 - **Missing env vars**: Restart dev server after updating `.env`
+- **News not loading**: Check Supabase credentials and news_articles table exists

@@ -36,14 +36,11 @@ function NewsItemTop() {
       setLoading(true);
 
       try {
-        const response = await axios.get("http://localhost:8000/api/education");
-        console.log(response);
+        const response = await axios.get("http://localhost:8000/api/news");
+        console.log("News API Response:", response);
 
         const data = response.data;
-        // if (!response.ok) {
-        //   throw new Error(`HTTP error! status: ${response.status}`);
-        // }
-
+        
         if (data && Array.isArray(data)) {
           setNewsItens(data);
         } else {
@@ -70,8 +67,8 @@ function NewsItemTop() {
       }
     };
 
-    // fetchData();
-    setNewsItens(tempData); // for testing purpose
+    fetchData(); // Enable real API calls
+    // setNewsItens(tempData); // for testing purpose
   }, []);
 
   if (loading) return <div className="text-center py-8">Loading News Items...</div>;

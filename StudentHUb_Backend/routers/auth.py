@@ -3,8 +3,8 @@ from pydantic import BaseModel
 from sqlalchemy.orm import Session
 import random
 
-from ..database import get_db
-from ..models import User
+from database import get_db
+from models import User
 
 router = APIRouter(prefix="/api/auth", tags=["auth"])
 

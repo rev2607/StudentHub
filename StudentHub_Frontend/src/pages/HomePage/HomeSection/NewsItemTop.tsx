@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-import { navigateToSearchPage } from "../navigationToSearchPage";
+import { navigateToNewsPage } from "../navigationToNewsPage";
 import { tempData, NewsItemTopProps } from "../../../models/NewsItemTopProps";
 
 function NewsItemTop() {
@@ -24,11 +25,57 @@ function NewsItemTop() {
   }, []);
 
   const [newsItems, setNewsItens] = useState<NewsItemTopProps[]>([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const maxIndex = Math.ceil(newsItems.length / itemsPerSlide) - 1;
 
+  const fetchNews = async () => {
+      console.log("🚀 NewsItemTop: Starting to fetch news from API...");
+      setLoading(true);
+      setError(null);
+
+      try {
+        console.log("🌐 NewsItemTop: Making API call to: http://localhost:8000/api/news/");
+        const response = await axios.get("http://localhost:8000/api/news/");
+        console.log("✅ NewsItemTop API Response:", response);
+        console.log("📊 NewsItemTop Response status:", response.status);
+        console.log("📊 NewsItemTop Response data type:", typeof response.data);
+        console.log("📊 NewsItemTop Response data length:", Array.isArray(response.data) ? response.data.length : 'not an array');
+
+        if (response.data && Array.isArray(response.data) && response.data.length > 0) {
+          // Transform API data to match component's expected format
+          const transformedData = response.data.map((item, index) => ({
+            id: index + 1,
+            title: item.title,
+            date: new Date(item.date).toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric'
+            }),
+            description: item.description || item.snippet,
+            image_url: item.image_url || "https://placehold.co/200x150.png",
+            read_more_url: item.read_more_url || item.link
+          }));
+
+          console.log("🔄 NewsItemTop: Transformed data:", transformedData);
+          setNewsItens(transformedData);
+          console.log("✅ NewsItemTop: Data updated successfully!");
+        } else {
+          console.log("⚠️ NewsItemTop: No data received, using fallback");
+          setNewsItens(tempData); // fallback to static data
+        }
+      } catch (err) {
+        console.error("❌ NewsItemTop: Error fetching news:", err);
+        setError("Failed to fetch news");
+        setNewsItens(tempData); // fallback to static data
+      } finally {
+        setLoading(false);
+      }
+    };
+
   useEffect(() => {
-    setNewsItens(tempData); // for testing purpose
+    fetchNews();
   }, []);
 
   const goToPrevious = () => {
@@ -39,10 +86,27 @@ function NewsItemTop() {
     setCurrentIndex((prevIndex) => (prevIndex === maxIndex ? 0 : prevIndex + 1));
   };
 
+  if (loading) {
+    return (
+      <section className="relative mb-8 md:-translate-y-2/3 md:mb-0" style={{ transform: undefined }}>
+        <div className="max-w-4xl mx-auto px-4">
+          <h2 className="text-xl text-black md:text-white text-center mb-4 md:mb-6">Latest News and Notifications</h2>
+          <div className="text-center py-8">
+            <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-white"></div>
+            <p className="mt-2 text-white">Loading latest news...</p>
+          </div>
+        </div>
+      </section>
+    );
+  }
+
   return (
     <section className="relative mb-8 md:-translate-y-2/3 md:mb-0" style={{ transform: undefined }}>
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-xl text-black md:text-white text-center mb-4 md:mb-6">Latest News and Notifications</h2>
+        <h2 className="text-xl text-black md:text-white text-center mb-4 md:mb-6">
+          Latest News and Notifications
+          {error && <span className="text-red-300 text-sm block mt-1">⚠️ {error}</span>}
+        </h2>
 
         <div className="relative">
           <div className="overflow-hidden rounded-lg shadow-xl">
@@ -51,10 +115,22 @@ function NewsItemTop() {
                 {Array.from({ length: Math.ceil(newsItems.length / itemsPerSlide) }).map((_, groupIndex) => (
                   <div key={groupIndex} className="w-full flex-shrink-0 flex gap-4">
                     {newsItems.slice(groupIndex * itemsPerSlide, groupIndex * itemsPerSlide + itemsPerSlide).map((item, index) => (
-                      <div key={index} className="flex-1 bg-white rounded-lg overflow-hidden shadow-2xl transition-shadow duration-300 border-s-15 border-[var(--site-green)] ">
+                      <div 
+                        key={index} 
+                        className="flex-1 bg-white rounded-lg overflow-hidden shadow-2xl transition-shadow duration-300 border-s-15 border-[var(--site-green)] cursor-pointer hover:shadow-3xl"
+                        onClick={() => navigateToNewsPage(navigate, item.read_more_url, item.title)}
+                      >
                         <div className="flex h-full">
                           <div className="w-1/3 relative">
-                            <img src={(!item.image_url || item.image_url === 'image') ? 'https://placehold.co/200x150.png' : item.image_url} alt={item.title || 'News image'} className="absolute inset-0 w-30 h-25 object-cover rounded-3xl p-2" />
+                            <img 
+                              src={item.image_url || 'https://placehold.co/400x300/4ade80/ffffff?text=News'} 
+                              alt={item.title || 'News image'} 
+                              className="absolute inset-0 w-30 h-25 object-cover rounded-3xl p-2"
+                              onError={(e) => {
+                                const target = e.target as HTMLImageElement;
+                                target.src = 'https://placehold.co/400x300/4ade80/ffffff?text=News';
+                              }}
+                            />
                           </div>
                           <div className="w-2/3 p-4 px-2 flex flex-col justify-between">
                             <div>
@@ -65,7 +141,7 @@ function NewsItemTop() {
                               </div>
                               <h3 className="text-xs font-semibold text-gray-900 mb-3 line-clamp-2">{item.title}</h3>
                             </div>
-                            <button className="text-xs text-blue-600 hover:text-blue-800 font-medium self-start" onClick={() => navigateToSearchPage(navigate, item.title)}>
+                            <button className="text-xs text-blue-600 hover:text-blue-800 font-medium self-start" onClick={() => navigateToNewsPage(navigate, item.read_more_url, item.title)}>
                               Read more
                             </button>
                           </div>
