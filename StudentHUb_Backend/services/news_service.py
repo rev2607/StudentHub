@@ -8,6 +8,7 @@ from typing import List, Dict
 import os
 from dotenv import load_dotenv
 from supabase_client import get_supabase_client
+from helpers.url_validator import get_best_valid_link, get_best_image_url, validate_url
 
 load_dotenv()
 
@@ -69,12 +70,12 @@ class NewsService:
         except:
             parsed_date = datetime.now(timezone.utc)
         
-        # Process citations to get the best link
+        # Process citations to get the best valid link
         citations = item.get("citations", [])
-        link = self._get_best_link(title, citations, item.get("link", ""))
+        link = get_best_valid_link(citations, title)
         
-        # Process image URL
-        image_url = self._get_best_image(item.get("image_url", ""))
+        # Extract image from the article page
+        image_url = get_best_image_url(link)
         
         return {
             "title": title,
@@ -84,33 +85,6 @@ class NewsService:
             "image_url": image_url
         }
     
-    def _get_best_link(self, title: str, citations: List[str], fallback_link: str) -> str:
-        """Get the best available link from citations or fallback"""
-        # If we have citations, use the first valid one
-        if citations and isinstance(citations, list):
-            for citation in citations:
-                if isinstance(citation, str) and citation.startswith(('http://', 'https://')):
-                    # Validate it's a reasonable URL
-                    if any(domain in citation.lower() for domain in ['ndtv.com', 'indianexpress.com', 'timesofindia.com', 'hindustantimes.com', 'thehindu.com', 'nta.ac.in', 'cbse.gov.in']):
-                        return citation
-                    # Accept any valid URL as fallback
-                    return citation
-        
-        # If we have a fallback link, use it
-        if fallback_link and fallback_link.startswith(('http://', 'https://')):
-            return fallback_link
-        
-        # Create a Perplexity search URL as final fallback
-        encoded_title = urllib.parse.quote_plus(title)
-        return f"https://www.perplexity.ai/search?q={encoded_title}"
-    
-    def _get_best_image(self, image_url: str) -> str:
-        """Get the best available image URL or default"""
-        if image_url and isinstance(image_url, str) and image_url.startswith(('http://', 'https://')):
-            return image_url
-        
-        # Default placeholder image - use a reliable CDN
-        return "https://placehold.co/400x300/4ade80/ffffff?text=News"
 
     def extract_json_from_response(self, content: str) -> List[dict]:
         """Extract JSON from AI response with fallback patterns"""
@@ -170,40 +144,52 @@ class NewsService:
             return []
 
     def parse_and_store_news(self, news_items: List[Dict]) -> bool:
-        """Parse news items and store them in Supabase"""
+        """Parse news items and store them in Supabase with upsert logic"""
         if not self.supabase_enabled:
             print("⚠️ Supabase not available, skipping news storage")
             return True  # Return True to not block the process
-        
+
         try:
-            # Clear existing news articles (we want fresh data each time)
-            # Delete all rows by selecting all and deleting
-            existing_articles = self.supabase.table('news_articles').select('id').execute()
-            if existing_articles.data:
-                for article in existing_articles.data:
-                    self.supabase.table('news_articles').delete().eq('id', article['id']).execute()
-            
             # Prepare data for insertion using the new processing logic
             articles_to_insert = []
             for item in news_items:
                 processed_item = self._process_news_item(item)
-                # Remove image_url for now since the column doesn't exist yet
                 article_data = {
                     'title': processed_item.get('title', ''),
                     'date': processed_item.get('date', ''),
                     'snippet': processed_item.get('snippet', ''),
-                    'link': processed_item.get('link', '')
+                    'link': processed_item.get('link', ''),
+                    'image_url': processed_item.get('image_url', 'https://placehold.co/400x300/4ade80/ffffff?text=News')
                 }
                 articles_to_insert.append(article_data)
 
-            # Insert new articles
-            if articles_to_insert:
-                result = self.supabase.table('news_articles').insert(articles_to_insert).execute()
-                print(f"✅ Successfully cached {len(articles_to_insert)} news articles in Supabase")
-                return True
-            else:
+            if not articles_to_insert:
                 print("⚠️ No articles to insert")
                 return False
+
+            # Upsert articles by link to prevent duplicates
+            upserted_count = 0
+            for article_data in articles_to_insert:
+                try:
+                    # Try to find existing article by link
+                    existing = self.supabase.table('news_articles').select('id').eq('link', article_data['link']).execute()
+                    
+                    if existing.data:
+                        # Update existing article
+                        self.supabase.table('news_articles').update(article_data).eq('link', article_data['link']).execute()
+                        print(f"🔄 Updated existing article: {article_data['title'][:50]}...")
+                    else:
+                        # Insert new article
+                        self.supabase.table('news_articles').insert(article_data).execute()
+                        print(f"➕ Inserted new article: {article_data['title'][:50]}...")
+                    
+                    upserted_count += 1
+                except Exception as e:
+                    print(f"❌ Error upserting article '{article_data['title'][:50]}...': {str(e)}")
+                    continue
+
+            print(f"✅ Successfully processed {upserted_count}/{len(articles_to_insert)} news articles in Supabase")
+            return upserted_count > 0
 
         except Exception as e:
             print(f"❌ Error storing news in Supabase: {str(e)}")
@@ -235,16 +221,16 @@ class NewsService:
         if not self.supabase_enabled:
             print("⚠️ Supabase not available, returning empty news cache")
             return []
-        
+
         try:
             result = self.supabase.table('news_articles')\
-                .select('*')\
+                .select('id, title, date, snippet, link, image_url, created_at')\
                 .order('date', desc=True)\
                 .limit(limit)\
                 .execute()
-            
+
             return result.data if result.data else []
-            
+
         except Exception as e:
             print(f"❌ Error fetching cached news: {str(e)}")
             return []

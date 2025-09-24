@@ -8,7 +8,7 @@ import { NavigateFunction } from "react-router-dom";
  */
 export function navigateToNewsPage(navigate: NavigateFunction, articleUrl: string, title: string) {
   if (articleUrl && articleUrl.trim() !== "" && articleUrl.startsWith('http')) {
-    // Open external news article in new tab
+    // Open external news article in new tab with proper security attributes
     window.open(articleUrl, '_blank', 'noopener,noreferrer');
   } else {
     // Fallback: navigate to search page with the title

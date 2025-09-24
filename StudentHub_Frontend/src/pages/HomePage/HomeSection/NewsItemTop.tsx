@@ -123,12 +123,12 @@ function NewsItemTop() {
                         <div className="flex h-full">
                           <div className="w-1/3 relative">
                             <img 
-                              src={item.image_url || 'https://placehold.co/400x300/4ade80/ffffff?text=News'} 
+                              src={item.image_url || '/default-news.jpg'} 
                               alt={item.title || 'News image'} 
                               className="absolute inset-0 w-30 h-25 object-cover rounded-3xl p-2"
                               onError={(e) => {
                                 const target = e.target as HTMLImageElement;
-                                target.src = 'https://placehold.co/400x300/4ade80/ffffff?text=News';
+                                target.src = '/default-news.jpg';
                               }}
                             />
                           </div>

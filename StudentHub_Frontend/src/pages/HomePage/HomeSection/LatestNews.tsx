@@ -165,11 +165,11 @@ const LatestNews = () => {
                 alt="News" 
                 className="w-full h-40 sm:h-48 object-cover rounded-t-lg" 
                 height="400" 
-                src={article.imgSrc || 'https://placehold.co/400x300/4ade80/ffffff?text=News'} 
+                src={article.imgSrc || '/default-news.jpg'} 
                 width="600"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
-                  target.src = 'https://placehold.co/400x300/4ade80/ffffff?text=News';
+                  target.src = '/default-news.jpg';
                 }}
               />
               <div className="p-4 sm:p-6">

@@ -34,7 +34,7 @@ def get_education_updates(background_tasks: BackgroundTasks):
                     "title": article.get("title", ""),
                     "date": article.get("date", ""),
                     "description": article.get("snippet", ""),
-                    "image_url": "https://placehold.co/400x300/4ade80/ffffff?text=News",
+                    "image_url": article.get("image_url", "https://placehold.co/400x300/4ade80/ffffff?text=News"),
                     "read_more_url": article.get("link", "")
                 }
                 formatted_news.append(formatted_article)
@@ -58,7 +58,7 @@ def get_education_updates(background_tasks: BackgroundTasks):
                 "title": processed_item.get("title", ""),
                 "date": processed_item.get("date", ""),
                 "description": processed_item.get("snippet", ""),
-                "image_url": "https://placehold.co/400x300/4ade80/ffffff?text=News",
+                "image_url": processed_item.get("image_url", "https://placehold.co/400x300/4ade80/ffffff?text=News"),
                 "read_more_url": processed_item.get("link", "")
             }
             formatted_news.append(formatted_article)
