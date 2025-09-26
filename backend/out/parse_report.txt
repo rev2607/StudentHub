@@ -1,0 +1,183 @@
+Input: /Users/revanthguthula/Desktop/StudentHub/backend/data/JEE_Main_2025_Jan22_Shift2_MPC_dump.txt
+Output SQL: /Users/revanthguthula/Desktop/StudentHub/backend/out/jee_main_2025_shift2_mpc.sql
+
+Parsed total: 33
+  Mathematics: 33
+Skipped: 36
+Skip reasons:
+  missing A,B,C,D: 26
+  missing A,B: 2
+  missing B,C: 2
+  missing B,D: 2
+  missing D: 2
+  missing A,C,D: 1
+  missing A,B,C,D,Answer: 1
+
+Details:
+- Mathematics Q3: missing A,B,C,D
+  Snippet:
+  Q3. Let P be a point on the parabol a y 2 = 4ax and PQ be a focal chord of the parabola. If M and N ar e the foot of perpendiculars drawn from P and Q respectivel y on the directrix of the parabola, then the ar ea of the quadrilateral PQMN is equal to:
+A. B.
+C. D.
+- Mathematics Q11: missing A,B,C,D
+  Snippet:
+  Q11. If dx = g(x)+ C, wher e C is the constant of integration, then equals :
+A. B.
+C. D.
+- Mathematics Q17: missing A,B,C,D
+  Snippet:
+  Q17. If A and B are two events such that = 0.1, and and ar e the roots of the equation 12x 2 7x + 1 = 0, then the value of is:
+A. B.
+C. D.
+- Mathematics Q18: missing A,C,D
+  Snippet:
+  Q18. The sum of all values of [0, 2 ] satisf ying 2sin 2 = cos2 and 2cos 2 = 3sin is
+A. B. 4
+C. D.
+- Mathematics Q19: missing A,B,C,D
+  Snippet:
+  Q19. Let the curve z( 1 + i) + = 4, z C, divide the region |z 3| 1 into two par ts of areas and . Then | | equals :
+A. B.
+C. D.
+- Mathematics Q20: missing A,B
+  Snippet:
+  Q20. The ar ea of the region encl osed by the curves y = x 2 4x + 4and y 2 = 16 8x is :
+A. B.
+ C. 5
+- Mathematics Q21: missing A,B,C,D
+  Snippet:
+  Q21. Let y = f(x) be the solution of the differential equation , 1 < x < 1 such that f(0) = 0. If 6 then 2 is equal to __________.
+Answer: B
+- Mathematics Q22: missing A,B,C,D
+  Snippet:
+  Q22. Let A(6, 8), B(10 cos , 10 sin ) and C ( 10 sin , 10 cos ), be the vertices of a triangle. If L(a, 9) and G(h, k) be its orthocenter and centroid respectively, then (5a 3h + 6k + 100 sin2 ) is equal to___________
+Answer: A
+- Mathematics Q23: missing A,B,C,D
+  Snippet:
+  Q23. Let the distance between two parallel lines be 5 units and a point P lie between the lines at a unit distance from one of them . An equilater al triangle PQR is formed such that Q lies on one of the par allel lines, while R lies on the other. Then ( QR) 2 is equal to ________.
+Answer: B
+- Mathematics Q24: missing A,B,C,D
+  Snippet:
+  Q24. If = × 2 29 , then is equal to ______.
+Answer: D
+- Mathematics Q25: missing A,B,C,D
+  Snippet:
+  Q25. Let A = {1, 2, 3}. The number of relations on A, cont aining (1, B. and (2, C. , which are reflexive and transitive but not symmetric, is ______.
+Answer: C
+- Mathematics Q27: missing A,B
+  Snippet:
+  Q27. A small rigid spherical ball of mass M is dropped in a long vertical tube containing glycerine. The vel ocity of the ball becomes constant after some time. If the density of glycerine is half of the density of the ball, then the viscous force acting on the ball will be (consider g as acceleration due t o gravity)
+A. B.
+ C. Mg
+- Mathematics Q29: missing B,C
+  Snippet:
+  Q29. A series LCR ci rcuit is connected to an alternating sour ce of emf E. The current amplitude at resonant frequency is I 0 . If the val ue of resistance R becomes twice of its initial val ue t hen amplitude of cur rent at resonance will be
+ A. I 0
+B. C.
+- Mathematics Q32: missing A,B,C,D
+  Snippet:
+  Q32. An el ectron projected perpendicular to a uniform magnetic field B moves in a circle. If Bohr's quantization is applicable, then the radius of the el ectronic or bit in the first exci ted state is :
+A. B.
+C. D.
+- Mathematics Q34: missing A,B,C,D
+  Snippet:
+  Q34. A rectangular metallic loop is moving out of a uniform magnetic field region to a field free region with a constant speed. When the loop is partially inside the magnate field, the plot of magnitude of induced emf ( ) with time (t) is given by
+A. B.
+C. D.
+- Mathematics Q36: missing A,B,C,D
+  Snippet:
+  Q36. Given below are two statements. One is labelled as Assertion A. and the other is labelled as Reason (R). Assertion A. : A simple pendul um is taken to a planet of mass and radius, 4 times and 2 times, respectively, than the Earth. The time period of the pendulum remains same on earth and the planet. Reason (R) : The mass of the pendulum remai ns unchanged at Earth and the other planet. In the light of the above statements, choose the correct answer from the options given below :
+ A. Both A. and (R) ar e true but (R) is NOT the cor rect explanation of A. B. A. is true but (R) is false
+ C. A. is false but (R) is true
+- Mathematics Q38: missing A,B,C,D
+  Snippet:
+  Q38. To obtain the given truth table, following logic NTA
+Answer: A
+- Mathematics Q39: missing B,C
+  Snippet:
+  Q39. A force is applied on a particle and it under goes a displacement . What will be the value of b, if work done on the particle is zero.
+ A. 0
+B. C.
+- Mathematics Q40: missing B,D
+  Snippet:
+  Q40. Given below ar e two statements. On is labelled as Assertion A. and the other is labelled as Reason (R). Assertion A. : the fringes produced by red light ar e closer as com par ed to those produced by blue light. Reason (R) : The fringe width is directly proportional to the wavelength of light. In the light of above statements, choose the correct answer from the options given bel ow :
+ A. Both A. and (R) are true and (R) is the correct expl anation of A. B. A. is false but (R) is true.
+ C. Both A. and (R) ar e true but (R) is NOT the cor rect explanation of A. .
+- Mathematics Q44: missing D
+  Snippet:
+  Q44. Given are statements for certain thermodynamic var iables, A. Internal energy, volume (V) and mass (M) ar e ext ensive variables. B. Pressure (P), temperature (T) and density ( ) ar e intensive variables. C. Volume (V), temperature (T) and density ( ) ar e intensive variables. D. Mass (M) , tem per ature (T) and internal ener gy ar e extensive variables. Choose the correct answer from the points given bel ow :
+ A. C. and D. only
+ B. D. and A. only
+- Mathematics Q45: missing A,B,C,D
+  Snippet:
+  Q45. A body of mass 100 g is moving in circular pat h of radius 2 m on vertical plane as shown in figure. The velocity of the body at point A is 10 m/s. The ratio of its kinetic ener gies at point B and C is : (Takeacceleration due to gravity as 10 m/s 2 )
+A. B.
+C. D.
+- Mathematics Q46: missing A,B,C,D
+  Snippet:
+  Q46. A proton is moving undeflect ed in a region of cr ossed electric and magnet ic fiel ds at a constant speed of 2 × 10 5 ms 1 . When the el ectric field is switched off, the proton moves along a circular pat h of radi us 2 cm. The magnitude of electric field is x × 10 4 N/C. the value of x is _____. Take the mass of the proton = A. 6 × 10 27 kg.
+Answer: B
+- Mathematics Q47: missing A,B,C,D
+  Snippet:
+  Q47. Two long par allel wires X and Y, separ ated by a distance of 6 cm , carry currents of 5A and 4A, respectively, in opposite directions as shown in the figure. Magnitude of the resultant magnetic field at point P at a distance of 4 cm from wire Y is x × 10 5 T. The value of x is ________. Take permeability of free space as 0 = 4 × 10 7 SI units.
+Answer: A
+- Mathematics Q48: missing A,B,C,D
+  Snippet:
+  Q48. A par allel plate capacitor of area A = 16 cm 2 and separation between the plates 10 cm, is char ged by a DC cur rent. Consider a hypothetical plane sur face of area A 0 = C. 2 cm 2 inside the capacitor and parallel to the plates. At an instant, the current through the circuit is 6A. At the same instant the displacement current through A 0 is ________ mA.
+Answer: A
+- Mathematics Q49: missing A,B,C,D
+  Snippet:
+  Q49. A tube of length 1m is filled completely with an ideal liquid of mass 2M, and cl osed at both ends. The tube is rotated uniformly in horizontal plane about one of its ends. If the force exerted by the liquid at the other end is F then angular vel ocity of the tube is in SI unit. The val ue of is ______.
+Answer: A
+- Mathematics Q50: missing A,B,C,D
+  Snippet:
+  Q50. The net current flowing in the given circuit is _______ A.
+Answer: A
+- Mathematics Q54: missing A,B,C,D
+  Snippet:
+  Q54. Consider the given figure and choose the
+Answer: A
+- Mathematics Q55: missing A,B,C,D
+  Snippet:
+  Q55. When sec-butylcycl ohexane reacts with bromine in the presence of sunlight, the major product is :
+A. B.
+C. D.
+- Mathematics Q61: missing D
+  Snippet:
+  Q61. Density of 3 M NaCl solution is A. 25 g/mL. The molal ity of the solution is :
+ A. A. 79 m
+ B. 2 m
+- Mathematics Q62: missing A,B,C,D
+  Snippet:
+  Q62. The molar solubility(s) of zirconium phosphate with molecular formula (Zr 4+ ) 3 is given by rel ation :
+A. B.
+C. D.
+- Mathematics Q63: missing A,B,C,D
+  Snippet:
+  Q63. The most stable carbocation from the following is :
+A. B.
+C. D.
+- Mathematics Q67: missing B,D
+  Snippet:
+  Q67. Identify the homoleptic complex(es) that is/are low spin. A. [Fe(CN) 5 NO] 2 B. [CoF 6 ] 3 C. [Fe( CN) 6 ] 4 D. [Co(NH 3 ) 6 ] 3+ (E) [ Cr(H 2 O) 6 ] 2+ Choose the correct answer from the options given bel ow :
+ A. B. and (E) only
+ B. A. and C. only
+- Mathematics Q68: missing A,B,C,D
+  Snippet:
+  Q68. Residue A. + HCl (dil.) Compound B. Formed respectivel y is : [A] [B]
+A. B.
+C. D.
+- Mathematics Q1: missing A,B,C,D
+  Snippet:
+  Q1. 10
+
+Q2. 4
+- Mathematics Q73: missing A,B,C,D
+  Snippet:
+  Q73. The complex of Ni 2+ ion and dimet hyl glyoxime cont ains ______ number of Hydrogen ( H) atoms.
+Answer: A
+- Mathematics Q74: missing A,B,C,D,Answer
+  Snippet:
+  Q74. Consider the following cases of standard enthalpy of reaction The magnitude of is ______ kJ mol 1 (Nearest integer). Ans. (95) Sol. 2C (graphite) + 3H 2 (g) C 2 H 6 (g) H f = ? C 2 H 6 (g) + O 2 (g) 2CO 2 (g) + 3H 2 O( l ) H 1 = 1550 C (graphite) + O 2 (g) CO 2 (g) H 2 = 393.5 H 2 (g) + O 2 (g) H 2 O(/) H 3 = 286 H f = 2 H 2 + 3 H 3 H 1 = 95 kJ/mole.
+
+Q75. 20 mL of 2 M NaOH solution is added to 400 mL of 0.5 M NaOH solution. The final concentration of the solution is ______ × 10 2 M. (Nearest integer ). Ans. (57) Sol. M F = = 0.571M = 57.1 × 10 2 M = 57

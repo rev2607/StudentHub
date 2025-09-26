@@ -11,7 +11,7 @@ from typing import List
 load_dotenv()
 PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY")
 if not PERPLEXITY_API_KEY:
-    print("⚠️ PERPLEXITY_API_KEY not set. /api/colleges will be unavailable.")
+    raise ValueError("API Key not found! Ensure PERPLEXITY_API_KEY is set in your .env file.")
 
 # Initialize FastAPI app and Router
 app = FastAPI(title="Student Hub API")
@@ -64,8 +64,6 @@ def extract_json_from_response(content: str) -> List[dict]:
 
 # Helper: Query Perplexity AI and handle responses
 def query_perplexity(prompt: str) -> List[dict]:
-    if not PERPLEXITY_API_KEY:
-        raise HTTPException(status_code=503, detail="Colleges endpoint unavailable. Missing PERPLEXITY_API_KEY.")
     url = "https://api.perplexity.ai/chat/completions"
     headers = {
         "Authorization": f"Bearer {PERPLEXITY_API_KEY}",

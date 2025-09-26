@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { navigateToNewsPage } from "../navigationToNewsPage";
-import { supabase } from "../../../lib/supabaseClient";
+import axios from "axios";
 import latestNewsImg from "../../../assets/latest_news.png";
 
 // const customGreen = "#8cc542";
@@ -66,36 +66,55 @@ const LatestNews = () => {
 
   useEffect(() => {
     const fetchNews = async () => {
+      console.log("🚀 LatestNews: Starting to fetch news from API...");
       setLoading(true);
       setError(null);
-
+      
       try {
-        const { data: articles, error: sbError } = await supabase
-          .from("news_articles")
-          .select("id, title, date, snippet, link, image_url")
-          .order("date", { ascending: false })
-          .limit(6);
-
-        if (sbError) throw sbError;
-
-        if (articles && articles.length > 0) {
-          const transformed = articles.slice(0, 3).map((item, index) => ({
-            id: item.id ?? index + 1,
+        console.log("🌐 LatestNews: Making API call to: http://localhost:8000/api/news/");
+        
+        // Try with fetch first to see if it's an axios issue
+        const fetchResponse = await fetch("http://localhost:8000/api/news/");
+        console.log("🌐 LatestNews: Fetch response status:", fetchResponse.status);
+        const fetchData = await fetchResponse.json();
+        console.log("🌐 LatestNews: Fetch data:", fetchData);
+        
+        const response = await axios.get("http://localhost:8000/api/news/");
+        console.log("✅ LatestNews API Response:", response);
+        console.log("📊 LatestNews Data received:", response.data);
+        console.log("📊 LatestNews Response status:", response.status);
+        console.log("📊 LatestNews Response headers:", response.headers);
+        
+        // Use fetch data if axios fails, otherwise use axios data
+        const newsData = Array.isArray(fetchData) && fetchData.length > 0 ? fetchData : response.data;
+        
+        if (newsData && Array.isArray(newsData) && newsData.length > 0) {
+          // Transform API data to match component's expected format
+          const transformedData = newsData.slice(0, 3).map((item, index) => ({
+            id: index + 1,
             imgSrc: item.image_url || latestNewsImg,
-            date: new Date(item.date).toLocaleDateString("en-US", {
-              year: "numeric",
-              month: "long",
-              day: "numeric",
+            date: new Date(item.date).toLocaleDateString('en-US', { 
+              year: 'numeric', 
+              month: 'long', 
+              day: 'numeric' 
             }),
             author: "Admin",
             title: item.title,
-            readMoreUrl: item.link,
+            readMoreUrl: item.read_more_url
           }));
-          setData(transformed);
+          
+                  console.log("🔄 LatestNews: Transformed data:", transformedData);
+                  setData(transformedData);
+                  console.log("✅ LatestNews: Data updated successfully!");
+        } else {
+          console.log("⚠️ LatestNews: No data received or empty array");
+          console.log("⚠️ LatestNews: Fetch data:", fetchData);
+          console.log("⚠️ LatestNews: Axios data:", response.data);
         }
       } catch (err) {
-        console.error("LatestNews: Supabase fetch failed", err);
+        console.error("❌ LatestNews: Error fetching news:", err);
         setError("Failed to fetch latest news");
+        // Keep the default static data on error
       } finally {
         setLoading(false);
       }
@@ -119,18 +138,21 @@ const LatestNews = () => {
           <button className="bg-white font-light text-black border border-[var(--site-green)] px-3 sm:px-4 py-2 rounded-full text-sm">College Alerts</button>
           <button className="bg-white font-light text-black border border-[var(--site-green)] px-3 sm:px-4 py-2 rounded-full text-sm">Admission Alerts</button>
         </div>
+        
         {loading && (
           <div className="text-center py-8">
             <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-[var(--site-green)]"></div>
             <p className="mt-2 text-gray-600">Loading latest news...</p>
           </div>
         )}
+        
         {error && (
           <div className="text-center py-8 text-red-500">
             <p>{error}</p>
             <p className="text-sm text-gray-500 mt-1">Showing cached news instead</p>
           </div>
         )}
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {data.map((article) => (
             <div 
@@ -158,10 +180,10 @@ const LatestNews = () => {
                   <span className="ml-1">{article.author}</span>
                 </div>
                 <h2 className="text-base sm:text-lg font-bold text-gray-800 mb-4">{article.title}</h2>
-                <button className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-4 sm:px-6 py-2 rounded-full flex items-center justify-center font-light transition w-full sm:w-auto" onClick={() => navigateToNewsPage(navigate, article.readMoreUrl, article.title)}>
-                  Read More
-                  <ArrowRightCircle />
-                </button>
+                        <button className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-4 sm:px-6 py-2 rounded-full flex items-center justify-center font-light transition w-full sm:w-auto" onClick={() => navigateToNewsPage(navigate, article.readMoreUrl, article.title)}>
+                          Read More
+                          <ArrowRightCircle />
+                        </button>
               </div>
             </div>
           ))}

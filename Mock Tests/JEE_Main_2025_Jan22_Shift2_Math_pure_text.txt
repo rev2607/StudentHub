@@ -1,0 +1,469 @@
+JEE Main 2025 — Jan 22 Shift 2 — Mathematics — Extracted (pure text)
+
+Q1. Let , , and be the coefficients of x 7 , x 5 , x 3 and x respectively in the expansion of , x > 1. If u and v satisfy the equations u + v = 18, u + v = 20, then u + v equals :
+  A. 5
+  B. 4
+  C. 3
+  D. 8
+Answer: A
+
+Q2. In a group of 3 girls and 4 boys, there are two boys B 1 and B 2 . The number of ways, in which these girls and boys can stand i n a queue such t hat all the girls stand together , all the boys stand toget her , but B 1 and B 2 are not adjacent to each other , is :
+  A. 144
+  B. 72
+  C. 96
+  D. 120
+Answer: A
+
+Q3. Let P be a point on the parabol a y 2 = 4ax and PQ be a focal chord of the parabola. If M and N ar e the foot of perpendiculars drawn from P and Q respectivel y on the directrix of the parabola, then the ar ea of the quadrilateral PQMN is equal to:
+  A. 
+  B. 
+  C. 
+  D. 
+Answer: C
+
+Q4. For a 3 × 3 matrix M, let trace (M) denote the sum of all the diagonal el ements of M. Let A be a 3 × 3 matrix such that |A| = and trace (A) = 3. If B = adj (adj(2A)), then the val ue of|B| + trace(B) equals:
+  A. 56
+  B. 132
+  C. 174
+  D. 280
+Answer: D
+
+Q5. Suppose that the number of terms in an A.P. is 2k, k N. If the sum of all odd terms of the A.P. is 40, the sum of all even terms is 55 and the last term of the A.P. exceeds the first term by 27, then k is equal to
+  A. 5
+  B. 8
+  C. 6
+  D. 4
+Answer: A
+
+Q6. Let a line pass through two distinct points P( 2, 1, 3) and Q, and be par allel to the vector . If the distance of the poi nt Q from the pointR(1, 3, 3) is 5, then the square of the area of PQR is equal to:
+  A. 136
+  B. 140
+  C. 144
+  D. 148
+Answer: A
+
+Q7. If = , then the value of equals :
+  A. e
+  B. e 2
+  C. e 2
+  D. e 1 A ns. (1) Sol. = (1 f orm) = e L Where L = L = L = L = L = L = = log = Requi red value = = e 3
+
+Q8. Let f(x) = dt, x R . Then the numbers of local maximum and local minimum points of f, respectivel y, are :
+  A. 2 and 3
+  B. 3 and 2
+  C. 1 and 3
+  D. 2 and 2
+Answer: A
+
+Q9. The perpendicular distance, of the line from the point P(2, 10,1), is:
+  A. 6
+  B. 
+  C. 
+  D. 
+Answer: C
+
+Q10. If x = f(y) is the solution of the differential equation (1 + y 2 ) + = 0, y with f(0) = 1,then f is equal to :
+  A. e /4
+  B. e /12
+  C. e /3
+  D. e /6
+Answer: D
+
+Q11. If dx = g(x)+ C, wher e C is the constant of integration, then equals :
+  A. 
+  B. 
+  C. 
+  D. 
+Answer: C
+
+Q12. Let and be the distinct roots of 2x 2 + (cos )x 1 = 0, (0, 2 ). If m and M ar e the minimum and the maximum val ues of , then 16(M + m) equals :
+  A. 24
+  B. 25
+  C. 27
+  D. 17
+Answer: B
+
+Q13. Let A = {1, 2, 3, 4} and B = {1, 4, 9, 16}. Then t he number of many-one functions f : A B such that 1 f(A) is equal to :
+  A. 127
+  B. 151
+  C. 163
+  D. 139
+Answer: B
+
+Q14. If the system of linear equations : x + y + 2 z = 6, 2x + 3y + az = a + 1, x 3y +bz = 2b, wher e a, b R , ha s infinitel y many solutions, then 7a + 3b is equal to :
+  A. 9
+  B. 12
+  C. 16
+  D. 22
+Answer: C
+
+Q15. Let and be two unit vect ors such that the angl e bet ween them is . If and ar e perpendicular to each other, then the number of val ues of in [ 1, 3] is :
+  A. 3
+  B. 2
+  C. 1
+  D. 0
+Answer: D
+
+Q16. Let E : = 1, a > b and H : = 1. Let the distance between the foci of E and the foci of H be . If a A = 2, and the ratio of the eccentricities of E and H is , then the sum of the lengths of their latus rectums is equal to :
+  A. 10
+  B. 7
+  C. 8
+  D. 9
+Answer: C
+
+Q17. If A and B are two events such that = 0.1, and and ar e the roots of the equation 12x 2 7x + 1 = 0, then the value of is:
+  A. 
+  B. 
+  C. 
+  D. 
+Answer: C
+
+Q18. The sum of all values of [0, 2 ] satisf ying 2sin 2 = cos2 and 2cos 2 = 3sin is
+  A. 
+  B. 4
+  C. 
+  D. 
+Answer: D
+
+Q19. Let the curve z( 1 + i) + = 4, z C, divide the region |z 3| 1 into two par ts of areas and . Then | | equals :
+  A. 
+  B. 
+  C. 
+  D. 
+Answer: A
+
+Q20. The ar ea of the region encl osed by the curves y = x 2 4x + 4and y 2 = 16 8x is :
+  A. 
+  B. 
+  C. 5
+  D. 8
+Answer: A
+
+Q21. Let y = f(x) be the solution of the differential equation , 1 < x < 1 such that f(0) = 0. If 6 then 2 is equal to __________. Ans. (27) Sol. I.F. Given y(0) = 0 c = 0 Now, Put x = sin dx = cos d = =
+
+Q22. Let A(6, 8), B(10 cos , 10 sin ) and C ( 10 sin , 10 cos ), be the vertices of a triangle. If L(a, 9) and G(h, k) be its orthocenter and centroid respectively, then (5a 3h + 6k + 100 sin2 ) is equal to___________ Ans. (145) 7 Sol. All the three points A, B, C lie on the circle x 2 + y 2 =100 so circumcentre is ( 0, 0) a = 3h and k = 3 al so centroid 10(cos sin ) = 3h 6 and 10(cos sin ) = 3k 8 = 9 8 = 1 on squaring 100(1 sin2 ) = 1 100sin2 = 99 from equ. (i) and (ii) we get h = Now 5 a 3h +6k + 100 sin2 = 15h 3h + 6k+ 100sin2 = 12 × + 18 + 99 = 145
+
+Q23. Let the distance between two parallel lines be 5 units and a point P lie between the lines at a unit distance from one of them . An equilater al triangle PQR is formed such that Q lies on one of the par allel lines, while R lies on the other. Then ( QR) 2 is equal to ________. Ans. (28) Sol. PR = cosec , PQ =4sec( 30 + ) For equilater al d = PR = PQ cos( + 30°) = 4sin QR 2 = d 2 = cosec 2 = 28
+
+Q24. If = × 2 29 , then is equal to ______. Ans. (465) Sol. = = = = = = 30(29 × 2 28 + 2 29 ) = 30(29 + 2)2 28 = 15 × 31 × 2 29 = 465(2 29 ) = 465
+
+Q25. Let A = {1, 2, 3}. The number of relations on A, cont aining (1, 2) and (2, 3), which are reflexive and transitive but not symmetric, is ______. Ans. (3) Sol. Transitivity (1, 2) R, (2, 3) R (1, 3) R For reflexive (1, 1), (2, 2) (3, 3) R Now (2, 1), (3, 2), (3, 1) (3, 1) cannot be taken
+  A. (2, 1) taken and (3, 2) not taken
+  B. (3, 2) taken and (2, 1) not taken
+  C. Sol. Transitivity (1, 2) R, (2, 3) R (1, 3) R For reflexive (1, 1), (2, 2) (3, 3) R Now (2, 1), (3, 2), (3, 1) (3, 1) cannot be taken (1)(2, 1) taken and (3, 2) not taken (2)(3, 2) taken and (2, 1) not taken (3)Both not taken theref ore 3 relations are possible. 1 JEE MAIN EXAMINATION JANUARY 2025 PHYSICS TEST PAPER WITH S O L U T I O N (HELD ON WEDNESDAY 22 n d JANUARY 2025) TIME : 3 : 00 PM TO 6 : 00 PM SECTION-A
+Answer: C
+
+Q26. A symmetric thin biconvex lens is cut into four equal parts by two planes AB and CD as shown in figure. If the power of original lens is 4D then the power of a part of the divided l ens is
+  A. 8D
+  B. 4D
+  C. D
+  D. 2D
+Answer: D
+
+Q27. A small rigid spherical ball of mass M is dropped in a long vertical tube containing glycerine. The vel ocity of the ball becomes constant after some time. If the density of glycerine is half of the density of the ball, then the viscous force acting on the ball will be (consider g as acceleration due t o gravity)
+  A. 
+  B. 
+  C. Mg
+  D. 2 Mg
+Answer: B
+
+Q28. The maximum percentage er ror in the measurment of density of a wire is [Given, mass of wire = (0.60 ± 0.003)g radius of wire = (0.50 ± 0.01)cm length of wire (10.00 ± 0.05)cm]
+  A. 4
+  B. 5
+  C. 8
+  D. 7
+Answer: B
+
+Q29. A series LCR ci rcuit is connected to an alternating sour ce of emf E. The current amplitude at resonant frequency is I 0 . If the val ue of resistance R becomes twice of its initial val ue t hen amplitude of cur rent at resonance will be
+  A. I 0
+  B. 
+  C. 
+  D. 2I 0
+Answer: B
+
+Q30. For a short dipole placed at origin O, the dipole moment P is along x-axis, as shown in the figure. If the electric potential and electric field at A are V 0 and E 0 , respectively, then the correct com bination of the electric potential and electric field, respectively, at point B on the y-axis is given by
+  A. and
+  B. zer o and
+  C. zer o and
+  D. V 0 and
+Answer: C
+
+Q31. Whi ch one of the following is the correct dimensional formula for the capacitance in F ? M, L, T and C stand for unit of mass, length, time and charge,
+  A. [F] = [C 2 M 2 L 2 T 2 ]
+  B. [F] = [CM 2 L 2 T 2 ]
+  C. [F] = [CM 1 L 2 T 2 ]
+  D. [F] = [C 2 M 1 L 2 T 2 ]
+Answer: D
+
+Q32. An el ectron projected perpendicular to a uniform magnetic field B moves in a circle. If Bohr's quantization is applicable, then the radius of the el ectronic or bit in the first exci ted state is :
+  A. 
+  B. 
+  C. 
+  D. 
+Answer: D
+
+Q33. For a diatomic gas, if for rigid molecules and for another diatomic molecules, but also having vibrational modes. Then, which one of the following options is cor rect ? ( Cp and Cv are specific heats of the gas at constant pressure and volume)
+  A. 2 > 1
+  B. 2 = 1
+  C. 2 2 = 1
+  D. 2 < 1
+Answer: D
+
+Q34. A rectangular metallic loop is moving out of a uniform magnetic field region to a field free region with a constant speed. When the loop is partially inside the magnate field, the plot of magnitude of induced emf ( ) with time (t) is given by
+  A. 
+  B. 
+  C. 
+  D. 
+Answer: D
+
+Q35. A light source of wavelength illuminates a met al sur face and electrons ar e ej ected with maximum kinetic energy of 2 eV. If the same surface is illuminated by a light source of wavelength , then the maximumkinetic energy ofejected electrons willbe(Theworkfunctionofmetal is1 eV)
+  A. 2 eV
+  B. 6 eV
+  C. 5 eV
+  D. 3 eV
+Answer: C
+
+Q36. Given below are two statements. One is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A) : A simple pendul um is taken to a planet of mass and radius, 4 times and 2 times, respectively, than the Earth. The time period of the pendulum remains same on earth and the planet. Reason (R) : The mass of the pendulum remai ns unchanged at Earth and the other planet. In the light of the above statements, choose the correct answer from the options given below :
+  A. Both (A) and (R) ar e true but (R) is NOT the cor rect explanation of (A)
+  B. (A) is true but (R) is false
+  C. (A) is false but (R) is true
+  D. Both (A) and (R) ar e true and (R) is the correct expl anation of (A)
+Answer: A
+
+Q37. The torque due to the force about the origin, acting on a particl e whose position vector is , would be
+  A. 
+  B. 
+  C. 
+  D. 
+Answer: C
+
+Q38. To obtain the given truth table, following logic NTA Ans.
+  A. Sol. For NOR gate : gat e should be placed at G : (1)NOR Gate
+  B. AND Gate
+  C. NAND Gat e
+  D. OR Gate 4 Trut h table Bonus
+Answer: A
+
+Q39. A force is applied on a particle and it under goes a displacement . What will be the value of b, if work done on the particle is zero.
+  A. 0
+  B. 
+  C. 
+  D. 2
+Answer: B
+
+Q40. Given below ar e two statements. On is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A) : the fringes produced by red light ar e closer as com par ed to those produced by blue light. Reason (R) : The fringe width is directly proportional to the wavelength of light. In the light of above statements, choose the correct answer from the options given bel ow :
+  A. Both (A) and (R) are true and (R) is the correct expl anation of (A)
+  B. (A) is false but (R) is true.
+  C. Both (A) and (R) ar e true but (R) is NOT the cor rect explanation of (A) .
+  D. (A) is true but (R) is false.
+Answer: B
+
+Q41. A ball of mass 100 g is projected with velocity 20 m/s at 60° with horizontal. The decrease in kinetic ener gy of the ball during the motion from point of projection to highest point is :
+  A. 20 J
+  B. 15 J
+  C. zer o
+  D. 5 J
+Answer: B
+
+Q42. A transparent film of refractive i ndex, 2.0 is coated on a glass slab of refractive index, 1.45. What is the minimum thickness of transparent film to be coated for the maximum transmission of Green light of wavelength 550 nm. [Assume that the light is inci dent nearly perpendicular to the glass sur face.]
+  A. 94.8 nm
+  B. 68.7 nm
+  C. 137.5 nm
+  D. 275 nm
+Answer: C
+
+Q43. The tube of length L is shown in the figure. The radius of cross section at the point
+  A. is 2 cm and at the point
+  B. is 1 cm, respectively. If the velocity of wat er entering at point (1) is 2 m/s, then vel ocity of water leaving the point (2) will be : (1)2 m/s (2)4 m/s
+  C. 6 m/s
+  D. 8 m/s
+Answer: D
+
+Q44. Given are statements for certain thermodynamic var iables, (A)Internal energy, volume (V) and mass (M) ar e ext ensive variables. (B)Pressure (P), temperature (T) and density ( ) ar e intensive variables. (C)Volume (V), temperature (T) and density ( ) ar e intensive variables. (D) Mass (M) , tem per ature (T) and internal ener gy ar e extensive variables. Choose the correct answer from the points given bel ow :
+  A. (C) and (D) only
+  B. (D) and (A) only
+  C. (A) and (B) only
+  D. (B) and (C) only
+Answer: C
+
+Q45. A body of mass 100 g is moving in circular pat h of radius 2 m on vertical plane as shown in figure. The velocity of the body at point A is 10 m/s. The ratio of its kinetic ener gies at point B and C is : (Takeacceleration due to gravity as 10 m/s 2 )
+  A. 
+  B. 
+  C. 
+  D. 
+Answer: C
+
+Q46. A proton is moving undeflect ed in a region of cr ossed electric and magnet ic fiel ds at a constant speed of 2 × 10 5 ms 1 . When the el ectric field is switched off, the proton moves along a circular pat h of radi us 2 cm. The magnitude of electric field is x × 10 4 N/C. the value of x is _____. Take the mass of the proton = 1.6 × 10 27 kg. Ans. (2) Sol. For uniform speed V = R = = E = = = 2 × 10 4 N/C.
+Answer: B
+
+Q47. Two long par allel wires X and Y, separ ated by a distance of 6 cm , carry currents of 5A and 4A, respectively, in opposite directions as shown in the figure. Magnitude of the resultant magnetic field at point P at a distance of 4 cm from wire Y is x × 10 5 T. The value of x is ________. Take permeability of free space as 0 = 4 × 10 7 SI units. Ans.
+  A. Sol. B = = = 100 × 10 7 = 1 × 10 5 T
+Answer: A
+
+Q48. A par allel plate capacitor of area A = 16 cm 2 and separation between the plates 10 cm, is char ged by a DC cur rent. Consider a hypothetical plane sur face of area A 0 = 3.2 cm 2 inside the capacitor and parallel to the plates. At an instant, the current through the circuit is 6A. At the same instant the displacement current through A 0 is ________ mA. Ans. (1200) Sol. J d = I through small area = J d × × 3.2 = 1.2A =1200mA
+
+Q49. A tube of length 1m is filled completely with an ideal liquid of mass 2M, and cl osed at both ends. The tube is rotated uniformly in horizontal plane about one of its ends. If the force exerted by the liquid at the other end is F then angular vel ocity of the tube is in SI unit. The val ue of is ______. Ans.
+  A. Sol. F = 2M 2 = Mw 2 =
+Answer: A
+
+Q50. The net current flowing in the given circuit is _______ A. Ans.
+  A. Sol. R eq = 2 I = = 1A 1 JEE MAIN EXAMINATION JANUARY 2025 CHEMISTRY TEST PAPER WITH SOLUTION S (HELD ON WEDNESDAY 22 n d JANUARY 2025) TIME : 3 : 00 PM TO 6 : 00 PM SECTION-A
+Answer: A
+
+Q51. Arrange the following compounds in increasing order of their dipole moment : HBr, H 2 S, NF 3 and CHCl 3
+  A. NF 3 < HBr < H 2 S < CHCl 3
+  B. HBr < H 2 S < NF 3 < CHCl 3
+  C. H 2 S < HBr < NF 3 < CHCl 3
+  D. CHCl 3 < NF 3 < HBr <H 2 S
+Answer: A
+
+Q52. Identify the number of structure/s from the following which can be correlated to D-glyceraldehyde.
+  A. three
+  B. t wo
+  C. four
+  D. one
+Answer: A
+
+Q53. The maximu m coval ency of a non-met al lic group 15 element 'E' with weakest E E bond is :
+  A. 5
+  B. 3
+  C. 6
+  D. 4
+Answer: D
+
+Q54. Consider the given figure and choose the correct option :
+  A. Activation energy of backwar d reaction is E 1 and product is more stable than reactant.
+  B. Activation energy of forward reaction is E 1 + E 2 and product is more stable than reactant.
+  C. Activation energy of forward reaction is E 1 + E 2 and product is less stable t han reactant.
+  D. Act ivation energy of both forwar d and backwar d reaction is E 1 + E 2 and reactant is more stable than product .
+Answer: C
+
+Q55. When sec-butylcycl ohexane reacts with bromine in the presence of sunlight, the major product is :
+  A. 
+  B. 
+  C. 
+  D. 
+Answer: D
+
+Q56. The species whichdoes not under go disproportionation reaction is :
+  A. 
+  B. 
+  C. ClO
+  D. 
+Answer: B
+
+Q57. Match the Compounds (List- I) with the appr opriate Catal yst/Reagents (List-II) for their redu ct ion into corresponding amines. List - I (Compounds) List - II (Cata lyst/Reag ents) (A) (I) NaOH (aqueous) (B) (II) H 2 /Ni (C) R C N (III) LiAlH 4 , H 2 O (D) (IV ) Sn, HCl Choose the correct answer from the options given bel ow :
+  A. (A)-(III), (B)-(II), (C)-(IV ), (D)-(I)
+  B. (A)-(II), (B)-(IV ), (C)-(III), (D)-(I)
+  C. (A)-(II), (B)-(I), (C)-(III), (D)-(IV)
+  D. (A)-(III), (B)-(IV ), (C)-(II), (D)-(I)
+Answer: D
+
+Q58. The maxi mu m nu mber of RBr produci ng 2-met h ylbutane by above sequence of reactions is _____. (Consider the structural isomer s only)
+  A. 4
+  B. 5
+  C. 3
+  D. 1
+Answer: A
+
+Q59. Match List-I with List- II . List - I (Partial Derivatives) List - II (Thermodynamic Quantity) (A) (I) C P (B) (II) S (C) (III) C V (D) (IV ) V Choose the correct answer from the options given bel ow :
+  A. (A)-(II), (B)-(I), (C)-(III), (D)-(IV)
+  B. (A)-(II), (B)-(I), (C)-(IV), (D)-(III)
+  C. (A)-(I), (B)-(II), (C)-(IV), (D)-(III)
+  D. (A)-(II), (B)-(III), (C)-(I), (D)-(IV)
+Answer: B
+
+Q60. The correct order of the following complexes in ter ms of their cr ystal field stabilizat ion energies is :
+  A. [ Co (NH 3 ) 4 ] 2+ <[ Co (NH 3 ) 6 ] 2+ <[ Co(en ) 3 ] 3+ <[ Co (NH 3 ) 6 ] 3+
+  B. [ Co (NH 3 ) 4 ] 2+ <[ Co (NH 3 ) 6 ] 2+ <[ Co(NH 3 ) 6 ] 3+ <[ Co (en ) 3 ] 3+
+  C. [ Co (NH 3 ) 6 ] 2+ <[ Co (NH 3 ) 6 ] 3+ <[ Co(NH 3 ) 4 ] 2+ <[ Co (en ) 3 ] 3+
+  D. [ Co ( en ) 3 ] 3+ <[ Co (NH 3 ) 6 ] 3+ <[Co (NH 3 ) 6 ] 2+ <[ Co ( NH 3 ) 4 ] 2+
+Answer: B
+
+Q61. Density of 3 M NaCl solution is 1.25 g/mL. The molal ity of the solution is :
+  A. 1.79 m
+  B. 2 m
+  C. 3 m
+  D. 2.79 m
+Answer: D
+
+Q62. The molar solubility(s) of zirconium phosphate with molecular formula (Zr 4+ ) 3 is given by rel ation :
+  A. 
+  B. 
+  C. 
+  D. 
+Answer: A
+
+Q63. The most stable carbocation from the following is :
+  A. 
+  B. 
+  C. 
+  D. 
+Answer: A
+
+Q64. Given below are two statements : Stat ement (I) : An element in the extreme left of the periodic table forms acidic oxides. Statement (II) : Acid is formed during the reaction between water and oxide of a reactive element present in the extreme right of the periodic table. In the light of the above statement s, choose the correct answer from the options given below :
+  A. Statement-I is false but Statem ent- II is true.
+  B. Both Statement-I and Stat ement- II are false.
+  C. Statement-I is true but Stat ement- II is false.
+  D. Both Statement-I and Stat ement- II are true.
+Answer: A
+
+Q65. Given below are two statements : Stat ement (I) : A spectral line will be observed f or a 2p x 2p y t ransition. Stat ement (II) : 2p x and 2p y ar e degenerate orbitals. In the light of the above statement s, choose the correct answer from the options given below :
+  A. Both Statement-I and Stat ement- II are true.
+  B. Both Statement-I and Stat ement- II are false.
+  C. Statement-I is true but Stat ement- II is false.
+  D. Statement-I is false but Statem ent- II is true.
+Answer: D
+
+Q66. Given bel ow are two statement : Stat ement (I) : Nitrogen, sulphur, halogen and phosphorus present in an organi c compound are Stat ement (II) : The element s present in the compound ar e converted from covalent form into ionic form by fusing the compound with In the light of the above statement s, choose the correct answer from the options given below :
+  A. Both Statement I and Stat ement II ar e t rue
+  B. Bo t h Statement I and Statement II ar e f alse
+  C. Statement I is true but Statement II is false
+  D. Statement I is false but Statement II is true
+Answer: C
+
+Q67. Identify the homoleptic complex(es) that is/are low spin. (A)[Fe(CN) 5 NO] 2 (B)[CoF 6 ] 3 (C)[Fe( CN) 6 ] 4 (D)[Co(NH 3 ) 6 ] 3+ (E) [ Cr(H 2 O) 6 ] 2+ Choose the correct answer from the options given bel ow :
+  A. (B) and (E) only
+  B. (A) and (C) only
+  C. (C) and (D) only
+  D. (C) only
+Answer: C
+
+Q68. Residue ( A) + HCl (dil.) Compound (B) Formed respectivel y is : [A] [B]
+  A. 
+  B. 
+  C. 
+  D. 
+Answer: D
+
+Q69. Given below are two statements : Stat ement (I) : Corrosion is an electrochemical phenomenon in which pure met al acts as an anode and i mpure met al as a cathode. Stat ement (II) : The rate of corrosion is more in al kal ine medi um than in acidic medi um. In the light of the above statement s, choose the correct answer from the options given below :
+  A. Both Statement I and Stat ement II ar e f alse
+  B. Statement I is false but Statement II is true
+  C. Both Statement I and Stat ement II ar e t rue
+  D. Statement I is true but Statement II is f alse
+Answer: D
+
+Q70. The al kane from bel ow having two secondar y hydrogens is :
+  A. 4-Ethyl-3,4-dimet hyloctane
+  B. 2,2,4,4-Tetramet hylhexane
+  C. 2,2,3,3-Tetramet hylpentane
+  D. 2,2,4,5-Tetramet hylheptane
+Answer: C
+
+Q1. 10
+
+Q2. 4
+
+Q3. 2
+
+Q4. 4 SECTION-B
+
+Q71. The compound with mo lecular formula C 6 H 6 , which gives only one mo nobromo derivative and takes up four moles of hydrogen per mole for complet e hydrogenation has _______ el ectrons. Sol.
+
+Q72. ctrons in their respective 4d orbitals. The val ue of x + y is _______ Ans. (11) Sol. Z = 41 Nb (Niobium) : [K r] 36 4d 4 5s 1 Number of electron in 4d = 4 = x Z = 44 Ru (Ruthenium) [Kr] 36 4d 7 5s 1 Number of electron in 4d = 7 = y x + y = 11
+
+Q73. The complex of Ni 2+ ion and dimet hyl glyoxime cont ains ______ number of Hydrogen ( H) atoms. Ans. (14) Sol. [Ni(dmg) 2 ] Number of H-at o m = 14
+
+Q74. Consider the following cases of standard enthalpy of reaction The magnitude of is ______ kJ mol 1 (Nearest integer). Ans. (95) Sol. 2C (graphite) + 3H 2 (g) C 2 H 6 (g) H f = ? C 2 H 6 (g) + O 2 (g) 2CO 2 (g) + 3H 2 O( l ) H 1 = 1550 C (graphite) + O 2 (g) CO 2 (g) H 2 = 393.5 H 2 (g) + O 2 (g) H 2 O(/) H 3 = 286 H f = 2 H 2 + 3 H 3 H 1 = 95 kJ/mole.
+
+Q75. 20 mL of 2 M NaOH solution is added to 400 mL of 0.5 M NaOH solution. The final concentration of the solution is ______ × 10 2 M. (Nearest integer ). Ans. (57) Sol. M F = = 0.571M = 57.1 × 10 2 M = 57

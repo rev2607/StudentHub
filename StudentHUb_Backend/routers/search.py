@@ -10,7 +10,7 @@ from typing import List, Dict, Any
 load_dotenv()
 PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY")
 if not PERPLEXITY_API_KEY:
-    print("⚠️ PERPLEXITY_API_KEY not set. /api/search will be unavailable.")
+    raise ValueError("API Key not found! Ensure you have set PERPLEXITY_API_KEY in your .env file.")
 
 # FastAPI Router
 router = APIRouter(prefix="/api/search", tags=["search"])
@@ -114,8 +114,6 @@ def query_perplexity(user_input: str) -> Dict[str, Any]:
 async def search(request: SearchRequest):
     if not request.query:
         raise HTTPException(status_code=400, detail="Query cannot be empty.")
-    if not PERPLEXITY_API_KEY:
-        raise HTTPException(status_code=503, detail="Search temporarily unavailable. Missing PERPLEXITY_API_KEY.")
 
     result = query_perplexity(request.query)
     return {
