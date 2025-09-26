@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import axios from "axios";
+import { supabase } from "../../../lib/supabaseClient";
 import { useNavigate } from "react-router-dom";
 
 import { navigateToNewsPage } from "../navigationToNewsPage";
@@ -31,42 +31,38 @@ function NewsItemTop() {
   const maxIndex = Math.ceil(newsItems.length / itemsPerSlide) - 1;
 
   const fetchNews = async () => {
-      console.log("🚀 NewsItemTop: Starting to fetch news from API...");
       setLoading(true);
       setError(null);
 
       try {
-        console.log("🌐 NewsItemTop: Making API call to: http://localhost:8000/api/news/");
-        const response = await axios.get("http://localhost:8000/api/news/");
-        console.log("✅ NewsItemTop API Response:", response);
-        console.log("📊 NewsItemTop Response status:", response.status);
-        console.log("📊 NewsItemTop Response data type:", typeof response.data);
-        console.log("📊 NewsItemTop Response data length:", Array.isArray(response.data) ? response.data.length : 'not an array');
+        const { data, error: sbError } = await supabase
+          .from("news_articles")
+          .select("id, title, date, snippet, link, image_url")
+          .order("date", { ascending: false })
+          .limit(12);
 
-        if (response.data && Array.isArray(response.data) && response.data.length > 0) {
-          // Transform API data to match component's expected format
-          const transformedData = response.data.map((item, index) => ({
+        if (sbError) throw sbError;
+
+        if (data && data.length > 0) {
+          const transformedData: NewsItemTopProps[] = data.map((item, index) => ({
             id: index + 1,
-            title: item.title,
-            date: new Date(item.date).toLocaleDateString('en-US', {
+            title: item.title as string,
+            date: new Date(item.date as string).toLocaleDateString('en-US', {
               year: 'numeric',
               month: 'long',
               day: 'numeric'
             }),
-            description: item.description || item.snippet,
-            image_url: item.image_url || "https://placehold.co/200x150.png",
-            read_more_url: item.read_more_url || item.link
+            description: (item as any).snippet as string,
+            image_url: (item.image_url as string) || "https://placehold.co/200x150.png",
+            read_more_url: (item.link as string)
           }));
 
-          console.log("🔄 NewsItemTop: Transformed data:", transformedData);
           setNewsItens(transformedData);
-          console.log("✅ NewsItemTop: Data updated successfully!");
         } else {
-          console.log("⚠️ NewsItemTop: No data received, using fallback");
           setNewsItens(tempData); // fallback to static data
         }
       } catch (err) {
-        console.error("❌ NewsItemTop: Error fetching news:", err);
+        console.error("NewsItemTop: Supabase fetch failed", err);
         setError("Failed to fetch news");
         setNewsItens(tempData); // fallback to static data
       } finally {
@@ -136,8 +132,6 @@ function NewsItemTop() {
                             <div>
                               <div className="flex items-center gap-2 text-sm text-gray-600 mb-2">
                                 <span className="text-xs">{item.date}</span>
-                                {/* <span>|</span> */}
-                                {/* <span>{item.time}</span> */}
                               </div>
                               <h3 className="text-xs font-semibold text-gray-900 mb-3 line-clamp-2">{item.title}</h3>
                             </div>
