@@ -11,7 +11,7 @@ from typing import List
 load_dotenv()
 PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY")
 if not PERPLEXITY_API_KEY:
-    raise ValueError("API Key not found! Ensure PERPLEXITY_API_KEY is set in your .env file.")
+    print("⚠️ PERPLEXITY_API_KEY not set. Alerts endpoint will be limited.")
 
 # Initialize FastAPI app and Router
 app = FastAPI(title="Student Hub API")
@@ -81,6 +81,8 @@ def query_perplexity(category: str) -> List[dict]:
     }
 
     try:
+        if not PERPLEXITY_API_KEY:
+            raise HTTPException(status_code=503, detail="Alerts unavailable. Missing PERPLEXITY_API_KEY.")
         response = requests.post(url, json=payload, headers=headers)
         response.raise_for_status()
         data = response.json()

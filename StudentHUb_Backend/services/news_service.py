@@ -7,14 +7,18 @@ from datetime import datetime, timezone
 from typing import List, Dict
 import os
 from dotenv import load_dotenv
+from pathlib import Path
 from supabase_client import get_supabase_client
 from helpers.url_validator import get_best_valid_link, get_best_image_url, validate_url
 
 load_dotenv()
+root_env = Path(__file__).resolve().parents[1] / ".env"
+if root_env.exists():
+    load_dotenv(dotenv_path=root_env, override=False)
 
 PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY")
 if not PERPLEXITY_API_KEY:
-    raise ValueError("API Key not found! Ensure PERPLEXITY_API_KEY is set in your .env file.")
+    print("⚠️ PERPLEXITY_API_KEY not set. News refresh via Perplexity will be disabled; serving cached news only.")
 
 class NewsService:
     def __init__(self):
@@ -102,6 +106,9 @@ class NewsService:
 
     def fetch_news_from_perplexity(self) -> List[Dict]:
         """Fetch latest education news from Perplexity API"""
+        if not PERPLEXITY_API_KEY:
+            print("⚠️ Skipping Perplexity fetch: missing PERPLEXITY_API_KEY")
+            return []
         url = "https://api.perplexity.ai/chat/completions"
         headers = {
             "Authorization": f"Bearer {PERPLEXITY_API_KEY}",

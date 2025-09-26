@@ -13,7 +13,7 @@ from typing import List
 load_dotenv()
 PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY")
 if not PERPLEXITY_API_KEY:
-    raise ValueError("API Key not found! Ensure PERPLEXITY_API_KEY is set in your .env file.")
+    print("⚠️ PERPLEXITY_API_KEY not set. /api/data will be limited.")
 
 # Initialize FastAPI app and Router
 app = FastAPI(title="Student Hub API")
@@ -57,6 +57,8 @@ def extract_json_from_response(content: str) -> List[dict]:
 
 # Function to call Perplexity
 def query_perplexity(category: str) -> List[dict]:
+    if not PERPLEXITY_API_KEY:
+        raise HTTPException(status_code=503, detail="Data endpoint unavailable. Missing PERPLEXITY_API_KEY.")
     category_prompts = {
         "highest_packages": "List the top 10 colleges in India with the highest placement packages",
         "trending_courses": "List the top 10 trending and in-demand courses in India.",
