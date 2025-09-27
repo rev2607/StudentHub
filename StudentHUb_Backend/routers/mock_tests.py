@@ -98,9 +98,9 @@ async def get_questions_for_paper(exam: str, year: int, limit: Optional[int] = N
         
         questions_result = query.execute()
         
-        # For JEE Mains 2025, always return real questions instead of database placeholders
-        if exam == "JEE Mains" and year == 2025:
-            return get_mock_jee_questions(exam, year, limit)
+        # Database now contains real questions, no need for override
+        # if exam == "JEE Mains" and year == 2025:
+        #     return get_mock_jee_questions(exam, year, limit)
         
         if not questions_result.data:
             # Return mock data if no questions found in database
