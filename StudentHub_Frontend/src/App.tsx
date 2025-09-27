@@ -10,6 +10,11 @@ import SignupWithProfile from "./pages/SignupWithProfile";
 import Login from "./pages/Login";
 import ProfileEdit from "./pages/ProfileEdit";
 import RequireAuth from "./components/RequireAuth";
+import ExamsHome from "./pages/Exams/ExamsHome";
+import Eamcet from "./pages/Exams/Eamcet";
+import JeeMain from "./pages/Exams/Jeemain";
+import JeeAdvanced from "./pages/Exams/JeeAdvanced";
+import Neet from "./pages/Exams/Neet";
 
 // import Search from "./pages/Other/Search";
 // import Test from "./pages/Other/Test";
@@ -31,6 +36,14 @@ function App() {
                 <MockTests />
               </RequireAuth>
             } />
+            {/* Exams nested routes */}
+            <Route path="/exams" element={<ExamsHome />}>
+              <Route index element={<div className="text-gray-600">Select an exam above to view details.</div>} />
+              <Route path="eamcet" element={<Eamcet />} />
+              <Route path="jee-main" element={<JeeMain />} />
+              <Route path="jee-advanced" element={<JeeAdvanced />} />
+              <Route path="neet" element={<Neet />} />
+            </Route>
           </Route>
 
           {/* Auth routes */}
