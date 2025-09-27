@@ -1,7 +1,7 @@
 # backend/main.py
 import os
 from fastapi import FastAPI, Request
-from dotenv import load_dotenv
+from dotenv import load_dotenv, find_dotenv
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
@@ -9,8 +9,11 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.interval import IntervalTrigger
 import atexit
 
-# Load environment variables
+# Load environment variables (local + repo root)
 load_dotenv()
+root_env = find_dotenv(filename=".env", usecwd=True)
+if root_env:
+    load_dotenv(root_env, override=False)
 
 # Import DB setup
 from database import Base, engine
@@ -19,7 +22,7 @@ from database import Base, engine
 from services.news_service import news_service
 
 # Ensure all routers are imported correctly
-from routers import colleges, search, edu_updates, reviews, private_colleges , latest_news, auth
+from routers import colleges, search, edu_updates, reviews, private_colleges , latest_news, auth, mock_tests
 
 app = FastAPI(title="Student Hub API")
 
@@ -68,7 +71,8 @@ app.include_router(search.router)
 app.include_router(edu_updates.router)  
 app.include_router(reviews.router)
 app.include_router(latest_news.router)
-app.include_router(auth.router) 
+app.include_router(auth.router)
+app.include_router(mock_tests.router) 
 
 # Serve static files (React build)
 app.mount("/static", StaticFiles(directory="static", html=True), name="static")

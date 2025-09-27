@@ -13,7 +13,7 @@ from typing import List
 load_dotenv()
 PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY")
 if not PERPLEXITY_API_KEY:
-    raise ValueError("API Key not found! Ensure PERPLEXITY_API_KEY is set in your .env file.")
+    print("⚠️ PERPLEXITY_API_KEY not set. Review features will be limited.")
 
 # Initialize FastAPI app and Router
 app = FastAPI(title="Student Hub API")

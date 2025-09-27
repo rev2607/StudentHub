@@ -6,20 +6,23 @@ import urllib.parse
 from datetime import datetime, timezone
 from typing import List, Dict
 import os
-from dotenv import load_dotenv
+from dotenv import load_dotenv, find_dotenv
 from supabase_client import get_supabase_client
 from helpers.url_validator import get_best_valid_link, get_best_image_url, validate_url
 
-load_dotenv()
+"""Load environment variables from both backend dir and repo root if present."""
+load_dotenv()  # local .env
+root_env = find_dotenv(filename=".env", usecwd=True)
+if root_env:
+    load_dotenv(root_env, override=False)
 
 PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY")
-if not PERPLEXITY_API_KEY:
-    raise ValueError("API Key not found! Ensure PERPLEXITY_API_KEY is set in your .env file.")
 
 class NewsService:
     def __init__(self):
         self.supabase = get_supabase_client()
         self.supabase_enabled = self.supabase is not None
+        self.perplexity_enabled = bool(PERPLEXITY_API_KEY)
         if not self.supabase_enabled:
             print("⚠️ NewsService: Supabase not available, will use fallback mode")
         self.perplexity_instructions = """
@@ -102,6 +105,9 @@ class NewsService:
 
     def fetch_news_from_perplexity(self) -> List[Dict]:
         """Fetch latest education news from Perplexity API"""
+        if not self.perplexity_enabled:
+            print("ℹ️ PERPLEXITY_API_KEY not set; skipping Perplexity fetch")
+            return []
         url = "https://api.perplexity.ai/chat/completions"
         headers = {
             "Authorization": f"Bearer {PERPLEXITY_API_KEY}",

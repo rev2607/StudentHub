@@ -46,8 +46,8 @@ def get_education_updates(background_tasks: BackgroundTasks):
             background_tasks.add_task(refresh_news_cache)
             return []
         
-        # If Supabase is not available, fetch directly from Perplexity as fallback
-        print("⚠️ Supabase not available, fetching news directly from Perplexity")
+        # If Supabase is not available, try Perplexity as fallback
+        print("⚠️ Supabase not available, trying Perplexity as fallback")
         news_items = news_service.fetch_news_from_perplexity()
         
         # Transform data to match frontend expectations using processed data
@@ -62,6 +62,47 @@ def get_education_updates(background_tasks: BackgroundTasks):
                 "read_more_url": processed_item.get("link", "")
             }
             formatted_news.append(formatted_article)
+        
+        # If no news from Perplexity, return sample data
+        if not formatted_news:
+            print("ℹ️ No news from external sources, returning sample data")
+            formatted_news = [
+                {
+                    "title": "JEE Main 2025 Registration Opens",
+                    "date": "2025-01-15T10:00:00Z",
+                    "description": "National Testing Agency has opened registration for JEE Main 2025. Students can apply online until March 15, 2025.",
+                    "image_url": "https://placehold.co/400x300/4ade80/ffffff?text=JEE+Main+2025",
+                    "read_more_url": "https://jeemain.nta.ac.in/"
+                },
+                {
+                    "title": "NEET 2025 Exam Schedule Released",
+                    "date": "2025-01-10T09:00:00Z", 
+                    "description": "NEET 2025 will be conducted on May 5, 2025. Registration starts from February 1, 2025.",
+                    "image_url": "https://placehold.co/400x300/4ade80/ffffff?text=NEET+2025",
+                    "read_more_url": "https://neet.nta.ac.in/"
+                },
+                {
+                    "title": "CBSE Board Exams 2025 Date Sheet",
+                    "date": "2025-01-08T11:00:00Z",
+                    "description": "CBSE has released the date sheet for Class 10 and 12 board exams. Exams to commence from February 15, 2025.",
+                    "image_url": "https://placehold.co/400x300/4ade80/ffffff?text=CBSE+2025",
+                    "read_more_url": "https://cbse.gov.in/"
+                },
+                {
+                    "title": "IIT Admission Process 2025 Updates",
+                    "date": "2025-01-05T14:00:00Z",
+                    "description": "IITs announce new admission criteria and seat matrix for 2025. JEE Advanced scheduled for June 2025.",
+                    "image_url": "https://placehold.co/400x300/4ade80/ffffff?text=IIT+2025",
+                    "read_more_url": "https://iit.ac.in/"
+                },
+                {
+                    "title": "Scholarship Programs 2025 Applications Open",
+                    "date": "2025-01-03T16:00:00Z",
+                    "description": "Multiple scholarship programs for engineering and medical students are now accepting applications.",
+                    "image_url": "https://placehold.co/400x300/4ade80/ffffff?text=Scholarships",
+                    "read_more_url": "https://scholarships.gov.in/"
+                }
+            ]
         
         return formatted_news
         

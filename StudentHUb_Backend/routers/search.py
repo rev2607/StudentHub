@@ -10,7 +10,7 @@ from typing import List, Dict, Any
 load_dotenv()
 PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY")
 if not PERPLEXITY_API_KEY:
-    raise ValueError("API Key not found! Ensure you have set PERPLEXITY_API_KEY in your .env file.")
+    print("⚠️ PERPLEXITY_API_KEY not set. Search features will be limited.")
 
 # FastAPI Router
 router = APIRouter(prefix="/api/search", tags=["search"])
