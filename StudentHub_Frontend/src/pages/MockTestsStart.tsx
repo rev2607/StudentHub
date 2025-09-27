@@ -57,66 +57,59 @@ const MockTestsStart: React.FC = () => {
       }
 
       try {
+        // Use backend API instead of Supabase directly
+        const baseUrl = 'http://localhost:8000';
+        
         // Fetch paper
-        const { data: paperData, error: paperError } = await supabase
-          .from('papers')
-          .select('*')
-          .eq('exam', exam)
-          .eq('year', parseInt(year))
-          .single();
-
-        if (paperError || !paperData) {
+        const paperResponse = await fetch(`${baseUrl}/api/mock-tests/papers/${exam}/${year}`);
+        if (!paperResponse.ok) {
           setError(`No paper found for ${exam} ${year}`);
           setLoading(false);
           return;
         }
-
+        const paperData = await paperResponse.json();
         setPaper(paperData);
 
-        // Fetch questions
-        const { data: questionsData, error: questionsError } = await supabase
-          .from('questions')
-          .select('*')
-          .eq('paper_id', paperData.id)
-          .order('qnum');
-
-        if (questionsError) {
+        // Fetch questions with choices and answers
+        const questionsResponse = await fetch(`${baseUrl}/api/mock-tests/papers/${exam}/${year}/questions`);
+        if (!questionsResponse.ok) {
           setError('Failed to fetch questions');
           setLoading(false);
           return;
         }
-
-        setQuestions(questionsData || []);
-
-        // Fetch choices
+        
+        const questionsData = await questionsResponse.json();
+        
         if (questionsData && questionsData.length > 0) {
-          const questionIds = questionsData.map(q => q.id);
-          const { data: choicesData, error: choicesError } = await supabase
-            .from('choices')
-            .select('*')
-            .in('question_id', questionIds);
-
-          if (choicesError) {
-            console.error('Failed to fetch choices:', choicesError);
-          } else {
-            setChoices(choicesData || []);
-          }
-
-          // Fetch answers
-          const { data: answersData, error: answersError } = await supabase
-            .from('answers')
-            .select('*')
-            .in('question_id', questionIds);
-
-          if (answersError) {
-            console.error('Failed to fetch answers:', answersError);
-          } else {
-            setAnswers(answersData || []);
-          }
+          setQuestions(questionsData);
+          
+          // Extract choices and answers from the API response
+          const allChoices = [];
+          const allAnswers = [];
+          
+          questionsData.forEach(question => {
+            if (question.choices) {
+              allChoices.push(...question.choices);
+            }
+            if (question.correct_answer) {
+              allAnswers.push({
+                question_id: question.id,
+                correct_answer: question.correct_answer
+              });
+            }
+          });
+          
+          setChoices(allChoices);
+          setAnswers(allAnswers);
+        } else {
+          setQuestions([]);
+          setChoices([]);
+          setAnswers([]);
         }
 
         setLoading(false);
       } catch (err) {
+        console.error('Error fetching data:', err);
         setError('An unexpected error occurred');
         setLoading(false);
       }
@@ -422,7 +415,7 @@ const MockTestsStart: React.FC = () => {
   }
 
   const currentQ = questions[currentQuestion];
-  const currentChoices = choices.filter(c => c.question_id === currentQ?.id);
+  const currentChoices = currentQ?.choices || [];
   const userAnswer = userAnswers.find(a => a.questionId === currentQ?.id);
 
   return (

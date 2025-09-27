@@ -17,19 +17,20 @@ export type Paper = {
 
 export type Question = {
   id: number;
-  paper_id: number;
+  qnum: number;
+  type: string;
+  subject: string;
+  topic: string;
   question_text: string;
-  question_type: 'single' | 'multiple' | 'text';
-  marks: number;
-  order_index: number;
+  choices?: Choice[];
+  correct_answer?: string;
 };
 
 export type Choice = {
   id: number;
   question_id: number;
+  choice_label: string;
   choice_text: string;
-  is_correct: boolean;
-  order_index: number;
 };
 
 export type Answer = {
