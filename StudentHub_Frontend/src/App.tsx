@@ -13,6 +13,10 @@ import ProfileEdit from "./pages/ProfileEdit";
 import RequireAuth from "./components/RequireAuth";
 import CollegesListPage from "./pages/Colleges/CollegesListPage";
 import CollegeDetailPage from "./pages/Colleges/CollegeDetailPage";
+import NewsLandingPage from "./pages/News/NewsLandingPage";
+import NewsDetailPage from "./pages/News/NewsDetailPage";
+import ExamsLandingPage from "./pages/Exams/ExamsLandingPage";
+import ExamDetailPage from "./pages/Exams/ExamDetailPage";
 
 // import Search from "./pages/Other/Search";
 // import Test from "./pages/Other/Test";
@@ -35,6 +39,10 @@ function App() {
                 <MockTests />
               </RequireAuth>
             } />
+            <Route path="/news" element={<NewsLandingPage />} />
+            <Route path="/news/:id" element={<NewsDetailPage />} />
+            <Route path="/exams" element={<ExamsLandingPage />} />
+            <Route path="/exams/:slug" element={<ExamDetailPage />} />
             <Route path="/colleges" element={<CollegesListPage />} />
             <Route path="/colleges/:slug" element={<CollegeDetailPage />} />
             <Route path="/engineering-colleges" element={<Navigate to="/colleges" replace />} />
