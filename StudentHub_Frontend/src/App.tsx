@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 import "./index.css";
 
 import MainLayout from "./pages/HomePage/MainLayout";
@@ -15,6 +16,8 @@ import Eamcet from "./pages/Exams/Eamcet";
 import JeeMain from "./pages/Exams/Jeemain";
 import JeeAdvanced from "./pages/Exams/JeeAdvanced";
 import Neet from "./pages/Exams/Neet";
+import CollegesListPage from "./pages/Colleges/CollegesListPage";
+import CollegeDetailPage from "./pages/Colleges/CollegeDetailPage";
 
 // import Search from "./pages/Other/Search";
 // import Test from "./pages/Other/Test";
@@ -26,6 +29,7 @@ import Neet from "./pages/Exams/Neet";
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen bg-gray-50">
         <Routes>
           {/* Wrap routes that need Header in a layout */}
@@ -44,6 +48,10 @@ function App() {
               <Route path="jee-advanced" element={<JeeAdvanced />} />
               <Route path="neet" element={<Neet />} />
             </Route>
+            {/* Colleges routes */}
+            <Route path="/colleges" element={<CollegesListPage />} />
+            <Route path="/colleges/:slug" element={<CollegeDetailPage />} />
+            <Route path="/engineering-colleges" element={<Navigate to="/colleges" replace />} />
           </Route>
 
           {/* Auth routes */}
@@ -64,6 +72,9 @@ function App() {
 
           {/* Other routes */}
           <Route path="/search" element={<SearchPage />} />
+          
+          {/* Catch-all route for unmatched paths */}
+          <Route path="*" element={<Navigate to="/" replace />} />
           
           {/* <Route path="/search-page" element={<Search />} /> */}
           {/* <Route path="/test" element={<Test />} /> */}
