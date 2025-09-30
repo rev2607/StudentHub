@@ -1,9 +1,11 @@
 import { createClient } from "@supabase/supabase-js";
 
-const url = import.meta.env.VITE_SUPABASE_URL;
-const key = import.meta.env.VITE_SUPABASE_ANON_KEY;
+const url = import.meta.env.VITE_SUPABASE_URL || "https://placeholder.supabase.co";
+const key = import.meta.env.VITE_SUPABASE_ANON_KEY || "placeholder_key";
 
-if (!url || !key) console.error("Missing VITE_SUPABASE_URL or VITE_SUPABASE_ANON_KEY");
+if (!import.meta.env.VITE_SUPABASE_URL || !import.meta.env.VITE_SUPABASE_ANON_KEY) {
+  console.warn("Missing VITE_SUPABASE_URL or VITE_SUPABASE_ANON_KEY - using placeholder values");
+}
 
 export const supabase = createClient(url, key);
 

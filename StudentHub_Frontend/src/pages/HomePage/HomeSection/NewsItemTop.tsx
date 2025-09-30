@@ -37,7 +37,9 @@ function NewsItemTop() {
 
       try {
         console.log("🌐 NewsItemTop: Making API call to: http://localhost:8000/api/news/");
-        const response = await axios.get("http://localhost:8000/api/news/");
+        const response = await axios.get("http://localhost:8000/api/news/", {
+          timeout: 5000 // 5 second timeout
+        });
         console.log("✅ NewsItemTop API Response:", response);
         console.log("📊 NewsItemTop Response status:", response.status);
         console.log("📊 NewsItemTop Response data type:", typeof response.data);
@@ -66,8 +68,8 @@ function NewsItemTop() {
           setNewsItens(tempData); // fallback to static data
         }
       } catch (err) {
-        console.error("❌ NewsItemTop: Error fetching news:", err);
-        setError("Failed to fetch news");
+        console.warn("⚠️ NewsItemTop: API not available, using fallback data:", err);
+        setError("Using offline data");
         setNewsItens(tempData); // fallback to static data
       } finally {
         setLoading(false);

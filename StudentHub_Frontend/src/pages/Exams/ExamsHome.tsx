@@ -170,12 +170,13 @@ function ExamsHome() {
     // Engineering - State level
     {
       title: 'TS EAMCET (Engineering)',
-      code: 'eamcet',
+      code: 'ts-eamcet',
       stream: 'Engineering',
       state: 'Telangana',
       level: 'State',
       eligibility: '10+2 with PCM',
-      latestNotice: 'Notification expected soon',
+      latestNotice: 'Internal Sliding ongoing - 116,877 seats available',
+      nextDate: 'Counselling Phase 3 ongoing',
     },
     {
       title: 'AP EAMCET / EAPCET (Engineering)',
@@ -210,24 +211,6 @@ function ExamsHome() {
       eligibility: '10+2 with PCM',
     },
     // Medical - State level (where applicable via NEET counseling)
-    {
-      title: 'TS NEET State Counseling',
-      code: 'ts-neet-counseling',
-      stream: 'Medical',
-      state: 'Telangana',
-      level: 'State',
-      eligibility: '10+2 with PCB',
-      latestNotice: 'State quota counseling via NEET',
-      counsellingLink: '/exams/neet#counselling',
-    },
-    {
-      title: 'AP NEET State Counseling',
-      code: 'ap-neet-counseling',
-      stream: 'Medical',
-      state: 'Andhra Pradesh',
-      level: 'State',
-      eligibility: '10+2 with PCB',
-    },
     // Law - State level
     {
       title: 'MH CET Law (UG)',
