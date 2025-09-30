@@ -1,196 +1,329 @@
-import { useParams } from 'react-router-dom';
+import { useEffect, useMemo } from "react";
+import { useParams, Link } from "react-router-dom";
 import { MapPin, Star, Users, GraduationCap, Phone, Mail, Globe, Calendar, Award } from 'lucide-react';
+import { colleges } from "../../data/colleges";
+import FAQAccordion from "../../components/FAQAccordion";
 
 const CollegeDetailPage = () => {
   const { slug } = useParams();
+  const college = useMemo(() => colleges.find((c) => c.slug === slug), [slug]);
 
-  // Mock data for college details
-  const college = {
-    id: 1,
-    name: 'Indian Institute of Technology Bombay',
-    location: 'Mumbai, Maharashtra',
-    rating: 4.8,
-    students: '12000+',
-    courses: 'Engineering, Management',
-    image: '/api/placeholder/800/400',
-    slug: 'iit-bombay',
-    description: 'IIT Bombay is one of the premier engineering institutes in India, known for its excellence in education and research.',
-    established: '1958',
-    type: 'Public',
-    website: 'https://www.iitb.ac.in',
-    email: 'info@iitb.ac.in',
-    phone: '+91-22-2572-2545',
-    address: 'Powai, Mumbai, Maharashtra 400076',
-    facilities: ['Library', 'Hostel', 'Sports Complex', 'Medical Center', 'Cafeteria'],
-    courses: [
-      { name: 'Computer Science Engineering', duration: '4 years', seats: 120 },
-      { name: 'Mechanical Engineering', duration: '4 years', seats: 100 },
-      { name: 'Electrical Engineering', duration: '4 years', seats: 80 },
-      { name: 'Civil Engineering', duration: '4 years', seats: 60 }
-    ],
-    admissionProcess: [
-      'JEE Main/Advanced Score',
-      'Application Form Submission',
-      'Counseling Process',
-      'Document Verification',
-      'Seat Allotment'
-    ]
-  };
+  useEffect(() => {
+    if (college) {
+      document.title = `${college.name} | Colleges | StudentHub`;
+      const meta = document.querySelector('meta[name="description"]') || document.createElement("meta");
+      meta.setAttribute("name", "description");
+      meta.setAttribute("content", `${college.name} - NIRF ${college.nirfRank}, NAAC ${college.naacGrade}, ${college.location}`);
+      document.head.appendChild(meta);
+    }
+  }, [college]);
+
+  if (!college) {
+    return (
+      <div className="max-w-5xl mx-auto p-4">
+        <p className="text-gray-600">College not found.</p>
+        <Link className="text-blue-600 underline" to="/colleges">Back to Colleges</Link>
+      </div>
+    );
+  }
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="container mx-auto px-4 py-8">
-        {/* College Header */}
-        <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
-          <div className="flex flex-col lg:flex-row gap-8">
-            <div className="lg:w-1/3">
-              <img 
-                src={college.image} 
-                alt={college.name}
-                className="w-full h-64 object-cover rounded-lg"
-              />
-            </div>
-            <div className="lg:w-2/3">
-              <h1 className="text-3xl font-bold text-gray-900 mb-4">{college.name}</h1>
-              <div className="flex items-center text-gray-600 mb-4">
-                <MapPin className="w-5 h-5 mr-2" />
-                <span>{college.location}</span>
-              </div>
-              
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-                <div className="flex items-center">
-                  <Star className="w-5 h-5 text-yellow-400 mr-2" />
-                  <span className="font-semibold">{college.rating} Rating</span>
-                </div>
-                <div className="flex items-center">
-                  <Users className="w-5 h-5 text-blue-500 mr-2" />
-                  <span className="font-semibold">{college.students} Students</span>
-                </div>
-                <div className="flex items-center">
-                  <GraduationCap className="w-5 h-5 text-green-500 mr-2" />
-                  <span className="font-semibold">{college.courses}</span>
-                </div>
-              </div>
-
-              <p className="text-gray-700 mb-6">{college.description}</p>
-
-              <div className="flex flex-wrap gap-4">
-                <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">
-                  Apply Now
-                </button>
-                <button className="border border-blue-600 text-blue-600 px-6 py-2 rounded-lg hover:bg-blue-50 transition-colors">
-                  Add to Wishlist
-                </button>
-              </div>
-            </div>
+    <div key={slug}>
+      {/* Hero */}
+      <div className="relative h-56 md:h-72 w-full">
+        <img src={college.heroImageUrl} alt={college.name} className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 flex items-end p-4 md:p-6">
+          <div className="text-white">
+            <div className="text-sm">Home / Colleges / {college.name}</div>
+            <h1 className="text-2xl md:text-3xl font-bold mt-1">{college.name}</h1>
+            <div className="mt-1 text-sm">{college.location}</div>
           </div>
         </div>
+      </div>
 
-        {/* College Details */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Main Content */}
-          <div className="lg:col-span-2 space-y-8">
-            {/* About */}
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-xl font-semibold text-gray-900 mb-4">About College</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div className="flex items-center">
-                  <Calendar className="w-5 h-5 text-gray-500 mr-3" />
-                  <div>
-                    <div className="text-sm text-gray-500">Established</div>
-                    <div className="font-semibold">{college.established}</div>
-                  </div>
-                </div>
-                <div className="flex items-center">
-                  <Award className="w-5 h-5 text-gray-500 mr-3" />
-                  <div>
-                    <div className="text-sm text-gray-500">Type</div>
-                    <div className="font-semibold">{college.type}</div>
-                  </div>
-                </div>
-              </div>
+      <div className="max-w-5xl mx-auto p-4 space-y-6">
+        {/* Overview */}
+        <section className="bg-white rounded-xl shadow p-4">
+          <h2 className="text-xl font-semibold mb-3">Overview</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 text-sm">
+            <Info label="Established" value={college.establishmentYear} />
+            <Info label="NIRF Rank" value={college.nirfRank} />
+            <Info label="NAAC Grade" value={college.naacGrade} />
+            <Info label="Campus Area" value={`${college.campusAreaAcres} acres`} />
+            <Info label="Highest Package" value={`${college.highestPackageLpa} LPA`} />
+          </div>
+          <p className="text-gray-700 mt-3 text-sm">{college.overview}</p>
+        </section>
+
+        {/* Courses & Streams */}
+        <section className="bg-white rounded-xl shadow p-4">
+          <h2 className="text-xl font-semibold mb-3">Courses & Streams</h2>
+          {college.coursesOfferedCount && (
+            <div className="text-sm text-gray-700 mb-3">
+              <span className="font-medium">No. of Courses:</span> {college.coursesOfferedCount}
+              {college.streamsOffered && (
+                <span className="ml-3"><span className="font-medium">Streams:</span> {college.streamsOffered.join(", ")}</span>
+              )}
             </div>
-
-            {/* Courses */}
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-xl font-semibold text-gray-900 mb-4">Courses Offered</h2>
-              <div className="space-y-4">
-                {college.courses.map((course, index) => (
-                  <div key={index} className="border border-gray-200 rounded-lg p-4">
-                    <div className="flex justify-between items-start">
-                      <div>
-                        <h3 className="font-semibold text-gray-900">{course.name}</h3>
-                        <p className="text-gray-600 text-sm">Duration: {course.duration}</p>
-                      </div>
-                      <div className="text-right">
-                        <div className="text-sm text-gray-500">Available Seats</div>
-                        <div className="font-semibold">{course.seats}</div>
-                      </div>
-                    </div>
-                  </div>
+          )}
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="text-left text-gray-600">
+                  <th className="p-2">Program</th>
+                  <th className="p-2">Eligibility</th>
+                  <th className="p-2">Duration</th>
+                  <th className="p-2">Intake</th>
+                  <th className="p-2">Fees/Year</th>
+                </tr>
+              </thead>
+              <tbody>
+                {college.programs.map((p, idx) => (
+                  <tr key={idx} className="border-t">
+                    <td className="p-2">{p.name}</td>
+                    <td className="p-2">{p.eligibility}</td>
+                    <td className="p-2">{p.durationYears} years</td>
+                    <td className="p-2">{p.intake}</td>
+                    <td className="p-2">{p.feesPerYearLpa} LPA</td>
+                  </tr>
                 ))}
+              </tbody>
+            </table>
+          </div>
+          <div className="grid md:grid-cols-2 gap-4 mt-4 text-sm text-gray-700">
+            {college.careerOpportunities && (
+              <div>
+                <h3 className="font-semibold mb-2">Career Opportunities</h3>
+                <ul className="list-disc ml-6 space-y-1">
+                  {college.careerOpportunities.map((c, i) => (<li key={i}>{c}</li>))}
+                </ul>
               </div>
-            </div>
-
-            {/* Admission Process */}
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-xl font-semibold text-gray-900 mb-4">Admission Process</h2>
-              <div className="space-y-3">
-                {college.admissionProcess.map((step, index) => (
-                  <div key={index} className="flex items-center">
-                    <div className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-sm font-semibold mr-4">
-                      {index + 1}
-                    </div>
-                    <span className="text-gray-700">{step}</span>
-                  </div>
-                ))}
-              </div>
+            )}
+            <div>
+              <h3 className="font-semibold mb-2">Intake & Students</h3>
+              <div>Approved Intake: {college.approvedIntakeTotal || "—"}</div>
+              <div>Total Students: {college.totalStudents || "—"}</div>
             </div>
           </div>
+        </section>
 
-          {/* Sidebar */}
-          <div className="space-y-6">
-            {/* Contact Info */}
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Contact Information</h3>
-              <div className="space-y-3">
-                <div className="flex items-center">
-                  <Phone className="w-5 h-5 text-gray-500 mr-3" />
-                  <span className="text-sm">{college.phone}</span>
-                </div>
-                <div className="flex items-center">
-                  <Mail className="w-5 h-5 text-gray-500 mr-3" />
-                  <span className="text-sm">{college.email}</span>
-                </div>
-                <div className="flex items-center">
-                  <Globe className="w-5 h-5 text-gray-500 mr-3" />
-                  <a href={college.website} className="text-sm text-blue-600 hover:underline">
-                    {college.website}
-                  </a>
-                </div>
-                <div className="flex items-start">
-                  <MapPin className="w-5 h-5 text-gray-500 mr-3 mt-1" />
-                  <span className="text-sm">{college.address}</span>
-                </div>
-              </div>
+        {/* Placement Stats */}
+        <section className="bg-white rounded-xl shadow p-4">
+          <h2 className="text-xl font-semibold mb-3">Placement Stats</h2>
+          {college.packagesSummary && (
+            <div className="mb-3 grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
+              <Info label="Average" value={`${college.packagesSummary.averageLpa} LPA`} />
+              {college.packagesSummary.medianLpa && <Info label="Median" value={`${college.packagesSummary.medianLpa} LPA`} />}
+              <Info label="Highest" value={`${college.packagesSummary.highestLpa} LPA`} />
+              {college.studentsPlacedLastYear && <Info label="Students Placed (Last Year)" value={college.studentsPlacedLastYear} />}
             </div>
-
-            {/* Facilities */}
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Facilities</h3>
-              <div className="grid grid-cols-2 gap-2">
-                {college.facilities.map((facility, index) => (
-                  <div key={index} className="bg-gray-50 rounded-lg p-3 text-center">
-                    <span className="text-sm font-medium text-gray-700">{facility}</span>
-                  </div>
+          )}
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="text-left text-gray-600">
+                  <th className="p-2">Year</th>
+                  <th className="p-2">% Placed</th>
+                  <th className="p-2">Highest</th>
+                  <th className="p-2">Average</th>
+                  <th className="p-2">Top Recruiters</th>
+                </tr>
+              </thead>
+              <tbody>
+                {college.placementStats.map((s) => (
+                  <tr key={s.year} className="border-t">
+                    <td className="p-2">{s.year}</td>
+                    <td className="p-2">{s.percentPlaced}%</td>
+                    <td className="p-2">{s.highestPackageLpa} LPA</td>
+                    <td className="p-2">{s.averagePackageLpa} LPA</td>
+                    <td className="p-2">{s.topRecruiters.join(", ")}</td>
+                  </tr>
                 ))}
+              </tbody>
+            </table>
+          </div>
+          {college.topRecruitersOverall && (
+            <div className="mt-3 text-sm text-gray-700">
+              <span className="font-medium">Top Recruiters:</span> {college.topRecruitersOverall.join(", ")}
+            </div>
+          )}
+        </section>
+
+        {/* Faculty Info */}
+        <section className="bg-white rounded-xl shadow p-4">
+          <h2 className="text-xl font-semibold mb-3">Faculty Info</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
+            <Info label="With PhD" value={college.facultyInfo.withPhD} />
+            <Info label="Without PhD" value={college.facultyInfo.withoutPhD} />
+            <Info label="Faculty:Student" value={college.facultyInfo.facultyStudentRatio} />
+          </div>
+        </section>
+
+        {/* Student Demographics */}
+        <section className="bg-white rounded-xl shadow p-4">
+          <h2 className="text-xl font-semibold mb-3">Student Demographics</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
+            <Info label="Outside State" value={`${college.studentDemographics.outsideStatePercent}%`} />
+            <Info label="Within State" value={`${college.studentDemographics.withinStatePercent}%`} />
+            <Info label="Boys" value={`${college.studentDemographics.boysPercent}%`} />
+            <Info label="Girls" value={`${college.studentDemographics.girlsPercent}%`} />
+          </div>
+        </section>
+
+        {/* Hostel & Facilities */}
+        <section className="bg-white rounded-xl shadow p-4">
+          <h2 className="text-xl font-semibold mb-3">Hostel & Facilities</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
+            <Info label="Hostel Fees/Year" value={`${college.hostelFacilities.hostelFeesPerYear} LPA`} />
+            <Info label="Hostel Capacity" value={college.hostelFacilities.hostelCapacity} />
+            <Info label="Library Books" value={college.hostelFacilities.libraryBooksCount} />
+          </div>
+          <div className="mt-2 text-sm text-gray-700">
+            <div><span className="font-medium">Sports:</span> {college.hostelFacilities.sportsFacilities.join(", ")}</div>
+            <div><span className="font-medium">Labs:</span> {college.hostelFacilities.labs.join(", ")}</div>
+          </div>
+        </section>
+
+        {/* Expenditure & Outcomes */}
+        <section className="bg-white rounded-xl shadow p-4">
+          <h2 className="text-xl font-semibold mb-3">Expenditure & Outcomes</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
+            <Info label="Graduation %" value={`${college.expenditureOutcomes.graduationPercent}%`} />
+            <Info label="Placement %" value={`${college.expenditureOutcomes.placementPercent}%`} />
+            <Info label="Annual Capex" value={`${college.expenditureOutcomes.annualCapexCrore} Cr`} />
+            <Info label="Annual Opex" value={`${college.expenditureOutcomes.annualOpexCrore} Cr`} />
+          </div>
+        </section>
+
+        {/* Campus Life */}
+        <section className="bg-white rounded-xl shadow p-4">
+          <h2 className="text-xl font-semibold mb-3">Campus Life</h2>
+          <p className="text-sm text-gray-700">{college.campusLife.description}</p>
+          <div className="mt-2 text-sm">
+            <div><span className="font-medium">Hangout Spots:</span> {college.campusLife.hangoutSpots.join(", ")}</div>
+            <div><span className="font-medium">Cultural Events:</span> {college.campusLife.culturalEvents.join(", ")}</div>
+            <div><span className="font-medium">Hackathons:</span> {college.campusLife.hackathons.join(", ")}</div>
+          </div>
+        </section>
+
+        {/* Why Choose */}
+        <section className="bg-white rounded-xl shadow p-4">
+          <h2 className="text-xl font-semibold mb-3">Why Choose</h2>
+          <ul className="list-disc ml-6 text-sm text-gray-700">
+            {college.whyChoose.map((w, i) => (
+              <li key={i}>{w}</li>
+            ))}
+          </ul>
+        </section>
+
+        {/* Extended Information */}
+        {college.extended && (
+          <section className="bg-white rounded-xl shadow p-4">
+            <h2 className="text-xl font-semibold mb-4">Additional Information</h2>
+            <div className="grid md:grid-cols-2 gap-6">
+              <div>
+                <h3 className="font-semibold mb-2">Rankings</h3>
+                <ul className="list-disc ml-6 text-sm text-gray-700 space-y-1">
+                  {college.extended.rankings.map((r, idx) => (
+                    <li key={idx}>{r.framework} {r.year}: {r.rank}{r.note ? ` – ${r.note}` : ""}</li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold mb-2">Admissions</h3>
+                <div className="text-sm text-gray-700 space-y-1">
+                  <div><span className="font-medium">UG Exams:</span> {college.extended.admissions.ugEntranceExams.join(", ")}</div>
+                  <div><span className="font-medium">PG Exams:</span> {college.extended.admissions.pgEntranceExams.join(", ")}</div>
+                  <div>{college.extended.admissions.typicalCutoffsNote}</div>
+                  <div>{college.extended.admissions.applicationProcess}</div>
+                  <div className="text-gray-600">{college.extended.admissions.importantDatesNote}</div>
+                </div>
+              </div>
+              <div>
+                <h3 className="font-semibold mb-2">Scholarships</h3>
+                <ul className="list-disc ml-6 text-sm text-gray-700 space-y-1">
+                  <li><span className="font-medium">Institute:</span> {college.extended.scholarships.institute.join(", ")}</li>
+                  <li><span className="font-medium">Government:</span> {college.extended.scholarships.government.join(", ")}</li>
+                  <li><span className="font-medium">Industry:</span> {college.extended.scholarships.industry.join(", ")}</li>
+                </ul>
+                <div className="text-xs text-gray-600 mt-1">{college.extended.scholarships.notes}</div>
+              </div>
+              <div>
+                <h3 className="font-semibold mb-2">Research Centers</h3>
+                <ul className="list-disc ml-6 text-sm text-gray-700 space-y-1">
+                  {college.extended.researchCenters.map((c, idx) => (<li key={idx}>{c}</li>))}
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold mb-2">Collaborations</h3>
+                <ul className="list-disc ml-6 text-sm text-gray-700 space-y-1">
+                  {college.extended.collaborations.map((c, idx) => (<li key={idx}>{c}</li>))}
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold mb-2">Infrastructure</h3>
+                <div className="grid grid-cols-2 gap-2 text-sm">
+                  <Info label="Smart Classrooms" value={college.extended.infrastructure.classroomsSmartEnabled ? "Yes" : "No"} />
+                  <Info label="Hostel Blocks" value={college.extended.infrastructure.hostelsBlocks} />
+                  <Info label="Cafeterias" value={college.extended.infrastructure.cafeterias} />
+                  <Info label="24x7 Medical" value={college.extended.infrastructure.medicalCenter24x7 ? "Yes" : "No"} />
+                  <Info label="Auditoriums" value={college.extended.infrastructure.auditoriums} />
+                  <Info label="Sports Complexes" value={college.extended.infrastructure.sportsComplexes} />
+                  <Info label="Innovation Labs" value={college.extended.infrastructure.innovationLabs} />
+                  <Info label="Digital Library Subs" value={college.extended.infrastructure.libraryDigitalSubscriptions} />
+                </div>
+              </div>
+              <div>
+                <h3 className="font-semibold mb-2">Clubs & Societies</h3>
+                <div className="text-sm text-gray-700">{college.extended.clubsAndSocieties.join(", ")}</div>
+              </div>
+              <div>
+                <h3 className="font-semibold mb-2">Notable Alumni</h3>
+                <ul className="list-disc ml-6 text-sm text-gray-700 space-y-1">
+                  {college.extended.notableAlumni.map((a, idx) => (<li key={idx}>{a}</li>))}
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold mb-2">Connectivity</h3>
+                <div className="text-sm text-gray-700 space-y-1">
+                  <div><span className="font-medium">Airport:</span> {college.extended.connectivity.nearestAirport}</div>
+                  <div><span className="font-medium">Railway:</span> {college.extended.connectivity.nearestRailway}</div>
+                  <div><span className="font-medium">On-campus:</span> {college.extended.connectivity.campusTransport}</div>
+                </div>
               </div>
             </div>
+          </section>
+        )}
+
+        {/* FAQs */}
+        <section className="bg-white rounded-xl shadow p-4">
+          <h2 className="text-xl font-semibold mb-3">FAQs</h2>
+          <FAQAccordion faqs={college.faqs} />
+        </section>
+
+        {/* Contact */}
+        <section className="bg-white rounded-xl shadow p-4">
+          <h2 className="text-xl font-semibold mb-3">Contact</h2>
+          <div className="text-sm text-gray-700 space-y-1">
+            <div><span className="font-medium">Website:</span> <a className="text-blue-600 underline" href={college.contact.website} target="_blank" rel="noreferrer">{college.contact.website}</a></div>
+            <div><span className="font-medium">Email:</span> {college.contact.email}</div>
+            <div><span className="font-medium">Phone:</span> {college.contact.phone}</div>
+            <div><span className="font-medium">Address:</span> {college.contact.address}</div>
           </div>
-        </div>
+        </section>
       </div>
     </div>
   );
 };
 
 export default CollegeDetailPage;
+
+function Info({ label, value }: { label: string; value: string | number }) {
+  return (
+    <div className="bg-gray-50 rounded-lg p-3">
+      <div className="text-gray-500 text-xs">{label}</div>
+      <div className="font-medium">{value}</div>
+    </div>
+  );
+}
