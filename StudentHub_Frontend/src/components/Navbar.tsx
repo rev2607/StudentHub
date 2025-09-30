@@ -131,7 +131,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0">
               <h1 className="text-2xl font-extrabold text-[var(--site-green)] flex items-center gap-2">
-                <img src="StudentHub_Blue_Logo.svg" className="w-32 sm:w-38 md:w-44 lg:w-52 xl:w-58" alt="Logo" />
+                <img src="/StudentHub_Blue_Logo.svg" className="w-32 sm:w-38 md:w-44 lg:w-52 xl:w-58" alt="StudentHub Logo" />
                 <span className="hidden">STUDENT HUB.IN</span>
               </h1>
             </Link>

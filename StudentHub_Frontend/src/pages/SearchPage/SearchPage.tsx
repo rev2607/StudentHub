@@ -36,7 +36,7 @@ function SearchPage() {
         </button>
         <Link to="/">
           {/* <span className="text-white font-semibold text-lg tracking-wide truncate max-w-[60vw]">STUDENT HUB.IN</span> */}
-          <img src="StudentHub_Logo.svg" className="w-40 sm:w-20 md:w-24 lg:w-32 xl:w-40" alt="Logo" />
+          <img src="/StudentHub_Logo.svg" className="w-40 sm:w-20 md:w-24 lg:w-32 xl:w-40" alt="StudentHub Logo" />
         </Link>
 
         <button id="rightSidebarToggle" aria-label="Toggle right sidebar" className="text-white text-xl focus:outline-none" onClick={() => setIsRightOpen((prev) => !prev)}>
@@ -56,7 +56,7 @@ function SearchPage() {
           <div className="flex items-center gap-2 mb-8 md:mb-10">
             <Link to="/">
               {/* <span className="text-white font-semibold text-lg tracking-wide whitespace-nowrap">STUDENT HUB.IN</span> */}
-              <img src="StudentHub_Logo.svg" />
+              <img src="/StudentHub_Logo.svg" alt="StudentHub Logo" />
             </Link>
           </div>
           <button className="w-full text-white border border-[#7AC142] rounded-full py-2 text-sm font-semibold flex items-center justify-center gap-2 mb-6 md:mb-8 hover:bg-[#7AC142] hover:text-black transition">
