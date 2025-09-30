@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 import "./index.css";
 
 import MainLayout from "./pages/HomePage/MainLayout";
@@ -10,6 +11,8 @@ import SignupWithProfile from "./pages/SignupWithProfile";
 import Login from "./pages/Login";
 import ProfileEdit from "./pages/ProfileEdit";
 import RequireAuth from "./components/RequireAuth";
+import CollegesListPage from "./pages/Colleges/CollegesListPage";
+import CollegeDetailPage from "./pages/Colleges/CollegeDetailPage";
 
 // import Search from "./pages/Other/Search";
 // import Test from "./pages/Other/Test";
@@ -21,6 +24,7 @@ import RequireAuth from "./components/RequireAuth";
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen bg-gray-50">
         <Routes>
           {/* Wrap routes that need Header in a layout */}
@@ -31,6 +35,10 @@ function App() {
                 <MockTests />
               </RequireAuth>
             } />
+            <Route path="/colleges" element={<CollegesListPage />} />
+            <Route path="/colleges/:slug" element={<CollegeDetailPage />} />
+            <Route path="/engineering-colleges" element={<Navigate to="/colleges" replace />} />
+            <Route path="*" element={<Navigate to="/colleges" replace />} />
           </Route>
 
           {/* Auth routes */}

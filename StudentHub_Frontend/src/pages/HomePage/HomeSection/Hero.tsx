@@ -18,7 +18,7 @@ const menuItems = [
   { icon: ResultsIcon, label: "Results", path: "/results" },
   { icon: NewsIcon, label: "News", path: "/news" },
   { icon: ExamsIcon, label: "Exams", path: "/exams" },
-  { icon: EngineeringIcon, label: "Engineering", path: "/engineering-colleges" },
+  { icon: EngineeringIcon, label: "Engineering", path: "/colleges" },
   { icon: MockTestsIcon, label: "Mock Tests", path: "/mock-tests" },
   { icon: TrainingIcon, label: "Training\nInstitutes", path: "/training-institutes" },
   { icon: MBBSIcon, label: "MBBS", path: "/mbbs" },
