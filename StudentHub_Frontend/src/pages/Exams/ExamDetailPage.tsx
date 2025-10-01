@@ -122,7 +122,7 @@ export default function ExamDetailPage() {
           {/* Important Dates */}
           <section className={sectionClass}>
             <button onClick={() => toggle("dates")} className="w-full text-left px-5 py-4 flex justify-between items-center">
-              <h2 className="text-lg font-semibold">Important Dates (2025)</h2>
+              <h2 className="text-lg font-semibold">Important Dates (2026)</h2>
               <span className="text-gray-500">{openSections.dates ? "-" : "+"}</span>
             </button>
             {openSections.dates && (
