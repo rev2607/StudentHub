@@ -169,7 +169,9 @@ const LatestNews = () => {
                 width="600"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
-                  target.src = '/default-news.jpg';
+                  if (target.dataset.fallbackApplied === 'true') return;
+                  target.dataset.fallbackApplied = 'true';
+                  target.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO1oZqUAAAAASUVORK5CYII=';
                 }}
               />
               <div className="p-4 sm:p-6">

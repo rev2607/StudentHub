@@ -1,0 +1,56 @@
+name: Backend CI
+
+on:
+  push:
+    paths:
+      - 'backend/**'
+      - '.github/workflows/backend.yml'
+  pull_request:
+    paths:
+      - 'backend/**'
+  workflow_dispatch:
+    inputs:
+      run_insert:
+        description: 'Run insert_synthetic_questions.py'
+        required: false
+        default: 'false'
+      input_path:
+        description: 'Path to JSONL input file'
+        required: false
+        default: 'backend/scripts/questions.jsonl'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install ruff
+      - name: Ruff check
+        run: ruff check backend/app || true
+
+  run-insert:
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.run_insert == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install script deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r backend/requirements.txt
+      - name: Run insert script
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          python backend/scripts/insert_synthetic_questions.py --input "${{ inputs.input_path }}"
+
+

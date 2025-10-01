@@ -128,7 +128,10 @@ function NewsItemTop() {
                               className="absolute inset-0 w-30 h-25 object-cover rounded-3xl p-2"
                               onError={(e) => {
                                 const target = e.target as HTMLImageElement;
-                                target.src = '/default-news.jpg';
+                                if (target.dataset.fallbackApplied === 'true') return;
+                                target.dataset.fallbackApplied = 'true';
+                                // Tiny transparent PNG to avoid further network requests
+                                target.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO1oZqUAAAAASUVORK5CYII=';
                               }}
                             />
                           </div>
