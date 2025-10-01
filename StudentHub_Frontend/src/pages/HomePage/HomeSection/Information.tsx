@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
 import { navigateToSearchPage } from "../navigationToSearchPage";
+import { examsList } from "../../../data/exams";
 
 import information from "../../../../src/assets/information.png";
 import rank from "../../../../src/assets/rank.png";
@@ -16,7 +17,6 @@ const Information = () => {
     "Top Medical Colleges In India",
     "Top Universities In India",
   ];
-  const exams = ["JEE Main", "CAT", "GATE", "CLAT", "NEET", "BITSAT", "SRM JEEE", "NIFT Entrance Exam", "VITEEE", "MET", "CUET", "LPU-NEST"];
 
   return (
     <section className="bg-white py-12 sm:py-16">
@@ -54,9 +54,9 @@ const Information = () => {
                 <p className="text-gray-600 text-sm sm:text-base mt-2 sm:mt-0">Easy Information and downloads on Exam preparation, dates, counselling, syllabus and more</p>
               </div>
               <div className="flex flex-wrap gap-2">
-                {exams.map((label, index) => (
-                  <button key={index} className="bg-white text-black border border-[var(--site-green)] px-3 sm:px-4 py-1 rounded-full text-xs sm:text-sm" onClick={() => navigateToSearchPage(navigate, label)}>
-                    {label}
+                {examsList.map((exam, index) => (
+                  <button key={index} className="bg-white text-black border border-[var(--site-green)] px-3 sm:px-4 py-1 rounded-full text-xs sm:text-sm" onClick={() => navigate(`/exams/${exam.slug}`)}>
+                    {exam.name}
                   </button>
                 ))}
               </div>

@@ -1,7 +1,6 @@
 import Hero from "./HomeSection/Hero";
 import NewsItemTop from "./HomeSection/NewsItemTop";
 import CourseColleges from "./HomeSection/CourseColleges";
-import Guidance from "./HomeSection/Guidance";
 import TopColleges from "./HomeSection/TopColleges";
 import Information from "./HomeSection/Information";
 import TrendingCollegesPackages from "./HomeSection/TrendingCollegesPackages";
@@ -19,7 +18,6 @@ const HomePage = () => {
       <Hero />
       <NewsItemTop />
       <CourseColleges />
-      <Guidance />
       <TopColleges />
       <Information />
       <TrendingCollegesPackages />
