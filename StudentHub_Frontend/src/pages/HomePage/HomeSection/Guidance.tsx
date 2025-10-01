@@ -1,7 +1,7 @@
 import { MdWindow } from "react-icons/md";
 import { FaUsers } from "react-icons/fa";
 
-import GuidanceImage from "../../../../src/assets/home-guidance.png"; // Import the image file
+import GuidanceImage from "../../../assets/home-guidance.png"; // Import the image file
 
 const Guidance = () => {
   return (

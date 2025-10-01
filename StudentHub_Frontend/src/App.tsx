@@ -17,6 +17,7 @@ import NewsLandingPage from "./pages/News/NewsLandingPage";
 import NewsDetailPage from "./pages/News/NewsDetailPage";
 import ExamsLandingPage from "./pages/Exams/ExamsLandingPage";
 import ExamDetailPage from "./pages/Exams/ExamDetailPage";
+import ResultsPage from "./pages/Results/ResultsPage";
 
 // import Search from "./pages/Other/Search";
 // import Test from "./pages/Other/Test";
@@ -43,6 +44,7 @@ function App() {
             <Route path="/news/:id" element={<NewsDetailPage />} />
             <Route path="/exams" element={<ExamsLandingPage />} />
             <Route path="/exams/:slug" element={<ExamDetailPage />} />
+            <Route path="/results" element={<ResultsPage />} />
             <Route path="/colleges" element={<CollegesListPage />} />
             <Route path="/colleges/:slug" element={<CollegeDetailPage />} />
             <Route path="/engineering-colleges" element={<Navigate to="/colleges" replace />} />
