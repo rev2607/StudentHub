@@ -140,111 +140,475 @@ const IITRoorkeePage: React.FC = () => {
   };
 
   const renderOverviewTab = () => (
-    <div className="space-y-6">
-      {/* Basic Information */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <InfoCard label="Established" value={collegeData.Established.Year} />
-        <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2025.Overall} />
-        <InfoCard label="NIRF Rank (Engineering)" value={collegeData.Rankings.NIRF2025.Engineering} />
-        <InfoCard label="Campus Area" value={`${collegeData.Location.CampusAreaAcres} acres`} />
-        <InfoCard label="Student Strength" value={collegeData.About.StudentStrength} />
-        <InfoCard label="University Type" value={collegeData.UniversityType[0]} />
-        <InfoCard label="QS World Rank" value={collegeData.Rankings.QSWorld2026} />
-        <InfoCard label="QS Asia Rank" value={collegeData.Rankings.QSAsia2025} />
+    <div className="space-y-8">
+      {/* College Introduction */}
+      <div className="bg-white rounded-xl shadow-sm border p-6">
+        <h3 className="text-2xl font-semibold mb-4">About {collegeData.Name}</h3>
+        <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
+        
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+          <InfoCard label="Established" value={collegeData.Established.Year} />
+          <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2025.Overall} />
+          <InfoCard label="NIRF Rank (Engineering)" value={collegeData.Rankings.NIRF2025.Engineering} />
+          <InfoCard label="Campus Area" value={`${collegeData.Location.CampusAreaAcres} acres`} />
+          <InfoCard label="Student Strength" value={collegeData.About.StudentStrength} />
+          <InfoCard label="University Type" value={collegeData.UniversityType[0]} />
+          <InfoCard label="QS World Rank" value={collegeData.Rankings.QSWorld2026} />
+          <InfoCard label="QS Asia Rank" value={collegeData.Rankings.QSAsia2025} />
+        </div>
+
+        <div className="bg-blue-50 rounded-lg p-4">
+          <h4 className="font-semibold text-blue-900 mb-2">Historical Significance</h4>
+          <p className="text-blue-800 text-sm">{collegeData.Established.HistoricalSignificance}</p>
+        </div>
       </div>
 
-      {/* About Section */}
+      {/* Academic Programs Overview */}
       <div className="bg-white rounded-xl shadow-sm border p-6">
-        <h3 className="text-xl font-semibold mb-4">About {collegeData.Name}</h3>
-        <p className="text-gray-700 mb-4">{collegeData.About.Overview}</p>
+        <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
+        <p className="text-gray-700 mb-6">IIT Roorkee offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and design disciplines. The institute maintains a balance between theoretical knowledge and practical application.</p>
+        
+        <div className="grid md:grid-cols-3 gap-6">
+          <div className="border rounded-lg p-4">
+            <h4 className="font-semibold text-lg mb-3">Undergraduate Programs</h4>
+            <div className="space-y-2 text-sm">
+              <div><span className="font-medium">B.Tech:</span> {collegeData.CoursesAndFees.Undergraduate.BTech.Seats} seats, {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.FirstYearFeeINR)}/year</div>
+              <div><span className="font-medium">B.Arch:</span> {collegeData.CoursesAndFees.Undergraduate.BArch.Seats} seats, {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BArch.FirstYearFeeINR)}/year</div>
+              <div><span className="font-medium">B.Des:</span> {collegeData.CoursesAndFees.Undergraduate.BDes.Seats} seats, {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BDes.FirstYearFeeINR)}/year</div>
+            </div>
+          </div>
+          
+          <div className="border rounded-lg p-4">
+            <h4 className="font-semibold text-lg mb-3">Postgraduate Programs</h4>
+            <div className="space-y-2 text-sm">
+              <div><span className="font-medium">M.Tech:</span> {collegeData.CoursesAndFees.Postgraduate.MTech.Specializations} specializations</div>
+              <div><span className="font-medium">MBA:</span> {collegeData.CoursesAndFees.Postgraduate.MBA.Seats} seats</div>
+              <div><span className="font-medium">M.Sc:</span> {collegeData.CoursesAndFees.Postgraduate.MSc.Seats} seats across {collegeData.CoursesAndFees.Postgraduate.MSc.Disciplines.length} disciplines</div>
+            </div>
+          </div>
+          
+          <div className="border rounded-lg p-4">
+            <h4 className="font-semibold text-lg mb-3">Doctoral Programs</h4>
+            <div className="space-y-2 text-sm">
+              <div><span className="font-medium">PhD:</span> {collegeData.CoursesAndFees.Doctoral.PhD.Programs} programs</div>
+              <div><span className="font-medium">Duration:</span> {collegeData.CoursesAndFees.Doctoral.PhD.TypicalDurationYears} years</div>
+              <div><span className="font-medium">Seats:</span> 900+ available</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Admission Process */}
+      <div className="bg-white rounded-xl shadow-sm border p-6">
+        <h3 className="text-2xl font-semibold mb-4">Admission Process & Cutoffs</h3>
+        <p className="text-gray-700 mb-6">Admissions at IIT Roorkee are highly competitive, with rigorous entrance examinations and strict cutoff criteria. The institute follows a merit-based selection process ensuring only the brightest minds join the community.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <h4 className="font-semibold mb-2">Research Focus Areas</h4>
-            <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-              {collegeData.About.ResearchFocus.map((area: string, index: number) => (
-                <li key={index}>{area}</li>
-              ))}
-            </ul>
+            <h4 className="font-semibold text-lg mb-3">Entrance Examinations</h4>
+            <div className="space-y-3">
+              <div className="bg-gray-50 rounded-lg p-3">
+                <h5 className="font-medium">Undergraduate (B.Tech/B.Arch)</h5>
+                <p className="text-sm text-gray-700">{collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Exam} with {collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Counseling}</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-3">
+                <h5 className="font-medium">Postgraduate (M.Tech/MBA/M.Sc)</h5>
+                <p className="text-sm text-gray-700">{collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MTechMArchMPlanMDes.Exam} for M.Tech, {collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.Exam} for MBA</p>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-3">
+                <h5 className="font-medium">Doctoral (PhD)</h5>
+                <p className="text-sm text-gray-700">{collegeData.AdmissionProcessAndEntranceExams.Doctoral.PhD.Exam.slice(0, 3).join(", ")} and others</p>
+              </div>
+            </div>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-2">Global Collaborations</h4>
-            <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-              {collegeData.About.GlobalCollaborations.map((collab: string, index: number) => (
-                <li key={index}>{collab}</li>
+            <h4 className="font-semibold text-lg mb-3">Recent Cutoffs (2025)</h4>
+            <div className="space-y-2 text-sm">
+              <div className="flex justify-between"><span>B.Tech CSE:</span> <span className="font-medium">AIR {collegeData.CutoffInformation.JEEAdvanced2025.BTechCSEClosingAIR}</span></div>
+              <div className="flex justify-between"><span>Data Science & AI:</span> <span className="font-medium">AIR {collegeData.CutoffInformation.JEEAdvanced2025.DataScienceAIClosingAIR}</span></div>
+              <div className="flex justify-between"><span>ECE:</span> <span className="font-medium">AIR {collegeData.CutoffInformation.JEEAdvanced2025.ECEClosingAIR}</span></div>
+              <div className="flex justify-between"><span>Mechanical:</span> <span className="font-medium">AIR {collegeData.CutoffInformation.JEEAdvanced2025.MechEngClosingAIR}</span></div>
+              <div className="flex justify-between"><span>B.Arch:</span> <span className="font-medium">Rank {collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString()}</span></div>
+              <div className="flex justify-between"><span>MBA (General):</span> <span className="font-medium">{collegeData.CutoffInformation.CATMBA2025Cutoffs.GeneralPercentile}%</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Placements & Career Opportunities */}
+      <div className="bg-white rounded-xl shadow-sm border p-6">
+        <h3 className="text-2xl font-semibold mb-4">Placements & Career Opportunities</h3>
+        <p className="text-gray-700 mb-6">IIT Roorkee has an exceptional placement record with top-tier companies consistently recruiting students across all programs. The Career Development Cell ensures comprehensive preparation and support throughout the placement process.</p>
+        
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+          <InfoCard label="Total Offers (2024)" value={collegeData.Placements.Year2024.TotalOffers} />
+          <InfoCard label="Recruiting Companies" value={collegeData.Placements.Year2024.Recruiters} />
+          <InfoCard label="Highest Package" value={formatCurrency(collegeData.Placements.Year2024.HighestPackageINR)} />
+          <InfoCard label="Average Package" value={formatCurrency(collegeData.Placements.Year2024.OverallAveragePackageINR)} />
+          <InfoCard label="CSE Average" value={formatCurrency(collegeData.Placements.Year2024.CSEAveragePackageINR)} />
+          <InfoCard label="ECE Average" value={formatCurrency(collegeData.Placements.Year2024.ECEAveragePackageINR)} />
+          <InfoCard label="PPOs" value={collegeData.Placements.Year2024.PPOs} />
+          <InfoCard label="MBA Median" value={formatCurrency(collegeData.Placements.Year2024["MBA median package INR"])} />
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <h4 className="font-semibold text-lg mb-3">Top Recruiting Companies</h4>
+            <div className="flex flex-wrap gap-2">
+              {collegeData.Placements.Year2024.TopRecruiters.slice(0, 12).map((recruiter: string, index: number) => (
+                <span key={index} className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
+                  {recruiter}
+                </span>
               ))}
-            </ul>
+            </div>
+          </div>
+          
+          <div>
+            <h4 className="font-semibold text-lg mb-3">Job Profiles</h4>
+            <div className="flex flex-wrap gap-2">
+              {collegeData.Placements.Year2024.JobProfiles.map((profile: string, index: number) => (
+                <span key={index} className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
+                  {profile}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Rankings & Recognition */}
+      <div className="bg-white rounded-xl shadow-sm border p-6">
+        <h3 className="text-2xl font-semibold mb-4">Rankings & Recognition</h3>
+        <p className="text-gray-700 mb-6">IIT Roorkee consistently ranks among the top engineering institutions in India and has gained international recognition for its academic excellence, research contributions, and innovation initiatives.</p>
+        
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <h4 className="font-semibold text-lg mb-3">National Rankings (NIRF)</h4>
+            <div className="space-y-3">
+              <div className="bg-yellow-50 rounded-lg p-3">
+                <h5 className="font-medium">NIRF 2025</h5>
+                <div className="text-sm text-gray-700 space-y-1">
+                  <div>Overall: <span className="font-medium">#{collegeData.Rankings.NIRF2025.Overall}</span></div>
+                  <div>Engineering: <span className="font-medium">#{collegeData.Rankings.NIRF2025.Engineering}</span></div>
+                  <div>Architecture & Planning: <span className="font-medium">#{collegeData.Rankings.NIRF2025.ArchitecturePlanning}</span></div>
+                </div>
+              </div>
+              <div className="bg-blue-50 rounded-lg p-3">
+                <h5 className="font-medium">NIRF 2024</h5>
+                <div className="text-sm text-gray-700 space-y-1">
+                  <div>Overall: <span className="font-medium">#{collegeData.Rankings.NIRF2024.Overall}</span></div>
+                  <div>Innovation: <span className="font-medium">#{collegeData.Rankings.NIRF2024.Innovation}</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <h4 className="font-semibold text-lg mb-3">International Rankings</h4>
+            <div className="space-y-3">
+              <div className="bg-green-50 rounded-lg p-3">
+                <h5 className="font-medium">QS Rankings</h5>
+                <div className="text-sm text-gray-700 space-y-1">
+                  <div>World University: <span className="font-medium">#{collegeData.Rankings.QSWorld2026}</span></div>
+                  <div>Asia University: <span className="font-medium">#{collegeData.Rankings.QSAsia2025}</span></div>
+                </div>
+              </div>
+              <div className="bg-purple-50 rounded-lg p-3">
+                <h5 className="font-medium">Other Recognitions</h5>
+                <div className="text-sm text-gray-700 space-y-1">
+                  <div>India Today Engineering: <span className="font-medium">#{collegeData.Rankings.IndiaTodayEngineering2024}</span></div>
+                  <div>THE Engineering: <span className="font-medium">{collegeData.Rankings.THEEngineering2020Band}</span></div>
+                  <div>ARIIA: <span className="font-medium">{collegeData.Rankings.ARIIA2021}</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Facilities & Infrastructure */}
+      <div className="bg-white rounded-xl shadow-sm border p-6">
+        <h3 className="text-2xl font-semibold mb-4">Campus Facilities & Infrastructure</h3>
+        <p className="text-gray-700 mb-6">The sprawling 365-acre campus of IIT Roorkee houses world-class facilities including modern hostels, state-of-the-art laboratories, extensive library resources, and comprehensive sports infrastructure to support holistic development.</p>
+        
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <h4 className="font-semibold text-lg mb-3">Accommodation & Living</h4>
+            <div className="space-y-3">
+              <div className="bg-blue-50 rounded-lg p-3">
+                <h5 className="font-medium">Hostel Facilities</h5>
+                <div className="text-sm text-gray-700 space-y-1">
+                  <div><span className="font-medium">{collegeData.Facilities.Hostels.Number} hostels</span> with {collegeData.Facilities.Hostels.Types.join(", ")} options</div>
+                  <div>Amenities: Wi-Fi, Study Rooms, Mess Halls, Recreation Areas</div>
+                </div>
+              </div>
+              <div className="bg-green-50 rounded-lg p-3">
+                <h5 className="font-medium">Dining & Food</h5>
+                <div className="text-sm text-gray-700">
+                  Multiple messes, cafés, food courts with daily menu rotation and dietary options
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <h4 className="font-semibold text-lg mb-3">Academic Resources</h4>
+            <div className="space-y-3">
+              <div className="bg-yellow-50 rounded-lg p-3">
+                <h5 className="font-medium">Library - {collegeData.Facilities.Library.Name}</h5>
+                <div className="text-sm text-gray-700 space-y-1">
+                  <div><span className="font-medium">{collegeData.Facilities.Library.BookCount.toLocaleString()} books</span> and {collegeData.Facilities.Library.EJournalsCount.toLocaleString()} e-journals</div>
+                  <div>24/7 access with digital resources and group study zones</div>
+                </div>
+              </div>
+              <div className="bg-purple-50 rounded-lg p-3">
+                <h5 className="font-medium">Laboratories</h5>
+                <div className="text-sm text-gray-700">
+                  <span className="font-medium">{collegeData.Facilities.Laboratories.Quantity} labs</span> focusing on AI, ML, VLSI, IoT, Nanotechnology, and more
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div className="mt-4">
-          <h4 className="font-semibold mb-2">Major Events</h4>
+        <div className="mt-6">
+          <h4 className="font-semibold text-lg mb-3">Sports & Recreation</h4>
+          <div className="grid md:grid-cols-2 gap-4">
+            <div>
+              <div className="text-sm text-gray-700 space-y-1">
+                {collegeData.Facilities.SportsFacilities.Features.map((facility: string, index: number) => (
+                  <div key={index} className="flex items-center">
+                    <ChevronRight className="w-4 h-4 mr-2 text-green-600" />
+                    {facility}
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div>
+              <div className="bg-orange-50 rounded-lg p-3">
+                <h5 className="font-medium">Medical Facilities</h5>
+                <div className="text-sm text-gray-700">
+                  <div>{collegeData.Facilities.Medical.FacilityName} with emergency services, specialist consultations, and pharmacy</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Faculty & Research */}
+      <div className="bg-white rounded-xl shadow-sm border p-6">
+        <h3 className="text-2xl font-semibold mb-4">Faculty & Research Excellence</h3>
+        <p className="text-gray-700 mb-6">IIT Roorkee boasts a distinguished faculty of over 470 members across 23 departments, with the majority holding PhD degrees. The institute is at the forefront of research and innovation with significant contributions to various fields.</p>
+        
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <h4 className="font-semibold text-lg mb-3">Academic Structure</h4>
+            <div className="space-y-3">
+              <div className="bg-blue-50 rounded-lg p-3">
+                <h5 className="font-medium">Faculty Strength</h5>
+                <div className="text-sm text-gray-700 space-y-1">
+                  <div><span className="font-medium">{collegeData.FacultyAndDepartments.Strength.FacultyCount} faculty members</span> across {collegeData.FacultyAndDepartments.DepartmentsCount} departments</div>
+                  <div>Majority with PhD qualifications</div>
+                  <div>{collegeData.FacultyAndDepartments.Strength.Patents2024} patents filed in 2024</div>
+                </div>
+              </div>
+              <div className="bg-green-50 rounded-lg p-3">
+                <h5 className="font-medium">Research Funding</h5>
+                <div className="text-sm text-gray-700">
+                  <span className="font-medium">{formatCurrency(collegeData.FacultyAndDepartments.Strength.ResearchFundsINR2024)}</span> research funds in 2024
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <h4 className="font-semibold text-lg mb-3">Key Departments</h4>
+            <div className="grid grid-cols-2 gap-2 text-sm">
+              {collegeData.FacultyAndDepartments.DepartmentsList.slice(0, 8).map((dept: string, index: number) => (
+                <div key={index} className="flex items-center">
+                  <ChevronRight className="w-3 h-3 mr-1 text-blue-600" />
+                  {dept}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-6">
+          <h4 className="font-semibold text-lg mb-3">Research Focus Areas</h4>
           <div className="flex flex-wrap gap-2">
-            {collegeData.About.MajorEvents.map((event: string, index: number) => (
-              <span key={index} className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
-                {event}
+            {collegeData.ResearchAndInnovation.FocusAreas.map((area: string, index: number) => (
+              <span key={index} className="bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full">
+                {area}
               </span>
             ))}
           </div>
         </div>
       </div>
 
-      {/* Historical Background */}
+      {/* Student Life & Culture */}
       <div className="bg-white rounded-xl shadow-sm border p-6">
-        <h3 className="text-xl font-semibold mb-4">Historical Background</h3>
-        <p className="text-gray-700 mb-3">{collegeData.Established.HistoricalSignificance}</p>
+        <h3 className="text-2xl font-semibold mb-4">Student Life & Campus Culture</h3>
+        <p className="text-gray-700 mb-6">The vibrant campus life at IIT Roorkee is characterized by a diverse community, rich cultural traditions, and numerous opportunities for personal and professional growth through clubs, societies, and events.</p>
         
-        <div className="space-y-2">
-          <h4 className="font-semibold">Evolution Timeline:</h4>
-          <div className="ml-4 space-y-1">
-            <div className="text-sm text-gray-700">
-              <span className="font-medium">{collegeData.Established.Year}:</span> {collegeData.Established.OriginalName}
-            </div>
-            {collegeData.Established.Renamed.map((rename: any, index: number) => (
-              <div key={index} className="text-sm text-gray-700">
-                <span className="font-medium">{rename.Year}:</span> {rename.Name}
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* Branches */}
-      <div className="bg-white rounded-xl shadow-sm border p-6">
-        <h3 className="text-xl font-semibold mb-4">Campus Branches</h3>
-        <div className="grid md:grid-cols-3 gap-4">
-          {collegeData.Location.Branches.map((branch: any, index: number) => (
-            <div key={index} className="border rounded-lg p-4">
-              <h4 className="font-semibold">{branch.Name}</h4>
-              {branch.Location && <p className="text-sm text-gray-600 mt-1">{branch.Location}</p>}
-              {branch.Specialization && <p className="text-sm text-gray-600 mt-1">{branch.Specialization}</p>}
-              {branch.Focus && <p className="text-sm text-gray-600 mt-1">{branch.Focus}</p>}
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Student Life */}
-      <div className="bg-white rounded-xl shadow-sm border p-6">
-        <h3 className="text-xl font-semibold mb-4">Student Life & Culture</h3>
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <h4 className="font-semibold mb-2">Cultural Traditions</h4>
-            <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-              {collegeData.StudentLifeAndLifestyle.CulturalTraditions.map((tradition: string, index: number) => (
-                <li key={index}>{tradition}</li>
-              ))}
-            </ul>
+            <h4 className="font-semibold text-lg mb-3">Cultural Heritage</h4>
+            <div className="space-y-3">
+              <div className="bg-yellow-50 rounded-lg p-3">
+                <h5 className="font-medium">Major Festivals</h5>
+                <div className="text-sm text-gray-700 space-y-1">
+                  {collegeData.StudentLifeAndLifestyle.Festivals.map((festival: string, index: number) => (
+                    <div key={index}>• {festival}</div>
+                  ))}
+                </div>
+              </div>
+              <div className="bg-pink-50 rounded-lg p-3">
+                <h5 className="font-medium">Cultural Traditions</h5>
+                <div className="text-sm text-gray-700 space-y-1">
+                  {collegeData.StudentLifeAndLifestyle.CulturalTraditions.map((tradition: string, index: number) => (
+                    <div key={index}>• {tradition}</div>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
           
           <div>
-            <h4 className="font-semibold mb-2">Clubs & Societies</h4>
-            <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-              {collegeData.StudentLifeAndLifestyle.ClubsAndSocieties.map((club: string, index: number) => (
-                <li key={index}>{club}</li>
+            <h4 className="font-semibold text-lg mb-3">Clubs & Societies</h4>
+            <div className="space-y-3">
+              <div className="bg-blue-50 rounded-lg p-3">
+                <h5 className="font-medium">Active Organizations</h5>
+                <div className="text-sm text-gray-700">
+                  <span className="font-medium">{collegeData.Facilities.StudentClubs.Number} clubs</span> across technical, cultural, entrepreneurship, and social service domains
+                </div>
+              </div>
+              <div className="bg-green-50 rounded-lg p-3">
+                <h5 className="font-medium">Key Clubs</h5>
+                <div className="text-sm text-gray-700 space-y-1">
+                  {collegeData.StudentLifeAndLifestyle.ClubsAndSocieties.slice(0, 4).map((club: string, index: number) => (
+                    <div key={index}>• {club}</div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Reviews & Ratings */}
+      <div className="bg-white rounded-xl shadow-sm border p-6">
+        <h3 className="text-2xl font-semibold mb-4">Student Reviews & Ratings</h3>
+        <p className="text-gray-700 mb-6">IIT Roorkee maintains consistently high ratings from students and alumni, reflecting its commitment to academic excellence, quality placements, and overall student satisfaction.</p>
+        
+        <div className="grid md:grid-cols-2 gap-6">
+          <div>
+            <h4 className="font-semibold text-lg mb-3">Overall Ratings</h4>
+            <div className="space-y-4">
+              <div className="flex items-center">
+                <div className="flex items-center mr-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className={`w-5 h-5 ${i < Math.floor(collegeData.ReviewsAndRatings.CollegeDuniaRating) ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} />
+                  ))}
+                </div>
+                <div>
+                  <div className="font-semibold">{collegeData.ReviewsAndRatings.CollegeDuniaRating}/5</div>
+                  <div className="text-sm text-gray-600">CollegeDunia ({collegeData.ReviewsAndRatings.CollegeDuniaReviewsCount} reviews)</div>
+                </div>
+              </div>
+              <div className="flex items-center">
+                <div className="flex items-center mr-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className={`w-5 h-5 ${i < Math.floor(collegeData.ReviewsAndRatings.Careers360Rating) ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} />
+                  ))}
+                </div>
+                <div>
+                  <div className="font-semibold">{collegeData.ReviewsAndRatings.Careers360Rating}/5</div>
+                  <div className="text-sm text-gray-600">Careers360</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <h4 className="font-semibold text-lg mb-3">Key Strengths</h4>
+            <div className="space-y-2">
+              {collegeData.ReviewsAndRatings.Strengths.map((strength: string, index: number) => (
+                <div key={index} className="flex items-start text-sm">
+                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                  {strength}
+                </div>
               ))}
-            </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-6">
+          <div className="flex items-center">
+            <TrendingUp className="w-6 h-6 text-green-600 mr-2" />
+            <span className="text-lg font-semibold text-green-600">Return on Investment: {collegeData.ReviewsAndRatings.ReturnOnInvestment}</span>
+          </div>
+        </div>
+      </div>
+
+      {/* Contact Information */}
+      <div className="bg-white rounded-xl shadow-sm border p-6">
+        <h3 className="text-2xl font-semibold mb-4">Contact Information</h3>
+        <p className="text-gray-700 mb-6">For admissions, academic inquiries, or general information, you can reach out to IIT Roorkee through the following official channels.</p>
+        
+        <div className="grid md:grid-cols-2 gap-6">
+          <div className="space-y-4">
+            <div className="flex items-start">
+              <MapPin className="w-5 h-5 text-gray-500 mt-1 mr-3" />
+              <div>
+                <h4 className="font-medium">Address</h4>
+                <p className="text-sm text-gray-700">{collegeData.OfficialContactInfo.Address}</p>
+              </div>
+            </div>
+            
+            <div className="flex items-center">
+              <Phone className="w-5 h-5 text-gray-500 mr-3" />
+              <div>
+                <h4 className="font-medium">Phone</h4>
+                <p className="text-sm text-gray-700">{collegeData.OfficialContactInfo.Phone}</p>
+              </div>
+            </div>
+            
+            <div className="flex items-center">
+              <Globe className="w-5 h-5 text-gray-500 mr-3" />
+              <div>
+                <h4 className="font-medium">Website</h4>
+                <a href={collegeData.OfficialContactInfo.Website} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+                  {collegeData.OfficialContactInfo.Website}
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <h4 className="font-medium mb-3">Email Contacts</h4>
+            <div className="space-y-3">
+              <div className="bg-blue-50 rounded-lg p-3">
+                <h5 className="font-medium text-sm">Registrar</h5>
+                <a href={`mailto:${collegeData.OfficialContactInfo.Emails.Registrar}`} className="text-blue-600 hover:underline text-sm">
+                  {collegeData.OfficialContactInfo.Emails.Registrar}
+                </a>
+              </div>
+              <div className="bg-green-50 rounded-lg p-3">
+                <h5 className="font-medium text-sm">Admissions</h5>
+                <a href={`mailto:${collegeData.OfficialContactInfo.Emails.Admissions}`} className="text-blue-600 hover:underline text-sm">
+                  {collegeData.OfficialContactInfo.Emails.Admissions}
+                </a>
+              </div>
+              <div className="bg-purple-50 rounded-lg p-3">
+                <h5 className="font-medium text-sm">Placement Cell</h5>
+                <a href={`mailto:${collegeData.OfficialContactInfo.Emails.PlacementCell}`} className="text-blue-600 hover:underline text-sm">
+                  {collegeData.OfficialContactInfo.Emails.PlacementCell}
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
