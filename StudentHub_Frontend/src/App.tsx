@@ -13,6 +13,7 @@ import ProfileEdit from "./pages/ProfileEdit";
 import RequireAuth from "./components/RequireAuth";
 import CollegesListPage from "./pages/Colleges/CollegesListPage";
 import CollegeDetailPage from "./pages/Colleges/CollegeDetailPage";
+import IITRoorkeePage from "./pages/Colleges/IITRoorkeePage";
 import NewsLandingPage from "./pages/News/NewsLandingPage";
 import NewsDetailPage from "./pages/News/NewsDetailPage";
 import ExamsLandingPage from "./pages/Exams/ExamsLandingPage";
@@ -47,6 +48,7 @@ function App() {
             <Route path="/results" element={<ResultsPage />} />
             <Route path="/colleges" element={<CollegesListPage />} />
             <Route path="/colleges/:slug" element={<CollegeDetailPage />} />
+            <Route path="/colleges/iit-roorkee" element={<IITRoorkeePage />} />
             <Route path="/engineering-colleges" element={<Navigate to="/colleges" replace />} />
             <Route path="*" element={<Navigate to="/colleges" replace />} />
           </Route>
