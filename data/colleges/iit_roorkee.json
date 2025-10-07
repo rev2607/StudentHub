@@ -1,0 +1,138 @@
+{
+    "name": "Indian Institute of Technology Roorkee (IIT Roorkee)",
+    "location": "Roorkee, Haridwar District, Uttarakhand, PIN: 247667, India",
+    "established": "1847 (as Thomason College of Civil Engineering), converted to IIT Roorkee in 2001",
+    "university_type": "Autonomous institute; Public; Institute of National Importance",
+    "about": "IIT Roorkee is the oldest technical university in Asia, established as the Thomason College of Civil Engineering during British rule and later upgraded to an IIT. Its sprawling 365-acre campus houses heritage and modern architecture, including the iconic James Thomason Building, student hostels, high-tech research labs, sports facilities, and student activity centers. Recognized globally, IITR focuses on engineering, science, management, architecture, social sciences, and has three campuses in Roorkee, Saharanpur, and Greater Noida.",
+    "ranking": {
+        "NIRF 2025": {
+            "Overall": "7th",
+            "Engineering": "6th",
+            "Architecture": "1st"
+        },
+        "NIRF 2024": {
+            "Overall": "8th",
+            "Innovation": "25th"
+        },
+        "QS 2026": {
+            "World": "339",
+            "Asia": "130"
+        },
+        "India Today 2024": "5th",
+        "THE 2020 (Engineering)": "301–400 Band"
+    },
+    "courses_and_fees": {
+        "B.Tech": {
+            "duration": "4 yrs",
+            "entrance": "JEE Adv, JoSAA",
+            "first_year_fees": "₹2,30,000",
+            "total_fees": "₹10 lakh",
+            "seats": "1100",
+            "specializations": [
+                "CSE",
+                "ECE",
+                "EE",
+                "ME",
+                "Chem",
+                "Civil",
+                "DS",
+                "Biotech",
+                "AI"
+            ]
+        },
+        "B.Arch": {
+            "duration": "5 yrs",
+            "entrance": "JEE Adv, AAT",
+            "fees": "₹12 lakh"
+        },
+        "MBA": {
+            "duration": "2 yrs",
+            "entrance": "CAT, PI",
+            "avg_fees": "₹4.6 lakh"
+        },
+        "PhD": {
+            "duration": "3–5 yrs",
+            "entrance": "Natl. exam/Interview",
+            "avg_fees": "₹1.2 lakh"
+        }
+    },
+    "cutoff": {
+        "JEE Advanced 2025": {
+            "CSE": "AIR 325–535",
+            "DS/AI": "AIR 606–710",
+            "ECE": "AIR 1196–1394",
+            "Mechanical": "AIR 1786–1936"
+        },
+        "MBA": {
+            "General": "94+",
+            "OBC": "74.5+",
+            "SC/ST": "65+"
+        }
+    },
+    "placements": {
+        "highest_package": "₹2.05 Crore (international)",
+        "domestic_highest": "₹1.20 Crore",
+        "average": "₹19.64 LPA",
+        "top_recruiters": [
+            "Microsoft",
+            "Google",
+            "Goldman Sachs",
+            "TSMC",
+            "BCG",
+            "Oracle",
+            "ISRO",
+            "DRDO",
+            "Intel"
+        ]
+    },
+    "facilities": [
+        "Hostels",
+        "Library",
+        "Labs",
+        "Sports",
+        "Medical Center",
+        "Wi-Fi",
+        "Student Activity Center"
+    ],
+    "faculty": {
+        "departments": 23,
+        "faculty_count": "470+",
+        "research_centers": [
+            "Hydrology",
+            "Disaster Management",
+            "Nanotechnology",
+            "Energy Studies"
+        ]
+    },
+    "scholarships": [
+        "Merit-cum-Means",
+        "James Thomson Scholarship",
+        "Special Awards (OCR, Encore, etc.)",
+        "Government scholarships via NSP"
+    ],
+    "reviews": {
+        "CollegeDunia": "4.7/5",
+        "Careers360": "4.8/5",
+        "pros": [
+            "Peer quality",
+            "Placement",
+            "Research",
+            "Campus"
+        ],
+        "cons": [
+            "Academic rigor",
+            "Hostel food",
+            "High competition"
+        ]
+    },
+    "contact_info": {
+        "website": "www.iitr.ac.in",
+        "address": "IIT Roorkee, Haridwar District, Roorkee, Uttarakhand 247667",
+        "phone": "01332-285311",
+        "email": [
+            "regis@iitr.ac.in",
+            "admission@iitr.ac.in",
+            "cdc@iitr.ac.in"
+        ]
+    }
+}
