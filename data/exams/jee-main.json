@@ -1,0 +1,164 @@
+{
+    "Exam Name": "Joint Entrance Examination (JEE) Main 2025",
+    "Conducting Authority": "National Testing Agency (NTA)",
+    "Exam Level": "National",
+    "Exam Category / Type": "Undergraduate Engineering Entrance Exam",
+    "Exam Frequency": "Twice a year (Session 1 in January, Session 2 in April)",
+    "Languages Available": [
+      "Assamese", "Bengali", "Marathi", "Odia", "Kannada", "Malayalam",
+      "Punjabi", "Tamil", "Hindi", "English", "Telugu", "Urdu", "Gujarati"
+    ],
+    "Mode of Exam": "Online (Computer-Based Test); Drawing section for Paper 2A offline",
+    "Duration": "3 hours per paper",
+    "Total Papers": {
+      "Paper 1": "B.E./B.Tech.",
+      "Paper 2A": "B.Arch.",
+      "Paper 2B": "B.Planning"
+    },
+    "Number of Questions": {
+      "Paper 1": "75 questions (Physics, Chemistry, Mathematics; 25 per subject: 20 MCQ, 5 Numerical)",
+      "Paper 2A": "77 questions (Mathematics, Aptitude, 2 Drawing)",
+      "Paper 2B": "105 questions (Mathematics, Aptitude, Planning)"
+    },
+    "Total Marks": "300 marks per paper",
+    "Marking Scheme": "+4 for correct, -1 for incorrect (MCQ); No negative for Numerical",
+    "Participating Institutes": "All NITs, IIITs, GFTIs, many private & state universities",
+    "About / Overview": "JEE Main is the largest all-India entrance test for undergraduate engineering and architecture admissions, a qualifying test for JEE Advanced (IITs). Conducted by NTA twice yearly, taken by over 13 lakh students. Admission is via centralized JoSAA/CSAB counselling based on AIR and reservation quotas.",
+    "Important Dates": {
+      "Session 1 (January 2025)": {
+        "Registration": "Oct 28–Nov 22, 2024",
+        "Correction": "Nov 26–27, 2024",
+        "Admit Card": "Jan 18, Jan 23, 2025",
+        "Paper 1 Exam": "Jan 22–29, 2025",
+        "Paper 2 Exam": "Jan 30, 2025",
+        "Provisional Answer Key": "Feb 4, 2025 (Paper 1); Feb 15, 2025 (Paper 2)",
+        "Final Answer Key": "Feb 10, 2025 (Paper 1); Feb 22, 2025 (Paper 2)",
+        "Result": "Feb 11, 2025 (Paper 1); Feb 23, 2025 (Paper 2)"
+      },
+      "Session 2 (April 2025)": {
+        "Correction": "Feb 27–28, 2025",
+        "City Slip": "Mar 20, 2025",
+        "Admit Card": "Mar 28, Apr 3, 2025",
+        "Paper 1 Exam": "Apr 2–8, 2025",
+        "Paper 2 Exam": "Apr 9, 2025",
+        "Provisional Answer Key": "Apr 11–14, 2025",
+        "Final Key": "Apr 18, 2025 (Paper 1); May 22, 2025 (Paper 2)",
+        "Result": "Apr 18, 2025 (Paper 1); May 23, 2025 (Paper 2)"
+      },
+      "Counselling": {
+        "JoSAA Registration": "June 3–12, 2025",
+        "Rounds": "June 14–July 16, 2025",
+        "Final Reporting": "July 23–28, 2025"
+      }
+    },
+    "Eligibility Criteria": {
+      "Age": "No upper limit",
+      "Qualification": "Class 12 passed in 2023, 2024, or appearing 2025",
+      "Subjects": "Physics, Chemistry, Mathematics required",
+      "Attempts": "Three consecutive years",
+      "For NITs/IIITs/GFTIs": "Min 75% or top 20 percentile in board"
+    },
+    "Application Process": {
+      "Steps": [
+        "Register at jeemain.nta.nic.in",
+        "Fill personal and academic info",
+        "Upload documents",
+        "Pay fees online",
+        "Download confirmation page"
+      ],
+      "Documents Required": [
+        "Photo (80% face, white background, JPG/JPEG, 10–300 kb)",
+        "Signature (10–50 kb, JPG/JPEG)",
+        "Class 10 marksheet (PDF)",
+        "Category/PwD certificate if applicable"
+      ],
+      "Application Fee (India Centres)": {
+        "General (Male)": {"1 Paper": "Rs. 1000", "2 Papers": "Rs. 2000"},
+        "General (Female)": {"1 Paper": "Rs. 800", "2 Papers": "Rs. 1600"},
+        "OBC/EWS (Male)": {"1 Paper": "Rs. 900", "2 Papers": "Rs. 2000"},
+        "OBC/EWS (Female)": {"1 Paper": "Rs. 800", "2 Papers": "Rs. 1600"},
+        "SC/ST/PwD/Transgender": {"1 Paper": "Rs. 500", "2 Papers": "Rs. 1000"}
+      }
+    },
+    "Syllabus": {
+      "Paper 1 (B.E./B.Tech.)": {
+        "Mathematics": [
+          "Sets, Relations, Functions", "Complex Numbers", "Quadratic Equations", "Matrices", "Determinants",
+          "Permutations", "Combinations", "Binomial Theorem", "Sequences", "Series",
+          "Calculus", "Differential Equations", "Coordinate Geometry", "Vector Algebra", "Probability"
+        ],
+        "Physics": [
+          "Kinematics", "Laws of Motion", "Thermodynamics", "Electrostatics",
+          "Magnetism", "Optics", "Modern Physics", "Waves", "Experimental Skills"
+        ],
+        "Chemistry": {
+          "Physical": ["Atomic Structure", "Thermodynamics", "Equilibrium", "Kinetics"],
+          "Inorganic": ["Periodic Table", "Coordination Compounds", "Hydrogen", "Environmental Chemistry"],
+          "Organic": ["Hydrocarbons", "Alcohols", "Aldehydes", "Amines", "Polymers", "Biomolecules"]
+        }
+      },
+      "Paper 2A (B.Arch.)": ["Mathematics", "Aptitude", "Drawing"],
+      "Paper 2B (B.Planning)": ["Mathematics", "Aptitude", "Planning"]
+    },
+    "Exam Pattern": {
+      "Paper 1": "75 Questions, 300 Marks, +4/-1 for MCQs, +4/0 for Numerical",
+      "Paper 2A": "77 Questions, 300 Marks",
+      "Paper 2B": "105 Questions, 300 Marks"
+    },
+    "Admit Card Details": "Download from NTA portal; mandatory for entry; includes centre, date, slot, and instructions.",
+    "Answer Key / Response Sheet": "Provisional, then final after objections. Response sheet downloadable.",
+    "Result & Score Calculation": "Separate per session; best considered; percentile normalization for AIR; top 2.5 lakh for JEE Advanced.",
+    "Cutoff (2025 Expected Percentile)": {
+      "General": 93.1023262,
+      "EWS": 80.3830119,
+      "OBC-NCL": 79.4313582,
+      "SC": 61.1526933,
+      "ST": 47.9026465,
+      "PwD": 0.0079349
+    },
+    "Counselling Process": {
+      "JoSAA": "Six online rounds; includes registration, seat allotment, verification, payment, and withdrawal options.",
+      "CSAB": "Special rounds for leftover seats in NIT+ system."
+    },
+    "Reservation Criteria": {
+      "OBC-NCL": "27%",
+      "EWS": "10%",
+      "SC": "15%",
+      "ST": "7.5%",
+      "PwD": "5% (horizontal)"
+    },
+    "Preparation Tips / Books": [
+      "Focus on NCERTs for concepts",
+      "Use HC Verma, IE Irodov (Physics); O.P. Tandon, JD Lee (Chemistry); RD Sharma, SL Loney, Amit Agarwal (Math)",
+      "Practice mocks, PYQs, time management"
+    ],
+    "Changes / Highlights (2025)": [
+      "Section B numerical questions compulsory",
+      "Physics: vectors removed from kinematics",
+      "Two sessions per year, best score considered",
+      "No age limit; three attempts",
+      "Paid edit window; strict document specs"
+    ],
+    "FAQs": [
+      {"Q": "Who conducts JEE Main?", "A": "National Testing Agency (NTA)"},
+      {"Q": "Attempts allowed?", "A": "Three consecutive years"},
+      {"Q": "Any age limit?", "A": "No upper age limit"},
+      {"Q": "Exam mode?", "A": "Computer-Based Test; drawing section offline"},
+      {"Q": "Result access?", "A": "Login on official portal"},
+      {"Q": "Percentile or raw score?", "A": "Percentile; AIR based on normalized score"},
+      {"Q": "Application correction?", "A": "Paid window available"}
+    ],
+    "Official Contact": {
+      "Website": "https://jeemain.nta.ac.in",
+      "Helpline": "0120–6895200",
+      "Email": "jeemain@nta.ac.in"
+    },
+    "Source URLs": [
+      "https://engineering.careers360.com/articles/jee-main-2025",
+      "https://collegedunia.com/exams/jee-main",
+      "https://jeemain.nta.ac.in/document/syllabus-for-jee-main-2025/",
+      "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2024/10/2024102841.pdf",
+      "https://www.vedantu.com/jee-main/exam-pattern"
+    ]
+  }
+  

@@ -17,6 +17,7 @@ import IITRoorkeePage from "./pages/Colleges/IITRoorkeePage";
 import NewsLandingPage from "./pages/News/NewsLandingPage";
 import NewsDetailPage from "./pages/News/NewsDetailPage";
 import ExamsLandingPage from "./pages/Exams/ExamsLandingPage";
+import JEEMainPage from "./pages/Exams/JEEMainPage";
 import ExamDetailPage from "./pages/Exams/ExamDetailPage";
 import ResultsPage from "./pages/Results/ResultsPage";
 
@@ -44,6 +45,7 @@ function App() {
             <Route path="/news" element={<NewsLandingPage />} />
             <Route path="/news/:id" element={<NewsDetailPage />} />
             <Route path="/exams" element={<ExamsLandingPage />} />
+            <Route path="/exams/jee-main" element={<JEEMainPage />} />
             <Route path="/exams/:slug" element={<ExamDetailPage />} />
             <Route path="/results" element={<ResultsPage />} />
             <Route path="/colleges" element={<CollegesListPage />} />

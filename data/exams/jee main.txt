@@ -1,0 +1,256 @@
+Exam Name:
+Joint Entrance Examination (JEE) Main 2025[10]
+
+Conducting Authority:
+National Testing Agency (NTA)[10]
+
+Exam Level:
+National[10]
+
+Exam Category / Type:
+Undergraduate Engineering Entrance Exam[10]
+
+Exam Frequency:
+Twice a year (Session 1 in January, Session 2 in April)[10]
+
+Languages Available:
+Assamese, Bengali, Marathi, Odia, Kannada, Malayalam, Punjabi, Tamil, Hindi, English, Telugu, Urdu, Gujarati[10]
+
+Mode of Exam:
+Online (Computer-Based Test); Drawing section for Paper 2A offline[10]
+
+Duration:
+3 hours per paper[10]
+
+Total Papers:
+Paper 1 (B.E./B.Tech.), Paper 2A (B.Arch.), Paper 2B (B.Planning)[10]
+
+Number of Questions:
+- Paper 1: 75 questions (Physics, Chemistry, Mathematics; 25 per subject: 20 MCQ, 5 Numerical)
+- Paper 2A: 77 questions (Mathematics, Aptitude, 2 Drawing)
+- Paper 2B: 105 questions (Mathematics, Aptitude, Planning)[3][10]
+
+Total Marks:
+300 marks for each paper[3][10]
+
+Marking Scheme:
++4 for each correct answer, -1 for incorrect (MCQ); Numerical Value Questions: no negative marking[3][10]
+
+Participating Institutes:
+All NITs, IIITs, GFTIs; many private & state universities accept JEE Main scores[10]
+
+About / Overview:
+JEE Main is the largest all-India entrance test for undergraduate engineering and architecture admissions, a qualifying test for JEE Advanced (IITs). Conducted by NTA, it is twice yearly and taken by over 13 lakh students. Admission is through a single centralized counselling (JoSAA/CSAB) based on AIR, reservation quotas, and category-specific merit.[10]
+
+Important Dates:
+
+Session 1 (January 2025):
+- Registration: Oct 28–Nov 22, 2024
+- Correction: Nov 26–27, 2024
+- Admit Card: Jan 18, Jan 23, 2025
+- Paper 1 Exam: Jan 22, 23, 24, 28, 29, 2025
+- Paper 2 Exam: Jan 30, 2025
+- Provisional Answer Key: Feb 4, 2025 (Paper 1); Feb 15, 2025 (Paper 2)
+- Final Key: Feb 10, 2025 (Paper 1); Feb 22, 2025 (Paper 2)
+- Result: Feb 11, 2025 (Paper 1); Feb 23, 2025 (Paper 2)
+
+Session 2 (April 2025):
+- Correction: Feb 27–28, 2025
+- City Slip: Mar 20, 2025
+- Admit Card: Mar 28, Apr 3, 2025
+- Paper 1 Exam: Apr 2, 3, 4, 7, 8, 2025
+- Paper 2 Exam: Apr 9, 2025
+- Provisional Answer Key: Apr 11, 2025 (Paper 1); Apr 14, 2025 (Paper 2)
+- Final Key: Apr 18, 2025 (Paper 1); May 22, 2025 (Paper 2)
+- Result: Apr 18, 2025 (Paper 1); May 23, 2025 (Paper 2); Withheld: Apr 29, 2025
+
+Counselling (JoSAA/CSAB):
+- JoSAA Registration: June 3–12, 2025
+- Rounds: June 14–July 16, 2025
+- Final reporting at institutes: July 23–28, 2025[10]
+
+Eligibility Criteria:
+- Age: No upper limit
+- Qualification: Class 12 (or equivalent) passed in 2023, 2024, or appearing 2025
+- Subjects: Physics, Chemistry, Mathematics (PCM) required for Paper 1/B.E/B.Tech
+- Attempts: Three consecutive years from passing Class 12
+- For NITs/IIITs/GFTIs: Min 75% in Class 12 or top 20 percentile in board (subject to updates)
+- Institute-specific further criteria may apply[10]
+
+Application Process:
+1. Registration at jeemain.nta.nic.in
+2. Fill form (personal academic info)
+3. Upload documents: photo (80% face, white background, JPG/JPEG, 10–300 kb), signature (10–50 kb, JPG/JPEG), Class 10 marksheet (PDF), Category/PwD certificate if applicable
+4. Pay fees (online UPI/net banking/cards)
+5. Download confirmation page
+
+Application Fee (India Centres):
+|Category|1 Paper|2 Papers|
+|--|--|--|
+|Gen (Male)|Rs. 1000|Rs. 2000|
+|Gen (Female)|Rs. 800|Rs.1600|
+|OBC/EWS (Male)|Rs. 900|Rs. 2000|
+|OBC/EWS (Female)|Rs. 800|Rs. 1600|
+|SC/ST/PWD/Transgender|Rs. 500|Rs.1000| [10]
+
+Syllabus:
+
+Paper 1 (B.E./B.Tech.) [Physics, Chemistry, Mathematics]:
+MATHEMATICS[2]
+- Sets, Relations and Functions
+- Complex Numbers, Quadratic Equations
+- Matrices, Determinants
+- Permutations, Combinations
+- Binomial Theorem
+- Sequences, Series
+- Limits, Continuity, Differentiability
+- Integral Calculus
+- Differential Equations
+- Coordinate Geometry (2D/3D)
+- Vector Algebra
+- Statistics, Probability
+- Trigonometry
+- Mathematical reasoning
+
+PHYSICS[2]
+- Units & Measurements
+- Kinematics
+- Laws of Motion
+- Work, Energy, Power
+- Rotational Motion
+- Gravitation
+- Properties of Matter (Solids, Liquids)
+- Thermodynamics
+- Kinetic Theory of Gases
+- Oscillations, Waves
+- Electrostatics, Current Electricity
+- Magnetic Effects, Electromagnetic Induction
+- Electromagnetic Waves
+- Optics
+- Dual Nature, Atoms, Nuclei
+- Electronic Devices
+- Experimental Skills
+
+CHEMISTRY[2]
+- Physical Chemistry: Basic concepts, Atomic Structure, Chemical Bonding, Thermodynamics, Equilibrium, Solutions, Electrochemistry, Chemical Kinetics, Surface Chemistry
+- Inorganic Chemistry: Periodic Table, Hydrogen, s/d/f/p Block, Coordination Compounds, Environmental Chemistry
+- Organic Chemistry: Principles, Hydrocarbons, Haloalkanes/arenes, Alcohols/phenols/ethers, Aldehyde/ketone/carboxylic acids, Amines, Polymers, Biomolecules, Chemistry in Everyday Life
+
+Paper 2A (B.Arch.)[2]
+- Mathematics: Same as above
+- Aptitude: Awareness of places/persons/buildings, visualizing 3D objects from 2D, mental ability, analytical reasoning
+- Drawing: Sketching, sense of perspective, 3D drawing, composition
+
+Paper 2B (B.Planning)[2]
+- Mathematics: Same as above
+- Aptitude: General Knowledge, comprehension, statistics, interpreting charts, spatial reasoning
+- Planning: Urbanization, settlements, development issues, government policies, map interpretation
+
+Exam Pattern:
+
+Paper 1:
+- Subjects: PCM
+- 25 questions per subject (20 MCQs + 5 Numerical Value Qs)
+- +4/-1 for MCQs; +4/0 for Num
+- Total: 75 Qs, 300 marks
+
+Paper 2A:
+- Mathematics: 20 MCQ + 5 NVQ
+- Aptitude: 50 MCQ
+- Drawing: 2 Qs (offline)
+- Total: 77 Qs, 300 marks
+
+Paper 2B:
+- Mathematics: 20 MCQ + 5 NVQ
+- Aptitude: 50 MCQ
+- Planning: 25 MCQ
+- Total: 105 Qs, 300 marks[3][2]
+
+Admit Card Details:
+- Download from NTA portal using login
+- Contains personal details, exam centre, date, slot, instructions
+- Mandatory for entry[10]
+
+Answer Key/Response Sheet:
+- Provisional key after exam (objection window open)
+- Final answer key post objection review
+- Response sheet available for download; compare answers for scores[3][10]
+
+Result & Score Calculation:
+- Separate scorecards per session
+- Best of two sessions considered if both attempted
+- Percentile normalization (across exam shifts) determines AIR
+- Only top 2.5 lakh eligible for JEE Advanced[10]
+
+Cutoff (Expected/Previous Year/Category-wise):
+|Category|2025 Cutoff Percentile|
+|--|--|
+|General|93.1023262|
+|EWS|80.3830119|
+|OBC-NCL|79.4313582|
+|SC|61.1526933|
+|ST|47.9026465|
+|PwD|0.0079349| [10]
+
+Counselling Process:
+JoSAA:
+- Six online rounds: Registration, Choice Filling, Seat Allotment, Document Verification, Fee Payment
+- Withdrawal/Exit options within schedule
+- Counselling for IITs, NITs, IIITs, GFTIs
+
+CSAB:
+- Additional/Special rounds for leftover seats in NIT+ system[10]
+
+Reservation Criteria:
+|Category|Reservation %|
+|--|--|
+|OBC-NCL|27%|
+|EWS|10%|
+|SC|15%|
+|ST|7.5%|
+|PwD|5% horizontally within each category| [10][10]
+
+Preparation Tips/Recommended Books:
+- Build NCERT conceptual base (XI & XII)
+- Use HC Verma/IE Irodov/Resnick-Halliday (Physics), O.P Tandon/RC Mukherjee/JD Lee (Chemistry), RD Sharma/SL Loney/Amit Agarwal/TMH/Arihant (Math)
+- Solve previous year papers, mock tests, analyse errors, focus on time & accuracy, prepare short notes & formulas
+- Manage stress, regular practice, sleep well[3][10]
+
+Changes / Highlights (2025):
+- Section B: Numerical type questions now compulsory, no optional questions
+- Physics: Vectors and certain topics removed from kinematics
+- Two sessions per year, best score considered
+- No age limit, three attempts in consecutive years
+- Application edit window is paid; document specifications strictly enforced[3][10]
+
+FAQs (Top):
+- Who conducts JEE Main? National Testing Agency (NTA)
+- Attempts allowed? Three consecutive years
+- Any age limit? No upper age limit
+- Exam mode? Computer-Based Test (Drawing section offline for B.Arch)
+- How to get result? Login on official portal
+- Percentile or raw score? Percentile; AIR is based on normalized scores
+- Application correction? Paid window available[3][10]
+
+Official Contact:
+- Website: https://jeemain.nta.ac.in
+- Helpline: 0120–6895200
+- Email: jeemain@nta.ac.in[10]
+
+Source URLs:
+- https://engineering.careers360.com/articles/jee-main-2025
+- https://collegedunia.com/exams/jee-main
+- https://jeemain.nta.nic.in/document/syllabus-for-jee-main-2025/
+- https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2024/10/2024102841.pdf
+- https://www.vedantu.com/jee-main/exam-pattern[1][4][5][2][3][10]
+
+[1](https://jeemain.nta.nic.in/document/syllabus-for-jee-main-2025/)
+[2](https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2024/10/2024102841.pdf)
+[3](https://www.vedantu.com/jee-main/exam-pattern)
+[4](https://www.pw.live/iit-jee/exams/jee-main-syllabus)
+[5](https://www.lpu.in/blog/jee-main-2025-syllabus-and-exam-pattern/)
+[6](https://jeeadv.ac.in/documents/jee-advanced-2025-syllabus.pdf)
+[7](https://www.vedantu.com/jee-main/syllabus)
+[8](https://engineering.careers360.com/articles/jee-main-exam-pattern)
+[9](https://allen.in/jee-main/syllabus)
+[10](https://engineering.careers360.com/articles/jee-main-2025)

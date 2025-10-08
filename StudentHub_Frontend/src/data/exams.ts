@@ -39,6 +39,7 @@ export type ExamApplicationFee = {
   st?: number;
   pwd?: number;
   currency: string;
+  details?: Record<string, Record<string, string>>;
 };
 
 export type ExamSummary = {
@@ -334,20 +335,34 @@ export const examsDetails: Record<string, ExamDetail> = {
     frequency: "Twice a year (January & April)",
     level: "National",
     language: "English, Hindi, Assamese, Bengali, Gujarati, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu, Urdu",
-    applicationFee: { general: 1000, obc: 900, sc: 800, st: 800, pwd: 800, currency: "INR" },
+    applicationFee: { 
+      general: 1000, 
+      obc: 900, 
+      sc: 500, 
+      st: 500, 
+      pwd: 500, 
+      currency: "INR",
+      details: {
+        "General (Male)": {"1 Paper": "Rs. 1000", "2 Papers": "Rs. 2000"},
+        "General (Female)": {"1 Paper": "Rs. 800", "2 Papers": "Rs. 1600"},
+        "OBC/EWS (Male)": {"1 Paper": "Rs. 900", "2 Papers": "Rs. 2000"},
+        "OBC/EWS (Female)": {"1 Paper": "Rs. 800", "2 Papers": "Rs. 1600"},
+        "SC/ST/PwD/Transgender": {"1 Paper": "Rs. 500", "2 Papers": "Rs. 1000"}
+      }
+    },
     durationMinutes: 180,
     modeOfApplication: "Online",
     modeOfExam: "Computer-Based Test (CBT)",
     modeOfCounselling: "JoSAA/CSAB online",
     participatingColleges: 2500,
     introduction:
-      "JEE Main 2026: NTA will release the JEE Main application form 2026 in October 2025. The JEE Main 2026 exam serves as the gateway to premier engineering institutions across India. This computer-based test features B.E./B.Tech papers lasting approximately 3 hours and carrying 300 marks (100 per section). The exam includes multiple-choice and numerical questions. Admissions follow through JoSAA seat matrix and seat allotment process based on JEE Main results. Read more at: https://engineering.careers360.com/exams/jee-main",
+      "JEE Main 2025: The National Testing Agency has announced the JEE Main 2025 round 6 seat allotment result on July 16, 2025. JEE Main is the largest all-India entrance test for undergraduate engineering and architecture admissions, a qualifying test for JEE Advanced (IITs). Conducted by NTA twice yearly, taken by over 13 lakh students. Admission is via centralized JoSAA/CSAB counselling based on AIR and reservation quotas. The exam features B.E./B.Tech papers lasting 3 hours with 300 marks (100 per section) including multiple-choice and numerical questions.",
     eligibility: [
-      "Passed/appearing in 10+2 with Physics, Chemistry, and Mathematics",
-      "Minimum 75% aggregate in 12th (65% for SC/ST/PwD) or be in top 20 percentile",
-      "No age limit (as per current policy)",
-      "Maximum 2 attempts per year (both sessions)",
-      "Indian nationals and OCI/PIO candidates eligible",
+      "No upper age limit",
+      "Class 12 passed in 2023, 2024, or appearing 2025",
+      "Physics, Chemistry, Mathematics required",
+      "Three consecutive years attempts allowed",
+      "For NITs/IIITs/GFTIs: Min 75% or top 20 percentile in board",
     ],
     applicationProcedure: [
       "Visit jeemain.nta.ac.in and register with valid email/mobile",
@@ -359,12 +374,25 @@ export const examsDetails: Record<string, ExamDetail> = {
       "Admit card will be released 3-4 days before exam",
     ],
     importantDates: [
-      { label: "JEE Main 2026 Application Form Release", date: "October 2026" },
-      { label: "JEE Main 2026 Session 1", date: "January 2026" },
-      { label: "JEE Main 2026 Session 2", date: "April 2026" },
-      { label: "Registration Windows", date: "As per NTA schedule" },
-      { label: "Response Sheet/Answer Key", date: "Posted on CollegeDunia" },
-      { label: "JoSAA Seat Matrix", date: "Following JEE Main results" },
+      { label: "JEE Main 2025 Session 1 Registration", date: "Oct 28–Nov 22, 2024" },
+      { label: "JEE Main 2025 Session 1 Correction Window", date: "Nov 26–27, 2024" },
+      { label: "JEE Main 2025 Session 1 Admit Card", date: "Jan 18, Jan 23, 2025" },
+      { label: "JEE Main 2025 Session 1 Paper 1 Exam", date: "Jan 22–29, 2025" },
+      { label: "JEE Main 2025 Session 1 Paper 2 Exam", date: "Jan 30, 2025" },
+      { label: "JEE Main 2025 Session 1 Provisional Answer Key", date: "Feb 4, 2025 (Paper 1); Feb 15, 2025 (Paper 2)" },
+      { label: "JEE Main 2025 Session 1 Final Answer Key", date: "Feb 10, 2025 (Paper 1); Feb 22, 2025 (Paper 2)" },
+      { label: "JEE Main 2025 Session 1 Result", date: "Feb 11, 2025 (Paper 1); Feb 23, 2025 (Paper 2)" },
+      { label: "JEE Main 2025 Session 2 Correction Window", date: "Feb 27–28, 2025" },
+      { label: "JEE Main 2025 Session 2 City Slip", date: "Mar 20, 2025" },
+      { label: "JEE Main 2025 Session 2 Admit Card", date: "Mar 28, Apr 3, 2025" },
+      { label: "JEE Main 2025 Session 2 Paper 1 Exam", date: "Apr 2–8, 2025" },
+      { label: "JEE Main 2025 Session 2 Paper 2 Exam", date: "Apr 9, 2025" },
+      { label: "JEE Main 2025 Session 2 Provisional Answer Key", date: "Apr 11–14, 2025" },
+      { label: "JEE Main 2025 Session 2 Final Key", date: "Apr 18, 2025 (Paper 1); May 22, 2025 (Paper 2)" },
+      { label: "JEE Main 2025 Session 2 Result", date: "Apr 18, 2025 (Paper 1); May 23, 2025 (Paper 2)" },
+      { label: "JoSAA Registration", date: "June 3–12, 2025" },
+      { label: "JoSAA Rounds", date: "June 14–July 16, 2025" },
+      { label: "JoSAA Final Reporting", date: "July 23–28, 2025" },
     ],
     documentsRequired: [
       "Recent passport-size photograph (JPG/JPEG, 10-200 KB)",
@@ -378,47 +406,36 @@ export const examsDetails: Record<string, ExamDetail> = {
     examPattern: {
       durationMinutes: 180,
       totalMarks: 300,
-      negativeMarking: "As per NTA guidelines",
-      modeOfExam: "Computer-Based Test (CBT)",
+      negativeMarking: "+4 for correct, -1 for incorrect (MCQ); No negative for Numerical",
+      modeOfExam: "Online (Computer-Based Test); Drawing section for Paper 2A offline",
       sections: [
-        { name: "Physics", questions: 30, marks: 100, type: "MCQ + Numerical (2025 changes)" },
-        { name: "Chemistry", questions: 30, marks: 100, type: "MCQ + Numerical (2025 changes)" },
-        { name: "Mathematics", questions: 30, marks: 100, type: "MCQ + Numerical (2025 changes)" },
+        { name: "Physics", questions: 25, marks: 100, type: "20 MCQ + 5 Numerical" },
+        { name: "Chemistry", questions: 25, marks: 100, type: "20 MCQ + 5 Numerical" },
+        { name: "Mathematics", questions: 25, marks: 100, type: "20 MCQ + 5 Numerical" },
       ],
     },
     syllabus: [
       { 
         section: "Physics", 
         topics: [
-          "Mechanics: Kinematics, Laws of Motion, Work Energy Power",
-          "Thermodynamics: Heat, Temperature, Laws of Thermodynamics",
-          "Waves and Oscillations: Simple Harmonic Motion, Wave Motion",
-          "Electrostatics: Electric Field, Potential, Capacitance",
-          "Current Electricity: Ohm's Law, Resistance, Power",
-          "Magnetism: Magnetic Field, Electromagnetic Induction",
-          "Optics: Ray Optics, Wave Optics, Interference, Diffraction",
-          "Modern Physics: Photoelectric Effect, Atomic Structure, Nuclear Physics"
+          "Kinematics", "Laws of Motion", "Thermodynamics", "Electrostatics",
+          "Magnetism", "Optics", "Modern Physics", "Waves", "Experimental Skills"
         ] 
       },
       { 
         section: "Chemistry", 
         topics: [
-          "Physical Chemistry: Atomic Structure, Chemical Bonding, Thermodynamics",
-          "Organic Chemistry: Hydrocarbons, Functional Groups, Reaction Mechanisms",
-          "Inorganic Chemistry: Periodic Table, Chemical Bonding, Coordination Compounds",
-          "Environmental Chemistry: Pollution, Green Chemistry",
-          "Biomolecules: Carbohydrates, Proteins, Nucleic Acids"
+          "Physical Chemistry: Atomic Structure, Thermodynamics, Equilibrium, Kinetics",
+          "Inorganic Chemistry: Periodic Table, Coordination Compounds, Hydrogen, Environmental Chemistry",
+          "Organic Chemistry: Hydrocarbons, Alcohols, Aldehydes, Amines, Polymers, Biomolecules"
         ] 
       },
       { 
         section: "Mathematics", 
         topics: [
-          "Algebra: Complex Numbers, Quadratic Equations, Sequences and Series",
-          "Calculus: Limits, Continuity, Differentiation, Integration",
-          "Coordinate Geometry: Straight Lines, Circles, Conic Sections",
-          "Trigonometry: Trigonometric Ratios, Identities, Equations",
-          "Statistics and Probability: Mean, Median, Mode, Probability",
-          "Vectors: Vector Algebra, Scalar and Vector Products"
+          "Sets, Relations, Functions", "Complex Numbers", "Quadratic Equations", "Matrices", "Determinants",
+          "Permutations", "Combinations", "Binomial Theorem", "Sequences", "Series",
+          "Calculus", "Differential Equations", "Coordinate Geometry", "Vector Algebra", "Probability"
         ] 
       },
     ],
@@ -430,12 +447,13 @@ export const examsDetails: Record<string, ExamDetail> = {
       ],
     },
     cutoffsAndCounselling: [
-      "Cutoffs vary significantly by institute, category, and branch",
-      "General category cutoffs for top NITs: 95+ percentile",
+      "JEE Main 2025 Expected Cutoff Percentiles:",
+      "General: 93.10%", "EWS: 80.38%", "OBC-NCL: 79.43%", "SC: 61.15%", "ST: 47.90%", "PwD: 0.007%",
       "JoSAA conducts centralized counselling for NITs, IIITs, and CFTIs",
       "CSAB conducts additional rounds for vacant seats",
       "Counselling includes choice filling, seat allocation, and document verification",
       "Seat matrix and cutoffs published before each round",
+      "Reservation: OBC-NCL (27%), EWS (10%), SC (15%), ST (7.5%), PwD (5%)",
     ],
     slotAdmitResults: [
       "No slot booking required; exam city selection during application",
@@ -445,21 +463,24 @@ export const examsDetails: Record<string, ExamDetail> = {
       "Normalization applied across different shifts for fair evaluation",
     ],
     contact: {
-      phone: "+91-11-40759000, +91-11-40759001",
-      email: "jeemain@nta.ac.in, helpdesk@nta.ac.in",
+      phone: "0120–6895200",
+      email: "jeemain@nta.ac.in",
       address: "National Testing Agency, Plot No. 15, Knowledge Park-III, Greater Noida, Uttar Pradesh - 201310",
     },
     faqs: [
+      { question: "Who conducts JEE Main?", answer: "National Testing Agency (NTA)" },
+      { question: "Attempts allowed?", answer: "Three consecutive years" },
+      { question: "Any age limit?", answer: "No upper age limit" },
+      { question: "Exam mode?", answer: "Computer-Based Test; drawing section offline" },
+      { question: "Result access?", answer: "Login on official portal" },
+      { question: "Percentile or raw score?", answer: "Percentile; AIR based on normalized score" },
+      { question: "Application correction?", answer: "Paid window available" },
       { question: "How many attempts are allowed for JEE Main?", answer: "Students can appear for JEE Main twice in a year (January and April sessions). Both attempts are considered separate, and the best score is used for admission." },
-      { question: "Is there any age limit for JEE Main?", answer: "Currently, there is no upper age limit for appearing in JEE Main. However, candidates must have passed 10+2 or equivalent examination." },
       { question: "What is the exam mode for JEE Main?", answer: "JEE Main is conducted in Computer-Based Test (CBT) mode. All questions are displayed on computer screens and answered using mouse and keyboard." },
       { question: "Can I appear in both sessions of JEE Main?", answer: "Yes, candidates can appear in both sessions. The best of the two scores (if appeared in both sessions) will be considered for ranking and admission." },
       { question: "How is the percentile calculated in JEE Main?", answer: "Percentile is calculated using normalization across different shifts to ensure fairness. It represents the percentage of candidates who scored equal to or below the candidate's score." },
       { question: "What is the difference between JEE Main and JEE Advanced?", answer: "JEE Main is the first stage for admission to NITs, IIITs, and CFTIs. JEE Advanced is the second stage for admission to IITs, and only top JEE Main qualifiers can appear for it." },
       { question: "Is there negative marking in JEE Main?", answer: "Yes, there is negative marking of -1 mark for each incorrect answer in MCQ questions. No marks are deducted for unattempted questions." },
-      { question: "When will JEE Main 2026 notification be released?", answer: "The official notification for JEE Main 2026 is expected to be released in November 2025, with detailed exam dates and application procedures." },
-      { question: "How does JEE Main 2026 avoid conflicts with board exams?", answer: "JEE Main 2026 Session 2 is scheduled after April 9, 2026, to avoid conflicts with CBSE Class 12 board exams which run from February 17 to April 9, 2026." },
-      { question: "What is the exam duration for different papers?", answer: "B.E./B.Tech and B.Arch/B.Planning papers are 3 hours each. If appearing for both B.Arch and B.Planning, the duration extends to 3 hours 30 minutes." },
     ],
     officialLinks: [
       { label: "Official Website", url: "https://jeemain.nta.ac.in" },
