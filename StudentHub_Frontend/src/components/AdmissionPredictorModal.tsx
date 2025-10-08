@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Search, ChevronRight, Check } from 'lucide-react';
+import { X, Search, Check } from 'lucide-react';
 
 interface AdmissionPredictorModalProps {
   isOpen: boolean;

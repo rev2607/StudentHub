@@ -52,6 +52,15 @@ const IITRoorkeePage: React.FC = () => {
   const [showBackToTop, setShowBackToTop] = useState(false);
   const mainContentRef = useRef<HTMLDivElement | null>(null);
   const sidebarRef = useRef<HTMLDivElement | null>(null);
+  const [isLeadModalOpen, setIsLeadModalOpen] = useState(false);
+  const [leadForm, setLeadForm] = useState({
+    fullName: "",
+    email: "",
+    phone: "",
+    city: "",
+    course: "",
+  });
+  const [leadErrors, setLeadErrors] = useState<Record<string, string>>({});
 
   const scrollToSection = (tabId: string, sectionId: string) => {
     setActiveTab(tabId);
@@ -105,6 +114,47 @@ const IITRoorkeePage: React.FC = () => {
     ro.observe(mainContentRef.current);
     return () => ro.disconnect();
   }, []);
+
+  // Auto-open Lead Modal after 10s
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLeadModalOpen(true);
+      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_open', page: 'iit_roorkee' } })); } catch {}
+    }, 10000);
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setIsLeadModalOpen(false); };
+    window.addEventListener('keydown', onKey);
+    return () => { clearTimeout(timer); window.removeEventListener('keydown', onKey); };
+  }, []);
+
+  const validateLead = () => {
+    const errors: Record<string, string> = {};
+    if (!leadForm.fullName.trim()) errors.fullName = 'Full name is required';
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(leadForm.email)) errors.email = 'Valid email required';
+    if (!/^\+?[0-9]{7,15}$/.test(leadForm.phone)) errors.phone = 'Valid phone required';
+    if (!leadForm.city.trim()) errors.city = 'City is required';
+    if (!leadForm.course.trim()) errors.course = 'Select a course';
+    setLeadErrors(errors);
+    return Object.keys(errors).length === 0;
+  };
+
+  const submitLead = async () => {
+    if (!validateLead()) return;
+    try {
+      await fetch('/api/leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...leadForm,
+          college: collegeData?.Name,
+          source: 'iit_roorkee_page',
+        })
+      });
+      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_submit', page: 'iit_roorkee' } })); } catch {}
+      setIsLeadModalOpen(false);
+    } catch (e) {
+      // noop: could show toast
+    }
+  };
 
   if (loading) {
     return (
@@ -169,6 +219,13 @@ const IITRoorkeePage: React.FC = () => {
   // Right Sidebar Components
   const RightSidebar = () => (
     <div className="w-full lg:w-80 space-y-8">
+      {/* Admission Predictor CTA (moved to top) */}
+      <div className="bg-white rounded-xl shadow-sm p-8">
+        <h3 className="text-lg font-semibold text-gray-900 mb-3">Predict Your Chances</h3>
+        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for IIT Roorkee based on your rank and category.</p>
+        <button onClick={() => setIsPredictorModalOpen(true)} className="w-full px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Try Admission Predictor</button>
+      </div>
+
       {/* News */}
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Latest News</h3>
@@ -369,6 +426,25 @@ const IITRoorkeePage: React.FC = () => {
           <li><Link to="#overview-courses-full" className="text-blue-600 hover:underline">Fees & scholarships</Link></li>
           <li><Link to="#overview-placements-full" className="text-blue-600 hover:underline">Placement policy</Link></li>
         </ul>
+      </div>
+
+      {/* Popular College Comparisons */}
+      <div className="bg-white rounded-xl shadow-sm p-8">
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Popular College Comparisons</h3>
+        <div className="space-y-2 text-sm">
+          <Link to="/compare/iit-roorkee-vs-iit-delhi" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">IIT Roorkee vs IIT Delhi</span>
+            <ChevronRight className="w-4 h-4 text-gray-400" />
+          </Link>
+          <Link to="/compare/iit-roorkee-vs-iit-bombay" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">IIT Roorkee vs IIT Bombay</span>
+            <ChevronRight className="w-4 h-4 text-gray-400" />
+          </Link>
+          <Link to="/compare/iit-roorkee-vs-iit-kanpur" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">IIT Roorkee vs IIT Kanpur</span>
+            <ChevronRight className="w-4 h-4 text-gray-400" />
+          </Link>
+        </div>
       </div>
 
       {/* Follow & Newsletter */}
@@ -3100,8 +3176,8 @@ const IITRoorkeePage: React.FC = () => {
                   <span className="text-lg font-semibold text-green-600">Return on Investment: {collegeData.ReviewsAndRatings.ReturnOnInvestment}</span>
                 </div>
               </div>
-            </div>
-
+          </div>
+          
             {/* Contact Information - end of page */}
             <div className="bg-white rounded-xl shadow-sm p-6 mt-8" id="contact-root">
               <h3 className="text-2xl font-semibold mb-4">Contact Information</h3>
@@ -3182,6 +3258,63 @@ const IITRoorkeePage: React.FC = () => {
       >
         ↑ Top
       </button>
+    )}
+
+    {/* Register to Apply Modal */}
+    {isLeadModalOpen && (
+      <div className="fixed inset-0 z-40">
+        {/* Backdrop */}
+        <div onClick={() => setIsLeadModalOpen(false)} className="absolute inset-0 bg-black/40 backdrop-blur-[1px] opacity-100 transition-opacity" />
+        {/* Modal Panel */}
+        <div className="absolute inset-x-0 bottom-0 md:inset-0 flex items-end md:items-center justify-center">
+          <div className="w-full md:max-w-4xl bg-white rounded-t-2xl md:rounded-2xl shadow-xl overflow-hidden transform transition-all md:scale-100 md:opacity-100">
+            <div className="grid md:grid-cols-2">
+              {/* Left: Features/Testimonial */}
+              <div className="p-6 md:p-8 bg-gray-50">
+                <h3 className="text-xl font-semibold mb-4">Register Now to Apply</h3>
+                <p className="text-sm text-gray-700 mb-4">Fast‑track your application workflow for {collegeData?.Name}. Get counselling, fee details, scholarships and deadline reminders.</p>
+                <div className="grid grid-cols-2 gap-3 mb-6 text-sm">
+                  <div className="p-3 rounded-lg bg-white shadow-sm">📄 Brochure details</div>
+                  <div className="p-3 rounded-lg bg-white shadow-sm">💰 Check detailed fees</div>
+                  <div className="p-3 rounded-lg bg-white shadow-sm">✅ Shortlist & apply</div>
+                  <div className="p-3 rounded-lg bg-white shadow-sm">🧑‍💼 24/7 counselling</div>
+                  <div className="p-3 rounded-lg bg-white shadow-sm">🎓 Scholarships</div>
+                  <div className="p-3 rounded-lg bg-white shadow-sm">📅 Application deadlines</div>
+                </div>
+                <div className="p-4 rounded-lg bg-white shadow-sm">
+                  <div className="text-sm text-gray-800 italic">“StudentHub made it easy to compare programs and finish my application on time.”</div>
+                  <div className="text-xs text-gray-500 mt-2">— Gurmeet, B.Tech (2024)</div>
+                </div>
+              </div>
+              {/* Right: Form */}
+              <div className="p-6 md:p-8">
+                <button onClick={() => setIsLeadModalOpen(false)} aria-label="Close" className="md:hidden float-right -mt-2 -mr-2 text-gray-500">✕</button>
+                <div className="grid grid-cols-1 gap-3">
+                  <input value={leadForm.fullName} onChange={(e) => setLeadForm({ ...leadForm, fullName: e.target.value })} placeholder="Full Name *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.fullName ? 'ring-1 ring-red-500' : ''}`} />
+                  {leadErrors.fullName && <span className="text-xs text-red-600">{leadErrors.fullName}</span>}
+                  <input value={leadForm.email} onChange={(e) => setLeadForm({ ...leadForm, email: e.target.value })} placeholder="Email Address *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.email ? 'ring-1 ring-red-500' : ''}`} />
+                  {leadErrors.email && <span className="text-xs text-red-600">{leadErrors.email}</span>}
+                  <input value={leadForm.phone} onChange={(e) => setLeadForm({ ...leadForm, phone: e.target.value })} placeholder="Mobile Number *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.phone ? 'ring-1 ring-red-500' : ''}`} />
+                  {leadErrors.phone && <span className="text-xs text-red-600">{leadErrors.phone}</span>}
+                  <input value={leadForm.city} onChange={(e) => setLeadForm({ ...leadForm, city: e.target.value })} placeholder="City You Live In *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.city ? 'ring-1 ring-red-500' : ''}`} />
+                  {leadErrors.city && <span className="text-xs text-red-600">{leadErrors.city}</span>}
+                  <select value={leadForm.course} onChange={(e) => setLeadForm({ ...leadForm, course: e.target.value })} className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.course ? 'ring-1 ring-red-500' : ''}`}>
+                    <option value="">Course Interested In *</option>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="M.Tech">M.Tech</option>
+                    <option value="MBA">MBA</option>
+                    <option value="M.Sc">M.Sc</option>
+                    <option value="PhD">PhD</option>
+                  </select>
+                  {leadErrors.course && <span className="text-xs text-red-600">{leadErrors.course}</span>}
+                  <button onClick={submitLead} className="mt-1 px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-lg">Submit</button>
+                  <button onClick={() => setIsLeadModalOpen(false)} className="text-xs text-gray-500">Already registered? Close to continue</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     )}
     </div>
   );
