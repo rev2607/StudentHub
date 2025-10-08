@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { 
   Star, 
@@ -49,6 +49,18 @@ const IITRoorkeePage: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isPredictorModalOpen, setIsPredictorModalOpen] = useState(false);
+  const [showBackToTop, setShowBackToTop] = useState(false);
+  const mainContentRef = useRef<HTMLDivElement | null>(null);
+  const sidebarRef = useRef<HTMLDivElement | null>(null);
+
+  const scrollToSection = (tabId: string, sectionId: string) => {
+    setActiveTab(tabId);
+    // Wait for tab content to render, then scroll smoothly
+    setTimeout(() => {
+      const target = document.getElementById(sectionId);
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 0);
+  };
 
   useEffect(() => {
     const loadData = async () => {
@@ -74,6 +86,24 @@ const IITRoorkeePage: React.FC = () => {
     };
 
     loadData();
+  }, []);
+
+  useEffect(() => {
+    const onScroll = () => setShowBackToTop(window.scrollY > 400);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  // Alternative method to stretch right sidebar: match main content height via ResizeObserver (no sticky, no inner scroll)
+  useEffect(() => {
+    if (!mainContentRef.current || !sidebarRef.current) return;
+    const sidebarEl = sidebarRef.current;
+    const ro = new ResizeObserver(() => {
+      const mainHeight = mainContentRef.current?.getBoundingClientRect().height || 0;
+      sidebarEl.style.minHeight = `${Math.ceil(mainHeight)}px`;
+    });
+    ro.observe(mainContentRef.current);
+    return () => ro.disconnect();
   }, []);
 
   if (loading) {
@@ -138,9 +168,9 @@ const IITRoorkeePage: React.FC = () => {
 
   // Right Sidebar Components
   const RightSidebar = () => (
-    <div className="w-full lg:w-80 space-y-6">
+    <div className="w-full lg:w-80 space-y-8">
       {/* News */}
-      <div className="bg-white rounded-xl shadow-sm p-6">
+      <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Latest News</h3>
         <div className="space-y-4">
           <div className="flex gap-3">
@@ -157,32 +187,32 @@ const IITRoorkeePage: React.FC = () => {
               <p className="text-xs text-gray-500 mt-1">5 days ago</p>
             </div>
           </div>
-        </div>
+            </div>
         <button className="w-full mt-4 text-blue-600 hover:text-blue-700 text-sm font-medium">View All News</button>
       </div>
 
       {/* Top Courses */}
-      <div className="bg-white rounded-xl shadow-sm p-6">
+      <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Top Courses at IIT Roorkee</h3>
         <div className="space-y-3">
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
-            <div>
-              <p className="font-medium text-gray-900">B.Tech CSE</p>
-              <p className="text-xs text-gray-500">₹8.87L - 11.09L</p>
+              <div>
+                <p className="font-medium text-gray-900">B.Tech CSE</p>
+                <p className="text-xs text-gray-500">₹8.87L - 11.09L</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
-            <div>
-              <p className="font-medium text-gray-900">M.Tech CSE</p>
-              <p className="text-xs text-gray-500">₹65,200</p>
+              <div>
+                <p className="font-medium text-gray-900">M.Tech CSE</p>
+                <p className="text-xs text-gray-500">₹65,200</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
-            <div>
-              <p className="font-medium text-gray-900">MBA</p>
-              <p className="text-xs text-gray-500">₹2.3L</p>
+              <div>
+                <p className="font-medium text-gray-900">MBA</p>
+                <p className="text-xs text-gray-500">₹2.3L</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
@@ -190,13 +220,13 @@ const IITRoorkeePage: React.FC = () => {
       </div>
 
       {/* Faculty Highlights */}
-      <div className="bg-white rounded-xl shadow-sm p-6">
+      <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Faculty Highlights</h3>
         <div className="space-y-3 text-sm">
           <div className="flex items-center justify-between">
             <span className="text-gray-600">Faculty Members</span>
             <span className="font-medium text-gray-900">{collegeData?.FacultyAndDepartments.Strength.FacultyCount}</span>
-          </div>
+            </div>
           <div className="flex items-center justify-between">
             <span className="text-gray-600">Departments</span>
             <span className="font-medium text-gray-900">{collegeData?.FacultyAndDepartments.DepartmentsCount}</span>
@@ -204,11 +234,177 @@ const IITRoorkeePage: React.FC = () => {
           <div className="flex items-center justify-between">
             <span className="text-gray-600">Patents (2024)</span>
             <span className="font-medium text-gray-900">{collegeData?.FacultyAndDepartments.Strength.Patents2024}</span>
-          </div>
+            </div>
           <div className="flex items-center justify-between">
             <span className="text-gray-600">Research Funds</span>
             <span className="font-medium text-gray-900">{formatCurrency(collegeData?.FacultyAndDepartments.Strength.ResearchFundsINR2024 || 0)}</span>
+            </div>
           </div>
+      </div>
+
+      {/* Entrance Resources */}
+      <div className="bg-white rounded-xl shadow-sm p-8">
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Entrance Resources</h3>
+        <div className="space-y-2 text-sm">
+          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://jeeadv.ac.in" target="_blank" rel="noopener noreferrer">
+            <span className="font-medium text-gray-900">JEE Advanced (UG)</span>
+            <ChevronRight className="w-4 h-4 text-gray-400" />
+          </a>
+          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://josaa.nic.in" target="_blank" rel="noopener noreferrer">
+            <span className="font-medium text-gray-900">JoSAA Counseling</span>
+            <ChevronRight className="w-4 h-4 text-gray-400" />
+          </a>
+          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://gate.iitr.ac.in" target="_blank" rel="noopener noreferrer">
+            <span className="font-medium text-gray-900">GATE (PG Engineering)</span>
+            <ChevronRight className="w-4 h-4 text-gray-400" />
+          </a>
+          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://iimcat.ac.in" target="_blank" rel="noopener noreferrer">
+            <span className="font-medium text-gray-900">CAT (MBA)</span>
+            <ChevronRight className="w-4 h-4 text-gray-400" />
+          </a>
+          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://jam.iitm.ac.in" target="_blank" rel="noopener noreferrer">
+            <span className="font-medium text-gray-900">IIT JAM (M.Sc)</span>
+            <ChevronRight className="w-4 h-4 text-gray-400" />
+          </a>
+        </div>
+      </div>
+
+      {/* Upcoming Events */}
+      <div className="bg-white rounded-xl shadow-sm p-8">
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Upcoming Events</h3>
+        <div className="space-y-3 text-sm">
+          <div className="p-3 bg-gray-50 rounded-lg">
+            <div className="font-medium text-gray-900">Thomso Cultural Festival</div>
+            <div className="text-gray-600">Nov • Workshops, concerts, competitions</div>
+              </div>
+          <div className="p-3 bg-gray-50 rounded-lg">
+            <div className="font-medium text-gray-900">Cognizance Tech Fest</div>
+            <div className="text-gray-600">Mar • Hackathons, keynotes, expo</div>
+          </div>
+        </div>
+      </div>
+
+      {/* Scholarships */}
+      <div className="bg-white rounded-xl shadow-sm p-8">
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Scholarships</h3>
+        <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
+          <li>Merit‑cum‑Means (UG)</li>
+          <li>EWS Tuition Fee Waiver</li>
+          <li>SC/ST Scholarships</li>
+          <li>Industry‑sponsored Fellowships (PG/PhD)</li>
+        </ul>
+      </div>
+
+      {/* Cutoff Snapshot */}
+      <div className="bg-white rounded-xl shadow-sm p-8">
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Cutoff Snapshot (2025)</h3>
+        <div className="grid grid-cols-2 gap-3 text-sm">
+          <div className="p-3 bg-gray-50 rounded-lg">
+            <div className="text-gray-600">B.Tech CSE</div>
+            <div className="font-medium text-gray-900">AIR {collegeData?.CutoffInformation.JEEAdvanced2025.BTechCSEClosingAIR}</div>
+          </div>
+          <div className="p-3 bg-gray-50 rounded-lg">
+            <div className="text-gray-600">DS & AI</div>
+            <div className="font-medium text-gray-900">AIR {collegeData?.CutoffInformation.JEEAdvanced2025.DataScienceAIClosingAIR}</div>
+          </div>
+          <div className="p-3 bg-gray-50 rounded-lg">
+            <div className="text-gray-600">ECE</div>
+            <div className="font-medium text-gray-900">AIR {collegeData?.CutoffInformation.JEEAdvanced2025.ECEClosingAIR}</div>
+          </div>
+          <div className="p-3 bg-gray-50 rounded-lg">
+            <div className="text-gray-600">MBA (General)</div>
+            <div className="font-medium text-gray-900">{collegeData?.CutoffInformation.CATMBA2025Cutoffs.GeneralPercentile}%</div>
+          </div>
+        </div>
+      </div>
+
+      {/* Alumni Spotlight */}
+      <div className="bg-white rounded-xl shadow-sm p-8">
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Alumni Spotlight</h3>
+        <ul className="text-sm text-gray-700 space-y-2">
+          <li className="flex items-center justify-between">
+            <span>FAANG & Global Tech Leadership</span>
+            <ChevronRight className="w-4 h-4 text-gray-400" />
+          </li>
+          <li className="flex items-center justify-between">
+            <span>Consulting & Finance Roles (Global)</span>
+            <ChevronRight className="w-4 h-4 text-gray-400" />
+          </li>
+          <li className="flex items-center justify-between">
+            <span>Founders & Deep‑Tech Startups</span>
+            <ChevronRight className="w-4 h-4 text-gray-400" />
+          </li>
+        </ul>
+      </div>
+
+      {/* Admission Predictor CTA */}
+      <div className="bg-white rounded-xl shadow-sm p-8">
+        <h3 className="text-lg font-semibold text-gray-900 mb-3">Predict Your Chances</h3>
+        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for IIT Roorkee based on your rank and category.</p>
+        <button onClick={() => setIsPredictorModalOpen(true)} className="w-full px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Try Admission Predictor</button>
+      </div>
+
+      {/* Talk to a Counsellor */}
+      <div className="bg-white rounded-xl shadow-sm p-8">
+        <h3 className="text-lg font-semibold text-gray-900 mb-3">Talk to a Counsellor</h3>
+        <p className="text-sm text-gray-700 mb-3">Confused about branches, fees or cutoffs? Get a free 10‑min call.</p>
+        <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">Request a Callback</button>
+      </div>
+
+      {/* Trending Exams */}
+      <div className="bg-white rounded-xl shadow-sm p-8">
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Trending Exams</h3>
+        <div className="space-y-2 text-sm">
+          <Link to="/exams/jee-advanced" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"><span className="font-medium text-gray-900">JEE Advanced</span><ChevronRight className="w-4 h-4 text-gray-400"/></Link>
+          <Link to="/exams/gate" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"><span className="font-medium text-gray-900">GATE</span><ChevronRight className="w-4 h-4 text-gray-400"/></Link>
+          <Link to="/exams/cat" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"><span className="font-medium text-gray-900">CAT</span><ChevronRight className="w-4 h-4 text-gray-400"/></Link>
+        </div>
+      </div>
+
+      {/* FAQs & Guides */}
+      <div className="bg-white rounded-xl shadow-sm p-8">
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">FAQs & Guides</h3>
+        <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
+          <li><Link to="#overview-admissions-full" className="text-blue-600 hover:underline">How JoSAA rounds work</Link></li>
+          <li><Link to="#overview-courses-full" className="text-blue-600 hover:underline">Fees & scholarships</Link></li>
+          <li><Link to="#overview-placements-full" className="text-blue-600 hover:underline">Placement policy</Link></li>
+        </ul>
+      </div>
+
+      {/* Follow & Newsletter */}
+      <div className="bg-white rounded-xl shadow-sm p-8">
+        <h3 className="text-lg font-semibold text-gray-900 mb-3">Stay Updated</h3>
+        <div className="flex gap-2 mb-3">
+          <a href="#" className="px-3 py-1 rounded bg-blue-50 text-blue-700 text-sm">Twitter</a>
+          <a href="#" className="px-3 py-1 rounded bg-pink-50 text-pink-700 text-sm">Instagram</a>
+          <a href="#" className="px-3 py-1 rounded bg-indigo-50 text-indigo-700 text-sm">LinkedIn</a>
+        </div>
+        <div className="flex gap-2">
+          <input type="email" placeholder="Email for updates" className="flex-1 px-3 py-2 rounded bg-gray-50 text-sm outline-none" />
+          <button className="px-3 py-2 rounded bg-gray-900 text-white text-sm">Subscribe</button>
+        </div>
+      </div>
+
+      {/* Mock Tests */}
+      <div className="bg-white rounded-xl shadow-sm p-8">
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Practice Mock Tests</h3>
+        <p className="text-sm text-gray-700 mb-3">Boost your readiness with full-length, exam‑pattern mock tests. Instant scores and detailed solutions.</p>
+        <div className="grid grid-cols-1 gap-2 text-sm">
+          <Link to="/mocktests/jee-main" className="px-3 py-2 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 font-medium transition-colors">JEE Main Mock Test</Link>
+          <Link to="/mocktests/jee-advanced" className="px-3 py-2 rounded-lg bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-medium transition-colors">JEE Advanced Mock Test</Link>
+          <Link to="/mocktests/gate" className="px-3 py-2 rounded-lg bg-purple-50 hover:bg-purple-100 text-purple-700 font-medium transition-colors">GATE Mock Test</Link>
+          <Link to="/mocktests/cat" className="px-3 py-2 rounded-lg bg-amber-50 hover:bg-amber-100 text-amber-700 font-medium transition-colors">CAT Mock Test</Link>
+          <Link to="/mocktests/jam" className="px-3 py-2 rounded-lg bg-green-50 hover:bg-green-100 text-green-700 font-medium transition-colors">IIT JAM Mock Test</Link>
+        </div>
+        <button onClick={() => scrollToSection('admissions', 'overview-admissions-full')} className="mt-3 w-full px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">See Eligibility & Exam Info</button>
+      </div>
+
+      {/* Quick Actions */}
+      <div className="bg-white rounded-xl shadow-sm p-6">
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Quick Actions</h3>
+        <div className="grid grid-cols-2 gap-3 text-sm">
+          <button onClick={() => scrollToSection('contact', 'contact-root')} className="px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">Contact</button>
+          <button className="px-3 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Download Brochure</button>
         </div>
       </div>
 
@@ -216,29 +412,29 @@ const IITRoorkeePage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Learn More About</h3>
         <div className="space-y-2">
-          <button className="w-full flex items-center justify-between p-3 hover:bg-gray-50 rounded-lg transition-colors">
+          <button onClick={() => scrollToSection('courses', 'courses-root')} className="w-full flex items-center justify-between p-3 hover:bg-gray-50 rounded-lg transition-colors">
             <span className="font-medium text-gray-900">Course Details</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
-          </button>
-          <button className="w-full flex items-center justify-between p-3 hover:bg-gray-50 rounded-lg transition-colors">
+            </button>
+          <button onClick={() => scrollToSection('placements', 'placements-root')} className="w-full flex items-center justify-between p-3 hover:bg-gray-50 rounded-lg transition-colors">
             <span className="font-medium text-gray-900">Placement Statistics</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </button>
-          <button className="w-full flex items-center justify-between p-3 hover:bg-gray-50 rounded-lg transition-colors">
+          <button onClick={() => scrollToSection('rankings', 'rankings-root')} className="w-full flex items-center justify-between p-3 hover:bg-gray-50 rounded-lg transition-colors">
             <span className="font-medium text-gray-900">Rankings & Recognition</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </button>
-          <button className="w-full flex items-center justify-between p-3 hover:bg-gray-50 rounded-lg transition-colors">
+          <button onClick={() => scrollToSection('facilities', 'facilities-root')} className="w-full flex items-center justify-between p-3 hover:bg-gray-50 rounded-lg transition-colors">
             <span className="font-medium text-gray-900">Campus Life</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </button>
         </div>
       </div>
 
-      {/* Students Also View (sticky last) */}
-      <div className="bg-white rounded-xl shadow-sm p-6 lg:sticky lg:top-24">
+      {/* Students Also View (fills remaining sidebar height) */}
+      <div className="flex-1 bg-white rounded-xl shadow-sm p-8 flex flex-col">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Students Also View</h3>
-        <div className="space-y-4">
+        <div className="space-y-4 flex-1">
           {[
             { name: "IIT Delhi", rank: "2", type: "Engineering" },
             { name: "IIT Bombay", rank: "3", type: "Engineering" },
@@ -666,125 +862,37 @@ const IITRoorkeePage: React.FC = () => {
         </div>
       </div>
 
-      {/* Reviews & Ratings */}
-      <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Student Reviews & Ratings</h3>
-        <p className="text-gray-700 mb-6">IIT Roorkee maintains consistently high ratings from students and alumni, reflecting its commitment to academic excellence, quality placements, and overall student satisfaction.</p>
-        
-        <div className="grid md:grid-cols-2 gap-6">
-          <div>
-            <h4 className="font-semibold text-lg mb-3">Overall Ratings</h4>
-            <div className="space-y-4">
-              <div className="flex items-center">
-                <div className="flex items-center mr-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className={`w-5 h-5 ${i < Math.floor(collegeData.ReviewsAndRatings.CollegeDuniaRating) ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} />
-                  ))}
-                </div>
-                <div>
-                  <div className="font-semibold">{collegeData.ReviewsAndRatings.CollegeDuniaRating}/5</div>
-                  <div className="text-sm text-gray-600">CollegeDunia ({collegeData.ReviewsAndRatings.CollegeDuniaReviewsCount} reviews)</div>
-                </div>
-              </div>
-              <div className="flex items-center">
-                <div className="flex items-center mr-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className={`w-5 h-5 ${i < Math.floor(collegeData.ReviewsAndRatings.Careers360Rating) ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} />
-                  ))}
-                </div>
-                <div>
-                  <div className="font-semibold">{collegeData.ReviewsAndRatings.Careers360Rating}/5</div>
-                  <div className="text-sm text-gray-600">Careers360</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div>
-            <h4 className="font-semibold text-lg mb-3">Key Strengths</h4>
-            <div className="space-y-2">
-              {collegeData.ReviewsAndRatings.Strengths.map((strength: string, index: number) => (
-                <div key={index} className="flex items-start text-sm">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                  {strength}
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+      {/* Reviews & Contact moved to end of page */}
 
-        <div className="mt-6">
-          <div className="flex items-center">
-            <TrendingUp className="w-6 h-6 text-green-600 mr-2" />
-            <span className="text-lg font-semibold text-green-600">Return on Investment: {collegeData.ReviewsAndRatings.ReturnOnInvestment}</span>
-          </div>
-        </div>
-      </div>
-
-      {/* Contact Information */}
-      <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Contact Information</h3>
-        <p className="text-gray-700 mb-6">For admissions, academic inquiries, or general information, you can reach out to IIT Roorkee through the following official channels.</p>
-        
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="space-y-4">
-            <div className="flex items-start">
-              <MapPin className="w-5 h-5 text-gray-500 mt-1 mr-3" />
-              <div>
-                <h4 className="font-medium">Address</h4>
-                <p className="text-sm text-gray-700">{collegeData.OfficialContactInfo.Address}</p>
-              </div>
-            </div>
-            
-            <div className="flex items-center">
-              <Phone className="w-5 h-5 text-gray-500 mr-3" />
-              <div>
-                <h4 className="font-medium">Phone</h4>
-                <p className="text-sm text-gray-700">{collegeData.OfficialContactInfo.Phone}</p>
-              </div>
-            </div>
-            
-            <div className="flex items-center">
-              <Globe className="w-5 h-5 text-gray-500 mr-3" />
-              <div>
-                <h4 className="font-medium">Website</h4>
-                <a href={collegeData.OfficialContactInfo.Website} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
-                  {collegeData.OfficialContactInfo.Website}
-                </a>
-              </div>
-            </div>
-          </div>
-          
-          <div>
-            <h4 className="font-medium mb-3">Email Contacts</h4>
-            <div className="space-y-3">
-              <div className="bg-blue-50 rounded-lg p-3">
-                <h5 className="font-medium text-sm">Registrar</h5>
-                <a href={`mailto:${collegeData.OfficialContactInfo.Emails.Registrar}`} className="text-blue-600 hover:underline text-sm">
-                  {collegeData.OfficialContactInfo.Emails.Registrar}
-                </a>
-              </div>
-              <div className="bg-green-50 rounded-lg p-3">
-                <h5 className="font-medium text-sm">Admissions</h5>
-                <a href={`mailto:${collegeData.OfficialContactInfo.Emails.Admissions}`} className="text-blue-600 hover:underline text-sm">
-                  {collegeData.OfficialContactInfo.Emails.Admissions}
-                </a>
-              </div>
-              <div className="bg-purple-50 rounded-lg p-3">
-                <h5 className="font-medium text-sm">Placement Cell</h5>
-                <a href={`mailto:${collegeData.OfficialContactInfo.Emails.PlacementCell}`} className="text-blue-600 hover:underline text-sm">
-                  {collegeData.OfficialContactInfo.Emails.PlacementCell}
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+      {/* All Details (merged from other tabs) */}
+      <div className="space-y-8">
+        <section id="overview-courses-full">
+          {renderCoursesTab()}
+        </section>
+        <section id="overview-admissions-full">
+          {renderAdmissionsTab()}
+        </section>
+        <section id="overview-placements-full">
+          {renderPlacementsTab()}
+        </section>
+        <section id="overview-rankings-full">
+          {renderRankingsTab()}
+        </section>
+        <section id="overview-facilities-full">
+          {renderFacilitiesTab()}
+        </section>
+        <section id="overview-faculty-full">
+          {renderFacultyTab()}
+        </section>
+        <section id="overview-reviews-full">
+          {renderReviewsTab()}
+        </section>
       </div>
     </div>
   );
 
   const renderCoursesTab = () => (
-    <div className="space-y-6">
+    <div id="courses-root" className="space-y-6">
       {/* Undergraduate Programs */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Undergraduate Programs</h3>
@@ -1331,7 +1439,7 @@ const IITRoorkeePage: React.FC = () => {
   );
 
   const renderPlacementsTab = () => (
-    <div className="space-y-6">
+    <div id="placements-root" className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Why Placements at IIT Roorkee Stand Out</h3>
         <p className="text-gray-700 mb-3">
@@ -1614,7 +1722,7 @@ const IITRoorkeePage: React.FC = () => {
   );
 
   const renderRankingsTab = () => (
-    <div className="space-y-6">
+    <div id="rankings-root" className="space-y-6">
       {/* Rankings Narrative and Consolidated Tables (user-provided) */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">IIT Roorkee Rankings & Recognition</h3>
@@ -1836,7 +1944,7 @@ const IITRoorkeePage: React.FC = () => {
   );
 
   const renderFacilitiesTab = () => (
-    <div className="space-y-6">
+    <div id="facilities-root" className="space-y-6">
       {/* Rich Facilities Narrative (user-provided) */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">A Holistic, Self‑Contained 365‑Acre Campus</h3>
@@ -2789,6 +2897,10 @@ const IITRoorkeePage: React.FC = () => {
             <Mail className="w-5 h-5 mr-2" />
             Contact Admissions
           </button>
+          <button onClick={() => setIsPredictorModalOpen(true)} className="flex items-center justify-center px-6 py-3 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-colors md:col-span-2">
+            <TrendingUp className="w-5 h-5 mr-2" />
+            Will You Get In? (Predict Chances)
+          </button>
         </div>
       </div>
     </div>
@@ -2890,6 +3002,13 @@ const IITRoorkeePage: React.FC = () => {
                 <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">
                   Architecture Rank #{collegeData.Rankings.NIRF2025.ArchitecturePlanning}
                 </span>
+                {/* Quick facts chips */}
+                <span className="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full">
+                  {collegeData.About.StudentStrength}+ Students
+                </span>
+                <span className="bg-pink-100 text-pink-800 text-xs px-2 py-1 rounded-full">
+                  {collegeData.CoursesAndFees.Undergraduate.BTech.Seats}+ UG Seats
+                </span>
               </div>
             </div>
 
@@ -2908,8 +3027,8 @@ const IITRoorkeePage: React.FC = () => {
         </div>
       </div>
 
-      {/* Tabs Navigation */}
-      <div className="bg-white">
+      {/* Tabs Navigation (sticky) */}
+      <div className="bg-white sticky top-0 z-20 shadow-sm">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex overflow-x-auto">
             {tabs.map((tab) => (
@@ -2928,12 +3047,120 @@ const IITRoorkeePage: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Main Content */}
-          <div className="flex-1">
+          <div ref={mainContentRef} className="flex-1">
             {renderTabContent()}
+
+            {/* Reviews & Ratings - end of page */}
+            <div className="bg-white rounded-xl shadow-sm p-6 mt-8">
+              <h3 className="text-2xl font-semibold mb-4">Student Reviews & Ratings</h3>
+              <p className="text-gray-700 mb-6">IIT Roorkee maintains consistently high ratings from students and alumni, reflecting its commitment to academic excellence, quality placements, and overall student satisfaction.</p>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-semibold text-lg mb-3">Overall Ratings</h4>
+                  <div className="space-y-4">
+                    <div className="flex items-center">
+                      <div className="flex items-center mr-4">
+                        {[...Array(5)].map((_, i) => (
+                          <Star key={i} className={`w-5 h-5 ${i < Math.floor(collegeData.ReviewsAndRatings.CollegeDuniaRating) ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} />
+                        ))}
+                      </div>
+                      <div>
+                        <div className="font-semibold">{collegeData.ReviewsAndRatings.CollegeDuniaRating}/5</div>
+                        <div className="text-sm text-gray-600">CollegeDunia ({collegeData.ReviewsAndRatings.CollegeDuniaReviewsCount} reviews)</div>
+                      </div>
+                    </div>
+                    <div className="flex items-center">
+                      <div className="flex items-center mr-4">
+                        {[...Array(5)].map((_, i) => (
+                          <Star key={i} className={`w-5 h-5 ${i < Math.floor(collegeData.ReviewsAndRatings.Careers360Rating) ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} />
+                        ))}
+                      </div>
+                      <div>
+                        <div className="font-semibold">{collegeData.ReviewsAndRatings.Careers360Rating}/5</div>
+                        <div className="text-sm text-gray-600">Careers360</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-lg mb-3">Key Strengths</h4>
+                  <div className="space-y-2">
+                    {collegeData.ReviewsAndRatings.Strengths.map((strength: string, index: number) => (
+                      <div key={index} className="flex items-start text-sm">
+                        <div className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
+                        {strength}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+              <div className="mt-6">
+                <div className="flex items-center">
+                  <TrendingUp className="w-6 h-6 text-green-600 mr-2" />
+                  <span className="text-lg font-semibold text-green-600">Return on Investment: {collegeData.ReviewsAndRatings.ReturnOnInvestment}</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Contact Information - end of page */}
+            <div className="bg-white rounded-xl shadow-sm p-6 mt-8" id="contact-root">
+              <h3 className="text-2xl font-semibold mb-4">Contact Information</h3>
+              <p className="text-gray-700 mb-6">For admissions, academic inquiries, or general information, you can reach out to IIT Roorkee through the following official channels.</p>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div className="space-y-4">
+                  <div className="flex items-start">
+                    <MapPin className="w-5 h-5 text-gray-500 mt-1 mr-3" />
+                    <div>
+                      <h4 className="font-medium">Address</h4>
+                      <p className="text-sm text-gray-700">{collegeData.OfficialContactInfo.Address}</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center">
+                    <Phone className="w-5 h-5 text-gray-500 mr-3" />
+                    <div>
+                      <h4 className="font-medium">Phone</h4>
+                      <p className="text-sm text-gray-700">{collegeData.OfficialContactInfo.Phone}</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center">
+                    <Globe className="w-5 h-5 text-gray-500 mr-3" />
+                    <div>
+                      <h4 className="font-medium">Website</h4>
+                      <a href={collegeData.OfficialContactInfo.Website} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+                        {collegeData.OfficialContactInfo.Website}
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="font-medium mb-3">Email Contacts</h4>
+                  <div className="space-y-3">
+                    <div className="bg-blue-50 rounded-lg p-3">
+                      <h5 className="font-medium text-sm">Registrar</h5>
+                      <a href={`mailto:${collegeData.OfficialContactInfo.Emails.Registrar}`} className="text-blue-600 hover:underline text-sm">
+                        {collegeData.OfficialContactInfo.Emails.Registrar}
+                      </a>
+                    </div>
+                    <div className="bg-green-50 rounded-lg p-3">
+                      <h5 className="font-medium text-sm">Admissions</h5>
+                      <a href={`mailto:${collegeData.OfficialContactInfo.Emails.Admissions}`} className="text-blue-600 hover:underline text-sm">
+                        {collegeData.OfficialContactInfo.Emails.Admissions}
+                      </a>
+                    </div>
+                    <div className="bg-purple-50 rounded-lg p-3">
+                      <h5 className="font-medium text-sm">Placement Cell</h5>
+                      <a href={`mailto:${collegeData.OfficialContactInfo.Emails.PlacementCell}`} className="text-blue-600 hover:underline text-sm">
+                        {collegeData.OfficialContactInfo.Emails.PlacementCell}
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           
-          {/* Right Sidebar */}
-          <div className="lg:order-last">
+          {/* Right Sidebar (fixed on large screens with its own scroll, stays till end) */}
+          <div ref={sidebarRef} className="lg:order-last lg:sticky lg:top-24 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto">
             <RightSidebar />
           </div>
         </div>
@@ -2946,6 +3173,16 @@ const IITRoorkeePage: React.FC = () => {
         collegeName={collegeData?.Name || "IIT Roorkee"}
         collegeLogo="/data/colleges/IIT_Roorkee_Logo.svg"
       />
+    {/* Floating Back-to-Top */}
+    {showBackToTop && (
+      <button
+        aria-label="Back to top"
+        className="fixed bottom-6 right-6 bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 rounded-full shadow-md transition-colors"
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+      >
+        ↑ Top
+      </button>
+    )}
     </div>
   );
 };
