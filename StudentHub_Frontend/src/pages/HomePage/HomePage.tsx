@@ -6,6 +6,7 @@ import Information from "./HomeSection/Information";
 import TrendingCollegesPackages from "./HomeSection/TrendingCollegesPackages";
 import TrendingCourseMockTests from "./HomeSection/TrendingCourseMockTests";
 import Recommendations from "./HomeSection/Recommendations";
+import LatestNews from "./HomeSection/LatestNews";
 
 // import FeaturedCourses from "../../components/OLD/FeaturedCourses";
 // import ExamSection from "../../components/OLD/ExamSection";
@@ -23,6 +24,7 @@ const HomePage = () => {
       <TrendingCollegesPackages />
       <TrendingCourseMockTests />
       <Recommendations />
+      <LatestNews />
 
       {/* <FeaturedCourses /> */}
       {/* <ExamSection /> */}

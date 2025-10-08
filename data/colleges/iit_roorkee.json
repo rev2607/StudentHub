@@ -1,138 +1,614 @@
 {
-    "name": "Indian Institute of Technology Roorkee (IIT Roorkee)",
-    "location": "Roorkee, Haridwar District, Uttarakhand, PIN: 247667, India",
-    "established": "1847 (as Thomason College of Civil Engineering), converted to IIT Roorkee in 2001",
-    "university_type": "Autonomous institute; Public; Institute of National Importance",
-    "about": "IIT Roorkee is the oldest technical university in Asia, established as the Thomason College of Civil Engineering during British rule and later upgraded to an IIT. Its sprawling 365-acre campus houses heritage and modern architecture, including the iconic James Thomason Building, student hostels, high-tech research labs, sports facilities, and student activity centers. Recognized globally, IITR focuses on engineering, science, management, architecture, social sciences, and has three campuses in Roorkee, Saharanpur, and Greater Noida.",
-    "ranking": {
-        "NIRF 2025": {
-            "Overall": "7th",
-            "Engineering": "6th",
-            "Architecture": "1st"
-        },
-        "NIRF 2024": {
-            "Overall": "8th",
-            "Innovation": "25th"
-        },
-        "QS 2026": {
-            "World": "339",
-            "Asia": "130"
-        },
-        "India Today 2024": "5th",
-        "THE 2020 (Engineering)": "301–400 Band"
-    },
-    "courses_and_fees": {
-        "B.Tech": {
-            "duration": "4 yrs",
-            "entrance": "JEE Adv, JoSAA",
-            "first_year_fees": "₹2,30,000",
-            "total_fees": "₹10 lakh",
-            "seats": "1100",
-            "specializations": [
-                "CSE",
-                "ECE",
-                "EE",
-                "ME",
-                "Chem",
-                "Civil",
-                "DS",
-                "Biotech",
-                "AI"
-            ]
-        },
-        "B.Arch": {
-            "duration": "5 yrs",
-            "entrance": "JEE Adv, AAT",
-            "fees": "₹12 lakh"
-        },
-        "MBA": {
-            "duration": "2 yrs",
-            "entrance": "CAT, PI",
-            "avg_fees": "₹4.6 lakh"
-        },
-        "PhD": {
-            "duration": "3–5 yrs",
-            "entrance": "Natl. exam/Interview",
-            "avg_fees": "₹1.2 lakh"
-        }
-    },
-    "cutoff": {
-        "JEE Advanced 2025": {
-            "CSE": "AIR 325–535",
-            "DS/AI": "AIR 606–710",
-            "ECE": "AIR 1196–1394",
-            "Mechanical": "AIR 1786–1936"
-        },
-        "MBA": {
-            "General": "94+",
-            "OBC": "74.5+",
-            "SC/ST": "65+"
-        }
-    },
-    "placements": {
-        "highest_package": "₹2.05 Crore (international)",
-        "domestic_highest": "₹1.20 Crore",
-        "average": "₹19.64 LPA",
-        "top_recruiters": [
-            "Microsoft",
-            "Google",
-            "Goldman Sachs",
-            "TSMC",
-            "BCG",
-            "Oracle",
-            "ISRO",
-            "DRDO",
-            "Intel"
-        ]
-    },
-    "facilities": [
-        "Hostels",
-        "Library",
-        "Labs",
-        "Sports",
-        "Medical Center",
-        "Wi-Fi",
-        "Student Activity Center"
+  "Name": "Indian Institute of Technology Roorkee (IIT Roorkee)",
+  "Location": {
+    "City": "Roorkee",
+    "District": "Haridwar",
+    "State": "Uttarakhand",
+    "Country": "India",
+    "Pin": "247667",
+    "CampusAreaAcres": 365,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Roorkee"
+      },
+      {
+        "Name": "Saharanpur Campus",
+        "Specialization": "Polymer Science and Paper Technology"
+      },
+      {
+        "Name": "Greater Noida Extension Centre",
+        "Focus": "Executive Education and Research"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1847,
+    "OriginalName": "Thomason College of Civil Engineering",
+    "Renamed": [
+      {
+        "Year": 1949,
+        "Name": "University of Roorkee"
+      },
+      {
+        "Year": 2001,
+        "Name": "Indian Institute of Technology Roorkee (IIT Roorkee)"
+      }
     ],
-    "faculty": {
-        "departments": 23,
-        "faculty_count": "470+",
-        "research_centers": [
-            "Hydrology",
-            "Disaster Management",
-            "Nanotechnology",
-            "Energy Studies"
-        ]
-    },
-    "scholarships": [
-        "Merit-cum-Means",
-        "James Thomson Scholarship",
-        "Special Awards (OCR, Encore, etc.)",
-        "Government scholarships via NSP"
+    "HistoricalSignificance": "Oldest engineering institution in Asia, founded to aid Ganges Canal construction."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Autonomous Institute",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "Premier multidisciplinary institute blending heritage and modern research facilities.",
+    "StudentStrength": "Over 8,000 students including international nationals",
+    "MajorEvents": [
+      "Cognizance - Asia's largest technical festival",
+      "Thomso - Cultural festival",
+      "Sangram - Sports festival"
     ],
-    "reviews": {
-        "CollegeDunia": "4.7/5",
-        "Careers360": "4.8/5",
-        "pros": [
-            "Peer quality",
-            "Placement",
-            "Research",
-            "Campus"
+    "ResearchFocus": [
+      "Quantum computing",
+      "Clean energy",
+      "Hydrology",
+      "Artificial intelligence",
+      "Startups and Innovation"
+    ],
+    "StartupsValuationINR": 47000000000,
+    "GlobalCollaborations": [
+      "MIT",
+      "Cambridge University",
+      "Nanyang Technological University",
+      "Technical University of Munich"
+    ],
+    "SocialInitiatives": [
+      "Unnat Bharat Abhiyan",
+      "Community Skill Programs"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 7,
+      "Engineering": 6,
+      "ArchitecturePlanning": 1
+    },
+    "NIRF2024": {
+      "Overall": 8,
+      "Innovation": 25
+    },
+    "QSWorld2026": 335,
+    "QSAsia2025": 130,
+    "IndiaTodayEngineering2024": 5,
+    "THEEngineering2020Band": "301-400",
+    "ARIIA2021": "Excellent Band"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science & Engineering",
+          "Electrical Engineering",
+          "Electronics & Communication Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Biotechnology",
+          "Data Science",
+          "Artificial Intelligence"
         ],
-        "cons": [
-            "Academic rigor",
-            "Hostel food",
-            "High competition"
-        ]
+        "DurationYears": 4,
+        "Entrance": ["JEE Advanced", "JoSAA counseling"],
+        "Seats": 1100,
+        "FirstYearFeeINR": 230000,
+        "TotalFeesINRApprox": 1000000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["JEE Advanced", "AAT"],
+        "Seats": 37,
+        "FirstYearFeeINR": 230000,
+        "TotalFeesINRApprox": 1200000
+      },
+      "BDes": {
+        "DurationYears": 4,
+        "Entrance": ["UCEED"],
+        "Seats": 20,
+        "FirstYearFeeINR": 36100,
+        "TotalFeesINRApprox": 200000
+      }
     },
-    "contact_info": {
-        "website": "www.iitr.ac.in",
-        "address": "IIT Roorkee, Haridwar District, Roorkee, Uttarakhand 247667",
-        "phone": "01332-285311",
-        "email": [
-            "regis@iitr.ac.in",
-            "admission@iitr.ac.in",
-            "cdc@iitr.ac.in"
-        ]
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 47,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "COAP"],
+        "FirstYearFeeINR": 40000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CEED"],
+        "SeatsVaries": true,
+        "FeeInformation": "Not listed"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "PI"],
+        "Seats": 95,
+        "FirstYearFeeINR": 230000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Applied Geology",
+          "Economics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["JAM", "GAT-B"],
+        "FirstYearFeeINR": 36100,
+        "Seats": 194
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 27,
+        "Entrance": [
+          "GATE",
+          "JEST",
+          "NET",
+          "CEED",
+          "UGC",
+          "CSIR"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 38100,
+        "SeatsMoreThan": 900
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 68000,
+      "Maximum": 99000,
+      "Note": "Excludes mess charges"
     }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Advanced",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": "AAT"
+      },
+      "BDes": {
+        "Exam": "UCEED",
+        "Counseling": "Centralized counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "COAP",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["Personal Interview", "Group Discussion"]
+      },
+      "MSc": {
+        "Exam": ["JAM", "GAT-B"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "JEST", "UGC-NET", "CSIR-NET", "CEED"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "May include written tests in some departments"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["GRE", "TOEFL"],
+      "AdditionalProcess": "Credential verification"
+    },
+    "ReservationPolicy": "As per Central Government norms for SC, ST, OBC, EWS, PwD",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 535,
+      "DataScienceAIClosingAIR": 710,
+      "ECEClosingAIR": 1394,
+      "MechEngClosingAIR": 1900,
+      "ElectEngClosingAIR": 1752,
+      "CivilEngClosingAIR": 2175
+    },
+    "BArchAAT2025ClosingRank": 16596,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 111,
+      "OBC": 56
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [23, 34],
+      "Physics": [163, 181],
+      "Mathematics": [223, 229]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 94,
+      "OBCPercentile": 74.5,
+      "SCSTPercentileMin": 65
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories/genders with six rounds of seat allotment for JEE Advanced."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 805,
+      "Recruiters": 170,
+      "HighestPackageINR": 205000000,
+      "HighestDomesticPackageINR": 12000000,
+      "OverallAveragePackageINR": 1964000,
+      "CSEAveragePackageINR": 3405000,
+      "ECEAveragePackageINR": 3081000,
+      "MBA median package INR": 2000000,
+      "PPOs": 155,
+      "TopRecruiters": [
+        "Microsoft",
+        "Google",
+        "Goldman Sachs",
+        "TSMC",
+        "Oracle",
+        "ISRO",
+        "DRDO",
+        "Amazon",
+        "Flipkart",
+        "Accenture Japan",
+        "BCG",
+        "Tata Steel",
+        "Intel",
+        "JP Morgan",
+        "Apple",
+        "Qualcomm",
+        "Reliance"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Science",
+        "Research and Development",
+        "Consulting",
+        "Analytics",
+        "Hardware Design",
+        "Management"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 20,
+      "Types": ["Boys", "Girls", "Married Couples", "Co-ed"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Lounges",
+        "Air-conditioned Rooms in some hostels"
+      ]
+    },
+    "Library": {
+      "Name": "Mahatma Gandhi Central Library",
+      "AreaSqFt": 85000,
+      "BookCount": 360000,
+      "EJournalsCount": 8000,
+      "Features": [
+        "Digital resources",
+        "Theses archive",
+        "24/7 access",
+        "Group study zones",
+        "Inter-library loan"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 120,
+      "FocusAreas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "VLSI Design",
+        "Internet of Things",
+        "Nanotechnology",
+        "Hydrology",
+        "Environmental Sciences",
+        "Robotics",
+        "Biotechnology"
+      ],
+      "Equipment": [
+        "Supercomputing Clusters",
+        "3D Printing",
+        "Advanced Sensors",
+        "Prototype Devices"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Olympic-size Swimming Pool",
+        "Synthetic Athletics Tracks",
+        "Indoor Stadium",
+        "Multi-court Basketball",
+        "Tennis, Badminton Courts",
+        "Football, Cricket and Hockey Grounds",
+        "Yoga Center",
+        "Wellness Gym"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "B.C. Roy Hospital",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Specialist Consultations",
+        "Ambulance Services",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Nescafe",
+        "Bikanervala",
+        "Food Courts",
+        "Cafés"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Dietary options",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Banks and ATMs",
+      "Post Office",
+      "Bookstores",
+      "Guest Houses",
+      "Day Care",
+      "Campus Shuttle Buses",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 50,
+      "Types": [
+        "Technical (Robotics, Formula Student, Drones)",
+        "Cultural (Music, Dance, Drama, Literature)",
+        "Entrepreneurship",
+        "Social Service (NSS, NCC)"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 23,
+    "DepartmentsList": [
+      "Civil Engineering",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Electronics and Communication Engineering",
+      "Computer Science",
+      "Chemical Engineering",
+      "Biotechnology",
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Management Studies",
+      "Architecture & Planning",
+      "Humanities & Social Sciences",
+      "Earth Sciences",
+      "Design Innovation",
+      "Environmental Engineering"
+    ],
+    "ResearchCenters": [
+      "Disaster Management",
+      "Smart Materials Lab",
+      "Nanotechnology",
+      "Hydrology and Water Resources",
+      "Biomedical Engineering",
+      "Energy and Environment",
+      "Chromatography",
+      "Entrepreneurship Cell"
+    ],
+    "Strength": {
+      "FacultyCount": 470,
+      "PhDs": "Majority",
+      "Patents2024": 146,
+      "ResearchFundsINR2024": 3990000000
+    },
+    "Collaborations": [
+      "MIT",
+      "Cambridge University",
+      "Nanyang Technological University",
+      "Technical University of Munich"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students"
+    ],
+    "StudentFeedback": "Generally positive, with some variation in teaching methods."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 100000,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 100000,
+      "IncomeUpToINR_Lax": 500000,
+      "TwoThirdFeeWaiver": true
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 250,
+      "StipendINRPerMonth": 25000,
+      "MinimumCGPA": 8
+    },
+    "OtherScholarships": [
+      "OCR Scholarship",
+      "Encore Award",
+      "Devaatama Memorial",
+      "Manoj Jain Award",
+      "Nayyar Award",
+      "Ajit Singh Yadav Memorial",
+      "BK Agarwal Memorial",
+      "Golden Girl Award",
+      "SAKUNTALA Fellowship"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Waiver",
+      "Cash Prizes",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.7,
+    "CollegeDuniaReviewsCount": 2300,
+    "Careers360Rating": 4.8,
+    "Strengths": [
+      "Excellent placements",
+      "Highly qualified faculty",
+      "World-class research",
+      "Vibrant campus infrastructure",
+      "Rich cultural and sporting events"
+    ],
+    "Weaknesses": [
+      "Tough academic curriculum",
+      "Average hostel food",
+      "High batch sizes",
+      "Competitive research opportunities"
+    ],
+    "ReturnOnInvestment": "Very high"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India and internationally",
+    "CulturalTraditions": [
+      "‘Chapo’ tea sessions fostering camaraderie",
+      "Fresher’s Welcome for mentorship",
+      "Regular informal gatherings"
+    ],
+    "Festivals": [
+      "Cognizance - Technical Festival",
+      "Thomso - Cultural Festival",
+      "Sangram - Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Robotics",
+      "Coding",
+      "Entrepreneurship Cell",
+      "Literature & Debate",
+      "Music & Dance",
+      "Drama and Cinema",
+      "Social Service (NSS, NCC)"
+    ],
+    "OutdoorActivities": [
+      "River Rafting on Ganges",
+      "Hiking in Himalayas",
+      "Motorbike rides and trekking"
+    ],
+    "StudentGovernance": "Democratically elected student parliament with regular feedback and grievance redressal",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Yoga Studios",
+      "Recreation Areas"
+    ],
+    "Community": "Inclusive ecosystem with cultural, linguistic, and religious diversity"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1847,
+    "Founder": "Sir James Thomason",
+    "InitialFocus": "Civil engineering and infrastructure for Ganges Canal",
+    "Evolution": [
+      "1949: University of Roorkee",
+      "2001: IIT status granted"
+    ],
+    "Legacy": "Pioneer in India’s infrastructure and engineering education",
+    "Heritage": "Preserves colonial architecture alongside new research infrastructure"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Quantum Computing",
+      "Clean Hydrogen Energy",
+      "Critical Minerals Exploration",
+      "Disaster Resilience",
+      "Smart Cities",
+      "AI Integration in Education",
+      "Sustainable Urban Planning"
+    ],
+    "PatentsFiled2024": 146,
+    "ResearchFundingINR2024": 3990000000,
+    "NotableInnovations": "India’s first earthquake early warning pilot system",
+    "Startups": {
+      "Number": 180,
+      "AggregateValuationINR": 47000000000
+    },
+    "Collaborations": [
+      "Government ministries (Mines, DST, Defence)",
+      "Private industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 178,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "Convocation 2025",
+      "Date": "2025-09-05",
+      "Details": "Awarded 2614 degrees with record number of women PhDs"
+    },
+    {
+      "Event": "TIPCE International Conference",
+      "Date": "2025-09-18 to 2025-09-21",
+      "Theme": "Transportation Innovation, AI, Policy"
+    },
+    {
+      "Event": "SPARK 2025 Internship Program",
+      "Duration": "6 weeks",
+      "Focus": "Paid summer research internships"
+    },
+    {
+      "Event": "CAT 2025 Registration",
+      "StartDate": "2025-08-01",
+      "EndDate": "2025-09-13"
+    },
+    {
+      "Event": "CAT 2025 Examination",
+      "Date": "2025-11-30"
+    },
+    {
+      "RecurringEvents": [
+        "Cognizance Tech Fest (March annually)",
+        "Thomso Cultural Fest (May/June annually)",
+        "Entrepreneurship summits and hackathons"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "http://www.iitr.ac.in",
+    "Address": "Indian Institute of Technology Roorkee, Haridwar District, Roorkee, Uttarakhand 247667, India",
+    "Phone": "+91 1332 285311",
+    "Emails": {
+      "Registrar": "regis@iitr.ac.in",
+      "Admissions": "admission@iitr.ac.in",
+      "PlacementCell": "cdc@iitr.ac.in"
+    }
+  }
 }
