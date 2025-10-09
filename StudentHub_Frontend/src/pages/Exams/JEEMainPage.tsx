@@ -3022,14 +3022,6 @@ export default function JEEMainPage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm">#JEE Main</span>
-              <div className="flex items-center space-x-2 text-sm text-gray-600">
-                <div className="w-8 h-8 bg-gray-500 rounded-full flex items-center justify-center text-white font-semibold">
-                  M
-                </div>
-                <span>Maniprabha Singh</span>
-                <span>•</span>
-                <span>Updated on 17 Jul 2025, 01:16 PM IST</span>
-              </div>
             </div>
           </div>
         </div>
