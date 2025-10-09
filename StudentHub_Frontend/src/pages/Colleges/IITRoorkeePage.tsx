@@ -3267,7 +3267,15 @@ const IITRoorkeePage: React.FC = () => {
         <div onClick={() => setIsLeadModalOpen(false)} className="absolute inset-0 bg-black/40 backdrop-blur-[1px] opacity-100 transition-opacity" />
         {/* Modal Panel */}
         <div className="absolute inset-x-0 bottom-0 md:inset-0 flex items-end md:items-center justify-center">
-          <div className="w-full md:max-w-4xl bg-white rounded-t-2xl md:rounded-2xl shadow-xl overflow-hidden transform transition-all md:scale-100 md:opacity-100">
+          <div className="w-full md:max-w-4xl bg-white rounded-t-2xl md:rounded-2xl shadow-xl overflow-hidden transform transition-all md:scale-100 md:opacity-100 relative">
+            {/* Desktop close (X) */}
+            <button
+              onClick={() => setIsLeadModalOpen(false)}
+              aria-label="Close"
+              className="hidden md:flex absolute top-3 right-3 h-8 w-8 items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200"
+            >
+              ×
+            </button>
             <div className="grid md:grid-cols-2">
               {/* Left: Features/Testimonial */}
               <div className="p-6 md:p-8 bg-gray-50">

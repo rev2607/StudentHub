@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { navigateToNewsPage } from "../navigationToNewsPage";
 import axios from "axios";
 import latestNewsImg from "../../../assets/latest_news.png";
+import { fetchNewsFromSupabase } from "../../../services/supabaseClient";
 
 // const customGreen = "#8cc542";
 // const customGray = "#f4f4f4";
@@ -45,6 +46,7 @@ const LatestNews = () => {
       date: "April 8, 2025",
       author: "Admin",
       title: "KSEAB to Declare 2nd PUC Results",
+      readMoreUrl: "#",
     },
     {
       id: 2,
@@ -52,6 +54,7 @@ const LatestNews = () => {
       date: "Recent weeks",
       author: "Admin",
       title: "Delhi Govt Launches Crackdown on Private...",
+      readMoreUrl: "#",
     },
     {
       id: 3,
@@ -59,6 +62,7 @@ const LatestNews = () => {
       date: "Starting April 7, 2025",
       author: "Admin",
       title: "Punjab's 'Sikhya Kranti' Education Festival",
+      readMoreUrl: "#",
     },
   ]);
   const [loading, setLoading] = useState(false);
@@ -66,55 +70,34 @@ const LatestNews = () => {
 
   useEffect(() => {
     const fetchNews = async () => {
-      console.log("🚀 LatestNews: Starting to fetch news from API...");
       setLoading(true);
       setError(null);
-      
       try {
-        console.log("🌐 LatestNews: Making API call to: http://localhost:8000/api/news/");
-        
-        // Try with fetch first to see if it's an axios issue
-        const fetchResponse = await fetch("http://localhost:8000/api/news/");
-        console.log("🌐 LatestNews: Fetch response status:", fetchResponse.status);
-        const fetchData = await fetchResponse.json();
-        console.log("🌐 LatestNews: Fetch data:", fetchData);
-        
-        const response = await axios.get("http://localhost:8000/api/news/");
-        console.log("✅ LatestNews API Response:", response);
-        console.log("📊 LatestNews Data received:", response.data);
-        console.log("📊 LatestNews Response status:", response.status);
-        console.log("📊 LatestNews Response headers:", response.headers);
-        
-        // Use fetch data if axios fails, otherwise use axios data
-        const newsData = Array.isArray(fetchData) && fetchData.length > 0 ? fetchData : response.data;
-        
-        if (newsData && Array.isArray(newsData) && newsData.length > 0) {
-          // Transform API data to match component's expected format
+        // 1) Try Supabase directly
+        const { data: sbData } = await fetchNewsFromSupabase(6);
+        let newsData: any[] | null = Array.isArray(sbData) && sbData.length > 0 ? sbData : null;
+
+        // 2) Fallback to backend API
+        if (!newsData) {
+          const response = await axios.get("http://localhost:8000/api/news/");
+          if (Array.isArray(response.data) && response.data.length > 0) {
+            newsData = response.data;
+          }
+        }
+
+        if (newsData && newsData.length > 0) {
           const transformedData = newsData.slice(0, 3).map((item, index) => ({
             id: index + 1,
             imgSrc: item.image_url || latestNewsImg,
-            date: new Date(item.date).toLocaleDateString('en-US', { 
-              year: 'numeric', 
-              month: 'long', 
-              day: 'numeric' 
-            }),
+            date: new Date(item.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
             author: "Admin",
             title: item.title,
-            readMoreUrl: item.read_more_url
+            readMoreUrl: item.read_more_url || item.link
           }));
-          
-                  console.log("🔄 LatestNews: Transformed data:", transformedData);
-                  setData(transformedData);
-                  console.log("✅ LatestNews: Data updated successfully!");
-        } else {
-          console.log("⚠️ LatestNews: No data received or empty array");
-          console.log("⚠️ LatestNews: Fetch data:", fetchData);
-          console.log("⚠️ LatestNews: Axios data:", response.data);
+          setData(transformedData);
         }
       } catch (err) {
-        console.error("❌ LatestNews: Error fetching news:", err);
         setError("Failed to fetch latest news");
-        // Keep the default static data on error
       } finally {
         setLoading(false);
       }
@@ -133,11 +116,7 @@ const LatestNews = () => {
             <ArrowRightCircle />
           </button>
         </div>
-        <div className="flex flex-col sm:flex-row flex-wrap gap-2 sm:gap-4 mb-6 sm:mb-8 mt-4 sm:mt-0">
-          <button className="bg-[var(--site-green)] font-light text-white px-3 sm:px-4 py-2 rounded-full text-sm">Exam Alerts</button>
-          <button className="bg-white font-light text-black border border-[var(--site-green)] px-3 sm:px-4 py-2 rounded-full text-sm">College Alerts</button>
-          <button className="bg-white font-light text-black border border-[var(--site-green)] px-3 sm:px-4 py-2 rounded-full text-sm">Admission Alerts</button>
-        </div>
+        {/* Removed filter chips (Exam Alerts, College Alerts, Admission Alerts) */}
         
         {loading && (
           <div className="text-center py-8">
