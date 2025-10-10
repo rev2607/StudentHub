@@ -2,16 +2,16 @@
 import vitLogo from "../../../../src/assets/vit_logo.png";
 
 const topCollegesData = [
-  { name: "IIT Bombay",               highest_package: "₹2.1 Cr",  median_package: "₹18.8 LPA", placement_rate: ">90%", logo_url: vitLogo },
-  { name: "IIT Kanpur",               highest_package: "₹2.36 Cr", median_package: "₹22.1 LPA", placement_rate: ">90%", logo_url: vitLogo },
-  { name: "IIT Kharagpur",            highest_package: "₹2.68 Cr", median_package: "N/A",       placement_rate: ">90%", logo_url: vitLogo },
-  { name: "IIT Delhi",                highest_package: ">₹1 Cr",   median_package: "₹20.1 LPA", placement_rate: ">90%", logo_url: vitLogo },
-  { name: "IIT Madras",               highest_package: "₹1.31 Cr", median_package: "N/A",       placement_rate: ">90%", logo_url: vitLogo },
-  { name: "IIT Guwahati",             highest_package: "₹1.2 Cr",  median_package: "₹21.6 LPA", placement_rate: ">90%", logo_url: vitLogo },
-  { name: "IIT Roorkee",              highest_package: "₹70 Lakh", median_package: "₹17 LPA",   placement_rate: ">90%", logo_url: vitLogo },
-  { name: "BITS Pilani",              highest_package: "₹23.9 Lakh", median_package: "₹18.2 LPA", placement_rate: ">90%", logo_url: vitLogo },
-  { name: "VIT Vellore",              highest_package: "₹75 Lakh", median_package: "₹7.5 LPA", placement_rate: ">90%", logo_url: vitLogo },
-  { name: "Chandigarh University",    highest_package: "N/A",      median_package: "₹7.5 LPA",  placement_rate: ">90%", logo_url: vitLogo },
+  { name: "IIT Bombay",               highest_package: "₹3.67 Cr",  median_package: "₹18.8 LPA", placement_rate: ">90%", logo_url: vitLogo },
+  { name: "IIM Ahmedabad",            highest_package: "₹3.3 Cr",   median_package: "₹35.5 LPA", placement_rate: ">95%", logo_url: vitLogo },
+  { name: "IIM Calcutta",             highest_package: "₹1.45 Cr",  median_package: "₹28.2 LPA", placement_rate: ">95%", logo_url: vitLogo },
+  { name: "IIM Bangalore",            highest_package: "₹1.15 Cr",  median_package: "₹32.8 LPA", placement_rate: ">95%", logo_url: vitLogo },
+  { name: "IIT Bombay CSE",           highest_package: "₹2.2 Cr",   median_package: "₹25.1 LPA", placement_rate: ">90%", logo_url: vitLogo },
+  { name: "IIT Delhi",                highest_package: "₹1.5 Cr",   median_package: "₹20.1 LPA", placement_rate: ">90%", logo_url: vitLogo },
+  { name: "IIT Kanpur",               highest_package: "₹1.5 Cr",   median_package: "₹22.1 LPA", placement_rate: ">90%", logo_url: vitLogo },
+  { name: "IIM Kozhikode",            highest_package: "₹72 Lakh",  median_package: "₹24.5 LPA", placement_rate: ">95%", logo_url: vitLogo },
+  { name: "CVR College",              highest_package: "₹72 Lakh",  median_package: "₹12.8 LPA", placement_rate: ">85%", logo_url: vitLogo },
+  { name: "Private Universities",     highest_package: "₹1 Cr+",    median_package: "₹9-15 LPA", placement_rate: ">80%", logo_url: vitLogo },
 ];
 
 const TopColleges = () => {

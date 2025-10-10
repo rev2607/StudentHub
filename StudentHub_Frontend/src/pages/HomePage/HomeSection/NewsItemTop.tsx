@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import axios from "axios";
+// Removed axios import as we now fetch directly from Supabase
 import { useNavigate } from "react-router-dom";
 import { fetchNewsFromSupabase } from "../../../services/supabaseClient";
 
@@ -36,37 +36,35 @@ function NewsItemTop() {
     setError(null);
 
     try {
-      // 1) Try Supabase directly
+      // Fetch news directly from Supabase (backend updates this hourly)
+      console.log("🔄 Fetching latest news from Supabase database...");
       const { data: sbData, error: sbError } = await fetchNewsFromSupabase(12);
+      
       if (sbError) {
-        console.warn("Supabase fetch error:", sbError.message);
+        console.error("❌ Supabase fetch error:", sbError.message);
+        setError("Failed to fetch latest news");
+        setNewsItens(tempData);
+        return;
       }
-      const source = Array.isArray(sbData) && sbData.length > 0 ? sbData : null;
-
-      // 2) Fallback to backend API if Supabase empty/unavailable
-      let apiData: any[] | null = source;
-      if (!apiData) {
-        const response = await axios.get("http://localhost:8000/api/news/");
-        if (Array.isArray(response.data) && response.data.length > 0) {
-          apiData = response.data;
-        }
-      }
-
-      if (apiData && apiData.length > 0) {
-        const transformedData = apiData.map((item, index) => ({
+      
+      if (Array.isArray(sbData) && sbData.length > 0) {
+        console.log("✅ Got latest news from Supabase:", sbData.length, "articles");
+        const transformedData = sbData.map((item, index) => ({
           id: index + 1,
           title: item.title,
           date: new Date(item.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
-          description: item.description || item.snippet,
+          description: item.snippet,
           image_url: item.image_url || "https://placehold.co/200x150.png",
-          read_more_url: item.read_more_url || item.link
+          read_more_url: item.link
         }));
         setNewsItens(transformedData);
       } else {
+        console.log("⚠️ No news available in Supabase, using temp data");
         setNewsItens(tempData);
       }
     } catch (err) {
-      setError("Failed to fetch news");
+      console.error("❌ Failed to fetch news from Supabase:", err);
+      setError("Failed to fetch latest news");
       setNewsItens(tempData);
     } finally {
       setLoading(false);
@@ -74,8 +72,14 @@ function NewsItemTop() {
   };
 
   useEffect(() => {
+    console.log("🚀 NewsItemTop: Component mounted, fetching news...");
     fetchNews();
   }, []);
+
+  // Add a refresh function that can be called manually
+  const refreshNews = () => {
+    fetchNews();
+  };
 
   const goToPrevious = () => {
     setCurrentIndex((prevIndex) => (prevIndex === 0 ? maxIndex : prevIndex - 1));
@@ -102,10 +106,19 @@ function NewsItemTop() {
   return (
     <section className="relative mb-8 md:-translate-y-2/3 md:mb-0" style={{ transform: undefined }}>
       <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-xl text-black md:text-white text-center mb-4 md:mb-6">
-          Latest News and Notifications
-          {error && <span className="text-red-300 text-sm block mt-1">⚠️ {error}</span>}
-        </h2>
+        <div className="flex items-center justify-center gap-4 mb-4 md:mb-6">
+          <h2 className="text-xl text-black md:text-white text-center">
+            Latest News and Notifications
+            {error && <span className="text-red-300 text-sm block mt-1">⚠️ {error}</span>}
+          </h2>
+          <button 
+            onClick={refreshNews}
+            className="px-3 py-1 bg-green-600 hover:bg-green-700 text-white text-sm rounded-md transition-colors"
+            disabled={loading}
+          >
+            {loading ? 'Refreshing...' : 'Refresh'}
+          </button>
+        </div>
 
         <div className="relative">
           <div className="overflow-hidden rounded-lg shadow-xl">
