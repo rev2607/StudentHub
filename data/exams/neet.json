@@ -1,0 +1,3466 @@
+{
+    "Overview": {
+      "ExamName": "National Eligibility cum Entrance Test - UG (NEET)",
+      "ConductingBody": "National Testing Agency (NTA)",
+      "ExamLevel": "National (UG)",
+      "ExamMode": "Pen-and-paper (OMR-based)",
+      "ApproxAnnualTestTakers": "25–26 lakh",
+      "ScoreValidity": "1 year (same academic session)"
+    },
+    "ImportantDates": {
+      "NotificationAndApplicationStart": "First week, Feb 2026",
+      "ApplicationLastDate": "First week, Mar 2026",
+      "CorrectionWindow": "Third week, Mar 2026",
+      "CityIntimationSlip": "Fourth week, Apr 2026",
+      "AdmitCardRelease": "First week, May 2026",
+      "ExamDate": "3 May 2026 (Sunday)",
+      "ProvisionalAnswerKey": "Last week, May 2026",
+      "ResultDeclaration": "Second/Third week, Jun 2026",
+      "Counselling": "July–Aug 2026",
+      "DocumentVerification": "As per counselling schedule"
+    },
+    "DetailedTimeline": {
+      "NotificationPhase": {
+        "title": "Notification & Application Start",
+        "date": "First week of February 2026",
+        "description": "Official NEET 2026 notification will be released by NTA along with the information bulletin, containing detailed instructions, eligibility criteria, syllabus, exam pattern, and application procedure. The online application portal opens simultaneously."
+      },
+      "ApplicationPhase": {
+        "title": "NEET 2026 Application Process",
+        "startDate": "First week of February 2026",
+        "endDate": "First week of March 2026",
+        "description": "Includes filling personal and academic details, selecting exam centers and languages, uploading scanned documents (photograph, signature), and paying application fees through net banking, debit/credit cards, UPI, or online wallets."
+      },
+      "CorrectionPhase": {
+        "title": "Application Correction Window",
+        "date": "Third week of March 2026",
+        "description": "NTA opens correction window to allow candidates to rectify errors in application form such as spelling mistakes, category changes, exam city preferences, and document uploads. No change in subjects or exam mode can be made."
+      },
+      "CityIntimationPhase": {
+        "title": "City Intimation Slip Release",
+        "date": "Fourth week of April 2026",
+        "description": "Candidates receive intimation slips with details about their allocated exam center city. This helps candidates make travel and accommodation arrangements well before the exam."
+      },
+      "AdmitCardPhase": {
+        "title": "Admit Card Release",
+        "date": "First week of May 2026",
+        "description": "Admit cards (hall tickets) for NEET 2026 will be available online to download. Includes essential details like exam date, time, centre address, candidate's photograph, signature, and instructions. Must carry printed admit card and valid photo ID."
+      },
+      "ExamPhase": {
+        "title": "NEET 2026 Exam Date",
+        "date": "Sunday, May 3, 2026",
+        "description": "Exam conducted as offline pen-and-paper test across the country and international centers. Duration: 3 hours (2:00 PM to 5:00 PM IST). Strict adherence to exam day guidelines, dress code, and banned items policy mandatory."
+      },
+      "AnswerKeyPhase": {
+        "title": "Provisional Answer Key Release & Objection Submission",
+        "date": "Last week of May 2026",
+        "description": "NTA releases provisional answer key for candidates to review. Candidates can raise objections or challenge answers within limited time frame by paying nominal fee per question challenged. Ensures transparency and fairness in evaluation."
+      },
+      "ResultPhase": {
+        "title": "Result Declaration & Final Answer Key",
+        "date": "Second or Third week of June 2026",
+        "description": "Results declared on official NTA NEET website. Final answer key incorporating corrections from objections published along with result. Candidates can view scores, ranks, percentiles, and qualifying status."
+      },
+      "CounsellingPhase": {
+        "title": "Counselling Process",
+        "date": "July to August 2026",
+        "description": "Medical Counselling Committee (MCC) conducts centralized counselling for 15% All India Quota (AIQ) seats. State authorities hold counselling for 85% state quota seats. Includes registration, choice filling, seat allotment, document verification, and reporting."
+      },
+      "DocumentVerificationPhase": {
+        "title": "Document Verification & Admission",
+        "date": "As per counselling schedule",
+        "description": "Successful allotment requires timely document verification at designated centres. Essential documents include NEET admit card, result-cum-rank letter, class 10 and 12 mark sheets, category and domicile certificates, photo identity proof, and passport-size photographs."
+      }
+    },
+    "AdditionalImportantInformation": {
+      "PreparationTips": [
+        "Start preparation at least 12-18 months before the exam",
+        "Focus on NCERT textbooks for Physics, Chemistry, and Biology",
+        "Practice previous year question papers and mock tests regularly",
+        "Maintain a consistent study schedule with proper breaks",
+        "Join coaching classes or online courses for structured preparation",
+        "Stay updated with current affairs in science and medicine"
+      ],
+      "ExamDayGuidelines": [
+        "Reach exam center at least 1 hour before reporting time",
+        "Carry only permitted items: admit card, valid ID, ballpoint pen",
+        "Wear light-colored, half-sleeve clothes without buttons/zippers",
+        "No electronic devices, watches, or jewelry allowed",
+        "Follow COVID-19 safety protocols if applicable",
+        "Maintain social distancing and wear masks if required"
+      ],
+      "ApplicationTips": [
+        "Keep all documents ready before starting application",
+        "Use high-quality scanned images for photo and signature",
+        "Double-check all personal and academic details",
+        "Save application number and password securely",
+        "Take printout of confirmation page immediately",
+        "Keep multiple copies of all submitted documents"
+      ],
+      "CounsellingPreparation": [
+        "Research colleges and courses thoroughly before choice filling",
+        "Keep all original documents ready for verification",
+        "Understand reservation policies and eligibility criteria",
+        "Prepare for multiple counselling rounds",
+        "Stay updated with counselling schedules and deadlines",
+        "Have backup options ready in case of non-allotment"
+      ],
+      "CommonMistakes": [
+        "Incorrect personal details in application form",
+        "Uploading poor quality photos or signatures",
+        "Missing application deadlines",
+        "Not carrying required documents on exam day",
+        "Failing to verify documents during counselling",
+        "Not reporting to allotted college within stipulated time"
+      ],
+      "EmergencyContacts": {
+        "NTAHelpline": "0120-6895200",
+        "Email": "neet@nta.ac.in",
+        "Website": "https://neet.nta.nic.in",
+        "MCCHelpline": "011-22041807",
+        "MCCEmail": "mcc.nic.in"
+      },
+      "FeeStructure": {
+        "ApplicationFee": {
+          "General": "₹1,700",
+          "OBC": "₹1,600", 
+          "SC/ST/PwD": "₹1,000",
+          "Foreign": "₹9,500"
+        },
+        "CounsellingFee": {
+          "MCC": "₹1,000 (non-refundable)",
+          "StateCounselling": "Varies by state (₹500-₹2,000)"
+        },
+        "CollegeFees": {
+          "MBBS": "₹10,000 - ₹25 lakhs per year",
+          "BDS": "₹5,000 - ₹15 lakhs per year",
+          "BAMS": "₹50,000 - ₹5 lakhs per year"
+        }
+      },
+      "ReservationDetails": {
+        "AllIndiaQuota": "15% of total seats",
+        "StateQuota": "85% of total seats",
+        "Categories": {
+          "SC": "15%",
+          "ST": "7.5%",
+          "OBC": "27%",
+          "EWS": "10%",
+          "PwD": "5% (horizontal reservation)"
+        },
+        "SpecialReservations": {
+          "Defence": "5% in some states",
+          "JammuKashmir": "Special provisions",
+          "NorthEast": "Reserved seats in some colleges"
+        }
+      },
+      "SeatDistribution": {
+        "TotalMBBSSeats": "1,27,906",
+        "GovernmentSeats": "Approx 70,000",
+        "PrivateSeats": "Approx 57,906",
+        "DeemedUniversities": "Approx 15,000",
+        "CentralUniversities": "Approx 2,000"
+      }
+    },
+    "ComprehensiveTimeline": {
+      "NotificationPhase": {
+        "title": "Notification & Application Start (First week of February 2026)",
+        "description": "The NTA officially announces NEET 2026 about 3 months before exam day. The detailed Information Bulletin is released on the official portal (neet.nta.nic.in), outlining crucial exam policies, eligibility norms, syllabus, exam pattern, application steps, fee structure, and instructions. Candidates registering for the first time must create their profile on the candidate portal. The application window opens for about 4-5 weeks, allowing ample time for form filling. Early registration is advised to avoid last-minute server issues. NTA also announces exam city options, languages offered, and document specifications such as size limits for photograph and signature scans."
+      },
+      "ApplicationProcess": {
+        "title": "NEET 2026 Application Process (February to March 2026)",
+        "description": "Candidates fill demographic details, academic records (Class 10, 12), contact details, and exam preferences. Upload formats: Recent passport-size photo (10-200 KB), signature (4-30 KB) – scanned as per guidelines. Application fee payment is mandatory at this stage. Both online and offline modes (challan facility) may be provided, but digital payment is faster and encouraged. Confirmation page download is a must after successful submission; print and save multiple copies. Single window for correction post submission will be allowed later."
+      },
+      "CorrectionWindow": {
+        "title": "Application Correction Window (Third week of March 2026)",
+        "description": "NTA provides a 3-5 day window to correct details such as name spelling, date of birth, community category, disability status, exam centre city preference, mobile number, and photograph/signature upload errors. The correction facility will not allow alterations in exam subjects or mode, so initial form filling must be done with utmost care. Candidates requesting changes may need to pay an additional correction fee depending on the nature of the modification. It is critical to verify all changes via confirmation receipts after correction window closes."
+      },
+      "CityIntimation": {
+        "title": "City Intimation Slip Release (Fourth week of April 2026)",
+        "description": "This slip informs candidates of their exact exam city, enabling timely travel arrangements. Candidates should verify exam center details carefully and retain copies for future reference. This step minimizes last-minute surprises regarding test location shifts and helps with accommodation planning by aspirants traveling away from hometown."
+      },
+      "AdmitCardRelease": {
+        "title": "Admit Card Release (First week of May 2026)",
+        "description": "The admit card acts as the mandatory hall ticket and contains exam venue, date, candidate's photograph, signature, and guidelines. Generally released 20-25 days before the exam. Candidates must download and print multiple copies and verify all printed details for accuracy. Any discrepancy in admit card data must be reported immediately to NTA helplines or via online grievance forms. No candidate is permitted to enter the examination center without a valid printed admit card and photo ID."
+      },
+      "ExamDay": {
+        "title": "NEET 2026 Exam Date (Sunday, May 3, 2026)",
+        "description": "Exam is conducted nationwide and in select international centers simultaneously. Duration is strictly 3 hours (usually 2:00 PM to 5:00 PM IST). No electronic gadgets, calculators, watches, or stationery other than a black ballpoint pen are allowed inside exam halls. Candidates should reach their centers an hour early, follow seating arrangements, and obey invigilation rules. Identification verification and frisking procedures will be strictly followed at centers. Wearing simple attire like light-colored, half-sleeve shirts without buttons or zippers is mandatory to ease security checks. COVID-19 protocols or similar health safety measures, if relevant, will be enforced as per official guidelines."
+      },
+      "AnswerKeyPhase": {
+        "title": "Provisional Answer Key Publication & Objection Window (Last week of May 2026)",
+        "description": "The provisional answer key offers transparency by allowing candidates to review correct answers for question paper sets. Challenge window remains open for approximately 3-5 days post-release. Candidates can raise objections against any questions or answers they find incorrect by submitting proof and paying a nominal fee per query. NTA carefully reviews all objections and publishes a final answer key subsequently. The fees for challenges are refundable if objections are found valid."
+      },
+      "ResultDeclaration": {
+        "title": "Result Declaration & Final Answer Key (Second/Third week of June 2026)",
+        "description": "The NEET result is declared via scorecards downloadable from the official portal with individual total marks, sectional marks, percentile rank, All India Rank (AIR), and qualification status. The qualifying cutoff percentiles vary each year per category but typically range from 50th percentile for General to lower percentiles for reserved categories. The final answer key reflecting corrections and objections accepted is released simultaneously with results. Results also serve as the basis for seat allocation in medical/dental colleges across India."
+      },
+      "CounsellingProcess": {
+        "title": "Medical Counselling Process (July to August 2026)",
+        "description": "The Medical Counselling Committee (MCC) handles the All India Quota (15%) centralized counselling, deemed universities, AIIMS, JIPMER, and ESIC institutes. State Authorities conduct separate counselling for 85% State Quota seats. Counselling includes registration, submission of preferences and choices, provisional seat allotments, seat acceptance fee payment, document verification, and final seat confirmation. Multiple rounds of counselling (typically 6 rounds) including mop-up and stray vacancy rounds are conducted to fill remaining seats. Candidates must stay in touch with the MCC and their respective State counselling boards for deadlines and updates."
+      },
+      "ComprehensiveCounsellingGuide": {
+        "Introduction": {
+          "title": "NEET 2026 Counselling Process – Complete Expert Guide",
+          "description": "The counselling process for NEET 2026 is the critical phase following the exam result declaration where qualified candidates secure seats in medical and dental colleges throughout India based on their rank, preferences, and reservation category. It is a multi-tier, multi-round process managed centrally and by individual states."
+        },
+        "QuotaDistributionAndSeatReservations": {
+          "title": "Quota Distribution and Seat Reservations",
+          "quotas": [
+            {
+              "quotaCategory": "All India Quota (AIQ)",
+              "percentage": "15%",
+              "areasCovered": "Seats across India except private/state quota colleges. Includes central universities, deemed universities, AFMC, ESIC, AIIMS, JIPMER seats"
+            },
+            {
+              "quotaCategory": "State Quota",
+              "percentage": "85%",
+              "areasCovered": "Majority of seats reserved for candidates domiciled in the respective states or union territories. Controlled by state counselling authorities."
+            },
+            {
+              "quotaCategory": "Deemed Universities",
+              "percentage": "100% of their seats",
+              "areasCovered": "Counselling conducted by MCC as part of AIQ or separately"
+            },
+            {
+              "quotaCategory": "Private Medical Colleges",
+              "percentage": "Varies",
+              "areasCovered": "Counselling usually conducted by respective states or private managements"
+            }
+          ]
+        },
+        "CounsellingConductingAuthorities": {
+          "title": "Counselling Conducting Authorities",
+          "authorities": [
+            {
+              "authority": "Medical Counselling Committee (MCC)",
+              "responsibilities": [
+                "All India Quota counselling (15%)",
+                "Deemed Universities",
+                "Central Universities",
+                "Armed Forces Medical College (AFMC)",
+                "Employees' State Insurance Corporation (ESIC) seats",
+                "Institutes like AIIMS, JIPMER"
+              ]
+            },
+            {
+              "authority": "State Counselling Authorities",
+              "responsibilities": [
+                "Conduct counselling for remaining state quota seats (85%) including government and private medical colleges located within the state",
+                "Each state conducts its own registration, seat allotment, document verification process, along with individual eligibility and domicile criteria"
+              ]
+            }
+          ]
+        },
+        "CounsellingRoundsAndTheirSignificance": {
+          "title": "Counselling Rounds and Their Significance",
+          "description": "NEET UG counselling for 2026 consists of multiple rounds designed to ensure maximum seat usage and multiple opportunities for candidates:",
+          "rounds": [
+            {
+              "roundName": "Round 1",
+              "description": "First allotment based on merit and preferences. Seat acceptance and joining mandatory to continue."
+            },
+            {
+              "roundName": "Round 2",
+              "description": "For candidates who didn't get a seat in round 1 or want upgradation. Fresh registrations needed."
+            },
+            {
+              "roundName": "Mop-up Round",
+              "description": "Also called Round 3, for vacant seats after rounds 1 and 2. Fresh registration and choice filling."
+            },
+            {
+              "roundName": "Stray Vacancy Round",
+              "description": "Final chance to fill leftover seats post mop-up round, typically conducted offline."
+            }
+          ],
+          "importantNotes": [
+            "Candidates who join a seat can opt for 'upgradation' in subsequent rounds",
+            "Those who reject or do not participate may lose seat security deposit based on rules"
+          ]
+        },
+        "StepByStepCounsellingProcess": {
+          "title": "Step-by-Step Counselling Process",
+          "steps": [
+            {
+              "step": "1. Registration and Fee Payment",
+              "description": "Registration on MCC portal (mcc.nic.in) for AIQ and Deemed institutions. State-level portals for state quota counselling. Payment of registration fee and security deposit according to category. Upload necessary certificates and documents."
+            },
+            {
+              "step": "2. Choice Filling and Locking",
+              "description": "Candidates fill and lock choices of colleges and courses in order of preference. Multiple choices allowed; lock before deadline. Choices can be modified before locking deadline."
+            },
+            {
+              "step": "3. Seat Allotment",
+              "description": "Based on rank, category, quota, and choices. Allotment results declared on MCC or respective state counselling websites. Download provisional and final allotment letters."
+            },
+            {
+              "step": "4. Reporting and Document Verification",
+              "description": "Report physically to the allotted institute within specified timelines. Mandatory original document verification as per checklist. Pay admission fees and complete joining process."
+            },
+            {
+              "step": "5. Seat Acceptance and Confirmation",
+              "description": "Confirm seat acceptance by reporting and fee payment. Failure to report results in seat forfeiture. Candidates who accept seats can participate in further rounds for upgradation."
+            }
+          ]
+        },
+        "ImportantDocumentsForCounselling": {
+          "title": "Important Documents for Counselling",
+          "documents": [
+            {
+              "document": "NEET Admit Card",
+              "purpose": "Identity confirmation"
+            },
+            {
+              "document": "NEET Scorecard / Rank Letter",
+              "purpose": "Eligibility, merit validation"
+            },
+            {
+              "document": "Class 10 Certificate & Marksheet",
+              "purpose": "Age proof"
+            },
+            {
+              "document": "Class 12 Certificate & Marksheet",
+              "purpose": "Academic eligibility"
+            },
+            {
+              "document": "Category Certificate (OBC/SC/ST/EWS)",
+              "purpose": "Reservation claims"
+            },
+            {
+              "document": "PwD Certificate (if applicable)",
+              "purpose": "Disability reservation"
+            },
+            {
+              "document": "Domicile Certificate (State Quota)",
+              "purpose": "State residency proof"
+            },
+            {
+              "document": "ID Proof (Aadhar, Passport, Voter ID)",
+              "purpose": "Official identity"
+            },
+            {
+              "document": "Passport-sized Photographs",
+              "purpose": "Admission forms"
+            },
+            {
+              "document": "Provisional Allotment Letter",
+              "purpose": "Admission confirmation"
+            }
+          ]
+        },
+        "FeeStructureOverview": {
+          "title": "Fee Structure Overview",
+          "feeStructure": [
+            {
+              "counsellingType": "AIQ",
+              "generalOBCFee": "₹1,000",
+              "scStPwdFee": "₹500",
+              "securityDeposit": "₹10,000"
+            },
+            {
+              "counsellingType": "Deemed/Central Universities",
+              "generalOBCFee": "₹5,000",
+              "scStPwdFee": "₹5,000",
+              "securityDeposit": "₹2,00,000"
+            },
+            {
+              "counsellingType": "State Quota",
+              "generalOBCFee": "Varies state-wise",
+              "scStPwdFee": "Varies",
+              "securityDeposit": "Varies"
+            }
+          ]
+        },
+        "KeyCounsellingTipsForCandidates": {
+          "title": "Key Counselling Tips for Candidates",
+          "tips": [
+            "Regularly check MCC and respective state counselling portals for notifications",
+            "Register and pay fees promptly for each counselling round",
+            "Carefully fill choices based on priorities and realistic admission chances",
+            "Verify documents in advance to avoid last-minute issues",
+            "Attend physical reporting on time; non-reporting leads to seat cancellations",
+            "Understand upgradation process and participate to improve seat allotment if desired",
+            "Keep multiple backup options for choices",
+            "Use MCC helpline and notifications for any support or clarifications"
+          ]
+        },
+        "DistinctionBetweenAllIndiaQuotaAndStateQuotaCounselling": {
+          "title": "Distinction Between All India Quota and State Quota Counselling",
+          "distinctions": [
+            {
+              "aspect": "Percentage",
+              "allIndiaQuota": "15%",
+              "stateQuota": "85%"
+            },
+            {
+              "aspect": "Conducted By",
+              "allIndiaQuota": "MCC",
+              "stateQuota": "State Counselling Authorities"
+            },
+            {
+              "aspect": "Eligibility",
+              "allIndiaQuota": "All Indian candidates irrespective of domicile (except specific state limits)",
+              "stateQuota": "Only candidates satisfying state domicile/residency criteria"
+            },
+            {
+              "aspect": "Seat Allotment",
+              "allIndiaQuota": "Centralised through MCC portal",
+              "stateQuota": "Conducted separately by each state portal"
+            },
+            {
+              "aspect": "Participating Colleges",
+              "allIndiaQuota": "Central, Deemed, AFMC, ESIC, AIIMS, JIPMER",
+              "stateQuota": "Government and Private medical colleges within state"
+            }
+          ]
+        },
+        "DetailedCounsellingTimeline": {
+          "title": "Detailed Counselling Timeline for NEET 2026",
+          "timeline": [
+            {
+              "phase": "Pre-Counselling Phase",
+              "duration": "June 2026",
+              "activities": [
+                "Result declaration and rank card release",
+                "Counselling notification by MCC and state authorities",
+                "Registration begins for AIQ and state quota counselling",
+                "Document preparation and verification"
+              ]
+            },
+            {
+              "phase": "Round 1 Counselling",
+              "duration": "July 1-15, 2026",
+              "activities": [
+                "Registration and choice filling",
+                "Seat allotment results",
+                "Reporting to allotted colleges",
+                "Document verification and admission"
+              ]
+            },
+            {
+              "phase": "Round 2 Counselling",
+              "duration": "July 16-31, 2026",
+              "activities": [
+                "Fresh registration for upgradation",
+                "Choice filling and locking",
+                "Seat allotment results",
+                "Reporting and admission process"
+              ]
+            },
+            {
+              "phase": "Mop-up Round",
+              "duration": "August 1-15, 2026",
+              "activities": [
+                "Registration for vacant seats",
+                "Choice filling for remaining seats",
+                "Final seat allotment",
+                "Reporting and admission"
+              ]
+            },
+            {
+              "phase": "Stray Vacancy Round",
+              "duration": "August 16-31, 2026",
+              "activities": [
+                "Offline counselling for leftover seats",
+                "Direct admission process",
+                "Final seat allocation",
+                "Academic session begins"
+              ]
+            }
+          ]
+        },
+        "StateWiseCounsellingDetails": {
+          "title": "State-wise Counselling Details",
+          "states": [
+            {
+              "state": "Maharashtra",
+              "conductingAuthority": "Maharashtra CET Cell",
+              "website": "cetcell.net.in",
+              "specialFeatures": "Separate counselling for government and private colleges, domicile certificate required"
+            },
+            {
+              "state": "Karnataka",
+              "conductingAuthority": "Karnataka Examination Authority (KEA)",
+              "website": "kea.kar.nic.in",
+              "specialFeatures": "Online counselling with multiple rounds, rural quota available"
+            },
+            {
+              "state": "Tamil Nadu",
+              "conductingAuthority": "Directorate of Medical Education (DME)",
+              "website": "tnhealth.tn.gov.in",
+              "specialFeatures": "7.5% horizontal reservation for government school students"
+            },
+            {
+              "state": "Uttar Pradesh",
+              "conductingAuthority": "Directorate of Medical Education and Training (DMET)",
+              "website": "dmetup.gov.in",
+              "specialFeatures": "Separate counselling for government and private medical colleges"
+            },
+            {
+              "state": "West Bengal",
+              "conductingAuthority": "West Bengal Joint Entrance Examinations Board (WBJEEB)",
+              "website": "wbjeeb.nic.in",
+              "specialFeatures": "Online counselling with document verification at designated centers"
+            }
+          ]
+        },
+        "CounsellingStrategiesAndTips": {
+          "title": "Advanced Counselling Strategies and Tips",
+          "strategies": [
+            {
+              "category": "Choice Filling Strategy",
+              "tips": [
+                "Research college cutoffs from previous years",
+                "Keep 20-30% buffer in your rank for realistic choices",
+                "Fill maximum number of choices (up to 200)",
+                "Prioritize colleges based on your preferences and realistic chances",
+                "Include both government and private colleges for better options"
+              ]
+            },
+            {
+              "category": "Document Preparation",
+              "tips": [
+                "Get all documents attested by gazetted officers",
+                "Keep multiple copies of each document",
+                "Verify document formats as per counselling authority requirements",
+                "Prepare domicile certificate well in advance",
+                "Get category certificates from appropriate authorities"
+              ]
+            },
+            {
+              "category": "Reporting Strategy",
+              "tips": [
+                "Report to allotted college within stipulated time",
+                "Carry all original documents for verification",
+                "Pay admission fees immediately to confirm seat",
+                "Keep receipt of fee payment safely",
+                "Understand upgradation process for subsequent rounds"
+              ]
+            },
+            {
+              "category": "Financial Planning",
+              "tips": [
+                "Calculate total cost including tuition, hostel, and other fees",
+                "Explore education loan options if needed",
+                "Check scholarship opportunities",
+                "Plan for multiple rounds of counselling fees",
+                "Keep emergency funds for unexpected expenses"
+              ]
+            }
+          ]
+        },
+        "CommonCounsellingMistakes": {
+          "title": "Common Counselling Mistakes to Avoid",
+          "mistakes": [
+            {
+              "mistake": "Late Registration",
+              "consequence": "Missing counselling rounds",
+              "prevention": "Set reminders and register on the first day"
+            },
+            {
+              "mistake": "Incomplete Document Preparation",
+              "consequence": "Rejection during verification",
+              "prevention": "Prepare all documents well in advance"
+            },
+            {
+              "mistake": "Poor Choice Filling Strategy",
+              "consequence": "Getting undesired college or no seat",
+              "prevention": "Research thoroughly and fill maximum choices"
+            },
+            {
+              "mistake": "Missing Reporting Deadlines",
+              "consequence": "Seat forfeiture",
+              "prevention": "Report immediately after allotment"
+            },
+            {
+              "mistake": "Ignoring Upgradation Opportunities",
+              "consequence": "Missing better college options",
+              "prevention": "Participate in all subsequent rounds"
+            },
+            {
+              "mistake": "Not Understanding Fee Structure",
+              "consequence": "Financial difficulties later",
+              "prevention": "Research complete fee structure before choice filling"
+            }
+          ]
+        },
+        "CounsellingHelplineAndSupport": {
+          "title": "Counselling Helpline and Support",
+          "supportChannels": [
+            {
+              "authority": "MCC (Medical Counselling Committee)",
+              "helpline": "011-40759000",
+              "email": "mcc.nic.in",
+              "workingHours": "9:00 AM - 6:00 PM (Monday to Friday)"
+            },
+            {
+              "authority": "NTA (National Testing Agency)",
+              "helpline": "0120-6895200",
+              "email": "neet@nta.ac.in",
+              "workingHours": "9:00 AM - 5:00 PM (Monday to Friday)"
+            },
+            {
+              "authority": "State Counselling Authorities",
+              "helpline": "Varies by state",
+              "email": "Check respective state websites",
+              "workingHours": "As per state schedule"
+            }
+          ],
+          "onlineResources": [
+            "Official MCC website: mcc.nic.in",
+            "NTA NEET website: neet.nta.ac.in",
+            "State counselling portals (varies by state)",
+            "Official college websites for specific information",
+            "Education ministry websites for policy updates"
+          ]
+        },
+        "PostCounsellingProcess": {
+          "title": "Post-Counselling Process and Next Steps",
+          "steps": [
+            {
+              "step": "Seat Acceptance and Fee Payment",
+              "description": "Accept the allotted seat by paying the required fees within the stipulated time. This confirms your admission to the college."
+            },
+            {
+              "step": "Document Submission",
+              "description": "Submit all required original documents to the college for verification. Keep attested copies for your records."
+            },
+            {
+              "step": "Medical Examination",
+              "description": "Undergo medical examination as required by the college. Some colleges may have specific health requirements."
+            },
+            {
+              "step": "Hostel and Accommodation",
+              "description": "Apply for hostel accommodation if needed. Check availability and application procedures with the college administration."
+            },
+            {
+              "step": "Academic Session Commencement",
+              "description": "Attend orientation programs and begin your medical education journey. Familiarize yourself with college rules and regulations."
+            }
+          ]
+        }
+      },
+      "DocumentVerification": {
+        "title": "Document Verification & Final Admission (As per Counselling Schedule)",
+        "description": "Candidates must appear for document verification at designated centres. Mandatory documents include NEET Admit Card, Result Letter, Class 10 & 12 Mark sheets, Category & Domicile certificates, PwD certificate (if applicable), and Photo ID (Aadhar, Passport, Voter ID). Original documents and attested photocopies are necessary to prove eligibility. Failure to verify documents or report to the allotted institution within timelines may lead to forfeiture of admission."
+      }
+    },
+    "DetailedPreparationGuide": {
+      "PreparationTips": [
+        "Begin preparation at least 12-18 months ahead of NEET date for conceptual clarity",
+        "Focus on NCERT textbooks for Physics, Chemistry, and Biology as the exam closely follows these",
+        "Practice previous years' papers and mock tests consistently to improve speed, accuracy, and exam temperament",
+        "Create a well-balanced timetable including revision and breaks to avoid burnout",
+        "Enroll in reputed coaching or online structured courses for expert guidance",
+        "Stay informed on biological sciences advancements and current affairs related to medicine and healthcare",
+        "Take care of physical and mental health through proper diet, sleep, and relaxation techniques"
+      ],
+      "ExamDayGuidelines": [
+        "Arrive at exam center at least 60 minutes before reporting time to complete entry formalities",
+        "Carry only essential items: NEET admit card, valid photo ID, transparent water bottle, and personal hand sanitizers if allowed",
+        "Follow strict dress code: Light-colored, half-sleeved tops without buttons or metallic accessories",
+        "Mobile phones, watches, calculators, study materials, papers, and bags are strictly prohibited inside the exam hall",
+        "Use only blue or black ballpoint pens for marking OMR responses",
+        "Maintaining silence and cooperating with invigilators is mandatory for smooth conduct"
+      ],
+      "ApplicationBestPractices": [
+        "Arrange all required certificates and photographs as per prescribed formats before starting the application",
+        "Scan images with clear resolution and correct dimensions to avoid rejection",
+        "Double-check every data field for accuracy, especially personal details such as name, date of birth, category, and educational details",
+        "Keep application number, password, and transaction ID safely for future logins and fee-related queries",
+        "Take a printout of the confirmation page and saved copies of the filled form for records and future reference",
+        "Monitor emails and SMS for updates on application status and correction windows"
+      ],
+      "CounsellingPreparation": [
+        "Research colleges, courses, cutoffs, and reservation policies in detail prior to choice filling",
+        "Prepare all original and attested documents neatly",
+        "Understand the implications of locking choices and the consequences of seat acceptance and withdrawal",
+        "Be prepared for successive rounds of counselling to secure best possible admission",
+        "Keep backup plans in place in case desired allotments are not made",
+        "Stay responsive to official communications and deadlines to avoid disqualification"
+      ],
+      "CommonMistakes": [
+        "Submitting incomplete or incorrect application forms",
+        "Uploading blurry or mismatched photographs/signatures",
+        "Missing application or correction window deadlines",
+        "Forgetting to carry admit card and valid ID on exam day",
+        "Violating dress code or bringing prohibited items inside exam hall",
+        "Failing to complete document verification or reporting to allotted college on time",
+        "Ignoring counselling schedules and instructions"
+      ]
+    },
+    "EmergencyContactsTable": {
+      "NTA": {
+        "Authority": "National Testing Agency (NTA)",
+        "Helpline": "0120-6895200",
+        "Email": "neet@nta.ac.in",
+        "Website": "https://neet.nta.nic.in"
+      },
+      "MCC": {
+        "Authority": "Medical Counselling Committee (MCC)",
+        "Helpline": "011-22041807",
+        "Email": "mcc.nic.in",
+        "Website": "https://mcc.nic.in"
+      }
+    },
+    "FeeStructureTable": {
+      "ApplicationFees": [
+        {"Category": "General", "Fee": "₹1,700"},
+        {"Category": "OBC", "Fee": "₹1,600"},
+        {"Category": "SC/ST/PwD", "Fee": "₹1,000"},
+        {"Category": "Foreign Nationals", "Fee": "₹9,500"}
+      ],
+      "CounsellingFees": [
+        {"Type": "MCC Counselling Fee", "Fee": "₹1,000 (non-refundable)"},
+        {"Type": "State Counselling Fee", "Fee": "Varies (₹500-₹2,000 approx.)"}
+      ],
+      "AnnualTuitionFees": [
+        {"Course": "MBBS", "Fee": "₹10,000 – ₹25 Lakhs"},
+        {"Course": "BDS", "Fee": "₹5,000 – ₹15 Lakhs"},
+        {"Course": "BAMS", "Fee": "₹50,000 – ₹5 Lakhs"}
+      ]
+    },
+    "ReservationTable": {
+      "QuotaDistribution": [
+        {"Category": "All India Quota (AIQ)", "Percentage": "15%"},
+        {"Category": "State Quota", "Percentage": "85%"}
+      ],
+      "CategoryReservations": [
+        {"Category": "Scheduled Caste (SC)", "Percentage": "15%"},
+        {"Category": "Scheduled Tribe (ST)", "Percentage": "7.5%"},
+        {"Category": "Other Backward Classes (OBC-NCL)", "Percentage": "27%"},
+        {"Category": "Economically Weaker Sections (EWS)", "Percentage": "10%"},
+        {"Category": "Persons with Disabilities (PwD)", "Percentage": "5% Horizontal"}
+      ]
+    },
+    "SeatDistributionTable": {
+      "MBBSSeats": [
+        {"Type": "Government", "Seats": "Approx. 70,000"},
+        {"Type": "Private", "Seats": "Approx. 57,906"},
+        {"Type": "Deemed", "Seats": "Approx. 15,000"},
+        {"Type": "Central", "Seats": "Approx. 2,000"}
+      ]
+    },
+    "EligibilityCriteria": {
+      "Nationality": "Indian Nationals, NRIs, OCIs, PIOs, Foreign Nationals",
+      "MinimumAge": "17 years as on 31 Dec 2026",
+      "UpperAgeLimit": "None",
+      "Education": "Passed/appearing 10+2 or equivalent with Physics, Chemistry, Biology/Biotechnology, and English",
+      "MinimumMarks": {
+        "General": "50% (PCB & English)",
+        "OBC/SC/ST": "40%",
+        "PwD": "45%"
+      },
+      "NumberOfAttempts": "Unlimited"
+    },
+    "DetailedEligibilityCriteria": {
+      "NationalityAndCitizenship": {
+        "title": "Nationality & Citizenship Eligibility",
+        "description": "Eligible applicants include a broad spectrum of candidates ensuring inclusivity:",
+        "categories": [
+          "Indian Nationals: Candidates holding Indian citizenship",
+          "Non-Resident Indians (NRIs): Indian citizens living abroad but retaining Indian nationality",
+          "Overseas Citizens of India (OCIs): Foreign citizens of Indian origin eligible for certain rights similar to NRIs",
+          "Persons of Indian Origin (PIOs): People who trace their origin to India as defined by the government",
+          "Foreign Nationals: Candidates who hold foreign passports can also apply but must comply with admission rules and seat allotments specific to foreigners"
+        ]
+      },
+      "AgeRequirements": {
+        "title": "Age Requirements",
+        "minimumAge": {
+          "requirement": "At least 17 years old on or before December 31, 2026",
+          "description": "Candidates born on or before December 31, 2009, are eligible"
+        },
+        "upperAgeLimit": {
+          "requirement": "No upper age limit",
+          "description": "As per recent Supreme Court rulings and NMC guidelines, there is no upper age limit to appear for NEET 2026. Previous restrictions on upper age were abolished to allow wider candidate participation"
+        },
+        "ageCalculation": "The date of birth accepted will be as recorded in Class 10 or equivalent examination board certificates"
+      },
+      "EducationalQualifications": {
+        "title": "Educational Qualifications",
+        "description": "Candidates must have achieved or be appearing for a recognized qualifying examination that complies with the following:",
+        "requirements": [
+          "Passing Class: Candidates should have passed or be appearing in Class 12 (10+2) or equivalent examination conducted by recognized boards such as CBSE, ICSE, State Boards, NIOS, or equivalent with practical exams where applicable",
+          "Mandatory Subjects: The candidate must have studied the following core subjects from a recognized board/institution:",
+          "Physics",
+          "Chemistry", 
+          "Biology/Biotechnology",
+          "English (as a compulsory language)"
+        ]
+      },
+      "MinimumMarksRequired": {
+        "title": "Minimum Marks Required in Qualifying Exam",
+        "categories": [
+          {
+            "category": "General (Unreserved) Category",
+            "requirement": "Minimum aggregate of 50% marks in Physics, Chemistry, and Biology/Biotechnology combined with English as a subject must be secured"
+          },
+          {
+            "category": "OBC/SC/ST (Reserved Categories)",
+            "requirement": "Minimum aggregate of 40% marks in Physics, Chemistry and Biology/Biotechnology (combined), with English included as a separate subject"
+          },
+          {
+            "category": "Persons with Disabilities (PwD) Category",
+            "requirement": "Candidates belonging to PwD in the General category must have at least 45% aggregate marks in the same subjects to be eligible"
+          }
+        ],
+        "additionalNotes": [
+          "Candidates must pass all subjects individually. Aggregate minimum marks are combined across these subjects",
+          "Open school/private candidates are eligible if they meet the eligibility criteria and have studied the mandatory subjects"
+        ]
+      },
+      "YearOfPassingAndAttempts": {
+        "title": "Year of Passing and Attempt Eligibility",
+        "yearOfPassing": "Candidates who are appearing for their Class 12 board exams in 2026 or have passed in earlier attempts (e.g., 2025, 2024) are eligible to apply",
+        "numberOfAttempts": "There are no restrictions on the number of attempts for appearing in NEET 2026. Candidates can appear multiple times to improve scores without disqualification or penalty"
+      },
+      "QualifyingCodes": {
+        "title": "Qualifying Codes (Educational Background)",
+        "description": "NTA categorizes various qualifying criteria with specific codes to properly verify academic eligibility. These include:",
+        "codes": [
+          {
+            "code": "01",
+            "description": "Currently appearing or passed Class 12 in 2026 and awaiting results"
+          },
+          {
+            "code": "02", 
+            "description": "Passed Class 12 before 2026"
+          },
+          {
+            "code": "03",
+            "description": "Passed Pre-degree exam in science in India with PCB and English including practicals"
+          },
+          {
+            "code": "04",
+            "description": "Passed any pre-professional or pre-medical exam after Class 12"
+          },
+          {
+            "code": "05",
+            "description": "Currently in the first year of a 3-year degree course"
+          },
+          {
+            "code": "06",
+            "description": "Completed B.Sc. with at least two subjects among Physics, Chemistry, and Biology and passed Class 12"
+          },
+          {
+            "code": "07",
+            "description": "Qualified from foreign countries or equivalent pre-university/Board exams"
+          }
+        ],
+        "note": "Candidates must choose the correct qualifying code during application to avoid eligibility issues"
+      },
+      "SpecialCategories": {
+        "title": "Special Categories - PwD and Other Considerations",
+        "points": [
+          "PwD candidates enjoy horizontal reservation and slightly lower minimum marks (45% for General-PwD)",
+          "Candidates with Biology/Biotechnology as an additional subject are considered eligible if they meet other criteria but must check latest NMC guidelines at admission time",
+          "Candidates from Open Schools or National Institute of Open Schooling (NIOS) are eligible provided they have studied mandatory subjects from recognized boards"
+        ]
+      },
+      "DomicileAndStateQuotas": {
+        "title": "Domicile and State Quotas",
+        "points": [
+          "While NEET conducts a centralized exam, admission follows both All India Quota (15%) and State Quota (85%) seat distribution policies",
+          "State domicile candidates may have preferential reservation in state counselling rounds as per state regulations",
+          "Candidates must produce valid domicile certificates during counselling for state quota admissions"
+        ]
+      },
+      "SummaryTable": {
+        "title": "Summary Table: NEET 2026 Core Eligibility Criteria",
+        "criteria": [
+          {
+            "criteria": "Nationality",
+            "details": "Indian, NRI, OCI, PIO, Foreign Nationals"
+          },
+          {
+            "criteria": "Minimum Age",
+            "details": "17 years as on 31 Dec 2026"
+          },
+          {
+            "criteria": "Upper Age Limit",
+            "details": "None"
+          },
+          {
+            "criteria": "Education",
+            "details": "Passed/appearing Class 12 or equivalent with PCB & English"
+          },
+          {
+            "criteria": "Minimum Marks",
+            "details": "50% Gen, 40% Reserved, 45% PwD in PCB & English"
+          },
+          {
+            "criteria": "Attempts",
+            "details": "No limit on number of attempts"
+          },
+          {
+            "criteria": "Year of Passing",
+            "details": "Passed or appearing in 2026 or earlier"
+          }
+        ]
+      },
+      "ImportantAdditionalNotes": {
+        "title": "Important Additional Notes for NEET 2026 Eligibility",
+        "points": [
+          "Verification and Documentation: Candidates must keep original mark sheets, certificates, and valid photo identification ready for counselling stages",
+          "Foreign Nationals: Admission is subject to eligibility verification and seat availability; candidates must comply with All India Quota or specific institute policies",
+          "Changes & Updates: Candidates must check the official NEET 2026 information bulletin for any amendments before application",
+          "Equivalency of Boards: Students from international boards must ensure equivalency certificates supporting Physics, Chemistry, Biology, and English to qualify",
+          "Syllabus Relevance: Eligible candidates should align preparation with the NCERT syllabus covering Class 11-12 levels from recognized boards to ensure exam readiness"
+        ]
+      }
+    },
+    "InDepthEligibilityCriteria": {
+      "Introduction": {
+        "title": "NEET 2026 Eligibility Criteria: In-depth Comprehensive Guide",
+        "description": "NEET 2026 eligibility criteria are prescribed by the National Testing Agency (NTA) under the supervision of the Ministry of Education and National Medical Commission. These criteria maintain uniform standards for admission to undergraduate medical and related courses in India."
+      },
+      "NationalityAndCitizenshipCriteria": {
+        "title": "Nationality & Citizenship Criteria",
+        "description": "NEET 2026 welcomes applicants across various nationality categories to ensure broad inclusivity and accommodate Indian diaspora and foreign candidates:",
+        "categories": [
+          "Indian Nationals: Candidates who have Indian citizenship are fully eligible",
+          "Non-Resident Indians (NRIs): Indian citizens residing abroad holding Indian passports are eligible under the same category as Indian nationals",
+          "Overseas Citizens of India (OCI): Foreign citizens of Indian origin with OCI status enjoy rights similar to NRIs and are eligible to appear in NEET 2026 for admission",
+          "Persons of Indian Origin (PIO): Candidates of Indian descent but holding foreign citizenship can apply under PIO category, subject to admission rules",
+          "Foreign Nationals: Candidates holding foreign passports can appear for the exam but may have specific admission criteria or capped seat availability as per institute policy or government regulations"
+        ],
+        "note": "Eligibility is, however, contingent on fulfilling all academic and age-related criteria uniformly across these groups."
+      },
+      "AgeRequirementsDetailed": {
+        "title": "Age Requirements: Minimum and Upper Limits",
+        "minimumAge": {
+          "requirement": "Candidates must have completed at least 17 years of age on or before December 31, 2026",
+          "practicalMeaning": "Candidates born on or before December 31, 2009, are eligible",
+          "purpose": "The minimum age criteria ensures candidates have completed requisite schooling and maturity for medical education"
+        },
+        "upperAgeLimit": {
+          "requirement": "There is no upper age limit as per the latest Supreme Court and National Medical Commission (NMC) rulings on NEET eligibility",
+          "policyChange": "This policy change came to remove unnecessary barriers for aspirants who wish to pursue medical education later in life"
+        },
+        "ageVerification": {
+          "domestic": "Age proof is strictly verified from official Class 10 or equivalent certificates reporting date of birth as recognized by government authorities",
+          "foreign": "Aspirants from foreign boards must provide equivalency certificates that include DOB verification"
+        }
+      },
+      "EducationalQualificationsDetailed": {
+        "title": "Educational Qualifications and Academic Requirements",
+        "basicRequirement": "Candidates should have passed or be appearing in their Class 12 (10+2) or equivalent examination from recognized boards such as CBSE, ICSE, State Boards, NIOS, or equivalent international boards whose exam is recognized by the Association of Indian Universities (AIU)",
+        "practicalExams": "The qualifying exam must include practical exams where applicable to provide hands-on experience in core science subjects",
+        "mandatorySubjects": [
+          "Physics",
+          "Chemistry", 
+          "Biology or Biotechnology",
+          "English as a compulsory language subject"
+        ],
+        "specialCases": [
+          "Candidates with Biology/Biotechnology as an additional subject but meeting minimum eligibility can also apply; however, admission will follow NMC guidelines during seat allocation",
+          "Open school or private candidates are eligible if they fulfill the above subject requirements and minimum marks",
+          "Candidates from international boards need equivalency certificates from AIU to verify academic standing and subject coverage"
+        ]
+      },
+      "MinimumRequiredMarksDetailed": {
+        "title": "Minimum Required Marks (Qualifying Nature)",
+        "categories": [
+          {
+            "category": "Unreserved/General Category",
+            "requirement": "Minimum aggregate of 50% marks in Physics, Chemistry, and Biology/Biotechnology combined along with English as a passing subject"
+          },
+          {
+            "category": "OBC, SC, ST (Reserved Categories)",
+            "requirement": "A minimum aggregate of 40% marks combined in PCB, with English as compulsory"
+          },
+          {
+            "category": "Persons with Disability (PwD) in General Category",
+            "requirement": "Minimum 45% marks in PCB combined, with passing marks in English"
+          }
+        ],
+        "importantNotes": [
+          "Minimum passing marks must be achieved in all subjects individually",
+          "Aggregate percentages cover combined marks across PCB only, excluding other subjects",
+          "This assures candidates have a foundational understanding of science basics needed for medical education"
+        ]
+      },
+      "YearOfPassingAndAttemptsDetailed": {
+        "title": "Year of Passing and Number of Attempts",
+        "yearOfPassing": "Candidates appearing for the Class 12 board examinations in 2026 or who have passed the qualifying exam in 2024 or 2025 are eligible to apply",
+        "numberOfAttempts": "No restriction is placed on the number of attempts candidates can take to appear for NEET; aspirants may attempt multiple times in consecutive or non-consecutive years without penalty",
+        "flexibility": "Candidates intending to improve scores or seek admission after re-attempt can reappear according to their preparation and strategy",
+        "purpose": "This attempt flexibility supports lifelong learning and multiple entry chances into medicine"
+      },
+      "QualifyingCodesDetailed": {
+        "title": "Qualifying Codes for Academic Background (NEET Application Specific)",
+        "description": "NTA assigns qualifying codes to candidates based on their academic status to streamline eligibility verification:",
+        "codes": [
+          {
+            "code": "01",
+            "description": "Currently appearing in Class 12 exams in 2026; awaiting results"
+          },
+          {
+            "code": "02",
+            "description": "Passed Class 12 before 2026"
+          },
+          {
+            "code": "03",
+            "description": "Passed pre-degree exam in science from an Indian board/university with PCB and practicals"
+          },
+          {
+            "code": "04",
+            "description": "Passed any pre-professional or pre-medical exam after Class 12 physical examinations"
+          },
+          {
+            "code": "05",
+            "description": "Currently in first year of a three-year degree course"
+          },
+          {
+            "code": "06",
+            "description": "Completed B.Sc. with at least two subjects (Physics, Chemistry, Biology); passed Class 12 PCB"
+          },
+          {
+            "code": "07",
+            "description": "Appeared for any other exam except Class 12 (e.g., Pre-University) with practical components"
+          }
+        ],
+        "importantNote": "Candidates must accurately select the correct qualifying code on application or face eligibility delays. Documentation supporting the selected code is mandatory during counselling."
+      },
+      "SpecialConsiderations": {
+        "title": "Special Considerations for PwD and Open School Candidates",
+        "points": [
+          "Persons with Disabilities have a horizontal reservation of 5%, and minimum eligibility marks are slightly relaxed to 45% for General-PwD category",
+          "Candidates who have completed schooling via Open Schooling or NIOS under recognized boards are eligible for NEET 2026, given they fulfill core subject and minimum marks criteria",
+          "Aspirants with Biology or Biotechnology as an additional rather than compulsory subject need to verify latest NMC guidelines prior to admission but are generally eligible to apply"
+        ]
+      },
+      "DomicileAndReservationPolicies": {
+        "title": "Domicile, State Quotas and Reservation Policies",
+        "description": "While NEET is a national-level centralized examination, admission seats are distributed as:",
+        "quotaDistribution": [
+          {
+            "quota": "15% All India Quota (AIQ)",
+            "description": "Filled through centralized counselling by MCC based on NEET merit"
+          },
+          {
+            "quota": "85% State Quota",
+            "description": "Seats allocated by respective State Admission Authorities, with preference for domicile candidates"
+          }
+        ],
+        "additionalRequirements": [
+          "Candidates must possess valid domicile certificates for state quota admissions; states vary in their additional eligibility",
+          "Reservation policies per category apply uniformly in both AIQ and state quota seats"
+        ]
+      },
+      "SummaryTableDetailed": {
+        "title": "Summary Table: NEET 2026 Core Eligibility Overview",
+        "criteria": [
+          {
+            "criteria": "Nationality",
+            "details": "Indian, NRI, OCI, PIO, Foreign Nationals"
+          },
+          {
+            "criteria": "Minimum Age",
+            "details": "17 years as of Dec 31, 2026"
+          },
+          {
+            "criteria": "Upper Age Limit",
+            "details": "None"
+          },
+          {
+            "criteria": "Education",
+            "details": "Passed/appearing Class 12 (10+2) or equivalent with Physics, Chemistry, Biology/Biotech, and English"
+          },
+          {
+            "criteria": "Minimum Marks",
+            "details": "Gen: 50%, OBC/SC/ST: 40%, PwD (General): 45%"
+          },
+          {
+            "criteria": "No. of Attempts",
+            "details": "Unlimited"
+          },
+          {
+            "criteria": "Year of Passing",
+            "details": "Passed or appearing in 2026 or prior years"
+          },
+          {
+            "criteria": "Qualifying Codes",
+            "details": "Seven codes based on academic background"
+          }
+        ]
+      },
+      "AdditionalImportantNotesDetailed": {
+        "title": "Additional Important Notes",
+        "points": [
+          "Candidates must keep all original academic and identity documents ready for verification during counselling",
+          "Foreign nationals must comply with institute-specific rules and seat availability; transcripts and equivalency certificates may be required",
+          "Equivalency certificates must certify that the foreign exam corresponds to 10+2 with PCB and English",
+          "Candidates must regularly verify updates from the official NEET website and information bulletins for any changes in criteria",
+          "Syllabus compliance: Candidates should base preparation on the NCERT Class 11 and 12 syllabus relevant to Physics, Chemistry, and Biology for exam readiness"
+        ]
+      }
+    },
+    "ApplicationProcess": {
+      "Mode": "Online only (nta.ac.in or neet.nta.nic.in)",
+      "Timeline": "February–March 2026",
+      "ApplicationFee": {
+        "General": "₹1,700",
+        "OBC": "₹1,600",
+        "SC/ST/Reserved": "₹1,000",
+        "Foreign": "₹9,500"
+      }
+    },
+    "DetailedApplicationProcess": {
+      "Introduction": {
+        "title": "NEET 2026 Application Process: Complete Step-by-Step Guide",
+        "description": "NEET 2026 registration is a fully online process managed exclusively by the National Testing Agency (NTA) via their official portals: nta.ac.in or neet.nta.nic.in. The registration window typically spans from February to March 2026, providing candidates sufficient time to complete the application accurately."
+      },
+      "Step1Registration": {
+        "title": "Step 1: Registration on Official Portal",
+        "steps": [
+          "Visit the official NTA NEET website: nta.ac.in or neet.nta.nic.in",
+          "Click on the 'New Registration' or 'Fill Registration Form' link visible on the homepage during the release period",
+          "Carefully read all instructions and guidelines provided by NTA before proceeding",
+          "Fill basic details such as name, date of birth, gender, nationality, email ID, and mobile number. These must be exactly as per official documents to avoid discrepancies",
+          "Create a strong password and set security questions for profile protection",
+          "Submit the registration form to receive your unique application number and password on your registered email and mobile via OTP confirmation",
+          "Save these credentials securely as they will be required for login to complete the application"
+        ]
+      },
+      "Step2ApplicationForm": {
+        "title": "Step 2: Filling the Application Form",
+        "description": "Log in using the application number and password provided during registration. Carefully fill in detailed information under the following sections:",
+        "sections": [
+          {
+            "section": "Personal Information",
+            "details": "Full name, mother's and father's name, date of birth, gender, category, PwD status"
+          },
+          {
+            "section": "Contact Details",
+            "details": "Permanent and correspondence address with postal codes"
+          },
+          {
+            "section": "Academic Qualifications",
+            "details": "Board of examination for Class 10 and 12, passing year, roll numbers, marks obtained or appearing status"
+          },
+          {
+            "section": "Language & Center Preferences",
+            "details": "Choose the medium of question paper (one of 13 languages) and two preferred exam cities in order of priority"
+          },
+          {
+            "section": "Parents/Guardian Details",
+            "details": "Occupation, annual income, educational qualifications"
+          },
+          {
+            "section": "Miscellaneous",
+            "details": "Declaration regarding wearing customary dress if it conflicts with dress code"
+          }
+        ],
+        "importantNote": "Every field must be filled carefully; errors here can lead to rejection or difficulty later. The system will not allow incomplete submissions."
+      },
+      "Step3DocumentUpload": {
+        "title": "Step 3: Uploading Documents",
+        "description": "Prepare the following documents in digital form, ensuring compliance with NTA's prescribed format and size:",
+        "documents": [
+          {
+            "document": "Recent passport-size photo",
+            "specifications": "Colored, JPG/JPEG, 10 KB – 200 KB"
+          },
+          {
+            "document": "Candidate Signature",
+            "specifications": "Colored, JPG/JPEG, 4 KB – 30 KB"
+          },
+          {
+            "document": "Left-hand thumb impression",
+            "specifications": "Scanned fingerprint JPG/JPEG, 10 KB – 50 KB (if applicable)"
+          },
+          {
+            "document": "Class 10 Marksheet/Passing Certificate",
+            "specifications": "Scanned copy in PDF/JPG, clear and legible"
+          },
+          {
+            "document": "Class 12 Marksheet (if required)",
+            "specifications": "Scanned copy in PDF/JPG"
+          },
+          {
+            "document": "Category Certificate (SC/ST/OBC/EWS)",
+            "specifications": "Mandatory for reserved categories"
+          },
+          {
+            "document": "PwD Certificate",
+            "specifications": "For PwD category candidates"
+          },
+          {
+            "document": "Identity Proof",
+            "specifications": "Aadhaar Card, Passport, Voter ID, PAN Card, etc."
+          }
+        ],
+        "warning": "Uploading multiple formats or poor quality images will lead to form rejection."
+      },
+      "Step4FeePayment": {
+        "title": "Step 4: Fee Payment",
+        "description": "The application fee can be paid online through Net Banking, Debit Card, Credit Card, UPI, or other accepted digital transactions.",
+        "importantNotes": [
+          "Fee is non-refundable once paid, so double-check category and application details before payment",
+          "After successful payment, candidates receive confirmation via email/SMS",
+          "Keep payment receipts and confirmation screenshots safe for reference"
+        ],
+        "feeStructure": [
+          {
+            "category": "General Category",
+            "fee": "₹1,700"
+          },
+          {
+            "category": "OBC-NCL Category",
+            "fee": "₹1,600"
+          },
+          {
+            "category": "SC/ST/Reserved",
+            "fee": "₹1,000"
+          },
+          {
+            "category": "Foreign Nationals",
+            "fee": "₹9,500"
+          }
+        ]
+      },
+      "Step5ReviewSubmission": {
+        "title": "Step 5: Review and Final Submission",
+        "steps": [
+          "Before final submission, thoroughly review all application data and uploaded documents",
+          "Once submitted, corrections can only be made in the separate correction window",
+          "Candidates must confirm submission by clicking 'Yes, submit' or similar prompt",
+          "Download and print the confirmation page immediately after submission for records. This page acts as proof of successful application"
+        ]
+      },
+      "PostSubmissionCorrection": {
+        "title": "Post-Submission: Application Correction Window",
+        "description": "After the application deadline, NTA opens a correction window (usually a few days) where candidates can amend certain details like exam city, spelling corrections, category changes, and document uploads.",
+        "importantNotes": [
+          "Candidates need to pay an additional fee for certain changes during this period",
+          "It is the final opportunity to ensure application accuracy before admit card generation"
+        ]
+      },
+      "ImportantTips": {
+        "title": "Important Tips for NEET 2026 Application Form",
+        "tips": [
+          "Prepare documentation beforehand: Keep all necessary documents scanned and ready as per NTA specifications before starting your application",
+          "Use a stable internet connection: To avoid data loss or form submission errors",
+          "Enter data carefully: Small errors in names, dates, or identification numbers may lead to verification issues later",
+          "Photograph and signature clarity: Must be in color, recent, and clear to avoid rejection",
+          "Unique credentials: Store your application number and password securely for login and retrieval",
+          "Timely submission: Avoid waiting till the last day of application to prevent server overload or payment gateway issues",
+          "Keep multiple printouts: For future use during admit card download, counselling, and admission processes"
+        ]
+      },
+      "DocumentsChecklist": {
+        "title": "Documents Checklist for NEET 2026 Application",
+        "documents": [
+          "Recent passport-size photograph (centered clear face, white background)",
+          "Candidate signature on white paper using blue/black ink",
+          "Left hand thumb impression scans (colored) if applicable",
+          "Class 10/pass certificate or mark sheet for age verification",
+          "Class 12 or equivalent qualifying exam mark sheet or admit card/registration document (if available)",
+          "Category certificate (SC/ST/OBC/EWS) issued by competent authority, if applicable",
+          "PwD certificate issued by medical authority, if applicable",
+          "Valid photo ID proof (Aadhaar, Passport, PAN, Voter ID)"
+        ]
+      },
+      "ImportantDeadlines": {
+        "title": "Important Deadlines (Tentative)",
+        "deadlines": [
+          {
+            "step": "Application Start",
+            "date": "First week of February 2026"
+          },
+          {
+            "step": "Application End",
+            "date": "First week of March 2026"
+          },
+          {
+            "step": "Correction Window",
+            "date": "Mid to late March 2026"
+          },
+          {
+            "step": "Admit Card Release",
+            "date": "First week of May 2026"
+          }
+        ]
+      },
+      "FAQs": {
+        "title": "Miscellaneous FAQs related to Application",
+        "faqs": [
+          {
+            "question": "Can I change my exam center after submission?",
+            "answer": "Changes can be requested only during the correction period and are subject to availability."
+          },
+          {
+            "question": "What if my photo/signature gets rejected?",
+            "answer": "You will be informed during the correction window to upload compliant images."
+          },
+          {
+            "question": "Is offline application mode available?",
+            "answer": "No, NEET registration is strictly online."
+          },
+          {
+            "question": "What if application fee payment fails?",
+            "answer": "Retry payment before the deadline using alternative modes or contact helpline."
+          },
+          {
+            "question": "Are there any concessions in fees?",
+            "answer": "Yes, candidates from reserved categories pay reduced fees as mentioned above."
+          }
+        ]
+      }
+    },
+    "ExhaustiveApplicationProcess": {
+      "Introduction": {
+        "title": "NEET 2026 Application Process: Exhaustive Step-by-Step Guide for Aspirants",
+        "description": "The NEET 2026 application is a fully online process managed by the National Testing Agency (NTA). This guide explores every detail from registration to final submission and post-submission activities, ensuring candidates have a flawless experience applying for NEET UG 2026."
+      },
+      "ApplicationModeAndPortal": {
+        "title": "Application Mode and Portal",
+        "points": [
+          "Mode: NEET 2026 applications can be submitted only online via the official NTA web portals: nta.ac.in and neet.nta.nic.in",
+          "No offline or paper applications are accepted",
+          "The online application system is accessible 24/7 during the application window but may experience peak load near deadlines"
+        ]
+      },
+      "TimelineForApplication": {
+        "title": "Timeline for NEET 2026 Application",
+        "timeline": [
+          {
+            "stage": "Notification Release",
+            "date": "Last week of January 2026",
+            "details": "NTA issues official notification and information bulletin"
+          },
+          {
+            "stage": "Application Start",
+            "date": "First week of February 2026",
+            "details": "Online portal opens for registration and application filling"
+          },
+          {
+            "stage": "Application Deadline",
+            "date": "First week of March 2026",
+            "details": "Last day to complete and submit NEET 2026 application"
+          },
+          {
+            "stage": "Correction Window",
+            "date": "Mid to late March 2026",
+            "details": "Candidates can make limited corrections to application details"
+          },
+          {
+            "stage": "Admit Card Release",
+            "date": "First week of May 2026",
+            "details": "E-admit cards available for download"
+          }
+        ]
+      },
+      "Step1RegistrationDetailed": {
+        "title": "Step 1: Registration on NTA Portal",
+        "steps": [
+          "Visit nta.ac.in or neet.nta.nic.in and click on the 'New Registration' button",
+          "Carefully read all instructions and eligibility criteria",
+          "Enter personal details exactly as they appear on government-issued identification proof. This includes:",
+          "Full name",
+          "Date of birth",
+          "Gender",
+          "Nationality",
+          "Email ID (unique and valid)",
+          "Mobile number (active for OTP verification)",
+          "Create a secure password and select security questions to protect your profile",
+          "Verify registration via OTPs sent to your email and phone",
+          "On successful registration, save your unique application number and password securely because they will be needed to log in and complete application and subsequent processes"
+        ]
+      },
+      "Step2ApplicationFormDetailed": {
+        "title": "Step 2: Filling the Application Form",
+        "description": "After successful registration, login on the portal to proceed with application:",
+        "sections": [
+          {
+            "section": "Personal Details",
+            "description": "Enter detailed personal particulars, including parents' names, category status, and disability status if applicable"
+          },
+          {
+            "section": "Contact Information",
+            "description": "Permanent and correspondence addresses with postal codes. Communication details will be used to send official updates and admit card info"
+          },
+          {
+            "section": "Academic Details",
+            "description": "Board of examination for Class 10 and Class 12 or equivalent. Year of passing or appearing status. Roll numbers and marks obtained, if applicable"
+          },
+          {
+            "section": "Exam Preferences",
+            "description": "Select question paper language from 13 official languages offered. Choose two preferred exam cities in order of preference; centers are allocated based on availability"
+          },
+          {
+            "section": "Other Details",
+            "description": "Provide parents'/guardians' occupation, highest education level, and annual income. Make any declarations about customary dress that may conflict with exam dress code"
+          }
+        ],
+        "importantNote": "The application system validates entries and will not allow incomplete forms to be submitted"
+      },
+      "Step3DocumentUploadDetailed": {
+        "title": "Step 3: Uploading Scanned Documents",
+        "description": "Candidates must upload the following documents as per NTA specifications:",
+        "documents": [
+          {
+            "document": "Recent passport-size photograph",
+            "format": "JPG/JPEG",
+            "size": "10 KB – 200 KB",
+            "notes": "Color, white background, bordered"
+          },
+          {
+            "document": "Candidate Signature",
+            "format": "JPG/JPEG",
+            "size": "4 KB – 30 KB",
+            "notes": "Blue/Black ink signature on white paper"
+          },
+          {
+            "document": "Left hand thumb impression",
+            "format": "JPG/JPEG",
+            "size": "10 KB – 50 KB",
+            "notes": "Required if applicable"
+          },
+          {
+            "document": "Class 10 Marksheet/Passing Certificate",
+            "format": "PDF/JPG",
+            "size": "Clear and legible",
+            "notes": "For DOB verification"
+          },
+          {
+            "document": "Class 12 Marksheet",
+            "format": "PDF/JPG",
+            "size": "Optional",
+            "notes": "Required if available"
+          },
+          {
+            "document": "Category Certificate (SC/ST/OBC/EWS)",
+            "format": "PDF/JPG",
+            "size": "Mandatory for reserved categories",
+            "notes": "Issued by competent authorities"
+          },
+          {
+            "document": "PwD Certificate",
+            "format": "PDF/JPG",
+            "size": "Mandatory for PwD status",
+            "notes": "Issued by government medical board"
+          },
+          {
+            "document": "Valid Identity Proof",
+            "format": "PDF/JPG",
+            "size": "Aadhaar, Passport, PAN, Voter ID accepted",
+            "notes": "Must be original during counselling"
+          }
+        ],
+        "uploadTips": [
+          "Use clear, recent, and compliant documents (pixelated or poor images lead to rejection)",
+          "Avoid uploading multiple formats of the same document to prevent errors",
+          "Preview uploaded images carefully before final submission"
+        ]
+      },
+      "Step4FeePaymentDetailed": {
+        "title": "Step 4: Application Fee Payment",
+        "description": "The application fee must be paid online as a precondition for form submission:",
+        "feeStructure": [
+          {
+            "category": "General",
+            "fee": "₹1,700"
+          },
+          {
+            "category": "OBC-NCL",
+            "fee": "₹1,600"
+          },
+          {
+            "category": "SC/ST/Reserved Categories",
+            "fee": "₹1,000"
+          },
+          {
+            "category": "Foreign Nationals",
+            "fee": "₹9,500"
+          }
+        ],
+        "paymentMethods": [
+          "Credit Card",
+          "Debit Card",
+          "Net Banking",
+          "UPI Payment Apps (BHIM, Google Pay, PhonePe, etc.)"
+        ],
+        "importantNotes": [
+          "Fees are non-refundable once paid",
+          "Keep digital receipts and payment confirmation SMS/email as proof",
+          "Payment gateway issues must be resolved promptly by retrying or contacting helplines before the deadline"
+        ]
+      },
+      "Step5ReviewSubmissionDetailed": {
+        "title": "Step 5: Review & Final Submission",
+        "steps": [
+          "Thoroughly cross-check all entered data and uploaded documents for accuracy and completeness before final submission",
+          "Once submitted, no major edits can be made except limited corrections during the correction window",
+          "Confirm submission with the on-screen prompt (such as 'Yes, Submit')",
+          "Download and print the confirmation page after submission as this is an official receipt of application. Multiple copies recommended for future reference during the exam and counselling"
+        ]
+      },
+      "PostSubmissionCorrectionDetailed": {
+        "title": "Post-Submission: Correction Window",
+        "description": "NTA opens a short correction window post application deadline where limited fields can be amended:",
+        "amendableFields": [
+          "Exam centre city choice",
+          "Photograph and signature",
+          "Category or PwD status",
+          "Communication details (phone, email)"
+        ],
+        "importantNotes": [
+          "Some corrections require additional fees",
+          "Candidates must utilize this window carefully as no further changes are allowed after this"
+        ]
+      },
+      "CommonChallengesAndSolutions": {
+        "title": "Common Challenges & How to Overcome Them",
+        "challenges": [
+          {
+            "challenge": "Internet connectivity issues",
+            "solution": "Use a stable broadband or mobile network; avoid last-minute submissions"
+          },
+          {
+            "challenge": "Document upload errors",
+            "solution": "Follow size/format guidelines strictly; scan documents using recommended apps or hardware"
+          },
+          {
+            "challenge": "Mismatch in data",
+            "solution": "Enter personal info exactly as per official documents; discrepancies can cause cancellation"
+          },
+          {
+            "challenge": "Failed payment",
+            "solution": "Retry with different modes, check bank limits, use official helpline"
+          },
+          {
+            "challenge": "Forgotten credentials",
+            "solution": "Use password recovery options on the portal or reach out to NTA support"
+          }
+        ]
+      },
+      "BestPractices": {
+        "title": "Suggested Best Practices",
+        "practices": [
+          "Begin preparation of documents well in advance",
+          "Take printouts of filled form sections and keep scanned copies of all documents safely",
+          "Double-check eligibility criteria before applying to avoid application rejection",
+          "Apply at least a week before the deadline to accommodate any technical issues",
+          "Maintain frequent communication with NTA's official channels for latest updates and support"
+        ]
+      },
+      "DocumentsChecklistDetailed": {
+        "title": "Documents Checklist for NEET 2026 Application",
+        "documents": [
+          "Recent passport-size photo with white background",
+          "Signature on plain white paper in black/blue ink",
+          "Left hand thumb impression (if applicable)",
+          "Class 10 passing certificate or mark sheet (DOB proof)",
+          "Class 12 mark sheet or equivalent (if available)",
+          "Valid category certificate for reserved classes (SC, ST, OBC, EWS)",
+          "Disability certificate for PwD candidates",
+          "Government-issued identity card (Aadhaar, Passport, PAN, etc.)"
+        ]
+      },
+      "ApplicationFAQsDetailed": {
+        "title": "Application FAQs",
+        "faqs": [
+          {
+            "question": "Can I apply offline?",
+            "answer": "No, NEET application is only accepted online"
+          },
+          {
+            "question": "Can I change exam city after submission?",
+            "answer": "City changes are allowed only during the correction window and subject to availability"
+          },
+          {
+            "question": "What if photo/signature gets rejected?",
+            "answer": "You will be notified to re-upload valid documents during the correction window"
+          },
+          {
+            "question": "Is fee refundable upon withdrawal?",
+            "answer": "No, the application fee is non-refundable under any circumstances"
+          }
+        ]
+      }
+    },
+    "ExamPattern": {
+      "TotalQuestions": 180,
+      "Subjects": ["Physics", "Chemistry", "Botany", "Zoology"],
+      "QuestionsPerSubject": 45,
+      "TotalMarks": 720,
+      "MarkingScheme": "+4 correct, -1 incorrect, 0 no response",
+      "ExamDuration": "180 minutes (3 hrs); PwBD: extra 65 min",
+      "LanguageOptions": [
+        "English",
+        "Hindi",
+        "Assamese",
+        "Bengali",
+        "Gujarati",
+        "Kannada",
+        "Malayalam",
+        "Marathi",
+        "Odia",
+        "Punjabi",
+        "Tamil",
+        "Telugu",
+        "Urdu"
+      ]
+    },
+    "DetailedExamPattern": {
+      "Introduction": {
+        "title": "NEET 2026 Exam Pattern – Complete Overview",
+        "description": "The National Eligibility cum Entrance Test (NEET) 2026, conducted by the National Testing Agency (NTA), is the single national-level medical entrance exam for admission to MBBS, BDS, BAMS, BHMS, BSMS, BUMS, nursing, and other allied medical courses across India. It evaluates candidates' understanding of Physics, Chemistry, and Biology at the 10+2 level."
+      },
+      "GeneralStructure": {
+        "title": "General Structure",
+        "features": [
+          {
+            "feature": "Exam Name",
+            "detail": "National Eligibility cum Entrance Test (NEET-UG) 2026"
+          },
+          {
+            "feature": "Conducting Authority",
+            "detail": "National Testing Agency (NTA)"
+          },
+          {
+            "feature": "Mode of Exam",
+            "detail": "Offline (Pen & Paper, OMR-based)"
+          },
+          {
+            "feature": "Type of Questions",
+            "detail": "Multiple Choice Questions (MCQs)"
+          },
+          {
+            "feature": "Total Questions",
+            "detail": "180 (out of 200 — Section A+B pattern)"
+          },
+          {
+            "feature": "Maximum Marks",
+            "detail": "720"
+          },
+          {
+            "feature": "Exam Duration",
+            "detail": "3 hours (180 minutes); PwBD candidates: 245 minutes"
+          },
+          {
+            "feature": "Subjects Covered",
+            "detail": "Physics, Chemistry, Botany, Zoology"
+          },
+          {
+            "feature": "Level of Questions",
+            "detail": "Class 11 & 12 syllabi (NCERT based)"
+          },
+          {
+            "feature": "Total Marks per Subject",
+            "detail": "180 (45 questions × 4 marks)"
+          },
+          {
+            "feature": "Marking Scheme",
+            "detail": "+4 for correct, -1 for incorrect, 0 for unattempted"
+          },
+          {
+            "feature": "Frequency",
+            "detail": "Once a year"
+          },
+          {
+            "feature": "Eligibility",
+            "detail": "10+2 or equivalent with PCB and English"
+          },
+          {
+            "feature": "Exam Timing (tentative)",
+            "detail": "2:00 PM to 5:20 PM"
+          },
+          {
+            "feature": "Paper Language Options",
+            "detail": "13 available languages (listed below)"
+          }
+        ]
+      },
+      "SectionWiseDistribution": {
+        "title": "Section-wise Distribution",
+        "description": "Each subject (Physics, Chemistry, Botany, and Zoology) is divided into two sections:",
+        "sections": [
+          {
+            "subject": "Physics",
+            "sectionA": "35 questions (compulsory)",
+            "sectionB": "15 questions (any 10 to attempt)",
+            "total": "45"
+          },
+          {
+            "subject": "Chemistry",
+            "sectionA": "35 questions (compulsory)",
+            "sectionB": "15 questions (any 10 to attempt)",
+            "total": "45"
+          },
+          {
+            "subject": "Botany",
+            "sectionA": "35 questions (compulsory)",
+            "sectionB": "15 questions (any 10 to attempt)",
+            "total": "45"
+          },
+          {
+            "subject": "Zoology",
+            "sectionA": "35 questions (compulsory)",
+            "sectionB": "15 questions (any 10 to attempt)",
+            "total": "45"
+          },
+          {
+            "subject": "Total",
+            "sectionA": "140 compulsory + 40 optional",
+            "sectionB": "—",
+            "total": "180"
+          }
+        ],
+        "note": "The optional question pattern (Section B) helps reduce pressure and allows flexibility in case certain topics are uncertain to students."
+      },
+      "DetailedSubjectWiseWeightage": {
+        "title": "Detailed Subject-Wise Weightage",
+        "subjects": [
+          {
+            "subject": "Physics",
+            "class11Topics": "Physical world, Units & Measurements, Motion, Laws of Motion, Work Energy & Power, Gravitation, Thermodynamics, Oscillations & Waves",
+            "class12Topics": "Current Electricity, Magnetism, EMI, Alternating Current, Optics, Modern Physics",
+            "difficultyLevel": "Generally moderate to tough; requires conceptual clarity and numerical practice"
+          },
+          {
+            "subject": "Chemistry",
+            "class11Topics": "Basic concepts, Atomic Structure, Chemical Bonding, Thermodynamics, States of Matter, Equilibrium",
+            "class12Topics": "Solid State, Solutions, Electrochemistry, Coordination Compounds, Biomolecules, Polymers",
+            "difficultyLevel": "Moderate; formula-based and conceptual understanding both needed"
+          },
+          {
+            "subject": "Biology (Botany + Zoology)",
+            "class11Topics": "Diversity of Living Organisms, Structural Organization in Plants & Animals, Cell Biology, Plant Physiology, Human Physiology",
+            "class12Topics": "Reproduction, Genetics & Evolution, Biology in Human Welfare, Ecology, Biotechnology",
+            "difficultyLevel": "Easy to moderate; concept + memory-intensive; most scoring subject"
+          }
+        ]
+      },
+      "MarkingBreakdownAndScoringLogic": {
+        "title": "Marking Breakdown and Scoring Logic",
+        "markingScheme": [
+          {
+            "responseType": "Correct Answer",
+            "marksAwarded": "+4"
+          },
+          {
+            "responseType": "Incorrect Answer",
+            "marksAwarded": "-1"
+          },
+          {
+            "responseType": "No Response",
+            "marksAwarded": "0"
+          },
+          {
+            "responseType": "Multiple Responses",
+            "marksAwarded": "-1 (treated as incorrect)"
+          }
+        ],
+        "scoringDetails": [
+          "Maximum possible marks: 720",
+          "Minimum marks: 0 (negative marking can decrease score)",
+          "Expected Cutoff Range (Tentative):",
+          "General: 720–137",
+          "OBC/SC/ST: 136–107",
+          "PwD categories: Varying slightly per year"
+        ]
+      },
+      "LanguageOptionsAndCodeMapping": {
+        "title": "Language Options and Code Mapping",
+        "description": "NEET 2026 will be conducted in 13 languages, and each language selection determines the question paper code provided at the exam center:",
+        "languages": [
+          {
+            "language": "English",
+            "availableCenters": "All over India",
+            "paperCodeFormat": "EE (English-only)"
+          },
+          {
+            "language": "Hindi",
+            "availableCenters": "All India (primarily north & central India)",
+            "paperCodeFormat": "HH"
+          },
+          {
+            "language": "Assamese",
+            "availableCenters": "Assam",
+            "paperCodeFormat": "AA"
+          },
+          {
+            "language": "Bengali",
+            "availableCenters": "West Bengal, Tripura",
+            "paperCodeFormat": "BB"
+          },
+          {
+            "language": "Gujarati",
+            "availableCenters": "Gujarat, Dadra & Nagar Haveli, Daman & Diu",
+            "paperCodeFormat": "GG"
+          },
+          {
+            "language": "Kannada",
+            "availableCenters": "Karnataka",
+            "paperCodeFormat": "KK"
+          },
+          {
+            "language": "Malayalam",
+            "availableCenters": "Kerala",
+            "paperCodeFormat": "MM"
+          },
+          {
+            "language": "Marathi",
+            "availableCenters": "Maharashtra",
+            "paperCodeFormat": "MM (regional variation)"
+          },
+          {
+            "language": "Odia",
+            "availableCenters": "Odisha",
+            "paperCodeFormat": "OO"
+          },
+          {
+            "language": "Punjabi",
+            "availableCenters": "Punjab, Chandigarh",
+            "paperCodeFormat": "PP"
+          },
+          {
+            "language": "Tamil",
+            "availableCenters": "Tamil Nadu, Puducherry",
+            "paperCodeFormat": "TT"
+          },
+          {
+            "language": "Telugu",
+            "availableCenters": "Andhra Pradesh, Telangana",
+            "paperCodeFormat": "TE"
+          },
+          {
+            "language": "Urdu",
+            "availableCenters": "Selected centers across India",
+            "paperCodeFormat": "UU"
+          }
+        ],
+        "importantNotes": [
+          "Candidates opting for a regional language will receive a bilingual paper (regional + English)",
+          "In case of translation discrepancies, English version will prevail"
+        ]
+      },
+      "ExamLogisticsAndAdministration": {
+        "title": "Exam Logistics and Administration",
+        "points": [
+          "OMR-based Pen & Paper Test: Candidates use a black/blue ballpoint pen to mark answers",
+          "Paper Distribution: All candidates receive the same number of questions in four different sets, shuffled for security",
+          "Answer Sheet: Two copies—Original (submitted) and Candidate copy (retained)",
+          "Center Allotment: Based on preferences and availability",
+          "Identity Proof Requirement: Aadhaar Card, PAN, Passport, or School ID mandatory with admit card"
+        ]
+      },
+      "QuestionDifficultyAnalysis": {
+        "title": "Question Difficulty Analysis (Approx. Trend from Past Years)",
+        "difficultyBreakdown": [
+          {
+            "difficultyLevel": "Easy",
+            "physics": "12",
+            "chemistry": "15",
+            "biology": "55"
+          },
+          {
+            "difficultyLevel": "Moderate",
+            "physics": "22",
+            "chemistry": "20",
+            "biology": "30"
+          },
+          {
+            "difficultyLevel": "Difficult",
+            "physics": "11",
+            "chemistry": "10",
+            "biology": "5"
+          },
+          {
+            "difficultyLevel": "Total Questions",
+            "physics": "45",
+            "chemistry": "45",
+            "biology": "90"
+          }
+        ],
+        "note": "Biology dominates the paper (50% of total marks), making it the most scoring section for high-rank aspirants."
+      },
+      "SyllabusBasis": {
+        "title": "Syllabus Basis",
+        "description": "The NEET 2026 syllabus is aligned with NCERT Class 11 and Class 12 frameworks. No new topics from foreign or state boards are expected, maintaining parity across educational boards."
+      },
+      "SubjectProportionWithMarksWeightage": {
+        "title": "Subject Proportion with Marks Weightage",
+        "subjects": [
+          {
+            "subject": "Physics",
+            "questions": "45",
+            "marks": "180",
+            "percentage": "25%"
+          },
+          {
+            "subject": "Chemistry",
+            "questions": "45",
+            "marks": "180",
+            "percentage": "25%"
+          },
+          {
+            "subject": "Botany",
+            "questions": "45",
+            "marks": "180",
+            "percentage": "25%"
+          },
+          {
+            "subject": "Zoology",
+            "questions": "45",
+            "marks": "180",
+            "percentage": "25%"
+          },
+          {
+            "subject": "Total",
+            "questions": "180",
+            "marks": "720",
+            "percentage": "100%"
+          }
+        ]
+      },
+      "ResultAndScoringInsights": {
+        "title": "Result and Scoring Insights",
+        "points": [
+          "Raw Score Range: 0–720",
+          "All India Rank (AIR): Based on total marks secured and tie-breaking criteria:",
+          "1. Higher marks in Biology",
+          "2. Higher marks in Chemistry",
+          "3. Fewer incorrect answers overall",
+          "4. Older age (if tie persists)"
+        ]
+      }
+    },
+    "ExtendedExamPatternInsights": {
+      "Introduction": {
+        "title": "NEET 2026 Exam Pattern – Extended Insights",
+        "description": "Here is a much more detailed and expanded insight into the NEET 2026 exam pattern, chapter-wise weightage, and important study strategies."
+      },
+      "GeneralExamStructureRecap": {
+        "title": "General Exam Structure Recap",
+        "features": [
+          "Total Questions: 180 (compulsory)",
+          "Subjects: Physics (45), Chemistry (45), Botany (45), Zoology (45)",
+          "Total Marks: 720",
+          "Time Duration: 3 hours (extra 65 minutes for PwBD)",
+          "Marking Scheme: +4 correct, -1 incorrect, 0 no response",
+          "Mode: Offline OMR-based paper",
+          "Languages: 13 including English, Hindi, regional languages",
+          "Exam Authority: National Testing Agency (NTA)"
+        ]
+      },
+      "ChapterWiseWeightageOverview": {
+        "title": "Chapter-Wise Weightage Overview",
+        "description": "Understanding chapter-wise weightage for NEET 2026 enables efficient preparation and scoring focus. It allows candidates to prioritize studying high-weightage chapters and manage time wisely."
+      },
+      "PhysicsChapterWeightage": {
+        "title": "Physics Chapter Weightage (Percentage and Approximate Number of Questions)",
+        "chapters": [
+          {
+            "chapter": "Physical world & measurements",
+            "questions": "1 - 2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "Kinematics",
+            "questions": "1 - 2",
+            "weightage": "2%"
+          },
+          {
+            "chapter": "Laws of Motion",
+            "questions": "1 - 2",
+            "weightage": "2%"
+          },
+          {
+            "chapter": "Work, Energy and Power",
+            "questions": "2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "System of Particles and Rotational Motion",
+            "questions": "3 - 4",
+            "weightage": "6%"
+          },
+          {
+            "chapter": "Gravitation",
+            "questions": "2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "Mechanical Properties of Solids and Fluids",
+            "questions": "3",
+            "weightage": "6%"
+          },
+          {
+            "chapter": "Thermodynamics",
+            "questions": "3",
+            "weightage": "6%"
+          },
+          {
+            "chapter": "Kinetic theory of gases",
+            "questions": "1",
+            "weightage": "2%"
+          },
+          {
+            "chapter": "Oscillations and Waves",
+            "questions": "4",
+            "weightage": "8%"
+          },
+          {
+            "chapter": "Electrostatics",
+            "questions": "4",
+            "weightage": "10%"
+          },
+          {
+            "chapter": "Current Electricity",
+            "questions": "4",
+            "weightage": "10%"
+          },
+          {
+            "chapter": "Magnetic Effects of Current & Magnetism",
+            "questions": "2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "Electromagnetic Induction & AC",
+            "questions": "3",
+            "weightage": "8%"
+          },
+          {
+            "chapter": "Optics",
+            "questions": "3",
+            "weightage": "8%"
+          },
+          {
+            "chapter": "Modern Physics",
+            "questions": "5",
+            "weightage": "10%"
+          },
+          {
+            "chapter": "Experimental skills",
+            "questions": "1",
+            "weightage": "2%"
+          }
+        ],
+        "note": "Chapters like Electrostatics, Current Electricity, and Optics collectively form a significant portion, requiring solid focus."
+      },
+      "ChemistryChapterWeightage": {
+        "title": "Chemistry Chapter Weightage",
+        "description": "Chemistry is evenly divided among Physical Chemistry, Inorganic Chemistry, and Organic Chemistry topics, with the following weightage approximation:",
+        "chapters": [
+          {
+            "chapter": "Basic concepts and Atomic Structure",
+            "questions": "4",
+            "weightage": "8%"
+          },
+          {
+            "chapter": "Chemical Bonding and Molecular Structure",
+            "questions": "4",
+            "weightage": "8%"
+          },
+          {
+            "chapter": "Periodic Table & Periodicity",
+            "questions": "2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "Thermodynamics",
+            "questions": "2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "Equilibrium",
+            "questions": "3",
+            "weightage": "6%"
+          },
+          {
+            "chapter": "Redox Reactions",
+            "questions": "1",
+            "weightage": "2%"
+          },
+          {
+            "chapter": "Organic Chemistry Fundamentals",
+            "questions": "4",
+            "weightage": "10%"
+          },
+          {
+            "chapter": "Hydrocarbons",
+            "questions": "2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "Solutions",
+            "questions": "2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "Electrochemistry",
+            "questions": "2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "Chemical Kinetics",
+            "questions": "3",
+            "weightage": "6%"
+          },
+          {
+            "chapter": "P-block Elements",
+            "questions": "1",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "D and F Block Elements",
+            "questions": "2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "Coordination Compounds",
+            "questions": "2",
+            "weightage": "6%"
+          },
+          {
+            "chapter": "Biomolecules",
+            "questions": "1",
+            "weightage": "2%"
+          }
+        ]
+      },
+      "BiologyChapterWeightage": {
+        "title": "Biology Chapter Weightage (Botany and Zoology)",
+        "description": "Biology carries the largest weightage with 90 questions split equally between Botany and Zoology.",
+        "botanyChapters": [
+          {
+            "chapter": "The Living World",
+            "questions": "1 - 2",
+            "weightage": "2%"
+          },
+          {
+            "chapter": "Biological Classification",
+            "questions": "2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "Plant Kingdom",
+            "questions": "3",
+            "weightage": "6%"
+          },
+          {
+            "chapter": "Morphology of Flowering Plants",
+            "questions": "2",
+            "weightage": "6%"
+          },
+          {
+            "chapter": "Anatomy of Flowering Plants",
+            "questions": "2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "Cell: The Unit of Life",
+            "questions": "2",
+            "weightage": "6%"
+          },
+          {
+            "chapter": "Cell Cycle and Division",
+            "questions": "3",
+            "weightage": "6%"
+          },
+          {
+            "chapter": "Biomolecules",
+            "questions": "2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "Photosynthesis",
+            "questions": "2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "Respiration in Plants",
+            "questions": "1",
+            "weightage": "2%"
+          },
+          {
+            "chapter": "Plant Growth and Development",
+            "questions": "2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "Sexual Reproduction in Plants",
+            "questions": "3",
+            "weightage": "8%"
+          },
+          {
+            "chapter": "Genetics (Inheritance & Variation)",
+            "questions": "5",
+            "weightage": "10%"
+          },
+          {
+            "chapter": "Molecular Basis of Inheritance",
+            "questions": "6",
+            "weightage": "12%"
+          },
+          {
+            "chapter": "Microbes in Human Welfare",
+            "questions": "4",
+            "weightage": "8%"
+          },
+          {
+            "chapter": "Biotechnology Principles & Applications",
+            "questions": "5",
+            "weightage": "10%"
+          }
+        ],
+        "zoologyChapters": [
+          {
+            "chapter": "Animal Kingdom",
+            "questions": "4",
+            "weightage": "10%"
+          },
+          {
+            "chapter": "Structural Organisation in Animals",
+            "questions": "3",
+            "weightage": "8%"
+          },
+          {
+            "chapter": "Breathing and Exchange of Gases",
+            "questions": "2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "Body Fluids and Circulation",
+            "questions": "3",
+            "weightage": "6%"
+          },
+          {
+            "chapter": "Excretory Products and Their Elimination",
+            "questions": "3",
+            "weightage": "6%"
+          },
+          {
+            "chapter": "Locomotion and Movement",
+            "questions": "2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "Neural Control and Coordination",
+            "questions": "2",
+            "weightage": "4%"
+          },
+          {
+            "chapter": "Chemical Coordination & Integration",
+            "questions": "3",
+            "weightage": "6%"
+          },
+          {
+            "chapter": "Human Reproduction",
+            "questions": "4",
+            "weightage": "10%"
+          },
+          {
+            "chapter": "Reproductive Health",
+            "questions": "4",
+            "weightage": "8%"
+          },
+          {
+            "chapter": "Evolution",
+            "questions": "3",
+            "weightage": "6%"
+          },
+          {
+            "chapter": "Human Health and Disease",
+            "questions": "3",
+            "weightage": "8%"
+          },
+          {
+            "chapter": "Organisms and Populations",
+            "questions": "4",
+            "weightage": "8%"
+          },
+          {
+            "chapter": "Ecosystem",
+            "questions": "2",
+            "weightage": "6%"
+          },
+          {
+            "chapter": "Biodiversity and Conservation",
+            "questions": "3",
+            "weightage": "6%"
+          }
+        ]
+      },
+      "AdditionalNEET2026ExamInsights": {
+        "title": "Additional NEET 2026 Exam Insights",
+        "syllabusUpdatesAndTips": {
+          "title": "Syllabus Updates and Tips",
+          "points": [
+            "The syllabus is strictly NCERT-based for class 11 and 12",
+            "Some chapters were removed and some new topics added recently",
+            "Candidates should thoroughly cover all topics",
+            "Using NCERT textbooks remains crucial",
+            "Supplement with reference books for deeper practice"
+          ]
+        },
+        "strategicPreparationTips": {
+          "title": "Strategic Preparation Tips",
+          "points": [
+            "Prioritize chapters with higher marks weightage but don't neglect basics",
+            "Practice previous years' question papers for exam pattern familiarity",
+            "Time management: Allocate study time proportionally to chapter weight",
+            "Use mock tests and revision notes",
+            "Make short notes for important facts, especially in Biology"
+          ]
+        },
+        "examDayInstructions": {
+          "title": "Exam Day Instructions",
+          "points": [
+            "Reach center early with admit card and valid ID proofs",
+            "Use blue/black ballpoint pen only",
+            "No electronic gadgets allowed",
+            "Stay calm and manage time per section"
+          ]
+        }
+      }
+    },
+    "Syllabus": {
+      "BasedOn": "Class 11 & 12 CBSE/NCERT (Physics, Chemistry, Biology)",
+      "Notes": "Optional/choice questions in Section B to accommodate syllabus reductions"
+    },
+    "ComprehensiveSyllabusGuide": {
+      "Introduction": {
+        "title": "NEET 2026 Syllabus – Comprehensive Guide",
+        "description": "The NEET 2026 syllabus is the official curriculum prescribed by the National Medical Commission (NMC) and conducted by the National Testing Agency (NTA). It covers detailed topics from Classes 11 and 12 NCERT curriculum in Physics, Chemistry, and Biology (Botany and Zoology) to ensure parity across education boards, helping prospective medical aspirants prepare systematically."
+      },
+      "SyllabusStructureOverview": {
+        "title": "Syllabus Structure Overview",
+        "subjects": [
+          {
+            "subject": "Physics",
+            "chapters": "20 (Class 11+12)",
+            "questions": "~45",
+            "weightage": "25%"
+          },
+          {
+            "subject": "Chemistry",
+            "chapters": "27 (Class 11+12)",
+            "questions": "~45",
+            "weightage": "25%"
+          },
+          {
+            "subject": "Biology (Botany + Zoology)",
+            "chapters": "~52 (Class 11+12)",
+            "questions": "~90",
+            "weightage": "50%"
+          }
+        ],
+        "note": "Total chapters: ~79 covering all fundamental concepts, with no optional questions now. All 180 questions are compulsory."
+      },
+      "DetailedSubjectWiseTopicsBreakdown": {
+        "title": "Detailed Subject-Wise Topics Breakdown",
+        "physicsSyllabus": {
+          "title": "Physics Syllabus (Class 11 & 12)",
+          "class11Topics": "Physics and measurement, Kinematics, Laws of Motion, Work Energy Power, Rotational Motion, Gravitation, Properties of solids and fluids, Thermodynamics, Kinetic theory of gases, Oscillations and waves",
+          "class12Topics": "Electrostatics, Current Electricity, Magnetic Effects of Current, Electromagnetic Induction and Alternating Currents, Electromagnetic Waves, Optics, Dual Nature of Matter and Radiation, Atoms and Nuclei, Electronic Devices",
+          "keyInsights": "Topics like Thermodynamics, Electrostatics, and Electromagnetism carry significant weight. Experimental skills related questions are also included to test conceptual clarity."
+        },
+        "chemistrySyllabus": {
+          "title": "Chemistry Syllabus (Class 11 & 12)",
+          "class11Topics": "Some basic concepts, Atomic Structure, Classification of Elements, Chemical Bonding, Thermodynamics, Equilibrium, Redox Reactions, p-Block Elements, Organic Chemistry - Basics, Hydrocarbons",
+          "class12Topics": "Solutions, Electrochemistry, Chemical Kinetics, p-Block elements, d and f block elements, Coordination Compounds, Haloalkanes and Haloarenes, Alcohols, Phenols and Ethers, Aldehydes, Ketones and Carboxylic acids, Organic compounds containing Nitrogen, Biomolecules, Polymers",
+          "importantNote": "Some chapters have been omitted recently by the NMC, e.g., States of Matter, Hydrogen, Metallurgy, Polymers, and Chemistry in Everyday Life."
+        },
+        "biologySyllabus": {
+          "title": "Biology Syllabus (Class 11 & 12, Botany and Zoology)",
+          "class11Topics": "Diversity of Living Organisms, Structural Organisation in Animals and Plants, Cell Structure and Function, Plant Physiology, Human Physiology, Reproduction, Genetics and Evolution, Biology and Human Welfare, Biotechnology and its Applications, Ecology and Environment",
+          "class12Topics": "Reproduction in Organisms, Human Reproduction, Reproductive Health, Genetics and Evolution, Biology and Human Welfare, Biotechnology - Principles and Processes, Human Health and Disease, Ecology, Environment and Biodiversity",
+          "keyInsights": "Biology holds 50% weightage making it the most scoring subject; focus on conceptual clarity and memorization."
+        }
+      },
+      "ChangesInSyllabusAndExamPattern": {
+        "title": "Changes in Syllabus and Exam Pattern",
+        "changes": [
+          "No Optional Questions: NTA removed optional questions (Section B) starting from NEET UG 2025 onwards, maintaining 180 compulsory questions for NEET 2026",
+          "Duration: 180 minutes for the exam, reduced from previous 200 minutes, aligned with removal of optional questions",
+          "Strict NCERT Alignment: Only NCERT Class 11 & 12 topics are tested with some content removal to reduce syllabus load"
+        ]
+      },
+      "PreparationFocusAreas": {
+        "title": "Preparation Focus Areas",
+        "areas": [
+          "Strong emphasis on mastering all chapters completely due to all questions being compulsory",
+          "Balanced preparation across Physics (concept + numerical), Chemistry (conceptual + formulas), and Biology (concept + memory)",
+          "Utilize NCERT textbooks as primary study material",
+          "Practice previous years' question papers and mock tests to understand question trends and difficulty"
+        ]
+      },
+      "LanguageAndMedium": {
+        "title": "Language and Medium",
+        "description": "Exam is offered in 13 languages including English, Hindi, Assamese, Bengali, Gujarati, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu, and Urdu. Candidates select language at registration; question paper is bilingual (regional + English) except English-only papers."
+      },
+      "SummaryTableOfKeyChapters": {
+        "title": "Summary Table of Key Chapters",
+        "subjects": [
+          {
+            "subject": "Physics",
+            "importantTopics": "Thermodynamics, Electrostatics, Current Electricity, Optics, Mechanics, Modern Physics"
+          },
+          {
+            "subject": "Chemistry",
+            "importantTopics": "Chemical Bonding, Organic Chemistry Basics, Coordination Compounds, Electrochemistry, p-block Elements, Biomolecules"
+          },
+          {
+            "subject": "Biology",
+            "importantTopics": "Genetics, Human Physiology, Reproduction, Ecology, Cell Structure, Evolution"
+          }
+        ]
+      }
+    },
+    "InDepthComprehensiveSyllabusGuide": {
+      "Introduction": {
+        "title": "NEET 2026 Syllabus – In-Depth Comprehensive Guide",
+        "description": "The NEET 2026 syllabus prescribed by the National Medical Commission (NMC) is rigorously based on the Classes 11 and 12 NCERT curriculum for Physics, Chemistry, and Biology (Botany & Zoology). The National Testing Agency (NTA) administers the exam as per this syllabus ensuring it is uniform across all Indian education boards."
+      },
+      "SyllabusStructureAtAGlance": {
+        "title": "Syllabus Structure at a Glance",
+        "subjects": [
+          {
+            "subject": "Physics",
+            "chapters": "20",
+            "questions": "~45",
+            "weightage": "25%"
+          },
+          {
+            "subject": "Chemistry",
+            "chapters": "27",
+            "questions": "~45",
+            "weightage": "25%"
+          },
+          {
+            "subject": "Biology (Botany + Zoology)",
+            "chapters": "52",
+            "questions": "~90",
+            "weightage": "50%"
+          }
+        ],
+        "note": "Total ~79 chapters covering the entire foundational concepts with all 180 questions compulsory (no optional ones)."
+      },
+      "DetailedSubjectWiseTopicsBreakdown": {
+        "title": "Detailed Subject-Wise Topics Breakdown",
+        "physicsSyllabus": {
+          "title": "PHYSICS Syllabus (Class 11 & 12 NCERT)",
+          "class11Topics": [
+            "Physical world and Measurement",
+            "Kinematics",
+            "Laws of Motion",
+            "Work, Energy and Power",
+            "Motion of Systems of Particles and Rigid Body (Rotational Motion)",
+            "Gravitation",
+            "Properties of Bulk Matter (Solids and Fluids)",
+            "Thermodynamics",
+            "Behaviour of Perfect Gas and Kinetic Theory",
+            "Oscillations and Waves"
+          ],
+          "class12Topics": [
+            "Electrostatics",
+            "Current Electricity",
+            "Magnetic Effects of Current and Magnetism",
+            "Electromagnetic Induction and Alternating Currents",
+            "Electromagnetic Waves",
+            "Optics",
+            "Dual Nature of Matter and Radiation",
+            "Atoms and Nuclei",
+            "Electronic Devices"
+          ],
+          "examFocus": "Emphasis on conceptual understanding as well as numerical problem-solving. Experimental skills questions on measurement, significant figures, errors, etc. Topics like Thermodynamics, Optics, Modern Physics are high-yield."
+        },
+        "chemistrySyllabus": {
+          "title": "CHEMISTRY Syllabus (Class 11 & 12 NCERT)",
+          "class11Topics": [
+            "Some Basic Concepts of Chemistry",
+            "Structure of Atom",
+            "Classification of Elements and Periodicity in Properties",
+            "Chemical Bonding and Molecular Structure",
+            "States of Matter: Gases and Liquids (Reduced emphasis)",
+            "Thermodynamics",
+            "Equilibrium",
+            "Redox Reactions",
+            "Hydrogen and its Compounds",
+            "The s-Block Elements (Alkali and Alkaline earth metals)",
+            "The p-Block Elements (Groups 13 and 14)",
+            "Organic Chemistry: Some Basic Principles and Techniques",
+            "Hydrocarbons"
+          ],
+          "class12Topics": [
+            "Solid State",
+            "Solutions",
+            "Electrochemistry",
+            "Chemical Kinetics",
+            "Surface Chemistry",
+            "The p-Block Elements (Elements of group 15 and 16)",
+            "The d and f Block Elements",
+            "Coordination Compounds",
+            "Haloalkanes and Haloarenes",
+            "Alcohols, Phenols and Ethers",
+            "Aldehydes, Ketones and Carboxylic Acids",
+            "Organic Compounds Containing Nitrogen",
+            "Biomolecules",
+            "Polymers (some reduction)",
+            "Chemistry in Everyday Life (some reduction)"
+          ],
+          "notableOmissions": "Certain topics like Metallurgy, States of Matter (in depth), and some Organic Polymers have been removed to reduce exam load."
+        },
+        "biologySyllabus": {
+          "title": "BIOLOGY Syllabus (Botany & Zoology, Class 11 & 12 NCERT)",
+          "class11Topics": [
+            "Diversity of Living Organisms (Taxonomy)",
+            "Structural Organisation in Animals and Plants",
+            "Cell Structure and Function",
+            "Plant Physiology (Transport, Photosynthesis, Respiration)",
+            "Human Physiology (Digestion, Circulation, Excretion, etc.)",
+            "Reproduction (Sexual and Asexual in Plants and Animals)",
+            "Genetics and Evolution",
+            "Biology in Human Welfare",
+            "Biotechnology and Its Applications (Principles and Processes)",
+            "Ecology and Environment"
+          ],
+          "class12Topics": [
+            "Reproduction in Organisms",
+            "Human Reproduction and Reproductive Health",
+            "Genetics and Evolution (Molecular Basis)",
+            "Biology and Human Welfare (Health, Disease Prevention)",
+            "Biotechnology Applications",
+            "Human Health and Disease",
+            "Ecology, Environment, Biodiversity, and Conservation"
+          ],
+          "examFocus": "Biology accounts for 50% of the questions. Heavy focus on physiology, genetics, evolution, ecology. Combines both understanding and memorization skills."
+        }
+      },
+      "ImportantSyllabusUpdatesForNEET2026": {
+        "title": "Important Syllabus Updates for NEET 2026",
+        "updates": [
+          "No Optional Questions: The Section B optional question pattern was withdrawn from NEET 2025 onwards. All questions in NEET 2026 (180 MCQs) are compulsory to attempt",
+          "Duration Change: Exam time reduced to 3 hours (180 minutes) from earlier 3 hours 20 minutes to accommodate removal of optional questions",
+          "Strict NCERT Alignment: NEET tests only NCERT Class 11 and 12 syllabus with some content dropped for syllabus reduction and uniformity"
+        ]
+      },
+      "ExamAndPreparationHighlights": {
+        "title": "Exam & Preparation Highlights",
+        "highlights": [
+          "Comprehensive Coverage: Full NCERT syllabus for Class 11 & 12 in all three subjects",
+          "Balanced Study: Equal attention needed to Physics, Chemistry, and Biology",
+          "Practice: Use NCERT textbooks, solved papers, mock tests, and previous years' questions",
+          "Focus: Prioritize high-weightage chapters but thoroughly revise the entire syllabus",
+          "Concept + Memory: Physics and Chemistry emphasize conceptual + numerical, Biology is concept + factual memory"
+        ]
+      },
+      "LanguageMediumAndExamFormat": {
+        "title": "Language Medium & Exam Format",
+        "description": "NEET 2026 is conducted in 13 languages: English, Hindi, Assamese, Bengali, Gujarati, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu, Urdu. Most regional languages are bilingual papers (regional language + English). Exam mode is pen-paper, OMR-based."
+      },
+      "SampleInDepthChapterListings": {
+        "title": "Sample In-Depth Chapter Listings (Physics)",
+        "chapters": [
+          "Physical world and measurement: Units, dimensions, errors",
+          "Kinematics: Laws of motion, velocity, acceleration",
+          "Work, Energy, Power: Conservation laws, work done by force",
+          "Rotational Motion: Torque, moment of inertia",
+          "Thermodynamics: Laws, entropy",
+          "Waves & Oscillations: Simple harmonic motion, wave motion",
+          "Electrostatics: Coulomb's law, electric field and potential",
+          "Current Electricity: Ohm's law, resistivity",
+          "Magnetism: Biot-Savart law, Ampere's law",
+          "Modern Physics: Photoelectric effect, nucleus properties"
+        ]
+      }
+    },
+    "ExpectedCutoff2026": {
+      "General/UR": {
+        "Percentile": "50th",
+        "CutoffMarks": "711–135"
+      },
+      "OBC/SC/ST": {
+        "Percentile": "40th",
+        "CutoffMarks": "134–107"
+      },
+      "Gen-PwD": {
+        "Percentile": "45th",
+        "CutoffMarks": "133–120"
+      },
+      "OBC/SC/ST-PwD": {
+        "Percentile": "40th",
+        "CutoffMarks": "119–107"
+      }
+    },
+    "DetailedCutoffAnalysis": {
+      "Introduction": {
+        "title": "NEET 2026 Expected Cutoff – Detailed Analysis",
+        "description": "The expected cutoff for NEET 2026 varies by category and percentile, influenced by factors like exam difficulty, number of candidates, and seat availability. Here's an extensively detailed breakdown and analysis of the expected cutoff marks and percentiles for NEET 2026, expanding 10x from the basic summary."
+      },
+      "WhatIsNEETCutoff": {
+        "title": "What is NEET Cutoff?",
+        "points": [
+          "The NEET cutoff refers to the minimum marks a candidate must secure to qualify for admission to medical, dental, and AYUSH courses",
+          "Cutoffs are released category-wise and percentile-wise, ensuring fairness by ranking candidates relative to their peers"
+        ]
+      },
+      "CutoffPercentilesAndMarksByCategory": {
+        "title": "Cutoff Percentiles and Marks by Category",
+        "categories": [
+          {
+            "category": "General / UR",
+            "percentile": "50th",
+            "cutoffMarks": "711 – 135",
+            "additionalNotes": "Highest cutoff due to more applicants and competition"
+          },
+          {
+            "category": "OBC / SC / ST",
+            "percentile": "40th",
+            "cutoffMarks": "134 – 107",
+            "additionalNotes": "Lower cutoff to support reserved category candidates"
+          },
+          {
+            "category": "General-PwD",
+            "percentile": "45th",
+            "cutoffMarks": "133 – 120",
+            "additionalNotes": "Persons with disability in General category"
+          },
+          {
+            "category": "OBC/SC/ST-PwD",
+            "percentile": "40th",
+            "cutoffMarks": "119 – 107",
+            "additionalNotes": "PwD candidates in reserved categories"
+          }
+        ]
+      },
+      "FactorsAffectingNEET2026Cutoff": {
+        "title": "Factors Affecting NEET 2026 Cutoff",
+        "factors": [
+          "Number of Candidates: More candidates typically raise cutoffs due to stiffer competition",
+          "Difficulty Level: Easier exams make higher cutoffs; harder papers reduce cutoff marks",
+          "Seat Availability: Limited government and private seats increase cutoff pressure",
+          "Reservation Policies: PwD and reserved categories have lower cutoffs as per government norms",
+          "Normalization and Percentile Calculation: Adjusted by NTA to account for multi-session exam variations"
+        ]
+      },
+      "HistoricalCutoffTrends": {
+        "title": "Historical Cutoff Trends (Last 5 Years)",
+        "years": [
+          {
+            "year": "2021",
+            "generalCutoff": "147 – 720",
+            "obcScStCutoff": "113 – 143",
+            "pwdCutoff": "130 – 143 / 113 – 126"
+          },
+          {
+            "year": "2022",
+            "generalCutoff": "137 – 710",
+            "obcScStCutoff": "110 – 140",
+            "pwdCutoff": "120 – 135 / 110 – 125"
+          },
+          {
+            "year": "2023",
+            "generalCutoff": "135 – 705",
+            "obcScStCutoff": "107 – 135",
+            "pwdCutoff": "120 – 133 / 110 – 119"
+          },
+          {
+            "year": "2024",
+            "generalCutoff": "144 – 715",
+            "obcScStCutoff": "113 – 143",
+            "pwdCutoff": "127 – 144 / 113 – 126"
+          },
+          {
+            "year": "2025",
+            "generalCutoff": "144 – 686",
+            "obcScStCutoff": "113 – 143",
+            "pwdCutoff": "127 – 143 / 113 – 126"
+          }
+        ],
+        "note": "NEET 2026 expected cutoffs fall within these stable ranges with minor fluctuations."
+      },
+      "CutoffPercentileExplanation": {
+        "title": "Cutoff Percentile Explanation",
+        "explanations": [
+          "The 50th percentile cutoff for General category means that a candidate must score better than at least 50% of all candidates",
+          "For OBC/SC/ST categories, 40th percentile means clearing lower relative scores compared to general candidates",
+          "PwD candidates have a 45th percentile cutoff in General and 40th in reserved categories, to support inclusivity"
+        ]
+      },
+      "ExpectedCutoffDistributionBreakdown": {
+        "title": "Expected Cutoff Distribution Breakdown",
+        "categories": [
+          {
+            "category": "General Category",
+            "description": "Cutoff marks range expected between 711 (perfect score) and 135 (passing threshold). Top rankers score in the 650-720 range; to secure medical seats, aim for 600+ marks."
+          },
+          {
+            "category": "OBC/SC/ST Categories",
+            "description": "The qualifying score is lower, ranging typically between 134 and 107 marks. Reserved candidates scoring above 110 are typically qualified for counseling."
+          },
+          {
+            "category": "Person with Disability (PwD)",
+            "description": "General-PwD cutoff ranges between 133 and 120, while reserved categories can qualify from as low as 107 up to 119 marks depending on the year."
+          }
+        ]
+      },
+      "ScoringStrategyToClearCutoff": {
+        "title": "Scoring Strategy to Clear Cutoff",
+        "strategies": [
+          "Aim for accuracy over attempt quantity due to negative marking (-1 for wrong answers)",
+          "Minimum attempts to clear cutoff generally lie around 100 to 120 questions correctly answered",
+          "Strong performance in Biology is critical as it carries 50% of total weight"
+        ]
+      },
+      "NEET2026CutoffVsRankEstimations": {
+        "title": "NEET 2026 Cutoff vs Rank Estimations",
+        "rankEstimations": [
+          {
+            "marksRange": "700 – 686",
+            "estimatedRank": "1 – 50"
+          },
+          {
+            "marksRange": "685 – 650",
+            "estimatedRank": "51 – 1,500"
+          },
+          {
+            "marksRange": "649 – 600",
+            "estimatedRank": "1,501 – 15,000"
+          },
+          {
+            "marksRange": "599 – 550",
+            "estimatedRank": "15,001 – 50,000"
+          },
+          {
+            "marksRange": "549 – 500",
+            "estimatedRank": "50,001 – 85,000"
+          },
+          {
+            "marksRange": "499 – 400",
+            "estimatedRank": "85,001 – 140,000"
+          },
+          {
+            "marksRange": "399 – 300",
+            "estimatedRank": "140,001 – 200,000"
+          },
+          {
+            "marksRange": "299 – 200",
+            "estimatedRank": "200,001 – 300,000+"
+          }
+        ]
+      },
+      "FinalNotes": {
+        "title": "Final Notes",
+        "notes": [
+          "Official NTA cutoff for 2026 will be published after results release in June 2026",
+          "Candidates are encouraged to target scores 20-30 marks above expected cutoff to secure good chances during counseling",
+          "Percentiles ensure fair normalization for multiple exam shifts/days",
+          "This detailed understanding should assist aspirants to set target scores realistically, plan preparation intelligently, and navigate counselling effectively for NEET 2026 admissions"
+        ]
+      }
+    },
+    "SeatsAvailability": {
+      "MBBS": 127906,
+      "BDS": 27868,
+      "BAMS": 52720,
+      "BVSc&AH": 603,
+      "AYUSH/Paramedical": "Varies"
+    },
+    "ComprehensiveSeatsGuide": {
+      "Introduction": {
+        "title": "NEET 2026 Seats Availability and Reservation Policy – Comprehensive Overview",
+        "description": "NEET 2026 is the gateway for admissions into various medical and allied health courses across India. Knowing detailed seat availability and reservation policies is essential for aspirants to strategize admission planning."
+      },
+      "TotalSeatsAvailability": {
+        "title": "Total Seats Availability Across Courses (Approximate)",
+        "courses": [
+          {
+            "course": "MBBS",
+            "totalSeats": "127,906",
+            "remarks": "Includes government, private, deemed universities, AIIMS, JIPMER, and ESIC colleges"
+          },
+          {
+            "course": "BDS",
+            "totalSeats": "27,868",
+            "remarks": "Dentistry seats in government and private colleges"
+          },
+          {
+            "course": "BAMS (Ayurveda)",
+            "totalSeats": "52,720",
+            "remarks": "Ayurveda medical colleges across India"
+          },
+          {
+            "course": "BVSc & AH (Veterinary)",
+            "totalSeats": "603",
+            "remarks": "Veterinary science and animal husbandry"
+          },
+          {
+            "course": "AYUSH & Paramedical",
+            "totalSeats": "Varies",
+            "remarks": "Includes courses like Homeopathy, Unani, Siddha, and paramedical streams"
+          }
+        ]
+      },
+      "MBBSSeatsDetailedBreakdown": {
+        "title": "MBBS Seats Detailed Breakdown (2025–2026 latest data)",
+        "overview": {
+          "totalMBBSSeats": "Approximately 1,27,906",
+          "numberOfMedicalColleges": "~809 across India",
+          "distribution": {
+            "governmentColleges": "~59,700 seats",
+            "privateAndDeemedUniversities": "~58,200 seats",
+            "aiimsAndJipmer": "~1,400 seats",
+            "esicAfmcOtherCentral": "ESIC, AFMC, other central institutes included"
+          }
+        },
+        "stateWiseHighestMBBSSeats": [
+          {
+            "state": "Karnataka",
+            "seats": "~12,545"
+          },
+          {
+            "state": "Uttar Pradesh",
+            "seats": "~12,475"
+          },
+          {
+            "state": "Tamil Nadu",
+            "seats": "~12,050"
+          },
+          {
+            "state": "Maharashtra",
+            "seats": "~11,846"
+          },
+          {
+            "state": "Gujarat",
+            "seats": "~7,250"
+          },
+          {
+            "state": "Rajasthan",
+            "seats": "~5,400"
+          },
+          {
+            "state": "Madhya Pradesh",
+            "seats": "~4,181"
+          }
+        ],
+        "smallerStatesAndUTs": [
+          {
+            "state": "Meghalaya",
+            "seats": "~50"
+          },
+          {
+            "state": "Mizoram",
+            "seats": "~100"
+          }
+        ]
+      },
+      "BDSSeatsAvailability": {
+        "title": "BDS Seats Availability",
+        "description": "Total BDS seats available across India are approximately 27,868. Included across government and private dental colleges. Major contributors include states with older dental college infrastructure like Tamil Nadu, Maharashtra, Karnataka."
+      },
+      "AYUSHSeats": {
+        "title": "AYUSH Seats",
+        "breakdown": [
+          {
+            "course": "Ayurveda (BAMS)",
+            "seats": "52,700+ approximately"
+          },
+          {
+            "course": "Other AYUSH streams",
+            "seats": "Varies by state and institution",
+            "description": "Homeopathy, Unani, Siddha"
+          },
+          {
+            "course": "Paramedical courses",
+            "seats": "Varies widely",
+            "description": "With state and institute"
+          }
+        ]
+      },
+      "ReservationPolicy": {
+        "title": "Reservation Policy for NEET Seats Across India",
+        "categories": [
+          {
+            "category": "Scheduled Caste (SC)",
+            "percentage": "15%",
+            "reservationType": "Vertical Reservation"
+          },
+          {
+            "category": "Scheduled Tribe (ST)",
+            "percentage": "7.5%",
+            "reservationType": "Vertical Reservation"
+          },
+          {
+            "category": "Other Backward Classes (Non-Creamy Layer) OBC (NCL)",
+            "percentage": "27%",
+            "reservationType": "Vertical Reservation"
+          },
+          {
+            "category": "Economically Weaker Sections (EWS)",
+            "percentage": "10%",
+            "reservationType": "Vertical Reservation"
+          },
+          {
+            "category": "Persons with Disabilities (PwD)",
+            "percentage": "5%",
+            "reservationType": "Horizontal Reservation"
+          }
+        ],
+        "explanation": {
+          "verticalReservation": "Fixed percentage per category",
+          "horizontalReservation": "5% PwD seats horizontally spread over all categories"
+        }
+      },
+      "SeatQuotaDivisions": {
+        "title": "Seat Quota Divisions",
+        "quotas": [
+          {
+            "quota": "All India Quota (AIQ)",
+            "percentage": "15%",
+            "description": "of total seats reserved for all India counselling"
+          },
+          {
+            "quota": "State Quota",
+            "percentage": "85%",
+            "description": "seats filled through respective state counselling"
+          },
+          {
+            "quota": "Deemed & Central Universities",
+            "percentage": "Included in AIQ",
+            "description": "Seats filled under AIQ via MCC"
+          },
+          {
+            "quota": "AFMC, ESIC, AIIMS, JIPMER seats",
+            "percentage": "Central",
+            "description": "Conducted centrally by MCC"
+          }
+        ]
+      },
+      "RecentTrendsInSeatIncrease": {
+        "title": "Recent Trends in Seat Increase",
+        "trends": [
+          "Over recent years, the government has added approximately 5,000 to 10,000 new MBBS seats annually",
+          "New medical colleges have been opened in states like Rajasthan, Madhya Pradesh, and Northeastern states to improve accessibility",
+          "Efforts are ongoing to increase seats in underserved regions"
+        ]
+      },
+      "SeatAvailabilityImpactOnAdmission": {
+        "title": "Seat Availability Impact on Admission",
+        "impacts": [
+          "Increased seats have slightly eased competition but cutoffs remain high due to large candidates count",
+          "Government college seats remain competitive; private/deemed seats are more available but costlier",
+          "Reservation policies ensure diverse representation but affect general category admission chances"
+        ]
+      },
+      "SummaryTable": {
+        "title": "Summary Table: NEET 2026 Seats & Quotas",
+        "seatTypes": [
+          {
+            "seatType": "Government Medical Colleges",
+            "percentage": "~47%",
+            "approximateSeats": "~59,700"
+          },
+          {
+            "seatType": "Private Medical Colleges",
+            "percentage": "~45%",
+            "approximateSeats": "~58,200"
+          },
+          {
+            "seatType": "AIIMS & Central Institutes",
+            "percentage": "~1.5%",
+            "approximateSeats": "~1,400"
+          },
+          {
+            "seatType": "All India Quota (AIQ)",
+            "percentage": "15%",
+            "approximateSeats": "~19,000 (out of total)"
+          },
+          {
+            "seatType": "State Quota",
+            "percentage": "85%",
+            "approximateSeats": "~108,000"
+          }
+        ]
+      },
+      "AdditionalInsights": {
+        "title": "Additional Insights",
+        "insights": [
+          "For BAMS and other AYUSH, seats are also reserved as per central and state policies",
+          "Veterinary seats (BVSc & AH) are limited but crucial for allied sciences",
+          "Counselling strategy should consider quota type, category reservation, and course preference"
+        ]
+      }
+    },
+    "Counselling": {
+      "QuotaDistribution": {
+        "AllIndiaQuota": "15%",
+        "StateQuota": "85%"
+      },
+      "ConductedBy": "MCC (AIQ, Deemed/Central/AFMC, ESIC, AIIMS, JIPMER) & State Authorities",
+      "Rounds": ["Round 1", "Round 2", "Mop-up", "Stray Vacancy"],
+      "Process": [
+        "Choice filling",
+        "Seat allotment",
+        "Reporting",
+        "Document verification",
+        "Seat acceptance"
+      ],
+      "ComprehensiveCounsellingGuide": {
+        "Introduction": {
+          "title": "NEET 2026 Counselling Process – Complete Expert Guide",
+          "description": "The counselling process for NEET 2026 is the critical phase following the exam result declaration where qualified candidates secure seats in medical and dental colleges throughout India based on their rank, preferences, and reservation category. It is a multi-tier, multi-round process managed centrally and by individual states."
+        },
+        "QuotaDistributionAndSeatReservations": {
+          "title": "Quota Distribution and Seat Reservations",
+          "quotas": [
+            {
+              "quotaCategory": "All India Quota (AIQ)",
+              "percentage": "15%",
+              "areasCovered": "Seats across India except private/state quota colleges. Includes central universities, deemed universities, AFMC, ESIC, AIIMS, JIPMER seats"
+            },
+            {
+              "quotaCategory": "State Quota",
+              "percentage": "85%",
+              "areasCovered": "Majority of seats reserved for candidates domiciled in the respective states or union territories. Controlled by state counselling authorities."
+            },
+            {
+              "quotaCategory": "Deemed Universities",
+              "percentage": "100% of their seats",
+              "areasCovered": "Counselling conducted by MCC as part of AIQ or separately"
+            },
+            {
+              "quotaCategory": "Private Medical Colleges",
+              "percentage": "Varies",
+              "areasCovered": "Counselling usually conducted by respective states or private managements"
+            }
+          ]
+        },
+        "CounsellingConductingAuthorities": {
+          "title": "Counselling Conducting Authorities",
+          "authorities": [
+            {
+              "authority": "Medical Counselling Committee (MCC)",
+              "responsibilities": [
+                "All India Quota counselling (15%)",
+                "Deemed Universities",
+                "Central Universities",
+                "Armed Forces Medical College (AFMC)",
+                "Employees' State Insurance Corporation (ESIC) seats",
+                "Institutes like AIIMS, JIPMER"
+              ]
+            },
+            {
+              "authority": "State Counselling Authorities",
+              "responsibilities": [
+                "Conduct counselling for remaining state quota seats (85%) including government and private medical colleges located within the state",
+                "Each state conducts its own registration, seat allotment, document verification process, along with individual eligibility and domicile criteria"
+              ]
+            }
+          ]
+        },
+        "CounsellingRoundsAndTheirSignificance": {
+          "title": "Counselling Rounds and Their Significance",
+          "description": "NEET UG counselling for 2026 consists of multiple rounds designed to ensure maximum seat usage and multiple opportunities for candidates:",
+          "rounds": [
+            {
+              "roundName": "Round 1",
+              "description": "First allotment based on merit and preferences. Seat acceptance and joining mandatory to continue."
+            },
+            {
+              "roundName": "Round 2",
+              "description": "For candidates who didn't get a seat in round 1 or want upgradation. Fresh registrations needed."
+            },
+            {
+              "roundName": "Mop-up Round",
+              "description": "Also called Round 3, for vacant seats after rounds 1 and 2. Fresh registration and choice filling."
+            },
+            {
+              "roundName": "Stray Vacancy Round",
+              "description": "Final chance to fill leftover seats post mop-up round, typically conducted offline."
+            }
+          ],
+          "importantNotes": [
+            "Candidates who join a seat can opt for 'upgradation' in subsequent rounds",
+            "Those who reject or do not participate may lose seat security deposit based on rules"
+          ]
+        },
+        "StepByStepCounsellingProcess": {
+          "title": "Step-by-Step Counselling Process",
+          "steps": [
+            {
+              "step": "1. Registration and Fee Payment",
+              "description": "Registration on MCC portal (mcc.nic.in) for AIQ and Deemed institutions. State-level portals for state quota counselling. Payment of registration fee and security deposit according to category. Upload necessary certificates and documents."
+            },
+            {
+              "step": "2. Choice Filling and Locking",
+              "description": "Candidates fill and lock choices of colleges and courses in order of preference. Multiple choices allowed; lock before deadline. Choices can be modified before locking deadline."
+            },
+            {
+              "step": "3. Seat Allotment",
+              "description": "Based on rank, category, quota, and choices. Allotment results declared on MCC or respective state counselling websites. Download provisional and final allotment letters."
+            },
+            {
+              "step": "4. Reporting and Document Verification",
+              "description": "Report physically to the allotted institute within specified timelines. Mandatory original document verification as per checklist. Pay admission fees and complete joining process."
+            },
+            {
+              "step": "5. Seat Acceptance and Confirmation",
+              "description": "Confirm seat acceptance by reporting and fee payment. Failure to report results in seat forfeiture. Candidates who accept seats can participate in further rounds for upgradation."
+            }
+          ]
+        },
+        "ImportantDocumentsForCounselling": {
+          "title": "Important Documents for Counselling",
+          "documents": [
+            {
+              "document": "NEET Admit Card",
+              "purpose": "Identity confirmation"
+            },
+            {
+              "document": "NEET Scorecard / Rank Letter",
+              "purpose": "Eligibility, merit validation"
+            },
+            {
+              "document": "Class 10 Certificate & Marksheet",
+              "purpose": "Age proof"
+            },
+            {
+              "document": "Class 12 Certificate & Marksheet",
+              "purpose": "Academic eligibility"
+            },
+            {
+              "document": "Category Certificate (OBC/SC/ST/EWS)",
+              "purpose": "Reservation claims"
+            },
+            {
+              "document": "PwD Certificate (if applicable)",
+              "purpose": "Disability reservation"
+            },
+            {
+              "document": "Domicile Certificate (State Quota)",
+              "purpose": "State residency proof"
+            },
+            {
+              "document": "ID Proof (Aadhar, Passport, Voter ID)",
+              "purpose": "Official identity"
+            },
+            {
+              "document": "Passport-sized Photographs",
+              "purpose": "Admission forms"
+            },
+            {
+              "document": "Provisional Allotment Letter",
+              "purpose": "Admission confirmation"
+            }
+          ]
+        },
+        "FeeStructureOverview": {
+          "title": "Fee Structure Overview",
+          "feeStructure": [
+            {
+              "counsellingType": "AIQ",
+              "generalOBCFee": "₹1,000",
+              "scStPwdFee": "₹500",
+              "securityDeposit": "₹10,000"
+            },
+            {
+              "counsellingType": "Deemed/Central Universities",
+              "generalOBCFee": "₹5,000",
+              "scStPwdFee": "₹5,000",
+              "securityDeposit": "₹2,00,000"
+            },
+            {
+              "counsellingType": "State Quota",
+              "generalOBCFee": "Varies state-wise",
+              "scStPwdFee": "Varies",
+              "securityDeposit": "Varies"
+            }
+          ]
+        },
+        "KeyCounsellingTipsForCandidates": {
+          "title": "Key Counselling Tips for Candidates",
+          "tips": [
+            "Regularly check MCC and respective state counselling portals for notifications",
+            "Register and pay fees promptly for each counselling round",
+            "Carefully fill choices based on priorities and realistic admission chances",
+            "Verify documents in advance to avoid last-minute issues",
+            "Attend physical reporting on time; non-reporting leads to seat cancellations",
+            "Understand upgradation process and participate to improve seat allotment if desired",
+            "Keep multiple backup options for choices",
+            "Use MCC helpline and notifications for any support or clarifications"
+          ]
+        },
+        "DistinctionBetweenAllIndiaQuotaAndStateQuotaCounselling": {
+          "title": "Distinction Between All India Quota and State Quota Counselling",
+          "distinctions": [
+            {
+              "aspect": "Percentage",
+              "allIndiaQuota": "15%",
+              "stateQuota": "85%"
+            },
+            {
+              "aspect": "Conducted By",
+              "allIndiaQuota": "MCC",
+              "stateQuota": "State Counselling Authorities"
+            },
+            {
+              "aspect": "Eligibility",
+              "allIndiaQuota": "All Indian candidates irrespective of domicile (except specific state limits)",
+              "stateQuota": "Only candidates satisfying state domicile/residency criteria"
+            },
+            {
+              "aspect": "Seat Allotment",
+              "allIndiaQuota": "Centralised through MCC portal",
+              "stateQuota": "Conducted separately by each state portal"
+            },
+            {
+              "aspect": "Participating Colleges",
+              "allIndiaQuota": "Central, Deemed, AFMC, ESIC, AIIMS, JIPMER",
+              "stateQuota": "Government and Private medical colleges within state"
+            }
+          ]
+        },
+        "DetailedCounsellingTimeline": {
+          "title": "Detailed Counselling Timeline for NEET 2026",
+          "timeline": [
+            {
+              "phase": "Pre-Counselling Phase",
+              "duration": "June 2026",
+              "activities": [
+                "Result declaration and rank card release",
+                "Counselling notification by MCC and state authorities",
+                "Registration begins for AIQ and state quota counselling",
+                "Document preparation and verification"
+              ]
+            },
+            {
+              "phase": "Round 1 Counselling",
+              "duration": "July 1-15, 2026",
+              "activities": [
+                "Registration and choice filling",
+                "Seat allotment results",
+                "Reporting to allotted colleges",
+                "Document verification and admission"
+              ]
+            },
+            {
+              "phase": "Round 2 Counselling",
+              "duration": "July 16-31, 2026",
+              "activities": [
+                "Fresh registration for upgradation",
+                "Choice filling and locking",
+                "Seat allotment results",
+                "Reporting and admission process"
+              ]
+            },
+            {
+              "phase": "Mop-up Round",
+              "duration": "August 1-15, 2026",
+              "activities": [
+                "Registration for vacant seats",
+                "Choice filling for remaining seats",
+                "Final seat allotment",
+                "Reporting and admission"
+              ]
+            },
+            {
+              "phase": "Stray Vacancy Round",
+              "duration": "August 16-31, 2026",
+              "activities": [
+                "Offline counselling for leftover seats",
+                "Direct admission process",
+                "Final seat allocation",
+                "Academic session begins"
+              ]
+            }
+          ]
+        },
+        "StateWiseCounsellingDetails": {
+          "title": "State-wise Counselling Details",
+          "states": [
+            {
+              "state": "Maharashtra",
+              "conductingAuthority": "Maharashtra CET Cell",
+              "website": "cetcell.net.in",
+              "specialFeatures": "Separate counselling for government and private colleges, domicile certificate required"
+            },
+            {
+              "state": "Karnataka",
+              "conductingAuthority": "Karnataka Examination Authority (KEA)",
+              "website": "kea.kar.nic.in",
+              "specialFeatures": "Online counselling with multiple rounds, rural quota available"
+            },
+            {
+              "state": "Tamil Nadu",
+              "conductingAuthority": "Directorate of Medical Education (DME)",
+              "website": "tnhealth.tn.gov.in",
+              "specialFeatures": "7.5% horizontal reservation for government school students"
+            },
+            {
+              "state": "Uttar Pradesh",
+              "conductingAuthority": "Directorate of Medical Education and Training (DMET)",
+              "website": "dmetup.gov.in",
+              "specialFeatures": "Separate counselling for government and private medical colleges"
+            },
+            {
+              "state": "West Bengal",
+              "conductingAuthority": "West Bengal Joint Entrance Examinations Board (WBJEEB)",
+              "website": "wbjeeb.nic.in",
+              "specialFeatures": "Online counselling with document verification at designated centers"
+            }
+          ]
+        },
+        "CounsellingStrategiesAndTips": {
+          "title": "Advanced Counselling Strategies and Tips",
+          "strategies": [
+            {
+              "category": "Choice Filling Strategy",
+              "tips": [
+                "Research college cutoffs from previous years",
+                "Keep 20-30% buffer in your rank for realistic choices",
+                "Fill maximum number of choices (up to 200)",
+                "Prioritize colleges based on your preferences and realistic chances",
+                "Include both government and private colleges for better options"
+              ]
+            },
+            {
+              "category": "Document Preparation",
+              "tips": [
+                "Get all documents attested by gazetted officers",
+                "Keep multiple copies of each document",
+                "Verify document formats as per counselling authority requirements",
+                "Prepare domicile certificate well in advance",
+                "Get category certificates from appropriate authorities"
+              ]
+            },
+            {
+              "category": "Reporting Strategy",
+              "tips": [
+                "Report to allotted college within stipulated time",
+                "Carry all original documents for verification",
+                "Pay admission fees immediately to confirm seat",
+                "Keep receipt of fee payment safely",
+                "Understand upgradation process for subsequent rounds"
+              ]
+            },
+            {
+              "category": "Financial Planning",
+              "tips": [
+                "Calculate total cost including tuition, hostel, and other fees",
+                "Explore education loan options if needed",
+                "Check scholarship opportunities",
+                "Plan for multiple rounds of counselling fees",
+                "Keep emergency funds for unexpected expenses"
+              ]
+            }
+          ]
+        },
+        "CommonCounsellingMistakes": {
+          "title": "Common Counselling Mistakes to Avoid",
+          "mistakes": [
+            {
+              "mistake": "Late Registration",
+              "consequence": "Missing counselling rounds",
+              "prevention": "Set reminders and register on the first day"
+            },
+            {
+              "mistake": "Incomplete Document Preparation",
+              "consequence": "Rejection during verification",
+              "prevention": "Prepare all documents well in advance"
+            },
+            {
+              "mistake": "Poor Choice Filling Strategy",
+              "consequence": "Getting undesired college or no seat",
+              "prevention": "Research thoroughly and fill maximum choices"
+            },
+            {
+              "mistake": "Missing Reporting Deadlines",
+              "consequence": "Seat forfeiture",
+              "prevention": "Report immediately after allotment"
+            },
+            {
+              "mistake": "Ignoring Upgradation Opportunities",
+              "consequence": "Missing better college options",
+              "prevention": "Participate in all subsequent rounds"
+            },
+            {
+              "mistake": "Not Understanding Fee Structure",
+              "consequence": "Financial difficulties later",
+              "prevention": "Research complete fee structure before choice filling"
+            }
+          ]
+        },
+        "CounsellingHelplineAndSupport": {
+          "title": "Counselling Helpline and Support",
+          "supportChannels": [
+            {
+              "authority": "MCC (Medical Counselling Committee)",
+              "helpline": "011-40759000",
+              "email": "mcc.nic.in",
+              "workingHours": "9:00 AM - 6:00 PM (Monday to Friday)"
+            },
+            {
+              "authority": "NTA (National Testing Agency)",
+              "helpline": "0120-6895200",
+              "email": "neet@nta.ac.in",
+              "workingHours": "9:00 AM - 5:00 PM (Monday to Friday)"
+            },
+            {
+              "authority": "State Counselling Authorities",
+              "helpline": "Varies by state",
+              "email": "Check respective state websites",
+              "workingHours": "As per state schedule"
+            }
+          ],
+          "onlineResources": [
+            "Official MCC website: mcc.nic.in",
+            "NTA NEET website: neet.nta.ac.in",
+            "State counselling portals (varies by state)",
+            "Official college websites for specific information",
+            "Education ministry websites for policy updates"
+          ]
+        },
+        "PostCounsellingProcess": {
+          "title": "Post-Counselling Process and Next Steps",
+          "steps": [
+            {
+              "step": "Seat Acceptance and Fee Payment",
+              "description": "Accept the allotted seat by paying the required fees within the stipulated time. This confirms your admission to the college."
+            },
+            {
+              "step": "Document Submission",
+              "description": "Submit all required original documents to the college for verification. Keep attested copies for your records."
+            },
+            {
+              "step": "Medical Examination",
+              "description": "Undergo medical examination as required by the college. Some colleges may have specific health requirements."
+            },
+            {
+              "step": "Hostel and Accommodation",
+              "description": "Apply for hostel accommodation if needed. Check availability and application procedures with the college administration."
+            },
+            {
+              "step": "Academic Session Commencement",
+              "description": "Attend orientation programs and begin your medical education journey. Familiarize yourself with college rules and regulations."
+            }
+          ]
+        }
+      }
+    },
+    "ReservationPolicy": {
+      "SC": "15%",
+      "ST": "7.5%",
+      "OBC(NCL)": "27%",
+      "EWS": "10%",
+      "PwD": "5% horizontal"
+    },
+    "QuickReference": {
+      "ConductedBy": "NTA",
+      "UndergradCourses": ["MBBS", "BDS", "BSc Nursing", "AYUSH", "BVSc"],
+      "TotalApplicants": "25–26 lakh",
+      "TotalMBBSSeats": "1.28 lakh (approx)",
+      "NoOfTestCities": {
+        "India": 557,
+        "Abroad": "14+"
+      },
+      "ScoreValidity": "One year/session",
+      "OfficialWebsites": ["neet.nta.nic.in", "exams.nta.ac.in/NEET"]
+    }
+  }
+  

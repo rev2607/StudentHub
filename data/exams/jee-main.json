@@ -1,5 +1,5 @@
 {
-    "Exam Name": "Joint Entrance Examination (JEE) Main 2025",
+    "Exam Name": "Joint Entrance Examination (JEE) Main 2026",
     "Conducting Authority": "National Testing Agency (NTA)",
     "Exam Level": "National",
     "Exam Category / Type": "Undergraduate Engineering Entrance Exam",
@@ -23,37 +23,44 @@
     "Total Marks": "300 marks per paper",
     "Marking Scheme": "+4 for correct, -1 for incorrect (MCQ); No negative for Numerical",
     "Participating Institutes": "All NITs, IIITs, GFTIs, many private & state universities",
-    "About / Overview": "JEE Main is the largest all-India entrance test for undergraduate engineering and architecture admissions, a qualifying test for JEE Advanced (IITs). Conducted by NTA twice yearly, taken by over 13 lakh students. Admission is via centralized JoSAA/CSAB counselling based on AIR and reservation quotas.",
+    "Significance": {
+      "Gateway to JEE Advanced 2026": "Only the top 2,50,000 rank holders (across all categories) based on percentile cutoffs are shortlisted for JEE Advanced.",
+      "Direct Admissions": "Admissions through JoSAA (Joint Seat Allocation Authority) counselling for NITs, IIITs, and GFTIs are purely merit-based, derived from JEE Main ranks.",
+      "Expanded Opportunities": "Scores are also accepted by select state-level universities and private institutions, such as SRM Institute, Amrita Vishwa Vidyapeetham, and others.",
+      "Career Impact": "Performing well can lead to early career exposure, internship opportunities, and industry recognition due to the reputation associated with JEE-qualified students.",
+      "Global Benchmark": "NTA's adaptive testing, secure exam conduct, and international recognition make JEE Main one of the world's most respected undergraduate engineering assessments."
+    },
+    "About / Overview": "JEE Main 2026 (Joint Entrance Examination – Main) is India's largest national-level engineering entrance test conducted by the National Testing Agency (NTA). It is the entry gateway for admission to 31 National Institutes of Technology (NITs), 25+ Indian Institutes of Information Technology (IIITs), 35+ Government Funded Technical Institutes (GFTIs), and several reputed state and private universities. The exam also acts as a qualifying test for JEE Advanced 2026, which leads to admission in the IITs. The examination is held twice a year – Session 1 (January 2026) and Session 2 (April 2026). Each year, nearly 13–15 lakh candidates register to compete for around 40,000 seats in top technical colleges across India. Only the top 2,50,000 rank holders (across all categories) based on percentile cutoffs are shortlisted for JEE Advanced. Admissions through JoSAA (Joint Seat Allocation Authority) counselling for NITs, IIITs, and GFTIs are purely merit-based, derived from JEE Main ranks. Scores are also accepted by select state-level universities and private institutions. NTA uses normalization formula to account for variations in difficulty across shifts, with final ranking considering the best of two session scores. The exam is conducted using an advanced digital platform ensuring secure delivery, AI-backed proctoring, and objective evaluation.",
     "Important Dates": {
-      "Session 1 (January 2025)": {
-        "Registration": "Oct 28–Nov 22, 2024",
-        "Correction": "Nov 26–27, 2024",
-        "Admit Card": "Jan 18, Jan 23, 2025",
-        "Paper 1 Exam": "Jan 22–29, 2025",
-        "Paper 2 Exam": "Jan 30, 2025",
-        "Provisional Answer Key": "Feb 4, 2025 (Paper 1); Feb 15, 2025 (Paper 2)",
-        "Final Answer Key": "Feb 10, 2025 (Paper 1); Feb 22, 2025 (Paper 2)",
-        "Result": "Feb 11, 2025 (Paper 1); Feb 23, 2025 (Paper 2)"
+      "Session 1 (January 2026)": {
+        "Registration": "Nov 1–30, 2025 (Expected)",
+        "Correction": "Dec 3–4, 2025 (Expected)",
+        "Admit Card": "Jan 15, Jan 20, 2026 (Expected)",
+        "Paper 1 Exam": "Jan 20–27, 2026 (Expected)",
+        "Paper 2 Exam": "Jan 28, 2026 (Expected)",
+        "Provisional Answer Key": "Feb 1, 2026 (Paper 1); Feb 12, 2026 (Paper 2) (Expected)",
+        "Final Answer Key": "Feb 7, 2026 (Paper 1); Feb 19, 2026 (Paper 2) (Expected)",
+        "Result": "Feb 8, 2026 (Paper 1); Feb 20, 2026 (Paper 2) (Expected)"
       },
-      "Session 2 (April 2025)": {
-        "Correction": "Feb 27–28, 2025",
-        "City Slip": "Mar 20, 2025",
-        "Admit Card": "Mar 28, Apr 3, 2025",
-        "Paper 1 Exam": "Apr 2–8, 2025",
-        "Paper 2 Exam": "Apr 9, 2025",
-        "Provisional Answer Key": "Apr 11–14, 2025",
-        "Final Key": "Apr 18, 2025 (Paper 1); May 22, 2025 (Paper 2)",
-        "Result": "Apr 18, 2025 (Paper 1); May 23, 2025 (Paper 2)"
+      "Session 2 (April 2026)": {
+        "Correction": "Mar 1–2, 2026 (Expected)",
+        "City Slip": "Mar 15, 2026 (Expected)",
+        "Admit Card": "Mar 25, Mar 30, 2026 (Expected)",
+        "Paper 1 Exam": "Apr 1–7, 2026 (Expected)",
+        "Paper 2 Exam": "Apr 8, 2026 (Expected)",
+        "Provisional Answer Key": "Apr 10–13, 2026 (Expected)",
+        "Final Key": "Apr 17, 2026 (Paper 1); May 20, 2026 (Paper 2) (Expected)",
+        "Result": "Apr 18, 2026 (Paper 1); May 21, 2026 (Paper 2) (Expected)"
       },
       "Counselling": {
-        "JoSAA Registration": "June 3–12, 2025",
-        "Rounds": "June 14–July 16, 2025",
-        "Final Reporting": "July 23–28, 2025"
+        "JoSAA Registration": "June 1–10, 2026 (Expected)",
+        "Rounds": "June 12–July 14, 2026 (Expected)",
+        "Final Reporting": "July 20–25, 2026 (Expected)"
       }
     },
     "Eligibility Criteria": {
       "Age": "No upper limit",
-      "Qualification": "Class 12 passed in 2023, 2024, or appearing 2025",
+      "Qualification": "Class 12 passed in 2024, 2025, or appearing 2026",
       "Subjects": "Physics, Chemistry, Mathematics required",
       "Attempts": "Three consecutive years",
       "For NITs/IIITs/GFTIs": "Min 75% or top 20 percentile in board"
@@ -100,6 +107,33 @@
       "Paper 2A (B.Arch.)": ["Mathematics", "Aptitude", "Drawing"],
       "Paper 2B (B.Planning)": ["Mathematics", "Aptitude", "Planning"]
     },
+    "Exam Structure": {
+      "Mode of Exam": "Computer Based Test (CBT)",
+      "Sessions": "Twice: January (Session 1) and April (Session 2)",
+      "Duration": "3 hours (180 minutes)",
+      "Papers": "Paper 1 (B.E./B.Tech), Paper 2A (B.Arch), Paper 2B (B.Planning)",
+      "Language Options": "13 — English, Hindi, Assamese, Bengali, Gujarati, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu, Urdu",
+      "Marking Scheme": "+4 for correct answer, –1 for wrong, 0 for unattempted",
+      "Medium": "Online only (except Paper 2A Drawing section, conducted offline)"
+    },
+    "Paper-Wise Structure": {
+      "Paper 1 (B.E./B.Tech)": {
+        "Subjects": "Physics, Chemistry, Mathematics",
+        "Total Questions": "90 (75 to be attempted)",
+        "Marks": "300",
+        "Mode": "CBT"
+      },
+      "Paper 2A (B.Arch)": {
+        "Subjects": "Mathematics (CBT), Aptitude (CBT), Drawing (Pen & Paper)",
+        "Marks": "400",
+        "Duration": "3 hours"
+      },
+      "Paper 2B (B.Planning)": {
+        "Subjects": "Mathematics, Aptitude, Planning-based questions",
+        "Marks": "400",
+        "Mode": "CBT"
+      }
+    },
     "Exam Pattern": {
       "Paper 1": "75 Questions, 300 Marks, +4/-1 for MCQs, +4/0 for Numerical",
       "Paper 2A": "77 Questions, 300 Marks",
@@ -108,17 +142,32 @@
     "Admit Card Details": "Download from NTA portal; mandatory for entry; includes centre, date, slot, and instructions.",
     "Answer Key / Response Sheet": "Provisional, then final after objections. Response sheet downloadable.",
     "Result & Score Calculation": "Separate per session; best considered; percentile normalization for AIR; top 2.5 lakh for JEE Advanced.",
-    "Cutoff (2025 Expected Percentile)": {
-      "General": 93.1023262,
-      "EWS": 80.3830119,
-      "OBC-NCL": 79.4313582,
-      "SC": 61.1526933,
-      "ST": 47.9026465,
-      "PwD": 0.0079349
+    "Normalization & Scoring Process": {
+      "Normalization Formula": "NTA uses normalization formula to account for variations in difficulty across shifts",
+      "Percentile Calculation": "Total Percentile Score = (100 × No. of candidates | marks ≤ your marks) / Total candidates in session",
+      "Final Ranking": "Considers the best of two session scores (if appeared in both)",
+      "Relative Performance": "Normalized percentile is based on relative performance, not raw marks"
+    },
+    "Cutoff (2026 Expected Percentile)": {
+      "General": 93.0,
+      "EWS": 80.0,
+      "OBC-NCL": 79.0,
+      "SC": 61.0,
+      "ST": 48.0,
+      "PwD": 0.01
     },
     "Counselling Process": {
       "JoSAA": "Six online rounds; includes registration, seat allotment, verification, payment, and withdrawal options.",
       "CSAB": "Special rounds for leftover seats in NIT+ system."
+    },
+    "Participation & Statistics (Expected 2026)": {
+      "Expected Applicants": "13.5 – 15 lakh students",
+      "Average Attendance": "~93% (CBT sessions)",
+      "JEE Advanced Qualifiers": "Top 2,50,000 candidates",
+      "Participating Institutes": "31 NITs, 25+ IIITs, 35+ GFTIs",
+      "Average Cutoff (Gen)": "~90 percentile",
+      "Top Rank Range": "Below AIR 100 for elite NITs",
+      "Highest NIT Opening Score (CSE)": "99.8+ percentile"
     },
     "Reservation Criteria": {
       "OBC-NCL": "27%",
@@ -127,17 +176,28 @@
       "ST": "7.5%",
       "PwD": "5% (horizontal)"
     },
+    "Career & Placement Opportunities": {
+      "Top Recruiters": "Google, Amazon, Microsoft, Adobe, Deloitte, and Infosys",
+      "Average Salary Range": "₹10–18 LPA for CSE; ₹6–12 LPA for Core branches",
+      "Highest Packages": {
+        "NIT Trichy / Surathkal": "₹60+ LPA (domestic), ₹1.1 Cr (international)",
+        "IIIT Hyderabad": "₹1.4 Cr (international offers)",
+        "NIT Warangal": "₹80 LPA (international)"
+      }
+    },
     "Preparation Tips / Books": [
       "Focus on NCERTs for concepts",
       "Use HC Verma, IE Irodov (Physics); O.P. Tandon, JD Lee (Chemistry); RD Sharma, SL Loney, Amit Agarwal (Math)",
       "Practice mocks, PYQs, time management"
     ],
-    "Changes / Highlights (2025)": [
+    "Changes / Highlights (2026)": [
       "Section B numerical questions compulsory",
       "Physics: vectors removed from kinematics",
       "Two sessions per year, best score considered",
       "No age limit; three attempts",
-      "Paid edit window; strict document specs"
+      "Paid edit window; strict document specs",
+      "Updated syllabus with focus on practical applications",
+      "Enhanced security measures for exam conduct"
     ],
     "FAQs": [
       {"Q": "Who conducts JEE Main?", "A": "National Testing Agency (NTA)"},
@@ -148,16 +208,41 @@
       {"Q": "Percentile or raw score?", "A": "Percentile; AIR based on normalized score"},
       {"Q": "Application correction?", "A": "Paid window available"}
     ],
+    "Conducting Authority": {
+      "Name": "National Testing Agency (NTA)",
+      "Established": "2017",
+      "Website": "jeemain.nta.ac.in",
+      "Role": "Conducts the exam using an advanced digital platform ensuring secure delivery, AI-backed proctoring, and objective evaluation.",
+      "Functions": [
+        "Formulates question papers ensuring balanced difficulty.",
+        "Implements normalization methodology for multi-shift exams.",
+        "Manages application, admit cards, results, and counselling coordination."
+      ]
+    },
     "Official Contact": {
       "Website": "https://jeemain.nta.ac.in",
       "Helpline": "0120–6895200",
       "Email": "jeemain@nta.ac.in"
     },
+    "Summary Snapshot": {
+      "Exam Name": "Joint Entrance Examination – Main 2026",
+      "Conducting Body": "National Testing Agency (NTA)",
+      "Exam Levels": "National",
+      "Mode": "Computer Based Test",
+      "Participants (Expected)": "13.5–15 lakh",
+      "Qualifiers for JEE Advanced": "2.5 lakh",
+      "Participating NITs": "31",
+      "Participating IIITs": "25+",
+      "Participating GFTIs": "35+",
+      "No. of Attempts Allowed": "3 Years (Twice per Year)",
+      "Application Fee (Indicative)": "₹1000–₹2000 range",
+      "Official Website": "jeemain.nta.ac.in"
+    },
     "Source URLs": [
-      "https://engineering.careers360.com/articles/jee-main-2025",
+      "https://engineering.careers360.com/articles/jee-main-2026",
       "https://collegedunia.com/exams/jee-main",
-      "https://jeemain.nta.ac.in/document/syllabus-for-jee-main-2025/",
-      "https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/2024/10/2024102841.pdf",
+      "https://jeemain.nta.ac.in/document/syllabus-for-jee-main-2026/",
+      "https://jeemain.nta.ac.in/",
       "https://www.vedantu.com/jee-main/exam-pattern"
     ]
   }

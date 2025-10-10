@@ -24,9 +24,16 @@ interface JEEMainData {
   "Total Marks": string;
   "Marking Scheme": string;
   "Participating Institutes": string;
+  "Significance": {
+    "Gateway to JEE Advanced 2026": string;
+    "Direct Admissions": string;
+    "Expanded Opportunities": string;
+    "Career Impact": string;
+    "Global Benchmark": string;
+  };
   "About / Overview": string;
   "Important Dates": {
-    "Session 1 (January 2025)": {
+    "Session 1 (January 2026)": {
       "Registration": string;
       "Correction": string;
       "Admit Card": string;
@@ -36,7 +43,7 @@ interface JEEMainData {
       "Final Answer Key": string;
       "Result": string;
     };
-    "Session 2 (April 2025)": {
+    "Session 2 (April 2026)": {
       "Correction": string;
       "City Slip": string;
       "Admit Card": string;
@@ -79,6 +86,33 @@ interface JEEMainData {
     "Paper 2A (B.Arch.)": string[];
     "Paper 2B (B.Planning)": string[];
   };
+  "Exam Structure": {
+    "Mode of Exam": string;
+    "Sessions": string;
+    "Duration": string;
+    "Papers": string;
+    "Language Options": string;
+    "Marking Scheme": string;
+    "Medium": string;
+  };
+  "Paper-Wise Structure": {
+    "Paper 1 (B.E./B.Tech)": {
+      "Subjects": string;
+      "Total Questions": string;
+      "Marks": string;
+      "Mode": string;
+    };
+    "Paper 2A (B.Arch)": {
+      "Subjects": string;
+      "Marks": string;
+      "Duration": string;
+    };
+    "Paper 2B (B.Planning)": {
+      "Subjects": string;
+      "Marks": string;
+      "Mode": string;
+    };
+  };
   "Exam Pattern": {
     "Paper 1": string;
     "Paper 2A": string;
@@ -87,7 +121,13 @@ interface JEEMainData {
   "Admit Card Details": string;
   "Answer Key / Response Sheet": string;
   "Result & Score Calculation": string;
-  "Cutoff (2025 Expected Percentile)": {
+  "Normalization & Scoring Process": {
+    "Normalization Formula": string;
+    "Percentile Calculation": string;
+    "Final Ranking": string;
+    "Relative Performance": string;
+  };
+  "Cutoff (2026 Expected Percentile)": {
     "General": number;
     "EWS": number;
     "OBC-NCL": number;
@@ -99,6 +139,24 @@ interface JEEMainData {
     "JoSAA": string;
     "CSAB": string;
   };
+  "Participation & Statistics (Expected 2026)": {
+    "Expected Applicants": string;
+    "Average Attendance": string;
+    "JEE Advanced Qualifiers": string;
+    "Participating Institutes": string;
+    "Average Cutoff (Gen)": string;
+    "Top Rank Range": string;
+    "Highest NIT Opening Score (CSE)": string;
+  };
+  "Career & Placement Opportunities": {
+    "Top Recruiters": string;
+    "Average Salary Range": string;
+    "Highest Packages": {
+      "NIT Trichy / Surathkal": string;
+      "IIIT Hyderabad": string;
+      "NIT Warangal": string;
+    };
+  };
   "Reservation Criteria": {
     "OBC-NCL": string;
     "EWS": string;
@@ -107,12 +165,33 @@ interface JEEMainData {
     "PwD": string;
   };
   "Preparation Tips / Books": string[];
-  "Changes / Highlights (2025)": string[];
+  "Changes / Highlights (2026)": string[];
   "FAQs": Array<{ "Q": string; "A": string }>;
+  "Conducting Authority": {
+    "Name": string;
+    "Established": string;
+    "Website": string;
+    "Role": string;
+    "Functions": string[];
+  };
   "Official Contact": {
     "Website": string;
     "Helpline": string;
     "Email": string;
+  };
+  "Summary Snapshot": {
+    "Exam Name": string;
+    "Conducting Body": string;
+    "Exam Levels": string;
+    "Mode": string;
+    "Participants (Expected)": string;
+    "Qualifiers for JEE Advanced": string;
+    "Participating NITs": string;
+    "Participating IIITs": string;
+    "Participating GFTIs": string;
+    "No. of Attempts Allowed": string;
+    "Application Fee (Indicative)": string;
+    "Official Website": string;
   };
   "Source URLs": string[];
 }
