@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { navigateToNewsPage } from "../navigationToNewsPage";
-import axios from "axios";
+// Removed axios import as we now fetch directly from Supabase
 import latestNewsImg from "../../../assets/latest_news.png";
 import { fetchNewsFromSupabase } from "../../../services/supabaseClient";
 
@@ -73,30 +73,32 @@ const LatestNews = () => {
       setLoading(true);
       setError(null);
       try {
-        // 1) Try Supabase directly
-        const { data: sbData } = await fetchNewsFromSupabase(6);
-        let newsData: any[] | null = Array.isArray(sbData) && sbData.length > 0 ? sbData : null;
-
-        // 2) Fallback to backend API
-        if (!newsData) {
-          const response = await axios.get("http://localhost:8000/api/news/");
-          if (Array.isArray(response.data) && response.data.length > 0) {
-            newsData = response.data;
-          }
+        // Fetch news directly from Supabase (backend updates this hourly)
+        console.log("🔄 LatestNews: Fetching latest news from Supabase database...");
+        const { data: sbData, error: sbError } = await fetchNewsFromSupabase(6);
+        
+        if (sbError) {
+          console.error("❌ LatestNews: Supabase fetch error:", sbError.message);
+          setError("Failed to fetch latest news");
+          return;
         }
-
-        if (newsData && newsData.length > 0) {
-          const transformedData = newsData.slice(0, 3).map((item, index) => ({
+        
+        if (Array.isArray(sbData) && sbData.length > 0) {
+          console.log("✅ LatestNews: Got latest news from Supabase:", sbData.length, "articles");
+          const transformedData = sbData.slice(0, 3).map((item, index) => ({
             id: index + 1,
             imgSrc: item.image_url || latestNewsImg,
             date: new Date(item.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }),
             author: "Admin",
             title: item.title,
-            readMoreUrl: item.read_more_url || item.link
+            readMoreUrl: item.link
           }));
           setData(transformedData);
+        } else {
+          console.log("⚠️ LatestNews: No news available in Supabase, keeping existing data");
         }
       } catch (err) {
+        console.error("❌ LatestNews: Failed to fetch from Supabase", err);
         setError("Failed to fetch latest news");
       } finally {
         setLoading(false);

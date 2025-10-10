@@ -34,18 +34,25 @@ class NewsService:
         - Scholarship announcements
         
         For each article, provide:
-        1. Title
+        1. Title (clear and descriptive)
         2. Accurate published date (ISO 8601 format: YYYY-MM-DDTHH:MM:SSZ)
-        3. Short summary or description (snippet)
-        4. Citations array with real source URLs
+        3. DETAILED content/snippet (500-1000 characters) - Include comprehensive information about the news, key details, dates, deadlines, important points, and impact on students
+        4. Citations array with real source URLs from authoritative sources
         5. Image URL if available (from the article or preview)
+        
+        IMPORTANT: The snippet/content must be comprehensive and informative, providing substantial value to readers. Include:
+        - Specific dates and deadlines
+        - Key details and requirements
+        - Impact on students and parents
+        - Important announcements or changes
+        - Contact information or official sources when relevant
         
         Only respond with a valid JSON array like this:
         [
           {
-            "title": "JEE Main 2025 Exam Dates Released",
+            "title": "JEE Main 2025 Exam Dates Released - Registration Opens Next Week",
             "date": "2025-09-23T10:00:00Z",
-            "snippet": "NTA has announced the exam dates for JEE Main 2025...",
+            "snippet": "The National Testing Agency (NTA) has officially announced the exam dates for JEE Main 2025. The examination will be conducted in two phases: Phase 1 from January 24-31, 2025, and Phase 2 from April 1-15, 2025. Online registration will commence on September 30, 2024, and close on November 30, 2024. Students can register at jeemain.nta.ac.in. The exam will be held in 13 languages across 500+ cities in India and abroad. Key changes this year include extended exam duration (3 hours instead of 2.5 hours) and increased number of questions. The application fee remains ₹650 for general candidates and ₹325 for reserved categories. Results will be declared within 10 days of each phase completion.",
             "citations": ["https://nta.ac.in/jee-main-2025", "https://timesofindia.indiatimes.com/education/jee-main-2025"],
             "image_url": "https://example.com/news-image.jpg"
           }
@@ -117,9 +124,9 @@ class NewsService:
             "model": "sonar",
             "messages": [
                 {"role": "system", "content": self.perplexity_instructions},
-                {"role": "user", "content": "Give me the latest educational news from India focusing on exams, admissions, and results."}
+                {"role": "user", "content": "Give me the latest educational news from India focusing on exams, admissions, and results. For each news item, provide comprehensive details including specific dates, deadlines, requirements, and impact on students. Ensure each snippet is detailed and informative (500-1000 characters)."}
             ],
-            "max_tokens": 3000
+            "max_tokens": 5000
         }
 
         try:
