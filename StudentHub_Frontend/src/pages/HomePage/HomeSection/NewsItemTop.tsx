@@ -111,13 +111,6 @@ function NewsItemTop() {
             Latest News and Notifications
             {error && <span className="text-red-300 text-sm block mt-1">⚠️ {error}</span>}
           </h2>
-          <button 
-            onClick={refreshNews}
-            className="px-3 py-1 bg-green-600 hover:bg-green-700 text-white text-sm rounded-md transition-colors"
-            disabled={loading}
-          >
-            {loading ? 'Refreshing...' : 'Refresh'}
-          </button>
         </div>
 
         <div className="relative">

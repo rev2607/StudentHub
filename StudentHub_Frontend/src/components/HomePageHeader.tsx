@@ -30,7 +30,7 @@ const HomePageHeader = () => {
               <img src={callIcon} alt="call" className="w-6 h-6 mr-2" />
               <div className="flex flex-col items-start">
                 <span className="text-white opacity-80 leading-tight">Contact Us</span>
-                <span className="text-white font-semibold text-base leading-tight">9000090000</span>
+                <span className="text-white font-semibold text-base leading-tight">+91 6305111066</span>
               </div>
             </div>
             <div className="flex items-center gap-2 sm:pl-6">
@@ -48,19 +48,19 @@ const HomePageHeader = () => {
             </button>
             {/* Social Media Icons */}
             <div className="flex items-center gap-4">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://youtube.com/@jaya6711?si=tqTX_VY-vV_CHc9W" target="_blank" rel="noopener noreferrer">
                 <img src={ytIcon} alt="YouTube" className="w-6 h-6 sm:w-8 sm:h-8 hover:opacity-80 transition" />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/studenthub.in?igsh=MWU1Y3FvZjE0dW5wMQ==" target="_blank" rel="noopener noreferrer">
                 <img src={instaIcon} alt="Instagram" className="w-6 h-6 sm:w-8 sm:h-8 hover:opacity-80 transition" />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/Studenthub9999" target="_blank" rel="noopener noreferrer">
                 <img src={twitterIcon} alt="Twitter/X" className="w-6 h-6 sm:w-8 sm:h-8 hover:opacity-80 transition" />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.facebook.com/share/1YQL94WWZz/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
                 <img src={fbIcon} alt="Facebook" className="w-6 h-6 sm:w-8 sm:h-8 hover:opacity-80 transition" />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/groups/15533070/" target="_blank" rel="noopener noreferrer">
                 <img src={lnIcon} alt="LinkedIn" className="w-6 h-6 sm:w-8 sm:h-8 hover:opacity-80 transition" />
               </a>
             </div>

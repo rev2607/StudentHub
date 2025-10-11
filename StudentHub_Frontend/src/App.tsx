@@ -54,7 +54,7 @@ function App() {
             <Route path="/colleges/:slug" element={<CollegeDetailPage />} />
             <Route path="/colleges/iit-roorkee" element={<IITRoorkeePage />} />
             <Route path="/engineering-colleges" element={<Navigate to="/colleges" replace />} />
-            <Route path="*" element={<Navigate to="/colleges" replace />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Route>
 
           {/* Auth routes */}
