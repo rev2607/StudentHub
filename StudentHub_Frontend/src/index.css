@@ -18,6 +18,35 @@
   background: linear-gradient(to right, #137b3c 0%, #262443 100%);
 }
 
+/* Modal animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.4s ease-out;
+}
+
 .top_header {
   background: linear-gradient(-247deg, var(--site-blue) 50%, var(--site-green) 50%);
 }

@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { navigateToSearchPage } from "../pages/HomePage/navigationToSearchPage";
 import whatsappLogo from "../assets/whatsapp_logo.svg.png";
+import { subscribeEmail, EmailSubscriptionData } from '../services/emailSubscriptionService';
 import twitterLogo from "../assets/twitter_logo.png";
 import linkedinLogo from "../assets/linkedin_logo.png";
 import instagramLogo from "../assets/instagram_logo.png";
@@ -8,7 +10,52 @@ import facebookLogo from "../assets/facebook_logo.png";
 import studenthubLogo from "../assets/studenthub_logo.png";
 
 const HomePageFooter = () => {
-  const navigate = useNavigate(); // Get the navigate function from useNavigate hook
+  const navigate = useNavigate();
+  const [email, setEmail] = useState('');
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitMessage, setSubmitMessage] = useState('');
+
+  const handleEmailSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    
+    if (!email.trim()) {
+      setSubmitMessage('Please enter a valid email address.');
+      return;
+    }
+
+    // Basic email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      setSubmitMessage('Please enter a valid email address.');
+      return;
+    }
+
+    setIsSubmitting(true);
+    setSubmitMessage('');
+
+    try {
+      const subscriptionData: EmailSubscriptionData = {
+        email: email,
+        source: 'footer_form',
+        ip_address: null, // Could be added if needed
+        user_agent: navigator.userAgent
+      };
+
+      const response = await subscribeEmail(subscriptionData);
+      
+      if (response.success) {
+        setSubmitMessage(response.message);
+        setEmail(''); // Clear the form
+      } else {
+        setSubmitMessage(response.message);
+      }
+    } catch (error) {
+      console.error('Error submitting email:', error);
+      setSubmitMessage('Sorry, there was an error subscribing your email. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   const topColleges = [
     {
@@ -128,11 +175,30 @@ const HomePageFooter = () => {
             <div>
               <h2 className="font-bold mb-4">GET IN TOUCH</h2>
               <p className="text-xs mb-2">We don't send spam so don't worry.</p>
-              <form className="w-full" onSubmit={e => e.preventDefault()}>
+              <form className="w-full" onSubmit={handleEmailSubmit}>
                 <div className="flex flex-col sm:flex-row w-full gap-2 mb-3">
-                  <input className="p-2 rounded-full text-black border flex-1 min-w-0" placeholder="Email ..." type="email" />
-                  <button className="bg-green-500 text-white px-4 py-2 rounded-full whitespace-nowrap" type="submit">Submit</button>
+                  <input 
+                    className="p-2 rounded-full text-black border border-gray-300 bg-white flex-1 min-w-0 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" 
+                    placeholder="Email ..." 
+                    type="email" 
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    disabled={isSubmitting}
+                    required
+                  />
+                  <button 
+                    className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed transition-colors" 
+                    type="submit"
+                    disabled={isSubmitting}
+                  >
+                    {isSubmitting ? 'Submitting...' : 'Submit'}
+                  </button>
                 </div>
+                {submitMessage && (
+                  <div className={`text-xs mt-2 ${submitMessage.includes('error') || submitMessage.includes('Sorry') ? 'text-red-400' : 'text-green-400'}`}>
+                    {submitMessage}
+                  </div>
+                )}
               </form>
             </div>
             <div className="flex items-center gap-3 mb-2">

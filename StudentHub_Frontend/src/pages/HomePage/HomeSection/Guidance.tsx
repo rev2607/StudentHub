@@ -1,9 +1,37 @@
+import { useState } from "react";
 import { MdWindow } from "react-icons/md";
 import { FaUsers } from "react-icons/fa";
-
+import CounsellingSignupForm, { CounsellingFormData } from "../../../components/CounsellingSignupForm";
+import { submitCounsellingRequest } from "../../../services/counsellingService";
 import GuidanceImage from "../../../assets/home-guidance.png"; // Import the image file
 
 const Guidance = () => {
+  const [isFormOpen, setIsFormOpen] = useState(false);
+
+  const handleStartNowClick = () => {
+    setIsFormOpen(true);
+  };
+
+  const handleFormSubmit = async (data: CounsellingFormData) => {
+    try {
+      // Submit to Supabase
+      const response = await submitCounsellingRequest(data);
+      
+      if (response.success) {
+        alert(response.message);
+      } else {
+        alert(response.message || 'Sorry, there was an error submitting your request. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error submitting counselling request:', error);
+      alert('Sorry, there was an error submitting your request. Please try again.');
+    }
+  };
+
+  const handleFormClose = () => {
+    setIsFormOpen(false);
+  };
+
   return (
     <section className="bg-white py-12 sm:py-16">
       <div className="container mx-auto px-4 sm:px-6">
@@ -32,7 +60,12 @@ const Guidance = () => {
               </div>
               <div>
                 <p className="text-gray-600 text-sm sm:text-base">Personalised Video Counselling from Curated Experts on Exams, Courses, Colleges.</p>
-                <button className="mt-3 sm:mt-4 px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-900 text-white rounded-full text-sm sm:text-base">Start Now</button>
+                <button 
+                  onClick={handleStartNowClick}
+                  className="mt-3 sm:mt-4 px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-900 text-white rounded-full text-sm sm:text-base hover:bg-gray-800 transition-colors"
+                >
+                  Start Now
+                </button>
               </div>
             </div>
 
@@ -51,6 +84,12 @@ const Guidance = () => {
           </div>
         </div>
       </div>
+      
+      <CounsellingSignupForm
+        isOpen={isFormOpen}
+        onClose={handleFormClose}
+        onSubmit={handleFormSubmit}
+      />
     </section>
   );
 };
