@@ -67,6 +67,10 @@ export default function NewsLandingPage() {
 
   const totalPages = Math.max(1, Math.ceil(total / DEFAULT_PAGE_SIZE));
 
+  // Filter out articles that are already shown in the top major section
+  const topMajorIds = new Set(topMajor.map(article => article.id));
+  const filteredItems = items.filter(article => !topMajorIds.has(article.id));
+
   const handleCardClick = (a: NewsArticle) => {
     navigate(`/news/${a.id}`);
   };
@@ -93,12 +97,12 @@ export default function NewsLandingPage() {
           Array.from({ length: 6 }).map((_, i) => (
             <div key={i} className="h-64 rounded-2xl bg-gray-100 animate-pulse" />
           ))
-        ) : items.length === 0 ? (
+        ) : filteredItems.length === 0 ? (
           <div className="col-span-full text-center py-10 text-gray-600">
             No articles found. Try clearing filters.
           </div>
         ) : (
-          items.map((a) => (
+          filteredItems.map((a) => (
             <NewsCard key={a.id} article={a} onClick={() => handleCardClick(a)} />
           ))
         )}
