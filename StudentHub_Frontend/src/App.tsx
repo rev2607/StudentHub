@@ -44,7 +44,7 @@ function App() {
               </RequireAuth>
             } />
             <Route path="/news" element={<NewsLandingPage />} />
-            <Route path="/news/:id" element={<NewsDetailPage />} />
+            <Route path="/news/:slug" element={<NewsDetailPage />} />
             <Route path="/exams" element={<ExamsLandingPage />} />
             <Route path="/exams/jee-main" element={<JEEMainPage />} />
             <Route path="/exams/neet" element={<NEETPage />} />

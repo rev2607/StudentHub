@@ -72,7 +72,7 @@ export default function NewsLandingPage() {
   const filteredItems = items.filter(article => !topMajorIds.has(article.id));
 
   const handleCardClick = (a: NewsArticle) => {
-    navigate(`/news/${a.id}`);
+    navigate(`/news/${a.slug}`);
   };
 
   return (

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { getArticle, getRelated } from "../../features/news/news.api";
+import { getArticle, getArticleBySlug, getRelated } from "../../features/news/news.api";
 import type { NewsArticle } from "../../features/news/news.types";
 import ArticleHero from "../../components/news/ArticleHero";
 import ArticleBody from "../../components/news/ArticleBody";
@@ -8,7 +8,7 @@ import ArticleSources from "../../components/news/ArticleSources";
 import RelatedNews from "../../components/news/RelatedNews";
 
 export default function NewsDetailPage() {
-  const { id } = useParams();
+  const { slug } = useParams();
   const navigate = useNavigate();
   const [article, setArticle] = useState<NewsArticle | null>(null);
   const [related, setRelated] = useState<NewsArticle[]>([]);
@@ -19,7 +19,7 @@ export default function NewsDetailPage() {
     setLoading(true);
     (async () => {
       try {
-        const a = await getArticle(id!);
+        const a = await getArticleBySlug(slug!);
         if (!active) return;
         setArticle(a);
         if (a) {
@@ -33,7 +33,7 @@ export default function NewsDetailPage() {
       }
     })();
     return () => { active = false; };
-  }, [id]);
+  }, [slug]);
 
   if (loading) {
     return <div className="container mx-auto px-4 py-10"><div className="h-64 rounded-2xl bg-gray-100 animate-pulse" /></div>;
@@ -70,7 +70,7 @@ export default function NewsDetailPage() {
 
       <ArticleSources sources={article.sources} />
 
-      <RelatedNews items={related} onSelect={(r) => navigate(`/news/${r.id}`)} />
+      <RelatedNews items={related} onSelect={(r) => navigate(`/news/${r.slug}`)} />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import { supabase } from "../../lib/supabaseClient";
 import type { GetNewsPageParams, GetNewsPageResult, NewsArticle } from "./news.types";
+import { getNewsSlug } from "../../utils/slugUtils";
 
 const TABLE = "news_articles";
 
@@ -7,7 +8,7 @@ function normalizeArticle(row: any): NewsArticle {
   return {
     id: row.id,
     title: row.title,
-    slug: row.slug ?? null,
+    slug: row.slug ?? getNewsSlug(row.title),
     image_url: row.image_url ?? null,
     // Prefer existing 'date' column; fallback to created_at
     date_published: row.date_published ?? row.date ?? row.created_at ?? null,
@@ -105,6 +106,37 @@ export async function getArticle(id: string): Promise<NewsArticle | null> {
     .single();
   if (error && (error as any).code !== "PGRST116") throw error; // not found tolerant
   return data ? normalizeArticle(data) : null;
+}
+
+export async function getArticleBySlug(slug: string): Promise<NewsArticle | null> {
+  // First try to find by exact slug match if slug column exists
+  try {
+    const { data, error } = await supabase
+      .from(TABLE)
+      .select("*")
+      .eq("slug", slug)
+      .single();
+    if (error && (error as any).code !== "PGRST116") throw error;
+    if (data) return normalizeArticle(data);
+  } catch (_) {
+    // Ignore and fallback to title-based search
+  }
+
+  // Fallback: search by title (convert slug back to potential title variations)
+  // Since we don't have stored slugs, we'll search by title patterns
+  const { data, error } = await supabase
+    .from(TABLE)
+    .select("*");
+  
+  if (error) throw error;
+  
+  // Find article where the generated slug matches our search slug
+  const article = data?.find(row => {
+    const generatedSlug = getNewsSlug(row.title);
+    return generatedSlug === slug;
+  });
+  
+  return article ? normalizeArticle(article) : null;
 }
 
 export async function getRelated(id: string, args: { exams?: string[] | null; limit?: number }): Promise<NewsArticle[]> {
