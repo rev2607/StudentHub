@@ -29,6 +29,7 @@ const MockTestsStart: React.FC = () => {
   
   const exam = searchParams.get('exam');
   const year = searchParams.get('year');
+  const questionParam = searchParams.get('question');
   
   const [paper, setPaper] = useState<Paper | null>(null);
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -38,6 +39,10 @@ const MockTestsStart: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   
+  // Authentication state
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [authChecked, setAuthChecked] = useState(false);
+  
   // Timer state
   const [timeLeft, setTimeLeft] = useState(3 * 3600); // 3 hours in seconds
   const [timerActive, setTimerActive] = useState(true);
@@ -46,6 +51,61 @@ const MockTestsStart: React.FC = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [testCompleted, setTestCompleted] = useState(false);
   const [result, setResult] = useState<TestResult | null>(null);
+
+  // Initialize current question from URL parameter if available
+  useEffect(() => {
+    if (questionParam) {
+      const questionIndex = parseInt(questionParam, 10);
+      if (!isNaN(questionIndex) && questionIndex >= 0) {
+        setCurrentQuestion(questionIndex);
+      }
+    }
+  }, [questionParam]);
+
+  // Function to navigate to a specific question with URL update
+  const navigateToQuestion = (questionIndex: number) => {
+    if (questionIndex >= 0 && questionIndex < questions.length) {
+      setCurrentQuestion(questionIndex);
+      // Update URL with question parameter
+      const params = new URLSearchParams(searchParams);
+      params.set('question', questionIndex.toString());
+      navigate(`/mock-tests/start?${params.toString()}`, { replace: true });
+    }
+  };
+
+  // Check authentication status
+  useEffect(() => {
+    const checkAuth = async () => {
+      try {
+        const { data: { session } } = await supabase.auth.getSession();
+        setIsAuthenticated(!!session);
+      } catch (error) {
+        console.error('Auth check error:', error);
+        setIsAuthenticated(false);
+      } finally {
+        setAuthChecked(true);
+      }
+    };
+
+    checkAuth();
+
+    // Subscribe to auth state changes
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+      setIsAuthenticated(!!session);
+    });
+
+    return () => {
+      subscription.unsubscribe();
+    };
+  }, []);
+
+  // Check if authentication is required (after 2nd question)
+  useEffect(() => {
+    if (authChecked && currentQuestion >= 1 && !isAuthenticated) {
+      const currentPath = `/mock-tests/start?exam=${exam}&year=${year}&question=${currentQuestion}`;
+      navigate(`/signup?next=${encodeURIComponent(currentPath)}`);
+    }
+  }, [authChecked, currentQuestion, isAuthenticated, navigate, exam, year]);
 
   // Fetch paper and questions
   useEffect(() => {
@@ -57,39 +117,53 @@ const MockTestsStart: React.FC = () => {
       }
 
       try {
-        // Use backend API instead of Supabase directly
-        const baseUrl = 'http://localhost:8000';
+        // Fetch from Supabase directly
+        console.log(`Fetching mock test data for ${exam} ${year} from Supabase...`);
         
-        // Fetch paper
-        const paperResponse = await fetch(`${baseUrl}/api/mock-tests/papers/${exam}/${year}`);
-        if (!paperResponse.ok) {
+        // Fetch paper information
+        const { data: paperData, error: paperError } = await supabase
+          .from('mock_test_papers')
+          .select('*')
+          .eq('exam_name', exam)
+          .eq('year', year)
+          .single();
+
+        if (paperError || !paperData) {
+          console.error('Paper fetch error:', paperError);
           setError(`No paper found for ${exam} ${year}`);
           setLoading(false);
           return;
         }
-        const paperData = await paperResponse.json();
+
         setPaper(paperData);
 
-        // Fetch questions with choices and answers
-        const questionsResponse = await fetch(`${baseUrl}/api/mock-tests/papers/${exam}/${year}/questions`);
-        if (!questionsResponse.ok) {
+        // Fetch questions with choices
+        const { data: questionsData, error: questionsError } = await supabase
+          .from('mock_test_questions')
+          .select(`
+            *,
+            mock_test_choices (*)
+          `)
+          .eq('paper_id', paperData.id)
+          .order('qnum');
+
+        if (questionsError) {
+          console.error('Questions fetch error:', questionsError);
           setError('Failed to fetch questions');
           setLoading(false);
           return;
         }
-        
-        const questionsData = await questionsResponse.json();
-        
+
         if (questionsData && questionsData.length > 0) {
           setQuestions(questionsData);
           
-          // Extract choices and answers from the API response
+          // Extract choices and answers from the Supabase response
           const allChoices = [];
           const allAnswers = [];
           
           questionsData.forEach(question => {
-            if (question.choices) {
-              allChoices.push(...question.choices);
+            if (question.mock_test_choices) {
+              allChoices.push(...question.mock_test_choices);
             }
             if (question.correct_answer) {
               allAnswers.push({
@@ -101,10 +175,13 @@ const MockTestsStart: React.FC = () => {
           
           setChoices(allChoices);
           setAnswers(allAnswers);
+          
+          console.log(`Successfully loaded ${questionsData.length} questions for ${exam} ${year}`);
         } else {
           setQuestions([]);
           setChoices([]);
           setAnswers([]);
+          setError(`No questions found for ${exam} ${year}`);
         }
 
         setLoading(false);
@@ -270,6 +347,10 @@ const MockTestsStart: React.FC = () => {
     setResult(null);
     setTimeLeft(3 * 3600);
     setTimerActive(true);
+    // Reset URL to remove question parameter
+    const params = new URLSearchParams(searchParams);
+    params.delete('question');
+    navigate(`/mock-tests/start?${params.toString()}`, { replace: true });
   };
 
   const getTopFocusTopics = (): TopicAnalysis[] => {
@@ -445,7 +526,7 @@ const MockTestsStart: React.FC = () => {
             {questions.map((_, index) => (
               <button
                 key={index}
-                onClick={() => setCurrentQuestion(index)}
+                onClick={() => navigateToQuestion(index)}
                 className={`w-10 h-10 rounded-full text-sm font-semibold ${
                   index === currentQuestion
                     ? 'bg-blue-600 text-white'
@@ -547,7 +628,7 @@ const MockTestsStart: React.FC = () => {
         {/* Navigation */}
         <div className="flex justify-between items-center mt-8">
           <button
-            onClick={() => setCurrentQuestion(Math.max(0, currentQuestion - 1))}
+            onClick={() => navigateToQuestion(Math.max(0, currentQuestion - 1))}
             disabled={currentQuestion === 0}
             className="bg-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-700 disabled:bg-gray-300 disabled:cursor-not-allowed"
           >
@@ -563,7 +644,7 @@ const MockTestsStart: React.FC = () => {
           </button>
           
           <button
-            onClick={() => setCurrentQuestion(Math.min(questions.length - 1, currentQuestion + 1))}
+            onClick={() => navigateToQuestion(Math.min(questions.length - 1, currentQuestion + 1))}
             disabled={currentQuestion === questions.length - 1}
             className="bg-gray-600 text-white px-6 py-2 rounded-lg hover:bg-gray-700 disabled:bg-gray-300 disabled:cursor-not-allowed"
           >

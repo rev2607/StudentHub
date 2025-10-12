@@ -1,10 +1,11 @@
 import { useState, useEffect, useRef } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import { supabase } from '../lib/supabaseClient';
 
 const Navbar = () => {
   const navigate = useNavigate();
+  const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
   const [session, setSession] = useState<any>(null);
@@ -138,12 +139,24 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8">
-            {menuItems.map((item) => (
-              <Link key={item.title} to={item.path} className="text-[#262443] hover:text-[var(--site-green)] transition-colors duration-200">
-                {item.title}
-              </Link>
-            ))}
+          <div className="hidden md:flex items-center space-x-6 mt-2">
+            {menuItems.map((item) => {
+              const isActive = location.pathname === item.path;
+              return (
+                <Link 
+                  key={item.title} 
+                  to={item.path} 
+                  className={`relative text-[#262443] hover:text-[var(--site-green)] transition-colors duration-200 text-base font-normal pb-2 pt-1 ${
+                    isActive ? 'text-[var(--site-green)]' : ''
+                  }`}
+                >
+                  {item.title}
+                  {isActive && (
+                    <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-[var(--site-green)]"></div>
+                  )}
+                </Link>
+              );
+            })}
             
             {/* Auth Section - Immediately renders without blocking */}
             <div className="flex items-center space-x-4 ml-4">
@@ -224,17 +237,24 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div ref={mobileMenuRef} className="md:hidden absolute w-full bg-white shadow-lg z-50">
-          <div className="px-2 pt-2 pb-3 space-y-1">
-            {menuItems.map((item) => (
-              <Link 
-                key={item.title} 
-                to={item.path} 
-                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50" 
-                onClick={() => setIsOpen(false)}
-              >
-                {item.title}
-              </Link>
-            ))}
+          <div className="px-2 pt-4 pb-3 space-y-1">
+            {menuItems.map((item) => {
+              const isActive = location.pathname === item.path;
+              return (
+                <Link 
+                  key={item.title} 
+                  to={item.path} 
+                  className={`block px-3 py-2 rounded-md text-base font-normal transition-colors ${
+                    isActive 
+                      ? 'text-[var(--site-green)] bg-green-50 border-l-4 border-[var(--site-green)]' 
+                      : 'text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50'
+                  }`}
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.title}
+                </Link>
+              );
+            })}
             
             {/* Mobile Auth Section */}
             <div className="border-t border-gray-200 pt-4 mt-4">
@@ -252,7 +272,7 @@ const Navbar = () => {
                   </div>
                   <Link
                     to="/profile/edit"
-                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50"
+                    className="block px-3 py-2 rounded-md text-base font-normal text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50"
                     onClick={() => {
                       setIsOpen(false);
                       setIsUserMenuOpen(false);
@@ -262,7 +282,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     to="/mock-tests"
-                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50"
+                    className="block px-3 py-2 rounded-md text-base font-normal text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50"
                     onClick={() => {
                       setIsOpen(false);
                       setIsUserMenuOpen(false);
@@ -275,7 +295,7 @@ const Navbar = () => {
                       setIsOpen(false);
                       handleLogout();
                     }}
-                    className="block w-full text-left px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50"
+                    className="block w-full text-left px-3 py-2 rounded-md text-base font-normal text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50"
                   >
                     Logout
                   </button>
@@ -284,7 +304,7 @@ const Navbar = () => {
                 <>
                   <Link
                     to="/login"
-                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50"
+                    className="block px-3 py-2 rounded-md text-base font-normal text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50"
                     onClick={() => setIsOpen(false)}
                     data-testid="nav-signin"
                   >
@@ -292,7 +312,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     to="/signup"
-                    className="block px-3 py-2 rounded-md text-base font-medium bg-[var(--site-green)] hover:bg-[#7bb53a] text-[#262443] mx-3"
+                    className="block px-3 py-2 rounded-md text-base font-normal bg-[var(--site-green)] hover:bg-[#7bb53a] text-[#262443] mx-3"
                     onClick={() => setIsOpen(false)}
                     data-testid="nav-signup"
                   >

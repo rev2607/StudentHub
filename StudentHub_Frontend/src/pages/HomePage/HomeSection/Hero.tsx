@@ -54,7 +54,7 @@ const Hero = () => {
           {/* Center column: Title and Search */}
           <div className="flex flex-col items-start text-left md:col-start-2 md:col-end-3">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-normal text-white mb-6" style={{ fontFamily: 'Poppins, sans-serif' }}>
-              Let's Explore
+              Ask us!
             </h1>
             <form
               onSubmit={handleSearch}

@@ -6,6 +6,7 @@ import twitterIcon from '../assets/Twitter.svg';
 import ytIcon from '../assets/YT_header.png';
 import headerBg from '../assets/header.png';
 import lnIcon from '../assets/linkedin.svg';
+import whatsappIcon from '../assets/whatsapp_logo.svg.png';
 import Navbar from './Navbar';
 
 const HomePageHeader = () => {
@@ -41,11 +42,17 @@ const HomePageHeader = () => {
               </div>
             </div>
           </div>
-          {/* Right: Write a review button + social media */}
+          {/* Right: WhatsApp group button + social media */}
           <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 mt-4 sm:mt-0">
-            <button className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-[#262443] border border-[#262443] px-4 sm:px-6 py-2 rounded-md font-semibold text-sm sm:text-base transition-all shadow w-full sm:w-auto">
-              Write a review
-            </button>
+            <a 
+              href="https://chat.whatsapp.com/DIa2qjcnzcJ2Gf7mzuyx8r" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-[#262443] border border-[#262443] px-4 sm:px-6 py-2 rounded-md font-semibold text-sm sm:text-base transition-all shadow w-full sm:w-auto flex items-center gap-2"
+            >
+              <img src={whatsappIcon} alt="WhatsApp" className="w-5 h-5" />
+              Join our group
+            </a>
             {/* Social Media Icons */}
             <div className="flex items-center gap-4">
               <a href="https://youtube.com/@jaya6711?si=tqTX_VY-vV_CHc9W" target="_blank" rel="noopener noreferrer">

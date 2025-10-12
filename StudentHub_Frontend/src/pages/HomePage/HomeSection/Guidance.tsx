@@ -2,11 +2,13 @@ import { useState } from "react";
 import { MdWindow } from "react-icons/md";
 import { FaUsers } from "react-icons/fa";
 import CounsellingSignupForm, { CounsellingFormData } from "../../../components/CounsellingSignupForm";
+import AIChatbox from "../../../components/AIChatbox";
 import { submitCounsellingRequest } from "../../../services/counsellingService";
 import GuidanceImage from "../../../assets/home-guidance.png"; // Import the image file
 
 const Guidance = () => {
   const [isFormOpen, setIsFormOpen] = useState(false);
+  const [isChatboxOpen, setIsChatboxOpen] = useState(false);
 
   const handleStartNowClick = () => {
     setIsFormOpen(true);
@@ -30,6 +32,14 @@ const Guidance = () => {
 
   const handleFormClose = () => {
     setIsFormOpen(false);
+  };
+
+  const handleAskNowClick = () => {
+    setIsChatboxOpen(true);
+  };
+
+  const handleChatboxClose = () => {
+    setIsChatboxOpen(false);
   };
 
   return (
@@ -78,7 +88,12 @@ const Guidance = () => {
               </div>
               <div>
                 <p className="text-gray-600 text-sm sm:text-base">TA's and presenters can be moved to the front of the class.</p>
-                <button className="mt-3 sm:mt-4 px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-900 text-white rounded-full text-sm sm:text-base">Ask Now</button>
+                <button 
+                  onClick={handleAskNowClick}
+                  className="mt-3 sm:mt-4 px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-900 text-white rounded-full text-sm sm:text-base hover:bg-gray-800 transition-colors"
+                >
+                  Ask Now
+                </button>
               </div>
             </div>
           </div>
@@ -89,6 +104,11 @@ const Guidance = () => {
         isOpen={isFormOpen}
         onClose={handleFormClose}
         onSubmit={handleFormSubmit}
+      />
+      
+      <AIChatbox
+        isOpen={isChatboxOpen}
+        onClose={handleChatboxClose}
       />
     </section>
   );

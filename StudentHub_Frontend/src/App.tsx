@@ -38,11 +38,7 @@ function App() {
           {/* Wrap routes that need Header in a layout */}
           <Route element={<MainLayout />}>
             <Route path="/" element={<HomePage />} />
-            <Route path="/mock-tests" element={
-              <RequireAuth>
-                <MockTests />
-              </RequireAuth>
-            } />
+            <Route path="/mock-tests" element={<MockTests />} />
             <Route path="/news" element={<NewsLandingPage />} />
             <Route path="/news/:slug" element={<NewsDetailPage />} />
             <Route path="/exams" element={<ExamsLandingPage />} />
@@ -66,12 +62,8 @@ function App() {
             </RequireAuth>
           } />
 
-          {/* Protected mock test routes */}
-          <Route path="/mock-tests/start" element={
-            <RequireAuth>
-              <MockTestsStart />
-            </RequireAuth>
-          } />
+          {/* Mock test routes - auth required only after 2nd question */}
+          <Route path="/mock-tests/start" element={<MockTestsStart />} />
 
           {/* Other routes */}
           <Route path="/search" element={<SearchPage />} />
