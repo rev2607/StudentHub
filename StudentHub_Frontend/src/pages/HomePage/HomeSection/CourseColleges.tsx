@@ -34,6 +34,11 @@ const CourseColleges = () => {
     let data = [] as any;
     if (pageData && type in pageData && Array.isArray(pageData[type as keyof CourseCollegeProps])) {
       data = pageData[type as keyof CourseCollegeProps];
+      
+      // Only filter colleges array by category, packages and courses arrays are already correctly structured
+      if (type === "colleges") {
+        data = data.filter((item: any) => item.Category === "Trending Colleges");
+      }
     }
     setFilteredData(data);
   };

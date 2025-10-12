@@ -175,38 +175,17 @@ export const tempData: CourseCollegeProps = {
     },
     {
       Category: "Trending Colleges",
-      "College Name": "Hindu College",
-      Location: "Delhi",
-      Stream: "Arts/Science",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=400&h=300&fit=crop&auto=format"
-    },
-    {
-      Category: "Trending Colleges",
-      "College Name": "Miranda House",
-      Location: "Delhi",
-      Stream: "Women's College",
-      image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=400&h=300&fit=crop&auto=format"
-    },
-    {
-      Category: "Trending Colleges",
-      "College Name": "Hans Raj College",
-      Location: "Delhi",
-      Stream: "Arts/Science",
-      image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&h=300&fit=crop&auto=format"
-    },
-    {
-      Category: "Trending Colleges",
-      "College Name": "Indian Institute of Science (IISc)",
-      Location: "Bengaluru",
-      Stream: "Science/Research",
+      "College Name": "IIT Madras",
+      Location: "Chennai",
+      Stream: "Engineering",
       image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
     },
     {
       Category: "Trending Colleges",
-      "College Name": "Jawaharlal Nehru University",
+      "College Name": "IIT Delhi",
       Location: "Delhi",
-      Stream: "Research/Humanities",
-      image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=400&h=300&fit=crop&auto=format"
+      Stream: "Engineering",
+      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
     },
     {
       Category: "Trending Colleges",
@@ -217,17 +196,52 @@ export const tempData: CourseCollegeProps = {
     },
     {
       Category: "Trending Colleges",
-      "College Name": "Manipal Academy of Higher Education",
-      Location: "Manipal",
-      Stream: "Multi-stream",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=400&h=300&fit=crop&auto=format"
+      "College Name": "BITS Pilani",
+      Location: "Pilani",
+      Stream: "Engineering",
+      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
     },
     {
       Category: "Trending Colleges",
-      "College Name": "St. Stephen's College",
-      Location: "Delhi",
-      Stream: "Arts/Science",
-      image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&h=300&fit=crop&auto=format"
+      "College Name": "IIT Kanpur",
+      Location: "Kanpur",
+      Stream: "Engineering",
+      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
+    },
+    {
+      Category: "Trending Colleges",
+      "College Name": "VIT Vellore",
+      Location: "Vellore",
+      Stream: "Engineering",
+      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
+    },
+    {
+      Category: "Trending Colleges",
+      "College Name": "IIT Kharagpur",
+      Location: "Kharagpur",
+      Stream: "Engineering",
+      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
+    },
+    {
+      Category: "Trending Colleges",
+      "College Name": "IIT Hyderabad",
+      Location: "Hyderabad",
+      Stream: "Engineering",
+      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
+    },
+    {
+      Category: "Trending Colleges",
+      "College Name": "SRM Institute of Science & Technology",
+      Location: "Chennai",
+      Stream: "Engineering",
+      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
+    },
+    {
+      Category: "Trending Colleges",
+      "College Name": "IIT Roorkee",
+      Location: "Roorkee",
+      Stream: "Engineering",
+      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
     },
   ],
 };

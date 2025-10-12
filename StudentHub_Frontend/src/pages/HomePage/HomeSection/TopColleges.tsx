@@ -2,16 +2,16 @@
 import vitLogo from "../../../../src/assets/vit_logo.png";
 
 const topCollegesData = [
-  { name: "IIT Bombay",               highest_package: "₹3.67 Cr",  median_package: "₹18.8 LPA", placement_rate: ">90%", logo_url: vitLogo },
-  { name: "IIM Ahmedabad",            highest_package: "₹3.3 Cr",   median_package: "₹35.5 LPA", placement_rate: ">95%", logo_url: vitLogo },
-  { name: "IIM Calcutta",             highest_package: "₹1.45 Cr",  median_package: "₹28.2 LPA", placement_rate: ">95%", logo_url: vitLogo },
-  { name: "IIM Bangalore",            highest_package: "₹1.15 Cr",  median_package: "₹32.8 LPA", placement_rate: ">95%", logo_url: vitLogo },
-  { name: "IIT Bombay CSE",           highest_package: "₹2.2 Cr",   median_package: "₹25.1 LPA", placement_rate: ">90%", logo_url: vitLogo },
-  { name: "IIT Delhi",                highest_package: "₹1.5 Cr",   median_package: "₹20.1 LPA", placement_rate: ">90%", logo_url: vitLogo },
-  { name: "IIT Kanpur",               highest_package: "₹1.5 Cr",   median_package: "₹22.1 LPA", placement_rate: ">90%", logo_url: vitLogo },
-  { name: "IIM Kozhikode",            highest_package: "₹72 Lakh",  median_package: "₹24.5 LPA", placement_rate: ">95%", logo_url: vitLogo },
-  { name: "CVR College",              highest_package: "₹72 Lakh",  median_package: "₹12.8 LPA", placement_rate: ">85%", logo_url: vitLogo },
-  { name: "Private Universities",     highest_package: "₹1 Cr+",    median_package: "₹9-15 LPA", placement_rate: ">80%", logo_url: vitLogo },
+  { name: "IIT Madras",               highest_package: "₹1.5 Cr - 60 LPA",  median_package: "₹60 LPA", fee: "₹2,40,000 1st Year Fees", logo_url: vitLogo },
+  { name: "IIT Delhi",                highest_package: "₹2 Cr - 60 LPA",     median_package: "₹60 LPA", fee: "₹2,40,000 1st Year Fees", logo_url: vitLogo },
+  { name: "IIT Bombay",               highest_package: "₹1.8 Cr - 62 LPA",   median_package: "₹62 LPA", fee: "₹2,28,000 1st Year Fees", logo_url: vitLogo },
+  { name: "IIT Kanpur",               highest_package: "₹1.2 Cr - 50 LPA",   median_package: "₹50 LPA", fee: "₹2,25,600 1st Year Fees", logo_url: vitLogo },
+  { name: "IIT Kharagpur",            highest_package: "₹1.8 Cr - 54 LPA",   median_package: "₹54 LPA", fee: "₹2,24,600 1st Year Fees", logo_url: vitLogo },
+  { name: "IIT Roorkee",              highest_package: "₹2.15 Cr - 51 LPA",  median_package: "₹51 LPA", fee: "₹2,14,800 1st Year Fees", logo_url: vitLogo },
+  { name: "IIT Hyderabad",            highest_package: "₹1.2 Cr - 63 LPA",   median_package: "₹63 LPA", fee: "₹2,27,000 1st Year Fees", logo_url: vitLogo },
+  { name: "IIT Guwahati",             highest_package: "₹1.2 Cr - 50 LPA",   median_package: "₹50 LPA", fee: "₹2,19,350 1st Year Fees", logo_url: vitLogo },
+  { name: "NIT Tiruchirappalli",      highest_package: "₹52 LPA - 44 LPA",   median_package: "₹44 LPA", fee: "₹1,61,200 1st Year Fees", logo_url: vitLogo },
+  { name: "IIT (BHU) Varanasi",       highest_package: "₹1.2 Cr - 45 LPA",   median_package: "₹45 LPA", fee: "₹2,32,800 1st Year Fees", logo_url: vitLogo },
 ];
 
 const TopColleges = () => {
@@ -20,7 +20,7 @@ const TopColleges = () => {
   return (
     <section className="bg-white p-4 sm:p-6">
       <div className="container mx-auto">
-        <h1 className="text-xl sm:text-2xl font-bold mb-4">Top 10 Colleges</h1>
+        <h1 className="text-xl sm:text-2xl font-bold mb-4">Top 10 NRIF Ranking Colleges</h1>
         {/* Removed category chips as requested */}
         <div className="overflow-x-auto">
           <table className="w-full min-w-[800px]">
@@ -30,7 +30,7 @@ const TopColleges = () => {
                 <th className="px-4 py-3 text-left">College/University</th>
                 <th className="px-4 py-3 text-center">Highest Package</th>
                 <th className="px-4 py-3 text-center">Median Package</th>
-                <th className="px-4 py-3 text-center">Placement Rate</th>
+                <th className="px-4 py-3 text-center">Fee</th>
               </tr>
             </thead>
             <tbody>
@@ -45,7 +45,7 @@ const TopColleges = () => {
                   </td>
                   <td className="px-3 sm:px-4 py-3 text-center text-sm sm:text-base">{college.highest_package}</td>
                   <td className="px-3 sm:px-4 py-3 text-center text-sm sm:text-base">{college.median_package}</td>
-                  <td className="px-3 sm:px-4 py-3 text-center text-sm sm:text-base">{college.placement_rate}</td>
+                  <td className="px-3 sm:px-4 py-3 text-center text-sm sm:text-base">{college.fee}</td>
                 </tr>
               ))}
             </tbody>

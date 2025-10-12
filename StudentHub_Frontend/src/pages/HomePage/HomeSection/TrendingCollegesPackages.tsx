@@ -2,16 +2,16 @@
 import vitLogo from "../../../../src/assets/vit_logo.png";
 
 const colleges = [
-  { rank: 1,  logo: vitLogo, name: "IIIT Hyderabad",                 nirf: "-", average: ">90%", highest: "₹82 LPA",  naac: "" },
-  { rank: 2,  logo: vitLogo, name: "VIT Vellore",                    nirf: 16,   average: ">90%", highest: "₹75 LPA",  naac: "" },
-  { rank: 3,  logo: vitLogo, name: "BITS Pilani",                    nirf: 11,   average: ">90%", highest: "₹60 LPA+", naac: "" },
-  { rank: 4,  logo: vitLogo, name: "SRMIST Kattankulathur",          nirf: 14,   average: ">90%", highest: "₹58 LPA",  naac: "" },
-  { rank: 5,  logo: vitLogo, name: "Shiv Nadar University",          nirf: "-", average: ">90%", highest: "₹58 LPA",  naac: "" },
-  { rank: 6,  logo: vitLogo, name: "Amrita Vishwa Vidyapeetham",     nirf: 23,   average: ">90%", highest: "₹56 LPA",  naac: "" },
-  { rank: 7,  logo: vitLogo, name: "PES University, Bangalore",      nirf: "-", average: ">90%", highest: "₹55 LPA",  naac: "" },
-  { rank: 8,  logo: vitLogo, name: "RV College of Engineering",      nirf: "-", average: ">90%", highest: "₹52 LPA",  naac: "" },
-  { rank: 9,  logo: vitLogo, name: "DAIICT, Gandhinagar",            nirf: "-", average: ">90%", highest: "₹47 LPA",  naac: "" },
-  { rank: 10, logo: vitLogo, name: "MIT-WPU, Pune",                   nirf: "-", average: ">90%", highest: "₹44 LPA",  naac: "" },
+  { rank: 1,  logo: vitLogo, name: "IIT Madras",                     nirf: 1,    average: "₹22–23 LPA", highest: "₹4.3 crore",  naac: "A++" },
+  { rank: 2,  logo: vitLogo, name: "IIT Delhi",                      nirf: 2,    average: "₹21.9 LPA", highest: "₹2.05 crore",  naac: "A++" },
+  { rank: 3,  logo: vitLogo, name: "IIT Bombay",                     nirf: 3,    average: "₹23.5 LPA", highest: "₹3.67 crore", naac: "A++" },
+  { rank: 4,  logo: vitLogo, name: "IIT Kanpur",                     nirf: 4,    average: "₹26.27 LPA", highest: "₹1.9 crore",  naac: "A++" },
+  { rank: 5,  logo: vitLogo, name: "IIT Kharagpur",                  nirf: 5,    average: "₹19.5 LPA", highest: "₹1.8 crore",  naac: "A++" },
+  { rank: 6,  logo: vitLogo, name: "IIT Roorkee",                    nirf: 6,    average: "₹18–20 LPA", highest: "₹1.15 crore",  naac: "A++" },
+  { rank: 7,  logo: vitLogo, name: "IIT Hyderabad",                  nirf: 7,    average: "₹22 LPA", highest: "₹1.2 crore",  naac: "A+" },
+  { rank: 8,  logo: vitLogo, name: "BITS Pilani",                    nirf: 25,   average: "₹24 LPA", highest: "₹60 LPA (domestic)",  naac: "A" },
+  { rank: 9,  logo: vitLogo, name: "VIT Vellore",                    nirf: 11,   average: "₹10–12 LPA", highest: "₹1.02 crore",  naac: "A++" },
+  { rank: 10, logo: vitLogo, name: "SRM Institute of Science & Technology", nirf: 18, average: "₹8–10 LPA", highest: "₹1 crore",  naac: "A++" },
 ];
 
 // Helper to interpolate between two colors
