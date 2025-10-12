@@ -77,27 +77,21 @@ export default function NewsLandingPage() {
 
   return (
     <div className="container mx-auto px-4 py-6">
-      <div className="mb-2 text-sm text-gray-500">Updated hourly</div>
+      {/* Top section with filters and updated info */}
+      <div className="flex justify-between items-start mb-4">
+        <div className="text-sm text-gray-500">Updated hourly</div>
+        {/* Filters moved to top right */}
+        <NewsSearchFilters
+          q={q}
+          onQChange={(val) => { setPage(1); setQ(val); }}
+          selectedExams={selectedExams}
+          onToggleExam={(tag) => { setPage(1); setSelectedExams((prev) => prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]); }}
+          onClear={() => { setQ(""); setSelectedExams([]); setPage(1); }}
+        />
+      </div>
 
-      {/* Top News Header */}
-      {topMajor.length > 0 && (
-        <>
-          <div className="mb-6">
-            <h1 className="text-3xl font-bold text-gray-900">Top News</h1>
-            <div className="mt-2 h-1 w-16 bg-[var(--site-green)] rounded-full"></div>
-          </div>
-          <TopNewsHero items={topMajor} onSelect={handleCardClick} />
-        </>
-      )}
-
-      {/* Search & Filters */}
-      <NewsSearchFilters
-        q={q}
-        onQChange={(val) => { setPage(1); setQ(val); }}
-        selectedExams={selectedExams}
-        onToggleExam={(tag) => { setPage(1); setSelectedExams((prev) => prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]); }}
-        onClear={() => { setQ(""); setSelectedExams([]); setPage(1); }}
-      />
+      {/* Top Major Strip */}
+      {topMajor.length > 0 && <TopNewsHero items={topMajor} onSelect={handleCardClick} />}
 
       {/* Latest Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">

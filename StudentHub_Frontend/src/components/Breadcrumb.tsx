@@ -49,7 +49,7 @@ const Breadcrumb: React.FC = () => {
 
   return (
     <div className="bg-gray-50 border-b border-gray-200">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-1">
         <nav className="flex items-center space-x-2 text-sm">
           {breadcrumbs.map((breadcrumb, index) => {
             const isLast = index === breadcrumbs.length - 1;

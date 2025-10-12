@@ -159,7 +159,7 @@ const Navbar = () => {
             })}
             
             {/* Auth Section - Immediately renders without blocking */}
-            <div className="flex items-center space-x-4 ml-4">
+            <div className="flex items-center space-x-4 ml-4 mt-2">
               {session?.user ? (
                 // User dropdown menu
                 <div className="relative" ref={userMenuRef} data-testid="nav-user">

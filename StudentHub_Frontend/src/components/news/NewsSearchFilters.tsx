@@ -10,13 +10,7 @@ const DEFAULT_TAGS = ["JEE Main", "JEE Advanced", "NEET", "EAMCET"];
 
 export default function NewsSearchFilters({ q, onQChange, selectedExams, onToggleExam, onClear }: Props) {
   return (
-    <div className="flex flex-col md:flex-row items-stretch md:items-center gap-3 mb-4">
-      <input
-        value={q}
-        onChange={(e) => onQChange(e.target.value)}
-        placeholder="Search news (title or text)"
-        className="flex-1 rounded-xl border px-4 py-2"
-      />
+    <div className="flex justify-end">
       <div className="flex flex-wrap gap-2">
         {DEFAULT_TAGS.map((tag) => {
           const active = selectedExams.includes(tag);
@@ -31,8 +25,8 @@ export default function NewsSearchFilters({ q, onQChange, selectedExams, onToggl
           );
         })}
       </div>
-      {(q || selectedExams.length > 0) && (
-        <button className="ml-auto text-sm text-blue-600" onClick={onClear}>Clear all</button>
+      {selectedExams.length > 0 && (
+        <button className="ml-3 text-sm text-blue-600" onClick={onClear}>Clear all</button>
       )}
     </div>
   );
