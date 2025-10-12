@@ -68,6 +68,13 @@ function App() {
           {/* Other routes */}
           <Route path="/search" element={<SearchPage />} />
           
+          {/* Placeholder routes for navigation items */}
+          <Route path="/training-institutes" element={<div className="min-h-screen bg-gray-50 flex items-center justify-center"><div className="text-center"><h1 className="text-2xl font-bold text-gray-800 mb-4">Training Institutes</h1><p className="text-gray-600">This page is under development.</p></div></div>} />
+          <Route path="/mbbs" element={<div className="min-h-screen bg-gray-50 flex items-center justify-center"><div className="text-center"><h1 className="text-2xl font-bold text-gray-800 mb-4">MBBS</h1><p className="text-gray-600">This page is under development.</p></div></div>} />
+          <Route path="/study-abroad" element={<div className="min-h-screen bg-gray-50 flex items-center justify-center"><div className="text-center"><h1 className="text-2xl font-bold text-gray-800 mb-4">Study Abroad</h1><p className="text-gray-600">This page is under development.</p></div></div>} />
+          <Route path="/reviews" element={<div className="min-h-screen bg-gray-50 flex items-center justify-center"><div className="text-center"><h1 className="text-2xl font-bold text-gray-800 mb-4">Reviews</h1><p className="text-gray-600">This page is under development.</p></div></div>} />
+          <Route path="/scholarships" element={<div className="min-h-screen bg-gray-50 flex items-center justify-center"><div className="text-center"><h1 className="text-2xl font-bold text-gray-800 mb-4">Scholarships</h1><p className="text-gray-600">This page is under development.</p></div></div>} />
+          
           {/* <Route path="/search-page" element={<Search />} /> */}
           {/* <Route path="/test" element={<Test />} /> */}
           {/* Other routes without header */}
