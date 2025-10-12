@@ -22,7 +22,7 @@ const CourseColleges = () => {
   const filterTypes = {
     packages: { id: "packages", title: "Highest Packages and Placements", key: "College", key_2: "Highest Package" },
     courses: { id: "courses", title: "Trending Courses", key: "name", key_2: "description" },
-    colleges: { id: "colleges", title: "Trending Colleges", key: "College", key_2: "Highest Package" },
+    colleges: { id: "colleges", title: "Trending Colleges", key: "College Name", key_2: "NRIF Rank" },
   } as any;
 
   const [selectedType, setSelectedType] = useState(filterTypes.packages.id);

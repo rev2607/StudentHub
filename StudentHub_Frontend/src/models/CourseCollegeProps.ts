@@ -21,6 +21,7 @@ interface TrendingCollege {
   "College Name"?: string;
   Location?: string;
   Stream?: string;
+  "NRIF Rank"?: string;
   image?: string;
 }
 
@@ -178,6 +179,7 @@ export const tempData: CourseCollegeProps = {
       "College Name": "IIT Madras",
       Location: "Chennai",
       Stream: "Engineering",
+      "NRIF Rank": "NRIF Rank: 1",
       image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
     },
     {
@@ -185,6 +187,7 @@ export const tempData: CourseCollegeProps = {
       "College Name": "IIT Delhi",
       Location: "Delhi",
       Stream: "Engineering",
+      "NRIF Rank": "NRIF Rank: 2",
       image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
     },
     {
@@ -192,13 +195,7 @@ export const tempData: CourseCollegeProps = {
       "College Name": "IIT Bombay",
       Location: "Mumbai",
       Stream: "Engineering",
-      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
-    },
-    {
-      Category: "Trending Colleges",
-      "College Name": "BITS Pilani",
-      Location: "Pilani",
-      Stream: "Engineering",
+      "NRIF Rank": "NRIF Rank: 3",
       image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
     },
     {
@@ -206,13 +203,7 @@ export const tempData: CourseCollegeProps = {
       "College Name": "IIT Kanpur",
       Location: "Kanpur",
       Stream: "Engineering",
-      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
-    },
-    {
-      Category: "Trending Colleges",
-      "College Name": "VIT Vellore",
-      Location: "Vellore",
-      Stream: "Engineering",
+      "NRIF Rank": "NRIF Rank: 4",
       image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
     },
     {
@@ -220,20 +211,7 @@ export const tempData: CourseCollegeProps = {
       "College Name": "IIT Kharagpur",
       Location: "Kharagpur",
       Stream: "Engineering",
-      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
-    },
-    {
-      Category: "Trending Colleges",
-      "College Name": "IIT Hyderabad",
-      Location: "Hyderabad",
-      Stream: "Engineering",
-      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
-    },
-    {
-      Category: "Trending Colleges",
-      "College Name": "SRM Institute of Science & Technology",
-      Location: "Chennai",
-      Stream: "Engineering",
+      "NRIF Rank": "NRIF Rank: 5",
       image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
     },
     {
@@ -241,6 +219,39 @@ export const tempData: CourseCollegeProps = {
       "College Name": "IIT Roorkee",
       Location: "Roorkee",
       Stream: "Engineering",
+      "NRIF Rank": "NRIF Rank: 6",
+      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
+    },
+    {
+      Category: "Trending Colleges",
+      "College Name": "IIT Hyderabad",
+      Location: "Hyderabad",
+      Stream: "Engineering",
+      "NRIF Rank": "NRIF Rank: 7",
+      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
+    },
+    {
+      Category: "Trending Colleges",
+      "College Name": "VIT Vellore",
+      Location: "Vellore",
+      Stream: "Engineering",
+      "NRIF Rank": "NRIF Rank: 11",
+      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
+    },
+    {
+      Category: "Trending Colleges",
+      "College Name": "SRM Institute of Science & Technology",
+      Location: "Chennai",
+      Stream: "Engineering",
+      "NRIF Rank": "NRIF Rank: 18",
+      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
+    },
+    {
+      Category: "Trending Colleges",
+      "College Name": "BITS Pilani",
+      Location: "Pilani",
+      Stream: "Engineering",
+      "NRIF Rank": "NRIF Rank: 25",
       image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop&auto=format"
     },
   ],
