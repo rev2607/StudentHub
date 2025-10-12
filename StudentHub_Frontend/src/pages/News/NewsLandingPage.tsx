@@ -79,8 +79,16 @@ export default function NewsLandingPage() {
     <div className="container mx-auto px-4 py-6">
       <div className="mb-2 text-sm text-gray-500">Updated hourly</div>
 
-      {/* Top Major Strip */}
-      {topMajor.length > 0 && <TopNewsHero items={topMajor} onSelect={handleCardClick} />}
+      {/* Top News Header */}
+      {topMajor.length > 0 && (
+        <>
+          <div className="mb-6">
+            <h1 className="text-3xl font-bold text-gray-900">Top News</h1>
+            <div className="mt-2 h-1 w-16 bg-[var(--site-green)] rounded-full"></div>
+          </div>
+          <TopNewsHero items={topMajor} onSelect={handleCardClick} />
+        </>
+      )}
 
       {/* Search & Filters */}
       <NewsSearchFilters

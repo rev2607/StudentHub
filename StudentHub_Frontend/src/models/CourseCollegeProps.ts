@@ -38,40 +38,40 @@ export const tempData: CourseCollegeProps = {
       "Highest Package": "₹3.67 Crore",
     },
     {
-      College: "IIM Ahmedabad",
-      "Highest Package": "₹3.3 Crore",
-    },
-    {
-      College: "IIM Calcutta",
-      "Highest Package": "₹1.45 Crore",
-    },
-    {
-      College: "IIM Bangalore",
-      "Highest Package": "₹1.15 Crore",
-    },
-    {
-      College: "Private Universities",
-      "Highest Package": "₹1 Crore+",
-    },
-    {
-      College: "IIM Kozhikode",
-      "Highest Package": "₹72 Lakh+",
-    },
-    {
-      College: "IIT Bombay CSE",
-      "Highest Package": "₹2.2 Crore",
-    },
-    {
-      College: "CVR College",
-      "Highest Package": "₹72 Lakh",
+      College: "IIT Madras",
+      "Highest Package": "₹4.3 Crore",
     },
     {
       College: "IIT Delhi",
-      "Highest Package": "₹1.5 Crore",
+      "Highest Package": "₹2.05 Crore",
     },
     {
       College: "IIT Kanpur",
-      "Highest Package": "₹1.5 Crore",
+      "Highest Package": "₹1.9 Crore",
+    },
+    {
+      College: "IIT Kharagpur",
+      "Highest Package": "₹1.8 Crore",
+    },
+    {
+      College: "IIT Roorkee",
+      "Highest Package": "₹1.15 Crore",
+    },
+    {
+      College: "IIT Hyderabad",
+      "Highest Package": "₹1.2 Crore",
+    },
+    {
+      College: "BITS Pilani",
+      "Highest Package": "₹60 Lakh (Domestic), ₹1.33 Crore (International)",
+    },
+    {
+      College: "VIT Vellore",
+      "Highest Package": "₹1.02 Crore",
+    },
+    {
+      College: "SRM Institute of Science & Technology",
+      "Highest Package": "₹1 Crore",
     },
   ],
   courses: [
