@@ -139,7 +139,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-6 mt-2">
+          <div className="hidden md:flex items-center space-x-6 mt-1">
             {menuItems.map((item) => {
               const isActive = location.pathname === item.path;
               return (
@@ -159,7 +159,7 @@ const Navbar = () => {
             })}
             
             {/* Auth Section - Immediately renders without blocking */}
-            <div className="flex items-center space-x-4 ml-4 mt-2">
+            <div className="flex items-center space-x-4 ml-4 mt-1">
               {session?.user ? (
                 // User dropdown menu
                 <div className="relative" ref={userMenuRef} data-testid="nav-user">
