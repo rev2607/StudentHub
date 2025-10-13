@@ -9,5 +9,13 @@ export default defineConfig({
   envDir: ".",
   server: {
     port: 3000,
+    proxy: {
+      // Proxy backend API during development
+      "/api": {
+        target: "http://localhost:8000",
+        changeOrigin: true,
+        secure: false,
+      },
+    },
   },
 });

@@ -23,13 +23,14 @@ from services.news_service import news_service
 
 # Ensure all routers are imported correctly
 from routers import colleges, search, edu_updates, reviews, private_colleges , latest_news, auth, mock_tests
+from routers import chatbot
 
 app = FastAPI(title="Student Hub API")
 
 # Initialize DB tables
 Base.metadata.create_all(bind=engine)
 
-# Setup scheduler for news refresh
+# Setup scheduler for news refresh (disabled on Vercel via env flag)
 scheduler = BackgroundScheduler()
 
 def refresh_news_job():
@@ -40,20 +41,23 @@ def refresh_news_job():
     except Exception as e:
         print(f"❌ Scheduled news refresh failed: {str(e)}")
 
-# Schedule news refresh every hour
-scheduler.add_job(
-    func=refresh_news_job,
-    trigger=IntervalTrigger(hours=1),
-    id='news_refresh_job',
-    name='Refresh education news cache',
-    replace_existing=True
-)
+if os.getenv("DISABLE_SCHEDULER") != "1":
+    # Schedule news refresh every 18 hours
+    scheduler.add_job(
+        func=refresh_news_job,
+        trigger=IntervalTrigger(hours=18),
+        id='news_refresh_job',
+        name='Refresh education news cache (18h)',
+        replace_existing=True
+    )
 
-# Start scheduler
-scheduler.start()
+if os.getenv("DISABLE_SCHEDULER") != "1":
+    # Start scheduler
+    scheduler.start()
 
-# Ensure scheduler shuts down when app stops
-atexit.register(lambda: scheduler.shutdown())
+if os.getenv("DISABLE_SCHEDULER") != "1":
+    # Ensure scheduler shuts down when app stops
+    atexit.register(lambda: scheduler.shutdown())
 
 # Enable CORS for frontend access
 app.add_middleware(
@@ -73,6 +77,7 @@ app.include_router(reviews.router)
 app.include_router(latest_news.router)
 app.include_router(auth.router)
 app.include_router(mock_tests.router) 
+app.include_router(chatbot.router)
 
 # Serve static files (React build)
 app.mount("/static", StaticFiles(directory="static", html=True), name="static")
@@ -88,7 +93,7 @@ async def startup_event():
     """Initialize news cache on startup"""
     try:
         print("🚀 Starting StudentHub backend...")
-        if news_service.supabase_enabled:
+        if news_service.supabase_enabled and os.getenv("DISABLE_SCHEDULER") != "1":
             print("🔄 Populating initial news cache...")
             news_service.fetch_and_cache_news()
         else:
@@ -105,6 +110,15 @@ async def serve_react_app(request: Request, full_path: str):
         return {"detail": "Not Found"}
     index_path = os.path.join("static", "index.html")
     return FileResponse(index_path)
+
+# Cron endpoint for Vercel scheduler
+@app.post("/api/cron/refresh-news")
+def cron_refresh_news():
+    try:
+        refresh_news_job()
+        return {"status": "ok"}
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
 
 if __name__ == "__main__":
     import uvicorn

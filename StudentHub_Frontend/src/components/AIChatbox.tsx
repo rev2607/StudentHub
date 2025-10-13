@@ -17,7 +17,7 @@ const AIChatbox: React.FC<AIChatboxProps> = ({ isOpen, onClose }) => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      text: "Hello! I'm Student Hub AI. How can I help you with your academic questions today?",
+      text: "Hi, I'm Student Hub AI. What would you like to know? Share your goal (exam, college, branch) and I’ll ask a couple of quick questions to get you a precise answer.",
       isUser: false,
       timestamp: new Date()
     }
@@ -60,44 +60,37 @@ const AIChatbox: React.FC<AIChatboxProps> = ({ isOpen, onClose }) => {
     setInputMessage('');
     setIsTyping(true);
 
-    // Simulate AI response (replace with actual AI API call)
-    setTimeout(() => {
+    try {
+      const res = await fetch('/api/chatbot/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query: userMessage.text })
+      });
+      if (!res.ok) {
+        throw new Error('Failed to fetch response');
+      }
+      const data = await res.json();
+      const answerText = data.answer || data.output_text || 'Sorry, I could not generate a response.';
       const aiResponse: Message = {
         id: (Date.now() + 1).toString(),
-        text: generateAIResponse(inputMessage),
+        text: answerText,
         isUser: false,
         timestamp: new Date()
       };
       setMessages(prev => [...prev, aiResponse]);
+    } catch (e) {
+      const errorMsg: Message = {
+        id: (Date.now() + 2).toString(),
+        text: 'There was a problem contacting Student Hub AI. Please try again later.',
+        isUser: false,
+        timestamp: new Date()
+      };
+      setMessages(prev => [...prev, errorMsg]);
+    } finally {
       setIsTyping(false);
-    }, 1000 + Math.random() * 2000); // Random delay between 1-3 seconds
+    }
   };
 
-  const generateAIResponse = (userInput: string): string => {
-    const input = userInput.toLowerCase();
-    
-    if (input.includes('jee') || input.includes('engineering')) {
-      return "I can help you with JEE Main and Advanced preparation! JEE Main is conducted twice a year, and JEE Advanced is for top 2.5 lakh candidates. Would you like to know about specific topics, study strategies, or college admissions?";
-    }
-    
-    if (input.includes('neet') || input.includes('medical')) {
-      return "Great! NEET is the gateway to medical colleges in India. The exam tests Physics, Chemistry, and Biology. I can help you with study tips, important topics, or college selection. What specific aspect would you like to know about?";
-    }
-    
-    if (input.includes('college') || input.includes('admission')) {
-      return "I can assist you with college selection, admission processes, and cutoff information. Are you looking for information about specific colleges, courses, or admission procedures?";
-    }
-    
-    if (input.includes('exam') || input.includes('test')) {
-      return "I can help you with various competitive exams like JEE, NEET, GATE, UPSC, and more. What exam are you preparing for, and what specific information do you need?";
-    }
-    
-    if (input.includes('study') || input.includes('preparation')) {
-      return "Study strategies vary by exam and subject. I can provide personalized study plans, time management tips, and effective preparation techniques. Which exam or subject are you focusing on?";
-    }
-    
-    return "That's an interesting question! I'm here to help with your academic journey. Could you provide more details about what specific information you're looking for? I can assist with exam preparation, college selection, study strategies, and more.";
-  };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter' && !e.shiftKey) {
@@ -109,7 +102,7 @@ const AIChatbox: React.FC<AIChatboxProps> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+    <div className="fixed inset-0 bg-gray-900/30 backdrop-blur-sm flex items-center justify-center z-50 p-4">
       <div className="bg-white rounded-lg shadow-2xl w-full max-w-md h-[600px] flex flex-col">
         {/* Header */}
         <div className="bg-gradient-to-r from-[var(--site-green)] to-[#7bb53a] text-white p-4 rounded-t-lg flex items-center justify-between">
