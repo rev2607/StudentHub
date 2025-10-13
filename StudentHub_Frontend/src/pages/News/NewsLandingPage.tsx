@@ -51,8 +51,38 @@ export default function NewsLandingPage() {
           getNewsPage({ q, exams: selectedExams, page, pageSize: DEFAULT_PAGE_SIZE }),
         ]);
         if (!active) return;
-        setTopMajor(majors);
-        setItems(pageRes.items);
+        // Keep only articles with a real image (exclude placeholders)
+        const isValidImage = (url?: string | null) => {
+          if (!url || typeof url !== 'string') return false;
+          if (!url.startsWith('http')) return false;
+          if (url === 'https://placehold.co/400x300/4ade80/ffffff?text=News') return false;
+          if (url.includes('placehold.co') && url.includes('text=News')) return false;
+          return true;
+        };
+        const majorsWithImages = majors.filter(a => isValidImage(a.image_url));
+        let poolWithImages = pageRes.items.filter(a => isValidImage(a.image_url));
+        // Backfill the topMajor to ensure 3 items by pulling from pool items not in majors
+        const majorIds = new Set(majorsWithImages.map(a => a.id));
+        const fillers = poolWithImages.filter(a => !majorIds.has(a.id)).slice(0, Math.max(0, 3 - majorsWithImages.length));
+        const topFilled = [...majorsWithImages, ...fillers].slice(0, 3);
+        setTopMajor(topFilled);
+
+        // Ensure the grid's last row is filled: if remainder 1 or 2, fetch from next page and append up to the deficit
+        const remainder = poolWithImages.length % 3;
+        if (remainder !== 0) {
+          const deficit = 3 - remainder;
+          try {
+            const nextPageRes = await getNewsPage({ q, exams: selectedExams, page: page + 1, pageSize: DEFAULT_PAGE_SIZE });
+            const nextWithImages = nextPageRes.items.filter(a => isValidImage(a.image_url));
+            const existingIds = new Set(poolWithImages.map(a => a.id));
+            const toAppend = nextWithImages.filter(a => !existingIds.has(a.id)).slice(0, deficit);
+            poolWithImages = [...poolWithImages, ...toAppend];
+          } catch (_) {
+            // ignore fill failure
+          }
+        }
+
+        setItems(poolWithImages);
         setTotal(pageRes.total);
       } catch (e) {
         console.error(e);
