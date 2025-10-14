@@ -1,0 +1,202 @@
+{
+    "Overview": "VITEEE (VIT Engineering Entrance Examination) 2026 is the entrance exam conducted by VIT University for B.Tech admissions across VIT Vellore, VIT Chennai, VIT Bhopal, and VIT AP campuses. The test is conducted once a year in online (computer-based) mode and is taken by over 2 lakh candidates. Admissions are based on VITEEE rank, subject to qualifying eligibility.",
+    "ImportantDates": {
+      "ApplicationFormRelease": "First week of November 2025 (tentative)",
+      "LastDateToSubmit": "First week of April 2026",
+      "SlotBooking": "April 2026",
+      "AdmitCardRelease": "48 hours before slot",
+      "ExamDates": "Third week of April 2026 (expected window: April 17–25, 2026)",
+      "ResultDeclaration": "April 30, 2026 (expected)",
+      "CounsellingRegistration": "First week of May 2026",
+      "CounsellingRounds": "May – June 2026",
+      "CommencementOfClasses": "August 2026"
+    },
+    "Eligibility": {
+      "Age": "Must be born on or after July 1, 2004",
+      "Nationality": "Indian nationals/NRIs/PIOs/OCIs eligible",
+      "QualifyingExam": "10+2 or equivalent, recognized board",
+      "MinimumMarks": {
+        "General": "60% aggregate in Physics, Chemistry, Mathematics/Biology (PCM/PCB/PCMB)",
+        "Relaxation": "50% for SC/ST/J&K, Ladakh, North-Eastern states"
+      },
+      "SubjectCriteria": {
+        "MathematicsCandidates": "Eligible for all B.Tech programs",
+        "BiologyCandidates": "Eligible for select B.Tech Bio-related courses"
+      }
+    },
+    "Application": {
+      "Mode": "Online (viteee.vit.ac.in)",
+      "ApplicationFee": {
+        "IndianApplicants": "INR 1,350",
+        "NRI_ForeignApplicants": "USD 90"
+      },
+      "DocumentsRequired": [
+        "Recent photo",
+        "Signature",
+        "Proof of age",
+        "Qualifying exam mark sheets"
+      ],
+      "Steps": [
+        "Online registration and form filling",
+        "Upload documents (photo, signature)",
+        "Pay fee online (Credit/Debit/Net Banking/UPI)",
+        "Slot booking for exam date/center",
+        "Download admit card"
+      ]
+    },
+    "ExamPattern": {
+      "Mode": "Computer-Based Test (CBT)",
+      "Duration": "2 hours 30 minutes (150 minutes)",
+      "Sections": {
+        "Mathematics/Biology": 40,
+        "Physics": 35,
+        "Chemistry": 35,
+        "Aptitude": 10,
+        "English": 5
+      },
+      "TotalQuestions": 125,
+      "Type": "Multiple Choice Questions (MCQs)",
+      "MarkingScheme": {
+        "CorrectAnswer": "+1",
+        "NegativeMarking": "No negative marking"
+      },
+      "Language": "English only"
+    },
+    "Syllabus": {
+      "Mathematics": [
+        "Matrices",
+        "Trigonometry",
+        "Complex Numbers",
+        "Analytical Geometry (2D/3D)",
+        "Differential & Integral Calculus",
+        "Probability",
+        "Vector Algebra",
+        "Differential Equations",
+        "Discrete Mathematics",
+        "Applications"
+      ],
+      "Physics": [
+        "Laws of Motion",
+        "Properties of Matter",
+        "Electrostatics",
+        "Current Electricity",
+        "Magnetism",
+        "Electromagnetic Induction",
+        "Optics",
+        "Dual Nature of Radiation",
+        "Atomic & Nuclear Physics",
+        "Semiconductor Devices"
+      ],
+      "Chemistry": [
+        "Atomic Structure",
+        "p/d/f Block Elements",
+        "Thermodynamics",
+        "Chemical Equilibrium",
+        "Chemical Kinetics",
+        "Isomerism",
+        "Alcohols",
+        "Ethers",
+        "Carbonyl Compounds",
+        "Electrochemistry",
+        "Carboxylic Acids",
+        "Coordination Chemistry",
+        "Biomolecules",
+        "Solid State Chemistry"
+      ],
+      "Biology": [
+        "Taxonomy",
+        "Cell Biology",
+        "Physiology",
+        "Genetics",
+        "Evolution",
+        "Biochemistry",
+        "Biotechnology",
+        "Ecology"
+      ],
+      "Aptitude": [
+        "Verbal/Logical Reasoning",
+        "Series",
+        "Coding–Decoding",
+        "Directions",
+        "Blood Relations",
+        "Puzzles",
+        "Grammar",
+        "Comprehension"
+      ]
+    },
+    "Cutoff": {
+      "VIT_Vellore": {
+        "CSE_Core": "Up to ~7,000",
+        "CSE_AI_DS_ML": "~6,000 – 7,500",
+        "ECE": "~13,000 – 15,000"
+      },
+      "VIT_Chennai": {
+        "CSE_Core": "~12,000 – 15,000",
+        "CSE_Specialisations": "~10,000 – 14,000",
+        "ECE_Mechanical": "~20,000 – 40,000"
+      },
+      "VIT_Bhopal_AP": {
+        "CSE": "~30,000 – 50,000",
+        "ECE_Mech_OtherBranches": "~60,000 – 80,000"
+      },
+      "GeneralNote": "B.Tech admissions possible up to 1 Lakh rank for Bhopal/AP; higher ranks only eligible for limited branches"
+    },
+    "Counselling": {
+      "Mode": "Online (May 2026)",
+      "Phases": {
+        "Phase1": "Rank 1–20,000",
+        "Phase2": "Rank 20,001–45,000",
+        "Phase3": "Higher ranks; >1 lakh rank eligible for Bhopal/AP only"
+      },
+      "Fees": {
+        "RegistrationFee": "INR 5,900 (non-refundable, including GST)",
+        "AdvanceTuitionFee": "₹50,000–₹2,00,000 (varies by branch/campus, paid after seat allotment)"
+      },
+      "Process": [
+        "Online registration and payment",
+        "Seat allotment based on merit, preference, and availability",
+        "Document verification",
+        "Provisional admission letter issued after payment"
+      ],
+      "DocumentsRequired": [
+        "VITEEE admit card",
+        "Rank card",
+        "Class 10/12 certificates",
+        "Photo ID proof",
+        "Category certificate (if relevant)",
+        "Transfer/migration certificate"
+      ]
+    },
+    "FeeStructure": {
+      "TuitionFeePerYear": {
+        "GroupA": "₹1,73,000 + ₹3,000 caution deposit = ₹1,76,000",
+        "GroupB": "₹1,95,000 + ₹3,000 caution deposit = ₹1,98,000"
+      },
+      "FullCourseFee": {
+        "Vellore/Chennai/Bhopal_GroupA": "₹6,95,000",
+        "GroupB": "₹7,86,000",
+        "VIT_AP_GroupB": "₹16,11,000"
+      },
+      "Note": "Includes tuition & caution deposit; hostel/mess fees additional"
+    },
+    "SeatMatrix": {
+      "VIT_Vellore": {
+        "CSE": "1,200–1,500",
+        "CSE_AI_ML_DS": "600–800",
+        "ECE": "800–1,000",
+        "Mech": "400–600",
+        "EEE": "400–500"
+      },
+      "VIT_Chennai": {
+        "CSE/ECE/Mech": "600–800 each"
+      },
+      "VIT_Bhopal_AP": {
+        "CSE/ECE/Mech": "400–600 per branch"
+      },
+      "Specialisations": "AI/ML, Cyber Security, Data Science, IoT have limited seats under CSE/ECE"
+    },
+    "Sources": [
+      "https://collegedunia.com/exams/viteee",
+      "https://collegedunia.com/exams"
+    ]
+  }

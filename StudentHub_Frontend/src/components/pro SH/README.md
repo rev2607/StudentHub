@@ -13,7 +13,7 @@ A comprehensive examination dates portal built with React, TypeScript, and Vite.
 
 ## 📋 Exam Categories
 
-- Engineering (JEE Main, EAMCET, KCET, BITSAT, GATE)
+- Engineering (JEE Main, EAMCET, BITSAT, GATE)
 - Medical (NEET)
 - Management (CAT)
 - Government (UPSC CSE)

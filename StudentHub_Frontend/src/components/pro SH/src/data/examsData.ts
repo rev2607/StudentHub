@@ -465,57 +465,6 @@ export const examsData: Exam[] = [
     dataStatus: getDataStatus('NDA')
   },
   {
-    id: '9',
-    name: 'KCET',
-    fullName: 'Karnataka Common Entrance Test',
-    examDate: '2025-04-18',
-    applicationStartDate: '2025-01-10',
-    applicationEndDate: '2025-02-10',
-    resultDate: '2025-05-20',
-    category: 'Engineering',
-    level: 'State',
-    description: 'KCET is conducted for admission to Engineering, Medical and other professional courses in Karnataka.',
-    website: 'https://cetonline.karnataka.gov.in',
-    eligibility: '10+2 with Physics, Chemistry, Mathematics/Biology',
-    subjects: ['Physics', 'Chemistry', 'Mathematics', 'Biology'],
-    isUpcoming: true,
-    daysUntil: 37,
-    applicationFee: {
-      general: 500,
-      obc: 500,
-      sc: 250,
-      st: 250,
-      currency: 'INR'
-    },
-    cutoffMarks: [
-      {
-        year: 2023,
-        general: 88.5,
-        obc: 85.2,
-        sc: 81.8,
-        st: 78.5,
-        totalMarks: 180
-      },
-      {
-        year: 2022,
-        general: 91.1,
-        obc: 87.8,
-        sc: 84.4,
-        st: 81.1,
-        totalMarks: 180
-      },
-      {
-        year: 2021,
-        general: 89.8,
-        obc: 86.5,
-        sc: 83.1,
-        st: 79.8,
-        totalMarks: 180
-      }
-    ],
-    dataStatus: getDataStatus('KCET')
-  },
-  {
     id: '10',
     name: 'BITSAT',
     fullName: 'Birla Institute of Technology and Science Admission Test',

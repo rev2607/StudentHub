@@ -19,6 +19,11 @@ import NewsDetailPage from "./pages/News/NewsDetailPage";
 import ExamsLandingPage from "./pages/Exams/ExamsLandingPage";
 import JEEMainPage from "./pages/Exams/JEEMainPage";
 import NEETPage from "./pages/Exams/NEETPage";
+import BITSATPage from "./pages/Exams/BITSATPage";
+import VITEEEPage from "./pages/Exams/VITEEEPage";
+import APEAMCETPage from "./pages/Exams/APEAMCETPage";
+import TSEAMCETPage from "./pages/Exams/TSEAMCETPage";
+import TGSEAMCETPage from "./pages/Exams/TGSEAMCETPage";
 import ExamDetailPage from "./pages/Exams/ExamDetailPage";
 import ResultsPage from "./pages/Results/ResultsPage";
 
@@ -44,6 +49,13 @@ function App() {
             <Route path="/exams" element={<ExamsLandingPage />} />
             <Route path="/exams/jee-main" element={<JEEMainPage />} />
             <Route path="/exams/neet" element={<NEETPage />} />
+            <Route path="/exams/bitsat" element={<BITSATPage />} />
+            <Route path="/exams/viteee" element={<VITEEEPage />} />
+            <Route path="/exams/apeamcet" element={<APEAMCETPage />} />
+            <Route path="/exams/ap-eamcet" element={<APEAMCETPage />} />
+            <Route path="/exams/tseamcet" element={<TSEAMCETPage />} />
+            <Route path="/exams/eamcet" element={<TSEAMCETPage />} />
+            <Route path="/exams/tgseamcet" element={<TGSEAMCETPage />} />
             <Route path="/exams/:slug" element={<ExamDetailPage />} />
             <Route path="/results" element={<ResultsPage />} />
             <Route path="/colleges" element={<CollegesListPage />} />

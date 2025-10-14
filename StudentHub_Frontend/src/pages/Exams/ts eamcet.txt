@@ -1,0 +1,80 @@
+Overview
+TS EAMCET (Telangana State Engineering, Agriculture & Medical Common Entrance Test), officially called TG EAPCET since 2024, is a state-level computer-based entrance examination conducted by Jawaharlal Nehru Technological University, Hyderabad (JNTUH) on behalf of TSCHE. It is for admission to undergraduate Engineering, Agriculture, and Pharmacy programs in Telangana. Over 116,000 seats are offered, with a significant seat increase mainly in Computer Science and allied branches.
+
+Important Dates
+- Application Form Release: First week of March 2026 (expected)
+- Application Correction Window: First week of April 2026
+- Admit Card Release: Three to five days before the exam
+- Exam Dates: Third week of May 2026 (Engineering, Agriculture & Pharmacy streams)
+- Answer Key Update: Within 2 days after exam
+- Result Declaration: Last week of May 2026
+- Counselling Rounds: Three rounds, followed by spot admissions from June to August 2026
+
+Eligibility
+- Nationality: Indian nationals, PIO/OCI card holders
+- Domicile: Telangana/Andhra Pradesh local/non-local status required
+- Age Limit: 17–22 years as of Dec 31, 2026 (General), up to 25 years for SC/ST; no age limit for Pharmacy
+- Education: Passed 10+2/Intermediate (or equivalent, recognized board) with relevant subjects for Engineering (PCM) or Agriculture/Pharmacy (PCMB/Biology)
+- Minimum Marks: 45% aggregate in PCM/PCB for General, 40% for reserved categories (Engineering); Biology/agriculture streams must meet streamwise subject and mark requirements
+
+Application
+- Mode: Online via eamcet.tsche.ac.in
+- Fee: INR 900 (General) / INR 500 (SC/ST); Both streams INR 1800/1000
+- Required Documents: Recent photo, signature, birth certificate, qualifying exam marksheet, caste/income/local status certificate, Aadhaar
+- Steps:
+  1. Fee payment
+  2. Online form filling and document upload
+  3. Print confirmation page
+  4. Correction window for errors (early April)
+
+Exam Pattern
+- Computer-Based Test (CBT), 3 hours duration
+- Languages: English, Telugu, Urdu
+- Papers: Engineering or Agriculture/Pharmacy
+- Questions: 160 (Engineering: 80 Mathematics, 40 Physics, 40 Chemistry; Agriculture/Pharmacy: 80 Biology, 40 Physics, 40 Chemistry)
+- All MCQs; 1 mark per correct answer; No negative marking
+
+Syllabus
+- Based on latest TS Board of Intermediate and NCERT Class 11 & 12 curriculum
+- Engineering: Mathematics (Algebra, Calculus, Probability, Vectors, Geometry), Physics (Mechanics, Waves, Laws of Motion, Optics, Electricity & Magnetism), Chemistry (Atomic Structure, Thermodynamics, Equilibrium, Organic & Inorganic Chemistry, Biomolecules)
+- Agriculture/Pharmacy: Botany (Cell Biology, Taxonomy, Physiology, Genetics), Zoology (Physiology, Genetics, Evolution), Physics & Chemistry as above
+- Official syllabus details are released on exam website before application window opens
+
+Cutoff
+- Qualifying Marks: 25% of total marks (General); No minimum for SC/ST
+- 2026 Seat Intake: 116,877 total (Engineering, Agriculture, Pharmacy) – up by 9,433 from previous year
+- 2026 Engineering Cutoff (expected branchwise closing ranks):
+  - Osmania University College of Engineering: ~2,400
+  - JNTUH College of Engineering: ~11,500
+  - MVSR Engineering College: ~9,800
+  - CBIT Hyderabad: ~11,800
+  - Vasavi College: ~28,600
+  - VNR VJIET: ~56,500
+  - CVR College: ~130,000
+  - Lower tier colleges: up to 130,000+
+- Marks vs Rank (indicative for 2026):
+  - 160–155: 1–50
+  - 154–150: 51–150
+  - 149–140: 151–400
+  - 139–130: 401–1200
+  - 129–120: 1201–2000
+  - 119–110: 2001–4500
+  - 109–100: 4501–6000
+  - 99–90: 6001–10000
+  - 89–80: 10001–15000
+  - 79–70: 15001–25000
+  - 69–60: 25001–40000
+  - 59–50: 40001–50000
+  - 49–40: 50001–80000
+  - Below 40: >80000
+
+Counselling
+- Three rounds: Registration, certificate verification, web options entry and seat allotment; final internal sliding and spot admissions in August 2026
+- Fee: INR 1200 (OC/BC), INR 600 (SC/ST)
+- Documents Required: Rank card, hall ticket, Aadhaar, SSC/Inter certificate, category/local status/income certificates
+- Seat allotment based on rank, reservation, option entry, seat availability
+- 15% seats for unreserved category; 85% for Telangana local candidates
+- Branch and college change via sliding after first allotment
+- Spot round for unfilled/vacant seats at end of counselling
+
+End of TS EAMCET 2026 structured data.
