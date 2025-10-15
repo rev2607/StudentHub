@@ -1,7 +1,6 @@
 // import { Search } from "lucide-react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { navigateToSearchPage } from "../navigationToSearchPage";
 
 // Import SVG icons
 import ResultsIcon from "../../../assets/Results.svg";
@@ -20,7 +19,7 @@ const menuItems = [
   { icon: ExamsIcon, label: "Exams", path: "/exams" },
   { icon: EngineeringIcon, label: "Engineering", path: "/colleges" },
   { icon: MockTestsIcon, label: "Mock Tests", path: "/mock-tests" },
-  { icon: TrainingIcon, label: "Training\nInstitutes", path: "/training-institutes" },
+  { icon: TrainingIcon, label: "Psychometric\ntest", path: "/psychometric-test" },
   { icon: MBBSIcon, label: "MBBS", path: "/mbbs" },
   { icon: StudyAbroadIcon, label: "Study Abroad", path: "/study-abroad" },
   { icon: ReviewsIcon, label: "Reviews", path: "/reviews" },
@@ -29,37 +28,14 @@ const menuItems = [
 const Hero = () => {
   const navigate = useNavigate();
   const [searchValue, setSearchValue] = useState("");
-  const [isSearching, setIsSearching] = useState(false);
-  const [searchError, setSearchError] = useState<string | null>(null);
 
   const handleSearch = async (e: React.FormEvent) => {
     e.preventDefault();
     const query = searchValue.trim();
     if (!query) return;
 
-    try {
-      setIsSearching(true);
-      setSearchError(null);
-
-      const response = await fetch("/api/search/", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query }),
-      });
-
-      const json = await response.json();
-      // Persist for Search page consumption
-      localStorage.setItem("searchQuery", query);
-      localStorage.setItem("searchData", JSON.stringify(json?.data || {}));
-
-      navigate("/search");
-    } catch (err: any) {
-      setSearchError("Search failed. Please try again.");
-      // Fallback: still navigate with just the query
-      navigateToSearchPage(navigate, query);
-    } finally {
-      setIsSearching(false);
-    }
+    // Navigate to Ask Us page with the query
+    navigate("/ask-us", { state: { query } });
   };
 
   return (
@@ -94,15 +70,11 @@ const Hero = () => {
               />
               <button
                 type="submit"
-                className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-8 py-4 text-base font-semibold rounded-full transition-colors duration-300 disabled:opacity-60 disabled:cursor-not-allowed"
-                disabled={isSearching}
+                className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-8 py-4 text-base font-semibold rounded-full transition-colors duration-300"
               >
-                {isSearching ? "Searching..." : "Search"}
+                Search
               </button>
             </form>
-            {searchError && (
-              <p className="text-red-200 text-sm mt-2">{searchError}</p>
-            )}
           </div>
           
           {/* Right column: Icon Grid */}
@@ -115,7 +87,7 @@ const Hero = () => {
                 return (
                   <button
                     key={item.label}
-                    onClick={() => item.path ? navigate(item.path) : navigateToSearchPage(navigate, item.label)}
+                    onClick={() => item.path ? navigate(item.path) : navigate("/ask-us", { state: { query: item.label } })}
                     className="flex flex-col items-center justify-center border border-[var(--site-green)] bg-transparent transition-all duration-300 shadow-sm p-0"
                     style={{
                       borderRadius: '8px',

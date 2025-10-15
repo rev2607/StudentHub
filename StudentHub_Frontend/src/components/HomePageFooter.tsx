@@ -77,38 +77,6 @@ const HomePageFooter = () => {
         },
       ],
     },
-    {
-      title: "TOP MEDICAL COLLEGES",
-      subSections: [
-        {
-          title: "State Wise",
-          items: [
-            "Top Medical Colleges In India",
-            "Top Medical Colleges In Tamilnadu",
-            "Top Medical Colleges In Telangana",
-            "Top Medical Colleges In Andhra Pradesh",
-            "Top Medical Colleges In Karnataka",
-          ],
-        },
-        {
-          title: "City Wise",
-          items: ["Top Medical Colleges In Bangalore", "Top Medical Colleges In Chennai", "Top Medical Colleges In Hyderabad"],
-        },
-      ],
-    },
-    {
-      title: "TOP MBA COLLEGES",
-      subSections: [
-        {
-          title: "State Wise",
-          items: ["Top M.B.A Colleges In India", "Top M.B.A Colleges In Tamilnadu", "Top M.B.A Colleges Telangana", "Top M.B.A Colleges In Andhra Pradesh", "Top M.B.A Colleges In Karnataka"],
-        },
-        {
-          title: "City Wise",
-          items: ["Top M.B.A Colleges In Bangalore", "Top M.B.A Colleges In Chennai", "Top M.B.A Colleges In Hyderabad"],
-        },
-      ],
-    },
   ];
 
   return (
@@ -132,54 +100,93 @@ const HomePageFooter = () => {
           </div>
         </div>
         <hr className="border-gray-600 mb-8" />
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
-          <div>
-            <h2 className="font-bold mb-4">ABOUT US</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+          {/* About Us Section */}
+          <div className="lg:col-span-1">
+            <h2 className="font-bold text-lg mb-6 text-white">ABOUT US</h2>
+            <ul className="space-y-3 text-sm">
+              <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Our Story</li>
+              <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Leadership</li>
+              <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Careers</li>
+              <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Learner Stories</li>
+              <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Blog</li>
+              <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Contact Us</li>
+            </ul>
+            
+            {/* Quick Links */}
+            <div className="mt-8">
+              <h3 className="font-semibold text-sm mb-4 text-white">QUICK LINKS</h3>
+              <ul className="space-y-2 text-sm">
+                <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Admission Process</li>
+                <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Scholarships</li>
+                <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Education Loans</li>
+                <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Study Abroad</li>
+                <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Career Guidance</li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Engineering Colleges Section */}
+          <div className="lg:col-span-1">
+            <h2 className="font-bold text-lg mb-6 text-white">TOP ENGINEERING COLLEGES</h2>
+            {topColleges.map((college, index) => (
+              <div key={index}>
+                {college.subSections.map((subSection, subIndex) => (
+                  <div key={subIndex} className={subIndex > 0 ? "mt-6" : ""}>
+                    <h3 className="text-sm text-gray-300 mb-4 font-medium uppercase tracking-wide">{subSection.title}</h3>
+                    <ul className="space-y-3 text-sm">
+                      {subSection.items.map((item, itemIndex) => (
+                        <li 
+                          key={itemIndex} 
+                          className={`hover:text-[var(--site-green)] transition-colors cursor-pointer ${
+                            itemIndex === 0 ? "text-[var(--site-green)] font-medium" : ""
+                          }`} 
+                          onClick={() => navigateToSearchPage(navigate, item)}
+                        >
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+
+          {/* Exams & Resources Section */}
+          <div className="lg:col-span-1">
+            <h2 className="font-bold text-lg mb-6 text-white">TOP EXAMS</h2>
+            <ul className="space-y-3 text-sm mb-8">
+              <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">JEE Main</li>
+              <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">JEE Advanced</li>
+              <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">NEET</li>
+              <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">VITEEE</li>
+              <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">BITSAT</li>
+              <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">TS EAMCET</li>
+            </ul>
+            
+            <h3 className="font-semibold text-sm mb-4 text-white">RESOURCES</h3>
             <ul className="space-y-2 text-sm">
-              <li>Our Story</li>
-              <li>Leadership</li>
-              <li>Careers</li>
-              <li>Learner Stories</li>
-              <li>Blog</li>
-              <li>Contact Us</li>
+              <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Mock Tests</li>
+              <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Previous Year Papers</li>
+              <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Study Materials</li>
+              <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Exam Calendar</li>
+              <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Result Analysis</li>
             </ul>
           </div>
 
-          {topColleges.map((college, index) => (
-            <div key={index}>
-              <h2 className="font-bold mb-4">{college.title}</h2>
-              {college.subSections.map((subSection, subIndex) => (
-                <div key={subIndex}>
-                  <h3 className="text-xs text-gray-400 mb-2">{subSection.title}</h3>
-                  <ul className="space-y-2 text-sm">
-                    {subSection.items.map((item, itemIndex) => (
-                      <li key={itemIndex} className={itemIndex === 0 ? "text-[var(--site-green)]" : ""} onClick={() => navigateToSearchPage(navigate, item)}>
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          ))}
-
-          <div className="flex flex-col gap-4">
-            <div>
-              <h2 className="font-bold mb-4">TOP EXAMS</h2>
-              <ul className="space-y-2 text-sm">
-                <li>JEE Mains</li>
-                <li>NEET</li>
-                <li>VITEEE</li>
-              </ul>
-            </div>
-            <div>
-              <h2 className="font-bold mb-4">GET IN TOUCH</h2>
-              <p className="text-xs mb-2">We don't send spam so don't worry.</p>
+          {/* Contact & Newsletter Section */}
+          <div className="lg:col-span-1">
+            <h2 className="font-bold text-lg mb-6 text-white">GET IN TOUCH</h2>
+            
+            {/* Newsletter */}
+            <div className="mb-8">
+              <p className="text-sm text-gray-300 mb-4">Stay updated with the latest education news and opportunities.</p>
               <form className="w-full" onSubmit={handleEmailSubmit}>
-                <div className="flex flex-col sm:flex-row w-full gap-2 mb-3">
+                <div className="flex flex-col gap-3 mb-3">
                   <input 
-                    className="p-2 rounded-full text-black border border-gray-300 bg-white flex-1 min-w-0 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent" 
-                    placeholder="Email ..." 
+                    className="p-3 rounded-lg text-black border border-gray-300 bg-white flex-1 min-w-0 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all" 
+                    placeholder="Enter your email address" 
                     type="email" 
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
@@ -187,60 +194,133 @@ const HomePageFooter = () => {
                     required
                   />
                   <button 
-                    className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-full whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed transition-colors" 
+                    className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-[#262443] px-6 py-3 rounded-lg font-semibold disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-sm hover:shadow-md" 
                     type="submit"
                     disabled={isSubmitting}
                   >
-                    {isSubmitting ? 'Submitting...' : 'Submit'}
+                    {isSubmitting ? 'Submitting...' : 'Subscribe'}
                   </button>
                 </div>
                 {submitMessage && (
-                  <div className={`text-xs mt-2 ${submitMessage.includes('error') || submitMessage.includes('Sorry') ? 'text-red-400' : 'text-green-400'}`}>
+                  <div className={`text-sm mt-2 ${submitMessage.includes('error') || submitMessage.includes('Sorry') ? 'text-red-400' : 'text-green-400'}`}>
                     {submitMessage}
                   </div>
                 )}
               </form>
             </div>
-            <div className="flex items-center gap-3 mb-2">
-              <img src="https://storage.googleapis.com/a1aa/image/zfR1oZtA9d_wNCyy4Dpkw4x8BXgSzFXGc25LHaW5yl0.jpg" alt="QR Code" className="w-20 h-20 rounded bg-white p-1" />
-              <div className="flex flex-col justify-center">
-                <div className="flex items-center gap-2 mb-1">
-                  <img src={whatsappLogo} alt="WhatsApp" className="w-5 h-5" />
-                  <span className="font-bold text-green-400">WhatsApp</span>
+
+            {/* WhatsApp QR */}
+            <div className="bg-white/10 rounded-lg p-4 mb-6">
+              <div className="flex items-center gap-4">
+                <img 
+                  src="https://storage.googleapis.com/a1aa/image/zfR1oZtA9d_wNCyy4Dpkw4x8BXgSzFXGc25LHaW5yl0.jpg" 
+                  alt="QR Code" 
+                  className="w-16 h-16 rounded bg-white p-1 flex-shrink-0" 
+                />
+                <div className="flex flex-col justify-center">
+                  <div className="flex items-center gap-2 mb-2">
+                    <img src={whatsappLogo} alt="WhatsApp" className="w-5 h-5" />
+                    <span className="font-bold text-[var(--site-green)]">Join WhatsApp Community</span>
+                  </div>
+                  <p className="text-xs leading-tight text-gray-300">
+                    Get instant updates and connect with fellow students!
+                  </p>
                 </div>
-                <p className="text-xs leading-tight">
-                  SCAN the QR to join our <span className="font-bold">Student Hub Community</span> and stay updated with the latest news!
-                </p>
               </div>
             </div>
-            <div className="flex items-start gap-2">
-              <svg className="w-5 h-5 text-[var(--site-green)] mt-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
-              <div>
-                <p className="font-bold text-xs">Get Directions</p>
-                <p className="text-xs">Inorbit Mall Rd, APIIC Software Layout, Mindspace, Madhapur, Telangana 500081</p>
+
+            {/* Contact Info */}
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <svg className="w-5 h-5 text-[var(--site-green)] mt-1 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a2 2 0 01-2.828 0l-4.243-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <div>
+                  <p className="font-semibold text-sm text-white">Office Address</p>
+                  <p className="text-xs text-gray-300 leading-relaxed">
+                    Inorbit Mall Rd, APIIC Software Layout,<br />
+                    Mindspace, Madhapur,<br />
+                    Telangana 500081
+                  </p>
+                </div>
+              </div>
+              
+              <div className="flex items-start gap-3">
+                <svg className="w-5 h-5 text-[var(--site-green)] mt-1 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <div>
+                  <p className="font-semibold text-sm text-white">Email Support</p>
+                  <p className="text-xs text-gray-300">info@studenthub.in</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <hr className="border-gray-600 my-8" />
-        <div className="flex flex-col sm:flex-row justify-between items-center text-xs text-center space-y-2 sm:space-y-0">
-          <p>© 2025 Copyright. All Rights Reserved.</p>
-          <div className="flex flex-wrap justify-center sm:justify-end gap-3">
-            <a className="hover:underline" href="#">
-              About Us
-            </a>
-            <a className="hover:underline" href="#">
-              Education Loans
-            </a>
-            <a className="hover:underline" href="#">
+        
+        {/* Bottom Section */}
+        <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
+          {/* Copyright */}
+          <div className="flex flex-col sm:flex-row items-center gap-4">
+            <p className="text-sm text-gray-300">© 2025 StudentHub.in. All Rights Reserved.</p>
+            <div className="flex items-center gap-2 text-xs text-gray-400">
+              <span>Made with</span>
+              <svg className="w-4 h-4 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
+              </svg>
+              <span>in India</span>
+            </div>
+          </div>
+          
+          {/* Legal Links */}
+          <div className="flex flex-wrap justify-center lg:justify-end gap-4 text-sm">
+            <a className="text-gray-300 hover:text-[var(--site-green)] transition-colors" href="#">
               Privacy Policy
             </a>
-            <a className="hover:underline" href="#">
+            <a className="text-gray-300 hover:text-[var(--site-green)] transition-colors" href="#">
+              Terms of Service
+            </a>
+            <a className="text-gray-300 hover:text-[var(--site-green)] transition-colors" href="#">
+              Cookie Policy
+            </a>
+            <a className="text-gray-300 hover:text-[var(--site-green)] transition-colors" href="#">
               Advertise With Us
             </a>
-            <a className="hover:underline" href="#">
-              Terms of Use
+            <a className="text-gray-300 hover:text-[var(--site-green)] transition-colors" href="#">
+              Education Loans
             </a>
+          </div>
+        </div>
+        
+        {/* Additional Info */}
+        <div className="mt-6 pt-6 border-t border-gray-700">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-400">
+            <div className="flex items-center gap-6">
+              <span>Trusted by 10,000+ Students</span>
+              <span>•</span>
+              <span>100+ Partner Colleges</span>
+              <span>•</span>
+              <span>24/7 Support</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span>Follow us on:</span>
+              <div className="flex items-center gap-2">
+                <a href="#" className="hover:text-[var(--site-green)] transition-colors">
+                  <img src={facebookLogo} alt="Facebook" className="w-4 h-4" />
+                </a>
+                <a href="#" className="hover:text-[var(--site-green)] transition-colors">
+                  <img src={instagramLogo} alt="Instagram" className="w-4 h-4" />
+                </a>
+                <a href="#" className="hover:text-[var(--site-green)] transition-colors">
+                  <img src={twitterLogo} alt="Twitter" className="w-4 h-4" />
+                </a>
+                <a href="#" className="hover:text-[var(--site-green)] transition-colors">
+                  <img src={linkedinLogo} alt="LinkedIn" className="w-4 h-4" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

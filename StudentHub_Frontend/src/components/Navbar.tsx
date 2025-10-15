@@ -20,7 +20,7 @@ const Navbar = () => {
     { title: "Exams", path: "/exams" },
     { title: "Colleges", path: "/colleges" },
     { title: "Mock Tests", path: "/mock-tests" },
-    { title: "Training Institutes", path: "/training-institutes" },
+    { title: "Psychometric test", path: "/psychometric-test" },
   ];
 
   // Check auth state on mount and subscribe to changes (non-blocking)
@@ -126,108 +126,114 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md py-2">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
-          <div className="flex items-center">
-            <Link to="/" className="flex-shrink-0">
-              <h1 className="text-2xl font-extrabold text-[var(--site-green)] flex items-center gap-2">
-                <img src="/StudentHub_Blue_Logo.svg" className="w-32 sm:w-38 md:w-44 lg:w-52 xl:w-58" alt="StudentHub Logo" />
-                <span className="hidden">STUDENT HUB.IN</span>
-              </h1>
+    <nav className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-40">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
+        <div className="flex justify-between items-center h-16 sm:h-18 lg:h-20">
+          {/* Logo Section */}
+          <div className="flex items-center flex-shrink-0">
+            <Link to="/" className="flex items-center">
+              <img 
+                src="/StudentHub_Blue_Logo.svg" 
+                className="h-8 sm:h-10 lg:h-12 w-auto" 
+                alt="StudentHub Logo" 
+              />
             </Link>
           </div>
 
-          {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-6 mt-1">
+          {/* Desktop Navigation */}
+          <div className="hidden lg:flex items-center space-x-1 xl:space-x-2">
             {menuItems.map((item) => {
               const isActive = location.pathname === item.path;
               return (
                 <Link 
                   key={item.title} 
                   to={item.path} 
-                  className={`relative text-[#262443] hover:text-[var(--site-green)] transition-colors duration-200 text-base font-normal pb-2 pt-1 ${
-                    isActive ? 'text-[var(--site-green)]' : ''
+                  className={`relative px-3 py-2 xl:px-4 text-sm font-medium transition-all duration-200 rounded-md ${
+                    isActive 
+                      ? 'text-[var(--site-green)] bg-green-50' 
+                      : 'text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50'
                   }`}
                 >
                   {item.title}
                   {isActive && (
-                    <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-[var(--site-green)]"></div>
+                    <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-6 h-0.5 bg-[var(--site-green)] rounded-full"></div>
                   )}
                 </Link>
               );
             })}
-            
-            {/* Auth Section - Immediately renders without blocking */}
-            <div className="flex items-center space-x-4 ml-4 mt-1">
-              {session?.user ? (
-                // User dropdown menu
-                <div className="relative" ref={userMenuRef} data-testid="nav-user">
-                  <button
-                    onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
-                    className="flex items-center space-x-3 text-[#262443] hover:text-[var(--site-green)] transition-colors duration-200 focus:outline-none"
-                  >
-                    {/* Profile Avatar */}
-                    <div className="w-8 h-8 bg-[var(--site-green)] text-[#262443] rounded-full flex items-center justify-center font-semibold text-sm">
-                      {getUserAvatar()}
-                    </div>
-                    <span className="hidden lg:block font-medium">{getUserDisplayName()}</span>
-                    <ChevronDown className={`w-4 h-4 transition-transform ${isUserMenuOpen ? 'rotate-180' : ''}`} />
-                  </button>
-                  
-                  {isUserMenuOpen && (
-                    <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-50 border border-gray-200">
-                      <Link
-                        to="/profile/edit"
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                        onClick={() => setIsUserMenuOpen(false)}
-                      >
-                        Profile
-                      </Link>
-                      <Link
-                        to="/mock-tests"
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                        onClick={() => setIsUserMenuOpen(false)}
-                      >
-                        Mock Tests
-                      </Link>
-                      <button
-                        onClick={() => {
-                          setIsUserMenuOpen(false);
-                          handleLogout();
-                        }}
-                        className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                      >
-                        Logout
-                      </button>
-                    </div>
-                  )}
-                </div>
-              ) : (
-                // Sign in / Sign up buttons - immediately visible
-                <>
-                  <Link
-                    to="/login"
-                    className="text-[#262443] hover:text-[var(--site-green)] transition-colors duration-200"
-                    data-testid="nav-signin"
-                  >
-                    Sign In
-                  </Link>
-                  <Link
-                    to="/signup"
-                    className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-[#262443] px-4 py-2 rounded-md font-semibold text-sm transition-all shadow"
-                    data-testid="nav-signup"
-                  >
-                    Sign Up
-                  </Link>
-                </>
-              )}
-            </div>
+          </div>
+
+          {/* Desktop Auth Section */}
+          <div className="hidden lg:flex items-center space-x-3">
+            {session?.user ? (
+              <div className="relative" ref={userMenuRef} data-testid="nav-user">
+                <button
+                  onClick={() => setIsUserMenuOpen(!isUserMenuOpen)}
+                  className="flex items-center space-x-2 px-3 py-2 text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50 rounded-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+                >
+                  <div className="w-8 h-8 bg-[var(--site-green)] text-[#262443] rounded-full flex items-center justify-center font-semibold text-sm">
+                    {getUserAvatar()}
+                  </div>
+                  <span className="font-medium text-sm">{getUserDisplayName()}</span>
+                  <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${isUserMenuOpen ? 'rotate-180' : ''}`} />
+                </button>
+                
+                {isUserMenuOpen && (
+                  <div className="absolute right-0 mt-2 w-56 bg-white rounded-lg shadow-lg py-2 z-50 border border-gray-200">
+                    <Link
+                      to="/profile/edit"
+                      className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 transition-colors duration-150"
+                      onClick={() => setIsUserMenuOpen(false)}
+                    >
+                      <span>Profile Settings</span>
+                    </Link>
+                    <Link
+                      to="/mock-tests"
+                      className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-gray-50 transition-colors duration-150"
+                      onClick={() => setIsUserMenuOpen(false)}
+                    >
+                      <span>Mock Tests</span>
+                    </Link>
+                    <hr className="my-2 border-gray-100" />
+                    <button
+                      onClick={() => {
+                        setIsUserMenuOpen(false);
+                        handleLogout();
+                      }}
+                      className="flex items-center w-full text-left px-4 py-3 text-sm text-red-600 hover:bg-red-50 transition-colors duration-150"
+                    >
+                      <span>Sign Out</span>
+                    </button>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div className="flex items-center space-x-3">
+                <Link
+                  to="/login"
+                  className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-[var(--site-green)] transition-colors duration-200"
+                  data-testid="nav-signin"
+                >
+                  Sign In
+                </Link>
+                <Link
+                  to="/signup"
+                  className="px-4 py-2 text-sm font-semibold bg-[var(--site-green)] hover:bg-[#7bb53a] text-[#262443] rounded-lg transition-all duration-200 shadow-sm hover:shadow-md"
+                  data-testid="nav-signup"
+                >
+                  Sign Up
+                </Link>
+              </div>
+            )}
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden flex items-center">
-            <button onClick={() => setIsOpen(!isOpen)} className="text-gray-700 hover:text-[var(--site-green)] focus:outline-none">
+          <div className="lg:hidden flex items-center">
+            <button 
+              onClick={() => setIsOpen(!isOpen)} 
+              className="p-2 rounded-md text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 transition-all duration-200"
+              aria-label="Toggle menu"
+            >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
           </div>
@@ -236,75 +242,84 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div ref={mobileMenuRef} className="md:hidden absolute w-full bg-white shadow-lg z-50">
-          <div className="px-2 pt-4 pb-3 space-y-1">
-            {menuItems.map((item) => {
-              const isActive = location.pathname === item.path;
-              return (
-                <Link 
-                  key={item.title} 
-                  to={item.path} 
-                  className={`block px-3 py-2 rounded-md text-base font-normal transition-colors ${
-                    isActive 
-                      ? 'text-[var(--site-green)] bg-green-50 border-l-4 border-[var(--site-green)]' 
-                      : 'text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50'
-                  }`}
-                  onClick={() => setIsOpen(false)}
-                >
-                  {item.title}
-                </Link>
-              );
-            })}
+        <div ref={mobileMenuRef} className="lg:hidden absolute w-full bg-white shadow-lg z-50 border-t border-gray-100">
+          <div className="px-4 py-6 space-y-2">
+            {/* Navigation Links */}
+            <div className="space-y-1">
+              {menuItems.map((item) => {
+                const isActive = location.pathname === item.path;
+                return (
+                  <Link 
+                    key={item.title} 
+                    to={item.path} 
+                    className={`block px-4 py-3 rounded-lg text-base font-medium transition-all duration-200 ${
+                      isActive 
+                        ? 'text-[var(--site-green)] bg-green-50 border-l-4 border-[var(--site-green)]' 
+                        : 'text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50'
+                    }`}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {item.title}
+                  </Link>
+                );
+              })}
+            </div>
             
             {/* Mobile Auth Section */}
-            <div className="border-t border-gray-200 pt-4 mt-4">
+            <div className="border-t border-gray-200 pt-6 mt-6">
               {session?.user ? (
                 <>
-                  <div className="flex items-center px-3 py-2 mb-2">
-                    {/* Mobile Profile Avatar */}
-                    <div className="w-10 h-10 bg-[var(--site-green)] text-[#262443] rounded-full flex items-center justify-center font-semibold text-lg mr-3">
+                  {/* User Profile Header */}
+                  <div className="flex items-center px-4 py-3 mb-4 bg-gray-50 rounded-lg">
+                    <div className="w-12 h-12 bg-[var(--site-green)] text-[#262443] rounded-full flex items-center justify-center font-semibold text-lg mr-4">
                       {getUserAvatar()}
                     </div>
-                    <div>
-                      <div className="text-sm font-medium text-gray-900">{getUserDisplayName()}</div>
-                      <div className="text-xs text-gray-500">Welcome back!</div>
+                    <div className="flex-1">
+                      <div className="text-base font-medium text-gray-900">{getUserDisplayName()}</div>
+                      <div className="text-sm text-gray-500">Welcome back!</div>
                     </div>
                   </div>
-                  <Link
-                    to="/profile/edit"
-                    className="block px-3 py-2 rounded-md text-base font-normal text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50"
-                    onClick={() => {
-                      setIsOpen(false);
-                      setIsUserMenuOpen(false);
-                    }}
-                  >
-                    Profile
-                  </Link>
-                  <Link
-                    to="/mock-tests"
-                    className="block px-3 py-2 rounded-md text-base font-normal text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50"
-                    onClick={() => {
-                      setIsOpen(false);
-                      setIsUserMenuOpen(false);
-                    }}
-                  >
-                    Mock Tests
-                  </Link>
+                  
+                  {/* Profile Actions */}
+                  <div className="space-y-1">
+                    <Link
+                      to="/profile/edit"
+                      className="flex items-center px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50 transition-all duration-200"
+                      onClick={() => {
+                        setIsOpen(false);
+                        setIsUserMenuOpen(false);
+                      }}
+                    >
+                      <span>Profile Settings</span>
+                    </Link>
+                    <Link
+                      to="/mock-tests"
+                      className="flex items-center px-4 py-3 rounded-lg text-base font-medium text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50 transition-all duration-200"
+                      onClick={() => {
+                        setIsOpen(false);
+                        setIsUserMenuOpen(false);
+                      }}
+                    >
+                      <span>Mock Tests</span>
+                    </Link>
+                  </div>
+                  
+                  {/* Sign Out */}
                   <button
                     onClick={() => {
                       setIsOpen(false);
                       handleLogout();
                     }}
-                    className="block w-full text-left px-3 py-2 rounded-md text-base font-normal text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50"
+                    className="flex items-center w-full text-left px-4 py-3 rounded-lg text-base font-medium text-red-600 hover:bg-red-50 transition-all duration-200 mt-2"
                   >
-                    Logout
+                    <span>Sign Out</span>
                   </button>
                 </>
               ) : (
-                <>
+                <div className="space-y-3">
                   <Link
                     to="/login"
-                    className="block px-3 py-2 rounded-md text-base font-normal text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50"
+                    className="block w-full text-center px-4 py-3 rounded-lg text-base font-medium text-gray-700 bg-gray-50 hover:bg-gray-100 transition-all duration-200"
                     onClick={() => setIsOpen(false)}
                     data-testid="nav-signin"
                   >
@@ -312,13 +327,13 @@ const Navbar = () => {
                   </Link>
                   <Link
                     to="/signup"
-                    className="block px-3 py-2 rounded-md text-base font-normal bg-[var(--site-green)] hover:bg-[#7bb53a] text-[#262443] mx-3"
+                    className="block w-full text-center px-4 py-3 rounded-lg text-base font-semibold bg-[var(--site-green)] hover:bg-[#7bb53a] text-[#262443] transition-all duration-200 shadow-sm"
                     onClick={() => setIsOpen(false)}
                     data-testid="nav-signup"
                   >
                     Sign Up
                   </Link>
-                </>
+                </div>
               )}
             </div>
           </div>
