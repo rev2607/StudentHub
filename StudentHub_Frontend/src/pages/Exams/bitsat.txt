@@ -1,0 +1,100 @@
+# BITSAT Overview
+
+BITSAT (Birla Institute of Technology and Science Admission Test) is a competitive computer-based test conducted by BITS Pilani for admission to undergraduate engineering (B.E.), pharmacy (B.Pharm), and sciences (M.Sc.) programs across its campuses at Pilani, Goa, Hyderabad, and Dubai. The exam tests knowledge in Physics, Chemistry, Mathematics/Biology, English Proficiency, and Logical Reasoning.
+
+# Important Dates
+
+| Activity | Tentative Dates 2026 |
+|---|---|
+| Session 1 Application Start | January 2026 |
+| Session 1 Application End | April 2026 |
+| Session 1 Exam Dates | May 2026 |
+| Session 2 Application Start | May 2026 |
+| Session 2 Application End | June 2026 |
+| Session 2 Exam Dates | June 2026 |
+| Admission Form & Preference Submission | June 2026 |
+| Admit Card Release | May (Session 1), June (Session 2) 2026 |
+| Result Declaration | June (Session 1), July (Session 2) 2026 |
+
+# Eligibility
+
+## For BE (except Environmental Sustainability) and MSc Programs
+- Passed 10+2 from a recognized board with Physics, Chemistry, and Mathematics.
+- Minimum 75% aggregate in PCM.
+- Minimum 60% in each PCM subject.
+
+## For B.Pharm and BE Environmental Sustainability
+- Passed 10+2 with Physics, Chemistry, and Biology or Mathematics.
+- Minimum 75% aggregate in PCB/PCM.
+- Minimum 60% in each subject individually.
+
+Additional notes:
+- No age limit.
+- Candidates appearing for 12th in 2026 are eligible.
+- Board toppers get direct admission without BITSAT.
+
+# Application
+
+- Applications begin January 2026 for Session 1 and May 2026 for Session 2.
+- Application fee (INR): Males ₹3500 per session, Females ₹3000; both sessions ₹5500 (males) / ₹4500 (females).
+- Option to apply for both sessions; best score considered.
+- Exam center choices allowed as per preference.
+- Correction window available after submission.
+
+# Exam Pattern
+
+- Mode: Computer Based Test.
+- Duration: 3 hours.
+- Total questions: 130 (with 12 optional bonus questions if time allows).
+- Sections and questions:
+  - Physics: 30
+  - Chemistry: 30
+  - Mathematics/Biology: 40
+  - English Proficiency: 10
+  - Logical Reasoning: 20
+
+- Marking Scheme:
+  - +3 marks for correct answer.
+  - -1 mark for incorrect answer.
+  - 0 marks for unattempted.
+- Candidates can switch sections freely.
+- Bonus questions allowed only after completing initial 130.
+
+# Syllabus
+
+- Based on NCERT 11th and 12th syllabus covering Physics, Chemistry, Mathematics (or Biology for pharmacy).
+- Includes English and Logical Reasoning topics:
+  - English: Synonyms, antonyms, grammar, sentence completion.
+  - Logical Reasoning: Figure analysis, matrix, analogy, puzzles.
+- Topics weighted as:
+  - Physics & Chemistry: 30 questions each.
+  - Mathematics/Biology: 40 questions.
+  - English: 10 questions.
+  - Logical Reasoning: 20 questions.
+
+# Cutoff
+
+- Cutoffs vary by campus and course; BITS Pilani typically has highest cutoffs.
+- Expected BITS Pilani cutoffs (2026) example for major branches:
+  - Computer Science: 312–331
+  - Electrical & Electronics: 264–272
+  - Mechanical: 239–244
+  - Chemical: 219–224
+  - B.Pharm: 142–153
+
+- Cutoffs depend on exam difficulty, seat availability, category.
+- Board toppers directly admitted regardless of cutoff.
+
+# Counselling
+
+- Conducted by BITS Pilani based on BITSAT scores.
+- Candidates submit academic marks and preferences online post-exam.
+- Multiple admission iterations release merit and waitlists.
+- Confirm seat by paying fee, uploading documents, and reporting physically.
+- Direct admission scheme for central/state board toppers available.
+
+***
+
+This comprehensive data combines information from CollegeDunia and Careers360 to provide a complete BITSAT 2026 reference for website or database use.
+
+[1](https://collegedunia.com/exams/bitsat)

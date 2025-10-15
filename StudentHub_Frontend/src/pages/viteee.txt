@@ -1,0 +1,98 @@
+Overview
+VITEEE (VIT Engineering Entrance Examination) 2026 is the entrance exam conducted by VIT University for B.Tech admissions across VIT Vellore, VIT Chennai, VIT Bhopal, and VIT AP campuses. The test is conducted once a year in online (computer-based) mode and is taken by over 2 lakh candidates. Admissions are based on VITEEE rank, subject to qualifying eligibility.
+
+Important Dates
+- Application Form Release: First week of November 2025 (tentative)
+- Last Date to Submit Application Form: First week of April 2026
+- Slot Booking: April 2026
+- Admit Card Release: 48 hours before slot
+- Exam Dates: Third week of April 2026 (expected window: April 17–25, 2026)
+- Result Declaration: April 30, 2026 (expected)
+- Counselling Registration: First week of May 2026
+- Counselling Rounds: May – June 2026
+- Commencement of Classes: August 2026
+
+Eligibility
+- Age: Must be born on or after July 1, 2004
+- Nationality: Indian nationals/NRIs/PIOs/OCIs eligible
+- Qualifying Exam: 10+2 or equivalent, recognized board
+- Minimum Marks: 60% aggregate in Physics, Chemistry, Mathematics/Biology (PCM/PCB/PCMB)
+  - 50% for SC/ST/J&K, Ladakh, North-Eastern states
+- Subject Criteria:
+  - Candidates with Mathematics in qualifying exam: eligible for all B.Tech programs
+  - Candidates with Biology: eligible for select B.Tech Bio-related courses
+
+Application
+- Mode: Online (viteee.vit.ac.in)
+- Application Fee: INR 1,350 (Indian applicants); USD 90 (NRI/Foreign applicants)
+- Documents Required: Recent photo, signature, proof of age, qualifying exam mark sheets
+- Steps:
+  1. Online registration and form filling
+  2. Upload documents (photo, signature)
+  3. Pay fee online (Credit/Debit/Net Banking/UPI)
+  4. Slot booking for exam date/center
+  5. Download admit card
+
+Exam Pattern
+- Mode: Computer-Based Test (CBT)
+- Duration: 2 hours 30 minutes (150 minutes)
+- Sections:
+  - Mathematics/Biology – 40 questions
+  - Physics – 35 questions
+  - Chemistry – 35 questions
+  - Aptitude – 10 questions
+  - English – 5 questions
+- Total Questions: 125
+- Type: All questions are Multiple Choice (MCQs)
+- Marking Scheme: 1 mark for correct answer, no negative marking
+- Languages: English only
+
+Syllabus
+- Based on Class 11 & 12 CBSE and Tamil Nadu State Board curriculum
+- Mathematics: Matrices, Trigonometry, Complex Numbers, Analytical Geometry (2D/3D), Differential & Integral Calculus, Probability, Vector Algebra, Differential Equations, Discrete Mathematics, Applications
+- Physics: Laws of Motion, Properties of Matter, Electrostatics, Current Electricity, Magnetism, Electromagnetic Induction, Optics, Dual Nature of Radiation, Atomic & Nuclear Physics, Semiconductor Devices
+- Chemistry: Atomic Structure, p/d/f Block Elements, Thermodynamics, Chemical Equilibrium, Chemical Kinetics, Isomerism, Alcohols, Ethers, Carbonyl Compounds, Electrochemistry, Carboxylic Acids, Coordination Chemistry, Biomolecules, Solid State Chemistry
+- Biology (if applicable): Taxonomy, Cell Biology, Physiology, Genetics, Evolution, Biochemistry, Biotechnology, Ecology
+- Aptitude: Verbal/Logical Reasoning, Series, Coding–Decoding, Directions, Blood Relations, Puzzles, Grammar, Comprehension
+
+Cutoff
+- VIT Vellore CSE (Core): Up to ~7,000
+- VIT Vellore CSE (AI/DS/ML Specialisations): ~6,000 – 7,500
+- VIT Vellore ECE: ~13,000 – 15,000
+- VIT Chennai CSE (Core): ~12,000 – 15,000
+- VIT Chennai CSE (Specialisations): ~10,000 – 14,000
+- VIT Chennai ECE/Mechanical: ~20,000 – 40,000
+- VIT Bhopal/AP CSE: ~30,000 – 50,000
+- VIT Bhopal/AP ECE/Mech/Other branches: ~60,000 – 80,000
+- B.Tech admissions possible up to 1 Lakh rank for Bhopal/AP; higher ranks only eligible for limited branches
+
+Counselling
+- Conducted online; starts May 2026
+- Phases by rank:
+  - Phase 1: Rank 1–20,000
+  - Phase 2: 20,001–45,000
+  - Higher ranks in subsequent rounds; >1 lakh rank eligible for Bhopal/AP only
+- Registration Fee: INR 5,900 (non-refundable, including GST)
+- Advance Tuition Fee: ₹50,000–₹2,00,000 (varies by branch/campus, paid after seat allotment)
+- Document verification, seat preference, and provisional admission letter are issued after fee payment
+- Documents for verification: VITEEE admit card, rank card, class 10/12 certificates, ID proof, category certificate (if relevant), transfer/migration certificate
+
+Fee Structure
+- Tuition Fee Per Year:
+  - Group A (core branches): ₹1,73,000 + ₹3,000 caution deposit = ₹1,76,000
+  - Group B (top courses): ₹1,95,000 + ₹3,000 caution deposit = ₹1,98,000
+- Full 4-Year Fee:
+  - Vellore/Chennai/Bhopal (Group A): ₹6,95,000; (Group B): ₹7,86,000
+  - VIT-AP (Group B): ₹16,11,000
+- Includes tuition & caution deposit; additional hostel and mess fees apply
+
+Seat Matrix
+- VIT Vellore: CSE 1,200–1,500; CSE (AI/ML/DS) 600–800; ECE 800–1,000; Mech 400–600; EEE 400–500
+- VIT Chennai: CSE/ECE/Mech 600–800 each
+- Bhopal/AP: CSE/ECE/Mech 400–600 per branch
+- Specializations (AI/ML, Cyber Security, Data Science, IoT) have limited seats under CSE/ECE branches
+
+End of VITEEE 2026 structured data.
+
+[1](https://collegedunia.com/exams/viteee)
+[2](https://collegedunia.com/exams)

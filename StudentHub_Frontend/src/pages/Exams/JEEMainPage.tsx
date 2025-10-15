@@ -2178,6 +2178,13 @@ export default function JEEMainPage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <Link to="/" className="text-2xl font-bold text-gray-600">StudentHub</Link>
+              <div className="hidden md:flex items-center space-x-4">
+                <span className="text-gray-500">Engineering and Architecture Exams</span>
+                <span className="text-gray-400">›</span>
+                <span className="text-gray-500">JEE Main Exam</span>
+                <span className="text-gray-400">›</span>
+                <span className="text-gray-800 font-medium">JEE Main 2026</span>
+              </div>
             </div>
             <div className="flex items-center space-x-4">
               <button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">

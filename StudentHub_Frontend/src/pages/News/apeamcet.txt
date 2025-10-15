@@ -1,0 +1,92 @@
+Overview
+AP EAMCET (EAPCET) 2026 is the Andhra Pradesh Engineering, Agriculture, and Pharmacy Common Entrance Test, conducted annually by Jawaharlal Nehru Technological University (JNTU) Kakinada on behalf of APSCHE for admission into various undergraduate programs in Engineering (B.Tech/B.E.), Agriculture (B.Sc. Agriculture/Horticulture), and Pharmacy (B.Pharm/Pharm-D) at participating colleges within Andhra Pradesh. The exam is a computer-based test taken by over 2 lakh aspirants for engineering and about 80,000 for agriculture/pharmacy.
+
+Important Dates
+- Notification Release: 1st week of March 2026 (tentative)
+- Application Window Opens: 2nd week of March 2026
+- Last Date to Apply (without late fee): 2nd/3rd week of April 2026
+- Application Correction Window: 1st week of May 2026
+- Admit Card Release: 2nd week of May 2026
+- Exam Dates:
+  - Agriculture & Pharmacy: May 19–20, 2026 (tentative)
+  - Engineering: May 21–27, 2026 (tentative)
+- Preliminary/Provisional Answer Key: May 27–28, 2026
+- Objection Window: May 30, 2026
+- Final Answer Key: June 6, 2026
+- Result/Rank Card Release: June 8, 2026
+- Counselling/Seat Allotment Begins: July 2026 (tentative)
+
+Eligibility
+- Nationality: Indian citizens (OCI holders eligible)
+- Domicile: Andhra Pradesh/Telangana as per local/non-local status guidelines
+- Minimum Age:
+  - Engineering & Pharmacy: 16 years as of Dec 31, 2026
+  - Agriculture & Allied Courses: 17 years minimum; maximum 22 years (25 for SC/ST)
+- Educational Qualification:
+  - Engineering: Passed/appearing 10+2 with Mathematics, Physics, Chemistry; diploma holders eligible
+  - Agriculture & Pharmacy: Passed/appearing 10+2 with Physics, Chemistry, Biology/Mathematics; diploma holders eligible
+- Minimum Marks in Qualifying Exam:
+  - General: 45% aggregate
+  - SC/ST: 40% aggregate
+- Candidates appearing in 2026 board exams can apply; eligibility finalized at admission
+
+Application
+- Mode: Online via cets.apsche.ap.gov.in/EAPCET
+- Fee:
+  - Engineering or Agriculture & Pharmacy: ₹600 (General), ₹550 (OBC), ₹500 (SC/ST)
+  - Both streams: ₹1200/1100/1000
+- Documents Required: Recent photo, signature, birth certificate, qualifying exam marksheet, caste/income/local status certificate, Aadhaar
+- Steps:
+  1. Fee payment (online)
+  2. Fill and submit application form, upload scanned photo/signature
+  3. Print confirmation page
+  4. Correction window for editable details in May 2026
+
+Exam Pattern
+- Mode: Computer-Based Test (CBT)
+- Duration: 3 hours (180 minutes)
+- Languages: English & Telugu; Urdu only at Kurnool center
+- Number of Papers: Engineering, Agriculture & Pharmacy
+- Questions: 160 total, all MCQs, 1 mark per correct answer, no negative marking
+  - Engineering: Mathematics (80), Physics (40), Chemistry (40)
+  - Agriculture/Pharmacy: Botany (40), Zoology (40), Physics (40), Chemistry (40)
+
+Syllabus
+- Based on Andhra Pradesh Board of Intermediate Education (BIEAP) Class 11 & 12 curriculum
+  - Engineering Stream: Mathematics, Physics, Chemistry
+    - Mathematics: Algebra, Trigonometry, Probability, Statistics, Vector Algebra, Coordinate Geometry, Calculus, Differential Equations
+    - Physics: Mechanics, Thermodynamics, Electrostatics, Optics, Waves, Magnetism, Modern Physics
+    - Chemistry: Atomic Structure, Chemical Bonding, States of Matter, Thermodynamics, Equilibrium, Redox, Organic & Inorganic Chemistry, Environmental Chemistry
+  - Agriculture & Pharmacy Stream: Physics, Chemistry, Botany, Zoology
+    - Botany: Diversity in Living World, Cell Structure, Plant Physiology, Reproduction, Genetics, Ecology
+    - Zoology: Structural Organization, Human Physiology, Genetics, Evolution
+
+Cutoff
+- Minimum qualifying marks: 40/160 (25%) for General; no minimum for SC/ST
+- Engineering Stream (expected ranks for 2026):
+  - 150–160 marks: 1–100 rank
+  - 140–149 marks: 101–500 rank
+  - 130–139 marks: 501–1,000 rank
+  - 120–129 marks: 1,001–2,000 rank
+  - 110–119 marks: 2,001–3,000 rank
+  - 100–109 marks: 3,001–5,000 rank
+  - 70 marks: 15,001–20,000 rank (competitive for mid-tier colleges)
+- Agriculture & Pharmacy Stream (expected ranks for 2026):
+  - 140–160 marks: 1–500 rank
+  - 130–139 marks: 501–1,000 rank
+  - 120–129 marks: 1,001–2,000 rank
+  - 110–119 marks: 2,001–3,000 rank
+  - 100–109 marks: 3,001–5,000 rank
+
+Counselling
+- Conducted online in July 2026 in several phases
+- Steps: Register, pay counselling fee, certificate verification, web options entry, seat allotment, reporting to allotted college with documents
+- Counselling Fee: ₹1200 (General/OBC), ₹600 (SC/ST)
+- Seat allocation based on AP EAMCET rank, reservation, local/non-local status, web options, and seat availability in selected colleges/courses
+- Internal branch sliding and additional/spot rounds for unfilled seats
+- Required documents: Admit card, rank card, SSC & Inter marksheets, transfer and conduct certificates, caste/income/local status certificate, Aadhaar card, passport-size photographs
+
+End of AP EAMCET 2026 structured data.
+
+[1](https://collegedunia.com/exams/ap-eapcet)
+[2](https://collegedunia.com)

@@ -83,8 +83,6 @@ const ResultsSearchForm: React.FC<SearchFormProps> = ({ onSearch }) => {
     "AP EAMCET 2026",
     "BITSAT 2026",
     "VITEEE 2026",
-    "KCET 2026",
-    "KEAM 2026",
     "CLAT 2026",
     "AILET 2026",
     "ICAR AIEEA UG 2026",

@@ -139,7 +139,7 @@ export function getDataStatus(examName: string, currentDate: string) {
 
   // For demo purposes, we'll simulate some exams as announced and others as expected
   const announcedExams = ['JEE Main', 'NEET', 'UPSC CSE'];
-  const expectedExams = ['EAMCET', 'CAT', 'GATE', 'CLAT', 'NDA', 'KCET', 'BITSAT'];
+  const expectedExams = ['EAMCET', 'CAT', 'GATE', 'CLAT', 'NDA', 'BITSAT'];
 
   if (announcedExams.includes(examName)) {
     return {

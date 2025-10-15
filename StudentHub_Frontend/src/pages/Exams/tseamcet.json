@@ -1,0 +1,180 @@
+{
+    "Overview": "TS EAMCET (Telangana State Engineering, Agriculture & Medical Common Entrance Test), officially called TG EAPCET since 2024, is a state-level computer-based entrance examination conducted by Jawaharlal Nehru Technological University, Hyderabad (JNTUH) on behalf of TSCHE. It is for admission to undergraduate Engineering, Agriculture, and Pharmacy programs in Telangana. Over 116,000 seats are offered, with a significant seat increase mainly in Computer Science and allied branches.",
+    "ImportantDates": {
+      "ApplicationFormRelease": "First week of March 2026 (expected)",
+      "ApplicationCorrectionWindow": "First week of April 2026",
+      "AdmitCardRelease": "Three to five days before the exam",
+      "ExamDates": "Third week of May 2026 (Engineering, Agriculture & Pharmacy streams)",
+      "AnswerKeyUpdate": "Within 2 days after exam",
+      "ResultDeclaration": "Last week of May 2026",
+      "CounsellingRounds": "Three rounds + spot admissions (June to August 2026)"
+    },
+    "Eligibility": {
+      "Nationality": "Indian nationals, PIO/OCI card holders",
+      "Domicile": "Telangana/Andhra Pradesh local/non-local status required",
+      "AgeLimit": {
+        "General": "17–22 years as of Dec 31, 2026",
+        "SC_ST": "Up to 25 years",
+        "Pharmacy": "No age limit"
+      },
+      "Education": "Passed 10+2/Intermediate (or equivalent, recognized board) with relevant subjects for Engineering (PCM) or Agriculture/Pharmacy (PCMB/Biology)",
+      "MinimumMarks": {
+        "Engineering": {
+          "General": "45% aggregate in PCM/PCB",
+          "Reserved": "40% aggregate in PCM/PCB"
+        },
+        "Agriculture_Pharmacy": "Must meet streamwise subject and mark requirements"
+      }
+    },
+    "Application": {
+      "Mode": "Online via eamcet.tsche.ac.in",
+      "Fee": {
+        "General": "INR 900 (one stream) / INR 1800 (both streams)",
+        "SC_ST": "INR 500 (one stream) / INR 1000 (both streams)"
+      },
+      "RequiredDocuments": [
+        "Recent photo",
+        "Signature",
+        "Birth certificate",
+        "Qualifying exam marksheet",
+        "Caste/income/local status certificate",
+        "Aadhaar card"
+      ],
+      "Steps": [
+        "Fee payment",
+        "Online form filling and document upload",
+        "Print confirmation page",
+        "Correction window for errors (early April)"
+      ]
+    },
+    "ExamPattern": {
+      "Mode": "Computer-Based Test (CBT)",
+      "Duration": "3 hours",
+      "Languages": [
+        "English",
+        "Telugu",
+        "Urdu"
+      ],
+      "Papers": [
+        "Engineering",
+        "Agriculture/Pharmacy"
+      ],
+      "Questions": {
+        "Engineering": {
+          "Mathematics": 80,
+          "Physics": 40,
+          "Chemistry": 40
+        },
+        "Agriculture/Pharmacy": {
+          "Biology": 80,
+          "Physics": 40,
+          "Chemistry": 40
+        }
+      },
+      "QuestionType": "Multiple Choice Questions (MCQs)",
+      "MarkingScheme": {
+        "CorrectAnswer": "+1 mark",
+        "NegativeMarking": "No negative marking"
+      }
+    },
+    "Syllabus": {
+      "Base": "Based on latest TS Board of Intermediate and NCERT Class 11 & 12 curriculum",
+      "Engineering": {
+        "Mathematics": [
+          "Algebra",
+          "Calculus",
+          "Probability",
+          "Vectors",
+          "Geometry"
+        ],
+        "Physics": [
+          "Mechanics",
+          "Waves",
+          "Laws of Motion",
+          "Optics",
+          "Electricity & Magnetism"
+        ],
+        "Chemistry": [
+          "Atomic Structure",
+          "Thermodynamics",
+          "Equilibrium",
+          "Organic & Inorganic Chemistry",
+          "Biomolecules"
+        ]
+      },
+      "Agriculture_Pharmacy": {
+        "Botany": [
+          "Cell Biology",
+          "Taxonomy",
+          "Physiology",
+          "Genetics"
+        ],
+        "Zoology": [
+          "Physiology",
+          "Genetics",
+          "Evolution"
+        ],
+        "Physics_Chemistry": "Same as Engineering stream"
+      }
+    },
+    "Cutoff": {
+      "QualifyingMarks": {
+        "General": "25% of total marks",
+        "SC_ST": "No minimum qualifying marks"
+      },
+      "SeatIntake2026": "116,877 total (Engineering, Agriculture, Pharmacy) – up by 9,433 from previous year",
+      "EngineeringCutoff_Expected": {
+        "OsmaniaUniversity_CollegeOfEngineering": "~2,400",
+        "JNTUH_CollegeOfEngineering": "~11,500",
+        "MVSR_EngineeringCollege": "~9,800",
+        "CBIT_Hyderabad": "~11,800",
+        "VasaviCollege": "~28,600",
+        "VNR_VJIET": "~56,500",
+        "CVRCollege": "~130,000",
+        "LowerTierColleges": "Up to 130,000+"
+      },
+      "MarksVsRank_Indicative": {
+        "160–155": "Rank 1–50",
+        "154–150": "Rank 51–150",
+        "149–140": "Rank 151–400",
+        "139–130": "Rank 401–1200",
+        "129–120": "Rank 1201–2000",
+        "119–110": "Rank 2001–4500",
+        "109–100": "Rank 4501–6000",
+        "99–90": "Rank 6001–10000",
+        "89–80": "Rank 10001–15000",
+        "79–70": "Rank 15001–25000",
+        "69–60": "Rank 25001–40000",
+        "59–50": "Rank 40001–50000",
+        "49–40": "Rank 50001–80000",
+        "Below40": "Rank >80000"
+      }
+    },
+    "Counselling": {
+      "Rounds": "Three rounds + internal sliding + spot admissions (August 2026)",
+      "Fee": {
+        "OC_BC": "INR 1200",
+        "SC_ST": "INR 600"
+      },
+      "DocumentsRequired": [
+        "Rank card",
+        "Hall ticket",
+        "Aadhaar",
+        "SSC/Intermediate certificates",
+        "Category/local status/income certificates"
+      ],
+      "SeatAllotment": {
+        "Basis": "Rank, reservation, option entry, seat availability",
+        "Reservation": {
+          "Unreserved": "15%",
+          "TelanganaLocal": "85%"
+        },
+        "PostAllotment": "Branch and college change via sliding after first allotment",
+        "SpotRound": "For unfilled/vacant seats at end of counselling"
+      }
+    },
+    "Sources": [
+      "https://eamcet.tsche.ac.in",
+      "https://collegedunia.com/exams/ts-eamcet"
+    ]
+  }
