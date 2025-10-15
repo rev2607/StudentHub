@@ -2,16 +2,16 @@
 import vitLogo from "../../../../src/assets/vit_logo.png";
 
 const colleges = [
-  { rank: 1,  logo: vitLogo, name: "IIT Madras",                     nirf: 1,    average: "₹22–23 LPA", highest: "₹4.3 crore",  naac: "A++" },
-  { rank: 2,  logo: vitLogo, name: "IIT Delhi",                      nirf: 2,    average: "₹21.9 LPA", highest: "₹2.05 crore",  naac: "A++" },
-  { rank: 3,  logo: vitLogo, name: "IIT Bombay",                     nirf: 3,    average: "₹23.5 LPA", highest: "₹3.67 crore", naac: "A++" },
-  { rank: 4,  logo: vitLogo, name: "IIT Kanpur",                     nirf: 4,    average: "₹26.27 LPA", highest: "₹1.9 crore",  naac: "A++" },
-  { rank: 5,  logo: vitLogo, name: "IIT Kharagpur",                  nirf: 5,    average: "₹19.5 LPA", highest: "₹1.8 crore",  naac: "A++" },
-  { rank: 6,  logo: vitLogo, name: "IIT Roorkee",                    nirf: 6,    average: "₹18–20 LPA", highest: "₹1.15 crore",  naac: "A++" },
-  { rank: 7,  logo: vitLogo, name: "IIT Hyderabad",                  nirf: 7,    average: "₹22 LPA", highest: "₹1.2 crore",  naac: "A+" },
-  { rank: 8,  logo: vitLogo, name: "BITS Pilani",                    nirf: 25,   average: "₹24 LPA", highest: "₹60 LPA (domestic)",  naac: "A" },
-  { rank: 9,  logo: vitLogo, name: "VIT Vellore",                    nirf: 11,   average: "₹10–12 LPA", highest: "₹1.02 crore",  naac: "A++" },
-  { rank: 10, logo: vitLogo, name: "SRM Institute of Science & Technology", nirf: 18, average: "₹8–10 LPA", highest: "₹1 crore",  naac: "A++" },
+  { rank: 1,  logo: vitLogo, name: "Birla Institute of Technology and Science (BITS) Pilani", nirf: 11, average: "₹18–25 LPA", highest: "₹60+ LPA", naac: "A+" },
+  { rank: 2,  logo: vitLogo, name: "Vellore Institute of Technology (VIT) Vellore",           nirf: 16, average: "₹9–12 LPA", highest: "₹75 LPA", naac: "A+" },
+  { rank: 3,  logo: vitLogo, name: "SRM Institute of Science and Technology Chennai",        nirf: 14, average: "₹6–9 LPA", highest: "₹45–50 LPA", naac: "A" },
+  { rank: 4,  logo: vitLogo, name: "Thapar Institute of Engineering and Technology",         nirf: 29, average: "₹7–9 LPA", highest: "₹20–25 LPA", naac: "A" },
+  { rank: 5,  logo: vitLogo, name: "Amrita Vishwa Vidyapeetham",                            nirf: 23, average: "₹6–8 LPA", highest: "₹20–22 LPA", naac: "A+" },
+  { rank: 6,  logo: vitLogo, name: "Siksha 'O' Anusandhan (SOA), Bhubaneswar",              nirf: 22, average: "₹5–7 LPA", highest: "₹12–15 LPA", naac: "A" },
+  { rank: 7,  logo: vitLogo, name: "Amity University, Noida",                               nirf: 37, average: "₹5–6 LPA", highest: "₹10–12 LPA", naac: "A" },
+  { rank: 8,  logo: vitLogo, name: "Chandigarh University",                                 nirf: 32, average: "₹5–6 LPA", highest: "₹10–12 LPA", naac: "A" },
+  { rank: 9,  logo: vitLogo, name: "Koneru Lakshmaiah Education Foundation (KL University)", nirf: 35, average: "₹4–6 LPA", highest: "₹10–12 LPA", naac: "A" },
+  { rank: 10, logo: vitLogo, name: "Kalasalingam Academy of Research and Education",         nirf: 36, average: "₹4–5 LPA", highest: "₹10 LPA", naac: "A" },
 ];
 
 // Helper to interpolate between two colors
@@ -35,7 +35,7 @@ const TrendingCollegesPackages = () => {
     <section className="py-8 sm:py-10 px-2 sm:px-8 bg-white">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-10 text-[#22314A]">
-          Trending Colleges With Highest Packages & Placements
+          Trending Private Colleges With Highest Packages & Placements
         </h2>
         <div className="flex flex-col gap-4">
           {colleges.map((college, idx) => {
