@@ -389,7 +389,7 @@ const BITSATPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">BITSAT 2026 Important Dates — Most Comprehensive Timeline & Breakdown</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">BITSAT 2026 Important Dates</h2>
               
               <div className="space-y-6">
                 {/* Complete Overview */}
@@ -695,7 +695,7 @@ const BITSATPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">BITSAT 2026 Eligibility Criteria — Ultra-Expanded Comprehensive Guide</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">BITSAT 2026 Eligibility Criteria</h2>
               
               <div className="space-y-6">
                 {/* Qualification and Academic Background */}
@@ -911,7 +911,7 @@ const BITSATPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">BITSAT 2026 Application Process — Ultra-Detailed Stepwise Guide</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">BITSAT 2026 Application Process</h2>
               
               <div className="space-y-6">
                 {/* Application Period */}
@@ -939,7 +939,7 @@ const BITSATPage: React.FC = () => {
                   
                   <div className="space-y-4">
                     <div>
-                      <h4 className="font-semibold text-gray-800 mb-2">Step 1: New User Registration</h4>
+                      <h4 className="font-semibold text-gray-800 mb-2">New User Registration</h4>
                       <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
                         <li>Provide valid email ID and mobile number.</li>
                         <li>Set a password, receive a unique registration number via email/SMS.</li>
@@ -947,12 +947,12 @@ const BITSATPage: React.FC = () => {
                     </div>
 
                     <div>
-                      <h4 className="font-semibold text-gray-800 mb-2">Step 2: Login and Personal Details Filling</h4>
+                      <h4 className="font-semibold text-gray-800 mb-2">Login and Personal Details Filling</h4>
                       <p className="text-gray-700 ml-4">Complete personal details: Name, date of birth, nationality, gender, parent details, etc.</p>
                     </div>
 
                     <div>
-                      <h4 className="font-semibold text-gray-800 mb-2">Step 3: Academic Details Entry</h4>
+                      <h4 className="font-semibold text-gray-800 mb-2">Academic Details Entry</h4>
                       <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
                         <li>Board name, year of passing or appearing, marks of Class 10 and 12 (if available).</li>
                         <li>Select program applying for (B.E/B.Pharm/M.Sc.) and preferred campus.</li>
@@ -960,12 +960,12 @@ const BITSATPage: React.FC = () => {
                     </div>
 
                     <div>
-                      <h4 className="font-semibold text-gray-800 mb-2">Step 4: Preference of Exam Centers</h4>
+                      <h4 className="font-semibold text-gray-800 mb-2">Preference of Exam Centers</h4>
                       <p className="text-gray-700 ml-4">Select upto 3 preferred cities/exam centers from a nationwide and UAE list.</p>
                     </div>
 
                     <div>
-                      <h4 className="font-semibold text-gray-800 mb-2">Step 5: Upload Documents</h4>
+                      <h4 className="font-semibold text-gray-800 mb-2">Upload Documents</h4>
                       <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
                         <li>Recent passport size photograph (50KB–100KB, JPEG).</li>
                         <li>Signature (10–100KB, JPEG).</li>
@@ -974,7 +974,7 @@ const BITSATPage: React.FC = () => {
                     </div>
 
                     <div>
-                      <h4 className="font-semibold text-gray-800 mb-2">Step 6: Application Fee Payment</h4>
+                      <h4 className="font-semibold text-gray-800 mb-2">Application Fee Payment</h4>
                       <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
                         <li>Online payment gateway via Net Banking/Credit/Debit cards, UPI, wallets like PayTM/PayU Money.</li>
                         <li><strong>Category-wise fee:</strong></li>
@@ -985,7 +985,7 @@ const BITSATPage: React.FC = () => {
                     </div>
 
                     <div>
-                      <h4 className="font-semibold text-gray-800 mb-2">Step 7: Print Application Confirmation</h4>
+                      <h4 className="font-semibold text-gray-800 mb-2">Print Application Confirmation</h4>
                       <p className="text-gray-700 ml-4">Download filled application form copy and payment receipt for records.</p>
                     </div>
                   </div>
@@ -1083,7 +1083,7 @@ const BITSATPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">BITSAT 2026 Exam Pattern — Extensive In-Depth Guide</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">BITSAT 2026 Exam Pattern</h2>
               
               <div className="space-y-6">
                 {/* Exam Overview */}
@@ -1325,7 +1325,7 @@ const BITSATPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">BITSAT 2026 Syllabus — Ultra-Expanded Detailed Guide</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">BITSAT 2026 Syllabus</h2>
               
               <div className="space-y-6">
                 {/* Overview */}
@@ -1650,7 +1650,7 @@ const BITSATPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">BITSAT 2026 Expected Cutoff — Ultra-Detailed Comprehensive Report</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">BITSAT 2026 Expected Cutoff</h2>
               
               <div className="space-y-6">
                 {/* Overview of BITSAT Cutoffs */}
@@ -1907,7 +1907,7 @@ const BITSATPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">BITSAT 2026 Counselling Process — Ultra-Detailed Comprehensive Guide</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">BITSAT 2026 Counselling Process</h2>
               
               <div className="space-y-6">
                 {/* Conducting Authority */}
@@ -2109,7 +2109,7 @@ const BITSATPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">BITSAT 2026 Overview</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">BITSAT 2026</h2>
               <p className="text-gray-600">Select a tab to view detailed information about BITSAT 2026.</p>
             </div>
           </div>
@@ -2144,14 +2144,11 @@ const BITSATPage: React.FC = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-6">
               <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                  <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
-                    <span className="text-white text-sm font-bold">B</span>
-                  </div>
-                </div>
-                <div>
-                  <div className="text-sm text-gray-600 font-medium">BITS PILANI</div>
-                </div>
+                <img 
+                  src="/images/bitsat-logo.jpg" 
+                  alt="BITSAT Logo" 
+                  className="w-28 h-28 object-contain"
+                />
               </div>
               <div>
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">
@@ -2166,24 +2163,24 @@ const BITSATPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Tabs */}
-      <div className="bg-white rounded-lg shadow-sm mb-6">
-        <div className="border-b border-gray-200">
-          <nav className="flex justify-center space-x-2 px-4">
+      {/* Tabs Navigation Container */}
+      <div className="bg-gray-50 border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex justify-center space-x-8 overflow-x-auto py-4">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id as TabType)}
-                className={`px-3 py-3 text-sm font-medium whitespace-nowrap transition-colors ${
+                className={`whitespace-nowrap px-4 py-2 font-semibold text-sm transition-colors duration-200 ${
                   activeTab === tab.id
-                    ? 'text-gray-800 bg-gray-100'
-                    : 'text-gray-600 hover:text-gray-800'
+                    ? 'text-gray-800 border-b-2 border-gray-800 bg-white rounded-t-lg'
+                    : 'text-gray-600 hover:text-gray-800 hover:bg-gray-100 rounded-lg'
                 }`}
               >
                 {tab.label}
               </button>
             ))}
-          </nav>
+          </div>
         </div>
       </div>
 

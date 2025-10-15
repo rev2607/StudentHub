@@ -151,7 +151,7 @@ const VITEEEPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">VITEEE 2026 Overview</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">VITEEE 2026</h2>
               <div className="space-y-6">
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <h3 className="text-lg font-semibold text-gray-800 mb-2">Introduction</h3>
@@ -502,7 +502,7 @@ const VITEEEPage: React.FC = () => {
               
               <div className="space-y-6">
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📅 VITEEE 2026 Comprehensive Timeline</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📅 VITEEE 2026 Timeline</h3>
                   <p className="text-gray-600">Complete phase-wise breakdown of all important dates and events for VITEEE 2026</p>
                 </div>
 
@@ -749,7 +749,7 @@ const VITEEEPage: React.FC = () => {
               <div className="space-y-6">
                 <div className="bg-white p-4 rounded-lg">
                   <h3 className="text-lg font-semibold text-gray-800 mb-4">📋 VITEEE 2026 Eligibility Criteria — Extensive Detailed Overview</h3>
-                  <p className="text-gray-600">Comprehensive eligibility requirements, relaxations, documentation, and related caveats for VITEEE 2026 admission</p>
+                  <p className="text-gray-600">Eligibility requirements, relaxations, documentation, and related caveats for VITEEE 2026 admission</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
@@ -905,7 +905,7 @@ const VITEEEPage: React.FC = () => {
               
               <div className="space-y-6">
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📝 VITEEE 2026 Application Process — Comprehensive Detailed Guide</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📝 VITEEE 2026 Application Process</h3>
                   <p className="text-gray-600">Complete step-by-step guide covering registration, document uploads, payment, slot booking, and post-application formalities</p>
                 </div>
 
@@ -998,7 +998,7 @@ const VITEEEPage: React.FC = () => {
                   
                   <div className="space-y-6">
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-800 mb-3">Step 1: New User Registration</h4>
+                      <h4 className="font-semibold text-gray-800 mb-3">New User Registration</h4>
                       <ul className="list-disc list-inside text-gray-700 space-y-1">
                         <li>Visit official website: viteee.vit.ac.in</li>
                         <li>Click on 'New User Registration' link</li>
@@ -1009,7 +1009,7 @@ const VITEEEPage: React.FC = () => {
                     </div>
 
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-800 mb-3">Step 2: Login for Registered Candidates</h4>
+                      <h4 className="font-semibold text-gray-800 mb-3">Login for Registered Candidates</h4>
                       <ul className="list-disc list-inside text-gray-700 space-y-1">
                         <li>Use registered email and password to log into applicant dashboard</li>
                         <li>Keep login credentials safe for subsequent application steps and retrieval</li>
@@ -1017,7 +1017,7 @@ const VITEEEPage: React.FC = () => {
                     </div>
 
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-800 mb-3">Step 3: Fill Application Form</h4>
+                      <h4 className="font-semibold text-gray-800 mb-3">Fill Application Form</h4>
                       <ul className="list-disc list-inside text-gray-700 space-y-1">
                         <li>Input detailed personal information including guardian details, communication address</li>
                         <li>Provide academic details with specifics on 10th and 12th-grade marks, board, year of passing, and subjects studied</li>
@@ -1027,7 +1027,7 @@ const VITEEEPage: React.FC = () => {
                     </div>
 
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-800 mb-3">Step 4: Upload Required Documents</h4>
+                      <h4 className="font-semibold text-gray-800 mb-3">Upload Required Documents</h4>
                       <ul className="list-disc list-inside text-gray-700 space-y-1">
                         <li>Upload scanned passport-size photograph (JPG/JPEG, size 10–300 KB), recent and clear</li>
                         <li>Upload scanned signature (JPG/JPEG, size 10–50 KB), handwritten signature on white paper preferred</li>
@@ -1036,7 +1036,7 @@ const VITEEEPage: React.FC = () => {
                     </div>
 
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-800 mb-3">Step 5: Payment of Application Fee</h4>
+                      <h4 className="font-semibold text-gray-800 mb-3">Payment of Application Fee</h4>
                       <ul className="list-disc list-inside text-gray-700 space-y-1">
                         <li>Proceed to online payment gateway via the application portal</li>
                         <li>Choose preferred payment mode (Net Banking, Credit/Debit Card, UPI)</li>
@@ -1045,7 +1045,7 @@ const VITEEEPage: React.FC = () => {
                     </div>
 
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-800 mb-3">Step 6: Slot Booking</h4>
+                      <h4 className="font-semibold text-gray-800 mb-3">Slot Booking</h4>
                       <ul className="list-disc list-inside text-gray-700 space-y-1">
                         <li>After fee payment, candidates must book their preferred exam slot (date and time) and test center</li>
                         <li>Slot booking is on first-come-first-served basis—early booking advised for preferred choices</li>
@@ -1054,7 +1054,7 @@ const VITEEEPage: React.FC = () => {
                     </div>
 
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-800 mb-3">Step 7: Application Submission</h4>
+                      <h4 className="font-semibold text-gray-800 mb-3">Application Submission</h4>
                       <ul className="list-disc list-inside text-indigo-700 space-y-1">
                         <li>Review the entire application form carefully before final submission—no corrections allowed post submission except during limited correction window</li>
                         <li>Submit the complete form and take multiple printouts of the confirmation page and payment receipt</li>
@@ -1062,7 +1062,7 @@ const VITEEEPage: React.FC = () => {
                     </div>
 
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-teal-800 mb-3">Step 8: Application Status Check and Correction</h4>
+                      <h4 className="font-semibold text-teal-800 mb-3">Application Status Check and Correction</h4>
                       <ul className="list-disc list-inside text-teal-700 space-y-1">
                         <li>Candidates can view application status on the official website using credentials</li>
                         <li>Formal correction window usually opens shortly after the application phase for limited fields like contact details, category, and image re-upload</li>
@@ -1071,7 +1071,7 @@ const VITEEEPage: React.FC = () => {
                     </div>
 
                     <div className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-pink-800 mb-3">Step 9: Download Admit Card</h4>
+                      <h4 className="font-semibold text-pink-800 mb-3">Download Admit Card</h4>
                       <ul className="list-disc list-inside text-pink-700 space-y-1">
                         <li>Admit cards are released 48 hours in advance of exam day</li>
                         <li>Download admit card from the portal using application number and password; no offline distribution</li>
@@ -1128,7 +1128,7 @@ const VITEEEPage: React.FC = () => {
               
               <div className="space-y-6">
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📊 VITEEE 2026 Exam Pattern — Extensive Comprehensive Guide</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📊 VITEEE 2026 Exam Pattern — Extensive Guide</h3>
                   <p className="text-gray-600">Complete understanding of exam structure, subject distribution, question formats, and preparation strategies</p>
                 </div>
 
@@ -1396,7 +1396,7 @@ const VITEEEPage: React.FC = () => {
               
               <div className="space-y-6">
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📚 VITEEE 2026 Syllabus — Comprehensive Detailed Expansion</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📚 VITEEE 2026 Syllabus — Detailed Expansion</h3>
                   <p className="text-gray-600">Complete subject-wise syllabus coverage with detailed topics, chapter-wise weightage, and preparation recommendations</p>
                 </div>
 
@@ -1720,7 +1720,7 @@ const VITEEEPage: React.FC = () => {
               
               <div className="space-y-6">
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📊 VITEEE 2026 Expected Cutoff — Ultra-Detailed Comprehensive Report</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📊 VITEEE 2026 Expected Cutoff</h3>
                   <p className="text-gray-600">Complete cutoff analysis with historical trends, category-wise variations, campus-wise comparisons, marks-rank correlations, and strategic insights</p>
                 </div>
 
@@ -1973,7 +1973,7 @@ const VITEEEPage: React.FC = () => {
               
               <div className="space-y-6">
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">🎯 VITEEE 2026 Counselling Process — Ultra-Expanded Comprehensive Guide</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">🎯 VITEEE 2026 Counselling Process</h3>
                   <p className="text-gray-600">Complete counselling guide covering phases, registration, choice filling, document verification, fee structure, and strategic insights</p>
                 </div>
 
@@ -2198,7 +2198,7 @@ const VITEEEPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">VITEEE 2026 Overview</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">VITEEE 2026</h2>
               <p className="text-gray-600">Select a tab to view detailed information about VITEEE 2026.</p>
             </div>
           </div>
@@ -2233,14 +2233,11 @@ const VITEEEPage: React.FC = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-6">
               <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
-                  <div className="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center">
-                    <span className="text-white text-sm font-bold">V</span>
-                  </div>
-                </div>
-                <div>
-                  <div className="text-sm text-gray-600 font-medium">VIT UNIVERSITY</div>
-                </div>
+                <img 
+                  src="/images/viteee-logo.jpeg" 
+                  alt="VITEEE Logo" 
+                  className="w-28 h-28 object-contain"
+                />
               </div>
               <div>
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">
@@ -2255,24 +2252,24 @@ const VITEEEPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Tabs */}
-      <div className="bg-white rounded-lg shadow-sm mb-6">
-        <div className="">
-          <nav className="flex justify-center space-x-2 px-4">
+      {/* Tabs Navigation Container */}
+      <div className="bg-gray-50 border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex justify-center space-x-8 overflow-x-auto py-4">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id as TabType)}
-                className={`px-3 py-3 text-sm font-medium whitespace-nowrap transition-colors ${
+                className={`whitespace-nowrap px-4 py-2 font-semibold text-sm transition-colors duration-200 ${
                   activeTab === tab.id
-                    ? 'text-gray-800 bg-gray-100'
-                    : 'text-gray-600 hover:text-gray-800'
+                    ? 'text-gray-800 border-b-2 border-gray-800 bg-white rounded-t-lg'
+                    : 'text-gray-600 hover:text-gray-800 hover:bg-gray-100 rounded-lg'
                 }`}
               >
                 {tab.label}
               </button>
             ))}
-          </nav>
+          </div>
         </div>
       </div>
 

@@ -118,3 +118,4 @@ const tabs: TabData[] = [
 };
 
 export default ExamTabsDemo;
+

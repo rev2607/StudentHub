@@ -1278,9 +1278,9 @@ export default function NEETPage() {
               </div>
             </div>
 
-            {/* Comprehensive Timeline */}
+            {/* Timeline */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">Comprehensive Timeline for NEET 2026</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Timeline for NEET 2026</h2>
               <div className="space-y-6">
                 <div className="border-l-4 border-gray-500 pl-4">
                   <h3 className="text-lg font-semibold text-gray-800 mb-2">Notification & Application Start (First week of February 2026)</h3>
@@ -1484,7 +1484,7 @@ export default function NEETPage() {
               </div>
             </div>
 
-            {/* Comprehensive Eligibility Criteria */}
+            {/* Eligibility Criteria */}
             {data.DetailedEligibilityCriteria && (
               <div className="bg-white rounded-lg shadow-sm p-6">
                 <h2 className="text-2xl font-bold text-gray-800 mb-6">Detailed Eligibility Criteria</h2>
@@ -1535,13 +1535,13 @@ export default function NEETPage() {
               </div>
             )}
 
-            {/* Comprehensive Application Process */}
+            {/* Application Process */}
             {data.DetailedApplicationProcess && (
               <div className="bg-white rounded-lg shadow-sm p-6">
                 <h2 className="text-2xl font-bold text-gray-800 mb-6">Detailed Application Process</h2>
                 <div className="space-y-6">
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-700 mb-4">Step 1: Registration</h3>
+                    <h3 className="text-xl font-semibold text-gray-700 mb-4">Registration</h3>
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <ul className="space-y-2 text-gray-700">
                         <li>• Visit neet.nta.nic.in and click "New Registration"</li>
@@ -1553,7 +1553,7 @@ export default function NEETPage() {
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-700 mb-4">Step 2: Application Form</h3>
+                    <h3 className="text-xl font-semibold text-gray-700 mb-4">Application Form</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div className="bg-gray-50 p-4 rounded-lg">
                         <h4 className="font-semibold text-gray-800 mb-2">Personal Information</h4>
@@ -1578,7 +1578,7 @@ export default function NEETPage() {
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-700 mb-4">Step 3: Document Upload</h3>
+                    <h3 className="text-xl font-semibold text-gray-700 mb-4">Document Upload</h3>
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-800 mb-2">Required Documents</h4>
                       <ul className="text-gray-700 space-y-1">
@@ -1592,7 +1592,7 @@ export default function NEETPage() {
                   </div>
 
                   <div>
-                    <h3 className="text-xl font-semibold text-gray-700 mb-4">Step 4: Fee Payment</h3>
+                    <h3 className="text-xl font-semibold text-gray-700 mb-4">Fee Payment</h3>
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-800 mb-2">Fee Structure</h4>
                       <div className="grid grid-cols-2 gap-4">
@@ -1611,7 +1611,7 @@ export default function NEETPage() {
               </div>
             )}
 
-            {/* Comprehensive Exam Pattern */}
+            {/* Exam Pattern */}
             {data.DetailedExamPattern && (
               <div className="bg-white rounded-lg shadow-sm p-6">
                 <h2 className="text-2xl font-bold text-gray-800 mb-6">Detailed Exam Pattern</h2>
@@ -1683,10 +1683,10 @@ export default function NEETPage() {
               </div>
             )}
 
-            {/* Comprehensive Syllabus */}
+            {/* Syllabus */}
             {data.ComprehensiveSyllabusGuide && (
               <div className="bg-white rounded-lg shadow-sm p-6">
-                <h2 className="text-2xl font-bold text-gray-800 mb-6">Comprehensive Syllabus Guide</h2>
+                <h2 className="text-2xl font-bold text-gray-800 mb-6">Syllabus Guide</h2>
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-xl font-semibold text-gray-700 mb-4">Syllabus Structure Overview</h3>
@@ -1752,7 +1752,7 @@ export default function NEETPage() {
               </div>
             )}
 
-            {/* Comprehensive Cutoff Analysis */}
+            {/* Cutoff Analysis */}
             {data.DetailedCutoffAnalysis && (
               <div className="bg-white rounded-lg shadow-sm p-6">
                 <h2 className="text-2xl font-bold text-gray-800 mb-6">Detailed Cutoff Analysis</h2>
@@ -1803,10 +1803,10 @@ export default function NEETPage() {
               </div>
             )}
 
-            {/* Comprehensive Counselling Guide */}
+            {/* Counselling Guide */}
             {data.Counselling?.ComprehensiveCounsellingGuide && (
               <div className="bg-white rounded-lg shadow-sm p-6">
-                <h2 className="text-2xl font-bold text-gray-800 mb-6">Comprehensive Counselling Guide</h2>
+                <h2 className="text-2xl font-bold text-gray-800 mb-6">Counselling Guide</h2>
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-xl font-semibold text-gray-700 mb-4">Quota Distribution and Seat Reservations</h3>
@@ -1877,10 +1877,10 @@ export default function NEETPage() {
               </div>
             )}
 
-            {/* Comprehensive Seats Guide */}
+            {/* Seats Guide */}
             {data.ComprehensiveSeatsGuide && (
               <div className="bg-white rounded-lg shadow-sm p-6">
-                <h2 className="text-2xl font-bold text-gray-800 mb-6">Comprehensive Seats Guide</h2>
+                <h2 className="text-2xl font-bold text-gray-800 mb-6">Seats Guide</h2>
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-xl font-semibold text-gray-700 mb-4">Total Seats Availability Across Courses</h3>
@@ -2008,9 +2008,9 @@ export default function NEETPage() {
               </div>
             </div>
 
-            {/* Comprehensive Timeline */}
+            {/* Timeline */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">Comprehensive Timeline for NEET 2026</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Timeline for NEET 2026</h2>
               <div className="space-y-6">
                 {/* Timeline phases */}
                 <div className="space-y-4">
@@ -2993,7 +2993,7 @@ export default function NEETPage() {
               <h2 className="text-2xl font-bold text-gray-800 mb-6">{data.DetailedApplicationProcess.Introduction.title}</h2>
               <p className="text-gray-600 mb-8">{data.DetailedApplicationProcess.Introduction.description}</p>
 
-              {/* Step 1: Registration */}
+              {/* Registration */}
               <div className="mb-8">
                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedApplicationProcess.Step1Registration.title}</h3>
                 <ol className="space-y-2">
@@ -3006,7 +3006,7 @@ export default function NEETPage() {
                 </ol>
               </div>
 
-              {/* Step 2: Application Form */}
+              {/* Application Form */}
               <div className="mb-8">
                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedApplicationProcess.Step2ApplicationForm.title}</h3>
                 <p className="text-gray-600 mb-4">{data.DetailedApplicationProcess.Step2ApplicationForm.description}</p>
@@ -3023,7 +3023,7 @@ export default function NEETPage() {
                 </div>
               </div>
 
-              {/* Step 3: Document Upload */}
+              {/* Document Upload */}
               <div className="mb-8">
                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedApplicationProcess.Step3DocumentUpload.title}</h3>
                 <p className="text-gray-600 mb-4">{data.DetailedApplicationProcess.Step3DocumentUpload.description}</p>
@@ -3050,7 +3050,7 @@ export default function NEETPage() {
                 </div>
               </div>
 
-              {/* Step 4: Fee Payment */}
+              {/* Fee Payment */}
               <div className="mb-8">
                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedApplicationProcess.Step4FeePayment.title}</h3>
                 <p className="text-gray-600 mb-4">{data.DetailedApplicationProcess.Step4FeePayment.description}</p>
@@ -3090,7 +3090,7 @@ export default function NEETPage() {
                 </div>
               </div>
 
-              {/* Step 5: Review and Submission */}
+              {/* Review and Submission */}
               <div className="mb-8">
                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedApplicationProcess.Step5ReviewSubmission.title}</h3>
                 <ol className="space-y-2">
@@ -5141,14 +5141,11 @@ export default function NEETPage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-6">
               <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
-                  <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center">
-                    <span className="text-white text-sm font-bold">✓</span>
-                  </div>
-                </div>
-                <div>
-                  <div className="text-sm text-gray-600 font-medium">NATIONAL TESTING AGENCY</div>
-                </div>
+                <img 
+                  src="/images/nta-logo.png" 
+                  alt="NTA Logo" 
+                  className="w-28 h-28 object-contain"
+                />
               </div>
               <div>
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">
@@ -5163,36 +5160,36 @@ export default function NEETPage() {
         </div>
       </div>
 
+      {/* Tabs Navigation Container */}
+      <div className="bg-gray-50 border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex justify-center space-x-8 overflow-x-auto py-4">
+            {tabs.map((tab) => (
+              <button
+                key={tab.id}
+                onClick={() => setActiveTab(tab.id as TabType)}
+                className={`whitespace-nowrap px-4 py-2 font-semibold text-sm transition-colors duration-200 ${
+                  activeTab === tab.id
+                    ? 'text-gray-800 border-b-2 border-gray-800 bg-white rounded-t-lg'
+                    : 'text-gray-600 hover:text-gray-800 hover:bg-gray-100 rounded-lg'
+                }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 py-8">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           {/* Main Content */}
           <div className="lg:col-span-3">
-        {/* Horizontal Tabs */}
-        <div className="bg-white rounded-lg shadow-sm mb-6">
-          <div className="border-b border-gray-200">
-            <nav className="flex space-x-2 px-4">
-              {tabs.map((tab) => (
-                <button
-                  key={tab.id}
-                  onClick={() => setActiveTab(tab.id as TabType)}
-                  className={`px-3 py-3 text-sm font-medium whitespace-nowrap transition-colors ${
-                    activeTab === tab.id
-                      ? 'text-gray-800 bg-gray-100'
-                      : 'text-gray-600 hover:text-gray-800'
-                  }`}
-                >
-                  {tab.label}
-                </button>
-              ))}
-            </nav>
-          </div>
-        </div>
-
-        {/* Main Content Area */}
-        <div>
-          {renderTabContent()}
-        </div>
+            {/* Main Content Area */}
+            <div>
+              {renderTabContent()}
+            </div>
           </div>
 
           {/* Right Sidebar */}
