@@ -7,6 +7,11 @@ import { Link } from "react-router-dom";
 function SearchPage() {
   const [isLeftOpen, setIsLeftOpen] = useState(true);
   const [isRightOpen, setIsRightOpen] = useState(true);
+  const [searchQuery, setSearchQuery] = useState<string>("");
+  const [searchData, setSearchData] = useState<any>({});
+  const [messages, setMessages] = useState<Array<{ role: 'user' | 'assistant'; content: string }>>([]);
+  const [isFetching, setIsFetching] = useState(false);
+  const [followUp, setFollowUp] = useState("");
 
   const toggleLeftSidebar = () => {
     setIsLeftOpen((prev) => !prev);
@@ -25,6 +30,200 @@ function SearchPage() {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
+
+  // Load query + results saved by homepage search
+  useEffect(() => {
+    try {
+      const q = localStorage.getItem("searchQuery") || "";
+      const dataRaw = localStorage.getItem("searchData");
+      setSearchQuery(q);
+      if (dataRaw) {
+        const parsed = JSON.parse(dataRaw);
+        setSearchData(parsed);
+        if (q) {
+          setMessages([
+            { role: 'user', content: q },
+            { role: 'assistant', content: parsed?.response || "" },
+          ]);
+        }
+      }
+    } catch {}
+  }, []);
+
+  const relatedQueries: string[] = searchData?.related_queries || [];
+  const answerText: string = searchData?.response || "";
+
+  // Collect image URLs from API field and also fallback by regex from the answer body
+  const imageSet = new Set<string>();
+  const pushUrl = (u?: string) => {
+    if (!u) return;
+    try {
+      const cleaned = u.replace(/^["'\(\[]+|["'\)\]]+$/g, "");
+      // Basic validation: must look like a direct image
+      if (/^https?:\/\//.test(cleaned) && /\.(png|jpe?g|gif|webp|svg)$/i.test(cleaned)) {
+        imageSet.add(cleaned);
+      }
+    } catch {}
+  };
+  (searchData?.images || []).forEach(pushUrl);
+  if (searchData?.response) {
+    const matches = answerText.match(/https?:\/\/\S+?\.(?:png|jpe?g|gif|webp|svg)/gi) || [];
+    matches.forEach(pushUrl);
+  }
+  const images = Array.from(imageSet).slice(0, 6);
+
+  const sanitizeRelatedLabel = (text: string) => {
+    if (!text) return "";
+    let t = text.replace(/\*\*/g, ""); // remove markdown bold markers
+    t = t.replace(/^\s*\d+\.\s*/, ""); // remove leading numbering like "1. "
+    return t.trim();
+  };
+
+  const runSearch = async (q: string) => {
+    const query = (q || "").trim();
+    if (!query || isFetching) return;
+    try {
+      setIsFetching(true);
+      // Build a simple text context from prior messages
+      const context = messages.length
+        ? messages.map(m => (m.role === 'user' ? `User: ${m.content}` : `Assistant: ${m.content}`)).join("\n\n") + `\n\nUser: ${query}`
+        : query;
+      setMessages(prev => [...prev, { role: 'user', content: query }]);
+      const response = await fetch("/api/search/", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ query: context }),
+      });
+      const json = await response.json();
+      const data = json?.data || {};
+      setMessages(prev => [...prev, { role: 'assistant', content: data?.response || "" }]);
+      setSearchData(data);
+      // keep localStorage in sync with the latest item
+      localStorage.setItem("searchQuery", query);
+      localStorage.setItem("searchData", JSON.stringify(data));
+      // Scroll to bottom after append
+      setTimeout(() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' }), 0);
+    } catch (e) {
+      // no-op for now
+    } finally {
+      setIsFetching(false);
+    }
+  };
+
+  // Very small markdown-ish renderer for headings and bullet lists
+  const renderStructuredAnswer = (text: string) => {
+    const lines = text.split(/\n+/);
+    const blocks: any[] = [];
+    let listBuffer: string[] = [];
+    let iLine = 0;
+
+    const flushList = () => {
+      if (listBuffer.length > 0) {
+        blocks.push(
+          <ul key={`ul-${blocks.length}`} className="list-disc list-inside text-[13px] text-[#B9B9B9] mb-3">
+            {listBuffer.map((item, idx) => (
+              <li key={idx}>{item}</li>
+            ))}
+          </ul>
+        );
+        listBuffer = [];
+      }
+    };
+
+    while (iLine < lines.length) {
+      const raw = lines[iLine++];
+      const line = raw.trim();
+      if (!line) {
+        flushList();
+        blocks.push(<div key={`sp-${blocks.length}`} className="h-2" />);
+        continue;
+      }
+      if (line.startsWith("- ")) {
+        listBuffer.push(line.replace(/^\-\s+/, ""));
+        continue;
+      }
+      flushList();
+
+      // Table detection: header row with pipes, followed by a separator row with dashes and pipes
+      const isPipeLine = line.includes("|");
+      const peek = (idx: number) => (iLine + idx < lines.length ? lines[iLine + idx].trim() : "");
+      if (isPipeLine && /^\|?\s*:?\-+.*\|.*$/.test(peek(0))) {
+        // header already in `line`, next line is separator; collect rows until a blank or non-pipe line
+        const headerCells = line
+          .split("|")
+          .map(c => c.trim())
+          .filter(c => c.length > 0);
+        // skip separator row
+        iLine += 1;
+        const rowEls: any[] = [];
+        while (iLine < lines.length) {
+          const r = lines[iLine].trim();
+          if (!r || !r.includes("|")) break;
+          const cells = r
+            .split("|")
+            .map(c => c.trim())
+            .filter(c => c.length > 0);
+          rowEls.push(
+            <tr key={`tr-${iLine}`} className="border-b border-gray-700">
+              {cells.map((c, ci) => (
+                <td key={`td-${iLine}-${ci}`} className="px-3 py-2 text-[12px] text-[#B9B9B9] align-top">
+                  {c}
+                </td>
+              ))}
+            </tr>
+          );
+          iLine += 1;
+        }
+        blocks.push(
+          <div key={`tbl-${blocks.length}`} className="overflow-x-auto mb-4">
+            <table className="min-w-full border border-gray-700 rounded-md overflow-hidden">
+              <thead className="bg-gray-800/40">
+                <tr>
+                  {headerCells.map((h, hi) => (
+                    <th key={`th-${hi}`} className="px-3 py-2 text-left text-white text-[12px] font-semibold">
+                      {h}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>{rowEls}</tbody>
+            </table>
+          </div>
+        );
+        continue;
+      }
+
+      // Heading heuristic: short line without trailing period
+      if (line.length <= 60 && !/[\.!?]$/.test(line)) {
+        blocks.push(
+          <h3 key={`h-${blocks.length}`} className="text-white font-semibold mt-4 mb-2 text-base">
+            {line}
+          </h3>
+        );
+      } else {
+        // Bold markers
+        const parts = [] as any[];
+        let rest = line;
+        let i = 0;
+        const boldRegex = /\*\*(.+?)\*\*/g;
+        let match;
+        let lastIndex = 0;
+        while ((match = boldRegex.exec(line)) !== null) {
+          if (match.index > lastIndex) parts.push(line.slice(lastIndex, match.index));
+          parts.push(<strong key={`b-${blocks.length}-${i++}`}>{match[1]}</strong>);
+          lastIndex = match.index + match[0].length;
+        }
+        if (lastIndex < line.length) parts.push(line.slice(lastIndex));
+        blocks.push(
+          <p key={`p-${blocks.length}`} className="text-[13px] text-[#B9B9B9] leading-relaxed mb-2">
+            {parts.length ? parts : rest}
+          </p>
+        );
+      }
+    }
+    flushList();
+    return <div>{blocks}</div>;
+  };
   return (
     <div className="bg-[#121916] text-white min-h-screen flex flex-col md:flex-row">
       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
@@ -145,7 +344,7 @@ function SearchPage() {
       </aside>
 
       {/* <!-- Main content --> */}
-      <main className="flex-1 p-4 md:p-10 overflow-y-auto max-w-full mt-14 md:mt-0">
+      <main className="flex-1 p-2 sm:p-4 md:p-6 overflow-y-auto max-w-full mt-14 md:mt-0">
         <div className="flex justify-end items-center gap-4 mb-6">
           <button aria-label="More options" className="text-[#7AC142] bg-[#1B201D] p-2 rounded-md hover:text-white transition">
             <i className="fas fa-ellipsis-h"></i>
@@ -158,7 +357,7 @@ function SearchPage() {
           </button>
         </div>
         <div className="border-b border-[#2B3A0B] mb-6"></div>
-        <h1 className="text-white text-lg font-normal mb-6">Vit College</h1>
+        <h1 className="text-white text-xl sm:text-2xl md:text-3xl font-semibold mb-2 sm:mb-3">{searchQuery || "Search"}</h1>
         {/* <!-- Green banner 1 --> */}
         <div className="bg-[#7AC142] rounded-xl flex items-center gap-4 max-w-xl mb-6 px-4 py-3">
           <div className="flex flex-col text-xs text-white font-semibold leading-none">
@@ -175,12 +374,32 @@ function SearchPage() {
             <path d="M9 12l2 2 4-4" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
           </svg>
         </div>
-        <div className="max-w-3xl text-[13px] text-[#B9B9B9] leading-tight mb-6">
-          <p className="text-white font-semibold mb-1">Answer</p>
-          <p>
-            Vellore Institute of Technology (VIT) Chennai, established in 2010, is a prominent private institution located in Chennai, Tamil Nadu. It is part of the VIT Group of Institutes and is
-            recognized by the University Grants Commission (UGC). The campus spans 192 acres and hosts around 13,000 students from various backgrounds, including international students.
-          </p>
+        <div className="w-full md:max-w-3xl mb-4 sm:mb-6">
+          <div className="prose prose-invert max-w-none">
+            {messages.length ? (
+              <div className="space-y-2 sm:space-y-3">
+                {messages.map((m, idx) => (
+                  <div key={idx} className={`flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
+                    <div className={`max-w-full md:max-w-3xl rounded-2xl px-3 py-2 border text-sm sm:text-base ${m.role === 'user' ? 'bg-[#7AC142] text-black border-[#90cf56]' : 'bg-transparent text-[#d8e4dc] border-[#2B3A0B]'}`}>
+                      {m.role === 'assistant' ? renderStructuredAnswer(m.content || '') : (
+                        <p className="whitespace-pre-wrap m-0">{m.content}</p>
+                      )}
+                    </div>
+                  </div>
+                ))}
+                {isFetching && (
+                  <div className="flex justify-start">
+                    <div className="rounded-2xl px-3 py-2 border bg-transparent text-[#d8e4dc] border-[#2B3A0B] text-sm flex items-center gap-2">
+                      <i className="fas fa-spinner fa-spin" />
+                      <span>Generating answer…</span>
+                    </div>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <p className="text-[#888]">Search for a college, exam, or topic to see AI-curated results here.</p>
+            )}
+          </div>
         </div>
         {/* <!-- Green banner 2 --> */}
         <div className="bg-[#7AC142] rounded-xl flex items-center gap-4 max-w-xl mb-6 px-4 py-3">
@@ -198,19 +417,7 @@ function SearchPage() {
             <path d="M9 12l2 2 4-4" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
           </svg>
         </div>
-        <div className="max-w-3xl text-[13px] text-[#B9B9B9] leading-tight mb-6">
-          <p>anagement, and Sciences.</p>
-          <p className="pl-5 mb-3">Admissions are based on merit and entrance exams such as VITEEE for undergraduate courses and VITMEE for postgraduate programs</p>
-          <p className="mb-2">Infrastructure and Facilities</p>
-          <p className="mb-2">The campus is equipped with modern facilities:</p>
-          <ul className="list-disc list-inside space-y-1 text-[12px] text-[#B9B9B9]">
-            <li>Classrooms and Laboratories: State-of-the-art classrooms and well-equipped labs.</li>
-            <li>Library: A digital library with over 51,800 resources.</li>
-            <li>Hostels: Separate accommodations for boys and girls with amenities like Wi-Fi and gyms.</li>
-            <li>Healthcare: A 24/7 healthcare center for students and staff.</li>
-            <li>Sports Facilities: Grounds for cricket, basketball, volleyball, etc.</li>
-          </ul>
-        </div>
+        {/* Additional structured sections from the static template removed to let AI answer take focus */}
         <div className="max-w-xl flex items-center space-x-6 text-gray-500 text-xs mb-6 select-none">
           <button className="flex items-center space-x-1 hover:text-gray-400 cursor-pointer">
             <i className="fas fa-pencil-alt"></i>
@@ -255,20 +462,32 @@ function SearchPage() {
             <path d="M9 12l2 2 4-4" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
           </svg>
         </div>
-        <div className="max-w-xl flex items-center space-x-2 text-gray-300 text-xs mb-6">
-          <i className="fas fa-list-ul"></i>
-          <span className="font-semibold">Related</span>
-        </div>
-        <div className="max-w-xl flex items-center justify-between text-gray-300 text-xs mb-6 cursor-pointer border-y border-gray-600 py-3">
-          <span>What are the top courses offered at VIT Chennai</span>
-          <i className="fas fa-plus text-[#7AC142]"></i>
-        </div>
-        <form action="#" className="max-w-xl border border-[#3B4B1B] rounded-xl p-4 flex items-center space-x-3 text-gray-400 text-xs" method="POST">
+        {relatedQueries && relatedQueries.length > 0 && (
+          <div className="w-full md:max-w-xl mb-6">
+            <div className="flex items-center space-x-2 text-gray-300 text-sm mb-2 sm:mb-3">
+              <i className="fas fa-list-ul"></i>
+              <span className="font-semibold">Related Searches</span>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {relatedQueries.map((rq, idx) => (
+                <button
+                  key={idx}
+                  className="px-3 py-1 rounded-full text-[11px] sm:text-xs border border-[#7AC142] text-white hover:bg-[#7AC142] hover:text-black transition"
+                  title={rq}
+                  onClick={() => runSearch(rq)}
+                >
+                  {sanitizeRelatedLabel(rq)}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+        <form onSubmit={(e) => { e.preventDefault(); runSearch(followUp); setFollowUp(''); }} className="max-w-xl border border-[#3B4B1B] rounded-xl p-4 flex items-center space-x-3 text-gray-400 text-xs">
           <button className="text-gray-400 hover:text-gray-300 cursor-pointer" type="button">
             <i className="fas fa-paperclip"></i>
           </button>
-          <textarea className="bg-transparent flex-1 outline-none placeholder:text-gray-600" placeholder="Ask Follow-up" rows={5}></textarea>
-          <button className="text-gray-400 hover:text-gray-300 cursor-pointer" type="submit">
+          <textarea value={followUp} onChange={(e) => setFollowUp(e.target.value)} className="bg-transparent flex-1 outline-none placeholder:text-gray-600" placeholder="Ask Follow-up" rows={5}></textarea>
+          <button className="text-gray-400 hover:text-gray-300 cursor-pointer" type="submit" disabled={isFetching}>
             <i className="fas fa-arrow-up"></i>
           </button>
         </form>
@@ -320,49 +539,30 @@ function SearchPage() {
             </ul>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-2">
-          <img
-            alt="Campus view showing modern buildings and green spaces"
-            className="rounded-md object-cover w-full h-16"
-            height="60"
-            src="https://storage.googleapis.com/a1aa/image/ee9cc35d-31a7-4e9f-e705-651f0b8085be.jpg"
-            width="80"
-          />
-          <img
-            alt="Campus view showing academic buildings and pathways"
-            className="rounded-md object-cover w-full h-16"
-            height="60"
-            src="https://storage.googleapis.com/a1aa/image/75238b9e-055b-49b4-3f2e-5caaf53a02c7.jpg"
-            width="80"
-          />
-          <img
-            alt="Campus view showing student housing and open areas"
-            className="rounded-md object-cover w-full h-16"
-            height="60"
-            src="https://storage.googleapis.com/a1aa/image/a7ba96c6-9456-44a3-38f8-33cfd24d4108.jpg"
-            width="80"
-          />
-          <img
-            alt="Campus view showing sports facilities and green fields"
-            className="rounded-md object-cover w-full h-16"
-            height="60"
-            src="https://storage.googleapis.com/a1aa/image/726a3bcd-75b6-4622-ac4e-51dbba2b7996.jpg"
-            width="80"
-          />
-          <img
-            alt="Campus view showing administrative building and clock tower"
-            className="rounded-md object-cover w-full h-16"
-            height="60"
-            src="https://storage.googleapis.com/a1aa/image/b3768f27-2acd-434e-e3af-c1220c58b6a7.jpg"
-            width="80"
-          />
-          <img
-            alt="Campus view showing library and study areas"
-            className="rounded-md object-cover w-full h-16"
-            height="60"
-            src="https://storage.googleapis.com/a1aa/image/5db9da0a-80d9-4e97-331d-f2b1b2af2fbb.jpg"
-            width="80"
-          />
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mt-3 sm:mt-4">
+          {images && images.length > 0 ? (
+            images.map((url, i) => (
+              <a key={i} href={url} target="_blank" rel="noopener noreferrer" title={url}>
+                <img
+                  alt={`result-${i}`}
+                  className="rounded-md object-cover w-full h-24 sm:h-20 bg-gray-800/40"
+                  height="96"
+                  src={url}
+                  width="120"
+                  referrerPolicy="no-referrer"
+                  loading="lazy"
+                  onError={(e) => {
+                    const el = e.currentTarget as HTMLImageElement;
+                    el.style.display = "none";
+                  }}
+                />
+              </a>
+            ))
+          ) : (
+            <>
+              <div className="col-span-3 text-gray-400 text-xs">Images will appear here for supported searches.</div>
+            </>
+          )}
         </div>
         <div className="text-[#7AC142] text-xs flex justify-between items-center">
           <span>Search Videos</span>

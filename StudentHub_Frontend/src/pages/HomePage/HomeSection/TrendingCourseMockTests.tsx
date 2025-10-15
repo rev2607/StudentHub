@@ -11,8 +11,19 @@ import messageIcon from "../../../../src/assets/message.png";
 const TrendingCourseMockTests = () => {
   const navigate = useNavigate(); // Get the navigate function from useNavigate hook
 
-  const trendingCourses = ["Digital Marketing", "Cyber Security", "Top Law Colleges In India", "Cyber Security", "Top Law Colleges In India", "Top Law Colleges In India"];
-  const trendingMockTests = ["JEE Main", "NEET", "GATE", "CAT", "UPSC", "SSC"];
+  const trendingCourses = [
+    "Artificial Intelligence & ML",
+    "Data Science & Analytics",
+    "Full-Stack Web Development",
+    "Cloud Computing (AWS, Azure)",
+    "Cybersecurity & Ethical Hacking",
+    "Blockchain Development",
+    "Business Analytics",
+    "Digital Marketing",
+    "Mobile App Development",
+    "DevOps Engineering",
+  ];
+  const trendingMockTests = ["JEE Main", "JEE Advance", "NEET", "EAMCET"];
 
   return (
     <section className="bg-white-100 p-6 text-gray-800">
@@ -60,18 +71,18 @@ const TrendingCourseMockTests = () => {
                 <p className="text-gray-600 text-right mb-4">Prepare for competitive exams with our comprehensive mock tests and practice materials</p>
                 <img alt="icon" className="h-30 w-30 rounded-full float-right" height="50" src={degreeIcon} width="50" />
               </div>
-              <div className="flex flex-wrap gap-2 mb-4">
+              <div className="flex flex-wrap gap-2 mb-4 justify-end w-full">
                 {trendingMockTests.map((label, index) => (
                   <span
                     key={index}
                     className={`border border-[var(--site-green)] px-4 py-1 rounded-full text-sm ${index === 0 ? "bg-[var(--site-green)] text-white" : "bg-white text-black"}`}
-                    onClick={() => navigateToSearchPage(navigate, label)}
+                    onClick={() => navigate("/mock-tests")}
                   >
                     {label}
                   </span>
                 ))}
               </div>
-              <button className="bg-gray-800 text-white px-4 py-1 rounded-full text-sm float-right" onClick={() => navigateToSearchPage(navigate, "Trending Mock Tests")}>
+              <button className="bg-gray-800 text-white px-4 py-1 rounded-full text-sm float-right" onClick={() => navigate("/mock-tests")}>
                 View All
               </button>
             </div>

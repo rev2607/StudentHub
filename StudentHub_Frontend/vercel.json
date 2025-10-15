@@ -1,9 +1,6 @@
 {
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/(.*)", "destination": "/" }
   ],
   "env": {
     "VITE_SUPABASE_URL": "https://bdhqbjrjazdfkoulwduo.supabase.co",

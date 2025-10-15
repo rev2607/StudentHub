@@ -29,17 +29,42 @@ const menuItems = [
 const Hero = () => {
   const navigate = useNavigate();
   const [searchValue, setSearchValue] = useState("");
+  const [isSearching, setIsSearching] = useState(false);
+  const [searchError, setSearchError] = useState<string | null>(null);
 
-  const handleSearch = (e: React.FormEvent) => {
+  const handleSearch = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (searchValue.trim()) {
-      navigateToSearchPage(navigate, searchValue);
+    const query = searchValue.trim();
+    if (!query) return;
+
+    try {
+      setIsSearching(true);
+      setSearchError(null);
+
+      const response = await fetch("/api/search/", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ query }),
+      });
+
+      const json = await response.json();
+      // Persist for Search page consumption
+      localStorage.setItem("searchQuery", query);
+      localStorage.setItem("searchData", JSON.stringify(json?.data || {}));
+
+      navigate("/search");
+    } catch (err: any) {
+      setSearchError("Search failed. Please try again.");
+      // Fallback: still navigate with just the query
+      navigateToSearchPage(navigate, query);
+    } finally {
+      setIsSearching(false);
     }
   };
 
   return (
     <section className="relative hero_banner pt-16 sm:pt-24 pb-16 sm:pb-24 md:pb-40 min-h-[500px] sm:min-h-[600px] flex items-center">
-      <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto w-full px-4 sm:px-5 lg:px-6">
         {/* 3-column grid layout with explicit column sizes */}
         <div 
           className="hero-grid grid items-center gap-8 md:grid-cols-3 grid-cols-1"
@@ -69,11 +94,15 @@ const Hero = () => {
               />
               <button
                 type="submit"
-                className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-8 py-4 text-base font-semibold rounded-full transition-colors duration-300"
+                className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-8 py-4 text-base font-semibold rounded-full transition-colors duration-300 disabled:opacity-60 disabled:cursor-not-allowed"
+                disabled={isSearching}
               >
-                Search
+                {isSearching ? "Searching..." : "Search"}
               </button>
             </form>
+            {searchError && (
+              <p className="text-red-200 text-sm mt-2">{searchError}</p>
+            )}
           </div>
           
           {/* Right column: Icon Grid */}

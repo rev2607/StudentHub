@@ -11,7 +11,18 @@ import messageIcon from "../../../../src/assets/message.png";
 const TrendingCourseMockTests = () => {
   const navigate = useNavigate(); // Get the navigate function from useNavigate hook
 
-  const trendingCourses = ["Digital Marketing", "Cyber Security", "Top Law Colleges In India", "Cyber Security", "Top Law Colleges In India", "Top Law Colleges In India"];
+  const trendingCourses = [
+    "Artificial Intelligence & ML",
+    "Data Science & Analytics",
+    "Full-Stack Web Development",
+    "Cloud Computing (AWS, Azure)",
+    "Cybersecurity & Ethical Hacking",
+    "Blockchain Development",
+    "Business Analytics",
+    "Digital Marketing",
+    "Mobile App Development",
+    "DevOps Engineering",
+  ];
   const trendingMockTests = ["JEE Main", "NEET", "GATE", "CAT", "UPSC", "SSC"];
 
   return (
