@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { fetchNewsFromSupabase } from '../../services/supabaseClient';
+import { navigateToNewsPage } from '../HomePage/navigationToNewsPage';
+import { supabase } from '../../lib/supabaseClient';
 
 const AskUsPage = () => {
   const navigate = useNavigate();
@@ -10,19 +12,88 @@ const AskUsPage = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [news, setNews] = useState<any[]>([]);
   const [newsLoading, setNewsLoading] = useState(true);
+  const [userInfo, setUserInfo] = useState<{name: string, initials: string} | null>(null);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [questionCount, setQuestionCount] = useState(0);
+  const initialQueryProcessedRef = useRef(false);
 
   // Get initial query from URL params or location state
   const initialQuery = location.state?.query || new URLSearchParams(location.search).get('q') || '';
 
-  // Initialize with initial query if provided
+  // Fetch user information and check authentication
+  useEffect(() => {
+    const fetchUserInfo = async () => {
+      try {
+        const { data: { session } } = await supabase.auth.getSession();
+        
+        if (session?.user) {
+          setIsAuthenticated(true);
+          
+          // Try to get profile name first
+          try {
+            const { data: profile } = await supabase
+              .from('profiles')
+              .select('full_name')
+              .eq('user_id', session.user.id)
+              .single();
+            
+            if (profile?.full_name) {
+              const initials = profile.full_name
+                .split(' ')
+                .map((name: string) => name.charAt(0).toUpperCase())
+                .join('')
+                .slice(0, 2);
+              
+              setUserInfo({
+                name: profile.full_name,
+                initials: initials
+              });
+            } else {
+              // Fallback to email
+              const emailName = session.user.email?.split('@')[0] || 'User';
+              const initials = emailName.charAt(0).toUpperCase();
+              
+              setUserInfo({
+                name: emailName,
+                initials: initials
+              });
+            }
+          } catch (profileError) {
+            // Fallback to email if profile fetch fails
+            const emailName = session.user.email?.split('@')[0] || 'User';
+            const initials = emailName.charAt(0).toUpperCase();
+            
+            setUserInfo({
+              name: emailName,
+              initials: initials
+            });
+          }
+        } else {
+          setIsAuthenticated(false);
+          // Set default user info for non-authenticated users
+          setUserInfo({
+            name: 'Guest',
+            initials: 'G'
+          });
+        }
+      } catch (error) {
+        console.error('Error fetching user info:', error);
+        setIsAuthenticated(false);
+        // Set default user info
+        setUserInfo({
+          name: 'User',
+          initials: 'U'
+        });
+      }
+    };
+
+    fetchUserInfo();
+  }, []);
+
+  // Initialize with initial query if provided (only once)
   React.useEffect(() => {
-    if (initialQuery) {
-      setMessages([{
-        id: Date.now(),
-        type: 'user',
-        content: initialQuery,
-        timestamp: new Date()
-      }]);
+    if (initialQuery && !initialQueryProcessedRef.current) {
+      initialQueryProcessedRef.current = true;
       handleAskQuestion(initialQuery);
     }
   }, [initialQuery]);
@@ -37,24 +108,27 @@ const AskUsPage = () => {
           console.error('Error fetching news:', error);
           // Fallback to sample news
           setNews([
-            { title: "JEE Main 2025 Results Announced", date: new Date(Date.now() - 2 * 60 * 60 * 1000) },
-            { title: "NEET 2025 Registration Opens", date: new Date(Date.now() - 4 * 60 * 60 * 1000) },
-            { title: "VITEEE 2025 Exam Dates Released", date: new Date(Date.now() - 6 * 60 * 60 * 1000) },
-            { title: "IIT Delhi PhD Admissions Open", date: new Date(Date.now() - 8 * 60 * 60 * 1000) }
+            { title: "JEE Main 2025 Results Announced", date: new Date(Date.now() - 2 * 60 * 60 * 1000), link: null },
+            { title: "NEET 2025 Registration Opens", date: new Date(Date.now() - 4 * 60 * 60 * 1000), link: null },
+            { title: "VITEEE 2025 Exam Dates Released", date: new Date(Date.now() - 6 * 60 * 60 * 1000), link: null },
+            { title: "IIT Delhi PhD Admissions Open", date: new Date(Date.now() - 8 * 60 * 60 * 1000), link: null }
           ]);
         } else if (data && data.length > 0) {
           const formattedNews = data.map(item => ({
             title: item.title,
-            date: new Date(item.date)
+            date: new Date(item.date),
+            link: item.link,
+            snippet: item.snippet,
+            image_url: item.image_url
           }));
           setNews(formattedNews);
         } else {
           // Fallback to sample news
           setNews([
-            { title: "JEE Main 2025 Results Announced", date: new Date(Date.now() - 2 * 60 * 60 * 1000) },
-            { title: "NEET 2025 Registration Opens", date: new Date(Date.now() - 4 * 60 * 60 * 1000) },
-            { title: "VITEEE 2025 Exam Dates Released", date: new Date(Date.now() - 6 * 60 * 60 * 1000) },
-            { title: "IIT Delhi PhD Admissions Open", date: new Date(Date.now() - 8 * 60 * 60 * 1000) }
+            { title: "JEE Main 2025 Results Announced", date: new Date(Date.now() - 2 * 60 * 60 * 1000), link: null },
+            { title: "NEET 2025 Registration Opens", date: new Date(Date.now() - 4 * 60 * 60 * 1000), link: null },
+            { title: "VITEEE 2025 Exam Dates Released", date: new Date(Date.now() - 6 * 60 * 60 * 1000), link: null },
+            { title: "IIT Delhi PhD Admissions Open", date: new Date(Date.now() - 8 * 60 * 60 * 1000), link: null }
           ]);
         }
       } catch (error) {
@@ -77,11 +151,43 @@ const AskUsPage = () => {
   const handleAskQuestion = async (question: string) => {
     if (!question.trim()) return;
 
+    // Increment question count
+    const newQuestionCount = questionCount + 1;
+    setQuestionCount(newQuestionCount);
+
+    // Generate unique IDs using crypto.randomUUID or fallback
+    const generateId = () => crypto.randomUUID ? crypto.randomUUID() : `msg_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+
+    // Check if user is not authenticated and this is the second question (after 1 free question)
+    if (!isAuthenticated && newQuestionCount > 1) {
+      // Add user message first
+      const userMessage = {
+        id: generateId(),
+        type: 'user',
+        content: question,
+        timestamp: new Date()
+      };
+      
+      setMessages(prev => [...prev, userMessage]);
+
+      // Show login prompt
+      const loginPromptMessage = {
+        id: generateId(),
+        type: 'assistant',
+        content: 'Thanks for your question! To continue using our AI assistant and get personalized responses, please log in or create an account.',
+        timestamp: new Date(),
+        showLoginPrompt: true
+      };
+      
+      setMessages(prev => [...prev, loginPromptMessage]);
+      return;
+    }
+
     setIsLoading(true);
     
     // Add user message
     const userMessage = {
-      id: Date.now(),
+      id: generateId(),
       type: 'user',
       content: question,
       timestamp: new Date()
@@ -91,28 +197,59 @@ const AskUsPage = () => {
 
     try {
       // Make API call to get response
-      const response = await fetch('/api/search/', {
+      const response = await fetch('/api/chatbot/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query: question }),
       });
 
       const data = await response.json();
+      console.log('Backend response:', data); // Debug log
+      
+      // Handle different response structures - backend returns 'answer'
+      let rawResponse = '';
+      if (data.answer) {
+        rawResponse = data.answer;
+      } else if (data.message) {
+        rawResponse = data.message;
+      } else if (data.response) {
+        rawResponse = data.response;
+      } else if (typeof data === 'string') {
+        rawResponse = data;
+      } else {
+        rawResponse = 'I found some information for you. Let me help you with that.';
+      }
+      
+      // Clean up the response - remove references and make it minimal
+      let cleanResponse = rawResponse;
+      
+      // Remove reference links like [1], [2], etc.
+      cleanResponse = cleanResponse.replace(/\[\d+\]/g, '');
+      
+      // Remove any reference links at the end
+      cleanResponse = cleanResponse.replace(/\n\nReferences?:?\s*\[.*?\]/gi, '');
+      cleanResponse = cleanResponse.replace(/\n\nSource:.*$/gi, '');
+      cleanResponse = cleanResponse.replace(/\n\nLink:.*$/gi, '');
+      
+      // Keep only the first 2-3 lines for minimal response
+      const lines = cleanResponse.split('\n').filter((line: string) => line.trim());
+      if (lines.length > 3) {
+        cleanResponse = lines.slice(0, 3).join('\n');
+      }
       
       // Add assistant response
       const assistantMessage = {
-        id: Date.now() + 1,
+        id: generateId(),
         type: 'assistant',
-        content: data.message || 'I found some information for you. Let me help you with that.',
-        timestamp: new Date(),
-        data: data.data || {}
+        content: cleanResponse.trim(),
+        timestamp: new Date()
       };
       
       setMessages(prev => [...prev, assistantMessage]);
     } catch (error) {
       // Add error response
       const errorMessage = {
-        id: Date.now() + 1,
+        id: generateId(),
         type: 'assistant',
         content: 'I apologize, but I encountered an error while processing your request. Please try again.',
         timestamp: new Date()
@@ -136,19 +273,14 @@ const AskUsPage = () => {
     setMessages([]);
   };
 
-  const exportAsPDF = () => {
-    // Implementation for PDF export
-    console.log('Export as PDF');
-  };
 
-  const exportAsMarkdown = () => {
-    // Implementation for Markdown export
-    console.log('Export as Markdown');
-  };
-
-  const exportAsDOCX = () => {
-    // Implementation for DOCX export
-    console.log('Export as DOCX');
+  const handleLogout = async () => {
+    try {
+      await supabase.auth.signOut();
+      navigate('/');
+    } catch (error) {
+      console.error('Error signing out:', error);
+    }
   };
 
   // Helper function to format time ago
@@ -196,21 +328,16 @@ const AskUsPage = () => {
         <nav className="flex-1 px-4 py-4">
           <div className="space-y-2">
             {[
-              { icon: '🏠', label: 'Home' },
-              { icon: '🏛️', label: 'Colleges' },
-              { icon: '📚', label: 'Courses' },
-              { icon: '⚖️', label: 'College Compare' },
-              { icon: '🎓', label: 'Scholarships' },
-              { icon: '💼', label: 'Internship' },
-              { icon: '📰', label: 'News' },
-              { icon: '📜', label: 'History' }
+              { icon: '🏠', label: 'Home', path: '/' },
+              { icon: '🏛️', label: 'Colleges', path: '/colleges' },
+              { icon: '📝', label: 'Exams', path: '/exams' },
+              { icon: '📰', label: 'News', path: '/news' },
+              { icon: '📊', label: 'Results', path: '/results' },
+              { icon: '📋', label: 'Mock Tests', path: '/mock-tests' }
             ].map((item, index) => (
               <button
                 key={index}
-                onClick={() => {
-                  if (item.label === 'Home') navigate('/');
-                  else navigate(`/${item.label.toLowerCase().replace(' ', '-')}`);
-                }}
+                onClick={() => navigate(item.path)}
                 className="flex items-center gap-3 w-full text-left px-3 py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded-lg transition-colors"
               >
                 <span className="text-lg">{item.icon}</span>
@@ -220,27 +347,18 @@ const AskUsPage = () => {
           </div>
         </nav>
 
-        {/* Recent Activity */}
-        <div className="px-4 py-4 border-t border-gray-700">
-          <h3 className="text-sm font-semibold text-gray-400 mb-3">Recent Activity</h3>
-          <div className="space-y-2 text-sm">
-            <div className="text-gray-500">Today</div>
-            <div className="text-gray-300">VIT College Information</div>
-            <div className="text-gray-300">JEE Main 2025</div>
-            <div className="text-gray-500 mt-3">Previous 7 Days</div>
-            <div className="text-gray-300">Engineering Colleges</div>
-            <div className="text-gray-300">Scholarship Updates</div>
-          </div>
-        </div>
-
         {/* User Info */}
         <div className="p-4 border-t border-gray-700">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 bg-gray-600 rounded-full flex items-center justify-center">
-                <span className="text-sm">JW</span>
+                <span className="text-sm">
+                  {userInfo?.initials || 'U'}
+                </span>
               </div>
-              <span className="text-sm">Johnwick</span>
+              <span className="text-sm">
+                {userInfo?.name || 'User'}
+              </span>
             </div>
             <button 
               onClick={clearConversation}
@@ -250,7 +368,7 @@ const AskUsPage = () => {
             </button>
           </div>
           <button 
-            onClick={() => navigate('/login')}
+            onClick={handleLogout}
             className="text-gray-400 hover:text-white text-sm mt-2"
           >
             Log out
@@ -300,12 +418,20 @@ const AskUsPage = () => {
                     }`}
                   >
                     <div className="whitespace-pre-wrap">{message.content}</div>
-                    {message.data && Object.keys(message.data).length > 0 && (
-                      <div className="mt-4 p-4 bg-gray-600 rounded-lg">
-                        <h4 className="font-semibold mb-2">Related Information:</h4>
-                        <pre className="text-sm text-gray-300 overflow-x-auto">
-                          {JSON.stringify(message.data, null, 2)}
-                        </pre>
+                    {message.showLoginPrompt && (
+                      <div className="mt-4 flex gap-3">
+                        <button
+                          onClick={() => navigate('/login')}
+                          className="bg-green-500 hover:bg-green-600 text-black font-semibold px-4 py-2 rounded-lg transition-colors"
+                        >
+                          Log In
+                        </button>
+                        <button
+                          onClick={() => navigate('/signup')}
+                          className="bg-gray-600 hover:bg-gray-500 text-white font-semibold px-4 py-2 rounded-lg transition-colors"
+                        >
+                          Sign Up
+                        </button>
                       </div>
                     )}
                     <div className="text-xs mt-2 opacity-70">
@@ -330,53 +456,55 @@ const AskUsPage = () => {
 
         {/* Input Area */}
         <div className="border-t border-gray-700 p-6">
-          <form onSubmit={handleSubmit} className="flex items-center gap-4">
-            <div className="flex-1 relative">
-              <input
-                type="text"
-                value={inputValue}
-                onChange={(e) => setInputValue(e.target.value)}
-                placeholder="Ask a follow-up question..."
-                className="w-full bg-gray-800 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-green-500"
-              />
+          {!isAuthenticated && questionCount >= 1 ? (
+            <div className="text-center text-gray-400">
+              <p className="mb-3">Please log in to continue asking questions</p>
+              <div className="flex gap-3 justify-center">
+                <button
+                  onClick={() => navigate('/login')}
+                  className="bg-green-500 hover:bg-green-600 text-black font-semibold px-4 py-2 rounded-lg transition-colors"
+                >
+                  Log In
+                </button>
+                <button
+                  onClick={() => navigate('/signup')}
+                  className="bg-gray-600 hover:bg-gray-500 text-white font-semibold px-4 py-2 rounded-lg transition-colors"
+                >
+                  Sign Up
+                </button>
+              </div>
             </div>
-            <button
-              type="submit"
-              disabled={!inputValue.trim() || isLoading}
-              className="bg-green-500 hover:bg-green-600 disabled:bg-gray-600 disabled:cursor-not-allowed text-black font-semibold px-6 py-3 rounded-lg transition-colors"
-            >
-              ↑
-            </button>
-          </form>
+          ) : (
+            <form onSubmit={handleSubmit} className="flex items-center gap-4">
+              <div className="flex-1 relative">
+                <input
+                  type="text"
+                  value={inputValue}
+                  onChange={(e) => setInputValue(e.target.value)}
+                  placeholder={
+                    isAuthenticated 
+                      ? "Ask a follow-up question..." 
+                      : questionCount === 0 
+                        ? "Ask your first question (free)..." 
+                        : "Ask a follow-up question..."
+                  }
+                  className="w-full bg-gray-800 border border-gray-600 rounded-lg px-4 py-3 text-white placeholder-gray-400 focus:outline-none focus:border-green-500"
+                />
+              </div>
+              <button
+                type="submit"
+                disabled={!inputValue.trim() || isLoading}
+                className="bg-green-500 hover:bg-green-600 disabled:bg-gray-600 disabled:cursor-not-allowed text-black font-semibold px-6 py-3 rounded-lg transition-colors"
+              >
+                ↑
+              </button>
+            </form>
+          )}
         </div>
       </div>
 
       {/* Right Sidebar */}
       <div className="w-80 bg-gray-800 border-l border-gray-700 p-6">
-        {/* Add to Space */}
-        <div className="mb-6">
-          <button className="w-full bg-gray-700 hover:bg-gray-600 text-white py-3 px-4 rounded-lg transition-colors mb-4">
-            Add to Space
-          </button>
-          <div className="space-y-2">
-            <button onClick={exportAsPDF} className="block w-full text-left text-gray-300 hover:text-white py-2 px-3 rounded hover:bg-gray-700">
-              Export as PDF
-            </button>
-            <button onClick={exportAsMarkdown} className="block w-full text-left text-gray-300 hover:text-white py-2 px-3 rounded hover:bg-gray-700">
-              Export as Markdown
-            </button>
-            <button onClick={exportAsDOCX} className="block w-full text-left text-gray-300 hover:text-white py-2 px-3 rounded hover:bg-gray-700">
-              Export as DOCX
-            </button>
-          </div>
-        </div>
-
-        {/* Search Videos */}
-        <div className="mb-6">
-          <h3 className="text-lg font-semibold mb-3">Search Videos</h3>
-          <button className="text-green-500 hover:text-green-400">+ Add Video</button>
-        </div>
-
         {/* Students Also Visited */}
         <div className="mb-6">
           <h3 className="text-lg font-semibold mb-3">Students Also Visited</h3>
@@ -424,7 +552,14 @@ const AskUsPage = () => {
               news.map((newsItem, index) => {
                 const timeAgo = getTimeAgo(newsItem.date);
                 return (
-                  <div key={index} className="bg-gray-700 p-3 rounded-lg hover:bg-gray-600 transition-colors cursor-pointer" onClick={() => navigate('/news')}>
+                  <div 
+                    key={index} 
+                    className="bg-gray-700 p-3 rounded-lg hover:bg-gray-600 transition-colors cursor-pointer" 
+                    onClick={() => {
+                      // Always navigate to news detail page using slug
+                      navigateToNewsPage(navigate, newsItem.link || '', newsItem.title);
+                    }}
+                  >
                     <div className="text-sm font-medium mb-1 text-white line-clamp-2">{newsItem.title}</div>
                     <div className="text-xs text-gray-400">{timeAgo}</div>
                   </div>
