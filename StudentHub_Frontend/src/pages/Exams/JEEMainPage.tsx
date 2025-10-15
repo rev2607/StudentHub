@@ -156,7 +156,6 @@ export default function JEEMainPage() {
     { id: 'syllabus', label: 'Syllabus' },
     { id: 'cutoff', label: 'Cutoff' },
     { id: 'counselling', label: 'Counselling' },
-    { id: 'preparation', label: 'Preparation' }
   ];
 
   const renderTabContent = () => {
@@ -164,9 +163,9 @@ export default function JEEMainPage() {
       case 'overview':
         return (
           <div className="space-y-8">
-            {/* --- BEGIN: Comprehensive JEE Main 2026 Data-Rich Guide --- */}
+            {/* --- BEGIN: JEE Main 2026 Data-Rich Guide --- */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">JEE Main 2026: Comprehensive, Data-Rich Guide</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">JEE Main 2026: Data-Rich Guide</h2>
               <div className="space-y-4 text-gray-700 text-base">
                 <p><strong>About:</strong> JEE Main is India's largest undergraduate engineering entrance test conducted twice a year by NTA (January and April sessions). It offers entry to B.Tech, B.E., B.Arch, and B.Planning courses at 100+ premier institutions (NITs, IIITs, GFTIs, and many private/state universities) and serves as the sole qualifying exam for JEE Advanced for IIT admissions.</p>
                 <ul className="list-disc ml-6">
@@ -345,10 +344,10 @@ export default function JEEMainPage() {
                   <li>Newer IIITs and GFTIs offer rising placement potential; data indexed placements by branch available through official portals.</li>
                 </ul>
                 <h3 className="text-lg font-semibold mt-6">Final Remarks</h3>
-                <p>JEE Main 2026 presents an intensified competitive landscape, with higher cut-offs across all categories, a robust normalization process, and immense demand for top tech branches. Comprehensive topic coverage and adaptive strategies based on rigorous analytics and expert resources form the foundation for success. Candidates should leverage the two-session format, deep-dive into 10-year question analytics, keep a dynamic error log, and remain tuned to every official update for maximal performance and branch/institute access.</p>
+                <p>JEE Main 2026 presents an intensified competitive landscape, with higher cut-offs across all categories, a robust normalization process, and immense demand for top tech branches. Topic coverage and adaptive strategies based on rigorous analytics and expert resources form the foundation for success. Candidates should leverage the two-session format, deep-dive into 10-year question analytics, keep a dynamic error log, and remain tuned to every official update for maximal performance and branch/institute access.</p>
               </div>
             </div>
-            {/* --- END: Comprehensive JEE Main 2026 Data-Rich Guide --- */}
+            {/* --- END: JEE Main 2026 Data-Rich Guide --- */}
 
             {/* About JEE Main 2026 */}
             <div className="bg-white rounded-lg shadow-sm p-6">
@@ -637,9 +636,9 @@ export default function JEEMainPage() {
               </div>
             </div>
 
-            {/* Comprehensive Preparation Strategies and Recommendations */}
+            {/* Preparation Strategies and Recommendations */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">Comprehensive Preparation Strategies and Recommendations</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Preparation Strategies and Recommendations</h2>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <h3 className="text-lg font-semibold text-gray-800 mb-3">High-Weightage Focus Areas</h3>
@@ -754,6 +753,445 @@ export default function JEEMainPage() {
                 <p className="text-gray-700 leading-relaxed">
                   JEE Main 2026 remains the most crucial and competitive gateway for engineering aspirants aspiring to join India's top technical institutes. The exam's evolving patterns, increased weightage on numericals, and uniform syllabus mandate a thorough and comprehensive preparation strategy. Candidates are urged to utilize past years' data, practice rigorously, hone time and accuracy skills, and keep abreast of exam updates issued by NTA to maximize their success chances.
                 </p>
+              </div>
+            </div>
+
+            {/* Detailed Important Dates Content */}
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Important Dates</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="bg-gray-50 rounded-lg p-4">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Session 1 Registration</h3>
+                  <div className="space-y-3">
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Registration Opens:</span>
+                      <span className="font-semibold text-gray-800">Oct 10-16, 2025</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Registration Closes:</span>
+                      <span className="font-semibold text-gray-800">Nov 18-22, 2025</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Correction Window:</span>
+                      <span className="font-semibold text-gray-800">Nov 25-27, 2025</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Demo Registration:</span>
+                      <span className="font-semibold text-gray-800">Early Oct 2025</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gray-50 rounded-lg p-4">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Session 2 Registration</h3>
+                  <div className="space-y-3">
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Registration Opens:</span>
+                      <span className="font-semibold text-gray-800">Feb 2026</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Correction Window:</span>
+                      <span className="font-semibold text-gray-800">Feb 25-27, 2026</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Portal:</span>
+                      <span className="font-semibold text-gray-800">jeemain.nta.nic.in</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-6 bg-gray-50 p-4 rounded-lg">
+                <h3 className="text-lg font-semibold text-gray-800 mb-3">Application Fees</h3>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+                  <div className="flex justify-between">
+                    <span>General/OBC:</span>
+                    <span className="font-semibold">₹1000 per paper</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>SC/ST/PwD:</span>
+                    <span className="font-semibold">₹500 per paper</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Foreign Centers:</span>
+                    <span className="font-semibold">Higher fees</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Detailed Exam Schedule */}
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Exam Schedule</h2>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div className="bg-gray-50 rounded-lg p-4">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Session 1 (January 2026)</h3>
+                  <div className="space-y-3">
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Paper 1 Dates:</span>
+                      <span className="font-semibold text-gray-800">Jan 22, 23, 24, 28, 29</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Paper 2 Date:</span>
+                      <span className="font-semibold text-gray-800">Jan 30</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">City Intimation:</span>
+                      <span className="font-semibold text-gray-800">Jan 10-12</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Admit Card:</span>
+                      <span className="font-semibold text-gray-800">Jan 19 & 23</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gray-50 rounded-lg p-4">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Session 2 (April 2026)</h3>
+                  <div className="space-y-3">
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Paper 1 Dates:</span>
+                      <span className="font-semibold text-gray-800">Apr 2, 3, 4, 7, 8</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Paper 2 Date:</span>
+                      <span className="font-semibold text-gray-800">Apr 9</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">City Intimation:</span>
+                      <span className="font-semibold text-gray-800">Mar 20-22</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-gray-700">Admit Card:</span>
+                      <span className="font-semibold text-gray-800">Mar 30 & Apr 3</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Detailed Eligibility Content */}
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Eligibility Criteria</h2>
+              <div className="space-y-6">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">Age Limit</h3>
+                  <p className="text-gray-700">No upper age limit for JEE Main 2026. Candidates born on or after October 1, 2000, are eligible. However, candidates born before October 1, 2000, can also apply.</p>
+                </div>
+
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">Educational Qualification</h3>
+                  <ul className="list-disc list-inside text-gray-700 space-y-2">
+                    <li>Passed or appearing in Class 12th or equivalent examination</li>
+                    <li>Must have studied Physics, Chemistry, and Mathematics as compulsory subjects</li>
+                    <li>For B.Arch: Mathematics, Physics, and Chemistry OR Mathematics, Physics, and Chemistry OR Mathematics, Physics, and Chemistry</li>
+                    <li>For B.Planning: Mathematics as compulsory subject</li>
+                  </ul>
+                </div>
+
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">Minimum Marks Requirement</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">General/OBC/EWS</h4>
+                      <p className="text-gray-700">75% aggregate marks in Class 12th OR be in top 20 percentile</p>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">SC/ST/PwD</h4>
+                      <p className="text-gray-700">65% aggregate marks in Class 12th OR be in top 20 percentile</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Detailed Application Content */}
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Application Process</h2>
+              <div className="space-y-6">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">Step-by-Step Application Process</h3>
+                  <ol className="list-decimal list-inside text-gray-700 space-y-2">
+                    <li>Visit the official website jeemain.nta.nic.in</li>
+                    <li>Click on "JEE Main 2026 Application Form"</li>
+                    <li>Register with valid email ID and mobile number</li>
+                    <li>Fill in personal details, academic information, and exam preferences</li>
+                    <li>Upload scanned photograph and signature</li>
+                    <li>Pay the application fee online</li>
+                    <li>Submit the application form and take a printout</li>
+                  </ol>
+                </div>
+
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">Required Documents</h3>
+                  <ul className="list-disc list-inside text-gray-700 space-y-2">
+                    <li>Recent passport-size photograph (JPEG format, 10-200 KB)</li>
+                    <li>Scanned signature (JPEG format, 4-30 KB)</li>
+                    <li>Class 10th and 12th mark sheets</li>
+                    <li>Category certificate (if applicable)</li>
+                    <li>PwD certificate (if applicable)</li>
+                    <li>Valid photo ID proof</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Detailed Exam Pattern Content */}
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Exam Pattern</h2>
+              <div className="space-y-6">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">Paper 1 (B.E./B.Tech)</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">Subjects</h4>
+                      <ul className="list-disc list-inside text-gray-700">
+                        <li>Physics: 25 questions</li>
+                        <li>Chemistry: 25 questions</li>
+                        <li>Mathematics: 25 questions</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">Details</h4>
+                      <ul className="list-disc list-inside text-gray-700">
+                        <li>Total Questions: 75 (Attempt 75)</li>
+                        <li>Total Marks: 300</li>
+                        <li>Duration: 3 hours</li>
+                        <li>Mode: Computer-Based Test (CBT)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">Paper 2A (B.Arch)</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">Subjects</h4>
+                      <ul className="list-disc list-inside text-gray-700">
+                        <li>Mathematics: 25 questions</li>
+                        <li>Aptitude Test: 50 questions</li>
+                        <li>Drawing Test: 2 questions</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">Details</h4>
+                      <ul className="list-disc list-inside text-gray-700">
+                        <li>Total Questions: 77 (Attempt 77)</li>
+                        <li>Total Marks: 400</li>
+                        <li>Duration: 3 hours</li>
+                        <li>Mode: Hybrid (CBT + Pen & Paper)</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">Marking Scheme</h3>
+                  <ul className="list-disc list-inside text-gray-700 space-y-2">
+                    <li>Correct Answer: +4 marks</li>
+                    <li>Incorrect Answer: -1 mark</li>
+                    <li>Unanswered: 0 marks</li>
+                    <li>Numerical Questions: +4 marks for correct answer, 0 for incorrect</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Detailed Syllabus Content */}
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Syllabus</h2>
+              <div className="space-y-6">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">Physics Syllabus</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">Mechanics</h4>
+                      <ul className="list-disc list-inside text-gray-700 text-sm">
+                        <li>Laws of Motion</li>
+                        <li>Work, Energy and Power</li>
+                        <li>Rotational Motion</li>
+                        <li>Gravitation</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">Modern Physics</h4>
+                      <ul className="list-disc list-inside text-gray-700 text-sm">
+                        <li>Dual Nature of Matter</li>
+                        <li>Atoms and Nuclei</li>
+                        <li>Electronic Devices</li>
+                        <li>Communication Systems</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">Chemistry Syllabus</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">Physical Chemistry</h4>
+                      <ul className="list-disc list-inside text-gray-700 text-sm">
+                        <li>Atomic Structure</li>
+                        <li>Chemical Bonding</li>
+                        <li>Thermodynamics</li>
+                        <li>Chemical Kinetics</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">Inorganic Chemistry</h4>
+                      <ul className="list-disc list-inside text-gray-700 text-sm">
+                        <li>Periodic Table</li>
+                        <li>s-Block Elements</li>
+                        <li>p-Block Elements</li>
+                        <li>d and f Block Elements</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">Organic Chemistry</h4>
+                      <ul className="list-disc list-inside text-gray-700 text-sm">
+                        <li>Basic Principles</li>
+                        <li>Hydrocarbons</li>
+                        <li>Functional Groups</li>
+                        <li>Biomolecules</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">Mathematics Syllabus</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">Algebra & Trigonometry</h4>
+                      <ul className="list-disc list-inside text-gray-700 text-sm">
+                        <li>Complex Numbers</li>
+                        <li>Quadratic Equations</li>
+                        <li>Sequences and Series</li>
+                        <li>Trigonometric Functions</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">Calculus & Geometry</h4>
+                      <ul className="list-disc list-inside text-gray-700 text-sm">
+                        <li>Limits and Derivatives</li>
+                        <li>Integrals</li>
+                        <li>Coordinate Geometry</li>
+                        <li>3D Geometry</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Detailed Cutoff Content */}
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Cutoff Analysis</h2>
+              <div className="space-y-6">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">JEE Main 2025 Cutoff Percentiles</h3>
+                  <div className="overflow-x-auto">
+                    <table className="min-w-full text-sm">
+                      <thead className="bg-gray-100">
+                        <tr>
+                          <th className="p-3 text-left font-semibold text-gray-800">Category</th>
+                          <th className="p-3 text-left font-semibold text-gray-800">Cutoff Percentile</th>
+                          <th className="p-3 text-left font-semibold text-gray-800">Approximate Marks</th>
+                        </tr>
+                      </thead>
+                      <tbody className="text-gray-700">
+                        <tr>
+                          <td className="p-3">General</td>
+                          <td className="p-3">93.5</td>
+                          <td className="p-3">105-115</td>
+                        </tr>
+                        <tr>
+                          <td className="p-3">EWS</td>
+                          <td className="p-3">81.0</td>
+                          <td className="p-3">75-85</td>
+                        </tr>
+                        <tr>
+                          <td className="p-3">OBC-NCL</td>
+                          <td className="p-3">80.2</td>
+                          <td className="p-3">75-85</td>
+                        </tr>
+                        <tr>
+                          <td className="p-3">SC</td>
+                          <td className="p-3">62.2</td>
+                          <td className="p-3">65-75</td>
+                        </tr>
+                        <tr>
+                          <td className="p-3">ST</td>
+                          <td className="p-3">49.0</td>
+                          <td className="p-3">50-60</td>
+                        </tr>
+                        <tr>
+                          <td className="p-3">PwD</td>
+                          <td className="p-3">0.01</td>
+                          <td className="p-3">Minimal</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">Expected Cutoff Trends for 2026</h3>
+                  <ul className="list-disc list-inside text-gray-700 space-y-2">
+                    <li>General category cutoff expected to remain around 93-94 percentile</li>
+                    <li>EWS and OBC-NCL cutoffs likely to be 80-82 percentile</li>
+                    <li>SC cutoff expected around 60-65 percentile</li>
+                    <li>ST cutoff expected around 45-50 percentile</li>
+                    <li>Cutoffs may vary slightly based on difficulty level and normalization</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Detailed Counselling Content */}
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Counselling Process</h2>
+              <div className="space-y-6">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">JoSAA Counselling</h3>
+                  <div className="space-y-3">
+                    <p className="text-gray-700"><strong>Eligibility:</strong> Top 2.5 lakh JEE Main rankers are eligible for JoSAA counselling</p>
+                    <p className="text-gray-700"><strong>Participating Institutes:</strong> IITs, NITs, IIITs, and GFTIs</p>
+                    <p className="text-gray-700"><strong>Rounds:</strong> 6 rounds of seat allocation</p>
+                    <p className="text-gray-700"><strong>Portal:</strong> josaa.nic.in</p>
+                  </div>
+                </div>
+
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">CSAB Counselling</h3>
+                  <div className="space-y-3">
+                    <p className="text-gray-700"><strong>Eligibility:</strong> Candidates not allotted seats in JoSAA</p>
+                    <p className="text-gray-700"><strong>Participating Institutes:</strong> NITs, IIITs, and GFTIs</p>
+                    <p className="text-gray-700"><strong>Rounds:</strong> 2 rounds of seat allocation</p>
+                    <p className="text-gray-700"><strong>Portal:</strong> csab.nic.in</p>
+                  </div>
+                </div>
+
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-3">Counselling Fee</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">JoSAA Fee</h4>
+                      <ul className="list-disc list-inside text-gray-700 text-sm">
+                        <li>General/OBC: ₹40,000</li>
+                        <li>SC/ST/PwD: ₹20,000</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">CSAB Fee</h4>
+                      <ul className="list-disc list-inside text-gray-700 text-sm">
+                        <li>General/OBC: ₹30,000</li>
+                        <li>SC/ST/PwD: ₹15,000</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -1101,7 +1539,7 @@ export default function JEEMainPage() {
           <div className="space-y-8">
             {/* Age Criteria */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">1. Age Criteria</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Age Criteria</h2>
               <div className="bg-gray-50 rounded-lg p-4">
                 <div className="space-y-3">
                   <div className="flex items-start">
@@ -1126,7 +1564,7 @@ export default function JEEMainPage() {
 
             {/* Qualifying Examination */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">2. Qualifying Examination & Passing Year</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Qualifying Examination & Passing Year</h2>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div className="bg-gray-50 rounded-lg p-4">
                   <h3 className="text-lg font-semibold text-gray-800 mb-3">Eligible Years</h3>
@@ -1172,7 +1610,7 @@ export default function JEEMainPage() {
 
             {/* Subject Criteria */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">3. Subject Criteria and Combinations</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Subject Criteria and Combinations</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-gray-50 rounded-lg p-4">
                   <h3 className="text-lg font-semibold text-gray-800 mb-3">B.E./B.Tech</h3>
@@ -1212,7 +1650,7 @@ export default function JEEMainPage() {
 
             {/* Number of Attempts */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">4. Number of Attempts & Attempts Counting Policy</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Number of Attempts & Attempts Counting Policy</h2>
               <div className="bg-gray-50 rounded-lg p-4">
                 <div className="space-y-3">
                   <div className="flex items-start">
@@ -1237,7 +1675,7 @@ export default function JEEMainPage() {
 
             {/* Admission Eligibility */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">5. Admission Eligibility for NITs/IIITs/GFTIs/Other Institutions</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Admission Eligibility for NITs/IIITs/GFTIs/Other Institutions</h2>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div className="bg-gray-50 rounded-lg p-4">
                   <h3 className="text-lg font-semibold text-gray-800 mb-3">Minimum Marks Required</h3>
@@ -1279,7 +1717,7 @@ export default function JEEMainPage() {
 
             {/* Nationality & Domicile */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">6. Nationality, Domicile & State Code Rules</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Nationality, Domicile & State Code Rules</h2>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div className="bg-gray-50 rounded-lg p-4">
                   <h3 className="text-lg font-semibold text-gray-800 mb-3">Eligible Nationalities</h3>
@@ -1321,7 +1759,7 @@ export default function JEEMainPage() {
 
             {/* Documentation */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">7. Documentation & Application Essentials</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Documentation & Application Essentials</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-gray-50 rounded-lg p-4">
                   <h3 className="text-lg font-semibold text-gray-800 mb-3">Mandatory Documents</h3>
@@ -1597,14 +2035,14 @@ export default function JEEMainPage() {
               <div className="bg-gray-50 p-4 rounded-lg mb-6">
                 <h3 className="text-lg font-semibold text-gray-800 mb-3">Step-by-Step Correction Procedure</h3>
                 <ol className="space-y-2 text-gray-700">
-                  <li>1. Access https://jeemain.nta.nic.in during the correction window dates</li>
-                  <li>2. Log in with Application No., Password, and Security Pin</li>
-                  <li>3. Select 'Manage Form Particulars Correction'</li>
-                  <li>4. Edit allowed fields per instructions</li>
-                  <li>5. Upload fresh scanned photos/signatures if required</li>
-                  <li>6. Pay additional fees if any arise from changes</li>
-                  <li>7. Submit corrected form</li>
-                  <li>8. Download and save the correction confirmation slip</li>
+                  <li>Access https://jeemain.nta.nic.in during the correction window dates</li>
+                  <li>Log in with Application No., Password, and Security Pin</li>
+                  <li>Select 'Manage Form Particulars Correction'</li>
+                  <li>Edit allowed fields per instructions</li>
+                  <li>Upload fresh scanned photos/signatures if required</li>
+                  <li>Pay additional fees if any arise from changes</li>
+                  <li>Submit corrected form</li>
+                  <li>Download and save the correction confirmation slip</li>
                 </ol>
               </div>
 
@@ -1644,18 +2082,6 @@ export default function JEEMainPage() {
                 </ul>
               </div>
 
-              {/* Official and Trusted Sources */}
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="text-lg font-semibold text-gray-800 mb-3">Official and Trusted Sources for Further Reading</h3>
-                <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• <a href="https://www.shiksha.com/engineering/articles/jee-main-application-form-and-image-correction-blogId-19439" className="text-blue-600 hover:underline">Shiksha: JEE Main 2026 Application Correction Guide</a></li>
-                  <li>• <a href="https://www.kollegeapply.com/articles/jee-main-2026-application-form-correction-dates-fees-procedure-1817" className="text-blue-600 hover:underline">KollegeApply: Detailed Correction Dates & Procedure</a></li>
-                  <li>• <a href="https://origineducare.com/jee-main-2026-application-form-correction/" className="text-blue-600 hover:underline">OriginEducare: Stepwise Correction Instructions</a></li>
-                  <li>• <a href="https://collegedunia.com/exams/jee-main/form-correction" className="text-blue-600 hover:underline">Collegedunia: Correction Window Guidelines</a></li>
-                  <li>• <a href="https://motion.ac.in/blog/jee-main-application-form/" className="text-blue-600 hover:underline">Motion Education: Application Form Correction Walkthrough</a></li>
-                  <li>• <a href="https://jeemain.nta.nic.in" className="text-blue-600 hover:underline">NTA Official JEE Main Portal</a></li>
-                </ul>
-              </div>
             </div>
           </div>
         );
@@ -1992,52 +2418,386 @@ export default function JEEMainPage() {
       case 'syllabus':
         return (
           <div className="space-y-8">
+            {/* Comprehensive JEE Main 2026 Syllabus Overview */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <h2 className="text-2xl font-bold text-gray-800 mb-6">JEE Main 2026 Syllabus</h2>
               
-              <div className="space-y-4">
-                <div>
-                  <h3 className="font-semibold text-gray-700 mb-2">Base Syllabus</h3>
-                  <p className="text-gray-600">{data.Syllabus.Base}</p>
+              {/* Base Framework */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Base Framework</h3>
+                <div className="bg-gray-50 rounded-lg p-4">
+                  <p className="text-gray-700 mb-4">
+                    The JEE Main 2026 syllabus follows the <strong>NCERT Class 11 and 12 curriculum</strong> for Physics, Chemistry, and Mathematics as the core foundation across all papers. This allows standardized preparation aligned with most Indian schools.
+                  </p>
+                </div>
                 </div>
                 
-                <div className="bg-red-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-red-800 mb-2">Removed Topics 2026</h3>
-                  <ul className="list-disc list-inside space-y-1">
-                    {data.Syllabus.RemovedTopics2026.map((topic, index) => (
-                      <li key={index} className="text-red-700">{topic}</li>
-                    ))}
-                  </ul>
-                </div>
-
-                <div className="bg-blue-50 rounded-lg p-4">
-                  <h3 className="text-xl font-semibold text-blue-800 mb-4">Paper 1 (B.E./B.Tech) Syllabus</h3>
+              {/* Removed Topics for 2026 */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Removed Topics for 2026</h3>
+                <div className="bg-red-50 rounded-lg p-4">
+                  <p className="text-gray-700 mb-4">
+                    These topics are removed to streamline the syllabus and reduce the candidate workload:
+                  </p>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <div>
-                      <h4 className="font-semibold text-gray-700 mb-2">Mathematics</h4>
-                      <p className="text-gray-600 text-sm">{data.Syllabus.Paper1_BE_BTech.Mathematics}</p>
+                    <div className="bg-white rounded-lg p-3">
+                      <h4 className="font-semibold text-red-800 mb-2">Physics</h4>
+                      <p className="text-red-700">Communication Systems</p>
                     </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-700 mb-2">Physics</h4>
-                      <p className="text-gray-600 text-sm">{data.Syllabus.Paper1_BE_BTech.Physics}</p>
+                    <div className="bg-white rounded-lg p-3">
+                      <h4 className="font-semibold text-red-800 mb-2">Chemistry</h4>
+                      <p className="text-red-700">States of Matter</p>
                     </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-700 mb-2">Chemistry</h4>
-                      <p className="text-gray-600 text-sm">{data.Syllabus.Paper1_BE_BTech.Chemistry}</p>
+                    <div className="bg-white rounded-lg p-3">
+                      <h4 className="font-semibold text-red-800 mb-2">Mathematics</h4>
+                      <p className="text-red-700">Mathematical Reasoning</p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+              {/* Paper 1 (B.E./B.Tech) Syllabus Detail */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Paper 1 (B.E./B.Tech) Syllabus Detail</h3>
+                
+                {/* Mathematics */}
+                <div className="mb-6">
+                <div className="bg-blue-50 rounded-lg p-4">
+                    <h4 className="text-lg font-semibold text-blue-800 mb-3">Mathematics</h4>
+                    <p className="text-gray-700 mb-3">
+                      Extensive topics from both Class 11 and 12 including but not limited to:
+                    </p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Sets & Functions</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• Sets, Relations, and Functions</li>
+                          <li>• Domain, range, types of relations</li>
+                        </ul>
+                      </div>
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Complex Numbers</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• Complex Numbers and Quadratic Equations</li>
+                          <li>• Modulus, argument, roots</li>
+                        </ul>
+                      </div>
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Matrices</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• Matrices and Determinants</li>
+                          <li>• Operations, properties, applications</li>
+                        </ul>
+                      </div>
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Permutations</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• Permutations and Combinations</li>
+                          <li>• Binomial Theorem and Its Applications</li>
+                        </ul>
+                      </div>
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Sequences</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• Sequences and Series</li>
+                          <li>• Arithmetic & Geometric Progression</li>
+                        </ul>
+                      </div>
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Coordinate Geometry</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• 2D and 3D geometry</li>
+                          <li>• Straight lines, circles, conics</li>
+                        </ul>
+                      </div>
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Calculus</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• Differential Calculus</li>
+                          <li>• Integral Calculus</li>
+                          <li>• Limits, continuity, differentiation</li>
+                        </ul>
+                      </div>
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Differential Equations</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• Formation and solution</li>
+                          <li>• Area under curves</li>
+                        </ul>
+                      </div>
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Statistics</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• Probability and Statistics</li>
+                          <li>• Mean, median, mode, standard deviation</li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {/* Physics */}
+                <div className="mb-6">
                   <div className="bg-green-50 rounded-lg p-4">
-                    <h3 className="font-semibold text-green-800 mb-2">Paper 2A (B.Arch)</h3>
-                    <p className="text-gray-600">{data.Syllabus.Paper2A_BArch}</p>
-                  </div>
-                  <div className="bg-purple-50 rounded-lg p-4">
-                    <h3 className="font-semibold text-purple-800 mb-2">Paper 2B (B.Plan)</h3>
-                    <p className="text-gray-600">{data.Syllabus.Paper2B_BPlan}</p>
+                    <h4 className="text-lg font-semibold text-green-800 mb-3">Physics</h4>
+                    <p className="text-gray-700 mb-3">
+                      Divided broadly into theory part and experimental skills (practical component):
+                    </p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Mechanics</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• Physics and Measurement</li>
+                          <li>• Kinematics (1D & 2D motion)</li>
+                          <li>• Laws of Motion</li>
+                          <li>• Work, Energy, and Power</li>
+                        </ul>
+                      </div>
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Rotational Motion</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• Rotational Motion</li>
+                          <li>• Gravitation</li>
+                          <li>• Properties of Solids and Liquids</li>
+                        </ul>
+                      </div>
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Thermodynamics</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• Thermodynamics</li>
+                          <li>• Kinetic Theory of Gases</li>
+                          <li>• Oscillations and Waves</li>
+                        </ul>
+                      </div>
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Electrostatics</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• Electrostatics</li>
+                          <li>• Current Electricity</li>
+                          <li>• Ohm's law, circuits</li>
+                        </ul>
+                      </div>
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Magnetism</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• Magnetic Effects of Current</li>
+                          <li>• Electromagnetic Induction</li>
+                          <li>• Electromagnetic Waves</li>
+                        </ul>
+                      </div>
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Optics & Modern Physics</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• Optics (reflection, refraction)</li>
+                          <li>• Dual Nature of Matter</li>
+                          <li>• Atoms and Nuclei</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="mt-4 bg-yellow-50 rounded-lg p-3">
+                      <h5 className="font-semibold text-yellow-800 mb-2">Experimental Skills</h5>
+                      <p className="text-sm text-gray-700">
+                        <strong>20% weightage</strong> involving understanding of experiments, apparatus, data analysis
+                      </p>
+                    </div>
                   </div>
                 </div>
+
+                {/* Chemistry */}
+                <div className="mb-6">
+                  <div className="bg-purple-50 rounded-lg p-4">
+                    <h4 className="text-lg font-semibold text-purple-800 mb-3">Chemistry</h4>
+                    <p className="text-gray-700 mb-3">
+                      Topics from both physical, inorganic and organic branches include:
+                    </p>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Physical Chemistry</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• Basic Concepts of Chemistry</li>
+                          <li>• Chemical Bonding and Molecular Structure</li>
+                          <li>• Chemical Thermodynamics</li>
+                          <li>• Solutions and Equilibrium</li>
+                          <li>• Redox Reactions and Electrochemistry</li>
+                          <li>• Chemical Kinetics</li>
+                          <li>• Surface Chemistry</li>
+                        </ul>
+                    </div>
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Inorganic Chemistry</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• Classification of Elements</li>
+                          <li>• Periodicity in Properties</li>
+                          <li>• The p-Block Elements</li>
+                          <li>• The d-Block and f-Block Elements</li>
+                          <li>• Coordination Compounds</li>
+                          <li>• Organometallics and Bioinorganic Chemistry</li>
+                        </ul>
+                    </div>
+                      <div className="bg-white rounded-lg p-3">
+                        <h5 className="font-semibold text-gray-800 mb-2">Organic Chemistry</h5>
+                        <ul className="text-sm text-gray-600 space-y-1">
+                          <li>• Purification and Characterization</li>
+                          <li>• Basic Principles and Techniques</li>
+                          <li>• Hydrocarbons (alkanes, alkenes, alkynes)</li>
+                          <li>• Organic Compounds (Halogens, Oxygen, Nitrogen)</li>
+                          <li>• Biomolecules</li>
+                          <li>• Polymers</li>
+                          <li>• Chemistry in Everyday Life</li>
+                        </ul>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+              {/* Paper 2A (B.Arch) Syllabus Expanded */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Paper 2A (B.Arch) Syllabus Expanded</h3>
+                  <div className="bg-green-50 rounded-lg p-4">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div className="bg-white rounded-lg p-3">
+                      <h4 className="font-semibold text-green-800 mb-2">Mathematics</h4>
+                      <p className="text-sm text-gray-600">From Paper 1's syllabus</p>
+                  </div>
+                    <div className="bg-white rounded-lg p-3">
+                      <h4 className="font-semibold text-green-800 mb-2">Aptitude Test</h4>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        <li>• Spatial visualization</li>
+                        <li>• Mental ability</li>
+                        <li>• 3D perception</li>
+                        <li>• Analytical reasoning</li>
+                      </ul>
+                    </div>
+                    <div className="bg-white rounded-lg p-3">
+                      <h4 className="font-semibold text-green-800 mb-2">Drawing Test</h4>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        <li>• Understanding of scale and proportions</li>
+                        <li>• Drawing of geometrical shapes</li>
+                        <li>• Visualization of 3D objects</li>
+                        <li>• Architectural awareness and creativity</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Paper 2B (B.Plan) Syllabus Expanded */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Paper 2B (B.Plan) Syllabus Expanded</h3>
+                  <div className="bg-purple-50 rounded-lg p-4">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div className="bg-white rounded-lg p-3">
+                      <h4 className="font-semibold text-purple-800 mb-2">Mathematics</h4>
+                      <p className="text-sm text-gray-600">As per Class 11 & 12 NCERT syllabus</p>
+                  </div>
+                    <div className="bg-white rounded-lg p-3">
+                      <h4 className="font-semibold text-purple-800 mb-2">Planning Aptitude</h4>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        <li>• Understanding of urban and regional planning</li>
+                        <li>• Basic statistics</li>
+                        <li>• Social sciences</li>
+                      </ul>
+                </div>
+                    <div className="bg-white rounded-lg p-3">
+                      <h4 className="font-semibold text-purple-800 mb-2">Aptitude Test</h4>
+                      <ul className="text-sm text-gray-600 space-y-1">
+                        <li>• Logical reasoning</li>
+                        <li>• Data interpretation</li>
+                        <li>• Analytical thinking</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Additional Notes on Syllabus Structure */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Additional Notes on Syllabus Structure</h3>
+                <div className="bg-gray-50 rounded-lg p-4">
+                  <div className="space-y-4">
+                    <div className="border-l-4 border-blue-500 pl-4">
+                      <div className="font-semibold text-gray-800">Question Types</div>
+                      <div className="text-gray-700">The exam paper contains two types of questions:</div>
+                      <ul className="mt-2 space-y-1 text-sm text-gray-600">
+                        <li>• <strong>Section A:</strong> Multiple Choice Questions (MCQs) testing conceptual clarity</li>
+                        <li>• <strong>Section B:</strong> Numerical answer type questions (NAT) requiring calculations and answers without options</li>
+                      </ul>
+                    </div>
+                    
+                    <div className="border-l-4 border-green-500 pl-4">
+                      <div className="font-semibold text-gray-800">Weightage Distribution</div>
+                      <div className="text-gray-700">The weightage varies by topic with more questions from core topics such as:</div>
+                      <ul className="mt-2 space-y-1 text-sm text-gray-600">
+                        <li>• Calculus (Mathematics)</li>
+                        <li>• Mechanics (Physics)</li>
+                        <li>• Organic Chemistry (Chemistry)</li>
+                      </ul>
+                    </div>
+                    
+                    <div className="border-l-4 border-yellow-500 pl-4">
+                      <div className="font-semibold text-gray-800">Physics Component Breakdown</div>
+                      <div className="text-gray-700">Detailed breakdowns of Physics theory vs practical components account for:</div>
+                      <ul className="mt-2 space-y-1 text-sm text-gray-600">
+                        <li>• <strong>Theory:</strong> 80% weightage</li>
+                        <li>• <strong>Experimental Skills:</strong> 20% weightage</li>
+                      </ul>
+                    </div>
+                    
+                    <div className="border-l-4 border-purple-500 pl-4">
+                      <div className="font-semibold text-gray-800">Preparation Recommendation</div>
+                      <div className="text-gray-700">For candidate preparation, accessing official and popular mock test portals reflecting this dense syllabus is recommended.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Additional Resources */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Additional Resources</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-3">Official Sources</h4>
+                    <div className="space-y-2">
+                      <div className="flex items-center">
+                        <div className="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                        <a href="https://allen.in/jee-main/syllabus" className="text-blue-600 hover:underline">Allen: JEE Main Syllabus 2026</a>
+                      </div>
+                      <div className="flex items-center">
+                        <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                        <a href="https://www.vedantu.com/jee-main/syllabus-jee-main-2026" className="text-blue-600 hover:underline">Vedantu: Syllabus JEE Main 2026</a>
+                      </div>
+                      <div className="flex items-center">
+                        <div className="w-2 h-2 bg-yellow-500 rounded-full mr-3"></div>
+                        <a href="https://jeemain.nta.nic.in/document/syllabus-for-jee-main-2025/" className="text-blue-600 hover:underline">NTA Official Syllabus</a>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-3">Educational Portals</h4>
+                    <div className="space-y-2">
+                      <div className="flex items-center">
+                        <div className="w-2 h-2 bg-purple-500 rounded-full mr-3"></div>
+                        <a href="https://engineering.careers360.com/articles/jee-main-syllabus-2026" className="text-blue-600 hover:underline">Careers360: Syllabus 2026</a>
+                      </div>
+                      <div className="flex items-center">
+                        <div className="w-2 h-2 bg-red-500 rounded-full mr-3"></div>
+                        <a href="https://www.shiksha.com/engineering/jee-main-exam-syllabus" className="text-blue-600 hover:underline">Shiksha: Exam Syllabus</a>
+                      </div>
+                      <div className="flex items-center">
+                        <div className="w-2 h-2 bg-indigo-500 rounded-full mr-3"></div>
+                        <a href="https://www.pw.live/iit-jee" className="text-blue-600 hover:underline">PW: JEE Preparation</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-blue-50 rounded-lg p-4">
+                <p className="text-sm text-gray-700">
+                  <strong>Note:</strong> This comprehensive syllabus overview provides detailed topic coverage for JEE Main 2026. For detailed chapter-wise topic lists, sample questions per chapter, suggested preparation timelines based on this expanded syllabus, or integration of past years' trends to focus on high-yield topics, please refer to the additional resources above.
+                </p>
               </div>
             </div>
           </div>
@@ -2046,33 +2806,477 @@ export default function JEEMainPage() {
       case 'cutoff':
         return (
           <div className="space-y-8">
+            {/* Comprehensive JEE Main 2026 Cutoff Trends Analysis */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">Expected Cutoff Trends 2026</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div className="bg-blue-50 rounded-lg p-4">
-                  <h3 className="font-semibold text-blue-800 mb-2">General</h3>
-                  <p className="text-2xl font-bold text-blue-600">{data.CutoffTrends.General}</p>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">JEE Main 2026 Expected Cutoff Trends — Detailed Category-wise Analysis</h2>
+              
+              {/* Core Expected Percentile Cutoffs */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Core Expected Percentile Cutoffs (2026 Projection)</h3>
+                <div className="overflow-x-auto">
+                  <table className="w-full border-collapse border border-gray-300">
+                    <thead>
+                      <tr className="bg-gray-100">
+                        <th className="border border-gray-300 px-4 py-2 text-left">Category</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">Expected Percentile Range</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">Estimated Marks Range (out of 300)</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">Notes / Implications</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">General (UR)</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">92.5 – 95.0</td>
+                        <td className="border border-gray-300 px-4 py-2">105 – 115</td>
+                        <td className="border border-gray-300 px-4 py-2">Highly competitive; top NIT/IIIT admissions require scores in this range</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">EWS</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">80.0 – 83.0</td>
+                        <td className="border border-gray-300 px-4 py-2">75 – 85</td>
+                        <td className="border border-gray-300 px-4 py-2">Reserved category; cutoff rising yearly in line with General category</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">OBC-NCL</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">79.0 – 82.0</td>
+                        <td className="border border-gray-300 px-4 py-2">75 – 85</td>
+                        <td className="border border-gray-300 px-4 py-2">Similar to EWS with slight variations per institute</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">SC</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">61.0 – 64.0</td>
+                        <td className="border border-gray-300 px-4 py-2">60 – 75</td>
+                        <td className="border border-gray-300 px-4 py-2">Cutoff steadily increasing, reflecting normalization post-pandemic</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">ST</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">48.0 – 52.0</td>
+                        <td className="border border-gray-300 px-4 py-2">50 – 60</td>
+                        <td className="border border-gray-300 px-4 py-2">Significant improvement over prior years; seek percentile over 50+ for safety</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">PwD</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">~0.001 – 0.02</td>
+                        <td className="border border-gray-300 px-4 py-2">Minimal threshold (0–10 marks)</td>
+                        <td className="border border-gray-300 px-4 py-2">Focused on inclusivity; very low cutoff as per government mandates</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-                <div className="bg-green-50 rounded-lg p-4">
-                  <h3 className="font-semibold text-green-800 mb-2">EWS</h3>
-                  <p className="text-2xl font-bold text-green-600">{data.CutoffTrends.EWS}</p>
+              </div>
+
+              {/* Historical Cutoff Trends */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Historical Cutoff Trends and Percentile Evolution (2022–2026)</h3>
+                <div className="bg-gray-50 rounded-lg p-4 mb-4">
+                  <p className="text-gray-700 mb-4">
+                    This indicates a <strong>steady rise in cutoffs</strong>, especially post-pandemic, due to normalization of exam difficulty parameters and increased candidate pool.
+                  </p>
                 </div>
-                <div className="bg-yellow-50 rounded-lg p-4">
-                  <h3 className="font-semibold text-yellow-800 mb-2">OBC-NCL</h3>
-                  <p className="text-2xl font-bold text-yellow-600">{data.CutoffTrends["OBC-NCL"]}</p>
+                <div className="overflow-x-auto">
+                  <table className="w-full border-collapse border border-gray-300">
+                    <thead>
+                      <tr className="bg-gray-100">
+                        <th className="border border-gray-300 px-4 py-2 text-left">Year</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">General (%)</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">EWS (%)</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">OBC-NCL (%)</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">SC (%)</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">ST (%)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="bg-blue-50">
+                        <td className="border border-gray-300 px-4 py-2 font-medium">2026*</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">93.5</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">81.0</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">80.2</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">62.2</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">49.0</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">2025</td>
+                        <td className="border border-gray-300 px-4 py-2">93.1</td>
+                        <td className="border border-gray-300 px-4 py-2">80.3</td>
+                        <td className="border border-gray-300 px-4 py-2">79.4</td>
+                        <td className="border border-gray-300 px-4 py-2">61.1</td>
+                        <td className="border border-gray-300 px-4 py-2">47.9</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">2024</td>
+                        <td className="border border-gray-300 px-4 py-2">93.2</td>
+                        <td className="border border-gray-300 px-4 py-2">81.3</td>
+                        <td className="border border-gray-300 px-4 py-2">79.7</td>
+                        <td className="border border-gray-300 px-4 py-2">60.1</td>
+                        <td className="border border-gray-300 px-4 py-2">46.7</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">2023</td>
+                        <td className="border border-gray-300 px-4 py-2">90.8</td>
+                        <td className="border border-gray-300 px-4 py-2">75.6</td>
+                        <td className="border border-gray-300 px-4 py-2">73.6</td>
+                        <td className="border border-gray-300 px-4 py-2">52.0</td>
+                        <td className="border border-gray-300 px-4 py-2">37.2</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">2022</td>
+                        <td className="border border-gray-300 px-4 py-2">88.4</td>
+                        <td className="border border-gray-300 px-4 py-2">63.1</td>
+                        <td className="border border-gray-300 px-4 py-2">67.0</td>
+                        <td className="border border-gray-300 px-4 py-2">43.1</td>
+                        <td className="border border-gray-300 px-4 py-2">26.8</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-                <div className="bg-red-50 rounded-lg p-4">
-                  <h3 className="font-semibold text-red-800 mb-2">SC</h3>
-                  <p className="text-2xl font-bold text-red-600">{data.CutoffTrends.SC}</p>
-                </div>
-                <div className="bg-purple-50 rounded-lg p-4">
-                  <h3 className="font-semibold text-purple-800 mb-2">ST</h3>
-                  <p className="text-2xl font-bold text-purple-600">{data.CutoffTrends.ST}</p>
-                </div>
+                <div className="mt-2 text-sm text-gray-600">*Projected</div>
+              </div>
+
+              {/* Cutoff Score vs Percentile Correlation */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Cutoff Score vs Percentile Correlation</h3>
                 <div className="bg-gray-50 rounded-lg p-4">
-                  <h3 className="font-semibold text-gray-800 mb-2">PwD</h3>
-                  <p className="text-2xl font-bold text-gray-600">{data.CutoffTrends.PwD}</p>
+                  <div className="space-y-4">
+                    <div className="border-l-4 border-blue-500 pl-4">
+                      <div className="font-semibold text-gray-800">Top 99+ Percentile Marks</div>
+                      <div className="text-gray-700">Approximately 260–280+ marks out of 300, needed for IIT/Top IIITs admission</div>
+                    </div>
+                    
+                    <div className="border-l-4 border-green-500 pl-4">
+                      <div className="font-semibold text-gray-800">Safe Score for General</div>
+                      <div className="text-gray-700">Around <strong>105–115 marks</strong>, correlating with 92–95 percentile; safe target for NITs</div>
+                    </div>
+                    
+                    <div className="border-l-4 border-yellow-500 pl-4">
+                      <div className="font-semibold text-gray-800">Category-wise Marks-to-Percentile Mapping</div>
+                      <div className="text-gray-700">Varies slightly per year due to exam difficulty but follows stable trends</div>
+                    </div>
+                    
+                    <div className="border-l-4 border-purple-500 pl-4">
+                      <div className="font-semibold text-gray-800">Marks Range for Lowest Qualifiers</div>
+                      <div className="text-gray-700">
+                        <ul className="mt-2 space-y-1 text-sm">
+                          <li>• General: ~95 marks (90 percentile)</li>
+                          <li>• SC/ST/PwD: ~35–60 marks (corresponding percentiles varying widely)</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </div>
+
+              {/* Factors Affecting Cutoff Trends */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Factors Affecting Cutoff Trends</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-3">Primary Factors</h4>
+                    <div className="space-y-3">
+                      <div className="flex items-start">
+                        <div className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3"></div>
+                        <div>
+                          <p className="text-gray-700 font-medium">Number of Candidates</p>
+                          <p className="text-sm text-gray-600">Increase in candidate pool pushes percentile cutoffs higher</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start">
+                        <div className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3"></div>
+                        <div>
+                          <p className="text-gray-700 font-medium">Exam Difficulty</p>
+                          <p className="text-sm text-gray-600">Lower difficulty leads to higher scores hence higher cutoffs</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start">
+                        <div className="w-2 h-2 bg-yellow-500 rounded-full mt-2 mr-3"></div>
+                        <div>
+                          <p className="text-gray-700 font-medium">Reservation Policies</p>
+                          <p className="text-sm text-gray-600">Quota seat adjustments affect percentile thresholds</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-3">Secondary Factors</h4>
+                    <div className="space-y-3">
+                      <div className="flex items-start">
+                        <div className="w-2 h-2 bg-purple-500 rounded-full mt-2 mr-3"></div>
+                        <div>
+                          <p className="text-gray-700 font-medium">Number of Seats</p>
+                          <p className="text-sm text-gray-600">Changes in seat availability at NITs, IIITs, GFTIs influence cutoffs</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start">
+                        <div className="w-2 h-2 bg-red-500 rounded-full mt-2 mr-3"></div>
+                        <div>
+                          <p className="text-gray-700 font-medium">Performance Clustering</p>
+                          <p className="text-sm text-gray-600">Batch-wise performance distribution impacts relative ranking</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start">
+                        <div className="w-2 h-2 bg-indigo-500 rounded-full mt-2 mr-3"></div>
+                        <div>
+                          <p className="text-gray-700 font-medium">JoSAA Counselling Trends</p>
+                          <p className="text-sm text-gray-600">Seat matrix and academic choices influence closing ranks</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Category-wise Cutoff Expectations */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Category-wise Cutoff Expectations and Observations</h3>
+                <div className="space-y-4">
+                <div className="bg-blue-50 rounded-lg p-4">
+                    <div className="flex items-start">
+                      <div className="w-3 h-3 bg-blue-500 rounded-full mt-2 mr-3"></div>
+                      <div>
+                        <h4 className="font-semibold text-gray-800">General (UR)</h4>
+                        <p className="text-gray-700">The highest cutoff category; consistent need for scores above 90th percentile</p>
+                </div>
+                    </div>
+                  </div>
+                  
+                <div className="bg-green-50 rounded-lg p-4">
+                    <div className="flex items-start">
+                      <div className="w-3 h-3 bg-green-500 rounded-full mt-2 mr-3"></div>
+                      <div>
+                        <h4 className="font-semibold text-gray-800">EWS</h4>
+                        <p className="text-gray-700">Cutoffs have risen due to increased awareness and candidate participation; expected to hover around 80-83 percentile</p>
+                </div>
+                    </div>
+                  </div>
+                  
+                <div className="bg-yellow-50 rounded-lg p-4">
+                    <div className="flex items-start">
+                      <div className="w-3 h-3 bg-yellow-500 rounded-full mt-2 mr-3"></div>
+                      <div>
+                        <h4 className="font-semibold text-gray-800">OBC-NCL</h4>
+                        <p className="text-gray-700">Closely aligned with EWS trends, with minor variations depending on specific state quotas</p>
+                </div>
+                    </div>
+                  </div>
+                  
+                <div className="bg-red-50 rounded-lg p-4">
+                    <div className="flex items-start">
+                      <div className="w-3 h-3 bg-red-500 rounded-full mt-2 mr-3"></div>
+                      <div>
+                        <h4 className="font-semibold text-gray-800">SC/ST</h4>
+                        <p className="text-gray-700">Increasing elevated cutoffs reflect more equitable access and competitive aspirant quality</p>
+                </div>
+                    </div>
+                  </div>
+                  
+                <div className="bg-purple-50 rounded-lg p-4">
+                    <div className="flex items-start">
+                      <div className="w-3 h-3 bg-purple-500 rounded-full mt-2 mr-3"></div>
+                      <div>
+                        <h4 className="font-semibold text-gray-800">PwD</h4>
+                        <p className="text-gray-700">Cutoff remains minimal, designed for enabling access with lowered barriers</p>
+                </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Admission Implications */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Admission Implications Based on Expected Cutoffs</h3>
+                <div className="bg-gray-50 rounded-lg p-4">
+                  <div className="space-y-4">
+                    <div className="border-l-4 border-blue-500 pl-4">
+                      <div className="font-semibold text-gray-800">High Probability Admissions</div>
+                      <div className="text-gray-700">Candidates scoring above <strong>110 marks (General)</strong> can expect high probability of NIT or reputed IIIT seat allotment in popular branches (CSE, ECE)</div>
+                </div>
+                    
+                    <div className="border-l-4 border-green-500 pl-4">
+                      <div className="font-semibold text-gray-800">Reserved Category Admissions</div>
+                      <div className="text-gray-700">Scores in the <strong>75–85 marks</strong> bracket likely ensure admission into reserved categories under respective quotas</div>
+              </div>
+                    
+                    <div className="border-l-4 border-yellow-500 pl-4">
+                      <div className="font-semibold text-gray-800">Important Note</div>
+                      <div className="text-gray-700">Applicants must aim higher than qualifying cutoffs because <strong>cutoff percentile is not admission guarantee</strong> but minimum eligibility</div>
+                    </div>
+                    
+                    <div className="border-l-4 border-purple-500 pl-4">
+                      <div className="font-semibold text-gray-800">College-wise Expectations</div>
+                      <div className="text-gray-700">
+                        <ul className="mt-2 space-y-1 text-sm">
+                          <li>• <strong>Top colleges</strong> generally close admissions around 95+ percentile</li>
+                          <li>• <strong>Mid-tier NITs</strong> around 90–92 percentile for top branches</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Strategic Preparation */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Strategic Preparation Based on Cutoff Trends</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-3">Target Percentiles</h4>
+                    <div className="space-y-3">
+                      <div className="flex items-start">
+                        <div className="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-1"></div>
+                        <div>
+                          <p className="font-semibold text-gray-800">Aim for 95+ Percentile</p>
+                          <p className="text-sm text-gray-600">For strongest admission positioning</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start">
+                        <div className="w-2 h-2 bg-green-500 rounded-full mr-3 mt-1"></div>
+                        <div>
+                          <p className="font-semibold text-gray-800">Maximize Scoring Efficiency</p>
+                          <p className="text-sm text-gray-600">Focus on Physics, Chemistry, and Mathematics</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-3">Preparation Strategy</h4>
+                    <div className="space-y-3">
+                      <div className="flex items-start">
+                        <div className="w-2 h-2 bg-yellow-500 rounded-full mr-3 mt-1"></div>
+                        <div>
+                          <p className="font-semibold text-gray-800">Regular Mock Tests</p>
+                          <p className="text-sm text-gray-600">Aligned with last year cutoff trends</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start">
+                        <div className="w-2 h-2 bg-purple-500 rounded-full mr-3 mt-1"></div>
+                        <div>
+                          <p className="font-semibold text-gray-800">Time Management</p>
+                          <p className="text-sm text-gray-600">Improve percentile awareness and efficiency</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Marks Distribution Example */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Supporting Data: Marks Distribution Example (General Category)</h3>
+                <div className="overflow-x-auto">
+                  <table className="w-full border-collapse border border-gray-300">
+                    <thead>
+                      <tr className="bg-gray-100">
+                        <th className="border border-gray-300 px-4 py-2 text-left">Marks Range</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">Approximate Percentile Range</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">Admission Potential</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="bg-green-50">
+                        <td className="border border-gray-300 px-4 py-2 font-medium">270 – 300</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">99.9 – 100</td>
+                        <td className="border border-gray-300 px-4 py-2">IITs, top IIITs, CSE at premier NITs</td>
+                      </tr>
+                      <tr className="bg-blue-50">
+                        <td className="border border-gray-300 px-4 py-2 font-medium">210 – 260</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">95 – 99</td>
+                        <td className="border border-gray-300 px-4 py-2">CSE, ECE branches in NITs/IIITs</td>
+                      </tr>
+                      <tr className="bg-yellow-50">
+                        <td className="border border-gray-300 px-4 py-2 font-medium">150 – 205</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">85 – 94</td>
+                        <td className="border border-gray-300 px-4 py-2">Other engineering branches in NITs, GFTIs</td>
+                      </tr>
+                      <tr className="bg-orange-50">
+                        <td className="border border-gray-300 px-4 py-2 font-medium">100 – 145</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">70 – 85</td>
+                        <td className="border border-gray-300 px-4 py-2">State-level colleges, private deemed universities</td>
+                      </tr>
+                      <tr className="bg-red-50">
+                        <td className="border border-gray-300 px-4 py-2 font-medium">&lt;100</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">&lt; 70</td>
+                        <td className="border border-gray-300 px-4 py-2">Limited options, alternate pathways</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              {/* Key Takeaways */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Key Takeaways</h3>
+                <div className="bg-gray-50 rounded-lg p-4">
+                  <div className="space-y-4">
+                    <div className="border-l-4 border-blue-500 pl-4">
+                      <div className="font-semibold text-gray-800">Target Percentile</div>
+                      <div className="text-gray-700">Preparing to exceed the <strong>93+ percentile general category cutoff</strong> provides a competitive edge</div>
+                    </div>
+                    
+                    <div className="border-l-4 border-green-500 pl-4">
+                      <div className="font-semibold text-gray-800">Safety Margin</div>
+                      <div className="text-gray-700">Reservations raise competitive thresholds in respective categories, so category candidates should aim to exceed their estimated percentile cutoffs by 2-3 points for safety</div>
+                    </div>
+                    
+                    <div className="border-l-4 border-yellow-500 pl-4">
+                      <div className="font-semibold text-gray-800">Continuous Monitoring</div>
+                      <div className="text-gray-700">Continuous monitoring of official NTA updates and JoSAA seat matrices helps adjust target scores and priorities</div>
+                    </div>
+                    
+                    <div className="border-l-4 border-purple-500 pl-4">
+                      <div className="font-semibold text-gray-800">Score vs Rank vs Percentile</div>
+                      <div className="text-gray-700">Candidates must be aware of <strong>score versus rank versus percentile</strong> nuances while planning</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Additional Resources */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Additional Resources</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-3">Official Sources</h4>
+                    <div className="space-y-2">
+                      <div className="flex items-center">
+                        <div className="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                        <a href="https://www.shiksha.com/news/engineering-jee-main-cutoff-check-past-5-years-cutoff-trends-to-know-the-safe-scores-for-2026-blogId-211814" className="text-blue-600 hover:underline">Shiksha: JEE Main Cutoff Trends 2026</a>
+                      </div>
+                      <div className="flex items-center">
+                        <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                        <a href="https://www.pw.live/iit-jee/exams/jee-main-cutoff-prediction" className="text-blue-600 hover:underline">PW: JEE Main Cutoff Prediction</a>
+                      </div>
+                      <div className="flex items-center">
+                        <div className="w-2 h-2 bg-yellow-500 rounded-full mr-3"></div>
+                        <a href="https://www.aakash.ac.in/jee-main-cut-off" className="text-blue-600 hover:underline">Aakash: JEE Main Cutoff Analysis</a>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-3">Analysis Tools</h4>
+                    <div className="space-y-2">
+                      <div className="flex items-center">
+                        <div className="w-2 h-2 bg-purple-500 rounded-full mr-3"></div>
+                        <a href="https://www.toprankers.com/jee-main-marks-vs-percentile" className="text-blue-600 hover:underline">TopRankers: Marks vs Percentile</a>
+                      </div>
+                      <div className="flex items-center">
+                        <div className="w-2 h-2 bg-red-500 rounded-full mr-3"></div>
+                        <a href="https://collegedunia.com/exams/jee-main/cutoff" className="text-blue-600 hover:underline">Collegedunia: Cutoff Analysis</a>
+                      </div>
+                      <div className="flex items-center">
+                        <div className="w-2 h-2 bg-indigo-500 rounded-full mr-3"></div>
+                        <a href="https://studyriserr.com/news/jee-main-cutoff-2026" className="text-blue-600 hover:underline">StudyRiser: Cutoff Trends 2026</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-blue-50 rounded-lg p-4">
+                <p className="text-sm text-gray-700">
+                  <strong>Note:</strong> This comprehensive, data-rich overview offers an in-depth understanding of expected JEE Main 2026 cutoff percentile trends thoroughly supported with historical analysis, mark mappings, and strategic insights. For detailed tables of closing ranks for top NITs, IIITs, and GFTIs or interactive admission scenario simulations, please refer to the additional resources above.
+                </p>
               </div>
             </div>
           </div>
@@ -2081,88 +3285,380 @@ export default function JEEMainPage() {
       case 'counselling':
         return (
           <div className="space-y-8">
+            {/* Comprehensive JEE Main 2026 Counselling Overview */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">Counselling Process</h2>
-              <div className="space-y-4">
-                <div>
-                  <h3 className="font-semibold text-gray-700 mb-2">Description</h3>
-                  <p className="text-gray-600">{data.Counselling.Description}</p>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-700 mb-2">Start Date</h3>
-                  <p className="text-gray-600">{data.Counselling.StartDate}</p>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-700 mb-2">Mode</h3>
-                  <p className="text-gray-600">{data.Counselling.Mode}</p>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-700 mb-2">Rounds</h3>
-                  <p className="text-gray-600">{data.Counselling.Rounds}</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">Reservation Policy</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div className="bg-blue-50 rounded-lg p-4">
-                  <h3 className="font-semibold text-blue-800 mb-2">OBC-NCL</h3>
-                  <p className="text-2xl font-bold text-blue-600">{data.Reservation["OBC-NCL"]}</p>
-                </div>
-                <div className="bg-green-50 rounded-lg p-4">
-                  <h3 className="font-semibold text-green-800 mb-2">EWS</h3>
-                  <p className="text-2xl font-bold text-green-600">{data.Reservation.EWS}</p>
-                </div>
-                <div className="bg-red-50 rounded-lg p-4">
-                  <h3 className="font-semibold text-red-800 mb-2">SC</h3>
-                  <p className="text-2xl font-bold text-red-600">{data.Reservation.SC}</p>
-                </div>
-                <div className="bg-purple-50 rounded-lg p-4">
-                  <h3 className="font-semibold text-purple-800 mb-2">ST</h3>
-                  <p className="text-2xl font-bold text-purple-600">{data.Reservation.ST}</p>
-                </div>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">JEE Main 2026 Counselling Process</h2>
+              
+              {/* Description */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Description</h3>
                 <div className="bg-gray-50 rounded-lg p-4">
-                  <h3 className="font-semibold text-gray-800 mb-2">PwD</h3>
-                  <p className="text-2xl font-bold text-gray-600">{data.Reservation.PwD}</p>
+                  <p className="text-gray-700 mb-4">
+                    The <strong>joint counselling process</strong> for JEE Main 2026 is conducted centrally by the <strong>Joint Seat Allocation Authority (JoSAA)</strong>, along with the <strong>Central Seat Allocation Board (CSAB)</strong>. This centralized process ensures the merit-based, transparent, and fair allocation of seats to candidates in premier engineering institutions across India, including:
+                  </p>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div className="bg-blue-50 rounded-lg p-3">
+                      <h4 className="font-semibold text-blue-800 mb-2">IITs</h4>
+                      <p className="text-blue-700 text-sm">Through JEE Advanced</p>
+                    </div>
+                    <div className="bg-green-50 rounded-lg p-3">
+                      <h4 className="font-semibold text-green-800 mb-2">NITs, IIITs, GFTIs</h4>
+                      <p className="text-green-700 text-sm">Through JEE Main ranks</p>
+                    </div>
+                    <div className="bg-purple-50 rounded-lg p-3">
+                      <h4 className="font-semibold text-purple-800 mb-2">Other Institutes</h4>
+                      <p className="text-purple-700 text-sm">Participating technical institutes</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Start Date and Mode */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Start Date and Mode</h3>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-3">Timeline</h4>
+                    <div className="space-y-3">
+                      <div className="border-l-4 border-blue-500 pl-4">
+                        <div className="font-semibold text-gray-800">Counselling Commencement</div>
+                        <div className="text-gray-700">Expected to commence in June 2026 after result declaration</div>
+                      </div>
+                      <div className="border-l-4 border-green-500 pl-4">
+                        <div className="font-semibold text-gray-800">Process Duration</div>
+                        <div className="text-gray-700">Multiple rounds conducted over several weeks</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-3">Online Process</h4>
+                    <div className="space-y-2">
+                      <div className="flex items-start">
+                        <div className="w-2 h-2 bg-gray-500 rounded-full mt-2 mr-3"></div>
+                        <div>
+                          <p className="text-gray-700 font-medium">Entire process is online</p>
+                          <p className="text-sm text-gray-600">Conducted through official portals</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start">
+                        <div className="w-2 h-2 bg-gray-500 rounded-full mt-2 mr-3"></div>
+                        <div>
+                          <p className="text-gray-700 font-medium">JoSAA Portal</p>
+                          <p className="text-sm text-gray-600">josaa.nic.in for JoSAA counselling</p>
+                        </div>
+                      </div>
+                      <div className="flex items-start">
+                        <div className="w-2 h-2 bg-gray-500 rounded-full mt-2 mr-3"></div>
+                        <div>
+                          <p className="text-gray-700 font-medium">CSAB Portal</p>
+                          <p className="text-sm text-gray-600">csab.nic.in for CSAB counselling rounds</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mt-6 bg-blue-50 rounded-lg p-4">
+                  <h4 className="text-lg font-semibold text-gray-800 mb-3">Online Steps Include</h4>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-1"></div>
+                      <div>
+                        <p className="font-semibold text-gray-800">Registration</p>
+                        <p className="text-sm text-gray-600">With JEE Main credentials</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-1"></div>
+                      <div>
+                        <p className="font-semibold text-gray-800">Choice Filling</p>
+                        <p className="text-sm text-gray-600">And locking of preferred institutes</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-1"></div>
+                      <div>
+                        <p className="font-semibold text-gray-800">Seat Allotment</p>
+                        <p className="text-sm text-gray-600">Based on AIR and choices</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-1"></div>
+                      <div>
+                        <p className="font-semibold text-gray-800">Document Verification</p>
+                        <p className="text-sm text-gray-600">Scanned uploads and physical verification</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-1"></div>
+                      <div>
+                        <p className="font-semibold text-gray-800">Fee Payment</p>
+                        <p className="text-sm text-gray-600">Seat acceptance fee</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full mr-3 mt-1"></div>
+                      <div>
+                        <p className="font-semibold text-gray-800">Reporting</p>
+                        <p className="text-sm text-gray-600">At allotted institute</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Counselling Rounds */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Counselling Rounds</h3>
+                <div className="bg-gray-50 rounded-lg p-4">
+              <div className="space-y-4">
+                    <div className="border-l-4 border-blue-500 pl-4">
+                      <div className="font-semibold text-gray-800">Multiple Rounds Structure</div>
+                      <div className="text-gray-700">Multiple rounds of counselling are conducted:</div>
+                      <ul className="mt-2 space-y-1 text-sm text-gray-600">
+                        <li>• Initial JoSAA rounds (typically 6-7 rounds) allocate most seats</li>
+                        <li>• Post JoSAA rounds, CSAB conducts separate counselling to fill leftover seats</li>
+                        <li>• Special counselling rounds include NEUT for North-Eastern states and SFTI for self-financed technical institutes</li>
+                      </ul>
+                    </div>
+                    
+                    <div className="border-l-4 border-green-500 pl-4">
+                      <div className="font-semibold text-gray-800">Candidate Participation</div>
+                      <div className="text-gray-700">Candidates can update preferences and participate across rounds depending on seat allotment and acceptance/refusal in previous rounds</div>
+                    </div>
+                    
+                    <div className="border-l-4 border-yellow-500 pl-4">
+                      <div className="font-semibold text-gray-800">Choice Locking</div>
+                      <div className="text-gray-700">After each round, candidates must lock their choice list to confirm preferences for subsequent seat allotment rounds</div>
+                    </div>
+                    
+                    <div className="border-l-4 border-purple-500 pl-4">
+                      <div className="font-semibold text-gray-800">Upgradation Facilities</div>
+                      <div className="text-gray-700">Candidates can opt for seat upgrades in successive rounds by filling higher-preference choices</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Reservation Policy */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Reservation Policy</h3>
+                <div className="bg-gray-50 rounded-lg p-4 mb-4">
+                  <p className="text-gray-700 mb-4">
+                    Reservation of seats follows the Government of India norms:
+                  </p>
+                </div>
+                <div className="overflow-x-auto">
+                  <table className="w-full border-collapse border border-gray-300">
+                    <thead>
+                      <tr className="bg-gray-100">
+                        <th className="border border-gray-300 px-4 py-2 text-left">Category</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">Reservation Percentage</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left">Notes</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">OBC-NCL</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">27%</td>
+                        <td className="border border-gray-300 px-4 py-2">Non-Creamy Layer; valid certificate required</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">EWS</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">10%</td>
+                        <td className="border border-gray-300 px-4 py-2">Economically Weaker Sections</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">SC</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">15%</td>
+                        <td className="border border-gray-300 px-4 py-2">Scheduled Castes</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">ST</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">7.5%</td>
+                        <td className="border border-gray-300 px-4 py-2">Scheduled Tribes</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">PwD</td>
+                        <td className="border border-gray-300 px-4 py-2 font-semibold">5% (horizontal)</td>
+                        <td className="border border-gray-300 px-4 py-2">Horizontal across categories; PwD certificate mandatory</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div className="mt-4 bg-yellow-50 rounded-lg p-4">
+                  <h4 className="font-semibold text-gray-800 mb-2">Important Notes</h4>
+                  <ul className="space-y-1 text-sm text-gray-700">
+                    <li>• Reservation applies to all participating institutes through JoSAA counselling</li>
+                    <li>• Candidates must upload correct and valid category/PwD certificates during online registration for reservation benefits</li>
+                    <li>• Failure to produce valid documents can lead to cancellation or disqualification of reserved category status</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Counselling Step-by-Step */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Counselling Step-by-Step</h3>
+                <div className="space-y-6">
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-blue-500 rounded-full mr-4"></div>
+                <div>
+                        <h4 className="text-lg font-semibold text-gray-800 mb-2">Registration</h4>
+                        <ul className="space-y-1 text-sm text-gray-700">
+                          <li>• Log into JoSAA portal using JEE Main roll number, application number, and password</li>
+                          <li>• Accept terms and conditions; complete registration form</li>
+                          <li>• Upload essential documents (marksheets, category certificates, PwD certificates, etc.)</li>
+                          <li>• Pay counselling registration and seat acceptance fees if applicable</li>
+                        </ul>
+                </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-green-500 rounded-full mr-4"></div>
+                <div>
+                        <h4 className="text-lg font-semibold text-gray-800 mb-2">Choice Filling and Locking</h4>
+                        <ul className="space-y-1 text-sm text-gray-700">
+                          <li>• Select preferred institutes and courses from the list of participating colleges</li>
+                          <li>• Arrange choices in order of priority</li>
+                          <li>• Lock choices before the deadline; changes not possible after locking</li>
+                          <li>• Candidates are advised to be cautious and strategic while choosing branches and colleges</li>
+                        </ul>
+                </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-yellow-500 rounded-full mr-4"></div>
+                <div>
+                        <h4 className="text-lg font-semibold text-gray-800 mb-2">Seat Allotment</h4>
+                        <ul className="space-y-1 text-sm text-gray-700">
+                          <li>• Based on AIR, category rank, and choices submitted</li>
+                          <li>• Candidates receive provisional seat allotment letter on portal</li>
+                          <li>• Must decide to accept, float (seek better option in next round), or withdraw (reject all offers)</li>
+                        </ul>
+                </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-purple-500 rounded-full mr-4"></div>
+                <div>
+                        <h4 className="text-lg font-semibold text-gray-800 mb-2">Document Verification</h4>
+                        <ul className="space-y-1 text-sm text-gray-700">
+                          <li>• At reporting institute, candidates must submit originals of all required documents</li>
+                          <li>• Verification includes eligibility, qualification, category, PwD status, etc.</li>
+                        </ul>
                 </div>
               </div>
             </div>
+
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <div className="flex items-start">
+                      <div className="w-2 h-2 bg-red-500 rounded-full mr-4"></div>
+                      <div>
+                        <h4 className="text-lg font-semibold text-gray-800 mb-2">Fee Payment & Reporting</h4>
+                        <ul className="space-y-1 text-sm text-gray-700">
+                          <li>• Pay the seat acceptance fee online or at the institute</li>
+                          <li>• Complete admission by physically reporting at allotted institute before deadline</li>
+                        </ul>
+                </div>
+                </div>
+                </div>
+                </div>
+              </div>
+
+              {/* Frequently Asked Notes */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Frequently Asked Notes</h3>
+                <div className="bg-gray-50 rounded-lg p-4">
+                  <div className="space-y-4">
+                    <div className="border-l-4 border-blue-500 pl-4">
+                      <div className="font-semibold text-gray-800">No Separate Age Limit for Counselling</div>
+                      <div className="text-gray-700">Follow JEE exam age criteria</div>
+                </div>
+                    
+                    <div className="border-l-4 border-green-500 pl-4">
+                      <div className="font-semibold text-gray-800">Admission Eligibility</div>
+                      <div className="text-gray-700">Candidates must meet cutoffs and qualifying exam requirements</div>
+              </div>
+                    
+                    <div className="border-l-4 border-yellow-500 pl-4">
+                      <div className="font-semibold text-gray-800">Multiple Withdrawals Allowed</div>
+                      <div className="text-gray-700">Candidates can withdraw from seat without penalty in dedicated windows</div>
+                    </div>
+                    
+                    <div className="border-l-4 border-purple-500 pl-4">
+                      <div className="font-semibold text-gray-800">Counselling for B.Arch and B.Planning</div>
+                      <div className="text-gray-700">Conducted jointly with JEE Main ranks; requires clearing AAT for B.Arch candidates</div>
+                    </div>
+                    
+                    <div className="border-l-4 border-red-500 pl-4">
+                      <div className="font-semibold text-gray-800">Preparatory Courses</div>
+                      <div className="text-gray-700">Available only for SC/ST/PwD candidates through specific IITs after counselling</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Important Links & Helpline */}
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Important Links & Helpline</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-3">Official Portals</h4>
+                    <div className="space-y-2">
+                      <div className="flex items-center">
+                        <div className="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                        <a href="https://josaa.nic.in" className="text-blue-600 hover:underline">Official JoSAA website for counselling: josaa.nic.in</a>
+                      </div>
+                      <div className="flex items-center">
+                        <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                        <a href="https://csab.nic.in" className="text-blue-600 hover:underline">CSAB counselling details: csab.nic.in</a>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-gray-50 rounded-lg p-4">
+                    <h4 className="text-lg font-semibold text-gray-800 mb-3">Additional Resources</h4>
+                    <div className="space-y-2">
+                      <div className="flex items-center">
+                        <div className="w-2 h-2 bg-purple-500 rounded-full mr-3"></div>
+                        <a href="https://www.vedantu.com/jee-main/counselling" className="text-blue-600 hover:underline">Vedantu JEE Main Counselling Guide</a>
+                      </div>
+                      <div className="flex items-center">
+                        <div className="w-2 h-2 bg-yellow-500 rounded-full mr-3"></div>
+                        <a href="https://www.shiksha.com/engineering/jee-main-exam-counselling" className="text-blue-600 hover:underline">Shiksha Counselling Information</a>
+                      </div>
+                      <div className="flex items-center">
+                        <div className="w-2 h-2 bg-red-500 rounded-full mr-3"></div>
+                        <a href="https://collegedunia.com/exams/jee-main/josaa-counselling" className="text-blue-600 hover:underline">Collegedunia JoSAA Counselling</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-blue-50 rounded-lg p-4">
+                <p className="text-sm text-gray-700">
+                  <strong>Note:</strong> This expanded overview arms candidates with a clear understanding of the entire counselling lifecycle, ensuring that JEE Main 2026 qualified students are well-prepared to navigate online registration, strategic choice filling, seat allotment, and admission formalities perfectly aligned to reservation policies.
+                </p>
+              </div>
+            </div>
           </div>
         );
 
-      case 'preparation':
-        return (
-          <div className="space-y-8">
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">Preparation Tips</h2>
-              <div className="space-y-4">
-                <ul className="list-disc list-inside space-y-2">
-                  {data.PreparationTips.map((tip, index) => (
-                    <li key={index} className="text-gray-600">{tip}</li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">Highlights & Changes 2026</h2>
-              <div className="space-y-4">
-                <ul className="list-disc list-inside space-y-2">
-                  {data.Highlights.map((highlight, index) => (
-                    <li key={index} className="text-gray-600">{highlight}</li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-        );
 
       default:
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">JEE Main 2026 Overview</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">JEE Main 2026</h2>
               <p className="text-gray-600">Select a tab to view detailed information about JEE Main 2026.</p>
             </div>
           </div>
@@ -2178,13 +3674,6 @@ export default function JEEMainPage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <Link to="/" className="text-2xl font-bold text-gray-600">StudentHub</Link>
-              <div className="hidden md:flex items-center space-x-4">
-                <span className="text-gray-500">Engineering and Architecture Exams</span>
-                <span className="text-gray-400">›</span>
-                <span className="text-gray-500">JEE Main Exam</span>
-                <span className="text-gray-400">›</span>
-                <span className="text-gray-800 font-medium">JEE Main 2026</span>
-              </div>
             </div>
             <div className="flex items-center space-x-4">
               <button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">
@@ -2204,14 +3693,11 @@ export default function JEEMainPage() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-6">
               <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                  <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
-                    <span className="text-white text-sm font-bold">J</span>
-                  </div>
-                </div>
-                <div>
-                  <div className="text-sm text-gray-600 font-medium">NATIONAL TESTING AGENCY</div>
-                </div>
+                <img 
+                  src="/images/jee-main-logo.jpg" 
+                  alt="JEE Main Logo" 
+                  className="w-28 h-28 object-contain"
+                />
               </div>
               <div>
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">
@@ -2226,18 +3712,18 @@ export default function JEEMainPage() {
         </div>
       </div>
 
-      {/* Tabs */}
-      <div className="bg-white shadow-sm">
+      {/* Tabs Navigation Container */}
+      <div className="bg-gray-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="flex space-x-8 overflow-x-auto">
+          <div className="flex justify-center space-x-8 overflow-x-auto py-4">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id as TabType)}
-                className={`whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm ${
+                className={`whitespace-nowrap px-4 py-2 font-semibold text-sm transition-colors duration-200 ${
                   activeTab === tab.id
-                    ? 'border-blue-500 text-blue-600'
-                    : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+                    ? 'text-gray-800 border-b-2 border-gray-800 bg-white rounded-t-lg'
+                    : 'text-gray-600 hover:text-gray-800 hover:bg-gray-100 rounded-lg'
                 }`}
               >
                 {tab.label}

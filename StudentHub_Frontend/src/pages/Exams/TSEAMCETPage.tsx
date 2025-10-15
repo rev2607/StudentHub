@@ -155,7 +155,7 @@ const TSEAMCETPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">TS EAMCET 2026 – Comprehensive Examination Guide</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">TS EAMCET 2026</h2>
               
               <div className="space-y-6">
                 {/* Overview Section */}
@@ -163,7 +163,7 @@ const TSEAMCETPage: React.FC = () => {
                   <h3 className="text-lg font-semibold text-gray-800 mb-3">Overview</h3>
                   <p className="text-gray-700">{data.Overview}</p>
                 </div>
-
+                
                 {/* Important Dates Section */}
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <h3 className="text-lg font-semibold text-gray-800 mb-3">Important Dates</h3>
@@ -172,15 +172,15 @@ const TSEAMCETPage: React.FC = () => {
                       <p className="text-gray-700"><strong>Application Form Release:</strong> {data.ImportantDates.ApplicationFormRelease}</p>
                       <p className="text-gray-700"><strong>Application Correction Window:</strong> {data.ImportantDates.ApplicationCorrectionWindow}</p>
                       <p className="text-gray-700"><strong>Admit Card Release:</strong> {data.ImportantDates.AdmitCardRelease}</p>
-                    </div>
+                  </div>
                     <div className="space-y-2">
                       <p className="text-gray-700"><strong>Exam Dates:</strong> {data.ImportantDates.ExamDates}</p>
                       <p className="text-gray-700"><strong>Answer Key Update:</strong> {data.ImportantDates.AnswerKeyUpdate}</p>
                       <p className="text-gray-700"><strong>Result Declaration:</strong> {data.ImportantDates.ResultDeclaration}</p>
                       <p className="text-gray-700"><strong>Counselling Rounds:</strong> {data.ImportantDates.CounsellingRounds}</p>
-                    </div>
                   </div>
-                </div>
+                  </div>
+                  </div>
 
                 {/* Eligibility Section */}
                 <div className="bg-gray-50 p-4 rounded-lg">
@@ -197,7 +197,7 @@ const TSEAMCETPage: React.FC = () => {
                         <li><strong>SC/ST:</strong> {data.Eligibility.AgeLimit.SC_ST}</li>
                         <li><strong>Pharmacy:</strong> {data.Eligibility.AgeLimit.Pharmacy}</li>
                       </ul>
-                    </div>
+                </div>
 
                     <div className="mt-4">
                       <h4 className="font-semibold text-gray-800 mb-2">Minimum Marks</h4>
@@ -222,7 +222,7 @@ const TSEAMCETPage: React.FC = () => {
                         <li><strong>General:</strong> {data.Application.Fee.General}</li>
                         <li><strong>SC/ST:</strong> {data.Application.Fee.SC_ST}</li>
                       </ul>
-                    </div>
+                </div>
 
                     <div className="mt-4">
                       <h4 className="font-semibold text-gray-800 mb-2">Required Documents</h4>
@@ -305,25 +305,34 @@ const TSEAMCETPage: React.FC = () => {
                         <div>
                           <h5 className="font-semibold text-gray-800 mb-2">Mathematics</h5>
                           <ul className="list-disc list-inside text-gray-700 space-y-1">
-                            {data.Syllabus.Engineering.Mathematics.map((topic, index) => (
+                            {Array.isArray(data.Syllabus.Engineering.Mathematics) 
+                              ? data.Syllabus.Engineering.Mathematics.map((topic, index) => (
                               <li key={index}>{topic}</li>
-                            ))}
+                                ))
+                              : <li>Mathematics topics not available</li>
+                            }
                           </ul>
                         </div>
                         <div>
                           <h5 className="font-semibold text-gray-800 mb-2">Physics</h5>
                           <ul className="list-disc list-inside text-gray-700 space-y-1">
-                            {data.Syllabus.Engineering.Physics.map((topic, index) => (
+                            {Array.isArray(data.Syllabus.Engineering.Physics) 
+                              ? data.Syllabus.Engineering.Physics.map((topic, index) => (
                               <li key={index}>{topic}</li>
-                            ))}
+                                ))
+                              : <li>Physics topics not available</li>
+                            }
                           </ul>
                         </div>
                         <div>
                           <h5 className="font-semibold text-gray-800 mb-2">Chemistry</h5>
                           <ul className="list-disc list-inside text-gray-700 space-y-1">
-                            {data.Syllabus.Engineering.Chemistry.map((topic, index) => (
+                            {Array.isArray(data.Syllabus.Engineering.Chemistry) 
+                              ? data.Syllabus.Engineering.Chemistry.map((topic, index) => (
                               <li key={index}>{topic}</li>
-                            ))}
+                                ))
+                              : <li>Chemistry topics not available</li>
+                            }
                           </ul>
                         </div>
                       </div>
@@ -335,17 +344,23 @@ const TSEAMCETPage: React.FC = () => {
                         <div>
                           <h5 className="font-semibold text-gray-800 mb-2">Botany</h5>
                           <ul className="list-disc list-inside text-gray-700 space-y-1">
-                            {data.Syllabus.Agriculture_Pharmacy.Botany.map((topic, index) => (
+                            {Array.isArray(data.Syllabus.Agriculture_Pharmacy.Botany) 
+                              ? data.Syllabus.Agriculture_Pharmacy.Botany.map((topic, index) => (
                               <li key={index}>{topic}</li>
-                            ))}
+                                ))
+                              : <li>Botany topics not available</li>
+                            }
                           </ul>
                         </div>
                         <div>
                           <h5 className="font-semibold text-gray-800 mb-2">Zoology</h5>
                           <ul className="list-disc list-inside text-gray-700 space-y-1">
-                            {data.Syllabus.Agriculture_Pharmacy.Zoology.map((topic, index) => (
+                            {Array.isArray(data.Syllabus.Agriculture_Pharmacy.Zoology) 
+                              ? data.Syllabus.Agriculture_Pharmacy.Zoology.map((topic, index) => (
                               <li key={index}>{topic}</li>
-                            ))}
+                                ))
+                              : <li>Zoology topics not available</li>
+                            }
                           </ul>
                         </div>
                       </div>
@@ -470,14 +485,10 @@ const TSEAMCETPage: React.FC = () => {
                 </div>
               </div>
             </div>
-          </div>
-        );
 
-      case 'dates':
-        return (
-          <div className="space-y-8">
+            {/* Detailed Important Dates Content */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">TS EAMCET 2026 — Ultra-Deep Official Schedule and Timeline</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Important Dates</h2>
               
               <div className="space-y-6">
                 {/* Introduction */}
@@ -512,27 +523,27 @@ const TSEAMCETPage: React.FC = () => {
                   <h3 className="text-xl font-semibold text-gray-800 mb-4">Application Process Stage-By-Stage</h3>
                   <div className="space-y-4">
                     <div className="bg-white p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-700 mb-2">Step 1: Registration</h4>
-                      <p className="text-gray-700">Candidate registers through <a href="https://eamcet.tsche.ac.in" className="text-blue-600 hover:underline">eamcet.tsche.ac.in</a> using unique mobile/email credentials.</p>
+                      <h4 className="font-semibold text-gray-700 mb-2">Registration</h4>
+                      <p className="text-gray-700">Candidate registers through <a href="https://eamcet.tsche.ac.in" className="text-gray-600 hover:underline">eamcet.tsche.ac.in</a> using unique mobile/email credentials.</p>
                     </div>
                     <div className="bg-white p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-700 mb-2">Step 2: Personal Data</h4>
+                      <h4 className="font-semibold text-gray-700 mb-2">Personal Data</h4>
                       <p className="text-gray-700">Fill detailed personal data including date of birth, gender, domicile, and contact info.</p>
                     </div>
                     <div className="bg-white p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-700 mb-2">Step 3: Document Upload</h4>
+                      <h4 className="font-semibold text-gray-700 mb-2">Document Upload</h4>
                       <p className="text-gray-700">Upload scanned recent passport-size photograph (JPEG, 50-100 KB) and a signature (JPEG, 10-100 KB).</p>
                     </div>
                     <div className="bg-white p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-700 mb-2">Step 4: Academic Details</h4>
+                      <h4 className="font-semibold text-gray-700 mb-2">Academic Details</h4>
                       <p className="text-gray-700">Fill academic details (board, year of passing or appearing, marks of 10+2) with accurate information.</p>
                     </div>
                     <div className="bg-white p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-700 mb-2">Step 5: Exam Center Selection</h4>
+                      <h4 className="font-semibold text-gray-700 mb-2">Exam Center Selection</h4>
                       <p className="text-gray-700">Select exam centers from a dynamic list covering Telangana, Hyderabad, and surrounding states, with options in the Middle East (UAE).</p>
                     </div>
                     <div className="bg-white p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-700 mb-2">Step 6: Fee Payment</h4>
+                      <h4 className="font-semibold text-gray-700 mb-2">Fee Payment</h4>
                       <div className="space-y-2">
                         <p className="text-gray-700">Pay application fee:</p>
                         <ul className="list-disc list-inside ml-4 space-y-1">
@@ -543,7 +554,7 @@ const TSEAMCETPage: React.FC = () => {
                       </div>
                     </div>
                     <div className="bg-white p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-700 mb-2">Step 7: Confirmation</h4>
+                      <h4 className="font-semibold text-gray-700 mb-2">Confirmation</h4>
                       <p className="text-gray-700">Download registration confirmation and application form. Keep printed copies for records.</p>
                     </div>
                   </div>
@@ -572,6 +583,518 @@ const TSEAMCETPage: React.FC = () => {
                       <span className="text-gray-700 font-medium">Agricultural & Pharmacy:</span>
                       <span className="font-semibold text-gray-700">April 29–30, 2026</span>
                     </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-700 font-medium">Engineering:</span>
+                      <span className="font-semibold text-gray-700">May 1–2, 2026</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-700 font-medium">Session Timing:</span>
+                      <span className="font-semibold text-gray-700">Morning (9:00 AM–12:00 PM) & Afternoon (3:00 PM–6:00 PM)</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Results Timeline */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Results and Counselling Timeline</h3>
+                  <div className="space-y-3">
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-700 font-medium">Answer Key Release:</span>
+                      <span className="font-semibold text-gray-700">Within 48 hours post-exam</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-700 font-medium">Result Declaration:</span>
+                      <span className="font-semibold text-gray-700">Mid-May 2026</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-700 font-medium">Counselling Start:</span>
+                      <span className="font-semibold text-gray-700">Late May / Early June 2026</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Detailed Eligibility Content */}
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Eligibility Criteria</h2>
+              
+              <div className="space-y-6">
+                {/* Nationality and Domicile */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Nationality and Domicile Requirements</h3>
+                  <div className="space-y-3">
+                    <p className="text-gray-700"><strong>Nationality:</strong> {data.Eligibility.Nationality}</p>
+                    <p className="text-gray-700"><strong>Domicile:</strong> {data.Eligibility.Domicile}</p>
+                  </div>
+                </div>
+
+                {/* Educational Qualifications */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Educational Qualifications</h3>
+                  <div className="space-y-3">
+                    <p className="text-gray-700"><strong>Education:</strong> {data.Eligibility.Education}</p>
+                    
+                    <div className="mt-4">
+                      <h4 className="font-semibold text-gray-800 mb-2">Minimum Marks Requirements</h4>
+                      <ul className="list-disc list-inside text-gray-700 space-y-1">
+                        <li><strong>Engineering (General):</strong> {data.Eligibility.MinimumMarks.Engineering.General}</li>
+                        <li><strong>Engineering (Reserved):</strong> {data.Eligibility.MinimumMarks.Engineering.Reserved}</li>
+                        <li><strong>Agriculture/Pharmacy:</strong> {data.Eligibility.MinimumMarks.Agriculture_Pharmacy}</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Age Limits */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Age Limits</h3>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    <li><strong>General:</strong> {data.Eligibility.AgeLimit.General}</li>
+                    <li><strong>SC/ST:</strong> {data.Eligibility.AgeLimit.SC_ST}</li>
+                    <li><strong>Pharmacy:</strong> {data.Eligibility.AgeLimit.Pharmacy}</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Detailed Application Content */}
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Application Process</h2>
+              
+              <div className="space-y-6">
+                {/* Application Mode */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Application Mode</h3>
+                  <p className="text-gray-700"><strong>Mode:</strong> {data.Application.Mode}</p>
+                </div>
+
+                {/* Application Fee */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Application Fee Structure</h3>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    <li><strong>General:</strong> {data.Application.Fee.General}</li>
+                    <li><strong>SC/ST:</strong> {data.Application.Fee.SC_ST}</li>
+                  </ul>
+                </div>
+
+                {/* Required Documents */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Required Documents</h3>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    {data.Application.RequiredDocuments.map((doc, index) => (
+                      <li key={index}>{doc}</li>
+                    ))}
+                  </ul>
+                </div>
+
+                {/* Application Steps */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Application Steps</h3>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    {data.Application.Steps.map((step, index) => (
+                      <li key={index}>{step}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Detailed Exam Pattern Content */}
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Exam Pattern</h2>
+              
+              <div className="space-y-6">
+                {/* Overview */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Overview</h3>
+                  <div className="space-y-3">
+                    <p className="text-gray-700">
+                      TS EAMCET 2026 is a fully computer-based test (CBT) of three hours duration conducted over multiple days and slots.
+                    </p>
+                    <p className="text-gray-700">
+                      Language options include English, Telugu, and Urdu catering to diverse linguistic groups.
+                    </p>
+                    <p className="text-gray-700">
+                      Separate exam papers designed for Engineering and Agriculture & Pharmacy streams with dedicated syllabi.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Basic Pattern Info */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Basic Exam Information</h3>
+                  <div className="space-y-3">
+                    <p className="text-gray-700"><strong>Mode:</strong> {data.ExamPattern.Mode}</p>
+                    <p className="text-gray-700"><strong>Duration:</strong> {data.ExamPattern.Duration}</p>
+                    
+                    <div className="mt-4">
+                      <h4 className="font-semibold text-gray-800 mb-2">Languages</h4>
+                      <p className="text-gray-700">{data.ExamPattern.Languages.join(', ')}</p>
+                    </div>
+
+                    <div className="mt-4">
+                      <h4 className="font-semibold text-gray-800 mb-2">Papers</h4>
+                      <p className="text-gray-700">{data.ExamPattern.Papers.join(', ')}</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Question Distribution */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Question Distribution & Sectional Analysis</h3>
+                  
+                  <div className="space-y-4">
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-700 mb-3">Engineering Stream</h4>
+                      <div className="space-y-3">
+                        <div className="bg-gray-50 p-3 rounded-lg">
+                          <h5 className="font-semibold text-gray-800 mb-2">Mathematics (80 questions)</h5>
+                          <p className="text-gray-700">Thorough coverage of Algebra, Calculus, Vectors, 3D Geometry, Probability, Statistics, and Trigonometry.</p>
+                        </div>
+                        <div className="bg-gray-50 p-3 rounded-lg">
+                          <h5 className="font-semibold text-gray-800 mb-2">Physics (40 questions)</h5>
+                          <p className="text-gray-700">Mechanics (kinematics, dynamics), Thermodynamics, Laws of Motion, Waves, Optics, Electrostatics, Current Electricity, Magnetism, Modern Physics topics including atomic/nuclear physics.</p>
+                        </div>
+                        <div className="bg-gray-50 p-3 rounded-lg">
+                          <h5 className="font-semibold text-gray-800 mb-2">Chemistry (40 questions)</h5>
+                          <p className="text-gray-700">Physical Chemistry (thermodynamics, kinetics), Inorganic elements and compounds (periodic trends, coordination chemistry), Organic Chem (functional groups, reaction mechanisms), Biomolecules.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-700 mb-3">Agriculture & Pharmacy Stream</h4>
+                      <div className="space-y-3">
+                        <div className="bg-gray-50 p-3 rounded-lg">
+                          <h5 className="font-semibold text-gray-800 mb-2">Biology (80 questions)</h5>
+                          <p className="text-gray-700">Botany (plant morphology, anatomy, physiology, reproduction, genetics, ecology) and Zoology (animal diversity, physiology, reproduction, genetics, evolution, ecology).</p>
+                        </div>
+                        <div className="bg-gray-50 p-3 rounded-lg">
+                          <h5 className="font-semibold text-gray-800 mb-2">Physics (40 questions)</h5>
+                          <p className="text-gray-700">Same as Engineering stream but with focus on biological applications.</p>
+                        </div>
+                        <div className="bg-gray-50 p-3 rounded-lg">
+                          <h5 className="font-semibold text-gray-800 mb-2">Chemistry (40 questions)</h5>
+                          <p className="text-gray-700">Same as Engineering stream but with emphasis on organic chemistry and biochemistry.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Marking Scheme */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Marking Scheme</h3>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    <li><strong>Correct Answer:</strong> {data.ExamPattern.MarkingScheme.CorrectAnswer}</li>
+                    <li><strong>Negative Marking:</strong> {data.ExamPattern.MarkingScheme.NegativeMarking}</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Detailed Syllabus Content */}
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Syllabus</h2>
+              
+              <div className="space-y-6">
+                {/* Syllabus Base */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Syllabus Base</h3>
+                  <p className="text-gray-700"><strong>Base:</strong> {data.Syllabus.Base}</p>
+                </div>
+
+                {/* Engineering Stream */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Engineering Stream</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">Mathematics</h4>
+                      <ul className="list-disc list-inside text-gray-700 space-y-1">
+                        {Array.isArray(data.Syllabus.Engineering.Mathematics) 
+                          ? data.Syllabus.Engineering.Mathematics.map((topic, index) => (
+                          <li key={index}>{topic}</li>
+                            ))
+                          : <li>Mathematics topics not available</li>
+                        }
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">Physics</h4>
+                      <ul className="list-disc list-inside text-gray-700 space-y-1">
+                        {Array.isArray(data.Syllabus.Engineering.Physics) 
+                          ? data.Syllabus.Engineering.Physics.map((topic, index) => (
+                          <li key={index}>{topic}</li>
+                            ))
+                          : <li>Physics topics not available</li>
+                        }
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">Chemistry</h4>
+                      <ul className="list-disc list-inside text-gray-700 space-y-1">
+                        {Array.isArray(data.Syllabus.Engineering.Chemistry) 
+                          ? data.Syllabus.Engineering.Chemistry.map((topic, index) => (
+                          <li key={index}>{topic}</li>
+                            ))
+                          : <li>Chemistry topics not available</li>
+                        }
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Agriculture/Pharmacy Stream */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Agriculture/Pharmacy Stream</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">Botany</h4>
+                      <ul className="list-disc list-inside text-gray-700 space-y-1">
+                        {Array.isArray(data.Syllabus.Agriculture_Pharmacy.Botany) 
+                          ? data.Syllabus.Agriculture_Pharmacy.Botany.map((topic, index) => (
+                          <li key={index}>{topic}</li>
+                            ))
+                          : <li>Botany topics not available</li>
+                        }
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">Zoology</h4>
+                      <ul className="list-disc list-inside text-gray-700 space-y-1">
+                        {Array.isArray(data.Syllabus.Agriculture_Pharmacy.Zoology) 
+                          ? data.Syllabus.Agriculture_Pharmacy.Zoology.map((topic, index) => (
+                          <li key={index}>{topic}</li>
+                            ))
+                          : <li>Zoology topics not available</li>
+                        }
+                      </ul>
+                    </div>
+                  </div>
+                  <p className="text-gray-700 mt-2"><strong>Physics & Chemistry:</strong> {data.Syllabus.Agriculture_Pharmacy.Physics_Chemistry}</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Detailed Cutoff Content */}
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Expected Cutoff</h2>
+              
+              <div className="space-y-6">
+                {/* Qualifying Marks */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Qualifying Marks</h3>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    <li><strong>General:</strong> {data.Cutoff.QualifyingMarks.General}</li>
+                    <li><strong>SC/ST:</strong> {data.Cutoff.QualifyingMarks.SC_ST}</li>
+                  </ul>
+                </div>
+
+                {/* Seat Intake */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Seat Intake 2026</h3>
+                  <p className="text-gray-700"><strong>Seat Intake 2026:</strong> {data.Cutoff.SeatIntake2026}</p>
+                </div>
+
+                {/* Expected Engineering Cutoffs */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Expected Engineering Cutoffs</h3>
+                  <div className="overflow-x-auto">
+                    <table className="min-w-full">
+                      <thead className="bg-gray-100">
+                        <tr>
+                          <th className="p-3 text-left font-semibold text-gray-800">College</th>
+                          <th className="p-3 text-left font-semibold text-gray-800">Expected Rank</th>
+                        </tr>
+                      </thead>
+                      <tbody className="text-gray-700">
+                        {Object.entries(data.Cutoff.EngineeringCutoff_Expected).map(([college, rank]) => (
+                          <tr key={college}>
+                            <td className="p-3">{college.replace(/_/g, ' ')}</td>
+                            <td className="p-3">{rank}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                {/* Marks vs Rank */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Marks vs Rank (Indicative)</h3>
+                  <div className="overflow-x-auto">
+                    <table className="min-w-full">
+                      <thead className="bg-gray-100">
+                        <tr>
+                          <th className="p-3 text-left font-semibold text-gray-800">Marks Range</th>
+                          <th className="p-3 text-left font-semibold text-gray-800">Expected Rank</th>
+                        </tr>
+                      </thead>
+                      <tbody className="text-gray-700">
+                        {Object.entries(data.Cutoff.MarksVsRank_Indicative).map(([marks, rank]) => (
+                          <tr key={marks}>
+                            <td className="p-3">{marks}</td>
+                            <td className="p-3">{rank}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Detailed Counselling Content */}
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Counselling Process</h2>
+              
+              <div className="space-y-6">
+                {/* Counselling Rounds */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Counselling Rounds</h3>
+                  <p className="text-gray-700"><strong>Rounds:</strong> {data.Counselling.Rounds}</p>
+                </div>
+
+                {/* Counselling Fee */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Counselling Fee</h3>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    <li><strong>OC/BC:</strong> {data.Counselling.Fee.OC_BC}</li>
+                    <li><strong>SC/ST:</strong> {data.Counselling.Fee.SC_ST}</li>
+                  </ul>
+                </div>
+
+                {/* Required Documents */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Required Documents</h3>
+                  <ul className="list-disc list-inside text-gray-700 space-y-1">
+                    {data.Counselling.DocumentsRequired.map((doc, index) => (
+                      <li key={index}>{doc}</li>
+                    ))}
+                  </ul>
+                </div>
+
+                {/* Seat Allotment */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Seat Allotment</h3>
+                  <p className="text-gray-700"><strong>Basis:</strong> {data.Counselling.SeatAllotment.Basis}</p>
+                  
+                  <div className="mt-2">
+                    <h4 className="font-semibold text-gray-800 mb-2">Reservation</h4>
+                    <ul className="list-disc list-inside text-gray-700 space-y-1">
+                      <li><strong>Unreserved:</strong> {data.Counselling.SeatAllotment.Reservation.Unreserved}</li>
+                      <li><strong>Telangana Local:</strong> {data.Counselling.SeatAllotment.Reservation.TelanganaLocal}</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <p className="text-gray-700 mt-2"><strong>Post Allotment:</strong> {data.Counselling.SeatAllotment.PostAllotment}</p>
+                <p className="text-gray-700"><strong>Spot Round:</strong> {data.Counselling.SeatAllotment.SpotRound}</p>
+              </div>
+            </div>
+          </div>
+        );
+
+      case 'dates':
+        return (
+          <div className="space-y-8">
+            <div className="bg-white rounded-lg shadow-sm p-6">
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">Important Dates</h2>
+              
+              <div className="space-y-6">
+                {/* Introduction */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Introduction and Significance</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    TS EAMCET (or TG EAPCET since 2024) is Telangana's flagship state-level entrance exam for aspirants seeking admission to undergraduate Engineering, Agriculture, and Pharmacy programs. Conducted by Jawaharlal Nehru Technological University Hyderabad (JNTUH), it is a vital stepping stone for thousands aiming for reputable state colleges and private institutions. The exam's schedule depends heavily on the official timetable announced by Telangana State Council of Higher Education (TSCHE), which is awaited annually with extensive anticipation.
+                  </p>
+                </div>
+
+                {/* Application Timeline */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Application Opening and Closure</h3>
+                  <div className="space-y-3">
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-700 font-medium">Official Opening:</span>
+                      <span className="font-semibold text-gray-700">Expected early March 2026 (approximate 1st week)</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-700 font-medium">Application Deadline:</span>
+                      <span className="font-semibold text-gray-700">Mid-April 2026, with possible extension via late fee options</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-700 font-medium">Correction Window:</span>
+                      <span className="font-semibold text-gray-700">Opens immediately after application submission, around the 1st week of April</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Application Process */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Application Process Stage-By-Stage</h3>
+              <div className="space-y-4">
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-700 mb-2">Registration</h4>
+                      <p className="text-gray-700">Candidate registers through <a href="https://eamcet.tsche.ac.in" className="text-blue-600 hover:underline">eamcet.tsche.ac.in</a> using unique mobile/email credentials.</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-700 mb-2">Personal Data</h4>
+                      <p className="text-gray-700">Fill detailed personal data including date of birth, gender, domicile, and contact info.</p>
+                  </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-700 mb-2">Document Upload</h4>
+                      <p className="text-gray-700">Upload scanned recent passport-size photograph (JPEG, 50-100 KB) and a signature (JPEG, 10-100 KB).</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-700 mb-2">Academic Details</h4>
+                      <p className="text-gray-700">Fill academic details (board, year of passing or appearing, marks of 10+2) with accurate information.</p>
+                  </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-700 mb-2">Exam Center Selection</h4>
+                      <p className="text-gray-700">Select exam centers from a dynamic list covering Telangana, Hyderabad, and surrounding states, with options in the Middle East (UAE).</p>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-700 mb-2">Fee Payment</h4>
+                      <div className="space-y-2">
+                        <p className="text-gray-700">Pay application fee:</p>
+                        <ul className="list-disc list-inside ml-4 space-y-1">
+                          <li>INR 900 (single stream) / INR 1800 (both streams) for general candidates</li>
+                          <li>INR 500 / INR 1000 for SC/ST</li>
+                          <li>Fees via net banking, credit/debit card, wallets</li>
+                        </ul>
+                  </div>
+                    </div>
+                    <div className="bg-white p-4 rounded-lg">
+                      <h4 className="font-semibold text-gray-700 mb-2">Confirmation</h4>
+                      <p className="text-gray-700">Download registration confirmation and application form. Keep printed copies for records.</p>
+                  </div>
+                    </div>
+                  </div>
+
+                {/* Exam Scheduling */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Exam Scheduling and Hall Ticket</h3>
+                  <div className="space-y-3">
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-700 font-medium">Slot Booking:</span>
+                      <span className="font-semibold text-gray-700">Starts late February / Early March 2026</span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-700 font-medium">Hall Ticket Release:</span>
+                      <span className="font-semibold text-gray-700">Last week of April 2026</span>
+                  </div>
+                    </div>
+                  </div>
+
+                {/* Exam Dates */}
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Exam Dates and Sessions (Detailed)</h3>
+                  <div className="space-y-3">
+                    <div className="flex justify-between items-center">
+                      <span className="text-gray-700 font-medium">Agricultural & Pharmacy:</span>
+                      <span className="font-semibold text-gray-700">April 29–30, 2026</span>
+                </div>
                     <div className="flex justify-between items-center">
                       <span className="text-gray-700 font-medium">Engineering:</span>
                       <span className="font-semibold text-gray-700">May 2–4, 2026</span>
@@ -723,7 +1246,7 @@ const TSEAMCETPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">TS EAMCET 2026 Eligibility Criteria — Comprehensive Detailed Guide (40x Expanded)</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">TS EAMCET 2026 Eligibility Criteria</h2>
               
               <div className="space-y-6">
                 {/* Nationality and Domicile */}
@@ -804,9 +1327,9 @@ const TSEAMCETPage: React.FC = () => {
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-2">Important Note</h4>
                       <p className="text-gray-700">Practical marks are included when calculating aggregate.</p>
-                    </div>
                   </div>
                 </div>
+              </div>
 
                 {/* Qualifying Examination */}
                 <div className="bg-gray-50 p-6 rounded-lg">
@@ -957,7 +1480,7 @@ const TSEAMCETPage: React.FC = () => {
                       <a href="https://collegedunia.com/exams/ts-eamcet/eligibility" className="text-blue-600 hover:underline font-medium">Collegedunia TS EAMCET Eligibility Page</a>
                     </p>
                     <p className="text-gray-700">
-                      <a href="https://engineering.careers360.com/articles/ts-eamcet-eligibility-criteria" className="text-blue-600 hover:underline font-medium">Careers360 Comprehensive TS EAMCET Eligibility Review</a>
+                      <a href="https://engineering.careers360.com/articles/ts-eamcet-eligibility-criteria" className="text-blue-600 hover:underline font-medium">Careers360 TS EAMCET Eligibility Review</a>
                     </p>
                     <p className="text-gray-700">
                       <a href="https://www.shiksha.com/engineering/ts-eamcet-exam" className="text-blue-600 hover:underline font-medium">Shiksha TS EAMCET Eligibility Notes</a>
@@ -973,7 +1496,7 @@ const TSEAMCETPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">TS EAMCET 2026 Application Process — Ultra-Expanded Definitive Guide</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">TS EAMCET 2026 Application Process</h2>
               
               <div className="space-y-6">
                 {/* Application Platform */}
@@ -1048,7 +1571,7 @@ const TSEAMCETPage: React.FC = () => {
 
                 {/* Stepwise Instructions */}
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Comprehensive Stepwise Application Instructions</h3>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Stepwise Application Instructions</h3>
                   
                   <div className="space-y-4">
                     <div className="bg-white p-4 rounded-lg">
@@ -1169,7 +1692,7 @@ const TSEAMCETPage: React.FC = () => {
                         <li>Slot booking opens approximately 10–14 days before exam; secure preferred date/time to avoid auto-assignment</li>
                         <li>Admit cards issued as digital PDFs with QR and barcode for authentication</li>
                       </ul>
-                    </div>
+                        </div>
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-2">Exam Day</h4>
                       <ul className="list-disc list-inside space-y-1 text-gray-700">
@@ -1179,7 +1702,7 @@ const TSEAMCETPage: React.FC = () => {
                         <li>Strict prohibition on electronic devices, calculators, paper, notes</li>
                         <li>Rough sheets issuable for in-session calculations only</li>
                       </ul>
-                    </div>
+                      </div>
                   </div>
                 </div>
 
@@ -1196,7 +1719,7 @@ const TSEAMCETPage: React.FC = () => {
 
                 {/* Reference List */}
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Comprehensive Reference List</h3>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Reference List</h3>
                   <div className="space-y-2">
                     <p className="text-gray-700">
                       <a href="https://eamcet.tsche.ac.in" className="text-blue-600 hover:underline font-medium">Telangana EAMCET Official Portal</a>
@@ -1222,12 +1745,12 @@ const TSEAMCETPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">TS EAMCET 2026 Exam Pattern — Ultra-Expanded In-Depth Guide (30x+ Detail)</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">TS EAMCET 2026 Exam Pattern</h2>
               
               <div className="space-y-6">
-                {/* Comprehensive Overview */}
+                {/* Overview */}
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Comprehensive Overview</h3>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Overview</h3>
                   <div className="space-y-3">
                     <p className="text-gray-700">
                       TS EAMCET 2026 is a fully computer-based test (CBT) of three hours duration conducted over multiple days and slots.
@@ -1239,7 +1762,7 @@ const TSEAMCETPage: React.FC = () => {
                       Separate exam papers designed for Engineering and Agriculture & Pharmacy streams with dedicated syllabi.
                     </p>
                   </div>
-                </div>
+                  </div>
 
                 {/* Question Distribution & Sectional Analysis */}
                 <div className="bg-gray-50 p-6 rounded-lg">
@@ -1261,8 +1784,8 @@ const TSEAMCETPage: React.FC = () => {
                           <h5 className="font-semibold text-gray-800 mb-2">Chemistry (40 questions)</h5>
                           <p className="text-gray-700">Physical Chemistry (thermodynamics, kinetics), Inorganic elements and compounds (periodic trends, coordination chemistry), Organic Chem (functional groups, reaction mechanisms), Biomolecules.</p>
                         </div>
-                      </div>
-                    </div>
+                  </div>
+                </div>
 
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-3">Agriculture & Pharmacy Stream</h4>
@@ -1302,7 +1825,7 @@ const TSEAMCETPage: React.FC = () => {
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-2">Question Format</h4>
                       <p className="text-gray-700">All questions are four-option multiple-choice questions with a single correct answer.</p>
-                    </div>
+                        </div>
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-2">Navigation Features</h4>
                       <ul className="list-disc list-inside space-y-1 text-gray-700">
@@ -1310,7 +1833,7 @@ const TSEAMCETPage: React.FC = () => {
                         <li>Marked questions feature a flag system enabling review before submission</li>
                         <li>Real-time auto-save protects answer integrity in case of unexpected logouts or technical glitches</li>
                       </ul>
-                    </div>
+                        </div>
                   </div>
                 </div>
 
@@ -1329,9 +1852,9 @@ const TSEAMCETPage: React.FC = () => {
                         <li>Agriculture/Pharmacy candidates experience an enriched syllabus focusing on Biology as the primary subject complemented by PCM</li>
                         <li>Syllabus includes modern scientific developments and applied questions to test both conceptual understanding and problem-solving skills</li>
                       </ul>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
 
                 {/* Sectional Reminders */}
                 <div className="bg-gray-50 p-6 rounded-lg">
@@ -1340,19 +1863,19 @@ const TSEAMCETPage: React.FC = () => {
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-2">Engineering Mathematics</h4>
                       <p className="text-gray-700">Focuses on Calculus (limits, differentiation, integration), 3D Geometry, and Probability.</p>
-                    </div>
+                        </div>
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-2">Physics Pillars</h4>
                       <p className="text-gray-700">Rest on Mechanics, Electromagnetism, and Thermodynamics.</p>
-                    </div>
+                        </div>
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-2">Chemistry Segregation</h4>
                       <p className="text-gray-700">Physical, Organic, and Inorganic with high focus on reaction thermodynamics and coordination compounds.</p>
-                    </div>
+                        </div>
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-2">Biological Questions</h4>
                       <p className="text-gray-700">Emphasize DNA replication, photosynthesis, human physiology, and molecular biology.</p>
-                    </div>
+                      </div>
                   </div>
                 </div>
 
@@ -1393,7 +1916,7 @@ const TSEAMCETPage: React.FC = () => {
                         <li>Regularly updated syllabus PDFs and mock test platforms are available on <a href="https://eamcet.tsche.ac.in" className="text-blue-600 hover:underline">eamcet.tsche.ac.in</a></li>
                         <li>Extensive video tutorials and previous year paper solutions are available on career portals like Shiksha, Career360, and Testbook</li>
                         <li>Official app-based mock tests simulate CBT exam interface</li>
-                      </ul>
+                  </ul>
                     </div>
                   </div>
                 </div>
@@ -1471,7 +1994,7 @@ const TSEAMCETPage: React.FC = () => {
                       <a href="https://engineering.careers360.com/articles/ts-eamcet-exam-pattern" className="text-blue-600 hover:underline font-medium">Careers360 TS EAMCET Exam Pattern and Preparation</a>
                     </p>
                     <p className="text-gray-700">
-                      <a href="https://www.shiksha.com/engineering/ts-eamcet-exam-pattern" className="text-blue-600 hover:underline font-medium">Shiksha Comprehensive Syllabus & Pattern</a>
+                      <a href="https://www.shiksha.com/engineering/ts-eamcet-exam-pattern" className="text-blue-600 hover:underline font-medium">Shiksha Syllabus & Pattern</a>
                     </p>
                     <p className="text-gray-700">
                       <a href="https://testbook.com/ts-eamcet-exam/syllabus-exam-pattern" className="text-blue-600 hover:underline font-medium">Testbook TS EAMCET Full Syllabus</a>
@@ -1490,12 +2013,12 @@ const TSEAMCETPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">TS EAMCET 2026 Syllabus — Ultra-Expanded Master Guide</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">TS EAMCET 2026 Syllabus</h2>
               
               <div className="space-y-6">
-                {/* Comprehensive Syllabus Structure */}
+                {/* Syllabus Structure */}
                 <div className="bg-gray-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Comprehensive Syllabus Structure</h3>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-4">Syllabus Structure</h3>
                   <div className="space-y-3">
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-2">Foundation</h4>
@@ -1511,8 +2034,8 @@ const TSEAMCETPage: React.FC = () => {
                 {/* Engineering Stream Detailed Syllabus */}
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold text-gray-800 mb-4">Engineering Stream Detailed Syllabus</h3>
-                  
-                  <div className="space-y-4">
+                    
+                    <div className="space-y-4">
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-3">Mathematics</h4>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -1537,7 +2060,7 @@ const TSEAMCETPage: React.FC = () => {
                           <p className="text-gray-600 text-sm">Equations of straight lines, pair of lines, circles, parabola, ellipse, hyperbola.</p>
                         </div>
                       </div>
-                    </div>
+                      </div>
 
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-3">Physics</h4>
@@ -1567,7 +2090,7 @@ const TSEAMCETPage: React.FC = () => {
                           <p className="text-gray-600 text-sm">Atomic models, nuclear physics, semiconductors.</p>
                         </div>
                       </div>
-                    </div>
+                      </div>
 
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-3">Chemistry</h4>
@@ -1575,7 +2098,7 @@ const TSEAMCETPage: React.FC = () => {
                         <div className="space-y-2">
                           <h5 className="font-semibold text-gray-700">Physical Chemistry</h5>
                           <p className="text-gray-600 text-sm">Atomic structure, chemical bonding, thermodynamics, equilibrium, kinetics, electrochemistry, surface chemistry.</p>
-                        </div>
+                      </div>
                         <div className="space-y-2">
                           <h5 className="font-semibold text-gray-700">Inorganic Chemistry</h5>
                           <p className="text-gray-600 text-sm">Periodic table properties, coordination chemistry, s-, p-, d-, and f-block elements.</p>
@@ -1590,14 +2113,14 @@ const TSEAMCETPage: React.FC = () => {
                         </div>
                       </div>
                     </div>
+                    </div>
                   </div>
-                </div>
 
                 {/* Agriculture & Pharmacy Stream Syllabus */}
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold text-gray-800 mb-4">Agriculture & Pharmacy Stream Syllabus</h3>
-                  
-                  <div className="space-y-4">
+                    
+                    <div className="space-y-4">
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-3">Botany</h4>
                       <p className="text-gray-700">Cell biology, plant taxonomy/classification, plant physiology (photosynthesis, respiration, transpiration), growth and development, plant hormones.</p>
@@ -1664,9 +2187,9 @@ const TSEAMCETPage: React.FC = () => {
                       <li>Exam duration: 3 hours</li>
                       <li>No negative marking</li>
                       <li>Questions span core topics in respective disciplines</li>
-                    </ul>
+                        </ul>
                   </div>
-                </div>
+                      </div>
 
                 {/* Preparation Tips */}
                 <div className="bg-gray-50 p-6 rounded-lg">
@@ -1678,9 +2201,9 @@ const TSEAMCETPage: React.FC = () => {
                       <li>Allocate study time based on difficulty: more on calculus, mechanics, organic chemistry, genetics</li>
                       <li>Utilize official and third-party mock tests to simulate actual CBT conditions and time management</li>
                       <li>Reinforce conceptual clarity over rote memorization for analytical success</li>
-                    </ul>
+                        </ul>
                   </div>
-                </div>
+                      </div>
 
                 {/* Estimated Past Cutoff Trends */}
                 <div className="bg-gray-50 p-6 rounded-lg">
@@ -1689,7 +2212,7 @@ const TSEAMCETPage: React.FC = () => {
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-2">Engineering Stream</h4>
                       <p className="text-gray-700">Engineering top branches cutoff scores are generally above 150/160 marks; moderate branches around 130-150.</p>
-                    </div>
+                      </div>
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-2">Agriculture and Pharmacy Streams</h4>
                       <p className="text-gray-700">Agriculture and Pharmacy cutoffs slightly lower, reflecting stream-specific demand and exam difficulty.</p>
@@ -1727,7 +2250,7 @@ const TSEAMCETPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">TS EAMCET 2026 Expected Cutoff and Rank Insight — Ultra-Detailed Expanded Analysis (30x+)</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">TS EAMCET 2026 Expected Cutoff and Rank Insight</h2>
               
               <div className="space-y-6">
                 {/* Qualifying Criteria and Minimum Marks */}
@@ -1897,8 +2420,8 @@ const TSEAMCETPage: React.FC = () => {
                     <p className="text-gray-700 text-sm">
                       <strong>Note:</strong> Rank is based on aggregate marks; actual rank cutoffs fluctuate each year due to exam difficulty and applicant pool.
                     </p>
-                  </div>
                 </div>
+              </div>
 
                 {/* Stream-Wise Cutoff Differences */}
                 <div className="bg-gray-50 p-6 rounded-lg">
@@ -2048,7 +2571,7 @@ const TSEAMCETPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">TS EAMCET 2026 Counselling Process — Ultra-Expanded Comprehensive Guide (30x+ Detail)</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">TS EAMCET 2026 Counselling Process</h2>
               
               <div className="space-y-6">
                 {/* Conducting Authority & Mode */}
@@ -2182,7 +2705,7 @@ const TSEAMCETPage: React.FC = () => {
                         <li>Aadhar Card or equivalent valid government ID proof</li>
                         <li>SSC (Class 10) Certificate for Date of Birth</li>
                         <li>Intermediate (Class 12) or equivalent examination marksheet and pass certificate</li>
-                      </ul>
+                  </ul>
                     </div>
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-2">Additional Documents</h4>
@@ -2216,8 +2739,8 @@ const TSEAMCETPage: React.FC = () => {
                       <p className="text-gray-700">Joining confirmation marks the final enrollment for the academic year.</p>
                     </div>
                   </div>
-                </div>
-
+                    </div>
+                    
                 {/* Reservation Policy */}
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold text-gray-800 mb-4">Reservation Policy and Category Details</h3>
@@ -2238,9 +2761,9 @@ const TSEAMCETPage: React.FC = () => {
                       <h4 className="font-semibold text-gray-700 mb-2">Special Provisions</h4>
                       <p className="text-gray-700">Hospitable provisions for PwD and economically weaker sections.</p>
                     </div>
-                  </div>
-                </div>
-
+                      </div>
+                    </div>
+                    
                 {/* Fee Payment Particulars */}
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold text-gray-800 mb-4">Fee Payment Particulars and Refund Rules</h3>
@@ -2262,8 +2785,8 @@ const TSEAMCETPage: React.FC = () => {
                       <p className="text-gray-700">Refunded amounts are processed upon successful completion of admission formalities.</p>
                     </div>
                   </div>
-                </div>
-
+                    </div>
+                    
                 {/* Seat Matrix and Participating Colleges */}
                 <div className="bg-gray-50 p-6 rounded-lg">
                   <h3 className="text-xl font-semibold text-gray-800 mb-4">Seat Matrix and Participating Colleges</h3>
@@ -2275,7 +2798,7 @@ const TSEAMCETPage: React.FC = () => {
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-2">Leading Government Colleges</h4>
                       <p className="text-gray-700">Osmania University College of Engineering, JNTUH, MVSR Engineering, CBIT Hyderabad, Vasavi College, VNR VJIET, CVR College, etc.</p>
-                    </div>
+                  </div>
                     <div className="bg-white p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-700 mb-2">Private and Integrated Colleges</h4>
                       <p className="text-gray-700">Multiple private and integrated colleges participate in the process.</p>
@@ -2323,7 +2846,7 @@ const TSEAMCETPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">TS EAMCET 2026 Overview</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">TS EAMCET 2026</h2>
               <p className="text-gray-600">Select a tab to view detailed information about TS EAMCET 2026.</p>
             </div>
           </div>
@@ -2358,14 +2881,11 @@ const TSEAMCETPage: React.FC = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-6">
               <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
-                  <div className="w-8 h-8 bg-gray-500 rounded-full flex items-center justify-center">
-                    <span className="text-white text-sm font-bold">TS</span>
-                  </div>
-                </div>
-                <div>
-                  <div className="text-sm text-gray-600 font-medium">TELANGANA STATE</div>
-                </div>
+                <img 
+                  src="/images/ts-eamcet-logo.jpeg" 
+                  alt="TS EAMCET Logo" 
+                  className="w-28 h-28 object-contain"
+                />
               </div>
               <div>
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">
@@ -2380,24 +2900,24 @@ const TSEAMCETPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Tabs */}
-      <div className="bg-white rounded-lg shadow-sm mb-6">
-        <div className="border-b border-gray-200">
-          <nav className="flex justify-center space-x-2 px-4">
+      {/* Tabs Navigation Container */}
+      <div className="bg-gray-50 border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex justify-center space-x-8 overflow-x-auto py-4">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id as TabType)}
-                className={`px-3 py-3 text-sm font-medium whitespace-nowrap transition-colors ${
+                className={`whitespace-nowrap px-4 py-2 font-semibold text-sm transition-colors duration-200 ${
                   activeTab === tab.id
-                    ? 'text-gray-800 bg-gray-100'
-                    : 'text-gray-600 hover:text-gray-800'
+                    ? 'text-gray-800 border-b-2 border-gray-800 bg-white rounded-t-lg'
+                    : 'text-gray-600 hover:text-gray-800 hover:bg-gray-100 rounded-lg'
                 }`}
               >
                 {tab.label}
               </button>
             ))}
-          </nav>
+          </div>
         </div>
       </div>
 

@@ -155,7 +155,7 @@ const TGSEAMCETPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">TG EAMCET (TG EAPCET) 2026 Overview</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">TG EAMCET (TG EAPCET) 2026</h2>
               <div className="space-y-6">
                 <div className="bg-blue-50 p-4 rounded-lg">
                   <h3 className="text-lg font-semibold text-blue-800 mb-2">What is TG EAMCET?</h3>
@@ -744,7 +744,7 @@ const TGSEAMCETPage: React.FC = () => {
         return (
           <div className="space-y-8">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">TG EAMCET 2026 Overview</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">TG EAMCET 2026</h2>
               <p className="text-gray-600">Select a tab to view detailed information about TG EAMCET 2026.</p>
             </div>
           </div>
@@ -801,24 +801,24 @@ const TGSEAMCETPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Tabs */}
-      <div className="bg-white rounded-lg shadow-sm mb-6">
-        <div className="border-b border-gray-200">
-          <nav className="flex justify-center space-x-2 px-4">
+      {/* Tabs Navigation Container */}
+      <div className="bg-gray-50 border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex justify-center space-x-8 overflow-x-auto py-4">
             {tabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id as TabType)}
-                className={`px-3 py-3 text-sm font-medium whitespace-nowrap transition-colors ${
+                className={`whitespace-nowrap px-4 py-2 font-semibold text-sm transition-colors duration-200 ${
                   activeTab === tab.id
-                    ? 'text-gray-800 bg-gray-100'
-                    : 'text-gray-600 hover:text-gray-800'
+                    ? 'text-gray-800 border-b-2 border-gray-800 bg-white rounded-t-lg'
+                    : 'text-gray-600 hover:text-gray-800 hover:bg-gray-100 rounded-lg'
                 }`}
               >
                 {tab.label}
               </button>
             ))}
-          </nav>
+          </div>
         </div>
       </div>
 

@@ -1,0 +1,226 @@
+{
+    "ExamName": "Joint Entrance Examination (JEE) Advanced 2026",
+    "ConductingAuthority": "Indian Institute of Technology (IIT) Roorkee (expected, rotating among seven IITs under the Joint Admission Board)",
+    "ExamLevel": "National Level",
+    "ExamCategory": "Undergraduate Engineering Entrance Exam",
+    "Frequency": "Once a year (generally in June)",
+    "Languages": [
+      "English",
+      "Hindi"
+    ],
+    "Mode": "Computer-Based Test (CBT) – Online",
+    "Duration": "Total 6 hours (Paper 1: 3 hours, Paper 2: 3 hours; both on same day with breaks)",
+    "Papers": {
+      "Total": 2,
+      "Description": "Two papers (Paper 1 and Paper 2; both compulsory)",
+      "Questions": "Varies by year; generally 54–60 per paper across Physics, Chemistry, Mathematics",
+      "TotalMarks": "Varies yearly (~342–372 total)"
+    },
+    "MarkingScheme": {
+      "General": "Full, partial, zero, and negative marks awarded; varies by question type",
+      "MCQs": "+3/+4 for correct, -1 for incorrect, 0 for unattempted (some sections)",
+      "Numerical/Matching": "Full or partial marks for partially correct responses",
+      "Note": "Marking pattern changes every year; check official brochure"
+    },
+    "ParticipatingInstitutes": [
+      "23 IITs (Indian Institutes of Technology, all campuses)",
+      "IISc Bangalore (for selected programs)",
+      "IISERs, IIST, RGIPT (selected seats via JoSAA)"
+    ],
+    "SeatsAvailable": "Approx. 11,000+ seats in IITs",
+    "Overview": "JEE Advanced is the second and final stage for undergraduate admission to IITs and select institutes. Only top 2.5 lakh JEE Main qualifiers are eligible. Known for its rigorous problem-solving focus in Physics, Chemistry, and Mathematics. Both papers are compulsory.",
+    "ImportantDates": {
+      "Notification": "March 2026 (expected)",
+      "Registration": "April 2026",
+      "FeePaymentDeadline": "April 2026",
+      "AdmitCardRelease": "May/June 2026",
+      "ExamDate": "June 2026 (Sunday, expected)",
+      "AATRegistration": "Post-Advanced result",
+      "AATExamDate": "June 2026 (offline)",
+      "AnswerKeyRelease": "Within 1 week of exam",
+      "ResultDeclaration": "Late June 2026",
+      "JoSAA_Counselling": "June–July 2026"
+    },
+    "EligibilityCriteria": {
+      "AgeLimit": "General/OBC-NCL/EWS: Born on/after Oct 1, 2000; SC/ST/PwD: +5 years relaxation",
+      "Qualification": "First appearance of Class 12 (or equivalent) in 2025 or 2026",
+      "Attempts": "Maximum 2 attempts in consecutive years (3rd attempt for Nov 5–18, 2024 dropouts as per SC order)",
+      "JEEMainRank": "Must be in top 2,50,000 (all categories) based on JEE Main results",
+      "IITAdmissionClause": "Must not have accepted/admitted to any IIT previously",
+      "Subjects": "Physics, Chemistry, Mathematics mandatory in Class 12",
+      "Percentage": "75% (Gen/OBC/EWS) or 65% (SC/ST/PwD) or top 20 percentile in respective board"
+    },
+    "ApplicationProcess": {
+      "Steps": [
+        "Register on official JEE Advanced portal",
+        "Login using JEE Main roll number/password",
+        "Fill personal & educational details, choose exam centers",
+        "Upload required documents (photo, signature, certificates)",
+        "Pay fees and submit application",
+        "Download confirmation page"
+      ],
+      "DocumentsRequired": [
+        "Class 10 certificate / Birth certificate",
+        "Class 12 marksheet",
+        "Category / PwD / EWS certificate (if applicable)",
+        "Recent passport-size photo"
+      ],
+      "Fees": {
+        "IndianNationals": {
+          "Female/SC/ST/PwD": "₹1600",
+          "Others": "₹3200"
+        },
+        "ForeignNationals": {
+          "SAARC": "US$100",
+          "Non-SAARC": "US$200"
+        }
+      },
+      "PaymentModes": [
+        "Net banking",
+        "Debit/Credit card",
+        "Offline via SBI"
+      ]
+    },
+    "Syllabus": {
+      "Mathematics": [
+        "Algebra",
+        "Calculus",
+        "3D Geometry",
+        "Vectors",
+        "Coordinate Geometry",
+        "Trigonometry",
+        "Probability"
+      ],
+      "Physics": [
+        "Mechanics",
+        "Electricity & Magnetism",
+        "Thermal Physics",
+        "Optics",
+        "Modern Physics"
+      ],
+      "Chemistry": [
+        "Physical",
+        "Organic",
+        "Inorganic",
+        "Reaction Mechanisms",
+        "Reasoning-based Questions"
+      ]
+    },
+    "ExamPattern": {
+      "Structure": "2 compulsory papers, each 3 hours",
+      "Sections": [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+      ],
+      "QuestionTypes": [
+        "MCQs (single/multiple correct)",
+        "Numerical value",
+        "Matrix/Paragraph type"
+      ],
+      "Marking": "Full, partial, zero, and negative marks as per question type",
+      "Language": "English, Hindi",
+      "Mode": "CBT (online)"
+    },
+    "AdmitCard": {
+      "Availability": "Download from jeeadv.ac.in",
+      "Contains": [
+        "Roll number",
+        "Exam date/time",
+        "Center address",
+        "Instructions"
+      ],
+      "DocumentsToCarry": [
+        "Admit card",
+        "Photo ID (Aadhaar/Passport/Other ID)"
+      ]
+    },
+    "AnswerKey": {
+      "Provisional": "Released 2–5 days after exam",
+      "ChallengeWindow": "Open for limited time",
+      "FinalKey": "Released with results"
+    },
+    "Result": {
+      "Evaluation": "Based on raw marks; no percentile normalization",
+      "Ranking": "Aggregate + subject-wise marks; tie-breaking by higher marks and age",
+      "Criteria": "Must meet subject-wise & aggregate cutoffs for rank inclusion"
+    },
+    "Cutoff": {
+      "QualifyingCutoff2024": {
+        "CRL": "23.89% aggregate, 6.83% per subject",
+        "SC_ST_PwD": "11.95% aggregate, 3.42% per subject"
+      },
+      "AdmissionCutoff": "Varies by branch, IIT, and category; much higher than qualifying marks"
+    },
+    "Counselling": {
+      "ConductingBody": "JoSAA (Joint Seat Allocation Authority)",
+      "Process": [
+        "Online registration and choice filling",
+        "Multiple rounds of seat allotment",
+        "Seat acceptance fee payment and document upload",
+        "Physical reporting and verification"
+      ],
+      "CSAB": "Special rounds for NIT+ system after JoSAA"
+    },
+    "Reservation": {
+      "OBC-NCL": "27%",
+      "GEN-EWS": "10%",
+      "SC": "15%",
+      "ST": "7.5%",
+      "PwD": "5% (horizontal across all categories)"
+    },
+    "PreparationTips": {
+      "StudyApproach": "Concept-based learning, not rote memorization; focus on application",
+      "RecommendedBooks": {
+        "Mathematics": [
+          "Cengage",
+          "Arihant",
+          "TMH",
+          "Vikas Gupta"
+        ],
+        "Physics": [
+          "HC Verma",
+          "DC Pandey",
+          "IE Irodov"
+        ],
+        "Chemistry": [
+          "OP Tandon",
+          "JD Lee",
+          "Morrison & Boyd"
+        ]
+      },
+      "Strategy": [
+        "Master NCERTs, then advanced problem-solving books",
+        "Solve past 10 years’ papers and official mock tests",
+        "Work on speed, accuracy, and time management",
+        "Take periodic computer-based practice exams"
+      ]
+    },
+    "Highlights_2026": {
+      "SC_Relaxation": "Additional attempt for 2024 college dropouts (Nov 5–18, 2024)",
+      "ExamMode": "CBT with expanded city list",
+      "Pattern": "Unpredictable; conceptual and reasoning-heavy questions",
+      "Focus": "Experimental, logical reasoning emphasis across subjects"
+    },
+    "FAQs": {
+      "Attempts": "2 consecutive years (3rd attempt for Nov 2024 dropouts)",
+      "PatternChange": "Yes, can vary yearly",
+      "MinimumCutoff": "Yes, subject-wise and aggregate both required",
+      "BothPapersCompulsory": "Yes, mandatory for ranking",
+      "ItemsToCarry": "Admit card, photo ID, pen/pencil, mask/sanitizer",
+      "AAT": "Architecture Aptitude Test (offline) for B.Arch at IITs"
+    },
+    "OfficialContact": {
+      "Websites": [
+        "https://jeeadv.ac.in",
+        "https://engineering.careers360.com/exams/jee-advanced"
+      ],
+      "Helpline": "As per official brochure",
+      "Email": "Available on official portal"
+    },
+    "Sources": [
+      "https://engineering.careers360.com/exams/jee-advanced",
+      "https://collegedunia.com/jee-advanced-college-predictor",
+      "https://jeeadv.ac.in"
+    ]
+  }

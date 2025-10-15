@@ -25,6 +25,7 @@ import VITEEEPage from "./pages/Exams/VITEEEPage";
 import APEAMCETPage from "./pages/Exams/APEAMCETPage";
 import TSEAMCETPage from "./pages/Exams/TSEAMCETPage";
 import TGSEAMCETPage from "./pages/Exams/TGSEAMCETPage";
+import JEEAdvancedPage from "./pages/Exams/JEEAdvancedPage";
 import ExamDetailPage from "./pages/Exams/ExamDetailPage";
 import ResultsPage from "./pages/Results/ResultsPage";
 import AskUsPage from "./pages/AskUsPage/AskUsPage";
@@ -50,6 +51,7 @@ function App() {
             <Route path="/news/:slug" element={<SimpleNewsDetailPage />} />
             <Route path="/exams" element={<ExamsLandingPage />} />
             <Route path="/exams/jee-main" element={<JEEMainPage />} />
+            <Route path="/exams/jee-advanced" element={<JEEAdvancedPage />} />
             <Route path="/exams/neet" element={<NEETPage />} />
             <Route path="/exams/bitsat" element={<BITSATPage />} />
             <Route path="/exams/viteee" element={<VITEEEPage />} />

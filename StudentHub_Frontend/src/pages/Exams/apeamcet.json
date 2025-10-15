@@ -79,54 +79,201 @@
         }
     },
     "Syllabus": {
-        "Based On": "Andhra Pradesh Board of Intermediate Education (BIEAP) Class 11 & 12 curriculum",
+        "Foundation": {
+            "Based On": "Andhra Pradesh Board of Intermediate Education (BIEAP) Class 11 & 12 curriculum",
+            "Description": "The syllabus for AP EAMCET 2026 strictly aligns with the Andhra Pradesh Board of Intermediate Education (BIEAP) Class 11 & 12 curriculum. It caters to the Engineering (PCM) and Agriculture & Pharmacy (PCMB or PCB) streams, integrating the full spectrum of academic topics necessary for competitive entrance performance. Extensive cross-referencing with NCERT Class 11 & 12 syllabus ensures consistency and national-level academic standards."
+        },
         "Engineering Stream": {
+            "Mathematics": {
+                "Algebra": [
+                    "Sets, Relations, Functions",
+                    "Complex Numbers (polar form, roots)",
+                    "Quadratic Equations and Expressions",
+                    "Binomial Theorem with proof and applications",
+                    "Sequences and Series (Arithmetic, Geometric, Harmonic)"
+                ],
+                "Trigonometry": [
+                    "Trigonometric Ratios and Identities",
+                    "Solutions of Triangles including Height and Distance",
+                    "Inverse Trigonometric Functions"
+                ],
+                "Probability and Statistics": [
+                    "Probability Rules, Conditional Probability",
+                    "Mean, Median, Mode, Standard Deviation, Variance",
+                    "Application to Discrete and Continuous Distributions"
+                ],
+                "Vector Algebra": [
+                    "Vector Operations (Dot and Cross product)",
+                    "Triple Scalar Product, Vector Projections"
+                ],
+                "Coordinate Geometry": [
+                    "Straight Lines and Pair of Lines",
+                    "Circles, Parabola, Ellipse, Hyperbola (construction and properties)"
+                ],
+                "Calculus": [
+                    "Limits, Continuity, Differentiability",
+                    "Derivative Applications: Tangents, Maxima, Minima",
+                    "Integration: Indefinite, Definite Integrals, Areas under Curves",
+                    "Differential Equations: First Order and Separable Variables"
+                ]
+            },
+            "Physics": {
+                "Mechanics": [
+                    "Kinematics, Laws of Motion, Work, Energy, Power",
+                    "Rotational Motion, Centre of Mass and Momentum",
+                    "Gravitation Laws and Applications"
+                ],
+                "Thermodynamics": [
+                    "Laws of Thermodynamics, Heat Engines, Carnot Cycle",
+                    "Heat Transfer, Calorimetry"
+                ],
+                "Electrostatics": [
+                    "Coulomb's Law, Electric Field & Potential",
+                    "Capacitance and Dielectric Properties"
+                ],
+                "Optics": [
+                    "Reflection, Refraction, Image Formation by Lenses and Mirrors",
+                    "Interference, Diffraction, Polarisation"
+                ],
+                "Waves": [
+                    "Types of Mechanical Waves, Doppler Effect"
+                ],
+                "Magnetism": [
+                    "Magnetic Field and Magnetic Force",
+                    "Earth's Magnetism, Electromagnetism Laws"
+                ],
+                "Modern Physics": [
+                    "Photoelectric Effect, Atomic Models, X-rays",
+                    "Radioactivity, Nuclear Reaction Basics",
+                    "Semiconductors, Transistors, Diodes"
+                ]
+            },
+            "Chemistry": {
+                "Atomic Structure and Chemical Bonding": [
+                    "Bohr Model, Quantum Mechanical Model, Hybridization",
+                    "Ionic, Covalent Bonds, VBT and MOT"
+                ],
+                "States of Matter": [
+                    "Gas Laws, Liquids and Solids Properties"
+                ],
+                "Thermodynamics": [
+                    "Enthalpy, Entropy, Gibbs Free Energy"
+                ],
+                "Chemical Equilibrium": [
+                    "Le-Chatelier Principle, Equilibrium Constants"
+                ],
+                "Redox Reactions": [
+                    "Oxidation Numbers, Balancing Redox Equations"
+                ],
+                "Organic Chemistry": [
+                    "Functional Groups: Alcohol, Phenol, Ether, Aldehyde, Ketone, Carboxylic Acids",
+                    "Hydrocarbons: Alkanes, Alkenes, Alkynes, Aromatics",
+                    "Reaction Mechanisms and Isomerism"
+                ],
+                "Inorganic Chemistry": [
+                    "Periodic Table Trends, s/p/d/f block Elements Properties",
+                    "Coordination Chemistry and Complexes"
+                ],
+                "Environmental Chemistry": [
+                    "Pollution Types, Control Methods, Green Chemistry Initiatives"
+                ]
+            }
+        },
+        "Agriculture & Pharmacy Stream": {
+            "Botany": {
+                "Diversity in the Living World": [
+                    "Classification Systems, Plant Kingdom Overview"
+                ],
+                "Cell Structure and Functions": [
+                    "Cell Organelles, Cell Cycle & Division (Mitosis, Meiosis)"
+                ],
+                "Plant Physiology": [
+                    "Photosynthesis (Light and Dark reactions)",
+                    "Respiration, Transpiration, Movements in Plants"
+                ],
+                "Reproduction": [
+                    "Sexual and Asexual Reproduction, Pollination, Fertilization"
+                ],
+                "Genetics and Evolution": [
+                    "Mendelian Laws, Genetic Disorders, Variation and Evolutionary Mechanisms"
+                ],
+                "Ecology": [
+                    "Ecosystem Structure, Food Chains, Ecological Succession"
+                ]
+            },
+            "Zoology": {
+                "Structural Organisation": [
+                    "Animal Tissues, Body Plans, Symmetry"
+                ],
+                "Human Physiology": [
+                    "Digestive, Circulatory, Respiratory, Nervous Systems",
+                    "Excretory and Reproductive Systems"
+                ],
+                "Genetics": [
+                    "Chromosomal Inheritance, Genetic Linkage, Mutation"
+                ],
+                "Evolution": [
+                    "Fossil Records, Natural Selection Theories, Adaptive Radiation"
+                ],
+                "Biotechnology": [
+                    "Genetic Engineering Basics, Cloning, PCR Techniques"
+                ]
+            },
+            "Physics & Chemistry": "Follow the Engineering stream syllabus as physics and chemistry topics are unified across streams."
+        },
+        "Weightage": {
+            "Engineering Stream": {
+                "Mathematics": "40%",
+                "Physics": "30%",
+                "Chemistry": "30%"
+            },
+            "Agriculture & Pharmacy Stream": {
+                "Botany": "25%",
+                "Zoology": "25%",
+                "Physics": "25%",
+                "Chemistry": "25%"
+            }
+        },
+        "High Priority Topics": {
             "Mathematics": [
-                "Algebra",
-                "Trigonometry",
-                "Probability",
-                "Statistics",
-                "Vector Algebra",
-                "Coordinate Geometry",
                 "Calculus",
-                "Differential Equations"
+                "Algebra",
+                "Coordinate Geometry",
+                "Probability"
             ],
             "Physics": [
                 "Mechanics",
                 "Thermodynamics",
-                "Electrostatics",
-                "Optics",
-                "Waves",
-                "Magnetism",
+                "Electromagnetism",
                 "Modern Physics"
             ],
             "Chemistry": [
-                "Atomic Structure",
-                "Chemical Bonding",
-                "States of Matter",
+                "Organic Chemistry",
                 "Thermodynamics",
-                "Equilibrium",
-                "Redox",
-                "Organic & Inorganic Chemistry",
-                "Environmental Chemistry"
+                "Atomic Structure",
+                "Equilibrium"
+            ],
+            "Biology": [
+                "Cell Biology",
+                "Genetics",
+                "Plant Physiology",
+                "Human Physiology"
             ]
         },
-        "Agriculture & Pharmacy Stream": {
-            "Botany": [
-                "Diversity in Living World",
-                "Cell Structure",
-                "Plant Physiology",
-                "Reproduction",
-                "Genetics",
-                "Ecology"
-            ],
-            "Zoology": [
-                "Structural Organization",
-                "Human Physiology",
-                "Genetics",
-                "Evolution"
-            ]
-        }
+        "Preparation Recommendations": [
+            "Utilize NCERT textbooks as primary study material; follow Andhra Pradesh Intermediate pattern",
+            "Emphasize understanding fundamentals through problem-solving exercises",
+            "Prioritize chapters based on weightage and past exam trends",
+            "Practice repeated online mock exams for CBT interface familiarization",
+            "Divide study time judiciously balancing conceptual clarity and exam speed"
+        ],
+        "Official Resources": [
+            "AP EAMCET Official Portal: cets.apsche.ap.gov.in/EAPCET",
+            "Career360 Syllabus & Tips: career360.com",
+            "Shiksha AP EAMCET Syllabus: shiksha.com",
+            "Collegedunia Exam Syllabus: collegedunia.com",
+            "Testbook Mock Tests: testbook.com"
+        ]
     },
     "Cutoff": {
         "Minimum Qualifying Marks": "40/160 (25%) for General; no minimum for SC/ST",

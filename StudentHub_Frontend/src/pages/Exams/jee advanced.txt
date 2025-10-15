@@ -1,0 +1,170 @@
+Exam Name:  
+Joint Entrance Examination (JEE) Advanced 2026
+
+Conducting Authority:  
+Indian Institute of Technology (IIT) Roorkee (expected, rotating among seven IITs under the Joint Admission Board)  
+
+Exam Level:  
+National Level
+
+Exam Category / Type:  
+Undergraduate Engineering Entrance Exam
+
+Exam Frequency:  
+Once a year (generally in June)
+
+Languages Available:  
+English, Hindi
+
+Mode of Exam (Online/Offline):  
+Computer-Based Test (CBT) – Online
+
+Duration:  
+Total – 6 hours (Paper 1: 3 hours, Paper 2: 3 hours; both on same day with breaks)
+
+Total Papers:  
+Two papers (Paper 1 and Paper 2; both compulsory)
+
+Number of Questions:  
+Varies by year and section; generally 54–60 questions per paper, divided into three sections: Physics, Chemistry, Mathematics
+
+Total Marks:  
+Varies (as per pattern, usually 342–372); each paper approx. 180 marks
+
+Marking Scheme:  
+- Varies by question type; both full, partial, zero, and negative marks awarded  
+- MCQs: +3/+4 for correct, -1 for incorrect (for some sections), no marks for unattempted  
+- Numerical and Matching types: Full or partial marks for partially correct responses  
+- Marking scheme is flexible and changes every year, so check official brochure for details
+
+Participating Institutes:  
+- 23 IITs (Indian Institutes of Technology, all campuses)
+- IISc Bangalore (for selected programs)
+- IISERs, IIST, RGIPT (selected seats via JoSAA, with IIT eligibility)
+- Approximately 11,000+ seats in IITs
+
+About / Overview:  
+JEE Advanced is the second and final stage for undergraduate admission to the IITs and a few other top institutes. Only top 2.5 lakh JEE Main qualifiers (across all categories) are eligible. Known for its rigorous two-paper structure, it evaluates candidates’ comprehension, reasoning, and analytical ability in Physics, Chemistry, and Mathematics. Both papers are mandatory.  
+
+Important Dates (Application, Admit Card, Exam, Result, Counselling):  
+- Release of JEE Advanced 2026 Notification: March 2026 (expected)  
+- Online Registration: April 2026  
+- Last date for Fee Payment: April 2026  
+- Admit Card Release: May/June 2026  
+- Exam Date: Likely June 2026 (Sunday, exact dates to be confirmed)  
+- AAT Registration (for B.Arch in IITs): Soon after Advanced result  
+- AAT Exam Date: June 2026 (offline)  
+- Answer Key & Response Sheet: Within 1 week of exam  
+- Result Declaration: Late June 2026  
+- JoSAA Counselling: June–July 2026  
+
+Eligibility Criteria (Age Limit, Qualification, Year of Passing, etc):  
+- Age Limit: General/OBC-NCL/EWS – Born on/after October 1, 2000; SC/ST/PwD – 5 years relaxation  
+- Qualifying Exam: First appearance of Class 12 (or equivalent) in 2025 or 2026. Those who appeared before 2025 are NOT eligible  
+- Attempts: Maximum 2 attempts in 2 consecutive years (with Supreme Court exception: Nov 5–18, 2024 college dropouts may get 3rd attempt)  
+- JEE Main Performance: Must be in top 2,50,000 rank holders (across all categories, with reservation percentages applied on Main rank list)  
+- Not Admitted to IITs: Should never have taken admission in an IIT (even if joining/cancelling/withdrawing)  
+- Compulsory Subjects: Physics, Chemistry, Mathematics in Class 12  
+- Percentage: For IIT admission – At least 75% in Class 12 (Gen/OBC/EWS) or 65% for SC/ST/PwD OR top 20 percentile in respective board
+
+Application Process (Steps, Documents Required, Fees):  
+1. Register at the official JEE Advanced portal  
+2. Login using JEE Main roll number and password  
+3. Fill personal and educational details, choose exam centers (from provided list)  
+4. Upload required documents (Class 10 certificate/birth certificate, Class 12 marksheet, category/PwD/EWS certificate if applicable, recent photograph)  
+5. Pay fees (online via net banking/debit/credit card or offline via SBI option)  
+    - Fee:  
+        -  Indian Nationals (Female/SC/ST/PwD): ₹1600  
+        -  Indian Nationals (Others): ₹3200  
+        -  Foreign Nationals: US$100 (SAARC), US$200 (Non-SAARC)  
+6. Submit, download/print confirmation page  
+
+Syllabus (Subjects, Weightage, Key Topics):  
+- Mathematics, Physics, Chemistry (Class 11 & 12 concepts, advanced application, and problem-solving)  
+- Full, detailed syllabus released in official brochure (IIT-JAB). More elaborate and conceptual than JEE Main  
+- Mathematics: Algebra, calculus, 3-D geometry, vectors, coordinate geometry, trigonometry, probability  
+- Physics: Mechanics, electricity & magnetism, thermal physics, optics, modern physics  
+- Chemistry: Physical, organic, and inorganic chemistry (deep emphasis on logic, reasoning, applications, reaction mechanisms)
+
+Exam Pattern (Paper 1, Paper 2):  
+- Both papers compulsory; each is 3 hours  
+- Both have three sections: Physics, Chemistry, Mathematics  
+- Each section has a variable number of:  
+    -  Multiple-choice questions (MCQs, single/multiple correct)  
+    -  Numerical value questions  
+    -  Matching/Matrix/Paragraph type questions  
+- Marking: Full, partial, zero, and negative marks per question (differs by section annually)  
+- No official disclosure of exact number/type of questions before exam; may vary per year  
+- Language: English or Hindi (candidate choice)  
+- Mode: CBT (online)  
+
+Admit Card Details:  
+- Download from official JEE Advanced portal (jeeadv.ac.in) by logging in  
+- Contains roll number, exam date/time, exam center Qcode/address, instructions  
+- Photo ID (Aadhaar/Passport/Other govt. ID) required at exam center  
+
+Answer Key / Response Sheet Info:  
+- Provisional answer key and response sheet released online after exam (typically within 2–5 days)  
+- Facility for candidates to challenge keys for a limited window  
+- Final answer key published alongside results  
+
+Result & Score Calculation (Normalization, Percentile):  
+- Not percentile-based; raw scores calculated as per actual exam marking scheme  
+- Separate aggregate marks and subject-wise totals calculated  
+- Rank lists prepared for each category; tiebreakers based on higher mathematics, physics, chemistry marks, and age  
+- Only candidates meeting minimum aggregate and subject-wise cutoff included in rank list
+
+Cutoff (Expected, Previous Year, Category-wise):  
+- Qualifying cutoffs: Minimum subject and aggregate marks required, vary annually  
+- For CRL, OBC-NCL, GEN-EWS, SC, ST, PwD - published post-exam  
+- 2024 (reference): CRL ~23.89% aggregate, 6.83%/subject; SC/ST/PwD ~11.95%/aggregate, 3.42%/subject  
+- Admission cutoffs (JoSAA): Much higher than qualifying cutoffs; vary by branch, IIT, and category  
+
+Counselling Process (JoSAA, CSAB details):  
+- JoSAA conducts central counseling for IITs (JEE Advanced), NITs, IIITs, GFTIs (JEE Main)  
+- Registered candidates fill preferences and undergo multiple online rounds of seat allotment  
+- Choices locked, seat acceptance fee paid, documents uploaded/verified online & at reporting  
+- Special CSAB rounds for vacant NIT+ system seats after JoSAA  
+
+Reservation Criteria:  
+- OBC-NCL: 27%  
+- GEN-EWS: 10%  
+- SC: 15%  
+- ST: 7.5%  
+- PwD: 5% (across all categories; horizontal reservation)  
+- All reserved category claims must be supported by valid, central-format certificates
+
+Preparation Tips / Recommended Books:  
+- Start with deep understanding of NCERTs, then move to advanced books:  
+    -  Maths: Cengage, Arihant, TMH, Problem in Mathematics by Vikas Gupta  
+    -  Physics: Concepts of Physics by H.C. Verma, D.C. Pandey, I.E. Irodov  
+    -  Chemistry: OP Tandon, JD Lee (Inorganic), Morrison & Boyd (Organic)  
+- Solve past 10 years’ papers; attempt official mock tests at jeeadv.ac.in  
+- Work on speed and accuracy under timed, computer-based conditions  
+- Focus on concept-building, rigorous self-testing, and detailed error analysis  
+
+Changes / Highlights (for 2026):  
+- Supreme Court relaxation: Additional attempt for 2024-exit college dropouts (Nov 5–18, 2024)  
+- Computer-based test for all sections, more cities/centers  
+- Continues heavy unpredictability in question/marking pattern; focus on understanding and strategy over rote learning  
+- Emphasis on experimental skills, logical reasoning across all subjects  
+
+FAQs (top important ones):  
+- How many attempts allowed? 2 consecutive years (with 3rd attempt for 2024 November dropouts)  
+- Can the exam pattern change yearly? Yes; number/types of questions and marking can vary  
+- Is there a minimum cutoff to qualify? Yes; both overall aggregate and per-subject marks required  
+- Are both Paper 1 & 2 compulsory? Yes; must appear in both for ranking  
+- What to carry to exam center? Admit card, valid photo ID, favorite pen/pencil, mask/sanitizer  
+- What is the AAT? Architecture Aptitude Test, post-Advanced, for B.Arch at IITs (offline)
+
+Official Contact Information (Website, Helpline, Email):  
+- Website: [https://jeeadv.ac.in](https://jeeadv.ac.in), [https://engineering.careers360.com/exams/jee-advanced](https://engineering.careers360.com/exams/jee-advanced)  
+- Helpline: As per official brochure (updates annually)  
+- Email: As displayed on official site/contact-us section
+
+Source URLs:  
+- https://engineering.careers360.com/exams/jee-advanced  
+- https://collegedunia.com/jee-advanced-college-predictor  
+- https://jeeadv.ac.in
+
+[1](https://engineering.careers360.com/exams/jee-advanced)
