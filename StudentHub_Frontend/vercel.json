@@ -3,6 +3,7 @@
     { "source": "/(.*)", "destination": "/" }
   ],
   "env": {
+    "VITE_BACKEND_URL": "http://192.168.0.118:8000",
     "VITE_SUPABASE_URL": "https://bdhqbjrjazdfkoulwduo.supabase.co",
     "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJkaHFianJqYXpkZmtvdWx3ZHVvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgzNDgzODgsImV4cCI6MjA3MzkyNDM4OH0.yCm-nqKFNR1n8H0tC6T3rPb1K3d-cR8CA4oZ9nL_KSQ"
   }

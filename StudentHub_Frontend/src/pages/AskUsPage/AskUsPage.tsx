@@ -195,13 +195,18 @@ const AskUsPage = () => {
     
     setMessages(prev => [...prev, userMessage]);
 
-    try {
-      // Make API call to get response
-      const response = await fetch('/api/chatbot/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ query: question }),
-      });
+      try {
+        // Make API call to get response
+        const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:8000';
+        const apiUrl = `${backendUrl}/api/chatbot/`;
+        
+        console.log('API URL:', apiUrl); // Debug log
+        
+        const response = await fetch(apiUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ query: question }),
+        });
 
       const data = await response.json();
       console.log('Backend response:', data); // Debug log
