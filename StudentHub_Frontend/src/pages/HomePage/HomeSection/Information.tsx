@@ -10,12 +10,9 @@ const Information = () => {
   const navigate = useNavigate(); // Get the navigate function from useNavigate hook
 
   const rankings = [
-    "Top Engineering Colleges In India",
-    "Top MBA Colleges In India",
-    "Top Law Colleges In India",
-    "Top MBA Colleges In India",
-    "Top Medical Colleges In India",
-    "Top Universities In India",
+    "Top IIT Colleges",
+    "Top NIT Colleges",
+    "Top Private Colleges",
   ];
 
   return (

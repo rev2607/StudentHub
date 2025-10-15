@@ -37,7 +37,7 @@ const TopColleges = () => {
               {topCollegesData.map((college: any, index: number) => (
                 <tr key={index} dir="ltr" className="even:bg-[#E5E5E5]">
                   <td style={{ backgroundColor: colorArray[index] }} className="top_college_radius_td px-3 sm:px-4 py-3 text-center rounded-s-lg text-sm sm:text-base">
-                    0{index + 1}
+                    {index + 1 < 10 ? `0${index + 1}` : index + 1}
                   </td>
                   <td className="px-3 sm:px-4 py-3 flex items-center text-sm sm:text-base">
                     <img src={college.logo_url} alt="Logo" className="w-8 h-8 sm:w-10 sm:h-10 mr-2 sm:mr-4 rounded-full" />
