@@ -1,17 +1,28 @@
 // import { TopCollegesData } from "../../../services/data";
-import vitLogo from "../../../../src/assets/vit_logo.png";
+
+// Import individual college logos
+import iitMadrasLogo from "../../../../src/assets/Colleges/iit-madras-logo-png.png";
+import iitDelhiLogo from "../../../../src/assets/Colleges/indian-institute-of-technology-delhi.png";
+import iitBombayLogo from "../../../../src/assets/Colleges/indian-institute-of-technology-kanpur-logo.png"; // Using Kanpur logo as placeholder for Bombay
+import iitKanpurLogo from "../../../../src/assets/Colleges/indian-institute-of-technology-kanpur-logo.png";
+import iitKharagpurLogo from "../../../../src/assets/Colleges/iit-kharagpur-logo-png_seeklogo-403971.png";
+import iitRoorkeeLogo from "../../../../src/assets/Colleges/IIT_Roorkee.jpg";
+import iitHyderabadLogo from "../../../../src/assets/Colleges/IIT_Hyderabad.jpeg";
+import iitGuwahatiLogo from "../../../../src/assets/Colleges/IIT_Guwahati_Logo.svg.png";
+import nitTrichyLogo from "../../../../src/assets/Colleges/NITT_logo.png";
+import iitVaranasiLogo from "../../../../src/assets/Colleges/IIT_Varanasi.jpeg";
 
 const topCollegesData = [
-  { name: "IIT Madras",               highest_package: "₹1.5 Cr - 60 LPA",  median_package: "₹60 LPA", fee: "₹2,40,000 1st Year Fees", logo_url: vitLogo },
-  { name: "IIT Delhi",                highest_package: "₹2 Cr - 60 LPA",     median_package: "₹60 LPA", fee: "₹2,40,000 1st Year Fees", logo_url: vitLogo },
-  { name: "IIT Bombay",               highest_package: "₹1.8 Cr - 62 LPA",   median_package: "₹62 LPA", fee: "₹2,28,000 1st Year Fees", logo_url: vitLogo },
-  { name: "IIT Kanpur",               highest_package: "₹1.2 Cr - 50 LPA",   median_package: "₹50 LPA", fee: "₹2,25,600 1st Year Fees", logo_url: vitLogo },
-  { name: "IIT Kharagpur",            highest_package: "₹1.8 Cr - 54 LPA",   median_package: "₹54 LPA", fee: "₹2,24,600 1st Year Fees", logo_url: vitLogo },
-  { name: "IIT Roorkee",              highest_package: "₹2.15 Cr - 51 LPA",  median_package: "₹51 LPA", fee: "₹2,14,800 1st Year Fees", logo_url: vitLogo },
-  { name: "IIT Hyderabad",            highest_package: "₹1.2 Cr - 63 LPA",   median_package: "₹63 LPA", fee: "₹2,27,000 1st Year Fees", logo_url: vitLogo },
-  { name: "IIT Guwahati",             highest_package: "₹1.2 Cr - 50 LPA",   median_package: "₹50 LPA", fee: "₹2,19,350 1st Year Fees", logo_url: vitLogo },
-  { name: "NIT Tiruchirappalli",      highest_package: "₹52 LPA - 44 LPA",   median_package: "₹44 LPA", fee: "₹1,61,200 1st Year Fees", logo_url: vitLogo },
-  { name: "IIT (BHU) Varanasi",       highest_package: "₹1.2 Cr - 45 LPA",   median_package: "₹45 LPA", fee: "₹2,32,800 1st Year Fees", logo_url: vitLogo },
+  { name: "IIT Madras",               highest_package: "₹1.5 Cr - 60 LPA",  median_package: "₹60 LPA", fee: "₹2,40,000 1st Year Fees", logo_url: iitMadrasLogo },
+  { name: "IIT Delhi",                highest_package: "₹2 Cr - 60 LPA",     median_package: "₹60 LPA", fee: "₹2,40,000 1st Year Fees", logo_url: iitDelhiLogo },
+  { name: "IIT Bombay",               highest_package: "₹1.8 Cr - 62 LPA",   median_package: "₹62 LPA", fee: "₹2,28,000 1st Year Fees", logo_url: iitBombayLogo },
+  { name: "IIT Kanpur",               highest_package: "₹1.2 Cr - 50 LPA",   median_package: "₹50 LPA", fee: "₹2,25,600 1st Year Fees", logo_url: iitKanpurLogo },
+  { name: "IIT Kharagpur",            highest_package: "₹1.8 Cr - 54 LPA",   median_package: "₹54 LPA", fee: "₹2,24,600 1st Year Fees", logo_url: iitKharagpurLogo },
+  { name: "IIT Roorkee",              highest_package: "₹2.15 Cr - 51 LPA",  median_package: "₹51 LPA", fee: "₹2,14,800 1st Year Fees", logo_url: iitRoorkeeLogo },
+  { name: "IIT Hyderabad",            highest_package: "₹1.2 Cr - 63 LPA",   median_package: "₹63 LPA", fee: "₹2,27,000 1st Year Fees", logo_url: iitHyderabadLogo },
+  { name: "IIT Guwahati",             highest_package: "₹1.2 Cr - 50 LPA",   median_package: "₹50 LPA", fee: "₹2,19,350 1st Year Fees", logo_url: iitGuwahatiLogo },
+  { name: "NIT Tiruchirappalli",      highest_package: "₹52 LPA - 44 LPA",   median_package: "₹44 LPA", fee: "₹1,61,200 1st Year Fees", logo_url: nitTrichyLogo },
+  { name: "IIT (BHU) Varanasi",       highest_package: "₹1.2 Cr - 45 LPA",   median_package: "₹45 LPA", fee: "₹2,32,800 1st Year Fees", logo_url: iitVaranasiLogo },
 ];
 
 const TopColleges = () => {
