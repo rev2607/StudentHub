@@ -1,17 +1,28 @@
 // import React from "react";
-import vitLogo from "../../../../src/assets/vit_logo.png";
+
+// Import individual private college logos
+import bitsPilaniLogo from "../../../../src/assets/Colleges/BITS_Pilani-Logo.png";
+import vitVelloreLogo from "../../../../src/assets/Colleges/vit.png";
+import srmLogo from "../../../../src/assets/Colleges/srm-institute-of-science-and-technology-logo-png_seeklogo-381994.png";
+import thaparLogo from "../../../../src/assets/Colleges/Thapar_Logo.png";
+import amritaLogo from "../../../../src/assets/Colleges/amrita.jpeg";
+import soaLogo from "../../../../src/assets/Colleges/SOA_Anusandhan.png";
+import amityLogo from "../../../../src/assets/Colleges/amity.jpg";
+import chandigarhLogo from "../../../../src/assets/Colleges/chandigarh-university-cu-logo-png_seeklogo-432515.png";
+import klLogo from "../../../../src/assets/Colleges/KL_Logo_Final_New-pdf_1.webp";
+import kalasalingamLogo from "../../../../src/assets/Colleges/Kalasalingam_Academy_of_Research_and_Education_logo.png";
 
 const colleges = [
-  { rank: 1,  logo: vitLogo, name: "Birla Institute of Technology and Science (BITS) Pilani", nirf: 11, average: "₹18–25 LPA", highest: "₹60+ LPA", naac: "A+" },
-  { rank: 2,  logo: vitLogo, name: "Vellore Institute of Technology (VIT) Vellore",           nirf: 16, average: "₹9–12 LPA", highest: "₹75 LPA", naac: "A+" },
-  { rank: 3,  logo: vitLogo, name: "SRM Institute of Science and Technology Chennai",        nirf: 14, average: "₹6–9 LPA", highest: "₹45–50 LPA", naac: "A" },
-  { rank: 4,  logo: vitLogo, name: "Thapar Institute of Engineering and Technology",         nirf: 29, average: "₹7–9 LPA", highest: "₹20–25 LPA", naac: "A" },
-  { rank: 5,  logo: vitLogo, name: "Amrita Vishwa Vidyapeetham",                            nirf: 23, average: "₹6–8 LPA", highest: "₹20–22 LPA", naac: "A+" },
-  { rank: 6,  logo: vitLogo, name: "Siksha 'O' Anusandhan (SOA), Bhubaneswar",              nirf: 22, average: "₹5–7 LPA", highest: "₹12–15 LPA", naac: "A" },
-  { rank: 7,  logo: vitLogo, name: "Amity University, Noida",                               nirf: 37, average: "₹5–6 LPA", highest: "₹10–12 LPA", naac: "A" },
-  { rank: 8,  logo: vitLogo, name: "Chandigarh University",                                 nirf: 32, average: "₹5–6 LPA", highest: "₹10–12 LPA", naac: "A" },
-  { rank: 9,  logo: vitLogo, name: "Koneru Lakshmaiah Education Foundation (KL University)", nirf: 35, average: "₹4–6 LPA", highest: "₹10–12 LPA", naac: "A" },
-  { rank: 10, logo: vitLogo, name: "Kalasalingam Academy of Research and Education",         nirf: 36, average: "₹4–5 LPA", highest: "₹10 LPA", naac: "A" },
+  { rank: 1,  logo: bitsPilaniLogo, name: "Birla Institute of Technology and Science (BITS) Pilani", nirf: 11, average: "₹18–25 LPA", highest: "₹60+ LPA", naac: "A+" },
+  { rank: 2,  logo: vitVelloreLogo, name: "Vellore Institute of Technology (VIT) Vellore",           nirf: 16, average: "₹9–12 LPA", highest: "₹75 LPA", naac: "A+" },
+  { rank: 3,  logo: srmLogo, name: "SRM Institute of Science and Technology Chennai",        nirf: 14, average: "₹6–9 LPA", highest: "₹45–50 LPA", naac: "A" },
+  { rank: 4,  logo: thaparLogo, name: "Thapar Institute of Engineering and Technology",         nirf: 29, average: "₹7–9 LPA", highest: "₹20–25 LPA", naac: "A" },
+  { rank: 5,  logo: amritaLogo, name: "Amrita Vishwa Vidyapeetham",                            nirf: 23, average: "₹6–8 LPA", highest: "₹20–22 LPA", naac: "A+" },
+  { rank: 6,  logo: soaLogo, name: "Siksha 'O' Anusandhan (SOA), Bhubaneswar",              nirf: 22, average: "₹5–7 LPA", highest: "₹12–15 LPA", naac: "A" },
+  { rank: 7,  logo: amityLogo, name: "Amity University, Noida",                               nirf: 37, average: "₹5–6 LPA", highest: "₹10–12 LPA", naac: "A" },
+  { rank: 8,  logo: chandigarhLogo, name: "Chandigarh University",                                 nirf: 32, average: "₹5–6 LPA", highest: "₹10–12 LPA", naac: "A" },
+  { rank: 9,  logo: klLogo, name: "Koneru Lakshmaiah Education Foundation (KL University)", nirf: 35, average: "₹4–6 LPA", highest: "₹10–12 LPA", naac: "A" },
+  { rank: 10, logo: kalasalingamLogo, name: "Kalasalingam Academy of Research and Education",         nirf: 36, average: "₹4–5 LPA", highest: "₹10 LPA", naac: "A" },
 ];
 
 // Helper to interpolate between two colors
