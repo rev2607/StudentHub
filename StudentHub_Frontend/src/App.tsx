@@ -29,6 +29,7 @@ import JEEAdvancedPage from "./pages/Exams/JEEAdvancedPage";
 import ExamDetailPage from "./pages/Exams/ExamDetailPage";
 import ResultsPage from "./pages/Results/ResultsPage";
 import AskUsPage from "./pages/AskUsPage/AskUsPage";
+import PsychometricTest from "./pages/PsychometricTest";
 
 // import Search from "./pages/Other/Search";
 // import Test from "./pages/Other/Test";
@@ -65,6 +66,7 @@ function App() {
             <Route path="/colleges" element={<CollegesListPage />} />
             <Route path="/colleges/:slug" element={<CollegeDetailPage />} />
             <Route path="/colleges/iit-roorkee" element={<IITRoorkeePage />} />
+            <Route path="/psychometric-test" element={<PsychometricTest />} />
             <Route path="/engineering-colleges" element={<Navigate to="/colleges" replace />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Route>
@@ -86,7 +88,6 @@ function App() {
           <Route path="/ask-us" element={<AskUsPage />} />
           
           {/* Placeholder routes for navigation items */}
-          <Route path="/psychometric-test" element={<div className="min-h-screen bg-gray-50 flex items-center justify-center"><div className="text-center"><h1 className="text-2xl font-bold text-gray-800 mb-4">Psychometric Test</h1><p className="text-gray-600">This page is under development.</p></div></div>} />
           <Route path="/mbbs" element={<div className="min-h-screen bg-gray-50 flex items-center justify-center"><div className="text-center"><h1 className="text-2xl font-bold text-gray-800 mb-4">MBBS</h1><p className="text-gray-600">This page is under development.</p></div></div>} />
           <Route path="/study-abroad" element={<div className="min-h-screen bg-gray-50 flex items-center justify-center"><div className="text-center"><h1 className="text-2xl font-bold text-gray-800 mb-4">Study Abroad</h1><p className="text-gray-600">This page is under development.</p></div></div>} />
           <Route path="/reviews" element={<div className="min-h-screen bg-gray-50 flex items-center justify-center"><div className="text-center"><h1 className="text-2xl font-bold text-gray-800 mb-4">Reviews</h1><p className="text-gray-600">This page is under development.</p></div></div>} />

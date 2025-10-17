@@ -122,9 +122,9 @@ const MockTestsStart: React.FC = () => {
         
         // Fetch paper information
         const { data: paperData, error: paperError } = await supabase
-          .from('mock_test_papers')
+          .from('papers')
           .select('*')
-          .eq('exam_name', exam)
+          .eq('exam', exam)
           .eq('year', year)
           .single();
 
@@ -137,13 +137,10 @@ const MockTestsStart: React.FC = () => {
 
         setPaper(paperData);
 
-        // Fetch questions with choices
+        // Fetch questions
         const { data: questionsData, error: questionsError } = await supabase
-          .from('mock_test_questions')
-          .select(`
-            *,
-            mock_test_choices (*)
-          `)
+          .from('questions')
+          .select('*')
           .eq('paper_id', paperData.id)
           .order('qnum');
 
@@ -157,21 +154,53 @@ const MockTestsStart: React.FC = () => {
         if (questionsData && questionsData.length > 0) {
           setQuestions(questionsData);
           
-          // Extract choices and answers from the Supabase response
+          // Fix current question index if it's out of bounds
+          if (currentQuestion >= questionsData.length) {
+            console.log(`Question index ${currentQuestion} is out of bounds. Resetting to 0.`);
+            setCurrentQuestion(0);
+            // Update URL to reflect the correct question
+            const params = new URLSearchParams(searchParams);
+            params.set('question', '0');
+            navigate(`/mock-tests/start?${params.toString()}`, { replace: true });
+          } else if (currentQuestion < 0) {
+            console.log(`Question index ${currentQuestion} is negative. Resetting to 0.`);
+            setCurrentQuestion(0);
+            // Update URL to reflect the correct question
+            const params = new URLSearchParams(searchParams);
+            params.set('question', '0');
+            navigate(`/mock-tests/start?${params.toString()}`, { replace: true });
+          }
+          
+          // Fetch choices and answers for each question
           const allChoices = [];
           const allAnswers = [];
           
-          questionsData.forEach(question => {
-            if (question.mock_test_choices) {
-              allChoices.push(...question.mock_test_choices);
+          for (const question of questionsData) {
+            // Fetch choices for this question
+            const { data: choicesData } = await supabase
+              .from('choices')
+              .select('*')
+              .eq('question_id', question.id)
+              .order('choice_label');
+            
+            if (choicesData) {
+              allChoices.push(...choicesData);
             }
-            if (question.correct_answer) {
+            
+            // Fetch correct answer for this question
+            const { data: answerData } = await supabase
+              .from('answers')
+              .select('correct_answer')
+              .eq('question_id', question.id)
+              .single();
+            
+            if (answerData) {
               allAnswers.push({
                 question_id: question.id,
-                correct_answer: question.correct_answer
+                correct_answer: answerData.correct_answer
               });
             }
-          });
+          }
           
           setChoices(allChoices);
           setAnswers(allAnswers);
@@ -495,8 +524,10 @@ const MockTestsStart: React.FC = () => {
     );
   }
 
-  const currentQ = questions[currentQuestion];
-  const currentChoices = currentQ?.choices || [];
+  // Safety check to ensure current question index is valid
+  const validQuestionIndex = currentQuestion >= 0 && currentQuestion < questions.length ? currentQuestion : 0;
+  const currentQ = questions[validQuestionIndex];
+  const currentChoices = choices.filter(choice => choice.question_id === currentQ?.id);
   const userAnswer = userAnswers.find(a => a.questionId === currentQ?.id);
 
   return (
@@ -507,7 +538,7 @@ const MockTestsStart: React.FC = () => {
           <div className="flex justify-between items-center">
             <div>
               <h1 className="text-2xl font-bold text-gray-900">{paper?.title}</h1>
-              <p className="text-gray-600">Question {currentQuestion + 1} of {questions.length}</p>
+              <p className="text-gray-600">Question {validQuestionIndex + 1} of {questions.length}</p>
             </div>
             <div className="text-right">
               <div className="text-2xl font-mono font-bold text-red-600">
