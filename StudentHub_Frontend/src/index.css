@@ -92,13 +92,22 @@ h2, .h2 {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
-
+.hero-grid {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.search_bar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 /* Hero section responsive grid */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .hero-grid {
     grid-template-columns: 1fr !important;
   }
-}
+} */
 
 /* Optional base styles (uncomment if needed)
 @layer base {

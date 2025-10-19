@@ -1,7 +1,6 @@
 // import { Search } from "lucide-react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-
 // Import SVG icons
 import ResultsIcon from "../../../assets/Results.svg";
 import NewsIcon from "../../../assets/news.svg";
@@ -43,7 +42,7 @@ const Hero = () => {
       <div className="max-w-6xl mx-auto w-full px-4 sm:px-5 lg:px-6">
         {/* 3-column grid layout with explicit column sizes */}
         <div 
-          className="hero-grid grid items-center gap-8 md:grid-cols-3 grid-cols-1"
+          className="hero-grid"
           style={{
             gridTemplateColumns: '0fr minmax(320px, 700px) 380px',
             minHeight: '400px'
@@ -53,7 +52,7 @@ const Hero = () => {
           <div className="hidden md:block" />
           
           {/* Center column: Title and Search */}
-          <div className="flex flex-col items-start text-left md:col-start-2 md:col-end-3">
+          <div className="search_bar flex flex-colx text-left md:col-start-2 md:col-end-3">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-normal text-white mb-6" style={{ fontFamily: 'Poppins, sans-serif' }}>
               Ask us!
             </h1>
@@ -81,7 +80,7 @@ const Hero = () => {
           <div className="flex justify-center md:justify-end mt-8 md:mt-0 md:col-start-3 md:col-end-4">
             <div 
               className="grid grid-cols-3 gap-2 sm:gap-3"
-              style={{ width: '100%', maxWidth: '380px' }}
+              style={{ width: '100%', maxWidth: '438px' }}
             >
               {menuItems.map((item) => {
                 return (
