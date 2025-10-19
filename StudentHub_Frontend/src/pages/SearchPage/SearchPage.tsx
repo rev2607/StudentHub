@@ -203,7 +203,7 @@ function SearchPage() {
       } else {
         // Bold markers
         const parts = [] as any[];
-        let rest = line;
+        const rest = line;
         let i = 0;
         const boldRegex = /\*\*(.+?)\*\*/g;
         let match;

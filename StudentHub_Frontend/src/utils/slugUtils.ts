@@ -36,7 +36,7 @@ export function getNewsSlug(title: string): string {
   // Remove common words that might make URLs too long
   const commonWords = ['the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for', 'of', 'with', 'by'];
   
-  let slug = title
+  const slug = title
     .toLowerCase()
     .trim()
     // Replace spaces and special characters with hyphens

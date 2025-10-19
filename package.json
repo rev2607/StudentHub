@@ -5,7 +5,8 @@
   "scripts": {
     "build": "cd StudentHub_Frontend && npm install && npm run build",
     "dev": "cd StudentHub_Frontend && npm run dev",
-    "install-deps": "cd StudentHub_Frontend && npm install"
+    "install-deps": "cd StudentHub_Frontend && npm install",
+    "start": "npm run dev"
   },
   "engines": {
     "node": ">=18.0.0"
