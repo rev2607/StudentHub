@@ -1,0 +1,230 @@
+Exam Name:  
+GITAM Admission Test (GITAM GAT) 2026  
+
+Conducting Authority:  
+GITAM (Gandhi Institute of Technology and Management) Deemed-to-be University  
+
+Exam Level:  
+University Level  
+
+Exam Category / Type:  
+Undergraduate and Postgraduate Admission Test for Engineering, Pharmacy, Architecture, and Management programs  
+
+Exam Frequency:  
+Once a year (conducted in multiple phases)  
+
+Languages Available:  
+English  
+
+Mode of Exam (Online/Offline):  
+Online (Computer-Based Test)  
+
+Duration:  
+2 hours (120 minutes)  
+
+Total Papers:  
+1 (different variants — UGTP for UG, PGTA for PG Tech/Architecture, and PGP for Pharmacy)  
+
+Number of Questions:  
+100 MCQs (UGTP); 100 MCQs divided by section for PGTA/PGP  
+
+Total Marks:  
+400 marks  
+
+Marking Scheme:  
+- +4 for each correct answer  
+- −1 for each incorrect answer  
+- No negative marks for unanswered questions  
+
+Participating Institutes:  
+All GITAM campuses — Bengaluru, Hyderabad, and Visakhapatnam (11 colleges in total).  
+
+***
+
+### About / Overview:
+GITAM GAT (Gandhi Institute of Technology and Management Admission Test) is a university-level entrance test conducted annually for admissions to undergraduate and postgraduate courses in disciplines such as Technology, Architecture, and Pharmacy offered at three campuses of GITAM University — Hyderabad, Visakhapatnam, and Bengaluru. The exam evaluates candidates’ proficiency in Physics, Chemistry, Mathematics/Biology, and English aptitude. The test is computer-based and is held in multiple phases each year, followed by counselling for qualified candidates.  
+
+***
+
+### Important Dates (Tentative 2026):
+- Notification Release: December 2025  
+- Application Form Start Date: January 2026  
+- Phase 1 Registration End: February 2026  
+- Phase 2 Registration End: April 2026  
+- Phase 3 Registration End: May 2026  
+- Slot Booking: 1 week before each respective phase exam (gat.gitam.edu portal)  
+- Admit Card Download: After slot booking, via login portal  
+- Exam Dates: Conducted in phases (Phase 1–8, spaced monthly)  
+- Result Announcement: Within 5 days of each phase  
+- Counselling Registration: July–August 2026  
+
+***
+
+### Eligibility Criteria:
+**Nationality:**  
+Indian nationals only.  
+
+**Educational Qualification:**  
+- For UG (UGTP): Must have passed 10+2 in 2023, 2024 or appearing in 2026.  
+- Subjects: Physics, Chemistry, and Mathematics mandatory (Biology accepted only for B.Tech Biotechnology / B.Pharmacy).  
+
+**Minimum Marks:**  
+- Candidates must have at least 60% aggregate marks (6 CGPA equivalent) in PCM/PCB group.  
+- CBSE/ICSE candidates require 55%.  
+
+**Specific Course Eligibility:**  
+- **B.Tech/B.Pharmacy:** 60% aggregate in PCM or PCB.
+- **B.Arch:** Must qualify JEE (Main) Paper-2 or NATA.  
+- **M.Tech (PGTA):** Must hold a recognized bachelor’s degree in engineering/architecture with 60% aggregate marks. GATE-qualified candidates exempted.  
+- **M.Pharm (PGP):** Bachelor’s degree in Pharmacy with minimum 50% aggregate or GPAT qualified.  
+
+***
+
+### Application Process:
+Steps to Apply:  
+1. Register online at [https://gat.gitam.edu](https://gat.gitam.edu) and create login ID.  
+2. Fill application form — personal, academic, and parental details.  
+3. Upload scanned photo and signature as per specifications.
+4. Pay the application fee: **₹1200 for one stream**, **₹2400 for two streams** (online or offline).  
+   - Online: Debit/Credit/Netbanking  
+   - Offline: DD in favor of “GITAM University,” payable at Visakhapatnam.  
+5. Note the application number and retain printed copy for reference.  
+
+**Documents Required:**  
+- 10th marksheet or DOB proof  
+- 12th marksheet or equivalent qualification  
+- Photo and signature files  
+- Category certificate (if applicable)  
+- DD copy for offline payment  
+
+***
+
+### Syllabus:
+**B.Tech / UGTP:**
+- Physics: Mechanics, Thermodynamics, Electromagnetism, Optics, Semiconductors, Modern Physics  
+- Chemistry: Physical, Organic, and Inorganic Chemistry, surface chemistry, and bonding  
+- Mathematics: Algebra, Calculus, Coordinate geometry, Vectors, 3D Geometry, Probability and Statistics  
+- Biology: Botany and Zoology (for Biomedical/Biotechnology aspirants)  
+
+**PGTA / PG Courses:**  
+- Quantitative Aptitude (40 questions)  
+- Verbal Ability (30 questions)  
+- Logical Reasoning (30 questions)  
+
+**PG Pharmacy:**  
+- Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and related topics (based on B.Pharm syllabus).  
+
+***
+
+### Exam Pattern:
+| Exam Variant | Duration | Sections | No. of Questions | Total Marks | Marking |  
+|---------------|-----------|-----------|------------------|-------------|----------|  
+| UGTP (UG) | 2 hours | Physics, Chemistry, Mathematics/Biology | 100 | 400 | +4/-1 |  
+| PGTA (PG Tech/Arch) | 2 hours | Quantitative, Verbal, Reasoning | 100 | 400 | +4/-1 |  
+| PGP (M.Pharm) | 2 hours | Core Pharmacy Subjects | 100 | 400 | +4/-1 |  
+
+**Mode:** Computer Based Test (CBT).  
+
+**Nature:** Objective type questions (MCQs).  
+
+***
+
+### Admit Card Details:
+- Released after slot booking via [gat.gitam.edu/login](https://gat.gitam.edu/login).  
+- Contains details like exam date, time, center, and personal info.  
+- Must be carried to exam hall along with government-issued photo ID.  
+
+**Slot Booking:**  
+- Candidates select exam date/time through online slot booking portal.  
+- If not booked by the candidate, allotment made automatically.  
+
+***
+
+### Result & Score Calculation:
+- Results announced within a few days of each phase online.  
+- Candidates log in via portal to download scorecard.  
+- Scorecard contains marks, rank, and sectional analysis.  
+
+**Tie-Breaking Rules:**  
+1. Higher marks in Mathematics/Biology considered.  
+2. If tie persists, higher Physics marks considered.  
+3. Then Chemistry.  
+4. Finally, older candidate ranked higher.  
+
+***
+
+### Cutoff (Expected 2026):
+Based on past phases:  
+- CSE (VSP campus): 175–200 marks  
+- ECE (Hyderabad): 140–160 marks  
+- ME/EEE: 120–140 marks  
+- B.Pharm: 100–130 marks  
+
+Cutoffs vary by phase, course demand, and campus location.
+
+***
+
+### Counselling Process:
+- Mode: Online.  
+- Registration through GITAM portal after results.  
+- Candidate fills choices for branches, campuses.  
+- Seat allotment based on merit rank, choice preferences, and seat availability.  
+- Allotted candidates pay course fee to confirm admission.  
+- Non-refundable counselling registration fee: **₹1000.**  
+
+**Counselling Centers:**  
+- GITAM School of Technology, Bengaluru  
+- GITAM School of Technology, Hyderabad  
+- GITAM Institute of Technology, Visakhapatnam  
+
+***
+
+### Reservation Criteria:
+- SC/ST/OBC (as per university norms)  
+- PwD reservation as per university rules.  
+- Women candidates eligible for certain merit-based scholarships.  
+
+***
+
+### Preparation Tips / Recommended Books:
+- Focus on NCERT syllabus for Physics, Chemistry, Math/Biology.  
+- Practice from books: RD Sharma (Maths), HC Verma (Physics), OP Tandon (Chemistry).  
+- Attempt sample questions from GITAM mock portal.  
+- Take simulated timed CBT-based tests frequently.  
+
+***
+
+### Changes / Highlights (2025-2026):
+- **Phase-wise system retained:** Multiple exam phases for better slot preference.  
+- **Slot booking mandatory.**  
+- Slight modifications in exam center lists and online interface.  
+- **Offline registration discontinued:** Only online through gat.gitam.edu.  
+
+***
+
+### FAQs:
+- **Q:** What is the application fee for GITAM GAT?  
+  **A:** ₹1200 for one group; ₹2400 for two test groups.  
+- **Q:** What is the exam duration?  
+  **A:** 2 hours.  
+- **Q:** Is there a negative marking?  
+  **A:** Yes, −1 mark per incorrect answer.  
+- **Q:** Are CBSE/ICSE students eligible?  
+  **A:** Yes, minimum 55% aggregate required.  
+- **Q:** What courses admit through GAT?  
+  **A:** B.Tech, B.Pharm, B.Arch, M.Tech, M.Arch, M.Pharm, and Dual Degree programs.  
+
+***
+
+### Official Contact Information:
+- Website: [https://gat.gitam.edu](https://gat.gitam.edu)  
+- Helpline: 0891-284050  
+- Address: Director - Admissions, GITAM Deemed to be University, Rushikonda, Visakhapatnam - 530045, Andhra Pradesh, India  
+
+***
+
+### Source URLs:
+- https://www.careers360.com/exams/gitam-gat  
+- https://gat.gitam.edu
+
+[1](https://www.careers360.com/exams/gitam-gat)
