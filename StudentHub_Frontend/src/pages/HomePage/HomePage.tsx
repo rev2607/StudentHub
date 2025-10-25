@@ -20,9 +20,9 @@ const HomePage = () => {
       <Hero />
       <NewsItemTop />
       <CourseColleges />
+      <Guidance />
       <TopColleges />
       <Information />
-      <Guidance />
       <TrendingCollegesPackages />
       <TrendingCourseMockTests />
       {/* Temporarily hidden per request */}
