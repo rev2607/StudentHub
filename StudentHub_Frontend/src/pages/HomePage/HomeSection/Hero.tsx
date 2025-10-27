@@ -39,96 +39,90 @@ const Hero = () => {
 
   return (
     <section className="relative hero_banner pt-16 sm:pt-24 pb-16 sm:pb-24 md:pb-40 min-h-[500px] sm:min-h-[600px] flex items-center">
-      <div className="max-w-6xl mx-auto w-full px-4 sm:px-5 lg:px-6">
-        {/* 3-column grid layout with explicit column sizes */}
-        <div 
-          className="hero-grid"
-          style={{
-            gridTemplateColumns: '0fr minmax(320px, 700px) 380px',
-            minHeight: '400px'
-          }}
-        >
-          {/* Left column: Flexible spacer - hidden on mobile */}
-          <div className="hidden md:block" />
-          
-          {/* Center column: Title and Search */}
-          <div className="search_bar flex flex-colx text-left md:col-start-2 md:col-end-3">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-normal text-white mb-6" style={{ fontFamily: 'Poppins, sans-serif' }}>
-              Ask us!
-            </h1>
-            <form
-              onSubmit={handleSearch}
-              className="w-full max-w-2xl flex bg-white rounded-full shadow-lg overflow-hidden"
-            >
-              <input
-                type="text"
-                className="flex-1 px-6 py-4 text-base text-gray-700 outline-none bg-transparent placeholder-gray-500"
-                placeholder="Search for Colleges, Exams, Results & More"
-                value={searchValue}
-                onChange={e => setSearchValue(e.target.value)}
-              />
-              <button
-                type="submit"
-                className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-8 py-4 text-base font-semibold rounded-full transition-colors duration-300"
-              >
-                Search
-              </button>
-            </form>
-          </div>
-          
-          {/* Right column: Icon Grid */}
-          <div className="flex justify-center md:justify-end mt-8 md:mt-0 md:col-start-3 md:col-end-4">
+      <div className="max-w-[1200px] mx-auto w-full px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-[auto_1fr] gap-6 lg:gap-8">
+          {/* Left column: Icon Grid - Fixed width */}
+          <div className="flex justify-center lg:justify-start order-2 lg:order-1">
             <div 
-              className="grid grid-cols-3 gap-2 sm:gap-3"
-              style={{ width: '100%', maxWidth: '438px' }}
+              className="grid grid-cols-3 gap-2 sm:gap-3 justify-items-center items-center"
             >
               {menuItems.map((item) => {
                 return (
                   <button
                     key={item.label}
                     onClick={() => item.path ? navigate(item.path) : navigate("/ask-us", { state: { query: item.label } })}
-                    className="flex flex-col items-center justify-center border border-[var(--site-green)] bg-transparent transition-all duration-300 shadow-sm p-0"
+                    className="group flex flex-col items-center justify-center border-2 border-white/30 hover:border-white bg-white/5 hover:bg-white/10 transition-all duration-300 shadow-lg hover:shadow-2xl backdrop-blur-sm"
                     style={{
-                      borderRadius: '8px',
+                      borderRadius: '12px',
                       width: '120px',
                       height: '120px',
                       minWidth: '120px',
                       minHeight: '120px',
                       maxWidth: '120px',
                       maxHeight: '120px',
-                      boxShadow: '0 2px 8px 0 rgba(0,0,0,0.04)',
                       padding: 0,
                     }}
                     onMouseOver={e => {
-                      const svg = e.currentTarget.querySelector('svg');
-                      if (svg) {
-                        e.currentTarget.style.boxShadow = '0 0 0 3px #8cc54255, 0 2px 16px 0 #8cc54233';
-                        svg.style.transform = 'scale(1.12)';
-                      }
+                      e.currentTarget.style.transform = 'translateY(-4px) scale(1.05)';
                     }}
                     onMouseOut={e => {
-                      const svg = e.currentTarget.querySelector('svg');
-                      if (svg) {
-                        e.currentTarget.style.boxShadow = '0 2px 8px 0 rgba(0,0,0,0.04)';
-                        svg.style.transform = 'scale(1)';
-                      }
+                      e.currentTarget.style.transform = 'translateY(0) scale(1)';
                     }}
                   >
                     <img 
                       src={item.icon} 
                       alt={item.label}
+                      className="transition-transform duration-300 group-hover:scale-110"
                       style={{ 
-                        width: '38px', 
-                        height: '38px', 
-                        transition: 'transform 0.2s', 
-                        marginTop: 0, 
-                        marginBottom: 0 
+                        width: '42px', 
+                        height: '42px',
+                        marginBottom: '8px'
                       }} 
                     />
-                    <span className="text-white text-sm sm:text-base font-normal text-center" style={{ marginTop: '4px', marginBottom: 0, whiteSpace: 'pre-line' }}>{item.label}</span>
+                    <span className="text-white text-xs sm:text-sm font-medium text-center leading-tight" style={{ whiteSpace: 'pre-line' }}>
+                      {item.label}
+                    </span>
                   </button>
                 );
               })}
+            </div>
+          </div>
+          
+          {/* Right column: Search Section */}
+          <div className="order-1 lg:order-2 mt-16 lg:mt-24">
+            <div className="flex flex-col items-start w-full">
+              <div className="relative w-full">
+                <h1 
+                  className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4" 
+                  style={{ 
+                    fontFamily: 'Poppins, sans-serif', 
+                    lineHeight: '1',
+                    position: 'relative',
+                    zIndex: 1
+                  }}
+                >
+                  Ask us!
+                </h1>
+                <form
+                  onSubmit={handleSearch}
+                  className="w-full max-w-4xl flex bg-white rounded-full shadow-xl overflow-hidden transition-all hover:shadow-2xl"
+                  style={{ position: 'relative', zIndex: 0 }}
+                >
+              <input
+                type="text"
+                className="flex-1 px-6 sm:px-8 py-4 sm:py-5 text-base sm:text-lg text-gray-700 outline-none bg-transparent placeholder-gray-400"
+                placeholder="Search for Colleges, Exams, Results & More"
+                value={searchValue}
+                onChange={e => setSearchValue(e.target.value)}
+              />
+              <button
+                type="submit"
+                className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-8 sm:px-10 py-4 sm:py-5 text-base sm:text-lg font-semibold rounded-full transition-all duration-300 whitespace-nowrap shadow-lg hover:shadow-xl transform hover:scale-105"
+              >
+                Search
+              </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>

@@ -93,21 +93,41 @@ h2, .h2 {
   border-bottom-left-radius: 20px;
 }
 .hero-grid {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  display: grid;
+  align-items: start;
 }
 .search_bar {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
+
 /* Hero section responsive grid */
-/* @media (max-width: 768px) {
+@media (max-width: 1024px) {
   .hero-grid {
     grid-template-columns: 1fr !important;
+    gap: 2rem !important;
   }
-} */
+  
+  .search_bar {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+  
+  .search_bar form {
+    width: 100% !important;
+  }
+  
+  .search_bar input {
+    min-width: 0 !important;
+  }
+}
 
 /* Optional base styles (uncomment if needed)
 @layer base {
