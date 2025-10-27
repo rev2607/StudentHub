@@ -18,7 +18,7 @@ const menuItems = [
   { icon: ExamsIcon, label: "Exams", path: "/exams" },
   { icon: EngineeringIcon, label: "Engineering", path: "/colleges" },
   { icon: MockTestsIcon, label: "Mock Tests", path: "/mock-tests" },
-  { icon: TrainingIcon, label: "Psychometric\ntest", path: "/psychometric-test" },
+  { icon: TrainingIcon, label: "Career Guidance\ntest", path: "/psychometric-test" },
   { icon: MBBSIcon, label: "MBBS", path: "/mbbs" },
   { icon: StudyAbroadIcon, label: "Study Abroad", path: "/study-abroad" },
   { icon: ReviewsIcon, label: "Reviews", path: "/reviews" },

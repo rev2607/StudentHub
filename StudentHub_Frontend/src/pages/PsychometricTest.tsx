@@ -1,15 +1,15 @@
 /*
-PSYCHOMETRIC TEST COMPONENT
-==========================
+CAREER GUIDANCE TEST COMPONENT
+===============================
 
 INSTRUCTIONS:
-1. This is a standalone React component for a psychometric test
+1. This is a standalone React component for a career guidance test
 2. File location: src/pages/PsychometricTest.tsx
 3. To use: Import and add to your routing system
 4. No backend required - all data stored in localStorage
 
 FEATURES:
-- Multi-dimensional psychometric assessment (Personality, Aptitude, Interest, EQ, Learning Style)
+- Multi-dimensional career guidance assessment (Personality, Aptitude, Interest, EQ, Learning Style)
 - 5 question types: single choice, multiple choice, likert scale, slider, text
 - Progress tracking and auto-save
 - Comprehensive scoring and reporting
@@ -286,7 +286,7 @@ const PsychometricTest: React.FC = () => {
 
   // Load saved progress on component mount
   useEffect(() => {
-    const savedState = localStorage.getItem('psychometricTestState');
+    const savedState = localStorage.getItem('careerGuidanceTestState');
     if (savedState) {
       try {
         const parsed = JSON.parse(savedState);
@@ -323,7 +323,7 @@ const PsychometricTest: React.FC = () => {
   // Auto-save progress
   useEffect(() => {
     if (saveProgress && testState.answers.length > 0) {
-      localStorage.setItem('psychometricTestState', JSON.stringify(testState));
+      localStorage.setItem('careerGuidanceTestState', JSON.stringify(testState));
     }
   }, [testState, saveProgress]);
 
@@ -603,8 +603,8 @@ const PsychometricTest: React.FC = () => {
 
   const deleteTestData = () => {
     if (confirm('Are you sure you want to delete all test data? This action cannot be undone.')) {
-      localStorage.removeItem('psychometricTestState');
-      localStorage.removeItem('psychometricTestShare');
+      localStorage.removeItem('careerGuidanceTestState');
+      localStorage.removeItem('careerGuidanceTestShare');
       setTestState({
         currentQuestionIndex: 0,
         answers: [],
@@ -648,7 +648,7 @@ const PsychometricTest: React.FC = () => {
                 </div>
               </div>
               <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
-                Psychometric Assessment
+                Career Guidance Assessment
               </h1>
               <p className="text-lg sm:text-xl text-blue-100">
                 Discover your personality traits, learning style, and career preferences
@@ -661,7 +661,7 @@ const PsychometricTest: React.FC = () => {
                 <div>
                   <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">About This Test</h2>
                   <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
-                    This comprehensive psychometric assessment evaluates multiple dimensions of your personality, 
+                    This comprehensive career guidance assessment evaluates multiple dimensions of your personality, 
                     cognitive style, interests, and emotional intelligence. The test includes {QUESTIONS.length} questions 
                     and takes approximately 15-20 minutes to complete.
                   </p>
@@ -746,7 +746,7 @@ const PsychometricTest: React.FC = () => {
                 </div>
               </div>
               <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
-                Your Psychometric Assessment Results
+                Your Career Guidance Assessment Results
               </h1>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-blue-100">
                 <div className="flex items-center gap-2">
@@ -1163,7 +1163,7 @@ const PsychometricTest: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-4">
             <div className="flex items-center gap-2">
               <Brain className="h-6 w-6 text-blue-600" />
-              <h1 className="text-lg sm:text-xl font-bold text-gray-900">Psychometric Assessment</h1>
+              <h1 className="text-lg sm:text-xl font-bold text-gray-900">Career Guidance Assessment</h1>
             </div>
             <div className="flex items-center gap-4">
               {!isPaused && (

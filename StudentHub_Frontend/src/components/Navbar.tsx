@@ -20,7 +20,7 @@ const Navbar = () => {
     { title: "Exams", path: "/exams" },
     { title: "Colleges", path: "/colleges" },
     { title: "Mock Tests", path: "/mock-tests" },
-    { title: "Psychometric test", path: "/psychometric-test" },
+    { title: "Career Guidance Test", path: "/psychometric-test" },
   ];
 
   // Check auth state on mount and subscribe to changes (non-blocking)
