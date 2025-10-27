@@ -48,18 +48,21 @@ const TrendingCollegesPackages = () => {
         <h2 className="text-2xl md:text-3xl font-bold text-center mb-10 text-[#22314A]">
           Trending Private Colleges With Highest Packages & Placements
         </h2>
-        <div className="flex flex-col gap-4">
+        <div className="relative">
+          {/* Central vertical line */}
+          <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-gray-300 transform -translate-x-1/2"></div>
+          
           {colleges.map((college, idx) => {
             const isEven = idx % 2 === 0;
             return (
               <div
                 key={college.rank}
-                className="grid grid-cols-1 md:grid-cols-[1fr_min-content_1fr] items-center gap-0 md:gap-4"
+                className="relative flex items-center mb-8 md:mb-12"
               >
-                {/* Left details (odd rows) */}
-                <div className={`hidden md:block ${isEven ? '' : ''} text-right`}>
-                  {!isEven && (
-                    <div>
+                {/* Left side content (odd numbers: 1, 3, 5, etc.) */}
+                {!isEven && (
+                  <div className="hidden md:flex w-full items-center">
+                    <div className="flex-1 text-right pr-8">
                       <h3 className="font-bold text-base md:text-lg mb-1 text-[#22314A]">{college.name}</h3>
                       <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">NIRF Ranking:</span> {college.nirf}</div>
                       <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">NAAC Grade:</span> {college.naac}</div>
@@ -67,22 +70,51 @@ const TrendingCollegesPackages = () => {
                       <div className="text-xs md:text-sm text-gray-700"><span className="font-semibold">Average Package:</span> {college.average}</div>
                       <div className="h-1 w-16 bg-[var(--site-green)] mt-2 ml-auto rounded" />
                     </div>
-                  )}
-                </div>
-                {/* Center: logo and number */}
-                <div className="flex flex-col items-center justify-center relative">
-                  <div
-                    className="flex items-center justify-center w-20 h-20 md:w-24 md:h-24 rounded-full bg-white border-4"
-                    style={{ borderColor: getGradientBorder(college.rank) }}
-                  >
-                    <img src={college.logo} alt="College Logo" className="w-14 h-14 md:w-16 md:h-16 rounded-full object-cover" />
+                    {/* Center: logo and number */}
+                    <div className="flex flex-col items-center justify-center relative z-10">
+                      <div
+                        className="flex items-center justify-center w-20 h-20 md:w-24 md:h-24 rounded-full bg-white border-4"
+                        style={{ borderColor: getGradientBorder(college.rank) }}
+                      >
+                        <img src={college.logo} alt="College Logo" className="w-14 h-14 md:w-16 md:h-16 rounded-full object-cover" />
+                      </div>
+                      <span className="absolute -bottom-5 left-1/2 -translate-x-1/2 px-4 py-2 rounded-full text-base font-extrabold shadow bg-white border-4 border-white z-20" style={{ background: getGradientBorder(college.rank), color: '#fff' }}>{college.rank}</span>
+                    </div>
+                    {/* Custom angular connecting line for left side */}
+                    <div className="flex-1 relative h-8 flex items-center">
+                      <div className="w-full h-8 relative">
+                        <div className="absolute top-1/2 left-0 w-1/5 h-1 bg-[#8AC442] transform -translate-y-1/2"></div>
+                        <div className="absolute top-1/2 left-1/5 w-1 h-1 bg-[#8AC442] transform -translate-y-1/2"></div>
+                        <div className="absolute top-1/2 left-1/5 w-3/5 h-1 bg-[#8AC442] transform -translate-y-1/2"></div>
+                        <div className="absolute top-1/2 left-4/5 w-1 h-2 bg-[#8AC442] transform -translate-y-1/2 rotate-45 origin-top"></div>
+                      </div>
+                    </div>
                   </div>
-                  <span className="absolute -bottom-5 left-1/2 -translate-x-1/2 px-4 py-2 rounded-full text-base font-extrabold shadow bg-white border-4 border-white z-20" style={{ background: getGradientBorder(college.rank), color: '#fff' }}>{college.rank}</span>
-                </div>
-                {/* Right details (even rows) */}
-                <div className={`hidden md:block ${isEven ? '' : ''} text-left`}>
-                  {isEven && (
-                    <div>
+                )}
+
+                {/* Right side content (even numbers: 2, 4, 6, etc.) */}
+                {isEven && (
+                  <div className="hidden md:flex w-full items-center">
+                    {/* Custom angular connecting line for right side */}
+                    <div className="flex-1 relative h-8 flex items-center">
+                      <div className="w-full h-8 relative">
+                        <div className="absolute top-1/2 right-0 w-1/5 h-1 bg-[#8AC442] transform -translate-y-1/2"></div>
+                        <div className="absolute top-1/2 right-1/5 w-1 h-1 bg-[#8AC442] transform -translate-y-1/2"></div>
+                        <div className="absolute top-1/2 right-1/5 w-3/5 h-1 bg-[#8AC442] transform -translate-y-1/2"></div>
+                        <div className="absolute top-1/2 right-4/5 w-1 h-2 bg-[#8AC442] transform -translate-y-1/2 -rotate-45 origin-top"></div>
+                      </div>
+                    </div>
+                    {/* Center: logo and number */}
+                    <div className="flex flex-col items-center justify-center relative z-10">
+                      <div
+                        className="flex items-center justify-center w-20 h-20 md:w-24 md:h-24 rounded-full bg-white border-4"
+                        style={{ borderColor: getGradientBorder(college.rank) }}
+                      >
+                        <img src={college.logo} alt="College Logo" className="w-14 h-14 md:w-16 md:h-16 rounded-full object-cover" />
+                      </div>
+                      <span className="absolute -bottom-5 left-1/2 -translate-x-1/2 px-4 py-2 rounded-full text-base font-extrabold shadow bg-white border-4 border-white z-20" style={{ background: getGradientBorder(college.rank), color: '#fff' }}>{college.rank}</span>
+                    </div>
+                    <div className="flex-1 text-left pl-8">
                       <h3 className="font-bold text-base md:text-lg mb-1 text-[#22314A]">{college.name}</h3>
                       <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">NIRF Ranking:</span> {college.nirf}</div>
                       <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">NAAC Grade:</span> {college.naac}</div>
@@ -90,15 +122,25 @@ const TrendingCollegesPackages = () => {
                       <div className="text-xs md:text-sm text-gray-700"><span className="font-semibold">Average Package:</span> {college.average}</div>
                       <div className="h-1 w-16 bg-[var(--site-green)] mt-2 rounded" />
                     </div>
-                  )}
-                </div>
+                  </div>
+                )}
+
                 {/* Mobile: always show details below icon */}
-                <div className="block md:hidden mt-6 text-center">
-                  <h3 className="font-bold text-base md:text-lg mb-1 text-[#22314A]">{college.name}</h3>
-                  <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">NIRF Ranking:</span> {college.nirf}</div>
-                  <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">NAAC Grade:</span> {college.naac}</div>
-                  <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">Highest Package:</span> {college.highest}</div>
-                  <div className="text-xs md:text-sm text-gray-700"><span className="font-semibold">Average Package:</span> {college.average}</div>
+                <div className="block md:hidden w-full text-center">
+                  <div className="flex flex-col items-center justify-center relative mb-6">
+                    <div
+                      className="flex items-center justify-center w-20 h-20 rounded-full bg-white border-4"
+                      style={{ borderColor: getGradientBorder(college.rank) }}
+                    >
+                      <img src={college.logo} alt="College Logo" className="w-14 h-14 rounded-full object-cover" />
+                    </div>
+                    <span className="absolute -bottom-5 left-1/2 -translate-x-1/2 px-4 py-2 rounded-full text-base font-extrabold shadow bg-white border-4 border-white z-20" style={{ background: getGradientBorder(college.rank), color: '#fff' }}>{college.rank}</span>
+                  </div>
+                  <h3 className="font-bold text-base mb-1 text-[#22314A]">{college.name}</h3>
+                  <div className="text-xs text-gray-700 mb-1"><span className="font-semibold">NIRF Ranking:</span> {college.nirf}</div>
+                  <div className="text-xs text-gray-700 mb-1"><span className="font-semibold">NAAC Grade:</span> {college.naac}</div>
+                  <div className="text-xs text-gray-700 mb-1"><span className="font-semibold">Highest Package:</span> {college.highest}</div>
+                  <div className="text-xs text-gray-700"><span className="font-semibold">Average Package:</span> {college.average}</div>
                   <div className="h-1 w-16 bg-[var(--site-green)] mt-2 mx-auto rounded" />
                 </div>
               </div>
