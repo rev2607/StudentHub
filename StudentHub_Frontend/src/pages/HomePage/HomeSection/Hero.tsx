@@ -89,7 +89,7 @@ const Hero = () => {
           </div>
           
           {/* Right column: Search Section */}
-          <div className="order-1 lg:order-2 mt-16 lg:mt-24">
+          <div className="order-1 lg:order-2 mt-0 lg:mt-24">
             <div className="flex flex-col items-start w-full">
               <div className="relative w-full">
                 <h1 
