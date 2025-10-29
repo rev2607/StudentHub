@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 
 import { navigateToSearchPage } from "../navigationToSearchPage";
+import { slugify } from "../../../features/news/news.utils";
 
 // interface
 import { tempData, CourseCollegeProps } from "../../../models/CourseCollegeProps";
@@ -87,7 +88,15 @@ const CourseColleges = () => {
             <div
               key={index}
               className={`bg-white rounded-lg shadow-md p-6 flex items-center justify-center text-center cursor-pointer transition border-l-8 ${index === 0 ? 'border-[var(--site-green)]' : 'border-transparent'}`}
-              onClick={() => navigateToSearchPage(navigate, item[filterTypes[selectedType].key] || item[filterTypes[selectedType].key_2] || item.Course || item["College Name"])}
+              onClick={() => {
+                const name = item[filterTypes[selectedType].key] || item.Course || item["College Name"];
+                if (name) {
+                  const slug = slugify(String(name));
+                  navigate(`/colleges/${slug}`);
+                } else {
+                  navigateToSearchPage(navigate, item[filterTypes[selectedType].key] || item[filterTypes[selectedType].key_2] || item.Course || item["College Name"]);
+                }
+              }}
             >
               <div>
                 <p className="text-lg font-bold text-gray-900 mb-1">

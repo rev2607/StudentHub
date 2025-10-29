@@ -1,4 +1,4 @@
-// import { TopCollegesData } from "../../../services/data";
+import { Link } from "react-router-dom";
 
 // Import individual college logos
 import iitMadrasLogo from "../../../../src/assets/Colleges/iit-madras-logo-png.png";
@@ -13,16 +13,16 @@ import nitTrichyLogo from "../../../../src/assets/Colleges/NITT_logo.png";
 import iitVaranasiLogo from "../../../../src/assets/Colleges/IIT_Varanasi.jpeg";
 
 const topCollegesData = [
-  { name: "IIT Madras",               highest_package: "₹1.5 Cr - 60 LPA",  median_package: "₹60 LPA", fee: "₹2,40,000 1st Year Fees", logo_url: iitMadrasLogo },
-  { name: "IIT Delhi",                highest_package: "₹2 Cr - 60 LPA",     median_package: "₹60 LPA", fee: "₹2,40,000 1st Year Fees", logo_url: iitDelhiLogo },
-  { name: "IIT Bombay",               highest_package: "₹1.8 Cr - 62 LPA",   median_package: "₹62 LPA", fee: "₹2,28,000 1st Year Fees", logo_url: iitBombayLogo },
-  { name: "IIT Kanpur",               highest_package: "₹1.2 Cr - 50 LPA",   median_package: "₹50 LPA", fee: "₹2,25,600 1st Year Fees", logo_url: iitKanpurLogo },
-  { name: "IIT Kharagpur",            highest_package: "₹1.8 Cr - 54 LPA",   median_package: "₹54 LPA", fee: "₹2,24,600 1st Year Fees", logo_url: iitKharagpurLogo },
-  { name: "IIT Roorkee",              highest_package: "₹2.15 Cr - 51 LPA",  median_package: "₹51 LPA", fee: "₹2,14,800 1st Year Fees", logo_url: iitRoorkeeLogo },
-  { name: "IIT Hyderabad",            highest_package: "₹1.2 Cr - 63 LPA",   median_package: "₹63 LPA", fee: "₹2,27,000 1st Year Fees", logo_url: iitHyderabadLogo },
-  { name: "IIT Guwahati",             highest_package: "₹1.2 Cr - 50 LPA",   median_package: "₹50 LPA", fee: "₹2,19,350 1st Year Fees", logo_url: iitGuwahatiLogo },
-  { name: "NIT Tiruchirappalli",      highest_package: "₹52 LPA - 44 LPA",   median_package: "₹44 LPA", fee: "₹1,61,200 1st Year Fees", logo_url: nitTrichyLogo },
-  { name: "IIT (BHU) Varanasi",       highest_package: "₹1.2 Cr - 45 LPA",   median_package: "₹45 LPA", fee: "₹2,32,800 1st Year Fees", logo_url: iitVaranasiLogo },
+  { name: "IIT Madras",               slug: "iit-madras",               highest_package: "₹1.5 Cr - 60 LPA",  median_package: "₹60 LPA", fee: "₹2,40,000 1st Year Fees", logo_url: iitMadrasLogo },
+  { name: "IIT Delhi",                slug: "iit-delhi",                highest_package: "₹2 Cr - 60 LPA",     median_package: "₹60 LPA", fee: "₹2,40,000 1st Year Fees", logo_url: iitDelhiLogo },
+  { name: "IIT Bombay",               slug: "iit-bombay",                highest_package: "₹1.8 Cr - 62 LPA",   median_package: "₹62 LPA", fee: "₹2,28,000 1st Year Fees", logo_url: iitBombayLogo },
+  { name: "IIT Kanpur",               slug: "iit-kanpur",               highest_package: "₹1.2 Cr - 50 LPA",   median_package: "₹50 LPA", fee: "₹2,25,600 1st Year Fees", logo_url: iitKanpurLogo },
+  { name: "IIT Kharagpur",            slug: "iit-kharagpur",             highest_package: "₹1.8 Cr - 54 LPA",   median_package: "₹54 LPA", fee: "₹2,24,600 1st Year Fees", logo_url: iitKharagpurLogo },
+  { name: "IIT Roorkee",              slug: "iit-roorkee",               highest_package: "₹2.15 Cr - 51 LPA",  median_package: "₹51 LPA", fee: "₹2,14,800 1st Year Fees", logo_url: iitRoorkeeLogo },
+  { name: "IIT Hyderabad",            slug: "iit-hyderabad",             highest_package: "₹1.2 Cr - 63 LPA",   median_package: "₹63 LPA", fee: "₹2,27,000 1st Year Fees", logo_url: iitHyderabadLogo },
+  { name: "IIT Guwahati",             slug: "iit-guwahati",              highest_package: "₹1.2 Cr - 50 LPA",   median_package: "₹50 LPA", fee: "₹2,19,350 1st Year Fees", logo_url: iitGuwahatiLogo },
+  { name: "NIT Tiruchirappalli",      slug: "nit-trichy",                highest_package: "₹52 LPA - 44 LPA",   median_package: "₹44 LPA", fee: "₹1,61,200 1st Year Fees", logo_url: nitTrichyLogo },
+  { name: "IIT (BHU) Varanasi",       slug: "iit-bhu-varanasi",         highest_package: "₹1.2 Cr - 45 LPA",   median_package: "₹45 LPA", fee: "₹2,32,800 1st Year Fees", logo_url: iitVaranasiLogo },
 ];
 
 const TopColleges = () => {
@@ -52,7 +52,12 @@ const TopColleges = () => {
                   </td>
                   <td className="px-3 sm:px-4 py-3 flex items-center text-sm sm:text-base">
                     <img src={college.logo_url} alt="Logo" className="w-8 h-8 sm:w-10 sm:h-10 mr-2 sm:mr-4 rounded-full" />
-                    <span className="truncate">{college.name}</span>
+                    <Link 
+                      to={`/colleges/${college.slug}`}
+                      className="truncate hover:text-[var(--site-green)] transition-colors duration-200 cursor-pointer"
+                    >
+                      {college.name}
+                    </Link>
                   </td>
                   <td className="px-3 sm:px-4 py-3 text-center text-sm sm:text-base">{college.highest_package}</td>
                   <td className="px-3 sm:px-4 py-3 text-center text-sm sm:text-base">{college.median_package}</td>

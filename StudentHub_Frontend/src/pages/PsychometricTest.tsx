@@ -39,7 +39,12 @@ import {
   Award,
   Star,
   Zap,
-  Calendar
+  Calendar,
+  Search,
+  Sparkles,
+  Briefcase,
+  Lightbulb,
+  Shield
 } from 'lucide-react';
 
 // Sample question bank - in production, this would come from the XLSX file
@@ -648,7 +653,7 @@ const PsychometricTest: React.FC = () => {
                 </div>
               </div>
               <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
-                Career Guidance Assessment
+                Career Guidance Test
               </h1>
               <p className="text-lg sm:text-xl text-blue-100">
                 Discover your personality traits, learning style, and career preferences
@@ -656,49 +661,304 @@ const PsychometricTest: React.FC = () => {
             </div>
             
             <div className="p-6 sm:p-8">
-
-              <div className="space-y-8">
+              <div className="space-y-12">
+                {/* What is our career guidance test */}
                 <div>
-                  <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">About This Test</h2>
+                  <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">What is our Career Guidance Test?</h2>
+                  <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-4">
+                    Our Career Guidance Test is a scientifically designed assessment that analyzes your unique combination of 
+                    personality traits, cognitive abilities, interests, and emotional intelligence. By evaluating these key 
+                    dimensions, we map career options that align with your natural strengths and preferences. The comprehensive 
+                    report you'll receive includes personalized career recommendations and actionable insights to help you make 
+                    informed decisions about your future.
+                  </p>
                   <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
-                    This comprehensive career guidance assessment evaluates multiple dimensions of your personality, 
-                    cognitive style, interests, and emotional intelligence. The test includes {QUESTIONS.length} questions 
-                    and takes approximately 15-20 minutes to complete.
+                    Whether you're exploring career options or have already chosen a path, this test validates your decisions and 
+                    boosts your confidence by providing data-driven insights into what suits you best.
+                  </p>
+                </div>
+
+                {/* Why do you need a career guidance test */}
+                <div>
+                  <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Why do you need a Career Guidance Test?</h2>
+                  <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-4">
+                    Choosing the right career path is one of the most important decisions you'll make. It shapes your future, 
+                    influences your happiness, and determines your professional success. With countless career options available, 
+                    making the right choice can feel overwhelming and uncertain.
+                  </p>
+                  <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-4">
+                    <div className="flex items-start gap-4">
+                      <div className="text-4xl font-bold text-blue-600">87%</div>
+                      <div>
+                        <p className="text-blue-900 font-semibold text-base sm:text-lg mb-2">
+                          of students feel uncertain about their career path
+                        </p>
+                        <p className="text-blue-700 text-sm">
+                          Studies show that most students know about only a handful of career options, while there are hundreds 
+                          of fulfilling paths available. Our test opens doors to possibilities you may never have considered.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
+                    Take this assessment to gain clarity on who you are, what you excel at, and which career paths will bring 
+                    you both success and satisfaction. Get customized recommendations tailored specifically to your profile.
                   </p>
                 </div>
                 
+                {/* Reasons to choose career guidance test */}
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">What We Measure:</h3>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div className="bg-blue-50 rounded-xl p-4 border border-blue-200">
-                      <h4 className="font-bold text-blue-800 mb-2">Personality</h4>
-                      <p className="text-blue-700 text-sm">Extraversion, Conscientiousness, Openness to Experience</p>
+                  <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">Reasons to Choose Our Career Guidance Test</h2>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="bg-white border-2 border-blue-200 rounded-xl p-5 hover:shadow-lg transition-shadow">
+                      <div className="flex items-start gap-4">
+                        <div className="bg-blue-100 p-3 rounded-lg flex-shrink-0">
+                          <Search className="w-6 h-6 text-blue-600" />
                     </div>
-                    <div className="bg-green-50 rounded-xl p-4 border border-green-200">
-                      <h4 className="font-bold text-green-800 mb-2">Aptitude</h4>
-                      <p className="text-green-700 text-sm">Analytical thinking, Problem-solving approach</p>
+                        <div>
+                          <h3 className="font-bold text-gray-900 mb-2">Evidence-Based Assessment</h3>
+                          <p className="text-gray-700 text-sm">
+                            Built on established psychometric principles and research-backed methodologies to ensure accurate and reliable results.
+                          </p>
                     </div>
-                    <div className="bg-purple-50 rounded-xl p-4 border border-purple-200">
-                      <h4 className="font-bold text-purple-800 mb-2">Interests</h4>
-                      <p className="text-purple-700 text-sm">Work environment preferences, Technology comfort</p>
                     </div>
-                    <div className="bg-orange-50 rounded-xl p-4 border border-orange-200">
-                      <h4 className="font-bold text-orange-800 mb-2">Emotional Intelligence</h4>
-                      <p className="text-orange-700 text-sm">Empathy, Self-regulation, Stress management</p>
+                    </div>
+
+                    <div className="bg-white border-2 border-green-200 rounded-xl p-5 hover:shadow-lg transition-shadow">
+                      <div className="flex items-start gap-4">
+                        <div className="bg-green-100 p-3 rounded-lg flex-shrink-0">
+                          <Sparkles className="w-6 h-6 text-green-600" />
+                        </div>
+                        <div>
+                          <h3 className="font-bold text-gray-900 mb-2">Deep Personality & Strength Analysis</h3>
+                          <p className="text-gray-700 text-sm">
+                            Comprehensive evaluation of your personality traits, cognitive strengths, and work preferences for complete self-understanding.
+                          </p>
+                        </div>
+                  </div>
+                </div>
+
+                    <div className="bg-white border-2 border-purple-200 rounded-xl p-5 hover:shadow-lg transition-shadow">
+                      <div className="flex items-start gap-4">
+                        <div className="bg-purple-100 p-3 rounded-lg flex-shrink-0">
+                          <Target className="w-6 h-6 text-purple-600" />
+                        </div>
+                <div>
+                          <h3 className="font-bold text-gray-900 mb-2">Personalized Career Recommendations</h3>
+                          <p className="text-gray-700 text-sm">
+                            Receive career suggestions specifically matched to your unique profile, helping you discover paths you may not have considered.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="bg-white border-2 border-orange-200 rounded-xl p-5 hover:shadow-lg transition-shadow">
+                      <div className="flex items-start gap-4">
+                        <div className="bg-orange-100 p-3 rounded-lg flex-shrink-0">
+                          <BarChart3 className="w-6 h-6 text-orange-600" />
+                        </div>
+                        <div>
+                          <h3 className="font-bold text-gray-900 mb-2">Detailed Career Insights</h3>
+                          <p className="text-gray-700 text-sm">
+                            Gain in-depth insights into various career aspects, work environments, skill requirements, and growth opportunities.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="bg-white border-2 border-indigo-200 rounded-xl p-5 hover:shadow-lg transition-shadow">
+                      <div className="flex items-start gap-4">
+                        <div className="bg-indigo-100 p-3 rounded-lg flex-shrink-0">
+                          <Shield className="w-6 h-6 text-indigo-600" />
+                        </div>
+                        <div>
+                          <h3 className="font-bold text-gray-900 mb-2">100% Privacy Protected</h3>
+                          <p className="text-gray-700 text-sm">
+                            Your data stays completely private. All information is stored locally in your browser, and you can delete it anytime.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="bg-white border-2 border-teal-200 rounded-xl p-5 hover:shadow-lg transition-shadow">
+                      <div className="flex items-start gap-4">
+                        <div className="bg-teal-100 p-3 rounded-lg flex-shrink-0">
+                          <Lightbulb className="w-6 h-6 text-teal-600" />
+                        </div>
+                        <div>
+                          <h3 className="font-bold text-gray-900 mb-2">Actionable Development Tips</h3>
+                          <p className="text-gray-700 text-sm">
+                            Beyond career suggestions, get practical tips and strategies to develop areas that will enhance your professional growth.
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
 
+                {/* Structure and categories of the test */}
                 <div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4">Privacy & Data:</h3>
+                  <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Structure and Categories of the Test</h2>
+                  <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-6">
+                    To provide you with accurate and personalized recommendations, we need to understand you comprehensively. 
+                    Our assessment evaluates multiple dimensions that together create a complete picture of your professional profile.
+                  </p>
+                  
+                  <div className="flex flex-wrap gap-3 mb-8">
+                    <div className="bg-blue-50 border-2 border-blue-300 rounded-lg px-6 py-3">
+                      <span className="text-blue-900 font-bold text-lg">{QUESTIONS.length} Questions</span>
+                    </div>
+                    <div className="bg-green-50 border-2 border-green-300 rounded-lg px-6 py-3">
+                      <span className="text-green-900 font-bold text-lg">15-20 Minutes</span>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6 border border-blue-200">
+                      <div className="flex items-center gap-3 mb-3">
+                        <div className="bg-blue-500 p-2 rounded-lg">
+                          <Heart className="w-5 h-5 text-white" />
+                        </div>
+                        <h3 className="font-bold text-gray-900">Personality</h3>
+                      </div>
+                      <p className="text-gray-700 text-sm leading-relaxed">
+                        Evaluates core personality traits including Extraversion, Conscientiousness, and Openness to Experience using 
+                        established frameworks to understand your natural behavioral patterns.
+                      </p>
+                    </div>
+
+                    <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6 border border-green-200">
+                      <div className="flex items-center gap-3 mb-3">
+                        <div className="bg-green-500 p-2 rounded-lg">
+                          <Brain className="w-5 h-5 text-white" />
+                        </div>
+                        <h3 className="font-bold text-gray-900">Aptitude</h3>
+                      </div>
+                      <p className="text-gray-700 text-sm leading-relaxed">
+                        Tests your cognitive abilities and problem-solving approaches to identify analytical thinking skills and 
+                        approaches that drive effective performance in various career contexts.
+                      </p>
+                    </div>
+
+                    <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6 border border-purple-200">
+                      <div className="flex items-center gap-3 mb-3">
+                        <div className="bg-purple-500 p-2 rounded-lg">
+                          <Star className="w-5 h-5 text-white" />
+                        </div>
+                        <h3 className="font-bold text-gray-900">Interests</h3>
+                      </div>
+                      <p className="text-gray-700 text-sm leading-relaxed">
+                        Assesses your work environment preferences, technology comfort level, and activity preferences to match 
+                        you with careers that align with what genuinely engages you.
+                      </p>
+                    </div>
+
+                    <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-xl p-6 border border-orange-200">
+                      <div className="flex items-center gap-3 mb-3">
+                        <div className="bg-orange-500 p-2 rounded-lg">
+                          <Briefcase className="w-5 h-5 text-white" />
+                        </div>
+                        <h3 className="font-bold text-gray-900">Work Values</h3>
+                      </div>
+                      <p className="text-gray-700 text-sm leading-relaxed">
+                        Analyzes your relationship with work environments and identifies values such as autonomy, security, 
+                        creativity, and impact that drive job satisfaction and fulfillment.
+                      </p>
+                    </div>
+
+                    <div className="bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-xl p-6 border border-indigo-200">
+                      <div className="flex items-center gap-3 mb-3">
+                        <div className="bg-indigo-500 p-2 rounded-lg">
+                          <Zap className="w-5 h-5 text-white" />
+                        </div>
+                        <h3 className="font-bold text-gray-900">Skills Preference</h3>
+                      </div>
+                      <p className="text-gray-700 text-sm leading-relaxed">
+                        Highlights your preferences for different types of skills and competencies, helping identify areas where 
+                        you naturally excel and areas with growth potential.
+                      </p>
+                    </div>
+
+                    <div className="bg-gradient-to-br from-teal-50 to-teal-100 rounded-xl p-6 border border-teal-200">
+                      <div className="flex items-center gap-3 mb-3">
+                        <div className="bg-teal-500 p-2 rounded-lg">
+                          <BookOpen className="w-5 h-5 text-white" />
+                        </div>
+                        <h3 className="font-bold text-gray-900">Learning Style</h3>
+                      </div>
+                      <p className="text-gray-700 text-sm leading-relaxed">
+                        Matches your preferred learning methods and information processing styles to educational paths and 
+                        career environments that support effective skill development.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Steps to take the test */}
+                <div>
+                  <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">How to Take the Test</h2>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="flex items-start gap-4">
+                      <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold flex-shrink-0">
+                        1
+                      </div>
+                      <div>
+                        <h3 className="font-semibold text-gray-900 mb-1">Click Start Assessment</h3>
+                        <p className="text-gray-700 text-sm">
+                          Begin by clicking the "Start Assessment" button below. No registration required - start immediately.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start gap-4">
+                      <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold flex-shrink-0">
+                        2
+                      </div>
+                      <div>
+                        <h3 className="font-semibold text-gray-900 mb-1">Answer Questions</h3>
+                        <p className="text-gray-700 text-sm">
+                          Progress through {QUESTIONS.length} thoughtfully designed questions at your own pace. Your progress is auto-saved.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start gap-4">
+                      <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold flex-shrink-0">
+                        3
+                      </div>
+                      <div>
+                        <h3 className="font-semibold text-gray-900 mb-1">Get Your Results</h3>
+                        <p className="text-gray-700 text-sm">
+                          Upon completion, receive comprehensive results with detailed analysis of all dimensions measured.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start gap-4">
+                      <div className="bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold flex-shrink-0">
+                        4
+                      </div>
+                      <div>
+                        <h3 className="font-semibold text-gray-900 mb-1">Explore Recommendations</h3>
+                        <p className="text-gray-700 text-sm">
+                          Review personalized career suggestions, development tips, and insights tailored to your unique profile.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Privacy & Data */}
+                <div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4">Privacy & Data Protection</h3>
                   <div className="bg-gradient-to-r from-green-50 to-blue-50 border border-green-200 rounded-xl p-6">
                     <div className="flex items-center gap-3">
                       <div className="bg-green-500 p-2 rounded-lg">
-                        <span className="text-white text-lg">🔒</span>
+                        <Shield className="w-6 h-6 text-white" />
                       </div>
                       <p className="text-green-800 font-medium text-base sm:text-lg">
-                        Your privacy is protected: No data leaves your browser. Everything is stored locally 
-                        and can be deleted at any time.
+                        Your privacy is our priority. All data is stored locally in your browser only. Nothing is sent to any server. 
+                        You have complete control and can delete your data at any time.
                       </p>
                     </div>
                   </div>
@@ -746,7 +1006,7 @@ const PsychometricTest: React.FC = () => {
                 </div>
               </div>
               <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
-                Your Career Guidance Assessment Results
+                Your Career Guidance Test Results
               </h1>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-blue-100">
                 <div className="flex items-center gap-2">
@@ -1163,7 +1423,7 @@ const PsychometricTest: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-4">
             <div className="flex items-center gap-2">
               <Brain className="h-6 w-6 text-blue-600" />
-              <h1 className="text-lg sm:text-xl font-bold text-gray-900">Career Guidance Assessment</h1>
+              <h1 className="text-lg sm:text-xl font-bold text-gray-900">Career Guidance Test</h1>
             </div>
             <div className="flex items-center gap-4">
               {!isPaused && (

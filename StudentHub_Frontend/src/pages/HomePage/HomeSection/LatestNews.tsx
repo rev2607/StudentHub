@@ -9,10 +9,10 @@ import { fetchNewsFromSupabase } from "../../../services/supabaseClient";
 // const customGray = "#f4f4f4";
 
 const CalendarIcon = () => (
-  <svg className="mr-2" width="16" height="16" fill="none" viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="#8cc542"/><path d="M7 11h10M7 15h6" stroke="#fff" strokeWidth="2" strokeLinecap="round"/><rect x="3" y="5" width="18" height="16" rx="3" stroke="#fff" strokeWidth="2"/></svg>
+  <svg className="mr-1" width="12" height="12" fill="none" viewBox="0 0 24 24"><rect width="24" height="24" rx="6" fill="#8cc542"/><path d="M7 11h10M7 15h6" stroke="#fff" strokeWidth="2" strokeLinecap="round"/><rect x="3" y="5" width="18" height="16" rx="3" stroke="#fff" strokeWidth="2"/></svg>
 );
 const UserIcon = () => (
-  <svg className="ml-4 mr-2" width="16" height="16" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" stroke="#8cc542" strokeWidth="2"/><path d="M4 20c0-2.21 3.582-4 8-4s8 1.79 8 4" stroke="#8cc542" strokeWidth="2"/></svg>
+  <svg className="ml-3 mr-1" width="12" height="12" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" stroke="#8cc542" strokeWidth="2"/><path d="M4 20c0-2.21 3.582-4 8-4s8 1.79 8 4" stroke="#8cc542" strokeWidth="2"/></svg>
 );
 // const ArrowRight = () => (
 //   <svg
@@ -32,8 +32,8 @@ const UserIcon = () => (
 //   </svg>
 // );
 const ArrowRightCircle = () => (
-  <span className="ml-2 bg-white rounded-full flex items-center justify-center" style={{ width: 28, height: 28 }}>
-    <svg width="18" height="18" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#8cc542"/><path d="M10 8l4 4-4 4" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
+  <span className="ml-2 bg-white rounded-full flex items-center justify-center" style={{ width: 20, height: 20 }}>
+    <svg width="14" height="14" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#8cc542"/><path d="M10 8l4 4-4 4" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
   </span>
 );
 
@@ -109,42 +109,39 @@ const LatestNews = () => {
   }, []);
 
   return (
-    <section className="bg-white px-4 sm:px-6 py-12 sm:py-16">
+    <section className="bg-white px-4 sm:px-6 py-6 sm:py-8">
       <div className="container mx-auto">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-6 sm:mb-8">
-          <h1 className="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4 sm:mb-0">Latest News and Notifications</h1>
-          <button className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-6 sm:px-8 py-2 rounded-full text-base sm:text-lg font-light flex items-center justify-center transition w-full sm:w-auto">
-            Explore All
-            <ArrowRightCircle />
-          </button>
+        <div className="flex items-center justify-between mb-4 sm:mb-5">
+          <h1 className="text-lg sm:text-xl font-semibold text-gray-800">Latest News</h1>
+          <button className="text-[var(--site-green)] hover:underline text-sm sm:text-base" onClick={() => navigate('/news')}>View all</button>
         </div>
         {/* Removed filter chips (Exam Alerts, College Alerts, Admission Alerts) */}
         
         {loading && (
-          <div className="text-center py-8">
+          <div className="text-center py-6">
             <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-[var(--site-green)]"></div>
-            <p className="mt-2 text-gray-600">Loading latest news...</p>
+            <p className="mt-2 text-gray-600 text-sm">Loading latest news...</p>
           </div>
         )}
         
         {error && (
-          <div className="text-center py-8 text-red-500">
-            <p>{error}</p>
-            <p className="text-sm text-gray-500 mt-1">Showing cached news instead</p>
+          <div className="text-center py-6 text-red-500">
+            <p className="text-sm">{error}</p>
+            <p className="text-xs text-gray-500 mt-1">Showing cached news instead</p>
           </div>
         )}
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
           {data.map((article) => (
             <div 
               key={article.id} 
-              className="rounded-lg overflow-hidden shadow-md cursor-pointer hover:shadow-lg transition-shadow duration-300" 
+              className="rounded-lg overflow-hidden border border-gray-200 bg-white cursor-pointer hover:shadow-sm transition-shadow duration-200" 
               style={{background: 'var(--color-site-gray)'}}
               onClick={() => navigateToNewsPage(navigate, article.readMoreUrl, article.title)}
             >
               <img 
                 alt="News" 
-                className="w-full h-40 sm:h-48 object-cover rounded-t-lg" 
+                className="w-full h-24 sm:h-28 object-cover rounded-t-lg" 
                 height="400" 
                 src={article.imgSrc || '/default-news.jpg'} 
                 width="600"
@@ -155,18 +152,12 @@ const LatestNews = () => {
                   target.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO1oZqUAAAAASUVORK5CYII=';
                 }}
               />
-              <div className="p-4 sm:p-6">
-                <div className="flex items-center text-xs sm:text-sm text-gray-500 mb-2">
+              <div className="p-3 sm:p-3">
+                <div className="flex items-center text-[10px] sm:text-xs text-gray-500 mb-1.5">
                   <CalendarIcon />
                   <span className="ml-1">{article.date}</span>
-                  <UserIcon />
-                  <span className="ml-1">{article.author}</span>
                 </div>
-                <h2 className="text-base sm:text-lg font-bold text-gray-800 mb-4">{article.title}</h2>
-                        <button className="bg-[var(--site-green)] hover:bg-[#7bb53a] text-white px-4 sm:px-6 py-2 rounded-full flex items-center justify-center font-light transition w-full sm:w-auto" onClick={() => navigateToNewsPage(navigate, article.readMoreUrl, article.title)}>
-                          Read More
-                          <ArrowRightCircle />
-                        </button>
+                <h2 className="text-sm sm:text-sm font-semibold text-gray-900 line-clamp-2">{article.title}</h2>
               </div>
             </div>
           ))}
