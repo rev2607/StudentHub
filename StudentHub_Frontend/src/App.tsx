@@ -26,10 +26,10 @@ import VITEEEPage from "./pages/Exams/VITEEEPage";
 import APEAMCETPage from "./pages/Exams/APEAMCETPage";
 import TSEAMCETPage from "./pages/Exams/TSEAMCETPage";
 import TGSEAMCETPage from "./pages/Exams/TGSEAMCETPage";
-import AMRUTHPage from "./pages/Exams/AMRUTHPage";
 import SRMJEEEPage from "./pages/Exams/SRMJEEEPage";
-import KHLUPage from "./pages/Exams/KHLUPage";
 import GITAMPage from "./pages/Exams/GITAMPage";
+import KLUPage from "./pages/Exams/KLUPage";
+import METPage from "./pages/Exams/METPage";
 import ExamDetailPage from "./pages/Exams/ExamDetailPage";
 import ResultsPage from "./pages/Results/ResultsPage";
 import AskUsPage from "./pages/AskUsPage/AskUsPage";
@@ -65,10 +65,10 @@ function App() {
             <Route path="/exams/tseamcet" element={<TSEAMCETPage />} />
             <Route path="/exams/eamcet" element={<TSEAMCETPage />} />
             <Route path="/exams/tgseamcet" element={<TGSEAMCETPage />} />
-            <Route path="/exams/amruth" element={<AMRUTHPage />} />
             <Route path="/exams/srm-jeee" element={<SRMJEEEPage />} />
-            <Route path="/exams/khlu" element={<KHLUPage />} />
             <Route path="/exams/gitam" element={<GITAMPage />} />
+            <Route path="/exams/klu" element={<KLUPage />} />
+            <Route path="/exams/met" element={<METPage />} />
             <Route path="/exams/:slug" element={<ExamDetailPage />} />
             <Route path="/results" element={<ResultsPage />} />
             <Route path="/colleges" element={<CollegesListPage />} />

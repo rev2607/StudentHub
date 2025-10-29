@@ -282,28 +282,28 @@ export const examsList: ExamSummary[] = [
       "Andhra Pradesh Engineering, Agriculture and Medical Common Entrance Test for state admissions.",
   },
   {
-    slug: "amruth",
-    name: "AMRUTH",
-    shortIntro:
-      "All India Medical Research Undergraduate Test conducted by AIIMS for medical admissions.",
-  },
-  {
     slug: "srm-jeee",
     name: "SRM JEEE",
     shortIntro:
       "SRM Joint Engineering Entrance Examination for admission to SRM University campuses.",
   },
   {
-    slug: "khlu",
-    name: "KHLU",
-    shortIntro:
-      "Karnataka Health and Life Sciences University entrance exam for medical programs.",
-  },
-  {
     slug: "gitam",
     name: "GITAM",
     shortIntro:
       "Gandhi Institute of Technology and Management entrance exam for engineering programs.",
+  },
+  {
+    slug: "klu",
+    name: "KLEEE",
+    shortIntro:
+      "KL Engineering Entrance Examination for admission to KL University B.Tech programs in Andhra Pradesh.",
+  },
+  {
+    slug: "met",
+    name: "MET",
+    shortIntro:
+      "Manipal Entrance Test for admission to Manipal Institute of Technology and other MAHE B.Tech programs in Karnataka.",
   },
 ];
 
@@ -1631,119 +1631,6 @@ export const examsDetails: Record<string, ExamDetail> = {
       { label: "Counselling", url: "https://cets.apsche.ap.gov.in/counselling" },
     ],
   },
-  "amruth": {
-    slug: "amruth",
-    name: "AMRUTH",
-    shortName: "AMRUTH",
-    fullName: "All India Medical Research Undergraduate Test",
-    conductingBody: "All India Institute of Medical Sciences (AIIMS)",
-    frequency: "Once a year",
-    level: "National",
-    language: "English and Hindi",
-    applicationFee: { general: 1500, obc: 1200, sc: 800, st: 800, pwd: 800, currency: "INR" },
-    durationMinutes: 210,
-    modeOfApplication: "Online",
-    modeOfExam: "Computer-Based Test (CBT)",
-    participatingColleges: 50,
-    introduction:
-      "AMRUTH (All India Medical Research Undergraduate Test) is a national-level medical entrance examination conducted by AIIMS for admission to undergraduate medical programs. The exam tests candidates' knowledge in Physics, Chemistry, and Biology at the 10+2 level.",
-    eligibility: [
-      "Minimum 17 years, Maximum 25 years (relaxation for reserved categories)",
-      "10+2 with Physics, Chemistry, Biology",
-      "Minimum 50% aggregate in PCB (40% for reserved categories)",
-      "Indian nationals only",
-    ],
-    applicationProcedure: [
-      "Register on official AMRUTH portal",
-      "Fill detailed application form",
-      "Upload required documents",
-      "Pay application fee online",
-      "Download admit card when available",
-    ],
-    importantDates: [
-      { label: "Notification Release", date: "December 2025" },
-      { label: "Registration Opens", date: "January 2026" },
-      { label: "Registration Closes", date: "February 2026" },
-      { label: "Admit Card Release", date: "March 2026" },
-      { label: "Exam Date", date: "April 2026" },
-      { label: "Result Declaration", date: "May 2026" },
-      { label: "Counselling", date: "June 2026" },
-    ],
-    documentsRequired: [
-      "Recent passport-size photograph",
-      "Scanned signature",
-      "Category certificate (if applicable)",
-      "PwD certificate (if applicable)",
-      "Photo ID proof",
-      "Class 10th and 12th mark sheets",
-    ],
-    examPattern: {
-      durationMinutes: 210,
-      totalMarks: 800,
-      negativeMarking: "+4 for correct, -1 for incorrect",
-      modeOfExam: "Computer-Based Test (CBT)",
-      sections: [
-        { name: "Physics", questions: 60, marks: 240, type: "MCQ" },
-        { name: "Chemistry", questions: 60, marks: 240, type: "MCQ" },
-        { name: "Biology", questions: 80, marks: 320, type: "MCQ" },
-      ],
-    },
-    syllabus: [
-      { 
-        section: "Physics", 
-        topics: [
-          "Mechanics", "Thermodynamics", "Waves and Oscillations", "Electrostatics",
-          "Current Electricity", "Magnetism", "Optics", "Modern Physics"
-        ] 
-      },
-      { 
-        section: "Chemistry", 
-        topics: [
-          "Physical Chemistry", "Inorganic Chemistry", "Organic Chemistry",
-          "Chemical Bonding", "Thermodynamics", "Reaction Mechanisms"
-        ] 
-      },
-      { 
-        section: "Biology", 
-        topics: [
-          "Botany", "Zoology", "Cell Biology", "Ecology",
-          "Biotechnology", "Evolution"
-        ] 
-      },
-    ],
-    examCentres: { 
-      count: 100, 
-      centres: [
-        "Delhi", "Mumbai", "Kolkata", "Chennai", "Hyderabad", "Bengaluru", "Pune", "Ahmedabad", "Jaipur", "Lucknow"
-      ] 
-    },
-    cutoffsAndCounselling: [
-      "Cutoffs vary by category and college",
-      "General category cutoffs: 85-90%",
-      "AIIMS conducts centralized counselling",
-      "Multiple rounds of seat allocation",
-    ],
-    slotAdmitResults: [
-      "Admit card available 1 week before exam",
-      "Results declared within 2 weeks of exam",
-      "Rank cards available for download",
-    ],
-    contact: {
-      phone: "011-26588500",
-      email: "amruth@aiims.edu",
-      address: "AIIMS, New Delhi - 110029"
-    },
-    faqs: [
-      { question: "What is AMRUTH?", answer: "AMRUTH is All India Medical Research Undergraduate Test conducted by AIIMS for medical admissions." },
-      { question: "What is the exam pattern?", answer: "AMRUTH is a 3.5-hour CBT with 200 questions covering Physics, Chemistry, and Biology." },
-      { question: "Is there negative marking?", answer: "Yes, +4 marks for correct answer and -1 mark for incorrect answer." },
-    ],
-    officialLinks: [
-      { label: "Official Website", url: "https://amruth.aiims.edu" },
-      { label: "Information Bulletin", url: "https://amruth.aiims.edu/information-bulletin" },
-      { label: "Previous Year Papers", url: "https://amruth.aiims.edu/previous-year-papers" },
-    ],
-  },
   "srm-jeee": {
     slug: "srm-jeee",
     name: "SRM JEEE",
@@ -1858,120 +1745,6 @@ export const examsDetails: Record<string, ExamDetail> = {
       { label: "Previous Year Papers", url: "https://www.srmuniv.ac.in/previous-year-papers" },
     ],
   },
-  "khlu": {
-    slug: "khlu",
-    name: "KHLU",
-    shortName: "KHLU",
-    fullName: "Karnataka Health and Life Sciences University",
-    conductingBody: "Karnataka Health and Life Sciences University",
-    frequency: "Once a year",
-    level: "State",
-    language: "English and Kannada",
-    applicationFee: { general: 1200, obc: 1000, sc: 600, st: 600, currency: "INR" },
-    durationMinutes: 180,
-    modeOfApplication: "Online",
-    modeOfExam: "Computer-Based Test (CBT)",
-    participatingColleges: 30,
-    introduction:
-      "KHLU (Karnataka Health and Life Sciences University) entrance examination is conducted for admission to undergraduate medical programs in Karnataka state.",
-    eligibility: [
-      "Minimum 17 years, Maximum 25 years (relaxation for reserved categories)",
-      "10+2 with Physics, Chemistry, Biology",
-      "Minimum 50% aggregate in PCB (40% for reserved categories)",
-      "Karnataka domicile required",
-    ],
-    applicationProcedure: [
-      "Register on official KHLU portal",
-      "Fill detailed application form",
-      "Upload required documents",
-      "Pay application fee online",
-      "Download admit card when available",
-    ],
-    importantDates: [
-      { label: "Notification Release", date: "December 2025" },
-      { label: "Registration Opens", date: "January 2026" },
-      { label: "Registration Closes", date: "February 2026" },
-      { label: "Admit Card Release", date: "March 2026" },
-      { label: "Exam Date", date: "April 2026" },
-      { label: "Result Declaration", date: "May 2026" },
-      { label: "Counselling", date: "June 2026" },
-    ],
-    documentsRequired: [
-      "Recent passport-size photograph",
-      "Scanned signature",
-      "Category certificate (if applicable)",
-      "PwD certificate (if applicable)",
-      "Photo ID proof",
-      "Class 10th and 12th mark sheets",
-      "Domicile certificate",
-    ],
-    examPattern: {
-      durationMinutes: 180,
-      totalMarks: 720,
-      negativeMarking: "+4 for correct, -1 for incorrect",
-      modeOfExam: "Computer-Based Test (CBT)",
-      sections: [
-        { name: "Physics", questions: 45, marks: 180, type: "MCQ" },
-        { name: "Chemistry", questions: 45, marks: 180, type: "MCQ" },
-        { name: "Biology", questions: 90, marks: 360, type: "MCQ" },
-      ],
-    },
-    syllabus: [
-      { 
-        section: "Physics", 
-        topics: [
-          "Mechanics", "Thermodynamics", "Waves and Oscillations", "Electrostatics",
-          "Current Electricity", "Magnetism", "Optics", "Modern Physics"
-        ] 
-      },
-      { 
-        section: "Chemistry", 
-        topics: [
-          "Physical Chemistry", "Inorganic Chemistry", "Organic Chemistry",
-          "Chemical Bonding", "Thermodynamics", "Reaction Mechanisms"
-        ] 
-      },
-      { 
-        section: "Biology", 
-        topics: [
-          "Botany", "Zoology", "Cell Biology", "Ecology",
-          "Biotechnology", "Evolution"
-        ] 
-      },
-    ],
-    examCentres: { 
-      count: 50, 
-      centres: [
-        "Bengaluru", "Mysuru", "Hubli", "Mangaluru", "Belagavi", "Kalaburagi", "Davanagere", "Shivamogga", "Tumakuru", "Raichur"
-      ] 
-    },
-    cutoffsAndCounselling: [
-      "Cutoffs vary by category and college",
-      "General category cutoffs: 85-90%",
-      "KHLU conducts centralized counselling",
-      "Multiple rounds of seat allocation",
-    ],
-    slotAdmitResults: [
-      "Admit card available 1 week before exam",
-      "Results declared within 2 weeks of exam",
-      "Rank cards available for download",
-    ],
-    contact: {
-      phone: "080-22212345",
-      email: "info@khlu.ac.in",
-      address: "Karnataka Health and Life Sciences University, Bengaluru"
-    },
-    faqs: [
-      { question: "What is KHLU?", answer: "KHLU is Karnataka Health and Life Sciences University entrance exam for medical programs." },
-      { question: "What is the exam pattern?", answer: "KHLU is a 3-hour CBT with 180 questions covering Physics, Chemistry, and Biology." },
-      { question: "Is Karnataka domicile required?", answer: "Yes, Karnataka domicile is required for KHLU examination." },
-    ],
-    officialLinks: [
-      { label: "Official Website", url: "https://www.khlu.ac.in" },
-      { label: "Information Bulletin", url: "https://www.khlu.ac.in/information-bulletin" },
-      { label: "Previous Year Papers", url: "https://www.khlu.ac.in/previous-year-papers" },
-    ],
-  },
   "gitam": {
     slug: "gitam",
     name: "GITAM",
@@ -2083,6 +1856,213 @@ export const examsDetails: Record<string, ExamDetail> = {
       { label: "Official Website", url: "https://www.gitam.edu" },
       { label: "Information Bulletin", url: "https://www.gitam.edu/information-bulletin" },
       { label: "Previous Year Papers", url: "https://www.gitam.edu/previous-year-papers" },
+    ],
+  },
+  "klu": {
+    slug: "klu",
+    name: "KLEEE",
+    shortName: "KLEEE",
+    fullName: "KL Engineering Entrance Examination",
+    conductingBody: "KL University (Koneru Lakshmaiah Education Foundation)",
+    frequency: "Once a year",
+    level: "University",
+    language: "English only",
+    applicationFee: { general: 1000, sc: 500, st: 500, currency: "INR" },
+    durationMinutes: 180,
+    modeOfApplication: "Online",
+    modeOfExam: "Online (CBT) and Offline (PBT)",
+    participatingColleges: 1,
+    introduction:
+      "KLEEE is a university-level entrance examination conducted by KL University for admission to undergraduate engineering programs (B.Tech) at its campuses.",
+    eligibility: [
+      "10+2 with Physics, Chemistry, Mathematics (PCM)",
+      "Minimum 60% aggregate in PCM for General category",
+      "Typically 17 years as on December 31, 2026",
+    ],
+    applicationProcedure: [
+      "Visit kluniversity.in",
+      "Register with email and mobile number",
+      "Fill application form",
+      "Upload documents and photographs",
+      "Pay application fee online",
+      "Submit and download confirmation",
+    ],
+    importantDates: [
+      { label: "Application Opens", date: "September 2025" },
+      { label: "Application Deadline", date: "November 2025" },
+      { label: "Exam Date", date: "November 2025" },
+      { label: "Result Declaration", date: "Late November/Early December 2025" },
+      { label: "Counselling", date: "December 2025" },
+    ],
+    documentsRequired: [
+      "Recent passport-size photograph",
+      "Scanned signature",
+      "Class 10 & 12 certificates",
+      "Identity proof",
+    ],
+    examPattern: {
+      durationMinutes: 180,
+      totalMarks: 75,
+      negativeMarking: "No negative marking",
+      modeOfExam: "Online (CBT) and Offline (PBT)",
+      sections: [
+        { name: "Mathematics", questions: 25, marks: 25 },
+        { name: "Physics", questions: 25, marks: 25 },
+        { name: "Chemistry", questions: 25, marks: 25 },
+      ],
+    },
+    syllabus: [
+      {
+        section: "Mathematics",
+        topics: [
+          "Algebra", "Trigonometry", "Vector Algebra", "Coordinate Geometry", "Calculus", "Probability",
+        ],
+      },
+      {
+        section: "Physics",
+        topics: [
+          "Mechanics", "Optics", "Electricity and Magnetism", "Modern Physics", "Thermodynamics",
+        ],
+      },
+      {
+        section: "Chemistry",
+        topics: [
+          "Physical Chemistry", "Inorganic Chemistry", "Organic Chemistry",
+        ],
+      },
+    ],
+    examCentres: {
+      count: 100,
+      centres: ["Multiple cities across India"],
+    },
+    cutoffsAndCounselling: [
+      "Cutoff varies by branch and campus",
+      "Online counselling for qualified candidates",
+      "Seat allotment based on rank and preferences",
+    ],
+    slotAdmitResults: [
+      "Admit card available 1 week before exam",
+      "Results declared within 2-3 weeks of exam",
+      "Multiple phases (Phase 1, Phase 2, Phase 3)",
+    ],
+    contact: {
+      phone: "0863-2399999",
+      email: "admissions@kluniversity.in",
+      address: "KL University, Vaddeswaram, Vijayawada, Andhra Pradesh",
+    },
+    faqs: [
+      { question: "What is KLEEE?", answer: "KLEEE is KL Engineering Entrance Examination for admission to KL University B.Tech programs." },
+      { question: "Is there negative marking?", answer: "No, there is no negative marking in KLEEE. Candidates should attempt all questions." },
+      { question: "What is the exam duration?", answer: "The exam duration is 180 minutes (3 hours) with 75 questions to be attempted." },
+    ],
+    officialLinks: [
+      { label: "Official Website", url: "https://www.kluniversity.in" },
+      { label: "Admissions Portal", url: "https://admission.kluniversity.in" },
+      { label: "Information Brochure", url: "https://www.kluniversity.in/download-brochure" },
+    ],
+  },
+  "met": {
+    slug: "met",
+    name: "MET",
+    shortName: "MET",
+    fullName: "Manipal Entrance Test",
+    conductingBody: "Manipal Academy of Higher Education (MAHE)",
+    frequency: "Once a year",
+    level: "University",
+    language: "English only",
+    applicationFee: { general: 600, sc: 600, st: 600, currency: "INR" },
+    durationMinutes: 150,
+    modeOfApplication: "Online",
+    modeOfExam: "Computer-Based Test (CBT)",
+    participatingColleges: 1,
+    introduction:
+      "MET is a university-level entrance examination conducted by Manipal Academy of Higher Education for admission to undergraduate engineering programs (B.Tech) at Manipal Institute of Technology and other MAHE campuses.",
+    eligibility: [
+      "10+2 with Physics, Chemistry, Mathematics/Biology",
+      "Minimum 50% aggregate in PCM for General category",
+      "Must have passed Class 12 or equivalent",
+    ],
+    applicationProcedure: [
+      "Visit manipal.edu/met",
+      "Register online with email and mobile",
+      "Fill application form with personal and academic details",
+      "Upload required documents and photographs",
+      "Pay application fee online",
+      "Submit and download confirmation",
+    ],
+    importantDates: [
+      { label: "Application Opens", date: "October 2025" },
+      { label: "Application Deadline", date: "March 2026" },
+      { label: "Exam Date", date: "April 2026" },
+      { label: "Result Declaration", date: "May 2026" },
+      { label: "Counselling", date: "June 2026" },
+    ],
+    documentsRequired: [
+      "Recent passport-size photograph",
+      "Scanned signature",
+      "Class 10 & 12 certificates",
+      "Identity proof (Aadhaar/PAN/Passport)",
+    ],
+    examPattern: {
+      durationMinutes: 150,
+      totalMarks: 800,
+      negativeMarking: "Yes, -1 mark for incorrect answer",
+      modeOfExam: "Computer-Based Test (CBT)",
+      sections: [
+        { name: "Physics", questions: 50, marks: 200 },
+        { name: "Chemistry", questions: 50, marks: 200 },
+        { name: "Mathematics", questions: 70, marks: 280 },
+        { name: "English & General Aptitude", questions: 30, marks: 120 },
+      ],
+    },
+    syllabus: [
+      { 
+        section: "Physics", 
+        topics: [
+          "Mechanics", "Thermodynamics", "Optics", "Electricity and Magnetism", "Modern Physics",
+        ],
+      },
+      { 
+        section: "Chemistry", 
+        topics: [
+          "Physical Chemistry", "Inorganic Chemistry", "Organic Chemistry",
+        ],
+      },
+      { 
+        section: "Mathematics", 
+        topics: [
+          "Algebra", "Trigonometry", "Coordinate Geometry", "Calculus", "Vector Algebra",
+        ],
+      },
+    ],
+    examCentres: { 
+      count: 100,
+      centres: ["Multiple cities across India"],
+    },
+    cutoffsAndCounselling: [
+      "Cutoff varies by branch and merit",
+      "Online counselling for qualified candidates",
+      "Seat allotment based on rank and preferences",
+    ],
+    slotAdmitResults: [
+      "Admit card available 2 weeks before exam",
+      "Results declared within 2 weeks of exam",
+      "Merit list published for counselling",
+    ],
+    contact: {
+      phone: "0820-2571978",
+      email: "admissions@manipal.edu",
+      address: "Manipal Academy of Higher Education, Manipal, Karnataka",
+    },
+    faqs: [
+      { question: "What is MET?", answer: "MET is Manipal Entrance Test for admission to Manipal Institute of Technology B.Tech programs." },
+      { question: "Is there negative marking?", answer: "Yes, there is negative marking. +4 marks for correct answer and -1 mark for incorrect answer." },
+      { question: "What is the exam duration?", answer: "The exam duration is 150 minutes (2.5 hours) with 200 questions to be attempted." },
+    ],
+    officialLinks: [
+      { label: "Official Website", url: "https://www.manipal.edu/met" },
+      { label: "Admissions Portal", url: "https://admissions.manipal.edu" },
+      { label: "Information Brochure", url: "https://www.manipal.edu/met-brochure" },
     ],
   },
 };

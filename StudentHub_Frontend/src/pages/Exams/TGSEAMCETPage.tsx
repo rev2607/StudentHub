@@ -837,8 +837,8 @@ const TGSEAMCETPage: React.FC = () => {
               {/* JNTU Hyderabad */}
               <div className="border border-gray-200 rounded-lg p-4 mb-4 hover:shadow-md transition-shadow">
                 <div className="flex items-center space-x-3 mb-3">
-                  <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center">
-                    <span className="text-orange-600 font-bold text-sm">J</span>
+                  <div className="w-10 h-10 flex items-center justify-center">
+                    <img src="/images/ts-eamcet-logo.jpeg" alt="TS EAMCET" className="w-10 h-10 object-contain" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">JNTU Hyderabad</h4>

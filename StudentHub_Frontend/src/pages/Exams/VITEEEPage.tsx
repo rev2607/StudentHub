@@ -533,7 +533,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">🎯 Slot Booking</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Slot Booking</h3>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
                       <span className="text-gray-700"><strong>Slot Booking Website Opens:</strong></span>
@@ -567,7 +567,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📝 Examination Days and Schedule</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Examination Days and Schedule</h3>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
                       <span className="text-gray-700"><strong>Exam Dates:</strong></span>
@@ -594,7 +594,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📊 Answer Key and Result</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Answer Key and Result</h3>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
                       <span className="text-gray-700"><strong>Provisional Answer Key Release:</strong></span>
@@ -619,7 +619,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">🎓 Counselling Phase</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Counselling Phase</h3>
                   <div className="space-y-4">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <h4 className="font-semibold text-gray-800 mb-2">Registration & Choice Filling:</h4>
@@ -711,7 +711,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">⚠️ Other Important Timelines & Notes</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Other Important Timelines & Notes</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Tuition Fee Payment:</strong> Must be done within 5 days of seat confirmation after allotment.</p>
@@ -748,12 +748,12 @@ const VITEEEPage: React.FC = () => {
               
               <div className="space-y-6">
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📋 VITEEE 2026 Eligibility Criteria — Extensive Detailed Overview</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">VITEEE 2026 Eligibility Criteria — Extensive Detailed Overview</h3>
                   <p className="text-gray-600">Eligibility requirements, relaxations, documentation, and related caveats for VITEEE 2026 admission</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">🎂 Age Limit and Date of Birth</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Age Limit and Date of Birth</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Primary Requirement:</strong> Candidates must be born on or after July 1, 2004, to be eligible for admission to VITEEE 2026.</p>
@@ -789,7 +789,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📚 Academic Qualifications</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Academic Qualifications</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Basic Requirement:</strong> Must have passed or be appearing in the qualifying examination i.e., 10+2 or any equivalent examination from a recognized board/university.</p>
@@ -807,7 +807,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📊 Minimum Academic Marks</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Minimum Academic Marks</h3>
                   <div className="space-y-4">
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-800 mb-2">General Category:</h4>
@@ -827,7 +827,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">🔬 Subject-wise Eligibility and Seat Allocation</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Subject-wise Eligibility and Seat Allocation</h3>
                   <div className="space-y-4">
                     <div className="bg-gray-50 p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-800 mb-2">Mathematics Candidates (PCM):</h4>
@@ -844,7 +844,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">🗣️ Language and Other Requirements</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Language and Other Requirements</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>English Proficiency:</strong> English Language Proficiency is assumed as all courses and examinations are conducted in English.</p>
@@ -856,7 +856,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">⚠️ Additional Eligibility Notes</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Additional Eligibility Notes</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Disqualification:</strong> Candidates not meeting eligibility criteria will be disqualified during document verification or admission stage regardless of their VITEEE rank.</p>
@@ -874,7 +874,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">🎯 Implications for Preparation and Admission Strategy</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Implications for Preparation and Admission Strategy</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Academic Focus:</strong> Eligibility mandates meeting eligibility marks in requisite subjects; hence early focus on board exam marks is crucial.</p>
@@ -889,7 +889,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📝 Summary</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Summary</h3>
                   <p className="text-gray-700">The VITEEE 2026 eligibility criteria are structured to maintain academic rigor while ensuring diverse inclusion of Indian nationals, NRI/PIO/OCI candidates, and foreign nationals through separate admissions. They ensure aspirants have minimum foundational academic performance in science streams pertinent to engineering and allied bio fields. Compliance with age, nationality, and academic standards guards the quality of admitted students into VIT's reputable B.Tech programs.</p>
                 </div>
               </div>
@@ -905,17 +905,17 @@ const VITEEEPage: React.FC = () => {
               
               <div className="space-y-6">
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📝 VITEEE 2026 Application Process</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">VITEEE 2026 Application Process</h3>
                   <p className="text-gray-600">Complete step-by-step guide covering registration, document uploads, payment, slot booking, and post-application formalities</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📋 Overview</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Overview</h3>
                   <p className="text-gray-600">VITEEE (VIT Engineering Entrance Examination) 2026 application process is conducted entirely online through the official website viteee.vit.ac.in. The process is designed to be candidate-friendly and transparent, ensuring aspirants can register, apply, pay application fees, book exam slots and download admit cards efficiently. Given the large number of applicants (over 2 lakh), adherence to procedural timelines and guidelines is critical.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">💻 Application Mode</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Application Mode</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Online Only:</strong> The VITEEE 2026 application form will be available exclusively online at viteee.vit.ac.in.</p>
@@ -994,7 +994,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📋 Stepwise Application Procedure</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Stepwise Application Procedure</h3>
                   
                   <div className="space-y-6">
                     <div className="bg-gray-50 p-4 rounded-lg">
@@ -1082,7 +1082,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">⚠️ Other Important Guidelines</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Other Important Guidelines</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Refund Policy:</strong> Application fee once paid is non-refundable except in case of duplicate payments which will be refunded within stipulated timeframe.</p>
@@ -1112,7 +1112,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📝 Summary</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Summary</h3>
                   <p className="text-gray-700">The VITEEE 2026 application process is a multiple-step, primarily digital procedure requiring timely registration, document uploads, payment and slot booking. This extensive procedural detail helps aspirants carefully navigate each stage, avoid common pitfalls, and ensure successful application submissions aligned with VIT University standards and timelines for a seamless path towards admission.</p>
                 </div>
               </div>
@@ -1128,17 +1128,17 @@ const VITEEEPage: React.FC = () => {
               
               <div className="space-y-6">
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📊 VITEEE 2026 Exam Pattern — Extensive Guide</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">VITEEE 2026 Exam Pattern — Extensive Guide</h3>
                   <p className="text-gray-600">Complete understanding of exam structure, subject distribution, question formats, and preparation strategies</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📖 Introduction</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Introduction</h3>
                   <p className="text-gray-600">VITEEE 2026 is a meticulously structured, computer-based test (CBT) designed to evaluate candidates' readiness for a rigorous engineering curriculum at VIT's multiple campuses. Understanding the detailed exam pattern including subject distribution, question formats, and recommended preparation strategies facilitates optimal performance on exam day.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">💻 Exam Mode and Structure</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Exam Mode and Structure</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Mode:</strong> Fully online Computer-Based Test (CBT)</p>
@@ -1168,7 +1168,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📊 Section-wise Distribution and Weightage</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Section-wise Distribution and Weightage</h3>
                   <div className="overflow-x-auto">
                     <table className="min-w-full">
                       <thead className="bg-gray-100">
@@ -1210,7 +1210,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📚 Detailed Syllabus Breakdown</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Detailed Syllabus Breakdown</h3>
                   
                   <div className="space-y-6">
                     <div className="bg-gray-50 p-4 rounded-lg">
@@ -1294,7 +1294,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">⏰ Exam Strategy & Time Allocation</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Exam Strategy & Time Allocation</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Time per Question:</strong> Suggested question solving time is approximately 1.2 minutes per question</p>
@@ -1348,7 +1348,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📚 Preparation Resources</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Preparation Resources</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Official Resources:</strong> Official VITEEE mock tests and previous years' question papers available at viteee.vit.ac.in</p>
@@ -1363,7 +1363,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📝 Summary</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Summary</h3>
                   <p className="text-gray-700">VITEEE 2026's exam pattern is designed for a balanced assessment of foundational concepts, analytical skills, and language proficiency across a broad spectrum of subjects. Candidates are encouraged to adopt a holistic study plan focusing on syllabus mastery, time management, and mock exam practice to optimize success probabilities. This exhaustive coverage enables aspirants and educators to understand and plan efficiently for VITEEE 2026.</p>
                 </div>
 
@@ -1396,12 +1396,12 @@ const VITEEEPage: React.FC = () => {
               
               <div className="space-y-6">
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📚 VITEEE 2026 Syllabus — Detailed Expansion</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">VITEEE 2026 Syllabus — Detailed Expansion</h3>
                   <p className="text-gray-600">Complete subject-wise syllabus coverage with detailed topics, chapter-wise weightage, and preparation recommendations</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📊 Mathematics</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Mathematics</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Core Topics:</strong> Sets, Relations, and Functions</p>
@@ -1452,7 +1452,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">⚡ Physics</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Physics</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Measurements:</strong> Units and Measurements: fundamental, derived units, dimensional analysis, errors and significant figures</p>
@@ -1629,7 +1629,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📝 English</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">English</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Grammar:</strong> Grammar: tenses, parts of speech, prepositions, active-passive voice</p>
@@ -1647,7 +1647,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📊 Chapterwise Weightage Highlights</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Chapterwise Weightage Highlights</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Mathematics:</strong> Mathematics accounts for around 32% of total marks; high-weightage topics include Calculus (Limits, Continuity, Differentiation, Integration), and Coordinate Geometry.</p>
@@ -1665,7 +1665,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📚 Preparation Recommendations</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Preparation Recommendations</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>NCERT Focus:</strong> Focus on NCERT textbooks for Classes 11 and 12 for thorough conceptual foundation.</p>
@@ -1704,7 +1704,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📝 Summary</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Summary</h3>
                   <p className="text-gray-700">The VITEEE 2026 syllabus is comprehensive and covers all essential topics from NCERT Class 11 and 12 curriculum. With Mathematics accounting for 32% of marks and Physics/Chemistry each contributing 28%, candidates should focus on high-weightage topics while maintaining balanced preparation across all subjects. The aptitude and English sections offer scoring opportunities that should not be overlooked.</p>
                 </div>
               </div>
@@ -1720,17 +1720,17 @@ const VITEEEPage: React.FC = () => {
               
               <div className="space-y-6">
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📊 VITEEE 2026 Expected Cutoff</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">VITEEE 2026 Expected Cutoff</h3>
                   <p className="text-gray-600">Complete cutoff analysis with historical trends, category-wise variations, campus-wise comparisons, marks-rank correlations, and strategic insights</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📋 Overview of VITEEE Cutoff Dynamics</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Overview of VITEEE Cutoff Dynamics</h3>
                   <p className="text-gray-600">The VITEEE cutoff is a crucial indicator reflecting the minimum rank or marks required for admissions to various B.Tech branches across all VIT campuses — Vellore, Chennai, Bhopal, and Andhra Pradesh (AP). It fluctuates yearly based on candidate performance, exam difficulty, seat availability, category, and regional reservation dynamics. This report provides an extensively expanded insight, including historical trends, category-wise variations, campus-wise comparisons, marks-rank correlations, influencing factors, and strategic preparations aligned with 2024-2026 data.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">🏛️ Branch-wise Detailed Closing Rank Projections for 2026</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Branch-wise Detailed Closing Rank Projections for 2026</h3>
                   <p className="text-gray-600 mb-4">Each branch varies significantly in cutoff trends, influenced by popularity, career prospects, emerging fields, and campus prestige. The table below lists detailed expected closing ranks per branch campus-wise, offering micro-level granularity:</p>
                   
                   <div className="space-y-4">
@@ -1802,7 +1802,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📈 Historical Cutoff Analysis (2018 to 2025) with Trend Predictions</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Historical Cutoff Analysis (2018 to 2025) with Trend Predictions</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>CSE Branch Trends:</strong> The CSE branch at VIT Vellore has witnessed the most competitive cutoffs, with opening ranks near the top 100 and closing near 1,000 reflecting candidate preferences toward IT/CS branches.</p>
@@ -1823,7 +1823,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">🎯 Marks to Rank Correlations (2024-2026 Projection)</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Marks to Rank Correlations (2024-2026 Projection)</h3>
                   <div className="overflow-x-auto">
                     <table className="min-w-full">
                       <thead className="bg-gray-100">
@@ -1898,7 +1898,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">🌐 Regional and International Admissions Cutoff Notes</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Regional and International Admissions Cutoff Notes</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>International Centers:</strong> International centers see fewer candidates hence more flexible cutoffs for overseas applicants.</p>
@@ -1910,7 +1910,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📚 Preparing for Cutoff Expectations</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Preparing for Cutoff Expectations</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Strong Basics:</strong> Focus on XTREMELY strong basics in Mathematics, Physics and Chemistry to maximize marks above 110+.</p>
@@ -1957,7 +1957,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📝 Summary & Utility for Aspirants</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Summary & Utility for Aspirants</h3>
                   <p className="text-gray-700">This 30-plus times expanded overview equips aspirants with deep insights into the cut-off trends and provides a strategic basis for scoring goals, branch prioritization, and campus preferences. A comprehensive understanding of VITEEE 2026 cutoffs across campuses, categories, branches and merit versus score correlations will enable targeted, data-driven decision making for admissions.</p>
                 </div>
               </div>
@@ -1973,17 +1973,17 @@ const VITEEEPage: React.FC = () => {
               
               <div className="space-y-6">
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">🎯 VITEEE 2026 Counselling Process</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">VITEEE 2026 Counselling Process</h3>
                   <p className="text-gray-600">Complete counselling guide covering phases, registration, choice filling, document verification, fee structure, and strategic insights</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📋 Counselling Overview</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Counselling Overview</h3>
                   <p className="text-gray-600">VITEEE 2026 counselling is the pivotal admission phase where qualified candidates secure seats at any of the VIT campuses based on their All India Rank (AIR), program preferences, and seat availability. The online-only process is designed to be transparent, merit-based, and to accommodate the high applicant volume efficiently. It spans multiple rounds enabling candidates across the rank spectrum to avail admission opportunities.</p>
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">⏰ Counselling Timeline and Phases</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Counselling Timeline and Phases</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Commencement:</strong> The counselling commences tentatively in May 2026 after declaration of results.</p>
@@ -2029,7 +2029,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">🎯 Choice Filling and Locking</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Choice Filling and Locking</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Preference Entry:</strong> Candidates enter ordered preferences of available courses and campuses from the official seat matrix.</p>
@@ -2047,7 +2047,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📊 Merit List and Seat Allotment</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Merit List and Seat Allotment</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Merit Calculation:</strong> Composite Merit rank lists generated using Normalized VITEEE scores with category and domicile considerations.</p>
@@ -2127,7 +2127,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📋 Counselling Guidelines and Policies</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Counselling Guidelines and Policies</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Finality:</strong> Seat allotments once confirmed and fees paid are final and binding with no branch or campus changes permitted afterward.</p>
@@ -2145,7 +2145,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📈 Data-Driven Counselling Optimization Insights</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Data-Driven Counselling Optimization Insights</h3>
                   <div className="space-y-3">
                     <div className="bg-gray-50 p-3 rounded-lg">
                       <p className="text-gray-800"><strong>Historical Analysis:</strong> Thorough analysis of previous years' branch wise cutoffs and seat matrix guide strategic preference filling.</p>
@@ -2185,7 +2185,7 @@ const VITEEEPage: React.FC = () => {
                 </div>
 
                 <div className="bg-white p-4 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">📝 Summary</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Summary</h3>
                   <p className="text-gray-700">This extensive and ultra-detailed VITEEE 2026 counselling guide, covering phases, rules, document checklists, fees, and data-driven strategies, is more than 30 times as comprehensive as generic summaries usually available. It equips candidates, counsellors, and academic planners with a full understanding to navigate the complex but candidate-friendly process leading to successful VIT admissions.</p>
                   <p className="text-gray-700 mt-3">Following this comprehensive blueprint ensures aspirants approach VITEEE counselling fully prepared, timely, and confident for their admission journey.</p>
                 </div>
@@ -2288,8 +2288,8 @@ const VITEEEPage: React.FC = () => {
               {/* VIT Vellore */}
               <div className="rounded-lg p-4 mb-4 hover:shadow-md transition-shadow">
                 <div className="flex items-center space-x-3 mb-3">
-                  <div className="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center">
-                    <span className="text-red-600 font-bold text-sm">V</span>
+                  <div className="w-10 h-10 flex items-center justify-center">
+                    <img src="/images/viteee-logo.jpeg" alt="VIT Vellore" className="w-10 h-10 object-contain" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">VIT Vellore</h4>
@@ -2307,8 +2307,8 @@ const VITEEEPage: React.FC = () => {
               {/* VIT Chennai */}
               <div className="rounded-lg p-4 hover:shadow-md transition-shadow">
                 <div className="flex items-center space-x-3 mb-3">
-                  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-                    <span className="text-blue-600 font-bold text-sm">C</span>
+                  <div className="w-10 h-10 flex items-center justify-center">
+                    <img src="/images/viteee-logo.jpeg" alt="VIT Chennai" className="w-10 h-10 object-contain" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">VIT Chennai</h4>

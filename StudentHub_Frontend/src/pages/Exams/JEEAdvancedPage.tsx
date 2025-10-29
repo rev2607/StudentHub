@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import jeeAdvancedData from './jee advance.json';
+import iitDelhiLogo from '../../assets/Colleges/indian-institute-of-technology-delhi.png';
+import iitMadrasLogo from '../../assets/Colleges/iit-madras-logo-png.png';
+import iitKharagpurLogo from '../../assets/Colleges/iit-kharagpur-logo-png_seeklogo-403971.png';
 
 interface JEEAdvancedData {
   ExamName: string;
@@ -140,7 +143,7 @@ interface JEEAdvancedData {
   Sources: string[];
 }
 
-type TabType = 'overview' | 'dates' | 'eligibility' | 'application' | 'pattern' | 'syllabus' | 'cutoff' | 'counselling' | 'preparation';
+type TabType = 'overview' | 'dates' | 'eligibility' | 'application' | 'pattern' | 'syllabus' | 'cutoff' | 'counselling';
 
 export default function JEEAdvancedPage() {
   const [activeTab, setActiveTab] = useState<TabType>('overview');
@@ -163,11 +166,10 @@ export default function JEEAdvancedPage() {
     { id: 'syllabus', label: 'Syllabus' },
     { id: 'cutoff', label: 'Cutoff' },
     { id: 'counselling', label: 'Counselling' },
-    { id: 'preparation', label: 'Preparation' }
   ];
 
-  const renderTabContent = () => {
-    switch (activeTab) {
+  const renderTabContentFor = (tabId: string) => {
+    switch (tabId) {
       case 'overview':
         return (
           <div className="space-y-8">
@@ -707,6 +709,15 @@ export default function JEEAdvancedPage() {
                 </div>
               </div>
             </div>
+
+            {/* Render all other tabs after overview content */}
+            {renderTabContentFor('dates')}
+            {renderTabContentFor('eligibility')}
+            {renderTabContentFor('application')}
+            {renderTabContentFor('pattern')}
+            {renderTabContentFor('syllabus')}
+            {renderTabContentFor('cutoff')}
+            {renderTabContentFor('counselling')}
           </div>
         );
 
@@ -1669,13 +1680,13 @@ export default function JEEAdvancedPage() {
                 </div>
               </div>
 
-              {/* 2. Step-by-Step Application Process */}
+              {/* 2. Application Process */}
               <div className="mb-8">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">2. Step-by-Step Application Process</h3>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">2. Application Process</h3>
                 
-                {/* Step 1: Access Official Portal & Secure Login */}
+                {/* Access Official Portal & Secure Login */}
                 <div className="p-6 mb-6">
-                  <h4 className="text-lg font-bold text-gray-800 mb-4">Step 1: Access Official Portal & Secure Login</h4>
+                  <h4 className="text-lg font-bold text-gray-800 mb-4">Access Official Portal & Secure Login</h4>
                   <div className="space-y-4">
                     <div className="pl-4">
                       <div className="font-semibold text-gray-800">Portal Access</div>
@@ -1703,9 +1714,9 @@ export default function JEEAdvancedPage() {
                   </div>
                 </div>
 
-                {/* Step 2: Complete Registration Form */}
+                {/* Complete Registration Form */}
                 <div className="p-6 mb-6">
-                  <h4 className="text-lg font-bold text-gray-800 mb-4">Step 2: Complete Registration Form</h4>
+                  <h4 className="text-lg font-bold text-gray-800 mb-4">Complete Registration Form</h4>
                   <div className="space-y-4">
                     <div className="pl-4">
                       <div className="font-semibold text-gray-800">Personal Details</div>
@@ -1735,9 +1746,9 @@ export default function JEEAdvancedPage() {
                   </div>
                 </div>
 
-                {/* Step 3: Upload Required Documents */}
+                {/* Upload Required Documents */}
                 <div className="p-6 mb-6">
-                  <h4 className="text-lg font-bold text-gray-800 mb-4">Step 3: Upload Required Documents (JPEG/PDF formats)</h4>
+                  <h4 className="text-lg font-bold text-gray-800 mb-4">Upload Required Documents (JPEG/PDF formats)</h4>
                   <div className="space-y-4">
                     <div className="pl-4">
                       <div className="font-semibold text-gray-800">Required Documents</div>
@@ -1767,9 +1778,9 @@ export default function JEEAdvancedPage() {
                   </div>
                 </div>
 
-                {/* Step 4: Review & Final Submission */}
+                {/* Review & Final Submission */}
                 <div className="p-6 mb-6">
-                  <h4 className="text-lg font-bold text-gray-800 mb-4">Step 4: Review & Final Submission</h4>
+                  <h4 className="text-lg font-bold text-gray-800 mb-4">Review & Final Submission</h4>
                   <div className="space-y-4">
                     <div className="border-l-4 border-pink-500 pl-4">
                       <div className="font-semibold text-gray-800">Submission Process</div>
@@ -1785,9 +1796,9 @@ export default function JEEAdvancedPage() {
                   </div>
                 </div>
 
-                {/* Step 5: Application Fee Payment */}
+                {/* Application Fee Payment */}
                 <div className="p-6 mb-6">
-                  <h4 className="text-lg font-bold text-gray-800 mb-4">Step 5: Application Fee Payment</h4>
+                  <h4 className="text-lg font-bold text-gray-800 mb-4">Application Fee Payment</h4>
                   <div className="space-y-4">
                     <div className="pl-4">
                       <div className="font-semibold text-gray-800">Fee Structure</div>
@@ -1836,9 +1847,9 @@ export default function JEEAdvancedPage() {
                   </div>
                 </div>
 
-                {/* Step 6: Acknowledgment & Admit Card Download */}
+                {/* Acknowledgment & Admit Card Download */}
                 <div className="p-6 mb-6">
-                  <h4 className="text-lg font-bold text-gray-800 mb-4">Step 6: Acknowledgment & Admit Card Download</h4>
+                  <h4 className="text-lg font-bold text-gray-800 mb-4">Acknowledgment & Admit Card Download</h4>
                   <div className="space-y-4">
                     <div className="pl-4">
                       <div className="font-semibold text-gray-800">Post-Submission Process</div>
@@ -3222,7 +3233,7 @@ export default function JEEAdvancedPage() {
                 <div className="p-6">
                   <div className="space-y-6">
                     <div className="pl-4">
-                      <div className="font-semibold text-gray-800">Step 1: Online Registration and Login</div>
+                      <div className="font-semibold text-gray-800">Online Registration and Login</div>
                       <div className="text-gray-700 mt-2">
                         <ul className="list-disc list-inside space-y-1">
                           <li>Eligible candidates register at JoSAA portal <a href="https://josaa.nic.in" className="text-gray-600 hover:underline">josaa.nic.in</a></li>
@@ -3233,7 +3244,7 @@ export default function JEEAdvancedPage() {
                     </div>
                     
                     <div className="pl-4">
-                      <div className="font-semibold text-gray-800">Step 2: Choice Filling and Locking</div>
+                      <div className="font-semibold text-gray-800">Choice Filling and Locking</div>
                       <div className="text-gray-700 mt-2">
                         <ul className="list-disc list-inside space-y-1">
                           <li>After registration, candidates select preferred institutes, courses, and branches from the available seats</li>
@@ -3244,7 +3255,7 @@ export default function JEEAdvancedPage() {
                     </div>
                     
                     <div className="pl-4">
-                      <div className="font-semibold text-gray-800">Step 3: Mock Seat Allotment</div>
+                      <div className="font-semibold text-gray-800">Mock Seat Allotment</div>
                       <div className="text-gray-700 mt-2">
                         <ul className="list-disc list-inside space-y-1">
                           <li>JoSAA conducts mock seat allotments to help candidates assess seat chances based on choices and rank</li>
@@ -3254,7 +3265,7 @@ export default function JEEAdvancedPage() {
                     </div>
                     
                     <div className="pl-4">
-                      <div className="font-semibold text-gray-800">Step 4: Seat Allotment Rounds</div>
+                      <div className="font-semibold text-gray-800">Seat Allotment Rounds</div>
                       <div className="text-gray-700 mt-2">
                         <ul className="list-disc list-inside space-y-1">
                           <li>Multiple rounds (usually six) of seat allotments are conducted, considering candidate rank, preferences, category reservation, and availability</li>
@@ -3264,7 +3275,7 @@ export default function JEEAdvancedPage() {
                     </div>
                     
                     <div className="pl-4">
-                      <div className="font-semibold text-gray-800">Step 5: Seat Acceptance Fee Payment & Document Upload</div>
+                      <div className="font-semibold text-gray-800">Seat Acceptance Fee Payment & Document Upload</div>
                       <div className="text-gray-700 mt-2">
                         <ul className="list-disc list-inside space-y-1">
                           <li>After seat allotment, candidates must pay seat acceptance fees (₹35,000 for General/OBC/EWS, ₹20,000 for SC/ST/PwD)</li>
@@ -3274,7 +3285,7 @@ export default function JEEAdvancedPage() {
                     </div>
                     
                     <div className="pl-4">
-                      <div className="font-semibold text-gray-800">Step 6: Physical Reporting & Document Verification</div>
+                      <div className="font-semibold text-gray-800">Physical Reporting & Document Verification</div>
                       <div className="text-gray-700 mt-2">
                         <ul className="list-disc list-inside space-y-1">
                           <li>Candidates report physically to allotted institution within specified time frame</li>
@@ -3595,73 +3606,13 @@ export default function JEEAdvancedPage() {
           </div>
         );
 
-      case 'preparation':
-        return (
-          <div className="space-y-8">
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">JEE Advanced 2026 Preparation Tips</h2>
-              <div className="space-y-6">
-                {/* Study Approach */}
-                <div className="bg-blue-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Study Approach</h3>
-                  <div className="bg-white p-4 rounded-lg border">
-                    <p className="text-blue-700">{data.PreparationTips.StudyApproach}</p>
-                  </div>
-                </div>
-
-                {/* Recommended Books */}
-                <div className="bg-green-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Recommended Books</h3>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <div className="bg-white p-4 rounded-lg border">
-                      <h4 className="font-semibold text-gray-800 mb-3">Mathematics</h4>
-                      <div className="space-y-2">
-                        {data.PreparationTips.RecommendedBooks.Mathematics.map((book, index) => (
-                          <p key={index} className="text-green-700 text-sm">• {book}</p>
-                        ))}
-                      </div>
-                    </div>
-                    <div className="bg-white p-4 rounded-lg border">
-                      <h4 className="font-semibold text-gray-800 mb-3">Physics</h4>
-                      <div className="space-y-2">
-                        {data.PreparationTips.RecommendedBooks.Physics.map((book, index) => (
-                          <p key={index} className="text-green-700 text-sm">• {book}</p>
-                        ))}
-                      </div>
-                    </div>
-                    <div className="bg-white p-4 rounded-lg border">
-                      <h4 className="font-semibold text-gray-800 mb-3">Chemistry</h4>
-                      <div className="space-y-2">
-                        {data.PreparationTips.RecommendedBooks.Chemistry.map((book, index) => (
-                          <p key={index} className="text-green-700 text-sm">• {book}</p>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Strategy */}
-                <div className="bg-purple-50 p-6 rounded-lg">
-                  <h3 className="text-lg font-semibold text-gray-800 mb-4">Preparation Strategy</h3>
-                  <div className="space-y-3">
-                    {data.PreparationTips.Strategy.map((strategy, index) => (
-                      <div key={index} className="flex items-start space-x-3">
-                        <div className="w-8 h-8 bg-gray-500 text-white rounded-full flex items-center justify-center font-semibold text-sm">
-                          {index + 1}
-                        </div>
-                        <p className="text-purple-700">{strategy}</p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        );
-
       default:
         return null;
     }
+  };
+
+  const renderTabContent = () => {
+    return renderTabContentFor(activeTab);
   };
 
   return (
@@ -3674,10 +3625,10 @@ export default function JEEAdvancedPage() {
               <Link to="/" className="text-2xl font-bold text-gray-600">StudentHub</Link>
             </div>
             <div className="flex items-center space-x-4">
-              <button className="bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">
+              <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
                 Download PDF
               </button>
-              <button className="bg-gray-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition">
+              <button className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors">
                 Brochure
               </button>
             </div>
@@ -3750,8 +3701,8 @@ export default function JEEAdvancedPage() {
               {/* IIT Bombay */}
               <div className="border border-gray-200 rounded-lg p-4 mb-4 hover:shadow-md transition-shadow">
                 <div className="flex items-center mb-3">
-                  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-gray-600 font-bold text-sm">IITB</span>
+                  <div className="w-10 h-10 flex items-center justify-center mr-3">
+                    <img src={iitDelhiLogo} alt="IIT Bombay" className="w-10 h-10 object-contain opacity-75" />
                   </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-800 text-sm">IIT Bombay B.Tech</h4>
@@ -3767,8 +3718,8 @@ export default function JEEAdvancedPage() {
               {/* IIT Delhi */}
               <div className="border border-gray-200 rounded-lg p-4 mb-4 hover:shadow-md transition-shadow">
                 <div className="flex items-center mb-3">
-                  <div className="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-gray-600 font-bold text-sm">IITD</span>
+                  <div className="w-10 h-10 flex items-center justify-center mr-3">
+                    <img src={iitDelhiLogo} alt="IIT Delhi" className="w-10 h-10 object-contain" />
                   </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-800 text-sm">IIT Delhi B.Tech</h4>
@@ -3784,8 +3735,8 @@ export default function JEEAdvancedPage() {
               {/* IIT Madras */}
               <div className="border border-gray-200 rounded-lg p-4 mb-4 hover:shadow-md transition-shadow">
                 <div className="flex items-center mb-3">
-                  <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-gray-600 font-bold text-sm">IITM</span>
+                  <div className="w-10 h-10 flex items-center justify-center mr-3">
+                    <img src={iitMadrasLogo} alt="IIT Madras" className="w-10 h-10 object-contain" />
                   </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-800 text-sm">IIT Madras B.Tech</h4>
@@ -3801,8 +3752,8 @@ export default function JEEAdvancedPage() {
               {/* IIT Kharagpur */}
               <div className="border border-gray-200 rounded-lg p-4 mb-4 hover:shadow-md transition-shadow">
                 <div className="flex items-center mb-3">
-                  <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-gray-600 font-bold text-sm">IITKGP</span>
+                  <div className="w-10 h-10 flex items-center justify-center mr-3">
+                    <img src={iitKharagpurLogo} alt="IIT Kharagpur" className="w-10 h-10 object-contain" />
                   </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-800 text-sm">IIT Kharagpur B.Tech</h4>

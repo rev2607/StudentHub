@@ -150,8 +150,8 @@ export default function GITAMPage() {
     { id: 'counselling', label: 'Counselling' }
   ];
 
-  const renderTabContent = () => {
-    switch (activeTab) {
+  const renderTabContentFor = (tabId: string) => {
+    switch (tabId) {
       case 'overview':
         return (
           <div className="space-y-6">
@@ -282,14 +282,14 @@ export default function GITAMPage() {
                 <div className="space-y-3">
                   <div>
                     <p className="font-medium text-gray-700">Steps:</p>
-                    <ol className="list-decimal list-inside text-gray-600 space-y-1 ml-4">
+                    <ul className="list-disc list-inside text-gray-600 space-y-1 ml-4">
                       <li>Register at <a href="https://gat.gitam.edu" className="text-blue-600 hover:underline">https://gat.gitam.edu</a> (online only; no offline forms)</li>
                       <li>Fill academic, personal, and communication details</li>
                       <li>Upload scanned photo and signature (as per portal specs)</li>
                       <li>Select program, phase, and exam center (city)</li>
                       <li>Pay application fee: ₹1200 (single group), ₹2400 (two groups)</li>
                       <li>Submit form and save confirmation PDF for future reference</li>
-                    </ol>
+                    </ul>
                   </div>
                   <div>
                     <p className="font-medium text-gray-700">Payment Modes:</p>
@@ -501,6 +501,15 @@ export default function GITAMPage() {
                 </div>
               </div>
             </div>
+
+            {/* Merge all other tabs content */}
+            {renderTabContentFor('dates')}
+            {renderTabContentFor('eligibility')}
+            {renderTabContentFor('application')}
+            {renderTabContentFor('pattern')}
+            {renderTabContentFor('syllabus')}
+            {renderTabContentFor('cutoff')}
+            {renderTabContentFor('counselling')}
           </div>
         );
 
@@ -1485,7 +1494,7 @@ export default function GITAMPage() {
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-blue-500 rounded-full mt-2"></div>
                     <div>
-                      <p className="font-medium text-gray-700">Step 1: Registration</p>
+                      <p className="font-medium text-gray-700">Registration</p>
                       <ul className="list-disc list-inside text-gray-600 text-sm mt-1 space-y-1">
                         <li>Click "New Applicant" and provide name, mobile number, email, create password, and select preferred program(s).</li>
                         <li>Upon successful registration, you receive an application number and login details for future access.</li>
@@ -3153,7 +3162,7 @@ export default function GITAMPage() {
                 <h3 className="text-lg font-semibold text-gray-700 mb-3">Detailed Counselling Steps</h3>
                 
                 <div className="mb-4">
-                  <h4 className="text-md font-semibold text-gray-700 mb-3">Step 1: Registration for Counselling</h4>
+                  <h4 className="text-md font-semibold text-gray-700 mb-3">Registration for Counselling</h4>
                   <div className="space-y-2">
                     <div className="flex items-start space-x-2">
                       <span className="text-green-500 mt-1">•</span>
@@ -3167,7 +3176,7 @@ export default function GITAMPage() {
                 </div>
 
                 <div className="mb-4">
-                  <h4 className="text-md font-semibold text-gray-700 mb-3">Step 2: Choice Filling and Locking</h4>
+                  <h4 className="text-md font-semibold text-gray-700 mb-3">Choice Filling and Locking</h4>
                   <div className="space-y-2">
                     <div className="flex items-start space-x-2">
                       <span className="text-purple-500 mt-1">•</span>
@@ -3199,7 +3208,7 @@ export default function GITAMPage() {
                 </div>
 
                 <div className="mb-4">
-                  <h4 className="text-md font-semibold text-gray-700 mb-3">Step 3: Seat Allotment Execution</h4>
+                  <h4 className="text-md font-semibold text-gray-700 mb-3">Seat Allotment Execution</h4>
                   <div className="space-y-2">
                     <div className="flex items-start space-x-2">
                       <span className="text-orange-500 mt-1">•</span>
@@ -3213,7 +3222,7 @@ export default function GITAMPage() {
                 </div>
 
                 <div className="mb-4">
-                  <h4 className="text-md font-semibold text-gray-700 mb-3">Step 4: Acceptance and Payment of Admission Fee</h4>
+                  <h4 className="text-md font-semibold text-gray-700 mb-3">Acceptance and Payment of Admission Fee</h4>
                   <div className="space-y-2">
                     <div className="flex items-start space-x-2">
                       <span className="text-red-500 mt-1">•</span>
@@ -3231,7 +3240,7 @@ export default function GITAMPage() {
                 </div>
 
                 <div className="mb-4">
-                  <h4 className="text-md font-semibold text-gray-700 mb-3">Step 5: Document Upload and Verification</h4>
+                  <h4 className="text-md font-semibold text-gray-700 mb-3">Document Upload and Verification</h4>
                   <div className="space-y-2">
                     <div className="flex items-start space-x-2">
                       <span className="text-indigo-500 mt-1">•</span>
@@ -3249,7 +3258,7 @@ export default function GITAMPage() {
                 </div>
 
                 <div className="mb-4">
-                  <h4 className="text-md font-semibold text-gray-700 mb-3">Step 6: Physical Reporting at Campus</h4>
+                  <h4 className="text-md font-semibold text-gray-700 mb-3">Physical Reporting at Campus</h4>
                   <div className="space-y-2">
                     <div className="flex items-start space-x-2">
                       <span className="text-teal-500 mt-1">•</span>
@@ -3267,7 +3276,7 @@ export default function GITAMPage() {
                 </div>
 
                 <div className="mb-4">
-                  <h4 className="text-md font-semibold text-gray-700 mb-3">Step 7: Subsequent Rounds and Seat Upgrades</h4>
+                  <h4 className="text-md font-semibold text-gray-700 mb-3">Subsequent Rounds and Seat Upgrades</h4>
                   <div className="space-y-2">
                     <div className="flex items-start space-x-2">
                       <span className="text-cyan-500 mt-1">•</span>
@@ -3577,6 +3586,10 @@ export default function GITAMPage() {
     }
   };
 
+  const renderTabContent = () => {
+    return renderTabContentFor(activeTab);
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Breadcrumb Navigation */}
@@ -3615,9 +3628,9 @@ export default function GITAMPage() {
           <div className="flex items-center justify-between mb-6">
             <div className="flex items-center space-x-4">
               <img
-                src="/images/download.jpeg"
+                src="/images/gitam-logo.jpg"
                 alt="GITAM Logo"
-                className="w-16 h-16 object-contain"
+                className="w-12 h-12 object-contain"
               />
               <div>
                 <h1 className="text-3xl font-bold text-gray-800 mb-2">
@@ -3632,16 +3645,16 @@ export default function GITAMPage() {
           </div>
 
           {/* Tabs Navigation */}
-          <div className="border-b border-gray-200">
+          <div>
             <div className="flex space-x-8">
               {tabs.map((tab) => (
                 <button
                   key={tab.id}
                   onClick={() => setActiveTab(tab.id)}
-                  className={`py-4 px-2 border-b-2 font-medium text-sm transition-colors ${
+                  className={`whitespace-nowrap px-4 py-2 font-semibold text-sm transition-colors duration-200 ${
                     activeTab === tab.id
-                      ? 'border-blue-600 text-blue-600'
-                      : 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'
+                      ? 'text-gray-800 border-b-2 border-gray-800 bg-white rounded-t-lg'
+                      : 'text-gray-600 hover:text-gray-800 hover:bg-gray-100 rounded-lg'
                   }`}
                 >
                   {tab.label}
@@ -3669,8 +3682,12 @@ export default function GITAMPage() {
                 <div className="space-y-4">
                   <div className="p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow cursor-pointer">
                     <div className="flex items-center space-x-3 mb-2">
-                      <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-                        <span className="text-blue-600 font-bold text-sm">GI</span>
+                      <div className="w-10 h-10 flex items-center justify-center">
+                        <img 
+                          src="/images/gitam-logo.jpg" 
+                          alt="GITAM Logo" 
+                          className="w-full h-full object-contain"
+                        />
                       </div>
                       <div>
                         <div className="font-semibold text-gray-800">GITAM Visakhapatnam B.Tech</div>
@@ -3687,8 +3704,12 @@ export default function GITAMPage() {
 
                   <div className="p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow cursor-pointer">
                     <div className="flex items-center space-x-3 mb-2">
-                      <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-                        <span className="text-blue-600 font-bold text-sm">GI</span>
+                      <div className="w-10 h-10 flex items-center justify-center">
+                        <img 
+                          src="/images/gitam-logo.jpg" 
+                          alt="GITAM Logo" 
+                          className="w-full h-full object-contain"
+                        />
                       </div>
                       <div>
                         <div className="font-semibold text-gray-800">GITAM Hyderabad B.Tech</div>
@@ -3705,8 +3726,12 @@ export default function GITAMPage() {
 
                   <div className="p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow cursor-pointer">
                     <div className="flex items-center space-x-3 mb-2">
-                      <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-                        <span className="text-blue-600 font-bold text-sm">GI</span>
+                      <div className="w-10 h-10 flex items-center justify-center">
+                        <img 
+                          src="/images/gitam-logo.jpg" 
+                          alt="GITAM Logo" 
+                          className="w-full h-full object-contain"
+                        />
                       </div>
                       <div>
                         <div className="font-semibold text-gray-800">GITAM Bengaluru B.Tech</div>
@@ -3729,8 +3754,12 @@ export default function GITAMPage() {
                 <div className="space-y-4">
                   <div className="p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow cursor-pointer">
                     <div className="flex items-center space-x-3 mb-2">
-                      <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
-                        <span className="text-green-600 font-bold text-sm">P</span>
+                      <div className="w-10 h-10 flex items-center justify-center">
+                        <img 
+                          src="/images/gitam-logo.jpg" 
+                          alt="GITAM Logo" 
+                          className="w-full h-full object-contain"
+                        />
                       </div>
                       <div>
                         <div className="font-semibold text-gray-800">GITAM B.Pharmacy</div>

@@ -175,7 +175,7 @@ interface NEETData {
     "ConductedBy": string;
     "Rounds": string[];
     "Process": string[];
-    "ComprehensiveCounsellingGuide": {
+    "ComprehensiveCounsellingGuide"?: {
       "Introduction": {
         "title": string;
         "description": string;
@@ -1949,6 +1949,8 @@ export default function NEETPage() {
                 </div>
               </div>
             )}
+
+
           </div>
         );
 
@@ -2514,44 +2516,46 @@ export default function NEETPage() {
       case 'eligibility':
         return (
           <div className="space-y-6">
-            {/* Basic Eligibility Overview */}
+            {/* Eligibility Criteria for NEET 2026 - Formal Version */}
             <div className="bg-white rounded-lg shadow-sm p-6">
               <h2 className="text-2xl font-bold text-gray-800 mb-6">Eligibility Criteria for NEET 2026</h2>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="space-y-4">
-                  <div className="border-l-4 border-gray-800 pl-4">
-                    <h3 className="text-lg font-semibold text-gray-800">Nationality</h3>
-                    <p className="text-gray-600">{data.EligibilityCriteria.Nationality}</p>
+              {/* Nationality */}
+              <div className="mb-8">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Nationality</h3>
+                <p className="text-gray-700">Candidates belonging to the following categories are eligible to apply:</p>
+                <p className="text-gray-700">Indian Nationals, NRIs (Non-Resident Indians), OCIs (Overseas Citizens of India), PIOs (Persons of Indian Origin), and Foreign Nationals.</p>
                   </div>
                   
-                  <div className="border-l-4 border-gray-800 pl-4">
-                    <h3 className="text-lg font-semibold text-gray-800">Age Requirements</h3>
-                    <p className="text-gray-600">Minimum Age: {data.EligibilityCriteria.MinimumAge}</p>
-                    <p className="text-gray-600">Upper Age Limit: {data.EligibilityCriteria.UpperAgeLimit}</p>
+              {/* Age Requirements */}
+              <div className="mb-8">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Age Requirements</h3>
+                <ul className="list-disc ml-6 space-y-2 text-gray-700">
+                  <li>Minimum Age: 17 years as on December 31, 2026</li>
+                  <li>Upper Age Limit: No upper age limit is prescribed</li>
+                </ul>
                   </div>
                   
-                  <div className="border-l-4 border-gray-800 pl-4">
-                    <h3 className="text-lg font-semibold text-gray-800">Educational Qualification</h3>
-                    <p className="text-gray-600">{data.EligibilityCriteria.Education}</p>
-                  </div>
+              {/* Educational Qualification */}
+              <div className="mb-8">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Educational Qualification</h3>
+                <p className="text-gray-700">Candidates must have passed or be appearing in the 10+2 or equivalent examination with Physics, Chemistry, Biology/Biotechnology, and English as core subjects.</p>
                 </div>
                 
-                <div className="space-y-4">
-                  <div className="border-l-4 border-gray-800 pl-4">
-                    <h3 className="text-lg font-semibold text-gray-800">Minimum Marks Required</h3>
-                    <div className="space-y-2">
-                      <p className="text-gray-600">General: {data.EligibilityCriteria.MinimumMarks.General}</p>
-                      <p className="text-gray-600">OBC/SC/ST: {data.EligibilityCriteria.MinimumMarks["OBC/SC/ST"]}</p>
-                      <p className="text-gray-600">PwD: {data.EligibilityCriteria.MinimumMarks.PwD}</p>
-                    </div>
+              {/* Minimum Marks Required */}
+              <div className="mb-8">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Minimum Marks Required</h3>
+                <ul className="list-disc ml-6 space-y-2 text-gray-700">
+                  <li>General Category: Minimum 50% aggregate in Physics, Chemistry, Biology/Biotechnology, and English</li>
+                  <li>OBC/SC/ST Category: Minimum 40% aggregate in the above subjects</li>
+                  <li>PwD Category: Minimum 45% aggregate in the above subjects</li>
+                </ul>
                   </div>
                   
-                  <div className="border-l-4 border-gray-800 pl-4">
-                    <h3 className="text-lg font-semibold text-gray-800">Number of Attempts</h3>
-                    <p className="text-gray-600">{data.EligibilityCriteria.NumberOfAttempts}</p>
-                  </div>
-                </div>
+              {/* Number of Attempts */}
+              <div className="mb-8">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Number of Attempts</h3>
+                <p className="text-gray-700">There is no restriction on the number of attempts for NEET 2026.</p>
               </div>
             </div>
 
@@ -2561,96 +2565,93 @@ export default function NEETPage() {
               
               {/* Nationality & Citizenship */}
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedEligibilityCriteria.NationalityAndCitizenship.title}</h3>
-                <p className="text-gray-600 mb-4">{data.DetailedEligibilityCriteria.NationalityAndCitizenship.description}</p>
-                <ul className="space-y-2">
-                  {data.DetailedEligibilityCriteria.NationalityAndCitizenship.categories.map((category, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-gray-800 mr-2 mt-1">•</span>
-                      <span className="text-gray-600">{category}</span>
-                    </li>
-                  ))}
+                <h3 className="text-lg font-semibold text-gray-800 mb-4">Nationality & Citizenship</h3>
+                <p className="text-gray-700 mb-4">The NEET 2026 eligibility criteria are inclusive, allowing candidates from multiple backgrounds to apply:</p>
+                <ul className="list-disc ml-6 space-y-2 text-gray-700">
+                  <li>Indian Nationals: Candidates holding Indian citizenship</li>
+                  <li>Non-Resident Indians (NRIs): Indian citizens residing abroad who retain Indian nationality</li>
+                  <li>Overseas Citizens of India (OCIs): Foreign citizens of Indian origin entitled to apply under rights similar to NRIs</li>
+                  <li>Persons of Indian Origin (PIOs): Individuals tracing their lineage to India as defined by government regulations</li>
+                  <li>Foreign Nationals: Candidates holding foreign passports can also apply, provided they meet admission and seat allocation norms applicable to foreign nationals</li>
                 </ul>
               </div>
 
               {/* Age Requirements */}
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedEligibilityCriteria.AgeRequirements.title}</h3>
+                <h3 className="text-lg font-semibold text-gray-800 mb-4">Age Requirements</h3>
                 <div className="space-y-4">
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold text-gray-800 mb-2">Minimum Age</h4>
-                    <p className="text-gray-600 mb-2">{data.DetailedEligibilityCriteria.AgeRequirements.minimumAge.requirement}</p>
-                    <p className="text-gray-600 text-sm">{data.DetailedEligibilityCriteria.AgeRequirements.minimumAge.description}</p>
+                    <p className="text-gray-700 mb-2">Candidates must be at least 17 years old on or before December 31, 2026</p>
+                    <p className="text-gray-700 text-sm">Those born on or before December 31, 2009, are eligible.</p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold text-gray-800 mb-2">Upper Age Limit</h4>
-                    <p className="text-gray-600 mb-2">{data.DetailedEligibilityCriteria.AgeRequirements.upperAgeLimit.requirement}</p>
-                    <p className="text-gray-600 text-sm">{data.DetailedEligibilityCriteria.AgeRequirements.upperAgeLimit.description}</p>
+                    <p className="text-gray-700 mb-2">There is no upper age limit for appearing in NEET 2026, as per recent Supreme Court and NMC rulings.</p>
+                    <p className="text-gray-700 text-sm">The removal of upper age restrictions ensures equal opportunity for all aspirants.</p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800 mb-2">Age Calculation</h4>
-                    <p className="text-gray-600">{data.DetailedEligibilityCriteria.AgeRequirements.ageCalculation}</p>
+                    <h4 className="font-semibold text-gray-800 mb-2">Age Verification</h4>
+                    <p className="text-gray-700">The date of birth mentioned on the Class 10 certificate or equivalent document will be considered official.</p>
                   </div>
                 </div>
               </div>
 
               {/* Educational Qualifications */}
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedEligibilityCriteria.EducationalQualifications.title}</h3>
-                <p className="text-gray-600 mb-4">{data.DetailedEligibilityCriteria.EducationalQualifications.description}</p>
-                <ul className="space-y-2">
-                  {data.DetailedEligibilityCriteria.EducationalQualifications.requirements.map((requirement, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-gray-800 mr-2 mt-1">•</span>
-                      <span className="text-gray-600">{requirement}</span>
-                    </li>
-                  ))}
+                <h3 className="text-lg font-semibold text-gray-800 mb-4">Educational Qualifications</h3>
+                <p className="text-gray-700 mb-4">Applicants must have passed or be appearing in a recognized qualifying examination that meets the following conditions:</p>
+                <ul className="list-disc ml-6 space-y-2 text-gray-700">
+                  <li>Qualification: Candidates should have passed or be appearing in Class 12 (10+2) or an equivalent exam from recognized boards such as CBSE, ICSE, State Boards, or NIOS.</li>
+                  <li>Mandatory Subjects: Candidates must have studied the following subjects: Physics, Chemistry, Biology/Biotechnology, and English (as a compulsory subject).</li>
                 </ul>
               </div>
 
               {/* Minimum Marks Required */}
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedEligibilityCriteria.MinimumMarksRequired.title}</h3>
-                <div className="space-y-4">
-                  {data.DetailedEligibilityCriteria.MinimumMarksRequired.categories.map((category, index) => (
-                    <div key={index} className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-800 mb-2">{category.category}</h4>
-                      <p className="text-gray-600">{category.requirement}</p>
-                    </div>
-                  ))}
+                <h3 className="text-lg font-semibold text-gray-800 mb-4">Minimum Marks Required in the Qualifying Examination</h3>
+                <div className="space-y-3">
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800 mb-2">Additional Notes</h4>
-                    <ul className="space-y-1">
-                      {data.DetailedEligibilityCriteria.MinimumMarksRequired.additionalNotes.map((note, index) => (
-                        <li key={index} className="flex items-start">
-                          <span className="text-gray-800 mr-2 mt-1">•</span>
-                          <span className="text-gray-600">{note}</span>
-                        </li>
-                      ))}
-                    </ul>
+                    <h4 className="font-semibold text-gray-800 mb-2">General Category</h4>
+                    <p className="text-gray-700">Minimum 50% aggregate in Physics, Chemistry, and Biology/Biotechnology, with English as a compulsory subject.</p>
+                    </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold text-gray-800 mb-2">OBC/SC/ST Categories</h4>
+                    <p className="text-gray-700">Minimum 40% aggregate in Physics, Chemistry, and Biology/Biotechnology, including English.</p>
                   </div>
+                  <div className="bg-gray-50 p-4 rounded-lg">
+                    <h4 className="font-semibold text-gray-800 mb-2">PwD Category</h4>
+                    <p className="text-gray-700">Candidates under the PwD category must secure at least 45% aggregate in the same subjects.</p>
+                  </div>
+                </div>
+                <div className="mt-4 p-4 bg-gray-50 rounded-lg">
+                  <p className="text-gray-700 font-semibold mb-2">Additional Notes:</p>
+                  <ul className="list-disc ml-6 space-y-1 text-gray-700">
+                    <li>Candidates must pass each subject individually.</li>
+                    <li>Open school or private candidates are eligible if they meet the subject and minimum mark requirements.</li>
+                  </ul>
                 </div>
               </div>
 
-              {/* Year of Passing and Attempts */}
+              {/* Year of Passing and Attempt Eligibility */}
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedEligibilityCriteria.YearOfPassingAndAttempts.title}</h3>
+                <h3 className="text-lg font-semibold text-gray-800 mb-4">Year of Passing and Attempt Eligibility</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold text-gray-800 mb-2">Year of Passing</h4>
-                    <p className="text-gray-600">{data.DetailedEligibilityCriteria.YearOfPassingAndAttempts.yearOfPassing}</p>
+                    <p className="text-gray-700">Candidates appearing in Class 12 in 2026, or who have passed in 2025 or 2024, are eligible to apply.</p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
                     <h4 className="font-semibold text-gray-800 mb-2">Number of Attempts</h4>
-                    <p className="text-gray-600">{data.DetailedEligibilityCriteria.YearOfPassingAndAttempts.numberOfAttempts}</p>
+                    <p className="text-gray-700">There is no limit on the number of NEET attempts. Candidates can appear multiple times to improve their scores.</p>
                   </div>
                 </div>
               </div>
 
               {/* Qualifying Codes */}
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedEligibilityCriteria.QualifyingCodes.title}</h3>
-                <p className="text-gray-600 mb-4">{data.DetailedEligibilityCriteria.QualifyingCodes.description}</p>
+                <h3 className="text-lg font-semibold text-gray-800 mb-4">Qualifying Codes (Educational Background)</h3>
+                <p className="text-gray-700 mb-4">To ensure proper verification of academic qualifications, NTA assigns specific codes based on educational background:</p>
                 <div className="overflow-x-auto">
                   <table className="w-full border-collapse border border-gray-300">
                     <thead>
@@ -2660,47 +2661,63 @@ export default function NEETPage() {
                       </tr>
                     </thead>
                     <tbody>
-                      {data.DetailedEligibilityCriteria.QualifyingCodes.codes.map((code, index) => (
-                        <tr key={index}>
-                          <td className="border border-gray-300 px-4 py-2 font-medium">{code.code}</td>
-                          <td className="border border-gray-300 px-4 py-2">{code.description}</td>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">01</td>
+                        <td className="border border-gray-300 px-4 py-2">Currently appearing or passed Class 12 in 2026 and awaiting results</td>
                         </tr>
-                      ))}
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">02</td>
+                        <td className="border border-gray-300 px-4 py-2">Passed Class 12 before 2026</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">03</td>
+                        <td className="border border-gray-300 px-4 py-2">Passed Pre-degree exam in Science in India with PCB and English (including practicals)</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">04</td>
+                        <td className="border border-gray-300 px-4 py-2">Passed any Pre-professional or Pre-medical exam after Class 12</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">05</td>
+                        <td className="border border-gray-300 px-4 py-2">Currently studying in the first year of a three-year degree course</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">06</td>
+                        <td className="border border-gray-300 px-4 py-2">Completed B.Sc. with at least two subjects among Physics, Chemistry, and Biology, and passed Class 12 with PCB</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">07</td>
+                        <td className="border border-gray-300 px-4 py-2">Qualified from foreign or equivalent pre-university/board exams</td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>
-                <p className="text-gray-600 mt-4 text-sm">{data.DetailedEligibilityCriteria.QualifyingCodes.note}</p>
+                <p className="text-gray-700 mt-4 text-sm">Candidates must carefully select the correct qualifying code during the application process to avoid disqualification or eligibility issues.</p>
               </div>
 
               {/* Special Categories */}
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedEligibilityCriteria.SpecialCategories.title}</h3>
-                <ul className="space-y-2">
-                  {data.DetailedEligibilityCriteria.SpecialCategories.points.map((point, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-gray-800 mr-2 mt-1">•</span>
-                      <span className="text-gray-600">{point}</span>
-                    </li>
-                  ))}
+                <h3 className="text-lg font-semibold text-gray-800 mb-4">Special Categories – PwD and Other Considerations</h3>
+                <ul className="list-disc ml-6 space-y-2 text-gray-700">
+                  <li>PwD Candidates: Enjoy horizontal reservation and a slightly relaxed minimum mark requirement (45% for General-PwD).</li>
+                  <li>Biology as an Additional Subject: Candidates taking Biology/Biotechnology as an additional subject are eligible but must follow the latest NMC guidelines during admission.</li>
+                  <li>Open School/NIOS Candidates: Eligible provided they have studied the mandatory subjects through a recognized board.</li>
                 </ul>
               </div>
 
               {/* Domicile and State Quotas */}
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedEligibilityCriteria.DomicileAndStateQuotas.title}</h3>
-                <ul className="space-y-2">
-                  {data.DetailedEligibilityCriteria.DomicileAndStateQuotas.points.map((point, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-gray-800 mr-2 mt-1">•</span>
-                      <span className="text-gray-600">{point}</span>
-                    </li>
-                  ))}
+                <h3 className="text-lg font-semibold text-gray-800 mb-4">Domicile and State Quotas</h3>
+                <ul className="list-disc ml-6 space-y-2 text-gray-700">
+                  <li>While NEET is a national-level examination, admissions follow All India Quota (15%) and State Quota (85%) policies.</li>
+                  <li>Candidates with state domicile may receive preference during state-level counselling.</li>
+                  <li>Valid domicile certificates are required for state quota admissions.</li>
                 </ul>
               </div>
 
               {/* Summary Table */}
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedEligibilityCriteria.SummaryTable.title}</h3>
+                <h3 className="text-lg font-semibold text-gray-800 mb-4">Summary Table: NEET 2026 Core Eligibility Criteria</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full border-collapse border border-gray-300">
                     <thead>
@@ -2710,12 +2727,34 @@ export default function NEETPage() {
                       </tr>
                     </thead>
                     <tbody>
-                      {data.DetailedEligibilityCriteria.SummaryTable.criteria.map((criterion, index) => (
-                        <tr key={index}>
-                          <td className="border border-gray-300 px-4 py-2 font-medium">{criterion.criteria}</td>
-                          <td className="border border-gray-300 px-4 py-2">{criterion.details}</td>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">Nationality</td>
+                        <td className="border border-gray-300 px-4 py-2">Indian, NRI, OCI, PIO, Foreign Nationals</td>
                         </tr>
-                      ))}
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">Minimum Age</td>
+                        <td className="border border-gray-300 px-4 py-2">17 years as on December 31, 2026</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">Upper Age Limit</td>
+                        <td className="border border-gray-300 px-4 py-2">None</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">Education</td>
+                        <td className="border border-gray-300 px-4 py-2">Passed/appearing Class 12 or equivalent with PCB & English</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">Minimum Marks</td>
+                        <td className="border border-gray-300 px-4 py-2">50% (General), 40% (Reserved), 45% (PwD)</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">Attempts</td>
+                        <td className="border border-gray-300 px-4 py-2">Unlimited</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">Year of Passing</td>
+                        <td className="border border-gray-300 px-4 py-2">Appearing or passed in 2026 or earlier</td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>
@@ -2723,231 +2762,13 @@ export default function NEETPage() {
 
               {/* Important Additional Notes */}
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedEligibilityCriteria.ImportantAdditionalNotes.title}</h3>
-                <ul className="space-y-2">
-                  {data.DetailedEligibilityCriteria.ImportantAdditionalNotes.points.map((point, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-gray-800 mr-2 mt-1">•</span>
-                      <span className="text-gray-600">{point}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-
-            {/* In-Depth Eligibility Criteria */}
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">{data.InDepthEligibilityCriteria.Introduction.title}</h2>
-              <p className="text-gray-600 mb-8">{data.InDepthEligibilityCriteria.Introduction.description}</p>
-              
-              {/* Nationality & Citizenship Criteria */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.InDepthEligibilityCriteria.NationalityAndCitizenshipCriteria.title}</h3>
-                <p className="text-gray-600 mb-4">{data.InDepthEligibilityCriteria.NationalityAndCitizenshipCriteria.description}</p>
-                <ul className="space-y-2 mb-4">
-                  {data.InDepthEligibilityCriteria.NationalityAndCitizenshipCriteria.categories.map((category, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-gray-800 mr-2 mt-1">•</span>
-                      <span className="text-gray-600">{category}</span>
-                    </li>
-                  ))}
-                </ul>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <p className="text-gray-600 text-sm">{data.InDepthEligibilityCriteria.NationalityAndCitizenshipCriteria.note}</p>
-                </div>
-              </div>
-
-              {/* Age Requirements Detailed */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.InDepthEligibilityCriteria.AgeRequirementsDetailed.title}</h3>
-                <div className="space-y-4">
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800 mb-2">Minimum Age</h4>
-                    <p className="text-gray-600 mb-2">{data.InDepthEligibilityCriteria.AgeRequirementsDetailed.minimumAge.requirement}</p>
-                    <p className="text-gray-600 mb-2 text-sm">{data.InDepthEligibilityCriteria.AgeRequirementsDetailed.minimumAge.practicalMeaning}</p>
-                    <p className="text-gray-600 text-sm">{data.InDepthEligibilityCriteria.AgeRequirementsDetailed.minimumAge.purpose}</p>
-                  </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800 mb-2">Upper Age Limit</h4>
-                    <p className="text-gray-600 mb-2">{data.InDepthEligibilityCriteria.AgeRequirementsDetailed.upperAgeLimit.requirement}</p>
-                    <p className="text-gray-600 text-sm">{data.InDepthEligibilityCriteria.AgeRequirementsDetailed.upperAgeLimit.policyChange}</p>
-                  </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800 mb-2">Age Verification</h4>
-                    <p className="text-gray-600 mb-2">{data.InDepthEligibilityCriteria.AgeRequirementsDetailed.ageVerification.domestic}</p>
-                    <p className="text-gray-600 text-sm">{data.InDepthEligibilityCriteria.AgeRequirementsDetailed.ageVerification.foreign}</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Educational Qualifications Detailed */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.InDepthEligibilityCriteria.EducationalQualificationsDetailed.title}</h3>
-                <p className="text-gray-600 mb-4">{data.InDepthEligibilityCriteria.EducationalQualificationsDetailed.basicRequirement}</p>
-                <p className="text-gray-600 mb-4">{data.InDepthEligibilityCriteria.EducationalQualificationsDetailed.practicalExams}</p>
-                <div className="bg-gray-50 p-4 rounded-lg mb-4">
-                  <h4 className="font-semibold text-gray-800 mb-2">Mandatory Subjects</h4>
-                  <ul className="space-y-1">
-                    {data.InDepthEligibilityCriteria.EducationalQualificationsDetailed.mandatorySubjects.map((subject, index) => (
-                      <li key={index} className="flex items-start">
-                        <span className="text-gray-800 mr-2 mt-1">•</span>
-                        <span className="text-gray-600">{subject}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-gray-800 mb-2">Special Cases</h4>
-                  <ul className="space-y-1">
-                    {data.InDepthEligibilityCriteria.EducationalQualificationsDetailed.specialCases.map((case_, index) => (
-                      <li key={index} className="flex items-start">
-                        <span className="text-gray-800 mr-2 mt-1">•</span>
-                        <span className="text-gray-600">{case_}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-
-              {/* Minimum Required Marks Detailed */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.InDepthEligibilityCriteria.MinimumRequiredMarksDetailed.title}</h3>
-                <div className="space-y-4">
-                  {data.InDepthEligibilityCriteria.MinimumRequiredMarksDetailed.categories.map((category, index) => (
-                    <div key={index} className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-800 mb-2">{category.category}</h4>
-                      <p className="text-gray-600">{category.requirement}</p>
-                    </div>
-                  ))}
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800 mb-2">Important Notes</h4>
-                    <ul className="space-y-1">
-                      {data.InDepthEligibilityCriteria.MinimumRequiredMarksDetailed.importantNotes.map((note, index) => (
-                        <li key={index} className="flex items-start">
-                          <span className="text-gray-800 mr-2 mt-1">•</span>
-                          <span className="text-gray-600">{note}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              {/* Year of Passing and Attempts Detailed */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.InDepthEligibilityCriteria.YearOfPassingAndAttemptsDetailed.title}</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800 mb-2">Year of Passing</h4>
-                    <p className="text-gray-600">{data.InDepthEligibilityCriteria.YearOfPassingAndAttemptsDetailed.yearOfPassing}</p>
-                  </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800 mb-2">Number of Attempts</h4>
-                    <p className="text-gray-600">{data.InDepthEligibilityCriteria.YearOfPassingAndAttemptsDetailed.numberOfAttempts}</p>
-                  </div>
-                </div>
-                <div className="mt-4 space-y-2">
-                  <p className="text-gray-600">{data.InDepthEligibilityCriteria.YearOfPassingAndAttemptsDetailed.flexibility}</p>
-                  <p className="text-gray-600">{data.InDepthEligibilityCriteria.YearOfPassingAndAttemptsDetailed.purpose}</p>
-                </div>
-              </div>
-
-              {/* Qualifying Codes Detailed */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.InDepthEligibilityCriteria.QualifyingCodesDetailed.title}</h3>
-                <p className="text-gray-600 mb-4">{data.InDepthEligibilityCriteria.QualifyingCodesDetailed.description}</p>
-                <div className="overflow-x-auto">
-                  <table className="w-full border-collapse border border-gray-300">
-                    <thead>
-                      <tr className="bg-gray-100">
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Code</th>
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Description</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {data.InDepthEligibilityCriteria.QualifyingCodesDetailed.codes.map((code, index) => (
-                        <tr key={index}>
-                          <td className="border border-gray-300 px-4 py-2 font-medium">{code.code}</td>
-                          <td className="border border-gray-300 px-4 py-2">{code.description}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-                <p className="text-gray-600 mt-4 text-sm">{data.InDepthEligibilityCriteria.QualifyingCodesDetailed.importantNote}</p>
-              </div>
-
-              {/* Special Considerations */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.InDepthEligibilityCriteria.SpecialConsiderations.title}</h3>
-                <ul className="space-y-2">
-                  {data.InDepthEligibilityCriteria.SpecialConsiderations.points.map((point, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-gray-800 mr-2 mt-1">•</span>
-                      <span className="text-gray-600">{point}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Domicile and Reservation Policies */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.InDepthEligibilityCriteria.DomicileAndReservationPolicies.title}</h3>
-                <p className="text-gray-600 mb-4">{data.InDepthEligibilityCriteria.DomicileAndReservationPolicies.description}</p>
-                <div className="space-y-4">
-                  {data.InDepthEligibilityCriteria.DomicileAndReservationPolicies.quotaDistribution.map((quota, index) => (
-                    <div key={index} className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-800 mb-2">{quota.quota}</h4>
-                      <p className="text-gray-600">{quota.description}</p>
-                    </div>
-                  ))}
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800 mb-2">Additional Requirements</h4>
-                    <ul className="space-y-1">
-                      {data.InDepthEligibilityCriteria.DomicileAndReservationPolicies.additionalRequirements.map((requirement, index) => (
-                        <li key={index} className="flex items-start">
-                          <span className="text-gray-800 mr-2 mt-1">•</span>
-                          <span className="text-gray-600">{requirement}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              {/* Summary Table Detailed */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.InDepthEligibilityCriteria.SummaryTableDetailed.title}</h3>
-                <div className="overflow-x-auto">
-                  <table className="w-full border-collapse border border-gray-300">
-                    <thead>
-                      <tr className="bg-gray-100">
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Criteria</th>
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Details</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {data.InDepthEligibilityCriteria.SummaryTableDetailed.criteria.map((criterion, index) => (
-                        <tr key={index}>
-                          <td className="border border-gray-300 px-4 py-2 font-medium">{criterion.criteria}</td>
-                          <td className="border border-gray-300 px-4 py-2">{criterion.details}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-
-              {/* Additional Important Notes Detailed */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.InDepthEligibilityCriteria.AdditionalImportantNotesDetailed.title}</h3>
-                <ul className="space-y-2">
-                  {data.InDepthEligibilityCriteria.AdditionalImportantNotesDetailed.points.map((point, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-gray-800 mr-2 mt-1">•</span>
-                      <span className="text-gray-600">{point}</span>
-                    </li>
-                  ))}
+                <h3 className="text-lg font-semibold text-gray-800 mb-4">Important Additional Notes for NEET 2026 Eligibility</h3>
+                <ul className="list-disc ml-6 space-y-2 text-gray-700">
+                  <li>Verification & Documentation: Candidates must retain original mark sheets, certificates, and valid photo ID for counselling verification.</li>
+                  <li>Foreign Nationals: Admission depends on eligibility confirmation and seat availability under the All India or institutional quota.</li>
+                  <li>Board Equivalency: International students must obtain an equivalency certificate validating PCB and English subjects.</li>
+                  <li>Information Updates: Aspirants should refer to the official NEET 2026 Information Bulletin for the latest amendments.</li>
+                  <li>Syllabus Relevance: Preparation should align with the NCERT Class 11 and 12 syllabus in Physics, Chemistry, and Biology for best results.</li>
                 </ul>
               </div>
             </div>
@@ -2957,487 +2778,439 @@ export default function NEETPage() {
       case 'application':
         return (
           <div className="space-y-6">
-            {/* Basic Application Process Overview */}
+            {/* NEET 2026 Application Process */}
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">Application Process for NEET 2026</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">NEET 2026 Application Process</h2>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-4">Mode of Application</h3>
+              <p className="text-gray-700 mb-6">
+                The NEET 2026 application process will be conducted <strong>exclusively in online mode</strong> through the official NTA websites – 
+                <a href="https://nta.ac.in" className="text-blue-600 hover:underline mx-1" target="_blank" rel="noopener noreferrer">nta.ac.in</a> 
+                or 
+                <a href="https://neet.nta.nic.in" className="text-blue-600 hover:underline mx-1" target="_blank" rel="noopener noreferrer">neet.nta.nic.in</a>. 
+                No offline or paper-based submissions are accepted.
+              </p>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="space-y-4">
-                  <div className="border-l-4 border-gray-800 pl-4">
-                    <h3 className="text-lg font-semibold text-gray-800">Mode</h3>
-                    <p className="text-gray-600">{data.ApplicationProcess.Mode}</p>
-                  </div>
+              <h3 className="text-xl font-bold text-gray-800 mb-4">Application Timeline</h3>
+              <p className="text-gray-700 mb-6">
+                The registration window is expected to remain open from <strong>February to March 2026</strong>, giving candidates sufficient time to complete and verify their applications.
+              </p>
 
-                  <div className="border-l-4 border-gray-800 pl-4">
-                    <h3 className="text-lg font-semibold text-gray-800">Timeline</h3>
-                    <p className="text-gray-600">{data.ApplicationProcess.Timeline}</p>
-                  </div>
-                </div>
-
-                <div className="space-y-4">
-                  <div className="border-l-4 border-gray-800 pl-4">
-                    <h3 className="text-lg font-semibold text-gray-800">Application Fee</h3>
-                    <div className="space-y-2">
-                      <p className="text-gray-600">General: {data.ApplicationProcess.ApplicationFee.General}</p>
-                      <p className="text-gray-600">OBC: {data.ApplicationProcess.ApplicationFee.OBC}</p>
-                      <p className="text-gray-600">SC/ST/Reserved: {data.ApplicationProcess.ApplicationFee["SC/ST/Reserved"]}</p>
-                      <p className="text-gray-600">Foreign: {data.ApplicationProcess.ApplicationFee.Foreign}</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Detailed Application Process */}
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">{data.DetailedApplicationProcess.Introduction.title}</h2>
-              <p className="text-gray-600 mb-8">{data.DetailedApplicationProcess.Introduction.description}</p>
-
-              {/* Registration */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedApplicationProcess.Step1Registration.title}</h3>
-                <ol className="space-y-2">
-                  {data.DetailedApplicationProcess.Step1Registration.steps.map((step, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-gray-800 mr-2 mt-1 font-medium">{index + 1}.</span>
-                      <span className="text-gray-600">{step}</span>
-                    </li>
-                  ))}
-                </ol>
-              </div>
-
-              {/* Application Form */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedApplicationProcess.Step2ApplicationForm.title}</h3>
-                <p className="text-gray-600 mb-4">{data.DetailedApplicationProcess.Step2ApplicationForm.description}</p>
-                <div className="space-y-4">
-                  {data.DetailedApplicationProcess.Step2ApplicationForm.sections.map((section, index) => (
-                    <div key={index} className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-800 mb-2">{section.section}</h4>
-                      <p className="text-gray-600">{section.details}</p>
-                    </div>
-                  ))}
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg mt-4">
-                  <p className="text-gray-600 text-sm">{data.DetailedApplicationProcess.Step2ApplicationForm.importantNote}</p>
-                </div>
-              </div>
-
-              {/* Document Upload */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedApplicationProcess.Step3DocumentUpload.title}</h3>
-                <p className="text-gray-600 mb-4">{data.DetailedApplicationProcess.Step3DocumentUpload.description}</p>
-                <div className="overflow-x-auto">
+              <h3 className="text-xl font-bold text-gray-800 mb-4">Application Fee Structure</h3>
+              <div className="overflow-x-auto mb-6">
                   <table className="w-full border-collapse border border-gray-300">
                     <thead>
                       <tr className="bg-gray-100">
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Document Type</th>
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Specifications</th>
+                      <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Category</th>
+                      <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Application Fee</th>
                       </tr>
                     </thead>
                     <tbody>
-                      {data.DetailedApplicationProcess.Step3DocumentUpload.documents.map((doc, index) => (
-                        <tr key={index}>
-                          <td className="border border-gray-300 px-4 py-2 font-medium">{doc.document}</td>
-                          <td className="border border-gray-300 px-4 py-2">{doc.specifications}</td>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2 font-medium">General</td>
+                      <td className="border border-gray-300 px-4 py-2">₹1,700</td>
                         </tr>
-                      ))}
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2 font-medium">OBC</td>
+                      <td className="border border-gray-300 px-4 py-2">₹1,600</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2 font-medium">SC/ST/Reserved</td>
+                      <td className="border border-gray-300 px-4 py-2">₹1,000</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2 font-medium">Foreign Nationals</td>
+                      <td className="border border-gray-300 px-4 py-2">₹9,500</td>
+                    </tr>
+                    </tbody>
+                  </table>
+              </div>
+
+              <h3 className="text-2xl font-bold text-gray-800 mb-6">Step-by-Step Guide to the NEET 2026 Application Process</h3>
+              <p className="text-gray-700 mb-6">
+                The <strong>National Testing Agency (NTA)</strong> manages the entire NEET 2026 registration process online. The step-by-step procedure outlined below ensures candidates can apply smoothly and avoid errors.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-4">Step 1: Registration on the Official Portal</h3>
+              <ul className="space-y-3 mb-8 text-gray-700 list-disc list-inside">
+                <li className="flex items-start">
+                  
+                  <span>Visit the official NTA NEET websites: <strong>nta.ac.in</strong> or <strong>neet.nta.nic.in</strong>.</span>
+                        </li>
+                <li className="flex items-start">
+                  
+                  <span>Click on the <em>"New Registration"</em> or <em>"Fill Registration Form"</em> link available on the homepage once registration begins.</span>
+                    </li>
+                <li className="flex items-start">
+                  <span>Carefully read all instructions and eligibility criteria before proceeding.</span>
+                </li>
+                <li className="flex items-start">
+                  <span>Enter basic personal details such as full name, date of birth, gender, nationality, email ID, and mobile number — exactly as mentioned in official documents.</span>
+                </li>
+                <li className="flex items-start">
+                  <span>Create a secure password and choose security questions to protect your account.</span>
+                </li>
+                <li className="flex items-start">
+                  <span>Submit the form to receive your <strong>unique application number and password</strong> via OTP confirmation sent to your registered email and mobile number.</span>
+                </li>
+                <li className="flex items-start">
+                  <span>Keep these credentials safe for future logins.</span>
+                </li>
+                </ul>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-4">Step 2: Filling the Application Form</h3>
+              <p className="text-gray-700 mb-4">
+                Log in using the provided credentials and enter the following details carefully:
+              </p>
+              <div className="space-y-4 mb-6">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-800 mb-2">Personal Information</h4>
+                  <p className="text-gray-600">Full name, parents' names, date of birth, gender, category, and PwD status (if applicable).</p>
+                  </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-800 mb-2">Contact Details</h4>
+                  <p className="text-gray-600">Provide both permanent and correspondence addresses, including postal codes.</p>
+                  </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-800 mb-2">Academic Details</h4>
+                  <p className="text-gray-600">Mention the board name, year of passing, roll number, and marks for Class 10 and Class 12 (or appearing status).</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-800 mb-2">Language & Exam Center Preferences</h4>
+                  <p className="text-gray-600">Select the preferred <strong>medium of the question paper</strong> (out of 13 available languages) and <strong>two exam cities</strong> in order of preference.</p>
+                    </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-800 mb-2">Parents/Guardian Details</h4>
+                  <p className="text-gray-600">Include occupation, annual income, and educational qualifications.</p>
+                  </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-800 mb-2">Other Declarations</h4>
+                  <p className="text-gray-600">If your customary attire conflicts with the examination dress code, declare it here.</p>
+                </div>
+              </div>
+              <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 mb-6">
+                <p className="text-gray-800 text-sm">
+                  ⚠️ <strong>Note:</strong> Ensure all information is accurate and complete. Incomplete or incorrect entries may lead to rejection.
+                </p>
+            </div>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-4">Step 3: Uploading Required Documents</h3>
+              <p className="text-gray-700 mb-4">
+                Upload the scanned copies of required documents in the prescribed format and size:
+              </p>
+              <div className="overflow-x-auto mb-6">
+                  <table className="w-full border-collapse border border-gray-300">
+                    <thead>
+                      <tr className="bg-gray-100">
+                      <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Document</th>
+                      <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Format</th>
+                      <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Size Limit</th>
+                      <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Remarks</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2 font-medium">Passport-size Photograph</td>
+                      <td className="border border-gray-300 px-4 py-2">JPG/JPEG</td>
+                      <td className="border border-gray-300 px-4 py-2">10 KB – 200 KB</td>
+                      <td className="border border-gray-300 px-4 py-2">Recent color photo</td>
+                        </tr>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2 font-medium">Signature</td>
+                      <td className="border border-gray-300 px-4 py-2">JPG/JPEG</td>
+                      <td className="border border-gray-300 px-4 py-2">4 KB – 30 KB</td>
+                      <td className="border border-gray-300 px-4 py-2">On white paper with blue/black ink</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2 font-medium">Left-hand Thumb Impression</td>
+                      <td className="border border-gray-300 px-4 py-2">JPG/JPEG</td>
+                      <td className="border border-gray-300 px-4 py-2">10 KB – 50 KB</td>
+                      <td className="border border-gray-300 px-4 py-2">If applicable</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2 font-medium">Class 10 Marksheet/Certificate</td>
+                      <td className="border border-gray-300 px-4 py-2">PDF/JPG</td>
+                      <td className="border border-gray-300 px-4 py-2">—</td>
+                      <td className="border border-gray-300 px-4 py-2">For DOB verification</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2 font-medium">Class 12 Marksheet</td>
+                      <td className="border border-gray-300 px-4 py-2">PDF/JPG</td>
+                      <td className="border border-gray-300 px-4 py-2">—</td>
+                      <td className="border border-gray-300 px-4 py-2">If available</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2 font-medium">Category Certificate</td>
+                      <td className="border border-gray-300 px-4 py-2">PDF/JPG</td>
+                      <td className="border border-gray-300 px-4 py-2">—</td>
+                      <td className="border border-gray-300 px-4 py-2">Mandatory for reserved categories</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2 font-medium">PwD Certificate</td>
+                      <td className="border border-gray-300 px-4 py-2">PDF/JPG</td>
+                      <td className="border border-gray-300 px-4 py-2">—</td>
+                      <td className="border border-gray-300 px-4 py-2">Mandatory for PwD candidates</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2 font-medium">Identity Proof</td>
+                      <td className="border border-gray-300 px-4 py-2">PDF/JPG</td>
+                      <td className="border border-gray-300 px-4 py-2">—</td>
+                      <td className="border border-gray-300 px-4 py-2">Aadhaar, Passport, PAN, etc.</td>
+                    </tr>
                     </tbody>
                   </table>
                 </div>
-                <div className="bg-gray-50 p-4 rounded-lg mt-4">
-                  <p className="text-gray-600 text-sm">{data.DetailedApplicationProcess.Step3DocumentUpload.warning}</p>
-                </div>
-              </div>
+              <p className="text-gray-700 mb-8">
+                Ensure all uploads are <strong>clear, legible, and within size limits</strong> to prevent rejection.
+              </p>
 
-              {/* Fee Payment */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedApplicationProcess.Step4FeePayment.title}</h3>
-                <p className="text-gray-600 mb-4">{data.DetailedApplicationProcess.Step4FeePayment.description}</p>
-                <div className="space-y-4">
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800 mb-2">Fee Structure</h4>
+              <h3 className="text-xl font-bold text-gray-800 mb-4">Step 4: Payment of Application Fee</h3>
+              <p className="text-gray-700 mb-4">
+                Candidates must pay the application fee online using <strong>Net Banking, Credit/Debit Card, or UPI</strong>.
+              </p>
+              <div className="bg-gray-50 p-4 rounded-lg mb-4">
                     <div className="overflow-x-auto">
                       <table className="w-full border-collapse border border-gray-300">
                         <thead>
                           <tr className="bg-gray-100">
                             <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Category</th>
-                            <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Fee</th>
+                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Application Fee</th>
                           </tr>
                         </thead>
                         <tbody>
-                          {data.DetailedApplicationProcess.Step4FeePayment.feeStructure.map((fee, index) => (
-                            <tr key={index}>
-                              <td className="border border-gray-300 px-4 py-2 font-medium">{fee.category}</td>
-                              <td className="border border-gray-300 px-4 py-2">{fee.fee}</td>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">General</td>
+                        <td className="border border-gray-300 px-4 py-2">₹1,700</td>
                             </tr>
-                          ))}
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">OBC-NCL</td>
+                        <td className="border border-gray-300 px-4 py-2">₹1,600</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">SC/ST/Reserved</td>
+                        <td className="border border-gray-300 px-4 py-2">₹1,000</td>
+                      </tr>
+                      <tr>
+                        <td className="border border-gray-300 px-4 py-2 font-medium">Foreign Nationals</td>
+                        <td className="border border-gray-300 px-4 py-2">₹9,500</td>
+                      </tr>
                         </tbody>
                       </table>
                     </div>
                   </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800 mb-2">Important Notes</h4>
-                    <ul className="space-y-1">
-                      {data.DetailedApplicationProcess.Step4FeePayment.importantNotes.map((note, index) => (
-                        <li key={index} className="flex items-start">
+              <div className="bg-gray-50 p-4 rounded-lg mb-6">
+                <h4 className="font-semibold text-gray-800 mb-2">Important Instructions:</h4>
+                <ul className="space-y-2 text-gray-700">
+                  <li className="flex items-start">
                           <span className="text-gray-800 mr-2 mt-1">•</span>
-                          <span className="text-gray-600">{note}</span>
+                    <span>Fees once paid are <strong>non-refundable</strong> under any circumstance.</span>
                         </li>
-                      ))}
+                  <li className="flex items-start">
+                    <span className="text-gray-800 mr-2 mt-1">•</span>
+                    <span>After payment, candidates receive confirmation via <strong>SMS and email</strong>.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-gray-800 mr-2 mt-1">•</span>
+                    <span>Retain the <strong>payment receipt and confirmation page</strong> for future reference.</span>
+                  </li>
                     </ul>
-                  </div>
-                </div>
               </div>
 
-              {/* Review and Submission */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedApplicationProcess.Step5ReviewSubmission.title}</h3>
-                <ol className="space-y-2">
-                  {data.DetailedApplicationProcess.Step5ReviewSubmission.steps.map((step, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-gray-800 mr-2 mt-1 font-medium">{index + 1}.</span>
-                      <span className="text-gray-600">{step}</span>
+              <h3 className="text-xl font-bold text-gray-800 mb-4">Step 5: Review and Final Submission</h3>
+              <ul className="space-y-3 mb-6 text-gray-700 list-disc list-inside">
+                <li className="flex items-start">
+                  
+                  <span>Review all details carefully before submitting the form.</span>
                     </li>
-                  ))}
-                </ol>
-              </div>
-
-              {/* Post-Submission Correction */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedApplicationProcess.PostSubmissionCorrection.title}</h3>
-                <p className="text-gray-600 mb-4">{data.DetailedApplicationProcess.PostSubmissionCorrection.description}</p>
-                <ul className="space-y-2">
-                  {data.DetailedApplicationProcess.PostSubmissionCorrection.importantNotes.map((note, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-gray-800 mr-2 mt-1">•</span>
-                      <span className="text-gray-600">{note}</span>
+                <li className="flex items-start">
+                  
+                  <span>Only limited corrections can be made later during the <strong>correction window</strong>.</span>
                     </li>
-                  ))}
+                <li className="flex items-start">
+                  
+                  <span>Confirm final submission by selecting the <em>"Yes, Submit"</em> prompt.</span>
+                </li>
+                <li className="flex items-start">
+                  
+                  <span>Download and print the <strong>confirmation page</strong> — this acts as proof of successful application.</span>
+                </li>
                 </ul>
-              </div>
 
-              {/* Important Tips */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedApplicationProcess.ImportantTips.title}</h3>
-                <ul className="space-y-2">
-                  {data.DetailedApplicationProcess.ImportantTips.tips.map((tip, index) => (
-                    <li key={index} className="flex items-start">
+              <h3 className="text-xl font-bold text-gray-800 mb-4">Post-Submission: Application Correction Window</h3>
+              <p className="text-gray-700 mb-4">
+                After the registration deadline, NTA provides a short correction window allowing candidates to edit select details such as:
+              </p>
+              <ul className="space-y-2 mb-4 text-gray-700">
+                <li className="flex items-start">
                       <span className="text-gray-800 mr-2 mt-1">•</span>
-                      <span className="text-gray-600">{tip}</span>
+                  <span>Exam city preference</span>
                     </li>
-                  ))}
+                <li className="flex items-start">
+                  <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>Category or PwD status</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>Spelling corrections in name or address</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>Photo or signature re-upload</span>
+                </li>
                 </ul>
+              <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 mb-8">
+                <p className="text-gray-800 text-sm">
+                  <em>Note:</em> Some changes may require additional payment. This is the final opportunity to rectify errors before admit card release.
+                </p>
               </div>
 
-              {/* Documents Checklist */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedApplicationProcess.DocumentsChecklist.title}</h3>
-                <ul className="space-y-2">
-                  {data.DetailedApplicationProcess.DocumentsChecklist.documents.map((doc, index) => (
-                    <li key={index} className="flex items-start">
+              <h3 className="text-xl font-bold text-gray-800 mb-4">Important Tips for NEET 2026 Applicants</h3>
+              <ul className="space-y-2 mb-8 text-gray-700">
+                <li className="flex items-start">
                       <span className="text-gray-800 mr-2 mt-1">•</span>
-                      <span className="text-gray-600">{doc}</span>
+                  <span>Keep all scanned documents ready before starting the application.</span>
                     </li>
-                  ))}
+                <li className="flex items-start">
+                  <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>Use a <strong>stable internet connection</strong> to avoid submission errors.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>Enter personal details exactly as per official ID proof.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>Ensure <strong>photographs and signatures</strong> meet clarity and background standards.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>Safeguard your application number and password.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>Do not delay submission until the last day to avoid technical issues.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>Keep <strong>multiple printouts</strong> of the confirmation page for future reference.</span>
+                </li>
                 </ul>
-              </div>
 
-              {/* Important Deadlines */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedApplicationProcess.ImportantDeadlines.title}</h3>
-                <div className="overflow-x-auto">
-                  <table className="w-full border-collapse border border-gray-300">
-                    <thead>
-                      <tr className="bg-gray-100">
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Application Step</th>
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Tentative Date</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {data.DetailedApplicationProcess.ImportantDeadlines.deadlines.map((deadline, index) => (
-                        <tr key={index}>
-                          <td className="border border-gray-300 px-4 py-2 font-medium">{deadline.step}</td>
-                          <td className="border border-gray-300 px-4 py-2">{deadline.date}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-
-              {/* FAQs */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedApplicationProcess.FAQs.title}</h3>
-                <div className="space-y-4">
-                  {data.DetailedApplicationProcess.FAQs.faqs.map((faq, index) => (
-                    <div key={index} className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-800 mb-2">{faq.question}</h4>
-                      <p className="text-gray-600">{faq.answer}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* Exhaustive Application Process */}
-            <div className="bg-white rounded-lg shadow-sm p-6">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">{data.ExhaustiveApplicationProcess.Introduction.title}</h2>
-              <p className="text-gray-600 mb-8">{data.ExhaustiveApplicationProcess.Introduction.description}</p>
-
-              {/* Application Mode and Portal */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.ExhaustiveApplicationProcess.ApplicationModeAndPortal.title}</h3>
-                <ul className="space-y-2">
-                  {data.ExhaustiveApplicationProcess.ApplicationModeAndPortal.points.map((point, index) => (
-                    <li key={index} className="flex items-start">
+              <h3 className="text-xl font-bold text-gray-800 mb-4">Documents Checklist for NEET 2026 Application</h3>
+              <ul className="space-y-2 mb-8 text-gray-700">
+                <li className="flex items-start">
                       <span className="text-gray-800 mr-2 mt-1">•</span>
-                      <span className="text-gray-600">{point}</span>
+                  <span>Recent passport-size photograph (white background)</span>
                     </li>
-                  ))}
+                <li className="flex items-start">
+                  <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>Signature on white paper using black/blue ink</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>Left-hand thumb impression (if applicable)</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>Class 10 certificate or marksheet (proof of DOB)</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>Class 12 marksheet/admit card (if applicable)</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>Category certificate (SC/ST/OBC/EWS), if applicable</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>PwD certificate (if applicable)</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>Valid government photo ID (Aadhaar, Passport, PAN, Voter ID)</span>
+                </li>
                 </ul>
-              </div>
 
-              {/* Timeline for Application */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.ExhaustiveApplicationProcess.TimelineForApplication.title}</h3>
-                <div className="overflow-x-auto">
+              <h3 className="text-xl font-bold text-gray-800 mb-4">Tentative NEET 2026 Application Dates</h3>
+              <div className="overflow-x-auto mb-8">
                   <table className="w-full border-collapse border border-gray-300">
                     <thead>
                       <tr className="bg-gray-100">
                         <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Stage</th>
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Tentative Dates</th>
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Details</th>
+                      <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Tentative Date</th>
                       </tr>
                     </thead>
                     <tbody>
-                      {data.ExhaustiveApplicationProcess.TimelineForApplication.timeline.map((item, index) => (
-                        <tr key={index}>
-                          <td className="border border-gray-300 px-4 py-2 font-medium">{item.stage}</td>
-                          <td className="border border-gray-300 px-4 py-2">{item.date}</td>
-                          <td className="border border-gray-300 px-4 py-2">{item.details}</td>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2 font-medium">Application Start</td>
+                      <td className="border border-gray-300 px-4 py-2">First week of February 2026</td>
                         </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-
-              {/* Step 1: Registration Detailed */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.ExhaustiveApplicationProcess.Step1RegistrationDetailed.title}</h3>
-                <ol className="space-y-2">
-                  {data.ExhaustiveApplicationProcess.Step1RegistrationDetailed.steps.map((step, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-gray-800 mr-2 mt-1 font-medium">{index + 1}.</span>
-                      <span className="text-gray-600">{step}</span>
-                    </li>
-                  ))}
-                </ol>
-              </div>
-
-              {/* Step 2: Application Form Detailed */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.ExhaustiveApplicationProcess.Step2ApplicationFormDetailed.title}</h3>
-                <p className="text-gray-600 mb-4">{data.ExhaustiveApplicationProcess.Step2ApplicationFormDetailed.description}</p>
-                <div className="space-y-4">
-                  {data.ExhaustiveApplicationProcess.Step2ApplicationFormDetailed.sections.map((section, index) => (
-                    <div key={index} className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-800 mb-2">{section.section}</h4>
-                      <p className="text-gray-600">{section.description}</p>
-                    </div>
-                  ))}
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg mt-4">
-                  <p className="text-gray-600 text-sm">{data.ExhaustiveApplicationProcess.Step2ApplicationFormDetailed.importantNote}</p>
-                </div>
-              </div>
-
-              {/* Step 3: Document Upload Detailed */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.ExhaustiveApplicationProcess.Step3DocumentUploadDetailed.title}</h3>
-                <p className="text-gray-600 mb-4">{data.ExhaustiveApplicationProcess.Step3DocumentUploadDetailed.description}</p>
-                <div className="overflow-x-auto">
-                  <table className="w-full border-collapse border border-gray-300">
-                    <thead>
-                      <tr className="bg-gray-100">
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Document</th>
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">File Format</th>
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Size Limits</th>
-                        <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Notes</th>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2 font-medium">Application End</td>
+                      <td className="border border-gray-300 px-4 py-2">First week of March 2026</td>
                       </tr>
-                    </thead>
-                    <tbody>
-                      {data.ExhaustiveApplicationProcess.Step3DocumentUploadDetailed.documents.map((doc, index) => (
-                        <tr key={index}>
-                          <td className="border border-gray-300 px-4 py-2 font-medium">{doc.document}</td>
-                          <td className="border border-gray-300 px-4 py-2">{doc.format}</td>
-                          <td className="border border-gray-300 px-4 py-2">{doc.size}</td>
-                          <td className="border border-gray-300 px-4 py-2">{doc.notes}</td>
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2 font-medium">Correction Window</td>
+                      <td className="border border-gray-300 px-4 py-2">Mid to late March 2026</td>
                         </tr>
-                      ))}
+                    <tr>
+                      <td className="border border-gray-300 px-4 py-2 font-medium">Admit Card Release</td>
+                      <td className="border border-gray-300 px-4 py-2">First week of May 2026</td>
+                    </tr>
                     </tbody>
                   </table>
-                </div>
-                <div className="bg-gray-50 p-4 rounded-lg mt-4">
-                  <h4 className="font-semibold text-gray-800 mb-2">Upload Tips</h4>
-                  <ul className="space-y-1">
-                    {data.ExhaustiveApplicationProcess.Step3DocumentUploadDetailed.uploadTips.map((tip, index) => (
-                      <li key={index} className="flex items-start">
-                        <span className="text-gray-800 mr-2 mt-1">•</span>
-                        <span className="text-gray-600">{tip}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
               </div>
 
-              {/* Step 4: Fee Payment Detailed */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.ExhaustiveApplicationProcess.Step4FeePaymentDetailed.title}</h3>
-                <p className="text-gray-600 mb-4">{data.ExhaustiveApplicationProcess.Step4FeePaymentDetailed.description}</p>
-                <div className="space-y-4">
+              <h3 className="text-xl font-bold text-gray-800 mb-4">Frequently Asked Questions (FAQs)</h3>
+              <div className="space-y-4 mb-6">
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800 mb-2">Fee Structure</h4>
-                    <div className="overflow-x-auto">
-                      <table className="w-full border-collapse border border-gray-300">
-                        <thead>
-                          <tr className="bg-gray-100">
-                            <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Candidate Category</th>
-                            <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Fee (INR)</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {data.ExhaustiveApplicationProcess.Step4FeePaymentDetailed.feeStructure.map((fee, index) => (
-                            <tr key={index}>
-                              <td className="border border-gray-300 px-4 py-2 font-medium">{fee.category}</td>
-                              <td className="border border-gray-300 px-4 py-2">{fee.fee}</td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
+                  <h4 className="font-semibold text-gray-800 mb-2">Q1. Can I change my exam center after submitting the form?</h4>
+                  <p className="text-gray-600">You can request changes only during the correction window, and they are subject to availability.</p>
                     </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-800 mb-2">Q2. What should I do if my photograph or signature is rejected?</h4>
+                  <p className="text-gray-600">You will be notified during the correction window to re-upload images that meet NTA's specifications.</p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800 mb-2">Fee Payment Methods</h4>
-                    <ul className="space-y-1">
-                      {data.ExhaustiveApplicationProcess.Step4FeePaymentDetailed.paymentMethods.map((method, index) => (
-                        <li key={index} className="flex items-start">
-                          <span className="text-gray-800 mr-2 mt-1">•</span>
-                          <span className="text-gray-600">{method}</span>
-                        </li>
-                      ))}
-                    </ul>
+                  <h4 className="font-semibold text-gray-800 mb-2">Q3. Is offline registration available?</h4>
+                  <p className="text-gray-600">No. NEET registration is strictly online.</p>
                   </div>
                   <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800 mb-2">Important Notes</h4>
-                    <ul className="space-y-1">
-                      {data.ExhaustiveApplicationProcess.Step4FeePaymentDetailed.importantNotes.map((note, index) => (
-                        <li key={index} className="flex items-start">
-                          <span className="text-gray-800 mr-2 mt-1">•</span>
-                          <span className="text-gray-600">{note}</span>
-                        </li>
-                      ))}
-                    </ul>
+                  <h4 className="font-semibold text-gray-800 mb-2">Q4. What happens if my fee payment fails?</h4>
+                  <p className="text-gray-600">Retry using a different payment method before the deadline or contact NTA helpline support.</p>
                   </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-800 mb-2">Q5. Are there any fee concessions for reserved categories?</h4>
+                  <p className="text-gray-600">Yes, reduced fees apply as specified for SC, ST, OBC, and EWS candidates.</p>
                 </div>
               </div>
 
-              {/* Step 5: Review and Submission Detailed */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.ExhaustiveApplicationProcess.Step5ReviewSubmissionDetailed.title}</h3>
-                <ol className="space-y-2">
-                  {data.ExhaustiveApplicationProcess.Step5ReviewSubmissionDetailed.steps.map((step, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-gray-800 mr-2 mt-1 font-medium">{index + 1}.</span>
-                      <span className="text-gray-600">{step}</span>
+              <h3 className="text-xl font-bold text-gray-800 mb-4">Best Practices for a Smooth NEET Application</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li className="flex items-start">
+                  <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>Prepare all documents beforehand.</span>
                     </li>
-                  ))}
-                </ol>
-              </div>
-
-              {/* Post-Submission Correction Detailed */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.ExhaustiveApplicationProcess.PostSubmissionCorrectionDetailed.title}</h3>
-                <p className="text-gray-600 mb-4">{data.ExhaustiveApplicationProcess.PostSubmissionCorrectionDetailed.description}</p>
-                <div className="space-y-4">
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800 mb-2">Amendable Fields</h4>
-                    <ul className="space-y-1">
-                      {data.ExhaustiveApplicationProcess.PostSubmissionCorrectionDetailed.amendableFields.map((field, index) => (
-                        <li key={index} className="flex items-start">
+                <li className="flex items-start">
                           <span className="text-gray-800 mr-2 mt-1">•</span>
-                          <span className="text-gray-600">{field}</span>
+                  <span>Fill out the form early to avoid last-minute server issues.</span>
                         </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-800 mb-2">Important Notes</h4>
-                    <ul className="space-y-1">
-                      {data.ExhaustiveApplicationProcess.PostSubmissionCorrectionDetailed.importantNotes.map((note, index) => (
-                        <li key={index} className="flex items-start">
+                <li className="flex items-start">
                           <span className="text-gray-800 mr-2 mt-1">•</span>
-                          <span className="text-gray-600">{note}</span>
+                  <span>Double-check eligibility and category details.</span>
                         </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              {/* Common Challenges and Solutions */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.ExhaustiveApplicationProcess.CommonChallengesAndSolutions.title}</h3>
-                <div className="space-y-4">
-                  {data.ExhaustiveApplicationProcess.CommonChallengesAndSolutions.challenges.map((challenge, index) => (
-                    <div key={index} className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-800 mb-2">{challenge.challenge}</h4>
-                      <p className="text-gray-600">{challenge.solution}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Best Practices */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.ExhaustiveApplicationProcess.BestPractices.title}</h3>
-                <ul className="space-y-2">
-                  {data.ExhaustiveApplicationProcess.BestPractices.practices.map((practice, index) => (
-                    <li key={index} className="flex items-start">
+                <li className="flex items-start">
                       <span className="text-gray-800 mr-2 mt-1">•</span>
-                      <span className="text-gray-600">{practice}</span>
+                  <span>Retain a copy of every document submitted.</span>
                     </li>
-                  ))}
+                <li className="flex items-start">
+                      <span className="text-gray-800 mr-2 mt-1">•</span>
+                  <span>Regularly visit the official NTA website for latest updates.</span>
+                    </li>
                 </ul>
               </div>
 
-              {/* Documents Checklist Detailed */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.ExhaustiveApplicationProcess.DocumentsChecklistDetailed.title}</h3>
-                <ul className="space-y-2">
-                  {data.ExhaustiveApplicationProcess.DocumentsChecklistDetailed.documents.map((doc, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-gray-800 mr-2 mt-1">•</span>
-                      <span className="text-gray-600">{doc}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Application FAQs Detailed */}
-              <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.ExhaustiveApplicationProcess.ApplicationFAQsDetailed.title}</h3>
-                <div className="space-y-4">
-                  {data.ExhaustiveApplicationProcess.ApplicationFAQsDetailed.faqs.map((faq, index) => (
-                    <div key={index} className="bg-gray-50 p-4 rounded-lg">
-                      <h4 className="font-semibold text-gray-800 mb-2">{faq.question}</h4>
-                      <p className="text-gray-600">{faq.answer}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
           </div>
         );
 
@@ -4365,14 +4138,11 @@ export default function NEETPage() {
               {/* Factors Affecting NEET 2026 Cutoff */}
               <div className="mb-8">
                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.DetailedCutoffAnalysis.FactorsAffectingNEET2026Cutoff.title}</h3>
-                <ol className="space-y-2">
+                <ul className="space-y-2 list-disc list-inside">
                   {data.DetailedCutoffAnalysis.FactorsAffectingNEET2026Cutoff.factors.map((factor, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-gray-800 mr-2 mt-1 font-medium">{index + 1}.</span>
-                      <span className="text-gray-600">{factor}</span>
-                    </li>
+                    <li key={index} className="text-gray-600">{factor}</li>
                   ))}
-                </ol>
+                </ul>
               </div>
 
               {/* Historical Cutoff Trends */}
@@ -4552,7 +4322,7 @@ export default function NEETPage() {
                       </tr>
                     </thead>
                     <tbody>
-                      {data.Counselling.ComprehensiveCounsellingGuide.QuotaDistributionAndSeatReservations.quotas.map((quota, index) => (
+                      {data.Counselling.ComprehensiveCounsellingGuide?.QuotaDistributionAndSeatReservations.quotas.map((quota: { quotaCategory: string; percentage: string; areasCovered: string }, index: number) => (
                         <tr key={index}>
                           <td className="border border-gray-300 px-4 py-2 font-medium">{quota.quotaCategory}</td>
                           <td className="border border-gray-300 px-4 py-2">{quota.percentage}</td>
@@ -4566,13 +4336,13 @@ export default function NEETPage() {
 
               {/* Counselling Conducting Authorities */}
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide.CounsellingConductingAuthorities.title}</h3>
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide?.CounsellingConductingAuthorities.title}</h3>
                 <div className="space-y-4">
-                  {data.Counselling.ComprehensiveCounsellingGuide.CounsellingConductingAuthorities.authorities.map((authority, index) => (
+                  {data.Counselling.ComprehensiveCounsellingGuide?.CounsellingConductingAuthorities.authorities.map((authority: { authority: string; responsibilities: string[] }, index: number) => (
                     <div key={index} className="bg-gray-50 p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-800 mb-2">{authority.authority}</h4>
                       <ul className="space-y-1">
-                        {authority.responsibilities.map((responsibility, respIndex) => (
+                        {authority.responsibilities.map((responsibility: string, respIndex: number) => (
                           <li key={respIndex} className="flex items-start">
                             <span className="text-gray-800 mr-2 mt-1">•</span>
                             <span className="text-gray-600">{responsibility}</span>
@@ -4586,8 +4356,8 @@ export default function NEETPage() {
 
               {/* Counselling Rounds and Their Significance */}
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide.CounsellingRoundsAndTheirSignificance.title}</h3>
-                <p className="text-gray-600 mb-4">{data.Counselling.ComprehensiveCounsellingGuide.CounsellingRoundsAndTheirSignificance.description}</p>
+                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide?.CounsellingRoundsAndTheirSignificance.title}</h3>
+                <p className="text-gray-600 mb-4">{data.Counselling.ComprehensiveCounsellingGuide?.CounsellingRoundsAndTheirSignificance.description}</p>
                 <div className="overflow-x-auto">
                   <table className="w-full border-collapse border border-gray-300">
                     <thead>
@@ -4597,7 +4367,7 @@ export default function NEETPage() {
                       </tr>
                     </thead>
                     <tbody>
-                      {data.Counselling.ComprehensiveCounsellingGuide.CounsellingRoundsAndTheirSignificance.rounds.map((round, index) => (
+                      {data.Counselling.ComprehensiveCounsellingGuide?.CounsellingRoundsAndTheirSignificance.rounds.map((round: { roundName: string; description: string }, index: number) => (
                         <tr key={index}>
                           <td className="border border-gray-300 px-4 py-2 font-medium">{round.roundName}</td>
                           <td className="border border-gray-300 px-4 py-2">{round.description}</td>
@@ -4609,7 +4379,7 @@ export default function NEETPage() {
                 <div className="bg-gray-50 p-4 rounded-lg mt-4">
                   <h4 className="font-semibold text-gray-800 mb-2">Important Notes:</h4>
                   <ul className="space-y-1">
-                    {data.Counselling.ComprehensiveCounsellingGuide.CounsellingRoundsAndTheirSignificance.importantNotes.map((note, index) => (
+                    {data.Counselling.ComprehensiveCounsellingGuide?.CounsellingRoundsAndTheirSignificance.importantNotes.map((note: string, index: number) => (
                       <li key={index} className="flex items-start">
                         <span className="text-gray-800 mr-2 mt-1">•</span>
                         <span className="text-gray-600">{note}</span>
@@ -4621,9 +4391,9 @@ export default function NEETPage() {
 
               {/* Step-by-Step Counselling Process */}
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide.StepByStepCounsellingProcess.title}</h3>
+                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide?.StepByStepCounsellingProcess.title}</h3>
                 <div className="space-y-4">
-                  {data.Counselling.ComprehensiveCounsellingGuide.StepByStepCounsellingProcess.steps.map((step, index) => (
+                  {data.Counselling.ComprehensiveCounsellingGuide?.StepByStepCounsellingProcess.steps.map((step: { step: string; description: string }, index: number) => (
                     <div key={index} className="bg-gray-50 p-4 rounded-lg">
                       <h4 className="font-semibold text-gray-800 mb-2">{step.step}</h4>
                       <p className="text-gray-600">{step.description}</p>
@@ -4634,7 +4404,7 @@ export default function NEETPage() {
 
               {/* Important Documents for Counselling */}
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide.ImportantDocumentsForCounselling.title}</h3>
+                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide?.ImportantDocumentsForCounselling.title}</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full border-collapse border border-gray-300">
                     <thead>
@@ -4644,7 +4414,7 @@ export default function NEETPage() {
                       </tr>
                     </thead>
                     <tbody>
-                      {data.Counselling.ComprehensiveCounsellingGuide.ImportantDocumentsForCounselling.documents.map((doc, index) => (
+                      {data.Counselling.ComprehensiveCounsellingGuide?.ImportantDocumentsForCounselling.documents.map((doc: { document: string; purpose: string }, index: number) => (
                         <tr key={index}>
                           <td className="border border-gray-300 px-4 py-2 font-medium">{doc.document}</td>
                           <td className="border border-gray-300 px-4 py-2">{doc.purpose}</td>
@@ -4657,7 +4427,7 @@ export default function NEETPage() {
 
               {/* Fee Structure Overview */}
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide.FeeStructureOverview.title}</h3>
+                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide?.FeeStructureOverview.title}</h3>
                 <div className="overflow-x-auto">
                   <table className="w-full border-collapse border border-gray-300">
                     <thead>
@@ -4669,7 +4439,7 @@ export default function NEETPage() {
                       </tr>
                     </thead>
                     <tbody>
-                      {data.Counselling.ComprehensiveCounsellingGuide.FeeStructureOverview.feeStructure.map((fee, index) => (
+                      {data.Counselling.ComprehensiveCounsellingGuide?.FeeStructureOverview.feeStructure.map((fee: { counsellingType: string; generalOBCFee: string; scStPwdFee: string; securityDeposit: string }, index: number) => (
                         <tr key={index}>
                           <td className="border border-gray-300 px-4 py-2 font-medium">{fee.counsellingType}</td>
                           <td className="border border-gray-300 px-4 py-2">{fee.generalOBCFee}</td>
@@ -4684,9 +4454,9 @@ export default function NEETPage() {
 
               {/* Key Counselling Tips for Candidates */}
               <div className="mb-8">
-                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide.KeyCounsellingTipsForCandidates.title}</h3>
+                <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide?.KeyCounsellingTipsForCandidates.title}</h3>
                 <ul className="space-y-2">
-                  {data.Counselling.ComprehensiveCounsellingGuide.KeyCounsellingTipsForCandidates.tips.map((tip, index) => (
+                  {data.Counselling.ComprehensiveCounsellingGuide?.KeyCounsellingTipsForCandidates.tips.map((tip: string, index: number) => (
                     <li key={index} className="flex items-start">
                       <span className="text-gray-800 mr-2 mt-1">•</span>
                       <span className="text-gray-600">{tip}</span>
@@ -4697,7 +4467,7 @@ export default function NEETPage() {
 
                {/* Distinction Between All India Quota and State Quota Counselling */}
                <div className="mb-8">
-                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide.DistinctionBetweenAllIndiaQuotaAndStateQuotaCounselling.title}</h3>
+                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide?.DistinctionBetweenAllIndiaQuotaAndStateQuotaCounselling.title}</h3>
                  <div className="overflow-x-auto">
                    <table className="w-full border-collapse border border-gray-300">
                      <thead>
@@ -4708,7 +4478,7 @@ export default function NEETPage() {
                        </tr>
                      </thead>
                      <tbody>
-                       {data.Counselling.ComprehensiveCounsellingGuide.DistinctionBetweenAllIndiaQuotaAndStateQuotaCounselling.distinctions.map((distinction, index) => (
+                       {data.Counselling.ComprehensiveCounsellingGuide?.DistinctionBetweenAllIndiaQuotaAndStateQuotaCounselling.distinctions.map((distinction: { aspect: string; allIndiaQuota: string; stateQuota: string }, index: number) => (
                          <tr key={index}>
                            <td className="border border-gray-300 px-4 py-2 font-medium">{distinction.aspect}</td>
                            <td className="border border-gray-300 px-4 py-2">{distinction.allIndiaQuota}</td>
@@ -4722,16 +4492,16 @@ export default function NEETPage() {
 
                {/* Detailed Counselling Timeline */}
                <div className="mb-8">
-                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide.DetailedCounsellingTimeline.title}</h3>
+                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide?.DetailedCounsellingTimeline.title}</h3>
                  <div className="space-y-4">
-                   {data.Counselling.ComprehensiveCounsellingGuide.DetailedCounsellingTimeline.timeline.map((phase, index) => (
+                   {data.Counselling.ComprehensiveCounsellingGuide?.DetailedCounsellingTimeline.timeline.map((phase: { phase: string; duration: string; activities: string[] }, index: number) => (
                      <div key={index} className="bg-gray-50 p-4 rounded-lg">
                        <div className="flex justify-between items-start mb-2">
                          <h4 className="font-semibold text-gray-800">{phase.phase}</h4>
                          <span className="text-sm text-gray-600 bg-gray-200 px-2 py-1 rounded">{phase.duration}</span>
                        </div>
                        <ul className="space-y-1">
-                         {phase.activities.map((activity, actIndex) => (
+                         {phase.activities.map((activity: string, actIndex: number) => (
                            <li key={actIndex} className="flex items-start">
                              <span className="text-gray-800 mr-2 mt-1">•</span>
                              <span className="text-gray-600">{activity}</span>
@@ -4745,7 +4515,7 @@ export default function NEETPage() {
 
                {/* State-wise Counselling Details */}
                <div className="mb-8">
-                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide.StateWiseCounsellingDetails.title}</h3>
+                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide?.StateWiseCounsellingDetails.title}</h3>
                  <div className="overflow-x-auto">
                    <table className="w-full border-collapse border border-gray-300">
                      <thead>
@@ -4757,7 +4527,7 @@ export default function NEETPage() {
                        </tr>
                      </thead>
                      <tbody>
-                       {data.Counselling.ComprehensiveCounsellingGuide.StateWiseCounsellingDetails.states.map((state, index) => (
+                       {data.Counselling.ComprehensiveCounsellingGuide?.StateWiseCounsellingDetails.states.map((state: { state: string; conductingAuthority: string; website: string; specialFeatures: string }, index: number) => (
                          <tr key={index}>
                            <td className="border border-gray-300 px-4 py-2 font-medium">{state.state}</td>
                            <td className="border border-gray-300 px-4 py-2">{state.conductingAuthority}</td>
@@ -4772,13 +4542,13 @@ export default function NEETPage() {
 
                {/* Counselling Strategies and Tips */}
                <div className="mb-8">
-                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide.CounsellingStrategiesAndTips.title}</h3>
+                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide?.CounsellingStrategiesAndTips.title}</h3>
                  <div className="space-y-6">
-                   {data.Counselling.ComprehensiveCounsellingGuide.CounsellingStrategiesAndTips.strategies.map((strategy, index) => (
+                   {data.Counselling.ComprehensiveCounsellingGuide?.CounsellingStrategiesAndTips.strategies.map((strategy: { category: string; tips: string[] }, index: number) => (
                      <div key={index} className="bg-gray-50 p-4 rounded-lg">
                        <h4 className="font-semibold text-gray-800 mb-3">{strategy.category}</h4>
                        <ul className="space-y-2">
-                         {strategy.tips.map((tip, tipIndex) => (
+                         {strategy.tips.map((tip: string, tipIndex: number) => (
                            <li key={tipIndex} className="flex items-start">
                              <span className="text-gray-800 mr-2 mt-1">•</span>
                              <span className="text-gray-600">{tip}</span>
@@ -4792,7 +4562,7 @@ export default function NEETPage() {
 
                {/* Common Counselling Mistakes */}
                <div className="mb-8">
-                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide.CommonCounsellingMistakes.title}</h3>
+                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide?.CommonCounsellingMistakes.title}</h3>
                  <div className="overflow-x-auto">
                    <table className="w-full border-collapse border border-gray-300">
                      <thead>
@@ -4803,7 +4573,7 @@ export default function NEETPage() {
                        </tr>
                      </thead>
                      <tbody>
-                       {data.Counselling.ComprehensiveCounsellingGuide.CommonCounsellingMistakes.mistakes.map((mistake, index) => (
+                       {data.Counselling.ComprehensiveCounsellingGuide?.CommonCounsellingMistakes.mistakes.map((mistake: { mistake: string; consequence: string; prevention: string }, index: number) => (
                          <tr key={index}>
                            <td className="border border-gray-300 px-4 py-2 font-medium">{mistake.mistake}</td>
                            <td className="border border-gray-300 px-4 py-2 text-red-600">{mistake.consequence}</td>
@@ -4817,12 +4587,12 @@ export default function NEETPage() {
 
                {/* Counselling Helpline and Support */}
                <div className="mb-8">
-                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide.CounsellingHelplineAndSupport.title}</h3>
+                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide?.CounsellingHelplineAndSupport.title}</h3>
                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                    <div>
                      <h4 className="font-semibold text-gray-800 mb-3">Support Channels</h4>
                      <div className="space-y-3">
-                       {data.Counselling.ComprehensiveCounsellingGuide.CounsellingHelplineAndSupport.supportChannels.map((channel, index) => (
+                       {data.Counselling.ComprehensiveCounsellingGuide?.CounsellingHelplineAndSupport.supportChannels.map((channel: { authority: string; helpline: string; email: string; workingHours: string }, index: number) => (
                          <div key={index} className="bg-gray-50 p-3 rounded-lg">
                            <h5 className="font-medium text-gray-800">{channel.authority}</h5>
                            <p className="text-sm text-gray-600">Helpline: {channel.helpline}</p>
@@ -4835,7 +4605,7 @@ export default function NEETPage() {
                    <div>
                      <h4 className="font-semibold text-gray-800 mb-3">Online Resources</h4>
                      <ul className="space-y-2">
-                       {data.Counselling.ComprehensiveCounsellingGuide.CounsellingHelplineAndSupport.onlineResources.map((resource, index) => (
+                       {data.Counselling.ComprehensiveCounsellingGuide?.CounsellingHelplineAndSupport.onlineResources.map((resource: string, index: number) => (
                          <li key={index} className="flex items-start">
                            <span className="text-gray-800 mr-2 mt-1">•</span>
                            <span className="text-gray-600 text-sm">{resource}</span>
@@ -4848,9 +4618,9 @@ export default function NEETPage() {
 
                {/* Post-Counselling Process */}
                <div className="mb-8">
-                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide.PostCounsellingProcess.title}</h3>
+                 <h3 className="text-lg font-semibold text-gray-800 mb-4">{data.Counselling.ComprehensiveCounsellingGuide?.PostCounsellingProcess.title}</h3>
                  <div className="space-y-4">
-                   {data.Counselling.ComprehensiveCounsellingGuide.PostCounsellingProcess.steps.map((step, index) => (
+                   {data.Counselling.ComprehensiveCounsellingGuide?.PostCounsellingProcess.steps.map((step: { step: string; description: string }, index: number) => (
                      <div key={index} className="bg-gray-50 p-4 rounded-lg">
                        <h4 className="font-semibold text-gray-800 mb-2">{step.step}</h4>
                        <p className="text-gray-600">{step.description}</p>
@@ -5124,10 +4894,10 @@ export default function NEETPage() {
               <Link to="/" className="text-2xl font-bold text-gray-600">StudentHub</Link>
             </div>
             <div className="flex items-center space-x-4">
-              <button className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">
+              <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
                 Download PDF
               </button>
-              <button className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition">
+              <button className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors">
                 Brochure
               </button>
             </div>
@@ -5200,8 +4970,8 @@ export default function NEETPage() {
               {/* AIIMS Delhi */}
               <div className="border border-gray-200 rounded-lg p-4 mb-4 hover:shadow-md transition-shadow">
                 <div className="flex items-center mb-3">
-                  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-blue-600 font-bold text-sm">AIIMS</span>
+                  <div className="w-10 h-10 flex items-center justify-center mr-3">
+                    <img src="/images/aiims-logo.jpg" alt="AIIMS" className="w-10 h-10 object-contain" />
                   </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-800 text-sm">AIIMS Delhi MBBS</h4>
@@ -5217,8 +4987,8 @@ export default function NEETPage() {
               {/* Maulana Azad Medical College */}
               <div className="border border-gray-200 rounded-lg p-4 mb-4 hover:shadow-md transition-shadow">
                 <div className="flex items-center mb-3">
-                  <div className="w-10 h-10 bg-red-100 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-red-600 font-bold text-sm">MAMC</span>
+                  <div className="w-10 h-10 flex items-center justify-center mr-3">
+                    <img src="/images/mamc-logo.jpg" alt="MAMC" className="w-10 h-10 object-contain" />
                   </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-800 text-sm">MAMC Delhi MBBS</h4>
@@ -5234,8 +5004,8 @@ export default function NEETPage() {
               {/* King George Medical University */}
               <div className="border border-gray-200 rounded-lg p-4 mb-4 hover:shadow-md transition-shadow">
                 <div className="flex items-center mb-3">
-                  <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-purple-600 font-bold text-sm">KGMU</span>
+                  <div className="w-10 h-10 flex items-center justify-center mr-3">
+                    <img src="/images/kgmu-logo.png" alt="KGMU" className="w-10 h-10 object-contain" />
                   </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-800 text-sm">KGMU Lucknow MBBS</h4>
@@ -5251,8 +5021,8 @@ export default function NEETPage() {
               {/* Christian Medical College */}
               <div className="border border-gray-200 rounded-lg p-4 mb-4 hover:shadow-md transition-shadow">
                 <div className="flex items-center mb-3">
-                  <div className="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-orange-600 font-bold text-sm">CMC</span>
+                  <div className="w-10 h-10 flex items-center justify-center mr-3">
+                    <img src="/images/cmc-vellore-logo.jpeg" alt="CMC" className="w-10 h-10 object-contain" />
                   </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-800 text-sm">CMC Vellore MBBS</h4>

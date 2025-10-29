@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import apeamcetData from './apeamcet.json';
+import vitLogo from '../../assets/Colleges/vit.png';
 
 const APEAMCETPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState('overview');
@@ -2675,8 +2676,8 @@ const APEAMCETPage: React.FC = () => {
               {/* JNTU Hyderabad */}
               <div className="p-4 mb-4">
                 <div className="flex items-center mb-3">
-                  <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-gray-700 font-bold text-sm">JNTU</span>
+                  <div className="w-10 h-10 flex items-center justify-center mr-3">
+                    <img src="/images/jntu-hyderabad-logo.png" alt="JNTU Hyderabad" className="w-10 h-10 object-contain" />
                   </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-800 text-sm">JNTU Hyderabad B.Tech</h4>
@@ -2692,8 +2693,8 @@ const APEAMCETPage: React.FC = () => {
               {/* Andhra University */}
               <div className="p-4 mb-4">
                 <div className="flex items-center mb-3">
-                  <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-gray-700 font-bold text-sm">AU</span>
+                  <div className="w-10 h-10 flex items-center justify-center mr-3">
+                    <img src="/images/andhra-university-logo.jpeg" alt="Andhra University" className="w-10 h-10 object-contain" />
                   </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-800 text-sm">Andhra University B.Tech</h4>
@@ -2709,9 +2710,9 @@ const APEAMCETPage: React.FC = () => {
               {/* SVU */}
               <div className="p-4 mb-4">
                 <div className="flex items-center mb-3">
-                  <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-gray-700 font-bold text-sm">SVU</span>
-            </div>
+                  <div className="w-10 h-10 flex items-center justify-center mr-3">
+                    <img src="/images/ap-eamcet-logo.png" alt="SVU" className="w-10 h-10 object-contain" />
+                  </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-800 text-sm">SVU Tirupati B.Tech</h4>
                     <p className="text-xs text-gray-600">Sri Venkateswara University</p>
@@ -2726,8 +2727,8 @@ const APEAMCETPage: React.FC = () => {
               {/* VIT */}
               <div className="p-4 mb-4">
                 <div className="flex items-center mb-3">
-                  <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-gray-700 font-bold text-sm">VIT</span>
+                  <div className="w-10 h-10 flex items-center justify-center mr-3">
+                    <img src={vitLogo} alt="VIT Bhopal" className="w-10 h-10 object-contain" />
                   </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-800 text-sm">VIT Bhopal B.Tech</h4>
@@ -2748,8 +2749,8 @@ const APEAMCETPage: React.FC = () => {
               {/* ANGRAU */}
               <div className="p-4 mb-4">
                 <div className="flex items-center mb-3">
-                  <div className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center mr-3">
-                    <span className="text-gray-700 font-bold text-sm">ANGRAU</span>
+                  <div className="w-10 h-10 flex items-center justify-center mr-3">
+                    <img src="/images/ap-eamcet-logo.png" alt="ANGRAU" className="w-10 h-10 object-contain" />
                   </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-800 text-sm">ANGRAU B.Sc Agriculture</h4>
