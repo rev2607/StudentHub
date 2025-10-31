@@ -1,0 +1,372 @@
+Given the complexity and length required, I'll create a comprehensive JSON structure for IIT Kanpur. Due to space constraints, I'll provide a complete, well-structured response:
+
+```json
+{
+  "college_name": "Indian Institute of Technology Kanpur (IIT Kanpur)",
+  "overview": {
+    "word_count": "12000",
+    "content": {
+      "introduction": {
+        "title": "About IIT Kanpur",
+        "description": "The Indian Institute of Technology Kanpur, established in 1959, stands as one of India's first-generation IITs and most prestigious institutions of higher technical education. Founded through an Act of Parliament in 1960 by the Government of India, IIT Kanpur has played a pioneering role in shaping technical education in India and was the first institute in the country to offer computer science education under the guidance of economist John Kenneth Galbraith. Located in Kanpur, Uttar Pradesh, on the Grand Trunk Road near Kalyanpur, the institute occupies a sprawling 420-hectare (1,040-acre) campus designed by renowned architect Achyut Kanvinde in modernist style, planned with the goal of environmental freedom, ease of movement and communication. IIT Kanpur began functioning on December 2, 1959, at the borrowed premises of Harcourt Butler Technological Institute at Agricultural Gardens in Kanpur, accommodating a modest faculty and 100 students. Today, it has transformed into a comprehensive residential campus serving more than 10,000 students with a faculty of 570 members, supported by over 1,500 staff members. The institute has consistently maintained top rankings nationally and internationally, securing 4th position in NIRF Engineering category and 5th position in Overall category in 2024, and ranking 278th globally in QS World University Rankings 2024. IIT Kanpur operates under the motto of excellence in technical education, research, and innovation, having been declared an Institution of National Importance.",
+        "sources": "[web:173][web:174][web:177][web:180][web:186]"
+      },
+      "historical_foundation": {
+        "title": "Foundation and Indo-American Collaboration",
+        "establishment": "IIT Kanpur's establishment holds special significance as it was created with unprecedented international collaboration. The institute was established by an Act of Parliament in 1960 by the Government of India, but its foundations were laid in December 1959 when it began functioning in a room in the canteen building of the Harcourt Butler Technological Institute at Agricultural Gardens in Kanpur. The first Director of the institute was Prof. P.K. Kelkar, after whom the Central Library was renamed in 2002 as P.K. Kelkar Library in recognition of his pioneering leadership. During the first ten years of its existence (1962-1972), a consortium of nine prestigious US universities helped set up IIT Kanpur's research laboratories and academic programmes under the historic Kanpur Indo-American Programme (KIAP). The consortium included Massachusetts Institute of Technology (MIT), University of California at Berkeley (UCB), California Institute of Technology (Caltech), Princeton University, Carnegie Mellon University (then Carnegie Institute of Technology), University of Michigan, Ohio State University, Case Western Reserve University (then Case Institute of Technology), and Purdue University. This collaboration brought American expertise in engineering education, research methodologies, and laboratory development to India, significantly influencing IIT Kanpur's academic culture and establishing high standards that would serve as models for other technical institutions across India.",
+        "sources": "[web:174][web:175][web:177]"
+      },
+      "computer_science_pioneer": {
+        "title": "Pioneering Computer Science Education in India",
+        "innovation": "Under the guidance of renowned economist John Kenneth Galbraith, IIT Kanpur achieved a historic milestone by becoming the first institute in India to offer Computer Science education. This pioneering initiative began in August 1963 when the earliest computer course was started at the institute using an IBM 1620 system. The initiative for computer education came from the Electrical Engineering department, then under the chairmanship of Prof. H.K. Kesavan, who was concurrently the chairman of Electrical Engineering and head of the Computer Centre. Prof. Harry Huskey from the University of California, Berkeley, who preceded Kesavan, played a crucial role in helping establish computer activity at IIT Kanpur during the KIAP period. The formal independent academic program in Computer Science and Engineering was established in 1971, leading to M.Tech and Ph.D degrees in the field. This made IIT Kanpur the birthplace of computer science education in India, a legacy that continues to shape the institute's identity and excellence in computing and information technology. The early start in computer science positioned IIT Kanpur at the forefront of technological education and research, producing generations of computer scientists who have contributed significantly to India's IT revolution and global technology leadership.",
+        "sources": "[web:174][web:177]"
+      },
+      "campus_relocation": {
+        "title": "Transition to Permanent Campus",
+        "move_to_kalyanpur": "In 1963, IIT Kanpur moved from its temporary location at Harcourt Butler Technological Institute to its present permanent location on the Grand Trunk Road near Kalyanpur locality in Kanpur district. The new campus, spanning 420 hectares (approximately 1,040 acres), was designed by renowned Indian architect Achyut Kanvinde, who applied modernist architectural principles to create a functional and aesthetically pleasing environment. The campus design emphasized environmental freedom, ease of movement, and facilitating communication among the academic community. The planned and landscaped campus provided dedicated zones for academic buildings, research laboratories, residential facilities for students and faculty, recreational amenities, and administrative offices. The move to the permanent campus marked a turning point in IIT Kanpur's growth, enabling expansion of academic programs, research facilities, student intake, and infrastructure development. The spacious campus allowed for the establishment of specialized laboratories, workshop facilities, library, sports complexes, and residential halls that supported the institute's mission of providing comprehensive technical education within a residential community setting. The campus is located 15 km west of Kanpur City, providing a peaceful environment for academic pursuits while maintaining accessibility to the city's resources.",
+        "sources": "[web:174][web:177][web:190]"
+      },
+      "kiap_program": {
+        "title": "Kanpur Indo-American Programme (KIAP) Impact",
+        "collaboration_details": "The Kanpur Indo-American Programme (1962-1972) represented one of the most significant international collaborations in Indian higher education history. During this decade-long partnership, the nine US universities brought not only equipment and financial resources but also faculty expertise, pedagogical innovations, and research culture that fundamentally shaped IIT Kanpur's academic DNA. American professors taught at IIT Kanpur, Indian faculty received training at US partner universities, advanced laboratory equipment was procured with American assistance, research methodologies were transferred and adapted to the Indian context, and academic programs were designed incorporating best practices from leading American engineering schools. The program facilitated procurement of approximately ₹1.8 crore worth of workshop and laboratory equipment (a substantial sum in that era), training of Indian teachers at partner institutions in the United States, and establishment of interdisciplinary research culture emphasizing both theoretical understanding and practical application. The KIAP program ended in 1972, partly due to political tensions between India and Pakistan (as the USA supported Pakistan during conflicts) and partly because of reduced government funding in reaction to concerns about brain drain from IITs. Despite its conclusion, the program's legacy continued through the academic culture, research standards, and educational philosophy it established at IIT Kanpur.",
+        "sources": "[web:174][web:175][web:177]"
+      },
+      "early_academic_programs": {
+        "title": "Early Academic Programs and Growth",
+        "initial_departments": "IIT Kanpur started with founding departments including Mechanical Engineering, Electrical Engineering, Chemical Engineering, Civil Engineering, and others. The Department of Mechanical Engineering, one of the founding departments, came into existence within a year of IIT Kanpur's establishment in 1960. It started with only three faculty members - Prof. G.S. Kainth (the first to join), Prof. J. Prasad, and Prof. H.C. Radhakrishnan - and twenty-three undergraduate students. The department played a leading role in defining a unique engineering science curriculum that served as a model for academic programs across the country, setting standards in teaching while creating new interdisciplinary programs in industrial engineering, mechatronics, and nuclear technology. The first batch of B.Tech students graduated in 1965, and in the same year, the first Ph.D student also graduated, demonstrating IIT Kanpur's early emphasis on research alongside undergraduate education. The M.Tech program in Mechanical Engineering started in 1967 with only four students. The departments gradually shifted to the permanent campus buildings, with Mechanical Engineering moving to the Northern Laboratory building in 1963. Over time, faculty strength increased several-fold, student intake expanded significantly across undergraduate and postgraduate levels, and new departments and interdisciplinary programs were established to address emerging technological areas and societal needs.",
+        "sources": "[web:176]"
+      },
+      "academic_departments": {
+        "title": "Current Academic Structure and Departments",
+        "comprehensive_departments": "IIT Kanpur has evolved into a comprehensive institution with departments covering all major engineering disciplines, pure sciences, design, management, and humanities. The academic structure includes Aerospace Engineering, Biological Sciences and Bioengineering, Chemical Engineering, Chemistry, Civil Engineering, Computer Science and Engineering, Earth Sciences, Electrical Engineering, Industrial and Management Engineering, Materials Science and Engineering, Mathematics and Statistics, Mechanical Engineering, Physics, Sustainable Energy Engineering, Humanities and Social Sciences (HSS), and Economic Sciences. Each department houses specialized laboratories equipped with state-of-the-art equipment, dedicated research facilities, and faculty expertise in cutting-edge areas of their respective fields. Beyond core departments, the institute has established specialized centers and interdisciplinary programs addressing emerging areas such as Environmental Engineering and Management, Design Programme offering M.Des and Ph.D degrees, Nuclear Engineering and Technology program, Photonics Science and Engineering, Cognitive Science, Security Studies, Space Science and Astronautics, and numerous research centers focusing on specific technologies or application domains. This comprehensive structure enables IIT Kanpur to offer education and conduct research across the full spectrum from fundamental sciences to applied engineering, from traditional disciplines to emerging interdisciplinary areas.",
+        "sources": "[web:180]"
+      },
+      "research_ecosystem": {
+        "title": "Research Excellence and Innovation",
+        "research_culture": "IIT Kanpur has established itself as a premier research institution with robust research ecosystem supporting cutting-edge investigations across multiple domains. Faculty members actively engage in sponsored research funded by government agencies like DST, DRDO, DBT, CSIR, and industry partners; fundamental research advancing scientific knowledge in pure and applied sciences; translational research converting discoveries into practical applications and technologies; and interdisciplinary research addressing complex challenges requiring expertise from multiple domains. The institute maintains sophisticated research facilities including advanced characterization and microscopy centers with electron microscopes and spectroscopy equipment, supercomputing facilities for high-performance computing needs, wind tunnels and aerospace testing facilities, nanofabrication clean rooms for micro and nanotechnology research, biomedical research laboratories with cell culture and animal facilities, materials processing and testing laboratories, and specialized facilities for specific research areas. Research areas span artificial intelligence and machine learning algorithms and applications, robotics, autonomous systems, and cyber-physical systems, quantum computing and quantum information science, advanced materials including nanomaterials, biomaterials, and smart materials, clean energy technologies including solar, wind, and energy storage, water and environmental engineering addressing pollution and resource management, aerospace technologies for aircraft and spacecraft, biomedical engineering and healthcare technologies, and numerous other cutting-edge domains. The institute has filed hundreds of patents, published thousands of research papers in top-tier journals, and contributed significantly to India's technological capabilities.",
+        "sources": "[web:180][web:187]"
+      },
+      "techkriti_festival": {
+        "title": "Techkriti - India's Largest Technical Festival",
+        "cultural_significance": "The institute's annual technical festival, Techkriti, was first started in 1995 and has grown to become Asia's largest technical and entrepreneurship festival. Techkriti provides a platform for students across India to showcase technical innovations, participate in competitions testing engineering and scientific skills, attend lectures and workshops by eminent scientists and industry leaders, network with peers and professionals, and explore career opportunities. The festival features competitions in robotics, coding, engineering design, business plan presentations, and various other technical domains. Guest lectures by Nobel laureates, leading scientists, successful entrepreneurs, and industry leaders inspire students and provide insights into cutting-edge research and industry trends. Techkriti has become an integral part of IIT Kanpur's identity, attracting thousands of participants from institutions across India and abroad. The festival embodies IIT Kanpur's commitment to fostering technical excellence, innovation, and entrepreneurship among students while providing exposure to latest developments in technology and business.",
+        "sources": "[web:174][web:177]"
+      },
+      "student_life_culture": {
+        "title": "Campus Life and Student Culture",
+        "vibrant_community": "Campus life at IIT Kanpur is exceptionally vibrant, characterized by diverse student population from across India and abroad, numerous extracurricular activities beyond academics, cultural and technical festivals that are among the largest in Asia, competitive sports programs and inter-IIT competitions, and student-managed clubs and societies spanning technical, cultural, social service, and special interest areas. The residential nature of the campus, with all undergraduate students living in hostels, creates a close-knit community where learning extends beyond classrooms through peer interactions, collaborative projects, midnight discussions on diverse topics, and shared experiences. Besides Techkriti, the institute hosts Antaragni - the annual cultural festival showcasing arts, music, dance, drama, and literary activities. The festival attracts celebrity performances, cultural competitions, and participation from students nationwide. Udghosh, the annual sports festival, features inter-college competitions in various sports. Students can join numerous clubs including robotics club developing autonomous systems and participating in competitions, programming club organizing coding contests and hackathons, aeromodelling club designing and flying model aircraft, astronomy club conducting stargazing sessions and astrophotography, music, dance, and drama societies organizing performances and workshops, literary society conducting debates, quizzes, and creative writing, social service groups engaging in community outreach and development projects, and entrepreneurship cell fostering startup culture and organizing business plan competitions.",
+        "sources": "[web:187]"
+      },
+      "hostel_infrastructure": {
+        "title": "Residential Facilities and Hostel Life",
+        "hostel_system": "IIT Kanpur provides comprehensive residential facilities with separate hostels for male and female students accommodating the entire undergraduate and most postgraduate student population on campus. The hostels are designed to provide comfortable living spaces while fostering community life and peer learning. Each hostel is equipped with furnished rooms (typically double or triple sharing for undergraduates, single or double for postgraduates), high-speed LAN and Wi-Fi internet connectivity enabling 24x7 access to online resources, common rooms with television and recreational facilities, reading rooms for quiet study away from sleeping areas, mess facilities providing three meals daily with varied menus, sports facilities including basketball courts, table tennis rooms, volleyball courts, and badminton courts within hostel complexes, music rooms and hobby areas, and elected hostel management councils comprising student representatives. Hostel life plays crucial role in overall development, teaching time management, cooperation, conflict resolution, leadership through hostel council positions, and building lifelong friendships. The culture includes inter-hostel competitions in sports, cultural events, and academic contests, fostering healthy rivalry and hall spirit. Seniors provide guidance and mentorship to juniors through formal and informal mechanisms. The hostel environment balances academic rigor with recreational activities, peer support during challenging times, and celebration of festivals and achievements together as a community.",
+        "sources": "[web:187][web:190]"
+      },
+      "library_resources": {
+        "title": "P.K. Kelkar Library - Knowledge Hub",
+        "library_excellence": "The P.K. Kelkar Library, named after IIT Kanpur's first Director, serves as the central knowledge resource for the institute's academic and research community. It is an academic library with vast resources housed in a three-storey building with a total floor area of 6,973 square meters. The library maintains a comprehensive collection of more than 3,00,000 (three lakh) volumes including textbooks, reference books, research monographs, and bound journals; subscriptions to more than 1,000 periodicals covering engineering, sciences, management, humanities, and interdisciplinary areas; abstracting and indexing services for literature search; microform collections preserving historical documents; CD-ROM databases providing digital access to information; technical reports from research organizations and industry; standards and specifications from national and international bodies; and theses and dissertations from IIT Kanpur and other institutions. Each year, approximately 4,500 books and journal volumes are added to the collection, ensuring the library stays current with latest publications and research outputs. Digital resources include access to online journals and e-books through subscriptions to major international publishers, research databases for literature search and citation analysis, open access repositories, and institutional repository archiving IIT Kanpur's research output. Services provided include reference services assisting users in finding information and navigating resources, inter-library loan facilitating access to materials not available locally, document delivery providing copies of articles from subscribed resources, orientation programs for new students introducing library resources and services, training sessions on effective use of databases and research tools, and research support services assisting scholars in literature review and citation management. The library provides comfortable reading spaces, individual study carrels, group discussion rooms, digital resource centers with computer terminals, Wi-Fi connectivity throughout, and extended operating hours during examination periods accommodating student needs.",
+        "sources": "[web:187][web:190]"
+      },
+      "sports_facilities": {
+        "title": "Sports Complex and Athletic Programs",
+        "comprehensive_sports": "IIT Kanpur encourages holistic development through comprehensive sports and recreational facilities. The institute features extensive sports infrastructure including the IIT Kanpur Sports Complex housing multiple indoor and outdoor facilities, cricket fields for matches and practice, football grounds meeting international dimensions, hockey field for field hockey, basketball courts (multiple courts across campus and in hostels), tennis courts for lawn tennis, badminton courts (indoor and outdoor), volleyball courts, table tennis facilities in hostels and sports complex, squash courts, athletics track for running and field events, swimming pool for swimming and water polo, gymnasium equipped with modern fitness equipment and weight training facilities, yoga and aerobics spaces, and playing fields for informal games and recreational activities. Students can participate in various sports through institute teams, departmental teams, and hostel teams competing in intra-campus and external tournaments. Inter-IIT Sports Meet is the annual multi-sport competition among all IITs where students represent IIT Kanpur across athletics, aquatics, badminton, basketball, cricket, football, hockey, lawn tennis, squash, table tennis, volleyball, weight lifting, and other sports disciplines competing for medals and overall championship trophy. IIT Kanpur has a proud tradition in inter-IIT sports, regularly winning medals and championship titles. The institute also participates in external tournaments and university-level competitions. Sports quota admissions recognize exceptional athletic talent, bringing national and international level athletes to campus who excel both in sports and academics. Physical education is part of curriculum in initial years, and sports facilities are available to all students encouraging regular physical activity for fitness and stress relief.",
+        "sources": "[web:187][web:190]"
+      },
+      "medical_healthcare": {
+        "title": "Healthcare Infrastructure and Medical Services",
+        "health_facilities": "IIT Kanpur maintains comprehensive healthcare facilities on campus ensuring student and staff well-being. The institute has a well-equipped Health Center providing medical assistance to students, faculty, and staff with qualified doctors and healthcare professionals offering consultations for common illnesses and health concerns, emergency medical care with ambulance services for urgent situations, outpatient department (OPD) for routine consultations, basic diagnostic facilities including pathology and some imaging capabilities, dispensary services providing prescribed medications, preventive healthcare programs including regular health checkups, vaccination drives, and health awareness campaigns, dental care services, and mental health support through counseling services. The Health Center operates during regular hours with on-call doctors available for emergencies. For specialized medical care requiring advanced facilities, the institute has tie-ups with nearby hospitals in Kanpur ensuring students can access specialized treatments when needed. Medical insurance coverage is provided to students covering hospitalization expenses and treatments. First aid facilities are available across campus in hostels, academic buildings, and sports facilities for immediate response to minor injuries. Health awareness programs educate students about nutrition, hygiene, disease prevention, mental health, substance abuse, and healthy lifestyles. The Counseling Service provides professional psychological support helping students manage academic stress, personal challenges, relationship issues, career confusion, and mental health concerns through confidential individual counseling, group therapy sessions, stress management workshops, and referrals to specialized mental health professionals when needed.",
+        "sources": "[web:187]"
+      },
+      "campus_amenities": {
+        "title": "Additional Campus Facilities and Services",
+        "comprehensive_amenities": "IIT Kanpur campus functions as a self-contained township providing all necessary amenities ensuring students can access essential services without frequently leaving campus. Facilities include Student Activity Center (SAC) serving as hub for cultural, recreational, and extracurricular activities with auditoriums for performances and events, club rooms for various student organizations, spaces for meetings and activities, and facilities for indoor games; dining facilities including hostel mess in each hostel serving three meals daily, campus canteens and cafeterias offering snacks and beverages, food courts with multiple cuisine options, and special dining arrangements during festivals; banking and financial services with bank branches on campus, ATMs at multiple locations, and financial advisory services; shopping facilities including campus stores selling daily necessities, stationery shops for academic supplies, bookstores selling textbooks and reference materials, and photocopy and printing centers; transportation services with shuttle service connecting different parts of the large campus, buses to Kanpur city for weekend trips and personal travel, and bicycle rentals for eco-friendly campus transportation; communication facilities including post office for mail and courier services, telecom services, and high-speed internet throughout campus; guest house facilities for parents and visitors with comfortable accommodation; and places of worship accommodating different religious needs. The campus also has auditoriums and conference facilities for academic events, workshops, seminars, and cultural performances. These comprehensive facilities create an environment where students can focus on academic pursuits while having access to everything needed for comfortable living, recreation, and personal development.",
+        "sources": "[web:187][web:190]"
+      },
+      "rankings_achievements": {
+        "title": "Rankings and National Recognition",
+        "ranking_excellence": "IIT Kanpur has achieved remarkable success in national and international rankings, establishing its reputation as one of India's premier engineering institutions. In NIRF Rankings 2024, IIT Kanpur secured the 4th position in Engineering category, maintaining its position from previous year and ranking in top five engineering institutions in India consistently. In the Overall category, IIT Kanpur achieved 5th position in NIRF 2024, same as the previous year, demonstrating sustained excellence across multiple parameters. In Management category, the institute secured 29th position in NIRF 2024, though this represents a decline from higher positions in earlier years, suggesting need for strengthening management program visibility and outcomes. In NIRF 2025, IIT Kanpur achieved 27th rank in MBA/PGDM category, 5th rank in Business & Management Studies category, and 6th rank in Science category, showing improvement and strength across disciplines. Internationally, in QS World University Rankings 2024, IIT Kanpur achieved 278th position globally (having fallen 14 ranks from 264th in 2023), placing it among top 300 universities worldwide. The institute climbed 3 ranks to achieve 63rd position in QS Asia Rankings 2024, demonstrating strength in the Asian context. IIT Kanpur maintained 6th position in QS Southern Asia Rankings 2024 for the second consecutive year, ranking among top IITs in the region. In QS World University Rankings 2026, IIT Kanpur was ranked among IITs featured, though specific position varies. The QS rankings evaluate universities on parameters including academic reputation (based on surveys of academics globally), employer reputation (surveys of employers about graduate quality), citations per faculty (measuring research impact), faculty-student ratio (indicating teaching resources), international faculty and student ratios (measuring diversity and global engagement), and employment outcomes. These consistent top rankings across multiple ranking agencies reflect IIT Kanpur's excellence in teaching quality, research output and citations, graduation outcomes and employability, industry engagement and placements, internationalization through collaborations and exchanges, faculty credentials and research productivity, infrastructure and facilities, and overall institutional reputation built over six decades.",
+        "sources": "[web:186][web:189]"
+      },
+      "alumni_impact": {
+        "title": "Alumni Network and Global Contributions",
+        "distinguished_alumni": "Since its inception in 1959, IIT Kanpur has produced tens of thousands of alumni who have made significant contributions across diverse fields globally. IIT Kanpur alumni hold leadership positions in major technology companies including CEOs and senior executives at Google, Microsoft, Amazon, Facebook, and other tech giants; have founded successful startups and companies including several unicorns contributing to entrepreneurship ecosystems in Silicon Valley, Bangalore, and other innovation hubs globally; serve as professors and researchers at leading universities including MIT, Stanford, Berkeley, Carnegie Mellon, and other premier institutions worldwide conducting cutting-edge research; occupy senior positions in government and policy-making contributing to national development through administrative services, scientific advisory roles, and think tanks; work in diverse fields including investment banking, management consulting, aerospace, defense, energy, healthcare, and other sectors applying their technical education to varied domains; and have received prestigious awards and recognition including Padma awards from Government of India, fellowships in national and international academies, and industry honors. Notable alumni include Rajat Gupta (former Managing Director of McKinsey & Company), Vinod Gupta (founder of InfoGroup), Deep Kalra (founder of MakeMyTrip), numerous IAS and IPS officers serving in administrative positions, professors at IITs and other premier institutions who have built academic careers, and successful entrepreneurs who have created jobs and wealth. The strong alumni network provides current students with mentorship opportunities, career guidance from those who have walked similar paths, internship connections through alumni employed in various companies, placement support with alumni recruiting for their organizations or providing referrals, entrepreneurial advice from successful founders who can guide aspiring entrepreneurs, research collaborations with alumni in academia or industry R&D, and philanthropic support through donations funding scholarships, endowing chairs, supporting infrastructure development, and establishing research grants. Alumni associations organize reunions strengthening bonds with alma mater, networking events facilitating professional connections, and give-back programs encouraging alumni contributions to institute development.",
+        "sources": "[web:180]"
+      },
+      "social_outreach": {
+        "title": "Social Responsibility and Community Engagement",
+        "outreach_initiatives": "IIT Kanpur is committed to leveraging its expertise and resources for societal benefit beyond campus boundaries. The institute engages in various social responsibility initiatives including developing appropriate technologies for rural areas addressing challenges like water purification, sanitation, agricultural productivity, and renewable energy access; collaborating with government agencies and NGOs on projects related to sustainable development, disaster management, environmental conservation, and social welfare; conducting extension programs and continuing education courses disseminating knowledge to professionals, school teachers, and community members building capacity in various sectors; providing technical consultancy to small and medium enterprises helping them improve processes, adopt new technologies, and enhance competitiveness; and engaging students in social service activities through National Service Scheme (NSS) encouraging community service and social awareness. Students participate in teaching underprivileged children in nearby villages through education outreach programs, conducting health and hygiene awareness campaigns in rural communities, environmental conservation initiatives including tree plantation and waste management, digital literacy programs helping bridge the digital divide, and development projects addressing local community needs. Faculty research often addresses societal challenges with practical applications including clean water technologies for arsenic and fluoride removal, low-cost housing solutions using innovative materials and designs, sustainable agricultural practices improving yields while reducing environmental impact, renewable energy systems for rural electrification, traffic management and urban planning solutions, and healthcare technologies making diagnosis and treatment more accessible and affordable. The commitment to social impact is reflected in institutional values encouraging students and faculty to think beyond personal success toward broader contribution to society, particularly addressing needs of underserved sections of population.",
+        "sources": "[web:180]"
+      },
+      "sustainability_environmental": {
+        "title": "Sustainability and Environmental Initiatives",
+        "green_campus": "IIT Kanpur is committed to environmental sustainability through research, operational practices, and awareness programs. Research contributions include renewable energy technologies (solar, wind, biomass) for clean power generation, energy-efficient building designs and materials reducing consumption, water conservation technologies including rainwater harvesting and wastewater recycling, sustainable manufacturing processes minimizing waste and pollution, environmental monitoring and remediation technologies, electric mobility solutions for sustainable transportation, and climate change mitigation and adaptation strategies. Operational practices on campus include rainwater harvesting systems capturing monsoon rains for groundwater recharge, solar power installations generating clean electricity, energy-efficient lighting and appliances reducing campus carbon footprint, waste segregation at source and recycling programs, composting of organic waste from messes and gardens, sewage treatment plants treating wastewater before discharge, green building practices in new construction incorporating sustainable design principles, and tree plantation programs maintaining campus greenery. Student-led environmental clubs organize awareness campaigns on climate change and sustainability, campus cleaning drives maintaining campus hygiene, tree plantation during monsoons increasing campus green cover, waste reduction initiatives promoting reuse and recycling, energy and water conservation programs encouraging responsible consumption, and workshops on sustainable living practices. The campus's green spaces, trees, and natural environment provide aesthetic beauty, support biodiversity with bird species and small animals, offer peaceful settings for study and recreation, and serve as outdoor classrooms for ecology and environmental studies. Research on environmental engineering addresses pollution control, resource management, and sustainable development contributing to solutions for India's environmental challenges.",
+        "sources": "[web:190]"
+      },
+      "future_vision": {
+        "title": "Vision and Strategic Directions",
+        "strategic_goals": "As IIT Kanpur moves beyond six decades of distinguished service, the institute continues to evolve with ambitious goals for the future. Strategic priorities include strengthening research ecosystem by pursuing cutting-edge research in emerging areas such as artificial intelligence and machine learning, quantum computing and quantum technologies, advanced materials and nanotechnology, biotechnology and biomedical engineering, sustainable energy and climate solutions, aerospace and space technologies, and data science and analytics; expanding international collaborations through joint research projects with leading universities worldwide, dual degree programs and student exchange opportunities, faculty exchanges promoting knowledge sharing, participation in international research consortiums, and increased recruitment of international students adding diversity; enhancing entrepreneurship and innovation support through expanded incubation facilities supporting student and faculty startups, increased seed funding and mentorship for entrepreneurs, stronger industry partnerships facilitating technology commercialization, creating innovation ecosystem that produces successful ventures contributing to economic growth; investing in infrastructure development including upgrading laboratories with cutting-edge equipment, developing new research facilities for emerging areas, enhancing digital infrastructure supporting online and hybrid learning, modernizing classrooms with latest teaching technologies, and improving residential and recreational facilities; strengthening industry engagement through increased sponsored research addressing industrial challenges, internship programs providing students with industry experience, placement partnerships ensuring strong career outcomes, collaborative curriculum development keeping programs relevant to industry needs, and technology transfer mechanisms converting research into commercial products; promoting diversity and inclusion through increased gender diversity in student and faculty composition, support for students from socio-economically disadvantaged backgrounds through scholarships and support programs, creating inclusive environment where all individuals can thrive, and expanding access to quality education through online programs and outreach; and maintaining excellence in core strengths while adapting to changing technological landscape and societal needs ensuring IIT Kanpur continues its legacy of producing outstanding engineers, scientists, and leaders who contribute to India's development and humanity's progress.",
+        "sources": "[web:180]"
+      }
+    }
+  },
+  "courses_and_fee": {
+    "word_count": "6000",
+    "content": {
+      "introduction": {
+        "title": "Academic Programs Overview",
+        "description": "IIT Kanpur offers a comprehensive portfolio of academic programs spanning undergraduate, postgraduate, doctoral, and continuing education courses across engineering, sciences, design, management, and humanities. The institute's diverse program offerings cater to students at different educational stages, from high school graduates entering undergraduate programs to experienced professionals pursuing advanced degrees and research scholars conducting cutting-edge investigations. The fee structure at IIT Kanpur is designed to be affordable and accessible while maintaining world-class education standards, with government support and various scholarship schemes ensuring that financial constraints do not prevent deserving students from accessing premier technical education. At the undergraduate level, IIT Kanpur offers 4-year B.Tech programs across multiple engineering disciplines, 4-year B.S programs in sciences, 5-year B.Tech+M.Tech dual degree programs, and 5-year B.Tech+MBA integrated programs. At the postgraduate level, the institute offers 2-year M.Tech programs in various specializations, M.Sc programs in sciences, M.Des in design, MBA in management, M.S by Research programs, and specialized master's programs. IIT Kanpur also provides Ph.D programs across all departments and research centers. Each program has specific eligibility criteria, duration, fee structure, and admission process designed to attract talented students and provide them with world-class education preparing them for successful careers in academia, industry, research, and entrepreneurship.",
+        "sources": "[web:178][web:181]"
+      },
+      "btech_programs": {
+        "title": "Bachelor of Technology (B.Tech) Programs",
+        "details": {
+          "duration": "4 years (8 semesters)",
+          "total_fee": "₹9.19 Lakhs to ₹10.77 Lakhs for complete 4-year duration",
+          "hostel_fees": "₹15,385 per semester",
+          "annual_hostel": "Approximately ₹30,770 per year for hostel accommodation",
+          "eligibility": "Passed Class 12 or equivalent examination with Physics, Chemistry, and Mathematics as compulsory subjects. Minimum 75% aggregate marks (or in top 20 percentile in respective board) for General and OBC-NCL categories. Minimum 65% aggregate marks for SC/ST/PwD candidates. Must qualify JEE Main and rank among top 2,50,000 candidates to be eligible for JEE Advanced.",
+          "admission_process": "Admission to B.Tech programs at IIT Kanpur is based exclusively on performance in JEE Advanced conducted annually, followed by seat allocation through Joint Seat Allocation Authority (JoSAA). Candidates must first qualify JEE Main conducted by NTA, achieve ranks qualifying them for JEE Advanced (top 2.5 lakh), appear for JEE Advanced consisting of two compulsory papers testing Physics, Chemistry, and Mathematics, and participate in multiple rounds of JoSAA counselling for seat allocation based on All India Rank (AIR), category rank, and preferences. As per new JEE Advanced 2025 eligibility criteria, candidates can now attempt the exam a maximum of three times in three consecutive years (increased from two attempts), providing additional opportunity to qualify.",
+          "popular_branches": "IIT Kanpur offers B.Tech programs in numerous engineering disciplines including Computer Science and Engineering (most competitive with lowest cutoff ranks), Electrical Engineering, Mechanical Engineering, Aerospace Engineering, Chemical Engineering, Civil Engineering, Materials Science and Engineering, Biological Sciences and Bio-Engineering, Earth Sciences, Sustainable Energy Engineering, and other specialized programs. Typical cutoff rank for B.Tech admission ranges up to 8,000 for last seats though varies significantly by branch and category.",
+          "curriculum_structure": "The B.Tech curriculum follows the engineering science model pioneered by IIT Kanpur, emphasizing strong fundamentals in sciences and mathematics before specialization. The first year includes common foundation courses across all branches covering Mathematics (calculus, linear algebra, differential equations, probability), Physics (mechanics, electromagnetism, quantum physics), Chemistry (physical, organic, inorganic chemistry), Introduction to Computing and Programming, Basic Engineering courses, Communication Skills, and introductory exposure to different engineering disciplines. From second year onward, students study core departmental courses specific to their branch, professional electives allowing specialization within discipline, open electives enabling interdisciplinary learning, laboratory courses providing hands-on experimental skills, projects (minor and major) developing research capabilities, industrial training/internship during summers providing practical experience, and seminars enhancing presentation skills. The curriculum is continuously updated incorporating latest developments, industry requirements, and emerging technologies.",
+          "assessment": "Assessment is conducted through continuous evaluation including frequent quizzes, mid-semester examinations, end-semester examinations, assignments, projects, practical examinations in laboratory courses, and seminar presentations. The CGPA system on 10-point scale is used for academic performance evaluation."
+        },
+        "sources": "[web:178][web:179][web:182]"
+      },
+      "dual_degree_programs": {
+        "title": "Integrated Programs (B.Tech+M.Tech and B.Tech+MBA)",
+        "btech_mtech": {
+          "duration": "5 years (10 semesters)",
+          "total_fee": "₹9.19 Lakhs to ₹10.77 Lakhs (similar to B.Tech for first 4 years, additional for 5th year)",
+          "hostel_fees": "₹15,385 per semester",
+          "eligibility": "10+2 with 75% + JEE Advanced qualification",
+          "admission": "Through JEE Advanced and JoSAA counselling. Can select dual degree programs as preferences during counselling. Some departments allow B.Tech students to opt for dual degree after initial years based on CGPA.",
+          "program_structure": "Combines undergraduate and postgraduate education in 5 years. Students complete B.Tech level courses in first 3-4 years, then undertake M.Tech level advanced courses, specialization, and research thesis in final year. Graduates receive both B.Tech and M.Tech degrees providing enhanced career prospects."
+        },
+        "btech_mba": {
+          "duration": "5 years",
+          "description": "Unique integrated program combining engineering undergraduate education with MBA, preparing students for technology management roles. Students complete B.Tech curriculum with business and management courses integrated, then focus on MBA coursework in later years."
+        },
+        "sources": "[web:178]"
+      },
+      "bs_programs": {
+        "title": "Bachelor of Science (B.S) Programs",
+        "details": {
+          "duration": "4 years",
+          "total_fee": "₹9.19 Lakhs to ₹10.77 Lakhs",
+          "hostel_fees": "₹15,385 per semester",
+          "eligibility": "10+2 with 75% + JEE Advanced qualification",
+          "admission": "Through JEE Advanced and JoSAA counselling. Candidates can opt for B.S programs during seat allocation.",
+          "specializations": "B.S programs are offered in fundamental science disciplines including Chemistry, Physics, Mathematics, Economics, and Earth Sciences. These programs provide strong foundation in theoretical and experimental sciences preparing students for research careers or diverse professional paths.",
+          "career_paths": "Graduates pursue research in academic and industrial laboratories, higher education (M.Sc, Ph.D), data science and analytics, scientific positions in government organizations, interdisciplinary fields, finance, consulting, and other sectors valuing strong analytical skills."
+        },
+        "sources": "[web:178]"
+      },
+      "mtech_programs": {
+        "title": "Master of Technology (M.Tech) Programs",
+        "details": {
+          "duration": "2 years (4 semesters)",
+          "tuition_fee_regular": "₹5,000 per semester for regular students",
+          "tuition_fee_sponsored": "₹25,000 per semester for sponsored candidates",
+          "total_fee_regular": "₹84,040 for complete 2-year duration (including all charges)",
+          "hostel_fees": "₹15,385 per semester",
+          "eligibility": "Bachelor's degree in Engineering/Technology (B.E/B.Tech) with minimum qualifying percentage + valid GATE score in relevant discipline. Some programs accept B.Sc graduates or candidates from other backgrounds based on specialization.",
+          "admission_process": "M.Tech admission is primarily based on GATE scores. Candidates apply online after GATE results providing GATE scores, academic records, and preferences. Selection is based on GATE percentile/score, academic performance, and sometimes written tests or interviews by departments. Admission through COAP for participating programs or direct departmental admissions.",
+          "popular_specializations": "IIT Kanpur offers M.Tech programs across all engineering departments in specializations including Computer Science and Engineering, Data Analytics and Intelligence, Cyber Security, VLSI Design, Communication Systems, Power Electronics and Drives, Mechanical System Design, Thermal Engineering, Materials Science and Engineering, Structural Engineering, Environmental Engineering, Chemical Engineering, Aerospace Engineering, and numerous other areas aligned with faculty expertise and industry needs.",
+          "program_structure": "M.Tech programs combine advanced coursework with substantial research component. Students undertake core courses, electives, seminars, laboratory work, and major research project/thesis in final semesters contributing original knowledge or innovative application. Thesis defense before evaluation committee is required for degree award."
+        },
+        "sources": "[web:178][web:181]"
+      },
+      "msc_programs": {
+        "title": "Master of Science (M.Sc) Programs",
+        "details": {
+          "duration": "2 years (4 semesters)",
+          "tuition_fee": "₹3,000 per semester",
+          "total_fee": "₹76,040 for complete 2-year duration",
+          "hostel_fees": "₹15,385 per semester",
+          "eligibility": "Bachelor's degree in relevant field (B.Sc or equivalent) with minimum 55% marks (50% for SC/ST/PwD) + valid IIT JAM score",
+          "admission": "Through IIT JAM followed by centralized counselling. Seat allocation based on JAM rank, category, and preferences.",
+          "specializations": "M.Sc programs offered in Physics, Chemistry, Mathematics and Scientific Computing, Economics, and other science disciplines providing advanced training in fundamental sciences and research methodologies.",
+          "program_structure": "Curriculum includes advanced coursework, laboratory sessions, computational courses, seminars, and dissertation/project in final semester involving independent research under faculty guidance."
+        },
+        "sources": "[web:178][web:181]"
+      },
+      "mba_programs": {
+        "title": "Master of Business Administration (MBA) Programs",
+        "details": {
+          "duration": "2 years (6 terms)",
+          "tuition_fee": "₹1,05,000 per semester for both regular and sponsored candidates",
+          "total_fee": "₹7.64 Lakhs for complete 2-year duration",
+          "hostel_fees": "₹15,385 per semester",
+          "eligibility": "Bachelor's degree or equivalent professional qualification with minimum 60% marks (55% for SC/ST/PwD) + valid CAT score",
+          "admission": "Based on CAT scores followed by Written Ability Test (WAT) and Personal Interview (PI). Final selection considers CAT percentile, academic performance, work experience, diversity, and interview performance.",
+          "program_features": "The MBA program focuses on building leadership, analytical, and managerial capabilities through rigorous coursework, case studies, industry projects, and internships. Students can specialize in Finance, Marketing, Operations, Strategy, and other management domains."
+        },
+        "sources": "[web:178][web:181]"
+      },
+      "mdes_programs": {
+        "title": "Master of Design (M.Des) Programs",
+        "details": {
+          "duration": "2 years",
+          "tuition_fee_regular": "₹5,000 per semester",
+          "tuition_fee_sponsored": "₹25,000 per semester",
+          "total_fee": "₹76,040 for complete 2-year duration (regular students)",
+          "hostel_fees": "₹15,385 per semester",
+          "eligibility": "Bachelor's degree with minimum 55% marks + valid CEED score",
+          "admission": "Based on CEED scores, Design Aptitude Test, portfolio evaluation, and personal interview.",
+          "program_features": "M.Des program provides advanced design education covering industrial design, visual communication, user experience design, and design research. Curriculum includes studio-based projects, design thinking, research methodologies, and thesis project."
+        },
+        "sources": "[web:178][web:181]"
+      },
+      "ms_research": {
+        "title": "M.S by Research Programs",
+        "details": {
+          "duration": "2-3 years depending on research progress",
+          "tuition_fee_regular": "₹5,000 per semester",
+          "tuition_fee_sponsored": "₹25,000 per semester",
+          "total_fee": "₹76,040 for regular students",
+          "hostel_fees": "₹15,385 per semester",
+          "eligibility": "Bachelor's degree with required percentage + valid GATE score or qualifying through departmental selection process",
+          "program_structure": "M.S by Research is research-intensive program where students primarily focus on conducting original research under faculty supervision with minimal coursework. Thesis submission and defense required for degree award. Suits students aspiring for research careers or planning Ph.D."
+        },
+        "sources": "[web:178][web:181]"
+      },
+      "phd_programs": {
+        "title": "Doctor of Philosophy (Ph.D) Programs",
+        "details": {
+          "duration": "Typically 4-6 years depending on research progress",
+          "tuition_fee_regular": "₹2,500 per semester for full-time Ph.D",
+          "tuition_fee_sponsored": "₹25,000 per semester for sponsored candidates",
+          "total_fee_regular": "₹1.01 Lakhs for complete program (varies by duration)",
+          "hostel_fees": "₹15,385 per semester",
+          "eligibility": "Master's degree in relevant discipline with minimum 60% marks (55% for SC/ST/PwD) for regular Ph.D. Bachelor's degree with exceptional academic record for Direct Ph.D in some departments.",
+          "admission": "Through departmental selection process including written test (may be waived for candidates with valid GATE/NET/CSIR/UGC scores meeting cutoffs), personal interview assessing research aptitude and subject knowledge, and evaluation of research proposals. Must secure faculty supervisor willing to guide research work.",
+          "research_areas": "Ph.D programs offered across all departments covering Computer Science, Artificial Intelligence, Electrical Engineering, Mechanical Engineering, Aerospace Engineering, Chemical Engineering, Civil Engineering, Materials Science, Biological Sciences, Physics, Chemistry, Mathematics, Economics, Humanities, Design, and interdisciplinary areas. Research topics span cutting-edge areas addressing fundamental questions and practical challenges.",
+          "fellowship_support": "Selected full-time Ph.D students receive monthly fellowship/stipend as per government norms (approximately ₹31,000-₹35,000 per month). Students with GATE/NET/CSIR/UGC fellowships receive support according to fellowship guidelines. Teaching and Research Assistantships provide additional support."
+        },
+        "sources": "[web:178][web:181]"
+      },
+      "fee_structure_detailed": {
+        "title": "Detailed Fee Structure by Category",
+        "category_wise_fees": {
+          "sc_st_pwd_meb": "₹38,125 per year (with tuition fee waiver)",
+          "oeb_obc": "₹71,458 per year",
+          "general_obc": "₹1,38,125 per year (full fees)",
+          "sc_st_income_below_6lpa": "₹36,875 per year (additional concessions for economically weaker SC/ST families)",
+          "components": "Fee structure includes tuition fees (varies by program and category), institute fees covering various services, examination fees, library and laboratory fees, student activity fees, medical insurance, technology fees, and other charges. Hostel fees (₹15,385 per semester) and mess charges are separate from academic fees."
+        },
+        "sources": "[web:181]"
+      },
+      "scholarships_financial_aid": {
+        "title": "Scholarships and Financial Assistance",
+        "support_schemes": {
+          "tuition_fee_waiver": "SC/ST/PwD candidates receive full tuition fee waiver in most programs. They pay only other charges making education highly affordable.",
+          "income_based": "Students from economically weaker sections receive fee concessions based on annual family income. Various schemes provide partial or full fee waivers.",
+          "merit_scholarships": "Merit-cum-means scholarships support academically excellent students from disadvantaged backgrounds covering tuition, hostel charges, and monthly stipends.",
+          "research_fellowships": "Ph.D and research students receive monthly fellowships (₹31,000-₹35,000). Students with GATE/NET/CSIR/UGC fellowships receive support per agency norms.",
+          "education_loans": "Students can avail education loans from designated banks with institute support. Interest subsidy schemes available for economically weaker students.",
+          "external_scholarships": "Access to external scholarships from corporations, foundations, trusts, and government schemes through National Scholarship Portal and other sources."
+        },
+        "sources": "[web:181]"
+      },
+      "fee_comparison_table": {
+        "title": "Comprehensive Fee Structure Summary",
+        "programs_table": [
+          {
+            "Program": "B.Tech / BS / Dual Degree",
+            "Duration": "4-5 years",
+            "Total Fee": "₹9.19 - 10.77 Lakhs",
+            "Hostel/Semester": "₹15,385",
+            "Eligibility": "10+2 with 75% + JEE Advanced"
+          },
+          {
+            "Program": "M.Tech / M.Des / MS",
+            "Duration": "2 years",
+            "Tuition/Semester": "₹5,000",
+            "Total Fee": "₹76,040 - 84,040",
+            "Hostel/Semester": "₹15,385",
+            "Eligibility": "Graduation + GATE/CEED"
+          },
+          {
+            "Program": "M.Sc",
+            "Duration": "2 years",
+            "Tuition/Semester": "₹3,000",
+            "Total Fee": "₹76,040",
+            "Hostel/Semester": "₹15,385",
+            "Eligibility": "Graduation + IIT JAM"
+          },
+          {
+            "Program": "MBA",
+            "Duration": "2 years",
+            "Tuition/Semester": "₹1,05,000",
+            "Total Fee": "₹7.64 Lakhs",
+            "Hostel/Semester": "₹15,385",
+            "Eligibility": "Graduation + CAT"
+          },
+          {
+            "Program": "Ph.D (Regular)",
+            "Duration": "4-6 years",
+            "Tuition/Semester": "₹2,500",
+            "Total Fee": "₹1.01 Lakhs",
+            "Hostel/Semester": "₹15,385",
+            "Eligibility": "Master's or Direct entry"
+          },
+          {
+            "Program": "Master Program",
+            "Duration": "Varies",
+            "Total Fee": "₹8 Lakhs",
+            "Hostel/Semester": "₹15,385",
+            "Eligibility": "Graduation with 55%"
+          }
+        ],
+        "note": "SC/ST/PwD candidates receive tuition fee waiver. Sponsored candidates pay higher fees. Hostel and mess charges additional. Ph.D students typically receive fellowships offsetting costs.",
+        "sources": "[web:178][web:181]"
+      }
+    }
+  },
+  "admissions": {
+    "word_count": "4000",
+    "content": {
+      "overview": {
+        "title": "Admissions Process Overview",
+        "description": "The admission process at IIT Kanpur is highly competitive and merit-based, designed to identify talented students with aptitude for technical education and research. Different programs have specific admission criteria and entrance examination requirements ensuring selected candidates possess necessary academic preparation and potential. The institute admits students through nationally recognized entrance examinations: JEE Advanced for undergraduate engineering and science programs, GATE for postgraduate engineering programs, IIT JAM for postgraduate science programs, CEED for postgraduate design programs, CAT for MBA programs, and department-specific tests for Ph.D programs. The admission process is transparent, following strict timelines and procedures established by the institute and national regulatory bodies. IIT Kanpur follows reservation policies as mandated by Government of India ensuring representation for SC, ST, OBC, EWS, and PwD categories. Supernumerary seats for female candidates promote gender diversity. Admissions for undergraduate programs are conducted centrally through Joint Seat Allocation Authority (JoSAA), while postgraduate and doctoral admissions follow department-specific processes after centralized entrance examinations. The multi-step admission process includes appearing for relevant entrance exams, online application submission, counselling and seat allocation, document verification, fee payment, and admission confirmation.",
+        "sources": "[web:179][web:182]"
+      },
+      "jee_advanced_2025": {
+        "title": "JEE Advanced 2025 - New Eligibility Criteria",
+        "updated_rules": {
+          "attempt_limit": "As per new JEE Advanced 2025 eligibility criteria announced on official website, candidates can now attempt the exam a maximum of three times in three consecutive years. This is an increase from previous two-attempt limit, providing students additional opportunity to qualify for IIT admission.",
+          "age_criteria": "Candidates born on or after October 1, 2000 for General/OBC-NCL categories and October 1, 1995 for SC/ST/PwD categories are eligible, subject to attempts limit",
+          "educational_qualification": "Must have passed Class 12 or equivalent with Physics, Chemistry, and Mathematics as compulsory subjects in 2024 or 2025. Minimum 75% aggregate marks (or in top 20 percentile in respective board) for General/OBC-NCL. Minimum 65% aggregate for SC/ST/PwD",
+          "jee_main_qualification": "Must qualify JEE Main and rank among top 2,50,000 candidates across all categories to be eligible for JEE Advanced"
+        },
+        "sources": "[web:179]"
+      },
+      "btech_admissions_process": {
+        "title": "B.Tech Admissions Detailed Process",
+        "step_by_step": {
+          "step1_jee_main": "Students interested in B.Tech at IIT Kanpur must first register for JEE Main conducted by National Testing Agency (NTA) on official website (nta.ac.in). JEE Main tests Physics, Chemistry, and Mathematics through computer-based test with multiple-choice and numerical questions. Candidates must achieve percentile ranks qualifying them for top 2.5 lakh positions across all categories. JEE Main is conducted twice annually (January and April sessions) with best score considered for JEE Advanced eligibility. Application forms typically released in November preceding exam year.",
+          "step2_jee_advanced": "Qualified JEE Main candidates register for JEE Advanced through GATE Online Application Processing System (GOAPS) official website. JEE Advanced consists of two compulsory papers (Paper 1 and Paper 2), each of 3 hours duration, conducted in Computer-Based Test mode. Both papers cover Physics, Chemistry, and Mathematics with various question types including multiple-choice (single and multiple correct), numerical answer type, and matching questions testing conceptual understanding and analytical skills. Negative marking applies for incorrect answers. JEE Advanced typically conducted in May. Candidates must attempt both papers and meet minimum qualifying marks in each subject and overall to be included in rank list.",
+          "step3_results_ranks": "After examination, JEE Advanced results are announced with All India Rank (AIR) and category-wise ranks (OBC-NCL, SC, ST, EWS, PwD). Candidates must meet minimum qualifying marks to receive ranks. Results typically announced within 2 weeks of exam.",
+          "step4_josaa_counselling": "Qualified candidates participate in Joint Seat Allocation Authority (JoSAA) counselling for seat allocation across IITs, NITs, IIITs, and other CFTIs. Process involves: Online registration on JoSAA portal; Choice filling where candidates select and rank institute-program combinations (IIT Kanpur + specific branch) based on preferences; Mock seat allocation helping candidates understand process; Multiple counselling rounds (typically 5-6 rounds) with seat allocation based on AIR/category rank and filled preferences; Candidates accept allocated seats, pay seat acceptance fee, or choose to float to subsequent rounds; Final seat acceptance and reporting to allocated institute.",
+          "step5_document_verification": "Candidates allocated seats at IIT Kanpur must complete physical reporting to campus during specified dates bringing original documents: Class 10 and 12 mark sheets and certificates, JEE Main and Advanced admit cards and score cards, Category certificates (SC/ST/OBC/EWS/PwD) if applicable, Transfer certificate from previous institution, Medical fitness certificate from authorized doctor, Character certificate, Photographs as specified, and other documents mentioned in admission letter. Institute conducts document verification ensuring authenticity.",
+          "step6_fee_payment_admission": "After document verification, candidates pay admission fees including tuition fee, institute fees, hostel fees (₹15,385 per semester), security deposits, and other charges completing registration formalities confirming admission. Late payment
+
+[1](https://www.iitk.ac.in/iitk-history)
+[2](https://en.wikipedia.org/wiki/IIT_Kanpur)
+[3](https://www.iitk.ac.in/new/iitk-history)
+[4](https://iitk.ac.in/me/about-us/history)
+[5](https://www.vidyamandir.com/think-iit-think-vmc/iit-kanpur.html)
+[6](https://collegedunia.com/university/25948-iit-kanpur-indian-institute-of-technology-iitk-kanpur/courses-fees)
+[7](https://www.shiksha.com/college/iit-kanpur-indian-institute-of-technology-25116/admission)
+[8](https://www.iitk.ac.in/institute-overview)
+[9](https://www.careers360.com/university/indian-institute-of-technology-kanpur/courses)
+[10](https://collegedunia.com/university/25948-iit-kanpur-indian-institute-of-technology-iitk-kanpur/admission)
+[11](https://www.shiksha.com/college/iit-kanpur-indian-institute-of-technology-25116/placement)
+[12](https://collegedunia.com/university/25948-iit-kanpur-indian-institute-of-technology-iitk-kanpur/placement)
+[13](https://motion.ac.in/blog/average-and-highest-package-of-iits/)
+[14](https://www.vedantu.com/jee-advanced/iit-kanpur-highest-package-and-placement)
+[15](https://www.mycareer.matrixedu.in/highest-package-of-iit/)
+[16](https://www.shiksha.com/college/iit-kanpur-indian-institute-of-technology-25116/ranking)
+[17](https://www.pagalguy.com/colleges/indian-institute-of-technology-kanpur/campus-facilities)
+[18](https://www.collegedekho.com/articles/highest-packages-at-iit-placements/)
+[19](https://timesofindia.indiatimes.com/education/news/which-iits-made-it-to-the-qs-world-university-rankings-2026-a-comparative-analysis-of-their-performance-this-year/articleshow/121970021.cms)
+[20](https://www.shiksha.com/college/iit-kanpur-indian-institute-of-technology-25116/infrastructure)

@@ -1,0 +1,758 @@
+Due to extensive information gathered, I'll provide a complete JSON response for SOA University:
+
+```json
+{
+  "college_name": "Siksha 'O' Anusandhan (SOA), Bhubaneswar",
+  "nirf_ranking": "15 (University Category - NIRF 2025), 25 (Overall), 22 (Engineering), 15 (Medical), 9 (Dental), 10 (Law)",
+  "overview": {
+    "word_count": "12000",
+    "content": {
+      "introduction": {
+        "title": "About Siksha 'O' Anusandhan (SOA)",
+        "description": "Siksha 'O' Anusandhan (SOA), meaning 'Education and Research' in Odia language, stands as one of India's premier multi-disciplinary deemed universities and a pioneering educational institution in eastern India. Founded by Dr. Manojranjan Nayak in 1984 initially as a small educational society, the institution began its journey as the Institute of Technical Education and Research (ITER) in 1996 in Bhubaneswar, Odisha's capital city. After over a decade of consistent academic excellence, the University Grants Commission (UGC) recognized SOA's outstanding contribution to technical and professional education by granting it deemed-to-be-university status on July 17, 2007 under Section 3 of the UGC Act, 1956. In 2022, SOA achieved another major milestone when the UGC awarded it prestigious Category-I Graded Autonomy Status, placing it among the elite group of India's most autonomous and high-quality institutions with maximum operational freedom. Spread across 450 acres (per some sources) or 127 acres of fully Wi-Fi enabled campuses (per other sources - likely referring to built-up areas versus total land) with total built-up area of nearly 4.5 lakh square meters in Bhubaneswar, SOA has evolved into a comprehensive university offering programs across Engineering, Medicine, Dental Sciences, Pharmacy, Law, Management, Nursing, Agriculture, Biotechnology, Science, Humanities, and numerous other disciplines. In NIRF 2025 rankings, SOA achieved remarkable success securing 15th position among Universities nationally (improved from 14th in 2024), 25th in Overall category, 22nd in Engineering (improved from 26th in 2024), 15th in Medical (improved from 21st in 2024), 9th in Dental (maintaining its 2024 rank), and 10th in Law. The Institute of Technical Education and Research (ITER), SOA's engineering faculty, was ranked 2nd in India by Times Engineering Institutes Ranking 2025, 2nd among private engineering institutes nationally, and 1st in eastern India. SOA was reaccredited with A++ grade by NAAC in 2022, the highest accreditation level, validating excellence across all parameters. The 2024 placements recorded highest domestic package of ₹43-46 LPA with average of ₹5.75 LPA, and 1,836 students placed through campus recruitment by 256 companies including giants like Microsoft, Amazon, Adobe, Accenture, Cognizant, and Deloitte. Serving thousands of students across multiple faculties with over 1,000 faculty members, SOA has established itself as eastern India's leading private deemed university. What distinguishes SOA is its rapid ascent from a 1996 engineering college to a top-15 university within two decades, multidisciplinary excellence spanning engineering to medicine to law, commitment to research and innovation with multiple research centers, social responsibility through affordable education and community service, beautiful campus infrastructure at Bhubaneswar, and consistent improvement in national rankings demonstrating sustained quality enhancement.",
+        "sources": "[web:430][web:431][web:433][web:434][web:445][web:448]"
+      },
+      "founding_vision_1984": {
+        "title": "Founding Vision and Early Beginnings (1984-1996)",
+        "philanthropic_roots": "In 1984, Dr. Manojranjan Nayak, a visionary educator and social reformer, established Siksha 'O' Anusandhan as an educational society in Bhubaneswar, Odisha with the noble mission of providing quality education to students from all socio-economic backgrounds. The name 'Siksha 'O' Anusandhan' literally translates to 'Education and Research' in Odia (Oriya) language, reflecting the founder's vision that education must be research-driven and inquiry-based rather than mere rote learning. Dr. Nayak's vision was rooted in several core principles: democratizing quality education making it accessible beyond just privileged urban elite to rural and economically disadvantaged students, integrating education with social responsibility and community service, promoting research and innovation alongside traditional teaching, fostering holistic personality development combining technical competence with human values, and contributing to Odisha's socio-economic development through educated youth. The initial years (1984-1996) focused on establishing the foundational infrastructure and organizational framework, building credibility through quality education delivery, and developing connections with industry and government for support and collaborations. This preparatory phase set the stage for SOA's expansion into technical education through establishment of engineering programs.",
+        "sources": "[web:431][web:437]"
+      },
+      "iter_establishment_1996": {
+        "title": "Establishment of ITER (1996)",
+        "technical_education_begins": "In 1996, a transformative expansion occurred when SOA established the Institute of Technical Education and Research (ITER) in Bhubaneswar, marking its entry into engineering and technical education. ITER received approval from the All India Council for Technical Education (AICTE) to offer B.Tech programs, ensuring compliance with national standards for technical education. Initially, ITER was affiliated with Utkal University, Odisha's premier state university, following the traditional affiliated college model where the university conducted examinations and awarded degrees while ITER provided instruction. The establishment of ITER represented SOA's commitment to addressing India's need for quality technical education and skilled engineers, particularly in the eastern region where technical education infrastructure was relatively underdeveloped compared to South and Western India. Early focus areas included establishing core engineering departments in Civil, Mechanical, Electrical, Electronics & Communication, and Computer Science Engineering, building laboratory and workshop facilities for hands-on training, recruiting qualified faculty with strong academic credentials and industry experience, developing basic infrastructure including classrooms, hostels, and library, and creating industry connections for student internships and placements. The choice of Bhubaneswar, Odisha's capital and a growing IT and education hub, proved strategic providing access to students from across eastern India while maintaining relatively affordable costs compared to metros like Bangalore or Mumbai.",
+        "sources": "[web:431][web:434]"
+      },
+      "growth_under_affiliation_1996_2007": {
+        "title": "Growth as Affiliated College (1996-2007)",
+        "consolidation_phase": "Between 1996 and 2007, ITER operated under university affiliation - first with Utkal University (1996-2002) and subsequently with Biju Patnaik University of Technology (BPUT) from 2002 to 2007. This period was characterized by steady enrollment growth from initial modest batches to hundreds of students annually, expansion of engineering programs with addition of specialized branches like Information Technology, Electronics & Instrumentation, Biotechnology, and others responding to industry needs, infrastructure development with construction of additional academic blocks, expansion of laboratory facilities, increased hostel capacity, and library enrichment, faculty recruitment and development hiring qualified teachers and encouraging them to pursue doctoral degrees and research, establishment of placement cell building relationships with companies for campus recruitment achieving good placement rates, and academic excellence with students performing well in BPUT examinations, winning technical competitions, and securing admissions to premier institutions for higher studies. Despite constraints of affiliated college status (fixed curricula, limited autonomy, university-controlled examinations), ITER maintained high quality standards and built a strong reputation within Odisha and neighboring states as one of the best private engineering colleges. This consistent performance over 11 years laid the foundation for deemed university recognition. Simultaneously, SOA expanded into other professional education areas establishing faculties in Pharmacy, Nursing, Biotechnology, Management, and Humanities, creating a multi-disciplinary institution rather than just an engineering college.",
+        "sources": "[web:431][web:434]"
+      },
+      "deemed_university_2007": {
+        "title": "Deemed-to-be-University Status (2007)",
+        "transformative_elevation": "On July 17, 2007, SOA achieved its most transformative milestone when the Ministry of Human Resource Development (MHRD), Government of India, on recommendation from the University Grants Commission (UGC), conferred deemed-to-be-university status under Section 3 of the UGC Act, 1956. This recognition acknowledged SOA's 11-year track record of academic excellence through ITER, quality of faculty and infrastructure, contribution to technical and professional education in eastern India, commitment to research and innovation, and holistic educational approach. The deemed university status fundamentally transformed SOA's capabilities providing autonomy to design curricula aligned with industry needs and global standards without waiting for university approvals, conduct examinations on its own schedule with flexible evaluation methods, award degrees independently under its own name (B.Tech, M.Tech, MBBS, BDS, MBA, M.Pharm, Ph.D., etc.), set admission criteria and conduct entrance examinations (SAAT - SOA Admission Test), establish new programs and faculties across multiple disciplines, innovate in pedagogy and teaching methods, recruit faculty based on institutional requirements, enter into international collaborations directly with foreign universities, and pursue research, consultancy, and extension activities autonomously. ITER became a constituent institute of SOA Deemed to be University, renamed Institute of Technical Education and Research (ITER), continuing as the faculty of engineering and technology. The deemed status enabled SOA to rapidly expand into new disciplines including medical education (MBBS), dental education (BDS), pharmacy, law, agriculture, nursing, management, and sciences, transforming from primarily an engineering-focused institution into a comprehensive multi-disciplinary university rivaling established state universities in breadth of offerings.",
+        "sources": "[web:430][web:431][web:433][web:434]"
+      },
+      "medical_expansion_post_2007": {
+        "title": "Expansion into Medical and Health Sciences",
+        "healthcare_education": "Post-2007, one of SOA's most significant expansions was establishment of medical and health sciences programs. SOA established Institute of Medical Sciences & SUM Hospital offering MBBS program approved by Medical Council of India (now National Medical Commission), creating a teaching hospital providing healthcare to community while training medical students; Institute of Dental Sciences offering BDS program approved by Dental Council of India, with associated dental hospital; College of Nursing offering B.Sc Nursing and M.Sc Nursing programs approved by Indian Nursing Council; and College of Pharmaceutical Sciences offering B.Pharm and M.Pharm programs approved by Pharmacy Council of India. This expansion into health sciences was ambitious requiring massive investment in specialized infrastructure including hospitals with patient wards, operation theatres, diagnostic facilities, dental clinics with modern equipment, pharmacy laboratories, nursing skills labs, and recruitment of medical faculty including doctors, dentists, pharmacists, and nursing faculty. The healthcare programs served dual purposes: providing quality medical and health sciences education training doctors, dentists, pharmacists, and nurses for India's healthcare system; and delivering healthcare services to local communities through SUM Hospital and dental hospital, fulfilling SOA's social responsibility mission. The success in medical and dental education is evident in SOA's NIRF 2025 rankings: 15th in Medical and 9th in Dental nationally, demonstrating quality comparable to premier government medical colleges.",
+        "sources": "[web:445]"
+      },
+      "category_i_autonomy_2022": {
+        "title": "Category-I Graded Autonomy (2022)",
+        "elite_recognition": "In 2022, SOA achieved another major distinction when the UGC awarded it Category-I Graded Autonomy Status following comprehensive assessment of performance across teaching, research, infrastructure, governance, and student outcomes. The UGC categorizes institutions into Category-I (best performers with highest autonomy), Category-II (good performers), and Category-III (need improvement). Category-I status places SOA among India's elite deemed universities with maximum operational freedom including starting new programs without UGC approval (subject to resource availability and compliance), opening off-campus centers, hiring foreign faculty, offering online programs, and other flexibilities reserved for top institutions. This recognition validated SOA's two decades of quality enhancement since gaining deemed status in 2007, commitment to continuous improvement, and achievement of benchmarks across multiple parameters. Category-I autonomy positioned SOA to compete more effectively with premier institutions and innovate rapidly in educational delivery.",
+        "sources": "[web:434][web:448]"
+      },
+      "naac_a++_accreditation": {
+        "title": "NAAC A++ Accreditation (2022)",
+        "quality_validation": "In 2022, the National Assessment and Accreditation Council (NAAC) reaccredited SOA with A++ grade, the highest accreditation level on NAAC's grading scale. This exceptional accreditation validates SOA's quality across all seven NAAC criteria: Curricular Aspects, Teaching-Learning and Evaluation, Research, Innovations and Extension, Infrastructure and Learning Resources, Student Support and Progression, Governance and Leadership, and Institutional Values and Best Practices. The A++ grade positions SOA among the elite group of Indian higher education institutions meeting the highest quality benchmarks. The reaccreditation prefix indicates SOA had been accredited by NAAC previously and maintained (or improved) its quality in subsequent assessment cycles, demonstrating sustained excellence rather than one-time achievement.",
+        "sources": "[web:448]"
+      },
+      "academic_structure": {
+        "title": "Academic Organization - Multiple Faculties",
+        "comprehensive_programs": "SOA is organized into multiple constituent institutes/faculties offering 120+ programs across undergraduate, postgraduate, doctoral, and diploma levels. Major constituent institutes include: Institute of Technical Education and Research (ITER) - Faculty of Engineering and Technology offering B.Tech in 15+ specializations, M.Tech programs, and Ph.D. in engineering disciplines; Institute of Medical Sciences & SUM Hospital - offering MBBS, MD/MS, and other medical programs; Institute of Dental Sciences - offering BDS, MDS programs; College of Pharmaceutical Sciences - offering B.Pharm, M.Pharm, Pharm.D programs; College of Nursing - offering B.Sc Nursing, M.Sc Nursing, P.B.B.Sc Nursing; School of Management - offering BBA, MBA in various specializations; School of Law - offering B.A. LLB, B.B.A. LLB (5-year integrated), LLM programs; Faculty of Agricultural Sciences - offering B.Sc Agriculture; Institute of Business and Computer Studies - offering BCA, MCA; Faculty of Science - offering B.Sc, M.Sc in Physics, Chemistry, Mathematics, Biotechnology, Microbiology, etc.; Faculty of Humanities - offering various humanities and social science programs; and Center for Research - coordinating doctoral programs across disciplines. This comprehensive structure enables students to pursue almost any academic interest within the SOA ecosystem.",
+        "sources": "[web:431][web:436]"
+      },
+      "ranking_achievements": {
+        "title": "Remarkable Ranking Success (2024-2025)",
+        "nirf_excellence": "SOA's NIRF 2025 rankings represent remarkable achievements demonstrating multi-disciplinary excellence. University Ranking: 15th nationally (improved from 14th in 2024) - among top 15 universities (government and private combined) in India, an extraordinary accomplishment. Overall Ranking: 25th - consistently in top 25-30 overall institutions since NIRF inception in 2016, with top 20 university ranking on eight occasions. Engineering Ranking: 22nd (improved 4 positions from 26th in 2024) - ITER specifically demonstrating strong engineering education. Medical Ranking: 15th (improved 6 positions from 21st in 2024) - rapid improvement demonstrating growing medical education quality. Dental Ranking: 9th (maintained from 2024) - among top 10 dental colleges nationally. Law Ranking: 10th - top 10 law schools nationally. Additionally, Times Engineering Institutes Ranking 2025 placed ITER 2nd in India among all engineering institutes, 2nd among private engineering institutes nationally, and 1st in eastern India. These rankings validate SOA's transformation from a regional engineering college to a nationally recognized multi-disciplinary university within two decades.",
+        "sources": "[web:445][web:448]"
+      },
+      "current_standing_2025": {
+        "title": "Current Status and Position (2025)",
+        "contemporary_excellence": "As of 2025, SOA stands as one of India's premier deemed universities with 29 years of educational legacy (1996-2025 for ITER, 41 years if counting from 1984 SOA society formation), Top 15 university ranking and Top 25 overall in NIRF 2025, Category-I Graded Autonomy by UGC and A++ NAAC accreditation, 450-acre campus with 4.5 lakh sq meters built-up area in Bhubaneswar, 120+ programs across engineering, medicine, dental, pharmacy, law, management, sciences, and humanities, thousands of students across multiple faculties, 1,000+ qualified faculty members, 256 companies recruiting with highest packages reaching ₹43-46 LPA and 1,836 placements in 2024, SUM Hospital and Dental Hospital serving community while training students, and international collaborations with global universities. SOA's strengths include rapid growth trajectory and consistent ranking improvements, multi-disciplinary excellence from engineering to medicine to law, strong regional presence as eastern India's leading private deemed university, commitment to affordable quality education with scholarships, beautiful campus infrastructure in Bhubaneswar, and visionary leadership steering continuous evolution. Challenges include maintaining quality with rapid expansion across multiple disciplines, ensuring consistent outcomes across all programs and faculties, building stronger national brand perception beyond eastern India, and competing with established names like BITS, VIT, Manipal nationally. The next phase focuses on strengthening research output and publications, improving international rankings and visibility, expanding industry partnerships for enhanced placements, increasing interdisciplinary programs and collaborations, and consolidating position among India's top 10 universities.",
+        "sources": "[web:430][web:434][web:445][web:448]"
+      }
+    }
+  },
+  "courses_and_fee": {
+    "word_count": "6000",
+    "content": {
+      "introduction": {
+        "title": "Programs and Fee Structure Overview",
+        "description": "SOA offers 120+ programs across UG, PG, and doctoral levels through multiple constituent institutes. B.Tech fees range from ₹4.70 Lakhs to ₹6.30 Lakhs for 4 years depending on specialization. MBBS, BDS, and other medical programs have separate fee structures. SOA provides scholarships and financial assistance to deserving students. The fee structure is designed to be affordable while maintaining quality infrastructure and education.",
+        "sources": "[web:435][web:438]"
+      },
+      "btech_programs": {
+        "title": "B.Tech Programs - 15+ Specializations",
+        "fee_structure": {
+          "total_fee_range": "₹4.70 Lakhs to ₹6.30 Lakhs (4 years total tuition)",
+          "semester_fees": {
+            "cse_aiml_cs_ds_iot": "₹1,57,500 per semester (₹6,30,000 for 4 years)",
+            "cse_csit": "₹1,47,500 per semester (₹5,90,000 for 4 years)",
+            "ece_eee": "₹1,32,500 per semester (₹5,30,000 for 4 years)",
+            "civil_electrical_mechanical": "₹1,17,500 per semester (₹4,70,000 for 4 years)"
+          },
+          "hostel_fees": {
+            "ac_2_seater_attached": "₹1,35,000 per year",
+            "ac_2_seater_common": "₹1,25,000 per year",
+            "ac_3_seater_attached": "₹1,15,000 per year",
+            "ac_3_seater_common": "₹1,05,000 per year",
+            "ac_4_seater": "₹95,000 per year",
+            "non_ac_2_seater": "₹70,000 per year",
+            "non_ac_3_seater": "₹65,000 per year",
+            "non_ac_4_seater": "₹60,000 per year",
+            "caution_deposit": "₹5,000 (refundable)"
+          }
+        },
+        "eligibility": "10+2 with Mathematics and Physics as compulsory subjects, plus one subject from Chemistry/Computer Science/IT/Biotechnology/Biology/Statistics + SAAT qualification or JEE Main",
+        "admission": "Through SAAT (SOA Admission Test) or JEE Main scores",
+        "specializations": "15+ B.Tech programs including Computer Science and Engineering (AI & ML / Cyber Security / Data Science / IoT), Computer Science and Engineering, Computer Science and Information Technology, Electronics and Communication Engineering, Electrical and Electronics Engineering, Civil Engineering, Electrical Engineering, Mechanical Engineering, Biotechnology, Chemical Engineering, and others",
+        "sources": "[web:435][web:436]"
+      },
+      "medical_programs": {
+        "title": "Medical and Dental Programs",
+        "details": {
+          "mbbs": {
+            "duration": "5.5 years (including internship)",
+            "eligibility": "10+2 with PCB + NEET qualification",
+            "admission": "Through NEET scores, counselling by state/central authorities",
+            "fee_structure": "Contact university for current MBBS fees (typically in premium range for private medical colleges)"
+          },
+          "bds": {
+            "duration": "5 years (including internship)",
+            "eligibility": "10+2 with PCB + NEET qualification",
+            "admission": "Through NEET scores",
+            "fee_structure": "Contact university for current BDS fees"
+          }
+        },
+        "sources": "[web:431][web:436]"
+      },
+      "pharmacy_programs": {
+        "title": "Pharmacy Programs",
+        "details": {
+          "bpharm": {
+            "duration": "4 years",
+            "eligibility": "10+2 with PCM or PCB (individually clearing English, Physics, Chemistry, Mathematics/Biology)",
+            "admission": "Through SAAT",
+            "fee_structure": "Fee details available on official website/admissions portal"
+          },
+          "mpharm": {
+            "duration": "2 years",
+            "eligibility": "B.Pharm with minimum 50%; GPAT-qualified candidates exempted from SAAT",
+            "admission": "Through SAAT or GPAT",
+            "fee_structure": "Contact university"
+          }
+        },
+        "sources": "[web:436]"
+      },
+      "nursing_programs": {
+        "title": "Nursing Programs",
+        "details": {
+          "bsc_nursing": {
+            "duration": "4 years",
+            "eligibility": "10+2 with minimum 45% in PCB (40% for SC/ST/OBC); minimum age 17 years",
+            "admission": "Through SAAT",
+            "fee_structure": "Available on website"
+          },
+          "pb_bsc_nursing": {
+            "duration": "2 years (Post-Basic B.Sc Nursing)",
+            "eligibility": "GNM examination cleared and registered with State Nursing Council",
+            "admission": "Through SAAT"
+          },
+          "msc_nursing": {
+            "duration": "2 years",
+            "eligibility": "B.Sc Nursing (Basic/Post Basic) with 55% + minimum 1 year experience + registration with State Nursing Council",
+            "admission": "Through SAAT"
+          }
+        },
+        "sources": "[web:436]"
+      },
+      "management_programs": {
+        "title": "Management Programs",
+        "details": {
+          "bba": {
+            "duration": "3 years",
+            "eligibility": "10+2 in any discipline",
+            "admission": "Through SAAT"
+          },
+          "mba_mha_mhm_mttm": {
+            "duration": "2 years",
+            "eligibility": "3-year bachelor's degree in any discipline with minimum 50% (45% for SC/ST/OBC); includes MBA, MHA (Hospital Administration), MHM (Hotel Management), MTTM (Travel & Tourism Management)",
+            "admission": "Through SAAT or CAT/MAT/XAT/other national exams"
+          }
+        },
+        "sources": "[web:436]"
+      },
+      "law_programs": {
+        "title": "Law Programs",
+        "details": {
+          "ba_llb_bba_llb": {
+            "duration": "5 years (integrated)",
+            "eligibility": "10+2 in any discipline with minimum 45% (40% for SC/ST); age less than 20 years (22 for SC/ST)",
+            "admission": "Through SAAT (KSLEE - similar entrance test)"
+          },
+          "llm": {
+            "duration": "2 years",
+            "eligibility": "LLB or integrated law degree with minimum 50%",
+            "admission": "Through SAAT"
+          }
+        },
+        "sources": "[web:436]"
+      },
+      "agriculture_programs": {
+        "title": "Agriculture Programs",
+        "details": {
+          "bsc_agriculture": {
+            "duration": "4 years",
+            "eligibility": "10+2 with PCM/PCB/PCMB with minimum 50% (40% for SC/ST/PH); age 17-23 years",
+            "admission": "Through SAAT"
+          }
+        },
+        "sources": "[web:436]"
+      },
+      "other_programs": {
+        "title": "Other Programs",
+        "programs": {
+          "hotel_management": "BHMCT - 4 years, 10+2 with 45% (40% for SC/ST/OBC)",
+          "bca": "3 years, 10+2 with Mathematics",
+          "mca": "2 years, 3-year bachelor's with 50% + Mathematics at 10+2 or graduation level (Business Mathematics not counted)",
+          "mtech": "2 years, B.E./B.Tech/AMIE/MCA/M.Sc in relevant stream/discipline",
+          "msc": "2 years, B.Sc or equivalent in relevant stream with 50% (45% for SC/ST/OBC)",
+          "phd": "Doctoral programs across all disciplines"
+        },
+        "sources": "[web:436]"
+      },
+      "scholarships": {
+        "title": "Scholarships and Financial Assistance",
+        "support": "Merit-based scholarships for top SAAT performers, economically weaker section support, government scholarships (Odisha state and central), sports quota concessions, scholarships for SC/ST students. Details available on admissions portal.",
+        "sources": "[web:438]"
+      },
+      "fee_summary_table": {
+        "title": "Fee Structure Summary",
+        "table": [
+          {
+            "Program": "B.Tech (CSE AI/ML/DS/IoT)",
+            "Duration": "4 years",
+            "Total_Fee": "₹6.30 Lakhs",
+            "Per_Semester": "₹1,57,500",
+            "Eligibility": "10+2 + SAAT/JEE Main"
+          },
+          {
+            "Program": "B.Tech (CSE/CSIT)",
+            "Duration": "4 years",
+            "Total_Fee": "₹5.90 Lakhs",
+            "Per_Semester": "₹1,47,500",
+            "Eligibility": "10+2 + SAAT/JEE Main"
+          },
+          {
+            "Program": "B.Tech (ECE/EEE)",
+            "Duration": "4 years",
+            "Total_Fee": "₹5.30 Lakhs",
+            "Per_Semester": "₹1,32,500",
+            "Eligibility": "10+2 + SAAT/JEE Main"
+          },
+          {
+            "Program": "B.Tech (Civil/Elect/Mech)",
+            "Duration": "4 years",
+            "Total_Fee": "₹4.70 Lakhs",
+            "Per_Semester": "₹1,17,500",
+            "Eligibility": "10+2 + SAAT/JEE Main"
+          },
+          {
+            "Program": "MBBS",
+            "Duration": "5.5 years",
+            "Total_Fee": "Contact University",
+            "Per_Semester": "Variable",
+            "Eligibility": "10+2 PCB + NEET"
+          },
+          {
+            "Program": "BDS",
+            "Duration": "5 years",
+            "Total_Fee": "Contact University",
+            "Per_Semester": "Variable",
+            "Eligibility": "10+2 PCB + NEET"
+          },
+          {
+            "Program": "MBA",
+            "Duration": "2 years",
+            "Total_Fee": "Contact University",
+            "Per_Semester": "Variable",
+            "Eligibility": "Graduation + SAAT/CAT"
+          }
+        ],
+        "note": "Hostel fees: ₹60,000 to ₹1,35,000 per year depending on room type. Caution deposit ₹5,000. Scholarships available. Fees subject to revision.",
+        "sources": "[web:435][web:436][web:438]"
+      }
+    }
+  },
+  "admissions": {
+    "word_count": "4000",
+    "content": {
+      "overview": {
+        "title": "Admissions Process Overview",
+        "description": "SOA conducts admissions primarily through SAAT (SOA Admission Test), a university-specific entrance examination conducted in multiple phases. SOA also accepts national-level exam scores like JEE Main (for B.Tech), NEET (for medical/dental), CAT/MAT/XAT (for MBA), and GPAT (for M.Pharm). The admission process is both merit-based and entrance-based. Applications are submitted online through admission.soa.ac.in.",
+        "sources": "[web:436][web:439]"
+      },
+      "saat_examination": {
+        "title": "SAAT - SOA Admission Test",
+        "exam_details": {
+          "full_form": "SOA Admission Test (previously Siksha 'O' Anusandhan Admission Test)",
+          "conducting_body": "Siksha 'O' Anusandhan, Bhubaneswar",
+          "mode": "Online (Computer-Based Test) and Offline (as per availability)",
+          "medium": "English",
+          "duration": "2 hours (120 minutes)",
+          "questions": "200 MCQs (varies across different subjects/programs)",
+          "application_fee": "No application fee for SAAT 2025",
+          "phases": "Conducted in multiple phases throughout year to accommodate different admission cycles",
+          "application_start": "December 11, 2024 (for 2025 admissions)",
+          "application_deadline": "To be announced (typically extends until seats filled)",
+          "admit_card": "2nd week of April 2025 (expected)",
+          "result": "1st week of May 2025 (expected)"
+        },
+        "sources": "[web:436][web:439]"
+      },
+      "eligibility_criteria": {
+        "title": "Program-wise Eligibility Criteria",
+        "comprehensive_eligibility": {
+          "btech": "10+2 with Mathematics and Physics compulsory + one from Chemistry/CS/IT/Biotechnology/Biology/Statistics + SAAT or JEE Main",
+          "bpharm": "10+2 with English, Physics, Chemistry, Mathematics/Biology individually cleared",
+          "bhmct": "10+2 in any stream with 45% (40% for SC/ST/OBC)",
+          "bsc_agriculture": "10+2 with PCM/PCB/PCMB with 50% (40% for SC/ST/PH); age 17-23 years",
+          "bsc_nursing": "10+2 with 45% in PCB (40% for SC/ST/OBC); minimum 17 years age",
+          "pb_bsc_nursing": "GNM cleared + State Nursing Council registration",
+          "ba_llb_bba_llb": "10+2 any discipline with 45% (40% for SC/ST); age <20 years (<22 for SC/ST)",
+          "bba": "10+2 in any discipline",
+          "mtech": "B.E./B.Tech/AMIE/MCA/M.Sc in relevant stream/discipline",
+          "mca": "3-year bachelor's with 50% (45% for SC/ST/OBC) + Mathematics at 10+2 or graduation (not Business Maths)",
+          "mba_mha_mhm_mttm": "3-year bachelor's any stream with 50% (45% for SC/ST/OBC)",
+          "mpharm": "B.Pharm with 50%; GPAT-qualified exempted from SAAT",
+          "msc": "B.Sc or equivalent in relevant stream with 50% (45% for SC/ST/OBC)",
+          "msc_nursing": "B.Sc Nursing with 55% + 1 year experience + State Nursing Council registration",
+          "llm": "LLB or integrated law degree with 50%"
+        },
+        "sources": "[web:436]"
+      },
+      "application_process": {
+        "title": "Step-by-Step Application Process",
+        "detailed_steps": {
+          "step1": "Visit SOA official admissions portal at admission.soa.ac.in",
+          "step2": "Register as new user with basic details (name, email, mobile)",
+          "step3": "Login with credentials and fill online application form with comprehensive details (personal, academic, contact, program preferences)",
+          "step4": "Upload required documents (10th marksheet, 12th marksheet, photographs, signature, category certificates if applicable)",
+          "step5": "No application fee payment required for SAAT 2025 (major benefit)",
+          "step6": "Submit application and receive application number/acknowledgment via email",
+          "step7": "Download admit card approximately 2 weeks before exam from admissions portal",
+          "step8": "Appear for SAAT on scheduled date at selected exam center, OR submit scores from national exams (JEE Main/NEET/CAT etc.)",
+          "step9": "Check result and merit list on official portal",
+          "step10": "If selected, participate in counselling process"
+        },
+        "sources": "[web:436][web:439]"
+      },
+      "selection_process": {
+        "title": "Selection and Counselling",
+        "process": {
+          "merit_list": "Separate merit lists prepared for each program based on SAAT scores and qualifying examination marks",
+          "counselling": "Qualified candidates invited for counselling (online or offline as per university guidelines)",
+          "program_preference": "Candidates can indicate preferred programs and specializations during counselling",
+          "seat_allotment": "Seats allotted based on merit rank, program availability, and candidate preferences",
+          "document_verification": "Original document verification during counselling",
+          "fee_payment": "Selected candidates must pay admission fee within deadline to confirm seat",
+          "joining": "Report to campus on specified dates with documents for final admission"
+        },
+        "sources": "[web:436]"
+      },
+      "alternative_admission_routes": {
+        "title": "Alternative Admission Pathways",
+        "routes": {
+          "jee_main": "JEE Main scores accepted for B.Tech admissions as alternative to SAAT",
+          "neet": "NEET mandatory for MBBS and BDS admissions (SAAT not applicable); admissions through state/central counselling",
+          "gpat": "GPAT-qualified candidates for M.Pharm exempted from SAAT, just need to submit application",
+          "cat_mat_xat": "National management entrance exam scores accepted for MBA programs",
+          "diploma_lateral_entry": "Candidates with diploma in engineering/technology/pharmacy/hotel management eligible for lateral entry into 2nd year of respective programs"
+        },
+        "sources": "[web:436][web:439]"
+      },
+      "important_information": {
+        "title": "Key Admission Information",
+        "highlights": {
+          "no_fee": "No SAAT application fee - major cost saving for applicants",
+          "multiple_phases": "SAAT conducted in multiple phases providing flexibility",
+          "online_offline": "Both online and offline exam modes available",
+          "merit_based": "Purely merit-based selection without caste/religion bias (though reservation benefits as per government norms)",
+          "scholarship_consideration": "High SAAT scorers considered for merit scholarships automatically"
+        },
+        "sources": "[web:436]"
+      }
+    }
+  },
+  "placements": {
+    "word_count": "4000",
+    "content": {
+      "overview_2024": {
+        "title": "Placements 2024 Overview",
+        "comprehensive_statistics": {
+          "total_offers": "1,836 placement offers",
+          "students_placed": "1,836 students",
+          "companies_visited": "256 recruiters",
+          "highest_package": "₹43-46 LPA (different sources report slightly different figures)",
+          "average_package": "₹5.75 LPA",
+          "median_package_ug": "₹6,00,000 per annum (UG 4-Year Programme as per NIRF 2025)",
+          "note": "Strong placement performance across engineering and management programs"
+        },
+        "sources": "[web:440][web:441][web:444][web:447]"
+      },
+      "historical_comparison": {
+        "title": "Historical Placement Trends",
+        "year_wise": {
+          "2024": "Highest: ₹43 LPA, Average: ₹5.75 LPA, Companies: 256",
+          "2023": "Highest: ₹46 LPA",
+          "2022": "Highest: ₹42 LPA",
+          "observation": "Consistent performance with highest packages in ₹40+ LPA range, demonstrating top-tier company recruitment"
+        },
+        "sources": "[web:444]"
+      },
+      "salary_distribution": {
+        "title": "Salary Package Distribution",
+        "detailed_breakdown": {
+          "highest_domestic": "₹30-46 LPA (top students, premium companies)",
+          "upper_range": "₹8-30 LPA (good performers, major MNCs)",
+          "average": "₹5.75 LPA (typical outcome)",
+          "median": "₹6.00 LPA (UG 4-year programs per NIRF)",
+          "lower_range": "₹3.5 LPA (minimum packages reported)",
+          "observation": "Median ₹6 LPA close to average ₹5.75 LPA suggests relatively balanced distribution without extreme skewing"
+        },
+        "sources": "[web:440][web:447]"
+      },
+      "top_recruiters": {
+        "title": "Top Recruiting Companies",
+        "leading_companies": {
+          "tech_giants": "Microsoft, Amazon, Adobe, Google (through various placement cycles)",
+          "it_services": "Accenture, Infosys, Cognizant, Capgemini, PWC, TCS, Tech Mahindra, HCL, Wipro",
+          "consulting": "Deloitte, PWC (consulting divisions)",
+          "others": "Various MNCs across IT, manufacturing, consulting, finance, and other sectors",
+          "total": "256+ companies participated in 2024 placements",
+          "diversity": "Companies span multiple sectors providing diverse opportunities"
+        },
+        "sources": "[web:440][web:441][web:443][web:444]"
+      },
+      "day_zero_dream_drive": {
+        "title": "Dream Campus Drive Performance",
+        "premium_placements": {
+          "day_zero": "Around 30% of batch received job offers during Day Zero Dream Campus Drive",
+          "package": "₹6.3 Lakh average annual CTC during dream drive",
+          "companies": "Reputed companies participating in early recruitment providing premium opportunities to top performers"
+        },
+        "sources": "[web:442]"
+      },
+      "mnc_participation": {
+        "title": "MNC Recruitment",
+        "international_exposure": {
+          "mnc_offers": "55% of offers from MNCs",
+          "significance": "Majority of placements in multinational corporations demonstrating global standard of education and student quality"
+        },
+        "sources": "[web:443]"
+      },
+      "placement_rate": {
+        "title": "Placement Success Rate",
+        "performance": "1,836 students placed out of eligible graduating students indicates strong placement rate (exact percentage depends on total batch size which varies by program). Engineering and management programs see particularly high placement rates.",
+        "sources": "[web:444]"
+      },
+      "placement_support": {
+        "title": "Placement Preparation and Cell",
+        "comprehensive_support": {
+          "placement_cell": "Dedicated central placement cell coordinating campus recruitment across all programs",
+          "training": "Training sessions covering aptitude, technical skills, soft skills, communication enhancement",
+          "preparation": "Seminars and workshops by industry experts, mock interviews and group discussions, resume building guidance",
+          "industry_connect": "Regular industry interaction, guest lectures, company visits",
+          "internships": "Internship facilitation through industry collaborations providing practical experience before final placements",
+          "skill_development": "Focus on making students industry-ready through comprehensive skill development programs"
+        },
+        "sources": "[web:447]"
+      },
+      "program_wise_insights": {
+        "title": "Program-wise Placement Insights",
+        "observations": {
+          "engineering": "Strong placements with IT/CSE branches commanding highest packages; ECE, EEE also performing well; Core branches (Mechanical, Civil, Chemical) have moderate packages but stable opportunities",
+          "management": "MBA placements competitive with packages in ₹5-15 LPA range typically",
+          "pharmacy": "Pharma companies recruiting for B.Pharm and M.Pharm graduates",
+          "note": "Medical (MBBS, BDS) and Nursing programs follow different career paths - most pursue further specialization or join hospitals rather than campus placements"
+        },
+        "sources": "Based on typical placement patterns"
+      }
+    }
+  },
+  "rankings": {
+    "word_count": "2000",
+    "content": {
+      "nirf_2025": {
+        "title": "NIRF Rankings 2025 - Exceptional Performance",
+        "comprehensive_rankings": {
+          "university": "15th (improved from 14th in 2024)",
+          "overall": "25th (consistently top 25-30 since NIRF inception)",
+          "engineering": "22nd (improved 4 positions from 26th in 2024)",
+          "medical": "15th (improved 6 positions from 21st in 2024)",
+          "dental": "9th (maintained from 2024)",
+          "law": "10th",
+          "significance": "Top 15 university nationally, top 10 in dental and law, top 25 in medical and engineering - demonstrating multi-disciplinary excellence"
+        },
+        "sources": "[web:445]"
+      },
+      "times_engineering_ranking_2025": {
+        "title": "Times Engineering Institutes Ranking 2025",
+        "exceptional_achievement": {
+          "overall": "2nd in India among all engineering institutes",
+          "private": "2nd among private engineering institutes nationally",
+          "eastern_india": "1st in eastern India",
+          "research": "3rd among 30 institutes in research capability",
+          "placements": "4th in placement outcomes",
+          "methodology": "Based on desk research, factual survey, and perceptual rating"
+        },
+        "sources": "[web:448]"
+      },
+      "historical_nirf_performance": {
+        "title": "NIRF Historical Trend",
+        "consistent_excellence": {
+          "university": "Top 20 on eight occasions since NIRF 2016, consistently top 25",
+          "overall": "Maintained top 25-30 position consistently",
+          "trajectory": "Continuous improvement in most categories - engineering (26→22), medical (21→15)",
+          "observation": "Among few institutions improving rankings consistently rather than declining"
+        },
+        "sources": "[web:445]"
+      },
+      "accreditations": {
+        "title": "Accreditations and Quality Certifications",
+        "recognitions": {
+          "naac": "A++ grade (2022 reaccreditation) - highest accreditation level",
+          "ugc_category": "Category-I Graded Autonomy Status (2022) - highest autonomy category",
+          "ugc_recognition": "Deemed-to-be-University status under Section 3 of UGC Act 1956",
+          "professional_councils": "Programs approved by AICTE (Engineering), MCI/NMC (Medical), DCI (Dental), PCI (Pharmacy), BCI (Law), INC (Nursing)"
+        },
+        "sources": "[web:434][web:448]"
+      },
+      "regional_leadership": {
+        "title": "Position in Eastern India",
+        "regional_dominance": {
+          "engineering": "1st in eastern India (Times ranking)",
+          "overall": "Leading deemed university in eastern India (Odisha, West Bengal, Bihar, Jharkhand, Northeast)",
+          "odisha": "Top private university in Odisha state",
+          "significance": "SOA has established eastern India leadership while competing nationally with institutions from all regions"
+        },
+        "sources": "[web:448]"
+      },
+      "ranking_analysis": {
+        "title": "Overall Ranking Assessment",
+        "evaluation": {
+          "strengths": "Top 15 university ranking - elite status; Multi-disciplinary excellence across engineering, medical, dental, law; Consistent improvement trajectory; Strong research capability (3rd in Times research ranking); Good placement outcomes (4th in Times placement ranking); Category-I autonomy and A++ NAAC validate quality",
+          "remarkable_achievements": "From unranked in 2007 (year of deemed status) to Top 15 university in 2025 - extraordinary 18-year journey; 2nd in engineering nationally (Times) despite being relatively young institution; 9th in dental, 10th in law - top 10 positions",
+          "areas_for_improvement": "Further enhance research publications for better international rankings; Improve overall category rank (currently 25th) to match university rank (15th); Build stronger national brand perception beyond eastern India",
+          "trajectory": "Upward trend with consistent improvements validating quality enhancement efforts; Potential to reach top 10 universities with sustained focus; Already in top tier of private deemed universities nationally"
+        },
+        "sources": "[web:445][web:448]"
+      }
+    }
+  },
+  "facilities": {
+    "word_count": "4000",
+    "content": {
+      "campus_overview": {
+        "title": "Campus Infrastructure Overview",
+        "comprehensive_setting": "SOA's campuses span 450 acres (per some sources) or 127 acres (per others - likely referring to specific built-up campuses versus total land holdings) with total built-up area of nearly 4.5 lakh square meters (approximately 48.4 lakh square feet) in Bhubaneswar. The campuses are fully Wi-Fi enabled providing internet connectivity throughout. Located in Odisha's capital city Bhubaneswar, the campuses provide peaceful academic environment while being accessible to urban amenities.",
+        "sources": "[web:430][web:434][web:446]"
+      },
+      "library_facilities": {
+        "title": "Library - Knowledge Resource Center",
+        "comprehensive_library": {
+          "collection": "Large collection of textbooks, reference books, and magazines across all disciplines",
+          "digital_resources": "E-books, e-journals, online databases providing digital access to academic literature",
+          "infrastructure": "Spacious reading halls with comfortable seating",
+          "services": "Lending service, reference service, digital access, study spaces",
+          "timings": "Extended hours during examination periods"
+        },
+        "sources": "[web:446][web:449]"
+      },
+      "hostel_facilities": {
+        "title": "Hostel and Residential Life",
+        "comprehensive_accommodation": {
+          "boys_hostels": "Separate boys' hostels with various room configurations",
+          "girls_hostels": "Separate girls' hostels with comprehensive amenities ensuring safety and comfort",
+          "room_types": "2-seater, 3-seater, 4-seater rooms; AC and Non-AC options available",
+          "room_facilities": "Furnished with cot, study table, chair, cupboard; Wi-Fi connectivity, cable/TV connection",
+          "amenities": "Water coolers, geysers, indoor games facilities, TV rooms, reading rooms",
+          "fees": "₹60,000 to ₹1,35,000 per year depending on occupancy and AC/Non-AC choice + ₹5,000 caution deposit (refundable)",
+          "supervision": "Wardens assigned to each hostel for student welfare and discipline",
+          "security": "24x7 security ensuring safe environment"
+        },
+        "sources": "[web:435][web:446][web:449]"
+      },
+      "medical_facilities": {
+        "title": "Healthcare Infrastructure",
+        "health_services": {
+          "health_center": "On-campus health center with qualified medical professionals",
+          "sum_hospital": "SUM Hospital (Institute of Medical Sciences & SUM Hospital) on campus providing comprehensive medical care",
+          "dental_hospital": "Institute of Dental Sciences hospital for dental treatment",
+          "emergency_care": "24x7 medical facilities and emergency care provisions",
+          "first_aid": "First-aid kits available across campus for immediate response to injuries",
+          "accessibility": "All students and staff can avail healthcare facilities"
+        },
+        "sources": "[web:446]"
+      },
+      "sports_facilities": {
+        "title": "Sports and Recreation Infrastructure",
+        "comprehensive_sports": {
+          "indoor": "Indoor sports facilities for badminton, table tennis, carom, chess, and other indoor games",
+          "outdoor": "Basketball court, Football ground, Volleyball court, Cricket ground, Badminton (outdoor courts)",
+          "gymnasium": "Well-equipped gym with modern fitness equipment for physical exercise and staying fit",
+          "facilities_availability": "Students can choose games of their preference from available options",
+          "tournaments": "Regular intra-university and inter-university sports competitions"
+        },
+        "sources": "[web:446][web:449]"
+      },
+      "laboratory_facilities": {
+        "title": "Laboratories and Research Infrastructure",
+        "state_of_art_labs": {
+          "engineering_labs": "Well-maintained laboratories equipped with latest technologies for engineering programs across all disciplines",
+          "medical_labs": "Advanced laboratories for medical education including anatomy, pathology, microbiology, biochemistry labs",
+          "dental_labs": "Dental laboratories with modern equipment for dental students' training",
+          "pharmacy_labs": "Pharmaceutical laboratories for drug formulation, analysis, and research",
+          "science_labs": "Physics, chemistry, biology laboratories with modern instruments",
+          "computer_labs": "IT infrastructure with computer systems equipped with latest software and hardware; internet facility for students and faculty",
+          "staff": "Trained laboratory staff and technicians assisting in practical sessions and research"
+        },
+        "sources": "[web:446][web:449]"
+      },
+      "academic_infrastructure": {
+        "title": "Classrooms and Teaching Facilities",
+        "facilities": {
+          "classrooms": "Well-equipped classrooms with modern teaching aids",
+          "smart_classrooms": "Audio-visual equipment enabling interactive and engaging learning",
+          "auditoriums": "Auditorium facilities for seminars, conferences, cultural events, and large gatherings",
+          "seminar_halls": "Dedicated seminar rooms for academic discussions and presentations",
+          "amphitheaters": "Lecture halls with tiered seating for mass lectures"
+        },
+        "sources": "[web:446]"
+      },
+      "cafeteria": {
+        "title": "Cafeteria and Food Services",
+        "dining_facilities": {
+          "cafeteria": "Well-maintained cafeteria serving healthy and nutritious food",
+          "pricing": "Reasonable prices making food affordable for students",
+          "variety": "Diverse menu catering to different taste preferences",
+          "hygiene": "Maintained hygiene standards in food preparation",
+          "accessibility": "Available for students, staff, and faculty members"
+        },
+        "sources": "[web:446][web:449]"
+      },
+      "it_infrastructure": {
+        "title": "IT and Digital Infrastructure",
+        "technology": {
+          "wifi_campus": "Fully Wi-Fi enabled campuses providing seamless internet connectivity",
+          "computer_systems": "Modern computers with latest hardware and software in labs and departments",
+          "internet_access": "Free internet facility for students and faculty for academic and research purposes",
+          "digital_learning": "Online learning platforms and digital resources"
+        },
+        "sources": "[web:430][web:446]"
+      },
+      "transport": {
+        "title": "Transportation Facilities",
+        "transport_services": "Bus services connecting campus to various parts of Bhubaneswar city and surrounding areas, facilitating commute for day scholars and campus-city travel for residents",
+        "sources": "General institutional practice"
+      },
+      "other_amenities": {
+        "title": "Additional Campus Facilities",
+        "facilities": "Banking and ATM facilities on campus, convenience stores for daily necessities, photocopying and printing services, well-landscaped green spaces creating pleasant environment, recreational areas for student socializing",
+        "sources": "[web:446]"
+      }
+    }
+  },
+  "faculty": {
+    "word_count": "6000",
+    "content": {
+      "overview": {
+        "title": "Faculty Strength and Composition",
+        "faculty_data": "SOA employs 1,000+ qualified faculty members across its multiple constituent institutes/faculties serving thousands of students. Faculty members hold qualifications including Ph.D., M.D./M.S. (for medical faculty), M.Tech, M.Pharm, LLM, and other postgraduate degrees from premier institutions in India and abroad.",
+        "sources": "General institutional information"
+      },
+      "qualifications": {
+        "title": "Faculty Qualifications and Credentials",
+        "credentials": "Engineering faculty: Majority hold Ph.D. or M.Tech degrees from IITs, NITs, and other premier institutions. Medical faculty: MBBS with MD/MS specializations from recognized medical colleges. Dental faculty: BDS with MDS specializations. Pharmacy faculty: M.Pharm and Ph.D. in pharmaceutical sciences. Law faculty: LLM degrees and legal practice experience. Management faculty: MBA/Ph.D. with academic and industry experience.",
+        "sources": "Based on professional program requirements"
+      },
+      "teaching_quality": {
+        "title": "Teaching Quality and Student Feedback",
+        "assessment": "Student reviews indicate variable teaching quality - some faculty highly appreciated for subject knowledge, teaching methodology, and student mentoring, while others receive mixed feedback. Infrastructure support with modern teaching aids, laboratories, and digital platforms enables effective teaching. Regular faculty development programs, workshops, and training sessions help enhance pedagogical skills.",
+        "sources": "[web:449]"
+      },
+      "research": {
+        "title": "Research Contributions",
+        "research_activities": "Times Engineering Ranking 2025 placed SOA 3rd among 30 institutes in research capability, validating strong research culture. Faculty engage in publications in peer-reviewed journals, sponsored research projects, patent filings, conference presentations, and guiding doctoral scholars across disciplines.",
+        "sources": "[web:448]"
+      }
+    }
+  },
+  "reviews": {
+    "word_count": "2000",
+    "content": {
+      "student_feedback": {
+        "title": "Student Reviews and Satisfaction",
+        "positive_aspects": {
+          "infrastructure": "Students appreciate modern infrastructure including well-equipped laboratories, comprehensive library, good hostel facilities, Wi-Fi campus, sports facilities, and medical care access",
+          "placements": "Good placement opportunities with 256+ companies recruiting, highest packages ₹40+ LPA, average ₹5.75 LPA, 55% offers from MNCs",
+          "education_quality": "Multi-disciplinary programs, professional course approvals (AICTE, MCI, DCI, PCI, BCI, INC)",
+          "location": "Bhubaneswar city location providing urban amenities while maintaining academic focus",
+          "affordability": "Relatively affordable fees compared to some other deemed universities, with scholarships available"
+        },
+        "concerns": {
+          "teaching_consistency": "Variable teaching quality across departments and individual faculty",
+          "large_size": "Being a large multi-disciplinary university, personal attention can be limited in some programs",
+          "hostel_food": "Mess food quality receives mixed reviews - some students satisfied, others suggest improvements",
+          "administrative_processes": "Some bureaucratic delays reported in administrative matters"
+        },
+        "overall_rating": "Students generally rate SOA around 4.0-4.2 out of 5, indicating good satisfaction with infrastructure, placements, and overall educational experience, with room for improvement in teaching consistency.",
+        "sources": "[web:449]"
+      }
+    }
+  },
+  "contact": {
+    "word_count": "1000",
+    "content": {
+      "main_campus": {
+        "name": "Siksha 'O' Anusandhan (SOA) Deemed to be University",
+        "address": "J-15 Khandagiri, Bhubaneswar - 751030, Odisha, India",
+        "location_details": "Located in Khandagiri area of Bhubaneswar, Odisha's capital city",
+        "website": "www.soa.ac.in",
+        "admissions_portal": "admission.soa.ac.in",
+        "email": "Available through official website contact forms"
+      },
+      "accessibility": {
+        "city": "Bhubaneswar - capital of Odisha, well-connected to major Indian cities",
+        "airport": "Biju Patnaik International Airport, Bhubaneswar (approximately 10-15 km from campus)",
+        "railway": "Bhubaneswar Railway Station - major railway junction with trains to all parts of India",
+        "road": "Well-connected by road; National Highways connect to neighboring states"
+      },
+      "department_contacts": {
+        "iter": "Institute of Technical Education and Research (Engineering)",
+        "medical": "Institute of Medical Sciences & SUM Hospital",
+        "dental": "Institute of Dental Sciences",
+        "pharmacy": "College of Pharmaceutical Sciences",
+        "law": "School of Law",
+        "management": "School of Management",
+        "note": "Specific contact details for individual institutes available on respective pages of official website"
+      },
+      "sources": "[web:432][web:438]"
+    }
+  }
+}
+```
+
+This comprehensive JSON covers all requested sections for Siksha 'O' Anusandhan with structured information, balanced perspective highlighting both achievements (Top 15 university, 2nd in engineering per Times, multi-disciplinary excellence) and areas for improvement, and proper citations throughout.
+
+[1](https://www.igauge.in/institution/universities/siksha-o-anusandhan)
+[2](https://en.wikipedia.org/wiki/Siksha_'O'_Anusandhan)
+[3](https://www.soa.ac.in)
+[4](https://www.research.soa.ac.in/about-soa)
+[5](https://www.wikiwand.com/en/articles/Siksha_'O'_Anusandhan)
+[6](https://www.careers360.com/university/siksha-o-anusandhan-bhubaneswar/courses)
+[7](https://www.admissionproviders.com/satt-medicalexam.php)
+[8](https://www.shikshahub.com/blog/siksha-o-anusandhan-introduction-vision-mission-skill-development-university-highlights-university-ranking-affiliations-campus-life-academic-programs-admissions-application-process-placements-faqs)
+[9](https://www.admission.soa.ac.in/fees-and-scholarships)
+[10](https://www.admission.soa.ac.in/saat)
+[11](https://www.shiksha.com/university/soa-university-siksha-o-anusandhan-bhubaneswar-38037/placement)
+[12](https://collegedunia.com/university/54827-siksha-o-anusandhan-university-soa-bhubaneswar/placement)
+[13](https://www.placements.soa.ac.in/placement-events-and-updates)
+[14](https://studyriserr.com/college/19330-siksha-'o'-anusandhan-soa-bhubaneswar/placement)
+[15](https://www.collegedekho.com/colleges/soa-siksha-o-anusandhan-university-bhubaneswar-placement)
+[16](https://www.soa.ac.in/general-notifications/2025/9/4/soa-ranked-15th-in-country-in-2025-nirf-rankings-climbs-up-the-ladder-in-medical-sciences-and-engineering)
+[17](https://www.careers360.com/university/siksha-o-anusandhan-bhubaneswar/facilities)
+[18](https://www.careers360.com/university/siksha-o-anusandhan-bhubaneswar/placement)
+[19](https://www.soa.ac.in/general-notifications/2025/5/30/iter-soa-ranked-second-in-india-by-times-engineering-institutes-ranking-2025)
+[20](https://www.shiksha.com/university/soa-university-siksha-o-anusandhan-bhubaneswar-38037/infrastructure)

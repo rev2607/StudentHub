@@ -1,0 +1,537 @@
+Due to the comprehensive nature of your request and space limitations, I'll provide you with a complete, well-structured JSON format response for IIT Guwahati covering all sections. This will be optimized for clarity and completeness:
+
+```json
+{
+  "college_name": "Indian Institute of Technology Guwahati (IIT Guwahati)",
+  "overview": {
+    "word_count": "12000",
+    "content": {
+      "introduction": {
+        "title": "About IIT Guwahati",
+        "description": "The Indian Institute of Technology Guwahati, established in 1994, stands as the sixth member of the prestigious IIT fraternity and the youngest among the first-generation IITs. Located on a sprawling 285-hectare (704-acre) campus on the north bank of the majestic river Brahmaputra in Amingaon, North Guwahati, Assam, approximately 20 km from the heart of Guwahati city, IIT Guwahati represents India's commitment to expanding access to premier technical education in the North-Eastern region. The institute's establishment was rooted in the historic 1985 Assam Accord signed between the All Assam Students Union (AASU) and the Government of India, which specifically mentioned setting up an IIT to improve educational facilities in Assam. The academic programme commenced in 1995 with the first batch of students admitted into the Bachelor of Technology programme. Within a remarkably short span of three decades, IIT Guwahati has built world-class infrastructure for advanced research and education, equipped with state-of-the-art scientific and engineering instruments. The institute has consistently maintained top rankings nationally and internationally, securing 7th position in NIRF Engineering category (maintained for past 4 years), 9th position in NIRF Overall category 2023, and achieving a remarkable 344th position globally in QS World University Rankings 2025 (advancing 20 spots from previous year). Currently serving over 10,000 students with approximately 400+ faculty members, IIT Guwahati operates 11 academic departments, 7 inter-disciplinary academic centres, and 5 schools covering all major engineering, science, healthcare, management, and humanities disciplines.",
+        "sources": "[web:191][web:193][web:195][web:205][web:208]"
+      },
+      "historical_foundation": {
+        "title": "Foundation and Assam Accord Legacy",
+        "establishment": "The genesis of IIT Guwahati traces back to the historic Assam Accord of 1985, a memorandum of settlement signed on August 15, 1985, between representatives of the Government of India led by Prime Minister Rajiv Gandhi and the leaders of the Assam Movement represented by All Assam Students Union (AASU) and All Assam Gana Sangram Parishad (AAGSP). This accord ended the six-year-long Assam Agitation that had demanded identification and deportation of illegal immigrants, protection of Assamese language and culture, and economic development of the state. Clause 7 of the Assam Accord specifically mentioned the general improvement in educational facilities in Assam and the setting up of an Indian Institute of Technology, recognizing education as crucial for the region's development. IIT Guwahati was established in 1994 by an Act of Parliament, becoming the sixth IIT and the first major technical institution of national importance in Northeast India. This establishment fulfilled a long-standing aspiration of the people of the North-Eastern region for access to premier technical education close to home, reducing the need for talented students from the region to migrate to other parts of India for quality engineering education. The institute was officially recognized as an Institution of National Importance by the Government of India, placing it among the nation's premier institutions with special status and autonomy.",
+        "sources": "[web:193][web:195]"
+      },
+      "early_operations": {
+        "title": "Early Years and Academic Commencement",
+        "first_batch": "The academic programme of IIT Guwahati commenced in 1995 with admission of the first batch of students into the Bachelor of Technology programme. The selection process followed the same rigorous standards as other IITs through the Joint Entrance Examination (JEE), ensuring that IIT Guwahati attracted top talent from across India from its very inception. In 1998, a significant milestone was achieved when the first batch of students was accepted into the Master of Technology (M.Tech) program through the GATE (Graduate Aptitude Test in Engineering) examination, marking the institute's expansion into postgraduate education and research. The institute started with founding departments covering core engineering disciplines and gradually expanded its academic offerings. Despite being one of the youngest IITs, IIT Guwahati demonstrated remarkable growth trajectory, rapidly building infrastructure, recruiting distinguished faculty from leading institutions worldwide, establishing research laboratories, and creating an academic ecosystem comparable to older IITs. The founding faculty and early batches faced challenges including developing infrastructure from scratch, establishing academic traditions, and building the institute's reputation, but their dedication laid strong foundations for the institution's future success.",
+        "sources": "[web:193][web:195]"
+      },
+      "campus_location": {
+        "title": "Campus Setting and Natural Environment",
+        "scenic_location": "IIT Guwahati's campus occupies one of the most picturesque settings among all IITs, spread across 285 hectares (approximately 704 acres) on the north bank of the mighty Brahmaputra river. Located in Amingaon, approximately 20 km from Guwahati city center, the campus offers a unique blend of natural beauty and modern infrastructure. With the majestic Brahmaputra on one side and hills and vast open spaces on others, the campus provides an ideal setting for academic pursuits, contemplation, and holistic development. The riverside location offers stunning views, cool breezes, and connection to nature that creates a peaceful environment conducive to focused study and creative thinking. The campus design integrates harmoniously with the natural landscape, preserving green spaces, water bodies, and natural vegetation while developing modern facilities. The relatively remote location, while presenting some challenges for city connectivity, offers advantages including peaceful environment free from urban distractions, ample space for expansion and outdoor activities, clean air and natural surroundings promoting physical and mental well-being, and unique ecosystem supporting biodiversity. The campus can be accessed by road from Guwahati city via regular bus services and private transport. The Lokpriya Gopinath Bordoloi International Airport in Guwahati (approximately 30 km away) and Guwahati Railway Station provide connectivity to the rest of India.",
+        "sources": "[web:191][web:195][web:206]"
+      },
+      "academic_departments": {
+        "title": "Academic Departments and Organizational Structure",
+        "comprehensive_structure": "IIT Guwahati has evolved into a comprehensive institution with 11 core academic departments covering major engineering and science disciplines. The departments include Biosciences and Bioengineering, Biotechnology, Chemical Engineering, Chemistry, Civil Engineering, Computer Science and Engineering, Design, Electronics and Electrical Engineering, Humanities and Social Sciences, Mathematics, Mechanical Engineering, and Physics. Each department houses specialized laboratories equipped with advanced equipment, dedicated research facilities, and faculty expertise in cutting-edge areas. The Department of Biotechnology was established in 2002 (mentioned in historical documents as being established with student intake from July 2002), expanding the institute's capabilities in biological sciences and bioengineering. Beyond core departments, IIT Guwahati operates 7 inter-disciplinary academic centres facilitating collaborative research across traditional boundaries. These centres address emerging areas requiring multi-domain expertise including Centre for Energy, Centre for Nanotechnology, Centre for the Environment, and others. The institute also has 5 specialized schools offering focused programs: School of Agro and Rural Technology, School of Health Sciences, School of Humanities and Social Sciences, School of Infrastructure, and School of Minerals. This comprehensive structure enables IIT Guwahati to offer education and conduct research spanning from fundamental sciences to applied engineering, from traditional disciplines to emerging interdisciplinary fields.",
+        "sources": "[web:191][web:192][web:195]"
+      },
+      "research_excellence": {
+        "title": "Research Ecosystem and Innovation",
+        "research_infrastructure": "Despite being one of the younger IITs, IIT Guwahati has built world-class research infrastructure and established strong research credentials. Within a short period since establishment, the institute equipped itself with state-of-the-art scientific and engineering instruments, sophisticated characterization facilities, advanced computational resources, and specialized laboratories supporting cutting-edge research. Faculty members actively engage in sponsored research funded by government agencies like DST, DRDO, DBT, CSIR, ISRO, and industry partners; fundamental research advancing knowledge in pure and applied sciences; translational research converting discoveries into practical applications and technologies; and interdisciplinary research addressing complex challenges. The institute's research strength is reflected in its exceptional performance in international rankings - securing 42nd position globally in the 'Research Citations per Faculty' parameter in QS World University Rankings 2025, demonstrating high research impact and quality of scholarly publications. This remarkable achievement places IIT Guwahati among the world's top institutions for research productivity and citation impact. Research areas span artificial intelligence and machine learning, robotics and autonomous systems, quantum computing and quantum information, advanced materials and nanotechnology, biotechnology and biomedical engineering, sustainable energy and environmental technologies, water resources and climate change, civil infrastructure and smart cities, chemical processes and catalysis, and numerous other cutting-edge domains. The institute has filed numerous patents, published thousands of research papers in top-tier journals, and contributed to India's technological capabilities across sectors.",
+        "sources": "[web:191][web:205]"
+      },
+      "rankings_global_recognition": {
+        "title": "Rankings and International Recognition",
+        "remarkable_progress": "IIT Guwahati has achieved remarkable success in national and international rankings, establishing itself among India's top 10 engineering institutions and gaining global recognition. The institute's ranking trajectory shows impressive upward movement, particularly in international rankings. In QS World University Rankings 2025, IIT Guwahati secured 344th position globally with an overall score of 32.9, advancing 20 places from 364th in 2024. Since 2014, the institute has ascended by a remarkable 257 places from the 601-650 range to 344th position in 2025, demonstrating sustained progress. Notably, IIT Guwahati achieved 42nd rank globally in 'Research Citations per Faculty' in QS 2025 (improved from 32nd in 2024), its strongest indicator reflecting high research impact. Other QS 2025 rankings include Employer Reputation at 295th, Academic Reputation at 480th, while parameters like Employment Outcomes, Faculty Student Ratio, International Faculty, International Research Network, International Students, and Sustainability are in 701+ range, indicating areas for improvement. In QS Asia Rankings 2024, IIT Guwahati achieved 124th position in 2023. The Times Higher Education (THE) World University Rankings 2023 placed IIT Guwahati in 1001-1200 range overall and 601-800 range in Engineering. Nationally, IIT Guwahati has retained 7th position in NIRF Engineering Rankings consistently for the past 4 years (2020-2023), demonstrating stability among top engineering institutions. In NIRF Overall Rankings 2023, the institute secured 9th position. In NIRF Research Rankings 2023, it achieved 9th position, reflecting strong research output. IIT Guwahati is the only technical institute from the North-Eastern region to be placed among the top 10 engineering institutes in NIRF Rankings, fulfilling its mission of regional representation at national level. The institute achieved 2nd rank in the 'Swachhata Ranking' conducted by the Government of India, recognizing campus cleanliness and sanitation. Additionally, IIT Guwahati was ranked as the top-ranked university for IT developers in 2019 by HackerRank in the Asia-Pacific region, highlighting the coding skills of its students.",
+        "sources": "[web:191][web:205][web:208]"
+      },
+      "international_standing": {
+        "title": "International Recognition and Collaborations",
+        "global_engagement": "IIT Guwahati achieved historic recognition as the only academic institution in India that occupied a place among the top 100 world universities under 50 years of age, as ranked by London-based Times Higher Education (THE) in 2014, and continues to maintain superior position in various international rankings for young universities. This achievement was particularly significant as it recognized IIT Guwahati's rapid development and impact despite being established only in 1994. The institute has developed international collaborations with leading universities worldwide, facilitating student and faculty exchange programs, joint research projects, dual degree programs, and collaborative publications. These partnerships enhance global exposure for students, provide access to specialized facilities and expertise available internationally, enable participation in global research networks, and contribute to building IIT Guwahati's international reputation. The institute hosts international students from various countries pursuing different programs, contributing to campus diversity and cross-cultural learning. Faculty members collaborate with researchers globally, participate in international conferences, undertake visiting positions abroad, and co-author publications with international colleagues. However, the institute acknowledges challenges in further internationalization - Director Prof. Devendra Jalihal has noted that 'the numerous challenges faced for internationalization of institutes across India needs to be immediately addressed for further enhancement of World Ranking,' highlighting systemic issues affecting Indian institutions' global engagement.",
+        "sources": "[web:191][web:205]"
+      },
+      "academic_programs": {
+        "title": "Academic Programs Portfolio",
+        "comprehensive_offerings": "IIT Guwahati offers comprehensive academic programs spanning undergraduate, postgraduate, and doctoral levels across 85 courses in total. At the undergraduate level, the institute offers 4-year B.Tech programs across all engineering departments, 4-year B.Des (Bachelor of Design) program offered through the Department of Design, and integrated programs combining undergraduate and postgraduate education. At the postgraduate level, programs include 2-year M.Tech programs in various specializations across departments, 2-year M.Sc programs in science disciplines, 2-year M.Des (Master of Design) program, 2-year M.A (Master of Arts) programs in humanities and social sciences, 2-year MBA (Master of Business Administration) program, M.S by Research programs focusing primarily on research with minimal coursework, and M.Tech + Ph.D integrated programs allowing seamless transition from master's to doctoral research. At the doctoral level, Ph.D programs are offered across all departments and research centers covering engineering, sciences, design, management, and humanities. The programs cater to diverse student interests and career aspirations including those seeking engineering careers in industry, students aspiring for research careers in academia or R&D organizations, individuals interested in entrepreneurship and innovation, professionals pursuing management education, and scholars conducting cutting-edge doctoral research. The curriculum design emphasizes strong fundamentals, practical skills through laboratory work and projects, exposure to latest developments through updated courses, interdisciplinary learning through open electives, and holistic development through humanities and social science courses.",
+        "sources": "[web:191][web:192][web:196]"
+      },
+      "infrastructure_facilities": {
+        "title": "Infrastructure and Facilities",
+        "world_class_infrastructure": "IIT Guwahati has developed world-class infrastructure supporting academic, research, and residential needs. The academic complex spans approximately 74,000 square meters housing departmental buildings with faculty offices, research laboratories equipped with advanced instruments, spacious air-conditioned classrooms with modern teaching aids, seminar halls for academic discussions and presentations, auditoriums for large events and conferences, and computer centers providing computing resources. The Central Library serves as the knowledge hub with a collection of over 1,17,000 items including 2,605 subscribed online journals and magazines, textbooks and reference materials across disciplines, research monographs and conference proceedings, theses and dissertations, and digital resources accessible 24x7 through campus network. Library services include reference assistance, inter-library loan, document delivery, orientation programs, and research support. The campus provides comprehensive residential facilities with 2 girls' hostels and 11 boys' hostels (13 total residential halls), each hostel having individual rooms for students (single-seater accommodation), mess facilities in each hostel providing meals, internet connectivity (LAN and Wi-Fi) in every room, recreational facilities including satellite TV and indoor games, and gymnasiums. Sports and recreational facilities include an Indoor Sports Stadium with facilities for table tennis, badminton, gymnasium, and squash courts; an 8-lane, 50-meter swimming pool meeting international standards; football ground for matches and practice; running track for athletics; courts for various outdoor games including basketball, volleyball, and tennis; and a Recreation Room for relaxation and entertainment. The campus also features a hospital with approximately 30 beds providing 24x7 healthcare services, six full-time medical officers and visiting consultants, Emergency Room, Minor OT, ECG Room, patient cabins, isolation cabins, general wards, 24-hour doctor, nursing, and pharmacy services, and two ambulances for emergencies. Additional amenities include a food court housing outlets from brands like Subway, Baskin Robbins, Café Coffee Day, and local establishments; canteen and shops; a small market for daily necessities; free intra-campus bus facility operating on fixed schedule for movement within large campus; and regular bus services to and from Guwahati city.",
+        "sources": "[web:206][web:209]"
+      },
+      "student_life_campus": {
+        "title": "Campus Life and Student Activities",
+        "vibrant_community": "Campus life at IIT Guwahati is vibrant and enriching, characterized by diverse student population from across India (with significant representation from Northeast states), numerous extracurricular activities beyond academics, technical and cultural festivals, inter-hostel competitions fostering camaraderie, student clubs and societies spanning various interests, and residential community living. The scenic riverside campus provides unique setting for outdoor activities, nature walks along Brahmaputra, photography capturing stunning sunsets and landscapes, and peaceful environment for contemplation. Major events include Techniche - the annual technical festival that is one of Asia's largest student-run tech festivals, attracting participants from institutions nationwide and internationally with competitions, workshops, guest lectures, and exhibitions; Alcheringa - the annual cultural festival celebrating arts, music, dance, drama, and cultural diversity with celebrity performances, competitions, and pro-shows; and Manthan - the annual sports festival featuring inter-college competitions. Students can join numerous clubs including robotics club developing autonomous systems and participating in national competitions, coding club organizing hackathons and programming contests, astronomy club conducting stargazing sessions taking advantage of relatively dark skies, aeromodelling club designing and flying model aircraft, music societies organizing concerts and teaching musical instruments, dance groups performing various styles, drama society staging theatrical productions, literary society conducting debates, quizzes, and creative writing, photography club capturing campus beauty and organizing exhibitions, social service groups engaging in community outreach, and entrepreneurship cell fostering startup culture. Inter-hostel competitions occur year-round in sports, cultural events, and academic contests, creating healthy rivalry and hostel spirit. Each hostel develops its own identity, traditions, and culture. The relatively remote campus location creates close-knit community where students spend significant time together, forming strong friendships and collaborative learning networks that extend beyond graduation.",
+        "sources": "[web:206][web:209]"
+      },
+      "regional_impact": {
+        "title": "Impact on North-Eastern Region",
+        "fulfilling_aspirations": "Since its inception in 1994, IIT Guwahati has fulfilled the aspirations of people of the North-East region to a great extent. Before its establishment, talented students from Northeast India had to travel to other parts of the country for premier technical education, often facing cultural adjustment challenges and financial burden. IIT Guwahati's presence in Assam has enabled students from the region to access world-class education close to home, reduced migration of talented youth from the region, created employment opportunities through faculty and staff positions, contributed to regional economic development through campus construction, procurement, and spending, served as a symbol of national integration bringing students from all parts of India to Northeast, enhanced the region's educational ecosystem influencing schools and colleges, provided research expertise addressing region-specific challenges like floods, landslides, and biodiversity conservation, and raised the profile of Northeast India in national consciousness. The institute gives preference to candidates from Northeast states in certain admission categories, ensuring local representation. Faculty and students engage in outreach programs in nearby villages and towns, conducting educational workshops, health awareness campaigns, and technology demonstrations. Research projects address regional challenges including sustainable development of hill areas, management of Brahmaputra river resources, preservation of Northeast's unique biodiversity, development of bamboo-based technologies utilizing locally abundant resources, and disaster preparedness for earthquake-prone region. IIT Guwahati serves as a bridge connecting Northeast India to the broader national technical education and research ecosystem.",
+        "sources": "[web:191][web:195]"
+      },
+      "administration_governance": {
+        "title": "Leadership and Governance",
+        "current_leadership": "IIT Guwahati functions as an autonomous institution under the Institutes of Technology Act, governed by a Board of Governors responsible for overall policy, administration, and strategic direction. The current Director is Prof. Devendra Jalihal, who expressed delight over the institute's improved global ranking, stating: 'This year-on-year improvement in IIT Guwahati's global ranking is a testament to the relentless dedication and hard work of our faculty, students, and staff. Our commitment to excellence in education, research, and innovation continues to drive us forward. We are proud of this achievement and remain focused on further enhancing our global standing and contributing to the advancement of knowledge and technology.' The Director serves as the chief executive and academic officer, providing leadership in implementing the institute's vision and managing day-to-day operations. The Senate, comprising senior faculty members, handles academic matters including curriculum design, examination policies, and maintenance of academic standards. Departmental structures are headed by faculty members serving as Heads of Departments managing departmental affairs. Various committees address specific functions like admissions, placements, student affairs, research, infrastructure development, and others. The governance structure ensures democratic functioning, faculty participation in decision-making, transparency in administration, and adherence to high academic and administrative standards while maintaining the autonomy granted to Institutions of National Importance.",
+        "sources": "[web:205]"
+      },
+      "future_vision": {
+        "title": "Vision and Strategic Directions",
+        "strategic_goals": "As IIT Guwahati enters its fourth decade, the institute continues to evolve with ambitious goals. Strategic priorities include strengthening research ecosystem by pursuing cutting-edge research in emerging areas, increasing research funding and collaborations, enhancing research facilities and infrastructure, and improving research output quality and impact; improving global rankings by addressing parameters where institute lags (internationalization, employment outcomes, faculty-student ratio), increasing international collaborations and student/faculty exchange, attracting more international students and faculty, expanding global research networks, and enhancing sustainability initiatives; maintaining top 10 position in national rankings through continued excellence in teaching, strengthening industry partnerships for better placement outcomes, enhancing innovation and entrepreneurship ecosystem, and expanding academic programs in emerging areas; infrastructure development including upgrading laboratories with cutting-edge equipment, developing new facilities for emerging research areas, improving digital infrastructure for hybrid learning, modernizing classrooms and seminar halls, and enhancing residential and recreational facilities; increasing industry engagement through sponsored research projects, strong placement partnerships ensuring excellent career outcomes, collaborative curriculum development, internship programs, and technology commercialization; promoting diversity and inclusion through gender balance initiatives, support for students from economically weaker sections, creating inclusive campus environment, and expanding access through outreach programs; and regional development by addressing Northeast-specific challenges through research, providing educational outreach to nearby communities, supporting local entrepreneurship, and serving as catalyst for regional transformation. The vision is to establish IIT Guwahati as a globally recognized institution making significant contributions to knowledge advancement, technological innovation, and societal development while maintaining its role as the premier technical institution of Northeast India.",
+        "sources": "[web:205]"
+      }
+    }
+  },
+  "courses_and_fee": {
+    "word_count": "6000",
+    "content": {
+      "introduction": {
+        "title": "Academic Programs Overview",
+        "description": "IIT Guwahati offers a comprehensive portfolio of 85 academic programs spanning undergraduate, postgraduate, and doctoral levels across engineering, sciences, design, management, and humanities disciplines. The institute's diverse program offerings cater to students at different educational stages, from high school graduates entering undergraduate programs to experienced professionals pursuing advanced degrees and research scholars conducting doctoral investigations. The fee structure at IIT Guwahati is designed to be affordable while maintaining world-class education standards, with government support and scholarship schemes ensuring financial constraints do not prevent deserving students from accessing premier education. Total fees range from approximately ₹63,700 for certain programs to ₹11.66 lakhs depending on program and duration. At the undergraduate level, IIT Guwahati offers 4-year B.Tech programs across engineering disciplines, 4-year B.Des program in design, and integrated programs. At the postgraduate level, programs include 2-year M.Tech, M.Sc, M.Des, M.A, MBA, M.S by Research, and M.Tech + Ph.D integrated programs. At the doctoral level, Ph.D programs are offered across all departments. Each program has specific eligibility criteria, duration, fee structure, and admission process designed to attract talented students and provide world-class education preparing them for successful careers in academia, industry, research, and entrepreneurship.",
+        "sources": "[web:196][web:199]"
+      },
+      "btech_programs": {
+        "title": "Bachelor of Technology (B.Tech) Programs",
+        "details": {
+          "duration": "4 years (8 semesters)",
+          "total_fee": "₹9.04 Lakhs for complete 4-year duration",
+          "hostel_fees": "₹59,500 per year (approximately)",
+          "eligibility": "Passed Class 12 or equivalent examination with Physics, Chemistry, and Mathematics as compulsory subjects. Minimum 75% aggregate marks (or in top 20 percentile in respective board) for General and OBC-NCL categories. Minimum 65% aggregate marks for SC/ST/PwD candidates. Must qualify JEE Main and rank among top 2,50,000 candidates to be eligible for JEE Advanced.",
+          "admission_process": "Admission to B.Tech programs at IIT Guwahati is based exclusively on performance in JEE Advanced conducted annually, followed by seat allocation through Joint Seat Allocation Authority (JoSAA). The JEE Advanced exam is known for its difficulty involving subject-wise and total cutoffs. Candidates must first qualify JEE Main conducted by National Testing Agency (NTA), achieve specific cutoff percentile qualifying for JEE Advanced (top 2.5 lakh candidates), appear for JEE Advanced consisting of two compulsory papers testing Physics, Chemistry, and Mathematics, and participate in JoSAA counselling consisting of six rounds where seats are allocated based on rank, preferences, and category. Reservation benefits are available including quotas for OBC, SC, ST, EWS, and female candidates with up to 20% seats reserved for females and varying cutoffs based on category. Application fees range from INR 1,000 for general male candidates to INR 500 for female and reserved categories, with additional JoSAA registration fees. While students can take drop year(s) to improve ranks, there is no provision for board percentage improvement in admission process. Direct admissions or management quotas do not apply - all admissions are strictly merit-based through JEE Advanced.",
+          "available_branches": "IIT Guwahati offers B.Tech programs in Biosciences and Bioengineering, Biotechnology, Chemical Engineering, Civil Engineering, Computer Science and Engineering (most competitive with lowest cutoff ranks), Electronics and Electrical Engineering, Mechanical Engineering, and other engineering disciplines. Typical cutoff rank varies by branch and category.",
+          "curriculum_structure": "The B.Tech curriculum provides strong foundational knowledge, specialized expertise, and practical skills. First year includes common foundation courses across all branches covering Mathematics, Physics, Chemistry, Introduction to Computing, Basic Engineering, Communication Skills, and introductory exposure to engineering disciplines. From second year onward, students study core departmental courses specific to their branch, professional electives allowing specialization, open electives enabling interdisciplinary learning, laboratory courses providing hands-on experience, projects developing research capabilities, industrial training/internship during summers, and seminars enhancing presentation skills. Curriculum is continuously updated incorporating latest developments and industry requirements.",
+          "assessment": "Assessment includes frequent quizzes, mid-semester examinations, end-semester examinations, assignments, projects, practical examinations in laboratory courses, and seminar presentations. CGPA system on 10-point scale is used for academic performance evaluation."
+        },
+        "sources": "[web:196][web:197][web:200]"
+      },
+      "bdes_programs": {
+        "title": "Bachelor of Design (B.Des) Programs",
+        "details": {
+          "duration": "4 years",
+          "total_fee": "₹9.04 Lakhs for complete 4-year duration",
+          "hostel_fees": "₹59,500 per year",
+          "eligibility": "Pass in Class 12 or equivalent in any stream with minimum required percentage + UCEED (Undergraduate Common Entrance Examination for Design) qualification",
+          "admission": "Based on UCEED scores which test creativity, design aptitude, visual perception, drawing skills, observation, analytical abilities, and communication. After UCEED results, admission through counselling based on rank and preferences.",
+          "program_features": "Comprehensive design education covering industrial design, visual communication, user experience design, product design, interaction design, and design thinking. Curriculum balances creativity, technical skills, aesthetics, user research, and practical projects. Students work on studio-based design projects, participate in workshops, undertake internships in design firms, and complete major design project in final year."
+        },
+        "sources": "[web:196]"
+      },
+      "mtech_programs": {
+        "title": "Master of Technology (M.Tech) Programs",
+        "details": {
+          "duration": "2 years (4 semesters)",
+          "total_fee": "₹1.24 Lakhs for complete 2-year duration",
+          "hostel_fees": "₹59,500 per year",
+          "eligibility": "Bachelor's degree in Engineering/Technology (B.E/B.Tech) with minimum 60% marks + valid GATE score in relevant discipline",
+          "admission": "Primarily based on GATE scores. After GATE results, IIT Guwahati conducts admissions through COAP (Common Offer Acceptance Portal) for participating programs. Selection considers GATE scores (major weightage), academic performance, and sometimes written tests or interviews by departments. Candidates apply online providing GATE scores, academic records, and preferences.",
+          "popular_specializations": "Data Science (most popular), Computer Science and Engineering, Artificial Intelligence and Machine Learning, VLSI Design, Communication Systems, Power Electronics, Structural Engineering, Environmental Engineering, Thermal Engineering, Chemical Engineering, and numerous other specialized areas across departments aligned with faculty expertise and industry requirements.",
+          "program_structure": "Combines advanced coursework with substantial research component. Students undertake core courses, electives, seminars, laboratory work, and major research project/thesis in final semesters contributing original knowledge. Thesis defense required for degree award."
+        },
+        "sources": "[web:196][web:200]"
+      },
+      "msc_programs": {
+        "title": "Master of Science (M.Sc) Programs",
+        "details": {
+          "duration": "2 years (4 semesters)",
+          "total_fee": "₹83,700 to ₹1.24 Lakhs for complete 2-year duration",
+          "hostel_fees": "₹59,500 per year",
+          "tuition_structure": "₹20,000 to ₹60,000 depending on specialization",
+          "detailed_fees": {
+            "tuition_fee": "₹5,000 per semester",
+            "admission_fee": "₹2,000 (first semester only)",
+            "registration_fee": "₹2,000 per semester",
+            "exam_fee": "₹500 per semester",
+            "caution_fee": "₹4,000 (refundable, first semester only)",
+            "gym_fee": "₹2,000 per semester (₹8,000 total)",
+            "library_fee": "₹4,000 (first semester only)",
+            "alumni_fee": "₹1,500 (first semester only)",
+            "miscellaneous_fee": "₹17,700 first semester, ₹5,500 subsequent semesters",
+            "semester_1": "₹38,700",
+            "semester_2_4": "₹15,000 each",
+            "year_1_total": "₹53,700",
+            "year_2_total": "₹30,000"
+          },
+          "eligibility": "Bachelor's degree in relevant field (B.Sc or equivalent) with required percentage + valid IIT JAM score",
+          "admission": "Through IIT JAM followed by CCMN (Centralized Counselling for M.Sc/M.A/MS(Research)/Other programs) counselling. Seat allocation based on JAM rank, category, and preferences.",
+          "specializations": "M.Sc programs offered in 4 fields including Mathematics and Computing, Physics, Chemistry, and other science disciplines providing advanced training in fundamental sciences and research methodologies.",
+          "program_structure": "Curriculum includes advanced coursework, laboratory sessions, computational courses, seminars, and dissertation/project in final semester involving independent research under faculty guidance."
+        },
+        "sources": "[web:196]"
+      },
+      "mba_programs": {
+        "title": "Master of Business Administration (MBA) Programs",
+        "details": {
+          "duration": "2 years",
+          "total_fee": "₹9.64 Lakhs for complete 2-year duration (reduced from ₹10.56 Lakhs in 2024-2025)",
+          "hostel_fees": "₹59,500 per year",
+          "eligibility": "Bachelor's degree or equivalent with minimum 60% marks + valid CAT score",
+          "admission": "Based on CAT scores followed by Written Ability Test (WAT) and Personal Interview (PI). Final selection considers CAT percentile, academic performance, work experience, diversity, and interview performance.",
+          "program_features": "Focuses on building leadership, analytical, and managerial capabilities through rigorous coursework, case studies, industry projects, and internships. Students can specialize in Finance, Marketing, Operations, Strategy, and other management domains."
+        },
+        "sources": "[web:196]"
+      },
+      "ma_programs": {
+        "title": "Master of Arts (M.A) Programs",
+        "details": {
+          "duration": "2 years",
+          "total_fee": "₹83,700 for complete 2-year duration",
+          "hostel_fees": "₹59,500 per year",
+          "eligibility": "Bachelor's degree in relevant discipline",
+          "admission": "Based on written test and/or personal interview conducted by Department of Humanities and Social Sciences. Specific criteria vary by specialization.",
+          "program_features": "Programs in humanities and social sciences disciplines providing interdisciplinary education. Curriculum includes theoretical courses, research methodologies, seminars, and dissertation. Prepares students for careers in research, education, policy-making, media, and social development."
+        },
+        "sources": "[web:196]"
+      },
+      "mdes_programs": {
+        "title": "Master of Design (M.Des) Programs",
+        "details": {
+          "duration": "2 years",
+          "total_fee": "₹1.24 Lakhs for complete 2-year duration",
+          "hostel_fees": "₹59,500 per year",
+          "eligibility": "Bachelor's degree with minimum 60% marks + valid CEED score",
+          "admission": "Based on CEED scores, Design Aptitude Test, portfolio evaluation, and personal interview.",
+          "program_features": "Advanced design education covering various design disciplines. Curriculum includes advanced design studio projects, design research methodologies, theory, technology integration, user research, and thesis project. Prepares students for leadership roles in design industries and research."
+        },
+        "sources": "[web:196]"
+      },
+      "ms_research": {
+        "title": "M.S by Research Programs",
+        "details": {
+          "duration": "2-3 years",
+          "total_fee": "₹83,700 to ₹1.24 Lakhs",
+          "hostel_fees": "₹59,500 per year",
+          "eligibility": "Bachelor's degree + qualifying through entrance/interview",
+          "program_structure": "Research-intensive program with students primarily focusing on conducting original research under faculty supervision with minimal coursework. Thesis submission and defense required. Suits students aspiring for research careers or planning Ph.D."
+        },
+        "sources": "[web:196]"
+      },
+      "phd_programs": {
+        "title": "Doctor of Philosophy (Ph.D) Programs",
+        "details": {
+          "duration": "Typically 4-6 years",
+          "total_fee": "₹1.74 Lakhs for complete program",
+          "hostel_fees": "₹59,500 per year",
+          "eligibility": "Master's degree (Postgraduation) in relevant discipline with minimum 60% marks. Bachelor's degree with exceptional record for Direct Ph.D in some departments.",
+          "admission": "Through departmental selection including written test (may be waived for GATE/NET/CSIR/UGC qualified candidates meeting cutoffs), personal interview assessing research aptitude, and evaluation of research proposals. Must secure faculty supervisor.",
+          "research_areas": "Ph.D programs offered across all departments covering Computer Science, Artificial Intelligence, Electrical Engineering, Mechanical Engineering, Chemical Engineering, Civil Engineering, Biosciences, Biotechnology, Physics, Chemistry, Mathematics, Design, Management, Humanities, and interdisciplinary areas.",
+          "fellowship_support": "Selected full-time Ph.D students receive monthly fellowship/stipend as per government norms. Students with GATE/NET/CSIR/UGC fellowships receive support according to fellowship guidelines."
+        },
+        "sources": "[web:196]"
+      },
+      "mtech_phd_integrated": {
+        "title": "M.Tech + Ph.D Integrated Programs",
+        "details": {
+          "duration": "Typically 5-6 years",
+          "total_fee": "₹1.24 Lakhs (M.Tech component)",
+          "hostel_fees": "₹59,500 per year",
+          "eligibility": "Bachelor's degree + GATE qualification",
+          "program_structure": "Allows seamless transition from master's to doctoral research without separate Ph.D admission. Students complete M.Tech coursework, qualifying exams, and continue to doctoral research leading to Ph.D degree. Reduces total time compared to sequential approach."
+        },
+        "sources": "[web:196]"
+      },
+      "fee_structure_detailed": {
+        "title": "Detailed Fee Structure and Components",
+        "general_structure": {
+          "total_fees_range": "₹63,700 to ₹11.66 Lakhs across all programs",
+          "ug_fees": "₹9.04 Lakhs for B.Tech/B.Des",
+          "pg_fees": "₹83,700 to ₹9.64 Lakhs depending on program",
+          "mba_fees": "₹9.64 Lakhs",
+          "mtech_fees": "₹1.24 Lakhs",
+          "phd_fees": "₹1.74 Lakhs",
+          "hostel_component": "₹59,500 per year additional for residential students",
+          "fee_components": "Tuition fees (varies by program), admission fee, registration fee, examination fee, caution fee (refundable), gym fee, library fee, alumni fee, miscellaneous fees covering various services",
+          "sc_st_pwd_waiver": "For SC/ST/PwD students, there is NO Tuition Fee. They pay only other charges making education highly affordable."
+        },
+        "sources": "[web:196][web:199]"
+      },
+      "scholarships_financial_aid": {
+        "title": "Scholarships and Financial Assistance",
+        "support_schemes": {
+          "tuition_fee_waiver": "SC/ST/PwD candidates receive full tuition fee waiver in all programs. They pay only other charges (admission, registration, exam, hostel, mess, etc.).",
+          "income_based": "Students from economically weaker sections receive fee concessions based on annual family income.",
+          "merit_scholarships": "Merit-cum-means scholarships support academically excellent students from disadvantaged backgrounds.",
+          "research_fellowships": "Ph.D and research students receive monthly fellowships. Students with GATE/NET/CSIR/UGC fellowships receive support per agency norms.",
+          "education_loans": "Students can avail education loans from designated banks with institute support.",
+          "external_scholarships": "Access to external scholarships from corporations, foundations, and government schemes."
+        },
+        "sources": "[web:199]"
+      },
+      "fee_comparison_table": {
+        "title": "Comprehensive Fee Structure Summary",
+        "programs_table": [
+          {
+            "Program": "B.Tech",
+            "Duration": "4 years",
+            "Total Fee": "₹9.04 Lakhs",
+            "Hostel/Year": "₹59,500",
+            "Eligibility": "10+2 with 75% + JEE Advanced"
+          },
+          {
+            "Program": "B.Des",
+            "Duration": "4 years",
+            "Total Fee": "₹9.04 Lakhs",
+            "Hostel/Year": "₹59,500",
+            "Eligibility": "10+2 + UCEED"
+          },
+          {
+            "Program": "M.Tech",
+            "Duration": "2 years",
+            "Total Fee": "₹1.24 Lakhs",
+            "Hostel/Year": "₹59,500",
+            "Eligibility": "Graduation with 60% + GATE"
+          },
+          {
+            "Program": "M.Sc",
+            "Duration": "2 years",
+            "Total Fee": "₹83,700 - 1.24 Lakhs",
+            "Hostel/Year": "₹59,500",
+            "Eligibility": "Graduation + IIT JAM"
+          },
+          {
+            "Program": "MBA",
+            "Duration": "2 years",
+            "Total Fee": "₹9.64 Lakhs",
+            "Hostel/Year": "₹59,500",
+            "Eligibility": "Graduation with 60% + CAT"
+          },
+          {
+            "Program": "M.A",
+            "Duration": "2 years",
+            "Total Fee": "₹83,700",
+            "Hostel/Year": "₹59,500",
+            "Eligibility": "Graduation"
+          },
+          {
+            "Program": "M.Des",
+            "Duration": "2 years",
+            "Total Fee": "₹1.24 Lakhs",
+            "Hostel/Year": "₹59,500",
+            "Eligibility": "Graduation with 60% + CEED"
+          },
+          {
+            "Program": "M.S by Research",
+            "Duration": "2-3 years",
+            "Total Fee": "₹83,700 - 1.24 Lakhs",
+            "Hostel/Year": "₹59,500",
+            "Eligibility": "Graduation"
+          },
+          {
+            "Program": "M.Tech + Ph.D",
+            "Duration": "5-6 years",
+            "Total Fee": "₹1.24 Lakhs",
+            "Hostel/Year": "₹59,500",
+            "Eligibility": "Graduation + GATE"
+          },
+          {
+            "Program": "Ph.D",
+            "Duration": "4-6 years",
+            "Total Fee": "₹1.74 Lakhs",
+            "Hostel/Year": "₹59,500",
+            "Eligibility": "Post Graduation with 60%"
+          }
+        ],
+        "note": "SC/ST/PwD candidates receive tuition fee waiver. Hostel fees additional. Ph.D students typically receive monthly fellowships. Fees subject to revision.",
+        "sources": "[web:196]"
+      }
+    }
+  },
+  "admissions": {
+    "word_count": "4000",
+    "content": {
+      "overview": {
+        "title": "Admissions Process Overview",
+        "description": "The admission process at IIT Guwahati is highly competitive and strictly merit-based, designed to identify talented students with aptitude for technical education and research. Different programs have specific admission criteria and entrance examination requirements. The institute admits students through nationally recognized entrance examinations: JEE Advanced for undergraduate engineering and design programs (B.Tech/B.Des), UCEED for B.Des, GATE for postgraduate engineering programs (M.Tech), IIT JAM for postgraduate science programs (M.Sc), CEED for postgraduate design programs (M.Des), CAT for MBA programs, and department-specific tests for Ph.D programs. The admission process is transparent, following strict timelines and procedures established by the institute and national regulatory bodies. IIT Guwahati follows reservation policies as mandated by Government of India ensuring representation for SC, ST, OBC, EWS, and PwD categories. Up to 20% seats are reserved for female candidates promoting gender diversity. All admissions are strictly merit-based through entrance examinations - direct admissions or management quotas do not apply. Admissions for undergraduate programs are conducted centrally through Joint Seat Allocation Authority (JoSAA), while postgraduate and doctoral admissions follow department-specific processes after centralized entrance examinations.",
+        "sources": "[web:197][web:200]"
+      },
+      "btech_admissions": {
+        "title": "B.Tech Admissions Process",
+        "detailed_process": {
+          "step1_jee_main": "Students interested in B.Tech at IIT Guwahati must first register for JEE Main conducted by National Testing Agency (NTA). JEE Main tests Physics, Chemistry, and Mathematics through computer-based test. Candidates must achieve specific cutoff percentile qualifying them for top 2,50,000 positions across all categories to become eligible for JEE Advanced. JEE Main conducted twice annually (January and April sessions) with best score considered.",
+          "step2_jee_advanced": "Qualified JEE Main candidates register for JEE Advanced through official website. JEE Advanced consists of two compulsory papers (Paper 1 and Paper 2), each of 3 hours duration, conducted in computer-based mode. Both papers cover Physics, Chemistry, and Mathematics with various question types testing conceptual understanding and analytical skills. The exam is known for its difficulty. Negative marking applies for incorrect answers. Candidates must attempt both papers and meet minimum qualifying marks (subject-wise and total cutoffs) to be included in rank list.",
+          "step3_results": "After examination, results are announced with All India Rank (AIR) and category-wise ranks (OBC, SC, ST, EWS, PwD). Varying cutoffs apply based on category.",
+          "step4_josaa_counselling": "Qualified candidates participate in Joint Seat Allocation Authority (JoSAA) counselling for seat allocation across IITs, NITs, IIITs, and other CFTIs. Process involves: Online registration; Choice filling where candidates select and rank institute-program combinations (IIT Guwahati + specific branch) based on preferences; Six rounds of counselling where seats are allocated based on rank and preferences; Candidates accept allocated seats or choose to float to subsequent rounds; Final seat acceptance and reporting to institute.",
+          "step5_admission_confirmation": "Candidates allocated seats at IIT Guwahati complete physical reporting during specified dates bringing original documents for verification. After verification, they pay IIT Guwahati fees to confirm seats."
+        },
+        "eligibility": {
+          "educational_qualification": "Minimum 75% in Class 12 board exams or be in top 20 percentile. Relaxation for reserved categories with board percentages as low as 65%.",
+          "no_board_improvement": "There is no provision for board percentage improvement in admission process. Students can take drop year to improve JEE ranks but cannot improve board marks for admission purposes."
+        },
+        "application_fees": "INR 1,000 for general male candidates, INR 500 for female and reserved categories, plus additional JoSAA registration fees.",
+        "sources": "[web:197][web:200]"
+      },
+      "cutoff_information": {
+        "title": "Cutoff Trends and Branch-wise Allocation",
+        "cutoff_patterns": "Cutoff ranks vary significantly by branch and category. Computer Science and Engineering typically has lowest cutoff ranks (most competitive). Other branches like Electronics and Electrical Engineering, Mechanical Engineering, Chemical Engineering, Civil Engineering, and Biosciences have progressively higher cutoff ranks. Cutoffs vary by category with SC, ST, EWS, and PwD having higher cutoff ranks (numerically) due to reservation benefits. Female candidates benefit from 20% supernumerary seats reserved for them with potentially different cutoffs. Cutoffs change annually based on exam difficulty, number of applicants, seat availability, and student preferences.",
+        "sources": "[web:197]"
+      },
+      "bdes_admissions": {
+        "title": "B.Des Admissions Process",
+        "uceed_pathway": "B.Des admission through UCEED (Undergraduate Common Entrance Examination for Design) which tests creativity, design aptitude, visual perception, drawing skills, observation, analytical abilities, and communication skills. Candidates with qualifying UCEED scores participate in counselling for seat allocation based on rank and preferences.",
+        "sources": "[web:196]"
+      },
+      "mtech_admissions": {
+        "title": "M.Tech Admissions Process",
+        "gate_requirement": "M.Tech admission primarily based on GATE scores. Candidates must have valid GATE score in relevant discipline with minimum qualifying marks. After GATE results, IIT Guwahati conducts admissions through COAP (Common Offer Acceptance Portal) for participating programs. Institute considers GATE scores (major weightage), academic performance in bachelor's degree, and sometimes written tests or interviews. Shortlisted candidates called for counselling for seat allotment. Selected candidates pay fees to confirm seats.",
+        "sources": "[web:200]"
+      },
+      "msc_admissions": {
+        "title": "M.Sc Admissions Process",
+        "iit_jam_pathway": "M.Sc admission through IIT JAM which tests knowledge in Physics, Chemistry, Mathematics, Biotechnology, Economics, Geology, and Mathematical Statistics. After IIT JAM results, centralized counselling conducted through CCMN (Centralized Counselling for M.Sc/M.A/MS(Research)/Other programs). Seat allocation based on JAM rank, category, and preferences.",
+        "sources": "[web:200]"
+      },
+      "mba_admissions": {
+        "title": "MBA Admissions Process",
+        "cat_requirement": "MBA admission based on CAT (Common Admission Test) scores followed by Written Ability Test (WAT) and Personal Interview (PI). Final selection considers CAT percentile, past academic performance, work experience, academic diversity, gender diversity, and interview performance.",
+        "sources": "[web:196]"
+      },
+      "mdes_admissions": {
+        "title": "M.Des Admissions Process",
+        "ceed_pathway": "M.Des admission through CEED (Common Entrance Exam for Design). Selection process includes CEED scores, Design Aptitude Test (DAT), portfolio evaluation showcasing creative work, and personal interview.",
+        "sources": "[web:196]"
+      },
+      "phd_admissions": {
+        "title": "Ph.D Admissions Process",
+        "selection_process": "Ph.D admissions through departmental selection processes. Candidates apply to specific departments with research proposals, academic records, and statement of purpose. Selection involves written test covering subject knowledge and research aptitude (may be waived for candidates with valid GATE/NET/CSIR/UGC scores meeting cutoffs), personal interview assessing research potential and motivation, and evaluation of research proposals. Must secure faculty supervisor willing to guide research work before final admission.",
+        "sources": "[web:196]"
+      },
+      "reservation_policy": {
+        "title": "Reservation and Diversity Initiatives",
+        "categories": "Reservation benefits available for OBC, SC, ST, EWS, and PwD candidates as per government norms. Up to 20% seats reserved for female candidates (supernumerary) across programs promoting gender diversity. Varying cutoffs based on category ensure representation while maintaining merit-based selection within each category.",
+        "sources": "[web:197]"
+      },
+      "important_dates": {
+        "title": "Admission Timeline and Key Dates",
+        "timeline": "JEE Main typically conducted in January and April; JEE Advanced in May; Results announced within 2 weeks; JoSAA counselling in June-July with six rounds; GATE examination in February; M.Tech admissions through COAP after GATE results; IIT JAM in February; M.Sc admissions through CCMN counselling; CAT in November-December; MBA admissions in following months; Ph.D admissions typically twice a year. Specific dates announced through official websites and notifications.",
+        "sources": "[web:200]"
+      }
+    }
+  },
+  "placements": {
+    "word_count": "4000",
+    "content": {
+      "overview": {
+        "title": "Placements Overview",
+        "description": "IIT Guwahati has established an excellent placement record, attracting leading companies from India and abroad for campus recruitment. The Career Development Centre (CCD) manages the placement process, facilitating interactions between students and recruiters, organizing pre-placement talks, coordinating interviews, and ensuring smooth placement operations. The institute's strong academic programs, research exposure, and holistic development prepare students for successful careers across diverse sectors including information technology, core engineering, consulting, finance, analytics, product management, and research. The placement statistics demonstrate consistent performance with high placement percentages, competitive salary packages, and participation from top-tier companies. Students are placed in various roles including Software Development Engineer, Data Scientist, Business Analyst, Associate Product Manager, Marketing Manager, Product Designer, R&D Engineer, Consultant, and numerous other positions across sectors.",
+        "sources": "[web:201][web:204]"
+      },
+      "placements_2024_25": {
+        "title": "Placements 2024-25 Statistics",
+        "key_highlights": {
+          "total_students": "1,124 students participated in placements",
+          "companies_visited": "Around 260 companies visited campus for recruitment",
+          "highest_package": "₹2.05 Crore per annum (international/domestic CTC)",
+          "highest_domestic": "Offers more than ₹50 LPA were made",
+          "average_package": "₹25.75 LPA overall average",
+          "placement_percentage": "71% overall placement rate",
+          "ppos_offered": "227 Pre-Placement Offers (PPOs) received",
+          "median_ug": "₹21,60,000 median package for UG students (NIRF 2024)",
+          "median_pg": "₹12,00,000 median package for PG candidates (NIRF 2024)",
+          "cse_highest": "₹52 LPA highest salary in CSE branch"
+        },
+        "sources": "[web:52][web:201][web:204]"
+      },
+      "course_wise_average_2025": {
+        "title": "Course-wise Average Packages 2024-25",
+        "program_statistics": [
+          {
+            "Course": "BDes",
+            "Students_Placed": "26",
+            "Average_Package": "₹28.42 LPA",
+            "Median_Package": "₹23.28 LPA",
+            "Highlight": "Highest average among all programs"
+          },
+          {
+            "Course": "BTech",
+            "Students_Placed": "632",
+            "Average_Package": "₹25.21 LPA",
+            "Median_Package": "₹20.44 LPA",
+            "Highlight": "Strong placements across all branches"
+          },
+          {
+            "Course": "MDes",
+            "Students_Placed": "Data not specified",
+            "Average_Package": "₹18.96 LPA",
+            "Median_Package": "Not specified",
+            "Highlight": "Good demand for design graduates"
+          },
+          {
+            "Course": "MTech",
+            "Students_Placed": "Data not specified",
+            "Average_Package": "₹14.17 LPA",
+            "Median_Package": "Not specified",
+            "Highlight": "Competitive packages for technical roles"
+          },
+          {
+            "Course": "MBA",
+            "Students_Placed": "Data not specified",
+            "Average_Package": "₹11.43 LPA",
+            "Median_Package": "Not specified",
+            "Highlight": "Management roles across sectors"
+          },
+          {
+            "Course": "MSc",
+            "Students_Placed": "Data not specified",
+            "Average_Package": "₹10.28 LPA",
+            "Median_Package": "Not specified",
+            "Highlight": "Research and analytics roles"
+          },
+          {
+            "Course": "MSR (MS by Research)",
+            "Students_Placed": "Data not specified",
+            "Average_Package": "₹9.86 LPA",
+            "Median_Package": "Not specified",
+            "Highlight": "Research-focused positions"
+          },
+          {
+            "Course": "MA",
+            "Students_Placed": "Data not specified",
+            "Average_Package": "₹6.59 LPA",
+            "Median_Package": "Not specified",
+            "Highlight": "Diverse career paths in humanities"
+          }
+        ],
+        "sources": "[web:201][web:203]"
+      },
+      "special_highlight": {
+        "title": "First Batch Milestone - Data Science and AI",
+        "achievement": "The first batch of Data Science and AI program at IIT Guwahati recorded 91% placements in 2025, demonstrating strong industry demand for this new specialization and the quality of IIT Guwahati's curriculum and students.",
+        "sources": "[web:201]"
+      },
+      "top_recruiters": {
+        "title": "Top Recruiting Companies",
+        "regular_recruiters": "JP Morgan Chase, Goldman Sachs, PwC, Schlumberger, Deloitte, Uber, Apple, EY (Ernst & Young), Microsoft, Qualcomm, KPMG, Infosys, Ola, Amazon, Accenture, CapGemini, Cognizant, Dell, Flipkart, Google, HCL Technologies, IBM, Info Edge (India) Ltd., Oracle, L&T (Larsen & Toubro), Myntra, Mastercard, McKinsey & Company, Salesforce, Samsung, and numerous other leading companies across sectors.",
+        "sector_diversity": "Companies span multiple sectors including Information Technology and Software, Consulting and Advisory, Finance and Banking, E-commerce and Retail, Core Engineering (Mechanical, Civil, Chemical, Electrical), Analytics and Data Science, Product Management, Automotive, Telecommunications, Healthcare and Pharma, FMCG, and Startups.",
+        "sources": "[web:201][web:204]"
+      },
+      "job_roles": {
+        "title": "Job Roles and Career Paths",
+        "positions": "Students are placed in diverse roles including Software Development Engineer (SDE), Data Scientist and Analyst, Machine Learning Engineer, R&D Engineer, Business Analyst, Associate Product Manager (APM), Marketing Manager, Product Designer, Management Consultant, Financial Analyst, Operations Manager, Research Scientist, Full Stack Developer, Backend/Frontend Developer, DevOps Engineer, Systems Engineer, Hardware Engineer, and numerous other specialized positions matching student skills and interests.",
+        "sources": "[web:204]"
+      },
+      "placement_process": {
+        "title": "Placement Process and Preparation",
+        "ccd_role": "The Career Development Centre (CCD) at IIT Guwahati manages the entire placement process including inviting companies for campus recruitment, organizing pre-placement talks where companies present profiles, coordinating written tests and interviews, facilitating student-recruiter interactions, maintaining placement portals and databases, providing career counseling and resume building support, and ensuring fair and transparent placement operations.",
+        "student_preparation": "Students prepare through internships during summers providing industry exposure, projects and research work demonstrating technical skills, participation in coding competitions and hackathons, skill development workshops organized by CCD, mock interviews and group discussions, resume preparation guidance, and alumni mentorship programs. Strong academic performance, technical skills, problem-solving abilities, and communication skills are emphasized.",
+        "sources": "[web:202]"
+      },
+      "internship_opportunities": {
+        "title": "Internship Programs",
+        "importance": "Summer internships play crucial role in placement preparation, providing practical industry experience, opportunities to apply classroom knowledge, exposure to corporate culture and work environments, networking with professionals, and often leading to Pre-Placement Offers (PPOs). The 227 PPOs received in 2024 placements demonstrate success of internship programs. Companies offer internships in various domains matching student interests and academic backgrounds.",
+        "sources": "[web:204
+
+[1](https://www.vidyamandir.com/think-iit-think-vmc/iit-guwahati.html)
+[2](https://www.iitg.ac.in/iitg_page_details.php?page=1%2Fabout-us)
+[3](https://en.wikipedia.org/wiki/IIT_Guwahati)
+[4](https://www.iitg.ac.in)
+[5](https://www.cgiedinburgh.gov.in/page/indian-institute-of-technology-guwahati/)
+[6](https://collegedunia.com/university/25396-iit-guwahati-indian-institute-of-technology-iitg-guwahati/courses-fees)
+[7](https://collegedunia.com/university/25396-iit-guwahati-indian-institute-of-technology-iitg-guwahati/admission)
+[8](https://www.topuniversities.com/universities/indian-institute-technology-guwahati-iitg)
+[9](https://iitg.ac.in/acad/admission/imp_info/fee.php)
+[10](https://www.shiksha.com/college/iit-guwahati-indian-institute-of-technology-3065/admission)
+[11](https://motion.ac.in/blog/average-and-highest-package-of-iits/)
+[12](https://www.shiksha.com/college/iit-guwahati-indian-institute-of-technology-3065/placement)
+[13](https://iitg.ac.in/ccd/reports.html)
+[14](https://www.iitg.ac.in/ccd/assets/docs/reports/Placement_reports_2024_25.pdf)
+[15](https://www.careers360.com/university/indian-institute-of-technology-guwahati/placement)
+[16](https://iitg.ac.in/iitg_press_details.php?p=119%2Fiit-guwahati-climbs-to-344th-place-in-qs-world-university-rankings-2025-advancing-20-spots-from-last-year)
+[17](https://www.telegraphindia.com/edugraph/colleges/indian-institute-of-technology-guwahati-iitg/infrastructure/442)
+[18](https://collegedunia.com/university/25396-iit-guwahati-indian-institute-of-technology-iitg-guwahati/placement)
+[19](https://collegedunia.com/university/25396-iit-guwahati-indian-institute-of-technology-iitg-guwahati/ranking)
+[20](https://www.careers360.com/university/indian-institute-of-technology-guwahati/facilities)

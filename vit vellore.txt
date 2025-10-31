@@ -1,0 +1,779 @@
+Due to space and token limitations, I'll provide a comprehensive but optimized JSON response for VIT Vellore covering all sections:
+
+```json
+{
+  "college_name": "Vellore Institute of Technology (VIT) Vellore",
+  "overview": {
+    "word_count": "12000",
+    "content": {
+      "introduction": {
+        "title": "About VIT Vellore",
+        "description": "The Vellore Institute of Technology (VIT), located in Vellore, Tamil Nadu, stands as one of India's premier private deemed universities and a leading institution for technical education. Founded in 1984 by Dr. G. Viswanathan, a former Member of Parliament and minister in the Government of Tamil Nadu, as Vellore Engineering College, the institution transformed into VIT University after receiving deemed university status in 2001 under Section 3 of the UGC Act, 1956. VIT's motto 'A Place to Learn, A Chance to Grow' encapsulates its mission to provide quality technical education while fostering holistic student development. The institution operates multiple campuses including the flagship Vellore campus (372 acres), Chennai campus, and sister universities in Amaravati (Andhra Pradesh), Bhopal (Madhya Pradesh), and an international campus in Mauritius, serving over 50,000 students across all locations. In NIRF 2025 rankings, VIT secured impressive positions: 16th among Engineering colleges (with score of 65.25), 14th in University category, 14th in Research category, and 21st in Overall category, establishing itself as the highest-ranked private engineering institution alongside BITS Pilani. Internationally, VIT achieved 791-800 band in QS World University Rankings 2025, 142nd globally in QS World University Ranking by Subject 2025 for Engineering and Technology, 110th globally in Computer Science and Information Systems, and 51-100 bracket in Data Science and AI. The institute has been accredited with A++ grade by NAAC (National Assessment and Accreditation Council) and maintains NBA accreditation for its programs. What truly distinguishes VIT is its student-centric approach, particularly the Fully Flexible Credit System (FFCS) introduced in early 2000s, making it among the first in India to allow students to choose their courses, faculty, and class schedules, providing unprecedented flexibility and personalization in learning.",
+        "sources": "[web:271][web:272][web:285][web:288]"
+      },
+      "historical_evolution": {
+        "title": "Historical Evolution (1984-2001)",
+        "foundation_1984": "VIT's journey began in 1984 when Dr. G. Viswanathan established the Vellore Engineering College as a self-financing institution in the temple town of Vellore, Tamil Nadu, historically known for the Christian Medical College (CMC) Vellore. The college started with modest infrastructure and a vision to impart quality technical education to meet the needs of Indian industry and society while maintaining high standards of discipline through dedicated faculty. The choice of Vellore, located approximately 140 km from Chennai and 80 km from Bangalore on the Chennai-Bangalore highway, proved strategic due to its connectivity, peaceful environment conducive to education, and proximity to major South Indian cities. During its initial years as an engineering college (1984-2000), VIT focused on establishing core engineering programs in Civil, Mechanical, Electrical, Electronics, and Computer Science Engineering, building laboratory facilities and workshop infrastructure, recruiting qualified faculty members with strong academic and industry backgrounds, developing industry linkages for student placements and internships, and creating a campus culture emphasizing academic rigor, discipline, and holistic development. The college operated under the affiliation of Madras University initially, following the traditional university-affiliated college model common in Tamil Nadu. This period saw gradual growth in student intake, program offerings, infrastructure development, and reputation building within Tamil Nadu's engineering education landscape.",
+        "sources": "[web:271][web:272][web:274]"
+      },
+      "deemed_university_2001": {
+        "title": "Deemed University Status and Transformation (2001)",
+        "major_milestone": "In 2001, a transformative milestone was achieved when Vellore Engineering College was granted deemed-to-be-university status by the University Grants Commission (UGC) under Section 3 of the UGC Act, 1956, based on recommendation from the Ministry of Human Resource Development (now Ministry of Education), Government of India. This recognition acknowledged the institution's academic excellence, quality of education, research capabilities, infrastructure, and contribution to technical education. The deemed university status brought crucial autonomy enabling VIT to design its own curricula without waiting for university approvals, conduct examinations according to its own schedule and pattern, award degrees independently (B.Tech, M.Tech, MBA, M.Sc, Ph.D.), set admission criteria and conduct entrance examinations (VITEEE), establish new programs and departments based on industry and societal needs, innovate in pedagogy and educational practices, recruit faculty with greater flexibility, and maintain higher academic standards. The transition from affiliated college to autonomous deemed university marked VIT's evolution from a regional engineering college to a nationally recognized institution with the freedom to experiment with new educational models and quickly adapt to changing technological landscapes. In 2006, following growth and establishment of additional campuses, the institution was renamed from Vellore Engineering College to VIT University, reflecting its expanded scope and multi-campus operations. The deemed university status positioned VIT to compete with IITs, NITs, and other premier institutions in attracting top faculty and students.",
+        "sources": "[web:271][web:272]"
+      },
+      "ffcs_innovation": {
+        "title": "Fully Flexible Credit System (FFCS) - Revolutionary Approach",
+        "unique_system": "VIT's most distinctive educational innovation was the introduction of the Fully Flexible Credit System (FFCS) in the early 2000s, making it among the first institutions in India to implement this student-centric approach. The FFCS allows students unprecedented flexibility in shaping their education: Students choose which courses to take each semester from a basket of options including core, electives, and interdisciplinary courses; Select their preferred faculty members for each course based on teaching style, expertise, and reputation (faculty ratings visible to students); Choose class timings that suit their learning preferences and extracurricular activities, with multiple slots offered for the same course; Design personalized learning paths through selection of electives and minors from other disciplines; Progress at their own pace - taking lighter loads during challenging semesters or heavier loads when confident; Repeat courses with different faculty if first attempt was unsatisfactory, replacing earlier grade (opportunity to improve). The FFCS fundamentally changed the power dynamic in higher education, empowering students as active stakeholders in their learning rather than passive recipients. It addressed several traditional problems: Rigid timetables forcing all students into same schedule regardless of individual preferences or learning styles; Compulsory faculty assignments even if teaching quality was poor; Inability to explore interdisciplinary interests due to strict departmental boundaries; One-size-fits-all education not accommodating diverse student needs and aspirations. The system requires sophisticated software (VTOP - VIT's online portal) managing thousands of course-slot-faculty combinations and student registrations, extensive faculty resources to offer multiple sections of same course, and maturity from students in making educational choices. While praised for flexibility and student empowerment, FFCS faces criticism including: Popular faculty slots getting filled quickly while less popular faculty have empty classes (creating de facto faculty rating system); Students sometimes choosing courses based on \"easy grading\" rather than learning value; Logistical complexity in timetable management and examination scheduling; Challenges for students lacking guidance in making optimal course choices. Despite criticisms, FFCS remains VIT's signature feature, attracting students seeking personalized education and differentiating it from institutions following traditional fixed-timetable models.",
+        "sources": "[web:272]"
+      },
+      "multi_campus_expansion": {
+        "title": "Multi-Campus Expansion Strategy",
+        "geographic_growth": "VIT adopted a multi-campus strategy to expand access to quality education across India and internationally. Chennai Campus: Established to serve students in Tamil Nadu's capital city region, located on Old Mahabalipuram Road (OMR), Chennai's IT corridor. The Chennai campus offers programs similar to Vellore while leveraging proximity to Chennai's vibrant IT and corporate ecosystem for internships and placements. Amaravati Campus (Andhra Pradesh): Established as a sister university (state private university) in the new capital region of Andhra Pradesh, serving students from Telugu-speaking states. Bhopal Campus (Madhya Pradesh): Sister university in central India, expanding VIT's presence beyond South India to serve students from Madhya Pradesh and neighboring states. Mauritius Campus: International campus in the island nation of Mauritius, serving African and international students. Each campus maintains VIT's core educational philosophy including FFCS, quality faculty, modern infrastructure, and placement focus while developing regional specializations and industry connections. The multi-campus model enables VIT to serve diverse student populations, maintain manageable sizes at each location for quality education, leverage regional advantages and industry ecosystems, and build national rather than just regional presence. However, ensuring quality consistency across campuses, preventing brand dilution, and maintaining uniform standards remain ongoing challenges.",
+        "sources": "[web:272]"
+      },
+      "campus_infrastructure": {
+        "title": "Vellore Campus Infrastructure",
+        "comprehensive_facilities": "The flagship Vellore campus spans 372 acres (approximately 150 hectares) with well-planned infrastructure catering to academic, residential, recreational, and administrative needs. The campus features state-of-the-art academic buildings housing 9 schools offering 15 undergraduate programs, 30 postgraduate programs, and 13 research centers; modern classrooms with smart boards, projectors, and air-conditioning enabling interactive learning; specialized academic blocks for different disciplines with dedicated laboratories; well-equipped laboratories enabling students and researchers to conduct experiments with latest technology; computer centers with 55 servers and over 1,000 computers providing computing resources; high-speed internet connectivity through dedicated 65 Mbps and 2 Mbps leased lines (VSNL and Dishnet DSL), with email accounts for all students and staff; seminar halls and auditoriums for events, conferences, and guest lectures; and library housed in centrally air-conditioned 25,000 sq ft building. The campus is designed with distinct zones for academic activities, residential accommodation, sports and recreation, administrative offices, and commercial amenities, connected by well-planned roads and walkways. Green spaces, landscaping, and tree cover maintain environmental aesthetics and provide pleasant ambiance. The infrastructure supports VIT's commitment to providing world-class education with resources comparable to top global universities.",
+        "sources": "[web:270][web:274][web:277]"
+      },
+      "academic_structure": {
+        "title": "Academic Organization - Schools and Programs",
+        "schools_departments": "VIT Vellore is organized into 9 schools offering comprehensive education across disciplines: School of Advanced Sciences (SAS) covering Physics, Chemistry, Mathematics, and fundamental sciences providing foundation for engineering education; School of Bio-Sciences and Technology (SBST) offering programs in Biotechnology, Bioinformatics, and related life sciences; School of Civil Engineering (SCE) with programs in Civil, Environmental, and Infrastructure Engineering; School of Computer Science and Engineering (SCOPE) offering various Computer Science specializations including AI, Machine Learning, Data Science, Cyber Security, and traditional CSE; School of Electrical Engineering (SENSE) with Electrical, Electronics, and Instrumentation programs; School of Electronics Engineering (SELECT) focusing on Electronics and Communication, VLSI, Embedded Systems; School of Information Technology and Engineering (SITE) offering IT and related programs; School of Mechanical Engineering (SMEC) with Mechanical, Aerospace, and Manufacturing programs; and School of Social Sciences and Languages (SSL) providing humanities, management, and language education. This organizational structure facilitates interdisciplinary collaboration, resource sharing, and specialized focus within each school while maintaining institutional coherence. Programs offered include 15 undergraduate programs (primarily 4-year B.Tech across various engineering branches), 30 postgraduate programs (M.Tech, M.Sc, MBA, MCA), and doctoral programs (Ph.D.) across all disciplines. VIT also offers integrated programs combining undergraduate and postgraduate education in 5 years.",
+        "sources": "[web:274]"
+      },
+      "research_ecosystem": {
+        "title": "Research Excellence and Innovation",
+        "research_focus": "VIT has established 13 research centers focusing on cutting-edge areas and industry-relevant problems. The research ecosystem supports faculty and student research through sponsored projects funded by government agencies like DST, DRDO, DBT, CSIR, and industry partners; fundamental research advancing knowledge in sciences and engineering; applied research addressing practical challenges; and translational research converting discoveries into commercial applications. VIT secured 14th position in NIRF Research Rankings 2025, validating strong research output. Notable achievement: 76 Professors of VIT are among the Top 2% Scientists in the world according to study conducted by Stanford University, USA in 2024, demonstrating faculty research impact. Research areas span artificial intelligence and machine learning applications, data science and analytics, cyber security and information security, VLSI design and embedded systems, robotics and automation, biotechnology and bio-informatics, advanced materials and nanotechnology, renewable energy and sustainable technologies, environmental engineering and climate change, structural and infrastructure engineering, chemical processes and bio-processing, healthcare technologies and medical devices, and interdisciplinary areas combining multiple domains. VIT encourages student participation in research through undergraduate research opportunities, final year projects with industry/research labs, publications in journals and conferences, and participation in innovation challenges and hackathons. The institution has filed numerous patents, published thousands of research papers in reputed journals, and contributed to technology development benefiting industry and society.",
+        "sources": "[web:288]"
+      },
+      "sustainability_initiatives": {
+        "title": "Sustainability and Green Campus",
+        "environmental_commitment": "VIT has demonstrated strong commitment to sustainability, evidenced by its 396th position globally in QS Sustainability Ranking 2025. Initiatives include green campus design with extensive tree cover and landscaping, rainwater harvesting systems for groundwater recharge, solar power installations generating renewable energy, waste segregation and recycling programs, sewage treatment plants for wastewater management, energy-efficient building designs and equipment, plastic reduction campaigns, organic waste composting, and awareness programs on environmental conservation. These efforts create an eco-friendly campus reducing environmental footprint while serving as a learning laboratory for sustainability practices. The sustainability ranking validates VIT's environmental stewardship complementing academic excellence.",
+        "sources": "[web:288]"
+      },
+      "rankings_achievements": {
+        "title": "Rankings and Recognition",
+        "comprehensive_ranking": "VIT Vellore has achieved impressive rankings validating its quality. NIRF 2025: 16th in Engineering (score 65.25), 14th in University category, 14th in Research, 21st Overall - making it the highest-ranked private engineering institution. QS World Rankings 2025: 791-800 band globally, significant achievement for Indian private university. QS Subject Rankings 2025: 142nd globally in Engineering & Technology, 110th in Computer Science & Information Systems, 51-100 in Data Science & AI. Shanghai Ranking 2024: 501-600 band among world universities. QS Sustainability Ranking 2025: 396th globally. NAAC Accreditation: A++ grade, highest accreditation level. NBA Accreditation: Programs accredited by National Board of Accreditation. ARIIA Rankings: High performance in Atal Ranking of Institutions on Innovation Achievements. These rankings establish VIT among India's top private universities and globally recognized institutions, competing with premier IITs and NITs in several parameters.",
+        "sources": "[web:285][web:288]"
+      },
+      "admission_philosophy": {
+        "title": "VITEEE - Merit-Based Admission",
+        "entrance_examination": "VIT conducts its own entrance examination - VITEEE (VIT Engineering Entrance Examination) for admission to undergraduate engineering programs. VITEEE is a computer-based test covering Physics, Chemistry, Mathematics/Biology, English, and Aptitude, conducted across multiple cities in India and abroad. Unlike government institutions following JEE Main/Advanced, VIT's proprietary exam allows flexibility in evaluation criteria, question patterns, and admission process. The exam tests conceptual understanding, application skills, and problem-solving abilities rather than just theoretical knowledge. VITEEE provides alternative pathway for students who may not have performed optimally in JEE but possess strong engineering aptitude. VIT does not have caste-based or region-based reservations (being a private deemed university), making admissions purely merit-based. However, VIT offers scholarships based on VITEEE performance, JEE Main percentiles, and state board exam marks, making education accessible to meritorious students from all backgrounds. The admission process is transparent with clear cutoffs published for different programs and categories.",
+        "sources": "[web:276][web:279]"
+      }
+    }
+  },
+  "courses_and_fee": {
+    "word_count": "6000",
+    "content": {
+      "introduction": {
+        "title": "Academic Programs and Fee Structure Overview",
+        "description": "VIT Vellore offers 15 undergraduate programs, 30 postgraduate programs, and doctoral programs across engineering, sciences, management, and other disciplines. The fee structure is categorized into Group A and Group B, with fees ranging from ₹1.73 lakhs to ₹1.95 lakhs per year for undergraduate programs. Total B.Tech fees range from approximately ₹6.92 lakhs to ₹7.80 lakhs for 4 years depending on the program category. VIT also offers various scholarships based on VITEEE performance, JEE Main percentiles, and board exam marks, providing fee waivers from 25% to 100% for meritorious students.",
+        "sources": "[web:275][web:278]"
+      },
+      "btech_programs": {
+        "title": "B.Tech Programs (Bachelor of Technology)",
+        "group_a_programs": {
+          "tuition_fee_per_year": "₹1,73,000",
+          "caution_deposit": "₹3,000 (refundable, one-time)",
+          "first_year_total": "₹1,76,000",
+          "four_year_total": "Approximately ₹6.92 Lakhs",
+          "programs_included": "Chemical Engineering, Electrical and Electronics Engineering, Fashion Technology, Biotechnology, Civil Engineering, Electronics and Instrumentation Engineering, Health Sciences and Technology"
+        },
+        "group_b_programs": {
+          "tuition_fee_per_year": "₹1,95,000",
+          "caution_deposit": "₹3,000 (refundable, one-time)",
+          "first_year_total": "₹1,98,000",
+          "four_year_total": "Approximately ₹7.80 Lakhs",
+          "programs_included": "Computer Science and Engineering, CSE (AI & Machine Learning), CSE (AI & Data Engineering), CSE (Bioinformatics), CSE (Cyber Security), CSE (Data Science), CSE and Business Systems, Electrical and Computer Science Engineering, Electronics and Communication Engineering, ECE (Biomedical Engineering), Electronics and Instrumentation Engineering, Electronics Engineering (VLSI Design and Technology), Information Technology, Mechanical Engineering, Mechanical Engineering (Electric Vehicles), Mechanical Engineering (Smart Manufacturing)"
+        },
+        "additional_costs": {
+          "hostel_fee": "Varies by accommodation type (AC/Non-AC, sharing)",
+          "mess_charges": "Separate, approximately ₹40,000-50,000 per year",
+          "total_cost_estimate": "₹8-10 Lakhs for 4 years including tuition, hostel, and mess"
+        },
+        "eligibility": "Passed 10+2 or equivalent with Physics, Chemistry, and Mathematics with minimum 60% aggregate (50% for SC/ST). Must qualify VITEEE with competitive scores.",
+        "admission": "Through VITEEE (VIT Engineering Entrance Examination), a computer-based online test. No caste/religion/state-based reservations - purely merit-based.",
+        "sources": "[web:275][web:278]"
+      },
+      "barch_programs": {
+        "title": "B.Arch (Bachelor of Architecture) Programs",
+        "details": {
+          "duration": "5 years",
+          "tuition_fee_per_year": "₹1,73,000",
+          "caution_deposit": "₹5,000 (refundable)",
+          "first_year_total": "₹1,78,000",
+          "eligibility": "10+2 with Physics, Chemistry, Mathematics with 60% + NATA qualification",
+          "admission": "Through NATA (National Aptitude Test in Architecture)",
+          "program_features": "Comprehensive architectural education covering design, planning, building technology, sustainable architecture"
+        },
+        "sources": "[web:278]"
+      },
+      "bsc_programs": {
+        "title": "B.Sc Programs (Bachelor of Science)",
+        "details": {
+          "bsc_multimedia": {
+            "duration": "3 years",
+            "tuition_fee_per_year": "₹1,08,000",
+            "caution_deposit": "₹3,000",
+            "first_year_total": "₹1,11,000"
+          },
+          "bsc_mathematics_computing": {
+            "tuition_fee_per_year": "₹1,16,000",
+            "caution_deposit": "₹3,000",
+            "first_year_total": "₹1,19,000"
+          }
+        },
+        "sources": "[web:278]"
+      },
+      "integrated_programs": {
+        "title": "Integrated M.Sc Programs",
+        "details": {
+          "duration": "5 years",
+          "tuition_fee_per_year": "₹1,23,000",
+          "caution_deposit": "₹3,000",
+          "first_year_total": "₹1,26,000",
+          "programs": "Integrated M.Sc. in Physics, Chemistry, Mathematics, and other sciences combining undergraduate and postgraduate education"
+        },
+        "sources": "[web:278]"
+      },
+      "mtech_programs": {
+        "title": "M.Tech Programs (Master of Technology)",
+        "details": {
+          "duration": "2 years (4 semesters)",
+          "fee_structure": "Varies by specialization (specific details on official website)",
+          "eligibility": "B.E./B.Tech or equivalent with minimum 60% + GATE/VIT internal test",
+          "admission": "Through GATE scores or VIT entrance examination",
+          "specializations": "30+ M.Tech programs across various engineering disciplines including VLSI, Embedded Systems, Structural Engineering, Data Science, AI & ML, Cyber Security, and specialized areas"
+        },
+        "sources": "[web:278]"
+      },
+      "mba_programs": {
+        "title": "MBA Programs (Master of Business Administration)",
+        "details": {
+          "duration": "2 years",
+          "fee_structure": "Available on official website",
+          "eligibility": "Bachelor's degree in any discipline with 60% + entrance exam (CAT/MAT/XAT/NMAT)",
+          "admission": "Based on entrance exam scores, GD, and PI",
+          "specializations": "Finance, Marketing, Human Resources, Operations, Business Analytics"
+        },
+        "sources": "[web:278]"
+      },
+      "mca_programs": {
+        "title": "MCA Programs (Master of Computer Applications)",
+        "details": {
+          "duration": "2 years",
+          "fee_structure": "Details on official website",
+          "eligibility": "Bachelor's degree with Mathematics + entrance exam",
+          "program": "Comprehensive computer applications education preparing students for IT industry"
+        },
+        "sources": "[web:278]"
+      },
+      "phd_programs": {
+        "title": "Ph.D. Programs (Doctor of Philosophy)",
+        "details": {
+          "duration": "3-5 years typically",
+          "fee_structure": "Nominal fees for research scholars",
+          "eligibility": "Master's degree in relevant discipline with minimum 60% + entrance test and interview",
+          "admission": "Through written test, interview, and research proposal evaluation. Must secure faculty supervisor.",
+          "research_areas": "Ph.D. programs across all disciplines including Engineering, Sciences, Management, and interdisciplinary areas",
+          "fellowship": "Selected full-time scholars receive monthly stipends/fellowships"
+        },
+        "sources": "[web:278]"
+      },
+      "scholarships": {
+        "title": "Scholarships and Fee Waivers",
+        "comprehensive_support": {
+          "viteee_based": "Top VITEEE scorers receive 100% tuition fee waiver for entire duration; High scorers get 75% fee waiver; Good scorers receive 50% waiver; Many students get 25% waiver",
+          "jee_main_based": "Students with high JEE Main percentiles eligible for scholarships ranging from 25-100% fee waiver",
+          "board_exam_based": "Students with 95%+ in 12th board exams eligible for merit scholarships",
+          "sports_quota": "State and national level athletes receive fee concessions",
+          "economically_weaker": "Need-based scholarships for students from economically disadvantaged backgrounds",
+          "continuing_scholarships": "Scholarships continued based on maintaining good CGPA",
+          "coverage": "Approximately 30-40% students receive some form of scholarship/fee waiver"
+        },
+        "sources": "[web:278]"
+      },
+      "fee_summary_table": {
+        "title": "Fee Structure Summary",
+        "programs_table": [
+          {
+            "Program": "B.Tech (Group A)",
+            "Duration": "4 years",
+            "Annual_Tuition": "₹1,73,000",
+            "Total_4_Years": "₹6.92 Lakhs",
+            "First_Year": "₹1,76,000",
+            "Eligibility": "10+2 with 60% + VITEEE"
+          },
+          {
+            "Program": "B.Tech (Group B - CSE/IT/ECE/Mech)",
+            "Duration": "4 years",
+            "Annual_Tuition": "₹1,95,000",
+            "Total_4_Years": "₹7.80 Lakhs",
+            "First_Year": "₹1,98,000",
+            "Eligibility": "10+2 with 60% + VITEEE"
+          },
+          {
+            "Program": "B.Arch",
+            "Duration": "5 years",
+            "Annual_Tuition": "₹1,73,000",
+            "Total_5_Years": "₹8.65 Lakhs",
+            "First_Year": "₹1,78,000",
+            "Eligibility": "10+2 + NATA"
+          },
+          {
+            "Program": "Integrated M.Sc.",
+            "Duration": "5 years",
+            "Annual_Tuition": "₹1,23,000",
+            "Total_5_Years": "₹6.15 Lakhs",
+            "First_Year": "₹1,26,000",
+            "Eligibility": "10+2 with 60%"
+          },
+          {
+            "Program": "B.Sc. (Multimedia)",
+            "Duration": "3 years",
+            "Annual_Tuition": "₹1,08,000",
+            "Total_3_Years": "₹3.24 Lakhs",
+            "First_Year": "₹1,11,000",
+            "Eligibility": "10+2"
+          }
+        ],
+        "note": "Hostel and mess charges additional (₹50,000-80,000 per year depending on accommodation). Scholarships available for 30-40% students (25-100% fee waiver). Fees subject to annual revision.",
+        "sources": "[web:275][web:278]"
+      }
+    }
+  },
+  "admissions": {
+    "word_count": "4000",
+    "content": {
+      "overview": {
+        "title": "Admissions Process Overview",
+        "description": "VIT Vellore conducts admissions to undergraduate engineering programs through VITEEE (VIT Engineering Entrance Examination), a computer-based online test. For B.Arch, admissions are through NATA. Postgraduate programs admit through GATE, CAT, or VIT internal tests. The process is purely merit-based with no caste, religion, or state-based reservations. VITEEE 2026 applications are expected to open in November 2025 with exam conducted in April-May 2026.",
+        "sources": "[web:276][web:279]"
+      },
+      "viteee_examination": {
+        "title": "VITEEE Examination Details",
+        "exam_structure": {
+          "full_form": "VIT Engineering Entrance Examination",
+          "mode": "Computer-based online test conducted in centers across India and abroad",
+          "duration": "2 hours 30 minutes (150 minutes)",
+          "total_questions": "125 questions",
+          "sections": "Physics (40 questions), Chemistry (40 questions), Mathematics/Biology (40 questions), English (5 questions), Aptitude (10 questions)",
+          "subject_choice": "Students choose either Mathematics or Biology based on 12th subjects and program preference",
+          "marking_scheme": "+1 mark for correct answer, 0 for incorrect/unattempted. Total marks: 125",
+          "difficulty_level": "Moderate to difficult, testing conceptual understanding and application",
+          "sessions": "Multiple sessions conducted over 5-6 days to accommodate large applicants",
+          "dates_2026": "VITEEE 2026: Expected April 28 - May 3, 2026",
+          "application_deadline": "Expected March 31, 2026",
+          "result": "Announced within 1-2 weeks of exam completion"
+        },
+        "sources": "[web:276][web:279]"
+      },
+      "viteee_eligibility": {
+        "title": "VITEEE Eligibility Criteria",
+        "requirements": {
+          "educational_qualification": "Passed 10+2 or equivalent with Physics, Chemistry, and Mathematics/Biology from recognized board",
+          "minimum_percentage": "Minimum 60% aggregate in PCM for B.Tech programs (50% for SC/ST candidates in 12th)",
+          "age_limit": "No specific age limit",
+          "attempts": "No restriction on number of attempts",
+          "subject_requirement": "Mathematics compulsory for most B.Tech programs except Biotechnology where Biology acceptable. PCB students can apply for B.Tech Biotechnology choosing Biology in VITEEE."
+        },
+        "sources": "[web:276][web:279]"
+      },
+      "admission_process": {
+        "title": "Step-by-Step Admission Process",
+        "detailed_steps": {
+          "step1_registration": "Visit VIT official website (viteee.vit.ac.in). Register with personal details, email, and mobile. Pay application fee online (approximately ₹1,150-1,350).",
+          "step2_application": "Fill online application form providing academic details (10th, 11th, 12th marks). Upload photograph and signature. Select preferred test cities (3-4 choices). Choose programs and campuses in order of preference.",
+          "step3_hall_ticket": "Download hall ticket/admit card 1-2 weeks before exam from website. Contains exam date, session time, center details, candidate information.",
+          "step4_viteee_exam": "Appear for VITEEE on allotted date and session. Report 30 minutes before exam with hall ticket and photo ID (Aadhaar/PAN/Passport). Complete computer-based test in 150 minutes.",
+          "step5_result": "Check result on official website using application number and password. Result shows rank in VITEEE (overall and category-wise if applicable).",
+          "step6_counselling": "VIT conducts counselling in multiple phases/iterations. Login to counselling portal, View seat availability across programs and campuses, Fill preferences (program + campus combinations), Submit choices, Wait for seat allotment based on rank and preferences.",
+          "step7_fee_payment": "After seat allotment, Pay counselling and first semester fees online within deadline (48-72 hours typically), Upload required documents for verification, Confirm seat acceptance.",
+          "step8_reporting": "Report to allotted campus on specified dates with original documents, Complete physical document verification, Receive hostel allotment and ID card, Begin academic session."
+        },
+        "sources": "[web:276][web:279]"
+      },
+      "viteee_cutoff_2025": {
+        "title": "VITEEE Cutoff Trends and Expected Ranks 2025",
+        "cutoff_analysis": {
+          "general_ai_cse": "CSE at Vellore: Last rank approximately 8,000-9,000 (most competitive)",
+          "general_ai_other_branches": "ECE/EEE/Mech/IT: Last ranks 15,000-40,000 depending on branch",
+          "obc_ai_cse": "CSE OBC category: Last rank approximately 8,006",
+          "rank_vs_marks": "118+ marks → Rank 1-250; 113-117 marks → Rank 251-500; 90-113 marks → Rank 501-2,500; 81-90 marks → Rank 2,501-5,000; 72-81 marks → Rank 5,001-6,500; 60-72 marks → Rank 6,501-8,500; 43-60 marks → Rank 8,501-11,000; 31-43 marks → Rank 14,001-20,000",
+          "factors_affecting": "Number of applicants, Seat availability in each program/campus, Exam difficulty level, Candidate preferences during counselling",
+          "campus_variation": "Vellore campus generally has lower cutoffs (more competitive) than Chennai/Amaravati/Bhopal campuses for same programs",
+          "category_variation": "General AI category most competitive. OBC/SC/ST categories have relaxed cutoffs (though VIT doesn't have reservations, some relaxation in minimum percentages)."
+        },
+        "sources": "[web:276][web:279]"
+      },
+      "campus_program_selection": {
+        "title": "Campus and Program Selection Strategy",
+        "guidance": {
+          "campus_comparison": "Vellore: Main campus, largest infrastructure, most programs, strongest placements, highest cutoffs. Chennai: Good infrastructure, located in Chennai (capital city), strong IT connections, moderate cutoffs. Amaravati/Bhopal: Newer campuses, developing infrastructure, slightly lower cutoffs.",
+          "program_priority": "CSE and related programs (AI, Data Science, Cyber Security) most competitive. ECE, IT next in demand. Mechanical, Electrical have higher cutoffs (more seats available). Civil, Chemical, Biotechnology relatively easier entry.",
+          "choice_filling": "Fill maximum choices (all possible program-campus combinations) to increase chances. List in true order of preference. Multiple iterations provide chances to upgrade if seats become available.",
+          "campus_vs_branch": "Generally, branch matters more than campus for placements. However, Vellore campus has slight advantage in top company placements."
+        },
+        "sources": "[web:276]"
+      },
+      "other_program_admissions": {
+        "title": "Admissions for Other Programs",
+        "barch_admission": "B.Arch through NATA (National Aptitude Test in Architecture). Apply separately through Council of Architecture website. Counselling based on NATA scores.",
+        "mtech_admission": "M.Tech through GATE scores or VIT entrance test. Application after GATE results. Selection based on GATE percentile, academic record, sometimes interview.",
+        "mba_admission": "MBA through CAT/MAT/XAT/NMAT scores. GD and PI conducted. Selection based on composite score of entrance exam, GD, PI, and academic record.",
+        "phd_admission": "Ph.D. through written test and interview. Research proposal evaluation. Must secure supervisor. Full-time and part-time options available.",
+        "sources": "[web:276]"
+      }
+    }
+  },
+  "placements": {
+    "word_count": "4000",
+    "content": {
+      "overview": {
+        "title": "Placements Overview",
+        "description": "VIT Vellore maintains excellent placement records with over 95% students placed annually. The institution attracts 600+ companies for campus recruitment offering roles across software development, data science, consulting, core engineering, analytics, and product management. Class of 2025 saw 409 recruiters making 10,458 offers with highest package of ₹100 LPA and 375+ marquee offers. TCS set a national record with 4,004 offers in one placement season.",
+        "sources": "[web:280][web:281][web:284]"
+      },
+      "placements_2025": {
+        "title": "Placements 2025 (Class of 2025) - Ongoing",
+        "statistics": {
+          "companies_visited": "409 recruiters participated (ongoing)",
+          "total_offers": "10,458 job offers made so far",
+          "highest_package": "₹100 LPA (INR 1 Crore)",
+          "marquee_offers": "375+ marquee offers from 30+ top companies",
+          "tcs_record": "TCS made 4,004 offers (national record)",
+          "status": "Placements ongoing for Class of 2025"
+        },
+        "sources": "[web:281][web:284]"
+      },
+      "placements_2024": {
+        "title": "Placements 2024 (Class of 2024) - Completed",
+        "statistics": {
+          "students_placed": "7,526 students placed",
+          "companies_visited": "867 companies participated",
+          "highest_package": "₹88 LPA",
+          "average_package": "₹9.90 LPA",
+          "top_offers": "17 students received offers exceeding ₹50 LPA",
+          "tcs_contribution": "10% of 9,000-strong batch placed by TCS alone"
+        },
+        "sources": "[web:281][web:287]"
+      },
+      "placements_2023": {
+        "title": "Placements 2023 (Class of 2023)",
+        "statistics": {
+          "students_placed": "8,938 students",
+          "companies_visited": "904 recruiters",
+          "highest_package": "₹1.02 Crore (102 LPA)",
+          "average_package": "₹9.23 LPA",
+          "total_offers": "14,345 offers",
+          "super_dream_offers": "4,461 super dream offers",
+          "dream_offers": "3,453 dream offers",
+          "regular_offers": "6,431 regular offers"
+        },
+        "sources": "[web:281][web:284]"
+      },
+      "placements_2022": {
+        "title": "Placements 2022 Comparison",
+        "statistics": {
+          "students_placed": "7,462 students",
+          "companies_visited": "863 companies",
+          "highest_package": "₹1.2 Crore",
+          "average_package": "₹8.19 LPA",
+          "super_dream_offers": "2,562",
+          "dream_offers": "2,907"
+        },
+        "sources": "[web:284]"
+      },
+      "top_recruiters": {
+        "title": "Top Recruiting Companies",
+        "leading_companies": {
+          "technology_giants": "Microsoft, Google, Amazon, Adobe, Oracle, Intel, Qualcomm, Samsung, Cisco, Dell, IBM, VMware, SAP, Salesforce, PayPal",
+          "product_companies": "Airbnb, Uber, Flipkart, Swiggy, Zomato, Paytm, PhonePe",
+          "it_services": "TCS, Infosys, Wipro, HCL, Tech Mahindra, Cognizant, Accenture, Capgemini",
+          "consulting_firms": "Deloitte, PwC, EY, KPMG, McKinsey (occasionally)",
+          "finance_trading": "De Shaw & Co, Goldman Sachs, JP Morgan, Morgan Stanley, Deutsche Bank",
+          "analytics_data": "Mu Sigma, Fractal Analytics, ZS Associates, Tiger Analytics, Dyte",
+          "core_engineering": "L&T, Ashok Leyland, Bosch, Siemens, ABB, Schneider Electric",
+          "startups": "Numerous startups and unicorns across sectors"
+        },
+        "sources": "[web:281][web:284][web:287]"
+      },
+      "job_roles": {
+        "title": "Job Roles and Career Paths",
+        "positions": "Software Development Engineer, Data Scientist, Full Stack Developer, Backend/Frontend Developer, DevOps Engineer, Machine Learning Engineer, Data Analyst, Business Analyst, Product Manager, Systems Engineer, Network Engineer, Cyber Security Analyst, VLSI Design Engineer, Embedded Systems Engineer, R&D Engineer, Process Engineer, Quality Engineer, Management Trainee, Consultant, and specialized roles across sectors",
+        "sources": "[web:281]"
+      },
+      "placement_trends": {
+        "title": "Placement Trends and Analysis",
+        "observations": "Placement rate consistently above 90-95%. Average packages showing steady growth (8.19 LPA in 2022 → 9.23 LPA in 2023 → 9.90 LPA in 2024). Highest packages fluctuate but remain competitive (₹1.02-1.2 Crore range). TCS remains largest recruiter, often placing 800-1,000+ students. Super dream and dream offers (packages above certain threshold) increasing. Over 60-70% placements in IT/Software sector. Growing demand for Data Science, AI/ML, and Cyber Security roles. Core engineering placements stable but IT offers dominate. Chennai/Vellore campuses typically have better placement statistics than newer campuses. CSE/IT students command highest average packages. Significant number of students pursue higher studies (MS abroad, MTech) instead of placements.",
+        "sources": "[web:281][web:284][web:287]"
+      },
+      "internship_programs": {
+        "title": "Summer Internships",
+        "importance": "Summer internships crucial for final placements. Many companies recruit interns and convert them to full-time employees. Internship stipends range from ₹10,000 to ₹1,00,000+ per month. Top companies like Google, Microsoft offer high-value internships. Pre-Placement Offers (PPOs) common from good internship performance. Students typically do internships after 3rd year (pre-final year summer).",
+        "sources": "[web:284]"
+      },
+      "sector_distribution": {
+        "title": "Sector-wise Distribution",
+        "sectors": "IT and Software: 60-70% (dominant sector). Core Engineering: 10-15%. Consulting and Analytics: 8-10%. Finance and Banking: 3-5%. FMCG and Retail: 2-3%. Startups: 3-5%. Higher Studies/Entrepreneurship: 5-10% opt out of placements. Distribution heavily skewed toward IT due to CSE/IT/ECE student dominance and IT sector's large hiring capacity.",
+        "sources": "[web:281][web:287]"
+      }
+    }
+  },
+  "rankings": {
+    "word_count": "2000",
+    "content": {
+      "overview": {
+        "title": "Rankings Overview",
+        "description": "VIT Vellore has achieved impressive rankings nationally and internationally, establishing itself as India's leading private engineering university. NIRF 2025 rankings show VIT at 16th among Engineering colleges with score of 65.25, making it the top private institution. Internationally, VIT ranks 791-800 in QS World Rankings 2025 and 142nd globally in Engineering & Technology.",
+        "sources": "[web:285][web:288]"
+      },
+      "nirf_2025": {
+        "title": "NIRF Rankings 2025",
+        "comprehensive_performance": {
+          "engineering_rank": "16th position (score 65.25)",
+          "university_rank": "14th position",
+          "research_rank": "14th position",
+          "overall_rank": "21st position",
+          "top_private": "Highest-ranked private engineering institution alongside BITS Pilani",
+          "significance": "VIT outranks several IITs and NITs in various categories"
+        },
+        "sources": "[web:285][web:288]"
+      },
+      "qs_rankings_2025": {
+        "title": "QS World University Rankings 2025",
+        "global_standing": {
+          "world_rank": "791-800 band",
+          "engineering_technology": "142nd globally in Engineering & Technology",
+          "computer_science": "110th globally in Computer Science and Information Systems",
+          "data_science_ai": "51-100 bracket in Data Science and AI",
+          "sustainability": "396th globally in QS Sustainability Ranking 2025"
+        },
+        "sources": "[web:288]"
+      },
+      "other_rankings": {
+        "title": "Other Global and National Rankings",
+        "additional_recognition": {
+          "shanghai_ranking": "501-600 band in Shanghai Ranking of World Universities 2024",
+          "naac": "A++ grade accreditation (highest level)",
+          "nba": "Accredited by National Board of Accreditation",
+          "ariia": "High rankings in ARIIA (Atal Ranking of Institutions on Innovation Achievements)",
+          "stanford_study": "76 VIT professors among Top 2% Scientists globally (Stanford University study 2024)"
+        },
+        "sources": "[web:288]"
+      },
+      "ranking_strengths": {
+        "title": "Key Strengths Contributing to Rankings",
+        "parameters": "Graduation Outcomes: Excellent placement record (95%+ placement rate, average package ₹9.90 LPA, highest ₹100 LPA); Research Output: 14th in NIRF Research category, 76 faculty in top 2% scientists globally; Teaching Resources: Large qualified faculty, modern infrastructure, extensive laboratories; Industry Linkages: 600+ companies recruit, strong industry partnerships; Innovation: FFCS system, research centers, patent filings; International Collaborations: Global partnerships, international student exchange; Perception: Strong brand value, alumni success, employer reputation",
+        "sources": "[web:285][web:288]"
+      },
+      "comparison_table": {
+        "title": "Ranking Comparison Summary",
+        "rankings_overview": [
+          {
+            "Ranking_System": "NIRF 2025 Engineering",
+            "Position": "16th nationally",
+            "Category": "Engineering",
+            "Status": "Top private institution"
+          },
+          {
+            "Ranking_System": "NIRF 2025 University",
+            "Position": "14th nationally",
+            "Category": "University",
+            "Status": "Among top universities"
+          },
+          {
+            "Ranking_System": "NIRF 2025 Research",
+            "Position": "14th nationally",
+            "Category": "Research",
+            "Status": "Strong research output"
+          },
+          {
+            "Ranking_System": "NIRF 2025 Overall",
+            "Position": "21st nationally",
+            "Category": "Overall",
+            "Status": "Top 25 institution"
+          },
+          {
+            "Ranking_System": "QS World 2025",
+            "Position": "791-800 globally",
+            "Category": "Global",
+            "Status": "Among world's top 800"
+          },
+          {
+            "Ranking_System": "QS Subject 2025 (Engg & Tech)",
+            "Position": "142nd globally",
+            "Category": "Engineering",
+            "Status": "Top 150 worldwide"
+          },
+          {
+            "Ranking_System": "QS Subject 2025 (CS)",
+            "Position": "110th globally",
+            "Category": "Computer Science",
+            "Status": "Top 120 worldwide"
+          },
+          {
+            "Ranking_System": "Shanghai Ranking 2024",
+            "Position": "501-600 globally",
+            "Category": "Global",
+            "Status": "Among top 600"
+          },
+          {
+            "Ranking_System": "QS Sustainability 2025",
+            "Position": "396th globally",
+            "Category": "Sustainability",
+            "Status": "Green initiatives"
+          }
+        ],
+        "sources": "[web:285][web:288]"
+      }
+    }
+  },
+  "facilities": {
+    "word_count": "4000",
+    "content": {
+      "overview": {
+        "title": "Campus Infrastructure and Facilities",
+        "description": "VIT Vellore's 372-acre campus provides world-class infrastructure supporting academic excellence, research, comfortable residential living, sports, healthcare, and holistic development. The campus features modern academic buildings, specialized laboratories, extensive library, 24 hostels accommodating 21,936 students, 20-acre sports complex, medical facilities, and comprehensive amenities creating a self-contained academic township.",
+        "sources": "[web:270][web:274][web:286]"
+      },
+      "library_facilities": {
+        "title": "Periyar Central Library - Learning Resource Center",
+        "comprehensive_library": {
+          "building": "Centrally air-conditioned building spanning 25,000 sq ft",
+          "books": "Over 40,000 books across disciplines",
+          "periodicals": "4,400 back volumes of scientific and technical periodicals",
+          "journals": "300+ specialized journal subscriptions",
+          "digital_resources": "Extensive e-journals, e-books, online databases",
+          "seating": "Large reading halls with comfortable seating",
+          "access": "24x7 access during examination periods",
+          "services": "Reference services, inter-library loan, digital resources training",
+          "ambiance": "One of the most peaceful places on campus for focused study"
+        },
+        "sources": "[web:274][web:289]"
+      },
+      "hostel_facilities": {
+        "title": "Residential Facilities and Hostel Life",
+        "comprehensive_accommodation": {
+          "total_capacity": "21,936 students accommodated",
+          "blocks": "24 hostel blocks (18 for boys, 6 for girls)",
+          "room_types": "AC and Non-AC options; Single, double, and triple sharing",
+          "furnishing": "Fully furnished rooms with bed, study table, chair, cupboard",
+          "internet": "Wi-Fi and LAN connectivity in all rooms (24x7 access)",
+          "mess": "Separate mess in each hostel with hygienic food, diverse menu catering to various dietary preferences (vegetarian/non-vegetarian, North Indian/South Indian)",
+          "common_facilities": "TV rooms, recreation areas, common rooms in each block",
+          "laundry": "Laundry services available",
+          "security": "24x7 security, CCTV surveillance, separate timings for girls hostels",
+          "amenities": "First aid center, pharmacy, photocopy service, convenience stores",
+          "maintenance": "Regular housekeeping and maintenance",
+          "hostel_culture": "Home away from home with festivals, events, and strong peer bonding"
+        },
+        "sources": "[web:286][web:289]"
+      },
+      "sports_facilities": {
+        "title": "Sports Complex and Athletic Infrastructure",
+        "extensive_sports": {
+          "area": "Sports facilities spread over 20 acres",
+          "outdoor_stadium": "400-meter athletics track with seating for 2,000 spectators in covered stand",
+          "swimming_pools": "Separate swimming pools for boys and girls hostels",
+          "cricket_ground": "Full-sized cricket ground",
+          "football_field": "Football field meeting regulation standards",
+          "tennis_courts": "Multiple tennis courts",
+          "basketball_courts": "Several basketball courts",
+          "volleyball_courts": "Volleyball courts for practice and matches",
+          "badminton": "Indoor badminton courts",
+          "gymnasium": "Free and paid gym facilities with modern equipment",
+          "table_tennis": "Table tennis facilities",
+          "other_sports": "Facilities for hockey, athletics, squash, and other sports",
+          "coaching": "Professional coaching available for various sports",
+          "events": "Regular intra-campus tournaments, inter-college competitions"
+        },
+        "sources": "[web:274][web:286][web:289]"
+      },
+      "laboratory_facilities": {
+        "title": "Laboratories and Research Facilities",
+        "state_of_art_labs": {
+          "engineering_labs": "Modern laboratories for all engineering disciplines with latest equipment",
+          "computer_centers": "55 servers and 1,000+ computers across campus",
+          "physics_labs": "Well-equipped physics laboratories with experimental setups for various experiments including prisms and specialized equipment",
+          "chemistry_labs": "Advanced chemistry laboratories for organic, inorganic, and physical chemistry experiments",
+          "biotechnology_labs": "Microbiology, Genetic Engineering, Cancer Biology Research Labs, Microscopy Room, Animal Cell Culture Teaching Lab",
+          "civil_labs": "Environmental Engineering Lab, Structural Engineering facilities",
+          "electrical_labs": "Electrical Machines Lab, Power Electronics facilities",
+          "electronics_labs": "VLSI Lab, Embedded Systems Lab, Communication Systems Lab, Wireless Communication Lab, Analog and Digital Electronics Lab",
+          "mechanical_labs": "Fluid Flow Lab, Heat Transfer Lab, Mass Transfer Lab, Computer Aided Design Lab",
+          "specialized_centers": "13 research centers with specialized equipment for cutting-edge research"
+        },
+        "sources": "[web:266][web:274][web:286]"
+      },
+      "academic_infrastructure": {
+        "title": "Academic Buildings and Classrooms",
+        "teaching_facilities": {
+          "classrooms": "Modern classrooms with projectors, smart boards, and air-conditioning",
+          "smart_classrooms": "Technology-enabled interactive learning spaces",
+          "seminar_halls": "Well-maintained seminar rooms for discussions and presentations",
+          "lecture_halls": "Large lecture halls with tiered seating and audio-visual aids",
+          "auditoriums": "Multiple auditoriums for events, conferences, and guest lectures",
+          "departmental_buildings": "Separate buildings for each school/department with dedicated facilities"
+        },
+        "sources": "[web:270][web:286]"
+      },
+      "internet_connectivity": {
+        "title": "IT Infrastructure and Internet",
+        "digital_infrastructure": {
+          "dedicated_lines": "65 Mbps and 2 Mbps leased line connectivity through VSNL and Dishnet DSL",
+          "wifi_coverage": "Wi-Fi available across campus and hostels",
+          "email": "Email accounts for all students and staff",
+          "computer_centers": "55 servers and 1,000+ computers providing global information access",
+          "online_portal": "VTOP (VIT Online Portal) for course registration, academics, announcements, results",
+          "speed_note": "Internet speed can be slow in hostel areas during peak hours due to large user base"
+        },
+        "sources": "[web:274][web:289]"
+      },
+      "medical_facilities": {
+        "title": "Healthcare Infrastructure",
+        "health_services": {
+          "health_center": "Well-equipped health center on campus",
+          "medical_staff": "Qualified medical professionals including doctors and nurses",
+          "wards": "Separate wards for male and female students",
+          "services": "24x7 emergency services, outpatient facilities, basic treatments",
+          "pharmacy": "Pharmacy within campus for medications",
+          "ambulance": "Ambulance services for emergencies",
+          "referral": "Tie-ups with nearby hospitals for specialized treatments (CMC Vellore nearby for major cases)"
+        },
+        "sources": "[web:274][web:286]"
+      },
+      "dining_facilities": {
+        "title": "Food and Dining Options",
+        "comprehensive_dining": {
+          "hostel_mess": "Separate mess in each hostel serving three meals daily",
+          "menu_variety": "Diverse menu with North Indian, South Indian, vegetarian, and non-vegetarian options",
+          "food_courts": "Multiple food courts across campus",
+          "cafeterias": "Several cafeterias and canteens",
+          "convenience_stores": "Stores selling snacks and beverages",
+          "cuisine_variety": "Various cuisines available catering to diverse student population",
+          "hygiene": "Maintained hygiene standards with regular inspections"
+        },
+        "sources": "[web:286]"
+      },
+      "other_amenities": {
+        "title": "Additional Campus Amenities",
+        "comprehensive_services": {
+          "banks_atms": "Bank branches and multiple ATMs on campus",
+          "post_office": "Post office for mail services",
+          "salons": "Beauty salon and barbershop",
+          "tailoring": "Tailoring unit for clothing alterations",
+          "photocopy": "Photocopying and printing services",
+          "stationery": "Stationery shops",
+          "convenience_stores": "Multiple stores for daily necessities",
+          "transportation": "Campus shuttle services, connectivity to Vellore city",
+          "green_campus": "Extensive greenery and landscaping, clean and well-maintained environment"
+        },
+        "sources": "[web:286]"
+      },
+      "infrastructure_reviews": {
+        "title": "Student Reviews on Infrastructure",
+        "feedback": "Students consistently praise VIT's infrastructure as world-class matching global standards. Highlights include huge, clean, green campus; modern air-conditioned classrooms with smart boards; excellent Periyar Central Library (24x7 during exams); state-of-the-art laboratories especially for engineering and biotech; good hostel facilities with various accommodation options; diverse food options in mess and food courts; Wi-Fi across campus though sometimes slow in hostels; well-maintained sports facilities with free and paid gym; overall clean and well-maintained campus environment. Minor concerns include Wi-Fi speed during peak hours, occasional maintenance issues in older hostel blocks, and restrictions on overnight library access (not allowed).",
+        "sources": "[web:289]"
+      }
+    }
+  },
+  "faculty": {
+    "word_count": "6000",
+    "content": {
+      "overview": {
+        "title": "Faculty Overview",
+        "description": "VIT Vellore has approximately 1,000+ faculty members across all campuses with around 400-500 at Vellore campus. The faculty comprises professors, associate professors, and assistant professors with Ph.D. degrees from premier Indian and international institutions. 76 VIT professors are among the Top 2% Scientists in the world according to Stanford University study 2024, demonstrating faculty research excellence.",
+        "sources": "[web:288]"
+      },
+      "faculty_qualifications": {
+        "title": "Faculty Qualifications and Credentials",
+        "credentials": {
+          "phd_holders": "Majority of faculty hold Ph.D. degrees from IITs, IISc, BITS, top NITs, and international universities",
+          "international_exposure": "Many faculty have postdoctoral experience or degrees from USA, UK, Europe, Australia universities",
+          "industry_experience": "Significant number have prior industry experience before joining academia",
+          "research_active": "76 professors in Top 2% Scientists globally (Stanford study 2024)",
+          "publications": "Faculty actively publish in top-tier journals and conferences",
+          "patents": "Several faculty members have filed patents for innovations"
+        },
+        "sources": "[web:288]"
+      },
+      "teaching_quality": {
+        "title": "Teaching Quality and Student Feedback",
+        "evaluation": {
+          "ffcs_advantage": "Fully Flexible Credit System allows students to choose faculty, creating de facto faculty rating system where popular faculty get filled quickly",
+          "mixed_reviews": "Student feedback mixed - some faculty are excellent teachers while others focus more on research",
+          "course_delivery": "Use of modern teaching aids (projectors, smart boards), some courses taught well, others require self-study",
+          "accessibility": "Faculty generally accessible during office hours for doubt clarification",
+          "student_rating": "Students rate faculty through internal feedback systems; ratings influence student choices during registration",
+          "improvement_scope": "Some students feel teaching quality could be better, reliance on self-learning high in some courses"
+        },
+        "sources": "General student feedback patterns"
+      },
+      "research_excellence": {
+        "title": "Faculty Research and Publications",
+        "research_output": {
+          "top_scientists": "76 professors among Top 2% Scientists globally (Stanford University 2024 study)",
+          "publications": "Thousands of research papers in international journals and conferences",
+          "research_funding": "Faculty secure grants from DST, DRDO, DBT, CSIR, and industry",
+          "patents": "Numerous patents filed and granted",
+          "h_index": "Many faculty have high h-index indicating citation impact",
+          "collaborations": "Research collaborations with international universities and industry"
+        },
+        "sources": "[web:288]"
+      },
+      "departmental_faculty": {
+        "title": "School/Department-wise Faculty Distribution",
+        "distribution": {
+          "scope": "School of Computer Science and Engineering: Large faculty strength covering AI, ML, Data Science, Cyber Security, Software Engineering",
+          "select": "School of Electronics Engineering: Faculty in ECE, VLSI, Embedded Systems, Communication",
+          "sense": "School of Electrical Engineering: Power systems, control, instrumentation faculty",
+          "smec": "School of Mechanical Engineering: Thermal, design, manufacturing, automobile experts",
+          "sbst": "School of Bio-Sciences and Technology: Biotechnology, bioinformatics, life sciences faculty",
+          "sce": "School of Civil Engineering: Structural, environmental, geotechnical, transportation faculty",
+          "sas": "School of Advanced Sciences: Physics, Chemistry, Mathematics faculty providing foundational education",
+          "ssl": "School of Social Sciences and Languages: Humanities, management, economics, language faculty"
+        },
+        "sources": "Institutional structure"
+      },
+      "faculty_development": {
+        "title": "Faculty Development and Support",
+        "support_systems": {
+          "recruitment": "VIT recruits faculty through rigorous selection process evaluating academic credentials, research output, teaching ability",
+          "orientation": "New faculty undergo orientation programs familiarizing them with VIT systems and pedagogy",
+          "training": "Regular training on latest teaching technologies, pedagogical methods",
+          "conferences": "Support for attending/presenting at conferences",
+          "research_support": "Seed grants, lab facilities, collaborative opportunities",
+          "sabbatical": "Provisions for sabbatical leave for advanced research/studies",
+          "promotions": "Clear promotion criteria based on teaching, research, and service"
+        },
+        "sources": "General institutional practices"
+      },
+      "faculty_student_ratio": {
+        "title": "Faculty-Student Ratio",
+        "ratio": "With approximately 400-500 faculty at Vellore campus and around 15,000-18,000 students, faculty-student ratio is approximately 1:30-40, which is reasonable for engineering institutions. Ratio varies by department - some departments like CSE have larger faculty due to higher student numbers. The FFCS system with multiple sections helps manage large student numbers while providing choice.",
+        "sources": "Derived from student and faculty numbers"
+      },
+      "industry_engagement
+
+[1](https://vit.ac.in/about/infrastructure)
+[2](https://vit.ac.in/about-vit)
+[3](https://en.wikipedia.org/wiki/Vellore_Institute_of_Technology)
+[4](https://vit.ac.in)
+[5](https://educationworld.in/vellore-institute-of-technology-vit/)
+[6](https://www.collegedekho.com/news/vit-vellore-fee-structure-2025-course-wise-65289/)
+[7](https://www.shiksha.com/university/vit-vellore-29714/cutoff)
+[8](https://www.collegesearch.in/articles/vit-campus-vellore-facilities-hostel-life-infrastructure-2025-uni)
+[9](https://vit.ac.in/admission/ug/fee-structure)
+[10](https://engineering.careers360.com/articles/viteee-cutoff)
+[11](https://vit.ac.in/cdc-tracker)
+[12](https://www.shiksha.com/university/vit-vellore-29714/placement)
+[13](https://www.vedantu.com/university/vit-vellore-placement)
+[14](https://www.careers360.com/university/vellore-institute-of-technology-vellore/placement)
+[15](https://www.pagalguy.com/colleges/vit-university-vellore/placements)
+[16](https://engineering.careers360.com/articles/vit-vellore-nirf-ranking)
+[17](https://www.collegedekho.com/colleges/vellore-institute-of-technology-campus)
+[18](https://www.collegesearch.in/articles/vit-vellore-cse-average-package-uni)
+[19](https://vit.ac.in/ranking-and-recognition)
+[20](https://www.careers360.com/university/vellore-institute-of-technology-vellore/facilities)

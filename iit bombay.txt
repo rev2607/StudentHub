@@ -1,0 +1,442 @@
+```json
+{
+  "college_name": "Indian Institute of Technology Bombay (IIT Bombay)",
+  "overview": {
+    "word_count": "12000",
+    "content": {
+      "introduction": {
+        "title": "About IIT Bombay",
+        "description": "The Indian Institute of Technology Bombay, established in 1958, stands as India's second IIT and one of the most prestigious institutions of higher technical education globally. Located in Powai, Mumbai, spanning over 550 acres of lush green campus beside the scenic Powai Lake and surrounded by hills, IIT Bombay represents excellence in engineering education, research, and innovation. The institute was founded through a unique Indo-Soviet collaboration, marking a significant milestone in India's post-independence journey toward technological advancement. IIT Bombay has consistently maintained top rankings nationally and internationally, securing the third position in NIRF Overall and Engineering categories in 2024, and ranking 149th globally in QS World University Rankings 2024. With approximately 17 academic departments, 35 research centers, and three specialized schools, the institute serves as a comprehensive ecosystem for technical education and cutting-edge research. Home to over 10,000 students, 550+ distinguished faculty members, and 1,200+ administrative staff, IIT Bombay creates a vibrant academic community dedicated to excellence, innovation, and nation-building.",
+        "sources": "[web:38][web:42][web:45][web:53]"
+      },
+      "historical_background": {
+        "title": "Foundation and Historical Development",
+        "establishment": "IIT Bombay's genesis traces back to 1958 when it was established as the second Indian Institute of Technology in India, following IIT Kharagpur. The institute's foundation was made possible through a historic collaborative agreement between the Government of India and the Soviet Union, representing one of the most significant international educational partnerships of that era. This Indo-Soviet collaboration brought crucial support including sophisticated equipment, technical expertise, and financial assistance during the institute's formative years. The partnership symbolized India's commitment to building world-class technological institutions with international cooperation. The first academic session commenced in 1958 with 100 students across various engineering disciplines, marking the beginning of a journey that would transform Indian technical education. The Soviet Union's contribution extended beyond financial support, providing faculty expertise, laboratory equipment, and establishing foundational infrastructure that enabled IIT Bombay to achieve academic excellence from its inception.",
+        "sources": "[web:42][web:45]"
+      },
+      "campus_development": {
+        "title": "Campus Growth and Infrastructure Evolution",
+        "campus_transformation": "The permanent campus was constructed in Powai, Mumbai, covering approximately 550 acres of pristine land. The foundation stone was laid by Pandit Jawaharlal Nehru, India's first Prime Minister, on March 10, 1959, symbolizing the nation's commitment to technological advancement. The campus location beside Powai Lake and surrounded by hills creates a picturesque and serene environment conducive to academic pursuits and research activities. Often referred to as a 'green lung' within the bustling metropolis of Mumbai, the campus is characterized by its unique blend of modern architecture and natural beauty. The evolution of IIT Bombay campus from 1970 to 2003 showcases remarkable growth from humble beginnings to a sprawling technological hub. The campus houses state-of-the-art facilities alongside lush gardens and natural landscape, creating an ideal setting for holistic education. The verdant expanse provides students and faculty with a peaceful retreat from urban chaos while maintaining connectivity to Mumbai's economic and industrial centers. The campus is nearly self-contained, housing academic buildings, research laboratories, residential facilities for students and faculty, recreational amenities, healthcare centers, shopping areas, schools, and cultural spaces.",
+        "sources": "[web:39][web:40][web:42][web:45]"
+      },
+      "academic_structure": {
+        "title": "Academic Departments and Organizational Framework",
+        "departments": "IIT Bombay has a comprehensive academic structure comprising 17 academic departments covering diverse disciplines of engineering, pure sciences, design, humanities, and management. The major departments include Aerospace Engineering, Chemical Engineering, Chemistry, Civil Engineering, Computer Science and Engineering, Earth Sciences, Electrical Engineering, Energy Science and Engineering, Humanities and Social Sciences, Mathematics, Mechanical Engineering, Metallurgical Engineering and Materials Science, and Physics. Additionally, the institute operates three specialized schools including the School of Management (SOM), the Interdisciplinary Programme in Design (IDC), and the Kanwal Rekhi School of Information Technology (KRESIT). Beyond core departments, IIT Bombay has established over 35 research centers and Centers of Excellence (CoEs) focusing on specialized areas such as healthcare informatics, green energy, artificial intelligence, electric mobility, digital trust, and sustainable technologies. These centers drive advancements in critical areas addressing national priorities and global challenges. The organizational framework facilitates interdisciplinary collaboration, enabling faculty and students from different departments to work together on complex research problems.",
+        "sources": "[web:41][web:68]"
+      },
+      "research_ecosystem": {
+        "title": "Research Excellence and Innovation Culture",
+        "research_infrastructure": "IIT Bombay has established itself as a premier research institution with sophisticated state-of-the-art laboratories, advanced instrumentation facilities, and dedicated research centers. The institute maintains several Centers of Excellence (CoEs) driving research in healthcare informatics, renewable energy, artificial intelligence, electric mobility, and digital trust technologies. The Industrial Research and Consultancy Centre (IRCC) serves as the interface for research collaborations and consultancy projects, connecting industry needs with cutting-edge academic research and fostering impactful solutions across sectors. Faculty members actively engage in fundamental research, applied research, and interdisciplinary investigations addressing complex societal challenges. Research areas span artificial intelligence and machine learning, robotics and automation, nanotechnology and materials science, sustainable energy systems, aerospace technologies, biomedical engineering, computational mechanics, data science and analytics, environmental engineering, and numerous other cutting-edge domains. The institute encourages collaborative research with national and international institutions, industry partners, and government organizations.",
+        "sources": "[web:60][web:68]"
+      },
+      "innovation_entrepreneurship": {
+        "title": "Innovation and Entrepreneurship Ecosystem",
+        "sine_organization": "The Society for Innovation and Entrepreneurship (SINE), established in 2004, serves as IIT Bombay's technology business incubator and umbrella organization for fostering entrepreneurship and nurturing technology-based startups. SINE has gained recognition as one of the pioneers of the startup incubation ecosystem in India, supporting close to 1,000 innovators and over 200 startups since inception. SINE provides comprehensive 'Start to Scale' support for technology startups including physical infrastructure (office space and laboratory facilities), mentoring support from industry experts and successful entrepreneurs, facilitation of access to seed and early-stage funding, connections with corporate and industry networks, and access to professional service providers. The organization has been selected as a Centre of Excellence by the Department of Science and Technology (DST), Government of India. Additionally, DST has selected SINE as an implementation partner to run its nationwide program for funding innovators for prototyping their ideas. SINE has established a BIO-Incubator (BioNest) to encourage MedTech entrepreneurs under BIRAC and Department of Biotechnology (DBT) support. The Ministry of Electronics and Information Technology (MeitY) also supports SINE's initiatives. IIT Bombay's Institute of Eminence (IoE) has earmarked Rs. 10 crore to support seed funding for incubation and startup activities channelized through SINE, demonstrating institutional commitment to entrepreneurship.",
+        "sources": "[web:68][web:69][web:70][web:72]"
+      },
+      "entrepreneurship_cell": {
+        "title": "Student Entrepreneurship Initiatives",
+        "ecell_activities": "The Entrepreneurship Cell (E-Cell) is a vibrant student-run entrepreneurship-promoting body at IIT Bombay that nurtures entrepreneurial aspirations among students. E-Cell organizes workshops, lectures, competitions, and networking events that guide students in exploring and building successful ventures. The cell creates awareness about entrepreneurship as a viable career option, provides platforms for students to interact with successful entrepreneurs, and facilitates access to mentorship and resources. E-Cell's flagship events attract participants from across India, creating networking opportunities and exposing students to real-world business challenges. The organization works in synergy with SINE and other institutional bodies to create a comprehensive entrepreneurship ecosystem supporting student innovators from ideation to commercialization stages.",
+        "sources": "[web:68]"
+      },
+      "international_collaborations": {
+        "title": "Global Partnerships and International Engagement",
+        "strategic_partnerships": "IIT Bombay has steadily expanded its global footprint through strategic partnerships, international centers, and Memoranda of Understanding (MoU) with leading universities and organizations worldwide. The institute is establishing its first international center abroad in collaboration with Japan's Tohoku University, starting with joint PhD programmes and later hosting MTech courses. In August 2025, IIT Bombay signed an MoU with Rolls-Royce for collaborative innovation, internships, and knowledge sharing focusing on high-end engineering, technology leadership, and industry-relevant research. A strategic partnership with John Cockerill, a Belgium-based engineering and industrial group, drives research in steel decarbonization, green hydrogen value chain, and defense product development. IIT Bombay and IE University, Segovia, Spain, have entered a comprehensive partnership covering student and faculty exchanges, joint research initiatives, executive education, and innovation programs. The collaboration with Monash University through Monash Innovation Labs and SINE aims to boost innovation and startup growth. A tripartite MoU involving IIT Bombay, IIT Bhubaneswar, and iVP Semi focuses on designing high-performance silicon power MOSFETs for electric vehicles and renewable energy applications. The institute frequently welcomes international delegations from over 20 countries to showcase research in AI, data science, machine learning, and related areas, creating awareness and mutual research opportunities.",
+        "sources": "[web:73][web:75][web:76]"
+      },
+      "academic_excellence": {
+        "title": "Teaching Methodology and Academic Rigor",
+        "pedagogy": "IIT Bombay follows a rigorous academic curriculum that balances theoretical foundations with practical applications and research exposure. The teaching methodology emphasizes conceptual understanding, analytical thinking, problem-solving skills, and real-world application. Faculty members, many of whom are globally recognized researchers and award winners, employ diverse pedagogical approaches including lectures, tutorials, laboratory sessions, project-based learning, case studies, and industry collaborations. The curriculum is continuously updated to incorporate latest research developments and industry requirements. Assessment is conducted through multiple modes including frequent quizzes, assignments, mid-semester examinations, end-semester examinations, projects, and presentations ensuring continuous evaluation and comprehensive understanding. Students are expected to think about real-life problems and their solutions rather than merely memorizing textbooks. The academic setup develops analytical capabilities, critical thinking, and problem-solving skills essential for professional success. Professors are known for their expertise, clarity in concept delivery, approachability, and student-friendly teaching style. The quality of teaching is consistently rated highly by students and alumni, with faculty members praised for their knowledge, research contributions, and ability to explain complex concepts effectively.",
+        "sources": "[web:63][web:66]"
+      },
+      "student_life": {
+        "title": "Campus Life and Student Experience",
+        "campus_culture": "Campus life at IIT Bombay is exceptionally vibrant and enriching, characterized by diverse student population, numerous extracurricular activities, cultural events, technical festivals, and sports competitions. The institute hosts Mood Indigo, recognized as the largest college cultural festival in Asia, attracting participants from institutions nationwide and internationally. Technical and entrepreneurship events organized by various student bodies provide platforms for innovation, learning, and networking. Students can join numerous clubs and student organizations ranging from robotics, coding, and technical domains to photography, music, dance, drama, literature, and social service. The campus provides 24x7 WiFi connectivity, ensuring students remain connected to digital resources and global information networks. Recreational facilities include gymnasiums, swimming pools, courts for tennis, basketball, volleyball, hockey, football, cricket, athletics tracks, and indoor game facilities. The Student Activity Centre (SAC) serves as a hub for cultural and recreational activities. The campus environment fosters friendships, collaborative learning, leadership development, and holistic personality development. Students benefit from exposure to diverse perspectives, ideas, and cultures through interactions with peers from all over India and abroad.",
+        "sources": "[web:54][web:57][web:63]"
+      },
+      "infrastructure_facilities": {
+        "title": "Infrastructure and Campus Facilities",
+        "modern_amenities": "IIT Bombay's infrastructure is designed to support academic excellence, research innovation, and comfortable living. The campus features hi-tech classrooms equipped with modern teaching aids, sophisticated state-of-the-art laboratories with advanced equipment, and dedicated research facilities. The Central Library, among the finest IIT libraries in the country, houses an extensive collection of over 240,000 books, 118,925 journals, and a wealth of digital resources, reading materials, and reference publications accessible to students, faculty, and staff. The library offers photocopying services, digital access, and comfortable reading spaces. The campus includes 17-18 hostels catering to male and female students with amenities such as internet access, indoor games, sports facilities, mess services, and semi-furnished rooms. IIT Bombay maintains its own dedicated hospital with an outpatient department (OPD), qualified medical specialists, well-equipped facilities providing comprehensive medical services, and 24x7 ambulance service for emergencies. Additional campus facilities include banks, post office, printing press, IIT Market for shopping, staff club, Kendriya Vidyalaya school for children, campus school, convocation hall, IDC auditorium, women cell, Hindi cell, and comprehensive security systems ensuring safe environment.",
+        "sources": "[web:54][web:57]"
+      },
+      "hostel_facilities": {
+        "title": "Hostel Accommodation and Residential Life",
+        "residential_amenities": "IIT Bombay hostel facilities are well-known for their advanced amenities and vibrant hostel life. The institute has a total of 17-18 hostels providing accommodation to undergraduate, postgraduate, and doctoral students. Each hostel is equipped with essential amenities including internet connectivity, common rooms, recreation rooms with television, indoor game facilities, mess providing nutritious meals, water purifiers, laundry services, and 24x7 security and surveillance systems. Students are accommodated in semi-furnished rooms, typically shared by two or more students, fostering camaraderie and collaborative learning. Hostel life plays a crucial role in overall student development, providing opportunities for interpersonal interactions, cultural exchanges, and formation of lifelong friendships. Each hostel has its own identity, culture, and traditions contributing to the diverse campus ecosystem. Hostel committees comprising student representatives organize cultural events, sports competitions, and social activities enhancing community bonding.",
+        "sources": "[web:54][web:57][web:63]"
+      },
+      "rankings_recognition": {
+        "title": "National and International Rankings",
+        "achievements": "IIT Bombay has achieved remarkable success in national and international rankings, establishing its reputation as one of the world's leading technological universities. In NIRF Rankings 2024, IIT Bombay secured the 3rd position in both Overall and Engineering categories, maintaining its position among the top three institutions in India. The institute climbed one rank in the Overall category compared to 2023, demonstrating continuous improvement. In the Management category, IIT Bombay achieved 10th position in NIRF 2024. In Business & Management Studies, the institute secured 3rd position in NIRF 2025. In the QS World University Rankings 2024, IIT Bombay was ranked 149th globally, climbing 23 ranks from the previous year, marking the second consecutive year of improvement. The institute achieved 40th position in QS Asia Rankings 2024 and secured the number 1 position in QS Southern Asia Rankings 2024 for the second consecutive year. These rankings reflect the institute's excellence across multiple parameters including teaching quality, research output, graduation outcomes, industry engagement, internationalization, and overall reputation. IIT Bombay's consistent top rankings confirm its status as one of India's premier educational institutions.",
+        "sources": "[web:53][web:56]"
+      },
+      "library_resources": {
+        "title": "Library and Information Resources",
+        "library_facilities": "The Central Library at IIT Bombay is among the finest academic libraries in India, providing comprehensive information resources supporting teaching, learning, and research activities. The library houses an extensive collection of over 240,000 books covering engineering, technology, sciences, management, humanities, social sciences, and interdisciplinary areas. Additionally, the library provides access to 118,925 journals including print and electronic subscriptions, research publications, conference proceedings, technical reports, theses, dissertations, and e-books. Digital resources include subscriptions to major international databases, digital libraries, and online learning platforms. The library infrastructure includes spacious reading halls, reference sections, digital resource centers, computer terminals, photocopying services, and comfortable study spaces. Library staff provides assistance in information retrieval, research support, and training on database usage. The library operates with extended hours during examination periods to accommodate student needs. Modern library management systems enable online catalog search, reservation of books, and access to digital resources from anywhere on campus.",
+        "sources": "[web:54][web:57]"
+      },
+      "sports_recreation": {
+        "title": "Sports and Recreational Facilities",
+        "sports_infrastructure": "IIT Bombay provides excellent recreational facilities for sports and physical fitness, recognizing the importance of holistic development. The campus features multiple sports facilities including gymnasiums equipped with modern fitness equipment, a swimming pool, and courts for tennis, basketball, volleyball, hockey, football, cricket, badminton, squash, and other sports. Athletics tracks support running and field events. Both indoor and outdoor sports facilities are available to students, faculty, and staff. The Gymkhana manages sports activities, competitions, and training programs. Students can participate in inter-IIT sports meets, compete in various tournaments, and represent the institute at national and international levels. Sports clubs and teams provide opportunities for regular practice, coaching, and skill development. The institute encourages participation in sports as part of overall personality development and stress management. Recreational activities including yoga, meditation, and fitness programs are regularly organized.",
+        "sources": "[web:54][web:57][web:63]"
+      },
+      "alumni_network": {
+        "title": "Alumni Relations and Global Network",
+        "alumni_contributions": "IIT Bombay has produced a distinguished list of alumni who have made significant contributions in various fields including science, technology, business, entrepreneurship, academia, and public service. Alumni serve as leaders in major corporations, founders of successful startups, renowned researchers, policymakers, and innovators globally. The Development and Relations Foundation (DRF), a not-for-profit unit under the Dean of Alumni and Corporate Relations (ACR) office, plays a vital role in fostering lasting relationships with alumni, corporations, and foundations. DRF supports fundraising efforts, manages donor programs, and ensures transparent reporting of alumni donations and impact-driven initiatives. Alumni contribute to the institute through mentorship programs, guest lectures, industry collaborations, internship opportunities, placement support, and philanthropic donations. The strong alumni network provides current students with career guidance, networking opportunities, and insights into industry trends. Alumni chapters worldwide organize events, reunions, and networking sessions maintaining connections with the alma mater.",
+        "sources": "[web:68]"
+      },
+      "research_areas": {
+        "title": "Key Research Focus Areas",
+        "domains": "Research at IIT Bombay spans a wide spectrum of cutting-edge domains addressing fundamental scientific questions and practical societal challenges. Key research areas include Artificial Intelligence and Machine Learning covering deep learning, natural language processing, computer vision, and intelligent systems; Computing Systems including operating systems, databases, networks, and cloud computing; Theoretical Computer Science encompassing algorithms, complexity theory, and formal methods. Energy research focuses on solar thermal energy, power cycles and polygeneration plants, refrigeration and heat pump systems, concentrating solar technologies with thermal energy storage, renewable energy technologies for industrial decarbonization, and understanding energy transition pathways through systems approach. Materials science research includes perovskite solar cells, transparent conducting oxides, atomic layer deposition, polymer blends, polymer nanocomposites, and advanced materials. Faculty members conduct research in high-dimensional statistics, change point analysis, stochastic networks, time series analysis, free probability, and random matrix theory in mathematics. Economics research covers macroeconomics, industrial organization, behavioral and experimental economics, health economics, financial economics, and development economics.",
+        "sources": "[web:60][web:61][web:62][web:65]"
+      },
+      "faculty_expertise": {
+        "title": "Faculty Excellence and Research Leadership",
+        "faculty_profile": "IIT Bombay boasts of having over 550 distinguished faculty members who are highly educated, skilled, and many of whom are globally recognized for their research contributions. Faculty members hold doctoral degrees from premier institutions worldwide and possess extensive research experience. Many professors have received prestigious awards including fellowships from national and international academies of science and engineering, best paper awards, and recognition for outstanding contributions to their respective fields. Faculty members are known for their punctuality, dedication to teaching, research excellence, and student mentorship. They motivate students at every point, provide guidance on academic and career matters, and create supportive learning environments. The faculty conducts cutting-edge research attracting significant funding from government agencies, industry partners, and international organizations. Research groups led by faculty members publish in top-tier international journals, present at prestigious conferences, and collaborate with leading researchers globally. Faculty members also serve as consultants to industry and government, contributing expertise to solve real-world problems.",
+        "sources": "[web:58][web:59][web:60][web:61][web:62][web:63][web:65]"
+      },
+      "industry_connect": {
+        "title": "Industry Engagement and Collaborations",
+        "corporate_partnerships": "IIT Bombay maintains strong connections with industry through multiple channels including research collaborations, consultancy projects, internships, placements, sponsored research, and technology transfer. The Industrial Research and Consultancy Centre (IRCC) serves as the primary interface connecting industry needs with academic research capabilities. Major corporations partner with IIT Bombay for collaborative research and development projects in areas such as automotive engineering, aerospace technologies, semiconductors, renewable energy, pharmaceuticals, information technology, and manufacturing. Companies sponsor research projects, establish Centers of Excellence on campus, and collaborate on developing innovative solutions. Industry experts deliver guest lectures, serve as mentors for student projects, and participate in curriculum development ensuring academic programs remain relevant to industry requirements. Internship programs provide students with practical experience in corporate environments while companies benefit from fresh perspectives and innovative ideas. The strong industry-academia partnership ensures smooth transition of students from academic settings to professional careers.",
+        "sources": "[web:68][web:73]"
+      },
+      "social_impact": {
+        "title": "Social Responsibility and Community Engagement",
+        "outreach_programs": "IIT Bombay is committed to leveraging its research capabilities and expertise for societal benefit and addressing national challenges. Faculty and students engage in various social impact initiatives including developing affordable technologies for rural communities, creating solutions for sustainable development, working on environmental conservation, and addressing healthcare accessibility challenges. The Centre for Technology Alternatives for Rural Areas (CTARA) focuses on appropriate technologies for rural development. Research projects address water purification, renewable energy for remote areas, agricultural innovations, waste management, and affordable housing solutions. Students participate in social service activities, teaching underprivileged children, conducting awareness programs, and contributing to community development. The institute collaborates with government agencies and NGOs to implement technology-driven solutions for social welfare. Extension programs and continuing education initiatives disseminate knowledge to broader communities beyond campus boundaries.",
+        "sources": "[web:68]"
+      },
+      "digital_initiatives": {
+        "title": "Digital Infrastructure and Technology Integration",
+        "technology_adoption": "IIT Bombay has embraced digital technologies to enhance academic delivery, administrative efficiency, and student services. The campus provides 24x7 high-speed WiFi connectivity across academic buildings, hostels, library, and common areas ensuring seamless access to digital resources. InstiApp, an all-encompassing mobile application, connects academics, hostels, co-curricular activities, and campus services providing a user-friendly platform to simplify campus life. The app includes InstiMap, a searchable campus map accessible for navigation. Online learning platforms, digital classrooms, and e-learning resources complement traditional teaching methods. Digital library resources, research databases, and online journals are accessible from anywhere on campus. Administrative processes including admissions, fee payments, academic registrations, and result declarations are digitized for efficiency and transparency. The Computer Centre provides computing infrastructure, technical support, and training to students and faculty.",
+        "sources": "[web:57][web:67]"
+      },
+      "sustainability_initiatives": {
+        "title": "Environmental Sustainability and Green Campus",
+        "green_practices": "IIT Bombay is committed to environmental sustainability and maintaining its green campus ecosystem. The 550-acre campus with lush vegetation, hills, and Powai Lake creates a natural environment supporting biodiversity. Research centers focus on renewable energy, green technologies, sustainable manufacturing, and environmental conservation. Energy-efficient buildings, solar power installations, rainwater harvesting systems, and waste management programs contribute to reducing environmental footprint. The institute promotes sustainable practices including water conservation, energy efficiency, waste segregation and recycling, and green procurement. Student clubs and initiatives raise awareness about environmental issues and organize tree plantation drives, campus cleaning activities, and sustainability campaigns. Research on electric vehicles, green hydrogen, steel decarbonization, and climate change mitigation aligns with national and global sustainability goals. The campus serves as a living laboratory for testing and demonstrating sustainable technologies.",
+        "sources": "[web:73]"
+      },
+      "future_vision": {
+        "title": "Vision and Strategic Directions",
+        "strategic_goals": "IIT Bombay continues to evolve with ambitious goals for the future, focusing on maintaining and enhancing its leadership position in engineering education, research, and innovation globally. Strategic priorities include expanding international collaborations through joint degree programs, faculty exchanges, and research partnerships with leading universities worldwide. The institute aims to strengthen its research ecosystem by pursuing cutting-edge research in emerging areas such as artificial intelligence, quantum computing, advanced materials, biotechnology, sustainable energy, and space technologies. Establishing international centers abroad, starting with collaboration with Tohoku University in Japan, represents a significant step in global expansion. Enhancing entrepreneurship and innovation support through SINE and other initiatives will create more successful startups and technology commercialization. The institute is committed to increasing diversity and inclusion, improving gender balance, and providing equal opportunities to students from all backgrounds. Investing in infrastructure development, upgrading laboratories, and acquiring advanced research equipment will maintain technological leadership. Strengthening industry partnerships and corporate collaborations will ensure research addresses real-world challenges and graduates are industry-ready.",
+        "sources": "[web:73][web:76]"
+      }
+    }
+  },
+  "courses_and_fee": {
+    "word_count": "6000",
+    "content": {
+      "introduction": {
+        "title": "Academic Programs Overview",
+        "description": "IIT Bombay offers a comprehensive portfolio of academic programs spanning undergraduate, postgraduate, doctoral, and specialized courses across engineering, sciences, design, humanities, and management disciplines. The institute's diverse program offerings cater to students at different educational stages, from high school graduates entering undergraduate programs to experienced professionals pursuing advanced degrees. The fee structure at IIT Bombay is designed to be affordable while maintaining world-class education standards, with government support and various scholarship schemes ensuring that financial constraints do not prevent deserving students from accessing premier technical education. The institute offers various degree programs including Bachelor of Technology (B.Tech), Dual Degree (B.Tech + M.Tech), Bachelor of Science (B.S), Bachelor of Design (B.Des), Master of Technology (M.Tech), Master of Science (M.Sc), Master of Design (M.Des), Master of Arts (M.A), Master of Public Policy (MPP), Master of Business Administration (MBA), Master of Science by Research (MS Research), Master of Arts by Research (MA Research), and Doctor of Philosophy (Ph.D). Each program has specific eligibility criteria, duration, fee structure, and admission process designed to attract talented students and provide them with world-class education preparing them for successful careers in academia, industry, research, and entrepreneurship.",
+        "sources": "[web:43][web:46]"
+      },
+      "btech_programs": {
+        "title": "Bachelor of Technology (B.Tech) Programs",
+        "details": {
+          "duration": "4 years (8 semesters)",
+          "annual_fee": "₹2.3 Lakhs per year",
+          "total_fee_approximate": "₹9.2 Lakhs for complete 4-year duration",
+          "eligibility": "10+2 with Physics, Chemistry, and Mathematics, minimum 75% aggregate marks (65% for SC/ST/PwD candidates) or in top 20 percentile in respective board examination",
+          "admission_process": "Admission to B.Tech programs at IIT Bombay is based exclusively on performance in JEE Advanced, one of the most competitive engineering entrance examinations globally. Candidates must first qualify JEE Main and rank among the top 2,50,000 candidates across all categories to be eligible for JEE Advanced. JEE Advanced is conducted annually in May, consisting of two compulsory papers (Paper 1 and Paper 2), each of three hours duration. Both papers cover Physics, Chemistry, and Mathematics, testing analytical and problem-solving skills through multiple-choice questions, numerical answer type questions, and other formats. The exam is conducted in Computer-Based Test (CBT) mode at designated centers across India and abroad. Candidates should have passed Class 12 or equivalent in 2024 or 2025. Age limits and maximum two attempts in consecutive years restrictions apply. After JEE Advanced results are published including category-wise ranks, seat allocation is done through Joint Seat Allocation Authority (JoSAA) based on JEE Advanced rank, category, and candidate preferences filled during counselling.",
+          "specializations": "IIT Bombay offers B.Tech programs in various engineering disciplines. Popular specializations with their JEE Advanced 2025 last round closing ranks for General All India category include: Computer Science and Engineering (rank 66, most competitive), Electrical Engineering (rank 285), Mathematics and Computing, Data Science and Artificial Intelligence, Mechanical Engineering, Aerospace Engineering (rank 2361), Chemical Engineering (rank 2464), Civil Engineering, Metallurgical Engineering and Materials Science, Engineering Physics, Environmental Science and Engineering, and other specialized programs. Each specialization has specific seat allocation and cutoff ranks determined through JoSAA counselling process varying by category and round.",
+          "curriculum": "The B.Tech curriculum is rigorous and comprehensive, balancing theoretical knowledge with practical skills, research exposure, and industry interaction. Students undergo foundation courses in mathematics, physics, chemistry, computing, and basic engineering in the first year. Subsequent years include core departmental courses, professional electives, open electives, laboratory work, projects, internships, and seminar presentations. The curriculum is continuously updated to incorporate latest technological developments and industry requirements. Assessment includes frequent quizzes, mid-semester examinations, end-semester examinations, assignments, projects, and presentations ensuring continuous evaluation."
+        },
+        "sources": "[web:43][web:44][web:47][web:74][web:77]"
+      },
+      "dual_degree_programs": {
+        "title": "Dual Degree (B.Tech + M.Tech) Programs",
+        "details": {
+          "duration": "5 years (10 semesters)",
+          "annual_fee": "₹2.3 Lakhs per year for B.Tech component, M.Tech fees applicable from 9th semester onwards",
+          "eligibility": "10+2 with PCM, 75% aggregate marks (65% for SC/ST/PwD) + JEE Advanced qualification",
+          "admission_process": "Dual degree programs admit students through JEE Advanced and JoSAA counselling, similar to B.Tech programs. During counselling, candidates can select dual degree programs as their preferences. The cutoff ranks may differ from four-year B.Tech programs. Additionally, some departments allow existing B.Tech students to opt for dual degree programs after completing initial years based on academic performance (CGPA criteria) and departmental provisions.",
+          "program_structure": "The dual degree program integrates undergraduate and postgraduate education in a seamless five-year curriculum. Students complete B.Tech level courses in the first three to four years and M.Tech level courses with specialization, advanced research project, and thesis in the final year to 18 months. This integrated approach allows students to gain advanced knowledge, research experience, and specialized skills while completing both degrees in shorter time frame than pursuing them separately (which would take six years). Graduates receive both B.Tech and M.Tech degrees upon completion, providing them with enhanced career opportunities and research credentials.",
+          "specializations": "Dual degree programs are offered in various engineering disciplines across departments, allowing students to specialize in areas aligned with their B.Tech discipline or pursue interdisciplinary specializations based on availability and department-specific offerings."
+        },
+        "sources": "[web:43][web:77]"
+      },
+      "bs_programs": {
+        "title": "Bachelor of Science (B.S) Programs",
+        "details": {
+          "duration": "4 years",
+          "annual_fee": "₹2.3 Lakhs per year",
+          "eligibility": "10+2 with minimum required percentage + JEE Advanced qualification",
+          "admission_process": "B.S programs admit students through JEE Advanced and JoSAA counselling process. Candidates qualifying JEE Advanced can opt for B.S programs during seat allocation based on their preferences and ranks.",
+          "specializations": "B.S programs are offered in fundamental science disciplines including Physics, Chemistry, Mathematics, Economics, and other areas, providing students with strong foundation in theoretical and experimental sciences.",
+          "career_prospects": "B.S graduates pursue diverse career paths including research in academic and industrial laboratories, higher education (M.Sc, Ph.D), data science and analytics, scientific positions in government organizations, management consulting, finance, and interdisciplinary fields combining science with technology and business."
+        },
+        "sources": "[web:43]"
+      },
+      "bdes_programs": {
+        "title": "Bachelor of Design (B.Des) Programs",
+        "details": {
+          "duration": "4 years",
+          "annual_fee": "₹2.3 Lakhs per year",
+          "eligibility": "10+2 in any stream with minimum 50% marks",
+          "admission_process": "B.Des admission is based on UCEED (Undergraduate Common Entrance Examination for Design) conducted by IIT Bombay. The UCEED 2026 registration is open with last date October 31, 2025 (without late fee). The exam is scheduled for January 18, 2026. After UCEED results, admission is through Joint Admission Process where candidates participate in counselling based on UCEED scores and preferences.",
+          "program_features": "The B.Des program offered through the Industrial Design Centre (IDC) provides comprehensive design education covering product design, visual communication, animation, interaction design, and other design disciplines. The curriculum balances design thinking, creativity, technical skills, and practical projects preparing students for careers in design industries."
+        },
+        "sources": "[web:43][web:77]"
+      },
+      "mtech_programs": {
+        "title": "Master of Technology (M.Tech) Programs",
+        "details": {
+          "duration": "2 years (4 semesters)",
+          "annual_fee": "₹66,700 per year",
+          "total_fee": "₹1.334 Lakhs for complete 2-year duration (approximate)",
+          "eligibility": "Bachelor's degree in Engineering/Technology with minimum 60% marks (55% for SC/ST/PwD) + GATE qualification",
+          "admission_process": "M.Tech admission at IIT Bombay is primarily based on GATE (Graduate Aptitude Test in Engineering) scores. Candidates must have valid GATE score in the relevant discipline and meet minimum qualifying marks criteria. The GATE 2026 registrations are now over, and the exam will be conducted on February 7, 8, 14, and 15, 2026. After GATE results, IIT Bombay conducts admissions through COAP (Common Offer Acceptance Portal) for some programs and department-specific processes for others. The selection process considers GATE scores, academic performance in bachelor's degree, and sometimes personal interviews or written tests depending on the department and specialization. Candidates must apply to specific departments indicating their specialization preferences.",
+          "popular_specializations": "Popular M.Tech specializations at IIT Bombay span all engineering departments including Computer Science and Engineering, Data Science, Artificial Intelligence and Machine Learning, Communication Engineering, VLSI Design, Power Systems, Structural Engineering, Geotechnical Engineering, Thermal Engineering, Manufacturing Engineering, Aerospace Engineering, Chemical Engineering, Materials Science, and numerous other specialized areas. Each department offers multiple specializations aligned with faculty research expertise and industry requirements.",
+          "program_features": "M.Tech programs combine advanced coursework with significant research components. Students undertake a major research project or thesis in their final semesters, contributing to advancement of knowledge in their specialization. The curriculum includes core courses providing foundational knowledge, electives allowing specialization, seminars exposing students to current research, and project work developing research and problem-solving skills. Many departments offer industry-sponsored M.Tech programs where students work on industry problems."
+        },
+        "sources": "[web:43][web:77]"
+      },
+      "mdes_programs": {
+        "title": "Master of Design (M.Des) Programs",
+        "details": {
+          "duration": "2 years",
+          "annual_fee": "₹66,700 per year",
+          "eligibility": "Undergraduate degree in Engineering/Design with minimum 60% marks (55% for SC/ST/PwD)",
+          "admission_process": "M.Des admission is based on CEED (Common Entrance Exam for Design) conducted by IIT Bombay. Candidates must have valid CEED scores. The selection process includes CEED scores, Design Aptitude Test (DAT), and personal interview. Some programs may require portfolio submission showcasing creative work.",
+          "specializations": "M.Des programs offered through Industrial Design Centre (IDC) cover various design disciplines including product design, visual communication, animation, interaction design, mobility and vehicle design, and other specialized areas. The programs prepare students for leadership roles in design industries."
+        },
+        "sources": "[web:43]"
+      },
+      "msc_programs": {
+        "title": "Master of Science (M.Sc) Programs",
+        "details": {
+          "duration": "2 years",
+          "annual_fee": "₹78,600 per year",
+          "total_fee": "₹1.572 Lakhs for complete 2-year duration (approximate)",
+          "eligibility": "Undergraduate degree in relevant field with minimum 55% marks (50% for SC/ST/PwD) + IIT JAM qualification",
+          "admission_process": "M.Sc admission at IIT Bombay is conducted through IIT JAM (Joint Admission Test for M.Sc). The IIT JAM 2026 exam date is February 15, 2026. IIT JAM tests candidates' knowledge in subjects like Physics, Chemistry, Mathematics, Biotechnology, Economics, Geology, and Mathematical Statistics. After IIT JAM results, centralized online counselling is conducted through JOAPS (Joint Online Admission Process for Seat Allotment) portal. Candidates fill preferences for institutes and programs. Seat allocation is based on IIT JAM score, category, and preferences. The first admission list is expected on May 26, 2025, with deadline for fee payment on May 30, 2025.",
+          "specializations": "M.Sc programs are offered in Physics, Chemistry, Mathematics, and other science disciplines. These programs provide advanced theoretical and practical training in fundamental sciences, preparing students for research careers or industry positions requiring strong analytical and scientific skills.",
+          "program_structure": "The M.Sc curriculum includes advanced coursework in the chosen discipline, laboratory sessions, seminars, and a dissertation or project in the final semester. Students develop deep understanding of scientific principles, research methodologies, and analytical techniques."
+        },
+        "sources": "[web:43][web:77]"
+      },
+      "ma_programs": {
+        "title": "Master of Arts (M.A) Programs",
+        "details": {
+          "duration": "2 years",
+          "annual_fee": "Varies by program",
+          "eligibility": "Bachelor's degree in relevant discipline with minimum percentage as specified by department",
+          "admission_process": "M.A admission is based on bachelor's degree performance and entrance examinations or interviews as specified by the Department of Humanities and Social Sciences. The specific admission criteria vary depending on the specialization.",
+          "specializations": "M.A programs are offered in various humanities and social sciences disciplines including Philosophy, Economics, English, and other areas. These programs provide interdisciplinary perspectives combining humanities and social sciences with technology and contemporary issues."
+        },
+        "sources": "[web:43]"
+      },
+      "mba_programs": {
+        "title": "Master of Business Administration (MBA) Programs",
+        "details": {
+          "duration": "2 years (6 terms)",
+          "annual_fee": "₹4.33 Lakhs per year",
+          "total_fee": "₹8.66 Lakhs for complete 2-year duration (approximate)",
+          "eligibility": "Bachelor's degree with 60% marks (55% for SC/ST/PwD) + CAT qualification",
+          "admission_process": "MBA admission at the Shailesh J. Mehta School of Management (SJMSOM), IIT Bombay, is based on CAT (Common Admission Test) scores. Candidates must have bachelor's degree or equivalent professional qualification with minimum 60% marks (55% for SC/ST/PwD). Final year bachelor's students are eligible to apply. The selection process includes shortlisting based on CAT scores and academic profile, followed by Written Ability Test (WAT) or Group Discussion (GD), and Personal Interview (PI). The final selection is based on composite score considering CAT score (weighted heavily), past academic performance (10th, 12th, bachelor's degree), work experience (quality and duration), academic diversity (engineering/non-engineering background), gender diversity, and other achievements (extracurricular activities, certifications, publications).",
+          "batch_composition": "The typical MBA batch comprises students with diverse backgrounds. A balanced mix of fresh graduates and candidates with work experience creates rich learning environment with varied perspectives and experiences.",
+          "curriculum": "The MBA curriculum at SJMSOM focuses on building leadership, innovation, analytical skills, and managerial capabilities through rigorous coursework, case studies, industry projects, internships, and practical learning. The program emphasizes both theoretical knowledge and real-world application. Students can choose specializations in areas such as Finance, Marketing, Operations, Strategy, Analytics, and Entrepreneurship."
+        },
+        "sources": "[web:43]"
+      },
+      "mpp_programs": {
+        "title": "Master of Public Policy (MPP) Programs",
+        "details": {
+          "duration": "2 years",
+          "eligibility": "Bachelor's degree with required percentage",
+          "program_features": "The MPP program prepares students for careers in public policy, governance, development, and social sectors. The curriculum combines policy analysis, economics, statistics, governance frameworks, and practical field experience."
+        },
+        "sources": "[web:43]"
+      },
+      "phd_programs": {
+        "title": "Doctor of Philosophy (Ph.D) Programs",
+        "details": {
+          "duration": "3-5 years (typically minimum 3 years, maximum 5-6 years)",
+          "annual_fee": "₹44,000 per year",
+          "total_fee": "₹1.32 Lakhs for 3 years (approximate)",
+          "eligibility": "Master's degree in relevant discipline with minimum 60% marks (55% for SC/ST/PwD) or Bachelor's degree with excellent academic record for Direct Ph.D admission",
+          "admission_process": "Ph.D admissions at IIT Bombay are conducted by individual departments and research centers, typically twice a year (for Autumn and Spring semesters). Candidates must have completed or be in final year of postgraduate degree (M.Tech, M.Sc, M.A, MBA) with good academic record. Some departments admit exceptional candidates directly after Bachelor's degree under Direct Ph.D scheme. The selection process involves written test covering subject knowledge and research aptitude, personal interview assessing research potential and motivation, and evaluation of academic credentials. Candidates with valid GATE/NET/CSIR/UGC/INSPIRE fellowship are given preference and may be exempted from written test in some departments. Selected candidates must submit research proposal and secure a faculty supervisor before final admission.",
+          "popular_specializations": "Ph.D programs are offered across all academic departments and research centers covering diverse areas including Computer Science, Artificial Intelligence, Electrical Engineering, Mechanical Engineering, Aerospace Engineering, Chemical Engineering, Civil Engineering, Metallurgical Engineering, Physics, Chemistry, Mathematics, Humanities, Economics, Management, Design, and interdisciplinary areas. Research topics span cutting-edge areas aligned with faculty expertise and societal needs.",
+          "research_support": "Selected Ph.D students receive monthly fellowship/stipend as per government norms or institute provisions. Students with GATE/NET/CSIR/UGC fellowships receive support according to fellowship guidelines. Institute fellowships are provided to students selected through departmental processes. Teaching Assistantships (TA) and Research Assistantships (RA) provide additional financial support and valuable teaching/research experience. Research scholars have access to state-of-the-art laboratories, advanced equipment, library resources, computing facilities, and funding for conference participation and research publications."
+        },
+        "sources": "[web:43]"
+      },
+      "ms_ma_research": {
+        "title": "Master of Science/Master of Arts by Research Programs",
+        "details": {
+          "duration": "2-3 years",
+          "program_features": "MS and MA by Research programs are research-intensive master's programs where students primarily focus on conducting original research under faculty supervision, culminating in thesis submission and defense. These programs suit students aspiring for research careers or planning to pursue Ph.D subsequently. Admission is through department-specific processes based on academic credentials, research aptitude, and interviews."
+        },
+        "sources": "[web:43]"
+      },
+      "fee_payment_system": {
+        "title": "Fee Structure and Payment System",
+        "details": {
+          "semester_wise_payment": "Academic fees are paid semester-wise by all students. The fee structure differs for Indian and foreign nationals. Detailed fee circulars for Autumn Semester 2025-26 and Spring Semester 2025-26 are available on the Academic Office website specifying exact amounts for different programs and categories.",
+          "hostel_fees": "In addition to academic fees, residential students pay hostel fees. Hostel and mess charges are approximately ₹39,400 per semester, covering accommodation, basic amenities, and dining facilities. Day scholars must pay applicable fees as prescribed even if not residing in hostels.",
+          "fee_exemptions": "Tuition fee waivers are available for SC/ST/PwD candidates in most programs as per government norms. The institute does not charge tuition fees from these category students, though other fees like hostel fees, mess charges, and miscellaneous fees are applicable. This ensures that deserving students from economically weaker sections can access quality education without financial barriers.",
+          "payment_modes": "Fees must be paid online through the designated fee payment portal within specified deadlines. Late payment may attract penalties. Students availing education loans must follow specific procedures for loan disbursement to the institute."
+        },
+        "sources": "[web:43][web:46]"
+      },
+      "scholarships_financial_aid": {
+        "title": "Scholarships and Financial Assistance",
+        "details": {
+          "government_scholarships": "Students from economically weaker sections and reserved categories are eligible for various government scholarships and fee waivers. SC/ST students receive full tuition fee remission. Merit-cum-means scholarships are available to support deserving students from economically disadvantaged backgrounds ensuring they can pursue education without financial stress.",
+          "institute_support": "IIT Bombay provides various forms of financial assistance to ensure no deserving student is denied education due to financial constraints. Students can avail education loans from designated banks with support from the institute. Interest subsidy schemes may be available for economically weaker students.",
+          "research_fellowships": "Ph.D and research students receive monthly fellowships/stipends ranging from approximately ₹31,000 to ₹35,000 per month depending on year of study and fellowship type. Students with GATE/NET/CSIR/UGC fellowships receive financial support as per fellowship norms. Teaching Assistantships (TA) and Research Assistantships (RA) provide additional monthly stipends to postgraduate students assisting in teaching or research activities.",
+          "external_support": "Students can access external scholarships from corporate organizations, foundations, trusts, and government schemes. National Scholarship Portal lists various schemes for SC/ST/OBC/Minority/Economically Weaker Section students. Corporate scholarships and merit-based awards are available from companies and alumni."
+        },
+        "sources": "[web:43][web:46]"
+      },
+      "preparatory_course": {
+        "title": "Preparatory Course for SC/ST Students",
+        "details": {
+          "program_features": "IIT Bombay offers a one-year Preparatory Course for SC/ST candidates who have been offered admission but may need additional academic preparation before joining regular degree programs. This program provides foundational coursework in mathematics, physics, chemistry, and basic engineering subjects strengthening students' fundamentals and preparing them for rigorous IIT curriculum. Successful completion of the preparatory course enables students to join the first year of their respective degree programs. The fee structure for preparatory course students is specified separately in fee circulars."
+        },
+        "sources": "[web:46]"
+      },
+      "fee_comparison_table": {
+        "title": "Comprehensive Fee Structure Comparison",
+        "programs_table": [
+          {
+            "Program Level": "B.Tech / B.S / Dual Degree",
+            "Duration": "4-5 years",
+            "Annual Fee": "₹2.3 Lakhs",
+            "Total Fee (Approx)": "₹9.2 - 11.5 Lakhs",
+            "Eligibility": "10+2 with 75% + JEE Advanced"
+          },
+          {
+            "Program Level": "B.Des",
+            "Duration": "4 years",
+            "Annual Fee": "₹2.3 Lakhs",
+            "Total Fee (Approx)": "₹9.2 Lakhs",
+            "Eligibility": "10+2 with 50% + UCEED"
+          },
+          {
+            "Program Level": "M.Tech / M.Des",
+            "Duration": "2 years",
+            "Annual Fee": "₹66,700",
+            "Total Fee (Approx)": "₹1.334 Lakhs",
+            "Eligibility": "UG with 60% + GATE/CEED"
+          },
+          {
+            "Program Level": "M.Sc",
+            "Duration": "2 years",
+            "Annual Fee": "₹78,600",
+            "Total Fee (Approx)": "₹1.572 Lakhs",
+            "Eligibility": "UG with 55% + IIT JAM"
+          },
+          {
+            "Program Level": "MBA",
+            "Duration": "2 years",
+            "Annual Fee": "₹4.33 Lakhs",
+            "Total Fee (Approx)": "₹8.66 Lakhs",
+            "Eligibility": "UG with 60% + CAT"
+          },
+          {
+            "Program Level": "Ph.D",
+            "Duration": "3-5 years",
+            "Annual Fee": "₹44,000",
+            "Total Fee (Approx)": "₹1.32 - 2.2 Lakhs",
+            "Eligibility": "PG with 60% or Direct entry"
+          },
+          {
+            "Program Level": "M.A / MPP / MS-MA Research",
+            "Duration": "2-3 years",
+            "Annual Fee": "Varies",
+            "Total Fee (Approx)": "Varies by program",
+            "Eligibility": "UG in relevant field"
+          }
+        ],
+        "additional_charges": "All students must pay hostel and mess fees of approximately ₹39,400 per semester in addition to academic fees. Other miscellaneous charges including student activity fees, medical fees, and insurance may apply. Total cost of education should factor in hostel fees, mess charges, books, supplies, and personal expenses.",
+        "sources": "[web:43][web:46]"
+      },
+      "international_students_fees": {
+        "title": "Fee Structure for International Students",
+        "details": {
+          "foreign_nationals": "Foreign nationals (non-Indian citizens/non-OCIs) may have different fee structures compared to Indian students. International students should check specific fee circulars for foreign nationals or contact the Academic Office and International Relations Office for detailed fee information. Some programs may charge higher fees for international students as per institute policy."
+        },
+        "sources": "[web:46]"
+      }
+    }
+  },
+  "admissions": {
+    "word_count": "4000",
+    "content": {
+      "overview": {
+        "title": "Admissions Process Overview",
+        "description": "The admission process at IIT Bombay is highly competitive and merit-based, designed to identify the brightest and most talented students from across India and internationally. Different programs have specific admission criteria and entrance examination requirements ensuring that selected candidates possess the necessary aptitude, academic preparation, and potential for rigorous technical education and research. The institute admits students to various undergraduate, postgraduate, and doctoral programs through nationally and internationally recognized entrance examinations including JEE Advanced for undergraduate engineering programs, UCEED for undergraduate design programs, GATE for postgraduate engineering programs, CEED for postgraduate design programs, IIT JAM for postgraduate science programs, CAT for MBA programs, and department-specific tests for Ph.D programs. The admission process is transparent, following strict timelines and procedures established by the institute and national regulatory bodies. International students are admitted through designated pathways contributing to campus diversity. IIT Bombay follows reservation policies as mandated by the Government of India ensuring representation for SC, ST, OBC, EWS, and PwD categories. Admissions for undergraduate programs are conducted centrally through Joint Seat Allocation Authority (JoSAA) for engineering programs and through separate admission processes for design and science programs. Postgraduate and doctoral admissions are conducted through department-specific processes following centralized entrance examinations.",
+        "sources": "[web:43][web:44][web:77]"
+      },
+      "btech_admissions": {
+        "title": "B.Tech Admissions Process",
+        "jee_advanced_pathway": {
+          "entrance_exam": "JEE Advanced is the sole entrance examination for B.Tech admission at IIT Bombay and all other IITs in India. Conducted annually by one of the IITs on rotational basis under the Joint Admission Board (JAB), JEE Advanced assesses candidates' deep understanding of Physics, Chemistry, and Mathematics based on Class 11 and 12 CBSE and equivalent board syllabi. The examination tests analytical thinking, problem-solving abilities, and conceptual clarity rather than mere factual knowledge.",
+          "eligibility_criteria": "To be eligible for JEE Advanced, candidates must first qualify JEE Main and rank among the top 2,50,000 candidates across all categories (General, OBC-NCL, SC, ST, EWS, PwD). Educational qualifications require candidates to have passed Class 12 or equivalent examination in 2024 or 2025 with Physics, Chemistry, and Mathematics as compulsory subjects. Candidates must secure minimum 75% aggregate marks in Class 12 (or be in top 20 percentile in their respective board) for General and OBC-NCL categories, while SC/ST/PwD candidates need 65% aggregate marks. Age limit restrictions apply with candidates born on or after October 1, 2000 for General/OBC-NCL and October 1, 1995 for SC/ST/PwD being eligible. Maximum two attempts are allowed in consecutive years. Candidates who have previously been admitted to IIT (except under specific conditions) are not eligible to reappear.",
+          "exam_pattern": "JEE Advanced consists of two compulsory papers (Paper 1 and Paper 2), each of three hours duration. Paper 1 is typically scheduled from 9:00 AM to 12:00 PM and Paper 2 from 2:30 PM to 5:30 PM on the same day. Both papers cover Physics, Chemistry, and Mathematics. The exam is conducted in Computer-Based Test (CBT) mode at designated centers across India and some international locations. Each paper contains various question types including multiple-choice questions with one or more correct answers, numerical answer type questions requiring calculation of numeric values, and other innovative formats testing conceptual understanding and analytical skills. Negative marking applies for incorrect answers in most question types. Candidates must attempt both papers and meet minimum marks in each subject and overall to qualify.",
+          "registration_timeline": "For JEE Advanced 2025, registration commenced on April 23, 2025 and concluded on May 2, 2025 for both Indian and International candidates. The last date for fee payment was May 5, 2025. Candidates had to register online through the official JEE Advanced website, fill the application form accurately providing personal, academic, and category details, upload required documents including photograph, signature, and certificates, and pay the application fee online.",
+          "exam_date": "JEE Advanced 2025 was held on May 18, 2025, with Paper 1 from 9:00 AM to 12:00 PM and Paper 2 from 2:30 PM to 5:30 PM.",
+          "seat_allocation": "After JEE Advanced results are announced, eligible candidates participate in Joint Seat Allocation Authority (JoSAA) counselling for seat allocation across all IITs, NITs, IIITs, and other participating Centrally Funded Technical Institutions (CFTIs). JoSAA conducts multiple rounds of online counselling where candidates fill their preferences for institute-program combinations ranking them in order of preference. Seat allocation is based on JEE Advanced All India Rank (AIR), category rank, and preferences filled by candidates. Higher ranked candidates get priority in seat allocation. Candidates allocated seats must accept the offer online, pay fees, and report to the allocated institute within specified timelines to confirm admission. Those not satisfied with allocated seat can participate in subsequent counselling rounds by either accepting current seat provisionally or floating to try for better options. Mock seat allocation is conducted before actual rounds to help candidates understand the process."
+        },
+        "sources": "[web:44][web:47][web:77]"
+      },
+      "btech_cutoffs": {
+        "title": "B.Tech JEE Advanced Cutoff Trends",
+        "cutoff_analysis": {
+          "cse_cutoff": "Computer Science and Engineering is the most competitive specialization at IIT Bombay with JEE Advanced 2025 last round closing rank of 66 for General All India category, 68 in 2024, and 67 in 2023, showing remarkable consistency in demand and competitiveness.",
+          "electrical_cutoff": "Electrical Engineering had closing rank of 285 for General AI category in 2025, representing another highly sought-after specialization.",
+          "other_branches": "Other specializations closing ranks for General AI category in 2025: Aerospace Engineering (2361), Chemical Engineering (2464), Civil Engineering, Mechanical Engineering, and other branches with cutoffs determined by student preferences and seat availability.",
+          "category_cutoffs": "For OBC category students, closing ranks ranged from 54 (most competitive) to 2587 under AI quota. SC, ST, EWS, and PwD categories have separate cutoff ranks generally lower than General category, ensuring representation as per reservation policies.",
+          "year_comparison": "Reviewing cutoff trends over multiple years shows relatively stable patterns for top branches like CSE and Electrical, while other branches show more variation based on changing student preferences, industry trends, and career prospects."
+        },
+        "sources": "[web:74][web:77]"
+      },
+      "bdes_admissions": {
+        "title": "B.Des Admissions Process",
+        "uceed_pathway": {
+          "entrance_exam": "UCEED (Undergraduate Common Entrance Examination for Design) conducted by IIT Bombay is the entrance examination for B.Des admission. UCEED tests candidates' creativity, design aptitude, visual perception, drawing skills, analytical abilities, and communication skills.",
+          "eligibility": "Candidates must have passed Class 12 or equivalent in any stream (Science, Commerce, Arts) with minimum 50% aggregate marks. There is no specific subject requirement, making design education accessible to students from diverse academic backgrounds.",
+          "exam_pattern": "UCEED is conducted as a computer-based test covering sections on visualization and spatial ability, environmental and social awareness, observation and design sensitivity, drawing, design thinking and problem-solving, and creativity. The exam duration is three hours.",
+          "registration": "UCEED 2026 registration is open with last date October 31, 2025 (without late fee). The examination date is January 18, 2026.",
+          "admission_process": "After UCEED results,
+
+[1](https://en.wikipedia.org/wiki/IIT_Bombay)
+[2](https://www.careerkaptain.com/colleges/iit-bombay-a)
+[3](https://www.facebook.com/iitbombay/posts/presenting-the-evolution-of-the-iit-bombay-campus-from-1970-2003-from-humble-beg/670267368465631/)
+[4](https://www.vedantu.com/jee-advanced/iit-bombay)
+[5](https://allegiance-educare.in/study-abroad/top-university/indian-institute-of-technology-iit-bombay)
+[6](https://smartachievers.online/iit-bombay-admissions-2025-courses-fees-cutoff-placements)
+[7](https://www.careerindia.com/exam/jee-advanced-selection-procedure-e11.html)
+[8](https://audiala.com/en/india/mumbai/indian-institute-of-technology-bombay)
+[9](https://acad.iitb.ac.in/admissions/fees-structure)
+[10](https://en.wikipedia.org/wiki/Joint_Entrance_Examination_%E2%80%93_Advanced)
+[11](https://www.shiksha.com/university/iit-bombay-indian-institute-of-technology-mumbai-54212/placement)
+[12](https://www.vedantu.com/blog/iit-bombay-placements-average-and-highest-package-and-top-recruiters)
+[13](https://campus.placements.iitb.ac.in/static/docs/placement_report_2023_24.pdf)
+[14](https://engineering.careers360.com/articles/iit-bombay-salary-package)
+[15](https://motion.ac.in/blog/average-and-highest-package-of-iits/)
+[16](https://www.shiksha.com/university/iit-bombay-indian-institute-of-technology-mumbai-54212/ranking)
+[17](https://www.pagalguy.com/colleges/indian-institute-of-technology-bombay/campus-facilities)
+[18](https://www.mycareer.matrixedu.in/highest-package-of-iit/)
+[19](https://www.topuniversities.com/universities/indian-institute-technology-bombay-iitb)
+[20](https://www.shiksha.com/university/iit-bombay-indian-institute-of-technology-mumbai-54212/infrastructure)
+[21](https://www.som.iitb.ac.in/faculty-by-research-area/)
+[22](https://www.iitb.ac.in/mems/en/people/faculty)
+[23](https://www.cse.iitb.ac.in/research/areas)
+[24](https://www.math.iitb.ac.in/People/faculty.php)
+[25](https://www.ese.iitb.ac.in/faculty)
+[26](https://www.collegedekho.com/colleges/iitb-reviews)
+[27](https://indiaeducation.net/iit/bombay/contact/)
+[28](https://www.economics.iitb.ac.in/faculty.html)
+[29](https://www.careers360.com/university/indian-institute-of-technology-bombay/reviews)
+[30](https://www.iitb.ac.in/contact-us)
+[31](https://www.sineiitb.org/ecosystem/)
+[32](https://in.linkedin.com/company/society-for-innovation-and-entrepreneurship---iit-bombay)
+[33](https://www.indiascienceandtechnology.gov.in/technologyincubators/society-innovation-and-entrepreneurship-sine)
+[34](https://www.sineiitb.org/contact/)
+[35](https://ioe.iitb.ac.in/news/ioe-sine-mou)
+[36](https://pioneertoday.in/how-iit-bombays-global-collaborations-a/?amp=1)
+[37](https://www.shiksha.com/engineering/articles/top-iits-cutoff-for-jee-advanced-category-and-course-wise-cutoff-for-all-iits-blogId-144365)
+[38](https://www.iitb.ac.in/sites/www.iitb.ac.in/files/2025-09/22%20August%202025%20MoU%20Signing_%20Media%20release.pdf)
+[39](https://acr.iitbombay.org/news/iit-bombay-and-ie-university-forge-global-partnership-for-education-and-innovation/)
+[40](https://www.shiksha.com/university/iit-bombay-indian-institute-of-technology-mumbai-54212/cutoff)

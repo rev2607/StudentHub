@@ -1,0 +1,527 @@
+```json
+{
+  "college_name": "Indian Institute of Technology Madras (IIT Madras)",
+  "overview": {
+    "word_count": "12000",
+    "content": {
+      "introduction": {
+        "title": "About IIT Madras",
+        "description": "The Indian Institute of Technology Madras, established in 1959, stands as one of India's most prestigious institutions of higher technical education and research. Located in Chennai, Tamil Nadu, IIT Madras has consistently maintained its position as the number one engineering institute in India, earning the coveted title of Institute of Eminence. The institution represents a landmark collaboration between India and Germany, symbolizing international cooperation in educational excellence. Spanning across 617 acres (250 hectares) of lush green campus, formerly part of the Guindy National Park, IIT Madras is home to approximately 550 faculty members, 8,000-10,000 students, and 1,250-2,000 administrative and supporting staff. The institute has been ranked first in both Overall and Engineering categories by the National Institutional Ranking Framework (NIRF) since 2016, demonstrating sustained excellence in academic performance, research output, and industry engagement. IIT Madras is known nationally and internationally for excellence in technical education, basic and applied research, innovation, entrepreneurship, and industrial consultancy.",
+        "sources": "[web:1][web:2][web:3]"
+      },
+      "historical_background": {
+        "title": "Foundation and Historical Development",
+        "establishment": "The genesis of IIT Madras traces back to 1956 when Prime Minister Pandit Jawaharlal Nehru was on an official visit to West Germany. During this visit, the Government of the Federal Republic of Germany offered technical assistance to establish a state-of-the-art higher technological institute in India. This generous offer materialized into the signing of the first Indo-German Agreement in Bonn, West Germany, in 1959, specifically for the establishment of the Indian Institute of Technology at Madras (now Chennai). This agreement represented the most significant international educational project sponsored by the Federal Republic of Germany at that time. The German government committed to providing comprehensive support including workshop and laboratory equipment worth approximately ₹1.8 crore (equivalent to ₹166 crores in 2024), services of twenty German professors for four to five years, four German foremen for workshops for two years, and training facilities for twenty Indian teachers in German institutions. The Institute was formally inaugurated in 1959 by Professor Humayun Kabir, Union Minister for Scientific Research and Cultural Affairs, marking the beginning of a new era in Indian technical education.",
+        "sources": "[web:1][web:3]"
+      },
+      "early_years_and_growth": {
+        "title": "Early Years and Institutional Growth",
+        "first_batch": "IIT Madras commenced its academic journey in July 1959 with the first batch of 120 students admitted to the first year of the Engineering Course. These pioneering students came from across India, representing the diverse fabric of the nation. Dr. A. Lakshmanaswamy assumed office as the first Chairman of the Board of Governors, while Dr. B. Sengupto took charge as the first Director of the Institute, providing visionary leadership during the formative years. In 1961, a landmark decision was made when the Parliament of India declared IIT Madras as an 'Institute of National Importance' through the IIT Act, placing it among the premier institutions of the country. The first convocation ceremony was held on July 11, 1964, with Dr. S. Radhakrishnan, the then President of India, delivering the convocation address and awarding degrees to the inaugural batch of students. This historic moment marked the beginning of IIT Madras's tradition of academic excellence. A significant milestone in the institute's journey toward inclusivity came in 1966 when IIT Madras admitted its first women students in the BTech batch, breaking gender barriers in engineering education.",
+        "sources": "[web:1][web:3]"
+      },
+      "international_collaboration": {
+        "title": "Indo-German Collaboration and International Partnerships",
+        "german_partnership": "The Indo-German collaboration that established IIT Madras has led to several enduring research and academic partnerships with universities and institutions in Germany. Although official support from the German government concluded after the initial establishment phase, collaborative research efforts continue through programs such as the DAAD (Deutscher Akademischer Austausch Dienst) programme and Humboldt Fellowships. This sustained engagement demonstrates the lasting impact of the original partnership. Beyond Germany, IIT Madras has developed extensive international collaborations with institutions worldwide. The Department of Management Studies (DoMS) leads international exchange programs at IIT Madras, with active collaborations with universities in Australia, Singapore, Japan, USA, and Europe. The institute has established Joint Doctoral Programmes (JDP) with Curtin University and University of Technology Sydney in Australia, and University of Passau in Germany, where scholars spend one to two years at partner institutes to earn joint doctoral degrees. Students and research scholars have access to summer internships at prestigious foreign universities including Nanyang Technological University in Singapore, University of Tokyo in Japan, and National Institute of Informatics in Japan. The institute has implemented various mobility programs including the High-Risk High Reward (HRHR) Mobility Grant and Jointly Funded Bilateral Mobility Program (JFBMP) to enhance collaborations with institutes of global repute.",
+        "sources": "[web:3][web:35][web:37]"
+      },
+      "campus_and_infrastructure": {
+        "title": "Campus Layout and Natural Environment",
+        "campus_description": "IIT Madras occupies a magnificent 617-acre (2.5 km² or 250 hectares) campus in South Chennai, Tamil Nadu, which was formerly part of the adjoining Guindy National Park. This unique location provides the campus with a distinctive natural character, with approximately half of the total area covered with forest and natural vegetation. The campus is nearly self-contained and houses students, faculty families, and staff members, creating a complete residential academic community. The wooded landscape supports rich biodiversity, with the campus being home to various wildlife including monkeys, deer, endangered blackbucks, foxes, cats, snakes, and numerous bird species. This green environment provides a peaceful and conducive atmosphere for academic pursuits and research activities. The campus is divided into three distinct functional zones: the Academic Zone, Hostel Zone, and Residential Zone, each designed to serve specific purposes while maintaining the overall coherence of campus life. The Academic Zone houses state-of-the-art laboratories, well-equipped classrooms, libraries, and departmental facilities. The Hostel Zone provides residential facilities for students with modern amenities, while the Residential Zone accommodates faculty and staff families. The campus design reflects a harmonious blend of modern infrastructure with natural environment, creating an ideal setting for holistic education.",
+        "sources": "[web:1][web:2][web:5][web:26]"
+      },
+      "academic_structure": {
+        "title": "Academic Departments and Research Centers",
+        "departments": "IIT Madras has a comprehensive academic structure comprising sixteen academic departments and several advanced research centers covering diverse disciplines of engineering, pure sciences, humanities, and social sciences. The academic departments include Aerospace Engineering, Applied Mechanics & Biomedical Engineering, Biotechnology, Chemical Engineering, Chemistry, Civil Engineering, Computer Science and Engineering, Electrical Engineering, Engineering Design, Humanities and Social Sciences, Management Studies, Mathematics, Mechanical Engineering, Metallurgical and Materials Engineering, Ocean Engineering, and Physics. Each department is equipped with specialized laboratories and research facilities. The institute has nearly 100 laboratories organized in a unique pattern that facilitates interdisciplinary research and collaboration. In addition to the core academic departments, IIT Madras has established 36 Centers of Excellence (COEs) across diverse fields of study. These centers provide leadership, research support, and sector-specific skill training, acting as resource centers for various lines of studies. The COEs collaborate with industry to understand emerging skill needs and train students accordingly, facilitating research and training in advanced areas of technology while addressing key national challenges. The centers bridge the skill gap and prepare students for contemporary industrial requirements.",
+        "sources": "[web:2][web:31][web:33]"
+      },
+      "research_ecosystem": {
+        "title": "Research Excellence and Innovation",
+        "research_culture": "IIT Madras has established itself as a premier center of research, consultancy, and technological development since obtaining its charter from the Parliament of India in 1961. The faculty members actively engage in cutting-edge research in their areas of interest, often in collaboration with research scholars, doctoral scholars, and other students. The research ecosystem encompasses fundamental research in pure sciences, applied research in engineering disciplines, and interdisciplinary research addressing complex societal challenges. The institute encourages a culture of innovation and entrepreneurship, providing students and faculty with opportunities to translate research into practical applications. The IIT Madras Research Park, established with the intention of bringing together innovators, experienced professionals, and aspiring start-ups under one roof, serves as a perfect springboard for innovation and research. With state-of-the-art facilities and access to the brightest minds at IIT, the research park provides strategic opportunities for entrepreneurs and researchers to set up their R&D facilities and leverage the expertise of globally-renowned faculties, research scholars, and students. Modern laboratories and well-stocked libraries assist learners and teachers in carrying out innovative research across various domains.",
+        "sources": "[web:1][web:21][web:32][web:33]"
+      },
+      "academic_excellence": {
+        "title": "Teaching and Learning Methodology",
+        "pedagogy": "IIT Madras follows a rigorous academic curriculum that balances theoretical knowledge with practical application. The teaching methodology emphasizes conceptual understanding, problem-solving skills, and analytical thinking. Faculty members, recognized for their international repute, employ diverse pedagogical approaches including lectures, tutorials, laboratory sessions, project-based learning, and case studies. The curriculum is designed to equip students with the ability to handle real-world challenges through research opportunities and industry-specific projects. Assessment is conducted through multiple modes including frequent quizzes, mid-semester examinations, end-semester examinations, and assignments, ensuring continuous evaluation of student learning. The academic setup assists in developing analytical and problem-solving skills necessary for professional careers. Students benefit from small class sizes in advanced courses, enabling personalized attention and in-depth discussions. The institute maintains high academic standards with rigorous evaluation criteria while providing support systems to help students excel. Professors are known to be student-friendly and approachable, starting teaching from basics to ensure comprehensive understanding. The quality of teaching is consistently rated highly by students and alumni, with faculty members being praised for their knowledge, clarity in concept delivery, and ability to clarify doubts effectively.",
+        "sources": "[web:26][web:29]"
+      },
+      "technological_advancement": {
+        "title": "Infrastructure and Technological Resources",
+        "technology": "IIT Madras provides comprehensive technological infrastructure to support academic and research activities. The campus is equipped with high-speed Wi-Fi connectivity available across academic buildings, hostels, library, and common areas, enabling seamless access to digital resources. Students have access to computer facilities in libraries and departments, with sufficient equipment for those who cannot afford personal computers. Every classroom is equipped with modern projectors and audio-visual aids to facilitate effective teaching. The Central Library houses an extensive collection of approximately 20,000 books covering all disciplines of science, engineering, technology, humanities, and social sciences, along with digital resources, journals, and research publications. Hostel libraries provide additional collections including general books, fiction, and recreational reading materials. The institute maintains well-equipped centralized facilities for advanced research, including sophisticated analytical instruments, computational facilities, and specialized equipment accessible to researchers across departments. The academic zone features well-equipped laboratories that provide hands-on experience in various engineering and science disciplines. Regular maintenance and upgrades ensure that infrastructure remains contemporary and adequate for evolving educational and research needs.",
+        "sources": "[web:17][web:29][web:33]"
+      },
+      "student_life": {
+        "title": "Campus Life and Student Experience",
+        "campus_culture": "Campus life at IIT Madras is recognized as one of the most enriching aspects of the student experience. The diverse student population, comprising individuals from all over India and abroad, creates a vibrant multicultural environment that fosters learning beyond academics. The institute's residential nature ensures that students live, study, and grow together, forming lifelong friendships and professional networks. The campus provides a peaceful and modern lifestyle to students, with living spaces cleaned regularly and maintained to high standards. Students have access to multiple dining options including mess facilities in hostels and food courts offering diverse cuisines from all over India. The campus culture is characterized by active participation in technical festivals, cultural events, sports competitions, and various clubs and student organizations. Shaastra, the annual technical festival, and Saarang, the cultural festival, are major events that attract participants from institutions nationwide. Students can join numerous clubs ranging from robotics and coding to photography, music, dance, and drama. The unique 'Insti lingo' - IIT Madras's indigenous vocabulary - symbolizes the creativity and camaraderie among students. The open-air theatre near hostels screens movies by the film club every weekend, providing recreational opportunities. The strong alumni network offers mentorship and career guidance to current students.",
+        "sources": "[web:2][web:17][web:26]"
+      },
+      "diversity_and_inclusion": {
+        "title": "Diversity, Inclusion and Social Impact",
+        "inclusion_initiatives": "IIT Madras is committed to fostering diversity and inclusion across all dimensions of campus life. The institute admits students from all states of India, creating a geographically diverse student body that enriches campus culture through varied perspectives and experiences. Gender diversity has been a focus area since 1966 when the first women students were admitted, and the institute continues to encourage female participation in STEM education through various initiatives. The admission process follows government-mandated reservation policies ensuring representation for Scheduled Castes (SC), Scheduled Tribes (ST), Other Backward Classes (OBC), Economically Weaker Sections (EWS), and Persons with Disabilities (PwD), making quality education accessible to students from all backgrounds. The institute has also opened doors to international students, with provisions for foreign nationals in undergraduate and postgraduate programs, contributing to the global character of the campus. IIT Madras has been carrying out several social impact programs to foster inclusive growth and address societal challenges. These initiatives leverage the institute's research capabilities and student talent to develop solutions for rural development, sustainable technology, healthcare accessibility, and educational outreach. The Outreach and Inclusivity parameter in NIRF rankings reflects the institute's commitment to these values.",
+        "sources": "[web:3][web:19]"
+      },
+      "rankings_and_recognition": {
+        "title": "National and International Recognition",
+        "achievements": "IIT Madras has achieved remarkable success in national and international rankings, establishing its reputation as one of the world's leading technological universities. The institute has held the first position in the National Institutional Ranking Framework (NIRF) Engineering category continuously since 2016, and has also topped the Overall category in multiple years, most recently securing first place in both Engineering and Overall categories in NIRF 2024. In the QS World University Rankings 2023, IIT Madras was ranked 250th globally, improving by five places from 255th in 2022, and ranked fourth among Indian institutions after IISc Bangalore, IIT Bombay, and IIT Delhi. In the QS World University Rankings by Subject for Engineering and Technology 2023, IIT Madras achieved an impressive 68th position globally. The institute secured second position in both Innovation and Research categories in NIRF 2022, highlighting its strong research output and innovative capabilities. IIT Madras received 'Bronze' certification in Sustainable Development Goals (SDGs), recognizing its contributions to sustainable development. The institute was ranked first in the Atal Ranking of Institutions on Innovation Achievements (ARIIA) 2021. In other international rankings, IIT Madras featured at 120th position in Times Higher Education Asia Rankings 2019, 129th in US News Best Global University in Asia 2020, and 17th in QS BRICS University Rankings 2020.",
+        "sources": "[web:16][web:19]"
+      },
+      "milestones": {
+        "title": "Major Milestones and Achievements",
+        "key_events": "IIT Madras celebrated its Golden Jubilee in 2009, marking 50 years of academic excellence and contribution to nation-building through technological education and research. The Diamond Jubilee was celebrated in 2019, commemorating 60 years of sustained excellence. Over the decades, the institute has achieved numerous milestones in research, innovation, and social impact. The consistent top ranking in NIRF since 2016 represents sustained institutional excellence across multiple parameters including teaching, research, graduation outcomes, and perception. The designation as an Institute of Eminence represents recognition of IIT Madras as one of India's world-class institutions with potential for global leadership in education and research. Faculty members have received numerous national and international awards for their research contributions, including prestigious fellowships from academies of science and engineering. Several women professors at IIT Madras have won awards for their significant contributions to research, including lifetime achievement awards. Students and alumni have excelled in diverse fields, with many becoming successful entrepreneurs, researchers, and leaders in industry and academia globally. The institute has produced innovations that have been commercialized and have made tangible impact on society.",
+        "sources": "[web:3][web:8][web:28]"
+      },
+      "future_vision": {
+        "title": "Vision and Future Directions",
+        "strategic_goals": "IIT Madras continues to evolve with ambitious goals for the future, focusing on maintaining and enhancing its leadership position in engineering education and research. The institute aims to strengthen its research ecosystem by fostering greater industry collaboration, pursuing cutting-edge research in emerging areas such as artificial intelligence, machine learning, data science, sustainable energy, biotechnology, nanotechnology, and advanced materials. Expansion of interdisciplinary research is a priority, with initiatives to create more collaborative platforms where different departments and centers work together to address complex challenges. The institute is committed to enhancing its global footprint through increased international collaborations, joint degree programs, faculty and student exchange programs, and partnerships with leading universities worldwide. Entrepreneurship and innovation are being promoted through enhanced support for startups, incubation facilities at the Research Park, and integration of entrepreneurial thinking into the curriculum. IIT Madras is also focusing on online education and digital learning through initiatives like the BS Degree Programme in Data Science and Applications, making quality IIT education accessible to learners who cannot attend on-campus programs. Social impact remains a core focus, with continued emphasis on developing solutions for national challenges in areas such as healthcare, agriculture, water resources, and sustainable development.",
+        "sources": "[web:2][web:10]"
+      }
+    }
+  },
+  "courses_and_fee": {
+    "word_count": "6000",
+    "content": {
+      "introduction": {
+        "title": "Academic Programs Overview",
+        "description": "IIT Madras offers a comprehensive range of academic programs spanning undergraduate, postgraduate, doctoral, and specialized courses across engineering, sciences, humanities, and management disciplines. The institute's diverse program portfolio caters to students at different stages of their academic journey, from school graduates entering undergraduate programs to experienced professionals pursuing executive education. The fee structure at IIT Madras is designed to be affordable while maintaining high-quality education standards, with government support ensuring that financial constraints do not prevent deserving students from accessing premier technical education. The institute offers various degree programs including Bachelor of Technology (B.Tech), Dual Degree (B.Tech + M.Tech), Bachelor of Science (B.Sc), Integrated Master of Science (BS + MS), Master of Technology (M.Tech), Master of Science (M.Sc), Master of Arts (M.A), Master of Business Administration (MBA), Executive MBA (EMBA), and Doctor of Philosophy (Ph.D). Each program has specific eligibility criteria, duration, fee structure, and admission process designed to attract talented students and provide them with world-class education.",
+        "sources": "[web:6][web:34]"
+      },
+      "undergraduate_btech": {
+        "title": "Bachelor of Technology (B.Tech) Programs",
+        "details": {
+          "duration": "4 years",
+          "total_fee": "₹9.39 lakhs (for complete course duration)",
+          "previous_fee": "₹9.05 lakhs in 2024-2025",
+          "eligibility": "10+2 with 75% aggregate marks + JEE Advanced qualification",
+          "admission_process": "Admission to B.Tech programs at IIT Madras is based exclusively on performance in JEE Advanced, one of the most competitive engineering entrance examinations in India. Candidates must first qualify JEE Main and rank among the top 2.5 lakh candidates to be eligible to appear for JEE Advanced. JEE Advanced is conducted annually in May, consisting of two papers (Paper 1 and Paper 2), each of three hours duration. The exam covers Physics, Chemistry, and Mathematics based on Class 11 and 12 CBSE syllabus. Seat allocation is done through Joint Seat Allocation Authority (JoSAA) based on JEE Advanced rank, category, and candidate preferences.",
+          "specializations": "IIT Madras offers B.Tech programs in various engineering disciplines including Aerospace Engineering (₹9.39 lakhs total fee), Computer Science and Engineering, Electrical Engineering, Mechanical Engineering, Civil Engineering, Chemical Engineering, Metallurgical and Materials Engineering, Engineering Physics, Naval Architecture and Ocean Engineering, and Biotechnology. Each specialization has specific seat allocation and cutoff ranks determined by JoSAA counselling process.",
+          "curriculum": "The B.Tech curriculum is rigorous and comprehensive, balancing theoretical knowledge with practical skills. Students undergo foundation courses in mathematics, physics, chemistry, and basic engineering in the first year, followed by core departmental courses, electives, laboratory work, projects, and internships in subsequent years. The curriculum includes frequent quizzes, mid-semester exams, end-semester exams, and assignments for continuous evaluation."
+        },
+        "sources": "[web:6][web:7][web:34]"
+      },
+      "dual_degree": {
+        "title": "Dual Degree (B.Tech + M.Tech) Programs",
+        "details": {
+          "duration": "5 years",
+          "total_fee": "₹9.39 lakhs (B.Tech component for first 8 semesters)",
+          "mtech_fee": "M.Tech fees applicable from 9th semester onwards",
+          "eligibility": "10+2 with 75% aggregate + JEE Advanced qualification",
+          "admission_process": "Dual degree programs admit students through JEE Advanced, similar to B.Tech programs. Students can also opt for dual degree after completing initial years of B.Tech based on academic performance and departmental provisions.",
+          "program_structure": "The dual degree program integrates undergraduate and postgraduate education in a seamless five-year curriculum. Students complete B.Tech level courses in the first three to four years and M.Tech level courses with specialization and research project in the final year to 18 months. This integrated approach allows students to gain advanced knowledge and research experience while completing both degrees in a shorter time frame than pursuing them separately. Graduates receive both B.Tech and M.Tech degrees upon completion.",
+          "specializations": "Dual degree programs are offered in various engineering disciplines, allowing students to specialize in areas such as Computer Science, Electrical Engineering, Mechanical Engineering, and other departments based on availability and department-specific offerings."
+        },
+        "sources": "[web:6][web:34]"
+      },
+      "bsc_programs": {
+        "title": "Bachelor of Science (B.Sc) Programs",
+        "details": {
+          "duration": "4 years",
+          "total_fee": "₹9.39 lakhs",
+          "eligibility": "10+2 with 60% aggregate + JEE Advanced or IISER Entrance Exam or Board examinations (CBSE 12th, ISC, Tamil Nadu 12th)",
+          "admission_routes": "IIT Madras offers multiple admission pathways for B.Sc programs. Students qualifying through JEE Advanced can secure admission, making science education accessible to top engineering entrance exam performers. Alternative routes include IISER Entrance Exam and merit-based admission through board examination scores (CBSE 12th, ISC, Tamil Nadu 12th).",
+          "specializations": "B.Sc programs are offered in fundamental science disciplines, providing students with strong foundation in theoretical and experimental sciences. The programs emphasize research methodology, critical thinking, and scientific inquiry.",
+          "career_prospects": "B.Sc graduates from IIT Madras pursue diverse career paths including research in academic and industrial laboratories, higher education (M.Sc, Ph.D), data science and analytics, scientific positions in government organizations, and interdisciplinary fields combining science with technology and management."
+        },
+        "sources": "[web:6][web:34]"
+      },
+      "bs_ms_integrated": {
+        "title": "Integrated BS + MS Programs",
+        "details": {
+          "duration": "5 years",
+          "total_fee": "₹9.39 lakhs",
+          "eligibility": "10+2 + JEE Advanced qualification",
+          "program_structure": "The integrated BS + MS program provides students with comprehensive education in science disciplines over five years, combining undergraduate and postgraduate level courses. The program includes foundation courses, core specialization subjects, electives, laboratory work, and a substantial research project in the final year. Students develop strong research skills and theoretical understanding preparing them for careers in research and development.",
+          "research_component": "A significant component of the BS + MS program is the research project undertaken in the final semesters, where students work under faculty guidance on original research problems, contributing to scientific knowledge and publications.",
+          "admission": "Admission is through JEE Advanced, with seat allocation through JoSAA counselling based on rank and preferences."
+        },
+        "sources": "[web:6][web:34]"
+      },
+      "mtech_programs": {
+        "title": "Master of Technology (M.Tech) Programs",
+        "details": {
+          "duration": "2 years",
+          "total_fee": "₹1.82 lakhs (for complete 2-year duration)",
+          "previous_fee": "₹49,200 in 2024-2025",
+          "eligibility": "Bachelor's degree in Engineering/Technology + GATE qualification",
+          "admission_process": "M.Tech admission at IIT Madras is primarily based on GATE (Graduate Aptitude Test in Engineering) scores. Candidates must have a valid GATE score in the relevant discipline and meet minimum qualifying marks criteria. The selection process considers GATE scores, academic performance in bachelor's degree, and sometimes personal interviews or written tests depending on the department. GATE is conducted annually in February across multiple engineering disciplines.",
+          "popular_specializations": "Popular M.Tech specializations at IIT Madras include Web-Enabled Technologies (₹1.82 lakhs total fee), Industrial Mathematics & Scientific Computing (₹1.82 lakhs), Computer Science and Engineering, Data Science, Thermal Engineering, Manufacturing Engineering, Structural Engineering, Communication Engineering, VLSI Design, Robotics, and numerous other specialized areas across all engineering departments.",
+          "program_features": "M.Tech programs combine advanced coursework with significant research components. Students undertake a major research project or thesis in their final semesters, contributing to the advancement of knowledge in their specialization. The curriculum includes core courses, electives, seminars, and project work designed to develop both theoretical understanding and practical skills in cutting-edge technologies."
+        },
+        "sources": "[web:6][web:34]"
+      },
+      "msc_programs": {
+        "title": "Master of Science (M.Sc) Programs",
+        "details": {
+          "duration": "2-5 years (typically 2 years for full-time program)",
+          "total_fee": "₹1.82 lakhs",
+          "eligibility": "Bachelor's degree in Science (B.Sc) with 55% aggregate + IIT JAM qualification or 10+2 with 75% for integrated programs + JEE Advanced/IIT JAM",
+          "admission_process": "M.Sc admission at IIT Madras is conducted through IIT JAM (Joint Admission Test for M.Sc), a national level entrance examination conducted annually. IIT JAM tests candidates' knowledge in subjects like Physics, Chemistry, Mathematics, Biotechnology, and other science disciplines. The exam is conducted in February, and admissions are done through centralized counselling. Candidates must have completed or be in the final year of B.Sc with minimum 55% aggregate marks.",
+          "specializations": "M.Sc programs are offered in Physics, Chemistry, Mathematics, and other science disciplines. These programs provide advanced theoretical and practical training in fundamental sciences.",
+          "program_structure": "The M.Sc curriculum includes advanced coursework in the chosen discipline, laboratory sessions, seminars, and a dissertation or project in the final semester. Students develop deep understanding of scientific principles and research methodologies."
+        },
+        "sources": "[web:6][web:34]"
+      },
+      "ma_programs": {
+        "title": "Master of Arts (M.A) Programs",
+        "details": {
+          "duration": "2 years",
+          "total_fee": "₹1.62 lakhs",
+          "eligibility": "Bachelor's degree in relevant discipline",
+          "admission_process": "M.A admission at IIT Madras is based on bachelor's degree performance and entrance examinations or interviews as specified by the Department of Humanities and Social Sciences. The specific admission criteria vary depending on the specialization.",
+          "specializations": "M.A programs are offered in various humanities and social sciences disciplines including Development Studies, English Studies, Philosophy, and other areas. These programs provide interdisciplinary perspectives combining humanities with technology and social sciences.",
+          "unique_features": "The M.A programs at IIT Madras benefit from the institute's technological focus, allowing students to explore intersections between humanities, social sciences, and technology. Graduates pursue careers in research, policy-making, education, media, and development sectors."
+        },
+        "sources": "[web:6]"
+      },
+      "mba_programs": {
+        "title": "Master of Business Administration (MBA) Programs",
+        "details": {
+          "duration": "2 years",
+          "total_fee": "₹11.62 lakhs",
+          "alternative_fee_range": "₹1.3 lakhs to ₹17 lakhs depending on program",
+          "eligibility": "Bachelor's degree with 60% aggregate + CAT qualification",
+          "admission_process": "MBA admission at the Department of Management Studies (DoMS), IIT Madras, is based entirely on CAT (Common Admission Test) scores. Candidates must have a bachelor's degree or equivalent professional qualification with minimum 60% marks (first class). SC/ST/PwD candidates need minimum 55%. IIT graduates with CGPA of 8.0 or above are exempted from CAT requirement. The selection process includes Reflective Writing, Personal Interview, and evaluation of composite score considering CAT performance, past academic record, work experience, academic and gender diversity, and other achievements. CAT is conducted annually in November-December.",
+          "batch_composition": "The typical MBA batch at IIT Madras comprises approximately 80-85 students with diverse backgrounds. About 48% are fresher students while 52% have work experience, creating a rich learning environment with varied perspectives.",
+          "curriculum": "The MBA curriculum focuses on building leadership, innovation, and analytical skills through case studies, industry projects, internships, and practical learning. The program emphasizes both theoretical knowledge and real-world application."
+        },
+        "sources": "[web:6][web:34][web:36]"
+      },
+      "emba_programs": {
+        "title": "Executive MBA (EMBA) Programs",
+        "details": {
+          "duration": "2-5 years (part-time/executive format)",
+          "total_fee": "₹13.5 lakhs to ₹17 lakhs",
+          "eligibility": "Bachelor's degree with 60% aggregate + significant work experience",
+          "program_structure": "Executive MBA programs are designed for working professionals who wish to enhance their management skills while continuing their careers. The program schedule accommodates working professionals through weekend classes, online modules, and intensive sessions. The curriculum covers advanced management topics, leadership development, strategic thinking, and business analytics.",
+          "target_audience": "EMBA programs target mid-career and senior professionals seeking to advance to leadership positions, entrepreneurs looking to strengthen business management skills, and technical professionals transitioning to management roles."
+        },
+        "sources": "[web:6]"
+      },
+      "phd_programs": {
+        "title": "Doctor of Philosophy (Ph.D) Programs",
+        "details": {
+          "duration": "3-5 years (typically minimum 3 years)",
+          "total_fee": "₹1.45 lakhs (for 3 years duration)",
+          "previous_fee": "₹1.24 lakhs in 2024-2025",
+          "eligibility": "Master's degree in relevant discipline (Postgraduation) or Bachelor's degree with excellent academic record for direct Ph.D admission",
+          "admission_process": "Ph.D admission at IIT Madras is conducted through department-specific procedures. Candidates must have completed or be in the final year of postgraduate degree (M.Tech, M.Sc, M.A, MBA) with good academic record. Some departments admit exceptional candidates directly after bachelor's degree. Selection is based on written test, interview, and evaluation of research aptitude. Candidates with valid GATE/NET/CSIR/UGC fellowship are given preference.",
+          "popular_specializations": "Popular Ph.D specializations at IIT Madras include Political Science (₹1.45 lakhs), Biotechnology (₹1.45 lakhs), Computer Science, Mechanical Engineering, Electrical Engineering, Chemical Engineering, Physics, Chemistry, Mathematics, and all other departments and research centers.",
+          "research_areas": "IIT Madras faculty conduct research in cutting-edge areas including artificial intelligence and machine learning, robotics and automation, nanotechnology and materials science, biotechnology and biomedical engineering, sustainable energy and environment, computational mechanics, aerospace technologies, ocean engineering, data science and analytics, social sciences and policy research, and numerous interdisciplinary domains."
+        },
+        "sources": "[web:6][web:21][web:34]"
+      },
+      "diploma_certification": {
+        "title": "Diploma and Certification Programs",
+        "details": {
+          "diploma_fee": "₹14,000",
+          "certification_fee": "₹1.77 lakhs",
+          "eligibility": "10+2 for most diploma and certification programs",
+          "program_types": "IIT Madras offers various diploma and certification programs in specialized areas, providing skill development and professional training. These short-duration programs cater to working professionals, students seeking additional skills, and individuals looking for career transitions.",
+          "delivery_mode": "Many diploma and certification programs are offered through online or blended learning formats, making quality IIT education accessible to learners who cannot attend on-campus programs."
+        },
+        "sources": "[web:6]"
+      },
+      "online_programs": {
+        "title": "Online and Distance Learning Programs",
+        "details": {
+          "bs_data_science": "IIT Madras offers a BS Degree Programme in Data Science and Applications through online mode, enabling students across India and abroad to access IIT education. Candidates who have qualified JEE Advanced in the current year are deemed to have directly qualified and can register for courses in the Foundation Level.",
+          "accessibility": "The online programs are designed to make IIT Madras education accessible to learners who cannot attend on-campus programs due to geographic, financial, or other constraints. The programs maintain the same academic rigor as on-campus offerings.",
+          "certification": "Students completing online programs receive certificates and degrees from IIT Madras, recognized nationally and internationally."
+        },
+        "sources": "[web:10]"
+      },
+      "fee_payment_system": {
+        "title": "Fee Structure and Payment System",
+        "details": {
+          "payment_portal": "IIT Madras has implemented an Integrated Fee Payment Portal (https://fees.iitm.ac.in/) for streamlined fee payment. This portal enables payment of Institute fees (including outstanding), Hostel fees (including outstanding), Advance Dining charges, and Optional fees for events like Shaastra, Saarang, and E-Summit.",
+          "payment_features": "The portal allows payment by students or their parents/guardians. Passcode is sent to students on their Institute email (smail). The portal facilitates submission of loan details for students availing education loans, enables refund/adjustment if excess credit is available, and is optimized for desktop and laptop view.",
+          "semester_fees": "Students/scholars are required to pay semester fees as per their category. Fee structures differ for Indian and foreign nationals. All students including HTTA/HTRA students must pay semester fees directly online. Dual degree students pay M.Tech fees from 9th semester onwards. Institute fees cannot be paid in installments; full fees must be paid before deadline, otherwise a penalty of ₹2,500 is charged for late payment.",
+          "bank_loans": "Students availing bank loans for Institute fees or Hostel fees must follow specific procedures and use designated bank account details available on the fee portal. The portal facilitates easy reconciliation of loan amounts.",
+          "fee_categories": "Fee structure includes tuition fees, hostel fees for residential students, dining charges (mess fees), optional event fees, and other miscellaneous charges as applicable. Day scholars must pay applicable fees as prescribed in Hostel Fee Circular even if not residing in hostels."
+        },
+        "sources": "[web:9]"
+      },
+      "scholarships_financial_aid": {
+        "title": "Scholarships and Financial Assistance",
+        "details": {
+          "government_scholarships": "Students from economically weaker sections and reserved categories are eligible for various government scholarships and fee waivers. SC/ST students often receive full fee remission and stipends. Merit-cum-means scholarships are available to support deserving students from economically disadvantaged backgrounds.",
+          "institute_support": "IIT Madras provides various forms of financial assistance to ensure that no deserving student is denied education due to financial constraints. Students can avail education loans from designated banks with support from the institute.",
+          "research_fellowships": "Ph.D and research students receive monthly fellowships/stipends. Students with GATE/NET/CSIR/UGC fellowships receive financial support for pursuing research. Teaching Assistantships (TA) and Research Assistantships (RA) provide financial support to postgraduate students.",
+          "external_support": "Students can access external scholarships from corporate organizations, foundations, and government schemes like National Scholarship Portal schemes for SC/ST/OBC/Minority students."
+        },
+        "sources": "[web:9]"
+      },
+      "fee_comparison": {
+        "title": "Comparative Fee Analysis",
+        "programs_table": [
+          {
+            "Program": "B.Tech",
+            "Duration": "4 years",
+            "Total Fee": "₹9.39 Lakhs",
+            "Eligibility": "10+2 with 75% + JEE Advanced"
+          },
+          {
+            "Program": "B.Tech + M.Tech (Dual Degree)",
+            "Duration": "5 years",
+            "Total Fee": "₹9.39 Lakhs (+ M.Tech fees from 9th sem)",
+            "Eligibility": "10+2 with 75% + JEE Advanced"
+          },
+          {
+            "Program": "B.Sc",
+            "Duration": "4 years",
+            "Total Fee": "₹9.39 Lakhs",
+            "Eligibility": "10+2 with 60% + JEE Advanced/IISER/Boards"
+          },
+          {
+            "Program": "BS + MS",
+            "Duration": "5 years",
+            "Total Fee": "₹9.39 Lakhs",
+            "Eligibility": "10+2 + JEE Advanced"
+          },
+          {
+            "Program": "M.Tech",
+            "Duration": "2 years",
+            "Total Fee": "₹1.82 Lakhs",
+            "Eligibility": "Graduation + GATE"
+          },
+          {
+            "Program": "M.Sc",
+            "Duration": "2 years",
+            "Total Fee": "₹1.82 Lakhs",
+            "Eligibility": "Graduation with 55% + IIT JAM"
+          },
+          {
+            "Program": "M.A",
+            "Duration": "2 years",
+            "Total Fee": "₹1.62 Lakhs",
+            "Eligibility": "Graduation"
+          },
+          {
+            "Program": "MBA",
+            "Duration": "2 years",
+            "Total Fee": "₹11.62 Lakhs",
+            "Eligibility": "Graduation + CAT"
+          },
+          {
+            "Program": "EMBA",
+            "Duration": "2-5 years",
+            "Total Fee": "₹13.5 - 17 Lakhs",
+            "Eligibility": "Graduation with 60%"
+          },
+          {
+            "Program": "Ph.D",
+            "Duration": "3-5 years",
+            "Total Fee": "₹1.45 Lakhs",
+            "Eligibility": "Postgraduation"
+          },
+          {
+            "Program": "Diploma",
+            "Duration": "Variable",
+            "Total Fee": "₹14,000",
+            "Eligibility": "10+2"
+          },
+          {
+            "Program": "Certification",
+            "Duration": "Variable",
+            "Total Fee": "₹1.77 Lakhs",
+            "Eligibility": "10+2"
+          }
+        ],
+        "sources": "[web:6]"
+      }
+    }
+  },
+  "admissions": {
+    "word_count": "4000",
+    "content": {
+      "overview": {
+        "title": "Admissions Process Overview",
+        "description": "The admission process at IIT Madras is highly competitive and merit-based, designed to identify the brightest and most talented students from across India and abroad. Different programs have specific admission criteria and entrance examination requirements, ensuring that selected candidates possess the necessary aptitude and academic preparation for rigorous technical education. The institute admits students to various undergraduate, postgraduate, and doctoral programs through nationally recognized entrance examinations including JEE Advanced, GATE, IIT JAM, CAT, and other discipline-specific tests. The admission process is transparent, following strict timelines and procedures established by the institute and regulatory bodies. International students are also admitted through designated pathways, contributing to the diversity of the student community. IIT Madras follows reservation policies as mandated by the Government of India, ensuring representation for SC, ST, OBC, EWS, and PwD categories. The admissions are conducted centrally through Joint Seat Allocation Authority (JoSAA) for undergraduate programs and through department-specific processes for postgraduate and doctoral programs.",
+        "sources": "[web:7][web:34]"
+      },
+      "btech_admissions": {
+        "title": "B.Tech Admissions Process",
+        "jee_advanced_pathway": {
+          "entrance_exam": "JEE Advanced is the sole entrance examination for B.Tech admission at IIT Madras and all other IITs. Conducted annually by one of the IITs on a rotational basis under the Joint Admission Board (JAB), the exam assesses candidates' understanding of Physics, Chemistry, and Mathematics based on Class 11 and 12 CBSE and equivalent board syllabi.",
+          "eligibility_criteria": "To be eligible for JEE Advanced 2025, candidates must first qualify JEE Main 2025 and rank among the top 2,50,000 candidates. The age limit and number of attempts restrictions apply. Candidates who have previously been admitted to an IIT (except under certain conditions) are not eligible. Educational qualifications include passing 10+2 or equivalent examination with minimum 75% aggregate marks (65% for SC/ST candidates) in Physics, Chemistry, and Mathematics. Candidates appearing in 10+2 final examination can also apply.",
+          "exam_pattern": "JEE Advanced 2025 will be held on May 18, 2025, in two papers. Paper 1 is scheduled from 9:00 AM to 12:00 PM (3 hours duration) and Paper 2 from 2:30 PM to 5:30 PM (3 hours duration). Both papers are compulsory. The exam is conducted in Computer-Based Test (CBT) mode at designated centers across India and abroad. Each paper contains multiple-choice questions, numerical answer type questions, and other formats testing conceptual understanding and problem-solving abilities.",
+          "registration_process": "Registration for JEE Advanced 2025 commences on April 23, 2025, and concludes on May 2, 2025. Both Indian and International candidates can apply until May 2, 2025. The last date for fee payment is May 5, 2025. Candidates must register online through the official JEE Advanced website, fill the application form accurately, upload required documents, and pay the application fee.",
+          "seat_allocation": "After JEE Advanced results are announced, eligible candidates participate in Joint Seat Allocation Authority (JoSAA) counselling for seat allocation across all IITs, NITs, IIITs, and other participating institutions. JoSAA conducts multiple rounds of counselling where candidates fill their preferences for institute-program combinations. Seat allocation is based on JEE Advanced rank, category, and preferences filled. Candidates allocated seats must report to the institute, pay fees, and complete admission formalities within specified timelines."
+        },
+        "sources": "[web:7][web:34]"
+      },
+      "dual_degree_admissions": {
+        "title": "Dual Degree (B.Tech + M.Tech) Admissions",
+        "admission_route": "Dual Degree program admissions follow the same JEE Advanced pathway as B.Tech admissions. During JoSAA counselling, candidates can select dual degree programs as their preferences. The cutoff ranks for dual degree programs may differ from four-year B.Tech programs. Additionally, some departments allow existing B.Tech students to opt for dual degree programs after completing initial years, based on academic performance and departmental norms.",
+        "program_benefits": "The dual degree program allows students to complete both bachelor's and master's degrees in five years compared to six years if pursued separately, saving time and providing early exposure to advanced topics and research.",
+        "sources": "[web:6][web:34]"
+      },
+      "bsc_admissions": {
+        "title": "B.Sc Admissions Process",
+        "multiple_pathways": "IIT Madras admits students to B.Sc programs through multiple pathways: JEE Advanced (same process as B.Tech), IISER Entrance Exam for science programs, and merit-based admission through board examination scores (CBSE 12th, ISC, Tamil Nadu 12th). The eligibility requirement is 10+2 with minimum 60% aggregate marks. Multiple admission routes ensure that talented students interested in fundamental sciences can join IIT Madras.",
+        "application_process": "Candidates seeking admission through JEE Advanced follow the JoSAA counselling process. Those applying through board merit or IISER exam must check specific notifications and apply through designated portals as per institute guidelines.",
+        "sources": "[web:34]"
+      },
+      "mtech_admissions": {
+        "title": "M.Tech Admissions Process",
+        "gate_requirement": {
+          "entrance_exam": "GATE (Graduate Aptitude Test in Engineering) is the primary entrance examination for M.Tech admission at IIT Madras. GATE is conducted annually in February for multiple engineering and science disciplines. The exam tests comprehensive understanding of undergraduate level engineering subjects.",
+          "eligibility": "Candidates must have completed or be in the final year of Bachelor's degree in Engineering/Technology (B.E/B.Tech) or equivalent with minimum qualifying marks as specified by departments. Some departments accept B.Sc graduates with strong academic records for M.Tech programs in interdisciplinary areas.",
+          "application_process": "After GATE results are announced (typically in March), IIT Madras releases M.Tech admission notifications for various departments. Candidates must apply online to specific departments, providing GATE scores, academic records, and other required information. Departments shortlist candidates based on GATE scores and academic performance.",
+          "selection_process": "Shortlisted candidates are called for written tests and/or personal interviews conducted by respective departments. The final selection is based on composite score considering GATE percentile/score, academic performance in bachelor's degree, written test performance (if applicable), and interview assessment. Some departments may have additional requirements like statement of purpose or research proposals.",
+          "seat_reservation": "Seats are reserved for SC, ST, OBC-NCL, EWS, and PwD candidates as per government norms. Supernumerary seats may be available for sponsored candidates from industries and government organizations."
+        },
+        "sources": "[web:6][web:34]"
+      },
+      "msc_admissions": {
+        "title": "M.Sc Admissions Process",
+        "iit_jam_pathway": {
+          "entrance_exam": "IIT JAM (Joint Admission Test for M.Sc) is the entrance examination for M.Sc programs at IIT Madras and other IITs/IISc. IIT JAM is conducted annually for subjects including Physics, Chemistry, Mathematics, Biotechnology, Economics, Geology, and Mathematical Statistics.",
+          "important_dates": "For IIT JAM 2026: Application process from September 5, 2025 to September 20, 2025; Admit Card release on January 5, 2026; Exam Day on February 15, 2026; Result declaration on March 20, 2026.",
+          "eligibility": "Candidates must have completed or be in the final year of Bachelor's degree (B.Sc or equivalent) with minimum 55% aggregate marks (50% for SC/ST/PwD candidates). For integrated programs (BS+MS), candidates with 10+2 with 75% aggregate marks are eligible through JEE Advanced or IIT JAM.",
+          "counselling_process": "After IIT JAM results, centralized online counselling is conducted by the organizing IIT. Candidates fill their preferences for institutes and programs. Seat allocation is based on IIT JAM score, category, and preferences. Selected candidates must report to IIT Madras and complete admission formalities.",
+          "duration": "M.Sc programs typically have 2 years duration for full-time students, though some integrated programs may extend to 5 years."
+        },
+        "sources": "[web:6][web:34]"
+      },
+      "mba_admissions": {
+        "title": "MBA Admissions Process",
+        "cat_requirement": {
+          "entrance_exam": "CAT (Common Admission Test) conducted annually by IIMs is the entrance examination for MBA admission at IIT Madras Department of Management Studies (DoMS). CAT is held in November-December each year.",
+          "eligibility": "Candidates must have Bachelor's degree or equivalent professional qualification from a recognized university with minimum 60% marks (first class). SC/ST/PwD candidates need minimum 55%. Final year bachelor's students are eligible to apply with provisional admission until degree completion certificate submission. IIT graduates with CGPA of 8.0 or above are exempted from CAT requirement, recognizing their exceptional academic credentials.",
+          "selection_process": "The selection process is comprehensive and multi-staged. Candidates with valid CAT scores are shortlisted based on CAT percentiles and academic profile. Shortlisted candidates are invited for Reflective Writing and Personal Interview (PI). The final selection is based on Composite Score considering: CAT score (weighted heavily), Past academic performance (10th, 12th, bachelor's degree), Work experience (quality and duration), Academic diversity (engineering/non-engineering background), Gender diversity (to ensure balanced batch composition), and Other achievements (extracurricular, certifications, publications).",
+          "application_timeline": "For MBA admissions 2025: CAT Result Announcement in December 2024 (already announced); Online Application Submission period (closed on February 2, 2025); Selection Process in March 2025 (completed); Declaration of Admission Results expected in May 2025; Joining Date in July 2025; Orientation and Registration in July 2025; Pre-term Classes and Exam in July 2025; Classes Begin in July 2025.",
+          "batch_composition": "The MBA batch typically comprises 80-85 students with 48% fresher students and 52% students with work experience, creating diverse learning environment."
+        },
+        "sources": "[web:15][web:34][web:36]"
+      },
+      "phd_admissions": {
+        "title": "Ph.D Admissions Process",
+        "admission_routes": {
+          "regular_admission": "Ph.D admissions at IIT Madras are conducted twice a year (January and July cycles) by individual departments and research centers. Candidates must have Master's degree (M.Tech, M.Sc, M.A, MBA) in relevant discipline with good academic record. Some departments admit exceptional candidates directly after Bachelor's degree under the Direct Ph.D scheme.",
+          "eligibility": "Postgraduate degree with minimum 60% marks or equivalent CGPA (55% for SC/ST/PwD). Bachelor's degree with exceptional academic record for Direct Ph.D. Valid GATE/NET/CSIR/UGC/INSPIRE fellowship is advantageous.",
+          "selection_process": "Departments announce Ph.D admission notifications specifying research areas, available positions, and application procedures. Candidates apply online to specific departments with research proposals, statement of purpose, academic transcripts, and recommendation letters. Selection involves: Written test covering subject knowledge and research aptitude; Personal interview assessing research potential, subject knowledge, and motivation; Presentation of research interests and proposals. Final selection is based on performance in written test, interview, and academic credentials.",
+          "fellowship_support": "Selected Ph.D students receive monthly fellowship/stipend. Students with GATE/NET/CSIR/UGC fellowships receive support as per government norms. Institute fellowships are provided to students selected through departmental process. Teaching Assistantships and Research Assistantships provide additional financial support.",
+          "research_areas": "Departments offer Ph.D programs in diverse research areas including cutting-edge topics in engineering, sciences, management, and interdisciplinary domains. Prospective students should review faculty research interests before applying."
+        },
+        "sources": "[web:6][web:34]"
+      },
+      "international_admissions": {
+        "title": "International Students Admissions",
+        "eligibility_pathways": {
+          "foreign_nationals": "Foreign nationals (non-Indian citizens/non-OCIs) can apply for various programs at IIT Madras. For JEE Advanced, foreign nationals must clear JEE Main 2025 to be eligible for JEE Advanced 2025. They are not eligible for category-based reservations and must meet the same educational qualifications as Indian candidates. However, separate seat allocation with about 10% of seats reserved exists for foreign nationals. They must provide identification documents for both parents and meet guidelines set by the organizing IIT.",
+          "application_process": "International students apply through the Global Engagement (International Office) of IIT Madras. The Inbound team oversees all academic programs for international students from admission to graduation. Applications are reviewed based on academic credentials, standardized test scores, and other requirements specific to the program.",
+          "support_services": "The International Office organizes study tours, cultural trips, and programs to enhance students' academic and cultural experiences. They manage short-term mobility, full-time programs, research scholars, and semester exchange students coming to IIT Madras, serving as primary point of contact for all international students.",
+          "exchange_programs": "IIT Madras has semester exchange agreements with partner universities worldwide, allowing international students to study at IIT Madras for one or two semesters. Exchange students enroll in courses, participate in research, and experience Indian culture."
+        },
+        "sources": "[web:7][web:37]"
+      },
+      "online_admissions": {
+        "title": "Online Programs Admissions",
+        "bs_data_science": "For the BS Degree Programme in Data Science and Applications offered online, candidates who have qualified JEE Advanced in the current year are deemed to have directly qualified and can register for courses in the Foundation Level. Other candidates can apply through the program's specific admission process involving entrance tests and interviews.",
+        "accessibility": "Online programs make IIT Madras education accessible to students who cannot attend on-campus programs due to geographic, professional, or other constraints while maintaining academic rigor.",
+        "sources": "[web:10]"
+      },
+      "important_considerations": {
+        "title": "Important Admission Guidelines",
+        "key_points": {
+          "document_verification": "All candidates must submit authentic documents for verification. Providing false information leads to cancellation of admission at any stage.",
+          "medical_fitness": "Selected candidates must undergo medical examination and obtain fitness certificate from authorized medical practitioners before final admission.",
+          "fee_payment": "Candidates allocated seats must pay fees within specified deadlines to confirm admission. Late payment may result in cancellation of allotment.",
+          "reservation_policy": "IIT Madras follows Government of India reservation policies: 15% for SC, 7.5% for ST, 27% for OBC-NCL, 10% for EWS, and 5% horizontal reservation for PwD across all categories.",
+          "anti_ragging": "IIT Madras has zero-tolerance policy for ragging. All students must submit anti-ragging affidavits during admission.",
+          "counselling_participation": "Candidates must participate actively in counselling processes, report to institutes on allocated dates, and complete all formalities. Failure to report results in seat cancellation."
+        },
+        "sources": "[web:7][web:9][web:34]"
+      }
+    }
+  },
+  "placements": {
+    "word_count": "4000",
+    "content": {
+      "overview": {
+        "title": "Placements Overview",
+        "description": "IIT Madras has established an exceptional placement record, consistently attracting top companies from across the globe offering highly competitive compensation packages and career opportunities. The Placement and Internship Office serves as the nodal point of contact for companies seeking to establish fruitful relationships with IIT Madras, facilitating recruitment processes and ensuring excellent career outcomes for students. The placement process demonstrates the institute's commitment to preparing students for successful professional careers through rigorous academic training, industry exposure, internship opportunities, and skill development programs. The 2024-25 placement season has been particularly remarkable, with record-breaking packages and participation from leading multinational corporations, consulting firms, financial institutions, technology companies, and core engineering organizations. Students from various departments including Computer Science, Electrical Engineering, Mechanical Engineering, Chemical Engineering, and other disciplines secure excellent placement offers. The placement cell organizes comprehensive grooming and training sessions including resume building, interview preparation, group discussion practice, and personality development to enhance students' employability.",
+        "sources": "[web:11][web:12][web:18]"
+      },
+      "placement_2025": {
+        "title": "Placement Statistics 2025 (Phase 1)",
+        "highlights": {
+          "highest_package": "INR 4.3 Crore Per Annum offered by Jane Street, the global trading firm based in Hong Kong. This record-breaking package includes base salary, bonuses, and relocation benefits. This is a pre-placement offer (PPO) to a Computer Science Engineering student who completed an internship with the firm.",
+          "top_offers": "BlackRock, Glean, and Da Vinci offered packages exceeding INR 2 Crore Per Annum. APT Portfolio and Rubrik extended offers of over INR 1.4 Crore Per Annum. These international offers demonstrate the global recognition of IIT Madras graduates' capabilities.",
+          "status": "The placement session for 2025 batch is in the final phase and showing encouraging results. Complete placement data will be available once the season concludes.",
+          "mba_placements_2025": "MBA students achieved highest package of INR 35.5 LPA and average package of INR 17.9 LPA, representing strong performance in management placements."
+        },
+        "sources": "[web:15][web:18]"
+      },
+      "placement_2024": {
+        "title": "Placement Statistics 2023-24 (Academic Year)",
+        "statistics": {
+          "students_placed": "1,091 students placed in 256 companies during 2023-24 placements. This includes 764 UG students and 652 PG students as per IIT Madras NIRF 2025 overall report.",
+          "placement_percentage": "80% of B.Tech and dual degree students were placed, and 75% of PG students were placed during 2023-24 placement drives. The placement percentage of 97.86% was reported for eligible students seeking placements.",
+          "average_package": "INR 22 Lakhs Per Annum is the average package at IIT Madras in 2024, representing competitive compensation.",
+          "median_package": "INR 17.50 Lakhs Per Annum median salary, showing increase of 4.95% from previous year.",
+          "total_offers": "1,612 total placement offers were made during the placement drive from more than 480 companies visiting campus.",
+          "sector_distribution": "40% of students were placed in Core Engineering sector, 20% in Software/IT sector, with remaining in consulting, analytics, finance, and other sectors.",
+          "higher_studies": "153 students opted for higher studies instead of placements, pursuing MS/Ph.D programs at prestigious universities globally."
+        },
+        "sources": "[web:15][web:18][web:19]"
+      },
+      "mba_placements_2024": {
+        "title": "MBA Placements 2024 (DoMS)",
+        "statistics_table": [
+          {
+            "Particulars": "Total Number of Students",
+            "Statistics": "81"
+          },
+          {
+            "Particulars": "Fresher Students",
+            "Statistics": "48%"
+          },
+          {
+            "Particulars": "Students with Work Experience",
+            "Statistics": "52%"
+          },
+          {
+            "Particulars": "Placement Rate",
+            "Statistics": "100%"
+          },
+          {
+            "Particulars": "Highest CTC",
+            "Statistics": "
+
+[1](https://www.iitm.ac.in/the-institute/about-iit-madras/history)
+[2](https://www.iitm.ac.in/the-institute/about-iit-madras/overview)
+[3](https://en.wikipedia.org/wiki/IIT_Madras)
+[4](https://www.iitm.ac.in)
+[5](https://www.iitm.ac.in/campus-life/overview)
+[6](https://collegedunia.com/university/25881-iit-madras-indian-institute-of-technology-iitm-chennai/courses-fees)
+[7](https://www.vedantu.com/jee-advanced)
+[8](https://www.iitm.ac.in/the-institute/about-iit-madras/milestones)
+[9](https://www.iitm.ac.in/academics/academic-services/fees)
+[10](https://study.iitm.ac.in/es/admissions.html)
+[11](https://www.shiksha.com/college/iit-madras-indian-institute-of-technology-adyar-chennai-3031/placement)
+[12](https://placement.iitm.ac.in)
+[13](https://doms.iitm.ac.in/index.php/placements/placement-reports/final-placement-report)
+[14](https://motion.ac.in/blog/iit-madras-indian-institute-of-technology/)
+[15](https://studyriserr.com/college/24441-iit-madras-indian-institute-of-technology-iitm-chennai/placement)
+[16](https://collegedunia.com/university/25881-iit-madras-indian-institute-of-technology-iitm-chennai/ranking)
+[17](https://www.pagalguy.com/colleges/indian-institute-of-technology-madras/campus-facilities)
+[18](https://www.careers360.com/university/indian-institute-of-technology-madras/placement)
+[19](https://timesofindia.indiatimes.com/education/news/why-does-iit-madras-excel-in-the-qs-world-university-ranking-2025-and-nirf-ranking-2024/articleshow/114587800.cms)
+[20](https://www.iitm.ac.in/campus-life/hostel-life)
+[21](https://www.iitm.ac.in/research/research-areas)
+[22](https://www.iitm.ac.in/faculty)
+[23](https://mst.iitm.ac.in/faculty/)
+[24](https://www.iitm.ac.in/sites/default/files/Others/IITM%20Faculty%20Expertise-updated-24Feb2022.pdf)
+[25](https://www.iitm.ac.in/faculty-staff)
+[26](https://www.collegebatch.com/reviews/33327-indian-institute-of-technology-chennai)
+[27](https://www.iitm.ac.in/contact)
+[28](https://www.iitm.ac.in/happenings/press-releases-and-coverages/10-award-winning-women-professors-iit-madras-and-their)
+[29](https://www.careers360.com/university/indian-institute-of-technology-madras/reviews?page=5)
+[30](https://www.iitmfoundation.org/contact/)
+[31](https://research.iitm.ac.in/departments.html)
+[32](https://www.iitm.ac.in/research-park/iitm-research-park)
+[33](https://ioe.iitm.ac.in/infrastructure/)
+[34](https://www.shiksha.com/college/iit-madras-indian-institute-of-technology-adyar-chennai-3031/admission)
+[35](https://doms.iitm.ac.in/DoMS_2025/index.php/2023-04-25-04-41-27/international-collboration)
+[36](https://distanceeducationschool.com/blog/iit-madras-mba-admission/)
+[37](https://ge.iitm.ac.in/assets/pdf/oge-handbook.pdf)

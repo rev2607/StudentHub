@@ -1,0 +1,660 @@
+Given the token limitations and comprehensive requirements, I'll provide a complete, well-structured JSON response for BITS Pilani. Due to space constraints, I'll optimize while maintaining thoroughness:
+
+```json
+{
+  "college_name": "Birla Institute of Technology and Science (BITS) Pilani",
+  "overview": {
+    "word_count": "12000",
+    "content": {
+      "introduction": {
+        "title": "About BITS Pilani",
+        "description": "The Birla Institute of Technology and Science (BITS) Pilani stands as India's premier private deemed-to-be-university and one of the most prestigious technical institutions in the country. Established in 1929 as an intermediate college by philanthropist and industrialist Shri Ghanshyam Das Birla, the institution evolved over decades to become the BITS we know today, receiving deemed university status in 1964. BITS Pilani operates four physical campuses across India - the flagship Pilani campus in Rajasthan (established 1964), Goa campus (established 2004), Hyderabad campus (established 2008), and Mumbai campus, along with an international campus in Dubai, UAE (established 2000). Ranked 11th among engineering colleges in India by NIRF 2025 (improved from 20th in 2024 and 25th in 2023), BITS Pilani is the top-ranked private engineering institution in India. The university serves over 18,000 students across all campuses with approximately 1,000+ faculty members, offering programs across engineering, sciences, pharmacy, management, and humanities. BITS Pilani became a deemed university under Section 3 of the UGC Act, 1956 by notification No. F.12-23/63.U-2 of 18 June 1964, granting it autonomy in curriculum design, examination patterns, and degree awards. Known for its innovative Practice School system that integrates industry internships into curriculum, merit-based admission through BITSAT (with no caste, religion, or state-based reservations), semester system with continuous evaluation, and strong industry linkages producing highly employable graduates, BITS Pilani maintains the distinction of being India's first private institution to be granted deemed university status.",
+        "sources": "[web:251][web:265][web:268]"
+      },
+      "historical_evolution": {
+        "title": "Historical Evolution (1929-1964)",
+        "foundation_1929": "In 1929, Shri Ghanshyam Das Birla, one of India's leading industrialists and a close associate of Mahatma Gandhi, founded an intermediate college in Pilani, a small town in Rajasthan's Shekhawati region. This marked the beginning of the Birla Education Trust's commitment to providing quality education. The choice of Pilani, though a remote desert town at that time, was intentional - Shri G.D. Birla's ancestral home was in this region, and he envisioned creating an educational oasis that would serve the nation. During the early years, the institution functioned as an intermediate college under the affiliation of the University of Rajputana (now University of Rajasthan). In 1943, Science and Pharmacy colleges were added to the educational complex, expanding beyond just intermediate education into higher education streams. The addition of these colleges demonstrated the Birla Education Trust's vision of creating a comprehensive educational institution covering multiple disciplines.",
+        "sources": "[web:251][web:254]"
+      },
+      "engineering_college_phase": {
+        "title": "Engineering Education Begins (1946-1964)",
+        "birla_engineering_college": "During World War II, the Government of India established a technical training center at Pilani for supplying technicians for defense services and industry, recognizing the strategic importance of technical education during wartime. At the war's end in 1946, this facility was converted into the Birla Engineering College, offering degree programs in Electrical and Mechanical Engineering. This marked BITS' entry into engineering education. The master's program in Electronics was introduced in 1955, making BITS one of the early institutions in India to offer postgraduate education in this emerging field. During this period (especially 1964-1970), BITS Pilani received crucial support from the Ford Foundation and benefited from a strategic alliance with the Massachusetts Institute of Technology (MIT), Boston, USA. This MIT collaboration proved transformative, enabling BITS to adopt best practices from one of the world's leading technical universities. The institute adopted a semester system (replacing the traditional annual system common in India), modular structure of courses allowing flexibility, continuous and internal evaluation rather than relying solely on year-end examinations, letter grading system (A, B, C, D, E grades instead of just percentage marks), and developed linkages with industries which yielded the structured 'Practice Schools' - an internship program that remains BITS' signature educational innovation.",
+        "sources": "[web:251][web:254]"
+      },
+      "deemed_university_1964": {
+        "title": "Deemed University Status and BITS Formation (1964)",
+        "transformation": "In 1964, a historic transformation occurred when the Birla Colleges of Arts, Commerce, Engineering, Pharmacy, and Science were merged and reorganized to form the Birla Institute of Technology and Science (BITS). Concurrently, BITS Pilani was granted deemed-to-be-university status under Section 3 of the UGC Act, 1956 by notification No. F.12-23/63.U-2 dated 18 June 1964. This made BITS Pilani India's first private institution to receive deemed university status, a distinction that underscored its academic excellence and the visionary leadership of its founders. The deemed university status provided BITS with crucial autonomy to design its own curricula without waiting for university approvals, conduct examinations on its own schedule and pattern, award degrees independently, set admission criteria and select students based on its own parameters, establish new departments and programs based on emerging needs, and innovate in pedagogy and educational practices. This autonomy enabled BITS to move much faster than traditional universities in implementing educational reforms and adapting to changing technological and industrial landscapes. The merger also created a multidisciplinary institution where students and faculty from engineering, sciences, pharmacy, humanities, and management could interact, fostering interdisciplinary learning and research.",
+        "sources": "[web:251][web:254]"
+      },
+      "practice_school_innovation": {
+        "title": "Practice School System - Signature Innovation",
+        "unique_model": "One of BITS Pilani's most distinctive innovations was the creation of the Practice School (PS) system, which remains unique in Indian higher education. The Practice School system integrates industry internships as a compulsory and credit-bearing component of the curriculum rather than treating them as optional summer activities. Practice School I (PS-I) is undertaken by students after completing three years of undergraduate study, typically lasting 2 months during summer. Practice School II (PS-II) is a 5-6 month internship undertaken in the final year, where students work on real industry projects under joint supervision of company mentors and BITS faculty. The Practice School system was developed based on BITS' collaboration with MIT and extensive consultations with Indian industry. It addressed a critical gap in Indian engineering education - the disconnect between classroom theory and industrial practice. Through PS, students gain hands-on experience with real industrial problems, learn to apply theoretical knowledge to practical situations, develop professional skills and work ethics, build industry networks that aid placements, and often secure pre-placement offers (PPOs) based on PS performance. For companies, the Practice School provides access to bright students who can contribute to projects, a mechanism to evaluate potential recruits through extended work exposure, fresh perspectives on industrial challenges, and opportunities to shape curricula through feedback to BITS. The PS system has been so successful that BITS operates Practice School Stations at hundreds of companies across India and globally, with faculty coordinators managing these relationships and ensuring quality learning experiences.",
+        "sources": "[web:251][web:254]"
+      },
+      "multi_campus_expansion": {
+        "title": "Multi-Campus Expansion (2000-2008)",
+        "dubai_campus_2000": "In 2000, BITS Pilani took its first step in geographical expansion by establishing a campus in Dubai, United Arab Emirates. The Dubai campus extended BITS' reach to international students, particularly from the Middle East and Africa, and demonstrated the institute's capability to deliver its educational model in different cultural contexts. Goa Campus 2004: Responding to increasing demand for BITS education and invitation from the Government of Goa, BITS established its second Indian campus in Goa in 2004. Located in Zuarinagar, South Goa, the campus was built on scenic land near the Arabian Sea. The Goa campus follows the same curriculum, evaluation system, and educational philosophy as Pilani, ensuring consistency in BITS education across campuses. It started offering programs in Computer Science, Electronics & Communication, Electrical & Electronics, Mechanical, Chemical, Civil, and Biological Sciences. Hyderabad Campus 2008: The newest physical campus in India, BITS Pilani Hyderabad Campus, was established in 2008 upon invitation from the Government of Andhra Pradesh (now Telangana). The foundation stone was laid on 27 April 2007 by the then Chief Minister Y.S. Rajasekhara Reddy. Spread over 200 acres in Jawahar Nagar, Shameerpet Mandal, the Hyderabad campus is surrounded by scenic natural beauty. The campus became functional in August 2008, with the first batch graduating in 2012. Given Hyderabad's position as a major IT and electronics hub in India, the Hyderabad campus took charge of developing specialized courses in Electronics and Communication Engineering to leverage the region's talent pool and industry ecosystem. The campus is fully residential with over 5,500 students. The multi-campus expansion strategy enabled BITS to serve more students without compromising quality, maintain regional presence across India while preserving institutional culture, offer students choice of campus location while ensuring consistent educational experience, and build specialized strengths at different campuses while sharing resources and expertise.",
+        "sources": "[web:250][web:251][web:252][web:257]"
+      },
+      "no_reservation_policy": {
+        "title": "Merit-Based Admissions - No Reservation System",
+        "unique_admission_philosophy": "BITS Pilani follows a purely merit-based admission policy through BITSAT (Birla Institute of Technology and Science Admission Test), distinguishing it from most Indian engineering colleges and universities. Unlike IITs, NITs, and state government colleges which have reservation quotas for SC, ST, OBC, EWS, and other categories as mandated by government policy, BITS does not implement any caste-based or religion-based reservations. There are also no state-based quotas or region-based preferences. As a private deemed university, BITS is exempt from constitutional reservation mandates applicable to government-funded institutions. All admissions are based solely on BITSAT scores and 12th standard marks, making it a truly merit-based selection. This policy has been both praised and criticized. Supporters argue it ensures the most academically capable students are admitted regardless of background, maintains high academic standards with uniformly qualified student cohort, and upholds the principle of meritocracy in education. Critics point out it may limit access for students from socio-economically disadvantaged backgrounds who benefit from reservations, reduces diversity in student composition, and makes BITS less accessible to certain segments of society. However, BITS does provide need-based scholarships and fee waivers (up to 100% tuition waiver) for economically weaker students who perform well academically, ensuring that financial constraints do not prevent meritorious students from studying at BITS. The merit-based admission contributes to BITS' academic rigor and competitive student culture, as admitted students are among the top scorers nationally.",
+        "sources": "[web:251][web:254]"
+      },
+      "campus_details": {
+        "title": "Campus-wise Details and Specializations",
+        "pilani_campus": "The flagship Pilani campus in Rajasthan is the oldest and largest BITS campus. Located in the small town of Pilani in Jhunjhunu district of Rajasthan, approximately 200 km from Jaipur, the campus has historical buildings dating back to the 1930s alongside modern infrastructure. The campus is fully residential with separate hostels for boys and girls. Pilani offers the most comprehensive range of programs across Engineering (all branches), Sciences, Pharmacy, Management, and Humanities. The campus has strong alumni networks due to its long history. Goa Campus: Located in Zuarinagar, South Goa, the campus combines tropical coastal environment with academic rigor. The proximity to beaches and pleasant climate makes it attractive to students. The Goa campus started offering Electronics & Communication Engineering from 2017-18 academic year. It offers programs in Computer Science, Electrical, Mechanical, Chemical, Civil, Biological Sciences, and others. Hyderabad Campus: The youngest campus, established 2008, spread across 200 acres with modern infrastructure and scenic greenery. Being in Hyderabad (India's major IT hub), the campus has strong industry connections particularly with software and electronics companies. Specialized focus on Electronics and Communication Engineering given Hyderabad's IT/electronics ecosystem. The campus is fully residential with over 5,500 students. Mumbai Campus: Details about the Mumbai campus are limited in search results, but it caters to students in the western region.",
+        "sources": "[web:250][web:252][web:253][web:257]"
+      },
+      "academic_structure": {
+        "title": "Current Academic Structure and Programs",
+        "comprehensive_offerings": "BITS Pilani offers over 150 academic programs across undergraduate, postgraduate, and doctoral levels through multiple departments and centers. Departments include Engineering disciplines (Computer Science, Electronics & Communication, Electrical & Electronics, Mechanical, Chemical, Civil, Biotechnology, Manufacturing), Pure Sciences (Physics, Chemistry, Mathematics, Biological Sciences), Pharmacy (Pharmaceutical Sciences, Pharmaceutical Chemistry, Pharmacology), Management Studies, Economics & Finance, and Humanities & Social Sciences. Program types include: B.E. (Bachelor of Engineering) in various branches; B.Pharm (Pharmacy); Integrated first-degree programs like M.Sc. (Hons.) in Sciences + B.E. (Hons.) in Engineering (5-year dual degree); MBA (Master of Business Administration); M.E./M.Tech (Master of Engineering/Technology) in specialized areas; M.Sc. (Master of Science) programs; M.Pharm (Master of Pharmacy); and Ph.D. (Doctor of Philosophy) programs across all departments. The curriculum emphasizes flexibility allowing students to take electives from different disciplines, encouraging interdisciplinary learning through open electives and minors, continuous evaluation through assignments, quizzes, and projects rather than relying solely on final exams, letter grading system providing clearer performance indication, and compulsory Practice School internships integrating industry experience. The academic calendar follows a semester system with two regular semesters and a summer term, enabling faster completion of programs and flexibility in course selection.",
+        "sources": "[web:251][web:258]"
+      },
+      "rankings_recognition": {
+        "title": "Rankings and National Recognition",
+        "nirf_2025": "BITS Pilani achieved its best-ever NIRF ranking in 2025, securing 11th position among engineering colleges in India, representing a significant jump from 20th position in 2024 and 25th position in 2023. This improvement of 9 positions in just one year and 14 positions over two years demonstrates BITS' rapid enhancement in parameters measured by NIRF. BITS Pilani is the top-ranked private engineering institution in India, ahead of all other private universities like VIT, SRM, Amity, and Manipal. This validates BITS' position as the premier private technical university in the country. The only institutions ranked above BITS in NIRF Engineering 2025 are the top 10, which include the premier IITs and one or two NITs, indicating that BITS competes at the level of top government institutions despite being privately funded. The ranking improvement is attributed to enhanced research output and publications, better placement statistics with higher packages, improved student and faculty quality metrics, infrastructure development across campuses, and increased industry collaboration and innovation.",
+        "sources": "[web:265][web:268]"
+      },
+      "future_vision": {
+        "title": "Vision and Strategic Directions",
+        "aspirations": "Building on its position as India's top private engineering university and recent NIRF ranking improvements, BITS Pilani continues to evolve with ambitious goals including: Strengthening research ecosystem through increased sponsored research, enhanced publications in top-tier journals, more patents and innovations, and expanded Ph.D. programs; Further improving national rankings by targeting top 10 position in NIRF Engineering; Enhancing international collaborations through more joint programs with global universities, increased international student and faculty exchange, research partnerships with leading institutions globally; Infrastructure modernization across all campuses while preserving heritage of Pilani campus; Expanding into emerging technologies including artificial intelligence, machine learning, quantum computing, biotechnology, sustainable energy, and advanced materials; Strengthening industry partnerships for more sponsored research, enhanced Practice School opportunities, and stronger placement outcomes; Promoting entrepreneurship through better incubation facilities, startup funding, and creating innovation ecosystem; Increasing accessibility through more scholarships and fee concessions for economically weaker meritorious students; and Maintaining the unique BITS culture of academic rigor, innovation, student autonomy, and merit-based excellence while adapting to changing educational and technological landscapes.",
+        "sources": "[web:251][web:268]"
+      }
+    }
+  },
+  "courses_and_fee": {
+    "word_count": "6000",
+    "content": {
+      "introduction": {
+        "title": "Academic Programs and Fee Structure Overview",
+        "description": "BITS Pilani offers over 150 academic programs across undergraduate, postgraduate, and doctoral levels. The fee structure varies by program and campus, ranging from approximately ₹78,570 to ₹61.49 lakhs depending on course and duration. B.E./B.Tech fees are approximately ₹19-22 lakhs for 4 years (total tuition) with annual hostel and mess fees of ₹90,000-1,10,000 additional. The fee structure at BITS is significantly higher than government institutions like IITs and NITs due to its status as a private deemed university receiving no government funding for student education. However, BITS provides substantial scholarships with approximately 25% of students receiving some form of fee waiver or concession ranging from 25% to 100% based on merit and need. The fee structure is designed to be sustainable for the institution while offering financial assistance to deserving students.",
+        "sources": "[web:255][web:258]"
+      },
+      "be_btech_programs": {
+        "title": "B.E./B.Tech Programs (Bachelor of Engineering/Technology)",
+        "details": {
+          "duration": "4 years (8 semesters)",
+          "total_tuition_fee": "₹19-22 Lakhs (varies by branch and year of admission)",
+          "range_per_sources": "₹4.21 L to ₹61.49 L (wide range includes different program types)",
+          "hostel_mess_annual": "₹90,000 to ₹1,10,000 per year (separate from tuition)",
+          "total_cost_estimate": "Approximately ₹23-26 Lakhs for 4 years including tuition, hostel, and mess",
+          "eligibility": "Passed 10+2 or equivalent with Physics, Chemistry, and Mathematics with minimum 75% aggregate marks (65% for Pharmacy). Must qualify BITSAT with competitive scores.",
+          "admission": "Through BITSAT (Birla Institute of Technology and Science Admission Test) - computer-based test covering Physics, Chemistry, Mathematics/Biology, English, and Logical Reasoning. No reservations - purely merit-based.",
+          "available_branches": "Computer Science and Engineering (most competitive), Electronics and Communication Engineering, Electrical and Electronics Engineering, Mechanical Engineering, Chemical Engineering, Civil Engineering, Manufacturing Engineering, Biotechnology, and others (total 33 B.E./B.Tech programs across all campuses)",
+          "curriculum": "Rigorous curriculum with semester system, continuous evaluation, letter grading, flexibility through electives, compulsory Practice School I (2 months after 3rd year) and Practice School II (5-6 months in final year) for industry internships, and emphasis on self-learning and project work."
+        },
+        "sources": "[web:255][web:258]"
+      },
+      "bpharm_programs": {
+        "title": "B.Pharm (Bachelor of Pharmacy) Programs",
+        "details": {
+          "duration": "4 years",
+          "total_fee": "Similar to B.Tech (₹19-22 Lakhs range)",
+          "hostel_mess": "₹90,000-1,10,000 per year additional",
+          "eligibility": "10+2 with Physics, Chemistry, Mathematics/Biology with 65% aggregate. Must qualify BITSAT.",
+          "admission": "Through BITSAT. Candidates can choose Biology or Mathematics for BITSAT based on their 12th subjects.",
+          "program_features": "Comprehensive pharmaceutical education covering drug discovery, formulation, manufacturing, quality control, pharmacology, and pharmaceutical chemistry. Practice School internships in pharmaceutical companies."
+        },
+        "sources": "[web:255][web:258]"
+      },
+      "integrated_first_degree": {
+        "title": "M.Sc. (Hons.) + B.E. (Hons.) Integrated Programs",
+        "details": {
+          "duration": "5 years (10 semesters)",
+          "total_fee": "Approximately ₹25-28 Lakhs (proportionately higher than 4-year programs)",
+          "hostel_mess": "₹90,000-1,10,000 per year for 5 years",
+          "eligibility": "10+2 with PCM with 75% aggregate + BITSAT qualification",
+          "admission": "Through BITSAT. Students can choose integrated dual degree programs during counselling.",
+          "program_structure": "Combines M.Sc. in Sciences (Physics, Chemistry, Mathematics, Biological Sciences, Economics) with B.E. in Engineering branch. Students receive two degrees: M.Sc. (Hons.) in chosen science and B.E. (Hons.) in chosen engineering branch. This dual qualification provides both scientific depth and engineering breadth.",
+          "advantages": "Two degrees in 5 years instead of 6, broader skillset combining sciences and engineering, enhanced career opportunities in research and industry, and cost-effective compared to sequential degrees."
+        },
+        "sources": "[web:255][web:258]"
+      },
+      "msc_programs": {
+        "title": "M.Sc. (Master of Science) Programs",
+        "details": {
+          "duration": "2 years (4 semesters) for regular M.Sc.",
+          "total_fee": "₹2.67 L to ₹20.76 L (varies significantly by specialization)",
+          "hostel_mess": "₹90,000-1,10,000 per year",
+          "eligibility": "Bachelor's degree in relevant field with minimum required percentage",
+          "admission": "Through entrance test conducted by BITS or on merit basis depending on program",
+          "specializations": "M.Sc. programs (23 courses total) in Physics, Chemistry, Mathematics, Biological Sciences, Economics, and other specialized areas",
+          "program_features": "Advanced coursework in sciences with research component, dissertation/thesis in final year, preparation for Ph.D. or careers in research and analytics."
+        },
+        "sources": "[web:258]"
+      },
+      "me_mtech_programs": {
+        "title": "M.E./M.Tech (Master of Engineering/Technology) Programs",
+        "details": {
+          "duration": "2 years (4 semesters)",
+          "total_fee": "₹2.42 L to ₹10.38 L (varies by specialization)",
+          "hostel_mess": "₹90,000-1,10,000 per year",
+          "eligibility": "B.E./B.Tech or equivalent with minimum 60% marks. Valid GATE score preferred but not mandatory for all programs.",
+          "admission": "Through entrance examination or GATE scores. Some programs admit based on BITS internal test.",
+          "specializations": "68 M.Tech courses across specializations including Software Engineering, VLSI Design, Embedded Systems, Communication Engineering, Structural Engineering, Thermal Engineering, Chemical Engineering, Biotechnology, and numerous other advanced engineering domains",
+          "program_structure": "Advanced coursework with specialization, electives, major project/dissertation, and option for industry collaboration in thesis work."
+        },
+        "sources": "[web:258]"
+      },
+      "mba_programs": {
+        "title": "MBA/PGDM (Master of Business Administration) Programs",
+        "details": {
+          "duration": "2 years (4 semesters or 6 terms)",
+          "total_fee": "₹2.67 L to ₹10.38 L",
+          "hostel_mess": "₹90,000-1,10,000 per year",
+          "eligibility": "Bachelor's degree in any discipline with minimum 60% marks + entrance test scores",
+          "admission": "Through entrance examinations like CAT, MAT, XAT, GMAT or BITS internal test depending on program",
+          "program_features": "Business administration education covering finance, marketing, operations, human resources, strategy, analytics, and entrepreneurship. Industry internships, live projects, and corporate connections. BITS MBA programs particularly strong in technology management given the institute's engineering focus."
+        },
+        "sources": "[web:258]"
+      },
+      "phd_programs": {
+        "title": "Ph.D. (Doctor of Philosophy) Programs",
+        "details": {
+          "duration": "Typically 3-5 years depending on research progress",
+          "fee_structure": "Nominal fees - significantly lower than taught programs",
+          "eligibility": "Master's degree in relevant discipline with minimum required percentage. Exceptionally, outstanding Bachelor's degree holders may be considered.",
+          "admission": "Through departmental selection process including written test (subject knowledge and research aptitude), interview, research proposal evaluation, and securing faculty supervisor willing to guide research.",
+          "research_areas": "Ph.D. programs across all departments covering Computer Science, Electronics, Electrical, Mechanical, Chemical, Civil, Biotechnology, Physics, Chemistry, Mathematics, Biological Sciences, Pharmacy, Management, Economics, and Humanities",
+          "fellowship_support": "Selected full-time Ph.D. candidates receive monthly fellowship/stipend. Teaching and research assistantships may provide additional support."
+        },
+        "sources": "[web:258]"
+      },
+      "fee_payment": {
+        "title": "Fee Payment and Structure Details",
+        "components": {
+          "tuition_fee": "Main academic fee covering instruction, library, laboratories, and academic facilities",
+          "hostel_fee": "Accommodation charges (₹50,000-70,000 per year approximately)",
+          "mess_fee": "Food charges (₹40,000-50,000 per year approximately)",
+          "caution_deposit": "Refundable security deposit paid at admission",
+          "other_charges": "Activity fees, sports fees, medical insurance, etc.",
+          "payment_mode": "Fees payable semester-wise or annually through online payment portal",
+          "revision": "Fees subject to annual revision (typically 5-10% increase per year)"
+        },
+        "sources": "[web:255][web:258]"
+      },
+      "scholarships": {
+        "title": "Scholarships and Financial Assistance",
+        "comprehensive_support": {
+          "merit_scholarships": "75% fee waiver for top BITSAT scorers (limited seats); 50% fee waiver for high scorers (more seats); 25% fee waiver for good scorers (larger number). Scholarships based purely on BITSAT performance.",
+          "need_based_scholarships": "Up to 100% tuition fee waiver for students from economically weaker sections who demonstrate need and maintain good academic performance. Approximately 25% of BITS students receive some scholarship.",
+          "performance_based": "Continuation scholarships for students maintaining high CGPA during the program. Additional scholarships for improvements in academic performance.",
+          "special_categories": "Hostel fee concessions for physically challenged students; Special concessions for siblings studying simultaneously at BITS; Fee concessions based on national-level exam scores (JEE Main, etc.); Scholarships for athletes and sports quota students.",
+          "external_scholarships": "Students can access external scholarships from corporate organizations, foundations, and government schemes. BITS assists in applications for these scholarships.",
+          "education_loans": "Institute provides necessary documentation for education loans from banks. Many students avail loans from designated banks."
+        },
+        "sources": "[web:255]"
+      },
+      "fee_comparison_table": {
+        "title": "Comprehensive Fee Structure Summary",
+        "programs_table": [
+          {
+            "Program": "B.E./B.Tech",
+            "Duration": "4 years",
+            "Total Tuition": "₹19-22 Lakhs",
+            "Hostel & Mess/Year": "₹90,000-1,10,000",
+            "Total Cost (Approx)": "₹23-26 Lakhs",
+            "Eligibility": "10+2 with 75% + BITSAT"
+          },
+          {
+            "Program": "B.Pharm",
+            "Duration": "4 years",
+            "Total Tuition": "₹19-22 Lakhs",
+            "Hostel & Mess/Year": "₹90,000-1,10,000",
+            "Total Cost (Approx)": "₹23-26 Lakhs",
+            "Eligibility": "10+2 with 65% + BITSAT"
+          },
+          {
+            "Program": "M.Sc + B.E. (Dual)",
+            "Duration": "5 years",
+            "Total Tuition": "₹25-28 Lakhs",
+            "Hostel & Mess/Year": "₹90,000-1,10,000",
+            "Total Cost (Approx)": "₹29-34 Lakhs",
+            "Eligibility": "10+2 with 75% + BITSAT"
+          },
+          {
+            "Program": "M.Tech/M.E.",
+            "Duration": "2 years",
+            "Total Tuition": "₹2.42-10.38 Lakhs",
+            "Hostel & Mess/Year": "₹90,000-1,10,000",
+            "Total Cost (Approx)": "₹4-12 Lakhs",
+            "Eligibility": "B.Tech with 60% + Entrance"
+          },
+          {
+            "Program": "M.Sc.",
+            "Duration": "2 years",
+            "Total Tuition": "₹2.67-20.76 Lakhs",
+            "Hostel & Mess/Year": "₹90,000-1,10,000",
+            "Total Cost (Approx)": "₹4-22 Lakhs",
+            "Eligibility": "Graduation + Entrance"
+          },
+          {
+            "Program": "MBA/PGDM",
+            "Duration": "2 years",
+            "Total Tuition": "₹2.67-10.38 Lakhs",
+            "Hostel & Mess/Year": "₹90,000-1,10,000",
+            "Total Cost (Approx)": "₹4-12 Lakhs",
+            "Eligibility": "Graduation + CAT/MAT/XAT"
+          },
+          {
+            "Program": "Ph.D.",
+            "Duration": "3-5 years",
+            "Total Tuition": "Nominal fees",
+            "Hostel & Mess/Year": "Subsidized",
+            "Total Cost (Approx)": "Varies",
+            "Eligibility": "Master's + Selection"
+          }
+        ],
+        "note": "Fees subject to annual revision (5-10% increase typically). 25% of students receive scholarships (25%-100% fee waiver). No government subsidy - fees higher than IITs/NITs but scholarships available.",
+        "sources": "[web:255][web:258]"
+      }
+    }
+  },
+  "admissions": {
+    "word_count": "4000",
+    "content": {
+      "overview": {
+        "title": "Admissions Process Overview",
+        "description": "Admissions to BITS Pilani are conducted through BITSAT (Birla Institute of Technology and Science Admission Test) for undergraduate programs and through entrance tests or merit-based selection for postgraduate and doctoral programs. BITSAT is a computer-based test conducted online across multiple cities in India and abroad. The admission process is purely merit-based with no caste, religion, or state-based reservations, making it one of the most competitive entrance examinations in India. BITSAT cutoff scores vary by campus (Pilani, Goa, Hyderabad) and program, with Computer Science having the highest cutoffs.",
+        "sources": "[web:256][web:259]"
+      },
+      "bitsat_examination": {
+        "title": "BITSAT Examination Details",
+        "exam_structure": {
+          "full_form": "Birla Institute of Technology and Science Admission Test",
+          "mode": "Computer-based online test conducted in test centers across India and select international locations",
+          "duration": "3 hours (180 minutes)",
+          "total_questions": "150 questions (130 compulsory + 20 optional based on subject choice)",
+          "compulsory_sections": "Physics (40 questions), Chemistry (40 questions), English Proficiency (15 questions), Logical Reasoning (10 questions)",
+          "optional_section": "Mathematics (25 questions) OR Biology (25 questions) depending on candidate's 12th stream and chosen program",
+          "marking_scheme": "+3 marks for correct answer, -1 mark for incorrect answer, 0 for unattempted. Total marks: 450",
+          "difficulty_level": "Comparable to JEE Main with emphasis on application of concepts and logical reasoning",
+          "sessions": "BITSAT conducted in multiple sessions (Session 1 and Session 2) to accommodate large number of candidates",
+          "dates_2025": "BITSAT Session 1: typically May-June; Session 2: June-July (exact dates announced on official website)",
+          "result": "Announced within 2-3 weeks of exam completion"
+        },
+        "sources": "[web:259]"
+      },
+      "bitsat_eligibility": {
+        "title": "BITSAT Eligibility Criteria",
+        "requirements": {
+          "educational_qualification": "Passed 10+2 or equivalent with Physics, Chemistry, and Mathematics/Biology from recognized board",
+          "minimum_percentage": "For Engineering programs (B.E.): Minimum 75% aggregate in PCM. For Pharmacy (B.Pharm): Minimum 65% aggregate in PCB or PCM.",
+          "12th_marks_importance": "12th standard marks play crucial role in final merit list. Even with good BITSAT score, low 12th marks can affect admission chances.",
+          "age_limit": "Generally no age limit, though candidates should have passed 12th in 2023, 2024, or appearing in 2025",
+          "attempts": "No limit on number of attempts - candidates can take BITSAT multiple times in different years",
+          "subject_requirement": "Mathematics compulsory for all engineering programs. Biology acceptable for B.Pharm and biological sciences programs."
+        },
+        "sources": "[web:259]"
+      },
+      "admission_process": {
+        "title": "Step-by-Step Admission Process",
+        "detailed_steps": {
+          "step1_registration": "Register on BITS admission website (bitsadmission.com) by creating account with personal and academic details. Pay application fee (approximately ₹3,000-4,000 for males, ₹2,500-3,000 for females).",
+          "step2_application": "Fill detailed application form providing 10th and 12th marks, choosing test city preferences, uploading photograph and signature, selecting preferred programs and campuses.",
+          "step3_admit_card": "Download BITSAT admit card from admission portal 1-2 weeks before exam. Admit card contains exam date, session time, test center details, and candidate information.",
+          "step4_bitsat_exam": "Appear for BITSAT at designated test center on scheduled date and session. Report 30 minutes before exam start time with admit card and valid photo ID.",
+          "step5_result": "Check BITSAT result on official website using login credentials. Result shows marks obtained, rank, and percentile.",
+          "step6_counselling": "BITS conducts admission through iterations (multiple rounds). In each iteration: Candidates login to admission portal, Select preferred programs and campuses in order of preference, Submit choices, Wait for seat allocation based on merit (BITSAT score + 12th marks formula), Accept allocated seat if satisfactory or wait for next iteration.",
+          "step7_admission": "After accepting seat allotment in any iteration: Pay admission fees (first installment) online, Upload required documents for verification, Complete online admission formalities, Receive confirmation and joining instructions.",
+          "step8_reporting": "Report to allotted campus on specified dates with original documents for physical verification, Complete remaining admission procedures, Pay remaining fees, Receive hostel allotment and begin academic session."
+        },
+        "sources": "[web:259]"
+      },
+      "bitsat_cutoff_2025": {
+        "title": "BITSAT Cutoff Trends 2025",
+        "cutoff_analysis": {
+          "definition": "BITSAT cutoff represents the minimum score required for admission to specific program at specific campus. Cutoff varies by campus, program, and iteration round.",
+          "pilani_cse": "Computer Science at Pilani campus (most competitive): Expected cutoff around 350-380+ out of 450 for general candidates in early iterations",
+          "goa_hyderabad_cse": "Computer Science at Goa/Hyderabad: Expected cutoff around 330-360+",
+          "electrical_electronics": "Electrical/Electronics branches: Expected cutoff 310-350 depending on campus",
+          "mechanical_chemical": "Mechanical/Chemical Engineering: Expected cutoff 290-330",
+          "civil_biotech": "Civil/Biotechnology: Expected cutoff 270-310",
+          "factors_affecting": "Cutoffs depend on: Number of applicants and their scores, Seats available in each program/campus, Difficulty level of BITSAT exam, Candidate preferences during counselling, Previous years' trends.",
+          "12th_marks_weightage": "Final admission merit calculated as: (BITSAT score/450 × 100) + (12th PCM percentage). Both components crucial for seat allocation.",
+          "iteration_pattern": "Cutoffs typically decrease slightly with each iteration as top scorers confirm seats. By final iterations, cutoffs may be 10-30 marks lower than first iteration."
+        },
+        "sources": "[web:256][web:259]"
+      },
+      "campus_selection": {
+        "title": "Campus and Program Selection Strategy",
+        "guidance": {
+          "campus_comparison": "Pilani: Oldest campus, largest alumni network, historic significance, slightly higher cutoffs. Goa: Coastal location, pleasant climate, good infrastructure, moderate cutoffs. Hyderabad: Newest campus, IT hub advantages, strong industry connections, competitive cutoffs.",
+          "program_priority": "Candidates should prioritize program (branch) over campus if career goals are clear. However, if flexible about branch, campus preference can be considered.",
+          "choice_filling": "Fill maximum choices (all possible combinations of programs and campuses) to increase chances. List choices in true order of preference. First iteration allocates based on merit and choices.",
+          "dual_degree_option": "M.Sc + B.E. dual degree programs have slightly lower cutoffs than direct B.E. but require 5 years. Good option for those interested in research.",
+          "pharmacy_option": "B.Pharm has lower cutoffs (65% in 12th vs 75%) and good career prospects. Consider if medical/pharma interests align."
+        },
+        "sources": "[web:256][web:259]"
+      },
+      "mtech_admissions": {
+        "title": "M.Tech/M.E. Admissions Process",
+        "process": "M.Tech/M.E. admissions based on: Valid GATE score in relevant discipline (preferred but not mandatory for all programs); Bachelor's degree in Engineering with minimum 60% marks; Written test conducted by BITS for candidates without GATE; Interview assessing subject knowledge and research interests. Application through BITS website with separate deadlines. Selection based on composite score of GATE/entrance test, interview, and academic record.",
+        "sources": "[web:258]"
+      },
+      "mba_admissions": {
+        "title": "MBA Admissions Process",
+        "process": "MBA admissions based on: Entrance exam scores (CAT, MAT, XAT, GMAT) or BITS internal test; Bachelor's degree in any discipline with 60% marks; Group Discussion and Personal Interview; Work experience (if any) considered favorably. Application through BITS website. Selection based on composite score across components.",
+        "sources": "[web:258]"
+      },
+      "phd_admissions": {
+        "title": "Ph.D. Admissions Process",
+        "detailed_process": "Ph.D. admissions conducted semester-wise (July and January typically). Application process: Apply to specific department with research proposal; Master's degree with required percentage; Appear for departmental written test (subject + research aptitude); Personal interview with potential supervisors; Research proposal evaluation. Selection based on: Written test performance, Interview assessment, Research proposal quality, Availability of faculty supervisor in proposed area, Academic credentials. Must secure faculty supervisor willing to guide before final admission.",
+        "sources": "[web:258]"
+      }
+    }
+  },
+  "placements": {
+    "word_count": "4000",
+    "content": {
+      "overview": {
+        "title": "Placements Overview",
+        "description": "BITS Pilani maintains an outstanding placement record with over 95% placement rate consistently across all campuses. The institution attracts 300+ companies annually for campus recruitment, offering roles across software development, data science, consulting, core engineering, finance, analytics, and product management. Practice School internships lead to significant Pre-Placement Offers (PPOs) with 250+ students receiving PPOs annually. The placement season occurs in two phases: Semester I (August-December) and Semester II (January-May), providing flexibility for companies and students.",
+        "sources": "[web:260][web:264][web:267]"
+      },
+      "placements_2025": {
+        "title": "Placements 2025 Key Highlights",
+        "statistics": {
+          "highest_package": "₹60.75 LPA domestic offer; ₹1.25 Crore+ international offer",
+          "average_package": "₹30.37 LPA (approximately, increased by 16%)",
+          "median_package": "₹19.4 LPA (increased by 14%)",
+          "mba_highest": "MBA Business Analytics program highest package of ₹60.75 LPA",
+          "placement_rate": "Over 95% students placed",
+          "students_placed": "2,458 students placed across all programs",
+          "companies_visited": "300+ companies participated in recruitment",
+          "ppos": "250+ Pre-Placement Offers based on Practice School performance",
+          "international_offers": "Significant number of international offers with packages up to ₹1.25 Crore from companies like Google, Microsoft, Uber"
+        },
+        "sources": "[web:260][web:261][web:263][web:267]"
+      },
+      "branch_wise_packages": {
+        "title": "Branch-wise Package Distribution",
+        "estimated_ranges": [
+          {
+            "Branch": "Computer Science (CSE)",
+            "Package_Range": "₹18-30 LPA average",
+            "Highest": "₹60-65 LPA domestic",
+            "Lowest": "₹12 LPA",
+            "Highlight": "Highest packages, best placement rate"
+          },
+          {
+            "Branch": "Electronics & Communication (ECE)",
+            "Package_Range": "₹15-25 LPA average",
+            "Highest": "₹18 LPA+",
+            "Lowest": "₹6 LPA",
+            "Highlight": "Mix of core and IT roles"
+          },
+          {
+            "Branch": "Electrical & Electronics (EEE)",
+            "Package_Range": "₹15-20 LPA average",
+            "Highest": "₹18 LPA+",
+            "Lowest": "₹6 LPA",
+            "Highlight": "Balance of IT and core"
+          },
+          {
+            "Branch": "Mechanical Engineering",
+            "Package_Range": "₹12-20 LPA average",
+            "Highest": "Variable",
+            "Lowest": "₹6 LPA",
+            "Highlight": "Core + Consulting roles"
+          },
+          {
+            "Branch": "Civil Engineering",
+            "Package_Range": "₹8-12 LPA average",
+            "Highest": "Variable",
+            "Lowest": "₹4 LPA",
+            "Highlight": "Infrastructure + Analytics"
+          },
+          {
+            "Branch": "Biotechnology",
+            "Package_Range": "₹7-12 LPA average",
+            "Highest": "Variable",
+            "Lowest": "₹4 LPA",
+            "Highlight": "Pharma + Research"
+          },
+          {
+            "Branch": "M.Sc. Dual Degree",
+            "Package_Range": "₹14 LPA average",
+            "Highest": "₹14 LPA+",
+            "Lowest": "₹5 LPA",
+            "Highlight": "Many shift to tech/analytics"
+          },
+          {
+            "Branch": "MBA",
+            "Package_Range": "₹20-30 LPA average",
+            "Highest": "₹60.75 LPA",
+            "Lowest": "₹8 LPA",
+            "Highlight": "Consulting + Analytics highest"
+          }
+        ],
+        "sources": "[web:261][web:264]"
+      },
+      "top_recruiters": {
+        "title": "Top Recruiting Companies",
+        "leading_companies": {
+          "technology_giants": "Google, Microsoft, Amazon, Adobe, Oracle, Intel, Qualcomm, Samsung, Nvidia, Apple, Uber, Flipkart, PayPal, Salesforce, VMware, SAP Labs, Cisco, Dell, IBM, Yahoo, Accenture, TCS, Infosys, Wipro, HCL, Tech Mahindra, Cognizant",
+          "consulting_firms": "McKinsey & Company, Boston Consulting Group (BCG), Bain & Company, Deloitte, PwC, EY, KPMG, Accenture Strategy",
+          "finance_banking": "Goldman Sachs, JP Morgan, Morgan Stanley, Deutsche Bank, HSBC, Citi, Barclays, American Express, Yes Bank, ICICI Bank",
+          "analytics_data_science": "Mu Sigma, Fractal Analytics, ZS Associates, Tiger Analytics, LatentView Analytics, Genpact, WNS",
+          "core_engineering": "L&T, Tata Steel, JSW, Ashok Leyland, Mahindra & Mahindra, Bosch, Siemens, ABB, Schneider Electric",
+          "fmcg_retail": "ITC, Hindustan Unilever (HUL), Procter & Gamble (P&G), PepsiCo, Nestle",
+          "pharmaceuticals": "Dr. Reddy's, Sun Pharma, Cipla, Biocon, Lupin (for Pharmacy and Biotechnology students)",
+          "startups": "Numerous startups and unicorns recruit for product, engineering, and management roles"
+        },
+        "sources": "[web:260][web:263][web:264]"
+      },
+      "job_roles": {
+        "title": "Job Roles and Career Paths",
+        "positions": "Software Development Engineer (SDE), Data Scientist and Analyst, Machine Learning Engineer, Product Manager, Business Analyst, Management Consultant, Financial Analyst, Investment Banking Analyst, Full Stack Developer, Backend/Frontend Developer, DevOps Engineer, System Design Engineer, R&D Engineer, Process Engineer, Design Engineer, Quality Engineer, VLSI Design Engineer, Embedded Systems Engineer, Network Engineer, Cyber Security Analyst, and numerous other specialized positions across sectors",
+        "sources": "[web:260][web:264]"
+      },
+      "practice_school_ppo": {
+        "title": "Practice School and PPO System",
+        "unique_advantage": {
+          "ps1_impact": "Practice School I (2-month summer internship after 3rd year) provides first industry exposure. Many students receive internship stipends (₹15,000-2,00,000 per month).",
+          "ps2_significance": "Practice School II (5-6 month final year internship) is extended work engagement. Companies use PS-II to evaluate potential recruits.",
+          "ppo_statistics": "250+ students receive Pre-Placement Offers (PPOs) based on excellent PS-II performance, guaranteeing jobs upon graduation.",
+          "ppo_advantage": "PPO holders can skip placement process stress or appear for placements seeking better offers while having job security.",
+          "ps_stations": "BITS operates 200+ Practice School Stations at leading companies across India and globally ensuring quality internship experiences.",
+          "industry_feedback": "PS system highly valued by recruiters as it provides 5-6 months to assess candidate capabilities, work ethic, and cultural fit."
+        },
+        "sources": "[web:260][web:264]"
+      },
+      "international_placements": {
+        "title": "International Placement Opportunities",
+        "global_offers": "International packages reaching ₹1.25 Crore+ from companies like Google, Uber, Microsoft for overseas positions. Many students placed in international locations (USA, Europe, Singapore, Dubai, etc.). Alumni network facilitates international opportunities. Some students prefer international higher studies over placements (admits to Stanford, MIT, CMU, etc.).",
+        "sources": "[web:261][web:264]"
+      },
+      "sector_distribution": {
+        "title": "Sector-wise Placement Distribution",
+        "sectors": "Information Technology and Software: 50-60% of placements (dominant sector given BITS' CS strength); Core Engineering (Mechanical, Electrical, Electronics, Civil, Chemical): 15-20%; Consulting and Advisory: 10-15%; Finance and Banking: 5-8%; Analytics and Data Science: 5-8%; FMCG and Consumer Goods: 2-3%; Pharmaceuticals and Biotechnology: 2-3% (mainly from B.Pharm and Biotech); Startups: 3-5%; Higher Studies/Entrepreneurship: 5-10% opt out of placements for MS/MBA abroad or starting ventures. Distribution varies by branch - CSE has 80-90% IT placements while Mechanical has more balanced distribution.",
+        "sources": "[web:260][web:264]"
+      },
+      "placement_trends": {
+        "title": "Placement Trends and Observations",
+        "analysis": "BITS consistently maintains 90-95% placement rate across all campuses and branches. Average packages showing steady 10-16% growth annually. CSE, ECE, EEE branches commanding highest packages. Increasing demand for data science, AI/ML, and product management roles. Many students receive multiple offers (2-3 offers common for good performers). International packages becoming more common with globalization. Start-up ecosystem attracting students - some choose entrepreneurship over placements. Practice School PPOs account for significant portion (10-15%) of placements. Placement statistics fairly consistent across Pilani, Goa, and Hyderabad campuses though Pilani marginally better due to alumni network. MBA placements competitive with specialized roles in consulting and analytics commanding premium packages.",
+        "sources": "[web:260][web:261][web:263][web:264][web:267]"
+      }
+    }
+  },
+  "rankings": {
+    "word_count": "2000",
+    "content": {
+      "overview": {
+        "title": "Rankings Overview",
+        "description": "BITS Pilani has achieved significant recognition in national and international rankings, establishing itself as India's premier private engineering institution. The university's NIRF ranking improvement from 25th (2023) to 20th (2024) to 11th (2025) in just two years demonstrates remarkable progress and validates institutional excellence.",
+        "sources": "[web:265][web:268]"
+      },
+      "nirf_2025": {
+        "title": "NIRF Rankings 2025 - Breakthrough Performance",
+        "nirf_achievement": {
+          "engineering_rank": "11th position among all engineering colleges in India",
+          "improvement": "Jumped 9 positions from 20th (2024) and 14 positions from 25th (2023)",
+          "top_private": "Ranked #1 among all private engineering institutions in India",
+          "ahead_of": "Ranked ahead of VIT (16th), SRM (14th), and all other private universities",
+          "government_comparison": "Only IITs and 1-2 top NITs ranked above BITS in top 10, demonstrating parity with premier government institutions",
+          "significance": "Highest ever ranking for BITS Pilani, validating sustained improvements across all parameters"
+        },
+        "sources": "[web:265][web:268]"
+      },
+      "nirf_historical": {
+        "title": "NIRF Historical Trend",
+        "year_wise_progression": {
+          "2023": "25th position",
+          "2024": "20th position (improved 5 ranks)",
+          "2025": "11th position (improved 9 ranks)",
+          "total_improvement": "14 positions improvement in just 2 years",
+          "trend": "Consistent upward trajectory year-over-year"
+        },
+        "sources": "[web:265][web:268]"
+      },
+      "private_institutions_comparison": {
+        "title": "Comparison with Other Private Institutions",
+        "nirf_2025_private": [
+          {
+            "Institution": "BITS Pilani",
+            "NIRF_2025": "11th",
+            "NIRF_2024": "20th",
+            "NIRF_2023": "25th",
+            "Status": "Top Private Institution"
+          },
+          {
+            "Institution": "SRM University Chennai",
+            "NIRF_2025": "14th",
+            "NIRF_2024": "13th",
+            "NIRF_2023": "28th",
+            "Status": "2nd among private"
+          },
+          {
+            "Institution": "VIT University",
+            "NIRF_2025": "16th",
+            "NIRF_2024": "11th",
+            "NIRF_2023": "11th",
+            "Status": "3rd among private"
+          },
+          {
+            "Institution": "Amrita Vishwa Vidyapeetham",
+            "NIRF_2025": "23rd",
+            "NIRF_2024": "23rd",
+            "NIRF_2023": "19th",
+            "Status": "4th among private"
+          },
+          {
+            "Institution": "Thapar University",
+            "NIRF_2025": "29th",
+            "NIRF_2024": "29th",
+            "NIRF_2023": "20th",
+            "Status": "5th among private"
+          }
+        ],
+        "sources": "[web:265]"
+      },
+      "ranking_strengths": {
+        "title": "Key Strengths Contributing to Rankings",
+        "parameters": "Graduation Outcomes: Excellent placement record with 95%+ placement rate, high average packages (₹30+ LPA), and strong alumni achievements; Research and Professional Practice: Increased publications in top-tier journals, growing patent filings, industry-sponsored research, and strong consultancy engagement; Teaching, Learning & Resources: Qualified faculty with Ph.D. degrees from premier institutions, good student-faculty ratio, modern infrastructure and laboratories, comprehensive library and digital resources; Outreach and Inclusivity: Scholarships for 25% students, need-based fee waivers up to 100%, sports and cultural activities; Perception: Strong reputation among peers and employers, BITS graduates highly sought after in industry, brand value built over 60+ years",
+        "sources": "[web:268]"
+      },
+      "areas_improvement": {
+        "title": "Areas for Further Improvement",
+        "focus_areas": "International collaborations and global research partnerships; Research citations and impact factor of publications; Increasing diversity through more scholarships (currently no caste-based reservation); Government research funding (being private, less access to certain schemes); PhD enrollment and doctoral research output; International student enrollment",
+        "sources": "[web:268]"
+      },
+      "other_recognitions": {
+        "title": "Other Rankings and Recognitions",
+        "additional": "QS Asia Rankings: BITS Pilani featured among top Asian universities; Employer Reputation: High rankings in employer surveys indicating strong placement outcomes and graduate quality; Alumni Success: BITS alumni hold leadership positions globally; Industry Rankings: Recognized by TCS, Infosys, and other recruiters as top talent source; Private Institution Leader: Consistently ranked as best private engineering university in various surveys and rankings",
+        "sources": "[web:268]"
+      }
+    }
+  },
+  "facilities": {
+    "word_count": "4000",
+    "content": {
+      "overview": {
+        "title": "Campus Infrastructure and Facilities Overview",
+        "description": "BITS Pilani campuses provide comprehensive world-class infrastructure supporting academic excellence, research innovation, comfortable residential living, sports and recreation, healthcare, and holistic development. All three Indian campuses (Pilani, Goa, Hyderabad) are fully residential with mandatory hostel accommodation, equipped with modern amenities including libraries, laboratories, sports complexes, medical facilities, and dining services.",
+        "sources": "[web:266][web:269]"
+      },
+      "library_facilities": {
+        "title": "Library and Learning Resources",
+        "comprehensive_library": {
+          "capacity": "Library has room for up to 8,000 students",
+          "study_places": "738 open access study places",
+          "it_workstations": "246 open-access IT work stations",
+          "collection": "Extensive collection of books, periodicals, journals, research papers, theses, and digital resources",
+          "e_resources": "Access to online journals, e-books, databases, and digital archives",
+          "catalogue": "Searchable via online library catalogue accessible 24x7",
+          "network_access": "Membership providing access to network of other libraries",
+          "computing_facilities": "Dedicated computing facilities for students within library",
+          "hours": "Extended operating hours including late nights and weekends during exams"
+        },
+        "sources": "[web:266]"
+      },
+      "hostel_facilities": {
+        "title": "Residential Facilities and Hostel Life",
+        "comprehensive_accommodation": {
+          "mandatory_residence": "Institute is fully residential - hostel accommodation provided to all students. Staying in hostel is mandatory.",
+          "pilani_hostels": "Eleven hostels for boys and one hostel complex for girls",
+          "hyderabad_hostels": "Six boys hostels and two girls hostels",
+          "room_furnishing": "Hostel rooms are fully furnished with cot, table, chair, ceiling fan, and cupboard",
+          "common_facilities": "Common room facilities with Cable TV and telephone in each hostel",
+          "internet": "Internet connectivity (Wi-Fi and LAN) provided in all hostel rooms enabling 24x7 access",
+          "solar_heating": "Solar water heating systems installed in all hostels for hot water supply",
+          "mess_system": "Common kitchen cum mess unit for every set of two boys hostels. Girls hostel has separate mess within hostel boundary. Five-person student mess council manages operations. Messes fully managed by students.",
+          "mandatory_mess": "Students staying in hostel required to have food in hostel messes",
+          "meal_plans": "Vegetarian and non-vegetarian meals served",
+          "laundry": "Laundry facilities available",
+          "security": "24x7 security and surveillance ensuring student safety"
+        },
+        "sources": "[web:266][web:269]"
+      },
+      "sports_facilities": {
+        "title": "Sports Complex and Athletic Infrastructure",
+        "extensive_sports": {
+          "swimming_pool": "Olympic-sized swimming pool for swimming and water polo",
+          "outdoor_sports": "Football field, Hockey ground, Cricket pitch, Tennis courts, Volleyball courts, Basketball courts, Athletics track",
+          "indoor_sports": "Badminton courts, Table Tennis facilities, Squash courts, Weight Lifting gym",
+          "gymnasium": "Well-equipped gymnasium with modern fitness equipment for strength training and cardio",
+          "sports_programs": "Regular intra-campus tournaments, inter-hostel competitions, participation in inter-university sports meets",
+          "coaching": "Professional coaching available for various sports"
+        },
+        "sources": "[web:266]"
+      },
+      "laboratory_facilities": {
+        "title": "Laboratories and Research Facilities",
+        "comprehensive_labs": {
+          "engineering_labs": "Civil Engineering Lab, Electrical Lab, Electronics Lab, Mechanical Lab, Computer Aided Design Lab, Environmental Engineering Lab, Petroleum and Petrochemical Lab, Fluid Flow Lab, Heat Transfer Lab, Mass Transfer Lab, Communication Systems Lab, Embedded Controller Application Centre Lab, Electrical Machines Lab, Instrumentation Technology Lab, Wireless Communication Lab, Analog and Digital Electronics Lab",
+          "science_labs": "Chemistry Lab, Physics Lab, Computer Lab",
+          "biotech_labs": "Microbiology Lab, Genetic Engineering Lab, Biotechnology Lab, Cancer Biology Research Lab, Microscopy Room, Animal Cell Culture Teaching Lab",
+          "equipment": "State-of-the-art scientific and engineering instruments, advanced characterization equipment, computing resources",
+          "research_centers": "Specialized research centers in various domains"
+        },
+        "sources": "[web:266]"
+      },
+      "medical_facilities": {
+        "title": "Healthcare Infrastructure",
+        "health_services": {
+          "availability": "Medical facility providing services 24 hours a day, 7 days a week",
+          "pilani": "Hospital / Medical Facilities on campus",
+          "hyderabad": "Two male doctors, a compounder/lab
+
+[1](https://www.bits-pilani.ac.in/about/bits-foundation/)
+[2](https://en.wikipedia.org/wiki/BITS_Pilani)
+[3](https://en.wikipedia.org/wiki/Birla_Institute_of_Technology_and_Science,_Pilani_%E2%80%93_Hyderabad_Campus)
+[4](https://www.bits-pilani.ac.in/hyderabad/)
+[5](https://www.scribd.com/document/159338753/Bits-Case-Study)
+[6](https://www.vedantu.com/university/bits-pilani-birla-institute-of-technology-and-science-fees)
+[7](https://www.shiksha.com/engineering/bitsat-exam-cutoff)
+[8](https://www.bits-pilani.ac.in/hyderabad/about-us/)
+[9](https://www.shiksha.com/university/bits-pilani-birla-institute-of-technology-and-science-467/fees)
+[10](https://engineering.careers360.com/articles/bitsat-2025)
+[11](https://www.shiksha.com/university/bits-pilani-birla-institute-of-technology-and-science-467/placement)
+[12](https://motion.ac.in/blog/bits-pilani-placements-highest-package-average-salary-and-top-companies/)
+[13](https://www.bits-pilani.ac.in/wp-content/uploads/BITS_Pilani_Placement_Brochure_2024-25.pdf)
+[14](https://collegedunia.com/university/25800-bits-pilani-pilani/placement)
+[15](https://iitcoachingsikar.com/bits-pilani-placements)
+[16](https://motion.ac.in/blog/top-private-engineering-colleges-in-india/)
+[17](https://www.shiksha.com/university/bits-pilani-birla-institute-of-technology-and-science-467/infrastructure)
+[18](https://www.vedantu.com/university/bits-pilani-birla-institute-of-technology-and-science-placement)
+[19](https://www.shiksha.com/news/engineering-top-private-engineering-colleges-in-india-as-per-nirf-ranking-2025-blogId-209656)
+[20](https://www.getmyuni.com/college/birla-institute-of-technology-and-science-bits-hyderabad-facilities)

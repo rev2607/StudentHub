@@ -1,0 +1,392 @@
+```json
+{
+  "college_name": "Indian Institute of Technology Delhi (IIT Delhi)",
+  "overview": {
+    "word_count": "12000",
+    "content": {
+      "introduction": {
+        "title": "About IIT Delhi",
+        "description": "The Indian Institute of Technology Delhi, established in 1961, stands as one of India's most prestigious institutions of higher technical education and the third-oldest IIT in the country. Located in Hauz Khas, South Delhi, the institute occupies a sprawling 320-acre campus that serves as a green oasis in the heart of India's capital city. IIT Delhi was founded through collaboration with the United Kingdom, marking a significant milestone in Indo-British educational cooperation during the post-independence era. Originally established as the College of Engineering and Technology with assistance from the British Government and the Federation of British Industries in London, the institution was later declared an Institution of National Importance under the Institutes of Technology (Amendment) Act, 1963, and renamed the Indian Institute of Technology Delhi. The institute has consistently maintained top rankings nationally and internationally, securing the 2nd position in NIRF Engineering category and 4th position in Overall category in 2024, and ranking 150th globally in QS World University Rankings 2025. With 13 academic departments, numerous research centers, and specialized schools, IIT Delhi serves approximately 10,000 students taught by over 550 distinguished faculty members. Since its inception, over 60,000 students have graduated from IIT Delhi across various disciplines including engineering, physical sciences, management, humanities, and social sciences, with nearly 5,070 receiving Ph.D. degrees and over 15,738 obtaining B.Tech. degrees.",
+        "sources": "[web:78][web:79][web:82][web:91]"
+      },
+      "historical_background": {
+        "title": "Foundation and Historical Development",
+        "establishment": "The genesis of IIT Delhi traces back to the broader vision for establishing Institutes of Technology across India, first introduced in 1945 by N.M. Sircar, then Member of Education on the Viceroy's Executive Council. Following the establishment of IIT Kharagpur in 1950 as the first IIT, the Government of India decided to establish more Institutes of Technology with assistance from friendly nations. The Government of India negotiated with the British Government for collaboration in setting up an Institute of Technology at Delhi. The British Government agreed in principle to such collaboration, initially preferring to start modestly by establishing a College of Engineering and Technology at Delhi. A trust called the Delhi Engineering College Trust was established with help from the UK Government and the Federation of British Industries in London. During his visit to India, H.R.H. Prince Philip, Duke of Edinburgh, laid the foundation stone of the college at Hauz Khas on January 28, 1959, symbolizing the commitment to building world-class technical education infrastructure. The College of Engineering and Technology was registered as a society on June 14, 1960, under the Societies Registration Act No. XXI of 1860 (Registration No. S1663 of 1960-61). The first admissions were made in 1961, with students asked to report to the college on August 16, 1961. The college was formally inaugurated on August 17, 1961, by Prof. Humayun Kabir, Minister of Scientific Research and Cultural Affairs, marking the beginning of IIT Delhi's distinguished journey in technical education.",
+        "sources": "[web:78][web:79][web:85]"
+      },
+      "early_years_evolution": {
+        "title": "Early Years and Institutional Growth",
+        "initial_operations": "Initially, the college operated from the Kashmiri Gate campus of Delhi College of Engineering (now known as Delhi Technological University) before shifting to its permanent campus in Hauz Khas. The Department of Textile Technology from Delhi College of Engineering was relocated en bloc to mark the beginning of IIT Delhi at its new Hauz Khas campus. The college was initially affiliated to the University of Delhi. According to Section 4 of the Institutes of Technology Act, 1961, each IIT is constituted as a body corporate having perpetual succession and a common seal. The college was later accorded the status of a Deemed University with powers to decide its own academic policy, conduct its own examinations, and award its own degrees. This autonomy enabled IIT Delhi to design innovative curricula, maintain high academic standards, and respond dynamically to emerging technological trends. IIT Delhi celebrated its Golden Jubilee in 2011, commemorating 50 years of academic excellence and contribution to nation-building. The Diamond Jubilee was celebrated in 2021, marking 60 years of sustained excellence in technical education, research, and innovation. Over the decades, IIT Delhi has evolved from a modest beginning with 100 students to a comprehensive technological university serving thousands of students annually.",
+        "sources": "[web:78][web:79]"
+      },
+      "governance_structure": {
+        "title": "Governance and Administrative Framework",
+        "administrative_system": "IIT Delhi functions as an autonomous statutory organization in terms of the Institutes of Technology Act, 1961 (amended vide the Institutes of Technology (Amendment) Act, 1963) and the Statutes framed thereunder. The body corporate constituting the Institute consists of a Chairman, a Director, and other members of the Board for the time being. Responsibility for general superintendence, direction, and control of the Institute's affairs is vested in the Board of Governors. The Board functions through its Standing Committees including the Finance Committee, Building and Works Committee, and such other ad hoc committees constituted from time to time to consider specific issues. The control and general regulation for maintenance of standards of instruction, education, and examination vests in the Senate. The Senate is responsible for formulating academic policies and designing curricula, courses of studies, and the system of examination. The Senate functions through its Standing Boards/Committees and Sub-committees that may be constituted to look into specific matters arising from time to time. This governance structure ensures democratic functioning while maintaining academic rigor and administrative efficiency.",
+        "sources": "[web:78]"
+      },
+      "campus_infrastructure": {
+        "title": "Campus Layout and Physical Infrastructure",
+        "campus_description": "IIT Delhi's campus covers a sprawling area of 320 acres in Hauz Khas, South Delhi, providing a spacious and vibrant environment for academic and research activities. The campus is divided into three functional zones: residential, academic, and recreational areas, creating a well-organized and efficient layout. The academic zone, located at the center of the campus, contains the main building, eight departmental buildings, the Central Library, and other essential facilities. The architectural style predominantly features brick construction that creates a warm aesthetic while being environmentally sustainable. Throughout the campus, lush green landscaping creates a quiet oasis amid the urban environment of Delhi, providing students and faculty with a peaceful setting conducive to learning and research. The campus is equipped with state-of-the-art infrastructure including modern classrooms with smart boards, sophisticated laboratories with advanced equipment, dedicated research facilities, and comprehensive recreational amenities. The verdant campus provides a serene atmosphere that contrasts with the bustling metropolitan surroundings, offering an ideal environment for contemplation, study, and innovation.",
+        "sources": "[web:81][web:92][web:95]"
+      },
+      "academic_departments": {
+        "title": "Academic Departments and Organizational Structure",
+        "departments": "IIT Delhi has 13 core academic departments covering diverse disciplines of engineering, pure sciences, design, humanities, and social sciences. The major departments include Applied Mechanics, Biochemical Engineering and Biotechnology, Chemical Engineering, Chemistry, Civil Engineering, Computer Science and Engineering, Electrical Engineering, Energy Science and Engineering, Management Studies, Mathematics, Mechanical Engineering, Physics, and Textile Technology. Each department houses specialized laboratories, research facilities, and faculty expertise in cutting-edge areas. Beyond core departments, the institute operates several advanced research centers and interdisciplinary centres including the Centre for Atmospheric Sciences, Centre for Automotive Research and Tribology, Centre for Biomedical Engineering, Centre for Energy Studies, Centre for Instrument Design and Development, Centre for Rural Development and Technology, Centre for Sensors Instrumentation and Cyber-physical Systems, and many others. The Interdisciplinary Programme in Design (Department of Design) offers programs in industrial design, visual communication, and textile design. These centers facilitate interdisciplinary research collaborations, bringing together faculty and students from different departments to address complex challenges requiring multi-domain expertise.",
+        "sources": "[web:82][web:96]"
+      },
+      "research_excellence": {
+        "title": "Research Ecosystem and Innovation Culture",
+        "research_infrastructure": "IIT Delhi has established itself as a premier research institution with comprehensive research infrastructure supporting cutting-edge investigations across multiple domains. Faculty members actively engage in fundamental research, applied research, and interdisciplinary studies addressing critical societal challenges and advancing scientific knowledge. The institute maintains state-of-the-art laboratories equipped with sophisticated instrumentation for characterization, analysis, testing, and fabrication. Research areas span artificial intelligence and machine learning, robotics and automation, nanotechnology and materials science, biotechnology and biomedical engineering, sustainable energy systems, environmental engineering, aerospace technologies, data science and analytics, quantum computing, photonics, wireless networks, power systems, structural engineering, chemical processes, and numerous other cutting-edge domains. Faculty research groups publish extensively in top-tier international journals, present at prestigious conferences, and collaborate with leading researchers globally. The institute has filed over 1,618 intellectual property rights including more than 1,300 patents, demonstrating the practical impact and innovation stemming from research activities. Research scholars pursuing Ph.D. and M.S. by Research programs contribute significantly to the research output while developing expertise in their specialized areas.",
+        "sources": "[web:97][web:98][web:99][web:106]"
+      },
+      "innovation_entrepreneurship": {
+        "title": "Innovation and Entrepreneurship Ecosystem",
+        "fitt_foundation": "The Foundation for Innovation and Technology Transfer (FITT) serves as IIT Delhi's nodal agency for fostering innovation, entrepreneurship, and technology commercialization. Established in 1992, FITT initiated the implementation of the Startup Incubation program at IIT Delhi in 1999-2000, making it one of the earliest academia-based incubators in India. The institute's incubation program aims at converting technology-based innovative ideas into commercially viable products. Over the years, the incubator has nurtured startups at a high success rate and has evolved into a comprehensive ecosystem. FITT has facilitated over 2,100 industry collaborations, supported over 150 incubated startups, completed over 600 development projects, conducted over 500 training programs, and executed 185+ technology transfers. The incubation facilities have been scaled up at the Research and Innovation Park of IIT Delhi, which has facilities to house more than 125 startups. The vision is to encourage research translation and create a robust ecosystem for innovation and entrepreneurship. FITT manages intellectual property of IIT Delhi and facilitates commercialization of IP assets and know-how through technology transfer and licensing. The incubator primarily supports technology-driven startups working on innovative products/processes, preferably in the first five years since inception.",
+        "sources": "[web:105][web:106][web:107][web:108]"
+      },
+      "research_park": {
+        "title": "Research and Innovation Park",
+        "park_facilities": "FITT manages the Research and Innovation Park at IIT Delhi, planned as a managed facility focused on innovation and product development where IIT Delhi, industry, entrepreneurs, and government agencies interact to enable creation of advanced technological solutions. The park provides world-class facilities bringing together various enabling partners to help startups navigate through crucial development stages at an accelerated pace and reduce their time toward market readiness. The park houses technology-based companies, research and development centers, and startup ventures working on cutting-edge innovations. The ecosystem includes physical infrastructure (office space and laboratory facilities), mentoring support from industry experts and successful entrepreneurs, facilitation of access to seed and early-stage funding, connections with corporate and industry networks, and access to professional service providers. The park has received support from various government agencies including the Department of Science and Technology (DST), Department of Biotechnology (DBT), and other bodies to promote innovation and entrepreneurship. Startups incubated at FITT have received grants from agencies like BIRAC, Pfizer, and other organizations supporting biotechnology entrepreneurship and healthcare innovations.",
+        "sources": "[web:106][web:107]"
+      },
+      "international_collaborations": {
+        "title": "Global Partnerships and International Engagement",
+        "strategic_partnerships": "IIT Delhi has developed an impressive network of international collaborations and exchange programs with top universities worldwide, facilitating dual degrees, joint research, faculty and student mobility, and international innovation in domains such as artificial intelligence, clean energy, and aerospace. Major collaborations span Europe, North America, Asia, the Middle East, and Oceania. Key European and UK partnerships include Sorbonne University (France) for student exchange, joint research, and Spring School programs; École Polytechnique (France) for semester exchange programs; University of Exeter (UK) for research in sports science, clean energy, and automation; and University College London (UK) for academic cooperation linked via UKIERI initiatives. The institute is establishing its first offshore campus in collaboration with international partners, marking a significant step in global expansion. Recent developments include partnerships focusing on green technologies and aerospace innovations. IIT Delhi has signed an MoU with the International Energy Agency focusing on sustainable energy research. The institute collaborates with the World Intellectual Property Organization (WIPO), Department of Biotechnology (DBT), and IIT Bombay for developing IP knowledge through IP-related course materials within the Biodesign Program, establishing WIPO-supported Global Health Innovation Fellowship Initiative enabling international Fellows to participate.",
+        "sources": "[web:111][web:114]"
+      },
+      "academic_excellence": {
+        "title": "Teaching Methodology and Academic Rigor",
+        "pedagogy": "IIT Delhi follows a rigorous academic curriculum balancing theoretical foundations with practical applications and research exposure. The teaching methodology emphasizes conceptual understanding, analytical thinking, problem-solving skills, and real-world application. Faculty members, many globally recognized for their research contributions, employ diverse pedagogical approaches including lectures, tutorials, laboratory sessions, project-based learning, case studies, and industry collaborations. The curriculum is continuously updated to incorporate latest research developments and industry requirements ensuring graduates are well-prepared for careers in industry, research, or entrepreneurship. IIT Delhi provides science-based engineering education with a view to produce quality engineer-scientists. The curriculum provides broad-based knowledge preparing students for diverse career paths. Assessment is conducted through multiple modes including frequent quizzes, assignments, mid-semester examinations, end-semester examinations, projects, and presentations ensuring continuous evaluation and comprehensive understanding. Faculty are experienced and many are involved in cutting-edge research, bringing current knowledge into classrooms. The syllabus is challenging but prepares students excellently for jobs and higher studies. Professors are known for their expertise, approachability, and ability to explain complex topics in simple ways, acting as mentors beyond just teaching.",
+        "sources": "[web:96][web:100][web:103]"
+      },
+      "student_life": {
+        "title": "Campus Life and Student Experience",
+        "campus_culture": "Campus life at IIT Delhi is exceptionally vibrant and enriching, characterized by diverse student population from across India and abroad, numerous extracurricular activities, cultural events, technical festivals, and sports competitions. The institute's location in India's capital city provides unique advantages including easy connectivity to professionals in various fields, access to industry headquarters, government institutions, cultural venues, and networking opportunities. Students can join numerous clubs and societies ranging from robotics, coding, and technical domains to photography, music, dance, drama, literature, and social service. The Student Activity Centre serves as a hub for cultural and recreational activities. Technical festivals, cultural events, and entrepreneurship competitions provide platforms for innovation, learning, networking, and showcasing talents. The startup culture at IIT Delhi is particularly strong, with institutional support for students with entrepreneurial ideas through dedicated committees providing financial and administrative support. The healthy competitive environment motivates students while collaboration is encouraged. The campus provides a complete college experience with opportunities for holistic development through academics, extracurricular activities, sports, cultural events, and social engagement. Students form lifelong friendships and professional networks that extend beyond graduation.",
+        "sources": "[web:100][web:103]"
+      },
+      "hostel_facilities": {
+        "title": "Hostel Accommodation and Residential Life",
+        "residential_amenities": "IIT Delhi provides comprehensive hostel facilities with 14 hostels on campus - 11 for boys and 3 for girls - ensuring comfortable residential accommodation for students. Boys' hostels include Nilgiri, Karakoram, Aravali, Jwalamukhi, Satpura, Zanskar, Vindhyachal, Shivalik, Kumaon, Girnar, and Udaigiri. Each hostel is well-maintained and equipped with essential amenities including internet access, common rooms with television, dining halls, indoor games facilities, and semi-furnished rooms. Hostel mess facilities provide nutritious and hygienic food with varied menus catering to diverse dietary preferences. Students are typically accommodated in shared rooms fostering camaraderie and collaborative learning. Hostel life plays a crucial role in overall student development, providing opportunities for interpersonal interactions, cultural exchanges, and formation of lifelong friendships. Each hostel has its own identity, culture, and traditions contributing to the diverse campus ecosystem. Hostel committees comprising student representatives organize cultural events, sports competitions, and social activities enhancing community bonding. The infrastructure is modern and well-maintained with clean facilities and comfortable living spaces. Security and safety are prioritized with 24x7 surveillance and access control systems.",
+        "sources": "[web:92][web:95][web:100]"
+      },
+      "library_resources": {
+        "title": "Library and Information Resources",
+        "library_facilities": "The Central Library at IIT Delhi is a vast resource center with an extensive collection supporting academic and research needs across all disciplines. The library houses over 300,000 print materials including books, theses, journals, and magazines covering engineering, technology, sciences, management, humanities, social sciences, and interdisciplinary areas. Additionally, the library provides access to digital resources including online databases, e-journals, e-books, conference proceedings, technical reports, and research publications from leading international publishers. The digital library infrastructure enables access to scholarly resources from anywhere on campus through the institute network. The library offers various services including reference services, inter-library loan, document delivery, orientation programs for new students, training sessions on database usage and information literacy, and assistance from professional library staff. Reading spaces are comfortable and well-lit with individual study carrels, group discussion rooms, and silent reading areas catering to different study preferences. The library operates with extended hours during examination periods to accommodate student needs. Modern library management systems enable online catalog search, reservation of books, renewal of borrowed materials, and tracking of library accounts. The library continuously updates its collection based on faculty recommendations and curriculum requirements ensuring relevant and current resources are available.",
+        "sources": "[web:92][web:95]"
+      },
+      "sports_recreation": {
+        "title": "Sports and Recreational Facilities",
+        "sports_infrastructure": "IIT Delhi encourages a healthy and active lifestyle by offering comprehensive sports facilities enabling students to engage in physical activities and competitive sports. The campus features playing fields for cricket, football, and hockey; courts for badminton, basketball, volleyball, table tennis, and tennis; a swimming pool; running/jogging tracks; and an indoor gymnasium equipped with modern fitness equipment. Both indoor and outdoor sports facilities are available to students, faculty, and staff. The campus also includes an amphitheatre for cultural performances and outdoor events. Students can participate in inter-IIT sports meets, the annual sports competition among all IITs where students represent their institute in various sports disciplines. Sports clubs and teams provide opportunities for regular practice, coaching, skill development, and competitive participation. The institute recognizes the importance of physical fitness and sports in holistic development, encouraging all students to engage in sports and physical activities. Recreational facilities include music rooms, hobby clubs, and spaces for various extracurricular pursuits. The green spaces and landscaped areas provide venues for informal sports, outdoor activities, and relaxation. Regular sports tournaments, fitness programs, yoga sessions, and wellness activities are organized to promote healthy lifestyles.",
+        "sources": "[web:92][web:95]"
+      },
+      "medical_facilities": {
+        "title": "Healthcare and Medical Services",
+        "health_infrastructure": "IIT Delhi maintains its own hospital facility with an outpatient department (OPD) providing comprehensive medical services to students, faculty, staff, and their families. The hospital is staffed by qualified medical specialists and healthcare professionals offering consultations, diagnosis, treatment, and emergency medical care. Well-equipped medical facilities include examination rooms, diagnostic equipment, pharmacy services, and emergency response capabilities. The institute provides 24x7 ambulance service for medical emergencies ensuring prompt response and transportation to healthcare facilities when needed. Preventive healthcare programs including health checkups, vaccination drives, and health awareness campaigns are regularly conducted. The medical center maintains health records for students and provides medical certificates when required. Students have access to affordable healthcare services on campus, reducing the need to seek medical attention outside. The healthcare system prioritizes student welfare ensuring that minor ailments can be treated on campus while serious conditions are referred to appropriate hospitals in Delhi. Mental health support and counseling services are also available to help students manage stress, academic pressures, and personal challenges.",
+        "sources": "[web:92]"
+      },
+      "rankings_recognition": {
+        "title": "National and International Rankings",
+        "achievements": "IIT Delhi has achieved remarkable success in national and international rankings, establishing its reputation as one of Asia's top engineering schools and one of the world's leading technological universities. In NIRF Rankings 2024, IIT Delhi secured the 2nd position in the Engineering category and 4th position in the Overall category, maintaining its position among the top engineering institutions in India. The institute has consistently stayed in the Top 5 Engineering colleges of India as per NIRF Rankings over multiple years. In the Management category, IIT Delhi achieved 4th position in NIRF 2024. Internationally, IIT Delhi improved significantly in QS World University Rankings 2025, climbing to 150th position globally, a substantial improvement of 47 ranks from 197th in 2024. This improvement demonstrates the institute's growing global recognition and research impact. IIT Delhi ranks among the top 200 universities worldwide as per QS World Rankings 2025. In QS Asia Rankings 2023, the institute secured 46th position. In QS World University Rankings by Subject for Engineering and Technology, IIT Delhi achieved 151-200 position. The US News Global Rankings 2022 placed IIT Delhi at 717th globally and 194th in Asia Rankings. These consistent top rankings across multiple ranking agencies reflect the institute's excellence in teaching quality, research output, graduation outcomes, industry engagement, internationalization, faculty credentials, and overall reputation.",
+        "sources": "[web:91][web:94]"
+      },
+      "alumni_network": {
+        "title": "Alumni Relations and Global Impact",
+        "alumni_contributions": "Since its inception, over 60,000 students have graduated from IIT Delhi in various disciplines including engineering, physical sciences, management, humanities, and social sciences. Of these, nearly 5,070 received Ph.D. degrees while over 15,738 obtained B.Tech. degrees. The rest obtained Master's degrees in engineering, sciences, and business administration. These alumni work as scientists, technologists, business managers, and entrepreneurs across the globe. Several alumni have moved away from their original disciplines and have taken to administrative services, active politics, or work with NGOs. In doing so, they have contributed significantly to building the nation and to industrialization around the world. IIT Delhi alumni hold leadership positions in major corporations, have founded successful startups and unicorns, serve as professors at leading universities globally, occupy senior positions in government and policy-making, and contribute to various fields including technology, business, academia, public service, and social entrepreneurship. The strong alumni network provides current students with mentorship, career guidance, internship opportunities, placement support, and industry connections. Alumni chapters worldwide organize events, reunions, and networking sessions maintaining connections with the alma mater and supporting the institute's development through donations, expertise, and advocacy.",
+        "sources": "[web:78]"
+      },
+      "research_areas": {
+        "title": "Key Research Focus Areas and Faculty Expertise",
+        "research_domains": "Research at IIT Delhi spans an extensive spectrum of cutting-edge domains addressing fundamental scientific questions and practical societal challenges. In Computer Science and Engineering, research areas include artificial intelligence, machine learning, computer vision, natural language processing, operating systems, databases, networks, cloud computing, theoretical computer science, algorithms, complexity theory, and formal methods. Electrical Engineering research encompasses analog/RF mixed signal design, data converters, low power circuits, wireless networks, coding theory, security, distributed storage, information theory, communication theory, nonlinear and quantum optics, fiber and integrated photonics, high-frequency link converters, multilevel converters, grid-connected converters, linear control theory, robust control, graph theoretic control, and multi-agent systems. Biochemical Engineering and Biotechnology research includes systems biology of microbial gene regulation, bioseparation, mechanism and thermodynamics of ATP-based molecular machines, molecular systems biology/engineering, theoretical biology, bacterial physiology, waste engineering and environmental biotechnology, plant-microbiome interactions, rhizosphere engineering, bio-microfluidics, biophysics, electrohydrodynamics, bioinformatics, and computational biology. Sensors and Instrumentation research covers digital holography, laser-based instrumentation, opto-electronic sensing for point-of-care diagnostics, optical instrumentation, applied optics, quantum optical technologies, integrated quantum photonics, analog integrated circuits, biomedical instrumentation, infrared vision and industrial imaging, and nano-optoplasmonic sensors.",
+        "sources": "[web:97][web:98][web:99]"
+      },
+      "industry_connect": {
+        "title": "Industry Engagement and Corporate Collaborations",
+        "corporate_partnerships": "IIT Delhi maintains strong connections with industry through multiple channels including research collaborations, consultancy projects, internships, placements, sponsored research, and technology transfer facilitated through FITT. Over 2,100 industry collaborations have been established, demonstrating the strong industry-academia partnership. Major corporations partner with IIT Delhi for collaborative research and development projects in areas such as automotive engineering, aerospace technologies, semiconductors, renewable energy, information technology, telecommunications, manufacturing, materials science, and emerging technologies. Companies sponsor research projects, establish laboratories and centers of excellence on campus, and collaborate on developing innovative solutions to industry challenges. Industry experts deliver guest lectures, serve as mentors for student projects, and participate in curriculum development ensuring academic programs remain relevant to industry requirements. The incubation ecosystem facilitates technology commercialization with 185+ technology transfers completed, enabling IIT Delhi innovations to reach the market and create societal impact. Internship programs provide students with practical experience in corporate environments, with over 1,200 internship offers made annually, while companies benefit from fresh perspectives and innovative ideas from bright students.",
+        "sources": "[web:106]"
+      },
+      "campus_connectivity": {
+        "title": "Campus Connectivity and Digital Infrastructure",
+        "digital_facilities": "IIT Delhi campus is well-connected by road and is easily accessible from different parts of Delhi, providing convenient access to the national capital's resources and opportunities. The campus is equipped with comprehensive digital infrastructure including Wi-Fi connectivity across campus enabling seamless access to digital resources, online learning platforms, research databases, and communication tools. Classrooms are equipped with modern teaching aids including projectors, smart boards, and audio-visual equipment facilitating effective pedagogy. Computer labs and computing facilities are available across departments providing students access to high-performance computing resources, specialized software, and development environments. The campus network infrastructure supports high-speed internet connectivity essential for research, online learning, video conferencing, and access to global knowledge resources. Digital library resources, research databases, and online journals are accessible from anywhere on campus through the institute network. Administrative processes including admissions, fee payments, academic registrations, course selections, and result declarations are digitized for efficiency and transparency. Students and faculty can access administrative services and information through online portals and mobile applications. The robust digital infrastructure enables hybrid learning models, online examinations, virtual conferences, and remote collaboration when needed.",
+        "sources": "[web:92]"
+      },
+      "social_impact": {
+        "title": "Social Responsibility and Community Engagement",
+        "outreach_programs": "IIT Delhi is committed to leveraging its research capabilities and expertise for societal benefit and addressing national challenges. The Centre for Rural Development and Technology (CRDT) focuses on appropriate technologies for rural development, working on solutions for agriculture, water management, renewable energy, sanitation, affordable housing, and livelihood generation in rural areas. Faculty and students engage in various social impact initiatives including developing affordable technologies for underserved communities, creating solutions for sustainable development, working on environmental conservation, and addressing healthcare accessibility challenges. Research projects address critical areas such as water purification, air quality monitoring and improvement, waste management, energy access in remote areas, agricultural innovations, and disaster management. Students participate in social service activities through clubs and organizations, teaching underprivileged children, conducting awareness programs on health and hygiene, environmental conservation, digital literacy, and contributing to community development. The institute collaborates with government agencies, NGOs, and community organizations to implement technology-driven solutions for social welfare. Extension programs and continuing education initiatives disseminate knowledge to broader communities beyond campus boundaries, contributing to capacity building in various sectors. The commitment to social impact is reflected in research priorities, curriculum integration of social awareness, and institutional support for projects addressing societal needs.",
+        "sources": "[web:78][web:96]"
+      },
+      "sustainability_initiatives": {
+        "title": "Environmental Sustainability and Green Campus",
+        "green_practices": "IIT Delhi is committed to environmental sustainability and maintaining its green campus ecosystem. The 320-acre campus with lush greenery and landscaping creates a natural environment supporting biodiversity while providing aesthetic beauty and environmental benefits. Research in sustainable energy, green technologies, environmental engineering, and climate change mitigation aligns with national and global sustainability goals. Energy-efficient buildings, renewable energy installations, rainwater harvesting systems, waste management programs, and green procurement practices contribute to reducing the institute's environmental footprint. The institute promotes sustainable practices including water conservation through efficient usage and recycling, energy efficiency in buildings and operations, waste segregation and recycling programs, reduction of single-use plastics, and environmentally responsible procurement. Student-led sustainability initiatives and clubs raise awareness about environmental issues and organize activities such as tree plantation drives, campus cleaning campaigns, energy conservation programs, and sustainability workshops. The campus serves as a living laboratory for testing and demonstrating sustainable technologies developed through research. IIT Delhi's location in Delhi, one of the most polluted cities globally, motivates research on air quality monitoring, pollution control technologies, and sustainable urban development solutions. The institute contributes to India's sustainable development goals through research, education, and operational practices that minimize environmental impact while maximizing societal benefit.",
+        "sources": "[web:81][web:92]"
+      },
+      "future_vision": {
+        "title": "Vision and Strategic Directions",
+        "strategic_goals": "IIT Delhi continues to evolve with ambitious goals for the future, focusing on maintaining and enhancing its leadership position in engineering education, research, and innovation nationally and globally. Strategic priorities include expanding international collaborations through joint degree programs, faculty exchanges, research partnerships with leading universities worldwide, and establishing offshore campuses to extend IIT Delhi's global footprint. The institute aims to strengthen its research ecosystem by pursuing cutting-edge research in emerging areas such as artificial intelligence, quantum computing, advanced materials, biotechnology, sustainable energy, electric mobility, aerospace technologies, and space sciences. Enhancing entrepreneurship and innovation support through expanded incubation facilities, increased funding for startups, stronger industry partnerships, and creating more successful ventures that contribute to economic growth and job creation. The institute is committed to increasing diversity and inclusion, improving gender balance, providing equal opportunities to students from all backgrounds, and expanding access to quality technical education through online programs and outreach initiatives. Investing in infrastructure development, upgrading laboratories with cutting-edge equipment, developing smart campus technologies, and acquiring advanced research facilities will maintain technological leadership. Strengthening industry partnerships and corporate collaborations will ensure research addresses real-world challenges and graduates are industry-ready with skills matching evolving requirements. Expanding interdisciplinary research and education by creating more opportunities for collaboration across departments and developing programs addressing complex challenges requiring multi-domain expertise.",
+        "sources": "[web:111]"
+      }
+    }
+  },
+  "courses_and_fee": {
+    "word_count": "6000",
+    "content": {
+      "introduction": {
+        "title": "Academic Programs Overview",
+        "description": "IIT Delhi offers a comprehensive portfolio of 155 academic programs spanning undergraduate, postgraduate, doctoral, and specialized courses across engineering, sciences, design, humanities, and management disciplines. The institute's diverse program offerings cater to students at different educational stages, from high school graduates entering undergraduate programs to experienced professionals pursuing advanced degrees and research scholars working on cutting-edge investigations. The fee structure at IIT Delhi is designed to be affordable while maintaining world-class education standards, with government support and various scholarship schemes ensuring that financial constraints do not prevent deserving students from accessing premier technical education. Total fees range from ₹62,550 to ₹18 lakhs depending on the program, with undergraduate fees between ₹3.93 lakhs and ₹8.66 lakhs. The institute offers various degree programs including Bachelor of Technology (B.Tech), Integrated Dual Degree (B.Tech + M.Tech), Bachelor of Science (B.Sc), Bachelor of Design (B.Des), Master of Technology (M.Tech), Master of Science (M.Sc), Master of Science by Research (M.S), Master of Arts (M.A), Master of Design (M.Des), Master of Business Administration (MBA), Master of Public Policy (MPP), Executive Programs, and Doctor of Philosophy (Ph.D). Each program has specific eligibility criteria, duration, fee structure, and admission process designed to attract talented students and provide them with world-class education preparing them for successful careers in academia, industry, research, and entrepreneurship.",
+        "sources": "[web:83][web:84][web:86]"
+      },
+      "btech_programs": {
+        "title": "Bachelor of Technology (B.Tech) Programs",
+        "details": {
+          "duration": "4 years (8 semesters)",
+          "total_tuition_fee": "₹1,00,000 per year",
+          "total_fee_general": "₹8.63 Lakhs for complete 4-year duration (including tuition, institute fees, and other charges)",
+          "fee_payment_structure": "For General/OBC category students with Annual Family Income > ₹5 lakh: ₹1,22,400 per year (including ₹1,00,000 tuition fee). For General/OBC with Annual Family Income ₹1.00 lakh to ₹5.00 lakh: ₹55,733 per year. For General/OBC with Annual Family Income < ₹1 lakh: ₹22,400 per year. For SC/ST/PwD categories: ₹22,400 per year.",
+          "hostel_fees": "₹43,000 to ₹51,000 per year for hostel accommodation, mess charges approximately ₹10,000 per semester, security deposit ₹10,000 (refundable), double sharing room charges ₹34,000 per semester",
+          "eligibility": "Passed Class 12 or equivalent examination in 2024 or 2025 with Physics, Chemistry, and Mathematics as compulsory subjects. Minimum 75% aggregate marks (or in top 20 percentile in respective board) for General and OBC-NCL categories. Minimum 65% aggregate marks for SC/ST/PwD candidates. Must qualify JEE Main and rank among top 2,50,000 candidates to be eligible for JEE Advanced.",
+          "admission_process": "Admission to B.Tech programs at IIT Delhi is based exclusively on performance in JEE Advanced followed by seat allocation through Joint Seat Allocation Authority (JoSAA). Candidates must first qualify JEE Main, then appear for JEE Advanced conducted in May, and participate in JoSAA counselling rounds for seat allocation based on rank, category, and preferences.",
+          "specializations": "IIT Delhi offers B.Tech programs in various engineering disciplines with varying cutoff ranks. Popular specializations with JEE Advanced 2025 last round closing ranks for General category include: Computer Science and Engineering (rank 126, most competitive), Mathematics and Computing Engineering (rank 323), Electrical Engineering (rank 605), Electrical Engineering (Power and Automation) (rank 823), Engineering and Computational Mechanics (rank 1103), Mechanical Engineering (rank 1862), Chemical Engineering (rank 2548), Engineering Physics (rank 2565), Energy Science and Engineering (rank 2668), Production and Industrial Engineering (rank 3223), Materials Engineering (rank 3736), Civil Engineering (rank 4302), Biochemical Engineering and Biotechnology (rank 4999), and Textile Technology (rank 5733).",
+          "curriculum": "The B.Tech curriculum is rigorous and comprehensive, balancing theoretical knowledge with practical skills, research exposure, and industry interaction. Students undergo foundation courses in mathematics, physics, chemistry, computing, and basic engineering in initial semesters. Subsequent years include core departmental courses, professional electives, open electives, laboratory work, major and minor projects, internships, and seminar presentations. The curriculum is continuously updated to incorporate latest technological developments and industry requirements. Assessment includes frequent quizzes, mid-semester examinations, end-semester examinations, assignments, projects, and presentations ensuring continuous evaluation."
+        },
+        "sources": "[web:83][web:86][web:87][web:110]"
+      },
+      "dual_degree_programs": {
+        "title": "Integrated Dual Degree (B.Tech + M.Tech) Programs",
+        "details": {
+          "duration": "5 years (10 semesters)",
+          "total_fee": "₹8.63 Lakhs (B.Tech tuition component for first 8 semesters)",
+          "tuition_fee": "₹1,00,000 per year for B.Tech component, M.Tech fees applicable from 9th semester onwards at ₹17,500 per semester",
+          "hostel_fees": "₹43,000 to ₹51,000 per year",
+          "eligibility": "10+2 with Physics, Chemistry, and Mathematics, 75% aggregate marks (65% for SC/ST/PwD) + JEE Advanced qualification",
+          "admission_process": "Dual degree programs admit students through JEE Advanced and JoSAA counselling, similar to B.Tech programs. During counselling, candidates can select integrated dual degree programs as their preferences. The cutoff ranks differ from four-year B.Tech programs. Some departments may allow existing B.Tech students to opt for dual degree programs after initial years based on academic performance and departmental provisions.",
+          "program_structure": "The integrated dual degree program combines undergraduate and postgraduate education in a seamless five-year curriculum. Students complete B.Tech level courses in the first three to four years and M.Tech level courses with specialization, advanced research project, and thesis in the final year to 18 months. This integrated approach allows students to gain advanced knowledge, research experience, and specialized skills while completing both degrees in shorter time frame than pursuing them separately (which would take six years). Graduates receive both B.Tech and M.Tech degrees upon completion, providing them with enhanced career opportunities and research credentials.",
+          "specializations": "Integrated dual degree programs with JEE Advanced 2025 cutoffs include: Computer Science and Engineering (rank 186), Mathematics and Computing (rank 355), Chemical Engineering (rank 3454), and other specialized areas across departments based on availability."
+        },
+        "sources": "[web:83][web:86][web:110]"
+      },
+      "bsc_programs": {
+        "title": "Bachelor of Science (B.Sc) Programs",
+        "details": {
+          "duration": "4 years",
+          "total_fee": "Similar to B.Tech programs with tuition fee structure based on family income",
+          "hostel_fees": "₹43,000 to ₹51,000 per year",
+          "eligibility": "10+2 with required percentage + JEE Advanced qualification or other specified entrance examinations",
+          "admission_process": "B.Sc programs admit students through JEE Advanced and JoSAA counselling process. Candidates qualifying JEE Advanced can opt for B.Sc programs during seat allocation based on their preferences and ranks.",
+          "specializations": "B.Sc in Chemistry with JEE Advanced 2025 cutoff of rank 8528 (last round) for General category. Programs are offered in fundamental science disciplines including Chemistry, Physics, Mathematics, and Economics, providing students with strong foundation in theoretical and experimental sciences.",
+          "career_prospects": "B.Sc graduates pursue diverse career paths including research in academic and industrial laboratories, higher education (M.Sc, Ph.D), data science and analytics, scientific positions in government organizations, management consulting, finance, and interdisciplinary fields combining science with technology and business."
+        },
+        "sources": "[web:83][web:110]"
+      },
+      "bdes_programs": {
+        "title": "Bachelor of Design (B.Des) Programs",
+        "details": {
+          "duration": "4 years",
+          "total_fee": "₹8.66 Lakhs for complete 4-year duration",
+          "tuition_fee": "₹1,00,000 per year",
+          "hostel_fees": "₹43,000 to ₹51,000 per year",
+          "eligibility": "Pass in 10+2 in any stream (Science, Commerce, Arts) with minimum required percentage + UCEED qualification",
+          "admission_process": "B.Des admission is based on UCEED (Undergraduate Common Entrance Examination for Design) conducted annually. Candidates must have valid UCEED scores. After results, admission is through counselling process based on UCEED rank and preferences.",
+          "program_features": "The B.Des program offers comprehensive design education covering industrial design, visual communication, textile design, product design, interaction design, and other design disciplines. The curriculum balances design thinking, creativity, technical skills, and practical projects preparing students for careers in design industries. JEE Advanced 2025 cutoff for B.Des was rank 12217 (last round) for General category.",
+          "curriculum": "Design education includes studio-based learning, design projects, workshops, internships, and exposure to latest design tools and technologies."
+        },
+        "sources": "[web:83][web:110]"
+      },
+      "mtech_programs": {
+        "title": "Master of Technology (M.Tech) Programs",
+        "details": {
+          "duration": "2 years (4 semesters)",
+          "total_fee": "₹3.81 Lakhs for complete 2-year duration",
+          "tuition_fee": "₹17,500 per semester",
+          "hostel_fees": "₹43,000 to ₹51,000 per year",
+          "eligibility": "Bachelor's degree in Engineering/Technology (B.E/B.Tech) with minimum 60% marks (55% for SC/ST/PwD) + GATE qualification. Some programs accept B.Sc graduates with strong academic records for interdisciplinary M.Tech programs.",
+          "admission_process": "M.Tech admission at IIT Delhi is primarily based on GATE (Graduate Aptitude Test in Engineering) scores. Candidates must have valid GATE score in the relevant discipline and meet minimum qualifying marks criteria. After GATE results, IIT Delhi conducts admissions through COAP (Common Offer Acceptance Portal) for some programs and department-specific processes for others. The selection process considers GATE scores, academic performance in bachelor's degree, and sometimes personal interviews or written tests depending on the department and specialization. Candidates must apply to specific departments indicating their specialization preferences through the IIT Delhi application form from the official website.",
+          "popular_specializations": "Popular M.Tech specializations at IIT Delhi span all engineering departments including Computer Science and Engineering, Data Science, Artificial Intelligence and Machine Learning, Communication Engineering, VLSI Design, Power Systems and Automation, Structural Engineering, Geotechnical Engineering, Environmental Engineering, Thermal Engineering, Manufacturing Engineering, Production Engineering, Chemical Engineering, Materials Engineering, Biotechnology, Energy Studies, and numerous other specialized areas. Each department offers multiple specializations aligned with faculty research expertise and industry requirements.",
+          "program_features": "M.Tech programs combine advanced coursework with significant research components. Students undertake a major research project or thesis in their final semesters, contributing to advancement of knowledge in their specialization. The curriculum includes core courses providing foundational knowledge, electives allowing specialization, seminars exposing students to current research, and project work developing research and problem-solving skills."
+        },
+        "sources": "[web:83][web:84][web:86][web:87]"
+      },
+      "ms_research": {
+        "title": "Master of Science by Research (M.S) Programs",
+        "details": {
+          "duration": "2-3 years",
+          "total_fee": "₹1.2 Lakhs to ₹3.81 Lakhs depending on duration",
+          "tuition_fee": "₹7,500 per semester (for some programs)",
+          "hostel_fees": "₹43,000 to ₹51,000 per year",
+          "eligibility": "Bachelor's degree with minimum 60% marks + GATE qualification or department-specific selection criteria",
+          "admission_process": "M.S by Research admission is conducted through department-specific processes based on GATE scores, academic credentials, written tests, and interviews. Some departments may have additional requirements like research proposals or statements of purpose.",
+          "program_structure": "M.S by Research programs are research-intensive master's programs where students primarily focus on conducting original research under faculty supervision, culminating in thesis submission and defense. These programs suit students aspiring for research careers or planning to pursue Ph.D subsequently. The curriculum includes minimal coursework with majority of time devoted to research work."
+        },
+        "sources": "[web:83][web:84][web:86]"
+      },
+      "msc_programs": {
+        "title": "Master of Science (M.Sc) Programs",
+        "details": {
+          "duration": "2 years (4 semesters)",
+          "total_fee": "₹1.2 Lakhs to ₹3.81 Lakhs",
+          "tuition_fee": "₹7,500 per semester",
+          "hostel_fees": "₹43,000 to ₹51,000 per year",
+          "eligibility": "Bachelor's degree in relevant field with minimum 55% marks (50% for SC/ST/PwD) + IIT JAM qualification",
+          "admission_process": "M.Sc admission at IIT Delhi is conducted through IIT JAM (Joint Admission Test for M.Sc). IIT JAM tests candidates' knowledge in subjects like Physics, Chemistry, Mathematics, Biotechnology, Economics, Geology, and Mathematical Statistics. After IIT JAM results, centralized online counselling is conducted through CCMN (Centralized Counselling for M.Sc/M.A/M.Sc(Tech)/MS(Research)/Other programs) portal. Candidates fill preferences for institutes and programs. Seat allocation is based on IIT JAM score, category, and preferences.",
+          "specializations": "M.Sc programs are offered in Physics, Chemistry, Mathematics, Applied Statistics and Informatics, Economics, and other science disciplines. These programs provide advanced theoretical and practical training in fundamental sciences, preparing students for research careers or industry positions requiring strong analytical and scientific skills.",
+          "program_structure": "The M.Sc curriculum includes advanced coursework in the chosen discipline, laboratory sessions, seminars, and a dissertation or project in the final semester. Students develop deep understanding of scientific principles, research methodologies, and analytical techniques."
+        },
+        "sources": "[web:83][web:84][web:87]"
+      },
+      "ma_programs": {
+        "title": "Master of Arts (M.A) Programs",
+        "details": {
+          "duration": "2 years",
+          "tuition_fee": "₹7,500 per semester",
+          "eligibility": "Bachelor's degree in relevant discipline with minimum percentage as specified by department",
+          "admission_process": "M.A admission is based on written test, GATE scores (for some programs), and/or personal interview as specified by the Department of Humanities and Social Sciences. The specific admission criteria vary depending on the specialization.",
+          "specializations": "M.A programs are offered in various humanities and social sciences disciplines including Economics, Philosophy, Sociology, and other areas. These programs provide interdisciplinary perspectives combining humanities and social sciences with contemporary issues and research methodologies."
+        },
+        "sources": "[web:83][web:84]"
+      },
+      "mdes_programs": {
+        "title": "Master of Design (M.Des) Programs",
+        "details": {
+          "duration": "2 years",
+          "total_fee": "₹1.6 Lakhs for complete 2-year duration",
+          "hostel_fees": "₹43,000 to ₹51,000 per year",
+          "eligibility": "Bachelor's degree in Engineering/Design/Architecture (B.E/B.Tech/B.Des/B.Arch) with minimum 60% marks (55% for SC/ST/PwD)",
+          "admission_process": "M.Des admission is based on CEED (Common Entrance Exam for Design) conducted annually. Candidates must have valid CEED scores. The selection process includes CEED scores, Design Aptitude Test (DAT), portfolio evaluation, and personal interview.",
+          "specializations": "M.Des programs cover various design disciplines including industrial design, visual communication, textile and apparel design, interaction design, product design, and other specialized areas. The programs prepare students for leadership roles in design industries and research."
+        },
+        "sources": "[web:83][web:84][web:87]"
+      },
+      "mba_programs": {
+        "title": "Master of Business Administration (MBA) Programs",
+        "details": {
+          "duration": "2 years (Full-time) or Part-time options available",
+          "total_fee_fulltime": "₹12.4 Lakhs for full-time MBA (₹11.20 to ₹12.10 lakhs range)",
+          "tuition_fee_fulltime": "₹3,00,000 per year",
+          "total_fee_parttime": "Part-time MBA tuition fee ₹2,25,000 per year",
+          "hostel_fees": "₹43,000 to ₹51,000 per year for residential students",
+          "eligibility": "Bachelor's degree or equivalent professional qualification with minimum 60% marks (55% for SC/ST/PwD) + CAT qualification. Final year bachelor's students are eligible to apply.",
+          "admission_process": "MBA admission at the Department of Management Studies (DMS), IIT Delhi, is based on CAT (Common Admission Test) scores. The selection process includes shortlisting based on CAT scores and academic profile, followed by Group Discussion (GD) and Personal Interview (PI). The final selection is based on composite score considering CAT score (weighted heavily), past academic performance (10th, 12th, bachelor's degree), work experience (quality and duration), academic diversity (engineering/non-engineering background), gender diversity, and other achievements.",
+          "curriculum": "The MBA curriculum focuses on building leadership, analytical skills, managerial capabilities, and strategic thinking through rigorous coursework, case studies, industry projects, internships, and practical learning. Students can choose specializations in areas such as Finance, Marketing, Operations, Strategy, Analytics, and other management domains."
+        },
+        "sources": "[web:83][web:84][web:86][web:87]"
+      },
+      "mpp_programs": {
+        "title": "Master of Public Policy (MPP) Programs",
+        "details": {
+          "duration": "2 years",
+          "total_fee": "₹1.2 Lakhs to ₹3.81 Lakhs",
+          "eligibility": "Bachelor's degree with minimum 60% marks",
+          "admission_process": "MPP admission is based on written test and/or personal interview conducted by the Centre for Policy Studies. Specific admission criteria are announced in admission notifications.",
+          "program_features": "The MPP program prepares students for careers in public policy, governance, development, and social sectors. The curriculum combines policy analysis, economics, statistics, governance frameworks, and practical field experience. Graduates pursue careers in government, think tanks, international organizations, NGOs, and policy research institutions."
+        },
+        "sources": "[web:83][web:84]"
+      },
+      "executive_programs": {
+        "title": "Executive Programs and Continuing Education",
+        "details": {
+          "fee_range": "₹1.37 Lakhs to ₹1.99 Lakhs depending on program",
+          "eligibility": "Bachelor's degree or relevant work experience as specified for each program",
+          "program_types": "IIT Delhi offers various executive programs, continuing education courses, and professional development programs catering to working professionals seeking to enhance their skills, knowledge, and career prospects. These programs are designed with flexible schedules accommodating professional commitments.",
+          "delivery_mode": "Programs may be offered through weekend classes, online modules, intensive sessions, or blended learning formats making quality IIT Delhi education accessible to professionals who cannot attend full-time on-campus programs."
+        },
+        "sources": "[web:83]"
+      },
+      "phd_programs": {
+        "title": "Doctor of Philosophy (Ph.D) Programs",
+        "details": {
+          "duration": "3-5 years (typically minimum 3 years for candidates with master's degree)",
+          "total_fee_fulltime": "₹1.79 Lakhs to ₹3.81 Lakhs depending on duration",
+          "tuition_fee_fulltime": "₹7,500 per semester for full-time Ph.D",
+          "tuition_fee_parttime": "₹17,500 per semester for part-time/sponsored Ph.D",
+          "hostel_fees": "₹43,000 to ₹51,000 per year for residential scholars",
+          "eligibility": "Master's degree in relevant discipline with minimum 60% marks (55% for SC/ST/PwD) for regular Ph.D. Bachelor's degree with exceptional academic record for Direct Ph.D admission in some departments.",
+          "admission_process": "Ph.D admissions at IIT Delhi are conducted by individual departments and research centers, typically twice a year (for July and January sessions). Candidates must have completed or be in final year of postgraduate degree (M.Tech, M.Sc, M.A, MBA, M.Des) with good academic record. Some departments admit exceptional candidates directly after Bachelor's degree under Direct Ph.D scheme. The selection process involves written test covering subject knowledge and research aptitude, personal interview assessing research potential and motivation, and evaluation of academic credentials. Candidates with valid GATE/NET/CSIR/UGC/INSPIRE fellowship are given preference and may be exempted from written test in some departments. Selected candidates must submit research proposal and secure a faculty supervisor before final admission.",
+          "research_areas": "Ph.D programs are offered across all academic departments and research centers covering diverse areas including all engineering disciplines, pure sciences, design, management, humanities, social sciences, and interdisciplinary domains. Research topics span cutting-edge areas aligned with faculty expertise and addressing fundamental scientific questions as well as practical societal challenges.",
+          "fellowship_support": "Selected Ph.D students receive monthly fellowship/stipend as per government norms. Full-time Ph.D scholars typically receive fellowships ranging from approximately ₹31,000 to ₹35,000 per month depending on year of study and fellowship type. Students with GATE/NET/CSIR/UGC fellowships receive support according to fellowship guidelines. Teaching Assistantships (TA) and Research Assistantships (RA) provide additional monthly stipends to doctoral students assisting in teaching or research activities."
+        },
+        "sources": "[web:83][web:84][web:86]"
+      },
+      "fee_structure_detailed": {
+        "title": "Detailed Fee Structure and Components",
+        "fee_breakdown": {
+          "tuition_fees": "B.Tech/B.Des/Dual Degree: ₹1,00,000 per year. M.Tech/M.S/M.Des: ₹17,500 per semester. M.Sc/M.A/Ph.D (Full-Time): ₹7,500 per semester. Ph.D (Part-Time/Sponsored): ₹17,500 per semester. MBA Self-financing (Full-Time): ₹3,00,000 per year. MBA Self-financing (Part-Time): ₹2,25,000 per year.",
+          "institute_fees": "Various components including admission fees, student welfare fund, modernization fees, alumni fees, sports fees, library fees, medical fees, and other charges are added to tuition fees. Total institute fees and other charges vary by program and category.",
+          "income_based_fees": "Fee structure for B.Tech/B.Des/Dual Degree varies based on annual family income: For General/OBC with income > ₹5 lakh: ₹1,22,400 per year total. For General/OBC with income ₹1-5 lakh: ₹55,733 per year total. For General/OBC with income < ₹1 lakh: ₹22,400 per year total. For SC/ST/PwD: ₹22,400 per year total (tuition fee waiver applicable).",
+          "hostel_charges": "Hostel fees charged semester-wise. Approximate hostel charges per semester (4 months): Security deposit ₹10,000 (refundable), Mess charges ₹10,000 approximately, Double sharing room ₹34,000. Total approximately ₹43,000-51,000 per year for hostel accommodation."
+        },
+        "sources": "[web:83][web:86][web:92]"
+      },
+      "scholarships_financial_aid": {
+        "title": "Scholarships and Financial Assistance",
+        "support_schemes": {
+          "tuition_fee_waiver": "SC/ST/PwD candidates receive full tuition fee waiver in most programs as per government norms. They only pay other charges approximately ₹22,400 per year for undergraduate programs.",
+          "income_based_support": "Students from economically weaker sections receive fee concessions based on annual family income. Those with family income less than ₹1 lakh receive maximum fee concession paying only ₹22,400 annually. Those with income between ₹1-5 lakhs pay ₹55,733 annually.",
+          "merit_scholarships": "Merit-cum-means scholarships are available to support deserving students from economically disadvantaged backgrounds ensuring they can pursue education without financial stress.",
+          "research_fellowships": "Ph.D and research students receive monthly fellowships/stipends. Students with GATE/NET/CSIR/UGC fellowships receive financial support as per fellowship norms. Teaching Assistantships (TA) and Research Assistantships (RA) provide additional monthly stipends to postgraduate students.",
+          "education_loans": "Students can avail education loans from designated banks with support from the institute. Interest subsidy schemes may be available for economically weaker students.",
+          "external_scholarships": "Students can access external scholarships from corporate organizations, foundations, trusts, and government schemes available through National Scholarship Portal and other sources."
+        },
+        "sources": "[web:86]"
+      },
+      "fee_comparison_table": {
+        "title": "Comprehensive Fee Structure Comparison",
+        "programs_table": [
+          {
+            "Program": "B.Tech / B.Des / Dual Degree",
+            "Duration": "4-5 years",
+            "Total Fee": "₹8.63 - 8.66 Lakhs",
+            "Annual Tuition": "₹1,00,000",
+            "Hostel Fees": "₹43,000-51,000/year",
+            "Eligibility": "10+2 with 75% + JEE Advanced/UCEED"
+          },
+          {
+            "Program": "B.Sc",
+            "Duration": "4 years",
+            "Total Fee": "Similar to B.Tech",
+            "Annual Tuition": "Based on income",
+            "Hostel Fees": "₹43,000-51,000/year",
+            "Eligibility": "10+2 + JEE Advanced"
+          },
+          {
+            "Program": "M.Tech / M.Des",
+            "Duration": "2 years",
+            "Total Fee": "₹1.6 - 3.81 Lakhs",
+            "Semester Tuition": "₹17,500",
+
+[1](https://home.iitd.ac.in/about.php)
+[2](https://en.wikipedia.org/wiki/IIT_Delhi)
+[3](https://www.iitd.ac.in)
+[4](https://www.slideshare.net/slideshow/iit-delhi-case-study/66140674)
+[5](https://dekhocampus.com/college/indian-institute-of-technology-iit-new-delhi)
+[6](https://collegedunia.com/university/25455-iit-delhi-indian-institute-of-technology-iitd-new-delhi/courses-fees)
+[7](https://www.careers360.com/university/indian-institute-of-technology-delhi/admission)
+[8](https://www.iitsystem.ac.in/history)
+[9](https://www.careers360.com/university/indian-institute-of-technology-delhi/courses)
+[10](https://www.shiksha.com/university/iit-delhi-indian-institute-of-technology-53938/admission)
+[11](https://www.shiksha.com/university/iit-delhi-indian-institute-of-technology-53938/placement)
+[12](https://collegedunia.com/university/25455-iit-delhi-indian-institute-of-technology-iitd-new-delhi/placement)
+[13](https://motion.ac.in/blog/average-and-highest-package-of-iits/)
+[14](https://indianexpress.com/article/education/iit-delhi-engineering-btech-placement-year-wise-top-packages-salary-electrical-cse-mechanical-department-iitd-ac-in-10305882/)
+[15](https://www.mycareer.matrixedu.in/highest-package-of-iit/)
+[16](https://www.shiksha.com/articles/iit-delhi-ranking-2025-nirf-qs-india-today-the-week-us-news-blogId-133177)
+[17](https://www.pagalguy.com/colleges/indian-institute-of-technology-delhi/campus-facilities)
+[18](https://usemynotes.com/iit-delhi-mtech-placements-record-2024-25-highest-package-average-package-top-companies/)
+[19](https://www.topuniversities.com/universities/indian-institute-technology-delhi-iitd)
+[20](https://www.telegraphindia.com/edugraph/colleges/indian-institute-of-technology-delhi-iitde/infrastructure/297)
+[21](https://home.iitd.ac.in/departments.php)
+[22](https://ee.iitd.ac.in/faculty)
+[23](https://beb.iitd.ac.in/faculty.html)
+[24](https://iddcweb.iitd.ac.in/content/faculty-0)
+[25](https://www.collegebatch.com/reviews/27012-indian-institute-of-technology-new-delhi)
+[26](https://mse.iitd.ac.in/contact)
+[27](https://abudhabi.iitd.ac.in/faculty)
+[28](https://www.careers360.com/university/indian-institute-of-technology-delhi/reviews)
+[29](https://jam2025.iitd.ac.in/contactus.php)
+[30](https://fitt-iitd.in/web/incubation)
+[31](https://fitt-iitd.in)
+[32](https://home.iitd.ac.in/startup-all.php)
+[33](https://www.indiascienceandtechnology.gov.in/innovations/incubators/foundation-innovation-and-technology-transfer-fitt-indian-institute-technology-iit-delhi)
+[34](https://iiitdic.in)
+[35](https://www.shiksha.com/university/iit-delhi-indian-institute-of-technology-53938/cutoff)
+[36](https://www.collegesearch.in/articles/iit-delhi-exchange-programs-international-collaborations-2025-global-mous-campus-uni)
+[37](https://www.aic-iitd.in/about-us/)
+[38](https://origineducare.com/iit-delhi-cutoff-2025-jee-advanced-marks-rank-needed/)
+[39](https://rnd.iitb.ac.in/mou_iitb_wipo)
