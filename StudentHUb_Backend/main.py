@@ -22,7 +22,7 @@ from database import Base, engine
 from services.news_service import news_service
 
 # Ensure all routers are imported correctly
-from routers import colleges, search, edu_updates, reviews, private_colleges , latest_news, auth, mock_tests
+from routers import colleges, search, edu_updates, reviews, private_colleges , latest_news, auth, mock_tests, articles
 from routers import chatbot
 
 app = FastAPI(title="Student Hub API")
@@ -78,6 +78,7 @@ app.include_router(latest_news.router)
 app.include_router(auth.router)
 app.include_router(mock_tests.router) 
 app.include_router(chatbot.router)
+app.include_router(articles.router)
 
 # Serve static files (React build)
 app.mount("/static", StaticFiles(directory="static", html=True), name="static")

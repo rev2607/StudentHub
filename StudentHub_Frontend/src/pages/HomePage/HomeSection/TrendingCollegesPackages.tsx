@@ -1,4 +1,4 @@
-// import React from "react";
+import { Link } from "react-router-dom";
 
 // Import individual private college logos
 import bitsPilaniLogo from "../../../../src/assets/Colleges/BITS_Pilani-Logo.png";
@@ -13,16 +13,16 @@ import klLogo from "../../../../src/assets/Colleges/KL_Logo_Final_New-pdf_1.webp
 import kalasalingamLogo from "../../../../src/assets/Colleges/Kalasalingam_Academy_of_Research_and_Education_logo.png";
 
 const colleges = [
-  { rank: 1,  logo: bitsPilaniLogo, name: "Birla Institute of Technology and Science (BITS) Pilani", nirf: 11, average: "₹18–25 LPA", highest: "₹60+ LPA", naac: "A+" },
-  { rank: 2,  logo: vitVelloreLogo, name: "Vellore Institute of Technology (VIT) Vellore",           nirf: 16, average: "₹9–12 LPA", highest: "₹75 LPA", naac: "A+" },
-  { rank: 3,  logo: srmLogo, name: "SRM Institute of Science and Technology Chennai",        nirf: 14, average: "₹6–9 LPA", highest: "₹45–50 LPA", naac: "A" },
-  { rank: 4,  logo: thaparLogo, name: "Thapar Institute of Engineering and Technology",         nirf: 29, average: "₹7–9 LPA", highest: "₹20–25 LPA", naac: "A" },
-  { rank: 5,  logo: amritaLogo, name: "Amrita Vishwa Vidyapeetham",                            nirf: 23, average: "₹6–8 LPA", highest: "₹20–22 LPA", naac: "A+" },
-  { rank: 6,  logo: soaLogo, name: "Siksha 'O' Anusandhan (SOA), Bhubaneswar",              nirf: 22, average: "₹5–7 LPA", highest: "₹12–15 LPA", naac: "A" },
-  { rank: 7,  logo: amityLogo, name: "Amity University, Noida",                               nirf: 37, average: "₹5–6 LPA", highest: "₹10–12 LPA", naac: "A" },
-  { rank: 8,  logo: chandigarhLogo, name: "Chandigarh University",                                 nirf: 32, average: "₹5–6 LPA", highest: "₹10–12 LPA", naac: "A" },
-  { rank: 9,  logo: klLogo, name: "Koneru Lakshmaiah Education Foundation (KL University)", nirf: 35, average: "₹4–6 LPA", highest: "₹10–12 LPA", naac: "A" },
-  { rank: 10, logo: kalasalingamLogo, name: "Kalasalingam Academy of Research and Education",         nirf: 36, average: "₹4–5 LPA", highest: "₹10 LPA", naac: "A" },
+  { rank: 1,  slug: "bits-pilani", logo: bitsPilaniLogo, name: "Birla Institute of Technology and Science (BITS) Pilani", nirf: 11, average: "₹18–25 LPA", highest: "₹60+ LPA", naac: "A+" },
+  { rank: 2,  slug: "vit-vellore", logo: vitVelloreLogo, name: "Vellore Institute of Technology (VIT) Vellore",           nirf: 16, average: "₹9–12 LPA", highest: "₹75 LPA", naac: "A+" },
+  { rank: 3,  slug: "srm", logo: srmLogo, name: "SRM Institute of Science and Technology Chennai",        nirf: 14, average: "₹6–9 LPA", highest: "₹45–50 LPA", naac: "A" },
+  { rank: 4,  slug: "thapar", logo: thaparLogo, name: "Thapar Institute of Engineering and Technology",         nirf: 29, average: "₹7–9 LPA", highest: "₹20–25 LPA", naac: "A" },
+  { rank: 5,  slug: "amrita-coimbatore", logo: amritaLogo, name: "Amrita Vishwa Vidyapeetham",                            nirf: 23, average: "₹6–8 LPA", highest: "₹20–22 LPA", naac: "A+" },
+  { rank: 6,  slug: "soa-bhubaneswar", logo: soaLogo, name: "Siksha 'O' Anusandhan (SOA), Bhubaneswar",              nirf: 22, average: "₹5–7 LPA", highest: "₹12–15 LPA", naac: "A" },
+  { rank: 7,  slug: "amity-noida", logo: amityLogo, name: "Amity University, Noida",                               nirf: 37, average: "₹5–6 LPA", highest: "₹10–12 LPA", naac: "A" },
+  { rank: 8,  slug: "chandigarh-university", logo: chandigarhLogo, name: "Chandigarh University",                                 nirf: 32, average: "₹5–6 LPA", highest: "₹10–12 LPA", naac: "A" },
+  { rank: 9,  slug: "kl-university", logo: klLogo, name: "Koneru Lakshmaiah Education Foundation (KL University)", nirf: 35, average: "₹4–6 LPA", highest: "₹10–12 LPA", naac: "A" },
+  { rank: 10, slug: "kalasalingam", logo: kalasalingamLogo, name: "Kalasalingam Academy of Research and Education",         nirf: 36, average: "₹4–5 LPA", highest: "₹10 LPA", naac: "A" },
 ];
 
 // Helper to interpolate between two colors
@@ -63,7 +63,9 @@ const TrendingCollegesPackages = () => {
                 {!isEven && (
                   <div className="hidden md:flex w-full items-center">
                     <div className="flex-1 text-right pr-8">
-                      <h3 className="font-bold text-base md:text-lg mb-1 text-[#22314A]">{college.name}</h3>
+                      <Link to={`/colleges/${college.slug}`}>
+                        <h3 className="font-bold text-base md:text-lg mb-1 text-[#22314A] hover:text-[var(--site-green)] transition-colors duration-200 cursor-pointer">{college.name}</h3>
+                      </Link>
                       <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">NIRF Ranking:</span> {college.nirf}</div>
                       <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">NAAC Grade:</span> {college.naac}</div>
                       <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">Highest Package:</span> {college.highest}</div>
@@ -115,7 +117,9 @@ const TrendingCollegesPackages = () => {
                       <span className="absolute -bottom-5 left-1/2 -translate-x-1/2 px-4 py-2 rounded-full text-base font-extrabold shadow bg-white border-4 border-white z-20" style={{ background: getGradientBorder(college.rank), color: '#fff' }}>{college.rank}</span>
                     </div>
                     <div className="flex-1 text-left pl-8">
-                      <h3 className="font-bold text-base md:text-lg mb-1 text-[#22314A]">{college.name}</h3>
+                      <Link to={`/colleges/${college.slug}`}>
+                        <h3 className="font-bold text-base md:text-lg mb-1 text-[#22314A] hover:text-[var(--site-green)] transition-colors duration-200 cursor-pointer">{college.name}</h3>
+                      </Link>
                       <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">NIRF Ranking:</span> {college.nirf}</div>
                       <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">NAAC Grade:</span> {college.naac}</div>
                       <div className="text-xs md:text-sm text-gray-700 mb-1"><span className="font-semibold">Highest Package:</span> {college.highest}</div>
@@ -136,7 +140,9 @@ const TrendingCollegesPackages = () => {
                     </div>
                     <span className="absolute -bottom-5 left-1/2 -translate-x-1/2 px-4 py-2 rounded-full text-base font-extrabold shadow bg-white border-4 border-white z-20" style={{ background: getGradientBorder(college.rank), color: '#fff' }}>{college.rank}</span>
                   </div>
-                  <h3 className="font-bold text-base mb-1 text-[#22314A]">{college.name}</h3>
+                  <Link to={`/colleges/${college.slug}`}>
+                    <h3 className="font-bold text-base mb-1 text-[#22314A] hover:text-[var(--site-green)] transition-colors duration-200 cursor-pointer">{college.name}</h3>
+                  </Link>
                   <div className="text-xs text-gray-700 mb-1"><span className="font-semibold">NIRF Ranking:</span> {college.nirf}</div>
                   <div className="text-xs text-gray-700 mb-1"><span className="font-semibold">NAAC Grade:</span> {college.naac}</div>
                   <div className="text-xs text-gray-700 mb-1"><span className="font-semibold">Highest Package:</span> {college.highest}</div>

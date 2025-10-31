@@ -1,6 +1,7 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { MdWindow } from "react-icons/md";
-import { FaUsers } from "react-icons/fa";
+import { FaUsers, FaBrain } from "react-icons/fa";
 import CounsellingSignupForm, { CounsellingFormData } from "../../../components/CounsellingSignupForm";
 import AIChatbox from "../../../components/AIChatbox";
 import { submitCounsellingRequest } from "../../../services/counsellingService";
@@ -9,6 +10,7 @@ import GuidanceImage from "../../../assets/home-guidance.png"; // Import the ima
 const Guidance = () => {
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [isChatboxOpen, setIsChatboxOpen] = useState(false);
+  const navigate = useNavigate();
 
   const handleStartNowClick = () => {
     setIsFormOpen(true);
@@ -48,12 +50,8 @@ const Guidance = () => {
         <div className="text-center mb-12">
           <h1 className="text-2xl font-bold text-gray-900 pb-4">Therapeutic Guidance</h1>
           <p className="text-black font-light">
-            Our handpicked
-            <span className="font-semibold"> professionals </span>
-            eliminate your greatest uncertainties through tailored <br />
-            video guidance sessions, complemented by
-            <span className="font-semibold"> insights </span>
-            from the student community.
+            Personalised, expert-led video guidance to resolve your doubts fast — enriched with
+            <span className="font-semibold"> student insights</span> from our community.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-center">
@@ -75,6 +73,24 @@ const Guidance = () => {
                   className="mt-3 sm:mt-4 px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-900 text-white rounded-full text-sm sm:text-base hover:bg-gray-800 transition-colors"
                 >
                   Start Now
+                </button>
+              </div>
+            </div>
+
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-900 mb-3">Career Guidance Test</h2>
+            <div className="flex items-start space-x-4">
+              <div className="flex-shrink-0">
+                <div className="bg-white p-2 rounded-full shadow-lg">
+                  <FaBrain className="text-[var(--site-green)] h-6 w-6 sm:h-8 sm:w-8" />
+                </div>
+              </div>
+              <div>
+                <p className="text-gray-600 text-sm sm:text-base">5–10 min assessment to discover strengths and get career suggestions.</p>
+                <button 
+                  onClick={() => navigate('/psychometric-test')}
+                  className="mt-3 sm:mt-4 px-3 sm:px-4 py-1.5 sm:py-2 bg-gray-900 text-white rounded-full text-sm sm:text-base hover:bg-gray-800 transition-colors"
+                >
+                  Take Test
                 </button>
               </div>
             </div>

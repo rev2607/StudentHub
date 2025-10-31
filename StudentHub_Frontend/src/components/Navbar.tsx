@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown, Search } from "lucide-react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { supabase } from '../lib/supabaseClient';
 
@@ -15,12 +15,11 @@ const Navbar = () => {
 
   const menuItems = [
     { title: "Home", path: "/" },
-    { title: "Results", path: "/results" },
     { title: "News", path: "/news" },
     { title: "Exams", path: "/exams" },
     { title: "Colleges", path: "/colleges" },
     { title: "Mock Tests", path: "/mock-tests" },
-    { title: "Psychometric test", path: "/psychometric-test" },
+    { title: "Career Guidance Test", path: "/psychometric-test" },
   ];
 
   // Check auth state on mount and subscribe to changes (non-blocking)
@@ -165,6 +164,15 @@ const Navbar = () => {
 
           {/* Desktop Auth Section */}
           <div className="hidden lg:flex items-center space-x-3">
+            {/* Search Icon */}
+            <button
+              onClick={() => navigate('/search')}
+              className="p-2 rounded-md text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+              aria-label="Search"
+            >
+              <Search className="h-5 w-5" />
+            </button>
+            
             {session?.user ? (
               <div className="relative" ref={userMenuRef} data-testid="nav-user">
                 <button
@@ -228,7 +236,16 @@ const Navbar = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className="lg:hidden flex items-center">
+          <div className="lg:hidden flex items-center space-x-2">
+            {/* Mobile Search Icon */}
+            <button
+              onClick={() => navigate('/search')}
+              className="p-2 rounded-md text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+              aria-label="Search"
+            >
+              <Search className="h-6 w-6" />
+            </button>
+            
             <button 
               onClick={() => setIsOpen(!isOpen)} 
               className="p-2 rounded-md text-gray-700 hover:text-[var(--site-green)] hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 transition-all duration-200"

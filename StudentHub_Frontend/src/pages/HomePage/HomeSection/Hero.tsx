@@ -2,7 +2,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 // Import SVG icons
-import ResultsIcon from "../../../assets/Results.svg";
 import NewsIcon from "../../../assets/news.svg";
 import ExamsIcon from "../../../assets/examination.svg";
 import EngineeringIcon from "../../../assets/Engineering.svg";
@@ -13,15 +12,15 @@ import StudyAbroadIcon from "../../../assets/study abroad.svg";
 import ReviewsIcon from "../../../assets/Review.svg";
 
 const menuItems = [
-  { icon: ResultsIcon, label: "Results", path: "/results" },
+  { icon: "/rankometer.png", label: "Rankometer", path: "/rankometer" },
   { icon: NewsIcon, label: "News", path: "/news" },
   { icon: ExamsIcon, label: "Exams", path: "/exams" },
-  { icon: EngineeringIcon, label: "Engineering", path: "/colleges" },
+  { icon: EngineeringIcon, label: "Colleges", path: "/colleges" },
   { icon: MockTestsIcon, label: "Mock Tests", path: "/mock-tests" },
-  { icon: TrainingIcon, label: "Career Guidance\ntest", path: "/psychometric-test" },
-  { icon: MBBSIcon, label: "MBBS", path: "/mbbs" },
-  { icon: StudyAbroadIcon, label: "Study Abroad", path: "/study-abroad" },
-  { icon: ReviewsIcon, label: "Reviews", path: "/reviews" },
+  { icon: TrainingIcon, label: "Career Guidance\nTest", path: "/psychometric-test" },
+  { icon: MBBSIcon, label: "Articles", path: "/articles" },
+  { icon: StudyAbroadIcon, label: "College Predictor", path: "/college-predictor" },
+  { icon: ReviewsIcon, label: "Internships", path: "/internships" },
 ];
 
 const Hero = () => {
@@ -111,7 +110,7 @@ const Hero = () => {
               <input
                 type="text"
                 className="flex-1 px-6 sm:px-8 py-4 sm:py-5 text-base sm:text-lg text-gray-700 outline-none bg-transparent placeholder-gray-400"
-                placeholder="Search for Colleges, Exams, Results & More"
+                placeholder="Search for Colleges, Exams, Rankometer & More"
                 value={searchValue}
                 onChange={e => setSearchValue(e.target.value)}
               />
