@@ -1,0 +1,561 @@
+{
+  "Name": "Koneru Lakshmaiah Education Foundation (KL University / KLEF)",
+  "Location": {
+    "City": "Vaddeswaram",
+    "District": "Guntur",
+    "State": "Andhra Pradesh",
+    "Country": "India",
+    "Pin": "522302",
+    "CampusAreaAcres": 100,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Vaddeswaram, Guntur"
+      },
+      {
+        "Name": "Hyderabad Campus",
+        "Location": "Moinabad, Hyderabad"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1980,
+    "OriginalName": "KL College of Engineering",
+    "Renamed": [
+      {
+        "Year": 2009,
+        "Name": "Koneru Lakshmaiah Education Foundation (KL Deemed to be University)"
+      }
+    ],
+    "HistoricalSignificance": "Founded by visionaries Sri Koneru Lakshmaiah and Sri Koneru Satyanarayana. Evolved from a single engineering college to a comprehensive multi-disciplinary deemed university with Category-I Institution status."
+  },
+  "UniversityType": [
+    "Private Deemed University",
+    "Category-I Institution",
+    "NAAC A++ Accredited"
+  ],
+  "About": {
+    "Overview": "One of India's premier private deemed universities and a leading technical education institution. Established in 1980, KL University has evolved over four decades from a single engineering college into a comprehensive multi-disciplinary deemed university serving over 30,000 students.",
+    "StudentStrength": "Over 30,000 students including international students from 40+ countries",
+    "MajorEvents": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports competitions"
+    ],
+    "ResearchFocus": [
+      "Engineering innovations",
+      "Management studies",
+      "Pharmaceutical sciences",
+      "Agricultural sciences",
+      "Interdisciplinary research"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "450+ global universities",
+      "International student exchange programs",
+      "Joint research projects"
+    ],
+    "SocialInitiatives": [
+      "Scholarships for economically weaker students",
+      "Community outreach programs",
+      "Social service activities"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 40,
+      "Engineering": 35,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 40,
+      "Innovation": 0
+    },
+    "QSWorld2026": 1201,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "801-1000",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Information Technology",
+          "AI & Data Science",
+          "AI & Machine Learning",
+          "Data Science",
+          "Cyber Security",
+          "Electronics & Communication Engineering",
+          "Electrical & Electronics Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Biotechnology",
+          "Aerospace Engineering",
+          "Automobile Engineering",
+          "Mining Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["KLEEE", "JEE Main", "JEE Advanced", "State entrance exams"],
+        "Seats": 3510,
+        "FirstYearFeeINR": 316000,
+        "TotalFeesINRApprox": 1216000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["KLEEE", "NATA"],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 40,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "KL entrance examination"],
+        "FirstYearFeeINR": 0,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "Not listed"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["KLMAT", "CAT", "MAT", "XAT", "CMAT"],
+        "Seats": 241,
+        "FirstYearFeeINR": 450000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Statistics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["Written test", "Interview"],
+        "FirstYearFeeINR": 0,
+        "Seats": 0
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 250,
+        "Entrance": [
+          "GATE",
+          "Written test",
+          "Interview",
+          "Research proposal"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 0,
+        "SeatsMoreThan": 0
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 0,
+      "Maximum": 0,
+      "Note": "Additional charges apply"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "KLEEE",
+        "Counseling": "KL University counseling",
+        "AdditionalTestForBArch": "NATA"
+      },
+      "BDes": {
+        "Exam": "",
+        "Counseling": ""
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "KL University process",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "KLMAT",
+        "AdditionalSelection": ["Personal Interview", "Group Discussion"]
+      },
+      "MSc": {
+        "Exam": ["Written test", "Interview"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "Written test", "Interview"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Research proposal evaluation"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": [],
+      "AdditionalProcess": "International student admissions"
+    },
+    "ReservationPolicy": "Institutional scholarships and fee reimbursements for economically weaker and socially challenged students",
+    "ApplicationMode": "Online through admissions.kluniversity.in"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 0,
+      "OBCPercentile": 0,
+      "SCSTPercentileMin": 0
+    },
+    "AdditionalDetails": "Cutoffs vary annually based on KLEEE scores and other accepted entrance exams."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 7050,
+      "Recruiters": 474,
+      "HighestPackageINR": 5800000,
+      "HighestDomesticPackageINR": 5800000,
+      "OverallAveragePackageINR": 855000,
+      "CSEAveragePackageINR": 855000,
+      "ECEAveragePackageINR": 855000,
+      "MBA median package INR": 482000,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "Google",
+        "Microsoft",
+        "Adobe",
+        "Amazon",
+        "TCS",
+        "Infosys",
+        "Cognizant",
+        "Wipro",
+        "Accenture",
+        "Capgemini",
+        "Tech Mahindra",
+        "HSBC",
+        "Pega",
+        "Walmart"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Science",
+        "Analytics",
+        "Consulting",
+        "Management",
+        "Research and Development"
+      ],
+      "PlacementPreparation": [
+        "Aptitude training",
+        "Technical training",
+        "Soft skills development",
+        "Mock interviews",
+        "Resume building"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 9,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Study Rooms",
+        "Dining Halls",
+        "Recreation Areas",
+        "Gymnasium",
+        "TV Rooms",
+        "Reading Rooms",
+        "24x7 Security",
+        "CCTV"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 150000,
+      "EJournalsCount": 21300,
+      "Features": [
+        "Digital resources",
+        "E-books collection",
+        "Discussion rooms",
+        "Study spaces for 1000+ users",
+        "Inter-library services"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 0,
+      "FocusAreas": [
+        "Engineering",
+        "Computer Science",
+        "Biotechnology",
+        "Pharmaceutical Sciences",
+        "Agricultural Sciences"
+      ],
+      "Equipment": [
+        "Advanced instruments",
+        "Modern equipment",
+        "Research facilities"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Indoor Stadium",
+        "Cricket Grounds",
+        "Football Fields",
+        "Tennis Courts",
+        "Basketball Courts",
+        "Volleyball Courts",
+        "Athletic Tracks",
+        "Gymnasium",
+        "Badminton Courts",
+        "Table Tennis"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "On-campus Dispensary",
+      "Services": [
+        "Primary Healthcare",
+        "Physician Consultations",
+        "Emergency Services",
+        "Ambulance",
+        "Hospital Tie-ups"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Cafeterias",
+        "Food Courts",
+        "Night Canteens"
+      ],
+      "Services": [
+        "Hygienic food preparation",
+        "Diverse cuisines",
+        "Vegetarian and non-vegetarian options"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Seminar Halls",
+      "Open-air Auditorium (4500 capacity)",
+      "Transport Facilities (70 buses)",
+      "ATM",
+      "Guest House",
+      "NSS Unit",
+      "Hobby Clubs"
+    ],
+    "StudentClubs": {
+      "Number": 0,
+      "Types": [
+        "Technical",
+        "Cultural",
+        "Sports",
+        "Social Service",
+        "Hobby Clubs"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 8,
+    "DepartmentsList": [
+      "School of Engineering",
+      "School of Computer Science & Engineering",
+      "School of Management",
+      "School of Sciences",
+      "School of Pharmacy",
+      "School of Agriculture",
+      "School of Law",
+      "School of Commerce & Liberal Arts"
+    ],
+    "ResearchCenters": [
+      "Multiple research centers",
+      "Innovation centers",
+      "Startup incubation facilities"
+    ],
+    "Strength": {
+      "FacultyCount": 1500,
+      "PhDs": "Mix of PhD and M.Tech holders",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "450+ global universities",
+      "International partnerships",
+      "Industry collaborations"
+    ],
+    "FacultyActivities": [
+      "International collaborations",
+      "Research publications",
+      "Industry consultancy"
+    ],
+    "StudentFeedback": "Generally positive with emphasis on infrastructure, placements, and overall experience."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "KLEEE merit scholarships",
+      "JEE Main based scholarships",
+      "Sports and cultural scholarships",
+      "Government schemes",
+      "Full fee reimbursement for economically weaker students"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Fee Reimbursements",
+      "Merit-based Scholarships"
+    ],
+    "Application": [
+      "Institution scholarship programs",
+      "National Scholarship Portal",
+      "State government schemes"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.3,
+    "CollegeDuniaReviewsCount": 0,
+    "Careers360Rating": 0,
+    "Strengths": [
+      "Excellent infrastructure",
+      "Good placement opportunities",
+      "Strong faculty",
+      "Vibrant campus life",
+      "International collaborations"
+    ],
+    "Weaknesses": [
+      "Large student population",
+      "Quality consistency across departments",
+      "Research output improvement needed"
+    ],
+    "ReturnOnInvestment": "Good"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India and 40+ countries",
+    "CulturalTraditions": [
+      "Cultural festivals",
+      "Technical festivals",
+      "Sports competitions",
+      "Regular events and competitions"
+    ],
+    "Festivals": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports festivals"
+    ],
+    "ClubsAndSocieties": [
+      "Drama Society",
+      "Music Club",
+      "Debating Club",
+      "English Debating Club",
+      "Yoga Club",
+      "Various hobby clubs"
+    ],
+    "OutdoorActivities": [
+      "Sports competitions",
+      "Cultural events",
+      "Recreational activities"
+    ],
+    "StudentGovernance": "Student councils and active participation",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Yoga",
+      "Recreation Areas",
+      "Sports Facilities"
+    ],
+    "Community": "Multicultural environment with international students from 40+ countries"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1980,
+    "Founder": "Sri Koneru Lakshmaiah and Sri Koneru Satyanarayana",
+    "InitialFocus": "Engineering education",
+    "Evolution": [
+      "1980: KL College of Engineering",
+      "2006: Autonomous Status",
+      "2009: Deemed-to-be-University Status",
+      "2019: Category-I Institution Status"
+    ],
+    "Legacy": "Four-decade legacy of quality technical education",
+    "Heritage": "Evolution from single engineering college to comprehensive multi-disciplinary university"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Engineering",
+      "Computer Science",
+      "Management",
+      "Pharmaceutical Sciences",
+      "Agricultural Sciences",
+      "Interdisciplinary Research"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Multiple research centers and innovation hubs",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "450+ global universities",
+      "Industry partnerships",
+      "International research projects"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": false
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "Admissions Open",
+      "Date": "2025",
+      "Details": "B.Tech admissions through KLEEE and JEE Main"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "http://www.kluniversity.in",
+    "Address": "KL (Deemed to be University), Green Fields, Vaddeswaram, Guntur District, Andhra Pradesh - 522302, India",
+    "Phone": "Check official website",
+    "Emails": {
+      "Registrar": "Contact through official website",
+      "Admissions": "admissions@kluniversity.in",
+      "PlacementCell": "Contact IRP department through official website"
+    }
+  }
+}

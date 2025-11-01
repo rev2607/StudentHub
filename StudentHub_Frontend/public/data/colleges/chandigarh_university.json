@@ -1,0 +1,601 @@
+{
+  "Name": "Chandigarh University (CU)",
+  "Location": {
+    "City": "Mohali",
+    "District": "Mohali",
+    "State": "Punjab",
+    "Country": "India",
+    "Pin": "140413",
+    "CampusAreaAcres": 150,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Gharuan, Mohali",
+        "Specialization": "Multi-disciplinary university"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 2012,
+    "OriginalName": "CGC Gharuan",
+    "Renamed": [
+      {
+        "Year": 2012,
+        "Name": "Chandigarh University"
+      }
+    ],
+    "HistoricalSignificance": "Established through Chandigarh University Act, 2012 by Punjab State Legislature. Evolved from CGC Gharuan (2009). Recognized by UGC under Section 2(f) with right to confer degrees."
+  },
+  "UniversityType": [
+    "Private State University",
+    "UGC Recognized",
+    "NAAC A+ Accredited"
+  ],
+  "About": {
+    "Overview": "Chandigarh University (CU) stands as one of India's fastest-growing and most dynamic private universities, located in Gharuan village of Mohali district, Punjab, approximately 15 km from Chandigarh city. Serving over 30,000 students from all Indian states and 40+ countries with approximately 1,500+ faculty members. Spread across 150 acres offering 450+ programs across undergraduate, postgraduate, and doctoral levels.",
+    "StudentStrength": "Over 30,000 students including international nationals from 40+ countries",
+    "MajorEvents": [
+      "CUCET - University entrance examination",
+      "Placement drives with 1,100+ recruiters",
+      "Cultural and technical festivals",
+      "International student exchange programs"
+    ],
+    "ResearchFocus": [
+      "Emerging technologies",
+      "Industry-oriented research",
+      "Innovation and startups",
+      "International collaborations"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "450+ global universities across 70+ countries",
+      "Student exchange programs",
+      "Dual degree programs",
+      "Faculty exchange and research collaborations"
+    ],
+    "SocialInitiatives": [
+      "Skill development programs",
+      "Employability enhancement",
+      "Community outreach"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 32,
+      "Engineering": 32,
+      "ArchitecturePlanning": 14
+    },
+    "NIRF2024": {
+      "Overall": 34,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science Engineering",
+          "Information Technology",
+          "Electronics & Communication Engineering",
+          "Electrical Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Aerospace Engineering",
+          "Biotechnology",
+          "Chemical Engineering",
+          "Artificial Intelligence",
+          "Data Science",
+          "Cyber Security",
+          "Cloud Computing",
+          "IoT",
+          "Robotics",
+          "Automobile Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["CUCET", "JEE Main (for scholarships)"],
+        "Seats": 0,
+        "FirstYearFeeINR": 296500,
+        "TotalFeesINRApprox": 1168500
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["CUCET", "NATA"],
+        "Seats": 0,
+        "FirstYearFeeINR": 200000,
+        "TotalFeesINRApprox": 1000000
+      },
+      "BDes": {
+        "DurationYears": 4,
+        "Entrance": ["CUCET"],
+        "Seats": 0,
+        "FirstYearFeeINR": 150000,
+        "TotalFeesINRApprox": 600000
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 0,
+        "DurationYears": 2,
+        "Entrance": ["CUCET", "GATE"],
+        "FirstYearFeeINR": 300000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["CUCET"],
+        "SeatsVaries": true,
+        "FeeInformation": "Varies by specialization"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CUCET", "CAT", "MAT", "XAT", "CMAT"],
+        "Seats": 0,
+        "FirstYearFeeINR": 300000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Biotechnology",
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Microbiology"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["CUCET"],
+        "FirstYearFeeINR": 150000,
+        "Seats": 0
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 0,
+        "Entrance": ["CUCET", "University Entrance Test"],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 150000,
+        "SeatsMoreThan": 0
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 80000,
+      "Maximum": 80000,
+      "Note": "Approximately ₹80,000 per year for hostel accommodation"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "CUCET (Chandigarh University Common Entrance Test)",
+        "Counseling": "University counseling based on CUCET scores",
+        "AdditionalTestForBArch": "NATA for Architecture scholarships"
+      },
+      "BDes": {
+        "Exam": "CUCET",
+        "Counseling": "University counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "CUCET",
+        "Counseling": "University counseling",
+        "AdditionalProcesses": "GATE scores considered for scholarships"
+      },
+      "MBA": {
+        "Exam": "CUCET",
+        "AdditionalSelection": ["CAT", "MAT", "XAT", "CMAT scores for scholarships", "Personal Interview"]
+      },
+      "MSc": {
+        "Exam": ["CUCET"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["CUCET", "University Entrance Test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Based on academic credentials and research potential"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["International student application", "Credential verification"],
+      "AdditionalProcess": "Dedicated international admissions office"
+    },
+    "ReservationPolicy": "As per Punjab State Government norms",
+    "ApplicationMode": "Online through CUCET portal (cucet.cuchd.in)"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [],
+      "Physics": [],
+      "Mathematics": []
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 0,
+      "OBCPercentile": 0,
+      "SCSTPercentileMin": 0
+    },
+    "AdditionalDetails": "Admission primarily through CUCET with minimum 30% marks required to qualify. Cutoffs vary by program and category."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 9000,
+      "Recruiters": 1100,
+      "HighestPackageINR": 54750000,
+      "HighestDomesticPackageINR": 54750000,
+      "OverallAveragePackageINR": 954000,
+      "CSEAveragePackageINR": 800000,
+      "ECEAveragePackageINR": 625000,
+      "MBA median package INR": 0,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "Microsoft",
+        "Google",
+        "Amazon",
+        "IBM",
+        "Adobe",
+        "Oracle",
+        "Intel",
+        "Qualcomm",
+        "Samsung",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "HCL",
+        "Tech Mahindra",
+        "Accenture",
+        "Deloitte",
+        "Morgan Stanley",
+        "Goldman Sachs",
+        "Federal Bank",
+        "ICICI Bank",
+        "HDFC Bank",
+        "Bosch",
+        "L&T",
+        "Siemens"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Science",
+        "Research and Development",
+        "Consulting",
+        "Analytics",
+        "Management Trainee",
+        "System Analyst",
+        "Business Analyst"
+      ],
+      "PlacementPreparation": [
+        "Aptitude and technical training",
+        "Soft skills development",
+        "Mock interviews",
+        "Resume building",
+        "Industry interaction programs"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 0,
+      "Types": ["Boys", "Girls", "AC", "Non-AC", "Single", "Double", "Triple sharing"],
+      "Amenities": [
+        "24x7 power supply with backup",
+        "Free Wi-Fi",
+        "Well-furnished common rooms",
+        "24x7 TV rooms",
+        "Well-equipped gymnasium",
+        "Reading rooms",
+        "Night canteen",
+        "Tuck shops",
+        "Salon services",
+        "Guest rooms",
+        "Water purifiers",
+        "Recreation rooms",
+        "Mess facilities",
+        "Laundry services",
+        "24x7 security with CCTV"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library and 18 Department Libraries",
+      "AreaSqFt": 0,
+      "BookCount": 0,
+      "EJournalsCount": 0,
+      "Features": [
+        "18 modern libraries across campus",
+        "Subject-specific collections",
+        "Extensive books and journals",
+        "Digital resources and databases",
+        "E-library access",
+        "Comfortable study spaces",
+        "Group discussion rooms"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 0,
+      "FocusAreas": [
+        "Engineering and Technology",
+        "Computer Science",
+        "Biotechnology",
+        "Pharmacy",
+        "Sciences",
+        "Applied Sciences"
+      ],
+      "Equipment": [
+        "Modern hardware and software",
+        "Specialized equipment for all disciplines",
+        "Research and innovation centers"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Cricket grounds",
+        "Football fields",
+        "Basketball courts",
+        "Volleyball courts",
+        "Tennis courts",
+        "Badminton courts (indoor and outdoor)",
+        "Squash courts",
+        "Table tennis",
+        "Athletics tracks",
+        "Well-equipped gymnasium with trainers",
+        "Chess and carrom rooms"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Medical Facilities",
+      "Services": [
+        "Primary healthcare",
+        "First aid",
+        "Ambulance services",
+        "Tie-ups with hospitals for emergencies"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple mess facilities",
+        "Cafeterias across campus",
+        "Food courts",
+        "Restaurants (North Indian, South Indian, Continental, Chinese)",
+        "National and international fast food chains",
+        "Night canteens"
+      ],
+      "Services": [
+        "Hygienic food preparation",
+        "Diverse cuisine options",
+        "Late-night refreshments"
+      ]
+    },
+    "OtherAmenities": [
+      "Banking services and ATMs",
+      "Shuttle bus services",
+      "Campus-wide Wi-Fi",
+      "24x7 power supply with backup",
+      "Security personnel and CCTV",
+      "Convenience stores",
+      "Stationery shops",
+      "Photocopying facilities",
+      "Landscaped gardens",
+      "Green spaces"
+    ],
+    "StudentClubs": {
+      "Number": 0,
+      "Types": [
+        "Technical clubs",
+        "Cultural clubs",
+        "Sports clubs",
+        "Entrepreneurship clubs",
+        "Social service clubs"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 0,
+    "DepartmentsList": [
+      "Engineering & Technology",
+      "Management",
+      "Commerce",
+      "Hotel Management",
+      "Pharmacy",
+      "Law",
+      "Architecture",
+      "Computer Applications",
+      "Liberal Arts",
+      "Sciences",
+      "Agriculture",
+      "Media Studies",
+      "Fashion Design"
+    ],
+    "ResearchCenters": [
+      "Research and Innovation Centers",
+      "Innovation and Incubation Centers",
+      "Technology Business Incubators"
+    ],
+    "Strength": {
+      "FacultyCount": 1500,
+      "PhDs": "Mix of Ph.D. holders and Master's degree holders",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "450+ global universities",
+      "Industry partnerships",
+      "Research collaborations"
+    ],
+    "FacultyActivities": [
+      "Teaching across 450+ programs",
+      "Research publications",
+      "Industry consultation",
+      "Student mentorship"
+    ],
+    "StudentFeedback": "Mixed reviews with variation across departments. Infrastructure highly praised."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": false,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "CUCET merit scholarships (25% to 100% fee waiver)",
+      "JEE Main based scholarships",
+      "Board merit scholarships (90%+)",
+      "Sports quota scholarships",
+      "Need-based financial assistance",
+      "Continuing scholarships based on performance"
+    ],
+    "Coverage": [
+      "Fee waiver percentage based on merit",
+      "Tuition fee concessions",
+      "Performance-based continuations"
+    ],
+    "Application": [
+      "Through CUCET application",
+      "University scholarship portal",
+      "Merit-based automatic consideration"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.3,
+    "CollegeDuniaReviewsCount": 0,
+    "Careers360Rating": 4.2,
+    "Strengths": [
+      "World-class infrastructure",
+      "Strong placement opportunities",
+      "Diverse program portfolio",
+      "Vibrant campus life",
+      "International collaborations",
+      "Modern facilities"
+    ],
+    "Weaknesses": [
+      "Mixed teaching quality across departments",
+      "Large student population",
+      "High fees for some programs",
+      "Gap between advertised and median placements"
+    ],
+    "ReturnOnInvestment": "Good for top performers, varies by program"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from all Indian states and 40+ countries",
+    "CulturalTraditions": [
+      "Multicultural environment",
+      "International student integration",
+      "Cultural festivals and events"
+    ],
+    "Festivals": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports tournaments"
+    ],
+    "ClubsAndSocieties": [
+      "Technical clubs",
+      "Cultural clubs",
+      "Sports clubs",
+      "Entrepreneurship clubs",
+      "Social service organizations"
+    ],
+    "OutdoorActivities": [
+      "Sports and recreation",
+      "Campus events",
+      "Cultural activities"
+    ],
+    "StudentGovernance": "Student councils and clubs managing various activities",
+    "WellbeingFacilities": [
+      "Gymnasium",
+      "Sports facilities",
+      "Recreation areas",
+      "Medical facilities"
+    ],
+    "Community": "Inclusive ecosystem with cultural, linguistic, and international diversity"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 2012,
+    "Founder": "CGC Educational Trust",
+    "InitialFocus": "Multi-disciplinary higher education",
+    "Evolution": [
+      "2009: CGC Gharuan initiated",
+      "2012: Established as Chandigarh University through state act",
+      "Rapid expansion from 2012-2020"
+    ],
+    "Legacy": "One of India's fastest-growing private universities",
+    "Heritage": "Modern infrastructure with focus on industry-oriented education"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Emerging technologies",
+      "Industry-oriented research",
+      "Innovation and startups",
+      "Applied research"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Innovation and incubation centers supporting startups",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "450+ global universities",
+      "Industry partnerships",
+      "Government collaborations"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": false
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "CUCET 2025 Registration",
+      "StartDate": "2025-01-01",
+      "Details": "Online registration open for all programs"
+    },
+    {
+      "Event": "Placement Drive 2024-25",
+      "Details": "1,100+ recruiters, 9,000+ students placed"
+    },
+    {
+      "RecurringEvents": [
+        "CUCET entrance examinations",
+        "Placement drives",
+        "Cultural and technical festivals",
+        "International student exchange programs"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "www.cuchd.in",
+    "Address": "Chandigarh University, NH-95 Chandigarh-Ludhiana Highway, Mohali, Punjab - 140413, India",
+    "Phone": "Check official website for department-specific numbers",
+    "Emails": {
+      "Registrar": "Available on official website",
+      "Admissions": "Through official website contact forms",
+      "PlacementCell": "Available on official website"
+    }
+  }
+}
+
+
+

@@ -1,0 +1,635 @@
+{
+  "Name": "Vellore Institute of Technology (VIT) Vellore",
+  "Location": {
+    "City": "Vellore",
+    "District": "Vellore",
+    "State": "Tamil Nadu",
+    "Country": "India",
+    "Pin": "632014",
+    "CampusAreaAcres": 372,
+    "Branches": [
+      {
+        "Name": "Vellore Campus",
+        "Location": "Vellore"
+      },
+      {
+        "Name": "Chennai Campus",
+        "Location": "Chennai"
+      },
+      {
+        "Name": "Amaravati Campus",
+        "Location": "Andhra Pradesh"
+      },
+      {
+        "Name": "Bhopal Campus",
+        "Location": "Madhya Pradesh"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1984,
+    "OriginalName": "Vellore Engineering College",
+    "Renamed": [
+      {
+        "Year": 2001,
+        "Name": "VIT University"
+      },
+      {
+        "Year": 2017,
+        "Name": "Vellore Institute of Technology (VIT) Vellore"
+      }
+    ],
+    "HistoricalSignificance": "Founded by Dr. G. Viswanathan, transformed into deemed university in 2001, pioneered Fully Flexible Credit System (FFCS) in early 2000s."
+  },
+  "UniversityType": [
+    "Private Deemed University",
+    "Autonomous Institute"
+  ],
+  "About": {
+    "Overview": "A nationally top-ranked institute recognized for interdisciplinary research, rigorous academics, and deep industry engagement.",
+    "StudentStrength": "Over 50,000 students across all campuses",
+    "MajorEvents": [
+      "Riviera - Annual cultural festival",
+      "Gravitas - Technical festival",
+      "VIT Sports Meet"
+    ],
+    "ResearchFocus": [
+      "Artificial Intelligence and Machine Learning",
+      "Data Science and Analytics",
+      "Cybersecurity",
+      "VLSI Design",
+      "Biotechnology",
+      "Renewable Energy",
+      "Environmental Engineering"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "Universities across USA, UK, Europe, Australia",
+      "Industry partnerships worldwide"
+    ],
+    "SocialInitiatives": [
+      "Sustainability initiatives",
+      "Green campus initiatives",
+      "Community outreach programs"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 21,
+      "Engineering": 16,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 21,
+      "Innovation": 0
+    },
+    "QSWorld2026": 791,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": "High Performance"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "CSE (AI & Machine Learning)",
+          "CSE (AI & Data Engineering)",
+          "CSE (Bioinformatics)",
+          "CSE (Cyber Security)",
+          "CSE (Data Science)",
+          "CSE and Business Systems",
+          "Electrical and Electronics Engineering",
+          "Electronics and Communication Engineering",
+          "ECE (Biomedical Engineering)",
+          "Electronics and Instrumentation Engineering",
+          "Electronics Engineering (VLSI Design and Technology)",
+          "Information Technology",
+          "Mechanical Engineering",
+          "Mechanical Engineering (Electric Vehicles)",
+          "Mechanical Engineering (Smart Manufacturing)",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Fashion Technology",
+          "Biotechnology",
+          "Health Sciences and Technology"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["VITEEE"],
+        "Seats": 3000,
+        "FirstYearFeeINR": 198000,
+        "TotalFeesINRApprox": 780000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["NATA"],
+        "Seats": 0,
+        "FirstYearFeeINR": 178000,
+        "TotalFeesINRApprox": 865000
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 30,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "VIT Entrance Test"],
+        "FirstYearFeeINR": 0,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["GATE"],
+        "SeatsVaries": true,
+        "FeeInformation": "Available on official website"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "MAT", "XAT", "NMAT"],
+        "Seats": 0,
+        "FirstYearFeeINR": 0
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Biotechnology",
+          "Applied Sciences"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["VIT Entrance Test"],
+        "FirstYearFeeINR": 0,
+        "Seats": 0
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 13,
+        "Entrance": [
+          "VIT Entrance Test",
+          "Interview",
+          "Research Proposal"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 0,
+        "SeatsMoreThan": 0
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 50000,
+      "Maximum": 80000,
+      "Note": "Varies by accommodation type (AC/Non-AC, sharing)"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "VITEEE",
+        "Counseling": "VIT Counselling",
+        "AdditionalTestForBArch": "NATA"
+      },
+      "BDes": {
+        "Exam": "Not applicable",
+        "Counseling": "Not applicable"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "VIT Counselling",
+        "AdditionalProcesses": "Interview for some programs"
+      },
+      "MBA": {
+        "Exam": "CAT/MAT/XAT/NMAT",
+        "AdditionalSelection": ["Group Discussion", "Personal Interview"]
+      },
+      "MSc": {
+        "Exam": ["VIT Entrance Test"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["VIT Entrance Test"],
+        "Selection": "Written test, interview, and research proposal evaluation",
+        "AdditionalNotes": "Must secure faculty supervisor"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["Valid passport", "Academic transcripts"],
+      "AdditionalProcess": "Credential verification"
+    },
+    "ReservationPolicy": "No caste/religion/state-based reservations - purely merit-based. Scholarships available based on performance.",
+    "ApplicationMode": "Online through VIT official website"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [],
+      "Physics": [],
+      "Mathematics": []
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 0,
+      "OBCPercentile": 0,
+      "SCSTPercentileMin": 0
+    },
+    "AdditionalDetails": "VITEEE cutoffs vary by program and campus. CSE at Vellore campus: Last rank approximately 8,000-9,000 (most competitive)."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 10458,
+      "Recruiters": 409,
+      "HighestPackageINR": 100000000,
+      "HighestDomesticPackageINR": 100000000,
+      "OverallAveragePackageINR": 990000,
+      "CSEAveragePackageINR": 1200000,
+      "ECEAveragePackageINR": 950000,
+      "MBA median package INR": 0,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "Microsoft",
+        "Google",
+        "Amazon",
+        "Adobe",
+        "Oracle",
+        "Intel",
+        "Qualcomm",
+        "Samsung",
+        "Cisco",
+        "Dell",
+        "IBM",
+        "VMware",
+        "SAP",
+        "Salesforce",
+        "PayPal",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL",
+        "Tech Mahindra",
+        "Cognizant",
+        "Accenture",
+        "Capgemini",
+        "Deloitte",
+        "PwC",
+        "EY",
+        "KPMG",
+        "Goldman Sachs",
+        "JP Morgan",
+        "Morgan Stanley"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Scientist",
+        "Full Stack Developer",
+        "Backend/Frontend Developer",
+        "DevOps Engineer",
+        "Machine Learning Engineer",
+        "Data Analyst",
+        "Business Analyst",
+        "Product Manager",
+        "Systems Engineer",
+        "Network Engineer",
+        "Cyber Security Analyst",
+        "VLSI Design Engineer",
+        "Embedded Systems Engineer",
+        "R&D Engineer"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects",
+        "Internship opportunities"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 24,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi and LAN connectivity",
+        "AC and Non-AC options",
+        "Single, double, and triple sharing",
+        "Mess facilities",
+        "TV rooms",
+        "Recreation areas",
+        "Common rooms",
+        "Laundry services",
+        "24x7 security",
+        "CCTV surveillance"
+      ]
+    },
+    "Library": {
+      "Name": "Periyar Central Library",
+      "AreaSqFt": 25000,
+      "BookCount": 40000,
+      "EJournalsCount": 300,
+      "Features": [
+        "Digital resources",
+        "E-books and e-journals",
+        "Reading halls",
+        "24x7 access during examination periods",
+        "Reference services"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 100,
+      "FocusAreas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Data Science",
+        "Cybersecurity",
+        "VLSI Design",
+        "Embedded Systems",
+        "Biotechnology",
+        "Environmental Engineering",
+        "Structural Engineering",
+        "Power Electronics",
+        "Communication Systems"
+      ],
+      "Equipment": [
+        "Computer centers with 55 servers and 1,000+ computers",
+        "Specialized equipment for each discipline",
+        "Modern experimental setups"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "400-meter athletics track",
+        "Swimming pools (separate for boys and girls)",
+        "Cricket ground",
+        "Football field",
+        "Tennis courts",
+        "Basketball courts",
+        "Volleyball courts",
+        "Badminton courts",
+        "Gymnasium (free and paid)",
+        "Table tennis facilities",
+        "Hockey and other sports"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Health Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Outpatient facilities",
+        "Separate wards for male and female students",
+        "Pharmacy",
+        "Ambulance services",
+        "Tie-ups with nearby hospitals"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Hostel messes",
+        "Food courts",
+        "Cafeterias",
+        "Convenience stores"
+      ],
+      "Services": [
+        "Diverse menu (North Indian, South Indian, vegetarian, non-vegetarian)",
+        "Daily meal service",
+        "Hygiene maintained standards"
+      ]
+    },
+    "OtherAmenities": [
+      "Banks and ATMs",
+      "Post office",
+      "Salons",
+      "Tailoring unit",
+      "Photocopying services",
+      "Stationery shops",
+      "Convenience stores",
+      "Campus shuttle services",
+      "24/7 Security",
+      "Green campus with extensive landscaping"
+    ],
+    "StudentClubs": {
+      "Number": 50,
+      "Types": [
+        "Technical clubs",
+        "Cultural clubs",
+        "Sports clubs",
+        "Entrepreneurship clubs",
+        "Social service clubs"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 9,
+    "DepartmentsList": [
+      "School of Advanced Sciences (SAS)",
+      "School of Bio-Sciences and Technology (SBST)",
+      "School of Civil Engineering (SCE)",
+      "School of Computer Science and Engineering (SCOPE)",
+      "School of Electrical Engineering (SENSE)",
+      "School of Electronics Engineering (SELECT)",
+      "School of Information Technology and Engineering (SITE)",
+      "School of Mechanical Engineering (SMEC)",
+      "School of Social Sciences and Languages (SSL)"
+    ],
+    "ResearchCenters": [
+      "13 Research Centers focusing on cutting-edge areas",
+      "Centers of Excellence",
+      "Incubation facilities"
+    ],
+    "Strength": {
+      "FacultyCount": 400,
+      "PhDs": "Majority hold Ph.D. degrees from premier institutions",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Government agencies (DST, DRDO, DBT, CSIR)",
+      "Industry partners"
+    ],
+    "FacultyActivities": [
+      "76 Professors among Top 2% Scientists globally (Stanford University study 2024)",
+      "Research publications",
+      "Industry collaborations",
+      "Student mentorship"
+    ],
+    "StudentFeedback": "Mixed reviews - some faculty excellent teachers while others focus more on research. FFCS allows students to choose preferred faculty."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": false,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "VITEEE-based scholarships (25-100% fee waiver)",
+      "JEE Main-based scholarships",
+      "Board exam-based scholarships (95%+ marks)",
+      "Sports quota scholarships",
+      "Need-based scholarships"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Fee concessions based on performance",
+      "Approximately 30-40% students receive some form of scholarship"
+    ],
+    "Application": [
+      "Through VITEEE performance",
+      "Based on JEE Main percentiles",
+      "Board exam marks",
+      "Application process available on official website"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.5,
+    "CollegeDuniaReviewsCount": 5000,
+    "Careers360Rating": 4.4,
+    "Strengths": [
+      "Excellent placements with 95%+ placement rate",
+      "FFCS (Fully Flexible Credit System) providing student flexibility",
+      "Strong industry connections",
+      "Modern infrastructure",
+      "Good research opportunities",
+      "NAAC A++ accreditation"
+    ],
+    "Weaknesses": [
+      "Large batch sizes",
+      "Wi-Fi speed issues during peak hours",
+      "Some faculty focus more on research than teaching",
+      "Crowded campus"
+    ],
+    "ReturnOnInvestment": "Very high - average package ₹9.90 LPA, highest package ₹100 LPA"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India and internationally, serving over 50,000 students across all campuses",
+    "CulturalTraditions": [
+      "Riviera - Annual cultural festival",
+      "Gravitas - Technical festival",
+      "Various cultural events"
+    ],
+    "Festivals": [
+      "Riviera - Cultural Festival",
+      "Gravitas - Technical Festival",
+      "VIT Sports Meet",
+      "Departmental events"
+    ],
+    "ClubsAndSocieties": [
+      "Technical clubs",
+      "Cultural clubs",
+      "Sports clubs",
+      "Entrepreneurship clubs",
+      "Social service clubs"
+    ],
+    "OutdoorActivities": [
+      "Sports activities",
+      "Campus events",
+      "Hackathons and competitions"
+    ],
+    "StudentGovernance": "Student representation in various committees",
+    "WellbeingFacilities": [
+      "Sports complex",
+      "Gymnasium",
+      "Recreation areas",
+      "Medical facilities"
+    ],
+    "Community": "Vibrant campus life with diverse student population and numerous activities"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1984,
+    "Founder": "Dr. G. Viswanathan",
+    "InitialFocus": "Technical education",
+    "Evolution": [
+      "1984: Founded as Vellore Engineering College",
+      "2001: Granted deemed university status",
+      "2006: Renamed to VIT University",
+      "Early 2000s: Introduced FFCS (Fully Flexible Credit System)"
+    ],
+    "Legacy": "Pioneer in student-centric education with FFCS system, highest-ranked private engineering institution",
+    "Heritage": "Modern campus infrastructure with focus on innovation and technology"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Artificial Intelligence and Machine Learning",
+      "Data Science and Analytics",
+      "Cybersecurity",
+      "VLSI Design and Embedded Systems",
+      "Robotics and Automation",
+      "Biotechnology and Bioinformatics",
+      "Advanced Materials and Nanotechnology",
+      "Renewable Energy",
+      "Environmental Engineering",
+      "Healthcare Technologies"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "76 Professors among Top 2% Scientists globally, 14th position in NIRF Research Rankings 2025",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government agencies (DST, DRDO, DBT, CSIR)",
+      "Industry partners",
+      "International universities"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "VITEEE 2026",
+      "Date": "2026-04-28 to 2026-05-03",
+      "Details": "VIT Engineering Entrance Examination"
+    },
+    {
+      "Event": "Placements 2025",
+      "Details": "409 recruiters, 10,458 offers, highest package ₹100 LPA"
+    },
+    {
+      "RecurringEvents": [
+        "Riviera Cultural Fest (annually)",
+        "Gravitas Tech Fest (annually)",
+        "VIT Sports Meet (annually)"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://vit.ac.in",
+    "Address": "VIT Vellore, Vellore, Tamil Nadu 632014, India",
+    "Phone": "+91 416 220 2000",
+    "Emails": {
+      "Registrar": "registrar@vit.ac.in",
+      "Admissions": "admissions@vit.ac.in",
+      "PlacementCell": "placement@vit.ac.in"
+    }
+  }
+}
+

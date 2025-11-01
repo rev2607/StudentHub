@@ -14,6 +14,16 @@ import RequireAuth from "./components/RequireAuth";
 import CollegesListPage from "./pages/Colleges/CollegesListPage";
 import CollegeDetailPage from "./pages/Colleges/CollegeDetailPage";
 import IITRoorkeePage from "./pages/Colleges/IITRoorkeePage";
+import AmityNoidaPage from "./pages/Colleges/AmityNoidaPage";
+import BITSPilaniPage from "./pages/Colleges/BITSPilaniPage";
+import SRMPage from "./pages/Colleges/SRMPage";
+import ThaparPage from "./pages/Colleges/ThaparPage";
+import AmritaCoimbatorePage from "./pages/Colleges/AmritaCoimbatorePage";
+import SOAPage from "./pages/Colleges/SOAPage";
+import ChandigarhUniversityPage from "./pages/Colleges/ChandigarhUniversityPage";
+import KLUniversityPage from "./pages/Colleges/KLUniversityPage";
+import KalasalingamAcademyPage from "./pages/Colleges/KalasalingamAcademyPage";
+import VitVellorePage from "./pages/Colleges/VitVellorePage";
 import NewsLandingPage from "./pages/News/NewsLandingPage";
 import NewsDetailPage from "./pages/News/NewsDetailPage";
 import SimpleNewsDetailPage from "./pages/News/SimpleNewsDetailPage";
@@ -32,6 +42,7 @@ import SRMJEEEPage from "./pages/Exams/SRMJEEEPage";
 import GITAMPage from "./pages/Exams/GITAMPage";
 import KLUPage from "./pages/Exams/KLUPage";
 import METPage from "./pages/Exams/METPage";
+import AEEEPage from "./pages/Exams/AEEEPage";
 import ExamDetailPage from "./pages/Exams/ExamDetailPage";
 import ResultsPage from "./pages/Results/ResultsPage";
 import AskUsPage from "./pages/AskUsPage/AskUsPage";
@@ -82,11 +93,13 @@ function App() {
             <Route path="/exams/gitam" element={<GITAMPage />} />
             <Route path="/exams/klu" element={<KLUPage />} />
             <Route path="/exams/met" element={<METPage />} />
+            <Route path="/exams/aeee" element={<AEEEPage />} />
             <Route path="/exams/:slug" element={<ExamDetailPage />} />
             <Route path="/results" element={<ResultsPage />} />
             <Route path="/colleges" element={<CollegesListPage />} />
             <Route path="/colleges/:slug" element={<CollegeDetailPage />} />
             <Route path="/colleges/iit-roorkee" element={<IITRoorkeePage />} />
+<<<<<<< Updated upstream
             <Route path="/colleges/iit-madras" element={<IITMadrasPage />} />
             <Route path="/colleges/iit-bombay" element={<IITBombayPage />} />
             <Route path="/colleges/iit-delhi" element={<IITDelhiPage />} />
@@ -96,6 +109,28 @@ function App() {
             <Route path="/colleges/iit-guwahati" element={<IITGuwahatiPage />} />
             <Route path="/colleges/iit-bhu-varanasi" element={<IITBHUVaranasiPage />} />
             <Route path="/colleges/nit-trichy" element={<NITTrichyPage />} />
+=======
+            <Route path="/colleges/amity-noida" element={<AmityNoidaPage />} />
+            <Route path="/colleges/bits-pilani" element={<BITSPilaniPage />} />
+            <Route path="/colleges/srm" element={<SRMPage />} />
+            <Route path="/colleges/srmist" element={<SRMPage />} />
+            <Route path="/colleges/thapar" element={<ThaparPage />} />
+            <Route path="/colleges/tiet" element={<ThaparPage />} />
+            <Route path="/colleges/amrita-coimbatore" element={<AmritaCoimbatorePage />} />
+            <Route path="/colleges/amrita" element={<AmritaCoimbatorePage />} />
+            <Route path="/colleges/soa-bhubaneswar" element={<SOAPage />} />
+            <Route path="/colleges/soa" element={<SOAPage />} />
+            <Route path="/colleges/chandigarh-university" element={<ChandigarhUniversityPage />} />
+            <Route path="/colleges/cu" element={<ChandigarhUniversityPage />} />
+            <Route path="/colleges/kl-university" element={<KLUniversityPage />} />
+            <Route path="/colleges/klef" element={<KLUniversityPage />} />
+            <Route path="/colleges/klu" element={<KLUniversityPage />} />
+            <Route path="/colleges/kalasalingam" element={<KalasalingamAcademyPage />} />
+            <Route path="/colleges/kalasalingam-academy" element={<KalasalingamAcademyPage />} />
+            <Route path="/colleges/kare" element={<KalasalingamAcademyPage />} />
+            <Route path="/colleges/vit-vellore" element={<VitVellorePage />} />
+            <Route path="/colleges/vit" element={<VitVellorePage />} />
+>>>>>>> Stashed changes
             <Route path="/psychometric-test" element={<PsychometricTest />} />
             <Route path="/articles" element={<ArticlesLandingPage />} />
             <Route path="/articles/:slug" element={<ArticleDetailPage />} />

@@ -1,0 +1,645 @@
+{
+  "Name": "SRM Institute of Science and Technology (SRMIST)",
+  "Location": {
+    "City": "Chennai",
+    "District": "Chengalpattu",
+    "State": "Tamil Nadu",
+    "Country": "India",
+    "Pin": "603203",
+    "CampusAreaAcres": 250,
+    "Branches": [
+      {
+        "Name": "Kattankulathur Campus",
+        "Location": "Chengalpattu District, Tamil Nadu",
+        "Specialization": "All Faculties"
+      },
+      {
+        "Name": "Ramapuram Campus",
+        "Location": "Chennai",
+        "Specialization": "Engineering and Management"
+      },
+      {
+        "Name": "Vadapalani Campus",
+        "Location": "Chennai",
+        "Specialization": "Specialized Programs"
+      },
+      {
+        "Name": "Tiruchirappalli Campus",
+        "Location": "Trichy",
+        "Specialization": "Engineering, Science, Management"
+      },
+      {
+        "Name": "NCR Delhi-Sonepat Campus",
+        "Location": "Sonepat, Haryana",
+        "Specialization": "Engineering and Management"
+      },
+      {
+        "Name": "NCR Modinagar Campus",
+        "Location": "Modinagar, Uttar Pradesh",
+        "Specialization": "Engineering, Management, Teacher Education"
+      },
+      {
+        "Name": "Amaravati Campus",
+        "Location": "Andhra Pradesh",
+        "Specialization": "International Collaboration"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1985,
+    "OriginalName": "SRM Engineering College",
+    "Renamed": [
+      {
+        "Year": 2002,
+        "Name": "SRM Institute of Science and Technology (SRMIST)"
+      },
+      {
+        "Year": 2006,
+        "Name": "SRM University"
+      },
+      {
+        "Year": 2017,
+        "Name": "SRM Institute of Science and Technology (SRMIST)"
+      }
+    ],
+    "HistoricalSignificance": "Founded by Dr. T.R. Paarivendhar, one of India's leading private deemed universities, transformed technical education through quality infrastructure and industry-relevant curriculum."
+  },
+  "UniversityType": [
+    "Private Deemed University",
+    "NAAC A++ Accredited",
+    "NBA Accredited"
+  ],
+  "About": {
+    "Overview": "SRM Institute of Science and Technology (SRMIST), commonly known as SRM University, stands as one of India's leading private deemed universities and a premier destination for technical education. Founded in 1985, the institution has grown into a multi-campus university serving over 50,000 students across seven campuses in India and abroad.",
+    "StudentStrength": "Over 50,000 students including international nationals",
+    "MajorEvents": [
+      "Technical Festivals",
+      "Cultural Events",
+      "Research Conferences",
+      "Placement Drives"
+    ],
+    "ResearchFocus": [
+      "AI & Machine Learning",
+      "Nanotechnology",
+      "Biotechnology",
+      "Renewable Energy",
+      "Advanced Materials",
+      "Healthcare Technologies"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International Universities",
+      "Research Organizations",
+      "Industry Partners"
+    ],
+    "SocialInitiatives": [
+      "Community Engagement",
+      "Skill Development Programs"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 21,
+      "Engineering": 14,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 21,
+      "Innovation": 0
+    },
+    "QSWorld2026": 1001,
+    "QSAsia2025": 351,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science & Engineering",
+          "Information Technology",
+          "Electronics & Communication Engineering",
+          "Electrical & Electronics Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Biotechnology",
+          "Artificial Intelligence & Machine Learning",
+          "Data Science",
+          "Cyber Security",
+          "Cloud Computing",
+          "IoT",
+          "Blockchain",
+          "Gaming Technology",
+          "Genetic Engineering",
+          "Nanotechnology",
+          "Electric Vehicles",
+          "Robotics",
+          "Biomedical Engineering",
+          "Automobile Engineering",
+          "Food Technology",
+          "VLSI Design",
+          "Cyber Physical Systems",
+          "Robotics & Automation",
+          "Software Engineering",
+          "Computer Networks",
+          "Mathematics & Computing",
+          "CSE with Business Systems",
+          "CSE AI-Driven DevOps"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["SRMJEEE"],
+        "Seats": 5000,
+        "FirstYearFeeINR": 275000,
+        "TotalFeesINRApprox": 1100000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["NATA"],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 4,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 30,
+        "DurationYears": 2,
+        "Entrance": ["GATE"],
+        "FirstYearFeeINR": 200000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": [],
+        "SeatsVaries": true,
+        "FeeInformation": "Varies by program"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "MAT", "GMAT"],
+        "Seats": 500,
+        "FirstYearFeeINR": 400000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Biotechnology",
+          "Computer Science"
+        ],
+        "DurationYears": 2,
+        "Entrance": [],
+        "FirstYearFeeINR": 150000,
+        "Seats": 300
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 25,
+        "Entrance": ["GATE", "NET", "CSIR"],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 50000,
+        "SeatsMoreThan": 200
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 113000,
+      "Maximum": 315000,
+      "Note": "Varies by accommodation type (AC/Non-AC, sharing)"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "SRMJEEE",
+        "Counseling": "Online counseling",
+        "AdditionalTestForBArch": "NATA"
+      },
+      "BDes": {
+        "Exam": "UCEED",
+        "Counseling": "Centralized counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "Institute counseling",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["Personal Interview", "Group Discussion"]
+      },
+      "MSc": {
+        "Exam": ["Institute Test", "Merit-based"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "NET", "CSIR-NET"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "May include written tests in some departments"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["English Proficiency", "Valid Passport"],
+      "AdditionalProcess": "Credential verification"
+    },
+    "ReservationPolicy": "As per Government norms for SC, ST, OBC, EWS, PwD",
+    "ApplicationMode": "Online through official SRM portal"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [],
+      "Physics": [],
+      "Mathematics": []
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 70,
+      "OBCPercentile": 60,
+      "SCSTPercentileMin": 50
+    },
+    "AdditionalDetails": "SRMJEEE cutoff for CSE (Chennai): Rank 9,500-10,500, ECE: Rank 33,000-40,000. Cutoffs vary by campus and category."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 7788,
+      "Recruiters": 928,
+      "HighestPackageINR": 6500000,
+      "HighestDomesticPackageINR": 6500000,
+      "OverallAveragePackageINR": 719000,
+      "CSEAveragePackageINR": 900000,
+      "ECEAveragePackageINR": 750000,
+      "MBA median package INR": 800000,
+      "PPOs": 500,
+      "TopRecruiters": [
+        "Microsoft",
+        "Amazon",
+        "Google",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "Accenture",
+        "IBM",
+        "Bosch",
+        "Hyundai",
+        "Honda",
+        "ICICI Bank",
+        "Axis Bank",
+        "Aditya Birla",
+        "6D Technologies",
+        "ABB"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Science",
+        "Research and Development",
+        "Consulting",
+        "Analytics",
+        "Hardware Design",
+        "Management"
+      ],
+      "PlacementPreparation": [
+        "Aptitude and technical test preparation",
+        "Soft skills development",
+        "Mock interviews",
+        "Coding competitions",
+        "Industry mentorship"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 50,
+      "Types": ["Boys", "Girls", "AC", "Non-AC"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Lounges",
+        "Air-conditioned Rooms"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 50000,
+      "BookCount": 200000,
+      "EJournalsCount": 5000,
+      "Features": [
+        "RFID Technology",
+        "Digital resources",
+        "24/7 access",
+        "Group study zones",
+        "Inter-library loan"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 150,
+      "FocusAreas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Nanotechnology",
+        "Biotechnology",
+        "Renewable Energy",
+        "Advanced Materials",
+        "Healthcare Technologies"
+      ],
+      "Equipment": [
+        "Advanced Computing Systems",
+        "3D Printing",
+        "Advanced Sensors",
+        "Prototype Devices"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Swimming Pool",
+        "Tennis Courts",
+        "Basketball Courts",
+        "Badminton Courts",
+        "Indoor Stadium",
+        "Gymnasium",
+        "Football Ground",
+        "Cricket Ground"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "SRM Medical College Hospital",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Specialist Consultations",
+        "Ambulance Services",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "15 canteens",
+        "Food Courts",
+        "Cafés"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Dietary options",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Banks and ATMs",
+      "40+ buses for transport",
+      "IT infrastructure with 5,000+ computers",
+      "4,000-capacity auditorium",
+      "Smart classrooms",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 50,
+      "Types": [
+        "Technical (Robotics, Coding, Innovation)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Social Service"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 25,
+    "DepartmentsList": [
+      "Computer Science and Engineering",
+      "Electronics and Communication Engineering",
+      "Electrical and Electronics Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Chemical Engineering",
+      "Biotechnology",
+      "Information Technology",
+      "Aerospace Engineering",
+      "Automobile Engineering",
+      "Food Technology",
+      "Genetic Engineering",
+      "Nanotechnology",
+      "Artificial Intelligence",
+      "Data Science",
+      "Cyber Security",
+      "Cloud Computing",
+      "Robotics",
+      "IoT",
+      "Blockchain",
+      "Gaming Technology",
+      "Mathematics",
+      "Physics",
+      "Chemistry",
+      "Management"
+    ],
+    "ResearchCenters": [
+      "AI & Machine Learning Research Center",
+      "Nanotechnology Research Center",
+      "Biotechnology Research Center",
+      "Renewable Energy Research Center",
+      "Advanced Materials Research Center",
+      "Healthcare Technologies Research Center"
+    ],
+    "Strength": {
+      "FacultyCount": 1000,
+      "PhDs": "Majority",
+      "Patents2024": 50,
+      "ResearchFundsINR2024": 500000000
+    },
+    "Collaborations": [
+      "International Universities",
+      "Industry Partners",
+      "Research Organizations"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students"
+    ],
+    "StudentFeedback": "Generally positive, with emphasis on quality infrastructure and placements"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 100000,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 100000,
+      "IncomeUpToINR_Lax": 500000,
+      "TwoThirdFeeWaiver": true
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Merit-based scholarships for SRMJEEE top scorers (25-100% fee waiver)",
+      "Sports quota concessions",
+      "Economically weaker section support",
+      "State government scholarships"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Waiver",
+      "Cash Prizes",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.1,
+    "CollegeDuniaReviewsCount": 1500,
+    "Careers360Rating": 4.2,
+    "Strengths": [
+      "World-class infrastructure",
+      "Good placements especially IT",
+      "Diverse program offerings",
+      "Vibrant campus life",
+      "Modern facilities"
+    ],
+    "Weaknesses": [
+      "High fees compared to government colleges",
+      "Variable teaching quality across faculty",
+      "Strict attendance rules",
+      "Large batch sizes in popular branches"
+    ],
+    "ReturnOnInvestment": "Good"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India and internationally",
+    "CulturalTraditions": [
+      "Cultural festivals",
+      "Technical events",
+      "Regular gatherings"
+    ],
+    "Festivals": [
+      "Technical Festival",
+      "Cultural Festival",
+      "Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Robotics",
+      "Coding",
+      "Entrepreneurship Cell",
+      "Literature & Debate",
+      "Music & Dance",
+      "Drama",
+      "Social Service"
+    ],
+    "OutdoorActivities": [
+      "Sports competitions",
+      "Adventure activities",
+      "Trekking"
+    ],
+    "StudentGovernance": "Student councils and active participation",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Yoga Studios",
+      "Recreation Areas",
+      "Medical Facilities"
+    ],
+    "Community": "Inclusive ecosystem with cultural, linguistic, and religious diversity"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1985,
+    "Founder": "Dr. T.R. Paarivendhar",
+    "InitialFocus": "Engineering education with industry-relevant curriculum",
+    "Evolution": [
+      "1992-1997: Multi-college expansion",
+      "2002: Deemed university status",
+      "2006: Full university status",
+      "2017: Name reversion to SRMIST"
+    ],
+    "Legacy": "Pioneer in private technical education in India",
+    "Heritage": "Modern infrastructure with emphasis on innovation and research"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "AI & Machine Learning",
+      "Nanotechnology",
+      "Biotechnology",
+      "Renewable Energy",
+      "Advanced Materials",
+      "Healthcare Technologies",
+      "Smart Cities"
+    ],
+    "PatentsFiled2024": 50,
+    "ResearchFundingINR2024": 500000000,
+    "NotableInnovations": "Research contributions across multiple domains",
+    "Startups": {
+      "Number": 100,
+      "AggregateValuationINR": 10000000000
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 50,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "SRMJEEE 2025 Registration",
+      "Date": "2025-11-01",
+      "Details": "Applications open for engineering programs"
+    },
+    {
+      "Event": "Placement Drive 2025",
+      "Date": "2025-08-01",
+      "Details": "928+ companies participating"
+    },
+    {
+      "Event": "Research Conference",
+      "StartDate": "2025-09-15",
+      "EndDate": "2025-09-17",
+      "Theme": "Innovation and Technology"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "www.srmist.edu.in",
+    "Address": "SRM IST, Kattankulathur, Chengalpattu District, Tamil Nadu - 603203",
+    "Phone": "+91 44 2741 1000",
+    "Emails": {
+      "Registrar": "registrar@srmist.edu.in",
+      "Admissions": "admissions@srmist.edu.in",
+      "PlacementCell": "placement@srmist.edu.in"
+    }
+  }
+}
+
+
+

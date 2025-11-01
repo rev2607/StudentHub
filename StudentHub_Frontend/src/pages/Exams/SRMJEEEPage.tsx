@@ -4779,14 +4779,14 @@ export default function SRMJEEEPage() {
 
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Counselling FAQs</h3>
               <div className="space-y-4 text-gray-700 mb-6">
-                      <div>
+              <div>
                   <p><strong>Q: Can I participate in multiple phase counsellings?</strong></p>
                   <p>A: If you appear in multiple exam phases, your best score is considered. You participate in counselling corresponding to your best performance phase.</p>
-                      </div>
+                </div>
                 <div>
                   <p><strong>Q: What if I don't get any seat in choice filling?</strong></p>
                   <p>A: You can participate in subsequent counselling rounds or later phases. You can also wait for spot counselling if seats remain vacant.</p>
-                    </div>
+              </div>
                 <div>
                   <p><strong>Q: Is counselling fee refundable?</strong></p>
                   <p>A: No, the counselling fee is non-refundable. It's adjusted in total tuition fee if seat is accepted.</p>
@@ -4802,8 +4802,8 @@ export default function SRMJEEEPage() {
                       <div>
                   <p><strong>Q: Is physical reporting mandatory?</strong></p>
                   <p>A: Yes, original document verification and physical reporting are mandatory to complete admission process.</p>
-                      </div>
-                    </div>
+            </div>
+          </div>
 
               <div className="bg-gray-50 p-4 rounded-lg">
                 <p className="text-gray-700">
@@ -4850,11 +4850,11 @@ export default function SRMJEEEPage() {
                   }`}
                 >
                   {tab.label}
-                    </button>
+                </button>
               ))}
             </nav>
-                  </div>
-                </div>
+        </div>
+      </div>
 
         {/* Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
@@ -4873,50 +4873,50 @@ export default function SRMJEEEPage() {
                 <div className="flex items-center mb-3">
                   <div className="w-10 h-10 flex items-center justify-center mr-3">
                     <img src={srmLogo} alt="SRM University" className="w-10 h-10 object-contain" />
-                  </div>
+                      </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-800 text-sm">SRM University B.Tech</h4>
                     <p className="text-xs text-gray-600">SRM Institute of Science and Technology</p>
-                  </div>
-                </div>
+                      </div>
+                    </div>
                 <p className="text-xs text-gray-600 mb-3">Deemed University | 800+ Seats | SRMJEEE Based | Excellent Placements</p>
                 <button className="w-full bg-green-600 text-white text-xs py-2 px-3 rounded hover:bg-green-700 transition-colors">
-                  ✓ Apply Now
-                </button>
-              </div>
+                      ✓ Apply Now
+                    </button>
+                  </div>
 
               {/* VIT Vellore */}
               <div className="border border-gray-200 rounded-lg p-4 mb-4 hover:shadow-md transition-shadow">
                 <div className="flex items-center mb-3">
                   <div className="w-10 h-10 flex items-center justify-center mr-3">
                     <img src={vitLogo} alt="VIT Vellore" className="w-10 h-10 object-contain" />
-                  </div>
+                      </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-800 text-sm">VIT Vellore B.Tech</h4>
                     <p className="text-xs text-gray-600">Vellore Institute of Technology</p>
-                  </div>
-                </div>
+                      </div>
+                    </div>
                 <p className="text-xs text-gray-600 mb-3">Private University | 2000+ Seats | VITEEE Based | Excellent Infrastructure</p>
                 <button className="w-full bg-green-600 text-white text-xs py-2 px-3 rounded hover:bg-green-700 transition-colors">
-                  ✓ Apply Now
-                </button>
-              </div>
+                      ✓ Apply Now
+                    </button>
+                  </div>
 
               {/* BITS Pilani */}
               <div className="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
                 <div className="flex items-center mb-3">
                   <div className="w-10 h-10 flex items-center justify-center mr-3">
                     <img src={bitsLogo} alt="BITS Pilani" className="w-10 h-10 object-contain" />
-                  </div>
+                      </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-800 text-sm">BITS Pilani B.E</h4>
                     <p className="text-xs text-gray-600">Birla Institute of Technology & Science</p>
-                  </div>
-                </div>
+                      </div>
+                    </div>
                 <p className="text-xs text-gray-600 mb-3">Private Deemed | 2500+ Seats | BITSAT Based | Top Placements</p>
                 <button className="w-full bg-green-600 text-white text-xs py-2 px-3 rounded hover:bg-green-700 transition-colors">
-                  ✓ Apply Now
-                </button>
+                      ✓ Apply Now
+                    </button>
               </div>
             </div>
           </div>

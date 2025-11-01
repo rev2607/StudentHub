@@ -1,0 +1,562 @@
+{
+  "Name": "Siksha 'O' Anusandhan (SOA), Bhubaneswar",
+  "Location": {
+    "City": "Bhubaneswar",
+    "District": "Khordha",
+    "State": "Odisha",
+    "Country": "India",
+    "Pin": "751030",
+    "CampusAreaAcres": 450,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Khandagiri, Bhubaneswar"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1996,
+    "OriginalName": "Institute of Technical Education and Research (ITER)",
+    "Renamed": [
+      {
+        "Year": 2007,
+        "Name": "Siksha 'O' Anusandhan (SOA) Deemed to be University"
+      }
+    ],
+    "HistoricalSignificance": "Founded in 1984 as educational society, ITER established in 1996. Achieved deemed university status in 2007. Eastern India's leading private deemed university."
+  },
+  "UniversityType": [
+    "Private Deemed University",
+    "Category-I Graded Autonomy",
+    "NAAC A++ Accredited"
+  ],
+  "About": {
+    "Overview": "Premier multi-disciplinary deemed university in eastern India offering 120+ programs across Engineering, Medicine, Dental Sciences, Pharmacy, Law, Management, and more. Ranked 15th among universities nationally by NIRF 2025.",
+    "StudentStrength": "Thousands of students across multiple faculties",
+    "MajorEvents": [
+      "Technical and cultural festivals",
+      "Research symposiums",
+      "Placement drives"
+    ],
+    "ResearchFocus": [
+      "Engineering and Technology",
+      "Medical Sciences",
+      "Pharmaceutical Sciences",
+      "Interdisciplinary Research"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities",
+      "Global research institutions"
+    ],
+    "SocialInitiatives": [
+      "SUM Hospital community healthcare",
+      "Affordable education initiatives",
+      "Scholarship programs"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 25,
+      "Engineering": 22,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 0,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science & Engineering (AI & ML)",
+          "Computer Science & Engineering (Cyber Security)",
+          "Computer Science & Engineering (Data Science)",
+          "Computer Science & Engineering (IoT)",
+          "Computer Science & Engineering",
+          "Computer Science & Information Technology",
+          "Electronics & Communication Engineering",
+          "Electrical & Electronics Engineering",
+          "Civil Engineering",
+          "Electrical Engineering",
+          "Mechanical Engineering",
+          "Biotechnology",
+          "Chemical Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["SAAT", "JEE Main"],
+        "Seats": 0,
+        "FirstYearFeeINR": 235000,
+        "TotalFeesINRApprox": 630000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 0,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "SAAT"],
+        "FirstYearFeeINR": 0,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": ""
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["SAAT", "CAT", "MAT", "XAT"],
+        "Seats": 0,
+        "FirstYearFeeINR": 0
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Biotechnology",
+          "Microbiology"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["SAAT"],
+        "FirstYearFeeINR": 0,
+        "Seats": 0
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 0,
+        "Entrance": [
+          "SAAT",
+          "GATE",
+          "UGC-NET",
+          "CSIR-NET"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 0,
+        "SeatsMoreThan": 0
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 60000,
+      "Maximum": 135000,
+      "Note": "Includes AC and Non-AC options, 2-4 seater rooms"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "SAAT or JEE Main",
+        "Counseling": "University counseling",
+        "AdditionalTestForBArch": ""
+      },
+      "BDes": {
+        "Exam": "",
+        "Counseling": ""
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE or SAAT",
+        "Counseling": "University counseling",
+        "AdditionalProcesses": ""
+      },
+      "MBA": {
+        "Exam": "SAAT or CAT/MAT/XAT",
+        "AdditionalSelection": ["Group Discussion", "Personal Interview"]
+      },
+      "MSc": {
+        "Exam": ["SAAT"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["SAAT", "GATE", "UGC-NET", "CSIR-NET"],
+        "Selection": "Written test and interview",
+        "AdditionalNotes": ""
+      }
+    },
+    "ForeignNational": {
+      "Requirement": [],
+      "AdditionalProcess": ""
+    },
+    "ReservationPolicy": "As per Government norms for SC, ST, OBC, EWS, PwD",
+    "ApplicationMode": "Online through admission.soa.ac.in"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 0,
+      "OBCPercentile": 0,
+      "SCSTPercentileMin": 0
+    },
+    "AdditionalDetails": "SAAT scores and merit-based selection. Cutoffs vary by program and category."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 1836,
+      "Recruiters": 256,
+      "HighestPackageINR": 4600000,
+      "HighestDomesticPackageINR": 4600000,
+      "OverallAveragePackageINR": 575000,
+      "CSEAveragePackageINR": 0,
+      "ECEAveragePackageINR": 0,
+      "MBA median package INR": 0,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "Microsoft",
+        "Amazon",
+        "Adobe",
+        "Accenture",
+        "Cognizant",
+        "Deloitte",
+        "Infosys",
+        "TCS",
+        "Wipro",
+        "HCL",
+        "Tech Mahindra",
+        "Capgemini",
+        "PWC"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Analyst",
+        "Consultant",
+        "Business Analyst",
+        "Research and Development",
+        "Technical Support"
+      ],
+      "PlacementPreparation": [
+        "Training sessions",
+        "Mock interviews",
+        "Resume building",
+        "Aptitude preparation"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 0,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "AC and Non-AC rooms",
+        "Study rooms",
+        "Common areas",
+        "Indoor games",
+        "TV rooms",
+        "Reading rooms",
+        "Water coolers",
+        "Geysers"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 0,
+      "EJournalsCount": 0,
+      "Features": [
+        "Large collection of textbooks",
+        "Reference books",
+        "E-books and e-journals",
+        "Online databases",
+        "Spacious reading halls",
+        "Digital access"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 0,
+      "FocusAreas": [
+        "Engineering laboratories",
+        "Medical laboratories",
+        "Dental laboratories",
+        "Pharmacy laboratories",
+        "Science laboratories",
+        "Computer laboratories"
+      ],
+      "Equipment": [
+        "Modern equipment",
+        "Latest technologies",
+        "Research facilities"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Basketball court",
+        "Football ground",
+        "Volleyball court",
+        "Cricket ground",
+        "Badminton courts",
+        "Indoor sports facilities",
+        "Gymnasium",
+        "Table tennis",
+        "Carom",
+        "Chess"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "SUM Hospital & Health Center",
+      "Services": [
+        "Comprehensive medical care",
+        "Emergency services",
+        "24x7 healthcare",
+        "Dental hospital",
+        "Specialist consultations"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Cafeteria",
+        "Multiple mess halls"
+      ],
+      "Services": [
+        "Healthy and nutritious food",
+        "Diverse menu",
+        "Hygiene maintained",
+        "Reasonable prices"
+      ]
+    },
+    "OtherAmenities": [
+      "Banks and ATMs",
+      "Convenience stores",
+      "Photocopying services",
+      "Printing services",
+      "Auditoriums",
+      "Seminar halls",
+      "Transportation",
+      "Green spaces",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 0,
+      "Types": [
+        "Technical clubs",
+        "Cultural clubs",
+        "Sports clubs",
+        "Literary clubs"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 0,
+    "DepartmentsList": [
+      "Institute of Technical Education and Research (ITER)",
+      "Institute of Medical Sciences & SUM Hospital",
+      "Institute of Dental Sciences",
+      "College of Pharmaceutical Sciences",
+      "College of Nursing",
+      "School of Management",
+      "School of Law",
+      "Faculty of Agricultural Sciences",
+      "Institute of Business and Computer Studies",
+      "Faculty of Science",
+      "Faculty of Humanities"
+    ],
+    "ResearchCenters": [
+      "Multiple research centers",
+      "Interdisciplinary research"
+    ],
+    "Strength": {
+      "FacultyCount": 1000,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Industry partnerships"
+    ],
+    "FacultyActivities": [
+      "Research publications",
+      "Conference participation",
+      "Doctoral guidance",
+      "Industry consultancy"
+    ],
+    "StudentFeedback": "Generally positive with variable teaching quality across departments"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": false,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Merit-based scholarships for top SAAT performers",
+      "Economically weaker section support",
+      "Government scholarships",
+      "Sports quota concessions",
+      "SC/ST scholarships"
+    ],
+    "Coverage": [
+      "Tuition fee waiver",
+      "Partial fee waiver",
+      "Financial assistance"
+    ],
+    "Application": [
+      "Admissions portal",
+      "University scholarship office"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.0,
+    "CollegeDuniaReviewsCount": 0,
+    "Careers360Rating": 4.2,
+    "Strengths": [
+      "Modern infrastructure",
+      "Good placements",
+      "Multi-disciplinary programs",
+      "NAAC A++ accreditation",
+      "Category-I autonomy",
+      "Affordable fees",
+      "Beautiful campus"
+    ],
+    "Weaknesses": [
+      "Variable teaching quality",
+      "Large institution size",
+      "Limited personal attention in some programs"
+    ],
+    "ReturnOnInvestment": "Good"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India",
+    "CulturalTraditions": [
+      "Technical festivals",
+      "Cultural events",
+      "Sports competitions"
+    ],
+    "Festivals": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports festivals"
+    ],
+    "ClubsAndSocieties": [
+      "Technical clubs",
+      "Cultural clubs",
+      "Sports clubs",
+      "Literary societies"
+    ],
+    "OutdoorActivities": [
+      "Sports competitions",
+      "Cultural events",
+      "Technical competitions"
+    ],
+    "StudentGovernance": "Student councils and committees",
+    "WellbeingFacilities": [
+      "Gymnasium",
+      "Sports facilities",
+      "Recreation areas",
+      "Medical facilities"
+    ],
+    "Community": "Inclusive and diverse community"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1984,
+    "Founder": "Dr. Manojranjan Nayak",
+    "InitialFocus": "Educational society promoting quality education",
+    "Evolution": [
+      "1996: ITER established",
+      "2007: Deemed university status",
+      "2022: Category-I Graded Autonomy and NAAC A++"
+    ],
+    "Legacy": "Eastern India's leading private deemed university with rapid growth trajectory",
+    "Heritage": "Modern campus infrastructure with comprehensive facilities"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Engineering research",
+      "Medical research",
+      "Pharmaceutical research",
+      "Interdisciplinary research"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Multiple research centers and ongoing projects",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Industry partnerships",
+      "International collaborations",
+      "Government projects"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": false
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "NIRF 2025 Rankings",
+      "Date": "2025",
+      "Details": "Ranked 15th among Universities, 25th Overall, 22nd in Engineering, 15th in Medical, 9th in Dental, 10th in Law"
+    },
+    {
+      "Event": "Times Engineering Ranking 2025",
+      "Date": "2025",
+      "Theme": "ITER ranked 2nd in India, 2nd among private institutes, 1st in eastern India"
+    },
+    {
+      "Event": "Placements 2024",
+      "Details": "1,836 students placed, 256 companies, highest package ₹43-46 LPA, average ₹5.75 LPA"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.soa.ac.in",
+    "Address": "J-15 Khandagiri, Bhubaneswar - 751030, Odisha, India",
+    "Phone": "Available through official website",
+    "Emails": {
+      "Registrar": "Available through official website",
+      "Admissions": "admission.soa.ac.in",
+      "PlacementCell": "Available through official website"
+    }
+  }
+}
+
+
+

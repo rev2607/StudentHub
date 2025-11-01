@@ -1,0 +1,550 @@
+{
+  "Name": "Kalasalingam Academy of Research and Education (KARE)",
+  "Location": {
+    "City": "Krishnankoil",
+    "District": "Virudhunagar",
+    "State": "Tamil Nadu",
+    "Country": "India",
+    "Pin": "626126",
+    "CampusAreaAcres": 120,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Krishnankoil, Virudhunagar"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1984,
+    "OriginalName": "Arulmigu Kalasalingam College of Engineering",
+    "Renamed": [
+      {
+        "Year": 2006,
+        "Name": "Kalasalingam University"
+      },
+      {
+        "Year": 2017,
+        "Name": "Kalasalingam Academy of Research and Education (KARE)"
+      }
+    ],
+    "HistoricalSignificance": "Established by 'Kalvi Vallal' Thiru T. Kalasalingam, a freedom fighter and philanthropist. First institution in India to introduce special B.Tech program for differently-abled students."
+  },
+  "UniversityType": [
+    "Private Deemed University",
+    "NAAC A++ Accredited",
+    "NBA Accredited"
+  ],
+  "About": {
+    "Overview": "One of South India's prominent deemed universities with a legacy spanning over four decades. Located at the pristine foothills of the Western Ghats, KARE has transformed from a single engineering college into a comprehensive multi-disciplinary deemed university.",
+    "StudentStrength": "Thousands of students across nine specialized schools",
+    "MajorEvents": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports competitions"
+    ],
+    "ResearchFocus": [
+      "Discrete Mathematics",
+      "Advanced Materials",
+      "Nanotechnology",
+      "Biomedical Engineering",
+      "Renewable Energy"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International research partnerships",
+      "Student exchange programs"
+    ],
+    "SocialInitiatives": [
+      "Inclusive education for differently-abled students",
+      "Affordable fee structure",
+      "Community outreach programs"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 50,
+      "Engineering": 33,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 50,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Electronics & Communication Engineering",
+          "Electrical & Electronics Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Biotechnology",
+          "Aerospace Engineering",
+          "Automobile Engineering",
+          "Information Technology",
+          "Electronics & Instrumentation Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["KUEE", "JEE Main"],
+        "Seats": 0,
+        "FirstYearFeeINR": 100000,
+        "TotalFeesINRApprox": 400000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 18,
+        "DurationYears": 2,
+        "Entrance": ["KEEE", "GATE"],
+        "FirstYearFeeINR": 75750,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "Not listed"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "MAT", "TANCET", "University entrance"],
+        "Seats": 0,
+        "FirstYearFeeINR": 70000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Statistics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["Merit-based"],
+        "FirstYearFeeINR": 40000,
+        "Seats": 0
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 30,
+        "Entrance": [
+          "Written test",
+          "Interview",
+          "Research proposal"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 30000,
+        "SeatsMoreThan": 0
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 0,
+      "Maximum": 0,
+      "Note": "Affordable hostel and mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "KUEE",
+        "Counseling": "KARE counseling",
+        "AdditionalTestForBArch": ""
+      },
+      "BDes": {
+        "Exam": "",
+        "Counseling": ""
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "KEEE",
+        "Counseling": "KARE process",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT/MAT/TANCET",
+        "AdditionalSelection": ["Personal Interview", "Group Discussion"]
+      },
+      "MSc": {
+        "Exam": ["Merit-based"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["Written test", "Interview"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Research proposal evaluation"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": [],
+      "AdditionalProcess": "International student admissions"
+    },
+    "ReservationPolicy": "Scholarships for economically weaker students and differently-abled students",
+    "ApplicationMode": "Online through official website"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 0,
+      "OBCPercentile": 0,
+      "SCSTPercentileMin": 0
+    },
+    "AdditionalDetails": "Cutoffs vary annually based on KUEE scores and JEE Main ranks."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 1650,
+      "Recruiters": 150,
+      "HighestPackageINR": 5000000,
+      "HighestDomesticPackageINR": 5000000,
+      "OverallAveragePackageINR": 450000,
+      "CSEAveragePackageINR": 800000,
+      "ECEAveragePackageINR": 450000,
+      "MBA median package INR": 590000,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "Accenture",
+        "Amazon",
+        "Cognizant",
+        "Dell",
+        "HCL",
+        "LG",
+        "ICICI Bank",
+        "Infosys",
+        "TCS",
+        "Tech Mahindra",
+        "Apollo Tyres",
+        "General Electric",
+        "Renault Nissan"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Science",
+        "Analytics",
+        "Consulting",
+        "Management",
+        "Research and Development"
+      ],
+      "PlacementPreparation": [
+        "Aptitude training",
+        "Technical skills development",
+        "Soft skills workshops",
+        "Mock interviews",
+        "Resume building"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 0,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Study Rooms",
+        "Dining Halls",
+        "Recreation Areas",
+        "Gymnasium",
+        "TV Rooms",
+        "Reading Rooms",
+        "AC and Non-AC rooms",
+        "24x7 Security",
+        "CCTV"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 85253,
+      "EJournalsCount": 0,
+      "Features": [
+        "Fully air-conditioned",
+        "Seating for 750 students",
+        "Digital resources",
+        "IEEE, ACM, ASCE subscriptions",
+        "30 lakh e-books",
+        "Inter-library loan"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 0,
+      "FocusAreas": [
+        "Engineering",
+        "Computer Science",
+        "Biotechnology",
+        "Material Sciences",
+        "Life Sciences"
+      ],
+      "Equipment": [
+        "State-of-the-art instruments",
+        "IRC facilities",
+        "Advanced research equipment"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Olympic-standard Swimming Pool",
+        "Indoor Stadium",
+        "Cricket Ground",
+        "Football Ground",
+        "Basketball Courts",
+        "Volleyball Courts",
+        "Tennis Courts",
+        "Badminton Courts",
+        "Hockey Ground",
+        "Athletic Tracks"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Health Care Centre",
+      "Services": [
+        "Primary Healthcare",
+        "Medical Consultations",
+        "Emergency Services",
+        "Ambulance",
+        "Hospital Tie-ups"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Cafeteria",
+        "Dining Halls",
+        "Food Courts"
+      ],
+      "Services": [
+        "Varied menu",
+        "Hygienic food preparation",
+        "Vegetarian and non-vegetarian options"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Seminar Halls",
+      "Bank and ATM",
+      "Guest House",
+      "NSS Unit",
+      "Hobby Clubs"
+    ],
+    "StudentClubs": {
+      "Number": 0,
+      "Types": [
+        "Technical",
+        "Cultural",
+        "Sports",
+        "Social Service",
+        "Hobby Clubs"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 9,
+    "DepartmentsList": [
+      "School of Engineering",
+      "School of Science & Humanities",
+      "School of Management",
+      "School of Computing",
+      "School of Law",
+      "School of Agriculture",
+      "School of Pharmacy",
+      "School of Architecture",
+      "School of Education"
+    ],
+    "ResearchCenters": [
+      "National Centre for Advanced Research in Discrete Mathematics",
+      "Instrumentation Research Centre",
+      "Various research centers"
+    ],
+    "Strength": {
+      "FacultyCount": 0,
+      "PhDs": "Qualified faculty with advanced degrees",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "DST funding",
+      "International partnerships",
+      "Industry collaborations"
+    ],
+    "FacultyActivities": [
+      "Research publications",
+      "Industry consultancy",
+      "International collaborations"
+    ],
+    "StudentFeedback": "Generally positive with emphasis on infrastructure, affordable fees, and inclusive education."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Merit scholarships",
+      "Economically weaker students",
+      "Differently-abled students",
+      "Sports and cultural scholarships",
+      "Government schemes"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Fee Reimbursements",
+      "Merit-based Scholarships"
+    ],
+    "Application": [
+      "Institution scholarship programs",
+      "National Scholarship Portal",
+      "State government schemes"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.0,
+    "CollegeDuniaReviewsCount": 0,
+    "Careers360Rating": 0,
+    "Strengths": [
+      "Affordable fees",
+      "Good infrastructure",
+      "Inclusive education",
+      "Picturesque campus location",
+      "Olympic-standard sports facilities"
+    ],
+    "Weaknesses": [
+      "Rural location",
+      "Moderate placement rates",
+      "Research output improvement needed"
+    ],
+    "ReturnOnInvestment": "Good"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India",
+    "CulturalTraditions": [
+      "Cultural festivals",
+      "Technical festivals",
+      "Sports competitions"
+    ],
+    "Festivals": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports festivals"
+    ],
+    "ClubsAndSocieties": [
+      "NSS",
+      "Cultural clubs",
+      "Sports clubs",
+      "Hobby clubs"
+    ],
+    "OutdoorActivities": [
+      "Sports competitions",
+      "Cultural events",
+      "Recreational activities"
+    ],
+    "StudentGovernance": "Active student participation",
+    "WellbeingFacilities": [
+      "Olympic-standard Swimming Pool",
+      "Gymnasiums",
+      "Recreation Areas",
+      "Sports Facilities"
+    ],
+    "Community": "Inclusive environment with special programs for differently-abled students"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1984,
+    "Founder": "'Kalvi Vallal' Thiru T. Kalasalingam",
+    "InitialFocus": "Quality technical education in rural Tamil Nadu",
+    "Evolution": [
+      "1984: Arulmigu Kalasalingam College of Engineering",
+      "2006: Deemed-to-be-University Status",
+      "2017: Renamed to Kalasalingam Academy of Research and Education"
+    ],
+    "Legacy": "Pioneering inclusive education and affordable quality technical education",
+    "Heritage": "First institution in India with special B.Tech program for differently-abled students"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Discrete Mathematics",
+      "Advanced Materials",
+      "Nanotechnology",
+      "Biomedical Engineering",
+      "Renewable Energy",
+      "Environmental Engineering"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "National Centre for Advanced Research in Discrete Mathematics with DST funding",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "DST funding",
+      "Industry partnerships",
+      "International research projects"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": false
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "Admissions Open",
+      "Date": "2025",
+      "Details": "B.Tech admissions through KUEE and JEE Main"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "http://www.kalasalingam.ac.in",
+    "Address": "Kalasalingam Academy of Research and Education, Anand Nagar, Krishnankoil - 626126, Virudhunagar District, Tamil Nadu, India",
+    "Phone": "Check official website",
+    "Emails": {
+      "Registrar": "Contact through official website",
+      "Admissions": "Contact through official website",
+      "PlacementCell": "Contact Dr. S P Velmurugan - University Placement Coordinator"
+    }
+  }
+}

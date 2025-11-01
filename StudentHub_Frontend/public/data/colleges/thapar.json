@@ -1,0 +1,603 @@
+{
+  "Name": "Thapar Institute of Engineering and Technology (TIET)",
+  "Location": {
+    "City": "Patiala",
+    "District": "Patiala",
+    "State": "Punjab",
+    "Country": "India",
+    "Pin": "147004",
+    "CampusAreaAcres": 250,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Patiala, Punjab",
+        "Specialization": "All Faculties"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1956,
+    "OriginalName": "Thapar Engineering College",
+    "Renamed": [
+      {
+        "Year": 1985,
+        "Name": "Thapar Institute of Engineering and Technology (TIET)"
+      },
+      {
+        "Year": 2006,
+        "Name": "Thapar University"
+      },
+      {
+        "Year": 2017,
+        "Name": "Thapar Institute of Engineering and Technology (TIET)"
+      }
+    ],
+    "HistoricalSignificance": "Established through visionary tri-partite agreement between State of PEPSU, Central Government, and Patiala Technical Education Trust. Pioneer in public-private partnership in higher technical education in India."
+  },
+  "UniversityType": [
+    "Private Deemed University",
+    "NAAC A+ Accredited",
+    "NBA Accredited",
+    "ABET Accredited"
+  ],
+  "About": {
+    "Overview": "Thapar Institute of Engineering and Technology (TIET), commonly known as Thapar University, stands as one of India's oldest and most prestigious private deemed universities for technical education. Established in 1956, located on a sprawling green campus of over 250 acres in Patiala, Punjab.",
+    "StudentStrength": "Over 10,000 students across 16 hostels",
+    "MajorEvents": [
+      "Technical Festivals",
+      "Cultural Events",
+      "Research Conferences",
+      "Placement Drives"
+    ],
+    "ResearchFocus": [
+      "Artificial Intelligence and Machine Learning",
+      "Data Science",
+      "VLSI Design",
+      "Robotics",
+      "Biotechnology",
+      "Nanotechnology",
+      "Renewable Energy"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International Universities",
+      "Research Organizations",
+      "Industry Partners"
+    ],
+    "SocialInitiatives": [
+      "Community Engagement",
+      "Research for Social Good"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 43,
+      "Engineering": 29,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 43,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 210,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Computer Engineering",
+          "Electronics and Communication Engineering",
+          "Electronics Engineering (VLSI Design)",
+          "Electronics and Computer Engineering",
+          "Electrical and Computer Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Biotechnology",
+          "Production and Industrial Engineering",
+          "Electronics and Instrumentation Engineering",
+          "Robotics and Artificial Intelligence",
+          "Computer Science and Business Systems",
+          "Artificial Intelligence and Machine Learning"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main"],
+        "Seats": 1200,
+        "FirstYearFeeINR": 633000,
+        "TotalFeesINRApprox": 2530000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 4,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 20,
+        "DurationYears": 2,
+        "Entrance": ["GATE"],
+        "FirstYearFeeINR": 194000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": [],
+        "SeatsVaries": true,
+        "FeeInformation": "Varies by program"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["TMAT", "CAT", "NMAT", "XAT", "CMAT", "MAT"],
+        "Seats": 300,
+        "FirstYearFeeINR": 675000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Biotechnology"
+        ],
+        "DurationYears": 2,
+        "Entrance": [],
+        "FirstYearFeeINR": 150000,
+        "Seats": 200
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 15,
+        "Entrance": ["GATE", "NET", "CSIR"],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 87000,
+        "SeatsMoreThan": 150
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 34600,
+      "Maximum": 77000,
+      "Note": "Varies by room type (single/double/triple/quad, AC/Non-AC)"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main",
+        "Counseling": "Institute counseling",
+        "AdditionalTestForBArch": ""
+      },
+      "BDes": {
+        "Exam": "",
+        "Counseling": ""
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "Institute counseling",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "TMAT",
+        "AdditionalSelection": ["Group Discussion", "Personal Interview"]
+      },
+      "MSc": {
+        "Exam": ["Merit-based", "CUET"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "NET", "CSIR-NET"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Written test and interview"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["English Proficiency", "Valid Passport"],
+      "AdditionalProcess": "Credential verification"
+    },
+    "ReservationPolicy": "As per Government norms for SC, ST, OBC, EWS, PwD",
+    "ApplicationMode": "Online through official TIET portal"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [],
+      "Physics": [],
+      "Mathematics": []
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 75,
+      "OBCPercentile": 65,
+      "SCSTPercentileMin": 55
+    },
+    "AdditionalDetails": "JEE Main cutoff for CSE: Rank 33,379 (General), ECE: Rank 47,689, CE: Rank 60,977. Cutoffs vary by category and branch."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 1690,
+      "Recruiters": 510,
+      "HighestPackageINR": 12000000,
+      "HighestDomesticPackageINR": 12000000,
+      "OverallAveragePackageINR": 1138000,
+      "CSEAveragePackageINR": 1650000,
+      "ECEAveragePackageINR": 1200000,
+      "MBA median package INR": 1200000,
+      "PPOs": 200,
+      "TopRecruiters": [
+        "Amazon",
+        "Microsoft",
+        "Deloitte",
+        "IBM",
+        "Google",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Cognizant",
+        "Accenture",
+        "Adobe",
+        "Oracle",
+        "L&T",
+        "Bosch",
+        "ABB",
+        "Honeywell",
+        "Siemens",
+        "Samsung",
+        "Intel",
+        "Qualcomm",
+        "Goldman Sachs",
+        "JP Morgan"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Science",
+        "Research and Development",
+        "Consulting",
+        "Analytics",
+        "Hardware Design",
+        "Management"
+      ],
+      "PlacementPreparation": [
+        "Aptitude and technical test preparation",
+        "Soft skills development",
+        "Mock interviews",
+        "Coding competitions",
+        "Industry mentorship"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 16,
+      "Types": ["Boys", "Girls", "AC", "Non-AC"],
+      "Amenities": [
+        "Wi-Fi",
+        "Reading Rooms",
+        "TV Lounges",
+        "Indoor Games",
+        "Gyms",
+        "Mess Facilities",
+        "Air-conditioned Rooms"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 60000,
+      "BookCount": 150000,
+      "EJournalsCount": 4000,
+      "Features": [
+        "Digital resources",
+        "24/7 access",
+        "Group study zones",
+        "Inter-library loan",
+        "Modern facilities"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 120,
+      "FocusAreas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "VLSI Design",
+        "Robotics",
+        "Biotechnology",
+        "Nanotechnology",
+        "Renewable Energy"
+      ],
+      "Equipment": [
+        "Advanced Computing Systems",
+        "3D Printing",
+        "Advanced Sensors",
+        "Prototype Devices"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "International Standard Synthetic Athletic Track",
+        "Synthetic Tennis Courts",
+        "Synthetic Basketball Courts",
+        "Synthetic Badminton Courts",
+        "Swimming Pool",
+        "Cricket Ground",
+        "Football Ground",
+        "Hockey Field",
+        "Volleyball Courts",
+        "Table Tennis",
+        "Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Medical Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Specialist Consultations",
+        "Ambulance Services",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Sodexo managed messes",
+        "Self-managed messes",
+        "Canteens"
+      ],
+      "Services": [
+        "Vegetarian and Non-vegetarian options",
+        "Daily menu rotation",
+        "Dietary options",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Lecture Hall Complex (2018)",
+      "Computer Block",
+      "New Library Building",
+      "Academic Blocks (A, B, C, D, E, F, TAN, H, G)",
+      "Banks and ATMs",
+      "Campus-wide Wi-Fi",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 40,
+      "Types": [
+        "Technical (Robotics, Coding, Innovation)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Social Service"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 20,
+    "DepartmentsList": [
+      "Computer Science and Engineering",
+      "Computer Engineering",
+      "Electronics and Communication Engineering",
+      "Electronics Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Chemical Engineering",
+      "Biotechnology",
+      "Production and Industrial Engineering",
+      "Electronics and Instrumentation Engineering",
+      "Robotics and Artificial Intelligence",
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Management",
+      "Computer Applications",
+      "School of Sciences",
+      "School of Engineering",
+      "School of Management"
+    ],
+    "ResearchCenters": [
+      "AI & Machine Learning Research Center",
+      "VLSI Design Research Center",
+      "Robotics Research Center",
+      "Biotechnology Research Center",
+      "Nanotechnology Research Center",
+      "Renewable Energy Research Center"
+    ],
+    "Strength": {
+      "FacultyCount": 400,
+      "PhDs": "Majority",
+      "Patents2024": 30,
+      "ResearchFundsINR2024": 200000000
+    },
+    "Collaborations": [
+      "International Universities",
+      "Industry Partners",
+      "Research Organizations"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students"
+    ],
+    "StudentFeedback": "Generally positive, with emphasis on placements and campus life"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 100000,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 100000,
+      "IncomeUpToINR_Lax": 500000,
+      "TwoThirdFeeWaiver": true
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Merit-based scholarships for top JEE Main scorers",
+      "SC/ST fee concessions",
+      "Economically weaker section support",
+      "State government scholarships"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Waiver",
+      "Cash Prizes",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.1,
+    "CollegeDuniaReviewsCount": 1000,
+    "Careers360Rating": 4.2,
+    "Strengths": [
+      "Excellent placements especially CSE",
+      "Beautiful green campus",
+      "Good hostel facilities",
+      "Strong alumni network",
+      "Research opportunities"
+    ],
+    "Weaknesses": [
+      "High fees",
+      "Ranking decline",
+      "Teaching quality variation",
+      "Strict attendance policies"
+    ],
+    "ReturnOnInvestment": "Good"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India",
+    "CulturalTraditions": [
+      "Cultural festivals",
+      "Technical events",
+      "Regular gatherings"
+    ],
+    "Festivals": [
+      "Technical Festival",
+      "Cultural Festival",
+      "Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Robotics",
+      "Coding",
+      "Entrepreneurship Cell",
+      "Literature & Debate",
+      "Music & Dance",
+      "Drama",
+      "Social Service"
+    ],
+    "OutdoorActivities": [
+      "Sports competitions",
+      "Campus activities",
+      "Outdoor games"
+    ],
+    "StudentGovernance": "Student councils and active participation",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Recreation Areas",
+      "Medical Facilities",
+      "Sports Complex"
+    ],
+    "Community": "Inclusive ecosystem with diverse student body"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1956,
+    "Founder": "Lala Karam Chand Thapar",
+    "InitialFocus": "Engineering education with industry-relevant curriculum and research focus",
+    "Evolution": [
+      "1985: Deemed-to-be-university status",
+      "2006: Full university status",
+      "2017: Name reversion to TIET"
+    ],
+    "Legacy": "Pioneer in public-private partnership in higher technical education in India",
+    "Heritage": "Historic 250-acre green campus with modern infrastructure"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "AI & Machine Learning",
+      "Data Science",
+      "VLSI Design",
+      "Robotics",
+      "Biotechnology",
+      "Nanotechnology",
+      "Renewable Energy"
+    ],
+    "PatentsFiled2024": 30,
+    "ResearchFundingINR2024": 200000000,
+    "NotableInnovations": "Research contributions across multiple domains",
+    "Startups": {
+      "Number": 50,
+      "AggregateValuationINR": 5000000000
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 30,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "JEE Main 2025 Admission Process",
+      "Date": "2025-04-01",
+      "Details": "Admissions open for engineering programs"
+    },
+    {
+      "Event": "Placement Drive 2025",
+      "Date": "2025-08-01",
+      "Details": "510+ companies participating"
+    },
+    {
+      "Event": "Research Conference",
+      "StartDate": "2025-09-15",
+      "EndDate": "2025-09-17",
+      "Theme": "Innovation and Technology"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "www.thapar.edu",
+    "Address": "Thapar Institute of Engineering and Technology, Patiala - 147004, Punjab, India",
+    "Phone": "+91 175 239 3021",
+    "Emails": {
+      "Registrar": "registrar@thapar.edu",
+      "Admissions": "admissions@thapar.edu",
+      "PlacementCell": "placement@thapar.edu"
+    }
+  }
+}
+
+
+

@@ -305,6 +305,12 @@ export const examsList: ExamSummary[] = [
     shortIntro:
       "Manipal Entrance Test for admission to Manipal Institute of Technology and other MAHE B.Tech programs in Karnataka.",
   },
+  {
+    slug: "aeee",
+    name: "AEEE",
+    shortIntro:
+      "Amrita Entrance Examination - Engineering for admission to B.Tech programs at Amrita Vishwa Vidyapeetham campuses.",
+  },
 ];
 
 export const examsDetails: Record<string, ExamDetail> = {
@@ -1918,20 +1924,20 @@ export const examsDetails: Record<string, ExamDetail> = {
           "Algebra", "Trigonometry", "Vector Algebra", "Coordinate Geometry", "Calculus", "Probability",
         ],
       },
-      {
-        section: "Physics",
+      { 
+        section: "Physics", 
         topics: [
           "Mechanics", "Optics", "Electricity and Magnetism", "Modern Physics", "Thermodynamics",
         ],
       },
-      {
-        section: "Chemistry",
+      { 
+        section: "Chemistry", 
         topics: [
           "Physical Chemistry", "Inorganic Chemistry", "Organic Chemistry",
         ],
       },
     ],
-    examCentres: {
+    examCentres: { 
       count: 100,
       centres: ["Multiple cities across India"],
     },

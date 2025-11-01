@@ -177,7 +177,7 @@ export default function JEEMainPage() {
                   <ul className="list-disc ml-6 space-y-1">
                     <li>Admission to top engineering institutes like <strong>NITs, IIITs, and GFTIs</strong>.</li>
                     <li>Qualification for <strong>JEE Advanced</strong> for admission to the IITs.</li>
-                  </ul>
+                </ul>
                   <p className="mt-2">Nearly <strong>13 lakh students</strong> appear each year. The test is <strong>computer-based (CBT)</strong> and available in <strong>13 languages</strong>.</p>
                 </div>
 
@@ -228,8 +228,8 @@ export default function JEEMainPage() {
 
                 <div>
                   <h3 className="text-lg font-semibold text-gray-800 mb-3">Subject-Wise Weightage (Based on Past 10 Years)</h3>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
-                    <div>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+                  <div>
                       <h4 className="font-semibold">Mathematics</h4>
                       <ul className="list-disc ml-5 space-y-1">
                         <li>Sequences & Series – 6.6%</li>
@@ -237,9 +237,9 @@ export default function JEEMainPage() {
                         <li>3D Geometry – 6.6%</li>
                         <li>Probability, Complex Numbers, P&amp;C – ~3.3% each</li>
                         <li>Algebra, Calculus &amp; Coordinate Geometry – ~30% combined</li>
-                      </ul>
-                    </div>
-                    <div>
+                    </ul>
+                  </div>
+                  <div>
                       <h4 className="font-semibold">Physics</h4>
                       <ul className="list-disc ml-5 space-y-1">
                         <li>Modern Physics – 10–12%</li>
@@ -249,9 +249,9 @@ export default function JEEMainPage() {
                         <li>Electrostatics &amp; Magnetism – ~9%</li>
                         <li>Thermodynamics &amp; Kinetic Theory – ~8%</li>
                         <li>Oscillations &amp; Waves – 3–4%</li>
-                      </ul>
-                    </div>
-                    <div>
+                    </ul>
+                  </div>
+                  <div>
                       <h4 className="font-semibold">Chemistry</h4>
                       <ul className="list-disc ml-5 space-y-1">
                         <li>s/p/d/f Block Elements – 5–6%</li>
@@ -260,44 +260,44 @@ export default function JEEMainPage() {
                         <li>Atomic Structure – 3–4%</li>
                         <li>Chemical Kinetics &amp; Solutions – ~3.5%</li>
                         <li>Organic (Polymers, Acids, etc.) – ~10% total</li>
-                      </ul>
-                    </div>
+                    </ul>
                   </div>
+                </div>
                 </div>
 
                 <div>
                   <h3 className="text-lg font-semibold text-gray-800 mb-3">Institute-Wise Cutoff Trends (CSE – General)</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="overflow-x-auto">
+                <div className="overflow-x-auto">
                       <h4 className="font-semibold mb-2">IITs</h4>
                       <table className="min-w-full text-sm border">
                         <thead><tr className="bg-gray-100"><th className="p-2 text-left">IIT</th><th className="p-2 text-left">Closing Rank</th></tr></thead>
-                        <tbody>
-                          <tr><td className="p-2">Bombay</td><td className="p-2">67</td></tr>
-                          <tr><td className="p-2">Delhi</td><td className="p-2">118</td></tr>
-                          <tr><td className="p-2">Madras</td><td className="p-2">163</td></tr>
+                    <tbody>
+                      <tr><td className="p-2">Bombay</td><td className="p-2">67</td></tr>
+                      <tr><td className="p-2">Delhi</td><td className="p-2">118</td></tr>
+                      <tr><td className="p-2">Madras</td><td className="p-2">163</td></tr>
                           <tr><td className="p-2">Kanpur</td><td className="p-2">238</td></tr>
-                          <tr><td className="p-2">Kharagpur</td><td className="p-2">270</td></tr>
-                          <tr><td className="p-2">Roorkee</td><td className="p-2">400</td></tr>
-                          <tr><td className="p-2">Guwahati</td><td className="p-2">600</td></tr>
-                        </tbody>
-                      </table>
+                      <tr><td className="p-2">Kharagpur</td><td className="p-2">270</td></tr>
+                      <tr><td className="p-2">Roorkee</td><td className="p-2">400</td></tr>
+                      <tr><td className="p-2">Guwahati</td><td className="p-2">600</td></tr>
+                    </tbody>
+                  </table>
                     </div>
                     <div className="overflow-x-auto">
                       <h4 className="font-semibold mb-2">NITs</h4>
                       <table className="min-w-full text-sm border">
                         <thead><tr className="bg-gray-100"><th className="p-2 text-left">NIT</th><th className="p-2 text-left">Rank Range</th></tr></thead>
-                        <tbody>
+                    <tbody>
                           <tr><td className="p-2">Trichy</td><td className="p-2">1200–4000</td></tr>
                           <tr><td className="p-2">Warangal</td><td className="p-2">1800–5300</td></tr>
                           <tr><td className="p-2">Surathkal</td><td className="p-2">2200–6700</td></tr>
-                          <tr><td className="p-2">Delhi</td><td className="p-2">&lt;3000–4500</td></tr>
-                          <tr><td className="p-2">Allahabad</td><td className="p-2">3300–5000</td></tr>
-                          <tr><td className="p-2">Puducherry</td><td className="p-2">6000–8000</td></tr>
-                        </tbody>
-                      </table>
+                      <tr><td className="p-2">Delhi</td><td className="p-2">&lt;3000–4500</td></tr>
+                      <tr><td className="p-2">Allahabad</td><td className="p-2">3300–5000</td></tr>
+                      <tr><td className="p-2">Puducherry</td><td className="p-2">6000–8000</td></tr>
+                    </tbody>
+                  </table>
                       <p className="text-xs text-gray-600 mt-1">Lower-tier NITs (Mizoram, Arunachal, Sikkim) can close up to ~2.7 lakh, especially for non-CSE branches.</p>
-                    </div>
+                </div>
                   </div>
                 </div>
 
@@ -327,15 +327,15 @@ export default function JEEMainPage() {
                   <div className="overflow-x-auto">
                     <table className="min-w-full text-sm border">
                       <thead><tr className="bg-gray-100"><th className="p-2 text-left">Category</th><th className="p-2 text-left">Percentile</th><th className="p-2 text-left">Marks</th></tr></thead>
-                      <tbody>
-                        <tr><td className="p-2">General</td><td className="p-2">93.5%</td><td className="p-2">105–115</td></tr>
-                        <tr><td className="p-2">EWS</td><td className="p-2">81%</td><td className="p-2">75–85</td></tr>
-                        <tr><td className="p-2">OBC-NCL</td><td className="p-2">80.2%</td><td className="p-2">75–85</td></tr>
-                        <tr><td className="p-2">SC</td><td className="p-2">62.2%</td><td className="p-2">65–75</td></tr>
+                  <tbody>
+                    <tr><td className="p-2">General</td><td className="p-2">93.5%</td><td className="p-2">105–115</td></tr>
+                    <tr><td className="p-2">EWS</td><td className="p-2">81%</td><td className="p-2">75–85</td></tr>
+                    <tr><td className="p-2">OBC-NCL</td><td className="p-2">80.2%</td><td className="p-2">75–85</td></tr>
+                    <tr><td className="p-2">SC</td><td className="p-2">62.2%</td><td className="p-2">65–75</td></tr>
                         <tr><td className="p-2">ST</td><td className="p-2">49%</td><td className="p-2">50–60</td></tr>
                         <tr><td className="p-2">PwD</td><td className="p-2">0.01%</td><td className="p-2">Minimal</td></tr>
-                      </tbody>
-                    </table>
+                  </tbody>
+                </table>
                   </div>
                 </div>
 
@@ -345,7 +345,7 @@ export default function JEEMainPage() {
                     <li><em>Age:</em> No upper age limit. Must have passed Class 12 or equivalent.</li>
                     <li><em>Subjects:</em> PCM (Physics, Chemistry, Mathematics) mandatory for B.E./B.Tech.</li>
                     <li><em>Marks:</em> Gen/OBC/EWS: 75% or top 20 percentile; SC/ST/PwD: 65% or top 20 percentile.</li>
-                  </ul>
+                </ul>
                 </div>
 
                 <div>
@@ -357,7 +357,7 @@ export default function JEEMainPage() {
                     <li>Upload photograph &amp; signature</li>
                     <li>Pay the fee online</li>
                     <li>Submit and download the confirmation page</li>
-                  </ul>
+                </ul>
                   <div className="mt-3">
                     <p className="font-medium">Documents Needed:</p>
                     <ul className="list-disc ml-6 text-sm">
@@ -365,21 +365,21 @@ export default function JEEMainPage() {
                       <li>10th &amp; 12th marksheets</li>
                       <li>Category/PwD certificate (if applicable)</li>
                       <li>Valid photo ID (Aadhaar/Passport/PAN)</li>
-                    </ul>
+                </ul>
                   </div>
                 </div>
 
                 <div>
                   <h3 className="text-lg font-semibold text-gray-800 mb-3">Application Fee (Per Paper)</h3>
-                  <div className="overflow-x-auto">
+                <div className="overflow-x-auto">
                     <table className="min-w-full text-sm border">
                       <thead><tr className="bg-gray-100"><th className="p-2 text-left">Category</th><th className="p-2 text-left">Fee</th></tr></thead>
-                      <tbody>
+                    <tbody>
                         <tr><td className="p-2">General / OBC</td><td className="p-2">₹1000</td></tr>
                         <tr><td className="p-2">SC / ST / PwD</td><td className="p-2">₹500</td></tr>
                         <tr><td className="p-2">Foreign centres</td><td className="p-2">Higher fee</td></tr>
-                      </tbody>
-                    </table>
+                    </tbody>
+                  </table>
                   </div>
                 </div>
 
@@ -388,14 +388,14 @@ export default function JEEMainPage() {
                   <div className="overflow-x-auto">
                     <table className="min-w-full text-sm border">
                       <thead><tr className="bg-gray-100"><th className="p-2 text-left">Event</th><th className="p-2 text-left">Session 1 (Jan 2026)</th><th className="p-2 text-left">Session 2 (Apr 2026)</th></tr></thead>
-                      <tbody>
+                    <tbody>
                         <tr><td className="p-2">Registration</td><td className="p-2">Oct 10–Nov 18, 2025</td><td className="p-2">Feb 2026</td></tr>
                         <tr><td className="p-2">Admit Card</td><td className="p-2">Jan 19–23</td><td className="p-2">Mar 30–Apr 3</td></tr>
                         <tr><td className="p-2">Exam Dates</td><td className="p-2">Jan 22–30</td><td className="p-2">Apr 2–9</td></tr>
                         <tr><td className="p-2">Result</td><td className="p-2">Feb 2026</td><td className="p-2">Apr 2026</td></tr>
-                      </tbody>
-                    </table>
-                  </div>
+                    </tbody>
+                  </table>
+                </div>
                 </div>
 
                 <div>
@@ -408,8 +408,8 @@ export default function JEEMainPage() {
                         <li>Rounds: 6</li>
                         <li>Fee: ₹40,000 (Gen/OBC), ₹20,000 (SC/ST/PwD)</li>
                         <li>Website: <a className="text-blue-600 hover:underline" href="https://josaa.nic.in" target="_blank" rel="noopener noreferrer">josaa.nic.in</a></li>
-                      </ul>
-                    </div>
+                </ul>
+              </div>
                     <div className="bg-gray-50 rounded-lg p-4">
                       <h4 className="font-semibold mb-1">CSAB (Special Rounds)</h4>
                       <ul className="list-disc ml-5 space-y-1">
@@ -417,7 +417,7 @@ export default function JEEMainPage() {
                         <li>Fee: ₹30,000 (Gen/OBC), ₹15,000 (SC/ST/PwD)</li>
                         <li>Website: <a className="text-blue-600 hover:underline" href="https://csab.nic.in" target="_blank" rel="noopener noreferrer">csab.nic.in</a></li>
                       </ul>
-                    </div>
+            </div>
                   </div>
                 </div>
 
@@ -429,8 +429,8 @@ export default function JEEMainPage() {
                       <ul className="list-disc ml-6 text-sm">
                         <li>Analyze last 10 years' PYQs to identify high-frequency topics.</li>
                         <li>Allocate ~70% time to chapters covering ~80% of questions.</li>
-                      </ul>
-                    </div>
+                  </ul>
+                </div>
                     <div>
                       <p className="font-medium">Practice &amp; Revise Regularly</p>
                       <ul className="list-disc ml-6 text-sm">
@@ -453,8 +453,8 @@ export default function JEEMainPage() {
                         <li>Use short breaks to avoid fatigue and maintain focus.</li>
                       </ul>
                     </div>
-                  </div>
-                </div>
+              </div>
+            </div>
 
                 <div>
                   <h3 className="text-lg font-semibold text-gray-800 mb-3">Final Takeaway</h3>
@@ -1641,7 +1641,7 @@ export default function JEEMainPage() {
                   <p className="text-gray-700">Some institutes may require candidates to be at least <strong>17 years old</strong> as of <strong>December 31, 2026</strong>.</p>
                   <p className="text-gray-700">Accepted age proofs include a <strong>birth certificate</strong>, <strong>Class 10 mark sheet</strong>, or <strong>Aadhaar card</strong>.</p>
                   <p className="text-gray-700"><strong>Transgender candidates</strong> are now officially recognized as a <strong>separate category</strong>.</p>
-                </div>
+                  </div>
               </div>
             </div>
 
@@ -1665,8 +1665,8 @@ export default function JEEMainPage() {
                     <p className="text-gray-700 text-sm">Also valid: <strong>International boards</strong> recognized by <strong>AIU</strong> (Association of Indian Universities).</p>
                     <p className="text-gray-700 text-sm">Other accepted qualifications: <strong>2-year Pre-University</strong>, <strong>NDA final exam</strong>, <strong>IB Diploma</strong>.</p>
                     <p className="text-gray-700 text-sm"><strong>GCE Advanced Level</strong> and <strong>AICTE/state-approved diplomas (3 years or more)</strong> are also eligible.</p>
-                  </div>
-                </div>
+                    </div>
+                    </div>
               </div>
             </div>
 
@@ -1707,7 +1707,7 @@ export default function JEEMainPage() {
                   <p className="text-gray-700">Both <strong>January and April sessions</strong> of the same year count as <strong>one attempt</strong>.</p>
                   <p className="text-gray-700"><strong>Example:</strong> A student passing Class 12 in 2024 can appear in <strong>2024, 2025, and 2026</strong> (6 total sessions).</p>
                   <p className="text-gray-700">Gap years are acceptable as long as they are within the <strong>3-year continuous limit</strong>.</p>
-                </div>
+                  </div>
               </div>
             </div>
 
@@ -1739,7 +1739,7 @@ export default function JEEMainPage() {
                     <p className="text-gray-700 text-sm">These marks are required <strong>only for admission</strong>, not for appearing in the exam.</p>
                     <p className="text-gray-700 text-sm">Candidates under reserved categories must submit valid <strong>certificates during counselling</strong>.</p>
                     <p className="text-gray-700 text-sm">Some institutes may have <strong>additional criteria</strong> for admission.</p>
-                  </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -1763,7 +1763,7 @@ export default function JEEMainPage() {
                     <p className="text-gray-700 text-sm">The <strong>state code</strong> depends on the <strong>state where the Class 12 board exam</strong> was taken.</p>
                     <p className="text-gray-700 text-sm">Indian students studying abroad must provide their <strong>permanent Indian address</strong>.</p>
                     <p className="text-gray-700 text-sm">Some institutions may require a <strong>state domicile certificate</strong> for quota-based admissions.</p>
-                  </div>
+                    </div>
                 </div>
               </div>
             </div>
@@ -1789,8 +1789,8 @@ export default function JEEMainPage() {
                     <p className="text-gray-700 text-sm"><strong>Aadhaar</strong> or any valid <strong>government-issued ID</strong></p>
                     <p className="text-gray-700 text-sm"><strong>Original Class 12 mark sheets</strong> and <strong>percentile proof</strong></p>
                     <p className="text-gray-700 text-sm"><strong>Self-declaration certificate</strong> for candidates under the transgender category</p>
-                  </div>
-                </div>
+                    </div>
+                    </div>
               </div>
             </div>
 
@@ -1850,7 +1850,7 @@ export default function JEEMainPage() {
                   <p className="text-gray-700">Clear rules now prevent <strong>multiple or unclear entries</strong> during registration.</p>
                   <p className="text-gray-700">Eligibility rules for <strong>diploma holders</strong> are now clearly defined.</p>
                   <p className="text-gray-700">Greater importance placed on <strong>accurate state code selection</strong> as it affects <strong>quota and seat allotment</strong>.</p>
-                </div>
+                  </div>
               </div>
             </div>
 
@@ -1864,8 +1864,8 @@ export default function JEEMainPage() {
                   <p className="text-gray-700">It's essential to <strong>check NTA's official website regularly</strong> for updates.</p>
                   <p className="text-gray-700">Institutes may enforce <strong>stricter or additional rules</strong> beyond NTA guidelines.</p>
                   <p className="text-gray-700">Candidates must ensure their <strong>Aadhaar and category certificates</strong> are updated before registration.</p>
-                </div>
-              </div>
+                  </div>
+                  </div>
             </div>
           </div>
         );

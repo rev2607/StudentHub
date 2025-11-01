@@ -1,0 +1,643 @@
+{
+  "Name": "Amrita Vishwa Vidyapeetham (Coimbatore)",
+  "Location": {
+    "City": "Coimbatore",
+    "District": "Coimbatore",
+    "State": "Tamil Nadu",
+    "Country": "India",
+    "Pin": "641112",
+    "CampusAreaAcres": 400,
+    "Branches": [
+      {
+        "Name": "Coimbatore Main Campus",
+        "Location": "Ettimadai",
+        "Specialization": "Engineering, Business, Sciences"
+      },
+      {
+        "Name": "Coimbatore Extension Campus",
+        "Location": "Arasampalayam",
+        "Specialization": "Architecture, Agricultural Sciences, Arts & Humanities"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1994,
+    "OriginalName": "Amrita School of Engineering",
+    "Renamed": [
+      {
+        "Year": 2003,
+        "Name": "Amrita Vishwa Vidyapeetham"
+      }
+    ],
+    "HistoricalSignificance": "Founded by Mata Amritanandamayi (Amma), grew from 120 students to 30,000+ across 10 campuses. One of India's highest-ranked private multi-disciplinary universities with A++ NAAC accreditation."
+  },
+  "UniversityType": [
+    "Private Deemed University",
+    "Multi-campus University",
+    "Multi-disciplinary University"
+  ],
+  "About": {
+    "Overview": "A nationally top-ranked institute recognized for interdisciplinary research, rigorous academics, and deep industry engagement. The campus houses multiple Centers of Excellence and incubation facilities that support student startups from idea to scale. Undergraduate programs emphasize strong fundamentals while offering modern electives in AI/ML, data engineering, cybersecurity, and product design. Students benefit from project-based learning, competitive hackathons, and semester-long capstone projects mentored by faculty and industry practitioners.",
+    "StudentStrength": "Over 30,000 students including international nationals",
+    "MajorEvents": [
+      "Tech Festivals",
+      "Cultural Events",
+      "Research Symposiums",
+      "Industry-Academia Conclaves"
+    ],
+    "ResearchFocus": [
+      "Artificial Intelligence & Machine Learning",
+      "Cyber Security",
+      "Healthcare Technologies",
+      "Sustainable Development",
+      "Disaster Management",
+      "Humanitarian Technology",
+      "Nanosciences",
+      "Biotechnology"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "Top 50 globally in THE University Impact Rankings 2023",
+      "International research partnerships",
+      "Joint programs with global universities"
+    ],
+    "SocialInitiatives": [
+      "Live-in-Labs Program",
+      "Community Engagement",
+      "UNESCO Japan Prize for ESD",
+      "Value-based Education"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 18,
+      "Engineering": 23,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 18,
+      "Innovation": 0,
+      "University": 7,
+      "Medical": 8,
+      "Pharmacy": 13,
+      "Dental": 14
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": "",
+    "NAAC": "A++",
+    "THEImpact2023": "Top 50 globally for SDGs"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science & Engineering",
+          "Artificial Intelligence & Machine Learning",
+          "Data Science",
+          "Cyber Security",
+          "Electronics & Communication Engineering",
+          "Electrical & Electronics Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Biotechnology",
+          "Aerospace Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["AEEE", "JEE Main"],
+        "Seats": 0,
+        "FirstYearFeeINR": 600000,
+        "TotalFeesINRApprox": 2400000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["NATA", "AEEE"],
+        "Seats": 0,
+        "FirstYearFeeINR": 400000,
+        "TotalFeesINRApprox": 2000000
+      },
+      "BDes": {
+        "DurationYears": 4,
+        "Entrance": ["AEEE", "UCEED"],
+        "Seats": 0,
+        "FirstYearFeeINR": 300000,
+        "TotalFeesINRApprox": 1200000
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 30,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "AEEE"],
+        "FirstYearFeeINR": 250000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CEED"],
+        "SeatsVaries": true,
+        "FeeInformation": "Varies by specialization"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "MAT", "XAT", "Amrita Entrance"],
+        "Seats": 0,
+        "FirstYearFeeINR": 400000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Biotechnology",
+          "Life Sciences"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["GAT-B", "GATE"],
+        "FirstYearFeeINR": 150000,
+        "Seats": 0
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 27,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-NET",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 100000,
+        "SeatsMoreThan": 500
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 50000,
+      "Maximum": 80000,
+      "Note": "Excludes mess charges. Mess charges additional."
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "AEEE (Amrita Entrance Examination - Engineering) or JEE Main",
+        "Counseling": "CSAP (Centralized Seat Allotment Process)",
+        "AdditionalTestForBArch": "NATA"
+      },
+      "BDes": {
+        "Exam": "AEEE or UCEED",
+        "Counseling": "Centralized counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "Institute-based",
+        "AdditionalProcesses": "Interview for some specializations"
+      },
+      "MBA": {
+        "Exam": "CAT, MAT, XAT, or Amrita Entrance Test",
+        "AdditionalSelection": ["Group Discussion", "Personal Interview"]
+      }
+    },
+    "MSc": {
+      "Exam": ["GAT-B", "GATE"]
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-NET", "Interview"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Departmental selection process"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["GRE", "TOEFL"],
+      "AdditionalProcess": "Credential verification"
+    },
+    "ReservationPolicy": "As per State and Central Government norms for SC, ST, OBC, EWS, PwD",
+    "ApplicationMode": "Online through AEEE portal or official website"
+  },
+  "CutoffInformation": {
+    "AEEE2025": {
+      "BTechCSECoimbatoreHome": "92-99%",
+      "BTechCSECoimbatoreOther": "95-99.5%",
+      "BTechCSESpecializationHome": "89-96%",
+      "BTechCSESpecializationOther": "93-98%",
+      "ECECoimbatoreHome": "85-95%",
+      "ECECoimbatoreOther": "90-97%",
+      "EEECoimbatoreHome": "63-75%",
+      "EEECoimbatoreOther": "76-86%",
+      "MechanicalCoimbatoreHome": "50-65%",
+      "MechanicalCoimbatoreOther": "65-80%",
+      "OthersCoimbatoreHome": "40-55%",
+      "OthersCoimbatoreOther": "55-70%"
+    },
+    "NEET2025": {
+      "MBBSKochi": "Varies",
+      "MBBSFaridabad": "Varies"
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 85,
+      "OBCPercentile": 75,
+      "SCSTPercentileMin": 65
+    },
+    "AdditionalDetails": "Cutoffs vary by campus, category, and branch. AEEE percentiles and JEE Main scores both accepted."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 0,
+      "Recruiters": 120,
+      "HighestPackageINR": 56950000,
+      "HighestDomesticPackageINR": 56950000,
+      "OverallAveragePackageINR": 920000,
+      "CSEAveragePackageINR": 1200000,
+      "ECEAveragePackageINR": 1000000,
+      "MBA median package INR": 760000,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "Amazon",
+        "Wipro",
+        "Dell",
+        "Samsung",
+        "Tech Mahindra",
+        "TCS",
+        "Infosys",
+        "Adani",
+        "IBM",
+        "Cognizant",
+        "Accenture",
+        "Deloitte",
+        "Microsoft",
+        "Oracle",
+        "Intel"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Science",
+        "Research and Development",
+        "Consulting",
+        "Analytics",
+        "Hardware Design",
+        "Management",
+        "Product Management"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects",
+        "Placement training programs"
+      ],
+      "MBAStats": {
+        "PlacementRate": "100%",
+        "HighestPackageINR": 24840000,
+        "AveragePackageINR": 833000,
+        "MedianPackageINR": 760000,
+        "Top20AverageINR": 11850000,
+        "Recruiters": 115
+      }
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 8,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Sports Facilities",
+        "Yoga Facilities",
+        "24/7 Security",
+        "Medical Dispensary",
+        "Recreation Areas"
+      ],
+      "Capacity": 5000
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 81000,
+      "BookCount": 58103,
+      "EJournalsCount": 3000,
+      "Features": [
+        "Digital resources",
+        "E-journals",
+        "Research databases",
+        "Group study zones",
+        "Reading halls",
+        "Online catalog"
+      ],
+      "Periodicals": 377
+    },
+    "Laboratories": {
+      "Quantity": 50,
+      "FocusAreas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Cyber Security",
+        "VLSI Design",
+        "Internet of Things",
+        "Nanotechnology",
+        "Biotechnology",
+        "Robotics",
+        "Renewable Energy"
+      ],
+      "Equipment": [
+        "Advanced Computing Systems",
+        "3D Printing",
+        "Advanced Sensors",
+        "Prototype Devices",
+        "Research Equipment"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Olympic-size Swimming Pool",
+        "Basketball Courts",
+        "Badminton Courts",
+        "Cricket Ground",
+        "Football Ground",
+        "Tennis Courts",
+        "Volleyball Courts",
+        "Athletics Track",
+        "Indoor Games",
+        "Yoga Center",
+        "Gymnasium"
+      ],
+      "AreaSqM": 22000
+    },
+    "Medical": {
+      "FacilityName": "24x7 Medical Dispensary",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Specialist Consultations",
+        "Ambulance Services",
+        "Pharmacy",
+        "10 Bed Facility"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Central Kitchen",
+        "Vegetarian Mess",
+        "Night Cafeterias",
+        "Food Courts",
+        "Snack Bars"
+      ],
+      "Services": [
+        "Pure vegetarian food",
+        "Daily menu rotation",
+        "Dietary options",
+        "Hygiene controlled"
+      ],
+      "Policy": "Pure vegetarian across all campuses"
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Banks and ATMs",
+      "Post Office",
+      "Bookstores",
+      "Guest Houses",
+      "Power Backup (1660 KVA)",
+      "Uninterrupted Water Supply",
+      "Wi-Fi Campus",
+      "24/7 Security",
+      "Campus Shuttle Services",
+      "Parking"
+    ],
+    "StudentClubs": {
+      "Number": 40,
+      "Types": [
+        "Technical (Robotics, Coding, AI/ML)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Social Service",
+        "Sports",
+        "Research"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 19,
+    "DepartmentsList": [
+      "Computer Science & Engineering",
+      "Electronics & Communication Engineering",
+      "Electrical & Electronics Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Chemical Engineering",
+      "Biotechnology",
+      "Aerospace Engineering",
+      "Mathematics",
+      "Physics",
+      "Chemistry",
+      "Management Studies",
+      "Architecture",
+      "Humanities & Social Sciences",
+      "Life Sciences",
+      "Physical Sciences",
+      "Arts & Humanities",
+      "Media & Communication",
+      "Agricultural Sciences"
+    ],
+    "ResearchCenters": [
+      "Artificial Intelligence & Machine Learning",
+      "Cyber Security",
+      "Healthcare Technologies",
+      "Sustainable Development",
+      "Disaster Management",
+      "Humanitarian Technology",
+      "Nanosciences",
+      "Biotechnology",
+      "Renewable Energy",
+      "Wireless Networks"
+    ],
+    "Strength": {
+      "FacultyCount": 2000,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Research organizations",
+      "Industry partners",
+      "Government agencies"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Sponsored research projects"
+    ],
+    "StudentFeedback": "Generally positive, with emphasis on value-based education and holistic development."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "AEEETopScorers": "Up to 100% fee waiver",
+      "JEEMainTopScorers": "Up to 100% fee waiver",
+      "Eligibility": "Based on entrance exam performance"
+    },
+    "EconomicallyWeakerSection": {
+      "SupportAvailable": true,
+      "Details": "Financial aid for deserving students"
+    },
+    "OtherScholarships": [
+      "State Government Scholarships",
+      "Sports Quota Concessions",
+      "Merit Scholarships",
+      "Need-based Scholarships"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Waiver",
+      "Cash Prizes",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Directorate of Admissions & Scholarships",
+      "Online application portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.4,
+    "CollegeDuniaReviewsCount": 1500,
+    "Careers360Rating": 4.3,
+    "Strengths": [
+      "Excellent placements",
+      "Value-based education",
+      "Highly qualified faculty",
+      "Green campus infrastructure",
+      "Research opportunities",
+      "Spiritual environment",
+      "Industry connections"
+    ],
+    "Weaknesses": [
+      "Strict rules and regulations",
+      "Vegetarian-only food policy",
+      "Remote campus location (some campuses)",
+      "Limited flexibility in some policies"
+    ],
+    "ReturnOnInvestment": "High"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India with emphasis on value-based living",
+    "CulturalTraditions": [
+      "Value education sessions",
+      "Community service activities",
+      "Meditation and spiritual practices",
+      "Live-in-Labs program"
+    ],
+    "Festivals": [
+      "Technical Festivals",
+      "Cultural Events",
+      "Sports Meets",
+      "Research Symposiums"
+    ],
+    "ClubsAndSocieties": [
+      "Technical Clubs",
+      "Cultural Clubs",
+      "Entrepreneurship Cell",
+      "Social Service",
+      "Sports Clubs",
+      "Research Groups"
+    ],
+    "OutdoorActivities": [
+      "Campus walks",
+      "Sports activities",
+      "Community engagement",
+      "Tree planting initiatives"
+    ],
+    "StudentGovernance": "Student councils and committees for various activities",
+    "WellbeingFacilities": [
+      "Yoga Studios",
+      "Gymnasiums",
+      "Recreation Areas",
+      "Medical Facilities"
+    ],
+    "Community": "Value-based community with emphasis on service, discipline, and spiritual growth",
+    "UniquePrograms": [
+      "Live-in-Labs - Mandatory village immersion program",
+      "Compassion-Driven Research",
+      "Education for Life philosophy"
+    ]
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1994,
+    "Founder": "Mata Amritanandamayi (Amma)",
+    "InitialFocus": "Engineering education in rural setting",
+    "Evolution": [
+      "1994: Amrita School of Engineering founded with 120 students",
+      "1998: Expansion to Medical education (Kochi)",
+      "2002: Multi-campus expansion (Bengaluru, Amritapuri)",
+      "2003: Deemed-to-be-University status",
+      "2017-2025: Expansion to 10 campuses across 6 states"
+    ],
+    "Legacy": "Pioneer in value-based education combining spiritual values with scientific rigor",
+    "Heritage": "Green campus development from barren land to lush 400-acre paradise"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Compassion-Driven Research",
+      "Sustainable Development",
+      "Disaster Management",
+      "Healthcare Technologies",
+      "AI & Machine Learning",
+      "Cyber Security",
+      "Humanitarian Technology",
+      "Climate Change Solutions"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Live-in-Labs program - UNESCO Japan Prize winner for ESD",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "DST, DRDO, DBT, ICMR",
+      "International organizations",
+      "Industry partners",
+      "Social sectors"
+    ],
+    "Incubator": {
+      "Name": "Amrita Technology Business Incubator (ATBI)",
+      "Focus": "Student startup incubation"
+    }
+  },
+  "OfficialContactInfo": {
+    "Address": "Amrita Vishwa Vidyapeetham, Ettimadai, Coimbatore - 641112, Tamil Nadu, India",
+    "Phone": "0422-2685000",
+    "Website": "www.amrita.edu",
+    "Emails": {
+      "Registrar": "registrar@amrita.edu",
+      "Admissions": "admissions@amrita.edu",
+      "PlacementCell": "placement@amrita.edu"
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "AEEE 2026 Registration",
+      "Date": "2025-09-01",
+      "Details": "Registration for Amrita Entrance Examination - Engineering opens"
+    },
+    {
+      "Event": "Placement Season 2024",
+      "Date": "2024-08-01",
+      "Details": "Highest package ₹56.95 LPA, Average ₹9.2 LPA"
+    },
+    {
+      "Event": "NIRF Rankings 2024",
+      "Date": "2024-06-05",
+      "Details": "Ranked 7th in University category, 23rd in Engineering"
+    }
+  ]
+}
+
+
+

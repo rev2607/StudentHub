@@ -1,0 +1,607 @@
+{
+  "Name": "Birla Institute of Technology and Science (BITS) Pilani",
+  "Location": {
+    "City": "Pilani",
+    "District": "Jhunjhunu",
+    "State": "Rajasthan",
+    "Country": "India",
+    "Pin": "333031",
+    "CampusAreaAcres": 328,
+    "Branches": [
+      {
+        "Name": "Pilani Campus",
+        "Location": "Pilani, Rajasthan"
+      },
+      {
+        "Name": "Goa Campus",
+        "Location": "Zuarinagar, South Goa",
+        "Specialization": "Coastal campus with same curriculum as Pilani"
+      },
+      {
+        "Name": "Hyderabad Campus",
+        "Location": "Jawahar Nagar, Shameerpet Mandal, Hyderabad",
+        "Specialization": "IT/Electronics hub with specialized ECE focus"
+      },
+      {
+        "Name": "Dubai Campus",
+        "Location": "Dubai, UAE",
+        "Focus": "International campus"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1929,
+    "OriginalName": "Intermediate College",
+    "Renamed": [
+      {
+        "Year": 1964,
+        "Name": "Birla Institute of Technology and Science (BITS) Pilani"
+      }
+    ],
+    "HistoricalSignificance": "India's first private institution to receive deemed university status (1964). Founded by Shri Ghanshyam Das Birla as an educational oasis in the desert town of Pilani, evolving from an intermediate college to premier technical university with innovative Practice School system."
+  },
+  "UniversityType": [
+    "Private Deemed University",
+    "Autonomous Institute",
+    "Multi-Disciplinary Technical University"
+  ],
+  "About": {
+    "Overview": "India's premier private deemed-to-be-university and top-ranked private engineering institution. Established in 1929 and granted deemed university status in 1964, BITS Pilani operates multiple campuses across India and Dubai, serving over 18,000 students with approximately 1,000+ faculty members. Known for innovative Practice School system, merit-based admissions through BITSAT, semester system with continuous evaluation, and strong industry linkages producing highly employable graduates.",
+    "StudentStrength": "Over 18,000 students across all campuses",
+    "MajorEvents": [
+      "APOGEE - Technical festival",
+      "OASIS - Cultural festival",
+      "BOSM - Sports festival",
+      "Practice School conclaves"
+    ],
+    "ResearchFocus": [
+      "Engineering Technologies",
+      "Computer Science and AI",
+      "Electronics and Communication",
+      "Pharmaceutical Sciences",
+      "Management Studies",
+      "Interdisciplinary Research"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "MIT, Boston (historical alliance)",
+      "Ford Foundation (support)",
+      "Various global universities"
+    ],
+    "SocialInitiatives": [
+      "Merit-based Scholarships (up to 100% fee waiver)",
+      "Need-based Financial Assistance",
+      "Practice School internships"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 18,
+      "Engineering": 11,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 18,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Electronics and Communication Engineering",
+          "Electrical and Electronics Engineering",
+          "Mechanical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Manufacturing Engineering",
+          "Biotechnology"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["BITSAT"],
+        "Seats": 2500,
+        "FirstYearFeeINR": 500000,
+        "TotalFeesINRApprox": 2200000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["BITSAT", "NATA"],
+        "Seats": 0,
+        "FirstYearFeeINR": 500000,
+        "TotalFeesINRApprox": 2500000
+      },
+      "BDes": {
+        "DurationYears": 4,
+        "Entrance": ["BITSAT"],
+        "Seats": 0,
+        "FirstYearFeeINR": 500000,
+        "TotalFeesINRApprox": 2000000
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 68,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "BITS Entrance"],
+        "FirstYearFeeINR": 200000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["GATE"],
+        "SeatsVaries": true,
+        "FeeInformation": "Varies by specialization"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "MAT", "XAT", "GMAT", "BITS Entrance"],
+        "Seats": 500,
+        "FirstYearFeeINR": 400000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Biological Sciences",
+          "Economics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["BITS Entrance"],
+        "Seats": 200,
+        "FirstYearFeeINR": 75000
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 27,
+        "Entrance": ["BITS Entrance", "GATE", "CSIR-NET", "UGC-NET"],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 50000,
+        "SeatsMoreThan": 836
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 90000,
+      "Maximum": 110000,
+      "Note": "Separate from tuition, includes hostel and mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "BITSAT",
+        "Counseling": "Online through BITS admission portal with iterations",
+        "AdditionalTestForBArch": "NATA"
+      },
+      "BDes": {
+        "Exam": "BITSAT",
+        "Counseling": "Online through BITS admission portal"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE or BITS Entrance",
+        "Counseling": "Online application",
+        "AdditionalProcesses": "Personal Interview mandatory"
+      },
+      "MBA": {
+        "Exam": "CAT/MAT/XAT/GMAT or BITS Entrance",
+        "AdditionalSelection": ["Group Discussion", "Personal Interview"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["BITS Entrance", "GATE", "CSIR-NET", "UGC-NET"],
+        "Selection": "Interview and research proposal assessment",
+        "AdditionalNotes": "Master's degree in relevant discipline required"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["Valid Passport", "Equivalence Certificate"],
+      "AdditionalProcess": "Student Visa application"
+    },
+    "ReservationPolicy": "Merit-based admissions with no caste, religion, or state-based reservations. Need-based scholarships available (up to 100% fee waiver for economically weaker meritorious students).",
+    "ApplicationMode": "Online through official BITS admission portal"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BITSAT2025": {
+      "BTechCSEClosingScore": "350-380+ (Pilani), 330-360+ (Goa/Hyderabad)",
+      "BTechECEClosingScore": "310-350",
+      "BTechMechClosingScore": "290-330",
+      "BTechCivilClosingScore": "270-310",
+      "Note": "BITSAT scores out of 450. Cutoffs vary by campus and iteration."
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": "Varies",
+      "OBCPercentile": "Varies",
+      "SCSTPercentileMin": "Varies"
+    },
+    "AdditionalDetails": "Admission based on BITSAT scores (out of 450) plus 12th standard marks. Formula: (BITSAT score/450 × 100) + (12th PCM percentage). Cutoffs decrease with each iteration during counseling."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 2458,
+      "Recruiters": 300,
+      "HighestPackageINR": 60750000,
+      "HighestDomesticPackageINR": 60750000,
+      "OverallAveragePackageINR": 3037000,
+      "CSEAveragePackageINR": 2400000,
+      "ECEAveragePackageINR": 2000000,
+      "MBA median package INR": 2000000,
+      "PPOs": 250,
+      "TopRecruiters": [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Adobe",
+        "Oracle",
+        "Intel",
+        "Qualcomm",
+        "Samsung",
+        "Nvidia",
+        "Apple",
+        "Uber",
+        "Flipkart",
+        "PayPal",
+        "Salesforce",
+        "VMware",
+        "SAP Labs",
+        "Cisco",
+        "Dell",
+        "IBM",
+        "Goldman Sachs",
+        "JP Morgan",
+        "Morgan Stanley",
+        "McKinsey & Company",
+        "BCG",
+        "Bain & Company",
+        "Deloitte",
+        "PwC",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL",
+        "Tech Mahindra",
+        "Cognizant"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Scientist",
+        "Machine Learning Engineer",
+        "Product Manager",
+        "Business Analyst",
+        "Management Consultant",
+        "Financial Analyst",
+        "Investment Banking Analyst",
+        "Full Stack Developer",
+        "Backend/Frontend Developer",
+        "DevOps Engineer",
+        "System Design Engineer",
+        "R&D Engineer"
+      ],
+      "PlacementPreparation": [
+        "Practice School internships",
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 14,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "LAN connectivity",
+        "Fully furnished rooms",
+        "Solar water heating",
+        "Mess Halls",
+        "Common Rooms",
+        "Cable TV",
+        "Telephone",
+        "Laundry Services",
+        "24x7 Security"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 0,
+      "EJournalsCount": 0,
+      "Features": [
+        "Capacity for 8,000 students",
+        "738 open access study places",
+        "246 IT workstations",
+        "Digital resources",
+        "E-books and E-journals",
+        "Online catalogue",
+        "24x7 access"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 200,
+      "FocusAreas": [
+        "Computer Science",
+        "Electronics",
+        "Electrical Engineering",
+        "Mechanical Engineering",
+        "Civil Engineering",
+        "Chemical Engineering",
+        "Biotechnology",
+        "Physics",
+        "Chemistry",
+        "Microbiology",
+        "Genetic Engineering"
+      ],
+      "Equipment": [
+        "State-of-the-art instruments",
+        "Advanced computing facilities",
+        "Prototype devices"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Olympic-sized Swimming Pool",
+        "Football Field",
+        "Hockey Ground",
+        "Cricket Pitch",
+        "Tennis Courts",
+        "Volleyball Courts",
+        "Basketball Courts",
+        "Badminton Courts",
+        "Table Tennis",
+        "Squash Courts",
+        "Athletics Track",
+        "Well-equipped Gymnasium",
+        "Weight Lifting gym"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Medical Facility",
+      "Services": [
+        "24x7 Medical Services",
+        "Doctors on campus",
+        "Hospital Facilities",
+        "First Aid",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Hostel Messes",
+        "Food Courts",
+        "Cafeterias"
+      ],
+      "Services": [
+        "Varied menu",
+        "Hygienic food preparation",
+        "Vegetarian and non-vegetarian options"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Banks and ATMs",
+      "Post Office",
+      "Bookstores",
+      "Guest Houses",
+      "Campus Shuttle Buses",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 50,
+      "Types": [
+        "Technical (Robotics, Formula Student, Drones)",
+        "Cultural (Music, Dance, Drama, Literature)",
+        "Entrepreneurship",
+        "Social Service (NSS, NCC)"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "Strength": {
+      "FacultyCount": 1000,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "DepartmentsCount": 23,
+    "DepartmentsList": [
+      "Computer Science and Engineering",
+      "Electronics and Communication Engineering",
+      "Electrical and Electronics Engineering",
+      "Mechanical Engineering",
+      "Chemical Engineering",
+      "Civil Engineering",
+      "Biotechnology",
+      "Pharmacy",
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Biological Sciences",
+      "Management Studies",
+      "Economics & Finance",
+      "Humanities & Social Sciences"
+    ],
+    "ResearchCenters": [
+      "Centers of Excellence",
+      "Incubation Facilities",
+      "Innovation Labs"
+    ],
+    "Collaborations": [
+      "MIT (historical alliance)",
+      "Ford Foundation",
+      "Various global universities"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "Journal publications",
+      "Mentoring doctoral students"
+    ],
+    "StudentFeedback": "Generally positive, with emphasis on academic rigor and industry connections."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Merit-based Scholarships (75%, 50%, 25% fee waiver)",
+      "Need-based Scholarships (up to 100% fee waiver)",
+      "Performance-based Continuation Scholarships",
+      "Sports and Special Category Scholarships"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Partial Fee Waiver",
+      "Continuation based on CGPA"
+    ],
+    "Application": [
+      "BITS Admission Portal",
+      "Financial Aid Office"
+    ]
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "NIRF 2025 Rankings Released",
+      "Date": "2025",
+      "Details": "BITS Pilani ranked 11th in Engineering (jumped from 20th in 2024), making it top private engineering institution in India"
+    },
+    {
+      "Event": "Placement Season 2024-25",
+      "Details": "300+ companies visited, 2,458 students placed, highest package ₹60.75 LPA domestic, ₹1.25 Crore+ international"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.bits-pilani.ac.in",
+    "Address": "Birla Institute of Technology and Science, Pilani - 333031, Rajasthan, India",
+    "Phone": "01596-242090",
+    "Emails": {
+      "Registrar": "registrar@pilani.bits-pilani.ac.in",
+      "Admissions": "admissions@pilani.bits-pilani.ac.in",
+      "PlacementCell": "placement@pilani.bits-pilani.ac.in"
+    }
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.5,
+    "CollegeDuniaReviewsCount": 4500,
+    "Careers360Rating": 4.3,
+    "Strengths": [
+      "Top-ranked private engineering institution in India",
+      "Innovative Practice School system with industry integration",
+      "Merit-based admissions ensuring high-quality student cohort",
+      "Excellent placement record with 95%+ placement rate",
+      "Strong alumni network globally",
+      "Multiple campuses with consistent quality",
+      "Semester system with continuous evaluation",
+      "Strong industry linkages and PPO opportunities"
+    ],
+    "Weaknesses": [
+      "High fee structure compared to government institutions",
+      "No reservation system may limit diversity",
+      "Mandatory hostel accommodation",
+      "Rigorous academic workload"
+    ],
+    "ReturnOnInvestment": "Excellent ROI for top performers with premium placements. High fees offset by scholarships and strong placement outcomes averaging ₹30+ LPA."
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student community from across India and internationally, with over 18,000 students across all campuses.",
+    "CulturalTraditions": [
+      "Practice School culture",
+      "Merit-based community",
+      "Innovation-driven mindset"
+    ],
+    "Festivals": [
+      "APOGEE - Technical Festival",
+      "OASIS - Cultural Festival",
+      "BOSM - Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Technical Clubs",
+      "Cultural Clubs",
+      "Sports Clubs",
+      "Entrepreneurship Cell",
+      "Debate Society",
+      "Music Club",
+      "Dance Club",
+      "Photography Club"
+    ],
+    "OutdoorActivities": [
+      "Sports tournaments",
+      "Cultural events",
+      "Industry visits",
+      "Practice School internships"
+    ],
+    "StudentGovernance": "Student bodies manage messes, cultural events, and various campus activities.",
+    "WellbeingFacilities": [
+      "Medical facilities",
+      "Counseling services",
+      "Sports facilities",
+      "Recreation areas"
+    ],
+    "Community": "Vibrant community focused on academic excellence, innovation, and industry connections."
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1929,
+    "Founder": "Shri Ghanshyam Das Birla",
+    "InitialFocus": "Intermediate education in desert town of Pilani",
+    "Evolution": [
+      "1929: Intermediate College",
+      "1964: Deemed University Status - First private institution"
+    ],
+    "Legacy": "India's first private institution to receive deemed university status",
+    "Heritage": "Innovative Practice School system unique to BITS Pilani"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Computer Science and AI",
+      "Electronics and Communication",
+      "Engineering Technologies",
+      "Pharmaceutical Sciences",
+      "Management Studies",
+      "Interdisciplinary Research"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Practice School system for industry integration",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "MIT (historical alliance)",
+      "Ford Foundation",
+      "Various global universities"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": false
+    }
+  }
+}
+

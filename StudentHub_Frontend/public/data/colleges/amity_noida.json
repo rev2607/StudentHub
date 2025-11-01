@@ -1,0 +1,596 @@
+{
+  "Name": "Amity University, Noida (Amity University Uttar Pradesh)",
+  "Location": {
+    "City": "Noida",
+    "District": "Gautam Buddh Nagar",
+    "State": "Uttar Pradesh",
+    "Country": "India",
+    "Pin": "201313",
+    "CampusAreaAcres": 60,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Sector 125, Noida"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 2005,
+    "OriginalName": "Amity University Uttar Pradesh",
+    "Renamed": [],
+    "HistoricalSignificance": "India's first private university to implement reservations for students from disadvantaged backgrounds, setting a precedent for social inclusivity in private higher education. Founded by Ritnand Balved Education Foundation under visionary leadership of Dr. Ashok K. Chauhan."
+  },
+  "UniversityType": [
+    "Private University",
+    "State Private University",
+    "Multi-Disciplinary University"
+  ],
+  "About": {
+    "Overview": "Amity University, Noida stands as one of India's largest and most prominent private universities, representing the flagship institution of the vast Amity Education Group. Established on March 24, 2005, through the Amity University Uttar Pradesh Act, 2005, the university has grown exponentially to serve over 35,968 students with 2,287 academic staff members. Internationally recognized as among the top 3% of universities globally by QS and THE rankings, Amity offers programs across diverse disciplines including Engineering & Technology, Management, Law, Architecture, Behavioral & Allied Sciences, Communication, Biotechnology, Information Technology, Fine Arts, Liberal Arts, and numerous other fields at undergraduate, postgraduate, and doctoral levels.",
+    "StudentStrength": "Over 35,968 students (2019-2020 data)",
+    "MajorEvents": [
+      "Amity Youth Festival - Cultural extravaganza",
+      "Tech Fest - Technical competitions and exhibitions",
+      "Management Fest - Business competitions",
+      "Sports Meet - Inter-university championships"
+    ],
+    "ResearchFocus": [
+      "Engineering Technologies",
+      "Biotechnology and Life Sciences",
+      "Management and Social Sciences",
+      "Pharmaceutical Sciences",
+      "Nanotechnology",
+      "Environmental Sciences",
+      "Interdisciplinary Research"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "Dubai Campus",
+      "Singapore Campus",
+      "New York Campus (USA)",
+      "London Campus",
+      "Tashkent Campus (Uzbekistan)"
+    ],
+    "SocialInitiatives": [
+      "Reservations for SC/ST/OBC/EWS",
+      "Merit-based Scholarships",
+      "Amity Innovation Incubator",
+      "Community Service Programs"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 49,
+      "Engineering": 30,
+      "ArchitecturePlanning": 25
+    },
+    "NIRF2024": {
+      "Overall": 49,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "Top 3% globally",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Artificial Intelligence",
+          "Data Science",
+          "Information Technology",
+          "Electronics and Communication Engineering",
+          "Electrical & Electronics Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Aerospace Engineering",
+          "Biotechnology",
+          "Chemical Engineering",
+          "Automobile Engineering",
+          "Robotics",
+          "Cyber Security",
+          "Cloud Computing",
+          "Gaming Technology",
+          "Food Technology"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["Amity JEE", "JEE Main", "Personal Interview"],
+        "Seats": 5000,
+        "FirstYearFeeINR": 418000,
+        "TotalFeesINRApprox": 1672000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["Amity Entrance", "NATA"],
+        "Seats": 100,
+        "FirstYearFeeINR": 200000,
+        "TotalFeesINRApprox": 1000000
+      },
+      "BBA": {
+        "DurationYears": 3,
+        "Entrance": ["Personal Interview"],
+        "Seats": 500,
+        "FirstYearFeeINR": 485000,
+        "TotalFeesINRApprox": 1455000
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 25,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "Personal Interview"],
+        "FirstYearFeeINR": 168000,
+        "SeatsVaries": true
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "MAT", "NMAT", "XAT", "CMAT", "Amity Entrance", "Group Discussion", "Personal Interview"],
+        "Seats": 500,
+        "FirstYearFeeINR": 790000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Biotechnology",
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Microbiology",
+          "Genetics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["Amity Entrance", "Personal Interview"],
+        "FirstYearFeeINR": 150000,
+        "Seats": 200
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 27,
+        "Entrance": [
+          "Amity Entrance",
+          "Personal Interview",
+          "Research Proposal"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 100000,
+        "SeatsMoreThan": 836
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 120000,
+      "Maximum": 180000,
+      "Note": "Varies by room type (AC/Non-AC, Single/Shared)"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "Amity JEE or JEE Main",
+        "Counseling": "Online through Amity portal",
+        "AdditionalTestForBArch": "NATA"
+      },
+      "BBA": {
+        "Exam": "Personal Interview",
+        "Counseling": "Online application and interview"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE or Amity Entrance",
+        "Counseling": "Online application",
+        "AdditionalProcesses": "Personal Interview mandatory"
+      },
+      "MBA": {
+        "Exam": "CAT/MAT/NMAT/XAT/CMAT or Amity Entrance",
+        "AdditionalSelection": ["Group Discussion", "Personal Interview"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["Amity Entrance", "Research Proposal Evaluation"],
+        "Selection": "Interview and research proposal assessment",
+        "AdditionalNotes": "Master's degree in relevant discipline required"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["Valid Passport", "Equivalence Certificate"],
+      "AdditionalProcess": "Student Visa application"
+    },
+    "ReservationPolicy": "India's first private university to implement reservations: SC, ST, OBC, EWS as per government norms plus merit-based scholarships",
+    "ApplicationMode": "Online through official Amity admissions portal"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "AmityJEE2025": {
+      "BTechCSEClosingRank": "Varies annually",
+      "BBA": "Based on Personal Interview",
+      "Note": "Amity accepts JEE Main scores and conducts own entrance exam (Amity JEE)"
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": "Varies",
+      "OBCPercentile": "Varies",
+      "SCSTPercentileMin": "Varies"
+    },
+    "AdditionalDetails": "Admission based on entrance exam scores, academic record, and mandatory Personal Interview. CUET scores also accepted for certain programs."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 11000,
+      "Recruiters": 900,
+      "HighestPackageINR": 35900000,
+      "HighestDomesticPackageINR": 35900000,
+      "OverallAveragePackageINR": 960000,
+      "CSEAveragePackageINR": 630000,
+      "ECEAveragePackageINR": 850000,
+      "MBA median package INR": 735000,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "Aricent",
+        "Wipro",
+        "Igate",
+        "FORD",
+        "HeadStrong",
+        "Virtusa",
+        "Indus Valley",
+        "Zycus",
+        "NIIT Technologies",
+        "TCS",
+        "Infosys",
+        "HCL",
+        "Tech Mahindra",
+        "Cognizant",
+        "IBM"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Analyst",
+        "Business Analyst",
+        "Consultant",
+        "HR Executive",
+        "Marketing Executive",
+        "Operations Manager",
+        "Financial Analyst"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects",
+        "Guest lectures"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 10,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "AC and Non-AC rooms",
+        "Single and Shared occupancy",
+        "Mess Halls",
+        "Laundry Services",
+        "24x7 Security",
+        "CCTV Surveillance"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 200000,
+      "EJournalsCount": 5000,
+      "Features": [
+        "Digital resources",
+        "E-books and E-journals",
+        "Reference services",
+        "Reading halls",
+        "Inter-library loan"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 200,
+      "FocusAreas": [
+        "Computer Science",
+        "Electronics",
+        "Civil Engineering",
+        "Mechanical Engineering",
+        "Aerodynamics",
+        "Aircraft Structures",
+        "Nano Biotechnology",
+        "Recombinant DNA Technology",
+        "Chemistry",
+        "Physics"
+      ],
+      "Equipment": [
+        "State-of-the-art instruments",
+        "Advanced computing facilities",
+        "Prototype devices"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Basketball Courts",
+        "Football Ground",
+        "Tennis Courts",
+        "Swimming Pool",
+        "Squash Courts",
+        "Badminton Courts",
+        "Table Tennis",
+        "20-Lane Shooting Range",
+        "Horse Riding Academy",
+        "Well-equipped Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Hospital and Medical Facilities",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Doctors on campus",
+        "First Aid",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Café Coffee Day",
+        "Dosa Plaza",
+        "Subway",
+        "Domino's",
+        "Bikano",
+        "Mamma Mia",
+        "Mrs. Kaur Cookies",
+        "Wall Street Café"
+      ],
+      "Services": [
+        "Multiple cuisine options",
+        "North Indian, South Indian, Continental",
+        "Fast Food, Snacks, Beverages",
+        "Multiple locations across campus"
+      ]
+    },
+    "OtherAmenities": [
+      "Moot Court",
+      "Design Studios",
+      "Auditoriums",
+      "Music and Dance Rooms",
+      "Shuttle Bus Service",
+      "Wi-Fi enabled campus",
+      "Bank branches and ATMs",
+      "Convenience stores",
+      "Green spaces"
+    ],
+    "StudentClubs": {
+      "Number": 50,
+      "Types": [
+        "Technical Clubs",
+        "Cultural Clubs",
+        "Sports Clubs",
+        "Literary Clubs",
+        "Drama and Theatre",
+        "Music and Dance"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 15,
+    "DepartmentsList": [
+      "Amity School of Engineering & Technology (ASET)",
+      "Amity Business School (ABS)",
+      "Amity Law School",
+      "Amity School of Communication",
+      "Amity Institute of Biotechnology",
+      "Amity School of Architecture & Planning",
+      "Amity Institute of Behavioral & Allied Sciences",
+      "Amity School of Fine Arts",
+      "Amity Institute of Information Technology",
+      "Amity School of Liberal Arts",
+      "Amity Institute of Pharmacy",
+      "Amity Institute of Education",
+      "Amity School of Hotel Management",
+      "Amity Institute of Social Sciences",
+      "Amity Institute of Fashion Technology"
+    ],
+    "ResearchCenters": [
+      "Amity Innovation Incubator",
+      "Research Centers in niche areas",
+      "Doctoral programs across all disciplines"
+    ],
+    "Strength": {
+      "FacultyCount": 2287,
+      "PhDs": "Majority hold Ph.D. degrees",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "BSE Institute (2015)",
+      "900+ Corporate Partners",
+      "International Campuses",
+      "Industry Advisory Boards"
+    ],
+    "FacultyActivities": [
+      "Research publications",
+      "Conference participation",
+      "Industry consultancy",
+      "Mentoring students"
+    ],
+    "StudentFeedback": "Mixed reviews - some faculty highly praised for teaching quality, others receive criticism. Infrastructure support excellent."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "PartialWaiver": true
+    },
+    "MeritBased": {
+      "EntranceExamPerformance": "25% to 100% fee waiver",
+      "BoardExamPerformance": "Based on 12th marks",
+      "SportsQuota": "For state and national level athletes"
+    },
+    "ReservationBenefits": {
+      "SC": "Fee concessions available",
+      "ST": "Fee concessions available",
+      "OBC": "Fee concessions available",
+      "EWS": "Fee concessions available"
+    },
+    "ApplicationProcess": "Apply through Amity admissions portal, scholarships automatically considered based on eligibility"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 0,
+      "OBCPercentile": 0,
+      "SCSTPercentileMin": 0
+    },
+    "AdditionalDetails": "Amity accepts JEE Main scores and conducts own entrance exam. Admission based on entrance scores, academic record, and mandatory Personal Interview."
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student body with over 35,968 students from across India and internationally",
+    "CulturalTraditions": [
+      "Amity Youth Festival",
+      "Cultural events and fests",
+      "Inter-university competitions"
+    ],
+    "Festivals": [
+      "Amity Youth Festival - Cultural extravaganza",
+      "Tech Fest",
+      "Management Fest",
+      "Sports Meet"
+    ],
+    "ClubsAndSocieties": [
+      "Technical societies",
+      "Cultural clubs",
+      "Sports clubs",
+      "Literary clubs",
+      "Drama and theatre",
+      "Music and dance"
+    ],
+    "OutdoorActivities": [
+      "Sports competitions",
+      "Horse riding",
+      "Shooting range activities",
+      "Swimming",
+      "Gymnasium"
+    ],
+    "StudentGovernance": "Active student participation in clubs and societies",
+    "WellbeingFacilities": [
+      "Hospital and medical facilities",
+      "24x7 security",
+      "Counseling services",
+      "Recreational facilities"
+    ],
+    "Community": "Vibrant campus life with diverse student body, cultural events, and active participation in clubs and societies"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 2005,
+    "Founder": "Dr. Ashok K. Chauhan (Founder President) with Shri Atul Chauhan as Chancellor",
+    "InitialFocus": "Engineering & Technology, Management, Law, and Communication",
+    "Evolution": [
+      "2005: Established as Amity University Uttar Pradesh",
+      "2005-2011: Rapid expansion to 80,000+ students across 240 programs",
+      "2016: International expansion with New York Campus",
+      "2024: Ranked 32nd among all universities in India by NIRF"
+    ],
+    "Legacy": "India's first private university to implement reservations and merit-based scholarships, setting precedent for social inclusivity in private higher education",
+    "Heritage": "Founded by Ritnand Balved Education Foundation with vision of 'Professional Excellence With Human Values'"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Engineering Technologies",
+      "Biotechnology and Life Sciences",
+      "Management and Social Sciences",
+      "Pharmaceutical Sciences",
+      "Nanotechnology",
+      "Environmental Sciences",
+      "Interdisciplinary Research"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Amity Innovation Incubator supporting student and faculty startups",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Industry partnerships with 900+ companies",
+      "International campuses for research collaboration",
+      "BSE Institute partnership for Global Financial Markets MBA"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": false
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "NIRF 2024 Rankings Released",
+      "Date": "2024",
+      "Details": "Amity ranked 32nd among all universities, 49th overall, 30th in Engineering"
+    },
+    {
+      "Event": "Placement Season 2024",
+      "Details": "900+ companies visited campus, 11,000+ placements in 2021-22"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.amity.edu/noida",
+    "Address": "Amity University Uttar Pradesh, Sector 125, Noida - 201313, Uttar Pradesh, India",
+    "Phone": "Check official website for department-specific contacts",
+    "Emails": {
+      "Registrar": "Available through official website contact forms",
+      "Admissions": "admissions@amity.edu",
+      "PlacementCell": "Available through official website"
+    }
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.2,
+    "CollegeDuniaReviewsCount": 3200,
+    "Careers360Rating": 4.0,
+    "Strengths": [
+      "World-class infrastructure and modern facilities",
+      "Good placement opportunities with 900+ companies",
+      "Vibrant campus life with cultural events and clubs",
+      "Amity brand recognition helps in job market",
+      "Noida location in NCR provides proximity to Delhi and corporate hubs",
+      "First private university with reservations and scholarships",
+      "Diverse program offerings (240+ programs)",
+      "International campuses for global exposure"
+    ],
+    "Weaknesses": [
+      "High fee structure compared to government institutions",
+      "Mixed reviews on teaching quality - varies across departments",
+      "Gap between advertised highest packages and actual median packages",
+      "Large student population can lead to infrastructure strain",
+      "Strict attendance requirements seen as excessive by some students"
+    ],
+    "ReturnOnInvestment": "Good ROI for top performers with premium placements, but median packages indicate need for improvement in broadly distributed outcomes"
+  }
+}
+

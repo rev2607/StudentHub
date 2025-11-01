@@ -346,10 +346,220 @@ export const loadIITRoorkeeData = async (): Promise<IITRoorkeeData> => {
   }
 };
 
+// Amity University data uses the same interface structure
+export type AmityNoidaData = IITRoorkeeData;
+
+// BITS Pilani data uses the same interface structure
+export type BITSPilaniData = IITRoorkeeData;
+
+// SRM data uses the same interface structure
+export type SRMData = IITRoorkeeData;
+
+// Thapar data uses the same interface structure
+export type ThaparData = IITRoorkeeData;
+
+// Amrita Coimbatore data uses the same interface structure
+export type AmritaCoimbatoreData = IITRoorkeeData;
+
+// Function to load Amity University Noida data
+export const loadAmityNoidaData = async (): Promise<AmityNoidaData> => {
+  try {
+    const response = await fetch('/data/colleges/amity_noida.json');
+    if (!response.ok) {
+      throw new Error('Failed to load Amity University Noida data');
+    }
+    const data = await response.json();
+    return data as AmityNoidaData;
+  } catch (error) {
+    console.error('Error loading Amity University Noida data:', error);
+    throw error;
+  }
+};
+
+// Function to load BITS Pilani data
+export const loadBITSPilaniData = async (): Promise<BITSPilaniData> => {
+  try {
+    const response = await fetch('/data/colleges/bits_pilani.json');
+    if (!response.ok) {
+      throw new Error('Failed to load BITS Pilani data');
+    }
+    const data = await response.json();
+    return data as BITSPilaniData;
+  } catch (error) {
+    console.error('Error loading BITS Pilani data:', error);
+    throw error;
+  }
+};
+
+// Function to load SRM data
+export const loadSRMData = async (): Promise<SRMData> => {
+  try {
+    const response = await fetch('/data/colleges/srm.json');
+    if (!response.ok) {
+      throw new Error('Failed to load SRM data');
+    }
+    const data = await response.json();
+    return data as SRMData;
+  } catch (error) {
+    console.error('Error loading SRM data:', error);
+    throw error;
+  }
+};
+
+// Function to load Thapar data
+export const loadThaparData = async (): Promise<ThaparData> => {
+  try {
+    const response = await fetch('/data/colleges/thapar.json');
+    if (!response.ok) {
+      throw new Error('Failed to load Thapar data');
+    }
+    const data = await response.json();
+    return data as ThaparData;
+  } catch (error) {
+    console.error('Error loading Thapar data:', error);
+    throw error;
+  }
+};
+
+// Function to load Amrita Coimbatore data
+export const loadAmritaCoimbatoreData = async (): Promise<AmritaCoimbatoreData> => {
+  try {
+    const response = await fetch('/data/colleges/amrita_coimbatore.json');
+    if (!response.ok) {
+      throw new Error('Failed to load Amrita Coimbatore data');
+    }
+    const data = await response.json();
+    return data as AmritaCoimbatoreData;
+  } catch (error) {
+    console.error('Error loading Amrita Coimbatore data:', error);
+    throw error;
+  }
+};
+
+// SOA data uses the same interface structure
+export type SOAData = IITRoorkeeData;
+
+// Function to load SOA data
+export const loadSOAData = async (): Promise<SOAData> => {
+  try {
+    const response = await fetch('/data/colleges/soa_bhubaneswar.json');
+    if (!response.ok) {
+      throw new Error('Failed to load SOA data');
+    }
+    const data = await response.json();
+    return data as SOAData;
+  } catch (error) {
+    console.error('Error loading SOA data:', error);
+    throw error;
+  }
+};
+
+// Chandigarh University data uses the same interface structure
+export type ChandigarhUniversityData = IITRoorkeeData;
+
+// Function to load Chandigarh University data
+export const loadChandigarhUniversityData = async (): Promise<ChandigarhUniversityData> => {
+  try {
+    const response = await fetch('/data/colleges/chandigarh_university.json');
+    if (!response.ok) {
+      throw new Error('Failed to load Chandigarh University data');
+    }
+    const data = await response.json();
+    return data as ChandigarhUniversityData;
+  } catch (error) {
+    console.error('Error loading Chandigarh University data:', error);
+    throw error;
+  }
+};
+
+// KL University data uses the same interface structure
+export type KLUniversityData = IITRoorkeeData;
+
+// Function to load KL University data
+export const loadKLUniversityData = async (): Promise<KLUniversityData> => {
+  try {
+    const response = await fetch('/data/colleges/kl_university.json');
+    if (!response.ok) {
+      throw new Error('Failed to load KL University data');
+    }
+    const data = await response.json();
+    return data as KLUniversityData;
+  } catch (error) {
+    console.error('Error loading KL University data:', error);
+    throw error;
+  }
+};
+
+// Kalasalingam Academy data uses the same interface structure
+export type KalasalingamAcademyData = IITRoorkeeData;
+
+// Function to load Kalasalingam Academy data
+export const loadKalasalingamAcademyData = async (): Promise<KalasalingamAcademyData> => {
+  try {
+    const response = await fetch('/data/colleges/kalasalingam_academy.json');
+    if (!response.ok) {
+      throw new Error('Failed to load Kalasalingam Academy data');
+    }
+    const data = await response.json();
+    return data as KalasalingamAcademyData;
+  } catch (error) {
+    console.error('Error loading Kalasalingam Academy data:', error);
+    throw error;
+  }
+};
+
+// VIT Vellore data uses the same interface structure
+export type VitVelloreData = IITRoorkeeData;
+
+// Function to load VIT Vellore data
+export const loadVitVelloreData = async (): Promise<VitVelloreData> => {
+  try {
+    const response = await fetch('/data/colleges/vit_vellore.json');
+    if (!response.ok) {
+      throw new Error('Failed to load VIT Vellore data');
+    }
+    const data = await response.json();
+    return data as VitVelloreData;
+  } catch (error) {
+    console.error('Error loading VIT Vellore data:', error);
+    throw error;
+  }
+};
+
 // Function to get college data by slug
 export const getCollegeDataBySlug = async (slug: string): Promise<IITRoorkeeData | null> => {
   if (slug === 'iit-roorkee') {
     return await loadIITRoorkeeData();
+  }
+  if (slug === 'amity-noida') {
+    return await loadAmityNoidaData();
+  }
+  if (slug === 'bits-pilani') {
+    return await loadBITSPilaniData();
+  }
+  if (slug === 'srm' || slug === 'srmist') {
+    return await loadSRMData();
+  }
+  if (slug === 'thapar' || slug === 'tiet') {
+    return await loadThaparData();
+  }
+  if (slug === 'amrita-coimbatore' || slug === 'amrita') {
+    return await loadAmritaCoimbatoreData();
+  }
+  if (slug === 'soa-bhubaneswar' || slug === 'soa') {
+    return await loadSOAData();
+  }
+  if (slug === 'chandigarh-university' || slug === 'cu') {
+    return await loadChandigarhUniversityData();
+  }
+  if (slug === 'kl-university' || slug === 'klef' || slug === 'klu') {
+    return await loadKLUniversityData();
+  }
+  if (slug === 'kalasalingam' || slug === 'kalasalingam-academy' || slug === 'kare') {
+    return await loadKalasalingamAcademyData();
+  }
+  if (slug === 'vit-vellore' || slug === 'vit') {
+    return await loadVitVelloreData();
   }
   return null;
 };
