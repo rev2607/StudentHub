@@ -1,0 +1,616 @@
+{
+  "Name": "Indian Institute of Technology Bombay (IIT Bombay)",
+  "Location": {
+    "City": "Mumbai",
+    "District": "Mumbai",
+    "State": "Maharashtra",
+    "Country": "India",
+    "Pin": "400076",
+    "CampusAreaAcres": 550,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Powai, Mumbai"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1958,
+    "OriginalName": "Indian Institute of Technology Bombay",
+    "Renamed": [],
+    "HistoricalSignificance": "Second IIT established with Indo-Soviet collaboration, founded under the collaborative agreement between India and the Soviet Union."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance",
+    "Institute of Eminence"
+  ],
+  "About": {
+    "Overview": "IIT Bombay stands as India's second IIT and one of the most prestigious institutions of higher technical education globally. Located in Powai, Mumbai, spanning over 550 acres of lush green campus beside the scenic Powai Lake, the institute represents excellence in engineering education, research, and innovation.",
+    "StudentStrength": "Over 10,000 students including international nationals",
+    "MajorEvents": [
+      "Mood Indigo - Asia's largest college cultural festival",
+      "Techfest - Technical festival",
+      "Sports competitions"
+    ],
+    "ResearchFocus": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Sustainable Energy",
+      "Healthcare Informatics",
+      "Electric Mobility",
+      "Innovation and Entrepreneurship"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "Tohoku University",
+      "Rolls-Royce",
+      "John Cockerill",
+      "IE University",
+      "Monash University"
+    ],
+    "SocialInitiatives": [
+      "CTARA for rural development",
+      "Environmental conservation",
+      "Healthcare accessibility",
+      "Educational outreach"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 3,
+      "Engineering": 3,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 3,
+      "Innovation": 0
+    },
+    "QSWorld2026": 149,
+    "QSAsia2025": 40,
+    "IndiaTodayEngineering2024": 2,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Electrical Engineering",
+          "Mechanical Engineering",
+          "Aerospace Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Metallurgical Engineering and Materials Science",
+          "Engineering Physics",
+          "Environmental Science and Engineering",
+          "Energy Science and Engineering",
+          "Biological Sciences and Bioengineering",
+          "Data Science and Artificial Intelligence",
+          "Mathematics and Computing"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Advanced", "JoSAA counseling"],
+        "Seats": 1200,
+        "FirstYearFeeINR": 230000,
+        "TotalFeesINRApprox": 920000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 4,
+        "Entrance": ["UCEED"],
+        "Seats": 15,
+        "FirstYearFeeINR": 230000,
+        "TotalFeesINRApprox": 920000
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 50,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "COAP"],
+        "FirstYearFeeINR": 66700,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["CEED"],
+        "SeatsVaries": true,
+        "FeeInformation": "₹66,700/year"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "PI"],
+        "Seats": 120,
+        "FirstYearFeeINR": 433000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Economics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["IIT JAM"],
+        "FirstYearFeeINR": 78600,
+        "Seats": 200
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 50,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 44000,
+        "SeatsMoreThan": 1200
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 78800,
+      "Maximum": 80000,
+      "Note": "Includes hostel and mess charges per semester approximately ₹39,400"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Advanced",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": "Not applicable"
+      },
+      "BDes": {
+        "Exam": "UCEED",
+        "Counseling": "Centralized counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "COAP",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["Written Ability Test", "Group Discussion", "Personal Interview"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main", "JEE Advanced"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 66,
+      "DataScienceAIClosingAIR": 100,
+      "ECEClosingAIR": 400,
+      "MechEngClosingAIR": 1500,
+      "ElectEngClosingAIR": 285,
+      "CivilEngClosingAIR": 3000
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 94,
+      "OBCPercentile": 85,
+      "SCSTPercentileMin": 75
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories with multiple rounds of seat allotment for JEE Advanced."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 1500,
+      "Recruiters": 300,
+      "HighestPackageINR": 500000000,
+      "HighestDomesticPackageINR": 500000000,
+      "OverallAveragePackageINR": 2500000,
+      "CSEAveragePackageINR": 3500000,
+      "ECEAveragePackageINR": 3000000,
+      "MBA median package INR": 2000000,
+      "PPOs": 280,
+      "TopRecruiters": [
+        "Jane Street",
+        "Two Sigma",
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Goldman Sachs",
+        "Qualcomm",
+        "Texas Instruments",
+        "Intel",
+        "Apple",
+        "Tower Research",
+        "McKinsey & Company",
+        "Boston Consulting Group",
+        "American Express",
+        "JP Morgan",
+        "Morgan Stanley"
+      ],
+      "JobProfiles": [
+        "Quantitative Trader",
+        "Software Development Engineer",
+        "Data Science",
+        "Research and Development",
+        "Consulting",
+        "Analytics",
+        "Hardware Design",
+        "Management"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects",
+        "Group discussions"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 18,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Rooms",
+        "Water Purifiers"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 240000,
+      "EJournalsCount": 118925,
+      "Features": [
+        "Digital resources",
+        "24/7 access",
+        "Group study zones",
+        "Computer terminals",
+        "Photocopying services"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 100,
+      "FocusAreas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Robotics",
+        "Nanotechnology",
+        "Biomedical Engineering",
+        "Aerospace",
+        "Materials Science",
+        "Sustainable Energy"
+      ],
+      "Equipment": [
+        "Sophisticated analytical instruments",
+        "Computational facilities",
+        "Research instrumentation"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Swimming Pool",
+        "Athletics Tracks",
+        "Indoor Stadium",
+        "Basketball",
+        "Tennis, Volleyball Courts",
+        "Football, Cricket Grounds",
+        "Badminton, Squash",
+        "Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "IIT Bombay Hospital",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Specialist Consultations",
+        "Ambulance Services",
+        "24x7 Ambulance"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Food Courts",
+        "Cafés"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Dietary options",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Convocation Hall",
+      "Banks and ATMs",
+      "Post Office",
+      "IIT Market",
+      "Printing Press",
+      "Staff Club",
+      "Student Activity Centre",
+      "Kendriya Vidyalaya",
+      "Parking",
+      "24/7 Security",
+      "InstiApp"
+    ],
+    "StudentClubs": {
+      "Number": 60,
+      "Types": [
+        "Technical (Robotics, Coding)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship (E-Cell)",
+        "Social Service",
+        "Film Club",
+        "Photography"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 17,
+    "DepartmentsList": [
+      "Aerospace Engineering",
+      "Biological Sciences and Bioengineering",
+      "Chemical Engineering",
+      "Chemistry",
+      "Civil Engineering",
+      "Computer Science and Engineering",
+      "Earth Sciences",
+      "Electrical Engineering",
+      "Energy Science and Engineering",
+      "Humanities and Social Sciences",
+      "Mathematics",
+      "Mechanical Engineering",
+      "Metallurgical Engineering and Materials Science",
+      "Physics",
+      "School of Management",
+      "IDC School of Design",
+      "Kanwal Rekhi School of Information Technology"
+    ],
+    "ResearchCenters": [
+      "Society for Innovation and Entrepreneurship (SINE)",
+      "Industrial Research and Consultancy Centre",
+      "35+ Centers of Excellence",
+      "Healthcare Informatics",
+      "Green Energy",
+      "AI and Electric Mobility"
+    ],
+    "Strength": {
+      "FacultyCount": 550,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "Tohoku University",
+      "Rolls-Royce",
+      "John Cockerill",
+      "IE University",
+      "Monash University"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry consultancy",
+      "Award winners and fellows"
+    ],
+    "StudentFeedback": "Highly knowledgeable faculty, excellent teaching quality"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Merit-cum-Means",
+      "SC/ST Full Tuition Fee Waiver",
+      "EWS Scholarships",
+      "GATE/NET Fellowships",
+      "Research Fellowships",
+      "Industry-sponsored Fellowships",
+      "National Scholarship Portal schemes"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Support",
+      "Monthly Stipends",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.8,
+    "CollegeDuniaReviewsCount": 3000,
+    "Careers360Rating": 4.9,
+    "Strengths": [
+      "Exceptional placements with top companies",
+      "World-class faculty and research",
+      "Excellent campus infrastructure",
+      "Vibrant cultural life with Mood Indigo",
+      "Strong industry connections",
+      "Number 3 ranking in India",
+      "QS World 149th"
+    ],
+    "Weaknesses": [
+      "Very competitive admissions",
+      "High academic pressure",
+      "Limited hostel availability"
+    ],
+    "ReturnOnInvestment": "Exceptional"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India and internationally",
+    "CulturalTraditions": [
+      "Mood Indigo traditions",
+      "Fresher's Welcome events",
+      "Regular informal gatherings",
+      "InstiApp for campus services"
+    ],
+    "Festivals": [
+      "Mood Indigo - Cultural Festival",
+      "Techfest - Technical Festival",
+      "Sports competitions"
+    ],
+    "ClubsAndSocieties": [
+      "Robotics",
+      "Coding",
+      "Entrepreneurship Cell (E-Cell)",
+      "Literature & Debate",
+      "Music & Dance",
+      "Drama and Cinema",
+      "Film Club",
+      "Photography",
+      "Social Service"
+    ],
+    "OutdoorActivities": [
+      "Lakeside walks at Powai Lake",
+      "Campus exploration",
+      "Sports activities"
+    ],
+    "StudentGovernance": "Student representative bodies and governance",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Swimming Pools",
+      "Sports Facilities",
+      "Medical facilities",
+      "Student Activity Centre"
+    ],
+    "Community": "Inclusive ecosystem with cultural, linguistic diversity"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1958,
+    "Founder": "Prime Minister Jawaharlal Nehru with Soviet assistance",
+    "InitialFocus": "Engineering and technology education with Indo-Soviet collaboration",
+    "Evolution": [
+      "1958: Founded as second IIT",
+      "1959: Foundation stone laid by Jawaharlal Nehru",
+      "2019: Institute of Eminence status"
+    ],
+    "Legacy": "Pioneer in India's engineering education and technological innovation",
+    "Heritage": "550-acre campus beside Powai Lake with hills, green lung of Mumbai"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Sustainable Energy",
+      "Healthcare Informatics",
+      "Electric Mobility",
+      "Robotics and Automation",
+      "Nanotechnology",
+      "Biomedical Engineering"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Society for Innovation and Entrepreneurship (SINE), over 200 startups, Rs. 10 crore seed funding",
+    "Startups": {
+      "Number": 200,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "IIT Bombay PhD Admissions 2025-26",
+      "Date": "2025-09-01",
+      "Details": "Admissions open for various departments"
+    },
+    {
+      "Event": "Mood Indigo 2025",
+      "StartDate": "2025-12-26",
+      "EndDate": "2025-12-29",
+      "Theme": "Asia's largest cultural festival"
+    },
+    {
+      "Event": "Techfest 2025",
+      "StartDate": "2025-01-16",
+      "EndDate": "2025-01-18",
+      "Theme": "Technical festival"
+    },
+    {
+      "Event": "CAT 2025 Registration",
+      "StartDate": "2025-08-01",
+      "EndDate": "2025-09-13"
+    },
+    {
+      "Event": "CAT 2025 Examination",
+      "Date": "2025-11-30"
+    },
+    {
+      "RecurringEvents": [
+        "Mood Indigo Cultural Fest (Annually)",
+        "Techfest Tech Fest (Annually)",
+        "Entrepreneurship summits"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.iitb.ac.in",
+    "Address": "Indian Institute of Technology Bombay, Powai, Mumbai, Maharashtra 400076, India",
+    "Phone": "+91 22 2572 2545",
+    "Emails": {
+      "Registrar": "registrar@iitb.ac.in",
+      "Admissions": "prao@iitb.ac.in",
+      "PlacementCell": "placement@iitb.ac.in"
+    }
+  }
+}
+

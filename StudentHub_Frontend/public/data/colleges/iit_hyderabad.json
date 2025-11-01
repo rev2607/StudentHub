@@ -1,0 +1,594 @@
+{
+  "Name": "Indian Institute of Technology Hyderabad (IIT Hyderabad)",
+  "Location": {
+    "City": "Sangareddy",
+    "District": "Sangareddy",
+    "State": "Telangana",
+    "Country": "India",
+    "Pin": "502284",
+    "CampusAreaAcres": 600,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Kandi village near Sangareddy"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 2008,
+    "OriginalName": "Indian Institute of Technology Hyderabad",
+    "Renamed": [],
+    "HistoricalSignificance": "Established with Indo-Japanese collaboration, founded to expand IIT system across India. Located in former World War II detention camp."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance",
+    "Institute of Eminence"
+  ],
+  "About": {
+    "Overview": "IIT Hyderabad stands as one of India's youngest yet fastest-growing premier institutions of higher technical education. Founded through the Institutes of Technology (Amendment) Act 2011, IIT Hyderabad represents a new generation of IITs established to expand access to quality technical education across India.",
+    "StudentStrength": "Over 3,000-4,000 students with 250+ faculty members",
+    "MajorEvents": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports competitions"
+    ],
+    "ResearchFocus": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Quantum Computing",
+      "Nanotechnology",
+      "Biotechnology",
+      "Sustainable Energy",
+      "Climate Change",
+      "Innovation and Entrepreneurship"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "Government of Japan",
+      "International universities worldwide"
+    ],
+    "SocialInitiatives": [
+      "Community engagement",
+      "Environmental sustainability",
+      "Rural development"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 12,
+      "Engineering": 7,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 12,
+      "Innovation": 6
+    },
+    "QSWorld2026": 681,
+    "QSAsia2025": 320,
+    "IndiaTodayEngineering2024": 7,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Artificial Intelligence",
+          "Computer Science and Engineering",
+          "Electrical Engineering",
+          "Electronics and Communication Engineering",
+          "Mechanical Engineering",
+          "Aerospace Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Biomedical Engineering",
+          "Biotechnology",
+          "Materials Science and Metallurgical Engineering",
+          "Engineering Science",
+          "Engineering Physics"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Advanced", "JoSAA counseling"],
+        "Seats": 600,
+        "FirstYearFeeINR": 100000,
+        "TotalFeesINRApprox": 908000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 4,
+        "Entrance": ["UCEED"],
+        "Seats": 20,
+        "FirstYearFeeINR": 100000,
+        "TotalFeesINRApprox": 900000
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 18,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "COAP"],
+        "FirstYearFeeINR": 10000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["CEED"],
+        "SeatsVaries": true,
+        "FeeInformation": "₹5,000/semester"
+      },
+      "MBA": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["IIT JAM"],
+        "FirstYearFeeINR": 10000,
+        "Seats": 100
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 50,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "4-6",
+        "FeeINRPerYear": 5000,
+        "SeatsMoreThan": 500
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 220000,
+      "Maximum": 250000,
+      "Note": "Single occupancy rooms with radiant cooling systems"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Advanced",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": "Not applicable"
+      },
+      "BDes": {
+        "Exam": "UCEED",
+        "Counseling": "Centralized counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "COAP",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["Group Discussion", "Personal Interview"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main", "JEE Advanced"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 250,
+      "DataScienceAIClosingAIR": 450,
+      "ECEClosingAIR": 800,
+      "MechEngClosingAIR": 2100,
+      "ElectEngClosingAIR": 800,
+      "CivilEngClosingAIR": 5000
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 0,
+      "OBCPercentile": 0,
+      "SCSTPercentileMin": 0
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories. JEE Advanced 2025 allows maximum 3 attempts in 3 consecutive years."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 800,
+      "Recruiters": 200,
+      "HighestPackageINR": 400000000,
+      "HighestDomesticPackageINR": 400000000,
+      "OverallAveragePackageINR": 2200000,
+      "CSEAveragePackageINR": 3200000,
+      "ECEAveragePackageINR": 2700000,
+      "MBA median package INR": 0,
+      "PPOs": 150,
+      "TopRecruiters": [
+        "Jane Street",
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Goldman Sachs",
+        "De Shaw",
+        "Morgan Stanley",
+        "Qualcomm",
+        "Texas Instruments",
+        "Intel",
+        "Apple"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Scientist",
+        "Quantitative Analyst",
+        "Research and Development",
+        "Hardware Design",
+        "Consulting"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Technical seminars",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 10,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Single occupancy rooms",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Rooms",
+        "Radiant cooling systems"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 50000,
+      "EJournalsCount": 0,
+      "Features": [
+        "Digital resources",
+        "24/7 access",
+        "Group study zones",
+        "Computer terminals",
+        "Inter-library loan"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 100,
+      "FocusAreas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Quantum Computing",
+        "Nanotechnology",
+        "Biotechnology",
+        "Materials Science",
+        "Robotics",
+        "Clean Energy"
+      ],
+      "Equipment": [
+        "Sophisticated instrumentation",
+        "Computational facilities",
+        "Research instrumentation"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Swimming Pool",
+        "Athletics Tracks",
+        "Indoor Stadium",
+        "Basketball",
+        "Tennis, Badminton Courts",
+        "Football, Cricket Grounds",
+        "Gymnasium",
+        "Table Tennis",
+        "Tinker's Lab"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Medical Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Specialist Consultations",
+        "Ambulance Services",
+        "Mental Health Counseling"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Food Courts",
+        "Cafés",
+        "Campus Kitchen"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Regional cuisines",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Banks and ATMs",
+      "Post Office",
+      "Stationery Shops",
+      "Guest Houses",
+      "Places of Worship",
+      "Salon Services",
+      "Travel Desk",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 40,
+      "Types": [
+        "Technical (Robotics, Coding, AI/ML)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Social Service",
+        "Photography"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 12,
+    "DepartmentsList": [
+      "Artificial Intelligence",
+      "Biomedical Engineering",
+      "Biotechnology",
+      "Chemical Engineering",
+      "Chemistry",
+      "Civil Engineering",
+      "Climate Change",
+      "Computer Science and Engineering",
+      "Electrical Engineering",
+      "Liberal Arts",
+      "Materials Science and Metallurgical Engineering",
+      "Mathematics",
+      "Mechanical and Aerospace Engineering",
+      "Physics"
+    ],
+    "ResearchCenters": [
+      "14 specialized research centers",
+      "Nanotechnology facilities",
+      "Quantum computing labs"
+    ],
+    "Strength": {
+      "FacultyCount": 250,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "Government of Japan",
+      "International universities",
+      "Industry partners"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry consultancy"
+    ],
+    "StudentFeedback": "Highly knowledgeable faculty, excellent teaching quality"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Merit-cum-means scholarships",
+      "SC/ST Full Tuition Fee Waiver",
+      "Income-based fee concessions",
+      "GATE/NET Fellowships",
+      "Research Fellowships",
+      "Industry-sponsored Fellowships",
+      "National Scholarship Portal schemes"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Support",
+      "Monthly Stipends",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.5,
+    "CollegeDuniaReviewsCount": 1500,
+    "Careers360Rating": 4.6,
+    "Strengths": [
+      "Excellent placements",
+      "First dedicated AI department",
+      "Single occupancy hostels",
+      "Modern infrastructure",
+      "NIRF Engineering 7th rank",
+      "QS World 681-690"
+    ],
+    "Weaknesses": [
+      "Competitive admissions",
+      "Academic pressure",
+      "Remote location from Hyderabad"
+    ],
+    "ReturnOnInvestment": "Very High"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India and internationally",
+    "CulturalTraditions": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports competitions",
+      "Flexible hostel policies"
+    ],
+    "Festivals": [
+      "Technical Fest",
+      "Cultural Fest",
+      "Sports competitions"
+    ],
+    "ClubsAndSocieties": [
+      "Robotics",
+      "Coding",
+      "AI/ML",
+      "Entrepreneurship Cell",
+      "Music & Dance",
+      "Drama",
+      "Social Service",
+      "Photography"
+    ],
+    "OutdoorActivities": [
+      "Sports activities",
+      "Campus exploration"
+    ],
+    "StudentGovernance": "Student representative bodies",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Swimming Pools",
+      "Sports Facilities",
+      "Medical facilities",
+      "Counseling Services",
+      "Dance Room"
+    ],
+    "Community": "Close-knit residential community"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 2008,
+    "Founder": "Government of India with Indo-Japanese collaboration",
+    "InitialFocus": "Second-generation IIT to expand access to quality technical education",
+    "Evolution": [
+      "2008: First session at temporary campus (OFMK Yeddumailaram)",
+      "2007: Foundation stone laid by President Dr. A.P.J. Abdul Kalam",
+      "2011: Institutes of Technology (Amendment) Act passed in Lok Sabha",
+      "2012: Act passed in Rajya Sabha",
+      "2015: Moved to permanent campus at Kandi village"
+    ],
+    "Legacy": "Youngest yet fastest-growing IIT, first with dedicated AI department",
+    "Heritage": "600-acre eco-friendly campus with radiant cooling systems and Indo-Japanese architectural design"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Quantum Computing",
+      "Nanotechnology",
+      "Biotechnology",
+      "Sustainable Energy",
+      "Climate Change",
+      "Water Resources",
+      "Advanced Materials"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "First dedicated AI department in Indian IITs, NIRF Innovation 6th rank 2025, rapid research growth",
+    "Startups": {
+      "Number": 80,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions",
+      "DST, DBT, SERB, DRDO"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "IIT Hyderabad PhD Admissions 2025-26",
+      "Date": "2025-09-01",
+      "Details": "Admissions open for various departments"
+    },
+    {
+      "Event": "Technical Fest 2025",
+      "StartDate": "2025-02-15",
+      "EndDate": "2025-02-19",
+      "Theme": "Innovation and Technology"
+    },
+    {
+      "Event": "Cultural Fest 2025",
+      "StartDate": "2025-03-10",
+      "EndDate": "2025-03-14",
+      "Theme": "Celebrating Diversity"
+    },
+    {
+      "Event": "JEE Advanced 2025",
+      "Date": "2025-05-25"
+    },
+    {
+      "RecurringEvents": [
+        "Technical Fest (Annually)",
+        "Cultural Fest (Annually)",
+        "Sports competitions (Year-round)"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://iith.ac.in",
+    "Address": "Indian Institute of Technology Hyderabad, Kandi, Sangareddy, Telangana 502284, India",
+    "Phone": "+91 40 2301 6000",
+    "Emails": {
+      "Registrar": "registrar@iith.ac.in",
+      "Admissions": "admissions@iith.ac.in",
+      "PlacementCell": "placement@iith.ac.in"
+    }
+  }
+}
+

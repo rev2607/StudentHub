@@ -1,0 +1,605 @@
+{
+  "Name": "National Institute of Technology Tiruchirappalli (NIT Trichy)",
+  "Location": {
+    "City": "Tiruchirappalli",
+    "District": "Tiruchirappalli",
+    "State": "Tamil Nadu",
+    "Country": "India",
+    "Pin": "620015",
+    "CampusAreaAcres": 800,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Banks of river Cauvery, Tiruchirappalli"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1964,
+    "OriginalName": "Regional Engineering College Tiruchirappalli",
+    "Renamed": [
+      {
+        "Year": 2003,
+        "Name": "National Institute of Technology Tiruchirappalli"
+      }
+    ],
+    "HistoricalSignificance": "Founded as REC Tiruchirappalli in 1964, granted Deemed University status in 2003, declared Institution of National Importance in 2007. Ranked #1 among all NITs for 9 consecutive years."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "NIT Tiruchirappalli stands as one of India's premier technical institutions and the flagship among all 31 National Institutes of Technology. Ranked #1 among all NITs for 9 consecutive years and #9 among engineering colleges in India.",
+    "StudentStrength": "Over 7,000 students with 400+ faculty members",
+    "MajorEvents": [
+      "Pragyan - Technical Festival",
+      "Festember - Cultural Festival",
+      "Nittfest - Sports Festival"
+    ],
+    "ResearchFocus": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Big Data Analytics",
+      "VLSI Design",
+      "Robotics",
+      "Renewable Energy",
+      "Advanced Materials",
+      "Cyber Security"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities worldwide"
+    ],
+    "SocialInitiatives": [
+      "Community outreach programs",
+      "Rural development initiatives"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 31,
+      "Engineering": 9,
+      "ArchitecturePlanning": 8
+    },
+    "NIRF2024": {
+      "Overall": 31,
+      "Innovation": 0
+    },
+    "QSWorld2026": 731,
+    "QSAsia2025": 281,
+    "IndiaTodayEngineering2024": 9,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Electronics and Communication Engineering",
+          "Electrical and Electronics Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Metallurgical and Materials Engineering",
+          "Production Engineering",
+          "Instrumentation and Control Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA counseling"],
+        "Seats": 900,
+        "FirstYearFeeINR": 117500,
+        "TotalFeesINRApprox": 652000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["JEE Main Paper 2"],
+        "Seats": 40,
+        "FirstYearFeeINR": 25000,
+        "TotalFeesINRApprox": 110000
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 31,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "COAP"],
+        "FirstYearFeeINR": 130000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["GATE"],
+        "SeatsVaries": true,
+        "FeeInformation": "₹2-3 Lakhs"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "WAT", "GD", "PI"],
+        "Seats": 60,
+        "FirstYearFeeINR": 157500
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["JAM"],
+        "FirstYearFeeINR": 113000,
+        "Seats": 100
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 50,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-6",
+        "FeeINRPerYear": 50000,
+        "SeatsMoreThan": 500
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 50000,
+      "Maximum": 70000,
+      "Note": "Approximate hostel and mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main/JEE Main Paper 2",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": "Drawing Test"
+      },
+      "BDes": {
+        "Exam": "UCEED",
+        "Counseling": "Centralized counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "COAP",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["WAT", "GD", "PI"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 3000,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 5000,
+      "MechEngClosingAIR": 8000,
+      "ElectEngClosingAIR": 5000,
+      "CivilEngClosingAIR": 10000
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 85,
+      "OBCPercentile": 75,
+      "SCSTPercentileMin": 65
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories with six rounds of JoSAA counselling."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 1322,
+      "Recruiters": 286,
+      "HighestPackageINR": 5289000,
+      "HighestDomesticPackageINR": 5289000,
+      "OverallAveragePackageINR": 0,
+      "CSEAveragePackageINR": 2720000,
+      "ECEAveragePackageINR": 2300000,
+      "MBA median package INR": 870000,
+      "PPOs": 200,
+      "TopRecruiters": [
+        "Microsoft",
+        "Google",
+        "Amazon",
+        "Oracle",
+        "Intel",
+        "Samsung",
+        "Qualcomm",
+        "Adobe",
+        "IBM",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL",
+        "McKinsey & Company",
+        "BCG",
+        "Bain & Company",
+        "Deloitte",
+        "PwC",
+        "EY",
+        "Goldman Sachs",
+        "JP Morgan",
+        "L&T",
+        "Ashok Leyland"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Scientist",
+        "Business Analyst",
+        "Associate Product Manager",
+        "Consultant",
+        "Financial Analyst",
+        "R&D Engineer",
+        "Process Engineer"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Technical seminars",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 28,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Rooms",
+        "TV facilities"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 250000,
+      "EJournalsCount": 15000,
+      "Features": [
+        "Digital resources",
+        "24/7 access",
+        "Group study zones",
+        "Computer terminals",
+        "Inter-library loan",
+        "Reference assistance"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 150,
+      "FocusAreas": [
+        "VLSI Design",
+        "Advanced Materials",
+        "Robotics",
+        "Cybersecurity",
+        "Renewable Energy",
+        "Manufacturing",
+        "Communications"
+      ],
+      "Equipment": [
+        "State-of-the-art instruments",
+        "Advanced fabrication facilities",
+        "High-performance computing"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Cricket Ground",
+        "Football Ground",
+        "Tennis Courts",
+        "Basketball Courts",
+        "Volleyball Courts",
+        "Badminton Courts",
+        "Hockey Ground",
+        "Athletics Tracks",
+        "Swimming Pool",
+        "Indoor Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "NIT Trichy Hospital",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "24/7 doctor and nursing services",
+        "Pharmacy",
+        "Ambulance"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Food courts",
+        "Cafeterias"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Regional cuisines",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Guest Houses",
+      "Banks and ATMs",
+      "Post Office",
+      "Shopping Complex",
+      "Places of Worship",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 70,
+      "Types": [
+        "Technical (Robotics, Coding, IEEE, ACM)",
+        "Cultural (Music, Dance, Drama)",
+        "Film and Media",
+        "Entrepreneurship",
+        "Photography",
+        "Quizzing"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 17,
+    "DepartmentsList": [
+      "Civil Engineering",
+      "Computer Science and Engineering",
+      "Electrical and Electronics Engineering",
+      "Electronics and Communication Engineering",
+      "Mechanical Engineering",
+      "Chemical Engineering",
+      "Metallurgical and Materials Engineering",
+      "Production Engineering",
+      "Instrumentation and Control Engineering",
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Architecture Planning and Design",
+      "Humanities",
+      "Management Studies"
+    ],
+    "ResearchCenters": [
+      "Centre for Nanotechnology",
+      "Centre for Computational Sciences",
+      "Centre for Water Resources"
+    ],
+    "Strength": {
+      "FacultyCount": 400,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Government ministries",
+      "Private industries"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry consultancy"
+    ],
+    "StudentFeedback": "Highly knowledgeable faculty, excellent industry connections"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "SC/ST/PwD Fee Concessions",
+      "Income-based fee waivers",
+      "Merit-cum-means scholarships",
+      "GATE/NET Fellowships",
+      "Research Fellowships",
+      "National Scholarship Portal schemes"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Support",
+      "Monthly Stipends",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.6,
+    "CollegeDuniaReviewsCount": 2000,
+    "Careers360Rating": 4.7,
+    "Strengths": [
+      "#1 NIT for 9 consecutive years",
+      "Top 10 engineering college",
+      "Excellent placements",
+      "Strong industry connections",
+      "Best Industry-Linked NIT award",
+      "FICCI University of the Year"
+    ],
+    "Weaknesses": [
+      "Competitive admissions",
+      "Academic pressure",
+      "Summer heat"
+    ],
+    "ReturnOnInvestment": "Excellent"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India",
+    "CulturalTraditions": [
+      "Pragyan traditions",
+      "Festember cultural heritage",
+      "Nittfest sports",
+      "Inter-hostel competitions"
+    ],
+    "Festivals": [
+      "Pragyan - Technical Festival",
+      "Festember - Cultural Festival",
+      "Nittfest - Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Robotics",
+      "Coding (ACM, IEEE)",
+      "Science and Technology Council",
+      "Film and Media Council",
+      "Cultural Council",
+      "Sports Council",
+      "Music & Dance",
+      "Drama",
+      "Photography",
+      "Quizzing"
+    ],
+    "OutdoorActivities": [
+      "River Cauvery activities",
+      "Temple visits",
+      "Cultural exploration",
+      "Sports activities"
+    ],
+    "StudentGovernance": "Student Councils and representative bodies",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Swimming Pool",
+      "Sports Facilities",
+      "Medical facilities",
+      "Counseling Services"
+    ],
+    "Community": "Vibrant campus life with strong hostel culture"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1964,
+    "Founder": "Government of India and Government of Tamil Nadu",
+    "InitialFocus": "Regional Engineering College to expand technical education",
+    "Evolution": [
+      "1964: Established as REC Tiruchirappalli",
+      "2003: Granted Deemed University status",
+      "2007: Declared Institution of National Importance",
+      "2016-2024: Ranked #1 among all NITs"
+    ],
+    "Legacy": "Best Industry-Linked NIT, FICCI University of the Year, flagship NIT",
+    "Heritage": "800-acre campus on banks of Cauvery river, established engineering excellence"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "VLSI Design",
+      "Robotics",
+      "Cybersecurity",
+      "Advanced Materials",
+      "Renewable Energy",
+      "Big Data Analytics"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Best Industry-Linked NIT award, strong research output, technology transfer",
+    "Startups": {
+      "Number": 120,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "NIT Trichy Admissions 2025-26",
+      "Date": "2025-09-01",
+      "Details": "Admissions open for various programs"
+    },
+    {
+      "Event": "Pragyan 2025",
+      "StartDate": "2025-02-15",
+      "EndDate": "2025-02-19",
+      "Theme": "Technical festival"
+    },
+    {
+      "Event": "Festember 2025",
+      "StartDate": "2025-09-05",
+      "EndDate": "2025-09-09",
+      "Theme": "Cultural festival"
+    },
+    {
+      "Event": "JEE Main 2025",
+      "Date": "2025-01-24"
+    },
+    {
+      "RecurringEvents": [
+        "Pragyan Tech Fest (Annually)",
+        "Festember Cultural Fest (Annually)",
+        "Nittfest Sports Fest (Annually)",
+        "Inter-NIT Sports Meet"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.nitt.edu",
+    "Address": "National Institute of Technology Tiruchirappalli, Tanjore Main Road, National Highway 67, Near BHEL Tiruchirappalli, Tiruchirappalli, Tamil Nadu 620015, India",
+    "Phone": "+91 431 250 3000",
+    "Emails": {
+      "Registrar": "registrar@nitt.edu",
+      "Admissions": "admissions@nitt.edu",
+      "PlacementCell": "placement@nitt.edu"
+    }
+  }
+}
+

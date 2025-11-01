@@ -1,0 +1,604 @@
+{
+  "Name": "Indian Institute of Technology Guwahati (IIT Guwahati)",
+  "Location": {
+    "City": "Guwahati",
+    "District": "Kamrup",
+    "State": "Assam",
+    "Country": "India",
+    "Pin": "781039",
+    "CampusAreaAcres": 704,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Amingaon, North Guwahati on Brahmaputra river bank"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1994,
+    "OriginalName": "Indian Institute of Technology Guwahati",
+    "Renamed": [],
+    "HistoricalSignificance": "Sixth IIT established as part of Assam Accord 1985, first IIT in Northeast India. Located on bank of Brahmaputra river."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "IIT Guwahati stands as the sixth member of the prestigious IIT fraternity and the youngest among the first-generation IITs. Located on a sprawling 704-acre campus on the north bank of the majestic Brahmaputra river, representing India's commitment to expanding premier technical education in the North-Eastern region.",
+    "StudentStrength": "Over 10,000 students with 400+ faculty members",
+    "MajorEvents": [
+      "Techniche - Asia's largest technical festival",
+      "Alcheringa - Annual cultural festival",
+      "Manthan - Annual sports festival"
+    ],
+    "ResearchFocus": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Robotics",
+      "Quantum Computing",
+      "Nanotechnology",
+      "Biotechnology",
+      "Sustainable Energy",
+      "Water Resources"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities worldwide"
+    ],
+    "SocialInitiatives": [
+      "Regional development",
+      "Community outreach",
+      "Northeast-specific research"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 9,
+      "Engineering": 7,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 9,
+      "Innovation": 0
+    },
+    "QSWorld2026": 344,
+    "QSAsia2025": 124,
+    "IndiaTodayEngineering2024": 7,
+    "THEEngineering2020Band": "601-800",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Biosciences and Bioengineering",
+          "Biotechnology",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer Science and Engineering",
+          "Electronics and Electrical Engineering",
+          "Mechanical Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Advanced", "JoSAA counseling"],
+        "Seats": 700,
+        "FirstYearFeeINR": 226000,
+        "TotalFeesINRApprox": 904000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 4,
+        "Entrance": ["UCEED"],
+        "Seats": 30,
+        "FirstYearFeeINR": 226000,
+        "TotalFeesINRApprox": 904000
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 20,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "COAP"],
+        "FirstYearFeeINR": 62000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["CEED"],
+        "SeatsVaries": true,
+        "FeeInformation": "₹1.24 Lakhs total"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "WAT", "PI"],
+        "Seats": 50,
+        "FirstYearFeeINR": 482000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Mathematics and Computing",
+          "Physics",
+          "Chemistry"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["IIT JAM"],
+        "FirstYearFeeINR": 41850,
+        "Seats": 100
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 50,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "4-6",
+        "FeeINRPerYear": 29000,
+        "SeatsMoreThan": 500
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 59500,
+      "Maximum": 59500,
+      "Note": "Single-seater accommodation"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Advanced",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": "Not applicable"
+      },
+      "BDes": {
+        "Exam": "UCEED",
+        "Counseling": "Centralized counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "COAP",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["Written Ability Test", "Personal Interview"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main", "JEE Advanced"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%, Up to 20% supernumerary seats for female candidates",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 200,
+      "DataScienceAIClosingAIR": 350,
+      "ECEClosingAIR": 900,
+      "MechEngClosingAIR": 2200,
+      "ElectEngClosingAIR": 900,
+      "CivilEngClosingAIR": 5000
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 92,
+      "OBCPercentile": 85,
+      "SCSTPercentileMin": 75
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories with six rounds of JoSAA counselling."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 900,
+      "Recruiters": 260,
+      "HighestPackageINR": 500000000,
+      "HighestDomesticPackageINR": 500000000,
+      "OverallAveragePackageINR": 2575000,
+      "CSEAveragePackageINR": 3300000,
+      "ECEAveragePackageINR": 2800000,
+      "MBA median package INR": 1700000,
+      "PPOs": 227,
+      "TopRecruiters": [
+        "JP Morgan Chase",
+        "Goldman Sachs",
+        "PwC",
+        "Schlumberger",
+        "Deloitte",
+        "Uber",
+        "Apple",
+        "EY (Ernst & Young)",
+        "Microsoft",
+        "Qualcomm",
+        "KPMG",
+        "Infosys",
+        "Ola",
+        "Amazon",
+        "Accenture",
+        "CapGemini",
+        "Cognizant",
+        "Dell",
+        "Flipkart",
+        "Google"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Scientist",
+        "Business Analyst",
+        "Associate Product Manager",
+        "Marketing Manager",
+        "Product Designer",
+        "Consultant",
+        "Research Scientist"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Technical seminars",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 13,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Single-seater rooms",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Rooms",
+        "Satellite TV"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 117000,
+      "EJournalsCount": 2605,
+      "Features": [
+        "Digital resources",
+        "24/7 access",
+        "Group study zones",
+        "Computer terminals",
+        "Inter-library loan",
+        "Reference assistance"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 150,
+      "FocusAreas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Robotics",
+        "Nanotechnology",
+        "Biotechnology",
+        "Materials Science",
+        "Water Resources",
+        "Environmental Technologies"
+      ],
+      "Equipment": [
+        "State-of-the-art scientific instruments",
+        "Sophisticated characterization facilities",
+        "Advanced computational resources"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Indoor Sports Stadium",
+        "8-lane Swimming Pool",
+        "Football Ground",
+        "Athletics Tracks",
+        "Basketball Courts",
+        "Volleyball Courts",
+        "Tennis Courts",
+        "Gymnasium",
+        "Squash Courts",
+        "Recreation Room"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "IIT Guwahati Hospital",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "30 beds with Emergency Room",
+        "24x7 doctor and nursing services",
+        "Pharmacy",
+        "Two ambulances"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Food court",
+        "Subway",
+        "Baskin Robbins",
+        "Café Coffee Day",
+        "Local establishments"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Regional cuisines",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Banks and ATMs",
+      "Post Office",
+      "Shops",
+      "Small market",
+      "Guest Houses",
+      "Free intra-campus bus",
+      "Regular bus service to Guwahati",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 50,
+      "Types": [
+        "Technical (Robotics, Coding, Astronomy)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Social Service",
+        "Aeromodelling",
+        "Photography",
+        "Literary"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 11,
+    "DepartmentsList": [
+      "Biosciences and Bioengineering",
+      "Biotechnology",
+      "Chemical Engineering",
+      "Chemistry",
+      "Civil Engineering",
+      "Computer Science and Engineering",
+      "Design",
+      "Electronics and Electrical Engineering",
+      "Humanities and Social Sciences",
+      "Mathematics",
+      "Mechanical Engineering",
+      "Physics"
+    ],
+    "ResearchCenters": [
+      "7 inter-disciplinary academic centres",
+      "Centre for Energy",
+      "Centre for Nanotechnology",
+      "Centre for the Environment"
+    ],
+    "Strength": {
+      "FacultyCount": 400,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Government ministries",
+      "Private industries"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry consultancy"
+    ],
+    "StudentFeedback": "Highly knowledgeable faculty, excellent research impact"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "SC/ST/PwD Full Tuition Fee Waiver",
+      "Income-based fee concessions",
+      "Merit-cum-means scholarships",
+      "GATE/NET Fellowships",
+      "Research Fellowships",
+      "National Scholarship Portal schemes"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Support",
+      "Monthly Stipends",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.6,
+    "CollegeDuniaReviewsCount": 1800,
+    "Careers360Rating": 4.7,
+    "Strengths": [
+      "Excellent placements with top companies",
+      "QS World 42nd in Research Citations per Faculty",
+      "Scenic Brahmaputra riverside campus",
+      "NIRF Engineering 7th rank",
+      "QS World 344th",
+      "First IIT in Northeast"
+    ],
+    "Weaknesses": [
+      "Competitive admissions",
+      "Academic pressure",
+      "Remote location from major cities"
+    ],
+    "ReturnOnInvestment": "Excellent"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India with significant representation from Northeast states",
+    "CulturalTraditions": [
+      "Techniche traditions",
+      "Alcheringa cultural events",
+      "Manthan sports festivals",
+      "Inter-hostel competitions"
+    ],
+    "Festivals": [
+      "Techniche - Technical Festival",
+      "Alcheringa - Cultural Festival",
+      "Manthan - Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Robotics",
+      "Coding",
+      "Astronomy",
+      "Entrepreneurship Cell",
+      "Aeromodelling",
+      "Music & Dance",
+      "Drama",
+      "Literary",
+      "Social Service",
+      "Photography"
+    ],
+    "OutdoorActivities": [
+      "Riverside activities",
+      "Photography",
+      "Nature walks",
+      "Sports activities"
+    ],
+    "StudentGovernance": "Student representative bodies and hostel management committees",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Swimming Pool",
+      "Sports Facilities",
+      "Medical facilities",
+      "Counseling Services"
+    ],
+    "Community": "Close-knit residential community with Northeast representation"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1994,
+    "Founder": "Government of India as part of Assam Accord 1985",
+    "InitialFocus": "First IIT in Northeast India to fulfill regional educational aspirations",
+    "Evolution": [
+      "1994: Established by Act of Parliament as sixth IIT",
+      "1995: First batch admitted into B.Tech programme",
+      "1998: First M.Tech batch accepted",
+      "Rapid growth to world-class infrastructure"
+    ],
+    "Legacy": "Premier technical institution of Northeast India, fulfilling Assam Accord commitment",
+    "Heritage": "704-acre Brahmaputra riverside campus with state-of-the-art facilities"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Robotics",
+      "Quantum Computing",
+      "Nanotechnology",
+      "Biotechnology",
+      "Sustainable Energy",
+      "Water Resources",
+      "Environmental Technologies"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "QS World 42nd rank in Research Citations per Faculty, strong research impact",
+    "Startups": {
+      "Number": 100,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "IIT Guwahati PhD Admissions 2025-26",
+      "Date": "2025-09-01",
+      "Details": "Admissions open for various departments"
+    },
+    {
+      "Event": "Techniche 2025",
+      "StartDate": "2025-09-15",
+      "EndDate": "2025-09-19",
+      "Theme": "Asia's largest technical festival"
+    },
+    {
+      "Event": "Alcheringa 2025",
+      "StartDate": "2025-02-01",
+      "EndDate": "2025-02-05",
+      "Theme": "Cultural festival"
+    },
+    {
+      "Event": "JEE Advanced 2025",
+      "Date": "2025-05-25"
+    },
+    {
+      "RecurringEvents": [
+        "Techniche Tech Fest (Annually)",
+        "Alcheringa Cultural Fest (Annually)",
+        "Manthan Sports Fest (Annually)",
+        "Inter-IIT Sports Meet"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.iitg.ac.in",
+    "Address": "Indian Institute of Technology Guwahati, Amingaon, North Guwahati, Assam 781039, India",
+    "Phone": "+91 361 258 3000",
+    "Emails": {
+      "Registrar": "registrar@iitg.ac.in",
+      "Admissions": "admissions@iitg.ac.in",
+      "PlacementCell": "placement@iitg.ac.in"
+    }
+  }
+}
+

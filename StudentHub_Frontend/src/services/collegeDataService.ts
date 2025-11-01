@@ -353,3 +353,213 @@ export const getCollegeDataBySlug = async (slug: string): Promise<IITRoorkeeData
   }
   return null;
 };
+
+// IIT Madras uses same structure as IIT Roorkee
+export type IITMadrasData = IITRoorkeeData;
+
+// Function to load IIT Madras data
+export const loadIITMadrasData = async (): Promise<IITMadrasData> => {
+  try {
+    const response = await fetch('/data/colleges/iit_madras.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIT Madras data');
+    }
+    const data = await response.json();
+    return data as IITMadrasData;
+  } catch (error) {
+    console.error('Error loading IIT Madras data:', error);
+    throw error;
+  }
+};
+
+// IIT Bombay uses same structure as IIT Roorkee
+export type IITBombayData = IITRoorkeeData;
+
+// Function to load IIT Bombay data
+export const loadIITBombayData = async (): Promise<IITBombayData> => {
+  try {
+    const response = await fetch('/data/colleges/iit_bombay.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIT Bombay data');
+    }
+    const data = await response.json();
+    return data as IITBombayData;
+  } catch (error) {
+    console.error('Error loading IIT Bombay data:', error);
+    throw error;
+  }
+};
+
+// IIT Delhi uses same structure as IIT Roorkee
+export type IITDelhiData = IITRoorkeeData;
+
+// Function to load IIT Delhi data
+export const loadIITDelhiData = async (): Promise<IITDelhiData> => {
+  try {
+    const response = await fetch('/data/colleges/iit_delhi.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIT Delhi data');
+    }
+    const data = await response.json();
+    return data as IITDelhiData;
+  } catch (error) {
+    console.error('Error loading IIT Delhi data:', error);
+    throw error;
+  }
+};
+
+// IIT Kanpur uses same structure as IIT Roorkee
+export type IITKanpurData = IITRoorkeeData;
+
+// Function to load IIT Kanpur data
+export const loadIITKanpurData = async (): Promise<IITKanpurData> => {
+  try {
+    const response = await fetch('/data/colleges/iit_kanpur.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIT Kanpur data');
+    }
+    const data = await response.json();
+    return data as IITKanpurData;
+  } catch (error) {
+    console.error('Error loading IIT Kanpur data:', error);
+    throw error;
+  }
+};
+
+// IIT Kharagpur uses same structure as IIT Roorkee
+export type IITKharagpurData = IITRoorkeeData;
+
+// Function to load IIT Kharagpur data
+export const loadIITKharagpurData = async (): Promise<IITKharagpurData> => {
+  try {
+    const response = await fetch('/data/colleges/iit_kharagpur.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIT Kharagpur data');
+    }
+    const data = await response.json();
+    return data as IITKharagpurData;
+  } catch (error) {
+    console.error('Error loading IIT Kharagpur data:', error);
+    throw error;
+  }
+};
+
+// IIT Hyderabad uses same structure as IIT Roorkee
+export type IITHyderabadData = IITRoorkeeData;
+
+// Function to load IIT Hyderabad data
+export const loadIITHyderabadData = async (): Promise<IITHyderabadData> => {
+  try {
+    const response = await fetch('/data/colleges/iit_hyderabad.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIT Hyderabad data');
+    }
+    const data = await response.json();
+    return data as IITHyderabadData;
+  } catch (error) {
+    console.error('Error loading IIT Hyderabad data:', error);
+    throw error;
+  }
+};
+
+// IIT Guwahati uses same structure as IIT Roorkee
+export type IITGuwahatiData = IITRoorkeeData;
+
+// Function to load IIT Guwahati data
+export const loadIITGuwahatiData = async (): Promise<IITGuwahatiData> => {
+  try {
+    const response = await fetch('/data/colleges/iit_guwahati.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIT Guwahati data');
+    }
+    const data = await response.json();
+    return data as IITGuwahatiData;
+  } catch (error) {
+    console.error('Error loading IIT Guwahati data:', error);
+    throw error;
+  }
+};
+
+// IIT BHU Varanasi uses same structure as IIT Roorkee
+export type IITBHUVaranasiData = IITRoorkeeData;
+
+// Function to load IIT BHU Varanasi data
+export const loadIITBHUVaranasiData = async (): Promise<IITBHUVaranasiData> => {
+  try {
+    const response = await fetch('/data/colleges/iit_bhu_varanasi.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIT BHU Varanasi data');
+    }
+    const data = await response.json();
+    return data as IITBHUVaranasiData;
+  } catch (error) {
+    console.error('Error loading IIT BHU Varanasi data:', error);
+    throw error;
+  }
+};
+
+// NIT Trichy uses same structure as IIT Roorkee
+export type NITTrichyData = IITRoorkeeData;
+
+// Function to load NIT Trichy data
+export const loadNITTrichyData = async (): Promise<NITTrichyData> => {
+  try {
+    const response = await fetch('/data/colleges/nit_trichy.json');
+    if (!response.ok) {
+      throw new Error('Failed to load NIT Trichy data');
+    }
+    const data = await response.json();
+    return data as NITTrichyData;
+  } catch (error) {
+    console.error('Error loading NIT Trichy data:', error);
+    throw error;
+  }
+};
+
+// Lightweight loader for IIT Madras textual content split into tab sections (legacy support)
+export interface IITMadrasSections {
+  overview: string;
+  courses: string;
+  admissions: string;
+  placements: string;
+  rankings: string; // may be empty if not present in text
+  facilities: string; // may be empty if not present in text
+  faculty: string; // may be empty if not present in text
+  reviews: string; // may be empty if not present in text
+  contact: string; // may be empty if not present in text
+}
+
+export const loadIITMadrasSections = async (): Promise<IITMadrasSections> => {
+  const response = await fetch('/data/colleges/iit_madras.txt');
+  if (!response.ok) {
+    throw new Error('Failed to load IIT Madras text');
+  }
+  const text = await response.text();
+
+  // Helper to extract content between named anchors
+  const extract = (name: string, nextNames: string[]): string => {
+    const startToken = `<a name="${name}"></a>`;
+    const startIdx = text.indexOf(startToken);
+    if (startIdx === -1) return '';
+    const afterStart = startIdx + startToken.length;
+    let endIdx = text.length;
+    for (const next of nextNames) {
+      const token = `<a name="${next}"></a>`;
+      const idx = text.indexOf(token, afterStart);
+      if (idx !== -1 && idx < endIdx) endIdx = idx;
+    }
+    return text.slice(afterStart, endIdx).trim();
+  };
+
+  const overview = extract('overview', ['courses', 'admissions', 'placements', 'rankings', 'facilities', 'faculty', 'reviews', 'contact']);
+  const courses = extract('courses', ['admissions', 'placements', 'rankings', 'facilities', 'faculty', 'reviews', 'contact']);
+  const admissions = extract('admissions', ['placements', 'rankings', 'facilities', 'faculty', 'reviews', 'contact']);
+  const placements = extract('placements', ['rankings', 'facilities', 'faculty', 'reviews', 'contact']);
+  const rankings = extract('rankings', ['facilities', 'faculty', 'reviews', 'contact']);
+  const facilities = extract('facilities', ['faculty', 'reviews', 'contact']);
+  const faculty = extract('faculty', ['reviews', 'contact']);
+  const reviews = extract('reviews', ['contact']);
+  const contact = extract('contact', []);
+
+  return { overview, courses, admissions, placements, rankings, facilities, faculty, reviews, contact };
+};

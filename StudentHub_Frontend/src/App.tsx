@@ -38,6 +38,15 @@ import AskUsPage from "./pages/AskUsPage/AskUsPage";
 import PsychometricTest from "./pages/PsychometricTest";
 import CollegePredictor from "./pages/CollegePredictor";
 import Rankometer from "./pages/Rankometer";
+import IITMadrasPage from "./pages/Colleges/IITMadrasPage";
+import IITBombayPage from "./pages/Colleges/IITBombayPage";
+import IITDelhiPage from "./pages/Colleges/IITDelhiPage";
+import IITKanpurPage from "./pages/Colleges/IITKanpurPage";
+import IITKharagpurPage from "./pages/Colleges/IITKharagpurPage";
+import IITHyderabadPage from "./pages/Colleges/IITHyderabadPage";
+import IITGuwahatiPage from "./pages/Colleges/IITGuwahatiPage";
+import IITBHUVaranasiPage from "./pages/Colleges/IITBHUVaranasiPage";
+import NITTrichyPage from "./pages/Colleges/NITTrichyPage";
 
 // import Search from "./pages/Other/Search";
 // import Test from "./pages/Other/Test";
@@ -78,6 +87,15 @@ function App() {
             <Route path="/colleges" element={<CollegesListPage />} />
             <Route path="/colleges/:slug" element={<CollegeDetailPage />} />
             <Route path="/colleges/iit-roorkee" element={<IITRoorkeePage />} />
+            <Route path="/colleges/iit-madras" element={<IITMadrasPage />} />
+            <Route path="/colleges/iit-bombay" element={<IITBombayPage />} />
+            <Route path="/colleges/iit-delhi" element={<IITDelhiPage />} />
+            <Route path="/colleges/iit-kanpur" element={<IITKanpurPage />} />
+            <Route path="/colleges/iit-kharagpur" element={<IITKharagpurPage />} />
+            <Route path="/colleges/iit-hyderabad" element={<IITHyderabadPage />} />
+            <Route path="/colleges/iit-guwahati" element={<IITGuwahatiPage />} />
+            <Route path="/colleges/iit-bhu-varanasi" element={<IITBHUVaranasiPage />} />
+            <Route path="/colleges/nit-trichy" element={<NITTrichyPage />} />
             <Route path="/psychometric-test" element={<PsychometricTest />} />
             <Route path="/articles" element={<ArticlesLandingPage />} />
             <Route path="/articles/:slug" element={<ArticleDetailPage />} />

@@ -1,0 +1,631 @@
+{
+  "Name": "Indian Institute of Technology Kharagpur (IIT Kharagpur)",
+  "Location": {
+    "City": "Kharagpur",
+    "District": "West Medinipur",
+    "State": "West Bengal",
+    "Country": "India",
+    "Pin": "721302",
+    "CampusAreaAcres": 2100,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Historic Hijli Detention Camp, Kharagpur"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1951,
+    "OriginalName": "Indian Institute of Technology Kharagpur",
+    "Renamed": [],
+    "HistoricalSignificance": "India's first IIT, established in historic Hijli Detention Camp where freedom fighters were imprisoned. Symbolizes India's transformation from colonial legacy to technological excellence. Declared Institute of National Importance by Parliament on September 15, 1956."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance",
+    "Institute of Eminence"
+  ],
+  "About": {
+    "Overview": "IIT Kharagpur stands as India's first IIT and one of the nation's most prestigious institutions. Founded in the historic Hijli Detention Camp in Kharagpur, West Bengal, the institute occupies a magnificent 2,100-acre campus, making it one of the largest educational campuses in Asia.",
+    "StudentStrength": "Over 10,000-14,500 students with 700+ faculty members",
+    "MajorEvents": [
+      "Kshitij - Asia's largest techno-management festival",
+      "Spring Fest - Social and cultural festival",
+      "Inter-hall competitions"
+    ],
+    "ResearchFocus": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Robotics and Automation",
+      "Complex Networks",
+      "Data Mining",
+      "Natural Language Processing",
+      "Cryptography and Security",
+      "Innovation and Entrepreneurship"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "Leading universities worldwide",
+      "International research institutions",
+      "Industry partners globally"
+    ],
+    "SocialInitiatives": [
+      "National Service Scheme (NSS)",
+      "Rural Development Centre",
+      "Agricultural and Food Engineering",
+      "Environmental conservation"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 6,
+      "Engineering": 5,
+      "ArchitecturePlanning": 3
+    },
+    "NIRF2024": {
+      "Overall": 6,
+      "Innovation": 0
+    },
+    "QSWorld2026": 271,
+    "QSAsia2025": 59,
+    "IndiaTodayEngineering2024": 5,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Electrical Engineering",
+          "Electronics and ECE",
+          "Mechanical Engineering",
+          "Aerospace Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Industrial and Systems Engineering",
+          "Metallurgical and Materials Engineering",
+          "Mining Engineering",
+          "Ocean Engineering and Naval Architecture",
+          "Agricultural and Food Engineering",
+          "Biotechnology",
+          "Manufacturing Science and Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Advanced", "JoSAA counseling"],
+        "Seats": 1200,
+        "FirstYearFeeINR": 224000,
+        "TotalFeesINRApprox": 896000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["JEE Main Paper 2", "Architecture Aptitude Test"],
+        "Seats": 40,
+        "FirstYearFeeINR": 224000,
+        "TotalFeesINRApprox": 1118000
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 60,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "COAP"],
+        "FirstYearFeeINR": 31900,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "Not listed"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "Interview"],
+        "Seats": 120,
+        "FirstYearFeeINR": 125000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Economics",
+          "Geology"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["IIT JAM"],
+        "FirstYearFeeINR": 16491,
+        "Seats": 200
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 60,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "4-6",
+        "FeeINRPerYear": 15800,
+        "SeatsMoreThan": 1000
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 48360,
+      "Maximum": 48360,
+      "Note": "₹24,180 per semester approximately"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Advanced/JEE Main Paper 2",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": "Architecture Aptitude Test"
+      },
+      "BDes": {
+        "Exam": "UCEED",
+        "Counseling": "Centralized counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "COAP",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["Interview"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main", "JEE Advanced"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 127,
+      "DataScienceAIClosingAIR": 180,
+      "ECEClosingAIR": 600,
+      "MechEngClosingAIR": 2000,
+      "ElectEngClosingAIR": 600,
+      "CivilEngClosingAIR": 4500
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 94,
+      "OBCPercentile": 85,
+      "SCSTPercentileMin": 75
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories with multiple rounds of seat allotment."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 1500,
+      "Recruiters": 320,
+      "HighestPackageINR": 500000000,
+      "HighestDomesticPackageINR": 500000000,
+      "OverallAveragePackageINR": 2600000,
+      "CSEAveragePackageINR": 3500000,
+      "ECEAveragePackageINR": 2900000,
+      "MBA median package INR": 1850000,
+      "PPOs": 250,
+      "TopRecruiters": [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Goldman Sachs",
+        "De Shaw",
+        "Morgan Stanley",
+        "Qualcomm",
+        "Texas Instruments",
+        "Intel",
+        "Apple",
+        "Flipkart",
+        "ITC",
+        "Barclays",
+        "Shell",
+        "GE"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Scientist",
+        "Quantitative Analyst",
+        "Consulting",
+        "Research and Development",
+        "Hardware Design",
+        "Management",
+        "Aerospace Engineering"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Technical seminars",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 21,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Rooms",
+        "Sports facilities",
+        "Reading rooms"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 350000,
+      "EJournalsCount": 26664,
+      "Features": [
+        "Digital resources",
+        "24/7 access",
+        "Group study zones",
+        "Computer terminals",
+        "Inter-library loan",
+        "350,000+ documents",
+        "26,000+ online journals"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 200,
+      "FocusAreas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Robotics",
+        "Aerospace Testing",
+        "Materials Science",
+        "Nanotechnology",
+        "Biomedical Engineering",
+        "Signal Processing"
+      ],
+      "Equipment": [
+        "Supercomputing facilities",
+        "Wind tunnels",
+        "Advanced microscopy",
+        "Characterization equipment",
+        "Prototyping facilities"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Jnan Ghosh Stadium",
+        "Tata Sports Complex",
+        "Aquatic Center",
+        "Swimming Pool",
+        "Athletics Tracks",
+        "Indoor Stadium",
+        "Tennis, Basketball Courts",
+        "Cricket, Football Grounds",
+        "Gymnasium",
+        "Squash Courts"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "B C Roy Technology Hospital",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Specialist Consultations",
+        "24x7 Ambulance",
+        "32 beds with ICU",
+        "Mental Health Counseling"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Subway, Café Coffee Day",
+        "Heritage Restaurant",
+        "Sahara Restaurant",
+        "Dreamland Restaurant",
+        "Dulal Nandi",
+        "Billoo's Restaurant",
+        "Eggies (night canteen)"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Regional cuisines",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Technology Students' Gymkhana",
+      "Banks and ATMs",
+      "Post Office",
+      "Shopping Centers",
+      "Guest Houses",
+      "Kendriya Vidyalaya",
+      "Places of Worship",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 80,
+      "Types": [
+        "Technical (Robotics, Coding, Electronics)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Social Service",
+        "Astronomy",
+        "Aeromodelling",
+        "Photography",
+        "Literature"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 19,
+    "DepartmentsList": [
+      "Aerospace Engineering",
+      "Agricultural and Food Engineering",
+      "Biotechnology",
+      "Chemical Engineering",
+      "Chemistry",
+      "Civil Engineering",
+      "Computer Science and Engineering",
+      "Electrical Engineering",
+      "Electronics and ECE",
+      "Humanities and Social Sciences",
+      "Industrial and Systems Engineering",
+      "Materials Science and Engineering",
+      "Mathematics",
+      "Mechanical Engineering",
+      "Metallurgical and Materials Engineering",
+      "Mining Engineering",
+      "Ocean Engineering and Naval Architecture",
+      "Physics and Meteorology",
+      "Ranbir and Chitra Gupta School of Infrastructure Design and Management"
+    ],
+    "ResearchCenters": [
+      "14 specialized research centers",
+      "11 advanced research facilities",
+      "12 specialized schools",
+      "Technology Students' Gymkhana"
+    ],
+    "Strength": {
+      "FacultyCount": 700,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities worldwide",
+      "Government ministries",
+      "Private industries",
+      "Research institutions"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry consultancy",
+      "Award winners and fellows"
+    ],
+    "StudentFeedback": "Highly knowledgeable faculty, excellent teaching quality"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Income-based fee concessions",
+      "SC/ST Full Tuition Fee Waiver",
+      "Merit-cum-means scholarships",
+      "GATE/NET Fellowships",
+      "Research Fellowships",
+      "Industry-sponsored Fellowships",
+      "National Scholarship Portal schemes"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Support",
+      "Monthly Stipends",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.7,
+    "CollegeDuniaReviewsCount": 2500,
+    "Careers360Rating": 4.8,
+    "Strengths": [
+      "Exceptional placements with top companies",
+      "World-class faculty and research",
+      "India's first IIT",
+      "Excellent campus infrastructure",
+      "Vibrant cultural life with Kshitij and Spring Fest",
+      "QS World 271st",
+      "NIRF Engineering 5th rank",
+      "Largest IIT campus"
+    ],
+    "Weaknesses": [
+      "Very competitive admissions",
+      "High academic pressure",
+      "Remote location from Kolkata"
+    ],
+    "ReturnOnInvestment": "Excellent"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India and internationally",
+    "CulturalTraditions": [
+      "Kshitij traditions",
+      "Spring Fest cultural events",
+      "Inter-hall competitions",
+      "Senior-junior interactions (interact system)"
+    ],
+    "Festivals": [
+      "Kshitij - Techno-Management Festival",
+      "Spring Fest - Cultural Festival",
+      "Inter-hall competitions"
+    ],
+    "ClubsAndSocieties": [
+      "Robotics",
+      "Coding",
+      "Aeromodelling",
+      "Entrepreneurship Cell",
+      "Astronomy",
+      "Music & Dance",
+      "Drama",
+      "Literature",
+      "Social Service",
+      "Photography"
+    ],
+    "OutdoorActivities": [
+      "Sports activities",
+      "Campus exploration",
+      "Nature walks",
+      "Lake activities"
+    ],
+    "StudentGovernance": "Technology Students' Gymkhana - student body managing activities",
+    "WellbeingFacilities": [
+      "B C Roy Technology Hospital",
+      "Gymnasiums",
+      "Swimming Pools",
+      "Sports Facilities",
+      "Counselling Centre"
+    ],
+    "Community": "Self-contained township with 15,000-16,000 inhabitants"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1951,
+    "Founder": "Government of India",
+    "InitialFocus": "First IIT established in historic Hijli Detention Camp",
+    "Evolution": [
+      "1951: First session with 224 students and 42 teachers at Hijli Detention Camp",
+      "1952: Foundation stone laid by Pandit Nehru",
+      "1956: Declared Institute of National Importance by Parliament",
+      "1960: Comprehensive campus development"
+    ],
+    "Legacy": "India's first IIT, symbolizes transformation from colonial legacy to technological excellence",
+    "Heritage": "2,100-acre campus in historic Hijli Detention Camp, largest IIT campus in Asia"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Robotics",
+      "Complex Networks",
+      "Natural Language Processing",
+      "Cryptography and Security",
+      "Advanced Materials",
+      "Aerospace Technologies",
+      "Environmental Engineering"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Pioneer in engineering education, significant contributions to AI, robotics, and aerospace technologies",
+    "Startups": {
+      "Number": 150,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions",
+      "International research institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "IIT Kharagpur PhD Admissions 2025-26",
+      "Date": "2025-09-01",
+      "Details": "Admissions open for various departments"
+    },
+    {
+      "Event": "Kshitij 2025",
+      "StartDate": "2025-01-20",
+      "EndDate": "2025-01-24",
+      "Theme": "Asia's largest techno-management festival"
+    },
+    {
+      "Event": "Spring Fest 2025",
+      "StartDate": "2025-02-10",
+      "EndDate": "2025-02-13",
+      "Theme": "Cultural festival"
+    },
+    {
+      "Event": "JEE Advanced 2025",
+      "Date": "2025-05-25"
+    },
+    {
+      "RecurringEvents": [
+        "Kshitij Tech Fest (Annually)",
+        "Spring Fest Cultural Fest (Annually)",
+        "Inter-hall competitions (Year-round)",
+        "Inter-IIT Sports Meet"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.iitkgp.ac.in",
+    "Address": "Indian Institute of Technology Kharagpur, Kharagpur, West Bengal 721302, India",
+    "Phone": "+91 3222 282091",
+    "Emails": {
+      "Registrar": "registrar@iitkgp.ac.in",
+      "Admissions": "admissions@iitkgp.ac.in",
+      "PlacementCell": "placement@iitkgp.ac.in"
+    }
+  }
+}
+

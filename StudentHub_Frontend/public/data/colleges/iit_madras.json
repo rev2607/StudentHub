@@ -1,0 +1,603 @@
+{
+  "Name": "Indian Institute of Technology Madras (IIT Madras)",
+  "Location": {
+    "City": "Chennai",
+    "District": "Chennai",
+    "State": "Tamil Nadu",
+    "Country": "India",
+    "Pin": "600036",
+    "CampusAreaAcres": 617,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Chennai"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1959,
+    "OriginalName": "Indian Institute of Technology Madras",
+    "Renamed": [],
+    "HistoricalSignificance": "Third IIT established with Indo-German collaboration, founded under the collaborative agreement between India and Federal Republic of Germany."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance",
+    "Institute of Eminence"
+  ],
+  "About": {
+    "Overview": "IIT Madras stands as India's premier engineering and technology institution, consistently ranked #1 in engineering education since 2016. Located on a 617-acre campus in Chennai, formerly part of the Guindy National Park, the institute combines academic excellence with groundbreaking innovation and entrepreneurship.",
+    "StudentStrength": "8,000-10,000 students including international nationals",
+    "MajorEvents": [
+      "Shaastra - Technical festival",
+      "Saarang - Cultural festival",
+      "Sports competitions"
+    ],
+    "ResearchFocus": [
+      "Artificial Intelligence",
+      "Data Science",
+      "Sustainable Energy",
+      "Biotechnology",
+      "Nanotechnology",
+      "Innovation and Entrepreneurship"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "Nanyang Technological University",
+      "University of Tokyo",
+      "University of Passau",
+      "Curtin University",
+      "University of Technology Sydney",
+      "DAAD partnerships"
+    ],
+    "SocialInitiatives": [
+      "Social impact programs",
+      "Rural development",
+      "Healthcare accessibility",
+      "Educational outreach"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 1,
+      "Engineering": 1,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 1,
+      "Innovation": 1
+    },
+    "QSWorld2026": 250,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 1,
+    "THEEngineering2020Band": "120",
+    "ARIIA2021": "Rank #1"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science & Engineering",
+          "Electrical Engineering",
+          "Electronics & Communication Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Metallurgical and Materials Engineering",
+          "Aerospace Engineering",
+          "Ocean Engineering",
+          "Engineering Physics",
+          "Biotechnology",
+          "Engineering Design"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Advanced", "JoSAA counseling"],
+        "Seats": 850,
+        "FirstYearFeeINR": 234750,
+        "TotalFeesINRApprox": 939000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 50,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "COAP"],
+        "FirstYearFeeINR": 91000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": [],
+        "SeatsVaries": true,
+        "FeeInformation": "₹1.82 lakhs"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "PI"],
+        "Seats": 85,
+        "FirstYearFeeINR": 581000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["IIT JAM"],
+        "FirstYearFeeINR": 91000,
+        "Seats": 200
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 36,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 48333,
+        "SeatsMoreThan": 1000
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 0,
+      "Maximum": 0,
+      "Note": "Contact institute for details"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Advanced",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": "Not applicable"
+      },
+      "BDes": {
+        "Exam": "Not applicable",
+        "Counseling": ""
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "COAP",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["Reflective Writing", "Personal Interview"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main", "JEE Advanced"],
+      "AdditionalProcess": "Global Engagement Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 215,
+      "DataScienceAIClosingAIR": 420,
+      "ECEClosingAIR": 750,
+      "MechEngClosingAIR": 1850,
+      "ElectEngClosingAIR": 650,
+      "CivilEngClosingAIR": 4200
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 94,
+      "OBCPercentile": 85,
+      "SCSTPercentileMin": 75
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories with multiple rounds of seat allotment for JEE Advanced."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 1832,
+      "Recruiters": 256,
+      "HighestPackageINR": 430000000,
+      "HighestDomesticPackageINR": 430000000,
+      "OverallAveragePackageINR": 2420000,
+      "CSEAveragePackageINR": 3500000,
+      "ECEAveragePackageINR": 2800000,
+      "MBA median package INR": 1790000,
+      "PPOs": 240,
+      "TopRecruiters": [
+        "Jane Street",
+        "Two Sigma",
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Goldman Sachs",
+        "Qualcomm",
+        "Texas Instruments",
+        "Intel",
+        "Apple",
+        "Tower Research",
+        "Rubrik",
+        "BlackRock",
+        "Da Vinci",
+        "APT Portfolio",
+        "Glean"
+      ],
+      "JobProfiles": [
+        "Quantitative Trader",
+        "Software Development Engineer",
+        "Data Science",
+        "Research and Development",
+        "Consulting",
+        "Analytics",
+        "Hardware Design",
+        "Management"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects",
+        "Group discussions"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 20,
+      "Types": ["Boys", "Girls", "Married Couples"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Lounges"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 20000,
+      "EJournalsCount": 0,
+      "Features": [
+        "Digital resources",
+        "24/7 access",
+        "Group study zones",
+        "Hostel libraries"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 100,
+      "FocusAreas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Data Science",
+        "Nanotechnology",
+        "Biotechnology",
+        "Aerospace",
+        "Ocean Engineering",
+        "Materials Science"
+      ],
+      "Equipment": [
+        "Sophisticated analytical instruments",
+        "Computational facilities",
+        "Research instrumentation"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Swimming Pool",
+        "Athletics Tracks",
+        "Indoor Stadium",
+        "Basketball",
+        "Tennis, Badminton Courts",
+        "Football, Cricket Grounds",
+        "Yoga Center",
+        "Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Institute Health Centre",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Specialist Consultations",
+        "Ambulance Services"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Food Courts",
+        "Cafés"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Dietary options",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "IIT Madras Research Park",
+      "Banks and ATMs",
+      "Post Office",
+      "Bookstores",
+      "Guest Houses",
+      "Parking",
+      "24/7 Security",
+      "Open-air theatre"
+    ],
+    "StudentClubs": {
+      "Number": 50,
+      "Types": [
+        "Technical (Robotics, Coding)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Social Service",
+        "Film Club"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 16,
+    "DepartmentsList": [
+      "Aerospace Engineering",
+      "Applied Mechanics & Biomedical Engineering",
+      "Biotechnology",
+      "Chemical Engineering",
+      "Chemistry",
+      "Civil Engineering",
+      "Computer Science and Engineering",
+      "Electrical Engineering",
+      "Engineering Design",
+      "Humanities and Social Sciences",
+      "Management Studies",
+      "Mathematics",
+      "Mechanical Engineering",
+      "Metallurgical and Materials Engineering",
+      "Ocean Engineering",
+      "Physics"
+    ],
+    "ResearchCenters": [
+      "Robert Bosch Centre for Data Science and AI",
+      "Gopalakrishnan-Deshpande Centre for Innovation and Entrepreneurship",
+      "National Centre for Catalysis Research",
+      "36 Centers of Excellence",
+      "IIT Madras Research Park"
+    ],
+    "Strength": {
+      "FacultyCount": 550,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "Nanyang Technological University",
+      "University of Tokyo",
+      "University of Passau",
+      "Curtin University",
+      "University of Technology Sydney"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry consultancy"
+    ],
+    "StudentFeedback": "Excellent teaching quality, student-friendly faculty"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Merit-cum-Means",
+      "SC/ST Scholarships",
+      "EWS Scholarships",
+      "GATE/NET Fellowships",
+      "Industry-sponsored Fellowships",
+      "National Scholarship Portal schemes"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Waiver",
+      "Monthly Stipends",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.8,
+    "CollegeDuniaReviewsCount": 2500,
+    "Careers360Rating": 4.9,
+    "Strengths": [
+      "Exceptional placements with record packages",
+      "World-class faculty",
+      "Outstanding research facilities",
+      "Excellent campus infrastructure",
+      "Rich cultural and technical festivals",
+      "Strong industry connections",
+      "Number 1 engineering institute in India"
+    ],
+    "Weaknesses": [
+      "Very competitive academics",
+      "Limited hostel availability",
+      "Large batch sizes in popular branches"
+    ],
+    "ReturnOnInvestment": "Exceptional"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India and internationally",
+    "CulturalTraditions": [
+      "Insti lingo - indigenous vocabulary",
+      "Fresher's Welcome traditions",
+      "Regular informal gatherings",
+      "Film screenings at open-air theatre"
+    ],
+    "Festivals": [
+      "Shaastra - Technical Festival",
+      "Saarang - Cultural Festival",
+      "Sports competitions"
+    ],
+    "ClubsAndSocieties": [
+      "Robotics",
+      "Coding",
+      "Entrepreneurship Cell",
+      "Literature & Debate",
+      "Music & Dance",
+      "Drama and Cinema",
+      "Film Club",
+      "Social Service"
+    ],
+    "OutdoorActivities": [
+      "Beach visits near Chennai",
+      "Wildlife viewing on campus",
+      "Campus biodiversity exploration"
+    ],
+    "StudentGovernance": "Student representative bodies and governance",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Yoga Studios",
+      "Recreation Areas",
+      "Medical facilities"
+    ],
+    "Community": "Inclusive ecosystem with cultural, linguistic diversity"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1959,
+    "Founder": "Prime Minister Jawaharlal Nehru with German assistance",
+    "InitialFocus": "Engineering and technology education with Indo-German collaboration",
+    "Evolution": [
+      "1959: Founded as third IIT",
+      "1961: Declared Institute of National Importance",
+      "2016: Ranked #1 in NIRF Engineering continuously since then",
+      "2024: Institute of Eminence status"
+    ],
+    "Legacy": "Pioneer in India's engineering education and technological innovation",
+    "Heritage": "Campus formerly part of Guindy National Park, maintaining biodiversity"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Data Science",
+      "Sustainable Energy",
+      "Biotechnology",
+      "Nanotechnology",
+      "Aerospace Technologies",
+      "Ocean Engineering"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "IIT Madras Research Park, multiple startup incubations",
+    "Startups": {
+      "Number": 200,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "IIT Madras PhD Admissions 2025-26",
+      "Date": "2025-09-01",
+      "Details": "Admissions open for various departments"
+    },
+    {
+      "Event": "Shaastra 2025",
+      "StartDate": "2025-01-01",
+      "EndDate": "2025-01-07",
+      "Theme": "Technical festival"
+    },
+    {
+      "Event": "Saarang 2025",
+      "StartDate": "2025-02-01",
+      "EndDate": "2025-02-07",
+      "Theme": "Cultural festival"
+    },
+    {
+      "Event": "CAT 2025 Registration",
+      "StartDate": "2025-08-01",
+      "EndDate": "2025-09-13"
+    },
+    {
+      "Event": "CAT 2025 Examination",
+      "Date": "2025-11-30"
+    },
+    {
+      "RecurringEvents": [
+        "Shaastra Tech Fest (Annually)",
+        "Saarang Cultural Fest (Annually)",
+        "Entrepreneurship summits"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.iitm.ac.in",
+    "Address": "Indian Institute of Technology Madras, Chennai, Tamil Nadu 600036, India",
+    "Phone": "+91 44 2257 8000",
+    "Emails": {
+      "Registrar": "registrar@iitm.ac.in",
+      "Admissions": "academics@iitm.ac.in",
+      "PlacementCell": "placement@iitm.ac.in"
+    }
+  }
+}
+

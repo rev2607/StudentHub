@@ -1,0 +1,618 @@
+{
+  "Name": "Indian Institute of Technology Kanpur (IIT Kanpur)",
+  "Location": {
+    "City": "Kanpur",
+    "District": "Kanpur",
+    "State": "Uttar Pradesh",
+    "Country": "India",
+    "Pin": "208016",
+    "CampusAreaAcres": 1040,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Grand Trunk Road near Kalyanpur"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1959,
+    "OriginalName": "Indian Institute of Technology Kanpur",
+    "Renamed": [],
+    "HistoricalSignificance": "First institute in India to offer Computer Science education. Established with unprecedented Indo-American collaboration through the Kanpur Indo-American Programme (KIAP) with consortium of 9 US universities including MIT, UC Berkeley, and Princeton."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance",
+    "Institute of Eminence"
+  ],
+  "About": {
+    "Overview": "IIT Kanpur stands as one of India's first-generation IITs and most prestigious institutions of higher technical education. Founded through an Act of Parliament in 1960, IIT Kanpur has played a pioneering role in shaping technical education in India and was the first institute in the country to offer computer science education.",
+    "StudentStrength": "Over 10,000 students with faculty of 570 members",
+    "MajorEvents": [
+      "Techkriti - Asia's largest technical and entrepreneurship festival",
+      "Antaragni - Annual cultural festival",
+      "Udghosh - Annual sports festival"
+    ],
+    "ResearchFocus": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Robotics and Autonomous Systems",
+      "Quantum Computing",
+      "Advanced Materials",
+      "Clean Energy",
+      "Aerospace Technologies",
+      "Innovation and Entrepreneurship"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "Massachusetts Institute of Technology (MIT)",
+      "University of California at Berkeley",
+      "California Institute of Technology",
+      "Princeton University",
+      "Carnegie Mellon University",
+      "University of Michigan",
+      "Ohio State University"
+    ],
+    "SocialInitiatives": [
+      "National Service Scheme (NSS)",
+      "Rural development technologies",
+      "Environmental conservation",
+      "Community outreach programs"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 5,
+      "Engineering": 4,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 5,
+      "Innovation": 0
+    },
+    "QSWorld2026": 278,
+    "QSAsia2025": 63,
+    "IndiaTodayEngineering2024": 4,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Electrical Engineering",
+          "Mechanical Engineering",
+          "Aerospace Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Materials Science and Engineering",
+          "Biological Sciences and Bioengineering",
+          "Earth Sciences",
+          "Sustainable Energy Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Advanced", "JoSAA counseling"],
+        "Seats": 1000,
+        "FirstYearFeeINR": 138125,
+        "TotalFeesINRApprox": 1017700
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 50,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "COAP"],
+        "FirstYearFeeINR": 10000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["CEED"],
+        "SeatsVaries": true,
+        "FeeInformation": "₹5,000/semester"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "WAT", "PI"],
+        "Seats": 50,
+        "FirstYearFeeINR": 210000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics and Scientific Computing",
+          "Economics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["IIT JAM"],
+        "FirstYearFeeINR": 6000,
+        "Seats": 100
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 50,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "4-6",
+        "FeeINRPerYear": 5000,
+        "SeatsMoreThan": 1000
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 30770,
+      "Maximum": 30770,
+      "Note": "₹15,385 per semester approximately"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Advanced",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": "Not applicable"
+      },
+      "BDes": {
+        "Exam": "UCEED",
+        "Counseling": "Centralized counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "COAP",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["Written Ability Test", "Personal Interview"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main", "JEE Advanced"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%, Supernumerary seats for female candidates",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 107,
+      "DataScienceAIClosingAIR": 200,
+      "ECEClosingAIR": 550,
+      "MechEngClosingAIR": 1700,
+      "ElectEngClosingAIR": 550,
+      "CivilEngClosingAIR": 4500
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 93,
+      "OBCPercentile": 85,
+      "SCSTPercentileMin": 75
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories. JEE Advanced 2025 allows maximum 3 attempts in 3 consecutive years."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 1400,
+      "Recruiters": 300,
+      "HighestPackageINR": 350000000,
+      "HighestDomesticPackageINR": 350000000,
+      "OverallAveragePackageINR": 2500000,
+      "CSEAveragePackageINR": 3400000,
+      "ECEAveragePackageINR": 2800000,
+      "MBA median package INR": 1800000,
+      "PPOs": 200,
+      "TopRecruiters": [
+        "Jane Street",
+        "Optiver",
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Goldman Sachs",
+        "De Shaw",
+        "Morgan Stanley",
+        "Qualcomm",
+        "Texas Instruments",
+        "Intel",
+        "Apple",
+        "Tower Research",
+        "ACM Research",
+        "JP Morgan",
+        "Citadel"
+      ],
+      "JobProfiles": [
+        "Quantitative Trader",
+        "Software Development Engineer",
+        "Data Science",
+        "Research and Development",
+        "Hardware Design",
+        "Management",
+        "Consulting"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects",
+        "Technical seminars"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 12,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Rooms",
+        "Sports facilities"
+      ]
+    },
+    "Library": {
+      "Name": "P.K. Kelkar Library",
+      "AreaSqFt": 6973,
+      "BookCount": 300000,
+      "EJournalsCount": 1000,
+      "Features": [
+        "Digital resources",
+        "24/7 access",
+        "Group study zones",
+        "Computer terminals",
+        "Inter-library loan"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 150,
+      "FocusAreas": [
+        "Artificial Intelligence",
+        "Robotics",
+        "Quantum Computing",
+        "Nanotechnology",
+        "Aerospace Testing",
+        "Materials Science",
+        "Biomedical Engineering",
+        "Renewable Energy"
+      ],
+      "Equipment": [
+        "Wind tunnels",
+        "Supercomputing facilities",
+        "Nanofabrication clean rooms",
+        "Advanced microscopy",
+        "Characterization equipment"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Swimming Pool",
+        "Athletics Tracks",
+        "Indoor Stadium",
+        "Basketball",
+        "Tennis, Badminton Courts",
+        "Football, Cricket Grounds",
+        "Gymnasium",
+        "Squash Courts"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Health Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Specialist Consultations",
+        "Ambulance Services",
+        "Mental Health Counseling"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Food Courts",
+        "Cafés"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Dietary options",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Student Activity Centre",
+      "Banks and ATMs",
+      "Post Office",
+      "Shopping Areas",
+      "Guest Houses",
+      "Places of Worship",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 50,
+      "Types": [
+        "Technical (Robotics, Coding, Aeromodelling)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Social Service",
+        "Astronomy",
+        "Photography"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 18,
+    "DepartmentsList": [
+      "Aerospace Engineering",
+      "Biological Sciences and Bioengineering",
+      "Chemical Engineering",
+      "Chemistry",
+      "Civil Engineering",
+      "Computer Science and Engineering",
+      "Earth Sciences",
+      "Electrical Engineering",
+      "Humanities and Social Sciences",
+      "Industrial and Management Engineering",
+      "Materials Science and Engineering",
+      "Mathematics and Statistics",
+      "Mechanical Engineering",
+      "Physics",
+      "Sustainable Energy Engineering",
+      "Economic Sciences",
+      "Design Programme",
+      "Nuclear Engineering and Technology"
+    ],
+    "ResearchCenters": [
+      "Advanced Centre for Materials Science",
+      "Design Programme",
+      "Centre for Environmental Science and Engineering",
+      "Centre for Mechatronics",
+      "Samtel Centre for Display Technologies",
+      "National Wind Tunnel Facility"
+    ],
+    "Strength": {
+      "FacultyCount": 570,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "MIT",
+      "University of California at Berkeley",
+      "Princeton University",
+      "Carnegie Mellon University",
+      "University of Michigan"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry consultancy",
+      "Award winners and fellows"
+    ],
+    "StudentFeedback": "Highly knowledgeable faculty, excellent teaching quality"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Merit-cum-means scholarships",
+      "SC/ST Full Tuition Fee Waiver",
+      "Income-based fee concessions",
+      "GATE/NET Fellowships",
+      "Research Fellowships",
+      "Industry-sponsored Fellowships",
+      "National Scholarship Portal schemes"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Support",
+      "Monthly Stipends",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.6,
+    "CollegeDuniaReviewsCount": 2000,
+    "Careers360Rating": 4.7,
+    "Strengths": [
+      "Outstanding placements with top companies",
+      "World-class faculty and research",
+      "First in computer science education",
+      "Excellent campus infrastructure",
+      "Vibrant cultural life with Antaragni",
+      "QS World 278th",
+      "NIRF Engineering 4th rank"
+    ],
+    "Weaknesses": [
+      "Very competitive admissions",
+      "High academic pressure",
+      "Remote location from major cities"
+    ],
+    "ReturnOnInvestment": "Excellent"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India and internationally",
+    "CulturalTraditions": [
+      "Techkriti traditions",
+      "Antaragni cultural events",
+      "Udghosh sports culture",
+      "Regular inter-hostel competitions"
+    ],
+    "Festivals": [
+      "Techkriti - Technical Festival",
+      "Antaragni - Cultural Festival",
+      "Udghosh - Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Robotics",
+      "Coding",
+      "Aeromodelling",
+      "Entrepreneurship Cell",
+      "Astronomy",
+      "Music & Dance",
+      "Drama",
+      "Literature & Debate",
+      "Social Service",
+      "Photography"
+    ],
+    "OutdoorActivities": [
+      "Sports activities",
+      "Campus exploration",
+      "Nature walks"
+    ],
+    "StudentGovernance": "Democratically elected student representatives with hostel councils",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Swimming Pools",
+      "Sports Facilities",
+      "Medical facilities",
+      "Counseling Services"
+    ],
+    "Community": "Inclusive ecosystem with cultural, linguistic diversity"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1959,
+    "Founder": "Government of India with Indo-American collaboration",
+    "InitialFocus": "Pioneering technical education with Indo-American Programme (KIAP) collaboration",
+    "Evolution": [
+      "1959: Founded with 100 students at Harcourt Butler premises",
+      "1960: Established by Act of Parliament",
+      "1962-1972: Kanpur Indo-American Programme with 9 US universities",
+      "1963: First computer science courses in India (IBM 1620)",
+      "1963: Moved to permanent campus at Kalyanpur",
+      "1971: Formal Computer Science and Engineering department"
+    ],
+    "Legacy": "Birthplace of computer science education in India, pioneer in engineering science curriculum",
+    "Heritage": "1,040-acre campus designed by Achyut Kanvinde with modernist architectural principles"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Quantum Computing",
+      "Robotics and Autonomous Systems",
+      "Advanced Materials",
+      "Clean Energy",
+      "Biomedical Engineering",
+      "Aerospace Technologies",
+      "Environmental Engineering"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Pioneer in computer science education, hundreds of patents filed, significant contributions to AI, robotics, and aerospace technologies",
+    "Startups": {
+      "Number": 100,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions",
+      "Defense organizations"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "IIT Kanpur PhD Admissions 2025-26",
+      "Date": "2025-09-01",
+      "Details": "Admissions open for various departments"
+    },
+    {
+      "Event": "Techkriti 2025",
+      "StartDate": "2025-03-10",
+      "EndDate": "2025-03-14",
+      "Theme": "Asia's largest technical festival"
+    },
+    {
+      "Event": "Antaragni 2025",
+      "StartDate": "2025-10-05",
+      "EndDate": "2025-10-09",
+      "Theme": "Cultural festival"
+    },
+    {
+      "Event": "JEE Advanced 2025",
+      "Date": "2025-05-25"
+    },
+    {
+      "RecurringEvents": [
+        "Techkriti Tech Fest (Annually)",
+        "Antaragni Cultural Fest (Annually)",
+        "Udghosh Sports Fest (Annually)",
+        "Inter-IIT Sports Meet"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.iitk.ac.in",
+    "Address": "Indian Institute of Technology Kanpur, Kalyanpur, Kanpur, Uttar Pradesh 208016, India",
+    "Phone": "+91 512 259 6100",
+    "Emails": {
+      "Registrar": "registrar@iitk.ac.in",
+      "Admissions": "admissions@iitk.ac.in",
+      "PlacementCell": "placement@iitk.ac.in"
+    }
+  }
+}
+

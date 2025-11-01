@@ -1,0 +1,626 @@
+{
+  "Name": "Indian Institute of Technology (BHU) Varanasi - IIT (BHU) Varanasi",
+  "Location": {
+    "City": "Varanasi",
+    "District": "Varanasi",
+    "State": "Uttar Pradesh",
+    "Country": "India",
+    "Pin": "221005",
+    "CampusAreaAcres": 1300,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Banaras Hindu University campus on banks of Ganga river"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1919,
+    "OriginalName": "Banaras Engineering College (BENCO)",
+    "Renamed": [
+      {
+        "Year": 1968,
+        "Name": "Institute of Technology, BHU (IT-BHU)"
+      },
+      {
+        "Year": 2012,
+        "Name": "Indian Institute of Technology (BHU) Varanasi"
+      }
+    ],
+    "HistoricalSignificance": "Oldest technical institution among all IITs, established as BENCO in 1919. First in India to start degree courses in Mining, Metallurgy, Ceramic Engineering, and Pharmaceutics. Converted to IIT in 2012."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "IIT (BHU) Varanasi stands as one of India's oldest and most prestigious technical institutions with a glorious history spanning over a century. Located in the magnificent 1,300-acre campus of Banaras Hindu University on the banks of the holy river Ganga, uniquely combining traditional Indian values with modern technological education.",
+    "StudentStrength": "Over 10,000 students with 400+ faculty members",
+    "MajorEvents": [
+      "Technex - Asia's largest technical festival",
+      "Kashi Yatra - Cultural heritage festival",
+      "FMC Weekend - Film and media festival",
+      "Spardha - Sports festival"
+    ],
+    "ResearchFocus": [
+      "Artificial Intelligence",
+      "Ceramic Engineering",
+      "Advanced Materials",
+      "Metallurgical Processes",
+      "Mining Technologies",
+      "Pharmaceutical Research",
+      "Water Resources",
+      "Environmental Engineering"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities worldwide"
+    ],
+    "SocialInitiatives": [
+      "Kashi Uthkarsh",
+      "Community outreach",
+      "Social service programs"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 30,
+      "Engineering": 10,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 30,
+      "Innovation": 0
+    },
+    "QSWorld2026": 526,
+    "QSAsia2025": 261,
+    "IndiaTodayEngineering2024": 10,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Ceramic Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Electrical Engineering",
+          "Electronics Engineering",
+          "Mechanical Engineering",
+          "Metallurgical Engineering",
+          "Mining Engineering",
+          "Pharmaceutical Engineering and Technology"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Advanced", "JoSAA counseling"],
+        "Seats": 900,
+        "FirstYearFeeINR": 218000,
+        "TotalFeesINRApprox": 835000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["JEE Main Paper 2"],
+        "Seats": 40,
+        "FirstYearFeeINR": 200000,
+        "TotalFeesINRApprox": 1000000
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 25,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "COAP"],
+        "FirstYearFeeINR": 40000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "Not listed"
+      },
+      "MBA": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0
+      },
+      "MSc": {
+        "Disciplines": [
+          "Applied Physics",
+          "Applied Chemistry",
+          "Applied Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["IIT JAM"],
+        "FirstYearFeeINR": 46315,
+        "Seats": 100
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 50,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "4-6",
+        "FeeINRPerYear": 15000,
+        "SeatsMoreThan": 500
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 1275,
+      "Maximum": 1275,
+      "Note": "₹5,100 for entire UG program (remarkably affordable)"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Advanced/JEE Main Paper 2",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": "Architecture Aptitude Test"
+      },
+      "BDes": {
+        "Exam": "UCEED",
+        "Counseling": "Centralized counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "COAP",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["Group Discussion", "Personal Interview"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main", "JEE Advanced"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 300,
+      "DataScienceAIClosingAIR": 500,
+      "ECEClosingAIR": 1200,
+      "MechEngClosingAIR": 2800,
+      "ElectEngClosingAIR": 1200,
+      "CivilEngClosingAIR": 5500
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 0,
+      "OBCPercentile": 0,
+      "SCSTPercentileMin": 0
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories with multiple rounds of seat allotment."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 800,
+      "Recruiters": 300,
+      "HighestPackageINR": 500000000,
+      "HighestDomesticPackageINR": 500000000,
+      "OverallAveragePackageINR": 2200000,
+      "CSEAveragePackageINR": 2480000,
+      "ECEAveragePackageINR": 2740000,
+      "MBA median package INR": 0,
+      "PPOs": 150,
+      "TopRecruiters": [
+        "Qualcomm",
+        "Uber",
+        "Goldman Sachs",
+        "JP Morgan",
+        "Microsoft",
+        "Google",
+        "Amazon",
+        "Flipkart",
+        "Adobe",
+        "Oracle",
+        "SAP Labs",
+        "Texas Instruments",
+        "Nvidia",
+        "Intel",
+        "Samsung",
+        "Cisco",
+        "Deloitte",
+        "PwC",
+        "EY",
+        "KPMG",
+        "McKinsey & Company",
+        "BCG",
+        "Schlumberger",
+        "Tata Steel",
+        "Aditya Birla Group"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Scientist",
+        "Business Analyst",
+        "R&D Engineer",
+        "Consultant",
+        "Financial Analyst",
+        "Ceramic Engineer",
+        "Metallurgist",
+        "Mining Engineer"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Technical seminars",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 16,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Rooms",
+        "TV facilities",
+        "Security and Surveillance"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 88609,
+      "EJournalsCount": 15000,
+      "Features": [
+        "Digital resources",
+        "24/7 access",
+        "50,000+ e-books",
+        "50+ terminals",
+        "Inter-library loan",
+        "Reference services"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 100,
+      "FocusAreas": [
+        "Ceramic Engineering",
+        "Metallurgical Engineering",
+        "Mining Engineering",
+        "Pharmaceutical Research",
+        "Materials Science",
+        "Chemical Engineering",
+        "Electronics"
+      ],
+      "Equipment": [
+        "Transmission Electron Microscopy",
+        "12 research-focused labs",
+        "Advanced scientific instruments",
+        "Specialized equipment"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Olympic-sized Swimming Pool",
+        "Tennis Courts",
+        "Indoor Squash Courts",
+        "Basketball Courts",
+        "Volleyball Courts",
+        "Badminton Courts",
+        "Cricket, Football Grounds",
+        "Athletics Tracks",
+        "Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Medical facilities on campus",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Access to BHU hospital facilities",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Cafeterias",
+        "Food courts"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Regional cuisines",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Gymkhana facilities",
+      "Banks and ATMs",
+      "Post Office",
+      "Shopping Areas",
+      "Guest Houses",
+      "Places of Worship",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 60,
+      "Types": [
+        "Technical (Robotics, Coding)",
+        "Cultural (Music, Dance, Drama)",
+        "Film and Media",
+        "Entrepreneurship",
+        "Social Service",
+        "Photography",
+        "Literature"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 18,
+    "DepartmentsList": [
+      "Ceramic Engineering",
+      "Chemical Engineering and Technology",
+      "Civil Engineering",
+      "Computer Science and Engineering",
+      "Electrical Engineering",
+      "Electronics Engineering",
+      "Materials Science and Technology",
+      "Mathematical Sciences",
+      "Mechanical Engineering",
+      "Metallurgical Engineering",
+      "Mining Engineering",
+      "Pharmaceutical Engineering and Technology",
+      "Applied Physics",
+      "Applied Chemistry",
+      "Applied Mechanics",
+      "Architecture Planning and Design",
+      "Humanities and Social Sciences",
+      "Management Studies"
+    ],
+    "ResearchCenters": [
+      "3 interdisciplinary schools",
+      "School of Materials Science and Technology",
+      "School of Biomedical Engineering",
+      "School of Biochemical Engineering"
+    ],
+    "Strength": {
+      "FacultyCount": 400,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Government ministries",
+      "Private industries"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry consultancy"
+    ],
+    "StudentFeedback": "Highly knowledgeable faculty, excellent research in specialized areas"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "SC/ST/PwD Full Tuition Fee Waiver",
+      "Income-based fee concessions",
+      "Merit-cum-means scholarships",
+      "GATE/NET Fellowships",
+      "Research Fellowships",
+      "National Scholarship Portal schemes"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Support",
+      "Monthly Stipends",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.5,
+    "CollegeDuniaReviewsCount": 1500,
+    "Careers360Rating": 4.6,
+    "Strengths": [
+      "Oldest technical institution among IITs",
+      "Only Ceramic Engineering department in IIT system",
+      "Excellent placements",
+      "Heritage campus on Ganga river",
+      "NIRF Engineering 10th rank",
+      "QS World 526th",
+      "Century-long legacy"
+    ],
+    "Weaknesses": [
+      "Competitive admissions",
+      "Academic pressure",
+      "Older infrastructure in some areas"
+    ],
+    "ReturnOnInvestment": "Excellent"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India",
+    "CulturalTraditions": [
+      "Technex traditions",
+      "Kashi Yatra cultural heritage",
+      "FMC Weekend",
+      "Spardha sports festivals",
+      "Varanasi spiritual culture"
+    ],
+    "Festivals": [
+      "Technex - Technical Festival",
+      "Kashi Yatra - Cultural Heritage Festival",
+      "FMC Weekend - Film Festival",
+      "Spardha - Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Robotics",
+      "Coding",
+      "Science and Technology Council",
+      "Film and Media Council",
+      "Cultural Council",
+      "Sports Council",
+      "Social Service Council",
+      "Music & Dance",
+      "Drama",
+      "Photography",
+      "Literature"
+    ],
+    "OutdoorActivities": [
+      "Ganga river activities",
+      "Temple visits",
+      "Cultural exploration",
+      "Sports activities"
+    ],
+    "StudentGovernance": "Gymkhana with 5 councils",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Swimming Pool",
+      "Sports Facilities",
+      "Medical facilities",
+      "Counseling Services"
+    ],
+    "Community": "Unique blend of spiritual heritage and modern technical education"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1919,
+    "Founder": "Bharat Ratna Mahamana Pandit Madan Mohan Malaviya",
+    "InitialFocus": "First engineering college in India for systematic technical education",
+    "Evolution": [
+      "1919: Established as Banaras Engineering College (BENCO)",
+      "1920: First convocation ceremony",
+      "1924: Glass and Ceramic Technology courses started",
+      "1968: Merged to form IT-BHU",
+      "2012: Converted to IIT (BHU) Varanasi"
+    ],
+    "Legacy": "Pioneer of engineering education in India, oldest technical institution among all IITs",
+    "Heritage": "1,300-acre heritage campus on Ganga river with Indo-Gothic architecture"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Ceramic Engineering",
+      "Metallurgical Engineering",
+      "Mining Technologies",
+      "Pharmaceutical Research",
+      "Advanced Materials",
+      "Artificial Intelligence",
+      "Sustainable Technologies",
+      "Water Resources"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Pioneer in Ceramic Engineering, Mining, Metallurgy, and Pharmaceutics education in India, significant research contributions over 100 years",
+    "Startups": {
+      "Number": 80,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "IIT BHU PhD Admissions 2025-26",
+      "Date": "2025-09-01",
+      "Details": "Admissions open for various departments"
+    },
+    {
+      "Event": "Technex 2025",
+      "StartDate": "2025-03-15",
+      "EndDate": "2025-03-19",
+      "Theme": "Asia's largest technical festival"
+    },
+    {
+      "Event": "Kashi Yatra 2025",
+      "StartDate": "2025-01-20",
+      "EndDate": "2025-01-24",
+      "Theme": "Cultural heritage festival"
+    },
+    {
+      "Event": "JEE Advanced 2025",
+      "Date": "2025-05-25"
+    },
+    {
+      "RecurringEvents": [
+        "Technex Tech Fest (Annually)",
+        "Kashi Yatra Cultural Fest (Annually)",
+        "Spardha Sports Fest (Annually)",
+        "FMC Weekend (Annually)"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.iitbhu.ac.in",
+    "Address": "Indian Institute of Technology (BHU) Varanasi, Banaras Hindu University, Varanasi, Uttar Pradesh 221005, India",
+    "Phone": "+91 542 670 2063",
+    "Emails": {
+      "Registrar": "registrar@iitbhu.ac.in",
+      "Admissions": "admissions@iitbhu.ac.in",
+      "PlacementCell": "placement@iitbhu.ac.in"
+    }
+  }
+}
+

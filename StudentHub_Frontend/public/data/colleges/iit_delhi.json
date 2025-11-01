@@ -1,0 +1,617 @@
+{
+  "Name": "Indian Institute of Technology Delhi (IIT Delhi)",
+  "Location": {
+    "City": "New Delhi",
+    "District": "Delhi",
+    "State": "Delhi",
+    "Country": "India",
+    "Pin": "110016",
+    "CampusAreaAcres": 320,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Hauz Khas, New Delhi"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1961,
+    "OriginalName": "College of Engineering and Technology",
+    "Renamed": [
+      {
+        "Year": 1963,
+        "Name": "Indian Institute of Technology Delhi"
+      }
+    ],
+    "HistoricalSignificance": "Third-oldest IIT established with Indo-British collaboration, founded with assistance from the British Government and the Federation of British Industries in London."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance",
+    "Institute of Eminence"
+  ],
+  "About": {
+    "Overview": "IIT Delhi stands as one of India's most prestigious institutions of higher technical education and the third-oldest IIT in the country. Located in Hauz Khas, South Delhi, the institute occupies a sprawling 320-acre campus that serves as a green oasis in the heart of India's capital city.",
+    "StudentStrength": "Over 10,000 students including international nationals",
+    "MajorEvents": [
+      "Tryst - Technical festival",
+      "Rendezvous - Cultural festival",
+      "Sports competitions"
+    ],
+    "ResearchFocus": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Sustainable Energy",
+      "Robotics and Automation",
+      "Nanotechnology",
+      "Innovation and Entrepreneurship"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "Sorbonne University",
+      "École Polytechnique",
+      "University of Exeter",
+      "University College London",
+      "International Energy Agency"
+    ],
+    "SocialInitiatives": [
+      "Centre for Rural Development and Technology",
+      "Environmental conservation",
+      "Healthcare accessibility",
+      "Educational outreach"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 4,
+      "Engineering": 2,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 4,
+      "Innovation": 0
+    },
+    "QSWorld2026": 150,
+    "QSAsia2025": 46,
+    "IndiaTodayEngineering2024": 3,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Mathematics and Computing Engineering",
+          "Electrical Engineering",
+          "Electrical Engineering (Power and Automation)",
+          "Engineering and Computational Mechanics",
+          "Mechanical Engineering",
+          "Chemical Engineering",
+          "Engineering Physics",
+          "Energy Science and Engineering",
+          "Production and Industrial Engineering",
+          "Materials Engineering",
+          "Civil Engineering",
+          "Biochemical Engineering and Biotechnology",
+          "Textile Technology"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Advanced", "JoSAA counseling"],
+        "Seats": 1000,
+        "FirstYearFeeINR": 122400,
+        "TotalFeesINRApprox": 863000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 4,
+        "Entrance": ["UCEED"],
+        "Seats": 20,
+        "FirstYearFeeINR": 100000,
+        "TotalFeesINRApprox": 866000
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 50,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "COAP"],
+        "FirstYearFeeINR": 35000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["CEED"],
+        "SeatsVaries": true,
+        "FeeInformation": "₹17,500/semester"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "PI"],
+        "Seats": 100,
+        "FirstYearFeeINR": 300000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Applied Statistics and Informatics",
+          "Economics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["IIT JAM"],
+        "FirstYearFeeINR": 15000,
+        "Seats": 150
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 50,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 15000,
+        "SeatsMoreThan": 1000
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 43000,
+      "Maximum": 51000,
+      "Note": "Includes hostel, mess, and other charges per semester approximately ₹43,000-51,000"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Advanced",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": "Not applicable"
+      },
+      "BDes": {
+        "Exam": "UCEED",
+        "Counseling": "Centralized counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "COAP",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["Group Discussion", "Personal Interview"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main", "JEE Advanced"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 126,
+      "DataScienceAIClosingAIR": 323,
+      "ECEClosingAIR": 605,
+      "MechEngClosingAIR": 1862,
+      "ElectEngClosingAIR": 605,
+      "CivilEngClosingAIR": 4302
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 12217,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 94,
+      "OBCPercentile": 85,
+      "SCSTPercentileMin": 75
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories with multiple rounds of seat allotment for JEE Advanced."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 1200,
+      "Recruiters": 250,
+      "HighestPackageINR": 450000000,
+      "HighestDomesticPackageINR": 450000000,
+      "OverallAveragePackageINR": 2300000,
+      "CSEAveragePackageINR": 3300000,
+      "ECEAveragePackageINR": 2900000,
+      "MBA median package INR": 1900000,
+      "PPOs": 220,
+      "TopRecruiters": [
+        "Jane Street",
+        "Two Sigma",
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Goldman Sachs",
+        "Qualcomm",
+        "Texas Instruments",
+        "Intel",
+        "Apple",
+        "Tower Research",
+        "McKinsey & Company",
+        "Boston Consulting Group",
+        "American Express",
+        "JP Morgan",
+        "Morgan Stanley"
+      ],
+      "JobProfiles": [
+        "Quantitative Trader",
+        "Software Development Engineer",
+        "Data Science",
+        "Research and Development",
+        "Consulting",
+        "Analytics",
+        "Hardware Design",
+        "Management"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects",
+        "Group discussions"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 14,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Rooms",
+        "Water Purifiers"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 300000,
+      "EJournalsCount": 0,
+      "Features": [
+        "Digital resources",
+        "24/7 access",
+        "Group study zones",
+        "Computer terminals",
+        "Photocopying services"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 100,
+      "FocusAreas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Robotics",
+        "Nanotechnology",
+        "Biomedical Engineering",
+        "Aerospace",
+        "Materials Science",
+        "Sustainable Energy"
+      ],
+      "Equipment": [
+        "Sophisticated analytical instruments",
+        "Computational facilities",
+        "Research instrumentation"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Swimming Pool",
+        "Athletics Tracks",
+        "Indoor Stadium",
+        "Basketball",
+        "Tennis, Volleyball Courts",
+        "Football, Cricket Grounds",
+        "Badminton, Table Tennis",
+        "Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "IIT Delhi Hospital",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Specialist Consultations",
+        "Ambulance Services",
+        "24x7 Ambulance"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Food Courts",
+        "Cafés"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Dietary options",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Amphitheatre",
+      "Banks and ATMs",
+      "Post Office",
+      "Shopping Areas",
+      "Printing Press",
+      "Staff Club",
+      "Student Activity Centre",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 60,
+      "Types": [
+        "Technical (Robotics, Coding)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Social Service",
+        "Film Club",
+        "Photography"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 13,
+    "DepartmentsList": [
+      "Applied Mechanics",
+      "Biochemical Engineering and Biotechnology",
+      "Chemical Engineering",
+      "Chemistry",
+      "Civil Engineering",
+      "Computer Science and Engineering",
+      "Electrical Engineering",
+      "Energy Science and Engineering",
+      "Management Studies",
+      "Mathematics",
+      "Mechanical Engineering",
+      "Physics",
+      "Textile Technology"
+    ],
+    "ResearchCenters": [
+      "Foundation for Innovation and Technology Transfer (FITT)",
+      "Research and Innovation Park",
+      "Centre for Rural Development and Technology",
+      "Centre for Energy Studies",
+      "Centre for Automotive Research",
+      "Centre for Biomedical Engineering"
+    ],
+    "Strength": {
+      "FacultyCount": 550,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "Sorbonne University",
+      "École Polytechnique",
+      "University of Exeter",
+      "University College London",
+      "International Energy Agency"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry consultancy",
+      "Award winners and fellows"
+    ],
+    "StudentFeedback": "Highly knowledgeable faculty, excellent teaching quality"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Income-based fee concessions",
+      "SC/ST Full Tuition Fee Waiver",
+      "EWS Scholarships",
+      "GATE/NET Fellowships",
+      "Research Fellowships",
+      "Industry-sponsored Fellowships",
+      "National Scholarship Portal schemes"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Support",
+      "Monthly Stipends",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.7,
+    "CollegeDuniaReviewsCount": 2200,
+    "Careers360Rating": 4.8,
+    "Strengths": [
+      "Exceptional placements with top companies",
+      "World-class faculty and research",
+      "Excellent campus infrastructure",
+      "Vibrant cultural life with Rendezvous",
+      "Strong industry connections",
+      "Number 2 engineering ranking in India",
+      "QS World 150th"
+    ],
+    "Weaknesses": [
+      "Very competitive admissions",
+      "High academic pressure",
+      "Limited hostel availability"
+    ],
+    "ReturnOnInvestment": "Exceptional"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India and internationally",
+    "CulturalTraditions": [
+      "Rendezvous traditions",
+      "Fresher's Welcome events",
+      "Regular informal gatherings"
+    ],
+    "Festivals": [
+      "Rendezvous - Cultural Festival",
+      "Tryst - Technical Festival",
+      "Sports competitions"
+    ],
+    "ClubsAndSocieties": [
+      "Robotics",
+      "Coding",
+      "Entrepreneurship Cell",
+      "Literature & Debate",
+      "Music & Dance",
+      "Drama and Cinema",
+      "Film Club",
+      "Photography",
+      "Social Service"
+    ],
+    "OutdoorActivities": [
+      "Hauz Khas exploration",
+      "Delhi city life",
+      "Sports activities"
+    ],
+    "StudentGovernance": "Student representative bodies and governance",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Swimming Pools",
+      "Sports Facilities",
+      "Medical facilities",
+      "Student Activity Centre"
+    ],
+    "Community": "Inclusive ecosystem with cultural, linguistic diversity"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1961,
+    "Founder": "British Government with Indo-British collaboration",
+    "InitialFocus": "Engineering and technology education with Indo-British collaboration",
+    "Evolution": [
+      "1959: Foundation stone laid by Prince Philip, Duke of Edinburgh",
+      "1961: First admissions and formal inauguration",
+      "1963: Declared as Indian Institute of Technology Delhi",
+      "2011: Golden Jubilee celebrated"
+    ],
+    "Legacy": "Pioneer in India's engineering education and technological innovation",
+    "Heritage": "320-acre campus in Hauz Khas, green oasis in heart of Delhi"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Sustainable Energy",
+      "Robotics and Automation",
+      "Nanotechnology",
+      "Biomedical Engineering",
+      "Electric Mobility",
+      "Quantum Computing"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Foundation for Innovation and Technology Transfer (FITT), over 1,300 patents, Research and Innovation Park",
+    "Startups": {
+      "Number": 150,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "IIT Delhi PhD Admissions 2025-26",
+      "Date": "2025-09-01",
+      "Details": "Admissions open for various departments"
+    },
+    {
+      "Event": "Rendezvous 2025",
+      "StartDate": "2025-10-10",
+      "EndDate": "2025-10-14",
+      "Theme": "Cultural festival"
+    },
+    {
+      "Event": "Tryst 2025",
+      "StartDate": "2025-03-01",
+      "EndDate": "2025-03-05",
+      "Theme": "Technical festival"
+    },
+    {
+      "Event": "CAT 2025 Registration",
+      "StartDate": "2025-08-01",
+      "EndDate": "2025-09-13"
+    },
+    {
+      "Event": "CAT 2025 Examination",
+      "Date": "2025-11-30"
+    },
+    {
+      "RecurringEvents": [
+        "Rendezvous Cultural Fest (Annually)",
+        "Tryst Tech Fest (Annually)",
+        "Entrepreneurship summits"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://home.iitd.ac.in",
+    "Address": "Indian Institute of Technology Delhi, Hauz Khas, New Delhi, Delhi 110016, India",
+    "Phone": "+91 11 2659 7135",
+    "Emails": {
+      "Registrar": "registrar@iitd.ac.in",
+      "Admissions": "acad@iitd.ac.in",
+      "PlacementCell": "placement@iitd.ac.in"
+    }
+  }
+}
+
