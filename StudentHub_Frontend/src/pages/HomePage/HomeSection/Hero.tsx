@@ -15,9 +15,9 @@ import RankometerIcon from "../../../assets/Rankometer.svg";
 const menuItems = [
   { icon: RankometerIcon, label: "Rankometer", path: "/rankometer" },
   { icon: NewsIcon, label: "News", path: "/news" },
-  { icon: ExamsIcon, label: "Exams", path: "/exams" },
+  { icon: MockTestsIcon, label: "Exams", path: "/exams" },
   { icon: CollegesIcon, label: "Colleges", path: "/colleges" },
-  { icon: MockTestsIcon, label: "Mock Tests", path: "/mock-tests" },
+  { icon: ExamsIcon, label: "Mock Tests", path: "/mock-tests" },
   { icon: TrainingIcon, label: "Career Guidance\nTest", path: "/psychometric-test" },
   { icon: ArticlesIcon, label: "Articles", path: "/articles" },
   { icon: CollegePredictorIcon, label: "College Predictor", path: "/college-predictor" },

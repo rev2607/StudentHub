@@ -311,6 +311,13 @@ export const colleges: College[] = [
   createCollege({ id: "clg-18", slug: "amrita-coimbatore", name: "Amrita Vishwa Vidyapeetham (Coimbatore)", state: "Tamil Nadu", location: "Coimbatore, Tamil Nadu", nirfRank: 19, establishmentYear: 1994 }),
   createCollege({ id: "clg-19", slug: "psg-tech", name: "PSG College of Technology", state: "Tamil Nadu", location: "Coimbatore, Tamil Nadu", nirfRank: 63, establishmentYear: 1951 }),
   createCollege({ id: "clg-20", slug: "dtu-delhi", name: "Delhi Technological University (DTU)", state: "Delhi", location: "New Delhi, Delhi", nirfRank: 29, establishmentYear: 1941 }),
+  createCollege({ id: "clg-21", slug: "srm", name: "SRM Institute of Science and Technology", state: "Tamil Nadu", location: "Chennai, Tamil Nadu", nirfRank: 14, establishmentYear: 1985 }),
+  createCollege({ id: "clg-22", slug: "thapar", name: "Thapar Institute of Engineering and Technology", state: "Punjab", location: "Patiala, Punjab", nirfRank: 29, establishmentYear: 1956 }),
+  createCollege({ id: "clg-23", slug: "soa-bhubaneswar", name: "Siksha 'O' Anusandhan (SOA) Bhubaneswar", state: "Odisha", location: "Bhubaneswar, Odisha", nirfRank: 22, establishmentYear: 1996 }),
+  createCollege({ id: "clg-24", slug: "amity-noida", name: "Amity University, Noida", state: "Uttar Pradesh", location: "Noida, Uttar Pradesh", nirfRank: 30, establishmentYear: 2005 }),
+  createCollege({ id: "clg-25", slug: "chandigarh-university", name: "Chandigarh University", state: "Punjab", location: "Mohali, Punjab", nirfRank: 32, establishmentYear: 2012 }),
+  createCollege({ id: "clg-26", slug: "kl-university", name: "KL University (KLEF)", state: "Andhra Pradesh", location: "Vaddeswaram, Guntur", nirfRank: 35, establishmentYear: 1980 }),
+  createCollege({ id: "clg-27", slug: "kalasalingam", name: "Kalasalingam Academy of Research and Education", state: "Tamil Nadu", location: "Krishnankoil, Virudhunagar", nirfRank: 33, establishmentYear: 1984 }),
 ];
 
 

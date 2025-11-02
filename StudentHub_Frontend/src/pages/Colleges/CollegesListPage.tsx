@@ -3,8 +3,6 @@ import CollegeCard from "../../components/CollegeCard";
 import FiltersSidebar from "../../components/FiltersSidebar";
 import { colleges } from "../../data/colleges";
 
-const PAGE_SIZE = 20;
-
 export default function CollegesListPage() {
   const [query, setQuery] = useState("");
   const [filters, setFilters] = useState({
@@ -15,7 +13,6 @@ export default function CollegesListPage() {
     feesMin: null as number | null,
     feesMax: null as number | null,
   });
-  const [page, setPage] = useState(1);
 
   const states = useMemo(() => Array.from(new Set(colleges.map((c) => c.state))).sort(), []);
   const streams = useMemo(() => Array.from(new Set(colleges.map((c) => c.stream))).sort(), []);
@@ -47,9 +44,6 @@ export default function CollegesListPage() {
     return list;
   }, [query, filters]);
 
-  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
-  const pageItems = filtered.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
-
   const handleFiltersChange = useCallback((f: {
     states: string[];
     streams: string[];
@@ -59,7 +53,6 @@ export default function CollegesListPage() {
     feesMax: number | null;
   }) => {
     setFilters(f);
-    setPage(1);
   }, []);
 
   return (
@@ -74,31 +67,13 @@ export default function CollegesListPage() {
             placeholder="Search colleges by name..."
             className="flex-1 border rounded-lg p-2"
             value={query}
-            onChange={(e) => { setQuery(e.target.value); setPage(1); }}
+            onChange={(e) => { setQuery(e.target.value); }}
           />
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {pageItems.map((c) => (
+          {filtered.map((c) => (
             <CollegeCard key={c.id} college={c} />
           ))}
-        </div>
-
-        <div className="mt-6 flex items-center justify-center gap-2">
-          <button
-            className="px-3 py-1 rounded border disabled:opacity-50"
-            onClick={() => setPage((p) => Math.max(1, p - 1))}
-            disabled={page === 1}
-          >
-            Prev
-          </button>
-          <span className="text-sm">Page {page} of {totalPages}</span>
-          <button
-            className="px-3 py-1 rounded border disabled:opacity-50"
-            onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
-            disabled={page === totalPages}
-          >
-            Next
-          </button>
         </div>
       </div>
     </div>
