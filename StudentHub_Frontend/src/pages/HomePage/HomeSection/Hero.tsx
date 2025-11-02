@@ -4,22 +4,23 @@ import { useNavigate } from "react-router-dom";
 // Import SVG icons
 import NewsIcon from "../../../assets/news.svg";
 import ExamsIcon from "../../../assets/examination.svg";
-import EngineeringIcon from "../../../assets/Engineering.svg";
-import MockTestsIcon from "../../../assets/examination.svg";
+import CollegesIcon from "../../../assets/Colleges.svg";
+import MockTestsIcon from "../../../assets/Courses.svg";
 import TrainingIcon from "../../../assets/Engineering.svg";
-import MBBSIcon from "../../../assets/MBBS.svg";
-import StudyAbroadIcon from "../../../assets/study abroad.svg";
+import ArticlesIcon from "../../../assets/Articles.svg";
+import CollegePredictorIcon from "../../../assets/CollegePredictor.svg";
 import ReviewsIcon from "../../../assets/Review.svg";
+import RankometerIcon from "../../../assets/Rankometer.svg";
 
 const menuItems = [
-  { icon: "/rankometer.png", label: "Rankometer", path: "/rankometer" },
+  { icon: RankometerIcon, label: "Rankometer", path: "/rankometer" },
   { icon: NewsIcon, label: "News", path: "/news" },
   { icon: ExamsIcon, label: "Exams", path: "/exams" },
-  { icon: EngineeringIcon, label: "Colleges", path: "/colleges" },
+  { icon: CollegesIcon, label: "Colleges", path: "/colleges" },
   { icon: MockTestsIcon, label: "Mock Tests", path: "/mock-tests" },
   { icon: TrainingIcon, label: "Career Guidance\nTest", path: "/psychometric-test" },
-  { icon: MBBSIcon, label: "Articles", path: "/articles" },
-  { icon: StudyAbroadIcon, label: "College Predictor", path: "/college-predictor" },
+  { icon: ArticlesIcon, label: "Articles", path: "/articles" },
+  { icon: CollegePredictorIcon, label: "College Predictor", path: "/college-predictor" },
   { icon: ReviewsIcon, label: "Internships", path: "/internships" },
 ];
 
