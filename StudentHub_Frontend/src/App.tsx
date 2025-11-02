@@ -99,7 +99,6 @@ function App() {
             <Route path="/colleges" element={<CollegesListPage />} />
             <Route path="/colleges/:slug" element={<CollegeDetailPage />} />
             <Route path="/colleges/iit-roorkee" element={<IITRoorkeePage />} />
-<<<<<<< Updated upstream
             <Route path="/colleges/iit-madras" element={<IITMadrasPage />} />
             <Route path="/colleges/iit-bombay" element={<IITBombayPage />} />
             <Route path="/colleges/iit-delhi" element={<IITDelhiPage />} />
@@ -109,7 +108,6 @@ function App() {
             <Route path="/colleges/iit-guwahati" element={<IITGuwahatiPage />} />
             <Route path="/colleges/iit-bhu-varanasi" element={<IITBHUVaranasiPage />} />
             <Route path="/colleges/nit-trichy" element={<NITTrichyPage />} />
-=======
             <Route path="/colleges/amity-noida" element={<AmityNoidaPage />} />
             <Route path="/colleges/bits-pilani" element={<BITSPilaniPage />} />
             <Route path="/colleges/srm" element={<SRMPage />} />
@@ -130,7 +128,6 @@ function App() {
             <Route path="/colleges/kare" element={<KalasalingamAcademyPage />} />
             <Route path="/colleges/vit-vellore" element={<VitVellorePage />} />
             <Route path="/colleges/vit" element={<VitVellorePage />} />
->>>>>>> Stashed changes
             <Route path="/psychometric-test" element={<PsychometricTest />} />
             <Route path="/articles" element={<ArticlesLandingPage />} />
             <Route path="/articles/:slug" element={<ArticleDetailPage />} />
