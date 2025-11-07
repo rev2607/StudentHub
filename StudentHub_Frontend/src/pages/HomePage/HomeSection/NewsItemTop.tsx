@@ -91,7 +91,7 @@ function NewsItemTop() {
 
   if (loading) {
     return (
-      <section className="relative mb-8 md:-translate-y-2/3 md:mb-0" style={{ transform: undefined }}>
+      <section className="relative mb-2 md:-translate-y-2/3 md:mb-0" style={{ transform: undefined }}>
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-xl text-black md:text-white text-center mb-4 md:mb-6">Latest News and Notifications</h2>
           <div className="text-center py-8">
@@ -104,7 +104,7 @@ function NewsItemTop() {
   }
 
   return (
-    <section className="relative mb-8 md:-translate-y-2/3 md:mb-0" style={{ transform: undefined }}>
+    <section className="relative mb-2 md:-translate-y-2/3 md:mb-0" style={{ transform: undefined }}>
       <div className="max-w-4xl mx-auto px-4">
         <div className="flex items-center justify-center gap-4 mb-4 md:mb-6">
           <h2 className="text-xl text-black md:text-white text-center">

@@ -122,6 +122,18 @@ const Hero = () => {
                 Search
               </button>
                 </form>
+                <h2
+                  className="font-bold text-white mt-6"
+                  style={{
+                    fontFamily: 'Poppins, sans-serif',
+                    lineHeight: '1.1',
+                    position: 'relative',
+                    zIndex: 1,
+                    fontSize: '22px'
+                  }}
+                >
+                  Welcome to StudentHub – The Learning Network for Students
+                </h2>
               </div>
             </div>
           </div>
