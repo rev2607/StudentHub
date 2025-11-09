@@ -36,10 +36,10 @@ scheduler = BackgroundScheduler()
 def refresh_news_job():
     """Scheduled job to refresh news cache every hour"""
     try:
-        print("🔄 Running scheduled news refresh...")
+        print("[INFO] Running scheduled news refresh...")
         news_service.fetch_and_cache_news()
     except Exception as e:
-        print(f"❌ Scheduled news refresh failed: {str(e)}")
+        print(f"[ERROR] Scheduled news refresh failed: {str(e)}")
 
 if os.getenv("DISABLE_SCHEDULER") != "1":
     # Schedule news refresh every 18 hours
@@ -93,15 +93,15 @@ def health():
 async def startup_event():
     """Initialize news cache on startup"""
     try:
-        print("🚀 Starting StudentHub backend...")
+        print("[INFO] Starting StudentHub backend...")
         if news_service.supabase_enabled and os.getenv("DISABLE_SCHEDULER") != "1":
-            print("🔄 Populating initial news cache...")
+            print("[INFO] Populating initial news cache...")
             news_service.fetch_and_cache_news()
         else:
-            print("⚠️ Supabase not configured, news caching disabled")
-        print("✅ Startup completed successfully")
+            print("[WARNING] Supabase not configured, news caching disabled")
+        print("[SUCCESS] Startup completed successfully")
     except Exception as e:
-        print(f"⚠️ Startup warning: {str(e)}")
+        print(f"[WARNING] Startup warning: {str(e)}")
         # Don't fail startup if news cache fails
 
 # Serve index.html for all non-API routes (for React Router)

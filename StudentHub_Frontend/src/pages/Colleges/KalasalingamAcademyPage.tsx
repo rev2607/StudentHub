@@ -13,6 +13,7 @@ import {
   ChevronRight
 } from "lucide-react";
 import AdmissionPredictorModal from "../../components/AdmissionPredictorModal";
+import BrochureModal from "../../components/BrochureModal";
 
 // Import Kalasalingam Academy data service
 import { loadKalasalingamAcademyData, type KalasalingamAcademyData } from "../../services/collegeDataService";
@@ -49,6 +50,7 @@ const KalasalingamAcademyPage: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isPredictorModalOpen, setIsPredictorModalOpen] = useState(false);
+  const [isBrochureModalOpen, setIsBrochureModalOpen] = useState(false);
   const [showBackToTop, setShowBackToTop] = useState(false);
   const mainContentRef = useRef<HTMLDivElement | null>(null);
   const sidebarRef = useRef<HTMLDivElement | null>(null);
@@ -496,7 +498,7 @@ const KalasalingamAcademyPage: React.FC = () => {
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Quick Actions</h3>
         <div className="grid grid-cols-2 gap-3 text-sm">
           <button onClick={() => scrollToSection('contact', 'contact-root')} className="px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">Contact</button>
-          <button className="px-3 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Download Brochure</button>
+          <button onClick={() => setIsBrochureModalOpen(true)} className="px-3 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Download Brochure</button>
         </div>
       </div>
 
@@ -2791,102 +2793,6 @@ const KalasalingamAcademyPage: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">What Students and Alumni Say</h3>
-        <p className="text-gray-700 mb-3">
-          Reviews consistently highlight strong academics, helpful faculty, competitive peer groups, and an energetic
-          campus culture. Placement support, hostel life, and clubs are frequently cited positives, with suggestions often
-          focused on infrastructure upgrades and course flexibility.
-        </p>
-        <div className="overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead className="text-gray-600">
-              <tr>
-                <th className="text-left py-2 pr-4">Platform</th>
-                <th className="text-left py-2 pr-4">Rating</th>
-                <th className="text-left py-2">Notes</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="py-2 pr-4 font-medium">CollegeDunia</td>
-                <td className="py-2 pr-4">{collegeData.ReviewsAndRatings.CollegeDuniaRating}/5 ({collegeData.ReviewsAndRatings.CollegeDuniaReviewsCount} reviews)</td>
-                <td className="py-2">Academics and placements rated highly</td>
-              </tr>
-              <tr>
-                <td className="py-2 pr-4 font-medium">Careers360</td>
-                <td className="py-2 pr-4">{collegeData.ReviewsAndRatings.Careers360Rating}/5</td>
-                <td className="py-2">Strong faculty and peer culture</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      {/* Overall Ratings */}
-      <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-xl font-semibold mb-4">Overall Ratings</h3>
-        
-        <div className="grid md:grid-cols-2 gap-6">
-          <div>
-            <div className="flex items-center mb-2">
-              <div className="flex items-center">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className={`w-5 h-5 ${i < Math.floor(collegeData.ReviewsAndRatings.CollegeDuniaRating) ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} />
-                ))}
-              </div>
-              <span className="ml-2 text-lg font-semibold">{collegeData.ReviewsAndRatings.CollegeDuniaRating}/5</span>
-            </div>
-            <p className="text-sm text-gray-600">{collegeData.ReviewsAndRatings.CollegeDuniaReviewsCount} reviews on CollegeDunia</p>
-          </div>
-          
-          <div>
-            <div className="flex items-center mb-2">
-              <div className="flex items-center">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className={`w-5 h-5 ${i < Math.floor(collegeData.ReviewsAndRatings.Careers360Rating) ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} />
-                ))}
-              </div>
-              <span className="ml-2 text-lg font-semibold">{collegeData.ReviewsAndRatings.Careers360Rating}/5</span>
-            </div>
-            <p className="text-sm text-gray-600">Rating on Careers360</p>
-          </div>
-        </div>
-      </div>
-
-      {/* Strengths */}
-      <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-xl font-semibold mb-4">Strengths</h3>
-        <div className="grid md:grid-cols-2 gap-4">
-          {collegeData.ReviewsAndRatings.Strengths.map((strength: string, index: number) => (
-            <div key={index} className="flex items-start text-sm">
-              <div className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-              {strength}
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Areas for Improvement */}
-      <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-xl font-semibold mb-4">Areas for Improvement</h3>
-        <div className="grid md:grid-cols-2 gap-4">
-          {collegeData.ReviewsAndRatings.Weaknesses.map((weakness: string, index: number) => (
-            <div key={index} className="flex items-start text-sm">
-              <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-              {weakness}
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Return on Investment */}
-      <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-xl font-semibold mb-4">Return on Investment</h3>
-        <div className="flex items-center">
-          <TrendingUp className="w-6 h-6 text-green-600 mr-2" />
-          <span className="text-lg font-semibold text-green-600">{collegeData.ReviewsAndRatings.ReturnOnInvestment}</span>
-        </div>
-      </div>
     </div>
   );
 
@@ -2981,13 +2887,13 @@ const KalasalingamAcademyPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Quick Actions</h3>
         <div className="grid md:grid-cols-2 gap-4">
-          <button className="flex items-center justify-center px-6 py-3 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">
+          <button onClick={() => setIsBrochureModalOpen(true)} className="flex items-center justify-center px-6 py-3 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">
             <Download className="w-5 h-5 mr-2" />
             Download Brochure
           </button>
           <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             <Mail className="w-5 h-5 mr-2" />
-            Contact Admissions
+            Apply Now
           </button>
           <button onClick={() => setIsPredictorModalOpen(true)} className="flex items-center justify-center px-6 py-3 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-colors md:col-span-2">
             <TrendingUp className="w-5 h-5 mr-2" />
@@ -3075,18 +2981,6 @@ const KalasalingamAcademyPage: React.FC = () => {
                   </div>
                 </div>
               </div>
-              
-              <div className="flex items-center gap-4 mb-4">
-                <div className="flex items-center">
-                  <div className="flex items-center">
-                    {[...Array(5)].map((_, i) => (
-                      <Star key={i} className={`w-4 h-4 ${i < Math.floor(collegeData.ReviewsAndRatings.CollegeDuniaRating) ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} />
-                    ))}
-                  </div>
-                  <span className="ml-2 text-sm font-medium">{collegeData.ReviewsAndRatings.CollegeDuniaRating}/5</span>
-                </div>
-                <span className="text-sm text-gray-600">({collegeData.ReviewsAndRatings.CollegeDuniaReviewsCount} Reviews)</span>
-              </div>
 
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
@@ -3110,13 +3004,13 @@ const KalasalingamAcademyPage: React.FC = () => {
 
             {/* Action Buttons */}
             <div className="flex flex-col gap-3 lg:min-w-[200px]">
-              <button className="flex items-center justify-center px-6 py-3 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">
+              <button onClick={() => setIsBrochureModalOpen(true)} className="flex items-center justify-center px-6 py-3 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">
                 <Download className="w-5 h-5 mr-2" />
                 Download Brochure
               </button>
               <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                 <Mail className="w-5 h-5 mr-2" />
-                Contact Admissions
+                Apply Now
               </button>
             </div>
           </div>
@@ -3145,114 +3039,6 @@ const KalasalingamAcademyPage: React.FC = () => {
           {/* Main Content */}
           <div ref={mainContentRef} className="flex-1">
             {renderTabContent()}
-
-            {/* Reviews & Ratings - end of page */}
-            <div className="bg-white rounded-xl shadow-sm p-6 mt-8">
-              <h3 className="text-2xl font-semibold mb-4">Student Reviews & Ratings</h3>
-              <p className="text-gray-700 mb-6">IIT Roorkee maintains consistently high ratings from students and alumni, reflecting its commitment to academic excellence, quality placements, and overall student satisfaction.</p>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <h4 className="font-semibold text-lg mb-3">Overall Ratings</h4>
-                  <div className="space-y-4">
-                    <div className="flex items-center">
-                      <div className="flex items-center mr-4">
-                        {[...Array(5)].map((_, i) => (
-                          <Star key={i} className={`w-5 h-5 ${i < Math.floor(collegeData.ReviewsAndRatings.CollegeDuniaRating) ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} />
-                        ))}
-                      </div>
-                      <div>
-                        <div className="font-semibold">{collegeData.ReviewsAndRatings.CollegeDuniaRating}/5</div>
-                        <div className="text-sm text-gray-600">CollegeDunia ({collegeData.ReviewsAndRatings.CollegeDuniaReviewsCount} reviews)</div>
-                      </div>
-                    </div>
-                    <div className="flex items-center">
-                      <div className="flex items-center mr-4">
-                        {[...Array(5)].map((_, i) => (
-                          <Star key={i} className={`w-5 h-5 ${i < Math.floor(collegeData.ReviewsAndRatings.Careers360Rating) ? 'text-yellow-400 fill-current' : 'text-gray-300'}`} />
-                        ))}
-                      </div>
-                      <div>
-                        <div className="font-semibold">{collegeData.ReviewsAndRatings.Careers360Rating}/5</div>
-                        <div className="text-sm text-gray-600">Careers360</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-lg mb-3">Key Strengths</h4>
-                  <div className="space-y-2">
-                    {collegeData.ReviewsAndRatings.Strengths.map((strength: string, index: number) => (
-                      <div key={index} className="flex items-start text-sm">
-                        <div className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></div>
-                        {strength}
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-              <div className="mt-6">
-                <div className="flex items-center">
-                  <TrendingUp className="w-6 h-6 text-green-600 mr-2" />
-                  <span className="text-lg font-semibold text-green-600">Return on Investment: {collegeData.ReviewsAndRatings.ReturnOnInvestment}</span>
-                </div>
-              </div>
-          </div>
-          
-            {/* Contact Information - end of page */}
-            <div className="bg-white rounded-xl shadow-sm p-6 mt-8" id="contact-root">
-              <h3 className="text-2xl font-semibold mb-4">Contact Information</h3>
-              <p className="text-gray-700 mb-6">For admissions, academic inquiries, or general information, you can reach out to IIT Roorkee through the following official channels.</p>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="space-y-4">
-                  <div className="flex items-start">
-                    <MapPin className="w-5 h-5 text-gray-500 mt-1 mr-3" />
-                    <div>
-                      <h4 className="font-medium">Address</h4>
-                      <p className="text-sm text-gray-700">{collegeData.OfficialContactInfo.Address}</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center">
-                    <Phone className="w-5 h-5 text-gray-500 mr-3" />
-                    <div>
-                      <h4 className="font-medium">Phone</h4>
-                      <p className="text-sm text-gray-700">{collegeData.OfficialContactInfo.Phone}</p>
-                    </div>
-                  </div>
-                  <div className="flex items-center">
-                    <Globe className="w-5 h-5 text-gray-500 mr-3" />
-                    <div>
-                      <h4 className="font-medium">Website</h4>
-                      <a href={collegeData.OfficialContactInfo.Website} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
-                        {collegeData.OfficialContactInfo.Website}
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <h4 className="font-medium mb-3">Email Contacts</h4>
-                  <div className="space-y-3">
-                    <div className="bg-blue-50 rounded-lg p-3">
-                      <h5 className="font-medium text-sm">Registrar</h5>
-                      <a href={`mailto:${collegeData.OfficialContactInfo.Emails.Registrar}`} className="text-blue-600 hover:underline text-sm">
-                        {collegeData.OfficialContactInfo.Emails.Registrar}
-                      </a>
-                    </div>
-                    <div className="bg-green-50 rounded-lg p-3">
-                      <h5 className="font-medium text-sm">Admissions</h5>
-                      <a href={`mailto:${collegeData.OfficialContactInfo.Emails.Admissions}`} className="text-blue-600 hover:underline text-sm">
-                        {collegeData.OfficialContactInfo.Emails.Admissions}
-                      </a>
-                    </div>
-                    <div className="bg-purple-50 rounded-lg p-3">
-                      <h5 className="font-medium text-sm">Placement Cell</h5>
-                      <a href={`mailto:${collegeData.OfficialContactInfo.Emails.PlacementCell}`} className="text-blue-600 hover:underline text-sm">
-                        {collegeData.OfficialContactInfo.Emails.PlacementCell}
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
           
           {/* Right Sidebar (fixed on large screens with its own scroll, stays till end) */}
@@ -3269,6 +3055,15 @@ const KalasalingamAcademyPage: React.FC = () => {
         collegeName={collegeData?.Name || "Kalasalingam Academy of Research and Education"}
         collegeLogo="/images/kalasalingam-logo.png"
       />
+
+      {/* Brochure Modal */}
+      <BrochureModal
+        isOpen={isBrochureModalOpen}
+        onClose={() => setIsBrochureModalOpen(false)}
+        collegeName={collegeData?.Name || "Kalasalingam Academy of Research and Education"}
+        collegeData={collegeData || undefined}
+      />
+
     {/* Floating Back-to-Top */}
     {showBackToTop && (
       <button
