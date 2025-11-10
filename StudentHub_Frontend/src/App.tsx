@@ -87,7 +87,10 @@ import NITSuratPage from "./pages/Colleges/NITSuratPage";
 import NITAssamPage from "./pages/Colleges/NITAssamPage";
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 import AboutPage from "./pages/AboutPage/AboutPage";
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
