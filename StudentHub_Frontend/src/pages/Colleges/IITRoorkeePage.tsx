@@ -548,36 +548,6 @@ const IITRoorkeePage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">About {collegeData.Name}</h3>
         <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
         
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <p className="text-gray-700 mb-3">
-            <strong>IIT Roorkee Courses are offered at UG, PG, Doctorate level. There are 129 courses offered at IIT Roorkee.</strong> The institute offers programs in Architecture, Engineering, Science, Management disciplines. Available degrees include B.Tech, M.Tech, Ph.D, B.Arch, M.Sc, MBA, M.Arch, BS + MS, B.Tech + M.Tech, Executive MBA. Popular courses are B.Tech, M.Tech, Ph.D.
-          </p>
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>IIT Roorkee Fees 2025-2026 is ₹45,200 - 11.68 Lakhs across all offered courses.</strong> UG Fees: ₹8.87 Lakhs - 11.09 Lakhs, PG Fees: ₹57,200 - 11.68 Lakhs</li>
-            <li>• <strong>IIT Roorkee B.Tech Fees is ₹8.87 Lakhs - 11.09 Lakhs for the entire 4 years duration.</strong> Popular specializations: Chemical Engineering, Computer Science and Engineering.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• IIT Roorkee B.Tech Chemical Fees is ₹8.87 Lakhs. Earlier, the fees was ₹8.93 Lakhs in 2024 - 2025.</li>
-                <li>• IIT Roorkee B.Tech CSE Fees is ₹8.87 Lakhs. Earlier, the fees was ₹8.93 Lakhs in 2024 - 2025.</li>
-              </ul>
-            </li>
-            <li>• <strong>IIT Roorkee M.Tech Fees is ₹65,200 for the entire 2 years duration.</strong> Popular specializations: Computer Science And Engineering, Data Science.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• IIT Roorkee M.Tech Computer Science And Engineering Fees is ₹65,200. Earlier, the fees was ₹71,200 in 2024 - 2025.</li>
-                <li>• IIT Roorkee M.Tech Data Science Fees is ₹65,200. Earlier, the fees was ₹71,200 in 2024 - 2025.</li>
-              </ul>
-            </li>
-            <li>• <strong>IIT Roorkee Ph.D Fees is ₹85,800 - 2.21 Lakhs for the entire 3 years duration.</strong> Popular specializations: Architecture, Computer Science and Engineering.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• IIT Roorkee Ph.D Architecture Fees is ₹2.21 Lakhs. Earlier, the fees was ₹90,300 in 2024 - 2025.</li>
-                <li>• IIT Roorkee Ph.D Computer Science and Engineering Fees is ₹2.21 Lakhs. Earlier, the fees was ₹90,300 in 2024 - 2025.</li>
-              </ul>
-            </li>
-            <li>• <strong>IIT Roorkee also offers 18 part time courses which include Certification, Ph.D.</strong> Popular part time course at IIT Roorkee is Ph.D with total fees of 85,800 - 2.21 Lakhs.</li>
-            <li>• <strong>IIT Roorkee Hostel Fee is ₹29,250 to 41,000.</strong></li>
-          </ul>
-        </div>
-        
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Established" value={collegeData.Established.Year} />
           <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2025.Overall} />
@@ -598,17 +568,6 @@ const IITRoorkeePage: React.FC = () => {
       {/* Academic Programs Overview */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
-        
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>IIT Roorkee offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and design disciplines.</strong> The institute maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
-            <li>• <strong>Undergraduate Programs:</strong> B.Tech (1100 seats, ₹2.3L/year), B.Arch (37 seats, ₹2.3L/year), B.Des (20 seats, ₹36,100/year). All programs require competitive entrance examinations with JEE Advanced for B.Tech/B.Arch and UCEED for B.Des.</li>
-            <li>• <strong>Postgraduate Programs:</strong> M.Tech (47 specializations, ₹40,000/year), MBA (95 seats, ₹2.3L/year), M.Sc (194 seats across 5 disciplines, ₹36,100/year). Admission through GATE, CAT, and JAM examinations respectively.</li>
-            <li>• <strong>Doctoral Programs:</strong> PhD (27 programs, 900+ seats, ₹38,100/year). Duration typically 3-5 years with research focus areas including AI, clean energy, quantum computing, and disaster management.</li>
-            <li>• <strong>Hostel & Accommodation:</strong> 20 hostels with modern amenities including Wi-Fi, study rooms, mess halls, and recreation areas. Hostel fees range from ₹68,000 to ₹99,000 annually (excluding mess charges).</li>
-          </ul>
-        </div>
         
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-4 bg-gray-50">

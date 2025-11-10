@@ -548,27 +548,6 @@ const ThaparPage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">About {collegeData.Name}</h3>
         <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
         
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <p className="text-gray-700 mb-3">
-            <strong>TIET Courses are offered at UG, PG, Doctorate level. TIET offers 17 B.E./B.Tech specializations along with management, sciences, and biotechnology programs.</strong> The institute offers programs in Engineering, Sciences, Management, and Biotechnology. Available degrees include B.E./B.Tech, M.Tech/M.E., Ph.D, M.Sc, MBA, MCA, B.Sc. Popular courses are B.Tech (CSE, ECE, Mechanical), M.Tech, MBA, Ph.D.
-          </p>
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>TIET Fees 2025-2026 ranges from ₹19.42 Lakhs to ₹25.3 Lakhs for B.E./B.Tech (4 years) depending on specialization.</strong> UG Fees: ₹19.42-25.3 Lakhs, PG Fees: ₹3.88-13.5 Lakhs, Hostel: ₹34,600-77,000 per year</li>
-            <li>• <strong>TIET B.E./B.Tech Fees ranges from ₹19.42 Lakhs to ₹25.3 Lakhs for the entire 4 years duration.</strong> Popular specializations:
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• CSE/CE: ₹25.3 Lakhs (premium programs)</li>
-                <li>• Other engineering branches: ₹19.42-23 Lakhs</li>
-                <li>• Fees increased ₹2.2 Lakhs for CSE from 2024-25 to 2025-26</li>
-              </ul>
-            </li>
-            <li>• <strong>TIET M.Tech/M.E. Fees is ₹3.88-4.29 Lakhs for the entire 2 years duration.</strong> Popular specializations: Computer Science And Engineering, various engineering disciplines. Admission through GATE.</li>
-            <li>• <strong>TIET MBA Fees is ₹13.5 Lakhs for the entire 2 years duration.</strong> Admission through TMAT, CAT, NMAT, XAT, CMAT, MAT with GD and PI.</li>
-            <li>• <strong>TIET Ph.D Fees is ₹87,000 to ₹4.15 Lakhs.</strong> Research programs available across 15+ disciplines. Selected scholars receive monthly stipends.</li>
-            <li>• <strong>TIET Hostel Fee is ₹34,600 to ₹77,000 per year</strong> depending on room type (single/double/triple/quad, AC/Non-AC). Mess managed by Sodexo or self-managed.</li>
-          </ul>
-        </div>
-        
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Established" value={collegeData.Established.Year} />
           <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2025.Overall} />
@@ -589,17 +568,6 @@ const ThaparPage: React.FC = () => {
       {/* Academic Programs Overview */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
-        
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>TIET offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and design disciplines.</strong> The institute maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
-            <li>• <strong>Undergraduate Programs:</strong> B.Tech (1100 seats, ₹2.3L/year), B.Arch (37 seats, ₹2.3L/year), B.Des (20 seats, ₹36,100/year). All programs require competitive entrance examinations with JEE Advanced for B.Tech/B.Arch and UCEED for B.Des.</li>
-            <li>• <strong>Postgraduate Programs:</strong> M.Tech (47 specializations, ₹40,000/year), MBA (95 seats, ₹2.3L/year), M.Sc (194 seats across 5 disciplines, ₹36,100/year). Admission through GATE, CAT, and JAM examinations respectively.</li>
-            <li>• <strong>Doctoral Programs:</strong> PhD (27 programs, 900+ seats, ₹38,100/year). Duration typically 3-5 years with research focus areas including AI, clean energy, quantum computing, and disaster management.</li>
-            <li>• <strong>Hostel & Accommodation:</strong> 20 hostels with modern amenities including Wi-Fi, study rooms, mess halls, and recreation areas. Hostel fees range from ₹68,000 to ₹99,000 annually (excluding mess charges).</li>
-          </ul>
-        </div>
         
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-4 bg-gray-50">
@@ -2866,7 +2834,7 @@ const ThaparPage: React.FC = () => {
             <Download className="w-5 h-5 mr-2" />
             Download Brochure
           </button>
-          <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             <Mail className="w-5 h-5 mr-2" />
             Apply Now
           </button>
@@ -2979,7 +2947,7 @@ const ThaparPage: React.FC = () => {
                 <Download className="w-5 h-5 mr-2" />
                 Download Brochure
               </button>
-              <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                 <Mail className="w-5 h-5 mr-2" />
                 Apply Now
               </button>
@@ -3114,5 +3082,10 @@ const ThaparPage: React.FC = () => {
     </div>
   );
 };
+
+  const openApplyForm = () => {
+    setIsLeadModalOpen(true);
+    try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'apply_now_click', page: 'thapar' } })); } catch {}
+  };
 
 export default ThaparPage;

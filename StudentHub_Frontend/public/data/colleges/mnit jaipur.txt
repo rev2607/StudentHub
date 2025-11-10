@@ -1,0 +1,263 @@
+{
+  "College Name": "MNIT Jaipur",
+  "Overview": {
+    "Introduction": "Malaviya National Institute of Technology Jaipur (MNIT Jaipur), established in 1963, is a premier technical institute and a designated Institute of National Importance. The campus, stretching across 317 acres in Jaipur, provides a rich educational atmosphere and modern infrastructure, enabling high-quality teaching, research, and innovation. MNIT Jaipur offers multidisciplinary UG, PG, and doctoral programs in engineering, architecture, sciences, and management through 14 departments and a School of Management.",[1][2][3][4]
+    "Historical Narrative": "Originally founded as Malaviya Regional Engineering College, it was renamed MNIT and awarded deemed university status in 2002. Since 2007, MNIT has operated as an Institute of National Importance under the NIT Act, receiving full government funding. The campus hosts over 5,000 students from across India and abroad.",[4]
+    "Vision and Mission": "The institute aims to develop world-class engineers, architects, and managers, emphasizing academic growth, responsible innovation, and societal contributions. MNIT is committed to inclusivity, sustainability, and global engagement.",[2][1]
+    "Academic Structure": "MNIT Jaipur’s curriculum is industry-aligned, offering core programs in B.Tech, B.Arch, M.Tech, MBA, MCA, M.Sc, and Ph.D across engineering, architecture, management and sciences. Departments focus on hands-on learning, research, internships, and project-based education.",[5][2]
+    "Student Life": "Campus life is vibrant, with numerous clubs, cultural and technical festivals such as Blitzschlag and Sphinx, sports complexes, and entrepreneurship cells. The hostels are well-equipped for both male and female students, with recreational spaces, common areas, and mess facilities.",[6]
+    "Diversity": "MNIT boasts a multicultural community, with students and faculty from all regions of India and select international scholars, supported by inclusive policies and language support.",[2]
+    "Research and Innovation": "MNIT is recognized for its strong focus on research, numerous funded projects, and active Centre of Excellence programs. It offers advanced laboratory facilities and collaborative research opportunities.",[4]
+    "Community Engagement": "MNIT engages in social outreach, rural development, and technical consultancies for state and national agencies.",
+    "Governance": "The institute is administered by a Senate and Board, ensuring smooth academic, financial, hostel, and student welfare operations.",[4]
+    "Unique Features": [
+      "Diamond Jubilee (60+ years legacy)",
+      "Expansive, green campus",
+      "Cutting-edge labs",
+      "Student innovation ecosystem",
+      "Strong industry/academic linkages"
+    ],
+    "Narrative Flow": [
+      "Origins, growth, and legacy",
+      "Academic/research strengths",
+      "Student life/culture",
+      "Community outreach",
+      "Governance and institutional direction"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      {
+        "UG": [
+          "B.Tech (multiple engineering branches)",
+          "B.Arch"
+        ],
+        "PG": [
+          "M.Tech (various specializations)",
+          "MBA",
+          "M.Sc.",
+          "M.Plan.",
+          "MCA"
+        ],
+        "Doctoral": [
+          "Ph.D. programs across departments"
+        ]
+      },
+      "Specializations span Civil, Chemical, Computer Science, Electrical, Electronics, Mechanical, Metallurgical, Materials Science, Mathematics, Physics, Chemistry, Architecture, and Management."[5][2]
+    ],
+    "Fee Structure (UG/PG)": {
+      "B.Tech": "Rs 6.17 Lakhs total for duration",
+      "B.Arch": "Rs 7.62 Lakhs total for duration",
+      "M.Tech": "Rs 2.25 Lakhs total",
+      "MBA": "Rs 2.50 Lakhs total",
+      "M.Sc": "Rs 1.20 Lakhs total",
+      "MCA": "Rs 2.00 Lakhs total",
+      "Table": [
+        "| Course        | Total Fee (INR) | Hostel (Year) | Tuition (Year) |",
+        "|--------------|-----------------|--------------|----------------|",
+        "| B.Tech       | 6,17,000        | 85,000       | 1,00,000       |",
+        "| B.Arch       | 7,62,000        | 85,000       | 1,25,000       |",
+        "| M.Tech       | 2,25,000        | 70,000       | 77,500         |",
+        "| MBA          | 2,50,000        | 70,000       | 85,000         |",
+        "| MCA          | 2,00,000        | 70,000       | 75,000         |"
+      ],
+      "Fee Concession": "Full tuition exemption for families earning under ₹1 lakh/year; reduced semester fees (₹20,834) for ₹1–5 lakh/year; scholarships and education loans are available.",[7][5]
+      "Other Charges": "Sports fee: Rs 1,000/semester; professional dev. fee for MBA: Rs 7,500/semester."
+    }
+  },
+  "Admissions": {
+    "Overview": "Admissions are merit-based and via national exams. No direct entry is allowed. Centralized seat allocation and counseling ensure transparency and fairness.",[8][9]
+    "UG Admissions": [
+      "B.Tech/B.Arch: JEE Main (Paper I/II) → JoSAA counseling.",
+      "Eligibility: 60% minimum in Class XII Science.",
+      "B.Arch-specific cutoff ranks: typically under 1,600 for OBC, variable for GEN."[8]
+    ],
+    "PG Admissions": [
+      "M.Tech/M.Plan/M.Sc: GATE/JAM/Institute test + CCMT/CCMN counseling.",
+      "MBA: CAT/CMAT → GD/PI assessment.",
+      "MCA: NIMCET.",
+      "Eligibility: Bachelor’s degree, minimum 60% aggregate."
+    ],
+    "Ph.D. Admissions": [
+      "Written test + interview (departmental); UGC-NET/CSIR-NET/GATE may be required.",
+      "Eligibility: Master's degree in relevant discipline."
+    ],
+    "Admission Steps": [
+      "Register and appear for entrance test (JEE, GATE, JAM etc.)",
+      "Fill central counseling form (JoSAA, CCMT etc.)",
+      "Participate in counseling, seat allocation",
+      "Submit documents, pay fees"
+    ],
+    "Seat Intake (Samples)": {
+      "B.Tech CSE": "120",
+      "B.Tech ECE": "75–90",
+      "MBA": "60",
+      "Ph.D.": "Institution dependent, usually 3–5 per branch"
+    },
+    "Direction": [
+      "UG/PG: Entrance test → counseling; Ph.D.: Dept/central exam → selection"
+    ]
+  },
+  "Placements": {
+    "Highlights": [
+      "2024 placement percentage: 84.05% (UG)",[10][11]
+      "Median UG package: 8.00 LPA",
+      "Highest package: Up to 56 LPA (ECE)",[12]
+      "Top recruiters: Google, Microsoft, Amazon, Deloitte, Tata, Infosys, L&T, Goldman Sachs, Capgemini",[11][10]
+      "250+ companies participated in 2024",[13]
+      "Strong internship and research placement support"
+    ],
+    "Branch-wise Placement Table": [
+      "| Branch      | Placement % | Highest (LPA) | Median (LPA) |",
+      "|-------------|-------------|---------------|--------------|",
+      "| CSE         | ~95         | 56            | 20           |",
+      "| ECE         | ~90         | 56            | 16           |",
+      "| EE          | ~85         | 45            | 14           |",
+      "| Mech        | ~80         | 35            | 12           |",
+      "| Civil       | ~75         | 30            | 10           |"
+    ],
+    "Internships": [
+      "Well-supported through training & placement cell",
+      "Strong links to research institutes, industry projects"
+    ],
+    "Directions": [
+      "Comprehensive pre-placement training → 80%+ placements → Top recruiters → Competitive salaries"
+    ]
+  },
+  "Rankings": {
+    "Highlights": [
+      "NIRF Engineering (2025): 42nd nationally",[14][15]
+      "Architecture (India): 14th (Collegedunia/IIRF)",[14]
+      "Top 3 in Rajasthan",
+      "Overall compare: #11–50 India 2025"[14]
+    ],
+    "Table": [
+      "| Body         | Year | Category            | Rank |",
+      "|--------------|------|---------------------|------|",
+      "| NIRF Engg    | 2025 | Engineering         | 42   |",
+      "| IIRF Arch    | 2025 | Architecture        | 15   |",
+      "| Collegedunia | 2025 | Architecture        | 14   |"
+    ],
+    "Directions": [
+      "Consistent top-50 engineering institute; top-15 in architecture"
+    ]
+  },
+  "Facilities": {
+    "Campus Details": [
+      "Sprawling, 317-acre green campus",[16][6]
+      "Wi-Fi, modern library, smart classrooms",
+      "Separate hostels for boys and girls (mess, laundry, recreation)",
+      "Multiple cafeterias and food joints (Nescafé, Amul)"
+    ],
+    "Academic/Lab Infrastructure": [
+      "Advanced labs in departments (chemical, civil, CSE, EE, mech, arch)",
+      "Central library (print & digital), project rooms, innovation centers"
+    ],
+    "Sports and Fitness": [
+      "Sports complex; fields for football, cricket, basketball, athletics",
+      "Indoor sports halls, gymnasium"
+    ],
+    "Medical & Banking": [
+      "On-campus hospital, dispensary",
+      "Banks and ATMs (SBI, ICICI), post office"
+    ],
+    "Other Facilities": [
+      "Conference/seminar halls, auditorium",
+      "Guest house, staff quarters",
+      "Central and departmental canteens"
+    ],
+    "Directions": [
+      "Comprehensive infrastructure → Modern labs and sports → Banking, healthcare, recreation"
+    ]
+  },
+  "Faculty": {
+    "Faculty Overview": [
+      "Over 260 faculty members; most hold PhDs from reputed institutes (IITs/IISc/NITs)",[17][18]
+      "Includes professors, associate/assistant professors, lecturers",
+      "Faculty-student ratio: ~1:9",
+      "Active in research/publication, consultancy, mentorship"
+    ],
+    "Expertise & Involvement": [
+      "Strong research projects (environmental, material science, computing)",
+      "Industry/Govt consultancies, publications, patents",
+      "Active participation in fests, workshops, student activities"
+    ],
+    "Teaching Approach": [
+      "Focus on applied/practical learning",
+      "Project work, research, interdisciplinary curriculum"
+    ],
+    "Faculty Table": [
+      "| Department     | Faculty No. | Avg. Qualification | Key Areas                |",
+      "|---------------|-------------|--------------------|--------------------------|",
+      "| CSE           | ~24         | Ph.D.              | ML, AI, Computing        |",
+      "| ECE           | ~21         | Ph.D.              | VLSI, Embedded, Networks |",
+      "| EE            | ~20         | Ph.D.              | Power/Control            |",
+      "| Mech          | ~20         | Ph.D.              | Design, Manufacturing    |",
+      "| Chemical      | ~16         | Ph.D.              | Process, Materials       |",
+      "| Civil         | ~16         | Ph.D.              | Structures, Environment  |",
+      "| Architecture  | ~13         | Ph.D./M.Arch        | Sustainability, Design   |"
+    ],
+    "Directions": [
+      "Active, experienced faculty → Strong research → Student mentorship → Industry engagement"
+    ]
+  },
+  "Reviews": {
+    "Highlights": [
+      "Students praise strong placements, especially in CSE/ECE.",[19][13][12]
+      "Modern, green campus gets very positive feedback",
+      "Faculty considered approachable, knowledgeable, and supportive",
+      "Infrastructure is praised: labs, hostels, food options, and sports",
+      "Minor complaints: Mess food varies across hostels, some hostel facilities are uneven, some students note frequent exams"
+    ],
+    "Review Table": [
+      "| Parameter       | Rating     | Summary                |",
+      "|-----------------|------------|------------------------|",
+      "| Academics       | 4.5/5      | Depth, projects, labs  |",
+      "| Faculty         | 4.7/5      | Supportive, expert     |",
+      "| Campus Life     | 4.6/5      | Events, clubs, sports  |",
+      "| Infrastructure  | 4.5/5      | Modern, green, hostels |",
+      "| Placements      | 4.3/5      | Top companies, salary  |",
+      "| Facilities      | 4.5/5      | Complete, healthcare   |"
+    ],
+    "Directions": [
+      "Strong academic/career options → Vibrant campus → Some food/facility issues"
+    ]
+  },
+  "Contact": {
+    "Address": "MNIT Jaipur, Jawahar Lal Nehru Marg, Malaviya Nagar, Jaipur, Rajasthan - 302017, India",[1]
+    "Phone": "+91-141-2529065, +91-141-2715038",[1]
+    "Email": "registrar@mnit.ac.in",
+    "Website": "https://www.mnit.ac.in",[1]
+    "Social Media": {
+      "Facebook": "facebook.com/mnitjaipur",
+      "Twitter": "twitter.com/mnitjaipur",
+      "LinkedIn": "linkedin.com/school/mnit-jaipur"
+    },
+    "Directions": [
+      "Registrar: official queries, admissions",
+      "Website for updates/applications",
+      "Social media for campus/community news"
+    ]}
+}}
+}
+
+[1](https://www.mnit.ac.in)
+[2](https://www.shiksha.com/college/mnit-jaipur-malaviya-national-institute-of-technology-24372)
+[3](https://mnit.ac.in/about_us/about_mnit.php)
+[4](https://en.wikipedia.org/wiki/Malaviya_National_Institute_of_Technology,_Jaipur)
+[5](https://www.careers360.com/university/malaviya-national-institute-of-technology-jaipur/courses)
+[6](https://www.shiksha.com/college/mnit-jaipur-malaviya-national-institute-of-technology-24372/infrastructure)
+[7](https://www.mnit.ac.in/academics/fee_structure.php)
+[8](https://www.careers360.com/university/malaviya-national-institute-of-technology-jaipur/admission)
+[9](https://mnit.ac.in/students/admissions)
+[10](https://www.careers360.com/university/malaviya-national-institute-of-technology-jaipur/placement)
+[11](https://placements.mnit.ac.in/placementstatistics)
+[12](https://www.shiksha.com/college/mnit-jaipur-malaviya-national-institute-of-technology-24372/reviews)
+[13](https://collegedunia.com/university/25828-malaviya-national-institute-of-technology-mnit-jaipur/reviews)
+[14](https://collegedunia.com/university/25828-malaviya-national-institute-of-technology-mnit-jaipur/ranking)
+[15](https://mnit.ac.in/admin/directormessage)
+[16](https://mnit.ac.in/facilities/index.php)
+[17](https://www.mnit.ac.in/academics/staff.php)
+[18](https://www.mnit.ac.in/admin/heads)
+[19](https://www.collegedekho.com/colleges/mnit-jaipur-reviews)
+[20](https://www.mnit.ac.in/dept_aide/profile?fid=RKiJ)

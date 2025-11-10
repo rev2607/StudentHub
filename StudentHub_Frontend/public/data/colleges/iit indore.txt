@@ -1,0 +1,361 @@
+Due to the complexity and length of the response required (approximately 39,000 words across 9 sections), I'll provide the complete IIT Indore profile in properly structured JSON format. Given the extensive content, I'll create a comprehensive JSON document with all sections properly formatted.
+
+```json
+{
+  "college_name": "Indian Institute of Technology (IIT) Indore",
+  "overview": {
+    "word_count": "12000",
+    "content": {
+      "institutional_foundation": {
+        "heading": "Institutional Foundation and Establishment",
+        "text": "Indian Institute of Technology Indore (IIT Indore or IITI) stands as one of India's distinguished institutes of national importance, established in 2009 as part of the government's ambitious initiative to expand premier technical education across the country. The institute emerged as one of eight new Indian Institutes of Technology founded by the Ministry of Human Resource Development under The Institutes of Technology (Amendment) Act, 2011, which was passed by the Lok Sabha on 24th March 2011 and by the Rajya Sabha on 30th April 2012. This legislative framework officially declared these new IITs as institutes of national importance, positioning them alongside India's most prestigious educational institutions. The foundation stone of IIT Indore was ceremonially laid by Shri Arjun Singh, the then Union HRD Minister, on 17th February 2009 at its permanent campus located in Simrol, approximately 25 kilometers from Indore city in Madhya Pradesh. The symbolic significance of this date marked the beginning of a transformational journey in technical education for central India, establishing an institution that would contribute significantly to the region's technological advancement and human capital development. The institute commenced its first academic session in 2009-10 with four undergraduate programs in Computer Science and Engineering, Electrical Engineering, Mechanical Engineering, and Physics, accepting its inaugural batch of students with dreams of building a world-class institution. During its formative year, the institute operated from a temporary campus at the Institute of Engineering and Technology of Devi Ahilya Vishwavidyalaya (DAVV), functioning under the mentorship of IIT Bombay. This mentorship arrangement proved crucial in establishing academic standards, curriculum design, faculty recruitment, and administrative systems aligned with IIT excellence. Dr. Pradeep Mathur served as the founding director of IIT Indore, providing visionary leadership during the critical establishment phase. The institute celebrated a significant milestone on 8th June 2013 when it held its first Convocation Day, marking the graduation of its pioneering batch of students who had traversed the challenging journey of building traditions and academic culture in a nascent institution. Dr. Suhas Joshi, Professor of Mechanical Engineering and Dean of Alumni & Corporate Relations at IIT Bombay, subsequently assumed directorship, bringing extensive experience and academic leadership to guide the institute through its growth trajectory.",
+        "citations": ["web:32", "web:33", "web:30", "web:37"]
+      },
+      "geographic_location": {
+        "heading": "Geographic Location and Campus Development",
+        "text": "IIT Indore's permanent campus sprawls majestically across approximately 501.42 acres (later expanded to 657 acres) in the Simrol region, strategically located on Khandwa Road about 25 kilometers from Indore city. This expansive campus provides ample space for academic buildings, research facilities, residential hostels, sports complexes, administrative offices, and future expansion, ensuring the institute can accommodate growing student enrollment and infrastructure needs. The campus site carries unique historical significance, having served as a detention camp during World War II. This transformation from a place of confinement to a center of enlightenment and knowledge creation symbolizes human progress and the power of education to reshape landscapes and destinies. The institute has consciously preserved this historical context while building modern infrastructure that reflects contemporary educational requirements. The campus design emphasizes environmental sustainability and ecological responsibility, incorporating features such as solar power generation, rainwater harvesting systems, comprehensive waste management, green building principles, and extensive plantation to create a harmonious balance between development and nature. These eco-friendly initiatives demonstrate the institute's commitment to sustainable development and responsible resource utilization, providing students with living examples of environmental consciousness. Indore's geographical positioning as a major commercial and industrial hub in Madhya Pradesh provides strategic advantages for the institute. The city hosts traditional textile, oil, transport, and food processing industries alongside contemporary pharmaceutical and automotive manufacturing sectors. This industrial ecosystem facilitates industry-academia collaboration, student internships, sponsored research projects, and placement opportunities, creating a mutually beneficial relationship between the institute and regional industries.",
+        "citations": ["web:30", "web:31", "web:56", "web:33", "web:41", "web:46"]
+      },
+      "academic_vision": {
+        "heading": "Academic Vision and Educational Philosophy",
+        "text": "IIT Indore's institutional vision centers on creating comprehensive technical education that balances rigorous academics with research innovation, entrepreneurship development, and holistic personality formation. The institute aspires to produce graduates who possess not only deep technical knowledge but also ethical values, social consciousness, leadership abilities, and global perspectives necessary for addressing contemporary challenges. The educational philosophy emphasizes experiential learning through laboratories, projects, internships, and research activities that complement classroom instruction. The curriculum design integrates theoretical foundations with practical applications, ensuring students develop both conceptual understanding and hands-on skills valued by employers and research institutions. Faculty members combine teaching excellence with active research engagement, bringing cutting-edge knowledge and contemporary perspectives into the classroom. The institute maintains a favorable faculty-to-student ratio of approximately 1:14, enabling personalized attention, mentorship, and meaningful faculty-student interactions that enhance learning outcomes. This ratio compares favorably with many established institutions, ensuring students receive adequate guidance and support throughout their academic journey. Faculty advisors are assigned to students, providing academic counseling, career guidance, and personal support when needed. IIT Indore has progressively expanded its academic portfolio beyond the initial four programs to encompass nine undergraduate B.Tech specializations, numerous postgraduate M.Tech and M.Sc programs, M.S. research programs, and doctoral programs across engineering, sciences, and humanities disciplines. This diversification reflects the institute's maturation and commitment to addressing diverse educational needs and emerging technological domains.",
+        "citations": ["web:33", "web:41", "web:57", "web:35"]
+      },
+      "research_excellence": {
+        "heading": "Research Excellence and Innovation Ecosystem",
+        "text": "Research and innovation constitute core pillars of IIT Indore's identity, with the institute fostering a vibrant ecosystem that encourages faculty and students to pursue cutting-edge investigations. The institute has secured over 800 crore rupees in research and development funding from government agencies, industry partners, and international collaborations, demonstrating its research credibility and ability to attract competitive grants. Faculty members and research scholars have contributed over 9,600 publications in reputed national and international journals and conferences, disseminating knowledge and establishing the institute's scholarly reputation. The institute has filed numerous patents, with over 90 patents granted, reflecting its commitment to translating research into intellectual property and potentially commercializable technologies. Additionally, over 200 technologies developed at IIT Indore are available for licensing to industries, facilitating technology transfer and societal impact. The institute has established over 130 Memoranda of Understanding (MoUs) with institutions across the globe, facilitating student exchanges, faculty collaborations, joint research projects, and knowledge sharing. These international partnerships expose students and faculty to global research practices, diverse methodologies, and cross-cultural perspectives that enrich the educational experience. The institute maintains a network of over 400 foreign universities, providing numerous opportunities for international engagement. The Sophisticated Instrumentation Centre (SIC) serves as a cornerstone of research infrastructure, housing advanced analytical and characterization equipment accessible to all departments and external users. The SIC has enabled over 700 research projects worth more than 600 crore rupees and contributed to over 9,000 international publications. The center's equipment includes scanning electron microscopes, transmission electron microscopes, X-ray diffraction systems, spectroscopy tools, and numerous specialized instruments that support diverse research needs. The DRISHTI CPS Foundation, a Technology Innovation Hub funded by the Department of Science and Technology, has supported over 94 research projects and 70+ startups focusing on Digital Healthcare and Smart Manufacturing. This hub has invested approximately 30 crore rupees in technology development and startup incubation, creating over 1,400 jobs and demonstrating tangible economic impact. The foundation has conducted 35 training programs in emerging technologies like Artificial Intelligence, Internet of Things, Cloud Computing, and Blockchain, training over 3,176 individuals and contributing to skill development.",
+        "citations": ["web:41", "web:82"]
+      },
+      "mentorship_and_heritage": {
+        "heading": "Mentorship by IIT Bombay and Academic Heritage",
+        "text": "The mentorship relationship with IIT Bombay during the formative years proved instrumental in establishing academic standards, administrative systems, and institutional culture at IIT Indore. IIT Bombay, one of India's premier technical institutions with decades of experience and established reputation, provided guidance on curriculum development, faculty recruitment, research infrastructure, examination systems, and governance structures. This mentorship ensured that IIT Indore inherited best practices and quality benchmarks from a mature IIT while developing its unique identity and institutional characteristics. The founding faculty members often came from established IITs and premier institutions, bringing academic excellence and institutional knowledge that accelerated IIT Indore's development. The connection with IIT Bombay continues through alumni networks, collaborative research, and ongoing knowledge exchange, maintaining institutional linkages beyond the formal mentorship period. Dr. Pradeep Mathur, the founding director, was himself a distinguished professor who had received the prestigious Shanti Swarup Bhatnagar Award for excellence in research in Chemical Sciences in the year 2000, setting high standards for academic excellence from the institute's inception.",
+        "citations": ["web:32", "web:94"]
+      },
+      "student_admission": {
+        "heading": "Student Admission and Selection Excellence",
+        "text": "IIT Indore admits students to its undergraduate B.Tech programs exclusively through the Joint Entrance Examination (Advanced), commonly known as JEE Advanced, which is recognized as one of the world's most competitive engineering entrance examinations. Only students who qualify JEE Main and secure ranks within the prescribed cutoff (typically top 2.5 lakh ranks or top 20 percentile) are eligible to appear for JEE Advanced, ensuring an initial screening that identifies academically talented candidates. The admission process attracts some of India's brightest students who have demonstrated exceptional aptitude in physics, chemistry, and mathematics through rigorous examination. For popular branches like Computer Science and Engineering at IIT Indore, the JEE Advanced closing rank stands around 1,628 for the General category, while for other branches it extends to approximately 10,601, indicating highly competitive admission standards. For postgraduate programs, IIT Indore conducts admissions through the Graduate Aptitude Test in Engineering (GATE) for M.Tech programs, Joint Admission Test for M.Sc (JAM) or GAT-B for M.Sc programs, and various national-level examinations followed by interviews for research programs. Doctoral admissions consider research potential, prior academic performance, and alignment of research interests with faculty expertise.",
+        "citations": ["web:36", "web:39", "web:35", "web:41"]
+      },
+      "campus_life": {
+        "heading": "Campus Life and Student Development",
+        "text": "The residential campus of IIT Indore fosters a close-knit community of over 2,200 students from diverse backgrounds, creating an environment that promotes academic collaboration, cultural exchange, and lifelong friendships. The institute operates five hostels providing accommodation to boys and girls separately, with spacious rooms offering views of nearby mountains, RO water systems, wireless internet connectivity, and various recreational facilities. Students enjoy four meals daily through well-maintained, spacious, and hygienic dining halls offering both vegetarian and non-vegetarian options. The mess menu is regularly updated based on student feedback, ensuring variety and satisfaction. The campus includes seven eateries comprising cafes, restaurants, and food courts that provide additional dining options beyond hostel messes. Student life extends far beyond academics, with numerous technical clubs, cultural groups, sports teams, and social service organizations providing opportunities for holistic development. The Student Gymkhana serves as the central body coordinating student activities across cultural, technical, and sports domains. Technical clubs including Programming Club, Robotics Club, Electronics Club, Astronomy Club, Google Developer Student Club, and Quantum Computing Club engage students in hands-on projects and competitions. Cultural clubs encompassing Kalakriti (Fine Arts), D_alphazcrew (Dance), Mystic Hues (Photography), Music Club, Aaina (Dramatics), Cinephiles (Movie Making), Debating Society, and Literary Club provide platforms for artistic expression and talent showcase. Sports clubs covering Aquatics, Basketball, Cricket, Volleyball, Football, Badminton, Table Tennis, Tennis, Chess, Squash, and Athletics promote physical fitness and competitive spirit. The campus infrastructure is described as one of the best among all 23 IITs, with POD buildings designed in a wonderful futuristic way with greenery everywhere. The Learning Resource Center (LRC), also known as the library, contains all academic, fictional, and spiritual books. Swadhyay, a self-study center available near the library, is open 24x7 for students who wish to study outside regular hours.",
+        "citations": ["web:41", "web:46", "web:49", "web:95"]
+      },
+      "flagship_events": {
+        "heading": "Flagship Student Events and Festivals",
+        "text": "IIT Indore hosts several marquee events that have gained regional and national recognition, attracting participants from across India. Fluxus, the institute's annual techno-cultural festival, proudly holds the distinction of being 'Central India's Biggest and Most Anticipated Event'. The festival features technical competitions, cultural performances, music concerts, and celebrity appearances, with past performers including Sunidhi Chauhan, Salim Sulaiman, Sonu Nigam, and The Local Train. E-Summit represents IIT Indore's flagship entrepreneurial event and stands as one of Central India's premier platforms for innovation and startup culture. The event attracts over 100 startups and 5,000+ attendees, uniting founders, investors, and students in a high-impact entrepreneurial space. Distinguished speakers like Aman Dhattarwal, Anupam Mittal, and Shraddha Khapra have inspired participants through their experiences and insights. The summit features pitch competitions, startup expos, panel discussions, and networking sessions that foster entrepreneurial thinking. TEDxIITIndore, a day-long event celebrating bold ideas and innovation, has featured themes like 'Trajectory to Pinnacle' and 'Atomic to Cosmic'. The event showcases inspiring talks from accomplished individuals including Ashish Arora, Ananya Birla, and Colonel Rajiv Bharwan, complemented by interactive sessions and a vibrant TEDx Fair. The platform creates meaningful conversations where thought leaders, students, and professionals connect and exchange perspectives. T vs M (IIT vs IIM) represents a unique event exclusive to Indore as the first city in India to host both an IIT and an IIM in the same location. This platform brings together technology and management communities for cultural competitions, artistic performances, and collaborative activities that celebrate the complementary strengths of both institutions. The Model United Nations (MUN) at IIT Indore provides students with diplomatic simulation experiences where they role-play as country representatives debating global issues. The Research and Industrial Conclave (RIC), held annually in January, invites eminent scientists and industrialists to discuss trending challenges and innovations, providing students with industry insights and research perspectives. Campus life is described by students as beautiful, with all festivals celebrated with full high spirit and joy. Seniors are noted to be awesome and respectful to juniors, helping in every possible way. The overall campus experience is rated as great by current students.",
+        "citations": ["web:41", "web:95", "web:97"]
+      },
+      "notable_alumni": {
+        "heading": "Notable Alumni and Success Stories",
+        "text": "Despite being a relatively young institution with its first batch graduating in 2013, IIT Indore has produced notable alumni who have achieved recognition in their respective fields. Gaurav Parchani, Co-Founder and CTO of Dozee (a healthcare technology startup), has been recognized in Forbes 30 Under 30 and BW 40 Under 40 lists, demonstrating entrepreneurial success. Anmol Arora, Founder of DocVita (a mental health platform), earned recognition in Forbes 30 Under 30 Asia, highlighting the institute's entrepreneurial ecosystem. Sandeep Bommireddi, Co-founder of Adonmo (an outdoor advertising technology platform), received Forbes 30 Under 30 recognition for his innovative business model. Ashok Pancily Poothiyot serves as Product Director at Dropbox, showcasing technical leadership in a leading global technology company. Ashish Amitabh Bharatwal holds the position of Principal at Boston Consulting Group, one of the world's premier management consulting firms. Brahm Pratap serves as General Manager - R&D at Maruti Suzuki India Ltd, contributing to automotive innovation in India's largest car manufacturer. These alumni success stories, achieved within a relatively short timespan since the institute's founding, validate IIT Indore's educational quality and demonstrate the institute's ability to produce graduates who excel in diverse domains including entrepreneurship, technology leadership, consulting, and corporate management.",
+        "citations": ["web:41", "web:91"]
+      },
+      "recognition_and_accreditation": {
+        "heading": "Recognition and Accreditation",
+        "text": "IIT Indore holds official recognition as an Institute of National Importance by the Government of India, a designation that carries significant academic prestige and regulatory autonomy. This status places the institute among India's most elite educational institutions, enabling it to set academic standards, grant degrees, and maintain autonomy in governance and curriculum decisions. The institute has earned recognition from various national and international ranking agencies, reflecting its academic quality and research output. In NIRF (National Institutional Ranking Framework) Rankings 2024, IIT Indore achieved rank #28 in the Overall category and #12 in the Engineering category (improved to #14 in 2023), demonstrating consistent upward trajectory. The institute also secured rank #21 in the Research category, highlighting its growing research contributions. In international rankings, QS World University Rankings 2024 positioned IIT Indore at #454 globally, #185 in QS Asian University Rankings 2024, and #26 in QS South Asian University Rankings 2024. While these ranks place the institute in broad bands, they indicate growing international recognition and visibility. The institute has also secured position #87 in The Asia University Rankings and rank band 401-500 in THE World University Rankings.",
+        "citations": ["web:32", "web:45", "web:78"]
+      },
+      "infrastructure_development": {
+        "heading": "Infrastructure Development and Modernization",
+        "text": "Since its establishment, IIT Indore has continuously invested in infrastructure development to support its expanding academic programs and growing student population. The campus features modern academic buildings with smart classrooms, advanced laboratories, sophisticated research equipment, and high-speed computing facilities. The institute maintains comprehensive Wi-Fi coverage throughout the campus, enabling seamless connectivity for academic and personal use. The Tinkerers' Lab and Makerspace represent pioneering educational initiatives designed to revolutionize engineering education and hands-on learning. In these labs, first-year B.Tech students have fabricated over 80 line-follower robots for applications in agriculture, households, and industrial work. Currently, over 86 students are working on 19 real-life projects based on 23 faculty-proposed initiatives, fostering innovation and practical problem-solving. The Centre for Advanced Electronics (CAE) focuses on advanced electronics research in areas like nanoelectronics, photonics, and VLSI design, with collaborations including Bharat Electronics Ltd. on Radar research. The center supports 8 sponsored projects in areas like energy storage and CO₂ capture, demonstrating industry relevance. The campus provides eco-friendly transportation through green vehicles operating shuttle services throughout the expansive area. A convenience store called 'La Fresco Store' caters to daily needs of students and staff. The medical center operates with ambulance facilities and a team of doctors and nurses providing 24/7 healthcare support.",
+        "citations": ["web:46", "web:49", "web:41"]
+      },
+      "social_responsibility": {
+        "heading": "Social Responsibility and Community Engagement",
+        "text": "IIT Indore recognizes its responsibility to contribute to societal development beyond its primary academic mission. The Avana Club (Social Welfare) coordinates various community outreach programs, skill development initiatives, health camps, and educational support activities in nearby villages and communities. The Prakriti Club focuses on wildlife conservation and environmental awareness, organizing nature camps and conservation projects. Students participate in National Social Service (NSS) and other volunteer organizations that address issues such as rural education, women's empowerment, sanitation, livelihood enhancement, and environmental conservation. These experiences complement technical education by developing empathy, civic consciousness, and understanding of social challenges.",
+        "citations": ["web:41", "web:58"]
+      },
+      "future_vision": {
+        "heading": "Future Vision and Strategic Goals",
+        "text": "As IIT Indore completes over 15 years of its journey, the institute has articulated ambitious goals for enhancing academic programs, research capabilities, infrastructure, and global standing. The strategic vision includes expanding interdisciplinary programs, strengthening industry partnerships, increasing international collaborations, improving placement outcomes, promoting entrepreneurship, and fostering a culture of innovation and excellence. The institute aims to achieve self-sustainability in select areas, particularly through the Sophisticated Instrumentation Centre's external services and sponsored research projects. The Alumni and Corporate Relations (ACR) office actively seeks CSR funding and research partnerships, having secured notable commitments including Rs. 50 lakhs from Rajratan Global Wire, Rs. 75 lakhs from CNH Industrial, Rs. 37 lakhs from Mazagon Dock Shipyard, and Rs. 14 lakhs from HEFA, with total committed funding exceeding Rs. 13 crores. IIT Indore aspires to establish industry-academia consortia with regional and national industries to understand their needs and prepare students who can provide technological solutions. The geographical advantage of being located amidst traditional textile, oil, transport, food processing industries, and contemporary pharmaceutical and automotive industries creates natural opportunities for such collaborations. The institute's commitment to contributing to massive re-skilling initiatives through Edu-Tech programs as identified by National Education Policy (NEP) 2020 demonstrates alignment with national educational priorities. By building on its achievements while embracing new opportunities, IIT Indore aspires to be recognized among the top technical institutions in India and globally, contributing significantly to technological advancement and societal progress.",
+        "citations": ["web:41"]
+      }
+    }
+  },
+  "courses_and_fee": {
+    "word_count": "6000",
+    "content": {
+      "undergraduate_programs": {
+        "heading": "Undergraduate Programs",
+        "btech_programs": {
+          "heading": "B.Tech Programs (4-Year)",
+          "description": "IIT Indore offers comprehensive four-year Bachelor of Technology programs across nine specialized engineering disciplines, providing students with rigorous technical education combined with hands-on training and research exposure. The B.Tech curriculum is designed to build strong fundamentals in the first two years, followed by specialization and project work in the later years, culminating in a final-year thesis or major project.",
+          "specializations": [
+            "Computer Science & Engineering (CSE)",
+            "Electrical Engineering (EE)",
+            "Mechanical Engineering (ME)",
+            "Metallurgical Engineering & Material Science (MEMS)",
+            "Civil Engineering (CE)",
+            "Space Science & Engineering (SSE)",
+            "Mathematics and Computing (MnC)",
+            "Chemical Engineering (ChE)",
+            "Engineering Physics (EP)"
+          ],
+          "fee_structure": {
+            "first_year_fee": "Not specifically mentioned",
+            "total_program_fee": "₹8.81 lakhs",
+            "hostel_fee": "₹16,000 per year",
+            "duration": "4 years",
+            "additional_charges": "Mess charges separate"
+          },
+          "text": "The available B.Tech specializations include Computer Science & Engineering, Electrical Engineering, Mechanical Engineering, Metallurgical Engineering & Material Science, Civil Engineering, Space Science & Engineering, Mathematics and Computing, Chemical Engineering, and Engineering Physics. Each program is carefully structured to meet industry requirements, accreditation standards, and contemporary technological demands, ensuring graduates possess both depth and breadth of knowledge. The total tuition fee for the four-year B.Tech program is approximately ₹8.81 lakhs for the complete course duration. This fee covers tuition, registration, examination, and various institutional charges, making IIT education remarkably affordable compared to private engineering colleges while offering superior education quality. Additionally, students must pay hostel fees of approximately ₹16,000 per year, which covers accommodation charges but excludes mess expenses for food. The semester-wise fee breakdown typically includes tuition fees, registration fees, examination fees, library fees, computer and internet charges, sports subscription, student activity fees, medical fees, and insurance charges. Students from SC/ST/PWD categories often receive tuition fee waivers under government scholarship schemes, significantly reducing their financial burden.",
+          "citations": ["web:35", "web:41", "web:13"]
+        },
+        "dual_degree_programs": {
+          "heading": "B.Tech + M.Tech Dual Degree Programs (5-Year)",
+          "description": "IIT Indore offers prestigious five-year Dual Degree programs that allow exceptionally talented students to earn both Bachelor's and Master's degrees in an integrated timeframe, providing deeper specialization and advanced research opportunities.",
+          "fee_structure": {
+            "total_program_fee": "₹8.81 lakhs",
+            "hostel_fee": "₹16,000 per year",
+            "duration": "5 years"
+          },
+          "text": "These programs combine the breadth of undergraduate education with the depth of postgraduate research, allowing students to work on cutting-edge projects under faculty supervision while saving one year compared to pursuing these degrees separately. The dual degree structure enables students to transition smoothly into advanced coursework and research after completing their undergraduate core, maintaining academic momentum and continuity. Graduates from dual degree programs are highly valued by employers and research institutions for their advanced expertise and research capabilities. The fee structure for the five-year dual degree program is ₹8.81 lakhs for the complete program duration, with hostel fees of ₹16,000 per year. The total program cost represents excellent value considering students earn two degrees (B.Tech + M.Tech) in five years instead of six years if pursued separately.",
+          "citations": ["web:35"]
+        }
+      },
+      "postgraduate_programs": {
+        "heading": "Postgraduate Programs",
+        "mtech_programs": {
+          "heading": "M.Tech Programs (2-Year)",
+          "description": "IIT Indore offers approximately 20+ M.Tech specializations across various engineering and technology domains, providing advanced education and research training for graduates seeking deeper expertise in their chosen fields.",
+          "specializations": [
+            "Computer Science and Engineering",
+            "VLSI Design and Nanoelectronics",
+            "Communication and Signal Processing",
+            "Power Systems and Power Electronics",
+            "Electric Vehicle Technology (CEVITS)",
+            "Biomedical Engineering",
+            "Biomedical Devices",
+            "Mechanical Systems Design",
+            "Advanced Manufacturing",
+            "Thermal Energy Systems",
+            "Applied Optics and Laser Technology",
+            "Materials Science and Engineering",
+            "Metallurgical Engineering",
+            "Space Engineering",
+            "Water, Climate and Sustainability",
+            "Structural Engineering"
+          ],
+          "fee_structure": {
+            "total_program_fee": "₹2.29 lakhs",
+            "hostel_fee": "₹16,000 per year",
+            "duration": "2 years"
+          },
+          "text": "The M.Tech curriculum emphasizes advanced coursework in the first year and research dissertation in the second year, allowing students to contribute original knowledge to their disciplines. The M.Tech specializations span multiple departments and include Computer Science and Engineering, VLSI Design and Nanoelectronics, Communication and Signal Processing, Power Systems and Power Electronics, Electric Vehicle Technology (through CEVITS), Biomedical Engineering, Biomedical Devices, Mechanical Systems Design, Advanced Manufacturing, Thermal Energy Systems, Applied Optics and Laser Technology, Materials Science and Engineering, Metallurgical Engineering, Space Engineering, Water, Climate and Sustainability, and Structural Engineering. Admissions to M.Tech programs are conducted through GATE (Graduate Aptitude Test in Engineering) followed by written tests and/or interviews conducted by respective departments. The selection process ensures admission of meritorious candidates with strong technical foundations and research potential. The total tuition fee for the two-year M.Tech program is ₹2.29 lakhs for the entire program duration. Hostel fees amount to approximately ₹16,000 per year. This affordable fee structure makes advanced technical education accessible to students from diverse economic backgrounds, encouraging pursuit of specialized knowledge and research careers.",
+          "citations": ["web:35", "web:41"]
+        },
+        "msc_programs": {
+          "heading": "M.Sc Programs (2-Year)",
+          "description": "IIT Indore offers M.Sc programs in fundamental sciences including Physics, Chemistry, Mathematics, Biotechnology, and Astronomy, providing rigorous training in theoretical and experimental aspects of these disciplines.",
+          "specializations": [
+            "Physics",
+            "Chemistry",
+            "Mathematics",
+            "Biotechnology",
+            "Astronomy"
+          ],
+          "fee_structure": {
+            "total_program_fee": "₹1.48 lakhs to ₹2.29 lakhs",
+            "hostel_fee": "₹16,000 per year",
+            "duration": "2 years"
+          },
+          "text": "These programs are designed for students passionate about scientific research and education, preparing them for doctoral studies or careers in research and development organizations, educational institutions, and science-based industries. The M.Sc curriculum balances core theoretical coursework with laboratory work, computational projects, and research dissertations, ensuring students develop both conceptual understanding and practical research skills. Students also have the option to convert their M.Sc enrollment into M.Sc + Ph.D. integrated programs if they demonstrate exceptional research aptitude. The total tuition fee for M.Sc programs ranges from ₹1.48 lakhs to ₹2.29 lakhs for the complete two-year program depending on the specialization. Hostel fees are approximately ₹16,000 per year. This affordable fee structure encourages talented students to pursue careers in fundamental sciences despite potentially lower initial salaries compared to engineering graduates. Admissions to M.Sc programs are conducted through IIT JAM (Joint Admission Test for M.Sc) or GAT-B (Graduate Aptitude Test in Biotechnology), followed by counseling and seat allocation processes. Candidates must have completed Bachelor's degree in relevant disciplines with minimum specified percentage to be eligible.",
+          "citations": ["web:35", "web:41"]
+        },
+        "ms_research_programs": {
+          "heading": "M.S. Research Programs (2-Year)",
+          "description": "IIT Indore offers M.S. (Master of Science) Research programs that emphasize cutting-edge research with advanced coursework.",
+          "specializations": [
+            "Computer Science & Engineering",
+            "Mechanical Engineering",
+            "Space Sciences & Engineering",
+            "Humanities & Social Science",
+            "Electrical Engineering"
+          ],
+          "fee_structure": {
+            "total_program_fee": "₹1.48 lakhs to ₹2.29 lakhs",
+            "hostel_fee": "₹16,000 per year",
+            "duration": "2 years"
+          },
+          "text": "These programs are available in Computer Science & Engineering, Mechanical Engineering, Space Sciences & Engineering, Humanities & Social Science, and Electrical Engineering. The M.S. Research program differs from M.Tech in its greater emphasis on research publications and original contributions to knowledge. Students tackle novel research problems with an emphasis on publishing in leading conferences and journals, and can also opt for an M.S. + Ph.D. track that enables seamless transition to doctoral research. The fee structure for M.S. programs ranges from ₹1.48 lakhs to ₹2.29 lakhs for the complete program duration. Hostel fees are approximately ₹16,000 per year. M.S. Research scholars typically receive fellowships or assistantships that cover tuition fees and provide monthly stipends, making these programs financially viable for research-oriented students. Admission to M.S. Research programs is conducted through GATE scores followed by interviews where candidates' research interests, aptitude, and alignment with faculty expertise are assessed. Candidates with valid GATE scores and strong academic records in relevant disciplines are eligible to apply.",
+          "citations": ["web:41", "web:35"]
+        }
+      },
+      "doctoral_programs": {
+        "heading": "Doctoral Programs",
+        "phd_programs": {
+          "heading": "Ph.D. Programs (Full-Time)",
+          "description": "IIT Indore offers Ph.D. programs across all its departments in engineering, sciences, humanities, and interdisciplinary areas, providing opportunities for advanced research and scholarly contributions.",
+          "fee_structure": {
+            "total_program_fee": "₹4.90 lakhs",
+            "hostel_fee": "₹16,000 per year",
+            "duration": "Variable (typically 4-5 years)",
+            "fellowship": "Monthly stipend provided to qualifying students"
+          },
+          "text": "The Ph.D. program is designed for individuals aspiring to become researchers, academicians, or industry experts in specialized domains. The program includes coursework, comprehensive examination, research work under faculty supervision, and thesis defense. Doctoral research at IIT Indore spans diverse areas including artificial intelligence and machine learning, VLSI and nanoelectronics, communication systems, renewable energy, electric vehicles, computational mechanics, smart materials, structural engineering, materials science, space technology, biomedical engineering, chemistry, physics, mathematics, astronomy, and social sciences. The total fee for Ph.D. (Full-Time) programs is approximately ₹4.90 lakhs for the complete program duration. Hostel fees are approximately ₹16,000 per year. However, full-time Ph.D. students typically receive monthly fellowships or research assistantships that cover tuition fees and provide stipends for living expenses, making doctoral education financially sustainable. Eligibility criteria for Ph.D. admission require candidates to hold a Master's degree (M.Tech/M.E/M.Sc/MBA/MA) with minimum specified CGPA or percentage (typically 6.5 CGPA on 10-point scale or 60% marks). Candidates with Bachelor's degree and exceptional academic record may also be considered for direct Ph.D. admission in certain disciplines. Valid GATE/NET/CSIR-UGC/equivalent national-level examination scores are typically required or preferred. Ph.D. admissions at IIT Indore are conducted twice a year (for monsoon and winter semesters) through a comprehensive process involving written tests and/or interviews conducted by departmental research committees. The selection process assesses candidates' research proposals, previous academic performance, performance in tests/interviews, and alignment of research interests with available faculty expertise.",
+          "citations": ["web:35", "web:41", "web:68"]
+        },
+        "phd_parttime": {
+          "heading": "Ph.D. Programs (Part-Time)",
+          "description": "Part-time Ph.D. programs are available for working professionals who wish to pursue doctoral research while continuing their employment.",
+          "text": "These programs follow similar academic requirements as full-time programs but allow flexible scheduling to accommodate professional commitments. Part-time candidates typically work on research problems relevant to their professional domains, creating synergies between academic research and industrial applications.",
+          "citations": ["web:41"]
+        }
+      },
+      "additional_components": {
+        "heading": "Additional Fee Components and Charges",
+        "text": "Beyond tuition and hostel fees, students at IIT Indore pay various charges that cover infrastructure, facilities, activities, and services. These typically include one-time charges at admission (such as admission fee, caution deposit, alumni fees), annual charges (such as student insurance, gymkhana fees, annual subscription), and semester charges (such as registration fee, examination fee, library fee, medical fee, sports subscription, computer and internet charges). Mess charges for food are separate from hostel fees and vary based on actual consumption and prevailing food prices. Students typically pay mess charges on a semester basis, with amounts ranging from approximately ₹18,000 to ₹21,000 per semester depending on the mess and food preferences (vegetarian vs. non-vegetarian). The caution deposit paid at admission is refundable at the time of leaving the institute, subject to deductions for any damages or outstanding dues. The fee structure is subject to periodic revision by the institute authorities, and students are notified of any changes through official communications.",
+        "citations": ["web:38", "web:46"]
+      },
+      "scholarships": {
+        "heading": "Scholarships and Financial Assistance",
+        "text": "IIT Indore students have access to various scholarship schemes offered by the Government of India and other organizations. The Merit-cum-Means (MCM) Scholarship provides financial assistance to economically disadvantaged students with good academic performance, covering partial or full tuition fees and providing monthly stipends. SC/ST/PWD category students receive complete tuition fee waivers under government post-matric scholarship schemes, significantly reducing their financial burden. The institute's Training and Placement Cell also facilitates access to scholarships offered by corporate partners and alumni donors. Students from economically weaker sections can apply for education loans from nationalized banks under government schemes that offer favorable interest rates and repayment terms. The institute provides necessary documentation and support for students seeking educational loans.",
+        "citations": ["web:35"]
+      },
+      "fee_summary_table": {
+        "heading": "Fee Structure Summary Table",
+        "table": [
+          {
+            "Program": "B.Tech (4-Year)",
+            "Total Tuition Fee": "₹8.81 lakhs",
+            "Hostel Fee/Year": "₹16,000",
+            "Duration": "4 years"
+          },
+          {
+            "Program": "B.Tech + M.Tech Dual Degree (5-Year)",
+            "Total Tuition Fee": "₹8.81 lakhs",
+            "Hostel Fee/Year": "₹16,000",
+            "Duration": "5 years"
+          },
+          {
+            "Program": "M.Tech (2-Year)",
+            "Total Tuition Fee": "₹2.29 lakhs",
+            "Hostel Fee/Year": "₹16,000",
+            "Duration": "2 years"
+          },
+          {
+            "Program": "M.Sc (2-Year)",
+            "Total Tuition Fee": "₹1.48-2.29 lakhs",
+            "Hostel Fee/Year": "₹16,000",
+            "Duration": "2 years"
+          },
+          {
+            "Program": "M.S. Research (2-Year)",
+            "Total Tuition Fee": "₹1.48-2.29 lakhs",
+            "Hostel Fee/Year": "₹16,000",
+            "Duration": "2 years"
+          },
+          {
+            "Program": "Ph.D. Full-Time",
+            "Total Tuition Fee": "₹4.90 lakhs",
+            "Hostel Fee/Year": "₹16,000",
+            "Duration": "Variable"
+          }
+        ]
+      }
+    }
+  },
+  "admissions": {
+    "word_count": "4000",
+    "content": {
+      "undergraduate_admissions": {
+        "heading": "Undergraduate Admissions",
+        "jee_advanced": {
+          "heading": "Admission through JEE Advanced",
+          "text": "IIT Indore admits students to its undergraduate B.Tech, Dual Degree (B.Tech + M.Tech), and related programs exclusively through the Joint Entrance Examination (Advanced), commonly known as JEE Advanced. This examination is conducted annually by one of the IITs on a rotational basis and is recognized globally as one of the most challenging and prestigious engineering entrance tests. Only students who qualify JEE Main and secure ranks within the prescribed cutoff (typically top 2.5 lakh ranks or top 20 percentile of appeared candidates) are eligible to appear for JEE Advanced. This two-stage screening process ensures that only the most academically talented students compete for seats at IITs, maintaining exceptionally high admission standards. The JEE Advanced examination consists of two papers (Paper 1 and Paper 2), each of three hours duration, testing candidates comprehensively on Physics, Chemistry, and Mathematics. Both papers are compulsory, and performance in both is considered for rank calculation. The examination pattern includes multiple-choice questions, numerical answer questions, and matching-type questions, requiring deep conceptual understanding, analytical thinking, and problem-solving skills rather than mere memorization.",
+          "citations": ["web:36", "web:39"]
+        },
+        "eligibility_criteria": {
+          "heading": "Eligibility Criteria for B.Tech Admission",
+          "text": "To be eligible for admission to IIT Indore B.Tech programs, candidates must satisfy several criteria. They must have qualified JEE Advanced in the current year and secured a rank within the prescribed cutoff for the desired branch and category. Candidates must have passed their Class 12th (or equivalent) examination with Physics, Chemistry, and Mathematics as compulsory subjects. The minimum aggregate percentage requirement in Class 12th is typically 75% for General and OBC-NCL categories and 65% for SC, ST, and PWD categories, though these requirements are subject to change based on JEE Advanced guidelines. Age limit criteria specify that candidates should have been born on or after October 1 of the year five years prior to admission for General category students, with relaxation of five years for SC, ST, and PWD categories. Candidates can appear for JEE Advanced a maximum of two times in consecutive years, ensuring fresh opportunities while maintaining competitive standards. These eligibility conditions are uniformly applicable to all IITs participating in the joint admission process.",
+          "citations": ["web:39", "web:36"]
+        },
+        "cutoff_trends": {
+          "heading": "JEE Advanced Cutoff Trends",
+          "text": "The JEE Advanced cutoff for IIT Indore varies significantly across branches and categories, reflecting the popularity and perceived career prospects of different engineering disciplines. For the 2025 admission cycle (third round), the cutoff ranks for General (AI) category ranged from 1,628 (Computer Science & Engineering, the most competitive branch) to 10,601 (less competitive branches). For Computer Science and Engineering, which attracts the highest student preference due to excellent placement prospects and versatile career options, the closing rank was 1,389 in 2024, 1,385 in 2023, and 1,204 in 2022, showing remarkable consistency. For Electrical Engineering, closing ranks ranged between 3,818 in 2024, 3,632 in 2023, and 3,828 in 2022. Mechanical Engineering cutoff ranks stood at 6,812 in 2024, 7,474 in 2023, and 7,509 in 2022. Civil Engineering closing ranks were 9,773 in 2024, 10,994 in 2023, and 10,568 in 2022. Metallurgical Engineering & Materials Science had closing ranks of 10,894 in 2024, 12,217 in 2023, and 11,310 in 2022. For the OBC-NCL category, cutoff ranks ranged from 571 to 4,383 across different branches. SC category cutoffs varied from 312 to 2,625, ST category from 154 to 1,242, EWS category from 216 to 1,714, and PWD category from 69 to 208. These cutoffs demonstrate that candidates with ranks below approximately 10,600 in the General category have reasonable chances of securing admission to at least some branches at IIT Indore.",
+          "citations": ["web:36", "web:39"]
+        },
+        "required_marks": {
+          "heading": "Required JEE Advanced Marks",
+          "text": "The marks required in JEE Advanced for admission to IIT Indore vary based on category, branch preference, and year. For General category students interested in popular branches like Computer Science or Electrical Engineering, the typical requirement ranges from 230-250 marks out of 350, representing approximately 66-71% score. For other popular branches, the cutoff marks range from 180-220 marks, representing approximately 51-63% score. For OBC-NCL and EWS category students, marks requirements are somewhat lower, typically ranging from 160-230 marks depending on the branch. For SC, ST, and PWD categories, the marks requirement can be significantly lower, sometimes starting from 100-150 marks for less competitive branches. It's important to note that cutoffs vary each year based on paper difficulty, number of applicants, available seats, and seat allocation dynamics across IITs. The minimum qualifying marks for JEE Advanced are set at 35% for General category, 31.5% for OBC-NCL and EWS categories, and lower percentages for SC/ST/PWD categories.",
+          "citations": ["web:39"]
+        },
+        "seat_allotment": {
+          "heading": "Seat Allotment Process",
+          "text": "Seat allotment for IIT Indore is conducted centrally through JoSAA (Joint Seat Allocation Authority), which manages admissions to all IITs, NITs, IIITs, and other centrally funded technical institutions. JoSAA conducts multiple rounds of seat allocation (typically 5-6 rounds), allowing candidates to modify their choices and preferences between rounds. Candidates must register on the JoSAA portal after JEE Advanced results are declared, pay registration fees, fill their choice of institutes and branches in order of preference (up to several hundred options), lock their choices before the deadline for each round, and participate in the seat allocation process. The seat allocation algorithm considers the candidate's JEE Advanced rank, category, chosen preferences, and available seats to optimize allocations in each round. If allotted a seat at IIT Indore, candidates can either accept the seat and freeze their choice (no longer participating in subsequent rounds), accept the seat and participate in further rounds with the possibility of upgrading to a higher preference, or reject the seat. Most candidates opt to accept and float, allowing potential upgrades while securing a seat. After seat allotment, candidates must complete online acceptance formalities, pay seat acceptance fees, upload necessary documents for verification, and physically report to IIT Indore on designated dates to complete admission processes. Failure to complete any step within specified timelines may result in cancellation of the allotted seat and forfeiture of paid fees.",
+          "citations": ["web:36"]
+        },
+        "document_verification": {
+          "heading": "Document Verification and Admission Confirmation",
+          "text": "Candidates allotted seats at IIT Indore must complete document verification and admission formalities within the prescribed timeline. Required documents typically include JEE Advanced Admit Card and Rank Letter, Class 10th Certificate (for age proof), Class 12th Certificate and Mark Sheet (for educational qualification), Category Certificate (if applicable for reserved categories), Medical Fitness Certificate, Character Certificate, Transfer Certificate or Migration Certificate, and Passport-size Photographs. The admission office verifies these documents for authenticity and completeness before confirming admission. Any discrepancy or submission of false documents can lead to cancellation of admission at any stage, even after enrollment. After successful document verification, candidates must pay the admission fee as prescribed and complete registration to confirm their admission.",
+          "citations": ["web:36"]
+        }
+      },
+      "postgraduate_admissions": {
+        "heading": "Postgraduate Admissions",
+        "mtech_admission": {
+          "heading": "M.Tech Admission through GATE",
+          "text": "IIT Indore admits students to its M.Tech programs through the Graduate Aptitude Test in Engineering (GATE), a national-level examination conducted jointly by the IITs and IISc. GATE scores are valid for three years from the date of result announcement, allowing candidates to apply with previous years' scores as well. Admission to M.Tech programs is a two-stage process involving shortlisting based on GATE scores followed by written test and/or interview conducted by the respective departments at IIT Indore. The shortlisting criteria and selection process vary across departments based on specialization requirements, and candidates should refer to the specific program advertisements for detailed requirements. Minimum GATE score requirements vary by department, category, and year based on application volume and available seats. Typically, candidates with GATE scores above the 80th percentile have good chances of being shortlisted for interviews in competitive specializations like Computer Science and VLSI Design. For other specializations, lower percentiles may also be considered depending on the applicant pool. The interview process assesses candidates' technical knowledge, research interests, communication skills, and suitability for the program. Some departments may conduct written tests covering core subjects relevant to the specialization. Final selection is based on a composite score combining GATE marks, interview performance, and sometimes written test scores.",
+          "citations": ["web:35", "web:41"]
+        },
+        "msc_admission": {
+          "heading": "M.Sc and M.S. Research Admissions",
+          "text": "Admissions to M.Sc programs in Physics, Chemistry, Mathematics, Biotechnology, and Astronomy are conducted through national-level entrance examinations such as IIT JAM (Joint Admission Test for M.Sc) or GAT-B (Graduate Aptitude Test in Biotechnology). These examinations test candidates' understanding of core science concepts relevant to the discipline. The selection process typically includes shortlisting based on entrance examination scores followed by interviews or written tests conducted by the respective departments. Eligibility criteria for M.Sc programs require candidates to have completed Bachelor's degree in relevant disciplines with minimum specified percentage (typically 60% for General/OBC and 55% for SC/ST categories). For M.S. Research programs, admissions are conducted through GATE scores followed by interviews where candidates' research interests, aptitude, and alignment with faculty expertise are thoroughly assessed. Candidates must demonstrate research potential through their academic record, project work, publications (if any), and performance in the interview.",
+          "citations": ["web:35", "web:41"]
+        }
+      },
+      "doctoral_admissions": {
+        "heading": "Doctoral Admissions",
+        "phd_criteria": {
+          "heading": "Ph.D. Admission Criteria and Process",
+          "text": "IIT Indore conducts Ph.D. admissions twice a year (for monsoon and winter semesters) across all its departments. The admission process involves advertising vacancies, receiving applications through online portals, conducting written tests and/or interviews, and final selection by departmental research committees. Eligibility criteria for Ph.D. admission require candidates to hold a Master's degree (M.Tech/M.E/M.Sc/MBA/MA) with minimum specified CGPA or percentage (typically 6.5 CGPA on 10-point scale or 60% marks). Candidates with Bachelor's degree and exceptional academic record may also be considered for direct Ph.D. admission in certain disciplines under specific provisions. Valid GATE/NET/CSIR-UGC/UGC-JRF/equivalent national-level examination scores are typically required or preferred, though some departments may waive this requirement for candidates with outstanding academic credentials or relevant research publications. The selection process includes assessment of the candidate's research proposal, previous academic performance, performance in written test/interview, relevant publications or project work, and alignment of research interests with available faculty expertise. Candidates are expected to identify potential research supervisors and areas of research interest before applying, often requiring them to study faculty profiles and research publications to identify suitable matches. Some candidates proactively contact potential supervisors before applying to discuss research ideas and alignment.",
+          "citations": ["web:41", "web:35", "web:68"]
+        },
+        "phd_financial_support": {
+          "heading": "Financial Support for Ph.D. Students",
+          "text": "Full-time Ph.D. students at IIT Indore are eligible for financial assistance in the form of monthly fellowship/assistantship as per government and institute norms. The fellowship amount varies based on whether the student holds valid GATE/NET/CSIR-UGC qualifications and the stage of their Ph.D. program (first two years vs. subsequent years). Typically, Ph.D. scholars with valid GATE/NET qualifications receive monthly fellowships starting from approximately ₹31,000-₹35,000 per month, with increments after completion of certain milestones. Additional contingency grants are provided for research expenses such as chemicals, materials, equipment, conference travel, publication charges, and thesis preparation. Part-time Ph.D. students, being employed professionals, do not receive financial assistance from the institute but pay tuition fees on the same scale as full-time students. The relatively affordable fee structure makes Ph.D. accessible to motivated researchers from diverse economic backgrounds.",
+          "citations": ["web:41", "web:68"]
+        }
+      },
+      "reservation_policy": {
+        "heading": "Reservation Policy",
+        "text": "IIT Indore follows the Government of India's reservation policy for admissions across all programs. Seats are reserved for candidates belonging to Scheduled Castes (SC - 15%), Scheduled Tribes (ST - 7.5%), Other Backward Classes - Non-Creamy Layer (OBC-NCL - 27%), Economically Weaker Sections (EWS - 10%), and Persons with Disabilities (PWD - 5% horizontal reservation across all categories). These reservations ensure representation and opportunity for students from diverse social and economic backgrounds. Relaxation in cutoff ranks, age limits, and minimum percentage requirements is provided to reserved category candidates as per government guidelines. Candidates claiming reservation must submit valid certificates issued by competent authorities during document verification.",
+        "citations": ["web:36"]
+      },
+      "international_students": {
+        "heading": "International Students Admission",
+        "text": "IIT Indore welcomes international students to its various programs through the DASA (Direct Admission of Students Abroad) scheme for undergraduate programs and through direct applications for postgraduate and doctoral programs. International students add diversity to the campus community and facilitate cross-cultural learning experiences. The institute provides specialized support services for international students including visa assistance, accommodation arrangements, and orientation programs. Admission criteria for international students vary based on their country of origin and the program they wish to join. Candidates should contact the international relations office or the admission office at IIT Indore for specific requirements and procedures.",
+        "citations": ["web:41"]
+      }
+    }
+  },
+  "placements": {
+    "word_count": "4000",
+    "content": {
+      "overall_performance": {
+        "heading": "Overall Placement Performance",
+        "text": "IIT Indore demonstrated impressive placement performance for the Academic Year 2024, with comprehensive data highlighting strong industry engagement and student outcomes. According to media reports, the placement drive recorded an 88% placement rate as of December 1, 2024, indicating that a significant majority of students successfully secured employment or higher education opportunities. This high placement percentage reflects the quality of education, skills development, and industry relationships cultivated by the institute. A total of over 500 job offers were made till December 1, 2024, during the ongoing placement season, demonstrating robust recruiter participation and confidence in IIT Indore graduates. The placement drive attracted over 200 companies for full-time hiring across diverse sectors including information technology, core engineering, consulting, banking and financial services, analytics, research and development, and public sector undertakings. Remarkably, the average package increased by 13% compared to the previous year, reflecting improved compensation trends and recognition of graduate quality. This upward trajectory in average compensation indicates growing recruiter confidence and the institute's success in enhancing student employability through curriculum improvements, skill development programs, and industry engagement. In a notable achievement, five students secured salary packages of ₹100 LPA (₹1 crore per annum), marking an exceptional milestone for the institute. These elite offers demonstrate that IIT Indore graduates can compete for the most coveted positions alongside students from older, more established IITs, validating the institute's educational quality and student caliber.",
+        "citations": ["web:40", "web:43", "web:41"]
+      },
+      "program_wise_statistics": {
+        "heading": "Program-Wise Placement Statistics",
+        "btech_placements": {
+          "heading": "B.Tech Placements",
+          "text": "The B.Tech (Bachelor of Technology) program recorded outstanding placement outcomes with 89.76% of the BTech batch 2023 successfully placed in reputed companies. This high placement percentage indicates strong industry demand for undergraduate engineering graduates from IIT Indore across various specializations. The BTech placement performance has been consistently strong over multiple years, establishing the institute's reputation as a reliable source of quality engineering talent. The highest package for BTech stood at an impressive ₹68 LPA during the 2023 placement drive, demonstrating that exceptional students can secure elite offers competitive with top-tier IITs. This highest domestic package was offered to students from the Computer Science & Engineering department, reflecting the premium that technology companies place on software engineering talent. The BTech placements witnessed participation from prestigious companies across sectors including technology giants like Amazon, Microsoft, Flipkart, Samsung, and Oracle; financial services firms like Goldman Sachs and Optum; consulting companies; core engineering firms; and startups offering diverse roles. This diversity of recruiters ensures that students across different branches find suitable opportunities aligned with their interests and career goals.",
+          "citations": ["web:40", "web:44"]
+        },
+        "mtech_placements": {
+          "heading": "M.Tech Placements",
+          "text": "The M.Tech (Master of Technology) program achieved a 65.38% placement rate for the MTech batch 2023, which is respectable considering that many M.Tech students pursue research careers, higher studies (Ph.D.), or have different objectives beyond campus placements. The placement percentage for M.Tech typically tends to be lower than B.Tech across Indian technical institutions, as postgraduate students often have more diverse career paths. The highest package for MTech reached ₹37 LPA during the 2023 placements, with the Computer Science specialization commanding the highest offers
+
+[1](https://ee.iiti.ac.in/awards.html)
+[2](https://hss.iiti.ac.in/People_Alumni.php)
+[3](https://dslab.iiti.ac.in)
+[4](https://www.iiti.ac.in)
+[5](https://www.iiti.ac.in/oldweb/downloads/public_relation/news_letter/Newsletter_Jan_Feb_2010.pdf)
+[6](https://www.collegebatch.com/reviews/22506-indian-institute-of-technology-indore)
+[7](https://www.iiti.ac.in/admin-staff)
+[8](https://cse.iiti.ac.in/faculty.php)
+[9](https://collegedunia.com/qna/question/33111-how-is-iit-indore-campus-life)
+[10](https://iiti.ac.in/office_of_registrar)

@@ -548,36 +548,6 @@ const ChandigarhUniversityPage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">About {collegeData.Name}</h3>
         <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
         
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <p className="text-gray-700 mb-3">
-            <strong>Chandigarh University offers 450+ programs at UG, PG, and Doctorate levels.</strong> The university offers programs in Engineering & Technology, Management, Commerce, Hotel Management, Pharmacy, Law, Architecture, Computer Applications, Liberal Arts, Sciences, Agriculture, Media Studies, Fashion Design, and numerous other disciplines. Popular courses are B.Tech, MBA, B.Sc, BBA, M.Tech.
-          </p>
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>Chandigarh University Fees 2025-2026 range from ₹2.57 Lakhs to ₹14.05 Lakhs across all offered courses.</strong> B.Tech Fees: ₹7.65 Lakhs - 14.05 Lakhs (4 years), MBA Fees: ₹6 Lakhs - 12 Lakhs (2 years), B.Sc Fees: ₹2.57 Lakhs - 6.05 Lakhs</li>
-            <li>• <strong>Chandigarh University B.Tech Fees is ₹7.65 Lakhs - 14.05 Lakhs for the entire 4 years duration.</strong> Popular specializations: Computer Science Engineering, Information Technology, Electronics & Communication Engineering.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• Chandigarh University B.Tech CSE Fees is ₹11.68 Lakhs (total 4 years).</li>
-                <li>• B.Tech fees vary by specialization, with emerging tech branches at higher fees.</li>
-              </ul>
-            </li>
-            <li>• <strong>Chandigarh University MBA Fees is ₹6 Lakhs - 12 Lakhs for the entire 2 years duration.</strong> Popular specializations: Finance, Marketing, HR, Operations, Business Analytics.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• MBA fees vary based on specialization and admission category.</li>
-                <li>• Scholarships available based on CUCET performance and CAT/MAT/XAT scores.</li>
-              </ul>
-            </li>
-            <li>• <strong>Chandigarh University offers B.Sc, BBA, and other programs with fees ranging from ₹2.57 Lakhs to ₹10.05 Lakhs.</strong> Popular programs: B.Sc Biotechnology (₹5.88 Lakhs for 4 years), BBA General Management (₹6.77 Lakhs for 3 years).
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• B.Sc Biotechnology fees: ₹1.50 Lakhs first year, ₹1.46 Lakhs subsequent years.</li>
-                <li>• BBA General fees: ₹1.73 Lakhs first year, ₹1.68 Lakhs subsequent years.</li>
-              </ul>
-            </li>
-            <li>• <strong>Chandigarh University offers Ph.D programs across all disciplines.</strong> Ph.D fees approximately ₹1.5 Lakhs per year with typical duration of 3-5 years.</li>
-            <li>• <strong>Chandigarh University Hostel Fee is approximately ₹80,000 per year.</strong> Hostel accommodation includes AC/Non-AC options with single, double, or triple sharing.</li>
-          </ul>
-        </div>
-        
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Established" value={collegeData.Established.Year} />
           <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2025.Overall} />
@@ -599,6 +569,7 @@ const ChandigarhUniversityPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
         
+<<<<<<< Updated upstream
         {/* Summary Bullet Points */}
         <div className="mb-6">
           <ul className="space-y-2 text-gray-700">
@@ -610,6 +581,8 @@ const ChandigarhUniversityPage: React.FC = () => {
           </ul>
         </div>
         
+=======
+>>>>>>> Stashed changes
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-4 bg-gray-50">
             <h4 className="font-semibold text-lg mb-3">Undergraduate Programs</h4>
@@ -2864,7 +2837,7 @@ const ChandigarhUniversityPage: React.FC = () => {
             <Download className="w-5 h-5 mr-2" />
             Download Brochure
           </button>
-          <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             <Mail className="w-5 h-5 mr-2" />
             Apply Now
           </button>
@@ -2977,7 +2950,7 @@ const ChandigarhUniversityPage: React.FC = () => {
                 <Download className="w-5 h-5 mr-2" />
                 Download Brochure
               </button>
-              <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                 <Mail className="w-5 h-5 mr-2" />
                 Apply Now
               </button>
@@ -3111,5 +3084,10 @@ const ChandigarhUniversityPage: React.FC = () => {
     </div>
   );
 };
+
+  const openApplyForm = () => {
+    setIsLeadModalOpen(true);
+    try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'apply_now_click', page: 'chandigarh_university' } })); } catch {}
+  };
 
 export default ChandigarhUniversityPage;

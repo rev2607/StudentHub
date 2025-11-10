@@ -564,32 +564,6 @@ const AmityNoidaPage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">About {collegeData.Name}</h3>
         <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
         
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <p className="text-gray-700 mb-3">
-            <strong>Amity University Noida offers 240+ programs across undergraduate, postgraduate, and doctoral levels spanning Engineering, Management, Law, Sciences, Arts, Media, and numerous other disciplines.</strong> The university offers programs in Engineering & Technology, Management, Law, Architecture, Behavioral & Allied Sciences, Communication, Biotechnology, Information Technology, Fine Arts, Liberal Arts. Available degrees include B.Tech, M.Tech, Ph.D, B.Arch, BBA, MBA, BA LLB, BBA LLB, LLM, M.Sc, B.Sc, and numerous others. Popular courses are B.Tech, MBA, BBA, M.Tech, B.Arch.
-          </p>
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>Amity University Noida Fees 2025-2026 is ₹7.48 Lakhs - 16.72 Lakhs across all offered courses.</strong> UG Fees: ₹7.48 Lakhs - 16.72 Lakhs, PG Fees: ₹2.76 Lakhs - 15.80 Lakhs</li>
-            <li>• <strong>Amity University Noida B.Tech Fees is ₹7.48 Lakhs - 16.72 Lakhs for the entire 4 years duration.</strong> Popular specializations: Computer Science and Engineering (₹16.72 Lakhs), Artificial Intelligence (₹16.52 Lakhs), Information Technology (₹13.88 Lakhs).
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• Amity University Noida B.Tech CSE Fees is ₹16.72 Lakhs (4 years). Application fee: ₹1,500 per program.</li>
-                <li>• Amity University Noida B.Tech AI Fees is ₹16.52 Lakhs (4 years).</li>
-                <li>• Amity University Noida B.Tech IT Fees is ₹13.88 Lakhs (4 years).</li>
-                <li>• Amity University Noida B.Tech Biotechnology Fees is ₹14 Lakhs (4 years).</li>
-              </ul>
-            </li>
-            <li>• <strong>Amity University Noida MBA Fees is ₹6.4 Lakhs - 15.80 Lakhs for the entire 2 years duration.</strong> Popular specializations: Finance, Marketing, HR, Operations, Business Analytics, International Business.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• Admission through CAT/MAT/NMAT/XAT/CMAT scores or Amity entrance test, followed by Group Discussion and Personal Interview.</li>
-              </ul>
-            </li>
-            <li>• <strong>Amity University Noida BBA Fees is ₹7.32 Lakhs - 14.55 Lakhs for the entire 3 years duration.</strong> Admission based on Personal Interview, no specific entrance exam required.</li>
-            <li>• <strong>Amity University Noida M.Tech Fees is ₹2.76 Lakhs - 3.36 Lakhs for the entire 2 years duration.</strong> Admission based on Personal Interview or GATE scores.</li>
-            <li>• <strong>Amity University Noida Hostel Fee is ₹1.2 Lakhs to 1.8 Lakhs annually (varies by room type: AC/Non-AC, Single/Shared).</strong></li>
-          </ul>
-        </div>
-        
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Established" value={collegeData.Established.Year} />
           <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2025.Overall} />
@@ -610,17 +584,6 @@ const AmityNoidaPage: React.FC = () => {
       {/* Academic Programs Overview */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
-        
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>Amity University, Noida offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, law, architecture, and numerous other disciplines.</strong> The university maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
-            <li>• <strong>Undergraduate Programs:</strong> B.Tech across 17+ branches (₹3.6L/year), B.Arch (₹3.6L/year), BBA (₹1.65L/year), BCA, B.Com, and more. Admission through Amity JEE, JEE Main, or direct admission based on merit.</li>
-            <li>• <strong>Postgraduate Programs:</strong> M.Tech across multiple specializations (₹3.1L/year), MBA (₹8.5L/year), M.Sc, M.Com, and other programs. Admission through GATE, CAT/MAT/NMAT for MBA, and university entrance examinations.</li>
-            <li>• <strong>Doctoral Programs:</strong> PhD across 27+ programs. Duration typically 3-5 years with research focus areas including Engineering Technologies, Biotechnology, Management, and Interdisciplinary Research.</li>
-            <li>• <strong>Hostel & Accommodation:</strong> Modern hostels with amenities including Wi-Fi, study rooms, mess facilities, and recreation areas. Hostel fees vary based on room type and facilities.</li>
-          </ul>
-        </div>
         
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-4 bg-gray-50">
@@ -2887,7 +2850,7 @@ const AmityNoidaPage: React.FC = () => {
             <Download className="w-5 h-5 mr-2" />
             Download Brochure
           </button>
-          <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             <Mail className="w-5 h-5 mr-2" />
             Apply Now
           </button>
@@ -3000,7 +2963,7 @@ const AmityNoidaPage: React.FC = () => {
                 <Download className="w-5 h-5 mr-2" />
                 Download Brochure
               </button>
-              <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                 <Mail className="w-5 h-5 mr-2" />
                 Apply Now
               </button>
@@ -3134,6 +3097,11 @@ const AmityNoidaPage: React.FC = () => {
     </div>
   );
 };
+
+  const openApplyForm = () => {
+    setIsLeadModalOpen(true);
+    try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'apply_now_click', page: 'amity_noida' } })); } catch {}
+  };
 
 export default AmityNoidaPage;
 

@@ -1,0 +1,175 @@
+{
+  "College Name": "VNIT Nagpur",
+  "Overview": {
+    "Introduction": "Visvesvaraya National Institute of Technology Nagpur (VNIT), established in 1960, is a premier engineering institute and one of the 31 National Institutes of Technology in India located in Nagpur, Maharashtra. It holds the status of an Institute of National Importance and offers UG, PG, and Ph.D. programs in various engineering and science disciplines.",[1][2]
+    "Historical Narrative": "Initially known as Visvesvaraya Regional College of Engineering (VRCE), VNIT transitioned to a National Institute of Technology and has been accredited with Grade A by NAAC. It has progressively expanded its academic and research stature while maintaining strong industry linkages.",[2][3]
+    "Vision and Mission": "VNIT's mission focuses on fostering quality technical education, research, and innovation to meet industrial and societal needs while encouraging entrepreneurship and sustainability in technology.",[4]
+    "Academic Structure": "VNIT offers a four-year B.Tech program in 8 specializations with related postgraduate M.Tech programs in 21 specializations, along with M.Sc and Ph.D. research opportunities. The curriculum integrates theoretical knowledge with practical experience and research exposure.",[5]
+    "Student Life": "The campus fosters a vibrant student ecosystem with cultural and technical festivals, sports facilities, student clubs, and recreational amenities promoting holistic learning and camaraderie.",[6]
+    "Diversity": "VNIT attracts students and faculty from across India, reflecting cultural and regional diversity in the academic environment.",
+    "Research and Innovation": "The institute is equipped with state-of-the-art laboratories, research centers, and computing facilities supporting cutting-edge research and collaborations.",[7][4]
+    "Community Engagement": "VNIT participates in social outreach, entrepreneurship development, and technical consultancy, contributing to regional and national development.",
+    "Governance": "Managed by a Director, academic Senate, and various administrative bodies ensuring operational and academic excellence.",
+    "Unique Features": [
+      "Top 3 NIT by NIRF ranking",
+      "NAAC Grade A accreditation",
+      "Strong industry placement record",
+      "Comprehensive labs and research facilities"
+    ],
+    "Narrative Flow": [
+      "Establishment and growth",
+      "Academic breadth and research excellence",
+      "Student engagement and campus culture",
+      "Community and governance"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      {
+        "Undergraduate": [
+          "B.Tech in 8 engineering specializations: Civil, Chemical, Computer Science, Electrical, Electronics & Communication, Mechanical, Metallurgical & Materials, Mining Engineering"
+        ],
+        "Postgraduate": [
+          "M.Tech across 21 specializations",
+          "M.Sc in Physics, Chemistry, Mathematics",
+          "Ph.D research programs"
+        ]
+      }
+    ],
+    "Fee Structure": {
+      "B.Tech": "INR 5 Lakhs for the total course",
+      "M.Tech": "Approx. INR 1.4 Lakhs for 2 years",
+      "M.Sc": "INR 30,000 for 2 years",
+      "Ph.D": "INR 1.33 Lakhs",
+      "Fee Table": [
+        "| Course | Duration | Total Fee (INR) |",
+        "|--------|----------|-----------------|",
+        "| B.Tech | 4 years  | 5,00,000        |",
+        "| M.Tech | 2 years  | 1,40,000        |",
+        "| M.Sc   | 2 years  | 30,000          |",
+        "| Ph.D   | 3-5 years| 1,33,000        |"
+      ],
+      "Additional Costs": "Includes hostel fees, mess charges, and other miscellaneous fees updated annually.",
+      "Scholarships": "Numerous merit and need-based scholarships available; full fee waivers for SC/ST/PwD students."
+    }
+  },
+  "Admissions": {
+    "Overview": "Admission is strictly based on national competitive exams with counseling. UG through JEE Main, PG through GATE, masters and research admissions also involve interviews and departmental tests as applicable.",[8]
+    "UG Admission": [
+      "B.Tech admission via JEE Main and JoSAA counseling",
+      "Cutoffs vary by specialization and category, requiring high academic performance."
+    ],
+    "PG Admission": [
+      "M.Tech via GATE and CCMT counseling",
+      "M.Sc through IIT JAM",
+      "Ph.D through institute-level exam and interview"
+    ],
+    "Admission Steps": [
+      "Complete the entrance examination registration and qualification",
+      "Apply for centralized counseling processes",
+      "Participate in seat allotment and document verification",
+      "Confirm admission by fee payment"
+    ],
+    "Seat Intake Data": {
+      "B.Tech": "Approx 650 seats across branches",
+      "M.Tech": "Varied, based on specialization",
+      "Ph.D": "Open with regular intake"
+    },
+    "Direction": [
+      "National entrance exams→ Centralized counseling → Seat confirmation"
+    ]
+  },
+  "Placements": {
+    "Placement Overview": [
+      "In 2025, bidding placement for UG was 83.8%, with 558 students placed out of 666 registered.",[9][10]
+      "Highest package was INR 64 LPA with average INR 10.7 LPA.",
+      "Top recruiters included Google, Oracle, Goldman Sachs, Amazon, Microsoft, and others.",
+      "Training & Placement cell actively facilitates internships, placement preparation, and alumni networking."
+    ],
+    "Branch-wise Placements": [
+      "| Branch                      | Placement % | Highest Package | Average Package |",
+      "|-----------------------------|-------------|-----------------|-----------------|",
+      "| Computer Science & Engg      | 90          | INR 64 LPA      | INR 15 LPA      |",
+      "| Electronics & Comm. Engg     | 85          | INR 60 LPA      | INR 13 LPA      |",
+      "| Mechanical Engineering       | 80          | INR 40 LPA      | INR 10 LPA      |",
+      "| Metallurgical & Materials Eng| 75          | INR 30 LPA      | INR 9 LPA       |"
+    ]
+  },
+  "Rankings": {
+    "NIRF": {
+      "2023": "27th in engineering category",
+      "2024": "Maintained top 30 national rank"
+    },
+    "Additional Rankings": [
+      "10th Best Engineering Institute in i3RC Times Engineering survey",
+      "24th Top Engineering College in India by Outlook magazine"
+    ],
+    "Notable Recognitions": "VNIT Nagpur's consistent presence among top Indian engineering institutes",
+    "Direction": [
+      "Consistent high national rankings; strong visibility in engineering education"
+    ]
+  },
+  "Facilities": {
+    "Campus": [
+      "215-acre lush green campus with academic blocks, auditorium (4980 sq.m.), gymnasium (1700 sq.m.), sports complex (835 sq.m.), health center (23541 sq.m.).",[11]
+      "Digital library, computer labs, seminar halls, canteens, Wi-Fi-enabled zones, hostels accommodating over 3500 students with amenities."
+    ],
+    "Hostels": [
+      "Seven boys and four girls hostels with basic amenities, LAN connections, study areas, and regular maintenance."[6]
+    ],
+    "Sports": [
+      "Extensive facilities including cricket, football, basketball, badminton, tennis courts, gymnasium, and yoga hall."
+    ],
+    "Medical & Banking": [
+      "On-campus health center, dispensaries, banks, and ATMs."
+    ],
+    "Other Facilities": [
+      "Guest houses, conference rooms, transport services, and a robust alumni network."
+    ]
+  },
+  "Faculty": {
+    "Strength": "Strong faculty base with over 160 members, majority with PhDs from IITs, IISc, and reputed institutions; active in research and consultancy.",[12]
+    "Fields": "Mechanical, Electrical, Electronics, Civil, Metallurgical, Computer Science, Applied Sciences.",
+    "Approach": "Focus on impactful research, student mentorship, and modern pedagogy."
+  },
+  "Reviews": {
+    "Key Points": [
+      "Students praise rich academic environment, strong faculty, and quality infrastructure.",
+      "Hostels and sports amenities well appreciated; mess food quality average with scope for improvement.",
+      "Placements particularly strong for CSE/ECE; some variability in other branches.",
+      "Overall positive feedback on campus environment and learning culture."
+    ]
+  },
+  "Contact": {
+    "Address": "Visvesvaraya National Institute of Technology Nagpur, South Ambazari Road, Nagpur, Maharashtra - 440010",
+    "Phone": "+91-712-2801100",
+    "Email": "info@vnit.ac.in",
+    "Website": "https://vnit.ac.in",
+    "Social Media": {
+      "Facebook": "facebook.com/vnitnagpur",
+      "Twitter": "twitter.com/vnit_nagpur",
+      "LinkedIn": "linkedin.com/school/vnit-nagpur"ur"
+    }
+  }
+}
+
+[1](https://en.wikipedia.org/wiki/Visvesvaraya_National_Institute_of_Technology_Nagpur)
+[2](https://collegedunia.com/university/25733-visvesvaraya-national-institute-of-technology-vnit-nagpur)
+[3](https://www.aakash.ac.in/blog/visvesvaraya-national-institute-of-technology-nagpur-vnit-ranking-admissions-courses-fees-placements-and-cutoff/)
+[4](https://vnit.ac.in/why-vnit/)
+[5](https://www.shiksha.com/college/vnit-nagpur-visvesvaraya-national-institute-of-technology-24399/courses)
+[6](https://www.shiksha.com/college/vnit-nagpur-visvesvaraya-national-institute-of-technology-24399/reviews)
+[7](https://vnit.ac.in/departments-research-area/)
+[8](https://www.shiksha.com/college/vnit-nagpur-visvesvaraya-national-institute-of-technology-24399/admission)
+[9](https://www.shiksha.com/college/vnit-nagpur-visvesvaraya-national-institute-of-technology-24399/placement)
+[10](https://vnit.ac.in/section/tnp/)
+[11](https://vnit.ac.in/campus-facilities/)
+[12](https://vnit.ac.in/faculty/)
+[13](https://www.shiksha.com/college/vnit-nagpur-visvesvaraya-national-institute-of-technology-24399)
+[14](https://vnit.ac.in/nirf/)
+[15](https://www.careers360.com/university/visvesvaraya-national-institute-of-technology-nagpur/facilities)
+[16](https://www.collegedekho.com/colleges/vnit-reviews)
+[17](https://www.boostmytalent.com/college/vnit-visvesvaraya-national-institute-of-technology-nagpur)
+[18](https://www.careers360.com/university/visvesvaraya-national-institute-of-technology-nagpur/courses)
+[19](https://vnit.ac.in/section/academics/admission/)
+[20](https://collegedunia.com/university/25733-visvesvaraya-national-institute-of-technology-vnit-nagpur/ranking)

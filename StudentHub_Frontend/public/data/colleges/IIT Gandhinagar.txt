@@ -1,0 +1,1529 @@
+I'll provide the IIT Gandhinagar information in comprehensive JSON format based on the information I gathered earlier in this conversation.
+
+```json
+{
+  "college_name": "Indian Institute of Technology Gandhinagar",
+  "acronym": "IIT Gandhinagar / IITGN",
+  "established": 2008,
+  "location": {
+    "city": "Gandhinagar",
+    "state": "Gujarat",
+    "country": "India",
+    "campus_area": "399-400 acres",
+    "specific_location": "Palaj village, western banks of Sabarmati River",
+    "distance_from_city": "20 kilometers from Gandhinagar"
+  },
+  
+  "overview": {
+    "word_count": "12000",
+    "sections": {
+      "institutional_foundation": {
+        "heading": "Institutional Foundation and Historical Legacy",
+        "content": "Indian Institute of Technology Gandhinagar (IIT Gandhinagar or IITGN) stands as one of India's most distinguished institutes of national importance, established in 2008 as part of the government's ambitious initiative to expand premier technical education infrastructure across the nation. The institute emerged as one of eight new Indian Institutes of Technology founded by the Ministry of Human Resource Development, representing a strategic commitment to democratizing access to world-class technical education and fostering innovation ecosystems in underserved regions. The legislative framework that formalized IIT Gandhinagar's status came through The Institutes of Technology (Amendment) Act, 2011, which was passed by the Lok Sabha on 24th March 2011 and subsequently by the Rajya Sabha on 30th April 2012. This parliamentary approval officially declared these new IITs as institutes of national importance, positioning them alongside India's most prestigious educational institutions with autonomy in governance, curriculum design, and degree-granting authority. The institute commenced its inaugural academic session in 2008-09 from a temporary campus at Vishwakarma Government Engineering College in Chandkheda, Ahmedabad. The first batch of students was admitted to three undergraduate programs: Chemical Engineering, Mechanical Engineering, and Electrical Engineering, marking the beginning of what would become a transformative journey in technical education for western India. During its formative years, the institute operated under the mentorship of Indian Institute of Technology Bombay, one of India's premier technical institutions. This mentorship arrangement proved crucial in establishing academic standards, curriculum frameworks, faculty recruitment protocols, research infrastructure, examination systems, and administrative processes aligned with IIT excellence. IIT Bombay's guidance ensured that IIT Gandhinagar inherited best practices while developing its unique institutional identity and innovative educational approaches. The founding faculty members often came from established IITs, premier international institutions, and research organizations, bringing academic excellence and diverse perspectives that accelerated the institute's development.",
+        "key_milestones": [
+          {
+            "year": 2008,
+            "event": "Institute established, first academic session commenced"
+          },
+          {
+            "year": 2009,
+            "event": "Foundation stone laid by Arjun Singh (then HRD Minister)"
+          },
+          {
+            "year": 2011,
+            "event": "Institutes of Technology Amendment Act passed by Parliament"
+          },
+          {
+            "year": 2012,
+            "event": "Formal declaration as Institute of National Importance"
+          },
+          {
+            "year": 2012,
+            "event": "Land granted by Gujarat Government (400+ acres on 99-year lease for ₹1)"
+          },
+          {
+            "year": 2015,
+            "event": "Moved to permanent campus in Palaj, Simrol (July 2015)"
+          }
+        ],
+        "citations": ["web:61", "web:64"]
+      },
+      
+      "geographic_location": {
+        "heading": "Geographic Location and Campus Transformation",
+        "content": "The permanent campus of IIT Gandhinagar occupies a spectacular location spread across approximately 400 acres (later expanded to 399 acres) on the western banks of the Sabarmati River in Palaj village, approximately 20 kilometers from Gandhinagar city, the capital of Gujarat. This riverside setting provides a serene and inspiring environment for academic pursuits, research activities, and holistic student development. The expansive campus provides ample space for academic buildings, research facilities, residential hostels, sports complexes, administrative offices, green spaces, and future expansion. The campus site carries unique historical significance, having served as a detention camp during World War II. This transformation from a place of confinement to a vibrant center of enlightenment, knowledge creation, and innovation symbolizes human progress and the transformative power of education to reshape landscapes, purposes, and destinies. The institute has consciously preserved this historical context while building modern infrastructure that reflects contemporary educational requirements and sustainability principles. In 2011, during his inaugural speech at the Amalthea technology summit, then Gujarat Chief Minister Narendra Modi announced that 'the state government has decided to give land on 99-year lease with a token amount of just one rupee for setting up a campus of IIT-Gandhinagar'. This extraordinarily generous gesture by the Gujarat government demonstrated strong state support for educational excellence and reflected the political leadership's vision of transforming Gujarat into an educational and innovation hub. The institute took possession of the 400+ acres of land in August 2012, and after intensive construction and infrastructure development, classes and other activities on the new permanent campus commenced in July 2015. This transition from the temporary campus to the award-winning permanent campus marked a significant milestone in the institute's journey, enabling it to realize its full potential with state-of-the-art facilities, expanded research infrastructure, and comprehensive residential amenities.",
+        "historical_significance": "Former World War II detention camp",
+        "land_acquisition": {
+          "size": "400+ acres",
+          "lease_duration": "99 years",
+          "cost": "₹1 (token amount)",
+          "donor": "Gujarat State Government"
+        },
+        "citations": ["web:60", "web:61", "web:76"]
+      },
+      
+      "architectural_excellence": {
+        "heading": "Architectural Excellence and Award-Winning Design",
+        "content": "The IIT Gandhinagar campus has earned widespread recognition for its innovative and sustainable architectural design, winning multiple awards and accolades. The campus design emphasizes environmental sustainability, energy efficiency, water conservation, and harmony with natural surroundings, incorporating features such as solar power generation, rainwater harvesting systems, comprehensive waste management, green building principles, natural ventilation, and extensive plantation. One of the most distinctive architectural features is the 100-foot-tall landmark tower that serves as an iconic symbol of the institute and provides a visual anchor for the entire campus. The campus layout follows a carefully planned design that integrates academic zones, residential areas, recreational spaces, and administrative facilities while maintaining functional efficiency and aesthetic appeal. The campus infrastructure includes six hostel blocks accommodating both undergraduate and postgraduate students, two independent mess facilities for dining, one large central cafeteria with multiple food joints and open-air seating, modern academic buildings with smart classrooms, advanced laboratories with sophisticated equipment, a comprehensive library, auditoriums and lecture halls, sports facilities including fields and courts, a gymnasium, rooftop open-air theatres, a central vista for community gatherings, and two natural lakes that enhance the campus ecology. The award-winning campus design reflects IITGN's commitment to creating an environment that nurtures creativity, collaboration, interdisciplinary exchange, and holistic development. The riverside location and extensive green spaces provide students and faculty with a tranquil setting conducive to deep thinking, intensive research, and meaningful learning experiences.",
+        "distinctive_features": [
+          "100-foot landmark tower",
+          "Riverside location on Sabarmati",
+          "Two natural lakes",
+          "Rooftop open-air theatres",
+          "Sustainable green architecture",
+          "Award-winning design"
+        ],
+        "sustainability_features": [
+          "Solar power generation",
+          "Rainwater harvesting",
+          "Waste management systems",
+          "Green building principles",
+          "Natural ventilation",
+          "Extensive plantation"
+        ],
+        "citations": ["web:60", "web:81", "web:76", "web:79"]
+      },
+      
+      "academic_vision": {
+        "heading": "Academic Vision and Educational Philosophy",
+        "content": "IIT Gandhinagar has embarked on an ambitious journey to become among the best research-intensive educational institutions in India and globally. The institutional vision centers on creating comprehensive technical education that balances rigorous academics with research innovation, entrepreneurship development, and holistic personality formation. The institute aspires to produce graduates who possess not only deep technical knowledge but also ethical values, social consciousness, leadership abilities, interdisciplinary perspectives, and global mindsets necessary for addressing contemporary challenges. The educational philosophy emphasizes experiential learning through laboratories, projects, internships, and research activities that complement classroom instruction. IITGN has developed an award-winning curriculum that emphasizes hands-on, project-based learning while encouraging creativity, leadership, and entrepreneurship. The curriculum design integrates theoretical foundations with practical applications, ensuring students develop both conceptual understanding and implementable skills valued by employers, research institutions, and entrepreneurial ventures. A distinctive feature of IIT Gandhinagar's academic approach is its Foundation Programme in the first year, which provides all students regardless of their branch with broad exposure to fundamental sciences, engineering principles, humanities, and social sciences before they specialize. This foundation program helps students make informed decisions about specialization choices, develops interdisciplinary thinking, and creates a common knowledge base that facilitates cross-disciplinary collaboration in later years. The institute has created an ecosystem where inclusivity, diversity, equity, merit, and flat hierarchies are prioritized. Faculty and students from diverse backgrounds, regions, and perspectives come together in an environment that values individual contributions while fostering collaborative excellence. The relatively flat organizational structure enables easier communication between students and faculty, promoting mentorship relationships and accessibility.",
+        "key_pillars": [
+          "Research-intensive education",
+          "Interdisciplinary approach",
+          "Hands-on learning",
+          "Entrepreneurship development",
+          "Global perspectives",
+          "Holistic development"
+        ],
+        "foundation_programme": {
+          "description": "First-year program for all students",
+          "coverage": [
+            "Fundamental sciences",
+            "Engineering principles",
+            "Mathematics",
+            "Humanities",
+            "Social sciences"
+          ],
+          "benefits": [
+            "Informed specialization choices",
+            "Interdisciplinary thinking",
+            "Common knowledge base",
+            "Cross-disciplinary collaboration"
+          ]
+        },
+        "citations": ["web:60", "web:81", "web:84", "web:85"]
+      },
+      
+      "research_excellence": {
+        "heading": "Research Excellence and Innovation Ecosystem",
+        "content": "Research and innovation constitute core pillars of IIT Gandhinagar's identity, with the institute fostering a vibrant ecosystem that encourages faculty and students to pursue cutting-edge investigations across diverse domains. IITGN provides liberal research support to faculty to initiate their research programs, including attractive start-up grants and separate budgets for procuring high-end research infrastructure. This generous support enables newly recruited faculty members to quickly establish world-class research laboratories and commence impactful investigations. The institute has established numerous research centers and facilities that support interdisciplinary collaborations and specialized investigations. Faculty members engage in research spanning artificial intelligence and machine learning, materials science and engineering, biomedical engineering and healthcare technologies, sustainable infrastructure and smart cities, renewable energy and environmental engineering, cognitive science and brain research, social sciences and policy studies, and fundamental sciences including physics, chemistry, and mathematics. IIT Gandhinagar has nurtured distinctive interdisciplinary programs and centers that offer opportunities for broader academic discussion and collaboration. These include the Cognitive and Brain Sciences program that bridges neuroscience, psychology, computer science, and philosophy; initiatives in design thinking and innovation; programs focused on societal challenges; and centers addressing contemporary technological and social issues. The research output from IIT Gandhinagar includes numerous publications in high-impact journals and conferences, patents reflecting innovation and intellectual property creation, sponsored projects funded by government agencies and industry partners, and technology development with potential for societal impact and commercialization. Faculty members have been recognized with prestigious awards such as the Shanti Swarup Bhatnagar Prize (India's highest science award), Swarnajayanti Fellowship, Gábor Szegö Award, and the National Teachers Award, validating the quality of research and teaching at IITGN.",
+        "faculty_awards": [
+          "Shanti Swarup Bhatnagar Prize",
+          "Swarnajayanti Fellowship",
+          "Gábor Szegö Award",
+          "National Teachers Award"
+        ],
+        "research_areas": [
+          "Artificial Intelligence & Machine Learning",
+          "Materials Science & Engineering",
+          "Biomedical Engineering & Healthcare",
+          "Sustainable Infrastructure & Smart Cities",
+          "Renewable Energy & Environment",
+          "Cognitive Science & Brain Research",
+          "Social Sciences & Policy Studies",
+          "Fundamental Sciences"
+        ],
+        "interdisciplinary_programs": [
+          "Cognitive and Brain Sciences",
+          "Design Thinking and Innovation",
+          "Societal Challenge Programs"
+        ],
+        "citations": ["web:82", "web:81"]
+      },
+      
+      "international_collaborations": {
+        "heading": "International Collaborations and Global Engagement",
+        "content": "IIT Gandhinagar has established partnerships with numerous prestigious international universities and research institutions, facilitating student exchanges, faculty collaborations, joint research projects, and knowledge sharing. The institute has opened its doors to become truly a global institution that welcomes individuals from all walks of life. Faculty members have been recruited from renowned institutes such as MIT, CMU (Carnegie Mellon University), Cornell, UIUC (University of Illinois Urbana-Champaign), and other leading global universities, bringing international perspectives and research excellence. These international linkages expose students to global perspectives, diverse research methodologies, and cross-cultural experiences that enhance their educational journey and prepare them for careers in the globalized economy. The institute regularly hosts international conferences, workshops, and seminars, bringing together scholars and practitioners from around the world to discuss contemporary challenges and emerging opportunities in various technical and social domains. Student exchange programs enable IITGN students to spend semesters at partner universities abroad, experiencing different educational systems, cultural contexts, and research environments. Similarly, international students and faculty visiting IIT Gandhinagar contribute to the multicultural campus environment, enriching the community through diverse perspectives and experiences.",
+        "faculty_recruitment_from": [
+          "MIT",
+          "Carnegie Mellon University (CMU)",
+          "Cornell University",
+          "UIUC (University of Illinois Urbana-Champaign)",
+          "Other leading global universities"
+        ],
+        "international_engagement": [
+          "Student exchange programs",
+          "Faculty collaborations",
+          "Joint research projects",
+          "International conferences",
+          "Workshops and seminars",
+          "Multicultural campus environment"
+        ],
+        "citations": ["web:81", "web:82"]
+      },
+      
+      "student_admission": {
+        "heading": "Student Admission and Selection Excellence",
+        "content": "IIT Gandhinagar admits students to its undergraduate B.Tech programs exclusively through the Joint Entrance Examination (Advanced), commonly known as JEE Advanced, which is recognized as one of the world's most competitive engineering entrance examinations. Only students who qualify JEE Main and secure ranks within the prescribed cutoff (typically top 2.5 lakh ranks or top 20 percentile) are eligible to appear for JEE Advanced, ensuring an initial screening that identifies academically talented candidates. The admission process attracts some of India's brightest students who have demonstrated exceptional aptitude in physics, chemistry, and mathematics through rigorous examination. For popular branches like Computer Science and Engineering at IIT Gandhinagar, the JEE Advanced closing rank stands around 1,576 for the General category, while for other branches it extends to approximately 10,372, indicating highly competitive admission standards. These cutoffs position IIT Gandhinagar competitively among the newer IITs, attracting strong students who aspire to IIT education. For postgraduate programs, IIT Gandhinagar conducts admissions through the Graduate Aptitude Test in Engineering (GATE) for M.Tech programs, Joint Admission Test for M.Sc (JAM) or similar examinations for M.Sc programs, and various national-level examinations followed by interviews for research programs. Doctoral admissions consider research potential, prior academic performance, alignment of research interests with faculty expertise, and performance in written tests and interviews.",
+        "undergraduate_admission": {
+          "exam": "JEE Advanced",
+          "cutoff_range_general": "1,576 to 10,372",
+          "most_competitive_branch": "Computer Science & Engineering (rank ~1,576)"
+        },
+        "postgraduate_admission": {
+          "mtech": "GATE",
+          "msc": "IIT JAM or similar",
+          "phd": "National exams + interviews"
+        },
+        "citations": ["web:66", "web:68"]
+      },
+      
+      "campus_life": {
+        "heading": "Campus Life and Student Development",
+        "content": "The residential campus of IIT Gandhinagar fosters a close-knit community where students from diverse backgrounds come together in pursuit of academic excellence and personal growth. The institute operates 12 centrally air-conditioned hostels providing accommodation to boys and girls separately, with modern amenities and comfortable living spaces. All hostels feature basic furniture including study tables and chairs, single beds, wardrobes, 24×7 WiFi and LAN connections in every room, sick rooms for unwell students, 24×7 electricity with backup, common rooms for recreation and socializing, specially designed washrooms for specially-abled students, hot water supply, 24×7 security service, drinking water coolers, elevators for accessibility, and pantries on each floor equipped with refrigerators, microwave ovens, and induction stoves. The hostels are designed with both single-seater and double-seater rooms to accommodate student preferences and foster community living. On hostel premises, general stores, grocery stores, hair salons, and cafes and eateries are available to cater to the basic needs of students without requiring travel outside the residential complex. A common hostel library and reading area provides quiet spaces for study within the residential zones. Student life extends far beyond academics, with numerous technical clubs, cultural groups, sports teams, and social service organizations providing opportunities for holistic development. Technical clubs engage students in hands-on projects, competitions, hackathons, and skill development workshops that complement classroom learning. Cultural clubs provide platforms for artistic expression including music, dance, drama, photography, literature, and fine arts, enabling students to showcase and develop their creative talents. The institute promotes physical health and fitness through comprehensive sports infrastructure including a football field, hockey field, cricket field, volleyball courts, basketball courts, an Olympic-sized swimming pool, gymnasium with modern equipment, and rooftop open-air theatres for community events. IIT Gandhinagar hosted the Inter-IIT Sports Tournament in 2023, demonstrating its sporting infrastructure and organizational capabilities.",
+        "hostel_facilities": {
+          "total_hostels": 12,
+          "air_conditioning": "Centrally AC",
+          "room_types": ["Single-seater", "Double-seater"],
+          "amenities": [
+            "Study tables and chairs",
+            "Single beds and wardrobes",
+            "24×7 WiFi and LAN",
+            "Sick rooms",
+            "24×7 electricity with backup",
+            "Common rooms",
+            "Specially-abled washrooms",
+            "Hot water supply",
+            "24×7 security",
+            "Drinking water coolers",
+            "Elevators",
+            "Pantries with appliances"
+          ],
+          "on_premises_services": [
+            "General stores",
+            "Grocery stores",
+            "Hair salons",
+            "Cafes and eateries",
+            "Hostel library"
+          ]
+        },
+        "sports_facilities": [
+          "Football field",
+          "Hockey field",
+          "Cricket field",
+          "Volleyball courts",
+          "Basketball courts",
+          "Olympic-sized swimming pool",
+          "Gymnasium",
+          "Rooftop open-air theatres"
+        ],
+        "major_event": "Hosted Inter-IIT Sports Tournament 2023",
+        "citations": ["web:76", "web:79", "web:85"]
+      },
+      
+      "dining_facilities": {
+        "heading": "Dining and Food Services",
+        "content": "IIT Gandhinagar provides comprehensive dining facilities through two independent mess facilities that serve unlimited meals throughout the day. The messes offer both vegetarian and non-vegetarian options, with menus regularly updated based on student feedback to ensure variety, quality, and satisfaction. The food is described as hygienic and the unlimited meal service ensures students receive adequate nutrition without additional costs. Beyond the hostel messes, the campus features a large central cafeteria with multiple food joints and open-air seating where students can enjoy casual dining, social gatherings, and relaxation. These additional eateries provide variety and choice, catering to different tastes, dietary preferences, and occasions. The availability of seven eateries comprising cafes, restaurants, and food courts ensures students have diverse options for dining throughout the day.",
+        "mess_facilities": {
+          "number": 2,
+          "meal_type": "Unlimited meals",
+          "options": ["Vegetarian", "Non-vegetarian"],
+          "quality": "Hygienic",
+          "menu_updates": "Regular based on feedback"
+        },
+        "additional_dining": {
+          "central_cafeteria": "Large with multiple food joints",
+          "total_eateries": 7,
+          "types": ["Cafes", "Restaurants", "Food courts"],
+          "seating": "Open-air seating available"
+        },
+        "citations": ["web:76", "web:85"]
+      },
+      
+      "notable_features": {
+        "heading": "Notable Features and Unique Aspects",
+        "content": "Several distinctive features set IIT Gandhinagar apart from other technical institutions. The Panchayat Circle (PC) serves as a popular gathering spot where students sit, socialize, and engage in various activities, creating a sense of community and informal interaction. This open space facilitates spontaneous discussions, cultural performances, and community bonding that enriches campus life. The institute's location in Gandhinagar, Gujarat's planned capital city, provides a unique setting that combines modern urban amenities with accessibility to natural surroundings. While some students note that the location is not in a major metropolitan area, others appreciate the focused academic environment without excessive urban distractions. The proximity to Ahmedabad (approximately 30-40 km away), a major commercial and industrial hub, provides access to cultural events, shopping, and recreational opportunities when desired. The institute's commitment to diversity is evident in its faculty composition, which includes individuals from across 18 states in India and distinguished scholars from international institutions, creating a truly cosmopolitan academic community. This diversity enriches classroom discussions, research collaborations, and campus culture with multiple perspectives and experiences.",
+        "panchayat_circle": {
+          "description": "Popular gathering spot for students",
+          "activities": [
+            "Socializing",
+            "Spontaneous discussions",
+            "Cultural performances",
+            "Community bonding"
+          ]
+        },
+        "location_advantages": {
+          "setting": "Gandhinagar (planned capital city)",
+          "environment": "Focused academic without urban distraction",
+          "proximity_ahmedabad": "30-40 km",
+          "access_to": ["Cultural events", "Shopping", "Recreational opportunities"]
+        },
+        "diversity": {
+          "faculty_from": "18 states in India",
+          "international_faculty": "Distinguished scholars from global institutions",
+          "campus_culture": "Cosmopolitan and multicultural"
+        },
+        "citations": ["web:85", "web:60", "web:81"]
+      },
+      
+      "alumni_success": {
+        "heading": "Alumni Success and Career Outcomes",
+        "content": "Although IIT Gandhinagar is a relatively young institution with its first batch graduating in 2012, its alumni have already begun making significant contributions in various fields. Graduates from IIT Gandhinagar have secured positions in leading technology companies, consulting firms, financial services organizations, core engineering companies, startups, and research institutions both in India and globally. Some alumni have pursued higher studies at prestigious international universities, while others have ventured into entrepreneurship, launching innovative startups in technology, healthcare, and other domains. The placement records show consistent improvement over the years, with increasing participation from premier recruiters and rising average compensation packages, reflecting growing industry recognition of IITGN graduates' quality. Alumni networks are being developed to maintain connections between graduating classes and the institute, facilitating mentorship, career guidance, and institutional support.",
+        "career_paths": [
+          "Leading technology companies",
+          "Consulting firms",
+          "Financial services",
+          "Core engineering companies",
+          "Startups and entrepreneurship",
+          "Research institutions",
+          "Higher studies at international universities"
+        ],
+        "citations": ["web:64"]
+      },
+      
+      "recognition": {
+        "heading": "Recognition and Accreditation",
+        "content": "IIT Gandhinagar holds official recognition as an Institute of National Importance by the Government of India, a designation that carries significant academic prestige and regulatory autonomy. This status places the institute among India's most elite educational institutions, enabling it to set academic standards, grant degrees, and maintain autonomy in governance and curriculum decisions. The institute has earned recognition from various national and international ranking agencies, reflecting its academic quality and research output. In NIRF Rankings 2023, IIT Gandhinagar achieved rank #24 in the Overall category and #18 in the Engineering category, demonstrating strong performance among technical institutions in India. The institute also secured rank #23 in the Engineering category in NIRF 2022 and #37 in the Overall category. In India Today Rankings 2023, IIT Gandhinagar secured rank #9 among Top Public Colleges in India, highlighting its standing in popular media rankings. In international rankings, Times Higher Education World University Rankings placed IIT Gandhinagar in the rank band of 601-800 for both 2022 and 2021, indicating growing international visibility.",
+        "national_importance": "Institute of National Importance (Government of India)",
+        "nirf_rankings": {
+          "overall_2023": 24,
+          "engineering_2023": 18,
+          "engineering_2022": 23,
+          "overall_2022": 37
+        },
+        "india_today_2023": {
+          "rank": 9,
+          "category": "Top Public Colleges in India"
+        },
+        "times_higher_education": {
+          "rank_band": "601-800",
+          "years": ["2022", "2021"]
+        },
+        "citations": ["web:61", "web:75", "web:78"]
+      },
+      
+      "future_vision": {
+        "heading": "Future Vision and Strategic Goals",
+        "content": "As IIT Gandhinagar continues its journey toward becoming among the best research-intensive educational institutions globally, the institute has articulated ambitious goals for enhancing academic programs, research capabilities, infrastructure, and global standing. The strategic vision includes expanding interdisciplinary programs that address complex contemporary challenges, strengthening industry partnerships for sponsored research and employment opportunities, increasing international collaborations for research and student mobility, promoting entrepreneurship and innovation through incubation support, and fostering a culture of academic excellence and institutional service. The institute aims to attract world-class faculty and students from India and abroad, creating a truly global community of scholars engaged in impactful research and innovative teaching. By building on its achievements during its first decade and a half while embracing new opportunities, IIT Gandhinagar aspires to establish itself firmly among the top technical institutions in India and contribute significantly to technological advancement, societal progress, and human development.",
+        "strategic_goals": [
+          "Expand interdisciplinary programs",
+          "Strengthen industry partnerships",
+          "Increase international collaborations",
+          "Promote entrepreneurship and innovation",
+          "Foster academic excellence culture",
+          "Attract world-class faculty and students",
+          "Become top global research institution"
+        ],
+        "citations": ["web:60", "web:81"]
+      }
+    }
+  },
+  
+  "courses_and_fee": {
+    "word_count": "6000",
+    "programs": {
+      "undergraduate": {
+        "btech_4year": {
+          "program_name": "B.Tech (4-Year)",
+          "duration": "4 years",
+          "first_year_fee": "₹3.06 lakhs",
+          "total_program_fee": "₹12.24 lakhs",
+          "additional_charges": "Hostel fees and mess charges separate",
+          "specializations": [
+            "Computer Science and Engineering (CSE)",
+            "Electrical Engineering (EE)",
+            "Mechanical Engineering (ME)",
+            "Chemical Engineering (ChE)",
+            "Civil Engineering (CE)",
+            "Materials Engineering",
+            "Maths and Computing"
+          ],
+          "curriculum_features": [
+            "Foundation Programme in first year",
+            "Broad exposure to sciences, engineering, humanities",
+            "Specialization from second year",
+            "Hands-on, project-based learning",
+            "Research opportunities",
+            "Interdisciplinary approach"
+          ],
+          "foundation_programme": {
+            "year": "First year",
+            "coverage": [
+              "Fundamental sciences",
+              "Engineering principles",
+              "Mathematics",
+              "Humanities",
+              "Social sciences"
+            ],
+            "purpose": "Enable informed specialization decisions and interdisciplinary thinking"
+          },
+          "scholarships": {
+            "sc_st_pwd": "Complete tuition fee waiver",
+            "merit_cum_means": "Available for economically disadvantaged",
+            "government_schemes": "Various post-matric scholarships"
+          },
+          "citations": ["web:68", "web:70", "web:73", "web:85"]
+        }
+      },
+      
+      "postgraduate": {
+        "mtech_2year": {
+          "program_name": "M.Tech (2-Year)",
+          "duration": "2 years",
+          "total_program_fee": "₹4.00 lakhs",
+          "additional_charges": "Hostel fees and mess charges separate",
+          "total_specializations": "Approximately 8",
+          "admission": "Through GATE followed by interviews",
+          "counseling": "COAP (Common Offer Acceptance Portal)",
+          "major_specializations": [
+            "Computer Science and Engineering",
+            "Electrical Engineering",
+            "Mechanical Engineering",
+            "Chemical Engineering",
+            "Civil Engineering",
+            "Other emerging technology areas"
+          ],
+          "curriculum": "Advanced coursework in first year, research dissertation in second year",
+          "citations": ["web:68", "web:70"]
+        },
+        
+        "msc_2year": {
+          "program_name": "M.Sc (2-Year)",
+          "duration": "2 years",
+          "total_program_fee": "₹40,000",
+          "specializations": [
+            "Physics",
+            "Chemistry",
+            "Mathematics",
+            "Biotechnology",
+            "Astronomy"
+          ],
+          "admission": "IIT JAM followed by JOAPS Counselling",
+          "eligibility": "Bachelor's degree in relevant disciplines with minimum percentage",
+          "curriculum": "Theory, laboratory work, computational projects, research dissertation",
+          "citations": ["web:68"]
+        },
+        
+        "ma_2year": {
+          "program_name": "M.A. (2-Year)",
+          "duration": "2 years",
+          "description": "Master of Arts in humanities and social sciences disciplines",
+          "approach": "Interdisciplinary education within technical institute",
+          "curriculum": "Coursework, research training, seminars, dissertation",
+          "citations": ["web:68"]
+        },
+        
+        "pgdiit_1year": {
+          "program_name": "PGDIIT (1-Year)",
+          "full_name": "Post Graduate Diploma in Information Technology",
+          "duration": "1 year",
+          "target_audience": "Working professionals or graduates",
+          "focus": "Specialized training in IT domains",
+          "curriculum": "Coursework, projects, practical training",
+          "citations": ["web:68"]
+        }
+      },
+      
+      "doctoral": {
+        "phd_fulltime": {
+          "program_name": "Ph.D. (Full-Time)",
+          "total_disciplines": 20,
+          "fee_range": "₹1.28 lakhs to ₹4.55 lakhs",
+          "fee_varies_by": "Discipline and program duration",
+          "fellowship": "Monthly fellowship provided to qualifying students",
+          "disciplines": [
+            "Biological Sciences",
+            "Computer Science and Engineering",
+            "Chemistry",
+            "English Language and Literature",
+            "Epidemiology",
+            "Civil Engineering",
+            "Economics",
+            "Psychology",
+            "Earth Science",
+            "Cognitive Science",
+            "Mathematics",
+            "Mechanical Engineering",
+            "Philosophy",
+            "Sociology",
+            "Political Science",
+            "Chemical Engineering",
+            "Electrical Engineering",
+            "History",
+            "Physics",
+            "Early Admit Program"
+          ],
+          "fee_breakdown": {
+            "humanities_social_sciences": "₹4.55 lakhs (Total Fees)",
+            "engineering_sciences": "₹48,500 (1st Year Fees)",
+            "note": "Subsequent years have lower fees"
+          },
+          "eligibility": {
+            "degree": "Master's degree with 60% marks or equivalent CGPA",
+            "direct_admission": "Bachelor's degree with exceptional record (certain disciplines)",
+            "entrance_scores": "Written tests and personal interviews"
+          },
+          "financial_support": {
+            "fellowship": "₹31,000-₹35,000 per month (varies by qualifications and stage)",
+            "contingency_grant": "For research expenses, conference travel, publications",
+            "thesis_support": "Funding for thesis preparation"
+          },
+          "citations": ["web:65", "web:68"]
+        }
+      }
+    },
+    
+    "fee_components": {
+      "tuition_fees": "Varies by program",
+      "one_time_charges": [
+        "Admission fee",
+        "Caution deposit (refundable)",
+        "Alumni fees"
+      ],
+      "annual_charges": [
+        "Student insurance",
+        "Gymkhana fees",
+        "Annual subscription"
+      ],
+      "semester_charges": [
+        "Registration fee",
+        "Examination fee",
+        "Library fee",
+        "Medical fee",
+        "Sports subscription",
+        "Computer and internet charges"
+      ],
+      "hostel_and_mess": {
+        "hostel_charges": "Separate from tuition",
+        "mess_charges": "Based on actual consumption",
+        "estimate": "₹18,000-21,000 per semester (tentative)"
+      }
+    },
+    
+    "scholarships_financial_aid": {
+      "merit_cum_means": "For economically disadvantaged with good academics",
+      "sc_st_pwd": "Complete tuition fee waiver under government schemes",
+      "education_loans": "Support for nationalized bank loans with favorable terms",
+      "corporate_alumni": "Scholarships from partners and donors"
+    },
+    
+    "academic_flexibility": {
+      "credit_system": "Credit-based semester system",
+      "electives": "Choice based on interests and career goals",
+      "minor_degrees": "Available across disciplines",
+      "audit_courses": "Option to audit courses",
+      "online_courses": "Integration of online learning",
+      "interdisciplinary_projects": "Encouraged across departments",
+      "honors": "Departmental honors or minors available",
+      "study_abroad": "Partner university programs"
+    },
+    
+    "fee_summary_table": {
+      "table": [
+        {
+          "Program": "B.Tech (4-Year)",
+          "First Year Fee": "₹3.06 lakhs",
+          "Total Program Fee": "₹12.24 lakhs",
+          "Duration": "4 years"
+        },
+        {
+          "Program": "M.Tech (2-Year)",
+          "First Year Fee": "Not specified",
+          "Total Program Fee": "₹4.00 lakhs",
+          "Duration": "2 years"
+        },
+        {
+          "Program": "M.Sc (2-Year)",
+          "First Year Fee": "Not specified",
+          "Total Program Fee": "₹40,000",
+          "Duration": "2 years"
+        },
+        {
+          "Program": "M.A. (2-Year)",
+          "First Year Fee": "Not specified",
+          "Total Program Fee": "Similar to M.Sc",
+          "Duration": "2 years"
+        },
+        {
+          "Program": "PGDIIT (1-Year)",
+          "First Year Fee": "To be verified",
+          "Total Program Fee": "To be verified",
+          "Duration": "1 year"
+        },
+        {
+          "Program": "Ph.D. Full-Time",
+          "First Year Fee": "₹48,500 (Engg/Sci) or ₹4.55L (Humanities)",
+          "Total Program Fee": "₹1.28-4.55 lakhs",
+          "Duration": "Variable"
+        }
+      ]
+    }
+  },
+  
+  "admissions": {
+    "word_count": "4000",
+    "undergraduate": {
+      "exam": "JEE Advanced",
+      "eligibility": {
+        "examination": "Must qualify JEE Advanced in current year",
+        "jee_main_requirement": "Top 2.5 lakh ranks or top 20 percentile",
+        "class_12_percentage_general": "75%",
+        "class_12_percentage_reserved": "65%",
+        "subjects_required": ["Physics", "Chemistry", "Mathematics"],
+        "age_limit_general": "Born on or after October 1 (five years before admission)",
+        "age_relaxation_reserved": "5 years for SC/ST/PWD",
+        "maximum_attempts": "2 times in consecutive years"
+      },
+      
+      "exam_structure": {
+        "papers": 2,
+        "duration_per_paper": "3 hours",
+        "subjects": ["Physics", "Chemistry", "Mathematics"],
+        "question_types": [
+          "Multiple-choice questions",
+          "Numerical answer questions",
+          "Matching-type questions"
+        ],
+        "both_papers_compulsory": true
+      },
+      
+      "cutoff_2025": {
+        "computer_science_general": 1872,
+        "computer_science_general_female": 4592,
+        "overall_range": "1,872 to 10,645",
+        "obc_range": "750 to 4,653",
+        "note": "Cutoffs vary by branch, category, and year"
+      },
+      
+      "branch_wise_competitiveness": {
+        "most_competitive": [
+          "Computer Science & Engineering",
+          "Electrical Engineering",
+          "Mathematics and Computing"
+        ],
+        "moderate": [
+          "Mechanical Engineering",
+          "Chemical Engineering"
+        ],
+        "relatively_accessible": [
+          "Civil Engineering",
+          "Materials Engineering"
+        ]
+      },
+      
+      "required_marks": {
+        "popular_branches_general": "250-280 out of 360 (69-78%)",
+        "other_branches_general": "180-240 marks (50-67%)",
+        "obc_ews": "160-250 marks",
+        "sc_st_pwd": "100-160 marks for less competitive branches",
+        "qualifying_marks": {
+          "general": "35%",
+          "obc_ews": "31.5%",
+          "sc_st_pwd": "Lower percentages"
+        }
+      },
+      
+      "seat_allotment": {
+        "authority": "JoSAA (Joint Seat Allocation Authority)",
+        "rounds": "5-6 rounds typically",
+        "process_steps": [
+          "Register on JoSAA portal",
+          "Pay registration fees",
+          "Fill choice of institutes and branches (priority order)",
+          "Lock choices before deadline",
+          "Await seat allocation",
+          "Choose: Accept & Freeze / Accept & Float / Reject",
+          "Complete online acceptance",
+          "Upload documents",
+          "Pay seat acceptance fee",
+          "Physical reporting on designated dates"
+        ],
+        "algorithm_factors": [
+          "JEE Advanced rank",
+          "Category",
+          "Gender (for supernumerary seats)",
+          "Choice preferences",
+          "Available seats"
+        ]
+      },
+      
+      "required_documents": [
+        "JEE Advanced Admit Card and Rank Letter",
+        "Class 10th Certificate (date of birth proof)",
+        "Class 12th Certificate and Mark Sheet",
+        "Category Certificate in prescribed format (if applicable)",
+        "Medical Fitness Certificate",
+        "Character Certificate",
+        "Transfer/Migration Certificate",
+        "Passport-size Photographs"
+      ],
+      
+      "document_verification": {
+        "importance": "Strictly enforced within timeline",
+        "consequences_of_discrepancy": "Immediate cancellation of admission even after enrollment",
+        "fee_payment": "After successful verification",
+        "registration": "Biometric enrollment, student ID, hostel allotment, orientation"
+      },
+      
+      "citations": ["web:66", "web:69", "web:68"]
+    },
+    
+    "postgraduate": {
+      "mtech": {
+        "exam": "GATE (Graduate Aptitude Test in Engineering)",
+        "validity": "3 years from result date",
+        "selection_process": {
+          "stage1": "Shortlisting based on GATE scores",
+          "stage2": "Written test and/or interview by departments",
+          "final": "Through COAP (Common Offer Acceptance Portal)"
+        },
+        "minimum_gate_percentile": "Typically 85th+ for competitive specializations",
+        "eligibility": "BE/B.Tech in relevant discipline with 60% marks",
+        "assessment": [
+          "Technical knowledge",
+          "Research interests",
+          "Communication skills",
+          "Program suitability"
+        ]
+      },
+      
+      "msc": {
+        "exam": "IIT JAM (Joint Admission Test for M.Sc)",
+        "subjects": ["Physics", "Chemistry", "Mathematics", "Biotechnology"],
+        "counseling": "JOAPS (Joint Admission for Post Graduate Seats)",
+        "eligibility": "Bachelor's degree in relevant discipline with minimum percentage (60% General/OBC, 55% SC/ST)"
+      },
+      
+      "ma": {
+        "admission": "Similar to M.Sc programs",
+        "eligibility": "Bachelor's degree in relevant humanities/social sciences"
+      }
+    },
+    
+    "doctoral": {
+      "admission_frequency": "Typically twice a year (Monsoon and Winter)",
+      "total_disciplines": 20,
+      "eligibility": {
+        "degree": "Master's degree with 60% marks or equivalent CGPA",
+        "direct_phd": "Bachelor's degree with exceptional record (certain disciplines)",
+        "preferred_qualifications": [
+          "GATE",
+          "NET",
+          "CSIR-UGC",
+          "UGC-JRF"
+        ],
+        "waiver_possible": "For outstanding credentials or publications"
+      },
+      
+      "selection_process": [
+        "Online application with research proposal",
+        "Written test (in some departments)",
+        "Personal interview",
+        "Research proposal evaluation",
+        "Assessment of academic performance",
+        "Publications/project work evaluation",
+        "Alignment with faculty expertise"
+      ],
+      
+      "preparation_advice": [
+        "Study faculty profiles and publications",
+        "Identify potential supervisors",
+        "Develop clear research proposal",
+        "Contact supervisors before applying (optional but helpful)"
+      ],
+      
+      "financial_support": {
+        "fellowship_amount": "₹31,000-₹35,000 per month (varies)",
+        "increment_after_milestones": "₹35,000-₹40,000 per month",
+        "contingency_grants": [
+          "Chemicals and materials",
+          "Equipment and software",
+          "Conference travel",
+          "Publication charges",
+          "Thesis preparation"
+        ],
+        "conference_support": "Travel support for academic activities"
+      },
+      
+      "parttime_phd": {
+        "target": "Working professionals",
+        "financial_support": "Not provided",
+        "fee_structure": "Similar to full-time",
+        "flexibility": "Flexible scheduling"
+      }
+    },
+    
+    "reservation_policy": {
+      "sc": "15%",
+      "st": "7.5%",
+      "obc_ncl": "27%",
+      "ews": "10%",
+      "pwd": "5% horizontal across all categories",
+      "benefits": [
+        "Relaxation in cutoff ranks",
+        "Age limit relaxation",
+        "Minimum percentage relaxation",
+        "Fee waivers (SC/ST/PWD)"
+      ],
+      "certificate_requirements": {
+        "validity": "Must be in prescribed format",
+        "issuing_authority": "District Magistrate or designated revenue officers",
+        "verification": "During document submission",
+        "consequences": "Disqualification if fake/invalid"
+      },
+      "commitment": "Inclusivity, diversity, equity, and merit prioritized"
+    },
+    
+    "international_students": {
+      "undergraduate": {
+        "scheme": "DASA (Direct Admission of Students Abroad)",
+        "eligible": ["Foreign nationals", "NRIs", "PIOs", "Children of Indian workers in Gulf"],
+        "examination": "SAT, ACT, or equivalent (not JEE Advanced)"
+      },
+      
+      "postgraduate_doctoral": {
+        "admission_basis": ["GRE scores", "Master's degree marks", "Research proposals", "Interviews"],
+        "alternatives": "International tests accepted in lieu of GATE for some programs"
+      },
+      
+      "support_services": [
+        "Visa assistance and immigration liaison",
+        "Accommodation arrangements",
+        "Orientation programs",
+        "Cultural adaptation support",
+        "Academic advising",
+        "Counseling services"
+      ],
+      
+      "contribution": "Enhance campus diversity and facilitate cross-cultural learning"
+    }
+  },
+  
+  "placements": {
+    "word_count": "4000",
+    "academic_year_2023": {
+      "overall_statistics": {
+        "btech_placement_rate": "76.22%",
+        "note": "Approximately three-quarters of B.Tech students placed",
+        "assessment": "Solid performance for relatively young institute (first batch 2012)"
+      },
+      
+      "academic_year_2024": {
+        "registered_students": 214,
+        "students_placed": 149,
+        "placement_percentage": "~70%",
+        "companies_participated": "100-150+",
+        "trend": "Consistent year-on-year improvement"
+      },
+      
+      "sectors_recruiting": [
+        "Information Technology",
+        "Core Engineering",
+        "Consulting",
+        "Banking and Financial Services",
+        "Analytics",
+        "FMCG",
+        "Automotive",
+        "Research Organizations"
+      ]
+    },
+    
+    "salary_statistics": {
+      "btech_2023": {
+        "overall_average": "₹19.60 LPA",
+        "note": "Healthy compensation for fresh engineering graduates",
+        "position": "Competitive among newer IITs"
+      },
+      
+      "report_2024": {
+        "average_package": "₹14 LPA",
+        "note": "May reflect different calculation methodology",
+        "variation_reason": "Different inclusion criteria or reporting methods"
+      },
+      
+      "highest_packages": {
+        "domestic": "₹35 LPA",
+        "note": "Top students secure elite compensation",
+        "competitiveness": "Competitive with established IITs"
+      },
+      
+      "package_analysis": {
+        "top_performers": "Can secure packages above ₹30 LPA",
+        "mid_range": "₹15-20 LPA range for majority",
+        "entry_level": "₹10-15 LPA for standard offers"
+      }
+    },
+    
+    "branch_wise_performance": {
+      "computer_science": {
+        "demand": "Highest",
+        "average_package": "₹25-30 LPA (estimated)",
+        "top_recruiters": [
+          "Microsoft",
+          "Google",
+          "Amazon",
+          "Adobe",
+          "Samsung"
+        ],
+        "roles": [
+          "Software Engineer",
+          "Data Scientist",
+          "Machine Learning Engineer",
+          "Full Stack Developer"
+        ]
+      },
+      
+      "electrical_engineering": {
+        "demand": "Strong",
+        "average_package": "₹18-22 LPA (estimated)",
+        "sectors": [
+          "Electronics companies",
+          "Power sector",
+          "Communication firms",
+          "Software companies"
+        ]
+      },
+      
+      "mechanical_engineering": {
+        "demand": "Good",
+        "average_package": "₹15-18 LPA (estimated)",
+        "sectors": [
+          "Automotive",
+          "Manufacturing",
+          "Aerospace",
+          "Consulting",
+          "Software"
+        ]
+      },
+      
+      "other_branches": {
+        "civil_chemical_materials": {
+          "demand": "Moderate",
+          "average_package": "₹12-16 LPA (estimated)",
+          "opportunities": [
+            "Infrastructure companies",
+            "Process industries",
+            "Materials research",
+            "Consulting",
+            "Analytics firms"
+          ]
+        }
+      }
+    },
+    
+    "recruiting_companies": {
+      "technology": [
+        "Microsoft",
+        "Google",
+        "Amazon",
+        "Adobe",
+        "Samsung",
+        "Oracle",
+        "Flipkart",
+        "PayTM"
+      ],
+      
+      "consulting": [
+        "McKinsey & Company",
+        "Boston Consulting Group",
+        "Bain & Company",
+        "Deloitte",
+        "PwC",
+        "EY"
+      ],
+      
+      "banking_finance": [
+        "Goldman Sachs",
+        "Morgan Stanley",
+        "JP Morgan",
+        "Citi",
+        "HSBC",
+        "Deutsche Bank"
+      ],
+      
+      "core_engineering": [
+        "Larsen & Toubro",
+        "Tata Steel",
+        "Reliance",
+        "Mahindra & Mahindra",
+        "Godrej"
+      ],
+      
+      "analytics": [
+        "Analytics Quotient (AQ)",
+        "Tiger Analytics",
+        "Mu Sigma",
+        "Fractal Analytics"
+      ]
+    },
+    
+    "placement_trends": {
+      "improvements": [
+        "Increasing participation from premier recruiters",
+        "Rising average compensation packages",
+        "Growing industry recognition",
+        "Expanding sector diversity"
+      ],
+      
+      "strengths": [
+        "Strong technical foundation",
+        "Problem-solving abilities",
+        "Interdisciplinary exposure through Foundation Programme",
+        "Research experience",
+        "Communication skills",
+        "Global perspectives"
+      ],
+      
+      "value_proposition": [
+        "Relatively small batch size enables focused recruitment",
+        "Award-winning curriculum",
+        "Hands-on project experience",
+        "Faculty from global institutions",
+        "Modern infrastructure"
+      ]
+    },
+    
+    "higher_studies": {
+      "destinations": [
+        "Graduate programs at top international universities",
+        "Ph.D. programs in India and abroad",
+        "Research positions"
+      ],
+      
+      "universities": [
+        "MIT",
+        "Stanford",
+        "Carnegie Mellon",
+        "UC Berkeley",
+        "Cornell",
+        "IITs for M.Tech/Ph.D."
+      ]
+    },
+    
+    "entrepreneurship": {
+      "support": "Incubation facilities and mentorship",
+      "funding": "Seed funding opportunities",
+      "network": "Connections with angel investors and VCs",
+      "examples": "Several alumni-founded startups in technology and other sectors"
+    },
+    
+    "internships": {
+      "opportunities": "Summer internships after 2nd/3rd year",
+      "companies": "Leading firms across sectors",
+      "stipends": "Competitive stipends (₹50,000-₹1,00,000 per month)",
+      "conversion": "Many internships convert to Pre-Placement Offers (PPOs)"
+    },
+    
+    "placement_preparation": {
+      "training_placement_office": "Career Development Services",
+      "support": [
+        "Resume building workshops",
+        "Mock interviews",
+        "Aptitude training",
+        "Technical skill development",
+        "Soft skills training",
+        "Industry interaction sessions"
+      ]
+    },
+    
+    "citations": ["web:70", "web:71", "web:77", "web:73", "web:74"]
+  },
+  
+  "rankings": {
+    "word_count": "2000",
+    "nirf_rankings": {
+      "overall": {
+        "2023": 24,
+        "2022": 37,
+        "improvement": "+13 positions (2022 to 2023)"
+      },
+      
+      "engineering": {
+        "2023": 18,
+        "2022": 23,
+        "improvement": "+5 positions"
+      },
+      
+      "methodology": {
+        "parameters": [
+          "Teaching, Learning and Resources (TLR)",
+          "Research and Professional Practices (RPC)",
+          "Graduation Outcomes (GO)",
+          "Outreach and Inclusivity (OI)",
+          "Perception"
+        ]
+      }
+    },
+    
+    "india_today_rankings": {
+      "2023": {
+        "rank": 9,
+        "category": "Top Public Colleges in India"
+      }
+    },
+    
+    "international_rankings": {
+      "times_higher_education": {
+        "rank_band": "601-800",
+        "years": ["2022", "2021"],
+        "note": "Indicates growing international visibility"
+      }
+    },
+    
+    "comparative_analysis": {
+      "position_among_iits": "Among newer IITs (post-2008)",
+      "engineering_rank": 18,
+      "overall_rank": 24,
+      "assessment": "Strong performance for institute established in 2008",
+      "trajectory": "Consistent upward movement"
+    },
+    
+    "ranking_factors": {
+      "strengths": [
+        "Award-winning curriculum",
+        "Strong faculty from global institutions",
+        "Modern infrastructure and award-winning campus",
+        "Research-intensive approach",
+        "Interdisciplinary programs",
+        "International collaborations",
+        "Foundation Programme innovation",
+        "Faculty awards and recognition",
+        "Student-centric approach"
+      ],
+      
+      "areas_for_improvement": [
+        "Increase research publications in high-impact journals",
+        "Enhance industry-sponsored research",
+        "Improve perception scores",
+        "Expand alumni network (young institute)",
+        "Increase international student enrollment",
+        "Strengthen corporate partnerships"
+      ]
+    },
+    
+    "research_impact": {
+      "faculty_awards": [
+        "Shanti Swarup Bhatnagar Prize",
+        "Swarnajayanti Fellowship",
+        "Gábor Szegö Award",
+        "National Teachers Award"
+      ],
+      "publications": "Growing output in high-impact journals",
+      "patents": "Increasing patent filings",
+      "collaborations": "Strong international partnerships"
+    },
+    
+    "placement_impact_on_rankings": {
+      "btech_placement_rate": "76.22% (2023)",
+      "average_package": "₹19.60 LPA",
+      "top_recruiters": "Premier companies across sectors",
+      "graduation_outcomes": "Strong performance in GO parameter"
+    },
+    
+    "infrastructure_impact": {
+      "campus": "Award-winning design",
+      "facilities": "State-of-the-art",
+      "sustainability": "Green initiatives",
+      "hostels": "12 centrally AC hostels",
+      "sports": "Hosted Inter-IIT Sports 2023"
+    },
+    
+    "future_outlook": {
+      "targets": [
+        "Break into top 15 overall by 2030",
+        "Achieve top 10 in engineering",
+        "Enhance international rankings",
+        "Increase research output visibility",
+        "Strengthen industry connections"
+      ],
+      
+      "competitive_advantages": [
+        "Young and agile institution",
+        "Modern curriculum and pedagogy",
+        "Strong government support (Gujarat)",
+        "Strategic location near Ahmedabad",
+        "Focus on innovation and entrepreneurship"
+      ]
+    },
+    
+    "peer_comparison": {
+      "similar_age_iits": [
+        "IIT Indore",
+        "IIT Mandi",
+        "IIT Hyderabad",
+        "IIT Jodhpur",
+        "IIT Patna",
+        "IIT Ropar",
+        "IIT Bhubaneswar"
+      ],
+      "relative_position": "Among top performers in 2008 batch of IITs"
+    },
+    
+    "citations": ["web:75", "web:78"]
+  },
+  
+  "facilities": {
+    "word_count": "4000",
+    "campus_overview": {
+      "total_area": "399-400 acres",
+      "location": "Western banks of Sabarmati River, Palaj village",
+      "distance_from_city": "20 km from Gandhinagar",
+      "campus_type": "Fully residential",
+      "design_recognition": "Award-winning architecture",
+      "year_operational": 2015
+    },
+    
+    "academic_infrastructure": {
+      "academic_buildings": {
+        "features": [
+          "Modern architecture",
+          "Smart classrooms",
+          "Advanced audio-visual systems",
+          "High-speed internet",
+          "Air-conditioned spaces",
+          "Flexible seating arrangements"
+        ]
+      },
+      
+      "laboratories": {
+        "types": [
+          "Computer labs with latest hardware/software",
+          "Electronics and VLSI labs",
+          "Mechanical engineering labs",
+          "Civil engineering labs",
+          "Chemical engineering labs",
+          "Materials science labs",
+          "Physics labs",
+          "Chemistry labs",
+          "Biology and biomedical labs"
+        ],
+        "equipment": [
+          "Scanning Electron Microscopes",
+          "X-ray Diffraction systems",
+          "Spectroscopy equipment",
+          "3D printers",
+          "CNC machines",
+          "Advanced computing clusters"
+        ]
+      },
+      
+      "library": {
+        "collection": [
+          "Extensive books across disciplines",
+          "National and international journals",
+          "E-journals and databases",
+          "E-books",
+          "Theses and dissertations",
+          "Conference proceedings"
+        ],
+        "facilities": [
+          "Individual study spaces",
+          "Group discussion rooms",
+          "Reading areas",
+          "Digital resources",
+          "24×7 access provisions",
+          "Automated library management system"
+        ]
+      },
+      
+      "auditoriums_lecture_halls": [
+        "Main auditorium for events",
+        "Lecture halls with tiered seating",
+        "Seminar rooms",
+        "Tutorial rooms",
+        "Conference facilities"
+      ]
+    },
+    
+    "residential_facilities": {
+      "hostels": {
+        "total": 12,
+        "type": "Centrally air-conditioned",
+        "gender": "Separate for boys and girls",
+        "room_types": ["Single-seater", "Double-seater"],
+        
+        "amenities": [
+          "Study tables and chairs",
+          "Single beds with mattresses",
+          "Wardrobes for storage",
+          "24×7 WiFi connectivity",
+          "LAN connections in rooms",
+          "Sick rooms for unwell students",
+          "24×7 electricity with backup",
+          "Common rooms with TV and games",
+          "Specially designed washrooms for specially-abled",
+          "Hot water supply",
+          "24×7 security personnel",
+          "Drinking water coolers (RO)",
+          "Elevators for accessibility",
+          "Pantries on each floor with refrigerators, microwaves, induction stoves"
+        ],
+        
+        "on_premises_services": [
+          "General stores",
+          "Grocery stores",
+          "Hair salons",
+          "Cafes and eateries",
+          "Common hostel library",
+          "Reading areas"
+        ]
+      }
+    },
+    
+    "dining_facilities": {
+      "mess_facilities": {
+        "number": 2,
+        "type": "Independent mess facilities",
+        "service": "Unlimited meals throughout the day",
+        "options": ["Vegetarian", "Non-vegetarian"],
+        "quality": "Hygienic",
+        "menu": "Regularly updated based on student feedback"
+      },
+      
+      "cafeteria": {
+        "size": "Large central cafeteria",
+        "food_joints": "Multiple options",
+        "seating": "Open-air seating available",
+        "total_eateries": 7,
+        "types": ["Cafes", "Restaurants", "Food courts"]
+      }
+    },
+    
+    "sports_recreation": {
+      "outdoor_facilities": [
+        "Football field",
+        "Hockey field",
+        "Cricket field",
+        "Volleyball courts",
+        "Basketball courts",
+        "Tennis courts",
+        "Athletics track"
+      ],
+      
+      "indoor_facilities": [
+        "Olympic-sized swimming pool",
+        "Gymnasium with modern equipment",
+        "Badminton courts",
+        "Table tennis",
+        "Chess facilities",
+        "Indoor games room"
+      ],
+      
+      "special_features": [
+        "Rooftop open-air theatres",
+        "Community event spaces"
+      ],
+      
+      "achievement": "Hosted Inter-IIT Sports Tournament 2023"
+    },
+    
+    "medical_facilities": {
+      "health_center": {
+        "availability": "24×7",
+        "staff": ["Doctors", "Nurses", "Support staff"],
+        "services": [
+          "Emergency care",
+          "Consultation",
+          "Basic treatments",
+          "First aid",
+          "Health checkups",
+          "Sick rooms in hostels"
+        ],
+        "ambulance": "Available for emergencies"
+      }
+    },
+    
+    "distinctive_features": {
+      "landmark_tower": {
+        "height": "100 feet",
+        "purpose": "Iconic symbol and visual anchor"
+      },
+      
+      "natural_features": [
+        "Two natural lakes",
+        "Riverside location (Sabarmati)",
+        "Extensive green spaces",
+        "Central vista for gatherings"
+      ],
+      
+      "panchayat_circle": {
+        "description": "Popular gathering spot",
+        "use": ["Socializing", "Discussions", "Cultural performances", "Community bonding"]
+      }
+    },
+    
+    "connectivity": {
+      "internet": {
+        "wifi": "24×7 comprehensive campus coverage",
+        "lan": "Connections in every hostel room",
+        "speed": "High-speed connectivity"
+      },
+      
+      "transportation": {
+        "within_campus": "Walking-friendly design",
+        "to_city": "Regular transport services",
+        "to_ahmedabad": "Approximately 30-40 km"
+      }
+    },
+    
+    "sustainability_initiatives": {
+      "renewable_energy": [
+        "Solar power generation",
+        "Energy-efficient lighting"
+      ],
+      
+      "water_management": [
+        "Rainwater harvesting",
+        "Water conservation systems",
+        "Two natural lakes for ecology"
+      ],
+      
+      "waste_management": [
+        "Segregation at source",
+        "Composting",
+        "Recycling programs"
+      ],
+      
+      "green_building": [
+        "Natural ventilation",
+        "Energy-efficient design",
+        "Green spaces and plantation",
+        "Sustainable materials"
+      ]
+    },
+    
+    "safety_security": {
+      "measures": [
+        "24×7 security personnel",
+        "CCTV surveillance",
+        "Controlled entry/exit",
+        "Emergency response systems",
+        "Well-lit pathways",
+        "Fire safety equipment",
+        "Disaster management preparedness"
+      ]
+    },
+    
+    "student_amenities": {
+      "banking": "ATMs and bank branches on campus",
+      "postal": "Post office services",
+      "shopping": "General stores and grocery stores",
+      "personal_care": "Hair salons",
+      "printing": "Printing and stationery shops",
+      "convenience": "Various utility services"
+    },
+    
+    "research_facilities": {
+      "centers": [
+        "Cognitive and Brain Sciences",
+        "Design and Innovation",
+        "Various departmental research labs",
+        "Interdisciplinary research spaces"
+      ],
+      
+      "support": [
+        "Research equipment grants",
+        "High-end instrumentation",
+        "Computing infrastructure",
+        "Collaboration spaces"
+      ]
+    },
+    
+    "accessibility": {
+      "features_for_differently_abled": [
+        "Ramps and accessible pathways",
+        "Elevators in all buildings",
+        "Specially designed washrooms",
+        "Support services",
+        "Assistive technologies"
+      ]
+    },
+    
+    "citations": ["web:76", "web:79"]
+  },
+  
+  "faculty": {
+    "word_count": "6000",
+    "overview": {
+      "total_departments": "Multiple departments across engineering, sciences, and humanities",
+      "faculty_diversity": "From 18 states in India and international institutions",
+      "international_recruitment": ["MIT", "CMU", "Cornell", "UIUC", "Other leading universities"],
+      "approach": "Flat hierarchies enabling easy faculty-student interaction",
+      "research_focus": "Active engagement across disciplines"
+    },
+    
+    "departments": [
+      {
+        "name": "Biological Sciences and Engineering",
+        "focus_areas": [
+          "Molecular Biology",
+          "Biotechnology",
+          "Biomedical Engineering",
+          "Systems Biology",
+          "Synthetic Biology"
+        ]
+      },
+      {
+        "name": "Computer Science and Engineering",
+        "focus_areas": [
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Data Science",
+          "Computer Networks",
+          "Software Engineering",
+          "Cybersecurity",
+          "Theory of Computation"
+        ]
+      },
+      {
+        "name": "Chemistry",
+        "focus_areas": [
+          "Organic Chemistry",
+          "Inorganic Chemistry",
+          "Physical Chemistry",
+          "Materials Chemistry",
+          "Computational Chemistry"
+        ]
+      },
+      {
+        "name": "English Language and Literature",
+        "focus_areas": [
+          "Literary Studies",
+          "Linguistics",
+          "Creative Writing",
+          "Cultural Studies"
+        ]
+      },
+      {
+        "name": "Civil Engineering",
+        "focus_areas": [
+          "Structural Engineering",
+          "Geotechnical Engineering",
+          "Transportation Engineering",
+          "Environmental Engineering",
+          "Water Resources"
+        ]
+      },
+      {
+        "name": "Economics",
+        "focus_areas": [
+          "Microeconomics",
+          "Macroeconomics",
+          "Development Economics",
+          "Behavioral Economics",
+          "Econometrics"
+        ]
+      },
+      {
+        "name": "Electrical Engineering",
+        "focus_areas": [
+          "Power Systems",
+          "Control Systems",
+          "Signal Processing",
+          "Electronics",
+          "Communication Systems",
+          "VLSI Design"
+        ]
+      },
+      {
+        "

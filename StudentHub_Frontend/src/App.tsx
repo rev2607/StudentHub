@@ -170,6 +170,7 @@ function App() {
             <Route path="/colleges/bits-pilani" element={<BITSPilaniPage />} />
             <Route path="/colleges/srm" element={<SRMPage />} />
             <Route path="/colleges/srmist" element={<SRMPage />} />
+            <Route path="/colleges/srm-institute-of-science-technology" element={<SRMPage />} />
             <Route path="/colleges/thapar" element={<ThaparPage />} />
             <Route path="/colleges/tiet" element={<ThaparPage />} />
             <Route path="/colleges/amrita-coimbatore" element={<AmritaCoimbatorePage />} />

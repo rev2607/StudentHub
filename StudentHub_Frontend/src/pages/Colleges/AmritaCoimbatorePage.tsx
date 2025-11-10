@@ -564,36 +564,6 @@ const AmritaCoimbatorePage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">About {collegeData.Name}</h3>
         <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
         
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <p className="text-gray-700 mb-3">
-            <strong>Amrita Vishwa Vidyapeetham offers 300+ programs across UG, PG, integrated, dual-degree, and doctoral levels.</strong> The university offers programs in Engineering, Medicine, Management, Architecture, Natural Sciences, Ayurveda, Agriculture, Commerce, Arts, Humanities, Social Sciences, Media, Law, and Cultural Studies. Available degrees include B.Tech, M.Tech, Ph.D, MBBS, MBA, B.Arch, M.Sc, B.Sc, and more. Popular courses are B.Tech, M.Tech, MBA, MBBS.
-          </p>
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>Amrita Vishwa Vidyapeetham Fees 2025-2026 ranges from ₹10 Lakhs to ₹80 Lakhs across all offered courses.</strong> B.Tech Fees: ₹10 Lakhs - ₹24 Lakhs (4 years), MBA Fees: ₹8-12 Lakhs, MBBS Fees: ₹60-80 Lakhs</li>
-            <li>• <strong>Amrita B.Tech Fees is ₹10 Lakhs - ₹24 Lakhs for the entire 4 years duration depending on campus and branch.</strong> Popular specializations: Computer Science and Engineering, AI/ML, Data Science, ECE.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• Amrita B.Tech CSE (Coimbatore) Fees is ₹24 Lakhs (₹6L per year). Most competitive branch.</li>
-                <li>• Amrita B.Tech Other branches/campuses Fees is ₹10-20 Lakhs depending on specialization.</li>
-              </ul>
-            </li>
-            <li>• <strong>Amrita M.Tech Fees varies by specialization and campus.</strong> Popular specializations: Computer Science And Engineering, Data Science, AI/ML.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• Amrita M.Tech programs typically cost ₹2.5-5 Lakhs for 2 years.</li>
-                <li>• Admission through GATE or AEEE scores.</li>
-              </ul>
-            </li>
-            <li>• <strong>Amrita MBA Fees is ₹8-12 Lakhs for the entire 2 years duration.</strong> 100% placement rate with average package ₹8.33 LPA.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• Admission through CAT/MAT/XAT or Amrita entrance test + GD + PI.</li>
-                <li>• Specializations: Finance, Marketing, HR, Operations, Business Analytics.</li>
-              </ul>
-            </li>
-            <li>• <strong>Amrita MBBS Fees is ₹60-80 Lakhs for the entire 5.5 years duration.</strong> Offered at Kochi and Faridabad campuses, admission through NEET.</li>
-            <li>• <strong>Amrita Hostel Fee is ₹50,000 to ₹80,000 annually (mess charges additional).</strong></li>
-          </ul>
-        </div>
-        
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Established" value={collegeData.Established.Year} />
           <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2024?.Overall || collegeData.Rankings.NIRF2025.Overall} />
@@ -614,17 +584,6 @@ const AmritaCoimbatorePage: React.FC = () => {
       {/* Academic Programs Overview */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
-        
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>Amrita Vishwa Vidyapeetham offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, medicine, management, sciences, and more disciplines.</strong> The university maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty, emphasizing value-based education and compassion-driven research.</li>
-            <li>• <strong>Undergraduate Programs:</strong> B.Tech (multiple branches, ₹2.5L-6L/year depending on campus and branch), B.Arch, B.Des. All programs require competitive entrance examinations with AEEE or JEE Main for B.Tech and NATA/UCEED for Architecture/Design.</li>
-            <li>• <strong>Postgraduate Programs:</strong> M.Tech (30+ specializations), MBA (₹4-6L/year, 100% placement), M.Sc (multiple disciplines). Admission through GATE, CAT/MAT/XAT, and GAT-B examinations respectively.</li>
-            <li>• <strong>Doctoral Programs:</strong> PhD (27 programs, 500+ seats, ₹1L/year). Duration typically 3-5 years with research focus areas including AI/ML, cybersecurity, healthcare technologies, sustainable development, and humanitarian technology.</li>
-            <li>• <strong>Hostel & Accommodation:</strong> 8 hostels accommodating 5,000+ students with modern amenities including Wi-Fi, study rooms, mess halls, sports facilities, and recreation areas. Hostel fees range from ₹50,000 to ₹80,000 annually (excluding mess charges). Pure vegetarian food policy across all campuses.</li>
-          </ul>
-        </div>
         
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-4 bg-gray-50">
@@ -2887,7 +2846,7 @@ const AmritaCoimbatorePage: React.FC = () => {
             <Download className="w-5 h-5 mr-2" />
             Download Brochure
           </button>
-          <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             <Mail className="w-5 h-5 mr-2" />
             Apply Now
           </button>
@@ -3000,7 +2959,7 @@ const AmritaCoimbatorePage: React.FC = () => {
                 <Download className="w-5 h-5 mr-2" />
                 Download Brochure
               </button>
-              <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                 <Mail className="w-5 h-5 mr-2" />
                 Apply Now
               </button>
@@ -3135,5 +3094,10 @@ const AmritaCoimbatorePage: React.FC = () => {
     </div>
   );
 };
+
+  const openApplyForm = () => {
+    setIsLeadModalOpen(true);
+    try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'apply_now_click', page: 'amrita_coimbatore' } })); } catch {}
+  };
 
 export default AmritaCoimbatorePage;

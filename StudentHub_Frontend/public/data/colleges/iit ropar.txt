@@ -1,0 +1,1510 @@
+Now I'll compile all this information into a comprehensive JSON format for IIT Ropar.
+
+```json
+{
+  "college_name": "Indian Institute of Technology Ropar",
+  "acronym": "IIT Ropar / IIT-RPR",
+  "established": 2008,
+  "location": {
+    "city": "Rupnagar (Ropar)",
+    "state": "Punjab",
+    "country": "India",
+    "campus_area": "525 acres",
+    "specific_location": "Along the banks of Sutlej River",
+    "pin_code": "140001"
+  },
+  
+  "overview": {
+    "word_count": "12000",
+    "sections": {
+      "institutional_foundation": {
+        "heading": "Institutional Foundation and Historical Legacy",
+        "content": "Indian Institute of Technology Ropar (IIT Ropar or IIT-RPR) stands as one of India's distinguished institutes of national importance, established in 2008 as part of the government's ambitious initiative to expand premier technical education infrastructure across the nation. The institute emerged as one of eight new Indian Institutes of Technology founded by the Ministry of Human Resource Development (MHRD), Government of India, under The Institutes of Technology (Amendment) Act, 2011. This legislative framework officially declared these new IITs as institutes of national importance, positioning them alongside India's most prestigious educational institutions with autonomy in governance, curriculum design, and degree-granting authority. The institute commenced its inaugural academic session in 2008-09, with classes initially held at Indian Institute of Technology Delhi, operating under the mentorship of IIT Delhi. The first batch consisted of 40 students each in three disciplines: Computer Science Engineering, Mechanical Engineering, and Electrical Engineering, marking the beginning of what would become a transformative journey in technical education for northern India. IIT Delhi's mentorship proved crucial in establishing academic standards, curriculum frameworks, faculty recruitment protocols, research infrastructure, examination systems, and administrative processes aligned with IIT excellence. The Institute started functioning from its transit campus in Rupnagar from 1st August 2009, initially operating from the premises of Government Polytechnic College for Girls (Ropar), which was fully renovated and furnished to accommodate the growing needs of the institute. The foundation stone for the permanent campus was laid down on 24th February 2009 by the then Union HRD Minister Shri Arjun Singh, marking a significant milestone in the institute's journey. The permanent campus, spread over 525 acres along the banks of the Sutlej River, represents a massive investment in infrastructure and educational facilities. The institute has progressively shifted its operations to the permanent campus starting from June 2018, though some departments including Humanities, Mathematics, Physics, Chemical Engineering, and Civil Engineering, along with some hostels and labs, continued operations from both locations during the transition period.",
+        "key_milestones": [
+          {
+            "year": 2008,
+            "event": "Institute established, classes commenced at IIT Delhi"
+          },
+          {
+            "year": 2009,
+            "event": "Foundation stone laid by Arjun Singh (24th February 2009)"
+          },
+          {
+            "year": 2009,
+            "event": "Transit campus operations began in Rupnagar (1st August 2009)"
+          },
+          {
+            "year": 2011,
+            "event": "Institutes of Technology Amendment Act passed"
+          },
+          {
+            "year": 2018,
+            "event": "Shift to permanent campus began (June 2018)"
+          }
+        ],
+        "initial_intake": {
+          "total_students": 120,
+          "computer_science": 40,
+          "mechanical_engineering": 40,
+          "electrical_engineering": 40
+        },
+        "citations": ["web:99", "web:100", "web:101", "web:105", "web:37"]
+      },
+      
+      "geographic_location": {
+        "heading": "Geographic Location and Campus Setting",
+        "content": "IIT Ropar's permanent campus sprawls majestically across approximately 525 acres of lush green land along the banks of the Sutlej River in Rupnagar (formerly known as Ropar), Punjab. This riverside setting provides a serene and inspiring environment for academic pursuits, research activities, and holistic student development. The expansive campus provides ample space for academic buildings, research facilities, residential hostels, sports complexes, administrative offices, green spaces, and future expansion. The location in Punjab places the institute in India's agricultural heartland, providing unique opportunities for research in areas related to agriculture, water resources, environmental sustainability, and rural development. Rupnagar district, with its rich historical heritage dating back to the Indus Valley Civilization, provides a culturally vibrant backdrop for the institute. The campus site carries unique historical significance, having served as a detention camp during World War II, similar to some other IIT campuses. This transformation from a place of confinement to a vibrant center of enlightenment, knowledge creation, and innovation symbolizes human progress and the transformative power of education to reshape landscapes and destinies. The institute has consciously preserved this historical context while building modern infrastructure that reflects contemporary educational requirements and sustainability principles. The proximity to Chandigarh (approximately 50 km), a major planned city and union territory, provides access to urban amenities, cultural events, and connectivity to other major cities. The location also offers good rail and road connectivity to Delhi, making it accessible for students from across the country.",
+        "historical_significance": "Former World War II detention camp site",
+        "geographical_advantages": [
+          "Riverside location on Sutlej River",
+          "Proximity to Chandigarh (50 km)",
+          "Access to agricultural heartland",
+          "Rich cultural heritage area",
+          "Good rail and road connectivity"
+        ],
+        "citations": ["web:99", "web:102", "web:114"]
+      },
+      
+      "campus_architecture": {
+        "heading": "Campus Architecture and Infrastructure",
+        "content": "The IIT Ropar permanent campus features modern architectural design that balances functionality with aesthetic appeal. The main building complex comprises three independent blocks connected via skywalks, creating an integrated yet distinct academic environment. This innovative design facilitates movement between different departments while maintaining architectural distinctiveness for each block. The campus infrastructure includes modern academic buildings equipped with state-of-the-art classrooms featuring modern teaching equipment to enhance the learning experience. The entire campus is WiFi enabled, providing seamless connectivity for academic and personal use. The campus design emphasizes environmental sustainability and ecological responsibility, incorporating features such as green spaces, efficient resource utilization, and harmony with natural surroundings. The institute's building includes a library building, a data centre, boys' and girls' hostels, and a Kendriya Vidyalaya (Central School) for children of faculty and staff. The huge sports complex caters to holistic development with multiple grounds for cricket, football, hockey, and courts for badminton, basketball, and tennis, along with indoor facilities for table tennis and a well-equipped gymnasium. For security, IIT Ropar hostels are under 24/7 CCTV surveillance, ensuring student safety. The campus provides modern amenities including a medical center with dedicated medical and paramedical staff for basic yet immediate medical attention. Students have access to four hostel accommodations - three for boys (Mercury, Jupiter, and Neptune) and one for girls, each equipped with basic facilities like RO systems, common rooms for games and recreation, comfortable beds, water coolers, and well-furnished rooms offering comfortable stay.",
+        "distinctive_features": [
+          "Three independent blocks connected by skywalks",
+          "Riverside location with green spaces",
+          "Modern academic infrastructure",
+          "Comprehensive sports complex",
+          "24/7 CCTV surveillance",
+          "WiFi-enabled entire campus",
+          "Kendriya Vidyalaya on campus"
+        ],
+        "sustainability_features": [
+          "Green spaces and plantation",
+          "Efficient resource utilization",
+          "Environmental harmony"
+        ],
+        "citations": ["web:114", "web:117"]
+      },
+      
+      "academic_vision": {
+        "heading": "Academic Vision and Educational Philosophy",
+        "content": "IIT Ropar's institutional vision centers on creating comprehensive technical education that balances rigorous academics with research innovation, entrepreneurship development, and holistic personality formation. The institute aspires to produce graduates who possess not only deep technical knowledge but also ethical values, social consciousness, leadership abilities, and global perspectives necessary for addressing contemporary challenges. The educational philosophy emphasizes experiential learning through laboratories, projects, internships, and research activities that complement classroom instruction. The curriculum design integrates theoretical foundations with practical applications, ensuring students develop both conceptual understanding and hands-on skills valued by employers and research institutions. Faculty members combine teaching excellence with active research engagement, bringing cutting-edge knowledge and contemporary perspectives into the classroom. IIT Ropar has progressively expanded its academic portfolio beyond the initial three programs to encompass multiple undergraduate B.Tech specializations, numerous postgraduate M.Tech and M.Sc programs, and doctoral programs across engineering, sciences, and humanities disciplines. This diversification reflects the institute's maturation and commitment to addressing diverse educational needs and emerging technological domains. The institute maintains a commitment to quality education with modern teaching methodologies, well-equipped laboratories, and industry interactions that prepare students for successful careers in technology, research, management, and entrepreneurship.",
+        "key_pillars": [
+          "Research-driven education",
+          "Holistic development",
+          "Industry-academia integration",
+          "Entrepreneurship promotion",
+          "Interdisciplinary approach",
+          "Global perspectives"
+        ],
+        "program_expansion": {
+          "initial_programs": 3,
+          "current_programs": "Multiple UG, PG, and Doctoral programs",
+          "departments": "11+ academic departments"
+        },
+        "citations": ["web:100", "web:120"]
+      },
+      
+      "research_excellence": {
+        "heading": "Research and Innovation Ecosystem",
+        "content": "Research and innovation constitute core pillars of IIT Ropar's identity, with the institute fostering a vibrant ecosystem that encourages faculty and students to pursue cutting-edge investigations across diverse domains. Faculty members engage in research spanning artificial intelligence and data engineering, computer science and engineering, biomedical engineering, electrical engineering, mechanical engineering, materials engineering, chemical engineering, civil engineering, physics, chemistry, mathematics, and humanities and social sciences. The institute has established research facilities with advanced equipment and instrumentation to support high-quality research. The departments are equipped with modern laboratories featuring state-of-the-art equipment for research and teaching. For example, the Materials Engineering faculty research includes nanomaterials, fracture mechanics, biomaterials, in-situ deformation, high strength steels, electron microscopy, and high-temperature deformation. The Humanities and Social Sciences department promotes doctoral programmes and research work, possessing well-equipped Language Laboratory and a Language & Cognition Lab. The Biomedical Engineering department focuses on research areas including molecular understanding in disease biology (Type 2 Diabetes and Cancer), therapeutics, electrochemical biosensors, wound healing, micro-fabrication, portable devices for medical diagnosis, and BioFETs. Physics department research covers quantum information theory and quantum thermodynamics. The institute encourages interdisciplinary research collaborations and provides support for faculty to secure external funding from government agencies and industry partners. Students at all levels - undergraduate, postgraduate, and doctoral - are encouraged to participate in research projects, developing skills in scientific inquiry, critical thinking, and innovation.",
+        "research_areas": [
+          "Artificial Intelligence & Data Engineering",
+          "Biomedical Engineering & Healthcare Technologies",
+          "Nanomaterials & Advanced Materials",
+          "Quantum Information Theory",
+          "Disease Biology & Therapeutics",
+          "Computer Vision & Deep Learning",
+          "Power Systems & Nanodielectrics",
+          "High Temperature Deformation",
+          "Language & Cognition",
+          "Electrochemical Sensors"
+        ],
+        "research_facilities": [
+          "Advanced laboratories",
+          "Language Laboratory",
+          "Language & Cognition Lab",
+          "Modern computing facilities",
+          "Electron microscopy facilities",
+          "Nanofabrication facilities"
+        ],
+        "citations": ["web:118", "web:119", "web:121", "web:122", "web:125"]
+      },
+      
+      "departments_overview": {
+        "heading": "Academic Departments and Programs",
+        "content": "IIT Ropar houses multiple academic departments covering a comprehensive range of engineering, science, and humanities disciplines. The major departments include Artificial Intelligence and Data Engineering, BioMedical Engineering, Chemical Engineering, Civil Engineering, Computer Science & Engineering, Electrical Engineering, Mechanical Engineering, Metallurgical & Materials Engineering, Chemistry, Physics, Mathematics, and Humanities and Social Sciences. Each department offers undergraduate, postgraduate, and doctoral programs aligned with its specialization. The Department of Humanities and Social Sciences offers core and elective courses in Economics, English, Linguistics, Management, and Philosophy across various undergraduate streams, with a constant endeavor to offer courses that acquaint technical students with the basics of the study of human behavior and society. The institute has added newer departments like Artificial Intelligence and Data Engineering to keep pace with emerging technological trends. Each department is headed by experienced faculty members who are leaders in their respective fields, bringing both academic excellence and research credentials. The departments collaborate on interdisciplinary research projects and educational initiatives, fostering a culture of cross-pollination of ideas and innovation.",
+        "departments": [
+          "Artificial Intelligence and Data Engineering",
+          "BioMedical Engineering",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer Science & Engineering",
+          "Electrical Engineering",
+          "Mechanical Engineering",
+          "Metallurgical & Materials Engineering",
+          "Chemistry",
+          "Physics",
+          "Mathematics",
+          "Humanities and Social Sciences"
+        ],
+        "citations": ["web:120", "web:121", "web:124"]
+      },
+      
+      "student_admission": {
+        "heading": "Student Admission and Selection Excellence",
+        "content": "IIT Ropar admits students to its undergraduate B.Tech programs exclusively through the Joint Entrance Examination (Advanced), commonly known as JEE Advanced, which is recognized as one of the world's most competitive engineering entrance examinations. Only students who qualify JEE Main and secure ranks within the prescribed cutoff (typically top 2.5 lakh ranks or top 20 percentile) are eligible to appear for JEE Advanced, ensuring an initial screening that identifies academically talented candidates. The admission process attracts some of India's brightest students who have demonstrated exceptional aptitude in physics, chemistry, and mathematics through rigorous examination. For popular branches like Computer Science and Engineering at IIT Ropar, the JEE Advanced closing rank stands around 2,512 for the General category, while for other branches it extends to approximately 14,480, indicating highly competitive admission standards. For the 2025 admission cycle, CSE proved to be the most competitive for admission with the lowest cutoff rank of 2,512. Other competitive programs include Artificial Intelligence and Data Engineering (closing rank 3,500) and Mathematics and Computing (closing rank 3,954). The minimum marks required to qualify JEE Advanced are 35% for the general category, 31.5% for OBC-NCL/EWS, and 17.5% for SC/ST/PwD candidates. For postgraduate programs, IIT Ropar conducts admissions through the Graduate Aptitude Test in Engineering (GATE) for M.Tech programs, followed by the COAP (Common Offer Acceptance Portal) counseling process. For COAP cutoff 2025 Round 7, the top three M.Tech specializations were Computer Science Engineering (cutoff score 718), Artificial Intelligence (cutoff score 701), and Microelectronics and VLSI Design (cutoff score 538) for the General AI quota. Doctoral admissions consider research potential, prior academic performance, and alignment of research interests with faculty expertise.",
+        "undergraduate_admission": {
+          "exam": "JEE Advanced",
+          "cutoff_range_general_2025": "2,512 to 14,480",
+          "most_competitive_branch": "Computer Science & Engineering (rank 2,512)",
+          "qualifying_marks": {
+            "general": "35%",
+            "obc_ews": "31.5%",
+            "sc_st_pwd": "17.5%"
+          }
+        },
+        "postgraduate_admission": {
+          "mtech": "GATE + COAP counseling",
+          "top_specializations_2025": {
+            "cse": 718,
+            "ai": 701,
+            "vlsi": 538
+          }
+        },
+        "citations": ["web:104", "web:107"]
+      },
+      
+      "campus_life": {
+        "heading": "Campus Life and Student Development",
+        "content": "The residential campus of IIT Ropar fosters a vibrant community where students from diverse backgrounds come together to pursue academic excellence and personal growth. The institute operates four hostel accommodations - three for boys (Mercury, Jupiter, and Neptune) and one for girls. Each hostel is equipped with modern amenities including RO water systems, common rooms for games and recreation, comfortable beds, water coolers, and well-furnished rooms. Student life extends far beyond academics, with numerous clubs covering photography, dance, coding, singing, eSports, and many other activities. Students participate in extracurricular activities like bhangra sessions, dandiya night, cultural fests, tech fests, and sports fests. Great celebrations happen for many festivals including Ganesh Chaturthi, Basant Panchami, Diwali, Holi, and other festivals, creating a vibrant multicultural environment. According to student testimonials, campus life is described as 'very good' with many students from different regions of India, creating a diverse community. Hostel life is described as 'interesting and memorable' if students can make friends and homies. The room size is somewhat small for two occupants but students generally adjust. The mess food quality starts well at the beginning of the semester but may decline toward the end, though students adapt. Campus life is generally positive if students can make friends and avoid negative influences. The campus itself is described as 'very beautiful and lively' with good infrastructure. The only drawback noted is the lack of some good food stalls or ice cream stalls on campus. The sports complex provides comprehensive facilities for physical fitness and competitive sports, with separate grounds for cricket, football, hockey, and courts for badminton, basketball, tennis, along with indoor table tennis facilities and a well-equipped gymnasium.",
+        "hostel_facilities": {
+          "total_hostels": 4,
+          "boys_hostels": 3,
+          "hostel_names": ["Mercury", "Jupiter", "Neptune", "Girls Hostel"],
+          "amenities": [
+            "RO water systems",
+            "Common rooms for recreation",
+            "Comfortable furnished rooms",
+            "Water coolers",
+            "24/7 CCTV surveillance",
+            "Basic furniture"
+          ]
+        },
+        "student_clubs": [
+          "Photography Club",
+          "Dance Club",
+          "Coding Club",
+          "Singing Club",
+          "eSports Club",
+          "Various other clubs"
+        ],
+        "festivals_events": [
+          "Ganesh Chaturthi",
+          "Basant Panchami",
+          "Diwali",
+          "Holi",
+          "Bhangra sessions",
+          "Dandiya night",
+          "Cultural fests",
+          "Tech fests",
+          "Sports fests"
+        ],
+        "citations": ["web:117", "web:123", "web:126"]
+      },
+      
+      "mentorship_by_iit_delhi": {
+        "heading": "Mentorship by IIT Delhi and Academic Heritage",
+        "content": "The mentorship relationship with IIT Delhi during the formative years proved instrumental in establishing academic standards, administrative systems, and institutional culture at IIT Ropar. IIT Delhi, one of India's premier technical institutions with decades of experience and established reputation, provided guidance on curriculum development, faculty recruitment, research infrastructure, examination systems, and governance structures. This mentorship ensured that IIT Ropar inherited best practices and quality benchmarks from a mature IIT while developing its unique identity and institutional characteristics. The founding faculty members often came from established IITs and premier institutions, bringing academic excellence and institutional knowledge that accelerated IIT Ropar's development. The connection with IIT Delhi continues through alumni networks, collaborative research, and ongoing knowledge exchange, maintaining institutional linkages beyond the formal mentorship period. The fact that the first batch of IIT Ropar students had their initial classes at IIT Delhi campus demonstrates the depth of this mentorship commitment.",
+        "mentor_institute": "IIT Delhi",
+        "mentorship_areas": [
+          "Curriculum development",
+          "Faculty recruitment",
+          "Research infrastructure setup",
+          "Examination systems",
+          "Governance structures",
+          "Administrative processes"
+        ],
+        "citations": ["web:99", "web:101"]
+      },
+      
+      "recognition": {
+        "heading": "Recognition and Accreditation",
+        "content": "IIT Ropar holds official recognition as an Institute of National Importance by the Government of India, a designation that carries significant academic prestige and regulatory autonomy. This status places the institute among India's most elite educational institutions, enabling it to set academic standards, grant degrees, and maintain autonomy in governance and curriculum decisions. The institute has earned recognition from various national and international ranking agencies, reflecting its academic quality and research output. In NIRF Rankings 2025, IIT Ropar achieved rank #32 in the Engineering category with a score of 59.66. In the Overall category, the institute secured rank #56, and in the Research Institutions category, it ranked #47. The institute has shown consistent performance in NIRF rankings over the years: 2024 (rank 22, score 61.56), 2023 (rank 22, score 60.51), 2022 (rank 22, score 59.16), 2021 (rank 19, score 58.09), and 2020 (rank 25, score 55.95). In international rankings, QS Ranking 2025 placed IIT Ropar at position 148 under the Asian University Rankings - Southern Asia category and at 521-540 under the Asian University Rankings category. Times Higher Education Ranking 2020 positioned IIT Ropar in the 501-600 band out of 801 for Science category. These rankings reflect the institute's growing reputation and consistent efforts to improve academic quality, research output, and overall institutional effectiveness.",
+        "national_importance": "Institute of National Importance (Government of India)",
+        "nirf_rankings": {
+          "engineering_2025": {"rank": 32, "score": 59.66},
+          "overall_2025": 56,
+          "research_institutions_2025": 47,
+          "engineering_2024": {"rank": 22, "score": 61.56},
+          "engineering_2023": {"rank": 22, "score": 60.51},
+          "engineering_2022": {"rank": 22, "score": 59.16},
+          "engineering_2021": {"rank": 19, "score": 58.09},
+          "engineering_2020": {"rank": 25, "score": 55.95}
+        },
+        "international_rankings": {
+          "qs_2025_southern_asia": 148,
+          "qs_2025_asia": "521-540",
+          "the_2020_science": "501-600 (out of 801)"
+        },
+        "citations": ["web:101", "web:113", "web:116"]
+      },
+      
+      "future_vision": {
+        "heading": "Future Vision and Strategic Goals",
+        "content": "As IIT Ropar continues its journey toward becoming a leading research and educational institution, the institute has articulated ambitious goals for enhancing academic programs, research capabilities, infrastructure, and global standing. The strategic vision includes expanding interdisciplinary programs that address complex contemporary challenges, strengthening industry partnerships for sponsored research and employment opportunities, increasing international collaborations for research and student mobility, promoting entrepreneurship and innovation through incubation support, and fostering a culture of academic excellence and institutional service. The institute aims to improve its national and international rankings through enhanced research output, better placement outcomes, improved infrastructure, and stronger stakeholder engagement. The continuous expansion of the permanent campus infrastructure demonstrates the institute's commitment to providing world-class facilities. By building on its achievements during its first decade and a half while embracing new opportunities, IIT Ropar aspires to establish itself firmly among the top technical institutions in India and contribute significantly to technological advancement, societal progress, and human development.",
+        "strategic_goals": [
+          "Enhance research output and impact",
+          "Improve national and international rankings",
+          "Strengthen industry-academia partnerships",
+          "Expand international collaborations",
+          "Promote entrepreneurship and innovation",
+          "Complete infrastructure development",
+          "Attract top talent (faculty and students)",
+          "Increase placement quality and percentage"
+        ]
+      }
+    }
+  },
+  
+  "courses_and_fee": {
+    "word_count": "6000",
+    "programs": {
+      "undergraduate": {
+        "btech_4year": {
+          "program_name": "B.Tech (4-Year)",
+          "duration": "4 years",
+          "annual_fee": "₹2.22 lakhs per year",
+          "total_program_fee": "₹8.88 lakhs (approx)",
+          "fee_includes": "Tuition fees, hostel, and other administrative costs",
+          "specializations": [
+            "Computer Science and Engineering (CSE)",
+            "Artificial Intelligence and Data Engineering",
+            "Mathematics and Computing",
+            "Electrical Engineering (EE)",
+            "Mechanical Engineering (ME)",
+            "Civil Engineering (CE)",
+            "Chemical Engineering (ChE)",
+            "Metallurgical & Materials Engineering",
+            "Physics",
+            "Other engineering disciplines"
+          ],
+          "admission": "Through JEE Advanced",
+          "citations": ["web:106"]
+        }
+      },
+      
+      "postgraduate": {
+        "mtech_2year": {
+          "program_name": "M.Tech (2-Year)",
+          "duration": "2 years",
+          "semester_fee": "₹56,050 per semester",
+          "total_program_fee": "₹2.24 lakhs (approx for 4 semesters)",
+          "fee_includes": "Tuition fees, laboratory, and other academic expenses",
+          "admission": "Through GATE followed by COAP counseling",
+          "specializations": [
+            "Computer Science Engineering",
+            "Artificial Intelligence",
+            "Microelectronics and VLSI Design",
+            "Electrical Engineering",
+            "Mechanical Engineering",
+            "Civil Engineering",
+            "Chemical Engineering",
+            "Materials Engineering",
+            "Other engineering disciplines"
+          ],
+          "citations": ["web:106", "web:104"]
+        },
+        
+        "msc_2year": {
+          "program_name": "M.Sc (2-Year)",
+          "duration": "2 years",
+          "semester_fee": "₹36,870 per semester",
+          "total_program_fee": "₹1.47 lakhs (approx for 4 semesters)",
+          "fee_includes": "All course-related costs",
+          "specializations": [
+            "Physics",
+            "Chemistry",
+            "Mathematics",
+            "Other science disciplines"
+          ],
+          "citations": ["web:106"]
+        },
+        
+        "bsc_bed_integrated": {
+          "program_name": "B.Sc - B.Ed (Integrated)",
+          "duration": "4 years",
+          "description": "Integrated program combining science and education",
+          "contact": "01881-231115, 01881-231114, 01881-231112",
+          "citations": ["web:124"]
+        }
+      },
+      
+      "doctoral": {
+        "phd_fulltime": {
+          "program_name": "Ph.D. (Full-Time)",
+          "duration": "Variable (typically 4-5 years)",
+          "semester_fee": "₹57,850 per semester",
+          "total_fee_range": "₹1.13 lakhs to ₹1.92 lakhs",
+          "tuition_fee": "₹31,500 to ₹1.1 lakhs",
+          "hostel_fee": "₹37,380",
+          "total_disciplines": 17,
+          "disciplines": [
+            "Electrical Engineering",
+            "Computer Science And Engineering",
+            "Humanities And Social Science",
+            "Biomedical Engineering",
+            "Physics",
+            "Mechanical Engineering",
+            "Chemistry",
+            "Chemical Engineering",
+            "Economics",
+            "Energy Efficiency In Buildings",
+            "Management",
+            "Psychology",
+            "Artificial Intelligence",
+            "Civil Engineering",
+            "Linguistics",
+            "Materials Engineering",
+            "Mathematics"
+          ],
+          "fee_breakdown_2025_2026": {
+            "electrical_engineering": "₹1,13,245",
+            "computer_science": "₹1,13,245",
+            "humanities": "₹1,13,350",
+            "biomedical_engineering": "₹1,13,245",
+            "physics": "₹1,13,245",
+            "mechanical_engineering": "₹1,13,245",
+            "chemistry": "₹1,13,245",
+            "chemical_engineering": "₹1,13,245",
+            "economics": "₹1,13,350",
+            "energy_efficiency": "₹1,13,245",
+            "management": "₹1,13,245",
+            "psychology": "₹1,13,350",
+            "artificial_intelligence": "₹1,13,245",
+            "civil_engineering": "₹1,13,245",
+            "linguistics": "₹1,13,350",
+            "materials_engineering": "₹1,13,245",
+            "mathematics": "₹1,13,245"
+          },
+          "previous_year_fees_2024_2025": "₹1,07,850 (most disciplines)",
+          "eligibility": "Post Graduation with 60% + GATE",
+          "financial_support": "Monthly fellowship for eligible students",
+          "citations": ["web:103", "web:106"]
+        }
+      }
+    },
+    
+    "fee_components": {
+      "tuition_fees": "Varies by program",
+      "hostel_charges": "₹37,380 (for Ph.D. students)",
+      "mess_charges": "Separate, varies",
+      "other_charges": [
+        "Registration fee",
+        "Examination fee",
+        "Library fee",
+        "Medical fee",
+        "Sports subscription",
+        "Computer and internet charges",
+        "Caution deposit (refundable)"
+      ]
+    },
+    
+    "scholarships_financial_aid": {
+      "sc_st_pwd": "Fee concessions available",
+      "fellowships": "For Ph.D. students with valid qualifications",
+      "merit_based": "Various scholarships available",
+      "government_schemes": "Post-matric scholarships"
+    },
+    
+    "fee_summary_table": {
+      "table": [
+        {
+          "Program": "B.Tech (4-Year)",
+          "Annual Fee": "₹2.22 lakhs",
+          "Total Program Fee": "₹8.88 lakhs",
+          "Duration": "4 years"
+        },
+        {
+          "Program": "M.Tech (2-Year)",
+          "Semester Fee": "₹56,050",
+          "Total Program Fee": "₹2.24 lakhs",
+          "Duration": "2 years"
+        },
+        {
+          "Program": "M.Sc (2-Year)",
+          "Semester Fee": "₹36,870",
+          "Total Program Fee": "₹1.47 lakhs",
+          "Duration": "2 years"
+        },
+        {
+          "Program": "Ph.D. (Full-Time)",
+          "Semester Fee": "₹57,850",
+          "Total Fee Range": "₹1.13-1.92 lakhs",
+          "Duration": "Variable"
+        }
+      ]
+    }
+  },
+  
+  "admissions": {
+    "word_count": "4000",
+    "undergraduate": {
+      "exam": "JEE Advanced",
+      "eligibility": {
+        "examination": "Must qualify JEE Advanced in current year",
+        "jee_main_requirement": "Top 2.5 lakh ranks or top 20 percentile",
+        "class_12_percentage_general": "75%",
+        "class_12_percentage_reserved": "65%",
+        "subjects_required": ["Physics", "Chemistry", "Mathematics"],
+        "age_limit": "As per JEE Advanced norms",
+        "maximum_attempts": "2 attempts in consecutive years"
+      },
+      
+      "exam_structure": {
+        "papers": 2,
+        "duration_per_paper": "3 hours",
+        "subjects": ["Physics", "Chemistry", "Mathematics"],
+        "both_papers_compulsory": true
+      },
+      
+      "cutoff_2025": {
+        "general_category_range": "2,512 to 14,480",
+        "computer_science": 2512,
+        "ai_data_engineering": 3500,
+        "mathematics_computing": 3954,
+        "mechanical_engineering": 8836,
+        "civil_engineering": 10097,
+        "chemical_engineering": 11365,
+        "obc_range": "1,084 to 4,968"
+      },
+      
+      "qualifying_marks": {
+        "general": "35%",
+        "obc_ews": "31.5%",
+        "sc_st_pwd": "17.5%"
+      },
+      
+      "most_competitive_branches": [
+        "Computer Science and Engineering (2,512)",
+        "Artificial Intelligence and Data Engineering (3,500)",
+        "Mathematics and Computing (3,954)"
+      ],
+      
+      "seat_allotment": {
+        "authority": "JoSAA (Joint Seat Allocation Authority)",
+        "rounds": "Multiple rounds (typically 6)",
+        "process_steps": [
+          "Register on JoSAA portal",
+          "Fill choice of institutes and branches",
+          "Lock choices before deadline",
+          "Participate in seat allocation rounds",
+          "Accept/Float/Reject allocated seat",
+          "Complete document verification",
+          "Pay admission fee",
+          "Report to institute"
+        ]
+      },
+      
+      "required_documents": [
+        "JEE Advanced Admit Card and Rank Letter",
+        "Class 10th Certificate (age proof)",
+        "Class 12th Certificate and Mark Sheet",
+        "Category Certificate (if applicable)",
+        "Medical Fitness Certificate",
+        "Character Certificate",
+        "Transfer/Migration Certificate",
+        "Passport-size Photographs"
+      ],
+      
+      "admission_contact": {
+        "phone": ["01881-231112", "01881-231169", "01881-231113"],
+        "email": "officer-academics-1@iitrpr.ac.in"
+      },
+      
+      "citations": ["web:104", "web:107", "web:124"]
+    },
+    
+    "postgraduate": {
+      "mtech": {
+        "exam": "GATE (Graduate Aptitude Test in Engineering)",
+        "validity": "3 years from result date",
+        "counseling": "COAP (Common Offer Acceptance Portal)",
+        "cutoff_2025_round7_general": {
+          "computer_science": 718,
+          "artificial_intelligence": 701,
+          "vlsi_design": 538
+        },
+        "selection_process": "GATE score + COAP counseling",
+        "admission_contact": {
+          "phone": ["01881-231115", "01881-231114", "01881-231112"],
+          "email": "office-academics-1@iitrpr.ac.in"
+        }
+      },
+      
+      "msc": {
+        "admission_process": "Through national entrance exams",
+        "contact": {
+          "phone": ["01881-231115", "01881-231114", "01881-231112"],
+          "email": "office-academics-1@iitrpr.ac.in"
+        }
+      },
+      
+      "bsc_bed": {
+        "admission_contact": {
+          "phone": ["01881-231115", "01881-231114", "01881-231112"],
+          "email": "supdt.acad@iitrpr.ac.in"
+        }
+      }
+    },
+    
+    "doctoral": {
+      "admission_frequency": "Twice a year typically",
+      "total_disciplines": 17,
+      "eligibility": {
+        "degree": "Post Graduation with 60% + GATE",
+        "direct_phd": "Possible with exceptional credentials",
+        "preferred_qualifications": ["GATE", "NET", "Other national exams"]
+      },
+      
+      "selection_process": [
+        "Application submission",
+        "Written test (if applicable)",
+        "Interview",
+        "Research proposal evaluation",
+        "Final selection by department"
+      ],
+      
+      "hostel_contact": {
+        "phone": ["01881-231177", "01881-231182"]
+      },
+      
+      "placement_contact": {
+        "phone": "01881-232765"
+      },
+      
+      "general_queries": {
+        "phone": "01881-231111"
+      },
+      
+      "citations": ["web:103", "web:124"]
+    },
+    
+    "reservation_policy": {
+      "sc": "15%",
+      "st": "7.5%",
+      "obc_ncl": "27%",
+      "ews": "10%",
+      "pwd": "5% horizontal",
+      "benefits": [
+        "Relaxation in cutoff ranks",
+        "Age limit relaxation",
+        "Fee concessions"
+      ]
+    },
+    
+    "international_students": {
+      "undergraduate": "Through DASA scheme",
+      "postgraduate": "Direct application or through standard process",
+      "contact": {
+        "phone": "+91-1881-231157",
+        "email": "office.ir@iitrpr.ac.in",
+        "admissions_scholarships_phone": "+91-01881-231159",
+        "admissions_scholarships_email": "globalconnect@iitrpr.ac.in"
+      },
+      "citations": ["web:127"]
+    }
+  },
+  
+  "placements": {
+    "word_count": "4000",
+    "academic_year_2024": {
+      "overall_statistics": {
+        "eligible_students": 452,
+        "students_placed": 254,
+        "placement_rate": "56.19%",
+        "note": "Placement process ongoing as of reporting date"
+      },
+      
+      "btech_placements_2024": {
+        "average_package": "₹22.09 LPA",
+        "placement_rate": "73.49%",
+        "previous_years": {
+          "2023": {"average": "₹23.91 LPA"},
+          "2022": {"average": "₹20.99 LPA"}
+        }
+      },
+      
+      "btech_median_packages": {
+        "2024": "₹20.00 LPA",
+        "2023": "₹16.97 LPA",
+        "2022": "₹17.14 LPA"
+      },
+      
+      "pg_placements_2024": {
+        "average_package_mtech_msc": "₹11.96 LPA",
+        "median_package": "₹10.00 LPA",
+        "pg_average_2025": "₹13.11 LPA",
+        "pg_median_2025": "₹9.5 LPA",
+        "previous_years": {
+          "2023": {"average": "₹13.31 LPA"},
+          "2022": {"average": "₹11.98 LPA"}
+        }
+      },
+      
+      "mtech_median_packages": {
+        "2024": "₹12.00 LPA",
+        "2023": "₹10.00 LPA",
+        "2022": "₹10.00 LPA"
+      },
+      
+      "highest_packages": {
+        "overall_2024": "₹55 LPA (domestic)",
+        "international_2024": "₹2.05 crore",
+        "domestic_2024": "₹1.5 crore",
+        "dual_degree_mechanical": "₹41 LPA",
+        "previous_year_2022": "₹50 LPA"
+      },
+      
+      "salary_ranges": {
+        "btech_average": "₹22.92 LPA (2024)",
+        "mtech_average": "₹13.31 LPA (2024)"
+      },
+      
+      "citations": ["web:108", "web:109", "web:110", "web:112", "web:115"]
+    },
+    
+    "top_recruiters": [
+      "Google",
+      "Amazon",
+      "Microsoft",
+      "Goldman Sachs",
+      "Infosys",
+      "TCS",
+      "Wipro",
+      "Accenture",
+      "Deloitte",
+      "Other leading companies"
+    ],
+    
+    "branch_wise_performance": {
+      "computer_science": {
+        "demand": "Highest",
+        "package_range": "₹20-55 LPA",
+        "recruiters": ["Top tech giants", "Product companies", "Startups"]
+      },
+      "electrical_engineering": {
+        "demand": "Strong",
+        "sectors": ["Electronics", "Power", "IT", "Core companies"]
+      },
+      "mechanical_engineering": {
+        "demand": "Good",
+        "dual_degree_highest": "₹41 LPA",
+        "sectors": ["Automotive", "Manufacturing", "Core engineering"]
+      },
+      "other_branches": {
+        "civil_chemical_materials": {
+          "opportunities": ["Infrastructure", "Process industries", "Research"]
+        }
+      }
+    },
+    
+    "sector_distribution": {
+      "information_technology": "Major recruiter",
+      "core_engineering": "Significant participation",
+      "consulting": "Growing presence",
+      "banking_finance": "Select high-package offers",
+      "analytics": "Emerging sector",
+      "research_development": "For advanced degrees"
+    },
+    
+    "placement_trends": {
+      "improvements": [
+        "Consistent increase in average packages",
+        "Growing recruiter base",
+        "International offers increasing",
+        "Sector diversity expanding"
+      ],
+      "strengths": [
+        "Strong technical foundation",
+        "Good faculty guidance",
+        "Industry-relevant curriculum",
+        "Active placement cell"
+      ]
+    },
+    
+    "internships": {
+      "availability": "Summer internships for 2nd/3rd year students",
+      "companies": "Leading firms across sectors",
+      "stipends": "Competitive",
+      "ppo_conversions": "Many internships convert to PPOs"
+    },
+    
+    "higher_studies": {
+      "options": [
+        "M.Tech/M.S. in India",
+        "Graduate programs abroad",
+        "Ph.D. programs",
+        "Research positions"
+      ]
+    },
+    
+    "entrepreneurship": {
+      "support": "Incubation facilities available",
+      "funding": "Seed funding opportunities",
+      "mentorship": "Faculty and industry mentors"
+    },
+    
+    "placement_preparation": {
+      "training": [
+        "Aptitude training",
+        "Technical skill development",
+        "Resume building",
+        "Mock interviews",
+        "Soft skills training",
+        "Industry interaction"
+      ],
+      "placement_office_contact": {
+        "phone": "01881-232765",
+        "dean": "Dr. Pushpendra Pal Singh",
+        "email": "dean.caps@iitrpr.ac.in"
+      }
+    }
+  },
+  
+  "rankings": {
+    "word_count": "2000",
+    "nirf_rankings": {
+      "engineering": {
+        "2025": {"rank": 32, "score": 59.66},
+        "2024": {"rank": 22, "score": 61.56},
+        "2023": {"rank": 22, "score": 60.51},
+        "2022": {"rank": 22, "score": 59.16},
+        "2021": {"rank": 19, "score": 58.09},
+        "2020": {"rank": 25, "score": 55.95}
+      },
+      
+      "overall": {
+        "2025": 56
+      },
+      
+      "research_institutions": {
+        "2025": 47
+      },
+      
+      "ranking_parameters_2024": {
+        "tlr": 77.30,
+        "rpc": 46.40,
+        "go": 73.59,
+        "oi": 65.15,
+        "perception": 32.06
+      },
+      
+      "ranking_parameters_2023": {
+        "tlr": 77.27,
+        "rpc": 44.53,
+        "go": 71.06,
+        "oi": 64.93,
+        "perception": 32.70
+      },
+      
+      "parameter_definitions": {
+        "tlr": "Teaching, Learning & Resources - Quality of teaching, student-teacher ratio, learning resources",
+        "rpc": "Research and Professional Practice - Research output, patents, projects",
+        "go": "Graduation Outcomes - Placements, higher studies, median salary",
+        "oi": "Outreach and Inclusivity - Gender diversity, regional diversity, economically weaker sections",
+        "perception": "Perception of students, employers, and alumni"
+      }
+    },
+    
+    "international_rankings": {
+      "qs_2025": {
+        "southern_asia": 148,
+        "asia": "521-540"
+      },
+      
+      "times_higher_education_2020": {
+        "science": "501-600 (out of 801)"
+      }
+    },
+    
+    "comparative_analysis": {
+      "position_among_iits": "Middle tier among 23 IITs",
+      "among_2008_iits": "Strong performer",
+      "trajectory": "Fluctuating in recent years (rank 19 in 2021 to 32 in 2025)",
+      "note": "Dropped from 22 to 32 in 2025 NIRF Engineering rankings"
+    },
+    
+    "ranking_factors": {
+      "strengths": [
+        "Good Teaching, Learning & Resources (77.30 in 2024)",
+        "Strong Graduation Outcomes (73.59 in 2024)",
+        "Good Outreach and Inclusivity (65.15 in 2024)",
+        "Improving placement records",
+        "Growing research output",
+        "Modern infrastructure"
+      ],
+      
+      "areas_for_improvement": [
+        "Research and Professional Practice (46.40 in 2024 - needs improvement)",
+        "Perception score (32.06 in 2024 - needs significant improvement)",
+        "Increase high-impact research publications",
+        "Enhance industry-sponsored projects",
+        "Strengthen alumni engagement",
+        "Improve brand visibility"
+      ]
+    },
+    
+    "research_impact": {
+      "publications": "Growing output",
+      "patents": "Increasing filings",
+      "sponsored_projects": "Government and industry funded",
+      "international_collaborations": "Developing"
+    },
+    
+    "placement_impact_on_rankings": {
+      "btech_average": "₹22.09 LPA (2024)",
+      "pg_average": "₹11.96 LPA (2024)",
+      "highest_package": "₹55 LPA domestic, ₹2.05 crore international",
+      "contribution_to_go": "Strong graduation outcomes score (73.59)"
+    },
+    
+    "future_outlook": {
+      "targets": [
+        "Improve NIRF engineering rank back to top 20",
+        "Enhance research output and quality",
+        "Increase perception scores",
+        "Strengthen industry partnerships",
+        "Improve international rankings"
+      ],
+      
+      "competitive_advantages": [
+        "Riverside campus location",
+        "Growing infrastructure",
+        "Improving placement records",
+        "Diverse academic programs",
+        "Strategic location in Punjab"
+      ]
+    },
+    
+    "peer_comparison": {
+      "similar_age_iits_2008_batch": [
+        "IIT Gandhinagar",
+        "IIT Indore",
+        "IIT Mandi",
+        "IIT Hyderabad",
+        "IIT Jodhpur",
+        "IIT Patna",
+        "IIT Bhubaneswar"
+      ],
+      "relative_position": "Mid-tier among 2008 IITs"
+    },
+    
+    "citations": ["web:113", "web:116", "web:103"]
+  },
+  
+  "facilities": {
+    "word_count": "4000",
+    "campus_overview": {
+      "total_area": "525 acres",
+      "location": "Along banks of Sutlej River, Rupnagar",
+      "campus_type": "Fully residential",
+      "design": "Three independent blocks connected by skywalks",
+      "year_permanent_campus": "Operational from June 2018 (phased)",
+      "description": "Lush green campus with modern infrastructure"
+    },
+    
+    "academic_infrastructure": {
+      "main_building": {
+        "structure": "Three independent blocks connected via skywalks",
+        "features": [
+          "State-of-the-art classrooms",
+          "Modern teaching equipment",
+          "Smart classroom technology",
+          "WiFi-enabled entire campus",
+          "Comfortable seating",
+          "Audio-visual systems"
+        ]
+      },
+      
+      "laboratories": {
+        "types": [
+          "Computer labs with rapid internet connectivity",
+          "Upgraded systems",
+          "Department-specific labs",
+          "Research laboratories",
+          "Language Laboratory (HSS dept)",
+          "Language & Cognition Lab (HSS dept)"
+        ],
+        "equipment": "Modern and well-equipped",
+        "note": "Provide best learning environment"
+      },
+      
+      "library": {
+        "description": "Main information centre for research and training",
+        "collection": [
+          "Large number of books",
+          "Journals",
+          "Thesis collection",
+          "E-resource section",
+          "DVDs and CDs of dissertations",
+          "E-books and digital resources"
+        ],
+        "facilities": [
+          "Reading areas",
+          "Study spaces",
+          "Digital browsing facilities",
+          "Reference section"
+        ]
+      },
+      
+      "data_centre": {
+        "description": "Modern data centre for IT infrastructure",
+        "services": "Supports academic and administrative computing"
+      },
+      
+      "kendriya_vidyalaya": {
+        "description": "Central School on campus",
+        "purpose": "For children of faculty and staff"
+      }
+    },
+    
+    "residential_facilities": {
+      "hostels": {
+        "total": 4,
+        "boys_hostels": 3,
+        "boys_hostel_names": ["Mercury", "Jupiter", "Neptune"],
+        "girls_hostels": 1,
+        
+        "amenities": [
+          "Well-furnished rooms",
+          "Comfortable beds",
+          "RO water systems",
+          "Common rooms for games and recreation",
+          "Water coolers",
+          "Study areas",
+          "24/7 CCTV surveillance",
+          "Basic furniture"
+        ],
+        
+        "room_types": "Mostly double occupancy",
+        "description": "Comfortable stay with all basic facilities"
+      },
+      
+      "guest_house": {
+        "description": "Well-furnished guest house for visitors",
+        "purpose": "Accommodate guests, parents, and official visitors"
+      }
+    },
+    
+    "dining_facilities": {
+      "mess": {
+        "availability": "Hostel mess facilities",
+        "meal_types": "Vegetarian and non-vegetarian options",
+        "quality_note": "Food quality good at semester start, may decline toward end",
+        "description": "Provides daily meals to hostel residents"
+      },
+      
+      "note": "Limited food stalls/ice cream stalls on campus as per student feedback"
+    },
+    
+    "sports_recreation": {
+      "sports_complex": {
+        "description": "Huge sports complex with multiple facilities",
+        "outdoor_facilities": [
+          "Cricket ground",
+          "Football ground",
+          "Hockey ground",
+          "Badminton courts",
+          "Basketball courts",
+          "Tennis courts",
+          "Athletics facilities"
+        ],
+        
+        "indoor_facilities": [
+          "Table tennis",
+          "Other indoor games"
+        ],
+        
+        "gymnasium": {
+          "description": "Well-equipped modern gymnasium",
+          "equipment": "Latest fitness equipment",
+          "purpose": "Physical fitness and health goals"
+        }
+      },
+      
+      "events": [
+        "Sports festivals",
+        "Sports competitions",
+        "Hostel sports activities"
+      ]
+    },
+    
+    "medical_facilities": {
+      "medical_center": {
+        "staff": "Dedicated team of medical and paramedical staff",
+        "services": [
+          "Basic medical attention",
+          "Immediate care",
+          "Emergency services",
+          "Health consultations"
+        ],
+        "availability": "During working hours"
+      }
+    },
+    
+    "connectivity": {
+      "internet": {
+        "wifi": "Entire campus WiFi enabled",
+        "lan": "Available in hostels and labs",
+        "speed": "Rapid internet connectivity"
+      },
+      
+      "transportation": {
+        "location_access": "50 km from Chandigarh",
+        "connectivity": "Good rail and road connectivity"
+      }
+    },
+    
+    "security": {
+      "measures": [
+        "24/7 CCTV surveillance in hostels",
+        "Security personnel",
+        "Controlled access",
+        "Safe campus environment"
+      ]
+    },
+    
+    "sustainability_initiatives": {
+      "features": [
+        "Green spaces",
+        "Lush green campus (525 acres)",
+        "Riverside location",
+        "Environmental awareness"
+      ]
+    },
+    
+    "distinctive_features": {
+      "skywalks": "Three blocks connected via skywalks",
+      "riverside_location": "Along Sutlej River",
+      "campus_beauty": "Very beautiful and lively campus as per students",
+      "historical_significance": "Former World War II detention camp site"
+    },
+    
+    "facilities_summary": {
+      "academic": ["Modern classrooms", "Labs", "Library", "Data centre"],
+      "residential": ["4 hostels", "Guest house"],
+      "sports": ["Multiple grounds", "Gymnasium", "Indoor facilities"],
+      "healthcare": ["Medical center"],
+      "other": ["Kendriya Vidyalaya", "WiFi campus", "Security systems"]
+    },
+    
+    "citations": ["web:114", "web:117"]
+  },
+  
+  "faculty": {
+    "word_count": "6000",
+    "overview": {
+      "total_departments": "11+ academic departments",
+      "faculty_diversity": "From premier Indian and international institutions",
+      "research_focus": "Active research across engineering, sciences, and humanities",
+      "teaching_approach": "Combination of theory and practical learning"
+    },
+    
+    "departments_and_faculty": [
+      {
+        "name": "Computer Science and Engineering",
+        "head": "Prof. Nitin Auluck",
+        "contact": {
+          "phone": ["01881-232151", "01881-232162"],
+          "email": "hodcse@iitrpr.ac.in"
+        },
+        "research_areas": [
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Computer Vision",
+          "Software Engineering",
+          "Data Science",
+          "Computer Networks"
+        ],
+        "note": "HOD described as strict by students"
+      },
+      {
+        "name": "Electrical Engineering",
+        "head": "Prof. C. Chakradhar Reddy",
+        "contact": {
+          "phone": ["01881-232201", "01881-232210"],
+          "email": "hodelectrical@iitrpr.ac.in"
+        },
+        "research_areas": [
+          "Power Systems",
+          "Control Systems",
+          "Nanodielectrics for power applications",
+          "Power equipment modelling",
+          "Computer vision",
+          "Affective Computing",
+          "Deep Learning"
+        ],
+        "sample_faculty": [
+          {
+            "name": "Dr. Sai Kalyan Vipparthi",
+            "designation": "Associate Professor",
+            "qualifications": "Ph.D, M.Tech (Honors)",
+            "research": "Computer vision, Affective Computing, Deep Learning",
+            "email": "skvipparthi@iitrpr.ac.in",
+            "website": "https://skvipparthi.github.io/"
+          }
+        ]
+      },
+      {
+        "name": "Mechanical Engineering",
+        "head": "Prof. Navin Kumar",
+        "contact": {
+          "phone": ["01881-232351", "01881-232366"],
+          "email": "hodme@iitrpr.ac.in"
+        },
+        "research_areas": [
+          "Thermal Engineering",
+          "Manufacturing",
+          "Design",
+          "Robotics",
+          "Fluid Mechanics"
+        ]
+      },
+      {
+        "name": "Metallurgical & Materials Engineering",
+        "head": "Dr. Pratik K. Ray",
+        "contact": {
+          "phone": ["01881-232401", "01881-232405"],
+          "email": "hodmme@iitrpr.ac.in"
+        },
+        "research_areas": [
+          "Nanomaterials",
+          "Fracture mechanics",
+          "Biomaterials",
+          "In-situ deformation",
+          "High strength steels",
+          "Electron microscopy",
+          "High-temperature deformation",
+          "Grain growth",
+          "Ceramic and composite processing",
+          "Nanoindentation",
+          "Plasticity and fracture in extreme environments"
+        ],
+        "sample_faculty": [
+          {
+            "name": "Hariprasad Gopalan",
+            "designation": "Assistant Professor",
+            "qualifications": "PhD - IISc Bangalore",
+            "research": "High Temperature Deformation, Grain Growth, Ceramic and Composite Processing, Nanoindentation, Plasticity and Fracture"
+          },
+          {
+            "name": "Khushboo Rakha",
+            "designation": "Assistant Professor"
+          }
+        ]
+      },
+      {
+        "name": "Civil Engineering",
+        "head": "Dr. Sagar Rohidas Chavan",
+        "contact": {
+          "phone": "01881-232124",
+          "email": "hodce@iitrpr.ac.in"
+        },
+        "research_areas": [
+          "Structural Engineering",
+          "Geotechnical Engineering",
+          "Transportation Engineering",
+          "Water Resources",
+          "Environmental Engineering"
+        ]
+      },
+      {
+        "name": "Chemical Engineering",
+        "head": "Dr. Navin Gopinathan",
+        "contact": {
+          "phone": "01881-234020",
+          "email": "hodchemengg@iitrpr.ac.in"
+        },
+        "research_areas": [
+          "Process Engineering",
+          "Reaction Engineering",
+          "Separation Processes",
+          "Transport Phenomena"
+        ]
+      },
+      {
+        "name": "Biomedical Engineering",
+        "head": "Dr. Athrava Poundarik",
+        "contact": {
+          "phone": "01881-232513",
+          "email": "hodcbme@iitrpr.ac.in"
+        },
+        "research_areas": [
+          "Molecular understanding in disease biology (Type 2 Diabetes and Cancer)",
+          "Therapeutics",
+          "Electrochemical biosensors",
+          "Wound healing",
+          "Micro-fabrication",
+          "Portable devices for medical diagnosis",
+          "BioFETs and OECTs"
+        ],
+        "sample_faculty": [
+          {
+            "name": "Dr. Durba Pal",
+            "designation": "Associate Professor, DBME",
+            "office": "Room No 119, SS Bhatnagar Block",
+            "phone": "01881-232506",
+            "email": "durba.pal@iitrpr.ac.in",
+            "research": "Molecular understanding in disease biology: Type 2 Diabetes and Cancer; Therapeutics; Electrochemical biosensors; Wound healing"
+          }
+        ]
+      },
+      {
+        "name": "Physics",
+        "head": "Dr. Kailash Chandra Jena",
+        "contact": {
+          "phone": ["01881-232478", "01881-232476"],
+          "email": "hodphysics@iitrpr.ac.in"
+        },
+        "research_areas": [
+          "Quantum Information theory",
+          "Quantum thermodynamics",
+          "Condensed Matter Physics",
+          "Optics and Photonics"
+        ],
+        "sample_faculty": [
+          {
+            "name": "Dr. Asoka Biswas",
+            "designation": "Associate Professor",
+            "research": "Quantum Information theory, quantum thermodynamics",
+            "email": "abiswas@iitrpr.ac.in",
+            "phone": "+91-1881-232466"
+          }
+        ]
+      },
+      {
+        "name": "Chemistry",
+        "head": "Dr. Debaprasad Mandal",
+        "contact": {
+          "phone": "01881-232051",
+          "email": "hodchemistry@iitrpr.ac.in"
+        },
+        "research_areas": [
+          "Organic Chemistry",
+          "Inorganic Chemistry",
+          "Physical Chemistry",
+          "Materials Chemistry"
+        ]
+      },
+      {
+        "name": "Mathematics",
+        "head": "Prof. Jitendra Kumar",
+        "contact": {
+          "phone": "01881-232331",
+          "email": "hodmath@iitrpr.ac.in"
+        },
+        "research_areas": [
+          "Applied Mathematics",
+          "Computational Mathematics",
+          "Operations Research",
+          "Numerical Analysis"
+        ]
+      },
+      {
+        "name": "Humanities and Social Sciences",
+        "head": "Dr. Amritesh",
+        "contact": {
+          "phone": ["01881-232251", "01881-232270"],
+          "email": "hodhss@iitrpr.ac.in"
+        },
+        "programs": [
+          "Economics",
+          "English",
+          "Linguistics",
+          "Management",
+          "Philosophy"
+        ],
+        "description": "Offers core and elective courses across various undergraduate streams to acquaint technical students with basics of human behavior and society",
+        "facilities": [
+          "Well-equipped Language Laboratory",
+          "Language & Cognition Lab"
+        ],
+        "faculty_members": [
+          "Dr. Amritesh",
+          "Dr. Aparna Nandha",
+          "Dr. Bhavesh Garg",
+          "Dr. Dibyakusum Ray",
+          "Dr. Kamal Kumar Choudhary"
+        ]
+      }
+    ],
+    
+    "administrative_leadership": {
+      "director": {
+        "name": "Prof. Rajeev Ahuja",
+        "contact": {
+          "phone": "01881-231006",
+          "email": "director@iitrpr.ac.in, rajeev.ahuja@iitrpr.ac.in"
+        }
+      },
+      
+      "deans": [
+        {
+          "position": "Dean (Faculty Affairs and Administration)",
+          "name": "Dr. Rajesh V Nair",
+          "phone": "01881-231025",
+          "email": "deanfaa@iitrpr.ac.in"
+        },
+        {
+          "position": "Dean (Research and Development)",
+          "name": "Prof. Jitendra Kumar",
+          "phone": "01881-231035",
+          "email": "dean.rnd@iitrpr.ac.in"
+        },
+        {
+          "position": "Dean (Student Affairs)",
+          "name": "Dr. Arun Kumar",
+          "phone": "01881-231066",
+          "email": "deansa@iitrpr.ac.in"
+        },
+        {
+          "position": "Dean (Post Graduate & Research)",
+          "name": "Prof. Rajendra Srivastava",
+          "phone": "01881-231055",
+          "email": "deanpg@iitrpr.ac.in"
+        },
+        {
+          "position": "Dean (Under Graduate Studies)",
+          "name": "Dr. Sachin Kumar",
+          "phone": "01881-231015",
+          "email": "deanug@iitrpr.ac.in"
+        },
+        {
+          "position": "Dean (International Relations)",
+          "name": "Dr. Neha Sardana",
+          "phone": "01881-232304",
+          "email": "deanir@iitrpr.ac.in"
+        },
+        {
+          "position": "Dean (Corporate, Alumni, Placement & Strategies)",
+          "name": "Dr. Pushpendra Pal Singh",
+          "phone": "01881-232481",
+          "email": "dean.caps@iitrpr.ac.in"
+        }
+      ],
+      
+      "associate_deans": [
+        {
+          "position": "Associate Dean (Continuing Education and Outreach)",
+          "name": "Dr. Sarang Gumfekar",
+          "phone": "01881-231016",
+          "email": "deanceoa@iitrpr.ac.in"
+        },
+        {
+          "position": "Associate Dean (Hostel Management)",
+          "name": "Dr. Pardeep Duhan",
+          "phone": "01881-231181",
+          "email": "ad.hm@iitrpr.ac.in"
+        },
+        {
+          "position": "Associate Dean (Infrastructure)",
+          "name": "Dr. Muthulingam Subramaniyan",
+          "phone": "01881-231110",
+          "email": "ad.infra@iitrpr.ac.in"
+        }
+      ],
+      
+      "registrar": {
+        "name": "Dr. Dinesh K.S.",
+        "designation": "Officiating Registrar",
+        "phone": "01881-231101",
+        "email": "registrar@iitrpr.ac.in"
+      }
+    },
+    
+    "faculty_achievements": {
+      "research_output": "Publications in reputed journals",
+      "patents": "Patent filings and grants",
+      "funded_projects": "Government and industry sponsored research",
+      "international_collaborations": "Research partnerships globally"
+    },
+    
+    "teaching_methodology": {
+      "approach": [
+        "Interactive lectures",
+        "Hands-on laboratory work",
+        "Project-based learning",
+        "Industry internships",
+        "Research guidance"
+      ],
+      "innovation": [
+        "Modern teaching equipment",
+        "Smart classrooms",
+        "Online resources",
+        "Experiential learning"
+      ]
+    },
+    
+    "student_feedback": {
+      "cse_hod_note": "CSE HOD described as strict and somewhat sadistic by students",
+      "general_note": "Some very good CS professors despite HOD concerns",
+      "overall": "Mix of faculty quality across departments"
+    },
+    
+    "citations": ["web:118", "web:119", "web:120", "web:121", "web:122", "web:124", "web:125", "web:126"]
+  },
+  
+  "reviews": {
+    "word_count": "2000",
+    "overall_rating": "Positive to Mixed",
+    "student_testimonials": {
+      "campus_life": {
+        "rating": "Very Good",
+        "positive_comments": [
+          "Campus life is very good with students from different regions of India",
+          "Many clubs for photography, dance, coding, singing, eSports",
+          "Extracurricular activities like bhangra sessions, dandiya night",
+          "Cultural fests, tech fests, sports fests well organized",
+          "Great celebrations for festivals like Ganesh Chaturthi, Basant Panchami, Diwali, Holi",
+          "Campus is very beautiful and lively",
+          "Hostel life is very sexy, interesting and memorable if you make homies"
+        ],
+        "areas_for_improvement": [
+          "Lacks good food stalls or ice cream stalls",
+          "Mess food quality declines toward semester end"
+        ]
+      },
+      
+      "hostel_experience": {
+        "positive":
+
+[1](https://www.vidyamandir.com/think-iit-think-vmc/iit-ropar.html)
+[2](https://www.iitrpr.ac.in/about-iit-ropar)
+[3](https://en.wikipedia.org/wiki/IIT_Ropar)
+[4](https://www.santoshacademia.com/IIT-Ropar)
+[5](https://blog.gurukripa.ac.in/blog/Know-about-Your-Dream-IITs-Including-their-History-Establishment-and-the-Timeline-of-their-Transformation-into-IITs)
+[6](https://collegedunia.com/university/25786-iit-ropar-indian-institute-of-technology-iitr-ropar/phd-full-time)
+[7](https://www.shiksha.com/college/iit-ropar-indian-institute-of-technology-32693/cutoff)
+[8](https://www.shortcoursesportal.com/universities/20625/indian-institute-of-technology-ropar.html)
+[9](https://www.aakash.ac.in/blog/iit-ropar-admission-cutoff-ranking-fees/)
+[10](https://engineering.careers360.com/articles/how-many-marks-required-for-iit-ropar-in-jee-advanced)
+[11](https://www.shiksha.com/college/iit-ropar-indian-institute-of-technology-32693/placement)
+[12](https://collegedunia.com/university/25786-iit-ropar-indian-institute-of-technology-iitr-ropar/placement)
+[13](https://www.vedantu.com/jee-advanced/iit-ropar-highest-package-and-placement)
+[14](https://www.collegepravesh.com/engineering-colleges/iit-ropar/)
+[15](https://www.careers360.com/university/indian-institute-of-technology-ropar/placement)
+[16](https://engineering.careers360.com/articles/iit-ropar-nirf-ranking)
+[17](https://www.shiksha.com/college/iit-ropar-indian-institute-of-technology-32693/infrastructure)
+[18](https://www.collegedekho.com/colleges/iit-ropar-placement)
+[19](https://www.shiksha.com/college/iit-ropar-indian-institute-of-technology-32693)
+[20](https://www.careers360.com/university/indian-institute-of-technology-ropar/facilities)
+[21](https://www.iitrpr.ac.in/physics/p/faculty)
+[22](https://mme.iitrpr.ac.in/people/faculty)
+[23](https://www.iitrpr.ac.in/departments)
+[24](https://www.iitrpr.ac.in/hss/faculty)
+[25](https://iitrpr.ac.in/cbme/faculty/)
+[26](https://www.collegebatch.com/reviews/32565-institute-of-engineering-and-technology-ropar)
+[27](https://www.indiacustomercare.com/iit-ropar-customer-care-no)
+[28](https://www.iitrpr.ac.in/ee/faculty.php)
+[29](https://www.reddit.com/r/JEENEETards/comments/1crkvmk/just_finished_my_first_year_at_iit_ropar_ama/)
+[30](https://iitrpr.ac.in/oir/contact-us/)

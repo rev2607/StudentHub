@@ -548,36 +548,6 @@ const NITTrichyPage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">About {collegeData.Name}</h3>
         <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
         
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <p className="text-gray-700 mb-3">
-            <strong>NIT Trichy Courses are offered at UG, PG, Doctorate level. There are 129 courses offered at NIT Trichy.</strong> The institute offers programs in Architecture, Engineering, Science, Management disciplines. Available degrees include B.Tech, M.Tech, Ph.D, B.Arch, M.Sc, MBA, M.Arch, BS + MS, B.Tech + M.Tech, Executive MBA. Popular courses are B.Tech, M.Tech, Ph.D.
-          </p>
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>NIT Trichy Fees 2025-2026 range from ₹44,000 to ₹8.66 Lakhs across all offered courses.</strong> UG Fees: ₹9.2 Lakhs for B.Tech (4 years), PG Fees: ₹1.334 Lakhs to ₹8.66 Lakhs</li>
-            <li>• <strong>NIT Trichy B.Tech Fees is ₹9.2 Lakhs for the entire 4 years duration.</strong> Popular specializations: Computer Science & Engineering, Electrical Engineering, Mechanical Engineering.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• NIT Trichy B.Tech total program fee: ₹9.2 Lakhs. First year fee: ₹2.3 Lakhs.</li>
-                <li>• B.Tech CSE is one of the most competitive programs with AIR 66 cutoff.</li>
-              </ul>
-            </li>
-            <li>• <strong>NIT Trichy M.Tech Fees is ₹1.334 Lakhs for the entire 2 years duration.</strong> Popular specializations: Computer Science And Engineering, Data Science, AI & Machine Learning.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• NIT Trichy M.Tech annual fee: ₹66,700</li>
-                <li>• 50+ M.Tech specializations available across various departments</li>
-              </ul>
-            </li>
-            <li>• <strong>NIT Trichy Ph.D Fees is ₹1.32 Lakhs for 3 years duration.</strong> Popular specializations: All engineering, science, and management departments.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• Ph.D fee: ₹44,000 per year (₹1.32 Lakhs for 3 years)</li>
-                <li>• Over 1200+ Ph.D students enrolled across 50 programs</li>
-              </ul>
-            </li>
-            <li>• <strong>NIT Trichy offers MBA through SJMSOM with total fee of ₹8.66 Lakhs (₹4.33 Lakhs per year).</strong> Admission through CAT examination.</li>
-            <li>• <strong>NIT Trichy Hostel & Mess Fee is approximately ₹39,400 per semester.</strong></li>
-          </ul>
-        </div>
-        
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Established" value={collegeData.Established.Year} />
           <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2025.Overall} />
@@ -598,17 +568,6 @@ const NITTrichyPage: React.FC = () => {
       {/* Academic Programs Overview */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
-        
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>NIT Trichy offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and design disciplines.</strong> The institute maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
-            <li>• <strong>Undergraduate Programs:</strong> B.Tech (1200 seats, ₹2.3L/year), Dual Degree programs available, B.Des (15 seats, ₹2.3L/year). All programs require competitive entrance examinations with JEE Advanced for B.Tech and UCEED for B.Des.</li>
-            <li>• <strong>Postgraduate Programs:</strong> M.Tech (50 specializations, ₹66,700/year), MBA (120 seats, ₹4.33L/year), M.Sc (200 seats across 4 disciplines, ₹78,600/year). Admission through GATE, CAT, and IIT JAM examinations respectively.</li>
-            <li>• <strong>Doctoral Programs:</strong> PhD (50 programs, 1200+ seats, ₹44,000/year). Duration typically 3-5 years with research focus areas including AI, machine learning, sustainable energy, healthcare informatics, and electric mobility.</li>
-            <li>• <strong>Hostel & Accommodation:</strong> 18 hostels with modern amenities including Wi-Fi, study rooms, mess halls, recreation areas, and water purifiers. Hostel & mess fees approximately ₹39,400 per semester.</li>
-          </ul>
-        </div>
         
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-4 bg-gray-50">
@@ -2874,7 +2833,7 @@ const NITTrichyPage: React.FC = () => {
             <Download className="w-5 h-5 mr-2" />
             Download Brochure
           </button>
-          <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             <Mail className="w-5 h-5 mr-2" />
             Apply Now
           </button>
@@ -2987,7 +2946,7 @@ const NITTrichyPage: React.FC = () => {
                 <Download className="w-5 h-5 mr-2" />
                 Download Brochure
               </button>
-              <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                 <Mail className="w-5 h-5 mr-2" />
                 Apply Now
               </button>
@@ -3122,5 +3081,10 @@ const NITTrichyPage: React.FC = () => {
     </div>
   );
 };
+
+  const openApplyForm = () => {
+    setIsLeadModalOpen(true);
+    try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'apply_now_click', page: 'nit_trichy' } })); } catch {}
+  };
 
 export default NITTrichyPage;

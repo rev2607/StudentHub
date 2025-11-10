@@ -549,36 +549,6 @@ const BITSPilaniPage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">About {collegeData.Name}</h3>
         <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
         
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <p className="text-gray-700 mb-3">
-            <strong>BITS Pilani offers over 150 academic programs across undergraduate, postgraduate, and doctoral levels.</strong> The university offers programs in Engineering, Sciences, Pharmacy, Management, and Humanities disciplines. Available degrees include B.E./B.Tech, M.Tech/M.E., Ph.D, B.Pharm, M.Pharm, M.Sc, MBA, M.Sc (Hons.) + B.E. (Hons.) Integrated programs. Popular courses are B.Tech, M.Tech, Ph.D.
-          </p>
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>BITS Pilani Fees 2025-2026 is ₹78,570 - 61.49 Lakhs across all offered courses.</strong> UG Fees: ₹19-22 Lakhs (total tuition for 4 years), PG Fees: ₹2.42 L to ₹10.38 Lakhs</li>
-            <li>• <strong>BITS Pilani B.Tech/B.E. Fees is ₹19-22 Lakhs for the entire 4 years duration.</strong> Popular specializations: Computer Science and Engineering, Electronics and Communication Engineering, Electrical and Electronics Engineering.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• BITS Pilani B.Tech CSE Fees is approximately ₹5 Lakhs per year (₹19-22 Lakhs total).</li>
-                <li>• BITS Pilani B.Tech ECE Fees is approximately ₹5 Lakhs per year (₹19-22 Lakhs total).</li>
-              </ul>
-            </li>
-            <li>• <strong>BITS Pilani M.Tech/M.E. Fees is ₹2.42 L to ₹10.38 Lakhs for the entire 2 years duration.</strong> Popular specializations: Software Engineering, VLSI Design, Communication Engineering.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• BITS Pilani M.Tech fees vary by specialization, typically ₹1.2-5 Lakhs per year.</li>
-                <li>• Hostel and mess fees: ₹90,000-1,10,000 per year additional.</li>
-              </ul>
-            </li>
-            <li>• <strong>BITS Pilani Ph.D Fees is nominal with fellowship support available.</strong> Research programs across all departments.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• Ph.D candidates typically receive monthly fellowship/stipend.</li>
-                <li>• Fees are significantly lower than taught programs.</li>
-              </ul>
-            </li>
-            <li>• <strong>BITS Pilani also offers integrated dual degree programs (M.Sc + B.E.) lasting 5 years.</strong> Popular integrated program combines M.Sc in Sciences with B.E. in Engineering, total fees approximately ₹25-28 Lakhs.</li>
-            <li>• <strong>BITS Pilani Hostel Fee is ₹90,000 to ₹1,10,000 per year (includes hostel and mess charges, separate from tuition).</strong></li>
-          </ul>
-        </div>
-        
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Established" value={collegeData.Established.Year} />
           <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2025.Overall} />
@@ -599,17 +569,6 @@ const BITSPilaniPage: React.FC = () => {
       {/* Academic Programs Overview */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
-        
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>BITS Pilani offers over 150 academic programs across undergraduate, postgraduate, and doctoral levels in engineering, sciences, pharmacy, management, and humanities.</strong> The university maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
-            <li>• <strong>Undergraduate Programs:</strong> B.Tech/B.E. (2,500 seats across campuses, ₹19-22L for 4 years), B.Pharm (₹19-22L for 4 years), M.Sc (Hons.) + B.E. (Hons.) Integrated (5-year dual degree, ₹25-28L). All programs require BITSAT for admission.</li>
-            <li>• <strong>Postgraduate Programs:</strong> M.Tech/M.E. (68 specializations, ₹2.42-10.38L for 2 years), MBA (500 seats, ₹2.67-10.38L for 2 years), M.Sc (200 seats across 6 disciplines, ₹2.67-20.76L for 2 years). Admission through GATE, CAT/MAT/XAT, and BITS entrance examinations.</li>
-            <li>• <strong>Doctoral Programs:</strong> PhD (27 programs, 836+ seats). Duration typically 3-5 years with research focus areas including Engineering Technologies, Biotechnology, Computer Science, and Management Sciences.</li>
-            <li>• <strong>Hostel & Accommodation:</strong> 14 hostels (Pilani campus) with modern amenities including Wi-Fi, LAN connectivity, fully furnished rooms, solar water heating, mess halls, and recreation areas. Hostel and mess fees range from ₹90,000 to ₹1,10,000 annually (separate from tuition).</li>
-          </ul>
-        </div>
         
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-4 bg-gray-50">
@@ -2877,7 +2836,7 @@ const BITSPilaniPage: React.FC = () => {
             <Download className="w-5 h-5 mr-2" />
             Download Brochure
           </button>
-          <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             <Mail className="w-5 h-5 mr-2" />
             Apply Now
           </button>
@@ -2990,7 +2949,7 @@ const BITSPilaniPage: React.FC = () => {
                 <Download className="w-5 h-5 mr-2" />
                 Download Brochure
               </button>
-              <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                 <Mail className="w-5 h-5 mr-2" />
                 Apply Now
               </button>
@@ -3125,5 +3084,10 @@ const BITSPilaniPage: React.FC = () => {
     </div>
   );
 };
+
+  const openApplyForm = () => {
+    setIsLeadModalOpen(true);
+    try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'apply_now_click', page: 'bits_pilani' } })); } catch {}
+  };
 
 export default BITSPilaniPage;

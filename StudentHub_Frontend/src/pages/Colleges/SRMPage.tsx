@@ -546,27 +546,6 @@ const SRMPage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">About {collegeData.Name}</h3>
         <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
         
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <p className="text-gray-700 mb-3">
-            <strong>SRMIST Courses are offered at UG, PG, Doctorate level. SRMIST offers 43 B.Tech specializations along with medical, management, sciences, law, and humanities programs.</strong> The institute offers programs in Engineering, Medicine, Management, Science, Law, and other disciplines. Available degrees include B.Tech, M.Tech, Ph.D, B.Arch, M.Sc, MBA, MBBS, BDS, BBA, B.A.LLB. Popular courses are B.Tech (CSE, AI/ML, Data Science), M.Tech, MBA, Ph.D.
-          </p>
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>SRMIST Fees 2025-2026 ranges from ₹11 Lakhs to ₹23.85 Lakhs for B.Tech (4 years) depending on specialization category.</strong> UG Fees: ₹11-19.1 Lakhs, PG Fees: ₹1.5-8 Lakhs, Hostel: ₹1.13-3.15 Lakhs per year</li>
-            <li>• <strong>SRMIST B.Tech Fees ranges from ₹11 Lakhs to ₹19.1 Lakhs for the entire 4 years duration.</strong> Popular specializations:
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• Traditional branches (Civil, Mechanical, EEE, Chemical): ₹11-11.1 Lakhs</li>
-                <li>• IT/Software branches (IT, AI, Cloud, Cyber Security): ₹15-17.1 Lakhs</li>
-                <li>• Premium CSE (Data Science, AI/ML): ₹19.1 Lakhs</li>
-              </ul>
-            </li>
-            <li>• <strong>SRMIST M.Tech Fees is ₹1.5-3 Lakhs for the entire 2 years duration.</strong> Popular specializations: Computer Science And Engineering, Data Science, various engineering disciplines.</li>
-            <li>• <strong>SRMIST MBA Fees is approximately ₹5-8 Lakhs for the entire 2 years duration.</strong> Admission through CAT, MAT, GMAT with interview and GD.</li>
-            <li>• <strong>SRMIST Ph.D Fees is ₹50,000 per year.</strong> Research programs available across 25+ disciplines.</li>
-            <li>• <strong>SRMIST Hostel Fee is ₹1.13 Lakhs to ₹3.15 Lakhs per year</strong> depending on accommodation type (AC/Non-AC, sharing). Mess charges additional ₹40,000-60,000 per year.</li>
-          </ul>
-        </div>
-        
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Established" value={collegeData.Established.Year} />
           <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2025.Overall} />
@@ -587,17 +566,6 @@ const SRMPage: React.FC = () => {
       {/* Academic Programs Overview */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
-        
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>SRMIST offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and design disciplines.</strong> The institute maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
-            <li>• <strong>Undergraduate Programs:</strong> B.Tech (1100 seats, ₹2.3L/year), B.Arch (37 seats, ₹2.3L/year), B.Des (20 seats, ₹36,100/year). All programs require competitive entrance examinations with JEE Advanced for B.Tech/B.Arch and UCEED for B.Des.</li>
-            <li>• <strong>Postgraduate Programs:</strong> M.Tech (47 specializations, ₹40,000/year), MBA (95 seats, ₹2.3L/year), M.Sc (194 seats across 5 disciplines, ₹36,100/year). Admission through GATE, CAT, and JAM examinations respectively.</li>
-            <li>• <strong>Doctoral Programs:</strong> PhD (27 programs, 900+ seats, ₹38,100/year). Duration typically 3-5 years with research focus areas including AI, clean energy, quantum computing, and disaster management.</li>
-            <li>• <strong>Hostel & Accommodation:</strong> 20 hostels with modern amenities including Wi-Fi, study rooms, mess halls, and recreation areas. Hostel fees range from ₹68,000 to ₹99,000 annually (excluding mess charges).</li>
-          </ul>
-        </div>
         
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-4 bg-gray-50">
@@ -2864,7 +2832,7 @@ const SRMPage: React.FC = () => {
             <Download className="w-5 h-5 mr-2" />
             Download Brochure
           </button>
-          <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             <Mail className="w-5 h-5 mr-2" />
             Apply Now
           </button>
@@ -2977,7 +2945,7 @@ const SRMPage: React.FC = () => {
                 <Download className="w-5 h-5 mr-2" />
                 Download Brochure
               </button>
-              <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                 <Mail className="w-5 h-5 mr-2" />
                 Apply Now
               </button>
@@ -3104,5 +3072,10 @@ const SRMPage: React.FC = () => {
     </div>
   );
 };
+
+  const openApplyForm = () => {
+    setIsLeadModalOpen(true);
+    try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'apply_now_click', page: 'srm' } })); } catch {}
+  };
 
 export default SRMPage;

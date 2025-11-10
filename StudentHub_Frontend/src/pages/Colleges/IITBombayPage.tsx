@@ -558,36 +558,6 @@ const IITBombayPage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">About {collegeData.Name}</h3>
         <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
         
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <p className="text-gray-700 mb-3">
-            <strong>IIT Bombay Courses are offered at UG, PG, Doctorate level. There are 129 courses offered at IIT Bombay.</strong> The institute offers programs in Architecture, Engineering, Science, Management disciplines. Available degrees include B.Tech, M.Tech, Ph.D, B.Arch, M.Sc, MBA, M.Arch, BS + MS, B.Tech + M.Tech, Executive MBA. Popular courses are B.Tech, M.Tech, Ph.D.
-          </p>
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>IIT Bombay Fees 2025-2026 range from ₹44,000 to ₹8.66 Lakhs across all offered courses.</strong> UG Fees: ₹9.2 Lakhs for B.Tech (4 years), PG Fees: ₹1.334 Lakhs to ₹8.66 Lakhs</li>
-            <li>• <strong>IIT Bombay B.Tech Fees is ₹9.2 Lakhs for the entire 4 years duration.</strong> Popular specializations: Computer Science & Engineering, Electrical Engineering, Mechanical Engineering.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• IIT Bombay B.Tech total program fee: ₹9.2 Lakhs. First year fee: ₹2.3 Lakhs.</li>
-                <li>• B.Tech CSE is one of the most competitive programs with AIR 66 cutoff.</li>
-              </ul>
-            </li>
-            <li>• <strong>IIT Bombay M.Tech Fees is ₹1.334 Lakhs for the entire 2 years duration.</strong> Popular specializations: Computer Science And Engineering, Data Science, AI & Machine Learning.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• IIT Bombay M.Tech annual fee: ₹66,700</li>
-                <li>• 50+ M.Tech specializations available across various departments</li>
-              </ul>
-            </li>
-            <li>• <strong>IIT Bombay Ph.D Fees is ₹1.32 Lakhs for 3 years duration.</strong> Popular specializations: All engineering, science, and management departments.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• Ph.D fee: ₹44,000 per year (₹1.32 Lakhs for 3 years)</li>
-                <li>• Over 1200+ Ph.D students enrolled across 50 programs</li>
-              </ul>
-            </li>
-            <li>• <strong>IIT Bombay offers MBA through SJMSOM with total fee of ₹8.66 Lakhs (₹4.33 Lakhs per year).</strong> Admission through CAT examination.</li>
-            <li>• <strong>IIT Bombay Hostel & Mess Fee is approximately ₹39,400 per semester.</strong></li>
-          </ul>
-        </div>
-        
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Established" value={collegeData.Established.Year} />
           <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2025.Overall} />

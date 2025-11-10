@@ -545,36 +545,6 @@ const VitVellorePage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">About {collegeData.Name}</h3>
         <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
         
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <p className="text-gray-700 mb-3">
-            <strong>VIT Vellore Courses are offered at UG, PG, Doctorate level. There are 15 undergraduate programs, 30 postgraduate programs, and doctoral programs offered at VIT Vellore.</strong> The institute offers programs in Architecture, Engineering, Science, Management disciplines. Available degrees include B.Tech, M.Tech, Ph.D, B.Arch, M.Sc, MBA, M.Arch, Integrated M.Sc. Popular courses are B.Tech, M.Tech, Ph.D.
-          </p>
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>VIT Vellore Fees 2025-2026 is ₹1.73 Lakhs - 7.80 Lakhs across all offered courses.</strong> UG Fees: ₹6.92 Lakhs - 7.80 Lakhs, PG Fees: Varies by program</li>
-            <li>• <strong>VIT Vellore B.Tech Fees is ₹6.92 Lakhs - 7.80 Lakhs for the entire 4 years duration.</strong> Popular specializations: Computer Science and Engineering, Electronics and Communication Engineering, Mechanical Engineering.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• VIT Vellore B.Tech (Group A) Fees is ₹6.92 Lakhs for 4 years.</li>
-                <li>• VIT Vellore B.Tech CSE (Group B) Fees is ₹7.80 Lakhs for 4 years.</li>
-              </ul>
-            </li>
-            <li>• <strong>VIT Vellore M.Tech Fees varies by specialization for the entire 2 years duration.</strong> Popular specializations: Computer Science And Engineering, Data Science, VLSI Design.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• VIT Vellore M.Tech Computer Science And Engineering fees available on official website.</li>
-                <li>• VIT Vellore M.Tech Data Science fees available on official website.</li>
-              </ul>
-            </li>
-            <li>• <strong>VIT Vellore Ph.D Fees are nominal for research scholars.</strong> Popular specializations: All engineering, sciences, and management disciplines.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• VIT Vellore Ph.D fees are nominal with fellowship support available.</li>
-                <li>• VIT Vellore Ph.D programs available across all disciplines.</li>
-              </ul>
-            </li>
-            <li>• <strong>VIT Vellore offers integrated programs and various specializations.</strong> Popular programs include B.Tech with specializations in AI, Data Science, Cyber Security.</li>
-            <li>• <strong>VIT Vellore Hostel Fee is ₹50,000 to 80,000 per year (varies by accommodation type).</strong></li>
-          </ul>
-        </div>
-        
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Established" value={collegeData.Established.Year} />
           <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2025.Overall} />
@@ -595,17 +565,6 @@ const VitVellorePage: React.FC = () => {
       {/* Academic Programs Overview */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
-        
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>VIT Vellore offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and architecture disciplines.</strong> The institute is known for its Fully Flexible Credit System (FFCS), modern facilities, and strong industry connections.</li>
-            <li>• <strong>Undergraduate Programs:</strong> B.Tech (3000+ seats, ₹1.73L-1.95L/year), B.Arch (5 years, ₹1.73L/year). All programs require competitive entrance examinations with VITEEE for B.Tech and NATA for B.Arch.</li>
-            <li>• <strong>Postgraduate Programs:</strong> M.Tech (30+ specializations), MBA, M.Sc programs. Admission through GATE, CAT/MAT/XAT/NMAT, and VIT entrance test respectively.</li>
-            <li>• <strong>Doctoral Programs:</strong> PhD (13 research centers, nominal fees). Duration typically 3-5 years with research focus areas including AI, data science, cybersecurity, VLSI, and biotechnology.</li>
-            <li>• <strong>Hostel & Accommodation:</strong> 24 hostels accommodating 21,936 students with modern amenities including Wi-Fi, AC/Non-AC options, mess facilities, and recreation areas. Hostel fees range from ₹50,000 to ₹80,000 annually (varies by accommodation type).</li>
-          </ul>
-        </div>
         
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-4 bg-gray-50">
@@ -2863,7 +2822,7 @@ const VitVellorePage: React.FC = () => {
             <Download className="w-5 h-5 mr-2" />
             Download Brochure
           </button>
-          <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             <Mail className="w-5 h-5 mr-2" />
             Apply Now
           </button>
@@ -2978,7 +2937,7 @@ const VitVellorePage: React.FC = () => {
                 <Download className="w-5 h-5 mr-2" />
                 Download Brochure
               </button>
-              <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                 <Mail className="w-5 h-5 mr-2" />
                 Apply Now
               </button>
@@ -3113,5 +3072,10 @@ const VitVellorePage: React.FC = () => {
     </div>
   );
 };
+
+  const openApplyForm = () => {
+    setIsLeadModalOpen(true);
+    try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'apply_now_click', page: 'vit_vellore' } })); } catch {}
+  };
 
 export default VitVellorePage;

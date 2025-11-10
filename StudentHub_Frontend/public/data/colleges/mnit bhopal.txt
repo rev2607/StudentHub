@@ -1,0 +1,256 @@
+{
+  "College Name": "MANIT Bhopal",
+  "Overview": {
+    "Introduction": "Maulana Azad National Institute of Technology (MANIT) Bhopal, established in 1960, is a prestigious technical institute designated as an 'Institute of National Importance' located in Bhopal, Madhya Pradesh. The campus covers 650 acres and is home to more than 5,000 students. With nearly 60 years of legacy, MANIT Bhopal is known for its excellence in engineering, architecture, science, and management education. Its multidisciplinary departments provide a dynamic academic and research-oriented environment.",[1][2][3]
+    "Historical Narrative": "Initially established as one of the first eight Regional Engineering Colleges, MANIT gained autonomy and deemed university status. Its journey includes a robust alumni network, advanced campus expansion, implementation of smart technologies, and continual academic upgrades.",[3][4]
+    "Vision and Mission": "MANIT’s mission is to create future-ready technologists, managers, and architects, focusing on research, innovation, interdisciplinarity, and social impact. It emphasizes holistic growth, technical competence, and industry readiness.",[2][3]
+    "Academic Structure": "The institute encompasses departments such as Civil, Computer Science, Electrical, Electronics & Communication, Mechanical, Metallurgical, Chemical, Architecture, Humanities, and Management. Academic offerings include B.Tech, B.Arch, M.Tech, MBA, MCA, M.Sc, and Ph.D programs. Curriculum stresses on hands-on training, research, industry internships, and advanced electives.",[3]
+    "Student Life": "Campus life is rich with extracurriculars—students participate in cultural, technical, sports, and innovation clubs. Events like 'Manitotsav' and workshops offer experiential learning and vibrant community interaction.",[4]
+    "Diversity": "The campus brings together students and staff from all regions of India and abroad, supporting inclusivity and broad perspectives.",[4][3]
+    "Research and Innovation": "MANIT is celebrated for its research centers, funded projects, patent filings, and tech transfer efforts. Advanced labs support student-driven innovation.",[3]
+    "Community Engagement": "Outreach programs, social initiatives, and technical consultancies for regional and national agencies form a core part of MANIT’s contribution.",
+    "Governance": "Administrative boards, a director, and academic senates coordinate governance—ensuring smooth academic, financial, and welfare processes.",
+    "Unique Features": [
+      "Vast, green residential campus (650 acres)",
+      "Central library and digital resource center",
+      "Modern workshops and research facilities",
+      "Strong alumni and industry network",
+      "Advanced training and placement infrastructure"
+    ],
+    "Narrative Flow": [
+      "Origins, legacy, and academic expansion",
+      "Curricular strengths and research centers",
+      "Student campus life/culture",
+      "Innovation and community outreach",
+      "Governance and institutional direction"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      {
+        "UG": [
+          "B.Tech (multiple branches)",
+          "B.Arch"
+        ],
+        "PG": [
+          "M.Tech (38 fields)",
+          "MBA",
+          "MCA",
+          "M.Sc",
+          "Ph.D (full-time, part-time)"
+        ],
+        "Doctoral": [
+          "Ph.D (engineering, architecture, science, management)"
+        ]
+      },
+      "B.Tech branches include Civil, Mechanical, Electrical, CSE, ECE, Chemical, Metallurgical, and more. M.Tech is available in fields like AI, Data Science, Robotics, Industrial Automation, VLSI, Bioinformatics, Environmental, Structural, etc.",[5][6]
+      "Elective options, minors/honors, and project work integral to curriculum."[6]
+    ],
+    "Fee Structure": {
+      "B.Tech": "₹4.53–5.81 Lakhs (entire course)",
+      "B.Arch": "₹7.07–7.11 Lakhs (entire course)",[6]
+      "M.Tech": "₹1.59–1.89 Lakhs (entire course, specialization dependent)",[5]
+      "MBA": "₹1.89 Lakhs (entire course)",[5]
+      "MCA": "₹1.89 Lakhs (entire course)",[5]
+      "Ph.D": "₹1.24 Lakhs (part-time)",[5]
+      "Hostel Fee": "₹20,500–25,500 per year",[5]
+      "Fee Table": [
+        "| Course              | Total Fee (INR) | Hostel/Year | Tuition/Year  |",
+        "|---------------------|-----------------|-------------|---------------|",
+        "| B.Tech              | 4,53,000–5,81,000| 20,500–25,500| 1,41,800      |",
+        "| B.Arch              | 7,07,000–7,11,000| 25,500      | 1,41,800      |",
+        "| M.Tech              | 1,59,000–1,89,000| 21,000      | 1,01,400–87,800|",
+        "| MBA                 | 1,89,000         | 21,000      | 1,01,400–87,800|",
+        "| MCA                 | 1,89,000         | 21,000      | 1,01,400–87,800|"
+      ],
+      "Fee Waiver/Scholarship": "SC/ST/PwD and families with income below ₹1 lakh/year eligible for full or partial fee waiver, subject to government policy."[5]
+    }
+  },
+  "Admissions": {
+    "Overview": "All admissions are merit-based, via national entrance exams followed by centralized counseling; no direct seat allocation.",[7][8]
+    "UG Admissions": [
+      "B.Tech/B.Arch: JEE Main + JoSAA/CSAB counseling.",
+      "Eligibility: 10+2 with Physics, Mathematics, and Chemistry; minimum 75% marks."[7]
+    ],
+    "PG Admissions": [
+      "M.Tech: GATE + CCMT counseling.",
+      "MBA: CAT/CMAT/MAT + GD/PI.",
+      "MCA: NIMCET.",
+      "M.Sc: JAM.",
+      "Eligibility: UG degree in relevant subject with minimum 60% aggregate."
+    ],
+    "Ph.D. Admissions": [
+      "Written test/interview; GATE/NET scores may be required.",
+      "Eligibility: Master’s degree in relevant field."
+    ],
+    "Admissions Steps": [
+      "Register for entrance exams",
+      "Apply for counseling (JoSAA, CCMT, JAM etc.)",
+      "Participate in seat allocation, document verification",
+      "Pay fees and confirm admission"
+    ],
+    "Seat Intake (Example)": {
+      "B.Tech CSE": "120",
+      "B.Tech ECE": "60",
+      "MBA": "60",
+      "Ph.D.": "Varies by department, usually 3–6 per branch"
+    },
+    "Direction": [
+      "UG/PG/Ph.D: Entrance exam → central counseling → selection"
+    ]
+  },
+  "Placements": {
+    "Highlights": [
+      "2024–25 placement rate: 90% (B.Tech); 75–85% (M.Tech); 87% (MCA/MBA)",[9][10]
+      "Highest package: ₹87–₹90 LPA",
+      "Average B.Tech package: ₹15.6–18 LPA",[10][11][9]
+      "Median CTC: ₹13.8 LPA",
+      "Top recruiters: Amazon, Microsoft, Google, Tata, L&T, Goldman Sachs, Infosys, Deloitte, Capgemini",[12][10]
+      "200+ companies visit annually; strong culture of summer internships and startup placements"
+    ],
+    "Branch-wise Placement Table": [
+      "| Branch     | Placement % | Highest (LPA) | Average (LPA) | Median (LPA) |",
+      "|------------|-------------|---------------|--------------|--------------|",
+      "| CSE        | ~95         | 87            | 18           | 14           |",
+      "| ECE        | ~92         | 87            | 17           | 14           |",
+      "| EE         | ~90         | 82            | 15           | 12           |",
+      "| Mech       | ~85         | 60            | 14           | 12           |",
+      "| Civil      | ~80         | 50            | 13           | 11           |"
+    ],
+    "Internships": [
+      "Strong pre-placement training, alumni networks, industry-research collaborations, active summer internship participation."
+    ],
+    "Directions": [
+      "High placement rate → Top-tier recruiters → Competitive salary → Diverse career prospects"
+    ]
+  },
+  "Rankings": {
+    "Highlights": [
+      "NIRF Engineering (2025): #81",[3]
+      "Architecture (NIRF 2025): #17",[13]
+      "Overall (NIRF 2025): #151–200 in India",[13]
+      "B.Tech (The Week): #32 India",[13]
+      "2nd–4th position in Madhya Pradesh (varies by year)",
+      "Top 80 in engineering (national), top 20 in architecture (national)"
+    ],
+    "Table": [
+      "| Body      | Year | Category       | Rank      |",
+      "|-----------|------|---------------|-----------|",
+      "| NIRF      | 2025 | Engineering   | 81        |",
+      "| NIRF      | 2025 | Architecture  | 17        |",
+      "| NIRF      | 2025 | Overall       | 151–200   |",
+      "| The Week  | 2025 | B.Tech        | 32        |"
+    ],
+    "Directions": [
+      "Consistent top-100 engineering and top-20 architecture rankings"
+    ]
+  },
+  "Facilities": {
+    "Campus Details": [
+      "650-acre green campus; hostels for boys/girls with modern amenities; library and learning resource center; computer center; sports complex (badminton, basketball, squash, swimming pool, table tennis); medical/hospital facilities; bank/post office, shopping complex; open-air auditorium."[14][15]
+    ],
+    "Academic Infrastructure": [
+      "AC classrooms, labs across engineering/architecture/IT, innovation centers, workshops."[15]
+    ],
+    "Sports and Fitness": [
+      "Multi-sport fields, modern gym, swimming pool, games halls."[14]
+    ],
+    "Medical & Banking": [
+      "24/7 hospital, pharmacy, SBI/ATM banking facilities."[15]
+    ],
+    "Other Facilities": [
+      "Wi-Fi campus, guest house, cafeteria, seminar/conference halls, innovation/Rolta incubator, transport/bus services, residential staff quarters."
+    ],
+    "Directions": [
+      "Vast and modern infrastructure → Top-tier academic/lab/sports/medical/banking facilities"
+    ]
+  },
+  "Faculty": {
+    "Overview": [
+      "Faculty strength: ~230; most hold PhDs from top institutions (IITs, IISc, NITs); includes professors, associate and assistant professors, department heads.",[16][17]
+      "Faculty-student ratio: ~1:11 (varies by branch)",
+      "Research-intensive, well-published; active in consultancy, mentorship, workshops, international collaborations."
+    ],
+    "Expertise": [
+      "Highly awarded and experienced; most have teaching experience >10 years.",
+      "Research: Environmental engineering, computing, materials science, robotics, management studies, design, architecture."
+    ],
+    "Teaching Approach": [
+      "Applied and interactive learning—whiteboard, PPT, problem-solving, group discussions, project-based.",
+      "Accessible and supportive—students can consult after classes."
+    ],
+    "Faculty Table": [
+      "| Department     | Faculty No. | Avg. Qualification | Area of Focus         |",
+      "|---------------|-------------|--------------------|-----------------------|",
+      "| CSE           | ~28         | Ph.D.              | Data, AI, Networks    |",
+      "| ECE           | ~22         | Ph.D.              | Embedded, VLSI        |",
+      "| EE            | ~20         | Ph.D.              | Power, Drives         |",
+      "| Mech          | ~20         | Ph.D.              | Robotics, Mechatronics|",
+      "| Chemical      | ~15         | Ph.D.              | Process, Materials    |",
+      "| Civil         | ~15         | Ph.D.              | Structures, Design    |",
+      "| Architecture  | ~12         | Ph.D./M.Arch        | Design, Urban, Enviro |"
+    ],
+    "Directions": [
+      "Experienced, research-driven faculty → Cross-disciplinary mentorship → Industry and innovation focus"
+    ]
+  },
+  "Reviews": {
+    "Highlights": [
+      "Campus: Huge and beautiful, well-maintained; very supportive seniors and discipline; hostels are hygienic, mess is run by students and offers variety. Infrastructure, sports, and labs are appreciated.",[18][17][11][4]
+      "Faculty: Known for knowledge, approachability, and support; PhDs from top institutions; blend of senior and junior faculty.",[17]
+      "Placements: Good in CSE/ECE/EE; some dissatisfaction for other branches and M.Tech.",[11][17]
+      "Extracurriculars: Cultural fests, tech events, clubs highly rated.",
+      "Minor complaints: Hostel quality is uneven (older blocks less maintained), placement percentage for M.Tech is moderate."[17][11]
+    ],
+    "Review Table": [
+      "| Parameter       | Rating     | Summary              |",
+      "|-----------------|-----------|----------------------|",
+      "| Academics       | 4.3/5     | Rigor, hands-on labs |",
+      "| Faculty         | 4.6/5     | Experienced, helpful |",
+      "| Campus Life     | 4.7/5     | Events, greenery     |",
+      "| Infrastructure  | 4.5/5     | Modern, vast         |",
+      "| Placements      | 4.2/5     | IT/core branches     |",
+      "| Facilities      | 4.6/5     | Complete, sports     |"
+    ],
+    "Directions": [
+      "Beautiful green campus → Supportive faculty → Good placements in tech branches → Variable hostel quality"
+    ]
+  },
+  "Contact": {
+    "Address": "Maulana Azad National Institute of Technology, Link Road No 3, Near Kaliasot Dam, Bhopal, MP 462003, India.",
+    "Phone": "+91-755-4051000, +91-755-4052000",
+    "Email": "info@manit.ac.in",
+    "Website": "http://www.manit.ac.in/",
+    "Social Media": {
+      "Facebook": "facebook.com/manitbhopal",
+      "Twitter": "twitter.com/manitbhopal",
+      "LinkedIn": "linkedin.com/school/manit-bhopal"
+    },
+    "Directions": [
+      "Admissions, queries - contact academic section",
+      "Official website for notifications/applications",
+      "Social media for campus updates"
+    ]
+  }
+}
+
+[1](https://en.wikipedia.org/wiki/Maulana_Azad_National_Institute_of_Technology)
+[2](https://josaa.admissions.nic.in/applicant/seatmatrix/InstProfile.aspx?instcd=203)
+[3](https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786)
+[4](https://www.collegebatch.com/reviews/32184-maulana-azad-national-institute-of-technology-bhopal)
+[5](https://collegedunia.com/university/25679-maulana-azad-national-institute-of-technology-manit-bhopal/courses-fees)
+[6](https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/courses)
+[7](https://www.careers360.com/university/maulana-azad-national-institute-of-technology-bhopal/admission)
+[8](https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/admission)
+[9](https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/placement)
+[10](https://www.upgrad.com/universities/manit-bhopal/placements/)
+[11](https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/reviews)
+[12](https://www.boostmytalent.com/college/manit-maulana-azad-national-institute-of-technology-bhopal)
+[13](https://collegedunia.com/university/25679-maulana-azad-national-institute-of-technology-manit-bhopal/ranking)
+[14](https://www.shiksha.com/college/manit-maulana-azad-national-institute-of-technology-bhopal-36786/infrastructure)
+[15](https://www.collegedekho.com/colleges/manit-campus)
+[16](https://www.collegebatch.com/202-maulana-azad-national-institute-of-technology-faculty-profiles-bhopal)
+[17](https://www.collegedekho.com/colleges/manit-reviews)
+[18](https://collegedunia.com/university/25679-maulana-azad-national-institute-of-technology-manit-bhopal/reviews)
+[19](https://www.shiksha.com/engineering/articles/nits-in-india-blogId-20003)
+[20](http://www.manit.ac.in/faculty-information)
