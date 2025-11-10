@@ -1,0 +1,524 @@
+{
+  "Name": "National Institute of Technology Delhi (NIT Delhi)",
+  "Location": {
+    "City": "New Delhi",
+    "District": "Delhi",
+    "State": "Delhi",
+    "Country": "India",
+    "Pin": "110040",
+    "CampusAreaAcres": 51,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Narela, Delhi"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 2010,
+    "OriginalName": "National Institute of Technology Delhi",
+    "Renamed": [],
+    "HistoricalSignificance": "One of the youngest NITs, designated as an 'Institute of National Importance' under the Ministry of Education. Started as a temporary campus in Dwarka before moving to its permanent home in Narela in 2014."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "National Institute of Technology Delhi (NIT Delhi), established in 2010, is one of the youngest NITs, designated as an 'Institute of National Importance' under the Ministry of Education. Located in Narela, Delhi, its 51-acre campus has quickly matured into a hub of rigorous engineering and science education, research, and innovation, with more than 2,000 students enrolled in a range of undergraduate, postgraduate, and doctoral programmes.",
+    "StudentStrength": "More than 2,000 students",
+    "MajorEvents": [
+      "E-Summit - Entrepreneurship festival",
+      "Udaan - Cultural festival",
+      "Aura - Technical festival"
+    ],
+    "ResearchFocus": [
+      "Artificial Intelligence",
+      "Big Data Analytics",
+      "VLSI Design",
+      "Communication Networks",
+      "Power Electronics",
+      "Signal Processing",
+      "Internet of Things",
+      "Data Science"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities worldwide"
+    ],
+    "SocialInitiatives": [
+      "Technical consultancies for regional agencies",
+      "Extension programmes in partnership with local communities"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 0,
+      "Engineering": 65,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 0,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science & Engineering",
+          "Electronics & Communication Engineering",
+          "Electrical Engineering",
+          "Civil Engineering",
+          "Mechanical Engineering",
+          "Artificial Intelligence & Data Science",
+          "Aerospace Engineering",
+          "VLSI Design"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA/CSAB counseling"],
+        "Seats": 255,
+        "FirstYearFeeINR": 184000,
+        "TotalFeesINRApprox": 636000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 6,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CCMT counseling"],
+        "FirstYearFeeINR": 160000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "Not applicable"
+      },
+      "MBA": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0
+      },
+      "MSc": {
+        "Disciplines": [],
+        "DurationYears": 0,
+        "Entrance": [],
+        "FirstYearFeeINR": 0,
+        "Seats": 0
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 7,
+        "Entrance": [
+          "GATE",
+          "NET",
+          "Written test/interview"
+        ],
+        "TypicalDurationYears": "4-5",
+        "FeeINRPerYear": 45000,
+        "SeatsMoreThan": 0
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 60000,
+      "Maximum": 98000,
+      "Note": "Includes mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main",
+        "Counseling": "JoSAA/CSAB counseling",
+        "AdditionalTestForBArch": "Not applicable"
+      },
+      "BDes": {
+        "Exam": "Not applicable",
+        "Counseling": "Not applicable"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT counseling",
+        "AdditionalProcesses": "Document verification"
+      },
+      "MBA": {
+        "Exam": "Not applicable",
+        "AdditionalSelection": []
+      },
+      "MSc": {
+        "Exam": []
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "NET", "Written test/interview"],
+        "Selection": "Written test and interview",
+        "AdditionalNotes": "Masters in relevant field required"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": [],
+      "AdditionalProcess": "As per government norms"
+    },
+    "ReservationPolicy": "As per Central Government norms for SC, ST, OBC, EWS, PwD",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 8900,
+      "DataScienceAIClosingAIR": 7800,
+      "ECEClosingAIR": 11900,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [],
+      "Physics": [],
+      "Mathematics": []
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 0,
+      "OBCPercentile": 0,
+      "SCSTPercentileMin": 0
+    },
+    "AdditionalDetails": "JEE Main closing ranks for CSE ~8900, ECE ~11,900, AI & Data Science ~7,800. Cutoffs vary annually and across categories."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 150,
+      "Recruiters": 95,
+      "HighestPackageINR": 8200000,
+      "HighestDomesticPackageINR": 8200000,
+      "OverallAveragePackageINR": 1250000,
+      "CSEAveragePackageINR": 1800000,
+      "ECEAveragePackageINR": 1500000,
+      "MBA median package INR": 0,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "Amazon",
+        "Microsoft",
+        "Directi",
+        "OYO",
+        "Samsung",
+        "Deloitte",
+        "Infosys",
+        "Dailyhunt",
+        "ZS Associates"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Science",
+        "Research and Development",
+        "Analytics",
+        "Hardware Design"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Industry visits",
+        "Pre-placement training"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 2,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Air-conditioned rooms",
+        "Recreation rooms",
+        "Mess halls",
+        "Laundry Services",
+        "Common Study Rooms"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 0,
+      "EJournalsCount": 0,
+      "Features": [
+        "Digital access",
+        "Seminar halls",
+        "Study zones",
+        "Inter-library loan"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 0,
+      "FocusAreas": [
+        "Chemistry",
+        "Physics",
+        "Electronics",
+        "Computer Programming",
+        "Engineering Drawing",
+        "VLSI",
+        "Automation",
+        "Communication"
+      ],
+      "Equipment": [
+        "PARAM Shavak supercomputer",
+        "Advanced computing facilities",
+        "Prototype Devices"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Badminton courts",
+        "Basketball courts",
+        "Football grounds",
+        "Cricket nets",
+        "Gym",
+        "Indoor sports halls"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "On-site medical center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Mess halls",
+        "Cafeteria"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Dietary options",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Banks and ATMs",
+      "Guest house",
+      "Conference halls",
+      "Seminar rooms",
+      "Auditorium",
+      "Wi-Fi enabled campus",
+      "Shuttle service",
+      "Free transport shuttle between campus and Rohini"
+    ],
+    "StudentClubs": {
+      "Number": 0,
+      "Types": [
+        "Technical societies",
+        "Entrepreneurship cells",
+        "Cultural clubs",
+        "Sports clubs"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 7,
+    "DepartmentsList": [
+      "Computer Science & Engineering",
+      "Electronics & Communication Engineering",
+      "Electrical Engineering",
+      "Civil Engineering",
+      "Mechanical Engineering",
+      "Applied Sciences",
+      "Management"
+    ],
+    "ResearchCenters": [
+      "PARAM Shavak supercomputer facility",
+      "Innovation labs",
+      "Research labs"
+    ],
+    "Strength": {
+      "FacultyCount": 70,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities worldwide",
+      "Industry partnerships"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry projects"
+    ],
+    "StudentFeedback": "Generally positive, with supportive and approachable faculty with friendly vibe."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": false,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "SC/ST/PwD tuition fee waivers",
+      "Low-income student scholarships",
+      "Bank loan support",
+      "Multiple scholarships available"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Waiver",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.1,
+    "CollegeDuniaReviewsCount": 0,
+    "Careers360Rating": 4.2,
+    "Strengths": [
+      "Good placements for CSE and AI",
+      "Modern labs and learning environment",
+      "Supportive and approachable faculty",
+      "Excellent campus location",
+      "Improving infrastructure",
+      "Good social scene and safe environment"
+    ],
+    "Weaknesses": [
+      "Average placements for other branches",
+      "Newer institute with growing infrastructure",
+      "Food quality and admin cited as above average"
+    ],
+    "ReturnOnInvestment": "Good for CSE and AI branches"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from throughout India, supporting inclusivity and multiculturalism",
+    "CulturalTraditions": [
+      "Annual festivals (E-Summit, Udaan, Aura)",
+      "Technical societies",
+      "Entrepreneurship cells",
+      "Cultural clubs"
+    ],
+    "Festivals": [
+      "E-Summit - Entrepreneurship festival",
+      "Udaan - Cultural festival",
+      "Aura - Technical festival"
+    ],
+    "ClubsAndSocieties": [
+      "Technical societies",
+      "Entrepreneurship cells",
+      "Cultural clubs",
+      "Sports clubs"
+    ],
+    "OutdoorActivities": [
+      "Sports festivals",
+      "Inter-NIT tournaments",
+      "Campus events"
+    ],
+    "StudentGovernance": "Director, Senate, and academic boards oversee academics, student affairs, and infrastructure",
+    "WellbeingFacilities": [
+      "Gym",
+      "Sports facilities",
+      "Recreation rooms",
+      "Medical center"
+    ],
+    "Community": "Inclusive ecosystem with cultural, linguistic, and religious diversity"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 2010,
+    "Founder": "Ministry of Education, Government of India",
+    "InitialFocus": "Engineering and science education",
+    "Evolution": [
+      "2010: Established as NIT Delhi",
+      "2014: Moved to permanent campus in Narela",
+      "Rapid expansion of departments",
+      "Introduction of advanced UG/PG streams (AI, Data Science)"
+    ],
+    "Legacy": "One of the youngest NITs with rapid improvement in national rankings since inception",
+    "Heritage": "Central Delhi/NCR location with industry access"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Artificial Intelligence",
+      "Big Data Analytics",
+      "VLSI Design",
+      "Communication Networks",
+      "Power Electronics",
+      "Signal Processing",
+      "Internet of Things",
+      "Data Science"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "PARAM Shavak supercomputer facility supporting research and innovation",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Industry partnerships",
+      "Regional agencies"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": false
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "E-Summit",
+      "RecurringEvents": [
+        "E-Summit - Annual Entrepreneurship festival",
+        "Udaan - Annual Cultural festival",
+        "Aura - Annual Technical festival"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://nitdelhi.ac.in",
+    "Address": "National Institute of Technology Delhi, IAMR Campus, A-7, Institutional Area, Near Satyawadi Raja Harish Chandra Hospital, Narela, Delhi – 110040",
+    "Phone": "+91-11-3386121 / +91-11-3386163",
+    "Emails": {
+      "Registrar": "registrar@nitdelhi.ac.in",
+      "Admissions": "registrar@nitdelhi.ac.in",
+      "PlacementCell": "tpo@nitdelhi.ac.in"
+    }
+  }
+}
+
+

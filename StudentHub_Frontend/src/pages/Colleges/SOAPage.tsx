@@ -273,21 +273,21 @@ const SOAPage: React.FC = () => {
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
                 <p className="font-medium text-gray-900">B.Tech CSE</p>
-                <p className="text-xs text-gray-500">₹8.87L - 11.09L</p>
+                <p className="text-xs text-gray-500">{formatCurrency(collegeData?.CoursesAndFees.Undergraduate.BTech.TotalFeesINRApprox || 0)} (Total)</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
-                <p className="font-medium text-gray-900">M.Tech CSE</p>
-                <p className="text-xs text-gray-500">₹65,200</p>
+                <p className="font-medium text-gray-900">M.Tech</p>
+                <p className="text-xs text-gray-500">{collegeData?.CoursesAndFees.Postgraduate.MTech.FirstYearFeeINR ? formatCurrency(collegeData.CoursesAndFees.Postgraduate.MTech.FirstYearFeeINR) : "Contact for details"}</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
                 <p className="font-medium text-gray-900">MBA</p>
-                <p className="text-xs text-gray-500">₹2.3L</p>
+                <p className="text-xs text-gray-500">{collegeData?.CoursesAndFees.Postgraduate.MBA.FirstYearFeeINR ? formatCurrency(collegeData.CoursesAndFees.Postgraduate.MBA.FirstYearFeeINR) : "Contact for details"}</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
@@ -321,15 +321,15 @@ const SOAPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Entrance Resources</h3>
         <div className="space-y-2 text-sm">
-          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://jeeadv.ac.in" target="_blank" rel="noopener noreferrer">
-            <span className="font-medium text-gray-900">JEE Advanced (UG)</span>
+          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://admission.soa.ac.in/saat" target="_blank" rel="noopener noreferrer">
+            <span className="font-medium text-gray-900">SAAT (SOA Admission Test)</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </a>
-          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://josaa.nic.in" target="_blank" rel="noopener noreferrer">
-            <span className="font-medium text-gray-900">JoSAA Counseling</span>
+          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://jeemain.nta.ac.in" target="_blank" rel="noopener noreferrer">
+            <span className="font-medium text-gray-900">JEE Main (UG)</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </a>
-          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://gate.iitr.ac.in" target="_blank" rel="noopener noreferrer">
+          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://gate.iitd.ac.in" target="_blank" rel="noopener noreferrer">
             <span className="font-medium text-gray-900">GATE (PG Engineering)</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </a>
@@ -337,8 +337,8 @@ const SOAPage: React.FC = () => {
             <span className="font-medium text-gray-900">CAT (MBA)</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </a>
-          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://jam.iitm.ac.in" target="_blank" rel="noopener noreferrer">
-            <span className="font-medium text-gray-900">IIT JAM (M.Sc)</span>
+          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://admission.soa.ac.in" target="_blank" rel="noopener noreferrer">
+            <span className="font-medium text-gray-900">SOA Admission Portal</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </a>
         </div>
@@ -348,13 +348,13 @@ const SOAPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Upcoming Events</h3>
         <div className="space-y-3 text-sm">
-          <div className="p-3 bg-gray-50 rounded-lg">
-            <div className="font-medium text-gray-900">Thomso Cultural Festival</div>
-            <div className="text-gray-600">Nov • Workshops, concerts, competitions</div>
+              <div className="p-3 bg-gray-50 rounded-lg">
+            <div className="font-medium text-gray-900">Technical Festivals</div>
+            <div className="text-gray-600">Various • Workshops, competitions, tech events</div>
               </div>
           <div className="p-3 bg-gray-50 rounded-lg">
-            <div className="font-medium text-gray-900">Cognizance Tech Fest</div>
-            <div className="text-gray-600">Mar • Hackathons, keynotes, expo</div>
+            <div className="font-medium text-gray-900">Cultural Festivals</div>
+            <div className="text-gray-600">Various • Concerts, cultural events, performances</div>
           </div>
         </div>
       </div>
@@ -567,30 +567,22 @@ const SOAPage: React.FC = () => {
         {/* Summary Bullet Points */}
         <div className="mb-6">
           <p className="text-gray-700 mb-3">
-            <strong>IIT Roorkee Courses are offered at UG, PG, Doctorate level. There are 129 courses offered at IIT Roorkee.</strong> The institute offers programs in Architecture, Engineering, Science, Management disciplines. Available degrees include B.Tech, M.Tech, Ph.D, B.Arch, M.Sc, MBA, M.Arch, BS + MS, B.Tech + M.Tech, Executive MBA. Popular courses are B.Tech, M.Tech, Ph.D.
+            <strong>{collegeData.Name} offers courses at UG, PG, and Doctorate level across multiple disciplines.</strong> The university offers programs in Engineering, Medicine, Dental Sciences, Pharmacy, Law, Management, Science, and more. Available degrees include B.Tech, M.Tech, Ph.D, M.Sc, MBA, and various professional programs. Popular courses are B.Tech, M.Tech, MBA, and Ph.D.
           </p>
           <ul className="space-y-2 text-gray-700">
-            <li>• <strong>IIT Roorkee Fees 2025-2026 is ₹45,200 - 11.68 Lakhs across all offered courses.</strong> UG Fees: ₹8.87 Lakhs - 11.09 Lakhs, PG Fees: ₹57,200 - 11.68 Lakhs</li>
-            <li>• <strong>IIT Roorkee B.Tech Fees is ₹8.87 Lakhs - 11.09 Lakhs for the entire 4 years duration.</strong> Popular specializations: Chemical Engineering, Computer Science and Engineering.
+            <li>• <strong>{collegeData.Name} B.Tech Fees 2025-2026 is {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.FirstYearFeeINR)} per year.</strong> Total fees for 4 years: {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.TotalFeesINRApprox)}. Popular specializations: {collegeData.CoursesAndFees.Undergraduate.BTech.Branches.slice(0, 3).join(", ")}.
               <ul className="ml-4 mt-1 space-y-1">
-                <li>• IIT Roorkee B.Tech Chemical Fees is ₹8.87 Lakhs. Earlier, the fees was ₹8.93 Lakhs in 2024 - 2025.</li>
-                <li>• IIT Roorkee B.Tech CSE Fees is ₹8.87 Lakhs. Earlier, the fees was ₹8.93 Lakhs in 2024 - 2025.</li>
+                <li>• {collegeData.Name} B.Tech CSE Fees is {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.FirstYearFeeINR)} per year.</li>
+                <li>• {collegeData.Name} B.Tech total fees for 4 years is {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.TotalFeesINRApprox)}.</li>
               </ul>
             </li>
-            <li>• <strong>IIT Roorkee M.Tech Fees is ₹65,200 for the entire 2 years duration.</strong> Popular specializations: Computer Science And Engineering, Data Science.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• IIT Roorkee M.Tech Computer Science And Engineering Fees is ₹65,200. Earlier, the fees was ₹71,200 in 2024 - 2025.</li>
-                <li>• IIT Roorkee M.Tech Data Science Fees is ₹65,200. Earlier, the fees was ₹71,200 in 2024 - 2025.</li>
-              </ul>
+            <li>• <strong>{collegeData.Name} M.Tech is offered for {collegeData.CoursesAndFees.Postgraduate.MTech.DurationYears} years duration.</strong> Admission through {collegeData.CoursesAndFees.Postgraduate.MTech.Entrance.join(" or ")}. Popular specializations include Computer Science And Engineering, Data Science, and more.
             </li>
-            <li>• <strong>IIT Roorkee Ph.D Fees is ₹85,800 - 2.21 Lakhs for the entire 3 years duration.</strong> Popular specializations: Architecture, Computer Science and Engineering.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• IIT Roorkee Ph.D Architecture Fees is ₹2.21 Lakhs. Earlier, the fees was ₹90,300 in 2024 - 2025.</li>
-                <li>• IIT Roorkee Ph.D Computer Science and Engineering Fees is ₹2.21 Lakhs. Earlier, the fees was ₹90,300 in 2024 - 2025.</li>
-              </ul>
+            <li>• <strong>{collegeData.Name} MBA is offered for {collegeData.CoursesAndFees.Postgraduate.MBA.DurationYears} years duration.</strong> Admission through {collegeData.CoursesAndFees.Postgraduate.MBA.Entrance.join(", ")}.
             </li>
-            <li>• <strong>IIT Roorkee also offers 18 part time courses which include Certification, Ph.D.</strong> Popular part time course at IIT Roorkee is Ph.D with total fees of 85,800 - 2.21 Lakhs.</li>
-            <li>• <strong>IIT Roorkee Hostel Fee is ₹29,250 to 41,000.</strong></li>
+            <li>• <strong>{collegeData.Name} Ph.D programs are available with typical duration of {collegeData.CoursesAndFees.Doctoral.PhD.TypicalDurationYears} years.</strong> Admission through {collegeData.CoursesAndFees.Doctoral.PhD.Entrance.join(", ")}. Research areas include Engineering, Medical Sciences, and more.
+            </li>
+            <li>• <strong>{collegeData.Name} Hostel Fee is {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Minimum)} to {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Maximum)} per year.</strong> {collegeData.CoursesAndFees.HostelFeeINRAnnual.Note}.</li>
           </ul>
         </div>
         
@@ -618,11 +610,11 @@ const SOAPage: React.FC = () => {
         {/* Summary Bullet Points */}
         <div className="mb-6">
           <ul className="space-y-2 text-gray-700">
-            <li>• <strong>IIT Roorkee offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and design disciplines.</strong> The institute maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
-            <li>• <strong>Undergraduate Programs:</strong> B.Tech (1100 seats, ₹2.3L/year), B.Arch (37 seats, ₹2.3L/year), B.Des (20 seats, ₹36,100/year). All programs require competitive entrance examinations with JEE Advanced for B.Tech/B.Arch and UCEED for B.Des.</li>
-            <li>• <strong>Postgraduate Programs:</strong> M.Tech (47 specializations, ₹40,000/year), MBA (95 seats, ₹2.3L/year), M.Sc (194 seats across 5 disciplines, ₹36,100/year). Admission through GATE, CAT, and JAM examinations respectively.</li>
-            <li>• <strong>Doctoral Programs:</strong> PhD (27 programs, 900+ seats, ₹38,100/year). Duration typically 3-5 years with research focus areas including AI, clean energy, quantum computing, and disaster management.</li>
-            <li>• <strong>Hostel & Accommodation:</strong> 20 hostels with modern amenities including Wi-Fi, study rooms, mess halls, and recreation areas. Hostel fees range from ₹68,000 to ₹99,000 annually (excluding mess charges).</li>
+            <li>• <strong>{collegeData.Name} offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, medicine, management, law, and science disciplines.</strong> The university maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
+            <li>• <strong>Undergraduate Programs:</strong> B.Tech ({collegeData.CoursesAndFees.Undergraduate.BTech.Branches.length} specializations available, {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.FirstYearFeeINR)}/year, total fees {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.TotalFeesINRApprox)} for {collegeData.CoursesAndFees.Undergraduate.BTech.DurationYears} years). Admission through {collegeData.CoursesAndFees.Undergraduate.BTech.Entrance.join(" or ")}.</li>
+            <li>• <strong>Postgraduate Programs:</strong> M.Tech ({collegeData.CoursesAndFees.Postgraduate.MTech.DurationYears} years, admission through {collegeData.CoursesAndFees.Postgraduate.MTech.Entrance.join(" or ")}), MBA ({collegeData.CoursesAndFees.Postgraduate.MBA.DurationYears} years, admission through {collegeData.CoursesAndFees.Postgraduate.MBA.Entrance.join(", ")}), M.Sc ({collegeData.CoursesAndFees.Postgraduate.MSc.Disciplines.length} disciplines, {collegeData.CoursesAndFees.Postgraduate.MSc.DurationYears} years, admission through {collegeData.CoursesAndFees.Postgraduate.MSc.Entrance.join(", ")}).</li>
+            <li>• <strong>Doctoral Programs:</strong> PhD (typical duration {collegeData.CoursesAndFees.Doctoral.PhD.TypicalDurationYears} years). Admission through {collegeData.CoursesAndFees.Doctoral.PhD.Entrance.join(", ")}. Research focus areas include Engineering, Medical Sciences, Pharmaceutical Sciences, and interdisciplinary research.</li>
+            <li>• <strong>Hostel & Accommodation:</strong> Modern hostels with amenities including Wi-Fi, AC and Non-AC rooms, study rooms, mess halls, and recreation areas. Hostel fees range from {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Minimum)} to {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Maximum)} annually. {collegeData.CoursesAndFees.HostelFeeINRAnnual.Note}.</li>
           </ul>
         </div>
         
@@ -659,7 +651,7 @@ const SOAPage: React.FC = () => {
       {/* Admission Process */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Admission Process & Cutoffs</h3>
-        <p className="text-gray-700 mb-6">Admissions at IIT Roorkee are highly competitive, with rigorous entrance examinations and strict cutoff criteria. The institute follows a merit-based selection process ensuring only the brightest minds join the community.</p>
+        <p className="text-gray-700 mb-6">Admissions at {collegeData.Name} are competitive, with entrance examinations and merit-based selection criteria. The university follows a transparent admission process ensuring qualified students join the academic community.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -697,7 +689,7 @@ const SOAPage: React.FC = () => {
       {/* Placements & Career Opportunities */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Placements & Career Opportunities</h3>
-        <p className="text-gray-700 mb-6">IIT Roorkee has an exceptional placement record with top-tier companies consistently recruiting students across all programs. The Career Development Cell ensures comprehensive preparation and support throughout the placement process.</p>
+        <p className="text-gray-700 mb-6">{collegeData.Name} has a strong placement record with leading companies consistently recruiting students across all programs. The Placement Cell ensures comprehensive preparation and support throughout the placement process.</p>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Total Offers (2024)" value={collegeData.Placements.Year2024.TotalOffers} />
@@ -738,7 +730,7 @@ const SOAPage: React.FC = () => {
       {/* Rankings & Recognition */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Rankings & Recognition</h3>
-        <p className="text-gray-700 mb-6">IIT Roorkee consistently ranks among the top engineering institutions in India and has gained international recognition for its academic excellence, research contributions, and innovation initiatives.</p>
+        <p className="text-gray-700 mb-6">{collegeData.Name} consistently ranks among the top universities in India and has gained recognition for its academic excellence, research contributions, and innovation initiatives across multiple disciplines.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -788,7 +780,7 @@ const SOAPage: React.FC = () => {
       {/* Facilities & Infrastructure */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Campus Facilities & Infrastructure</h3>
-        <p className="text-gray-700 mb-6">The sprawling 365-acre campus of IIT Roorkee houses world-class facilities including modern hostels, state-of-the-art laboratories, extensive library resources, and comprehensive sports infrastructure to support holistic development.</p>
+        <p className="text-gray-700 mb-6">The sprawling {collegeData.Location.CampusAreaAcres}-acre campus of {collegeData.Name} houses world-class facilities including modern hostels, state-of-the-art laboratories, extensive library resources, and comprehensive sports infrastructure to support holistic development.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -816,8 +808,14 @@ const SOAPage: React.FC = () => {
               <div className="bg-yellow-50 rounded-lg p-3">
                 <h5 className="font-medium">Library - {collegeData.Facilities.Library.Name}</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-                  <div><span className="font-medium">{collegeData.Facilities.Library.BookCount.toLocaleString()} books</span> and {collegeData.Facilities.Library.EJournalsCount.toLocaleString()} e-journals</div>
-                  <div>24/7 access with digital resources and group study zones</div>
+                  {(collegeData.Facilities.Library.BookCount > 0 || collegeData.Facilities.Library.EJournalsCount > 0) && (
+                    <div>
+                      {collegeData.Facilities.Library.BookCount > 0 && <span className="font-medium">{collegeData.Facilities.Library.BookCount.toLocaleString()} books</span>}
+                      {collegeData.Facilities.Library.BookCount > 0 && collegeData.Facilities.Library.EJournalsCount > 0 && " and "}
+                      {collegeData.Facilities.Library.EJournalsCount > 0 && <span className="font-medium">{collegeData.Facilities.Library.EJournalsCount.toLocaleString()} e-journals</span>}
+                    </div>
+                  )}
+                  <div>Access with digital resources and group study zones</div>
                 </div>
               </div>
               <div className="bg-purple-50 rounded-lg p-3">
@@ -858,7 +856,7 @@ const SOAPage: React.FC = () => {
       {/* Faculty & Research */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty & Research Excellence</h3>
-        <p className="text-gray-700 mb-6">IIT Roorkee boasts a distinguished faculty of over 470 members across 23 departments, with the majority holding PhD degrees. The institute is at the forefront of research and innovation with significant contributions to various fields.</p>
+        <p className="text-gray-700 mb-6">{collegeData.Name} boasts a distinguished faculty of over {collegeData.FacultyAndDepartments.Strength.FacultyCount} members across multiple departments and institutes, with the majority holding PhD degrees. The university is at the forefront of research and innovation with significant contributions to various fields.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -909,7 +907,7 @@ const SOAPage: React.FC = () => {
       {/* Student Life & Culture */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student Life & Campus Culture</h3>
-        <p className="text-gray-700 mb-6">The vibrant campus life at IIT Roorkee is characterized by a diverse community, rich cultural traditions, and numerous opportunities for personal and professional growth through clubs, societies, and events.</p>
+        <p className="text-gray-700 mb-6">The vibrant campus life at {collegeData.Name} is characterized by a diverse community, rich cultural traditions, and numerous opportunities for personal and professional growth through clubs, societies, and events.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -991,9 +989,8 @@ const SOAPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Undergraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          IIT Roorkee's undergraduate offerings are designed to build a strong foundation in core disciplines while
-          introducing students to cutting-edge technologies and interdisciplinary learning. With competitive intake,
-          structured curricula, modern laboratories, and active industry projects, students graduate with both theoretical
+          {collegeData.Name}'s undergraduate offerings are designed to build a strong foundation in core disciplines while
+          introducing students to cutting-edge technologies and interdisciplinary learning. With structured curricula, modern laboratories, and active industry projects, students graduate with both theoretical
           depth and hands-on problem-solving skills. The programs emphasize fundamentals, design thinking, and professional
           readiness through internships, hackathons, and mentorship from accomplished faculty.
         </p>
@@ -1125,9 +1122,9 @@ const SOAPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Postgraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          The postgraduate ecosystem at IIT Roorkee is research-driven and industry-aligned. Programs in engineering,
+          The postgraduate ecosystem at {collegeData.Name} is research-driven and industry-aligned. Programs in engineering,
           management, and sciences emphasize advanced coursework, electives in emerging areas, and strong thesis/project
-          components. Students benefit from funded research labs, innovation centers, and frequent industry seminars.
+          components. Students benefit from research labs, innovation centers, and frequent industry seminars.
         </p>
         
         <div className="grid md:grid-cols-2 gap-6">
@@ -1260,7 +1257,7 @@ const SOAPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel & Accommodation</h3>
         <p className="text-gray-700 mb-4">
-          Hostel life at IIT Roorkee is known for its vibrant culture and supportive community. With modern rooms, study
+          Hostel life at {collegeData.Name} is known for its vibrant culture and supportive community. With modern rooms, study
           areas, and recreational spaces, students find a conducive environment for personal growth. Residential living
           also fosters collaboration across programs through clubs, intramurals, and cultural festivals.
         </p>
@@ -1279,93 +1276,82 @@ const SOAPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Admissions at {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at <strong>IIT Roorkee</strong> are among the most merit-centric and transparent in Indian higher
-          education, governed by national-level examinations and centralized counseling platforms. The system ensures
-          nationwide participation while adhering to Central Government reservation policies for SC, ST, OBC‑NCL, EWS,
+          Admissions at <strong>{collegeData.Name}</strong> are merit-centric and transparent, governed by entrance examinations and counseling processes. The system ensures
+          nationwide participation while adhering to Government reservation policies for SC, ST, OBC‑NCL, EWS,
           and PwD categories. Processes vary across undergraduate, postgraduate, and doctoral levels—each emphasizing
           academic rigor, exam performance, and interviews or research assessments where applicable.
         </p>
 
-        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of IIT Roorkee’s Admission Framework</h4>
+        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of {collegeData.Name.split('(')[0].trim()}'s Admission Framework</h4>
         <p className="text-gray-700 mb-3">
-          Founded in 1847 and converted into an IIT in 2001, IIT Roorkee structures admissions to maintain academic
-          excellence and equitable access. All admissions—through <strong>JEE Advanced, GATE, CAT, JAM,</strong> or
-          <strong> UCEED</strong>—are aligned to centralized systems managed by national bodies such as
-          <strong> JoSAA</strong>, <strong>COAP</strong>, and respective coordination portals.
+          Founded in {collegeData.Established.Year} as {collegeData.Established.OriginalName} and achieving deemed university status in 2007, {collegeData.Name.split('(')[0].trim()} structures admissions to maintain academic
+          excellence and equitable access. All admissions—through <strong>{collegeData.CoursesAndFees.Undergraduate.BTech.Entrance.join(", ")}, {collegeData.CoursesAndFees.Postgraduate.MTech.Entrance.join(", ")}, {collegeData.CoursesAndFees.Postgraduate.MBA.Entrance.join(", ")}</strong>—are managed through
+          university counseling and national examination portals.
           The core goal is to align candidate merit (exam performance) with program preferences, seat availability, and
-          category-based reservations. Shortlisted candidates later verify documents and eligibility at the institute.
+          category-based reservations. Shortlisted candidates later verify documents and eligibility at the university.
         </p>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Undergraduate Admissions</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-          <li><strong>B.Tech & B.Arch:</strong> JEE Advanced + centralized counseling via <strong>JoSAA</strong>.</li>
-          <li><strong>B.Arch:</strong> Also requires qualifying the <strong>AAT (Architecture Aptitude Test)</strong>.</li>
-          <li><strong>B.Des:</strong> Admission via <strong>UCEED</strong> with centralized counseling.</li>
+          <li><strong>B.Tech:</strong> Admission through <strong>{collegeData.CoursesAndFees.Undergraduate.BTech.Entrance.join(" or ")}</strong> with {collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Counseling}.</li>
+          {collegeData.CoursesAndFees.Undergraduate.BArch.DurationYears > 0 && (
+            <li><strong>B.Arch:</strong> Admission through {collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Exam} {collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.AdditionalTestForBArch && `+ ${collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.AdditionalTestForBArch}`}.</li>
+          )}
         </ul>
         <p className="text-gray-700 mt-2">
-          <span className="font-medium">Recent Cutoffs (2025 Approx.):</span> B.Tech CSE – AIR 535; Data Science & AI – AIR 710; ECE – AIR 1394;
-          Electrical – AIR 1752; Mechanical – AIR 1900; Civil – AIR 2175; B.Arch (AAT) – Rank 16,596; B.Des General – AIR 111
-          (OBC – AIR 56). Admissions are finalized over multiple JoSAA rounds; seats can fluctuate due to withdrawals and
-          category shifts.
+          <span className="font-medium">Admission Process:</span> {collegeData.CutoffInformation.AdditionalDetails || "Admission is based on entrance exam scores and merit. Cutoffs vary by program and category."}
         </p>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Postgraduate Admissions</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-          <li><strong>M.Tech, M.Arch, M.Plan, M.Des:</strong> Primarily through <strong>GATE</strong> with offers handled via <strong>COAP</strong>.
-            Some departments may conduct interviews or portfolio reviews.</li>
-          <li><strong>MBA:</strong> Based on <strong>CAT</strong> percentile followed by <strong>GD/PI</strong>. Indicative cutoffs: General – 94%, OBC – 74.5%, SC/ST – 65%.</li>
-          <li><strong>M.Sc & Integrated Programs:</strong> Admission through <strong>IIT JAM</strong> with counseling via JOAPS.</li>
+          <li><strong>M.Tech:</strong> Admission through <strong>{collegeData.CoursesAndFees.Postgraduate.MTech.Entrance.join(" or ")}</strong> with {collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MTechMArchMPlanMDes.Counseling}.</li>
+          <li><strong>MBA:</strong> Admission through <strong>{collegeData.CoursesAndFees.Postgraduate.MBA.Entrance.join(", ")}</strong>. {collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.AdditionalSelection && `Additional selection process includes ${collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.AdditionalSelection.join(", ")}.`}</li>
+          <li><strong>M.Sc:</strong> Admission through <strong>{collegeData.CoursesAndFees.Postgraduate.MSc.Entrance.join(", ")}</strong>.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Doctoral Admissions (PhD)</h4>
         <p className="text-gray-700 mb-2">
-          PhD admissions blend national test scores (<strong>GATE, JEST, CSIR‑NET, UGC‑NET, CEED</strong>, etc.) with research
-          potential assessments. Typical stages include shortlisting, a written test and/or interview, and evaluation of a
-          research proposal aligned with departmental areas. Some departments admit exceptional integrated degree holders or
-          sponsored professionals without GATE.
+          PhD admissions are based on <strong>{collegeData.CoursesAndFees.Doctoral.PhD.Entrance.join(", ")}</strong> scores. {collegeData.AdmissionProcessAndEntranceExams.Doctoral.PhD.Selection}. Typical stages include shortlisting, a written test and/or interview, and evaluation of a
+          research proposal aligned with departmental areas. {collegeData.AdmissionProcessAndEntranceExams.Doctoral.PhD.AdditionalNotes}
         </p>
 
-        <h4 className="text-lg font-semibold mt-4 mb-2">Counseling Mechanisms</h4>
+        <h4 className="text-lg font-semibold mt-4 mb-2">Counseling & Selection Process</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-          <li><strong>JoSAA:</strong> Manages nationwide B.Tech/B.Arch seat allocation for all IITs.</li>
-          <li><strong>COAP:</strong> Coordinates M.Tech seat offers across IITs.</li>
-          <li><strong>UCEED/JAM Portals:</strong> Centralized counseling for Design and M.Sc programs respectively.</li>
+          <li><strong>University Counseling:</strong> {collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Counseling} for undergraduate programs.</li>
+          <li><strong>Merit-based Selection:</strong> Admissions are based on entrance exam scores and merit ranking.</li>
+          <li><strong>Document Verification:</strong> Selected candidates must verify documents and eligibility at the university.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Reservation Policy & Verification</h4>
         <p className="text-gray-700 mb-2">
-          Reservations strictly follow Central Government norms: OBC‑NCL 27%, SC 15%, ST 7.5%, EWS 10%, and PwD 5%
-          horizontal reservation. Candidates must produce original certificates at the time of admission verification; failure
+          {collegeData.AdmissionProcessAndEntranceExams.ReservationPolicy}. Candidates must produce original certificates at the time of admission verification; failure
           results in cancellation of provisional admission.
         </p>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Eligibility & Application Modes</h4>
         <p className="text-gray-700 mb-2">
-          Applications are <strong>online</strong> through official national or IIT-specific portals: JEE Advanced → jeeadv.ac.in; GATE →
-          gate.iitr.ac.in; CAT → iimcat.ac.in; JAM/UCEED → respective organizing IIT websites. Foreign nationals and NRIs may
-          apply via <strong>DASA</strong> or <strong>ICCR scholarships</strong> with separate eligibility and fee structures.
+          Applications are <strong>{collegeData.AdmissionProcessAndEntranceExams.ApplicationMode}</strong>. For detailed eligibility criteria and application procedures, please visit the official admission portal.
         </p>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Key Insights on Admission Trends</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-          <li><strong>CSE and DS&AI</strong> remain highly competitive with sub‑1000 AIR closing ranks.</li>
-          <li><strong>Core branches</strong> (Mechanical, Civil, Electrical) generally close between AIR 1500–2500.</li>
-          <li>For postgraduate programs, <strong>GATE cutoffs</strong> vary sharply; CS/ECE often above 600 for General category.</li>
-          <li><strong>MBA</strong> has strong recruiter traction (e.g., Deloitte, Amazon, Tata Steel).</li>
-          <li>The <strong>PhD pipeline</strong> is growing in AI, water resources, renewable energy, and sustainable construction technologies.</li>
+          <li><strong>B.Tech CSE and related branches</strong> are highly sought after programs.</li>
+          <li><strong>Admission cutoffs</strong> vary by program, category, and entrance exam scores.</li>
+          <li>For postgraduate programs, <strong>entrance exam scores</strong> are key factors in selection.</li>
+          <li><strong>MBA</strong> program accepts multiple entrance exam scores including {collegeData.CoursesAndFees.Postgraduate.MBA.Entrance.join(", ")}.</li>
+          <li>The <strong>PhD pipeline</strong> focuses on research areas including {collegeData.ResearchAndInnovation.FocusAreas.slice(0, 3).join(", ")}.</li>
         </ul>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at IIT Roorkee</h3>
+        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at IIT Roorkee are highly structured and merit-driven. Each program is tied to a national-level
-          examination with carefully defined counseling processes, category-based reservations, and institute-level
-          verification. Shortlisted candidates typically proceed through centralized counseling where seat allotments are
+          Admissions at {collegeData.Name} are structured and merit-driven. Each program is tied to entrance
+          examinations with carefully defined counseling processes, category-based reservations, and university-level
+          verification. Shortlisted candidates typically proceed through counseling where seat allotments are
           made based on rank, preferences, and availability.
         </p>
         <p className="text-gray-700">
-          Undergraduate entries are primarily via JEE Advanced followed by JoSAA. Postgraduate programs rely on GATE,
-          CAT, JAM and institute processes, while PhD admissions combine national tests with interviews and research
+          Undergraduate entries are primarily via {collegeData.CoursesAndFees.Undergraduate.BTech.Entrance.join(" or ")}. Postgraduate programs rely on {collegeData.CoursesAndFees.Postgraduate.MTech.Entrance.join(", ")}, {collegeData.CoursesAndFees.Postgraduate.MBA.Entrance.join(", ")}, while PhD admissions combine national tests with interviews and research
           proposals. Below is a compact view of typical entry routes and recent indicative cutoffs.
         </p>
         <div className="overflow-x-auto mt-4">
@@ -1535,78 +1521,88 @@ const SOAPage: React.FC = () => {
   const renderPlacementsTab = () => (
     <div id="placements-root" className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Why Placements at IIT Roorkee Stand Out</h3>
+        <h3 className="text-2xl font-semibold mb-4">Why Placements at {collegeData.Name.split('(')[0].trim()} Stand Out</h3>
         <p className="text-gray-700 mb-3">
-          IIT Roorkee’s placement ecosystem blends academic rigor, early skill development, industry exposure, and a
-          powerful alumni network—resulting in consistently high packages and diverse global opportunities. Students are
+          {collegeData.Name}'s placement ecosystem blends academic rigor, early skill development, industry exposure, and a
+          powerful alumni network—resulting in consistently good packages and diverse opportunities. Students are
           groomed to excel in high‑pressure, real‑world environments, not just to crack interviews.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Institutional Strengths Driving Placements</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1 mb-4">
-          <li><strong>Established Global Reputation</strong> with recruiters tracking IITR’s talent pool annually.</li>
-          <li><strong>Diverse Recruiter Base</strong> (~170 companies across tech, consulting, finance, analytics, R&D, core).</li>
-          <li><strong>Premier Alumni Network</strong> in FAANG, Wall Street, consulting majors, semiconductor giants, and labs.</li>
+          <li><strong>Strong Industry Connections</strong> with recruiters regularly visiting the campus.</li>
+          <li><strong>Diverse Recruiter Base</strong> ({collegeData.Placements.Year2024.Recruiters} companies across tech, consulting, finance, analytics, R&D, core engineering).</li>
+          <li><strong>Alumni Network</strong> in leading tech companies, consulting firms, and research organizations.</li>
         </ul>
 
-        <h4 className="text-lg font-semibold mb-2">Advanced Placement Preparation</h4>
+        <h4 className="text-lg font-semibold mb-2">Placement Preparation</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1 mb-4">
-          <li>Year‑long training (aptitude, case interviews) integrated from the second year.</li>
-          <li>Domain workshops: CP bootcamps for CSE; design/prototyping for core branches.</li>
-          <li>Industry‑linked projects with ISRO, DRDO, and private R&D labs.</li>
-          <li>Soft‑skill development: public speaking, client handling, cross‑cultural teamwork.</li>
+          {collegeData.Placements.Year2024.PlacementPreparation.map((prep: string, index: number) => (
+            <li key={index}>{prep}</li>
+          ))}
         </ul>
 
-        <h4 className="text-lg font-semibold mb-2">Placement Statistics Context (2024)</h4>
+        <h4 className="text-lg font-semibold mb-2">Placement Statistics (2024)</h4>
         <div className="overflow-x-auto mb-4">
           <table className="w-full text-sm">
             <thead className="text-gray-600">
               <tr>
                 <th className="text-left py-2 pr-4">Metric</th>
-                <th className="text-left py-2">Context</th>
+                <th className="text-left py-2">Value</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td className="py-2 pr-4 font-medium">Total Offers</td>
-                <td className="py-2">805 (near 100% for eligible students)</td>
+                <td className="py-2">{collegeData.Placements.Year2024.TotalOffers}</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Highest Package</td>
-                <td className="py-2">₹20.5 Cr (international)</td>
+                <td className="py-2">{formatCurrency(collegeData.Placements.Year2024.HighestPackageINR)}</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Average Package</td>
-                <td className="py-2">₹19.6 L overall; CSE ~₹34.0 L; ECE ~₹30.8 L</td>
+                <td className="py-2">{formatCurrency(collegeData.Placements.Year2024.OverallAveragePackageINR)}</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Domestic Highest</td>
-                <td className="py-2">₹1.2 Cr</td>
+                <td className="py-2">{formatCurrency(collegeData.Placements.Year2024.HighestDomesticPackageINR)}</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">PPOs</td>
-                <td className="py-2">155</td>
+                <td className="py-2">{collegeData.Placements.Year2024.PPOs || "N/A"}</td>
               </tr>
+              {collegeData.Placements.Year2024.CSEAveragePackageINR > 0 && (
+                <tr>
+                  <td className="py-2 pr-4 font-medium">CSE Average</td>
+                  <td className="py-2">{formatCurrency(collegeData.Placements.Year2024.CSEAveragePackageINR)}</td>
+                </tr>
+              )}
+              {collegeData.Placements.Year2024.ECEAveragePackageINR > 0 && (
+                <tr>
+                  <td className="py-2 pr-4 font-medium">ECE Average</td>
+                  <td className="py-2">{formatCurrency(collegeData.Placements.Year2024.ECEAveragePackageINR)}</td>
+                </tr>
+              )}
             </tbody>
           </table>
         </div>
 
         <h4 className="text-lg font-semibold mb-2">Types of Roles Offered</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1 mb-4">
-          <li><strong>Technology</strong> – SDE, data engineering (Microsoft, Google, Amazon, Oracle, Apple, Qualcomm).</li>
-          <li><strong>Analytics & Data Science</strong> – JP Morgan, Goldman Sachs, BCG, Flipkart.</li>
-          <li><strong>Core & Hardware</strong> – TSMC, Intel, Tata Steel, ISRO, DRDO.</li>
-          <li><strong>Consulting</strong> – BCG, Accenture Japan.</li>
-          <li><strong>Finance</strong> – Goldman Sachs, JP Morgan (algo trading, IB, risk).</li>
+          {collegeData.Placements.Year2024.JobProfiles.map((profile: string, index: number) => (
+            <li key={index}><strong>{profile}</strong></li>
+          ))}
         </ul>
 
-        <h4 className="text-lg font-semibold mb-2">Additional Context – Why Students Excel</h4>
-        <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1 mb-4">
-          <li>International recruiter exposure (Japan, Taiwan, USA, Europe).</li>
-          <li>Specialized cells: Entrepreneurship, Industrial Relations, International Relations.</li>
-          <li>Strong research credentials with MIT, ETH Zurich, NTU collaborations.</li>
-          <li>High internship quality; &gt;90% of offers stem from paid internships with deliverables.</li>
-        </ul>
+        <h4 className="text-lg font-semibold mb-2">Top Recruiting Companies</h4>
+        <div className="flex flex-wrap gap-2 mb-4">
+          {collegeData.Placements.Year2024.TopRecruiters.map((recruiter: string, index: number) => (
+            <span key={index} className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
+              {recruiter}
+            </span>
+          ))}
+        </div>
 
         <h4 className="text-lg font-semibold mb-2">Recent Years: 2022–2025 Snapshot</h4>
         <div className="overflow-x-auto mb-4">
@@ -1819,10 +1815,10 @@ const SOAPage: React.FC = () => {
     <div id="rankings-root" className="space-y-6">
       {/* Rankings Narrative and Consolidated Tables (user-provided) */}
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">IIT Roorkee Rankings & Recognition</h3>
+        <h3 className="text-2xl font-semibold mb-4">{collegeData.Name.split('(')[0].trim()} Rankings & Recognition</h3>
         <p className="text-gray-700 mb-4">
-          IIT Roorkee is consistently ranked among India’s top institutions and continues to strengthen its global
-          standing. The institute’s performance across teaching quality, research output, graduate outcomes, outreach,
+          {collegeData.Name} is consistently ranked among India's top institutions and continues to strengthen its
+          standing. The university's performance across teaching quality, research output, graduate outcomes, outreach,
           and perception is reflected in leading national and international ranking frameworks.
         </p>
 
@@ -1834,115 +1830,93 @@ const SOAPage: React.FC = () => {
                 <th className="text-left py-2 px-3">Category</th>
                 <th className="text-left py-2 px-3">2025 Rank</th>
                 <th className="text-left py-2 px-3">2024 Rank</th>
-                <th className="text-left py-2 px-3">Score / Notes</th>
+                <th className="text-left py-2 px-3">Notes</th>
               </tr>
             </thead>
             <tbody>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">NIRF Overall</td>
                 <td className="py-2 px-3">Overall Institution</td>
-                <td className="py-2 px-3">7</td>
-                <td className="py-2 px-3">8</td>
-                <td className="py-2 px-3">Score ~73.06; Teaching, Research, Outcomes, Outreach, Perception</td>
+                <td className="py-2 px-3">{collegeData.Rankings.NIRF2025.Overall || "—"}</td>
+                <td className="py-2 px-3">{collegeData.Rankings.NIRF2024.Overall || "—"}</td>
+                <td className="py-2 px-3">Teaching, Research, Outcomes, Outreach, Perception</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">NIRF Engineering</td>
                 <td className="py-2 px-3">Engineering Institutions</td>
-                <td className="py-2 px-3">6</td>
-                <td className="py-2 px-3">6</td>
-                <td className="py-2 px-3">Score ~72.05; consistently top‑10 for engineering</td>
-              </tr>
-              <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
-                <td className="py-2 px-3 font-medium">NIRF Architecture & Planning</td>
-                <td className="py-2 px-3">Architecture & Planning</td>
-                <td className="py-2 px-3">1</td>
-                <td className="py-2 px-3">1</td>
-                <td className="py-2 px-3">Consistently #1 in India</td>
-              </tr>
-              <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
-                <td className="py-2 px-3 font-medium">NIRF Innovation</td>
-                <td className="py-2 px-3">Innovation & Startups</td>
-                <td className="py-2 px-3">25</td>
-                <td className="py-2 px-3">25</td>
-                <td className="py-2 px-3">Recognized for a strong innovation ecosystem</td>
-              </tr>
-              <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
-                <td className="py-2 px-3 font-medium">QS World University Rankings</td>
-                <td className="py-2 px-3">Worldwide</td>
-                <td className="py-2 px-3">335</td>
+                <td className="py-2 px-3">{collegeData.Rankings.NIRF2025.Engineering || "—"}</td>
                 <td className="py-2 px-3">—</td>
-                <td className="py-2 px-3">Global research, teaching, international outlook</td>
+                <td className="py-2 px-3">Ranked among top engineering institutions</td>
               </tr>
-              <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
-                <td className="py-2 px-3 font-medium">QS Asia University Rankings</td>
-                <td className="py-2 px-3">Asia</td>
-                <td className="py-2 px-3">130</td>
-                <td className="py-2 px-3">—</td>
-                <td className="py-2 px-3">Strong among Asian technical universities</td>
-              </tr>
-              <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
-                <td className="py-2 px-3 font-medium">India Today</td>
-                <td className="py-2 px-3">Engineering (Government)</td>
-                <td className="py-2 px-3">5</td>
-                <td className="py-2 px-3">5</td>
-                <td className="py-2 px-3">Stable rank; strong teaching and research</td>
-              </tr>
-              <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
-                <td className="py-2 px-3 font-medium">THE Engineering Band</td>
-                <td className="py-2 px-3">Global</td>
-                <td className="py-2 px-3">301–400</td>
-                <td className="py-2 px-3">—</td>
-                <td className="py-2 px-3">Global competitiveness in engineering</td>
-              </tr>
-              <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
-                <td className="py-2 px-3 font-medium">ARIIA</td>
-                <td className="py-2 px-3">Innovation & Entrepreneurship</td>
-                <td className="py-2 px-3">Excellent</td>
-                <td className="py-2 px-3">—</td>
-                <td className="py-2 px-3">Awards for outstanding innovation efforts</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <h4 className="text-lg font-semibold mb-2">NIRF 2025 Scores (Overall Category)</h4>
-        <div className="overflow-x-auto mb-6">
-          <table className="w-full text-sm">
-            <thead className="bg-gray-50 text-gray-600">
-              <tr>
-                <th className="text-left py-2 px-3">Parameter</th>
-                <th className="text-left py-2 px-3">Score</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
-                <td className="py-2 px-3">Teaching Learning Resources (TLR)</td>
-                <td className="py-2 px-3">~73.06</td>
-              </tr>
-              <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
-                <td className="py-2 px-3">Research & Professional Practice (RPC)</td>
-                <td className="py-2 px-3">~72.05</td>
-              </tr>
-              <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
-                <td className="py-2 px-3">Graduation Outcomes (GO)</td>
-                <td className="py-2 px-3">~82.90</td>
-              </tr>
-              <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
-                <td className="py-2 px-3">Outreach & Inclusivity (OI)</td>
-                <td className="py-2 px-3">~64.95</td>
-              </tr>
-              <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
-                <td className="py-2 px-3">Perception</td>
-                <td className="py-2 px-3">~51.24</td>
-              </tr>
+              {collegeData.Rankings.NIRF2025.ArchitecturePlanning > 0 && (
+                <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
+                  <td className="py-2 px-3 font-medium">NIRF Architecture & Planning</td>
+                  <td className="py-2 px-3">Architecture & Planning</td>
+                  <td className="py-2 px-3">{collegeData.Rankings.NIRF2025.ArchitecturePlanning}</td>
+                  <td className="py-2 px-3">—</td>
+                  <td className="py-2 px-3">Architecture programs ranking</td>
+                </tr>
+              )}
+              {collegeData.Rankings.NIRF2024.Innovation > 0 && (
+                <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
+                  <td className="py-2 px-3 font-medium">NIRF Innovation</td>
+                  <td className="py-2 px-3">Innovation & Startups</td>
+                  <td className="py-2 px-3">—</td>
+                  <td className="py-2 px-3">{collegeData.Rankings.NIRF2024.Innovation}</td>
+                  <td className="py-2 px-3">Recognized for innovation ecosystem</td>
+                </tr>
+              )}
+              {collegeData.Rankings.QSWorld2026 > 0 && (
+                <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
+                  <td className="py-2 px-3 font-medium">QS World University Rankings</td>
+                  <td className="py-2 px-3">Worldwide</td>
+                  <td className="py-2 px-3">{collegeData.Rankings.QSWorld2026}</td>
+                  <td className="py-2 px-3">—</td>
+                  <td className="py-2 px-3">Global research, teaching, international outlook</td>
+                </tr>
+              )}
+              {collegeData.Rankings.QSAsia2025 > 0 && (
+                <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
+                  <td className="py-2 px-3 font-medium">QS Asia University Rankings</td>
+                  <td className="py-2 px-3">Asia</td>
+                  <td className="py-2 px-3">{collegeData.Rankings.QSAsia2025}</td>
+                  <td className="py-2 px-3">—</td>
+                  <td className="py-2 px-3">Strong among Asian universities</td>
+                </tr>
+              )}
+              {collegeData.Rankings.IndiaTodayEngineering2024 > 0 && (
+                <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
+                  <td className="py-2 px-3 font-medium">India Today</td>
+                  <td className="py-2 px-3">Engineering</td>
+                  <td className="py-2 px-3">{collegeData.Rankings.IndiaTodayEngineering2024}</td>
+                  <td className="py-2 px-3">—</td>
+                  <td className="py-2 px-3">Engineering ranking</td>
+                </tr>
+              )}
+              {collegeData.Rankings.THEEngineering2020Band && (
+                <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
+                  <td className="py-2 px-3 font-medium">THE Engineering Band</td>
+                  <td className="py-2 px-3">Global</td>
+                  <td className="py-2 px-3">{collegeData.Rankings.THEEngineering2020Band}</td>
+                  <td className="py-2 px-3">—</td>
+                  <td className="py-2 px-3">Global competitiveness in engineering</td>
+                </tr>
+              )}
+              {collegeData.Rankings.ARIIA2021 && (
+                <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
+                  <td className="py-2 px-3 font-medium">ARIIA</td>
+                  <td className="py-2 px-3">Innovation & Entrepreneurship</td>
+                  <td className="py-2 px-3">{collegeData.Rankings.ARIIA2021}</td>
+                  <td className="py-2 px-3">—</td>
+                  <td className="py-2 px-3">Awards for innovation efforts</td>
+                </tr>
+              )}
             </tbody>
           </table>
         </div>
 
         <p className="text-gray-700 mb-4">
-          Nationally, IIT Roorkee ranks #7 overall (NIRF 2025), #6 in engineering, and #1 in architecture & planning.
-          Internationally, it is #335 in QS World (2026) and #130 in QS Asia (2025), with THE placing engineering in the
-          301–400 band. These reflect strong academics, research, innovation, and global presence.
+          Nationally, {collegeData.Name} ranks #{collegeData.Rankings.NIRF2025.Overall} overall (NIRF 2025), #{collegeData.Rankings.NIRF2025.Engineering} in engineering. These reflect strong academics, research, innovation, and recognition across multiple disciplines.
         </p>
 
         <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-700">
@@ -1963,11 +1937,10 @@ const SOAPage: React.FC = () => {
         </div>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Understanding IIT Roorkee’s Rankings</h3>
+        <h3 className="text-2xl font-semibold mb-4">Understanding {collegeData.Name.split('(')[0].trim()}'s Rankings</h3>
         <p className="text-gray-700 mb-3">
-          Rankings reflect IIT Roorkee’s consistent performance in teaching, research output, innovation, graduate
-          outcomes, and international visibility. Nationally, the institute is among the top engineering schools; globally,
-          it features in reputed lists such as QS and THE, indicating strong competitiveness and alumni impact.
+          Rankings reflect {collegeData.Name}'s consistent performance in teaching, research output, innovation, graduate
+          outcomes, and recognition. Nationally, the university is among the top institutions; it features in reputed lists, indicating strong competitiveness and impact.
         </p>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
@@ -2214,8 +2187,7 @@ const SOAPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel Facilities</h3>
         <p className="text-gray-700 mb-3">
-          Residential life anchors the IIT Roorkee experience. With 20 hostels spanning boys, girls, married and co‑ed
-          residences, students find a safe, connected environment. Wi‑Fi connectivity, common study rooms, recreation
+          Residential life anchors the {collegeData.Name} experience. With hostels spanning {collegeData.Facilities.Hostels.Types.join(", ")} options, students find a safe, connected environment. Wi‑Fi connectivity, common study rooms, recreation
           lounges and student‑run mess committees support academic focus and community bonding in equal measure.
         </p>
         <div className="grid md:grid-cols-2 gap-6">
@@ -2255,9 +2227,9 @@ const SOAPage: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-6">
           <div className="space-y-3">
             <InfoCard label="Name" value={collegeData.Facilities.Library.Name} />
-            <InfoCard label="Area" value={`${collegeData.Facilities.Library.AreaSqFt.toLocaleString()} sq ft`} />
-            <InfoCard label="Books" value={`${collegeData.Facilities.Library.BookCount.toLocaleString()}`} />
-            <InfoCard label="E-Journals" value={`${collegeData.Facilities.Library.EJournalsCount.toLocaleString()}`} />
+            {collegeData.Facilities.Library.AreaSqFt > 0 && <InfoCard label="Area" value={`${collegeData.Facilities.Library.AreaSqFt.toLocaleString()} sq ft`} />}
+            {collegeData.Facilities.Library.BookCount > 0 && <InfoCard label="Books" value={`${collegeData.Facilities.Library.BookCount.toLocaleString()}`} />}
+            {collegeData.Facilities.Library.EJournalsCount > 0 && <InfoCard label="E-Journals" value={`${collegeData.Facilities.Library.EJournalsCount.toLocaleString()}`} />}
           </div>
           
           <div>
@@ -2397,9 +2369,9 @@ const SOAPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength, Research Culture & Global Collaborations</h3>
         <p className="text-gray-700 mb-3">
-          IIT Roorkee’s faculty and research ecosystem is among the strongest in India. With <strong>470+</strong> faculty
-          across <strong>23 departments</strong>, the institute sustains a robust, interdisciplinary environment spanning
-          fundamental sciences, engineering, and emerging domains. Faculty drive national missions, global partnerships,
+          {collegeData.Name}'s faculty and research ecosystem is among the strongest in the region. With <strong>{collegeData.FacultyAndDepartments.Strength.FacultyCount}+</strong> faculty
+          across <strong>multiple departments and institutes</strong>, the university sustains a robust, interdisciplinary environment spanning
+          fundamental sciences, engineering, medicine, and emerging domains. Faculty drive research missions, partnerships,
           and translational research impacting both industry and society.
         </p>
 
@@ -2448,7 +2420,7 @@ const SOAPage: React.FC = () => {
         <p className="text-gray-700 mb-3">
           Most faculty members hold doctorates from IITs, IISc, or global universities (Cambridge, ETH Zurich, MIT).
           Growth areas include the Department of Design Innovation and interdisciplinary centers like Biomedical
-          Engineering, reflecting IIT Roorkee’s future‑oriented academic model.
+          Engineering, reflecting {collegeData.Name.split('(')[0].trim()}'s future‑oriented academic model.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Key Research Centers and Specializations</h4>
@@ -2564,16 +2536,16 @@ const SOAPage: React.FC = () => {
         <h4 className="text-lg font-semibold mt-3 mb-2">Research Funding & Recognition</h4>
         <p className="text-gray-700">
           Funding sources include the Ministry of Education, DST, CSIR, DBT, ISRO, and international grants. Award‑winning
-          innovations span renewable energy, disaster mitigation, and AI‑assisted healthcare. IIT Roorkee balances academic
-          rigor with national priorities and global partnerships, making it one of India’s most research‑driven academic
+          innovations span engineering research, medical sciences, pharmaceutical research, and interdisciplinary work. {collegeData.Name} balances academic
+          rigor with national priorities and partnerships, making it one of the region's most research‑driven academic
           communities.
         </p>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength & Research Culture</h3>
         <p className="text-gray-700 mb-3">
-          With a large cohort of accomplished faculty across departments, IIT Roorkee sustains a vibrant research
-          ecosystem. Faculty members publish in leading venues, attract substantial research funding, and mentor student
+          With a large cohort of accomplished faculty across departments, {collegeData.Name} sustains a vibrant research
+          ecosystem. Faculty members publish in leading venues, attract research funding, and mentor student
           teams that participate in national and international competitions.
         </p>
         <div className="overflow-x-auto">
@@ -2708,9 +2680,9 @@ const SOAPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student & Alumni Perspectives on {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Established in 1847 (as Thomason College of Civil Engineering), IIT Roorkee is widely regarded as a premier
-          engineering and technology institution. Reviews consistently highlight a rigorous academic atmosphere, world‑class
-          faculty, and a highly competitive peer network set against a vibrant, historic campus.
+          Established in {collegeData.Established.Year} as {collegeData.Established.OriginalName}, {collegeData.Name} is widely regarded as a premier
+          multi-disciplinary university. Reviews consistently highlight a rigorous academic atmosphere, experienced
+          faculty, and a vibrant peer network set against a modern campus.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Expanded Student and Alumni Perspectives</h4>
@@ -2753,7 +2725,7 @@ const SOAPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mb-2">Return on Investment & Prestige</h4>
         <p className="text-gray-700 mb-4">
-          With comparatively low fees and strong outcomes, ROI is considered excellent. The IIT Roorkee brand has global
+          With affordable fees and strong outcomes, ROI is considered good. The {collegeData.Name.split('(')[0].trim()} brand has
           recognition; alumni progress into leadership roles across industry, academia, and public service.
         </p>
 

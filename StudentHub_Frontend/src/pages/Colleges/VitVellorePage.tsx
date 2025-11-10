@@ -890,7 +890,7 @@ const VitVellorePage: React.FC = () => {
       {/* Student Life & Culture */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student Life & Campus Culture</h3>
-        <p className="text-gray-700 mb-6">The vibrant campus life at IIT Roorkee is characterized by a diverse community, rich cultural traditions, and numerous opportunities for personal and professional growth through clubs, societies, and events.</p>
+        <p className="text-gray-700 mb-6">The vibrant campus life at VIT Vellore is characterized by a diverse community, rich cultural traditions, and numerous opportunities for personal and professional growth through clubs, societies, and events. {collegeData.About.StudentStrength}</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -972,7 +972,7 @@ const VitVellorePage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Undergraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          IIT Roorkee's undergraduate offerings are designed to build a strong foundation in core disciplines while
+          {collegeData.About.Overview} VIT Vellore's undergraduate offerings are designed to build a strong foundation in core disciplines while
           introducing students to cutting-edge technologies and interdisciplinary learning. With competitive intake,
           structured curricula, modern laboratories, and active industry projects, students graduate with both theoretical
           depth and hands-on problem-solving skills. The programs emphasize fundamentals, design thinking, and professional
@@ -1106,7 +1106,7 @@ const VitVellorePage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Postgraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          The postgraduate ecosystem at IIT Roorkee is research-driven and industry-aligned. Programs in engineering,
+          The postgraduate ecosystem at VIT Vellore is research-driven and industry-aligned. Programs in engineering,
           management, and sciences emphasize advanced coursework, electives in emerging areas, and strong thesis/project
           components. Students benefit from funded research labs, innovation centers, and frequent industry seminars.
         </p>
@@ -1241,7 +1241,7 @@ const VitVellorePage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel & Accommodation</h3>
         <p className="text-gray-700 mb-4">
-          Hostel life at IIT Roorkee is known for its vibrant culture and supportive community. With modern rooms, study
+          Hostel life at VIT Vellore is known for its vibrant culture and supportive community. With modern rooms, study
           areas, and recreational spaces, students find a conducive environment for personal growth. Residential living
           also fosters collaboration across programs through clubs, intramurals, and cultural festivals.
         </p>
@@ -1260,42 +1260,36 @@ const VitVellorePage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Admissions at {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at <strong>IIT Roorkee</strong> are among the most merit-centric and transparent in Indian higher
-          education, governed by national-level examinations and centralized counseling platforms. The system ensures
-          nationwide participation while adhering to Central Government reservation policies for SC, ST, OBC‑NCL, EWS,
-          and PwD categories. Processes vary across undergraduate, postgraduate, and doctoral levels—each emphasizing
+          Admissions at <strong>VIT Vellore</strong> are merit-centric and transparent, governed by the VIT Engineering Entrance Examination (VITEEE) and other national-level examinations. The system ensures
+          nationwide participation while maintaining a purely merit-based approach. {collegeData.AdmissionProcessAndEntranceExams.ReservationPolicy} Processes vary across undergraduate, postgraduate, and doctoral levels—each emphasizing
           academic rigor, exam performance, and interviews or research assessments where applicable.
         </p>
 
-        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of IIT Roorkee’s Admission Framework</h4>
+        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of VIT Vellore's Admission Framework</h4>
         <p className="text-gray-700 mb-3">
-          Founded in 1847 and converted into an IIT in 2001, IIT Roorkee structures admissions to maintain academic
-          excellence and equitable access. All admissions—through <strong>JEE Advanced, GATE, CAT, JAM,</strong> or
-          <strong> UCEED</strong>—are aligned to centralized systems managed by national bodies such as
-          <strong> JoSAA</strong>, <strong>COAP</strong>, and respective coordination portals.
+          Founded in {collegeData.Established.Year} (as {collegeData.Established.OriginalName}), VIT Vellore structures admissions to maintain academic
+          excellence and equitable access. All admissions—through <strong>VITEEE, GATE, CAT, MAT, XAT, NMAT,</strong> or
+          <strong> NATA</strong>—are aligned to centralized systems managed by VIT and respective coordination portals.
           The core goal is to align candidate merit (exam performance) with program preferences, seat availability, and
-          category-based reservations. Shortlisted candidates later verify documents and eligibility at the institute.
+          scholarship opportunities. Shortlisted candidates later verify documents and eligibility at the institute.
         </p>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Undergraduate Admissions</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-          <li><strong>B.Tech & B.Arch:</strong> JEE Advanced + centralized counseling via <strong>JoSAA</strong>.</li>
-          <li><strong>B.Arch:</strong> Also requires qualifying the <strong>AAT (Architecture Aptitude Test)</strong>.</li>
-          <li><strong>B.Des:</strong> Admission via <strong>UCEED</strong> with centralized counseling.</li>
+          <li><strong>B.Tech:</strong> {collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Exam} + centralized counseling via <strong>VIT Counselling</strong>.</li>
+          <li><strong>B.Arch:</strong> Also requires qualifying the <strong>NATA (National Aptitude Test in Architecture)</strong>.</li>
+          <li><strong>B.Des:</strong> Admission process as per VIT guidelines.</li>
         </ul>
         <p className="text-gray-700 mt-2">
-          <span className="font-medium">Recent Cutoffs (2025 Approx.):</span> B.Tech CSE – AIR 535; Data Science & AI – AIR 710; ECE – AIR 1394;
-          Electrical – AIR 1752; Mechanical – AIR 1900; Civil – AIR 2175; B.Arch (AAT) – Rank 16,596; B.Des General – AIR 111
-          (OBC – AIR 56). Admissions are finalized over multiple JoSAA rounds; seats can fluctuate due to withdrawals and
-          category shifts.
+          <span className="font-medium">Recent Cutoffs (2025 Approx.):</span> {collegeData.CutoffInformation.AdditionalDetails} Admissions are finalized over multiple VITEEE rounds; seats can fluctuate based on merit and availability.
         </p>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Postgraduate Admissions</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-          <li><strong>M.Tech, M.Arch, M.Plan, M.Des:</strong> Primarily through <strong>GATE</strong> with offers handled via <strong>COAP</strong>.
+          <li><strong>M.Tech, M.Arch, M.Plan, M.Des:</strong> Primarily through <strong>GATE</strong> with offers handled via <strong>VIT Counselling</strong>.
             Some departments may conduct interviews or portfolio reviews.</li>
-          <li><strong>MBA:</strong> Based on <strong>CAT</strong> percentile followed by <strong>GD/PI</strong>. Indicative cutoffs: General – 94%, OBC – 74.5%, SC/ST – 65%.</li>
-          <li><strong>M.Sc & Integrated Programs:</strong> Admission through <strong>IIT JAM</strong> with counseling via JOAPS.</li>
+          <li><strong>MBA:</strong> Based on <strong>{collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.Exam}</strong> percentile followed by <strong>GD/PI</strong>.</li>
+          <li><strong>M.Sc:</strong> Admission through <strong>VIT Entrance Test</strong> with counseling via VIT.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Doctoral Admissions (PhD)</h4>
@@ -1308,23 +1302,22 @@ const VitVellorePage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Counseling Mechanisms</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-          <li><strong>JoSAA:</strong> Manages nationwide B.Tech/B.Arch seat allocation for all IITs.</li>
-          <li><strong>COAP:</strong> Coordinates M.Tech seat offers across IITs.</li>
-          <li><strong>UCEED/JAM Portals:</strong> Centralized counseling for Design and M.Sc programs respectively.</li>
+          <li><strong>VIT Counselling:</strong> Manages nationwide B.Tech/B.Arch seat allocation for VIT campuses.</li>
+          <li><strong>VIT Counselling:</strong> Coordinates M.Tech seat offers across VIT campuses.</li>
+          <li><strong>VIT Entrance Test:</strong> Centralized counseling for M.Sc and other programs.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Reservation Policy & Verification</h4>
         <p className="text-gray-700 mb-2">
-          Reservations strictly follow Central Government norms: OBC‑NCL 27%, SC 15%, ST 7.5%, EWS 10%, and PwD 5%
-          horizontal reservation. Candidates must produce original certificates at the time of admission verification; failure
+          {collegeData.AdmissionProcessAndEntranceExams.ReservationPolicy} Candidates must produce original certificates at the time of admission verification; failure
           results in cancellation of provisional admission.
         </p>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Eligibility & Application Modes</h4>
         <p className="text-gray-700 mb-2">
-          Applications are <strong>online</strong> through official national or IIT-specific portals: JEE Advanced → jeeadv.ac.in; GATE →
-          gate.iitr.ac.in; CAT → iimcat.ac.in; JAM/UCEED → respective organizing IIT websites. Foreign nationals and NRIs may
-          apply via <strong>DASA</strong> or <strong>ICCR scholarships</strong> with separate eligibility and fee structures.
+          Applications are <strong>online</strong> through {collegeData.AdmissionProcessAndEntranceExams.ApplicationMode}: VITEEE → vit.ac.in; GATE →
+          gate.iitr.ac.in; CAT/MAT/XAT/NMAT → respective websites. Foreign nationals and NRIs may
+          apply with separate eligibility and fee structures.
         </p>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Key Insights on Admission Trends</h4>
@@ -1337,16 +1330,16 @@ const VitVellorePage: React.FC = () => {
         </ul>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at IIT Roorkee</h3>
+        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at VIT Vellore</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at IIT Roorkee are highly structured and merit-driven. Each program is tied to a national-level
-          examination with carefully defined counseling processes, category-based reservations, and institute-level
+          Admissions at VIT Vellore are highly structured and merit-driven. Each program is tied to a national-level
+          examination with carefully defined counseling processes, merit-based selection, and institute-level
           verification. Shortlisted candidates typically proceed through centralized counseling where seat allotments are
           made based on rank, preferences, and availability.
         </p>
         <p className="text-gray-700">
-          Undergraduate entries are primarily via JEE Advanced followed by JoSAA. Postgraduate programs rely on GATE,
-          CAT, JAM and institute processes, while PhD admissions combine national tests with interviews and research
+          Undergraduate entries are primarily via VITEEE followed by VIT Counselling. Postgraduate programs rely on GATE,
+          CAT, MAT, XAT, NMAT and institute processes, while PhD admissions combine VIT Entrance Test with interviews and research
           proposals. Below is a compact view of typical entry routes and recent indicative cutoffs.
         </p>
         <div className="overflow-x-auto mt-4">
@@ -1516,17 +1509,17 @@ const VitVellorePage: React.FC = () => {
   const renderPlacementsTab = () => (
     <div id="placements-root" className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Why Placements at IIT Roorkee Stand Out</h3>
+        <h3 className="text-2xl font-semibold mb-4">Why Placements at VIT Vellore Stand Out</h3>
         <p className="text-gray-700 mb-3">
-          IIT Roorkee’s placement ecosystem blends academic rigor, early skill development, industry exposure, and a
+          VIT Vellore's placement ecosystem blends academic rigor, early skill development, industry exposure, and a
           powerful alumni network—resulting in consistently high packages and diverse global opportunities. Students are
           groomed to excel in high‑pressure, real‑world environments, not just to crack interviews.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Institutional Strengths Driving Placements</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1 mb-4">
-          <li><strong>Established Global Reputation</strong> with recruiters tracking IITR’s talent pool annually.</li>
-          <li><strong>Diverse Recruiter Base</strong> (~170 companies across tech, consulting, finance, analytics, R&D, core).</li>
+          <li><strong>Established Global Reputation</strong> with recruiters tracking VIT Vellore's talent pool annually.</li>
+          <li><strong>Diverse Recruiter Base</strong> ({collegeData.Placements.Year2024.Recruiters} companies across tech, consulting, finance, analytics, R&D, core).</li>
           <li><strong>Premier Alumni Network</strong> in FAANG, Wall Street, consulting majors, semiconductor giants, and labs.</li>
         </ul>
 
@@ -1550,23 +1543,23 @@ const VitVellorePage: React.FC = () => {
             <tbody>
               <tr>
                 <td className="py-2 pr-4 font-medium">Total Offers</td>
-                <td className="py-2">805 (near 100% for eligible students)</td>
+                <td className="py-2">{collegeData.Placements.Year2024.TotalOffers} (near 100% for eligible students)</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Highest Package</td>
-                <td className="py-2">₹20.5 Cr (international)</td>
+                <td className="py-2">{formatCurrency(collegeData.Placements.Year2024.HighestPackageINR)} (international)</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Average Package</td>
-                <td className="py-2">₹19.6 L overall; CSE ~₹34.0 L; ECE ~₹30.8 L</td>
+                <td className="py-2">{formatCurrency(collegeData.Placements.Year2024.OverallAveragePackageINR)} overall; CSE ~{formatCurrency(collegeData.Placements.Year2024.CSEAveragePackageINR)}; ECE ~{formatCurrency(collegeData.Placements.Year2024.ECEAveragePackageINR)}</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Domestic Highest</td>
-                <td className="py-2">₹1.2 Cr</td>
+                <td className="py-2">{formatCurrency(collegeData.Placements.Year2024.HighestDomesticPackageINR)}</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">PPOs</td>
-                <td className="py-2">155</td>
+                <td className="py-2">{collegeData.Placements.Year2024.PPOs || 'N/A'}</td>
               </tr>
             </tbody>
           </table>
@@ -1606,7 +1599,7 @@ const VitVellorePage: React.FC = () => {
                 </tr>
                 <tr className="hover:bg-gray-50">
                 <td className="py-2 pr-4 font-medium">2024</td>
-                <td className="py-2">Avg ~₹20L; Intl highest ₹2.05 Cr; Domestic highest ₹1.2 Cr; CSE &gt;₹34L</td>
+                <td className="py-2">Avg {formatCurrency(collegeData.Placements.Year2024.OverallAveragePackageINR)}; Intl highest {formatCurrency(collegeData.Placements.Year2024.HighestPackageINR)}; Domestic highest {formatCurrency(collegeData.Placements.Year2024.HighestDomesticPackageINR)}; CSE {formatCurrency(collegeData.Placements.Year2024.CSEAveragePackageINR)}; {collegeData.Placements.Year2024.Recruiters} recruiters; {collegeData.Placements.Year2024.TotalOffers} offers</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                 <td className="py-2 pr-4 font-medium">2023</td>
@@ -1800,10 +1793,10 @@ const VitVellorePage: React.FC = () => {
     <div id="rankings-root" className="space-y-6">
       {/* Rankings Narrative and Consolidated Tables (user-provided) */}
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">IIT Roorkee Rankings & Recognition</h3>
+        <h3 className="text-2xl font-semibold mb-4">VIT Vellore Rankings & Recognition</h3>
         <p className="text-gray-700 mb-4">
-          IIT Roorkee is consistently ranked among India’s top institutions and continues to strengthen its global
-          standing. The institute’s performance across teaching quality, research output, graduate outcomes, outreach,
+          VIT Vellore is consistently ranked among India's top institutions and continues to strengthen its global
+          standing. The institute's performance across teaching quality, research output, graduate outcomes, outreach,
           and perception is reflected in leading national and international ranking frameworks.
         </p>
 
@@ -1822,42 +1815,42 @@ const VitVellorePage: React.FC = () => {
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">NIRF Overall</td>
                 <td className="py-2 px-3">Overall Institution</td>
-                <td className="py-2 px-3">7</td>
-                <td className="py-2 px-3">8</td>
-                <td className="py-2 px-3">Score ~73.06; Teaching, Research, Outcomes, Outreach, Perception</td>
+                <td className="py-2 px-3">{collegeData.Rankings.NIRF2025.Overall}</td>
+                <td className="py-2 px-3">{collegeData.Rankings.NIRF2024.Overall}</td>
+                <td className="py-2 px-3">Teaching, Research, Outcomes, Outreach, Perception</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">NIRF Engineering</td>
                 <td className="py-2 px-3">Engineering Institutions</td>
-                <td className="py-2 px-3">6</td>
-                <td className="py-2 px-3">6</td>
-                <td className="py-2 px-3">Score ~72.05; consistently top‑10 for engineering</td>
+                <td className="py-2 px-3">{collegeData.Rankings.NIRF2025.Engineering}</td>
+                <td className="py-2 px-3">—</td>
+                <td className="py-2 px-3">Consistently top-ranked for engineering</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">NIRF Architecture & Planning</td>
                 <td className="py-2 px-3">Architecture & Planning</td>
-                <td className="py-2 px-3">1</td>
-                <td className="py-2 px-3">1</td>
-                <td className="py-2 px-3">Consistently #1 in India</td>
+                <td className="py-2 px-3">{collegeData.Rankings.NIRF2025.ArchitecturePlanning || '—'}</td>
+                <td className="py-2 px-3">—</td>
+                <td className="py-2 px-3">Recognized for architecture programs</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">NIRF Innovation</td>
                 <td className="py-2 px-3">Innovation & Startups</td>
-                <td className="py-2 px-3">25</td>
-                <td className="py-2 px-3">25</td>
+                <td className="py-2 px-3">{collegeData.Rankings.NIRF2024.Innovation || '—'}</td>
+                <td className="py-2 px-3">—</td>
                 <td className="py-2 px-3">Recognized for a strong innovation ecosystem</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">QS World University Rankings</td>
                 <td className="py-2 px-3">Worldwide</td>
-                <td className="py-2 px-3">335</td>
+                <td className="py-2 px-3">{collegeData.Rankings.QSWorld2026 || '—'}</td>
                 <td className="py-2 px-3">—</td>
                 <td className="py-2 px-3">Global research, teaching, international outlook</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">QS Asia University Rankings</td>
                 <td className="py-2 px-3">Asia</td>
-                <td className="py-2 px-3">130</td>
+                <td className="py-2 px-3">{collegeData.Rankings.QSAsia2025 || '—'}</td>
                 <td className="py-2 px-3">—</td>
                 <td className="py-2 px-3">Strong among Asian technical universities</td>
               </tr>
@@ -1921,9 +1914,8 @@ const VitVellorePage: React.FC = () => {
         </div>
 
         <p className="text-gray-700 mb-4">
-          Nationally, IIT Roorkee ranks #7 overall (NIRF 2025), #6 in engineering, and #1 in architecture & planning.
-          Internationally, it is #335 in QS World (2026) and #130 in QS Asia (2025), with THE placing engineering in the
-          301–400 band. These reflect strong academics, research, innovation, and global presence.
+          Nationally, VIT Vellore ranks #{collegeData.Rankings.NIRF2025.Overall} overall (NIRF 2025), #{collegeData.Rankings.NIRF2025.Engineering} in engineering.
+          Internationally, it is #{collegeData.Rankings.QSWorld2026} in QS World (2026) and #{collegeData.Rankings.QSAsia2025 || '—'} in QS Asia (2025). These reflect strong academics, research, innovation, and global presence.
         </p>
 
         <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-700">
@@ -1944,9 +1936,9 @@ const VitVellorePage: React.FC = () => {
         </div>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Understanding IIT Roorkee’s Rankings</h3>
+        <h3 className="text-2xl font-semibold mb-4">Understanding VIT Vellore's Rankings</h3>
         <p className="text-gray-700 mb-3">
-          Rankings reflect IIT Roorkee’s consistent performance in teaching, research output, innovation, graduate
+          Rankings reflect VIT Vellore's consistent performance in teaching, research output, innovation, graduate
           outcomes, and international visibility. Nationally, the institute is among the top engineering schools; globally,
           it features in reputed lists such as QS and THE, indicating strong competitiveness and alumni impact.
         </p>
@@ -2195,7 +2187,7 @@ const VitVellorePage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel Facilities</h3>
         <p className="text-gray-700 mb-3">
-          Residential life anchors the IIT Roorkee experience. With 20 hostels spanning boys, girls, married and co‑ed
+          Residential life anchors the VIT Vellore experience. With {collegeData.Facilities.Hostels.Number} hostels spanning boys and girls
           residences, students find a safe, connected environment. Wi‑Fi connectivity, common study rooms, recreation
           lounges and student‑run mess committees support academic focus and community bonding in equal measure.
         </p>
@@ -2378,8 +2370,8 @@ const VitVellorePage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength, Research Culture & Global Collaborations</h3>
         <p className="text-gray-700 mb-3">
-          IIT Roorkee’s faculty and research ecosystem is among the strongest in India. With <strong>470+</strong> faculty
-          across <strong>23 departments</strong>, the institute sustains a robust, interdisciplinary environment spanning
+          VIT Vellore's faculty and research ecosystem is among the strongest in India. With <strong>{collegeData.FacultyAndDepartments.Strength.FacultyCount}+</strong> faculty
+          across <strong>{collegeData.FacultyAndDepartments.DepartmentsCount} departments</strong>, the institute sustains a robust, interdisciplinary environment spanning
           fundamental sciences, engineering, and emerging domains. Faculty drive national missions, global partnerships,
           and translational research impacting both industry and society.
         </p>
@@ -2428,8 +2420,7 @@ const VitVellorePage: React.FC = () => {
         <h4 className="text-lg font-semibold mb-2">Faculty Composition & Academic Leadership</h4>
         <p className="text-gray-700 mb-3">
           Most faculty members hold doctorates from IITs, IISc, or global universities (Cambridge, ETH Zurich, MIT).
-          Growth areas include the Department of Design Innovation and interdisciplinary centers like Biomedical
-          Engineering, reflecting IIT Roorkee’s future‑oriented academic model.
+          Growth areas include interdisciplinary centers and research labs, reflecting VIT Vellore's future‑oriented academic model.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Key Research Centers and Specializations</h4>
@@ -2545,15 +2536,15 @@ const VitVellorePage: React.FC = () => {
         <h4 className="text-lg font-semibold mt-3 mb-2">Research Funding & Recognition</h4>
         <p className="text-gray-700">
           Funding sources include the Ministry of Education, DST, CSIR, DBT, ISRO, and international grants. Award‑winning
-          innovations span renewable energy, disaster mitigation, and AI‑assisted healthcare. IIT Roorkee balances academic
-          rigor with national priorities and global partnerships, making it one of India’s most research‑driven academic
+          innovations span renewable energy, disaster mitigation, and AI‑assisted healthcare. VIT Vellore balances academic
+          rigor with national priorities and global partnerships, making it one of India's most research‑driven academic
           communities.
         </p>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength & Research Culture</h3>
         <p className="text-gray-700 mb-3">
-          With a large cohort of accomplished faculty across departments, IIT Roorkee sustains a vibrant research
+          With a large cohort of accomplished faculty across departments, VIT Vellore sustains a vibrant research
           ecosystem. Faculty members publish in leading venues, attract substantial research funding, and mentor student
           teams that participate in national and international competitions.
         </p>
@@ -2689,17 +2680,17 @@ const VitVellorePage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student & Alumni Perspectives on {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Established in 1847 (as Thomason College of Civil Engineering), IIT Roorkee is widely regarded as a premier
+          Established in {collegeData.Established.Year} (as {collegeData.Established.OriginalName}), VIT Vellore is widely regarded as a premier
           engineering and technology institution. Reviews consistently highlight a rigorous academic atmosphere, world‑class
-          faculty, and a highly competitive peer network set against a vibrant, historic campus.
+          faculty, and a highly competitive peer network set against a vibrant, modern campus.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Expanded Student and Alumni Perspectives</h4>
         <p className="text-gray-700 mb-3">
           Students appreciate both theoretical depth and practical exposure through seminars, industry collaborations, and
           research projects. Peer culture is motivating; hostel life is community‑oriented with strong participation in
-          technical societies and cultural clubs. Flagship fests like <em>Cognizance</em> (tech) and <em>Thomso</em>
-          (cultural) build leadership and event management skills. While demanding, the curriculum’s rigor pays dividends
+          technical societies and cultural clubs. Flagship fests like <em>Gravitas</em> (tech) and <em>Riviera</em>
+          (cultural) build leadership and event management skills. While demanding, the curriculum's rigor pays dividends
           for competitive exams, higher studies abroad, and corporate roles.
         </p>
 
@@ -2720,9 +2711,9 @@ const VitVellorePage: React.FC = () => {
         <h4 className="text-lg font-semibold mb-2">Cultural & Co‑Curricular Life</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1 mb-3">
           <li><strong>Technical societies</strong> (IEEE, ASME, robotics) build applied skills.</li>
-          <li><strong>Sports</strong> culture features inter‑IIT participation and extensive facilities.</li>
+          <li><strong>Sports</strong> culture features extensive participation and facilities.</li>
           <li><strong>Arts & literature</strong> clubs run debates, music, dramatics, and publications.</li>
-          <li><strong>Festivals</strong> like Thomso draw national attention and celebrity line‑ups.</li>
+          <li><strong>Festivals</strong> like Riviera and Gravitas draw national attention and celebrity line‑ups.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mb-2">Areas That See Regular Debate</h4>
@@ -2734,7 +2725,7 @@ const VitVellorePage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mb-2">Return on Investment & Prestige</h4>
         <p className="text-gray-700 mb-4">
-          With comparatively low fees and strong outcomes, ROI is considered excellent. The IIT Roorkee brand has global
+          With competitive fees and strong outcomes, ROI is considered excellent. The VIT Vellore brand has global
           recognition; alumni progress into leadership roles across industry, academia, and public service.
         </p>
 
@@ -2780,7 +2771,7 @@ const VitVellorePage: React.FC = () => {
   const renderContactTab = () => (
     <div className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Contacting IIT Roorkee Effectively</h3>
+        <h3 className="text-2xl font-semibold mb-4">Contacting VIT Vellore Effectively</h3>
         <p className="text-gray-700 mb-3">
           For admissions and program-specific queries, use official channels and include your application details (name,
           application ID, program, and question) for faster responses. For urgent issues, phone lines and the institute

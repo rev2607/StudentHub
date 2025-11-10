@@ -1,0 +1,163 @@
+{
+  "College Name": "NIT Kurukshetra",
+  "Overview": {
+    "Introduction": "National Institute of Technology Kurukshetra (NIT Kurukshetra) is a premier technical institute established in 1963 as a Regional Engineering College and converted to an NIT in 2002. It is located in Kurukshetra, Haryana and recognized as an Institute of National Importance.",[1][2]
+    "Historical Narrative": "NIT Kurukshetra was established to meet the educational demands of northern India and has grown to offer undergraduate, postgraduate, and doctoral programs in engineering, sciences, and management. Accredited and renowned for its academic rigour and research output.",[3]
+    "Vision and Mission": "To develop skilled professionals with ethical values, contribute to knowledge through research and innovation, and support societal development through technology.",[2]
+    "Academic Structure": "The institute offers B.Tech degrees in 7 engineering branches, M.Tech in 22 specializations, MBA, MCA, and Ph.D. programs in engineering, sciences, humanities and social sciences. The curriculum emphasizes hands-on learning, interdisciplinary exposure and research projects.",[4][1]
+    "Student Life": "A vibrant campus culture with annual cultural and technical festivals, various student clubs, sports facilities, and hostels supporting a collaborative learning environment.",[5][1]
+    "Diversity": "Students from all parts of India, with provisions for foreign students through DASA, fostering a multicultural environment.",[3]
+    "Research and Innovation": "Active research centers with focus areas like data science, AI, robotics, materials engineering, with numerous publications and patents.",[6][7]
+    "Community Engagement": "Engages in outreach programs for rural development, environmental sustainability, and technology-based social initiatives.",
+    "Governance": "Directed by a Board of Governors and the Director with various academic and administrative bodies overseeing institute operations.",
+    "Unique Features": [
+      "One of the oldest NITs with a strong regional and national presence",
+      "Robust research and teaching faculty",
+      "Diverse multidisciplinary academic offerings",
+      "Strong industry and alumni networks"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      {
+        "UG": [
+          "B.Tech in Civil, Computer Engineering, Electrical Engineering, Electronics & Communication, Mechanical Engineering, Production & Industrial Engineering, and Information Technology."
+        ],
+        "PG": [
+          "M.Tech in multiple specializations",
+          "MBA",
+          "MCA",
+          "Ph.D in engineering, sciences and humanities"
+        ]
+      }
+    ],
+    "Fee Structure": {
+      "B.Tech": "Approx. INR 125,000 per year",
+      "M.Tech": "Approx. INR 65,000 per year",
+      "MBA": "Approx. INR 140,000 per year",
+      "MCA": "Approx. INR 90,000 per year",
+      "Ph.D": "Approx. INR 60,000 per year",
+      "Hostel Fee": "Included in tuition or separate nominal",
+      "Fee Table": [
+        "| Course    | Annual Fee (INR) |",
+        "|-----------|------------------|",
+        "| B.Tech    | 125,000          |",
+        "| M.Tech    | 65,000           |",
+        "| MBA       | 1,40,000         |",
+        "| MCA       | 90,000           |",
+        "| Ph.D      | 60,000           |"
+      ],
+      "Scholarships": "Multiple scholarships available for merit and need-based students including SC/ST, EWS reservations."
+    }
+  },
+  "Admissions": {
+    "Overview": "Admissions conducted through national level exams. UG through JEE Main and JoSAA counseling, PG through GATE and CCMT, MBA through CAT/MAT, MCA through NIMCET, and Ph.D through institute-level procedures.",[8]
+    "UG Admissions": [
+      "Based on JEE Main rank and JoSAA counseling.",
+      "Eligibility: 10+2 in Science stream with minimum qualifying marks."
+    ],
+    "PG Admissions": [
+      "M.Tech via GATE and CCMT counseling.",
+      "MBA through CAT or MAT.",
+      "MCA through NIMCET."
+    ],
+    "Ph.D Admissions": [
+      "Entrance test and interview conducted by the institute.",
+      "Eligibility: Master’s degree in relevant discipline."
+    ],
+    "Admission Steps": [
+      "Qualify and register for relevant entrance exam.",
+      "Participate in centralized counseling and seat allotment.",
+      "Document verification and fee submission."
+    ]
+  },
+  "Placements": {
+    "Placement Highlights": [
+      "Placement rate around 83% for B.Tech in 2024 with over 700 offers made to 664 registered students.",[9]
+      "Highest package reported at INR 51 LPA.",
+      "Average package approx INR 14 LPA.",
+      "Notable recruiters include Tata, Infosys, Wipro, Reliance, L&T and more.",
+      "Good internship opportunities and pre-placement training offered."
+    ],
+    "Branch wise Placements": [
+      "| Branch              | Placement % | Highest Package (INR LPA) | Average Package |",
+      "|---------------------|-------------|---------------------------|-----------------|",
+      "| Computer Engineering | 90%         | 51                        | 19.5            |",
+      "| Mechanical Engg     | 85%         | 24                        | 11              |",
+      "| Electrical Engg     | 86%         | 27                        | 12              |"
+    ]
+  },
+  "Rankings": {
+    "NIRF": {
+      "Engineering": 81,
+      "2024": "Ranked 81st among engineering institutions in India."[3]
+    },
+    "Additional": [
+      "Among top 10 NITs nationally based on performance.",
+      "Known for strong research and teaching standards."
+    ]
+  },
+  "Facilities": {
+    "Academic": [
+      "Well-equipped labs, digital library, seminar halls",
+      "Dedicated computer centers and research facilities"
+    ],
+    "Hostel": [
+      "Multiple boys and girls hostels with modern amenities",
+      "Mess facilities and recreational areas"
+    ],
+    "Sports": [
+      "Facilities for cricket, football, badminton, and indoor games",
+      "Gymnasium and sports complex"
+    ],
+    "Medical and Banking": [
+      "On-campus medical center and dispensary",
+      "Banking and ATM facilities"
+    ]
+  },
+  "Faculty": {
+    "Overview": "Experienced and qualified faculty team with PhDs and industry experience across departments.",[7]
+    "Teaching": "Combination of theory, practicals, research projects, and student mentoring.",
+    "Research": "Faculty actively involved in funded projects and publications."
+  },
+  "Reviews": {
+    "Student Feedback": [
+      "Faculty described as friendly and approachable with strong domain expertise.",[10][5]
+      "Good placement opportunities especially in core branches.",
+      "Campus life is active with good infrastructure but some hostel maintenance concerns.",
+      "Overall positive student experience regarding academics and extracurriculars."
+    ]
+  },
+  "Contact": {
+    "Address": "National Institute of Technology Kurukshetra, Kurukshetra, Haryana - 136119",
+    "Phone": "+91-1744-238300, +91-1744-238301",
+    "Email": "registrar@nitkkr.ac.in",
+    "Website": "https://nitkkr.ac.in",
+    "Social Media": {
+      "Facebook": "facebook.com/NITKKR",
+      "Twitter": "twitter.com/nitkurukshetra",
+      "LinkedIn": "linkedin.com/school/nit-kurukshetra"
+    }
+  }
+}
+
+[1](https://nitkkr.ac.in/training-placement/)
+[2](https://nitkkr.ac.in/vision/)
+[3](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Kurukshetra)
+[4](https://www.careers360.com/university/national-institute-of-technology-kurukshetra/courses)
+[5](https://www.collegedekho.com/colleges/nit-kurukshetra-reviews)
+[6](https://byjus.com/jee/nit-kurukshetra/)
+[7](https://nitkkr.ac.in/faculty-11/)
+[8](https://www.shiksha.com/college/nit-kurukshetra-national-institute-of-technology-23159/admission)
+[9](https://www.shiksha.com/college/nit-kurukshetra-national-institute-of-technology-23159/placement)
+[10](https://collegedunia.com/university/25540-national-institute-of-technology-nit-kurukshetra/reviews)
+[11](https://nitkkr.ac.in)
+[12](https://www.shiksha.com/college/nit-kurukshetra-national-institute-of-technology-23159)
+[13](https://www.careers360.com/university/national-institute-of-technology-kurukshetra/facilities)
+[14](https://www.selectyouruniversity.com/college/national-institute-of-technology-nit-kurukshetra-cid-25540)
+[15](https://collegedunia.com/university/25540-national-institute-of-technology-nit-kurukshetra/admission)
+[16](https://education.indianexpress.com/university/nit-kurukshetra-national-institute-of-technology-placements)
+[17](https://www.careers360.com/university/national-institute-of-technology-kurukshetra)
+[18](https://www.shiksha.com/college/nit-kurukshetra-national-institute-of-technology-23159/infrastructure)
+[19](https://nitkkr.ac.in/faculty/)
+[20](https://www.shiksha.com/college/nit-kurukshetra-national-institute-of-technology-23159/reviews)

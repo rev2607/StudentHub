@@ -1,0 +1,76 @@
+{
+  "College Name": "NIT Patna",
+  "Overview": {
+    "Introduction": "National Institute of Technology Patna (NIT Patna), established in 1886, is one of the oldest technical institutes in India located in Patna, Bihar. It is an Institute of National Importance offering undergraduate, postgraduate, and doctoral programs in engineering and science disciplines.",[1][2]
+    "Historical Narrative": "Initially started as Patna College of Engineering, it evolved into an NIT in 2004, expanding its academic breadth and research capabilities. It provides quality technical education catering to Northern India and has developed a strong industry interface over the years.",[3][4]
+    "Vision and Mission": "Focused on fostering technological education, research, innovation, and societal contribution with ethical and sustainable development principles.",[2]
+    "Academic Structure": "Offers B.Tech in relevant branches, M.Tech specializations, Integrated MSc, MBA, MCA, and Ph.D. programs, emphasizing interdisciplinary and practical learning.",[1][2]
+    "Student Life": "Dynamic campus life with festivals, clubs, sports facilities, and hostels offering a balanced academic and extracurricular environment.",[5]
+    "Diversity": "Welcomes students from across India encouraging a multicultural learning experience.",
+    "Research and Innovation": "Active research projects and centers of excellence focusing on applied science and technology to resolve societal challenges.",[2]
+    "Community Engagement": "Outreach programs and consultancy services extend technical help to regional industries and community projects.",
+    "Governance": "Managed with academic and administrative boards ensuring transparency and quality in education and student welfare.",
+    "Unique Features": [
+      "Heritage of over 130 years of technical education",
+      "Strong focus on research and industry collaboration",
+      "Growing placement network and established faculty",
+      "Modern infrastructure with digital learning facilities"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      "B.Tech in 6 branches",
+      "M.Tech in 19 specializations",
+      "Integrated MSc, MCA, MBA, Ph.D."
+    ],
+    "Fee Structure": {
+      "B.Tech Total Fee": "Approx INR 6.14 Lakhs",
+      "Hostel Fee": "Approx INR 1.42 Lakhs for complete course",
+      "Fee Table": [
+        "| Course  | Duration | Total Fees (INR) | Hostel Fees |",
+        "|---------|----------|------------------|-------------|",
+        "| B.Tech  | 4 years  | 6,14,000         | 1,42,000    |",
+        "| M.Tech  | 2 years  | Specific varies  | Included    |"
+      ],
+      "Scholarships": "Fee waivers and scholarships are available for eligible SC/ST/PwD and economically weaker section students."
+    }
+  },
+  "Admissions": {
+    "Process": "Admission is through JEE Main for B.Tech via JoSAA counseling; M.Tech through GATE and CCMT; other courses through respective exams and institute procedures.",[6]
+    "Eligibility": "Minimum eligibility criteria include 10+2 for UG, bachelor’s degree for PG, with respective prescribed minimum marks.",
+    "Selection Steps": "Exam qualification → counseling/allotment → document verification → fee payment"
+  },
+  "Placements": {
+    "Highlights": "Highest package around INR 45 LPA, average package INR 9.9 LPA with placement rate approx 75% in recent years.",[7][2]
+    "Top Recruiters": ["Samsung", "Amazon", "Accenture", "TCS", "Infosys"],
+    "Internships": "Industry internships supported with meaningful projects and good stipend."
+  },
+  "Rankings": {
+    "NIRF": "Ranked in top 50 engineering colleges nationally.",[2]
+    "Additional recognitions": "Acknowledged by various national ranking agencies for academic excellence."
+  },
+  "Facilities": {
+    "Campus Features": "Advanced labs, well-stocked digital library, student hostels, gymnasium, sports grounds, Wi-Fi enabled campus.",[5]
+    "Amenities": "On-campus medical facilities, canteens, transport services, and banking correspondents."
+  },
+  "Faculty": {
+    "Staff": "Experienced faculty largely holding PhDs, actively engaged in research and pedagogy."[2]
+  },
+  "Reviews": {
+    "Summary": "Positive feedback on faculty, infrastructure, and placements. Student life praised for activities and support."[7][5]
+  },
+  "Contact": {
+    "Website": "https://www.nitp.ac.in",
+    "Location": "NIT Patna, Bihta, Patna, Bihar, India",
+    "Contact Number": "+91-612-2396245",
+    "Email": "registrar@nitp.ac.in"
+  }
+}
+
+[1](https://www.nitp.ac.in)
+[2](https://www.shiksha.com/college/nit-patna-national-institute-of-technology-23147)
+[3](https://www.careers360.com/university/national-institute-of-technology-patna)
+[4](https://collegedunia.com/university/25417-national-institute-of-technology-nitp-patna)
+[5](https://www.collegedekho.com/colleges/nit-patna-reviews)
+[6](https://collegedunia.com/university/25475-national-institute-of-technology-nit-south-goa)
+[7](https://www.shiksha.com/college/nit-patna-national-institute-of-technology-23147/reviews)

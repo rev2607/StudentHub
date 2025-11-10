@@ -1,0 +1,640 @@
+{
+  "Name": "National Institute of Technology Calicut (NIT Calicut)",
+  "Location": {
+    "City": "Kozhikode",
+    "District": "Kozhikode",
+    "State": "Kerala",
+    "Country": "India",
+    "Pin": "673601",
+    "CampusAreaAcres": 296,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "NIT Campus PO, Kozhikode"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1961,
+    "OriginalName": "Regional Engineering College Calicut",
+    "Renamed": [
+      {
+        "Year": 2002,
+        "Name": "National Institute of Technology Calicut"
+      }
+    ],
+    "HistoricalSignificance": "The journey began as a Regional Engineering College and evolved as NITC, now hosting over 6,000 students from India and abroad. The transformation was marked by adoption of advanced curricula, implementation of the credit-based semester system, promotion of research initiatives and a commitment to multidisciplinary learning. Designated as an institute of national importance in 2002."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "National Institute of Technology Calicut (NITC) is one of India's premier institutes of technology, located in Kozhikode, Kerala, established in 1961 and designated as an institute of national importance in 2002. NITC has consistently maintained a reputation for academic excellence, proactive collaborations, and cutting-edge research.",
+    "StudentStrength": "Over 6,000 students from India and abroad",
+    "MajorEvents": [
+      "Tathva - Technical Festival",
+      "Ragam - Cultural Festival",
+      "Sports Festival"
+    ],
+    "ResearchFocus": [
+      "Data Science",
+      "Artificial Intelligence",
+      "Networks",
+      "Software Engineering",
+      "Power Systems",
+      "Control Systems",
+      "Embedded Systems",
+      "Robotics",
+      "VLSI Design",
+      "Communication",
+      "Signal Processing"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities worldwide",
+      "Industry partnerships",
+      "Research organizations"
+    ],
+    "SocialInitiatives": [
+      "Outreach programs",
+      "Technical consultancies",
+      "Continuing education",
+      "Entrepreneurship development",
+      "Social awareness drives",
+      "Rural technology interventions",
+      "Environmental initiatives"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 54,
+      "Engineering": 21,
+      "ArchitecturePlanning": 2
+    },
+    "NIRF2024": {
+      "Overall": 54,
+      "Innovation": 9
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Electronics and Communication Engineering",
+          "Electrical and Electronics Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Biotechnology",
+          "Materials Science",
+          "Engineering Physics",
+          "Architecture"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA/CSAB counseling"],
+        "Seats": 1000,
+        "FirstYearFeeINR": 246000,
+        "TotalFeesINRApprox": 984000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["JEE Main Paper 2"],
+        "Seats": 40,
+        "FirstYearFeeINR": 246000,
+        "TotalFeesINRApprox": 1230000
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 30,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CCMT"],
+        "FirstYearFeeINR": 70000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["GATE"],
+        "SeatsVaries": true,
+        "FeeInformation": "₹1.4L per year"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "GD", "PI"],
+        "Seats": 75,
+        "FirstYearFeeINR": 140000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["IIT JAM", "CCMN"],
+        "FirstYearFeeINR": 30000,
+        "Seats": 60
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 15,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-6",
+        "FeeINRPerYear": 50000,
+        "SeatsMoreThan": 200
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 61500,
+      "Maximum": 61500,
+      "Note": "Hostel fees include mess, facilities, etc."
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main/JEE Main Paper 2",
+        "Counseling": "JoSAA/CSAB online",
+        "AdditionalTestForBArch": "Drawing Test"
+      },
+      "BDes": {
+        "Exam": "UCEED",
+        "Counseling": "Centralized counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["GD", "PI", "Work Experience evaluation"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM", "CCMN"]
+      },
+      "MCA": {
+        "Exam": "NIMCET"
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 3500,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 5500,
+      "MechEngClosingAIR": 7500,
+      "ElectEngClosingAIR": 6500,
+      "CivilEngClosingAIR": 9500
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 85,
+      "OBCPercentile": 75,
+      "SCSTPercentileMin": 65
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories with multiple rounds of JoSAA/CSAB counselling. CSE cutoff rank ~3500."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 1080,
+      "Recruiters": 120,
+      "HighestPackageINR": 5100000,
+      "HighestDomesticPackageINR": 5100000,
+      "OverallAveragePackageINR": 1241000,
+      "CSEAveragePackageINR": 1937000,
+      "ECEAveragePackageINR": 1500000,
+      "MBA median package INR": 1200000,
+      "PPOs": 100,
+      "TopRecruiters": [
+        "Amazon",
+        "Microsoft",
+        "American Express",
+        "Accenture",
+        "Bajaj Auto",
+        "ADP",
+        "Amdocs",
+        "Intel",
+        "Samsung",
+        "Adobe",
+        "IBM",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL",
+        "Oracle"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Scientist",
+        "Business Analyst",
+        "Consultant",
+        "R&D Engineer",
+        "Process Engineer",
+        "Analyst"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Pre-placement training",
+        "Alumni support",
+        "Guest lectures",
+        "Industry workshops"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 13,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Rooms",
+        "Security",
+        "Parking",
+        "24/7 water",
+        "Clean rooms"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 150000,
+      "EJournalsCount": 10000,
+      "Features": [
+        "Digital library",
+        "Reading rooms",
+        "24/7 access",
+        "Group study zones",
+        "Computer terminals",
+        "Inter-library loan"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 50,
+      "FocusAreas": [
+        "Chemistry",
+        "Computer Science",
+        "Electrical Engineering",
+        "Electronics Engineering",
+        "Mechanical Engineering",
+        "Physics",
+        "Language",
+        "Building Science",
+        "VLSI",
+        "Heat Transfer",
+        "Environmental Research"
+      ],
+      "Equipment": [
+        "Modern well-equipped labs",
+        "CAAD labs",
+        "Advanced fabrication facilities",
+        "High-performance computing"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "25-station gymnasium",
+        "Football Ground",
+        "Cricket Ground",
+        "Hockey Ground",
+        "Swimming Pool",
+        "Cricket nets",
+        "Practice pitch",
+        "Ladies' fitness centre",
+        "Badminton Court",
+        "Table Tennis"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Hospital/Day Care Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "24/7 medical facilities",
+        "Pharmacy",
+        "Ambulance Services"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Cafeteria",
+        "Food courts"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Regional cuisines",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditorium",
+      "Amphitheater",
+      "Classrooms",
+      "Workshops",
+      "Central Computer Centre (CCC)",
+      "Guest house",
+      "Open-air theatres",
+      "Banks and ATMs (SBI & PNB)",
+      "Post Office",
+      "Transport system",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 50,
+      "Types": [
+        "Technical (Robotics, Coding, Tech)",
+        "Cultural (Music, Dance, Drama, Literature)",
+        "Sports",
+        "Entrepreneurship",
+        "Social Service"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 15,
+    "DepartmentsList": [
+      "Architecture",
+      "Chemistry",
+      "Physics",
+      "Mathematics",
+      "Physical Education",
+      "Computer Science and Engineering",
+      "Electrical and Electronics Engineering",
+      "Electronics and Communication Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Chemical Engineering",
+      "Biotechnology",
+      "Materials Science",
+      "Engineering Physics",
+      "Management"
+    ],
+    "ResearchCenters": [
+      "Biomechanics Center",
+      "Advanced Manufacturing Center",
+      "Networking Center",
+      "Instrumentation Center",
+      "CNC Center",
+      "Value Education Center",
+      "Scanning Microscopy Center"
+    ],
+    "Strength": {
+      "FacultyCount": 312,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Government ministries",
+      "Private industries",
+      "Research organizations"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry consultancy",
+      "Patent filings",
+      "R&D projects"
+    ],
+    "StudentFeedback": "Highly knowledgeable faculty, excellent industry connections, average age ~40 years, student-faculty ratio ~8:1"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 500000,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "SC/ST/PwD Fee Concessions",
+      "Income-based fee waivers",
+      "Merit-cum-means scholarships",
+      "GATE/NET Fellowships",
+      "Research Fellowships",
+      "National Scholarship Portal schemes",
+      "Education loans"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Support",
+      "Monthly Stipends",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.5,
+    "CollegeDuniaReviewsCount": 2000,
+    "Careers360Rating": 4.6,
+    "Strengths": [
+      "Green, fully residential campus",
+      "Strong placement cell and industry relations",
+      "Active student clubs and societies",
+      "Support for startups and entrepreneurship",
+      "International collaborations",
+      "Modern academic and research infrastructure",
+      "High academic rigor",
+      "Vibrant campus life",
+      "Excellent placement prospects"
+    ],
+    "Weaknesses": [
+      "Fees for facilities like gym",
+      "Occasional strictness of faculty"
+    ],
+    "ReturnOnInvestment": "Excellent"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India and internationally, large proportion from outside Kerala",
+    "CulturalTraditions": [
+      "Tathva technical traditions",
+      "Ragam cultural heritage",
+      "Sports festivals",
+      "Inter-hostel competitions"
+    ],
+    "Festivals": [
+      "Tathva - Technical Festival",
+      "Ragam - Cultural Festival",
+      "Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Robotics",
+      "Coding",
+      "Entrepreneurship",
+      "Literature",
+      "Social Service",
+      "Music & Dance",
+      "Drama",
+      "Sports"
+    ],
+    "OutdoorActivities": [
+      "Sports activities",
+      "Cultural events",
+      "Technical competitions",
+      "Social initiatives",
+      "Environmental initiatives"
+    ],
+    "StudentGovernance": "Student Councils and representative bodies",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Sports Facilities",
+      "Medical facilities",
+      "Recreational areas",
+      "Student activity centre",
+      "25-station gymnasium"
+    ],
+    "Community": "Vibrant campus life with strong hostel culture, green and lush campus environment, multicultural atmosphere"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1961,
+    "Founder": "Government of India",
+    "InitialFocus": "Regional Engineering College to expand technical education",
+    "Evolution": [
+      "1961: Established as REC Calicut",
+      "2002: Designated as Institute of National Importance and renamed to NIT Calicut",
+      "Consistent top-25 engineering institute ranking since 2019"
+    ],
+    "Legacy": "Premier institute of technology with reputation for academic excellence, proactive collaborations, and cutting-edge research",
+    "Heritage": "120-hectare green, residential campus with lush, vibrant environment"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Data Science",
+      "Artificial Intelligence",
+      "Networks",
+      "Software Engineering",
+      "Power Systems",
+      "Control Systems",
+      "Embedded Systems",
+      "Robotics",
+      "VLSI Design",
+      "Communication",
+      "Signal Processing",
+      "Biomechanics",
+      "Advanced Manufacturing"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Renowned for research output, modern labs, and tech-oriented centers. Patents, industrial consultancies, start-up incubation, and tech transfer underpin the institute's research aspirations",
+    "Startups": {
+      "Number": 40,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions",
+      "Research organizations",
+      "Leading academic bodies"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "NIT Calicut Admissions 2025-26",
+      "Date": "2025-09-01",
+      "Details": "Admissions open for various programs"
+    },
+    {
+      "Event": "Tathva 2025",
+      "StartDate": "2025-10-15",
+      "EndDate": "2025-10-19",
+      "Theme": "Technical festival"
+    },
+    {
+      "Event": "Ragam 2025",
+      "StartDate": "2025-03-05",
+      "EndDate": "2025-03-09",
+      "Theme": "Cultural festival"
+    },
+    {
+      "Event": "JEE Main 2025",
+      "Date": "2025-01-24"
+    },
+    {
+      "RecurringEvents": [
+        "Tathva Tech Fest (Annually)",
+        "Ragam Cultural Fest (Annually)",
+        "Sports Fest (Annually)",
+        "Inter-NIT Sports Meet"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://nitc.ac.in",
+    "Address": "National Institute of Technology Calicut, NIT Campus PO, Kozhikode, Kerala- 673601, India",
+    "Phone": "+91-495-2286106, +91-495-2286101",
+    "Emails": {
+      "Registrar": "registrar@nitc.ac.in",
+      "Admissions": "admission@nitc.ac.in",
+      "PlacementCell": "placement@nitc.ac.in"
+    }
+  }
+}
+
+

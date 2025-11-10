@@ -1,0 +1,178 @@
+{
+  "College Name": "NIT Durgapur",
+  "Overview": {
+    "Introduction": "NIT Durgapur, established in 1960, is one of India's oldest and most reputed national institutes, recognized for its academic excellence, research output, and industry connections. Located on a sprawling 187-acre campus in West Bengal, the institute awards undergraduate, postgraduate, and doctoral degrees across engineering, sciences, management, and technology domains.",[1][2][3]
+    "Historical Narrative": "Originally founded as a regional engineering college, NIT Durgapur was upgraded to national importance status in 2003 and became an autonomous institute with full funding under the Government of India. It has been a pioneer in technical education with a focus on research, innovation, and industry partnerships over six decades.",[3]
+    "Vision and Mission": "Committed to producing industry-ready engineers, scientists, and managers, NIT Durgapur emphasizes innovation, social responsibility, and global engagement. It aims to foster a culture of research excellence, entrepreneurship, and societal development.",[1]
+    "Academic Structure": "The institute hosts 13 academic departments offering B.Tech, M.Tech, MBA, M.Sc, Ph.D., and joint degrees. Curricula focus on practical skills, research projects, internships, and interdisciplinary modules to keep pace with rapid technological advances.",[2][4]
+    "Student Life": "Campus activities include annual festivals like Aarohan, technical symposia, cultural celebrations, sports competitions, and student clubs in robotics, coding, arts, and entrepreneurship. The campus environment promotes holistic development and social integration.",[5][2]
+    "Diversity": "NIT Durgapur attracts students, faculty, and researchers across India and abroad, fostering a diverse, inclusive, and vibrant academic atmosphere.",
+    "Research and Innovation": "The institute hosts multiple Centers of Excellence in areas like renewable energy, advanced materials, digital systems, and biotechnology, supporting cutting-edge research, patents, and industry collaboration.",[2]
+    "Community Engagement": "NIT Durgapur actively participates in rural tech outreach, environmental initiatives, and consultancy projects to promote regional development and societal benefit.",
+    "Governance": "Administered by a Director and Governing Body, NIT Durgapur’s governance structure emphasizes transparency, accountability, and strategic growth.",
+    "Unique Features": [
+      "One of the oldest NITs in India with pioneering academic programs",
+      "Recognized for high industry employability and research output",
+      "Modern labs, research centers, and innovation hubs",
+      "Robust campus life with festivals and clubs"
+    ],
+    "Narrative Flow": [
+      "Legacy with modern expansion",
+      "Academic excellence and research",
+      "Student life and diversity",
+      "Community impact and governance"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      {
+        "UG": [
+          "B.Tech in Computer Science, Mechanical, Civil, Chemical, Electrical, Electronics & Communication, Metallurgical Engineering"
+        ],
+        "PG": [
+          "M.Tech in Data Science, Power Systems, Structural Engineering, Manufacturing, Microelectronics, Environmental Engineering",
+          "MBA",
+          "M.Sc in Physics, Chemistry, Mathematics",
+          "Ph.D in all disciplines"
+        ]
+      }
+    ],
+    "Fee Structure": {
+      "B.Tech": "INR 6.48 Lakhs for the full course",
+      "M.Tech": "INR 2.5 Lakhs approximate for 2 years",
+      "MBA": "INR 2.02 Lakhs for 2 years",
+      "M.Sc": "INR 1.2 Lakhs for 2 years",
+      "Ph.D": "Tuition waived for research scholars; nominal lab and registration fees",
+      "Hostel Fees": "INR 50,000-60,000 annually",
+      "Fee Table": [
+        "| Course | Duration | Total Fees | Hostel Fees |",
+        "|---------|-----------|--------------|--------------|",
+        "| B.Tech  | 4 years   | INR 6.48 Lakhs | INR 50,000-60,000 |",
+        "| M.Tech  | 2 years   | INR 2.5 Lakhs | Included in tuition |",
+        "| MBA     | 2 years   | INR 2.02 Lakhs | Included |",
+        "| M.Sc    | 2 years   | INR 1.2 Lakhs | Included |"
+      ],
+      "Scholarships": "Post-Metric Scholarships, SC/ST/PwD fee waivers, industry-sponsored research grants."
+    }
+  },
+  "Admissions": {
+    "Overview": "Admission is through national-level competitive exams such as JEE Advanced, GATE, and CAT, followed by counseling.",[6][5]
+    "UG Admission": [
+      "JEE Advanced and JoSAA counseling",
+      "Eligibility: 75% in 10+2 Science (PCM) pipeline, with cutoffs based on JEE ranks."[5]
+    ],
+    "PG Admission": [
+      "GATE for M.Tech and Ph.D., CAT/MAT for MBA",
+      "Selection based on exam scores and interview/merit."
+    ],
+    "Research Admission": [
+      "Master’s in relevant discipline + institute-based written test and interview.",
+      "GATE/NET/JRF scores prioritized."
+    ],
+    "Application Process": [
+      "Register online on respective exam portals",
+      "Attend examinations",
+      "Participate in centralized counseling",
+      "Verification, allotment, and fee payment"
+    ],
+    "Seat Intake Example": {
+      "CSE": "120",
+      "Mechanical": "110",
+      "Civil": "80",
+      "Electrical": "75"
+    }
+  },
+  "Placements": {
+    "Highlights": [
+      "2025 placement rate: 85%, with over 750 offers.",[7]
+      "Highest package: INR 50+ LPA in CSE; average packages: INR 12-15 LPA.",
+      "Top recruiters include Google, TCS, Reliance, L&T, and local industry leaders.",
+      "Strong internship and research collaboration culture."
+    ],
+    "Branch-wise Data": [
+      "| Branch | Placement % | Highest (LPA) | Avg. (LPA) |",
+      "|---------|--------------|--------------|--------------|",
+      "| CSE     | 90%          | INR 50 LPA   | INR 14 LPA  |",
+      "| Mechanical | 80%       | INR 22 LPA   | INR 11 LPA |",
+      "| Civil   | 75%          | INR 18 LPA   | INR 9 LPA  |",
+      "| ECE     | 85%          | INR 30 LPA   | INR 12 LPA |"
+    ]
+  },
+  "Rankings": {
+    "NIRF": {
+      "2025": "Ranked 44th among engineering institutes in India"
+    },
+    "Other Rankings": [
+      "TIMES Top Engineering College (2024): #27",
+      "QS Asia Ranking 2024: Top 250 in Asia"
+    ],
+    "Notes": "NIT Durgapur’s consistent improvement in national rankings reflects strong academic and research standards."
+  },
+  "Facilities": {
+    "Campus": [
+      "187-acre campus with modern classrooms, labs, hostels, sports complex, library, auditorium, medical center, banking, and ATM facilities.",
+      "State-of-the-art research labs, library with digital archives, seminar halls."
+    ],
+    "Hostels": [
+      "Hostels with ICU, CCTV, Wi-Fi, mess, sports areas, and recreation rooms for boys and girls.",
+      "Facilities include gyms, common rooms, dedicated security."
+    ],
+    "Sports": [
+      "Football, cricket, basketball, volleyball, tennis courts, indoor gym facilities.",
+      "Facilities for national and intra-college tournaments."
+    ],
+    "Other Infrastructure": [
+      "Campus Wi-Fi, medical, banking, post office, transport, electronics equipment."
+    ]
+  },
+  "Faculty": {
+    "Overview": "Over 200 faculty members with extensive academic and industry experience, many hold PhDs from reputed institutes.",[8]
+    "Profiles": "Professors, Associate Professors, and Assistant Professors focus on research, teaching, and industrial consultancy in engineering, sciences, and management.",
+    "Research & Mentorship": "Active focus on patents, research projects, industry collaboration, and student supervision."
+  },
+  "Reviews": {
+    "Summary": [
+      "Students find NIT Durgapur research-oriented with excellent faculty support and research facilities.",
+      "Campus infrastructure is modern, with good hostels and amenities.",
+      "Placement record is improving yearly, with top companies and high packages.",
+      "Some students mention labs need upgrade, and food quality varies."
+    ],
+    "Rating": "Average 4.0 out of 5 based on student reviews"
+  },
+  "Contact": {
+    "Address": "National Institute of Technology Durgapur, Durgapur, West Bengal, PIN-713209",
+    "Phone": "+91-343-275-4531 / 32",
+    "Email": "info@nitdgp.ac.in",
+    "Website": "https://nitdgp.ac.in",
+    "Social Media": {
+      "Facebook": "facebook.com/NITDurgapur",
+      "Twitter": "twitter.com/nitdgp",
+      "LinkedIn": "linkedin.com/school/nit-durgapur"
+    },
+    "Directions": [
+      "Campus located on NH19, with easy access by train, bus, and air.",
+      "Main gate near Durgapur Station, Nissan Bus Depot."
+    ]  ]
+  }
+}
+
+[1](https://nitdgp.ac.in/p/about-us-3)
+[2](https://collegedunia.com/university/26009-national-institute-of-technology-nit-durgapur/reviews)
+[3](https://www.shiksha.com/university/nit-durgapur-national-institute-of-technology-54019)
+[4](https://nitdgp.ac.in)
+[5](https://www.shiksha.com/university/nit-durgapur-national-institute-of-technology-54019/admission)
+[6](https://www.collegedekho.com/colleges/nit-durgapur-reviews)
+[7](https://placement.nitdgp.ac.in/placement-statistics/)
+[8](https://www.scribd.com/document/345883039/NIT-Durgapur-Faculties-List)
+[9](https://www.aakash.ac.in/blog/nit-durgapur-admissions-eligibility-criteria-courses-fees-structure-cut-off/)
+[10](https://collegedunia.com/university/26009-national-institute-of-technology-nit-durgapur/courses-fees)
+[11](https://www.shiksha.com/university/nit-durgapur-national-institute-of-technology-54019/placement)
+[12](https://collegedunia.com/university/26009-national-institute-of-technology-nit-durgapur/ranking)
+[13](https://www.pagalguy.com/colleges/national-institute-of-technologynit-durgapur/campus-facilities)
+[14](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Durgapur)
+[15](https://www.shiksha.com/university/nit-durgapur-national-institute-of-technology-54019/courses)
+[16](https://nitdgp.ac.in/p/admission-2025)
+[17](https://www.vedantu.com/university/nit-durgapur-national-institute-of-technology-cutoff)
+[18](https://www.shiksha.com/university/nit-durgapur-national-institute-of-technology-54019/infrastructure)
+[19](https://nitdgp.ac.in/department/electronics-and-communication-engineering/faculty-6)
+[20](https://www.shiksha.com/university/nit-durgapur-national-institute-of-technology-54019/reviews)

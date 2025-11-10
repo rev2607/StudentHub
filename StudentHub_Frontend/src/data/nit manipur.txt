@@ -1,0 +1,80 @@
+{
+  "College Name": "NIT Manipur",
+  "Overview": {
+    "Introduction": "National Institute of Technology Manipur (NIT Manipur), established in 2010, is a centrally funded technical university located in Imphal, Manipur. It is an Institute of National Importance offering courses in engineering, science, and management disciplines.",[1][2]
+    "Historical Narrative": "Started as a part of the government's plan to spread technical education to northeast India, NIT Manipur has swiftly developed modern facilities and academic programs adhering to national standards.",[3]
+    "Vision and Mission": "The institute aims to impart quality education and research that contribute to societal welfare and sustainable technological development.",
+    "Academic Structure": "NIT Manipur offers B.Tech, M.Tech, M.Sc, MCA, MBA, and Ph.D. programs. The curriculum combines theoretical knowledge with experiential learning, projects, internships, and industry exposure.",[1]
+    "Student Life": "Active student community with cultural fests, technical events, sports, and student clubs. Hostels and amenities contribute to a supportive environment.",[4]
+    "Diversity": "Students and faculty from diverse regions enrich the academic and cultural fabric of the institution.",
+    "Research and Innovation": "Research initiatives involve collaborations with industries and higher education institutions focusing on advanced technologies.",[3]
+    "Community Engagement": "The institute conducts outreach programs, technical training workshops, and environmental projects for regional development.",
+    "Governance": "Administrative and academic affairs are managed by a Director and Governing Council with necessary statutory bodies.",
+    "Unique Features": [
+      "Young but rapidly growing institute",
+      "Strong regional significance for northeast India",
+      "Focused on fostering research and innovation",
+      "Coherent blend of academics and extracurricular activities"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      "B.Tech in 5 specializations including CSE, ECE, Civil, Mechanical, Electrical",
+      "M.Tech in relevant specializations",
+      "MBA, M.Sc, MCA, Ph.D Programs"
+    ],
+    "Fee Structure": {
+      "B.Tech Total Fee": "Approximately INR 6.45 Lakhs for 4 years",
+      "PG Fees": "About INR 2 Lakhs for M.Tech (2 years)",
+      "Hostel Charges": "Approx INR 50,000 annually",
+      "Fee Table": [
+        "| Course  | Duration | Total Fee (INR) | Hostel Fee (Annual) |",
+        "|---------|----------|-----------------|---------------------|",
+        "| B.Tech  | 4 years  | 6,45,000        | 50,000              |",
+        "| M.Tech  | 2 years  | 2,00,000        | Included            |"
+      ],
+      "Scholarships": "Government scholarships and fee waivers for reserved categories and economically weaker students."
+    }
+  },
+  "Admissions": {
+    "Process": "Based on JEE Main (UG), GATE (PG), and respective entrance exams for other courses followed by counseling by JoSAA, CCMT, and institute for Ph.D..",[4][1]
+    "Eligibility": "10+2 with Physics and Mathematics for UG; Bachelor's degree for PG; Master's degree for Ph.D with entrance test.",
+    "Steps": [
+      "Qualify entrance exam",
+      "Register for counseling",
+      "Seat allocation and document verification",
+      "Fee payment and admission confirmation"
+    ]
+  },
+  "Placements": {
+    "Statistics": "Placement rate hovering at about 70-75%, active participation from IT and core engineering recruiters, with highest package crossing INR 35 LPA in recent years.",[1]
+    "Top Recruiters": ["Amazon", "Infosys", "L&T", "TCS", "Accenture"],
+    "Placement Support": "Active training and placement cell conducts workshops, internships, and skill development programs."
+  },
+  "Rankings": {
+    "NIRF": "Ranked in the range of 151-200 in the engineering category nationally (2025).",[1]
+    "Other": "Known for regional importance and steadily rising in prominence among India’s technical institutes."
+  },
+  "Facilities": {
+    "Campus Features": "Spacious green campus with modern academic blocks, hostels with mess and sports facilities, digital library, and computer centers.",
+    "Amenities": "Medical center, gymnasium, transportation, banking and ATM facilities."
+  },
+  "Faculty": {
+    "Description": "Faculty with doctoral qualifications from reputed institutes, engaged in research, teaching, and community service.",
+    "Departments": "CSE, ECE, Electrical, Mechanical, Civil, Chemistry, Humanities."
+  },
+  "Reviews": {
+    "Summary": "Students appreciate the personalized attention given by faculty, campus greenery and culture, growing placement opportunities, and effective student clubs."[3][4]
+  },
+  "Contact": {
+    "Address": "National Institute of Technology Manipur, Chandel Road, Takyelpat, Imphal, Manipur-795001",
+    "Phone": "+91-387-2429413",
+    "Email": "registrar@nitmanipur.ac.in",
+    "Website": "https://nitmanipur.ac.in"
+  }
+}
+
+[1](https://www.shiksha.com/college/nit-manipur-national-institute-of-technology-imphal-38697)
+[2](https://nitmanipur.ac.in)
+[3](https://www.careers360.com/university/national-institute-of-technology-manipur)
+[4](https://www.collegedekho.com/colleges/nit-manipur)

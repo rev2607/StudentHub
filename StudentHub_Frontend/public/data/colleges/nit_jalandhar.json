@@ -1,0 +1,570 @@
+{
+  "Name": "Dr B R Ambedkar National Institute of Technology Jalandhar (NIT Jalandhar)",
+  "Location": {
+    "City": "Jalandhar",
+    "District": "Jalandhar",
+    "State": "Punjab",
+    "Country": "India",
+    "Pin": "144011",
+    "CampusAreaAcres": 154,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Jalandhar, Punjab"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1987,
+    "OriginalName": "Regional Engineering College Jalandhar",
+    "Renamed": [
+      {
+        "Year": 2002,
+        "Name": "Dr B R Ambedkar National Institute of Technology Jalandhar"
+      }
+    ],
+    "HistoricalSignificance": "Established as REC Jalandhar in 1987, upgraded to NIT status and elevated to Institute of National Importance in 2002 under the MHRD, Government of India. Known for continuous expansion in academics, infrastructure, and research collaborations."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "Dr B R Ambedkar National Institute of Technology Jalandhar (NIT Jalandhar), established in 1987 as a Regional Engineering College and upgraded to NIT status in 2002, is a premier engineering institute located in Punjab. Spanning a large, green campus, it offers UG, PG, and doctoral level education across a diverse range of engineering and technology disciplines, known for its quality of education and research culture.",
+    "StudentStrength": "Over 5,000 students including international nationals",
+    "MajorEvents": [
+      "Techfest - Technical Festival",
+      "Culfest - Cultural Festival",
+      "Sports Fest - Sports Festival"
+    ],
+    "ResearchFocus": [
+      "Artificial Intelligence",
+      "VLSI Design",
+      "Materials Science",
+      "Biotechnology",
+      "Structural Engineering",
+      "Renewable Energy"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities worldwide"
+    ],
+    "SocialInitiatives": [
+      "Technical education outreach",
+      "Rural development projects",
+      "Consultancy services to industries"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 55,
+      "Engineering": 55,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 55,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 204,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "1001-1200",
+    "ARIIA2021": "Band Excellent"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Electronics and Communication Engineering",
+          "Electrical Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Biotechnology",
+          "Textile Technology",
+          "Industrial and Production Engineering",
+          "Instrumentation and Control Engineering",
+          "Information Technology",
+          "Electronics and Instrumentation Engineering",
+          "Production and Industrial Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA counseling"],
+        "Seats": 900,
+        "FirstYearFeeINR": 164000,
+        "TotalFeesINRApprox": 656000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["JEE Main Paper 2"],
+        "Seats": 40,
+        "FirstYearFeeINR": 164000,
+        "TotalFeesINRApprox": 820000
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 27,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CCMT"],
+        "FirstYearFeeINR": 149000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": true,
+        "FeeInformation": "Not listed"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT"],
+        "Seats": 60,
+        "FirstYearFeeINR": 109000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["JAM"],
+        "FirstYearFeeINR": 50000,
+        "Seats": 60
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 17,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-NET",
+          "Institute-level entrance",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 54000,
+        "SeatsMoreThan": 200
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 50000,
+      "Maximum": 60500,
+      "Note": "Per year, varies by hostel type"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": "JEE Main Paper 2"
+      },
+      "BDes": {
+        "Exam": "Not offered",
+        "Counseling": "Not applicable"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["Personal Interview", "Group Discussion"]
+      },
+      "MSc": {
+        "Exam": ["JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-NET", "Institute-level entrance"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department dependent"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["GRE", "TOEFL"],
+      "AdditionalProcess": "Credential verification"
+    },
+    "ReservationPolicy": "As per Central Government norms for SC, ST, OBC, EWS, PwD",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEMain2025": {
+      "BTechCSEClosingRank": 12000,
+      "ECEClosingRank": 18000,
+      "MechEngClosingRank": 25000,
+      "ElectEngClosingRank": 22000,
+      "CivilEngClosingRank": 30000
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Physics": [0, 0],
+      "Chemistry": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 75,
+      "OBCPercentile": 65,
+      "SCSTPercentileMin": 55
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories/genders with multiple rounds of seat allotment for JEE Main."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 1000,
+      "Recruiters": 150,
+      "HighestPackageINR": 5200000,
+      "HighestDomesticPackageINR": 5200000,
+      "OverallAveragePackageINR": 978000,
+      "CSEAveragePackageINR": 1674000,
+      "ECEAveragePackageINR": 1675000,
+      "MBA median package INR": 800000,
+      "PPOs": 100,
+      "TopRecruiters": [
+        "Microsoft",
+        "Google",
+        "Paytm",
+        "Flipkart",
+        "Deloitte",
+        "Infosys",
+        "Goldman Sachs",
+        "Amazon",
+        "TCS",
+        "Wipro",
+        "Accenture",
+        "L&T",
+        "Mahindra",
+        "Tata Motors"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Science",
+        "Research and Development",
+        "Consulting",
+        "Analytics",
+        "Hardware Design",
+        "Management"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 10,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Water Purifiers",
+        "Washing Machines",
+        "Gyms"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 50000,
+      "BookCount": 100000,
+      "EJournalsCount": 5000,
+      "Features": [
+        "Digital resources",
+        "Theses archive",
+        "24/7 access",
+        "Group study zones",
+        "Inter-library loan"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 80,
+      "FocusAreas": [
+        "Artificial Intelligence",
+        "VLSI Design",
+        "Materials Science",
+        "Biotechnology",
+        "Structural Engineering",
+        "Renewable Energy",
+        "Computer Science",
+        "Electronics"
+      ],
+      "Equipment": [
+        "Advanced Computing Systems",
+        "3D Printing",
+        "Advanced Sensors",
+        "Prototype Devices"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Cricket Ground",
+        "Basketball Courts",
+        "Badminton Courts",
+        "Indoor Gym",
+        "Fitness Center",
+        "Tennis Courts",
+        "Football Ground",
+        "Volleyball Courts"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "On-campus Hospital",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Medical Assistance",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Cafés",
+        "Food Courts"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Dietary options",
+        "Hygiene controlled",
+        "Student-managed mess"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Banks and ATMs",
+      "Bookstores",
+      "Guest Houses",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 30,
+      "Types": [
+        "Technical (Robotics, Coding)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Social Service (NSS, NCC)"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 17,
+    "DepartmentsList": [
+      "Biotechnology",
+      "Civil Engineering",
+      "Computer Science and Engineering",
+      "Electrical Engineering",
+      "Electronics and Communication Engineering",
+      "Mechanical Engineering",
+      "Chemical Engineering",
+      "Textile Technology",
+      "Industrial and Production Engineering",
+      "Instrumentation and Control Engineering",
+      "Information Technology",
+      "Electronics and Instrumentation Engineering",
+      "Production and Industrial Engineering",
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Management Studies"
+    ],
+    "ResearchCenters": [
+      "Center for VLSI Design",
+      "Materials Science Lab",
+      "Biotechnology Research Center",
+      "Structural Engineering Lab",
+      "AI and Machine Learning Lab"
+    ],
+    "Strength": {
+      "FacultyCount": 200,
+      "PhDs": "Majority",
+      "Patents2024": 50,
+      "ResearchFundsINR2024": 50000000
+    },
+    "Collaborations": [
+      "Industry partners",
+      "Government agencies",
+      "International universities"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Consulting services"
+    ],
+    "StudentFeedback": "Generally positive, with supportive faculty and good teaching methods."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 100000,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 100000,
+      "IncomeUpToINR_Lax": 500000,
+      "TwoThirdFeeWaiver": true
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "SC/ST Scholarships",
+      "PwD Scholarships",
+      "Merit Scholarships",
+      "Industry-sponsored Scholarships"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Waiver",
+      "Cash Prizes",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.5,
+    "CollegeDuniaReviewsCount": 1500,
+    "Careers360Rating": 4.4,
+    "Strengths": [
+      "Good placements",
+      "Supportive faculty",
+      "Quality education",
+      "Clean hostel facilities",
+      "Vibrant campus life"
+    ],
+    "Weaknesses": [
+      "Challenging exam rigor",
+      "Competitive research opportunities",
+      "Average mess food"
+    ],
+    "ReturnOnInvestment": "High"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India and internationally",
+    "CulturalTraditions": [
+      "Cultural festivals",
+      "Technical events",
+      "Sports competitions",
+      "Regular informal gatherings"
+    ],
+    "Festivals": [
+      "Techfest - Technical Festival",
+      "Culfest - Cultural Festival",
+      "Sports Fest - Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Robotics",
+      "Coding",
+      "Entrepreneurship Cell",
+      "Literature & Debate",
+      "Music & Dance",
+      "Drama",
+      "Social Service (NSS, NCC)"
+    ],
+    "OutdoorActivities": [
+      "Sports competitions",
+      "Cultural events",
+      "Technical competitions"
+    ],
+    "StudentGovernance": "Student council with regular feedback and grievance redressal",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Recreation Areas",
+      "Sports Facilities"
+    ],
+    "Community": "Inclusive ecosystem with cultural, linguistic, and religious diversity"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1987,
+    "Founder": "Government of India",
+    "InitialFocus": "Engineering education and technology",
+    "Evolution": [
+      "1987: Regional Engineering College Jalandhar",
+      "2002: NIT status granted, Institute of National Importance"
+    ],
+    "Legacy": "Pioneer in engineering education in Punjab region",
+    "Heritage": "Modern infrastructure with green campus"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Artificial Intelligence",
+      "VLSI Design",
+      "Materials Science",
+      "Biotechnology",
+      "Structural Engineering",
+      "Renewable Energy"
+    ],
+    "PatentsFiled2024": 50,
+    "ResearchFundingINR2024": 50000000,
+    "NotableInnovations": "Active research in AI, VLSI, and materials science",
+    "Startups": {
+      "Number": 20,
+      "AggregateValuationINR": 500000000
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 30,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "Placements 2025",
+      "Date": "2025-01-15",
+      "Details": "91.88% placement rate with 700+ students placed"
+    },
+    {
+      "Event": "Admissions 2025-26",
+      "Date": "2025-06-01",
+      "Details": "JEE Main and JoSAA counseling process"
+    },
+    {
+      "Event": "Techfest 2025",
+      "Date": "2025-03-15",
+      "Details": "Annual technical festival"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.nitj.ac.in",
+    "Address": "Dr B R Ambedkar National Institute of Technology Jalandhar, Jalandhar, Punjab - 144011, India",
+    "Phone": "+91-181-5037000",
+    "Emails": {
+      "Registrar": "registrar@nitj.ac.in",
+      "Admissions": "admission@nitj.ac.in",
+      "PlacementCell": "placement@nitj.ac.in"
+    }
+  }
+}
+
+

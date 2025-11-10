@@ -1,0 +1,243 @@
+{
+  "College Name": "NIT Agartala",
+  "Overview": {
+    "Introduction": "National Institute of Technology Agartala (NITA), founded in 1965 as Tripura Engineering College and accorded Institute of National Importance status in 2006, is a premier technical institution in Northeast India. With a lush campus spread over 366 acres, NITA provides a rigorous academic environment, fostering innovation, entrepreneurship, and social responsiveness. The institute currently consists of 13 departments supporting over 4000 students and a vibrant multidisciplinary ethos.",[1][2]
+    "Historical Narrative": "The institute transitioned from Tripura Engineering College to NIT under the Ministry of Human Resource Development in 2006. Formerly affiliated to Calcutta University, the curriculum evolved to include PG programs and state-of-the-art research. NITA pioneered programs in engineering physics and computational mathematics, being one of the few NITs with advanced physics offerings.",[2]
+    "Vision and Mission": "NIT Agartala's mission emphasizes technical advancement, ethical leadership, and global engagement. The vision promotes value education, technological pursuit, and holistic development among the student community.",[1][2]
+    "Academic Structure": "The institute offers B.Tech, M.Tech, MCA, MBA, M.Sc, dual degree B.S/M.S, and Ph.D programs. Disciplines include civil, mechanical, electrical, electronics, computer science, chemical, biomedical, biotech, production, transportation, and integrated science programs.",[3][4]
+    "Student Life": "Students participate in technical festivals, sports tournaments, weight-lifting clubs, NCC camps, cultural events, and entrepreneurship cells. Hostel life and campus celebrations feature prominently in college culture.",[5][3]
+    "Diversity": "NITA attracts students nationally and internationally. Diversity is supported by outreach initiatives and all-India admissions, fostering multicultural exchanges.",[4]
+    "Research and Innovation": "Centers of Excellence and advanced labs promote research in seismic science, hydroinformatics, computational physics, engineering biology, and chemical innovation. Collaborations with industry and global institutes support robust outputs.",[6][4]
+    "Community Engagement": "NITA takes part in rural outreach, technical consultancies, and extension activities for NE India, supporting regional development through technology and education.",
+    "Governance": "The Director and Senate work with advisory boards, departmental committees, and student bodies, ensuring effective governance and welfare.",
+    "Unique Features": [
+      "First NIT in Northeast with B.Tech in Engineering Physics",
+      "Fully residential, green campus",
+      "Modernized labs and research centers",
+      "Strong placement and internship culture",
+      "National/international collaborations"
+    ],
+    "Narrative Flow": [
+      "Legacy and transition",
+      "Academic innovation and research",
+      "Campus and student life",
+      "Community engagement and governance"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      {
+        "UG": [
+          "B.Tech (9 branches)",
+          "Dual Degree B.S/M.S and Integrated programs"
+        ],
+        "PG": [
+          "M.Tech (multiple specializations)",
+          "MBA",
+          "MCA",
+          "M.Sc"
+        ],
+        "Doctoral": [
+          "Ph.D (engineering/science/management)"
+        ]
+      },
+      "Popular B.Tech branches: CSE, ECE, Civil, Mechanical, Chemical, Biomedical/Biotechnology, Electrical, Production, Transportation."[7][3]
+    ],
+    "Fee Structure Table": [
+      "| Course     | Duration | Total Fees (INR) | Hostel/Mess (Per Yr) | Tuition (Per Semester) |",
+      "|------------|----------|------------------|----------------------|-----------------------|",
+      "| B.Tech     | 4 yrs    | 5.73 lakhs       | ~80,000              | 62,500                |",
+      "| M.Tech     | 2 yrs    | 1.80 lakhs       | ~40,000              | ~44,750               |",
+      "| MBA        | 2 yrs    | 1.30 lakhs       | ~50,000              | ~65,000               |",
+      "| MCA        | 3 yrs    | 1.50 lakhs       | ~45,000              | ~50,000               |",
+      "| M.Sc       | 2 yrs    | ~50,900          | ~30,000              | ~10,300               |"
+    ],
+    "Fee Concessions": "SC/ST/PwD students are exempted from tuition; scholarships offered based on financial and merit criteria.",[8][7]
+    "Other Charges": "Miscellaneous, training/placement, alumni, convocation fees apply and are updated annually."[7]
+  },
+  "Admissions": {
+    "Overview": "Admissions are strictly through national-level entrance exams, followed by counseling and merit-based seat allocation. No direct intake is permitted.",[9][10]
+    "UG Admissions": [
+      "B.Tech: JEE Main rank + JoSAA/CSAB counseling.",
+      "Eligibility: 10+2 in Science (PCM) with ≥75% (or 65% for SC/ST)."
+    ],
+    "PG Admissions": [
+      "M.Tech: GATE + CCMT counseling.",
+      "MBA: CAT/GMAT/MAT/CMAT + GD/PI and merit rounds.",
+      "MCA: NIMCET.",
+      "M.Sc: IIT JAM.",
+      "Eligibility: Bachelor’s degree in relevant stream, minimum aggregate."
+    ],
+    "Ph.D. Admissions": [
+      "Institute entrance exam/written test/interview.",
+      "Eligibility: Master’s in relevant discipline; GATE/NET/JRF scores considered."
+    ],
+    "Admission Table": [
+      "| Branch | UG Intake | PG Intake | Ph.D |",
+      "|--------|-----------|-----------|------|",
+      "| CSE    | 120       | 15        | 3-5  |",
+      "| ECE    | 75        | 15        | 3-5  |",
+      "| Mech   | 75        | 15        | 3-5  |",
+      "| Civil  | 75        | 15        | 3-5  |"
+    ],
+    "Direction": [
+      "National entrance → Institute/central counseling → seat confirmation; PG/MBA: exam + merit rounds"
+    ]
+  },
+  "Placements": {
+    "Placement Highlights": [
+      "2024 B.Tech placement rate: 95.3%; PG (M.Tech): 45.10%; MBA/MCA: 100%.",[11][12]
+      "Highest package (UG/PG): INR 52 LPA (CSE/ECE).",[12][11]
+      "Average package for CSE/ECE: ~INR 14.7–13.8 LPA.",[11][12]
+      "Total BTech offers: 704; PG: 83 in 2024.",
+      "Top recruiters: Tata, ITC, Wipro, Google, Microsoft, Bajaj."[5][11]
+    ],
+    "Branch-wise Placement Table": [
+      "| Branch | Placed % | Highest (LPA) | Avg. (LPA) |",
+      "|--------|----------|---------------|------------|",
+      "| CSE    | 95.3     | 52            | 14.71      |",
+      "| ECE    | ~82.3    | 52            | 13.83      |",
+      "| MBA    | 100      | ~20           | ~8         |",
+      "| MCA    | 100      | ~16           | ~6.5       |"
+    ],
+    "Internships": [
+      "Active T&P Cell supports paid internships, research assistantships with recruiters and governmental R&D.",
+      "Pre-placement training, resume workshops, and alumni mentorship."
+    ],
+    "Directions": [
+      "Top placement rates → Competitive packages → All India/industry exposure"
+    ]
+  },
+  "Rankings": {
+    "Ranking Highlights": [
+      "NIRF Engineering: 82 (2024); Upward trend in NIRF, improving score year-on-year.",[13][14][3]
+      "India Today Engineering: 26 (2024).",[3]
+      "NIRF breakdown: Teaching-learning outcomes (54.37/100), research (28.21/100), graduation (59.38/100), inclusivity (59.61/100).",
+      "Consistent position among top-100 engineering colleges nationally."
+    ],
+    "Table": [
+      "| Body        | Year | Category     | Rank |",
+      "|------------|------|-------------|------|",
+      "| NIRF Engg  | 2024 | Engineering | 82   |",
+      "| India Today| 2024 | Engineering | 26   |"
+    ],
+    "Directions": [
+      "Rising NIRF and national rankings; best in NE India engineering"
+    ]
+  },
+  "Facilities": {
+    "Campus Overview": [
+      "366-acre green campus, 6 boys’ and 2 girls’ hostels, Wi-Fi enabled areas.",[15][2]
+      "Knowledge Center (Library), Computer Center with centralized server, dedicated labs per department.",
+      "Student Activity Centre, seminar halls, auditorium, night canteen."
+    ],
+    "Academic Infrastructure": [
+      "Updated separate buildings, modular computer laboratories, advanced workshops in engineering fields."[16][15]
+    ],
+    "Hostel Life": [
+      "Comfortable, clean hostels; mess run autonomously, good amenities, water/generator backup.",[16]
+      "Sport Complex, gym, medical center, canteens, guest house, faculty/staff quarters."
+    ],
+    "Sports and Recreation": [
+      "Sports center: table tennis, basketball, playground, badminton, jog park.",
+      "Gymnasium (boys/girls), indoor games, regular tournaments."
+    ],
+    "Medical & Banking": [
+      "In-house hospital, 24/7 medical services, SBI ATM, post office.",
+      "Transportation: campus bus, proximity to rail station (Jirania)."
+    ],
+    "Other Facilities": [
+      "Night canteen, Wi-Fi hotspots, shopping space, open-air venues, extension/outreach centers."
+    ],
+    "Directions": [
+      "Comprehensive, modern infrastructure → Well-appointed academic, hostel, and recreation spaces"
+    ]
+  },
+  "Faculty": {
+    "Overview": [
+      "Over 200 faculty members, majority with PhDs, some with international fellowships.",[17][18][4]
+      "Dean-led structure: Professors, Associate Professors, Assistant Professors across 13 departments.",
+      "Faculty–student ratio: ~1:20 (varies by branch)."
+    ],
+    "Expertise & Involvement": [
+      "Departments: CSE, ECE, EE, Mech, Civil, Chemical, Bio, Prod, Physics, Chemistry, Maths, Management.",
+      "Areas of focus: digital systems, bioengineering, materials, environmental, AI/data science, management."
+    ],
+    "Teaching Approach": [
+      "Blend of theoretical/conceptual and hands-on learning.",
+      "Continuous assessment, interactive projects, open office hours, mentorship by senior faculty."
+    ],
+    "Faculty Sample Table": [
+      "| Department | No. Faculty | Avg. Degree | Leading Areas           |",
+      "|------------|-------------|------------|-------------------------|",
+      "| CSE        | ~17         | Ph.D.      | Digital, Networks, AI   |",
+      "| ECE        | ~15         | Ph.D.      | VLSI, Embedded, Comm    |",
+      "| EE         | ~12         | Ph.D.      | Power, Control, Drives  |",
+      "| Mech       | ~13         | Ph.D.      | Robotics, Dynamics      |",
+      "| Civil      | ~13         | Ph.D.      | Water, Structures       |",
+      "| Chemical   | ~10         | Ph.D.      | Process, Biotech        |",
+      "| Physics    | ~7          | Ph.D.      | Engineering Physics     |"
+    ],
+    "Directions": [
+      "Qualified faculty → Research engagement → Cross-disciplinary mentorship"
+    ]
+  },
+  "Reviews": {
+    "Student Highlights": [
+      "Good environment for study and extracurriculars; best in North East engineering.",[19][20][5]
+      "Placements decent; top companies visit, average package competitive, growing recruiter pool.",
+      "Modern infrastructure, beautiful and clean campus.",
+      "Faculty highly supportive; "best" among regional colleges in terms of knowledge-sharing and mentorship.",
+      "Hostels good overall; food needs improvement in most messes."
+    ],
+    "Review Table": [
+      "| Parameter     | Rating   | Summary               |",
+      "|--------------|----------|-----------------------|",
+      "| Academics    | 4.2/5    | Strong, updated       |",
+      "| Faculty      | 4.4/5    | Helpful, knowledgeable|",
+      "| Campus Life  | 4.3/5    | Clubs, events, sports |",
+      "| Infrastructure| 4.3/5   | Modern, green, hostels|",
+      "| Placements   | 4.1/5    | 90%+ in CSE/ECE, avg  |",
+      "| Facilities   | 4.3/5    | Sports, medical, bank |"
+    ],
+    "Directions": [
+      "Best technical campus in NE India → Strong mentorship → Modern, engaging student life"
+    ]
+  },
+  "Contact": {
+    "Address": "National Institute of Technology Agartala, P.O. Former Tripura Engineering College, Barjala, Jirania, Tripura (W), PIN-799046.",[18][1]
+    "Phone": "+91-381-2546630",
+    "Email": "director@nita.ac.in",
+    "Website": "https://www.nita.ac.in",
+    "Social Media": {
+      "Facebook": "facebook.com/nitagartala",
+      "Twitter": "twitter.com/nitagartala",
+      "LinkedIn": "linkedin.com/school/nit-agartala"
+    },
+    "Directions": [
+      "Director’s office for queries/admissions",
+      "Website for applications/announcements",
+      "Social media for campus news/life"
+    ]  }
+}}
+
+[1](https://www.nita.ac.in)
+[2](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Agartala)
+[3](https://www.shiksha.com/college/nit-agartala-national-institute-of-technology-35298)
+[4](https://www.careervira.com/en-IN/institute/national-institute-of-technology-agartala-nit-agartala)
+[5](https://www.collegedekho.com/colleges/nit-agartala-reviews)
+[6](https://www.nita.ac.in/uploaded_files/Prospectus.pdf)
+[7](https://collegedunia.com/university/25916-national-institute-of-technology-nit-agartala/courses-fees)
+[8](https://www.nita.ac.in/Department/DisplayDeptPage.aspx?page=ii&ItemID=icc&nDeptID=caask)
+[9](https://www.careers360.com/university/national-institute-of-technology-agartala/admission)
+[10](https://www.shiksha.com/college/nit-agartala-national-institute-of-technology-35298/admission)
+[11](https://www.shiksha.com/college/nit-agartala-national-institute-of-technology-35298/placement)
+[12](https://www.careers360.com/university/national-institute-of-technology-agartala/placement)
+[13](https://indianexpress.com/article/education/nit-agartala-last-five-years-nirf-rankings-jee-main-advanced-9267938/)
+[14](https://collegedunia.com/university/25916-national-institute-of-technology-nit-agartala/ranking)
+[15](https://www.telegraphindia.com/edugraph/colleges/national-institute-of-technology-agartala-nita/infrastructure/86)
+[16](https://www.careers360.com/university/national-institute-of-technology-agartala/facilities)
+[17](https://www.collegesearch.in/colleges/national-institute-of-technology-nit-agartala/faculty)
+[18](https://www.nita.ac.in/Department/Department_FacultyList.aspx?nDeptID=caasm)
+[19](https://collegedunia.com/university/25916-national-institute-of-technology-nit-agartala/reviews)
+[20](https://www.shiksha.com/college/nit-agartala-national-institute-of-technology-35298/reviews)

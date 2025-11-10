@@ -1,0 +1,282 @@
+{
+  "College Name": "NIT Warangal",
+  "Overview": {
+    "Introduction": "National Institute of Technology Warangal (NITW), established in 1959, is the oldest among India’s chain of 31 NITs and a leading technological institute located in Telangana. Recognized as an Institute of National Importance, it offers multidisciplinary programs, fosters research, and maintains active industry collaborations. With a sprawling campus of 250+ acres, NITW houses 13 departments, advanced labs, and comprehensive infrastructure.",[1][2][3][4]
+    "Historical Narrative": "Originally Regional Engineering College, NITW became autonomous and a deemed university in 2002, receiving Institute of National Importance status in 2007. Notable developments include mentorship of new NITs, UK-India exchanges in IT, and continual campus upgrades.",[3]
+    "Vision and Mission": "NITW’s mission is to nurture talent for technological excellence and innovation, focusing on socially relevant curriculum and holistic development through research, outreach, and internationalization.",[1]
+    "Academic Structure": "Departments include Engineering, Sciences, Architecture, and Management, offering undergraduate, postgraduate, and doctoral programs. Curricula incorporate electives, minors/honours, and hands-on projects for an industry-ready experience.",[5]
+    "Student Life": "Campus life is vibrant and immersive with technical/cultural festivals, 70+ clubs, open-air theatres, and sports facilities. Students actively participate in entrepreneurship, coding, robotics, literature, and social initiatives.",[6]
+    "Diversity": "NITW admits students nationwide and internationally, fostering diversity. It encourages collaboration, industry tie-ups, and scholar exchanges with global universities.",[4]
+    "Research and Innovation": "NITW is renowned for its R&D initiatives, patent filings, consultancy, and tech incubation. Centers for innovation, automation, and education technology drive industrial and societal advancements.",[4]
+    "Community Engagement": "Faculty and students engage in outreach, rural technology programs, and urban development consultancies to contribute locally and nationally.",
+    "Governance": "Managed by a council, NITW’s leadership ensures efficient operations across academics, finance, hostels, and student welfare.",
+    "Unique Features": [
+      "Oldest NIT, legacy in education",
+      "Modernized, green residential campus",
+      "Comprehensive research centers",
+      "Advanced labs and IT facilities",
+      "High placement and internship rates",
+      "Extensive student clubs and activities"
+    ],
+    "Narrative Flow": [
+      "Origins, growth, and legacy",
+      "Academic excellence and research",
+      "Campus life, diversity, and innovation",
+      "Outreach and community engagement",
+      "Governance and institutional strengths"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      {
+        "UG": [
+          "B.Tech (13 branches)",
+          "B.Sc.-M.Sc. Integrated (Sciences/Education)"
+        ],
+        "PG": [
+          "M.Tech (29 specializations)",
+          "MBA",
+          "M.Sc.",
+          "MCA",
+          "PG Diploma"
+        ],
+        "Doctoral": [
+          "Ph.D. in engineering, sciences, management"
+        ]
+      },
+      "Specializations cover Civil, CSE, ECE, Electrical, Mechanical, Chemical, Metallurgical, Biotechnology, Mathematics & Computing, Artificial Intelligence, Architecture, Physical Sciences, and more.",[7][8]
+      "Course curriculum emphasizes practicals, projects, electives, minors/honours programs, and frequent industry interaction."[5][4]
+    ],
+    "Fee Structure (UG/PG)": {
+      "Table": [
+        "| Course                    | Total Fees (INR)   | Hostel Fee (Year) | Tuition Fee (Year)    |",
+        "|---------------------------|--------------------|-------------------|-----------------------|",
+        "| B.Tech (per year)         | ~2,10,000          | ~50,000           | ~1,60,000             |",
+        "| M.Tech (2 years)          | 1.4L to 3.1L       | Included          | 77,500/sem*           |",
+        "| M.Sc. (2 years)           | 2.3L to 5.8L       | Included          | ~1,30,000             |",
+        "| MBA                       | ~2,30,000          | Included          | ~1,30,000             |",
+        "| MCA                       | ~1,50,000          | Included          | ~1,00,000             |"
+      ],
+      "*SC/ST/PwD students pay only other fees; sponsored/self-financed PG seats available with written test and interview.",[8][7]
+      "Scholarships and fee waivers for eligible students. Hostel fees include mess, internet, laundry, etc..",[8]
+      "Fees are regularly updated on the NITW website."
+    }
+  },
+  "Admissions": {
+    "Overview": "Admissions are entrance-based and merit-driven with no direct intake. Nationally recognized exams and centralized counseling determine allotment.",[9][10]
+    "UG Admissions": [
+      "B.Tech/B.Sc-M.Sc: JEE Main followed by JoSAA/CSAB counseling",
+      "Eligibility: 10+2 with Physics, Mathematics, Chemistry/Biology, >=75% for Gen/OBC; cut-off ranks vary by branch (e.g., CSE ~2600, Chemical ~6100)"[10][5]
+    ],
+    "PG Admissions": [
+      "M.Tech: GATE + CCMT counseling; also self-financed written tests/interviews",
+      "MBA: CAT, followed by GD/PI evaluation",
+      "M.Sc.: IIT JAM + CCMN counseling",
+      "MCA: NIMCET",
+      "Eligibility: Bachelor’s with minimum 60% aggregate"
+    ],
+    "Ph.D. Admissions": [
+      "GATE/NET + Institute test + Interview (via official website)",
+      "Eligibility: Master’s degree in relevant discipline"
+    ],
+    "Admissions Process Steps": [
+      "Apply through entrance exams (JEE Main, GATE, CAT, JAM, NIMCET)",
+      "Participate in centralized counseling (JoSAA, CCMT, CCMN)",
+      "Self-financed PG/Ph.D.: written test, interview, merit list",
+      "Document verification and fee payment"
+    ],
+    "Seat Intake (Examples)": {
+      "B.Tech CSE": "Approx. 180",
+      "B.Tech ECE": "Approx. 120",
+      "MBA": "60",
+      "PhD (per department)": "varies"
+    },
+    "Direction": [
+      "UG: JEE Main → JoSAA/CSAB; PG: GATE/CAT/JAM → CCMT/CCMN/Institute; PhD: Written test + Interview"
+    ]
+  },
+  "Placements": {
+    "Placement Highlights": [
+      "Placement rate: ~79.3% (2025); B.Tech: 94.89%",[11][12]
+      "Number of offers (2025): 1225; 1201 students placed",
+      "Highest package: INR 88 LPA",
+      "Average package: INR 15.6 LPA; Median CTC ~INR 12.5 LPA",
+      "Top recruiters: Microsoft, Amazon, Oracle, Goldman Sachs, Deloitte, Tata, Reliance, Qualcomm, etc.",[12][11]
+      "Internship and research placements in top global and Indian firms"
+    ],
+    "Branch-wise Placement Table": [
+      "| Branch         | Placement Rate | Highest Package (LPA) | Avg. (LPA) |",
+      "|---------------|----------------|----------------------|------------|",
+      "| CSE           | ~98%           | 88                   | ~24        |",
+      "| ECE           | ~96%           | ~44                  | ~18        |",
+      "| EE            | ~92%           | ~38                  | ~16        |",
+      "| Mech          | ~90%           | ~33                  | ~15        |",
+      "| Chemical      | ~88%           | ~30                  | ~14        |",
+      "| Civil         | ~85%           | ~28                  | ~12        |"
+    ],
+    "Internships": [
+      "Summer internships across tech and core sectors",
+      "Robust pre-placement training and alumni support",
+      "100+ recruiters annually, with increasing international placements"
+    ],
+    "Directions": [
+      "Strong placement cell → High offer/placement rate → Top recruiters → Competitive salaries → Excellent career prospects"
+    ]
+  },
+  "Rankings": {
+    "Ranking Highlights": [
+      "NIRF Engineering (2024): 21",[3][5]
+      "NIRF Overall (2024): 53; 2025: 63",[13]
+      "THE World University Rankings (2025): Overall 1201–1500; Engineering 1001–1250",[3]
+      "EduRank Engineering: 43 (India), 1095 (World)",[3]
+      "US News Subject: Computer Science #852, Electrical #738"[14]
+    ],
+    "Awards & Recognition": [
+      "Diamond Jubilee in 2019",
+      "Mentoring NIT Andhra Pradesh since 2014"[3]
+    ],
+    "Parameters": [
+      "Academic Excellence",
+      "Placement Outcomes",
+      "Research Quality",
+      "Facilities & Infrastructure",
+      "Selection Process"
+    ],
+    "Table": [
+      "| Ranking Body        | Year | Category      | Rank        |",
+      "|---------------------|------|--------------|-------------|",
+      "| NIRF Engineering    | 2024 | Engineering  | 21          |",
+      "| NIRF Overall        | 2025 | Overall      | 63          |",
+      "| THE World (Engg)    | 2025 | Engineering  | 1001–1250   |",
+      "| EduRank (Engg)      | 2025 | Engineering  | 43 (India)  |",
+      "| US News (Comp Sci)  | 2025 | Comp Sci     | 852         |"
+    ],
+    "Directions": [
+      "National and international rankings → Top 25 in engineering"
+    ]
+  },
+  "Facilities": {
+    "Campus Details": [
+      "248-acre residential campus; academic buildings; hostels for students and staff",[15][16]
+      "Central library (physical and digital), conference halls, innovation/automation centers"
+    ],
+    "Infrastructure & Labs": [
+      "Modern well-equipped labs (Civil, Chemistry, Computer, Electrical, Electronics, Mechanical, Physics, Design, VLSI, Simulation)",[16][15]
+      "Auditorium, amphitheater, seminar halls"
+    ],
+    "Sports and Fitness": [
+      "Stadium, gymnasiums, playfields for cricket, football, hockey, badminton, table tennis, basketball"
+    ],
+    "Student Spaces": [
+      "Cafeterias, shopping complex, health centre",
+      "Guest house, faculty/staff quarters, recreational areas",
+      "High-speed Wi-Fi, student activity centre, open-air theatres"
+    ],
+    "Medical & Banking": [
+      "24/7 hospital/health centre",
+      "ATM, post office, shuttle services"
+    ],
+    "Other Facilities": [
+      "Student clubs (robotics, tech, sports, culture)",
+      "Clean, secure hostels with laundry, canteen, security, parking"
+    ],
+    "Directions": [
+      "Full residential amenities → Modern labs and sports infrastructure → Medical/banking/recreation facilities"
+    ]
+  },
+  "Faculty": {
+    "Faculty Overview": [
+      "Over 300 faculty members, holding PhDs from premier institutes (IITs, IISc, NITs, foreign univs)",[17][18]
+      "Includes professors, associate and assistant professors, lecturers",
+      "Average experience > 15 years; faculty-student ratio ~1:10 (varies by department)",[17]
+      "Active in research, publications, consultancy, and academic mentoring"
+    ],
+    "Faculty Expertise": [
+      "Extensive research work, international publications, patents",
+      "Industry and government collaborations",
+      "Award-winning educators"
+    ],
+    "Faculty Involvement": [
+      "Academic advisement, club mentorship, fest organization",
+      "Guest and invited lectures, global partnership projects"
+    ],
+    "Teaching Approach": [
+      "Theory-practice blend, project-focused, continuous assessment",
+      "Focus on student-driven learning, innovation, research orientation"
+    ],
+    "Faculty Table": [
+      "| Department               | No. of Faculty | Avg. Qualification           | Key Areas                               |",
+      "|--------------------------|---------------|------------------------------|----------------------------------------|",
+      "| CSE                      | ~35           | Ph.D.                        | AI, Data Science, Systems, Security     |",
+      "| ECE                      | ~32           | Ph.D.                        | VLSI, Embedded, Communication          |",
+      "| Mechanical               | ~31           | Ph.D.                        | Manufacturing, Design, Robotics        |",
+      "| Electrical               | ~28           | Ph.D.                        | Power Systems, Electronics, Control    |",
+      "| Civil                    | ~25           | Ph.D.                        | Structures, Geotech, Environment       |",
+      "| Chemical                 | ~18           | Ph.D.                        | Process, Energy, Biochem               |",
+      "| Architecture             | ~15           | Ph.D./M.Arch                 | Sustainability, Urban Design           |"
+    ],
+    "Directions": [
+      "Premier, experienced faculty → Top research and industry engagement → Personalized mentoring"
+    ]
+  },
+  "Reviews": {
+    "Student Reviews": [
+      "Highly regarded for academics, placements, and research.",[19][6]
+      "Students praise campus life, vibrant clubs, technical fests, supportive faculty, green and spacious campus.",
+      "Some feedback about course rigor and frequency of exams; most enjoy practical exposure and project work.",
+      "Hostel and infrastructure rated highly; mess/canteen quality generally above average.",
+      "Strong career and alumni network, with minor complaints on non-academic administration."
+    ],
+    "Review Table": [
+      "| Parameter       | Student Rating   | Summary                      |",
+      "|-----------------|------------------|------------------------------|",
+      "| Academics       | 4.5/5            | Strong theory/practicals     |",
+      "| Faculty         | 4.6/5            | Experienced/helpful          |",
+      "| Campus Life     | 4.7/5            | Dynamic, club/sport/fest     |",
+      "| Infrastructure  | 4.5/5            | Modern, green, hostels       |",
+      "| Placements      | 4.4/5            | Top companies, high packages |",
+      "| Facilities      | 4.6/5            | Complete, sport/medical      |"
+    ],
+    "Directions": [
+      "Strong academics + career + campus life → High rating; some admin/process improvement needed"
+    ]
+  },
+  "Contact": {
+    "Full Address": "National Institute of Technology Warangal, NIT Campus, Warangal, Telangana – 506004, India",[2]
+    "Phone": "+91-870-2459191, +91-870-2459200",[2]
+    "Email": "director@nitw.ac.in, registrar@nitw.ac.in",[2]
+    "Website": "https://www.nitw.ac.in",[2]
+    "Social Media": {
+      "Facebook": "facebook.com/nitwarangal",
+      "Twitter": "twitter.com/nitwnews",
+      "LinkedIn": "linkedin.com/school/nit-warangal"
+    },
+    "Directions": [
+      "Director’s office for academic/administrative queries",
+      "Website for notifications, online services",
+      "Social media for campus community/updates"
+    ]
+    ]
+  }
+}
+
+[1](https://www.nitw.ac.in/au)
+[2](https://www.nitw.ac.in)
+[3](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Warangal)
+[4](https://indiaai.gov.in/college/nit-warangal)
+[5](https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425)
+[6](https://www.youtube.com/watch?v=Im7KftVfhJk)
+[7](https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425/courses)
+[8](https://www.careers360.com/university/national-institute-of-technology-warangal/courses)
+[9](https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425/admission)
+[10](https://collegedunia.com/university/25367-nit-warangal-warangal/admission)
+[11](https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425/placement)
+[12](https://www.careers360.com/university/national-institute-of-technology-warangal/placement)
+[13](https://telanganatoday.com/osmania-improves-nit-warangal-and-uoh-slip-in-nirf-rankings-2025)
+[14](https://www.usnews.com/education/best-global-universities/national-institute-of-technology-warangal-529770)
+[15](https://www.careers360.com/university/national-institute-of-technology-warangal/facilities)
+[16](https://www.shiksha.com/college/nit-warangal-national-institute-of-technology-25425/infrastructure)
+[17](https://collegedunia.com/university/25367-nit-warangal-warangal/faculty)
+[18](https://nitw.ac.in/api/static/files/Full_directory_2023-5-30-11-17-52.pdf)
+[19](https://www.collegebatch.com/reviews/20022-national-institute-of-technology-warangal)
+[20](https://www.nitw.ac.in/eee)

@@ -1,0 +1,238 @@
+{
+  "College Name": "NIT Delhi",
+  "Overview": {
+    "Introduction": "National Institute of Technology Delhi (NIT Delhi), established in 2010, is one of the youngest NITs, designated as an 'Institute of National Importance' under the Ministry of Education. Located in Narela, Delhi, its 51-acre campus has quickly matured into a hub of rigorous engineering and science education, research, and innovation, with more than 2,000 students enrolled in a range of undergraduate, postgraduate, and doctoral programmes.",[1][2][3]
+    "Historical Narrative": "NIT Delhi started as a temporary campus in Dwarka before moving to its permanent home in Narela in 2014. Notable milestones include full autonomy, rapid expansion of departments, introduction of advanced UG/PG streams (e.g., Artificial Intelligence, Data Science), and forward-looking research collaborations.",[2]
+    "Vision and Mission": "NIT Delhi aims to nurture globally competitive technologists and leaders through hands-on, industry-ready education and research, with an emphasis on social responsibility and innovation. Its mission integrates curriculum rigor, practical exposure, and holistic personality development.",[3]
+    "Academic Structure": "The institute offers BTech, MTech, and PhD programmes under seven departments: Computer Science, Electronics & Communication, Electrical, Civil, Mechanical, Applied Sciences, and Management. Contemporary syllabi, credit-based grading, research projects, electives, and internships form the backbone of curriculum delivery.",[1][3]
+    "Student Life": "Student life includes annual festivals (E-Summit, Udaan, Aura), technical societies, hostels with recreation rooms, sports facilities, entrepreneurship cells, and clubs. Hostels are modern and the environment is lively and inclusive.",[1]
+    "Diversity": "NIT Delhi attracts students from throughout India, supporting inclusivity and multiculturalism through outreach and open admission policies.",[3]
+    "Research and Innovation": "Emphasis is placed on research labs and tech innovation, with both student and faculty projects receiving national grants. State-of-the-art computing facilities like the PARAM Shavak supercomputer support this thrust.",[4]
+    "Community Engagement": "Social outreach includes technical consultancies for regional agencies and extension programmes in partnership with local communities.",[4]
+    "Governance": "The Director, Senate, and academic boards oversee academics, student affairs, and infrastructure, ensuring strong governance and institutional growth.",
+    "Unique Features": [
+      "Rapid improvement in national rankings since inception",
+      "Central Delhi/NCR location with industry access",
+      "Contemporary research labs; strong tech and innovation focus",
+      "High placement in software/data science fields"
+    ],
+    "Narrative Flow": [
+      "Founding and growth",
+      "Academic evolution and research",
+      "Student activities and diversity",
+      "Outreach and governance"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      {
+        "UG": [
+          "BTech in CSE, ECE, EEE, Civil, Mechanical, AI & Data Science, Aerospace, VLSI Design"
+        ],
+        "PG": [
+          "MTech in ECE, Data Analytics, VLSI, Power Electronics & Drives, CAD/CAM, Mathematics & Computing"
+        ],
+        "Doctoral": [
+          "Ph.D in Engineering, Sciences, Management"
+        ]
+      },
+      "Departments: Computer Science, Electronics & Communication, Electrical, Civil, Mechanical, Applied Sciences, Management."[5][6][1]
+    ],
+    "Fee Structure Table": [
+      "| Course          | Duration | Total Fees (INR)  | Hostel/Mess (Year) | Tuition (Year) |",
+      "|-----------------|---------|-------------------|--------------------|---------------|",
+      "| BTech           | 4 yrs   | 6.36 lakhs        | ~98,000            | ~1.84 lakhs   |",
+      "| MTech           | 2 yrs   | 5.33 lakhs        | ~80,000            | ~1.60 lakhs   |",
+      "| Ph.D            | 4-5 yrs | ~2.10 lakhs       | ~60,000            | ~45,000       |"
+    ],
+    "Fee Concessions": "SC/ST/PwD/low-income students have access to tuition fee waivers as per government norms. Multiple scholarships and bank loan support is available.",[6][5]
+    "Other Charges": "Additional fees cover sports, training/placement, library, alumni and development, with regular updates on the institute's portal."[5]
+  },
+  "Admissions": {
+    "Overview": "All admissions are via national-level competitive exams and central counseling; no direct entry is permitted.",[7][8]
+    "UG Admissions": [
+      "BTech: JEE Main followed by JoSAA/CSAB counseling.",
+      "Eligibility: Class XII with ≥75% score (Gen/OBC), 65% for SC/ST/PwD; PCM compulsory.",
+      "JEE Main closing ranks for CSE ~8900, ECE ~11,900, AI ~7,800."[1]
+    ],
+    "PG Admissions": [
+      "MTech: GATE score + CCMT counseling.",
+      "Eligibility: UG in relevant stream, minimum aggregate marks."
+    ],
+    "Ph.D. Admissions": [
+      "Written test/interview; GATE/NET scores considered.",
+      "Eligibility: Masters in relevant field."
+    ],
+    "Admissions Steps": [
+      "Register for entrance exam (JEE Main, GATE, etc.)",
+      "Apply for counseling (JoSAA, CCMT)",
+      "Document verification",
+      "Fee payment and seat confirmation"
+    ],
+    "Seat Intake Table": [
+      "| Branch          | UG Intake | PG Intake | Ph.D Intake |",
+      "|-----------------|-----------|-----------|-------------|",
+      "| CSE             | 60        | 18        | 2-4         |",
+      "| ECE             | 60        | 18        | 2-3         |",
+      "| EEE             | 45        | 15        | 2-3         |",
+      "| Civil           | 45        | 15        | 2-3         |",
+      "| AI & DS         | 45        | —         | —           |"
+    ],
+    "Direction": [
+      "UG/PG: National entrance (JEE/GATE) → central counseling; Ph.D.: test/interview"
+    ]
+  },
+  "Placements": {
+    "Highlights": [
+      "2025 BTech placement rate: ~65.12% (overall); CSE ~72%, ECE ~64%, EEE ~62%.",[9][10]
+      "Highest package: ~INR 82 LPA; lowest ~3.5 LPA.",[11]
+      "Average package: ~INR 12.5 LPA; median ~INR 9.3 LPA.",
+      "150+ students placed in 2025, 95+ recruiters, including Amazon, Microsoft, Directi, OYO, Samsung, Deloitte, Infosys, Dailyhunt, ZS Associates.",[9][11]
+      "Internship support via Training & Placement cell; frequent industry visits, workshops."
+    ],
+    "Branch-wise Placement Table": [
+      "| Branch      | Placement % | Highest (LPA) | Average (LPA) |",
+      "|-------------|-------------|---------------|---------------|",
+      "| CSE         | 72          | 82            | 18            |",
+      "| ECE         | 64          | 75            | 15            |",
+      "| EEE         | 62          | 72            | 12            |",
+      "| Civil       | 50          | 61            | 11            |"
+    ],
+    "Internships": [
+      "Regular summer internships; strong recruiter list.",
+      "Pre-placement training and alumni networking actively supported."
+    ],
+    "Directions": [
+      "Active T&P cell → High-value placements → Software/Data Science focus"
+    ]
+  },
+  "Rankings": {
+    "Highlights": [
+      "NIRF 2025 Engineering: 65 (India).",[12][1]
+      "NIRF 2023: 51; NIRF 2024: 49. Steady growth since inception..",[12]
+      "The Times Of India (2024): #21 engineering in India.",[13]
+      "Collegedunia B.Tech ranking: #39 India (2025)."[13]
+    ],
+    "Table": [
+      "| Agency            | Year | Category      | Rank |",
+      "|-------------------|------|--------------|------|",
+      "| NIRF Engineering  | 2025 | Engineering  | 65   |",
+      "| Times Of India    | 2024 | Engineering  | 21   |",
+      "| Collegedunia      | 2025 | B.Tech       | 39   |"
+    ],
+    "Directions": [
+      "Rapid climb in NIRF rank; top-65 engineering college in India"
+    ]
+  },
+  "Facilities": {
+    "Campus Overview": [
+      "51-acre modern campus, green spaces, newly constructed academic blocks, hostels for boys/girls, canteens, and Wi-Fi-enabled learning centers.",[14][4]
+      "Central library with digital access, seminar halls, innovation labs (PARAM Shavak supercomputer), computer center."
+    ],
+    "Hostel Infrastructure": [
+      "One boys hostel (residential), one girls hostel; expansion ongoing for new blocks. Hostel rooms are air-conditioned and maintained for cleanliness; mess offers good food variety, student autonomy facilitated."[4]
+    ],
+    "Academic/Lab Facilities": [
+      "Well-equipped labs: Chemistry, Physics, Electronics, Computer Programming, Engineering Drawing, VLSI, Automation, Communication."
+    ],
+    "Sports & Recreation": [
+      "Badminton/basketball/football grounds, cricket nets, gym, indoor sports halls."
+      "Annual sports festivals and inter-NIT tournaments."
+    ],
+    "Medical & Banking": [
+      "On-site medical center, banks/ATMs; free transport shuttle between campus and Rohini."[14]
+    ],
+    "Other Facilities": [
+      "Guest house/conference halls, seminar rooms, auditorium, Wi-Fi, shuttle service, cafeteria."
+    ],
+    "Directions": [
+      "Modern campus → Labs & sports → Hostel/medical/banking/transport"
+    ]
+  },
+  "Faculty": {
+    "Overview": [
+      "Faculty strength: 70+; majority hold PhDs from IITs/NITs, with strong publication and project record.",[15][16]
+      "Faculty–student ratio varies (examples: 1:10 for CSE, 1:40 for ECE); good interaction and mentorship; permanent/temporary faculty mix."
+      "Courses taught via blended approaches—smart classes, assignments, presentations; mid/end-semester exams."
+    ],
+    "Expertise": [
+      "Engineering: AI, Big Data, VLSI, Comm, Networks, Power Electronics, Signal Processing, IoT.",
+      "Sciences: Applied Physics, Mathematics, Lab Theory.",
+      "Management: Project Management, Entrepreneurship."
+    ],
+    "Teaching Approach": [
+      "Smart learning/smart classes, regular site visits, interactive doubt-clearance, open faculty hours.",
+      "Focus on labs and practicals for technical streams with regular assessments; faculty often provide custom notes."
+    ],
+    "Faculty Table": [
+      "| Department           | No. Faculty | Avg. Qualification | Key Areas         |",
+      "|----------------------|-------------|--------------------|-------------------|",
+      "| CSE                  | 14          | Ph.D.              | AI, Networks, DBMS|",
+      "| ECE                  | 12          | Ph.D.              | VLSI, Comm        |",
+      "| EEE                  | 11          | Ph.D.              | Power, Drives     |",
+      "| Civil                | 8           | Ph.D.              | Structures        |",
+      "| Mech                 | 7           | Ph.D.              | CAD, CAM          |"
+    ],
+    "Directions": [
+      "PhD-rich, approachable, industry-savvy faculty → Tech-innovation mentorship"
+    ]
+  },
+  "Reviews": {
+    "Student Highlights": [
+      "Overall positive feedback: good placements, labs, and learning environment; supportive, approachable faculty with friendly vibe.",[17][11]
+      "Hostel rooms neat, new blocks underway, proper cleaning; food quality and admin cited as above average.",
+      "Placement scenario best for CSE and AI; average for other branches.",
+      "Excellent campus location, improving infrastructure, good social scene and safe environment."
+    ],
+    "Review Table": [
+      "| Parameter        | Rating   | Summary                |",
+      "|------------------|---------|------------------------|",
+      "| Academics        | 4.2/5   | Depth, labs, teaching  |",
+      "| Faculty          | 4.4/5   | Supportive, expert     |",
+      "| Campus Life      | 4.4/5   | Events, sports, hostels|",
+      "| Infrastructure   | 4.2/5   | New, improving, clean  |",
+      "| Placements       | 4.1/5   | Top for CSE/AI, avg.   |",
+      "| Facilities       | 4.2/5   | Hostel/sports/medical  |"
+    ],
+    "Directions": [
+      "NIT Delhi: emerging campus → practical learning → rapid-placement growth (best in CSE/AI)"
+    ]
+  },
+  "Contact": {
+    "Address": "National Institute of Technology Delhi, IAMR Campus, A-7, Institutional Area, Near Satyawadi Raja Harish Chandra Hospital, Narela, Delhi – 110040.",[15][1]
+    "Phone": "+91-11-3386121 / +91-11-3386163",
+    "Email": "registrar@nitdelhi.ac.in",
+    "Website": "https://nitdelhi.ac.in",
+    "Social Media": {
+      "Facebook": "facebook.com/NITDelhiOfficial",
+      "Twitter": "twitter.com/nitdelhi",
+      "LinkedIn": "linkedin.com/school/nit-delhi"
+    },
+    "Directions": [
+      "Registrar for admissions/queries",
+      "Official portal for news/applications",
+      "Social media for real-time campus updates"
+    ]    ]
+  }
+}
+
+[1](https://www.shiksha.com/college/nit-delhi-national-institute-of-technology-narela-38584)
+[2](https://en.wikipedia.org/wiki/National_Institute_of_Technology_Delhi)
+[3](https://www.upgrad.com/universities/nit-delhi/)
+[4](https://www.shiksha.com/college/nit-delhi-national-institute-of-technology-narela-38584/infrastructure)
+[5](https://collegedunia.com/university/25464-national-institute-of-technology-nit-new-delhi/courses-fees)
+[6](https://www.careers360.com/university/national-institute-of-technology-delhi/courses)
+[7](https://www.shiksha.com/college/nit-delhi-national-institute-of-technology-narela-38584/admission)
+[8](https://www.careers360.com/university/national-institute-of-technology-delhi/admission)
+[9](https://www.careers360.com/university/national-institute-of-technology-delhi/placement)
+[10](https://www.shiksha.com/college/nit-delhi-national-institute-of-technology-narela-38584/placement)
+[11](https://www.shiksha.com/college/nit-delhi-national-institute-of-technology-narela-38584/reviews)
+[12](https://engineering.careers360.com/articles/nit-delhi-nirf-ranking)
+[13](https://collegedunia.com/university/25464-national-institute-of-technology-nit-new-delhi/ranking)
+[14](https://www.careers360.com/university/national-institute-of-technology-delhi/facilities)
+[15](https://www.collegesearch.in/colleges/national-institute-of-technology-nit-delhi/faculty)
+[16](https://collegedunia.com/university/25464-national-institute-of-technology-nit-new-delhi/faculty)
+[17](https://www.collegedekho.com/colleges/nit-delhi-reviews)
+[18](https://collegedunia.com/university/25464-national-institute-of-technology-nit-new-delhi/bachelor-of-technology-btech-computer-science-and-engineering-2049)
+[19](https://www.collegepravesh.com/engineering-colleges/nit-delhi/)
+[20](https://www.boostmytalent.com/college/nit-national-institute-of-technology-delhi)

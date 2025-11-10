@@ -237,3 +237,5 @@ Users downloading brochures will get:
 This ensures that when someone clicks "Download Brochure", they get a COMPLETE, COMPREHENSIVE document that covers every aspect of the college!
 
 
+
+

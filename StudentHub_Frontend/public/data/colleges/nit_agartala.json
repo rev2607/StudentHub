@@ -1,0 +1,549 @@
+{
+  "Name": "National Institute of Technology Agartala (NIT Agartala)",
+  "Location": {
+    "City": "Agartala",
+    "District": "West Tripura",
+    "State": "Tripura",
+    "Country": "India",
+    "Pin": "799046",
+    "CampusAreaAcres": 366,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Agartala"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1965,
+    "OriginalName": "Tripura Engineering College",
+    "Renamed": [
+      {
+        "Year": 2006,
+        "Name": "National Institute of Technology Agartala (NIT Agartala)"
+      }
+    ],
+    "HistoricalSignificance": "First NIT in Northeast India, transitioned from Tripura Engineering College to NIT under Ministry of Human Resource Development in 2006. Pioneered programs in engineering physics and computational mathematics."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Autonomous Institute",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "National Institute of Technology Agartala (NITA), founded in 1965 as Tripura Engineering College and accorded Institute of National Importance status in 2006, is a premier technical institution in Northeast India. With a lush campus spread over 366 acres, NITA provides a rigorous academic environment, fostering innovation, entrepreneurship, and social responsiveness. The institute currently consists of 13 departments supporting over 4000 students and a vibrant multidisciplinary ethos.",
+    "StudentStrength": "Over 4,000 students including international nationals",
+    "MajorEvents": [
+      "Technical festivals",
+      "Sports tournaments",
+      "Cultural events",
+      "Entrepreneurship cell activities"
+    ],
+    "ResearchFocus": [
+      "Seismic science",
+      "Hydroinformatics",
+      "Computational physics",
+      "Engineering biology",
+      "Chemical innovation"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "Industry collaborations",
+      "Global institutes partnerships"
+    ],
+    "SocialInitiatives": [
+      "Rural outreach",
+      "Technical consultancies",
+      "Extension activities for NE India"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 82,
+      "Engineering": 82,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 82,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 26,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science & Engineering",
+          "Electronics & Communication Engineering",
+          "Electrical Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Biomedical Engineering",
+          "Biotechnology",
+          "Production Engineering",
+          "Transportation Engineering",
+          "Engineering Physics"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA/CSAB counseling"],
+        "Seats": 1100,
+        "FirstYearFeeINR": 143250,
+        "TotalFeesINRApprox": 573000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 15,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CCMT counseling"],
+        "FirstYearFeeINR": 89500,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "Not offered"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "GMAT", "MAT", "CMAT", "GD/PI"],
+        "Seats": 60,
+        "FirstYearFeeINR": 130000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["IIT JAM"],
+        "FirstYearFeeINR": 20600,
+        "Seats": 50
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 13,
+        "Entrance": [
+          "GATE",
+          "NET",
+          "JRF",
+          "Institute entrance exam"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 30000,
+        "SeatsMoreThan": 50
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 80000,
+      "Maximum": 80000,
+      "Note": "Includes mess charges approximately"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main",
+        "Counseling": "JoSAA/CSAB online",
+        "AdditionalTestForBArch": ""
+      },
+      "BDes": {
+        "Exam": "Not offered",
+        "Counseling": ""
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT/GMAT/MAT/CMAT",
+        "AdditionalSelection": ["Group Discussion", "Personal Interview"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "NET", "JRF", "Institute entrance exam"],
+        "Selection": "Written test/interview",
+        "AdditionalNotes": "Master's in relevant discipline required"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": [],
+      "AdditionalProcess": ""
+    },
+    "ReservationPolicy": "As per Government of India guidelines: SC/ST/OBC/EWS/PwD reservations applicable",
+    "ApplicationMode": "Online through official website and counseling portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [],
+      "Physics": [],
+      "Mathematics": []
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 0,
+      "OBCPercentile": 0,
+      "SCSTPercentileMin": 0
+    },
+    "AdditionalDetails": "Cutoffs vary annually based on JEE Main ranks. CSE typically has highest cutoff, followed by ECE and other branches."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 787,
+      "Recruiters": 150,
+      "HighestPackageINR": 5200000,
+      "HighestDomesticPackageINR": 5200000,
+      "OverallAveragePackageINR": 800000,
+      "CSEAveragePackageINR": 1471000,
+      "ECEAveragePackageINR": 1383000,
+      "MBA median package INR": 800000,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "Tata",
+        "ITC",
+        "Wipro",
+        "Google",
+        "Microsoft",
+        "Bajaj",
+        "Infosys",
+        "TCS",
+        "L&T",
+        "HCL"
+      ],
+      "JobProfiles": [
+        "Software Engineer",
+        "Data Analyst",
+        "Product Manager",
+        "Consultant",
+        "Research Engineer",
+        "Design Engineer"
+      ],
+      "PlacementPreparation": [
+        "Pre-placement training",
+        "Resume workshops",
+        "Alumni mentorship",
+        "Mock interviews"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 8,
+      "Types": [
+        "Boys hostels (6)",
+        "Girls hostels (2)"
+      ],
+      "Amenities": [
+        "Wi-Fi enabled",
+        "Mess facilities",
+        "Common rooms",
+        "Study rooms",
+        "Water/generator backup"
+      ]
+    },
+    "Library": {
+      "Name": "Knowledge Center",
+      "AreaSqFt": 0,
+      "BookCount": 0,
+      "EJournalsCount": 0,
+      "Features": [
+        "Centralized server",
+        "Digital resources",
+        "Reading halls"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 50,
+      "FocusAreas": [
+        "Computer science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "Chemical",
+        "Biomedical"
+      ],
+      "Equipment": [
+        "Modern computer labs",
+        "Advanced workshops",
+        "Research equipment"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Sports complex",
+        "Table tennis",
+        "Basketball court",
+        "Playground",
+        "Badminton court",
+        "Jog park",
+        "Gymnasium (boys/girls)",
+        "Indoor games"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "In-house hospital",
+      "Services": [
+        "24/7 medical services",
+        "Emergency care",
+        "General health services"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Mess halls",
+        "Night canteen",
+        "Canteens"
+      ],
+      "Services": [
+        "Vegetarian and non-vegetarian options",
+        "Multi-cuisine"
+      ]
+    },
+    "OtherAmenities": [
+      "Student Activity Centre",
+      "Seminar halls",
+      "Auditorium",
+      "SBI ATM",
+      "Post office",
+      "Campus bus",
+      "Shopping space",
+      "Open-air venues",
+      "Extension/outreach centers"
+    ],
+    "StudentClubs": {
+      "Number": 20,
+      "Types": [
+        "Technical societies",
+        "Cultural clubs",
+        "Sports clubs",
+        "Entrepreneurship cell",
+        "NCC",
+        "Weight-lifting club"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 13,
+    "DepartmentsList": [
+      "Computer Science & Engineering",
+      "Electronics & Communication Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Chemical Engineering",
+      "Biomedical Engineering",
+      "Biotechnology",
+      "Production Engineering",
+      "Transportation Engineering",
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Management"
+    ],
+    "ResearchCenters": [
+      "Centers of Excellence",
+      "Advanced labs for seismic science",
+      "Hydroinformatics labs",
+      "Computational physics labs",
+      "Engineering biology labs",
+      "Chemical innovation labs"
+    ],
+    "Strength": {
+      "FacultyCount": 200,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "Industry collaborations",
+      "Global institutes partnerships",
+      "Governmental R&D"
+    ],
+    "FacultyActivities": [
+      "Research publications",
+      "Industry consultancies",
+      "Student mentorship",
+      "Community outreach"
+    ],
+    "StudentFeedback": "Faculty highly supportive; best among regional colleges in terms of knowledge-sharing and mentorship"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "SC/ST/PwD tuition exemption",
+      "Merit-based scholarships",
+      "Financial aid"
+    ],
+    "Coverage": [
+      "Tuition fees",
+      "Hostel fees",
+      "Mess charges"
+    ],
+    "Application": [
+      "Through institute portal",
+      "Based on financial and merit criteria"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.3,
+    "CollegeDuniaReviewsCount": 500,
+    "Careers360Rating": 4.2,
+    "Strengths": [
+      "Good environment for study and extracurriculars",
+      "Best in North East engineering",
+      "Modern infrastructure",
+      "Beautiful and clean campus",
+      "Faculty highly supportive",
+      "Strong placement culture",
+      "Top companies visit"
+    ],
+    "Weaknesses": [
+      "Mess food needs improvement",
+      "Limited research funding compared to older IITs",
+      "Infrastructure can be improved in some areas"
+    ],
+    "ReturnOnInvestment": "Excellent ROI with competitive packages and good placement rates. Low fees compared to private institutions."
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student body from across India and international students",
+    "CulturalTraditions": [
+      "Technical festivals",
+      "Cultural events",
+      "Sports tournaments"
+    ],
+    "Festivals": [
+      "Technical festivals",
+      "Cultural fests",
+      "Sports meets"
+    ],
+    "ClubsAndSocieties": [
+      "Technical societies",
+      "Cultural clubs",
+      "Sports clubs",
+      "Entrepreneurship cell",
+      "NCC",
+      "Weight-lifting club"
+    ],
+    "OutdoorActivities": [
+      "Sports tournaments",
+      "Campus celebrations",
+      "Recreational activities"
+    ],
+    "StudentGovernance": "Active student bodies and committees",
+    "WellbeingFacilities": [
+      "Medical center",
+      "Counseling services",
+      "Sports facilities",
+      "Recreation centers"
+    ],
+    "Community": "Close-knit community with strong hostel life and campus culture"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1965,
+    "Founder": "Government of India",
+    "InitialFocus": "Engineering education in Northeast India",
+    "Evolution": [
+      "Started as Tripura Engineering College in 1965",
+      "Affiliated to Calcutta University",
+      "Transitioned to NIT in 2006",
+      "Accorded Institute of National Importance status"
+    ],
+    "Legacy": "First NIT in Northeast India, pioneering engineering education in the region",
+    "Heritage": "Strong commitment to technical advancement, ethical leadership, and global engagement"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Seismic science",
+      "Hydroinformatics",
+      "Computational physics",
+      "Engineering biology",
+      "Chemical innovation",
+      "Digital systems",
+      "Bioengineering",
+      "Materials science",
+      "Environmental engineering",
+      "AI/data science"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Research in seismic science, hydroinformatics, and computational physics",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Industry collaborations",
+      "Global institutes partnerships",
+      "Governmental R&D organizations"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": false
+    }
+  },
+  "NewsAndUpdates": [],
+  "OfficialContactInfo": {
+    "Website": "https://www.nita.ac.in",
+    "Address": "National Institute of Technology Agartala, P.O. Former Tripura Engineering College, Barjala, Jirania, Tripura (W), PIN-799046",
+    "Phone": "+91-381-2546630",
+    "Emails": {
+      "Registrar": "director@nita.ac.in",
+      "Admissions": "admission@nita.ac.in",
+      "PlacementCell": "placement@nita.ac.in"
+    }
+  }
+}
+
+

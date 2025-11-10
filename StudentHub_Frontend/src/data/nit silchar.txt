@@ -1,0 +1,161 @@
+{
+  "College Name": "NIT Silchar",
+  "Overview": {
+    "Introduction": "National Institute of Technology Silchar (NIT Silchar), established in 1967 as a Regional Engineering College and designated as an Institute of National Importance in 2007, is a reputable engineering institute located in Assam.",[1][2]
+    "Historical Narrative": "Originally affiliated with Gauhati University, NIT Silchar gained autonomy and expanded to include undergraduate, postgraduate, and doctoral programs in engineering, science, and management. It has focused on research excellence and industrial collaborations.",[2]
+    "Vision and Mission": "Committed to nurturing skilled technologists and researchers with a focus on innovation, sustainable technology, and social development.",[1]
+    "Academic Structure": "Offers a well-rounded curriculum with 11 departments covering core engineering disciplines, sciences, and management, emphasizing practical exposure and research.",[3][2]
+    "Student Life": "Vibrant campus life with technical and cultural fests, sports events, and active clubs. Spacious hostels and recreational facilities are available.",[4][1]
+    "Diversity": "A diverse student and faculty body from across India, promoting inclusive and collaborative learning.",
+    "Research and Innovation": "Strong focus on interdisciplinary research with dedicated centers of excellence and collaborations with academic and industrial partners.",[1]
+    "Community Engagement": "Engages in outreach programs and consultancy for regional development and social causes.",
+    "Governance": "Managed under a robust governance structure comprising the Director, Senate, and various academic and administrative committees.",
+    "Unique Features": [
+      "Oldest NIT in Northeast India",
+      "Largest digital library in India",
+      "Strong research culture and innovation centers",
+      "High placement rates in CSE and ECE branches"
+    ],
+    "Narrative Flow": [
+      "Establishment and growth",
+      "Academic and research excellence",
+      "Student culture and diversity",
+      "Outreach and governance"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      {
+        "UG": [
+          "B.Tech in core Engineering disciplines (CSE, ECE, Civil, Mechanical, Electrical, etc.)"
+        ],
+        "PG": [
+          "M.Tech in specialized streams",
+          "MBA",
+          "M.Sc in Science disciplines",
+          "Ph.D in Engineering and Sciences"
+        ]
+      },
+      "Programs emphasize credit-based education, research projects, internships, and experiential learning."[3]
+    ],
+    "Fee Structure Table": [
+      "| Course | Duration | Total Fee (INR) | Hostel Fee (Year) | Tuition Fee (Semester) |",
+      "|--------|----------|-----------------|-------------------|------------------------|",
+      "| B.Tech | 4 years  | ~6.14 Lakhs     | ~80,000           | ~62,500                |",
+      "| M.Tech | 2 years  | ~2 Lakhs       | ~40,000           | ~45,000                |",
+      "| MBA    | 2 years  | ~1.3 Lakhs     | ~50,000           | ~65,000                |",
+      "| M.Sc   | 2 years  | ~50,000        | ~30,000           | ~10,000                |"
+    ],
+    "Fee Waivers": "Full tuition waiver for SC/ST/PwD; merit and need-based scholarships available.",[3]
+    "Additional Charges": "Include library, sports, training, examination fees, regularly updated."
+  },
+  "Admissions": {
+    "Overview": "Admissions are entrance exam based, conducted via JEE Main for UG, GATE for PG, with counseling procedures ensuring transparency.",[5]
+    "UG Admission": [
+      "Based on JEE Main rank followed by JoSAA counseling.",
+      "Eligibility: Minimum 75% aggregate in Physics, Chemistry, and Mathematics at 10+2 level."
+    ],
+    "PG Admission": [
+      "M.Tech selection through GATE + CCMT counseling.",
+      "MBA through CAT/CMAT, M.Sc through IIT JAM.",
+      "Eligibility: Relevant undergraduate degree with minimum marks."
+    ],
+    "Ph.D Admission": [
+      "Institute-level entrance test and interview.",
+      "Preference given to candidates with GATE, NET, or JRF qualifications."
+    ],
+    "Admission Steps": [
+      "Register and appear for respective entrance exams",
+      "Participate in centralized counseling and seat allotment",
+      "Undergo document verification and fee payment"
+    ],
+    "Seat Intake": {
+      "B.Tech": 632,
+      "M.Tech": "Varies by specialization",
+      "Ph.D": "Approx. 100 annual intake"
+    }
+  },
+  "Placements": {
+    "Placement Highlights": [
+      "Placement rate approximately 91% in 2024.",
+      "Highest package recorded at INR 52.89 LPA.",
+      "Average package around INR 13.54 LPA.",
+      "200+ recruiters visit annually offering 768+ offers.",
+      "Key recruiters include Amazon, Microsoft, and other multinational corporations."[6]
+    ],
+    "Branch-wise Placement": [
+      "| Branch | Offers |",
+      "|--------|--------|",
+      "| CSE    | 196    |",
+      "| ECE    | 168    |",
+      "| ME     | 143    |",
+      "| EE     | 129    |",
+      "| CE     | 87     |",
+      "| EIE    | 84     |"
+    ]
+  },
+  "Rankings": {
+    "NIRF Ranking": 50,
+    "Overall Ranking": 97,
+    "Rankings Details": [
+      "NIT Silchar ranked 40th in engineering in 2023 and 50th in 2024.",
+      "Ranked among top government engineering colleges in East India."
+    ]
+  },
+  "Facilities": {
+    "Campus Facilities": [
+      "Well-maintained 366-acre campus with academic blocks, administration, library with rich digital resources, and computer centers.",
+      "Hostels for boys and girls with modern amenities including mess, laundry, recreation rooms.",
+      "Comprehensive sports complex with multiple courts and grounds.",
+      "Medical center and staff quarters on campus.",
+      "Wi-Fi enabled campus with transport facilities."
+    ]
+  },
+  "Faculty": {
+    "Faculty Details": [
+      "Approximately 209 faculty members with 195 holding PhDs.",
+      "Departments encompass engineering, sciences, humanities, and management.",
+      "Faculty involved in research, consultancy, mentorship, and innovative teaching."
+    ]
+  },
+  "Reviews": {
+    "Student Feedback": [
+      "Faculty is highly supportive and experienced.",
+      "Placements strong in CSE and ECE branches.",
+      "Campus is scenic with good facilities but infrastructure needs periodic upgrades.",
+      "Active extracurricular and research culture."
+    ]
+  },
+  "Contact": {
+    "Address": "National Institute of Technology Silchar, Silchar, Assam, India - 788010",
+    "Phone": "+91-384-2409603",
+    "Email": "registrar@nits.ac.in",
+    "Website": "https://www.nits.ac.in",
+    "Social Media": {
+      "Facebook": "facebook.com/nitsilchar",
+      "Twitter": "twitter.com/nitsilchar",
+      "LinkedIn": "linkedin.com/school/nit-silchar""
+    }
+  }
+}
+
+[1](https://www.nits.ac.in)
+[2](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Silchar)
+[3](https://collegedunia.com/university/25399-nit-silchar-silchar/courses-fees)
+[4](https://www.collegedekho.com/colleges/nit-silchar-reviews)
+[5](https://www.shiksha.com/university/nit-silchar-national-institute-of-technology-28583/admission)
+[6](https://www.collegedekho.com/colleges/nit-silchar-placement)
+[7](https://www.collegepravesh.com/engineering-colleges/nit-silchar/)
+[8](https://collegedunia.com/university/25399-nit-silchar-silchar/reviews)
+[9](https://www.shiksha.com/university/nit-silchar-national-institute-of-technology-28583)
+[10](https://collegedunia.com/university/25399-nit-silchar-silchar/ranking)
+[11](https://www.careers360.com/university/national-institute-of-technology-silchar/facilities)
+[12](https://cs.nits.ac.in)
+[13](https://collegedunia.com/university/25399-nit-silchar-silchar)
+[14](https://www.careers360.com/university/national-institute-of-technology-silchar/courses)
+[15](https://www.aakash.ac.in/blog/nit-silchar-ranking-admissions-courses-fees-structure-eligibility-criteria-selection-process-cut-off-and-placement/)
+[16](https://www.shiksha.com/university/nit-silchar-national-institute-of-technology-28583/placement)
+[17](https://barakbulletin.com/nit-silchar-slips-to-50-in-engineering-97-overall-in-nirf-india-rankings-2025/)
+[18](https://www.shiksha.com/university/nit-silchar-national-institute-of-technology-28583/infrastructure)
+[19](https://www.nits.ac.in/more/faculty-list)
+[20](https://www.shiksha.com/university/nit-silchar-national-institute-of-technology-28583/reviews)

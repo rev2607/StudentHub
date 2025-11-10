@@ -1,0 +1,573 @@
+{
+  "Name": "National Institute of Technology Patna (NIT Patna)",
+  "Location": {
+    "City": "Patna",
+    "District": "Patna",
+    "State": "Bihar",
+    "Country": "India",
+    "Pin": "800005",
+    "CampusAreaAcres": 100,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Bihta, Patna, Bihar"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1886,
+    "OriginalName": "Patna College of Engineering",
+    "Renamed": [
+      {
+        "Year": 2004,
+        "Name": "National Institute of Technology Patna"
+      }
+    ],
+    "HistoricalSignificance": "Initially started as Patna College of Engineering in 1886, it evolved into an NIT in 2004, expanding its academic breadth and research capabilities. It provides quality technical education catering to Northern India and has developed a strong industry interface over the years."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "National Institute of Technology Patna (NIT Patna), established in 1886, is one of the oldest technical institutes in India located in Patna, Bihar. It is an Institute of National Importance offering undergraduate, postgraduate, and doctoral programs in engineering and science disciplines.",
+    "StudentStrength": "Over 3,000 students including international nationals",
+    "MajorEvents": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports events"
+    ],
+    "ResearchFocus": [
+      "Applied Science",
+      "Technology",
+      "Engineering",
+      "Industry Collaboration"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities"
+    ],
+    "SocialInitiatives": [
+      "Outreach programs",
+      "Consultancy services",
+      "Regional industry support"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 50,
+      "Engineering": 35,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 50,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Electronics and Communication Engineering",
+          "Electrical and Electronics Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA counseling"],
+        "Seats": 600,
+        "FirstYearFeeINR": 153500,
+        "TotalFeesINRApprox": 614000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 19,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CCMT"],
+        "FirstYearFeeINR": 130000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "N/A"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "GMAT"],
+        "Seats": 60,
+        "FirstYearFeeINR": 150000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["JAM"],
+        "FirstYearFeeINR": 100000,
+        "Seats": 50
+      },
+      "MCA": {
+        "DurationYears": 3,
+        "Entrance": ["NIMCET"],
+        "Seats": 60,
+        "FirstYearFeeINR": 120000
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 15,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 50000,
+        "SeatsMoreThan": 100
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 35000,
+      "Maximum": 40000,
+      "Note": "Approximate hostel and mess charges for complete course: ₹1.42 Lakhs"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": ""
+      },
+      "BDes": {
+        "Exam": "",
+        "Counseling": ""
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT",
+        "AdditionalProcesses": "Institute procedures"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["GD", "PI"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "JEEMain2025": {
+      "BTechCSEClosingRank": 5000,
+      "ECEClosingRank": 8000,
+      "MechEngClosingRank": 12000,
+      "ElectEngClosingRank": 10000,
+      "CivilEngClosingRank": 15000
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Physics": [0, 0],
+      "Chemistry": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 85,
+      "OBCPercentile": 75,
+      "SCSTPercentileMin": 65
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories with multiple rounds of JoSAA counselling."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 450,
+      "Recruiters": 80,
+      "HighestPackageINR": 4500000,
+      "HighestDomesticPackageINR": 4500000,
+      "OverallAveragePackageINR": 990000,
+      "CSEAveragePackageINR": 1200000,
+      "ECEAveragePackageINR": 1000000,
+      "MBA median package INR": 800000,
+      "PPOs": 50,
+      "TopRecruiters": [
+        "Samsung",
+        "Amazon",
+        "Accenture",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL",
+        "Tech Mahindra",
+        "L&T",
+        "Capgemini"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Analyst",
+        "Business Analyst",
+        "Associate Engineer",
+        "Consultant",
+        "R&D Engineer",
+        "Process Engineer"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Technical seminars",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 8,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Rooms"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 50000,
+      "EJournalsCount": 5000,
+      "Features": [
+        "Digital resources",
+        "24/7 access",
+        "Group study zones",
+        "Computer terminals",
+        "Inter-library loan"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 50,
+      "FocusAreas": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "Chemical",
+        "Electrical"
+      ],
+      "Equipment": [
+        "State-of-the-art instruments",
+        "Advanced computing facilities",
+        "Modern fabrication equipment"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Cricket Ground",
+        "Football Ground",
+        "Tennis Courts",
+        "Basketball Courts",
+        "Volleyball Courts",
+        "Badminton Courts",
+        "Athletics Tracks",
+        "Indoor Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "NIT Patna Medical Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "24/7 doctor services",
+        "Pharmacy",
+        "Ambulance"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Food courts",
+        "Cafeterias"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Regional cuisines",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Guest Houses",
+      "Banks and ATMs",
+      "Post Office",
+      "Shopping Complex",
+      "Places of Worship",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 30,
+      "Types": [
+        "Technical (Coding, IEEE)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Photography",
+        "Quizzing"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 10,
+    "DepartmentsList": [
+      "Civil Engineering",
+      "Computer Science and Engineering",
+      "Electrical and Electronics Engineering",
+      "Electronics and Communication Engineering",
+      "Mechanical Engineering",
+      "Chemical Engineering",
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Humanities and Social Sciences"
+    ],
+    "ResearchCenters": [
+      "Centre for Advanced Research",
+      "Centre for Industry Collaboration"
+    ],
+    "Strength": {
+      "FacultyCount": 150,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Government ministries",
+      "Private industries"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry consultancy"
+    ],
+    "StudentFeedback": "Experienced faculty largely holding PhDs, actively engaged in research and pedagogy"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "SC/ST/PwD Fee Concessions",
+      "EWS Tuition Fee Waiver",
+      "Income-based fee waivers",
+      "Merit-cum-means scholarships",
+      "GATE/NET Fellowships",
+      "Research Fellowships",
+      "National Scholarship Portal schemes"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Support",
+      "Monthly Stipends",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.5,
+    "CollegeDuniaReviewsCount": 500,
+    "Careers360Rating": 4.4,
+    "Strengths": [
+      "Heritage of over 130 years",
+      "Strong focus on research",
+      "Growing placement network",
+      "Established faculty",
+      "Modern infrastructure",
+      "Digital learning facilities"
+    ],
+    "Weaknesses": [
+      "Competitive admissions",
+      "Academic pressure",
+      "Limited infrastructure compared to newer NITs"
+    ],
+    "ReturnOnInvestment": "Good"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India",
+    "CulturalTraditions": [
+      "Technical festival traditions",
+      "Cultural festival heritage",
+      "Sports events",
+      "Inter-hostel competitions"
+    ],
+    "Festivals": [
+      "Technical Festival",
+      "Cultural Festival",
+      "Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Coding (IEEE)",
+      "Science and Technology Council",
+      "Cultural Council",
+      "Sports Council",
+      "Music & Dance",
+      "Drama",
+      "Photography",
+      "Quizzing"
+    ],
+    "OutdoorActivities": [
+      "Sports activities",
+      "Cultural exploration",
+      "Community engagement"
+    ],
+    "StudentGovernance": "Student Councils and representative bodies",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Sports Facilities",
+      "Medical facilities",
+      "Counseling Services"
+    ],
+    "Community": "Dynamic campus life with festivals, clubs, sports facilities, and hostels offering a balanced academic and extracurricular environment"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1886,
+    "Founder": "Government of India",
+    "InitialFocus": "Patna College of Engineering to expand technical education",
+    "Evolution": [
+      "1886: Established as Patna College of Engineering",
+      "2004: Evolved into National Institute of Technology Patna",
+      "Expanded academic breadth and research capabilities"
+    ],
+    "Legacy": "Heritage of over 130 years of technical education, strong focus on research and industry collaboration",
+    "Heritage": "One of the oldest technical institutes in India, located in Patna, Bihar"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Applied Science",
+      "Technology",
+      "Engineering",
+      "Industry Collaboration",
+      "Regional Development"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Active research projects and centers of excellence focusing on applied science and technology to resolve societal challenges",
+    "Startups": {
+      "Number": 20,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Regional industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "NIT Patna Admissions 2025-26",
+      "Date": "2025-09-01",
+      "Details": "Admissions open for various programs"
+    },
+    {
+      "Event": "Technical Festival 2025",
+      "StartDate": "2025-03-15",
+      "EndDate": "2025-03-19",
+      "Theme": "Technical festival"
+    },
+    {
+      "Event": "Cultural Festival 2025",
+      "StartDate": "2025-10-05",
+      "EndDate": "2025-10-09",
+      "Theme": "Cultural festival"
+    },
+    {
+      "Event": "JEE Main 2025",
+      "Date": "2025-01-24"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.nitp.ac.in",
+    "Address": "NIT Patna, Bihta, Patna, Bihar, India",
+    "Phone": "+91-612-2396245",
+    "Emails": {
+      "Registrar": "registrar@nitp.ac.in",
+      "Admissions": "admissions@nitp.ac.in",
+      "PlacementCell": "placement@nitp.ac.in"
+    }
+  }
+}
+
+

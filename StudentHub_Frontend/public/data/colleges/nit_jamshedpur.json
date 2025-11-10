@@ -1,0 +1,492 @@
+{
+  "Name": "National Institute of Technology Jamshedpur (NIT Jamshedpur)",
+  "Location": {
+    "City": "Jamshedpur",
+    "District": "East Singhbhum",
+    "State": "Jharkhand",
+    "Country": "India",
+    "Pin": "831014",
+    "CampusAreaAcres": 0,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Jamshedpur"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1960,
+    "OriginalName": "Regional Institute of Technology",
+    "Renamed": [
+      {
+        "Year": 2002,
+        "Name": "National Institute of Technology Jamshedpur (NIT Jamshedpur)"
+      }
+    ],
+    "HistoricalSignificance": "Originally started as a Regional Institute of Technology, upgraded to NIT status in 2002. One of the premier engineering institutes in India designated as an Institute of National Importance."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Autonomous Institute",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "National Institute of Technology Jamshedpur (NIT Jamshedpur), established in 1960, is one of the premier engineering institutes in India and is designated as an Institute of National Importance. The institute offers undergraduate, postgraduate, and doctoral programs across various engineering, science, and management disciplines.",
+    "StudentStrength": "Over 3,000 students including international nationals",
+    "MajorEvents": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports events"
+    ],
+    "ResearchFocus": [
+      "Engineering and technology",
+      "Science and innovation",
+      "Industry collaboration",
+      "Sustainable development"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [],
+    "SocialInitiatives": [
+      "Outreach programs",
+      "Industrial consultancies"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 82,
+      "Engineering": 82,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 0,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science & Engineering",
+          "Mechanical Engineering",
+          "Electrical Engineering",
+          "Civil Engineering",
+          "Electronics & Communication Engineering",
+          "Metallurgical and Material Engineering",
+          "Production Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA counseling"],
+        "Seats": 720,
+        "FirstYearFeeINR": 125000,
+        "TotalFeesINRApprox": 500000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 31,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CCMT"],
+        "FirstYearFeeINR": 70000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "Not listed"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT"],
+        "Seats": 0,
+        "FirstYearFeeINR": 100000
+      },
+      "MSc": {
+        "Disciplines": [],
+        "DurationYears": 2,
+        "Entrance": ["JAM"],
+        "FirstYearFeeINR": 100000,
+        "Seats": 0
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 0,
+        "Entrance": [
+          "GATE",
+          "NET",
+          "Institute Entrance Test"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 0,
+        "SeatsMoreThan": 0
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 50000,
+      "Maximum": 60000,
+      "Note": "Excludes mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": ""
+      },
+      "BDes": {
+        "Exam": "",
+        "Counseling": ""
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["Personal Interview", "Group Discussion"]
+      },
+      "MSc": {
+        "Exam": ["JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "NET", "Institute Entrance Test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Candidates with GATE, NET preferred"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": [],
+      "AdditionalProcess": "Credential verification"
+    },
+    "ReservationPolicy": "As per Central Government norms for SC, ST, OBC, EWS, PwD",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [],
+      "Physics": [],
+      "Mathematics": []
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 0,
+      "OBCPercentile": 0,
+      "SCSTPercentileMin": 0
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories/genders with multiple rounds of seat allotment for JEE Main."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 725,
+      "Recruiters": 260,
+      "HighestPackageINR": 8200000,
+      "HighestDomesticPackageINR": 8200000,
+      "OverallAveragePackageINR": 2200000,
+      "CSEAveragePackageINR": 2200000,
+      "ECEAveragePackageINR": 1600000,
+      "MBA median package INR": 0,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "Google",
+        "Microsoft",
+        "Oracle",
+        "Goldman Sachs",
+        "Amazon",
+        "Flipkart",
+        "Tata Steel",
+        "Infosys",
+        "TCS",
+        "Wipro",
+        "Accenture",
+        "Cognizant"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Science",
+        "Research and Development",
+        "Consulting",
+        "Analytics",
+        "Hardware Design",
+        "Management"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 18,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Lounges"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 0,
+      "EJournalsCount": 0,
+      "Features": [
+        "Digital resources",
+        "Theses archive",
+        "24/7 access",
+        "Group study zones"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 0,
+      "FocusAreas": [
+        "Engineering",
+        "Science",
+        "Technology",
+        "Research"
+      ],
+      "Equipment": [
+        "Modern equipment",
+        "Research facilities"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Gymnasium",
+        "Sports grounds",
+        "Indoor games",
+        "Outdoor sports facilities"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Medical Clinic",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Food Courts",
+        "Cafés"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Dietary options",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Banks and ATMs",
+      "Post Office",
+      "Guest Houses",
+      "Campus Shuttle Buses",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 0,
+      "Types": [
+        "Technical",
+        "Cultural",
+        "Entrepreneurship",
+        "Social Service"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 12,
+    "DepartmentsList": [
+      "Computer Science & Engineering",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Electronics & Communication Engineering",
+      "Civil Engineering",
+      "Metallurgical and Material Engineering",
+      "Production Engineering",
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Management Studies",
+      "Humanities & Social Sciences"
+    ],
+    "ResearchCenters": [],
+    "Strength": {
+      "FacultyCount": 180,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students"
+    ],
+    "StudentFeedback": "Faculty described as knowledgeable and supportive though some note differences in teaching styles."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Government scholarships",
+      "Merit scholarships"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Waiver",
+      "Cash Prizes",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.0,
+    "CollegeDuniaReviewsCount": 0,
+    "Careers360Rating": 4.0,
+    "Strengths": [
+      "Good placements",
+      "Qualified faculty",
+      "Research culture",
+      "Campus infrastructure",
+      "Cultural and sporting events"
+    ],
+    "Weaknesses": [
+      "Hostels need periodic maintenance",
+      "Some differences in teaching styles"
+    ],
+    "ReturnOnInvestment": "High"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India",
+    "CulturalTraditions": [
+      "Cultural festivals",
+      "Technical festivals",
+      "Regular informal gatherings"
+    ],
+    "Festivals": [
+      "Technical Festival",
+      "Cultural Festival",
+      "Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Technical clubs",
+      "Cultural clubs",
+      "Entrepreneurship Cell",
+      "Social Service (NSS, NCC)"
+    ],
+    "OutdoorActivities": [],
+    "StudentGovernance": "Student representation in institute governance",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Recreation Areas"
+    ],
+    "Community": "Inclusive ecosystem with cultural, linguistic, and religious diversity"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1960,
+    "Founder": "Government of India",
+    "InitialFocus": "Regional Institute of Technology",
+    "Evolution": [
+      "1960: Regional Institute of Technology",
+      "2002: NIT status granted"
+    ],
+    "Legacy": "Decades-long legacy in technical education",
+    "Heritage": "Premier engineering institute in eastern India"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Engineering and technology",
+      "Science and innovation",
+      "Industry collaboration",
+      "Sustainable development"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Industry partnerships",
+      "Academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": false
+    }
+  },
+  "NewsAndUpdates": [],
+  "OfficialContactInfo": {
+    "Website": "https://nitjsr.ac.in",
+    "Address": "National Institute of Technology Jamshedpur, Jamshedpur, Jharkhand - 831014",
+    "Phone": "+91-657-2371415, +91-657-2371331",
+    "Emails": {
+      "Registrar": "registrar@nitjsr.ac.in",
+      "Admissions": "admission@nitjsr.ac.in",
+      "PlacementCell": "placement@nitjsr.ac.in"
+    }
+  }
+}
+
+

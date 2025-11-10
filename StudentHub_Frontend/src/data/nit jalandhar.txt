@@ -1,0 +1,180 @@
+{
+  "College Name": "NIT Jalandhar",
+  "Overview": {
+    "Introduction": "Dr B R Ambedkar National Institute of Technology Jalandhar (NIT Jalandhar), established in 1987 as a Regional Engineering College and upgraded to NIT status in 2002, is a premier engineering institute located in Punjab. Spanning a large, green campus, it offers UG, PG, and doctoral level education across a diverse range of engineering and technology disciplines, known for its quality of education and research culture.",[1][2][3]
+    "Historical Narrative": "Originally started as REC Jalandhar, the institution was renamed and elevated to an Institute of National Importance in 2002 under the MHRD, Government of India. Its journey features continuous expansion in academics, infrastructure, and research collaborations.",[2][1]
+    "Vision and Mission": "Committed to advancing knowledge and educating professionals with technical and social competence, NITJ aims to foster innovation, entrepreneurship, and sustainability in technology and management.",[2]
+    "Academic Structure": "Comprises 17 departments including Biotechnology, Electrical, Civil, Computer Science, Mechanical, and Textile Technology, offering a broad variety of courses emphasizing theory, lab work, projects, and industry interface.",[3]
+    "Student Life": "Vibrant campus life with cultural festivals, sports events, and multiple student clubs. Modern hostels and recreational spaces provide a supportive environment for holistic development.",[4][5]
+    "Diversity": "Students and faculty from across India and some international scholars, fostering a rich multicultural environment.",
+    "Research and Innovation": "Active research programs, centers of excellence, and industry collaborations focus on areas like AI, VLSI, materials science, and biotech.",[1][4]
+    "Community Engagement": "Engages in technical education outreach, rural development projects, and consultancy services to industries and government agencies.",
+    "Governance": "Administered by a Director, Deans, and Senate overseeing academics, finance, infrastructure, and student affairs for smooth functioning.",
+    "Unique Features": [
+      "Extensive academic departments and specializations",
+      "Strong placement record with top recruiters",
+      "Modern research facilities and labs",
+      "Rich extracurricular and cultural environment"
+    ],
+    "Narrative Flow": [
+      "Establishment and evolution",
+      "Academic breadth and research outlook",
+      "Campus culture and student activities",
+      "Community involvement and governance"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      {
+        "Undergraduate": [
+          "B.Tech in 15 Engineering disciplines including Computer Science, Biotechnology",
+          "B.Arch"
+        ],
+        "Postgraduate": [
+          "M.Tech in 27 specializations including VLSI, Structural Engineering",
+          "MBA",
+          "M.Sc",
+          "Ph.D"
+        ],
+        "Research": [
+          "Ph.D programs across engineering, sciences, management"
+        ]
+      },
+      "Courses emphasize contemporary curricula with credit system, capstone projects, internships, and seminars."[6]
+    ],
+    "Fee Structure": {
+      "B.Tech Total Fee": "₹6.56 Lakhs (4 years)",
+      "M.Tech Total Fee": "₹2.98 Lakhs (2 years)",
+      "MBA Total Fee": "₹2.18 Lakhs (2 years)",
+      "Ph.D Fee": "₹1.08 Lakhs",
+      "Hostel Fee": "₹50,000 - 60,500 (per year)",
+      "Fee Table": [
+        "| Course | Duration | Total Fee (INR) | Hostel Fee (per Year) | Tuition Fee (per Year) |",
+        "|--------|----------|-----------------|----------------------|-----------------------|",
+        "| B.Tech | 4 years  | 6,56,000        | 50,000 - 60,500      | Included              |",
+        "| M.Tech | 2 years  | 2,98,000        | 50,000 - 60,500      | Included              |",
+        "| MBA    | 2 years  | 2,18,000        | 50,000 - 60,500      | Included              |",
+        "| Ph.D   | Variable | 1,08,000        | 50,000 - 60,500      | Included              |"
+      ],
+      "Scholarships and tuition waivers available for SC/ST/PwD students as per government regulations."[7][6]
+    }
+  },
+  "Admissions": {
+    "Overview": "Admissions are based on national level exams followed by counseling; no direct admissions.",[8][9]
+    "UG Admissions": [
+      "B.Tech through JEE Main followed by JoSAA counseling.",
+      "Eligibility: 10+2 with minimum 75% in PCM for general category."
+    ],
+    "PG Admissions": [
+      "M.Tech through GATE followed by CCMT counseling.",
+      "MBA through CAT; MCA through NIMCET.",
+      "Ph.D through institute-level entrance and interview."
+    ],
+    "Admission Steps": [
+      "Register and appear for relevant national entrance exams.",
+      "Participate in centralized counseling (JoSAA, CCMT).",
+      "Document verification and seat allotment.",
+      "Confirm admission by fee payment."
+    ],
+    "Seat Intake": {
+      "B.Tech": "Varies by branch, e.g., 120 for CSE",
+      "M.Tech": "Varies by specialization",
+      "MBA": "Limited seats",
+      "Ph.D": "Department dependent"
+    }
+  },
+  "Placements": {
+    "Highlights": [
+      "Placement rate: 91.88% in 2025; over 1000 offers received with 700+ students placed.",[10]
+      "Highest package: ₹52 LPA; average package around ₹9.78 LPA.",
+      "Top recruiters: Microsoft, Google, Paytm, Flipkart, Deloitte, Infosys, Goldman Sachs among others.",
+      "Strong summer internship programs with high stipends."
+    ],
+    "Branch-wise Placement Data": [
+      "| Branch                        | Placement % | Highest Package | Average Package |",
+      "|------------------------------|-------------|-----------------|-----------------|",
+      "| Computer Science and Engg     | 94          | ₹51 LPA         | ₹16.74 LPA      |",
+      "| Electronics & Communication   | 83          | ₹51 LPA         | ₹16.75 LPA      |",
+      "| Mechanical Engineering        | 86          | ₹19 LPA         | ₹8.3 LPA        |",
+      "| Chemical Engineering          | 80          | ₹14 LPA         | ₹7.35 LPA       |"
+    ]
+  },
+  "Rankings": {
+    "NIRF": {
+      "Engineering": 55,
+      "Innovation": "Band Excellent",
+      "2025"
+    },
+    "Others": [
+      "QS Asia Ranking 204 in Southern Asia (2024)",[3]
+      "Times Higher Education 1001-1200 band (2025)"[11]
+    ],
+    "Notes": "Consistent recognition in national and international ranking frameworks reflecting academic and research quality."
+  },
+  "Facilities": {
+    "Academic": [
+      "Advanced labs in various engineering disciplines",
+      "Well-equipped computer labs with latest software",
+      "Digital and physical library resources"
+    ],
+    "Hostels": [
+      "Separate hostels for boys and girls with modern amenities",
+      "Mess managed autonomously by students",
+      "Facilities include study rooms, gyms, water purifiers, washing machines"
+    ],
+    "Sports": [
+      "Multiple sports facilities including cricket, basketball, badminton courts",
+      "Indoor gym and fitness center"
+    ],
+    "Other infrastructure": [
+      "Conference halls, auditoriums, seminar rooms",
+      "On-campus hospital and medical assistance",
+      "Banking facilities including ATMs"
+    ]
+  },
+  "Faculty": {
+    "Strength": "~200 faculty members across departments, majority PhD holders from IITs/NITs with significant research and teaching experience.",[12]
+    "Areas of expertise": "Computer Science, Electronics, Mechanical, Civil, Biotechnology, Textile Technology, etc.",
+    "Faculty involvement": "Active in research, patents, supervision, consulting, and student mentoring."
+  },
+  "Reviews": {
+    "Overview": [
+      "Highly regarded for quality education, good placements, and supportive faculty.",[5][13][14]
+      "Hostel facilities and campus environment praised for cleanliness and comfort.",
+      "Active student participation in technical and cultural activities.",
+      "Some feedback regards the exam rigor and syllabus pace as challenging but enriching."
+    ]
+  },
+  "Contact": {
+    "Address": "Dr B R Ambedkar National Institute of Technology Jalandhar, Jalandhar, Punjab - 144011",
+    "Phone": "+91-181-5037000",
+    "Email": "registrar@nitj.ac.in",
+    "Website": "https://www.nitj.ac.in",
+    "Social Media": {
+      "Facebook": "facebook.com/nitjalandhar",
+      "Twitter": "twitter.com/nitjalandhar",
+      "LinkedIn": "linkedin.com/school/nit-jalandhar"
+    }
+  }
+}
+
+[1](https://v1.nitj.ac.in/nitj_files/links/pb1_68544.pdf)
+[2](https://www.nitj.ac.in)
+[3](https://www.shiksha.com/college/national-institute-of-technology-jalandhar-24247)
+[4](https://www.pagalguy.com/colleges/dr-br-ambedkar-national-institute-of-technology-nit-jalandhar/campus-facilities)
+[5](https://www.collegedekho.com/colleges/nit-jalandhar-reviews)
+[6](https://collegedunia.com/university/25781-dr-br-ambedkar-national-institute-of-technology-nit-jalandhar/courses-fees)
+[7](https://www.nitj.ac.in/nitj_files/student_corner/Fee_structure_of_B_21112636448.pdf)
+[8](https://www.shiksha.com/college/national-institute-of-technology-jalandhar-24247/admission)
+[9](https://nitj.ac.in/admissions/index.html)
+[10](https://www.shiksha.com/college/national-institute-of-technology-jalandhar-24247/placement)
+[11](https://www.timeshighereducation.com/world-university-rankings/dr-br-ambedkar-national-institute-technology-jalandhar)
+[12](https://departments.nitj.ac.in/dept/it/faculty)
+[13](https://collegedunia.com/university/25781-dr-br-ambedkar-national-institute-of-technology-nit-jalandhar/reviews)
+[14](https://www.shiksha.com/college/national-institute-of-technology-jalandhar-24247/reviews)
+[15](https://www.collegepravesh.com/engineering-colleges/nit-jalandhar/)
+[16](https://www.pw.live/gate/exams/nit-jalandhar-mtech-placements)
+[17](https://collegedunia.com/university/25781-dr-br-ambedkar-national-institute-of-technology-nit-jalandhar/ranking)
+[18](https://www.nitj.ac.in/admin/phonebook.html)
+[19](https://www.nitj.ac.in/admin/ranking.html)
+[20](https://www.shiksha.com/college/national-institute-of-technology-jalandhar-24247/infrastructure)

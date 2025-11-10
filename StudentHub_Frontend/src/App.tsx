@@ -58,7 +58,37 @@ import IITHyderabadPage from "./pages/Colleges/IITHyderabadPage";
 import IITGuwahatiPage from "./pages/Colleges/IITGuwahatiPage";
 import IITBHUVaranasiPage from "./pages/Colleges/IITBHUVaranasiPage";
 import NITTrichyPage from "./pages/Colleges/NITTrichyPage";
+<<<<<<< Updated upstream
 import AboutPage from "./pages/AboutPage/AboutPage";
+=======
+import NITRourkelaPage from "./pages/Colleges/NITRourkelaPage";
+import NITKarnatakaPage from "./pages/Colleges/NITKarnatakaPage";
+import NITCalicutPage from "./pages/Colleges/NITCalicutPage";
+import NITWarangalPage from "./pages/Colleges/NITWarangalPage";
+import NITAgartalaPage from "./pages/Colleges/NITAgartalaPage";
+import NITDelhiPage from "./pages/Colleges/NITDelhiPage";
+import NITJalandharPage from "./pages/Colleges/NITJalandharPage";
+import NITDurgapurPage from "./pages/Colleges/NITDurgapurPage";
+import NITSilcharPage from "./pages/Colleges/NITSilcharPage";
+import NITJamshedpurPage from "./pages/Colleges/NITJamshedpurPage";
+import NITKurukshetraPage from "./pages/Colleges/NITKurukshetraPage";
+import NITHamirpurPage from "./pages/Colleges/NITHamirpurPage";
+import NITMeghalayaPage from "./pages/Colleges/NITMeghalayaPage";
+import NITSrinagarPage from "./pages/Colleges/NITSrinagarPage";
+import NITPatnaPage from "./pages/Colleges/NITPatnaPage";
+import NITGoaPage from "./pages/Colleges/NITGoaPage";
+import NITManipurPage from "./pages/Colleges/NITManipurPage";
+import NITUttarakhandPage from "./pages/Colleges/NITUttarakhandPage";
+import NITArunachalPradeshPage from "./pages/Colleges/NITArunachalPradeshPage";
+import NITSikkimPage from "./pages/Colleges/NITSikkimPage";
+import NITMizoramPage from "./pages/Colleges/NITMizoramPage";
+import NITNagalandPage from "./pages/Colleges/NITNagalandPage";
+import NITPuducherryPage from "./pages/Colleges/NITPuducherryPage";
+import NITAndhraPradeshPage from "./pages/Colleges/NITAndhraPradeshPage";
+import NITRaipurPage from "./pages/Colleges/NITRaipurPage";
+import NITSuratPage from "./pages/Colleges/NITSuratPage";
+import NITAssamPage from "./pages/Colleges/NITAssamPage";
+>>>>>>> Stashed changes
 
 // import Search from "./pages/Other/Search";
 // import Test from "./pages/Other/Test";
@@ -109,6 +139,33 @@ function App() {
             <Route path="/colleges/iit-guwahati" element={<IITGuwahatiPage />} />
             <Route path="/colleges/iit-bhu-varanasi" element={<IITBHUVaranasiPage />} />
             <Route path="/colleges/nit-trichy" element={<NITTrichyPage />} />
+            <Route path="/colleges/nit-rourkela" element={<NITRourkelaPage />} />
+            <Route path="/colleges/nit-karnataka" element={<NITKarnatakaPage />} />
+            <Route path="/colleges/nit-calicut" element={<NITCalicutPage />} />
+            <Route path="/colleges/nit-warangal" element={<NITWarangalPage />} />
+            <Route path="/colleges/nit-agartala" element={<NITAgartalaPage />} />
+            <Route path="/colleges/nit-delhi" element={<NITDelhiPage />} />
+            <Route path="/colleges/nit-jalandhar" element={<NITJalandharPage />} />
+            <Route path="/colleges/nit-durgapur" element={<NITDurgapurPage />} />
+            <Route path="/colleges/nit-silchar" element={<NITSilcharPage />} />
+            <Route path="/colleges/nit-jamshedpur" element={<NITJamshedpurPage />} />
+            <Route path="/colleges/nit-kurukshetra" element={<NITKurukshetraPage />} />
+            <Route path="/colleges/nit-hamirpur" element={<NITHamirpurPage />} />
+            <Route path="/colleges/nit-meghalaya" element={<NITMeghalayaPage />} />
+            <Route path="/colleges/nit-srinagar" element={<NITSrinagarPage />} />
+            <Route path="/colleges/nit-patna" element={<NITPatnaPage />} />
+            <Route path="/colleges/nit-goa" element={<NITGoaPage />} />
+            <Route path="/colleges/nit-manipur" element={<NITManipurPage />} />
+            <Route path="/colleges/nit-uttarakhand" element={<NITUttarakhandPage />} />
+            <Route path="/colleges/nit-arunachal-pradesh" element={<NITArunachalPradeshPage />} />
+            <Route path="/colleges/nit-sikkim" element={<NITSikkimPage />} />
+            <Route path="/colleges/nit-mizoram" element={<NITMizoramPage />} />
+            <Route path="/colleges/nit-nagaland" element={<NITNagalandPage />} />
+            <Route path="/colleges/nit-puducherry" element={<NITPuducherryPage />} />
+            <Route path="/colleges/nit-andhra-pradesh" element={<NITAndhraPradeshPage />} />
+            <Route path="/colleges/nit-raipur" element={<NITRaipurPage />} />
+            <Route path="/colleges/nit-surat" element={<NITSuratPage />} />
+            <Route path="/colleges/nit-assam" element={<NITAssamPage />} />
             <Route path="/colleges/amity-noida" element={<AmityNoidaPage />} />
             <Route path="/colleges/bits-pilani" element={<BITSPilaniPage />} />
             <Route path="/colleges/srm" element={<SRMPage />} />

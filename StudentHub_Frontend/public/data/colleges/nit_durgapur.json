@@ -1,0 +1,568 @@
+{
+  "Name": "National Institute of Technology Durgapur (NIT Durgapur)",
+  "Location": {
+    "City": "Durgapur",
+    "District": "Paschim Bardhaman",
+    "State": "West Bengal",
+    "Country": "India",
+    "Pin": "713209",
+    "CampusAreaAcres": 187,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Durgapur"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1960,
+    "OriginalName": "Regional Engineering College Durgapur",
+    "Renamed": [
+      {
+        "Year": 2003,
+        "Name": "National Institute of Technology Durgapur"
+      }
+    ],
+    "HistoricalSignificance": "One of India's oldest NITs, upgraded to national importance status in 2003, pioneering technical education with focus on research and industry partnerships."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Autonomous Institute",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "Premier national institute recognized for academic excellence, research output, and industry connections, located on a sprawling 187-acre campus in West Bengal.",
+    "StudentStrength": "Over 5,000 students including international nationals",
+    "MajorEvents": [
+      "Aarohan - Annual technical and cultural festival",
+      "Technical Symposia",
+      "Cultural Celebrations",
+      "Sports Competitions"
+    ],
+    "ResearchFocus": [
+      "Renewable energy",
+      "Advanced materials",
+      "Digital systems",
+      "Biotechnology",
+      "Power systems",
+      "Environmental engineering"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International academic partnerships",
+      "Industry collaborations"
+    ],
+    "SocialInitiatives": [
+      "Rural tech outreach",
+      "Environmental initiatives",
+      "Community consultancy projects"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 44,
+      "Engineering": 44,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 44,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 250,
+    "IndiaTodayEngineering2024": 27,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science & Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Electrical Engineering",
+          "Electronics & Communication Engineering",
+          "Metallurgical Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Advanced", "JoSAA counseling"],
+        "Seats": 385,
+        "FirstYearFeeINR": 162000,
+        "TotalFeesINRApprox": 648000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 6,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "COAP"],
+        "FirstYearFeeINR": 125000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "Not offered"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "MAT"],
+        "Seats": 60,
+        "FirstYearFeeINR": 101000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["JAM", "GAT-B"],
+        "FirstYearFeeINR": 60000,
+        "Seats": 90
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 13,
+        "Entrance": [
+          "GATE",
+          "NET",
+          "JRF",
+          "UGC",
+          "CSIR"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 0,
+        "SeatsMoreThan": 200
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 50000,
+      "Maximum": 60000,
+      "Note": "Excludes mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Advanced",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": ""
+      },
+      "BDes": {
+        "Exam": "",
+        "Counseling": ""
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "COAP",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["Personal Interview", "Group Discussion"]
+      },
+      "MSc": {
+        "Exam": ["JAM", "GAT-B"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "NET", "JRF", "UGC", "CSIR"],
+        "Selection": "Written test and interview",
+        "AdditionalNotes": "GATE/NET/JRF scores prioritized"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": [],
+      "AdditionalProcess": ""
+    },
+    "ReservationPolicy": "As per Central Government norms for SC, ST, OBC, EWS, PwD",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 8500,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 12000,
+      "MechEngClosingAIR": 15000,
+      "ElectEngClosingAIR": 14000,
+      "CivilEngClosingAIR": 18000
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Physics": [450, 500],
+      "Chemistry": [420, 480],
+      "Mathematics": [400, 460]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 85,
+      "OBCPercentile": 75,
+      "SCSTPercentileMin": 65
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories/genders with six rounds of seat allotment for JEE Advanced."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 750,
+      "Recruiters": 120,
+      "HighestPackageINR": 50000000,
+      "HighestDomesticPackageINR": 50000000,
+      "OverallAveragePackageINR": 1300000,
+      "CSEAveragePackageINR": 1400000,
+      "ECEAveragePackageINR": 1200000,
+      "MBA median package INR": 800000,
+      "PPOs": 50,
+      "TopRecruiters": [
+        "Google",
+        "TCS",
+        "Reliance",
+        "L&T",
+        "Infosys",
+        "Wipro",
+        "Accenture",
+        "Capgemini",
+        "Cognizant",
+        "Tech Mahindra",
+        "Amazon",
+        "Microsoft"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Science",
+        "Research and Development",
+        "Consulting",
+        "Analytics",
+        "Core Engineering",
+        "Management"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects",
+        "Internship opportunities"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 12,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "CCTV",
+        "Mess Halls",
+        "Sports Areas",
+        "Recreation Rooms",
+        "Common Rooms",
+        "Gyms",
+        "Dedicated Security"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 50000,
+      "BookCount": 150000,
+      "EJournalsCount": 3000,
+      "Features": [
+        "Digital resources",
+        "Theses archive",
+        "Extended access",
+        "Group study zones",
+        "Inter-library loan"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 80,
+      "FocusAreas": [
+        "Computer Science",
+        "Power Systems",
+        "Structural Engineering",
+        "Manufacturing",
+        "Microelectronics",
+        "Environmental Engineering",
+        "Renewable Energy",
+        "Advanced Materials",
+        "Digital Systems",
+        "Biotechnology"
+      ],
+      "Equipment": [
+        "Advanced Computing Systems",
+        "3D Printing",
+        "Advanced Sensors",
+        "Prototype Devices"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Football Ground",
+        "Cricket Ground",
+        "Basketball Courts",
+        "Volleyball Courts",
+        "Tennis Courts",
+        "Indoor Gym Facilities",
+        "Swimming Pool",
+        "Athletics Track"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Campus Medical Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Specialist Consultations",
+        "Ambulance Services",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Food Courts",
+        "Cafés"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Dietary options",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Banks and ATMs",
+      "Post Office",
+      "Bookstores",
+      "Guest Houses",
+      "Campus Shuttle Buses",
+      "Parking",
+      "24/7 Security",
+      "Campus Wi-Fi"
+    ],
+    "StudentClubs": {
+      "Number": 30,
+      "Types": [
+        "Technical (Robotics, Coding)",
+        "Cultural (Music, Dance, Drama, Literature)",
+        "Entrepreneurship",
+        "Social Service (NSS, NCC)"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 13,
+    "DepartmentsList": [
+      "Computer Science & Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Chemical Engineering",
+      "Electrical Engineering",
+      "Electronics & Communication Engineering",
+      "Metallurgical Engineering",
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Management Studies",
+      "Humanities & Social Sciences",
+      "Earth Sciences"
+    ],
+    "ResearchCenters": [
+      "Renewable Energy",
+      "Advanced Materials",
+      "Digital Systems",
+      "Biotechnology",
+      "Power Systems",
+      "Environmental Engineering"
+    ],
+    "Strength": {
+      "FacultyCount": 200,
+      "PhDs": "Majority",
+      "Patents2024": 25,
+      "ResearchFundsINR2024": 50000000
+    },
+    "Collaborations": [
+      "Industry partnerships",
+      "International academic collaborations",
+      "Research organizations"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industrial consultancy"
+    ],
+    "StudentFeedback": "Generally positive, with emphasis on research-oriented approach and faculty support."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 100000,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 100000,
+      "IncomeUpToINR_Lax": 500000,
+      "TwoThirdFeeWaiver": true
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Post-Metric Scholarships",
+      "SC/ST/PwD fee waivers",
+      "Industry-sponsored research grants"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Waiver",
+      "Cash Prizes",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.0,
+    "CollegeDuniaReviewsCount": 1200,
+    "Careers360Rating": 4.1,
+    "Strengths": [
+      "Research-oriented approach",
+      "Excellent faculty support",
+      "Modern research facilities",
+      "Good placement record",
+      "Vibrant campus infrastructure"
+    ],
+    "Weaknesses": [
+      "Some labs need upgrade",
+      "Food quality varies",
+      "Limited flexibility in curriculum"
+    ],
+    "ReturnOnInvestment": "High"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India",
+    "CulturalTraditions": [
+      "Annual festivals fostering camaraderie",
+      "Fresher's Welcome for mentorship",
+      "Regular informal gatherings"
+    ],
+    "Festivals": [
+      "Aarohan - Technical and Cultural Festival",
+      "Technical Symposia",
+      "Cultural Celebrations",
+      "Sports Competitions"
+    ],
+    "ClubsAndSocieties": [
+      "Robotics",
+      "Coding",
+      "Entrepreneurship Cell",
+      "Literature & Debate",
+      "Music & Dance",
+      "Drama and Cinema",
+      "Social Service (NSS, NCC)"
+    ],
+    "OutdoorActivities": [
+      "Sports competitions",
+      "Cultural events",
+      "Technical workshops"
+    ],
+    "StudentGovernance": "Student council with regular feedback and grievance redressal",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Recreation Areas",
+      "Sports Facilities"
+    ],
+    "Community": "Inclusive ecosystem with cultural and linguistic diversity"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1960,
+    "Founder": "Government of India",
+    "InitialFocus": "Regional engineering education",
+    "Evolution": [
+      "1960: Regional Engineering College Durgapur",
+      "2003: Upgraded to National Institute of Technology Durgapur"
+    ],
+    "Legacy": "Pioneer in India's technical education with focus on research and industry partnerships",
+    "Heritage": "One of the oldest NITs in India with six decades of excellence"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Renewable Energy",
+      "Advanced Materials",
+      "Digital Systems",
+      "Biotechnology",
+      "Power Systems",
+      "Environmental Engineering"
+    ],
+    "PatentsFiled2024": 25,
+    "ResearchFundingINR2024": 50000000,
+    "NotableInnovations": "Research contributions in renewable energy and advanced materials",
+    "Startups": {
+      "Number": 10,
+      "AggregateValuationINR": 50000000
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 30,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "Aarohan Festival",
+      "Date": "2025-03-15",
+      "Details": "Annual technical and cultural festival"
+    },
+    {
+      "Event": "Placement Drive 2025",
+      "Date": "2025-01-10",
+      "Details": "Campus placement season begins"
+    },
+    {
+      "Event": "Research Symposium",
+      "Date": "2025-04-20",
+      "Details": "National level research conference"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://nitdgp.ac.in",
+    "Address": "National Institute of Technology Durgapur, Durgapur, West Bengal, PIN-713209",
+    "Phone": "+91-343-275-4531 / 32",
+    "Emails": {
+      "Registrar": "registrar@nitdgp.ac.in",
+      "Admissions": "admission@nitdgp.ac.in",
+      "PlacementCell": "placement@nitdgp.ac.in"
+    }
+  }
+}
+
+

@@ -1,0 +1,612 @@
+{
+  "Name": "National Institute of Technology Warangal (NIT Warangal)",
+  "Location": {
+    "City": "Warangal",
+    "District": "Warangal",
+    "State": "Telangana",
+    "Country": "India",
+    "Pin": "506004",
+    "CampusAreaAcres": 248,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "NIT Campus, Warangal"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1959,
+    "OriginalName": "Regional Engineering College Warangal",
+    "Renamed": [
+      {
+        "Year": 2002,
+        "Name": "National Institute of Technology Warangal"
+      }
+    ],
+    "HistoricalSignificance": "Originally Regional Engineering College, NITW became autonomous and a deemed university in 2002, receiving Institute of National Importance status in 2007. Notable developments include mentorship of new NITs, UK-India exchanges in IT, and continual campus upgrades. Oldest among India's chain of 31 NITs."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "National Institute of Technology Warangal (NITW), established in 1959, is the oldest among India's chain of 31 NITs and a leading technological institute located in Telangana. Recognized as an Institute of National Importance, it offers multidisciplinary programs, fosters research, and maintains active industry collaborations.",
+    "StudentStrength": "Over 7,000 students with 300+ faculty members",
+    "MajorEvents": [
+      "TechFest - Technical Festival",
+      "Cultural Fest - Cultural Festival",
+      "Sports Fest - Sports Festival"
+    ],
+    "ResearchFocus": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "VLSI Design",
+      "Robotics",
+      "Renewable Energy",
+      "Advanced Materials",
+      "Automation",
+      "Education Technology"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities worldwide",
+      "UK-India exchanges in IT"
+    ],
+    "SocialInitiatives": [
+      "Community outreach programs",
+      "Rural technology programs",
+      "Urban development consultancies"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 63,
+      "Engineering": 21,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 53,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "1001-1250",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Electronics and Communication Engineering",
+          "Electrical and Electronics Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Metallurgical and Materials Engineering",
+          "Biotechnology",
+          "Mathematics and Computing",
+          "Artificial Intelligence",
+          "Architecture"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA/CSAB counseling"],
+        "Seats": 1100,
+        "FirstYearFeeINR": 210000,
+        "TotalFeesINRApprox": 840000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["JEE Main Paper 2"],
+        "Seats": 40,
+        "FirstYearFeeINR": 210000,
+        "TotalFeesINRApprox": 1050000
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 29,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CCMT"],
+        "FirstYearFeeINR": 77500,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["GATE"],
+        "SeatsVaries": true,
+        "FeeInformation": "₹1.4L to 3.1L"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "GD", "PI"],
+        "Seats": 60,
+        "FirstYearFeeINR": 230000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["IIT JAM", "CCMN"],
+        "FirstYearFeeINR": 130000,
+        "Seats": 100
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 13,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-6",
+        "FeeINRPerYear": 50000,
+        "SeatsMoreThan": 300
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 50000,
+      "Maximum": 50000,
+      "Note": "Hostel fees include mess, internet, laundry, etc."
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main/JEE Main Paper 2",
+        "Counseling": "JoSAA/CSAB online",
+        "AdditionalTestForBArch": "Drawing Test"
+      },
+      "BDes": {
+        "Exam": "UCEED",
+        "Counseling": "Centralized counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT",
+        "AdditionalProcesses": "Self-financed written tests/interviews"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["GD", "PI"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM", "CCMN"]
+      },
+      "MCA": {
+        "Exam": "NIMCET"
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 2600,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 4000,
+      "MechEngClosingAIR": 6000,
+      "ElectEngClosingAIR": 5000,
+      "CivilEngClosingAIR": 8000
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 85,
+      "OBCPercentile": 75,
+      "SCSTPercentileMin": 65
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories with multiple rounds of JoSAA/CSAB counselling. CSE cutoff rank ~2600, Chemical ~6100."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 1225,
+      "Recruiters": 100,
+      "HighestPackageINR": 8800000,
+      "HighestDomesticPackageINR": 8800000,
+      "OverallAveragePackageINR": 1560000,
+      "CSEAveragePackageINR": 2400000,
+      "ECEAveragePackageINR": 1800000,
+      "MBA median package INR": 1250000,
+      "PPOs": 150,
+      "TopRecruiters": [
+        "Microsoft",
+        "Amazon",
+        "Oracle",
+        "Goldman Sachs",
+        "Deloitte",
+        "Tata",
+        "Reliance",
+        "Qualcomm",
+        "Intel",
+        "Samsung",
+        "Adobe",
+        "IBM",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Scientist",
+        "Business Analyst",
+        "Consultant",
+        "R&D Engineer",
+        "Process Engineer",
+        "Analyst"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Pre-placement training",
+        "Alumni support"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 13,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Rooms",
+        "Security",
+        "Parking"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 150000,
+      "EJournalsCount": 10000,
+      "Features": [
+        "Digital resources",
+        "Physical and digital collections",
+        "24/7 access",
+        "Group study zones",
+        "Computer terminals",
+        "Inter-library loan"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 50,
+      "FocusAreas": [
+        "Civil Engineering",
+        "Chemistry",
+        "Computer Science",
+        "Electrical Engineering",
+        "Electronics Engineering",
+        "Mechanical Engineering",
+        "Physics",
+        "Design",
+        "VLSI",
+        "Simulation"
+      ],
+      "Equipment": [
+        "Modern well-equipped labs",
+        "Advanced fabrication facilities",
+        "High-performance computing"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Stadium",
+        "Gymnasiums",
+        "Cricket Ground",
+        "Football Ground",
+        "Hockey Ground",
+        "Badminton Courts",
+        "Table Tennis",
+        "Basketball Courts"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Health Centre",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "24/7 hospital/health centre",
+        "Pharmacy",
+        "Ambulance Services"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Cafeterias",
+        "Shopping complex",
+        "Canteens"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Regional cuisines",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditorium",
+      "Amphitheater",
+      "Seminar halls",
+      "Conference halls",
+      "Innovation/automation centers",
+      "Banks and ATMs",
+      "Post Office",
+      "Guest house",
+      "Faculty/staff quarters",
+      "Student activity centre",
+      "Open-air theatres",
+      "Shuttle services",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 70,
+      "Types": [
+        "Technical (Robotics, Coding, Tech)",
+        "Cultural (Music, Dance, Drama, Literature)",
+        "Sports",
+        "Entrepreneurship",
+        "Social Service"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 13,
+    "DepartmentsList": [
+      "Civil Engineering",
+      "Computer Science and Engineering",
+      "Electronics and Communication Engineering",
+      "Electrical and Electronics Engineering",
+      "Mechanical Engineering",
+      "Chemical Engineering",
+      "Metallurgical and Materials Engineering",
+      "Biotechnology",
+      "Mathematics and Computing",
+      "Artificial Intelligence",
+      "Architecture",
+      "Physical Sciences",
+      "Management"
+    ],
+    "ResearchCenters": [
+      "Innovation Centers",
+      "Automation Centers",
+      "Education Technology Centers"
+    ],
+    "Strength": {
+      "FacultyCount": 300,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Government ministries",
+      "Private industries",
+      "UK-India exchanges"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry consultancy",
+      "Patent filings"
+    ],
+    "StudentFeedback": "Highly knowledgeable faculty, excellent industry connections, average experience > 15 years"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "SC/ST/PwD Fee Concessions",
+      "Income-based fee waivers",
+      "Merit-cum-means scholarships",
+      "GATE/NET Fellowships",
+      "Research Fellowships",
+      "National Scholarship Portal schemes"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Support",
+      "Monthly Stipends",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.5,
+    "CollegeDuniaReviewsCount": 1800,
+    "Careers360Rating": 4.6,
+    "Strengths": [
+      "Oldest NIT, legacy in education",
+      "Modernized, green residential campus",
+      "Comprehensive research centers",
+      "Advanced labs and IT facilities",
+      "High placement and internship rates",
+      "Extensive student clubs and activities",
+      "Top recruiters",
+      "Competitive salaries"
+    ],
+    "Weaknesses": [
+      "Course rigor and frequency of exams",
+      "Some admin/process improvement needed"
+    ],
+    "ReturnOnInvestment": "Excellent"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India and internationally",
+    "CulturalTraditions": [
+      "Technical/cultural festivals",
+      "70+ clubs",
+      "Open-air theatres",
+      "Inter-hostel competitions"
+    ],
+    "Festivals": [
+      "TechFest - Technical Festival",
+      "Cultural Fest - Cultural Festival",
+      "Sports Fest - Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Robotics",
+      "Coding",
+      "Entrepreneurship",
+      "Literature",
+      "Social Service",
+      "Music & Dance",
+      "Drama",
+      "Sports"
+    ],
+    "OutdoorActivities": [
+      "Sports activities",
+      "Cultural events",
+      "Technical competitions",
+      "Social initiatives"
+    ],
+    "StudentGovernance": "Student Councils and representative bodies",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Sports Facilities",
+      "Medical facilities",
+      "Recreational areas",
+      "Student activity centre"
+    ],
+    "Community": "Vibrant campus life with strong hostel culture, green and spacious campus"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1959,
+    "Founder": "Government of India",
+    "InitialFocus": "Regional Engineering College to expand technical education",
+    "Evolution": [
+      "1959: Established as REC Warangal",
+      "2002: Granted Deemed University status and renamed to NIT Warangal",
+      "2007: Declared Institution of National Importance",
+      "2014: Mentoring NIT Andhra Pradesh",
+      "2019: Diamond Jubilee"
+    ],
+    "Legacy": "Oldest NIT, legacy in education, mentorship of new NITs",
+    "Heritage": "248-acre residential campus, modernized green campus"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "VLSI Design",
+      "Robotics",
+      "Renewable Energy",
+      "Advanced Materials",
+      "Automation",
+      "Education Technology"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Renowned for R&D initiatives, patent filings, consultancy, and tech incubation",
+    "Startups": {
+      "Number": 50,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions",
+      "UK-India exchanges"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "NIT Warangal Admissions 2025-26",
+      "Date": "2025-09-01",
+      "Details": "Admissions open for various programs"
+    },
+    {
+      "Event": "TechFest 2025",
+      "StartDate": "2025-03-15",
+      "EndDate": "2025-03-19",
+      "Theme": "Technical festival"
+    },
+    {
+      "Event": "Cultural Fest 2025",
+      "StartDate": "2025-10-05",
+      "EndDate": "2025-10-09",
+      "Theme": "Cultural festival"
+    },
+    {
+      "Event": "JEE Main 2025",
+      "Date": "2025-01-24"
+    },
+    {
+      "RecurringEvents": [
+        "TechFest (Annually)",
+        "Cultural Fest (Annually)",
+        "Sports Fest (Annually)",
+        "Inter-NIT Sports Meet"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.nitw.ac.in",
+    "Address": "National Institute of Technology Warangal, NIT Campus, Warangal, Telangana – 506004, India",
+    "Phone": "+91-870-2459191, +91-870-2459200",
+    "Emails": {
+      "Registrar": "registrar@nitw.ac.in",
+      "Admissions": "admission@nitw.ac.in",
+      "PlacementCell": "placement@nitw.ac.in"
+    }
+  }
+}
+

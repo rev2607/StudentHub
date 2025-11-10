@@ -1,0 +1,299 @@
+{
+  "College Name": "NIT Calicut",
+  "Overview": {
+    "Introduction": "National Institute of Technology Calicut (NITC) is one of India's premier institutes of technology, located in Kozhikode, Kerala, established in 1961 and designated as an institute of national importance in 2002. NITC has consistently maintained a reputation for academic excellence, proactive collaborations, and cutting-edge research. The campus covers about 120 hectares with a lush, vibrant environment suited for academic growth and personal development. The institute offers a wide spectrum of UG, PG, and doctoral programs across engineering, science, architecture, management, and technology disciplines.",[1][2][3][4]
+    "Historical Narrative": "The journey began as a Regional Engineering College and evolved as NITC, now hosting over 6,000 students from India and abroad. The transformation was marked by adoption of advanced curricula, implementation of the credit-based semester system, promotion of research initiatives and a commitment to multidisciplinary learning. Collaborations with leading academic bodies, industry partners, and research organizations have enriched the ecosystem.",[5][4]
+    "Vision and Mission": "NIT Calicut's vision is to foster innovation, entrepreneurship, and holistic engineers capable of solving real-world problems. The mission entails providing quality technical education, promoting research and innovation, and generating leaders through an interdisciplinary and globally connected approach.",[2][1]
+    "Academic Structure": "The academic departments span architecture, chemistry, physics, mathematics, physical education, and multiple branches of engineering, complemented by research centers for biomechanics, advanced manufacturing, networking, instrumentation and more. The institute follows a rigorous, internationally benchmarked curriculum supplemented by elective options, interdisciplinary tracks, and practical learning.",[4]
+    "Student Life": "NITC is recognized for its dynamic campus culture—hostel life, clubs, societies, sports, and regular festivals like Tathva (technical), and Ragam (cultural) make for a vibrant environment. Students have fostered communities around robotics, coding, entrepreneurship, sports, literary activities, and social pursuits.",[3][6]
+    "Diversity and Internationalization": "A large proportion of NITC's student body and faculty are from outside Kerala—including international students—creating a multicultural and collaborative atmosphere. Initiatives for international partnerships, industry tie-ups, and visiting scholars propel the global outlook.",[1][3]
+    "Research and Innovation": "NITC is renowned for research output, modern labs, and tech-oriented centers such as CNC, value education, and scanning microscopy centers. Patents, industrial consultancies, start-up incubation, and tech transfer underpin the institute's research aspirations.",[4]
+    "Community Engagement": "The institute actively contributes via outreach programs, technical consultancies, continuing education, and entrepreneurship development. Faculty and student groups regularly participate in social awareness drives, rural technology interventions, and environmental initiatives.",
+    "Governance": "NITC operates under the Council of NITs (MHRD), with the Director as the chief executive. Administrative sections ensure smooth functioning across academic, finance, hostels, and student welfare domains.",
+    "Unique Features": [
+      "Green, fully residential campus",
+      "Hostel infrastructure with messes, gym, sports, medical facilities",
+      "Strong placement cell and industry relations",
+      "Active student clubs and societies",
+      "Support for startups and entrepreneurship",
+      "International collaborations",
+      "Modern academic and research infrastructure"
+    ],
+    "Narrative Flow": [
+      "Origins, legacy, and national importance",
+      "Core academic structure and research centers",
+      "Student life, diversity, and extracurricular richness",
+      "Innovation and partnerships",
+      "Community outreach and governance"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      {
+        "UG": [
+          "BTech (various branches)",
+          "BArch",
+          "BS/MS",
+          "Dual Degree Programs"
+        ],
+        "PG": [
+          "MTech (multiple specializations)",
+          "MBA",
+          "M.Sc.",
+          "M.Plan",
+          "MCA"
+        ],
+        "Doctoral": [
+          "Ph.D. in engineering, sciences, management"
+        ]
+      },
+      "Specializations span Civil, Computer Science, Electronics, Electrical, Mechanical, Chemical, Biotechnology, Materials Science, Engineering Physics, Architecture, Planning, and others.",[3][4]
+      "Each course is designed as per industry standards and academic benchmarks, featuring credit-based grading, electives, thesis/dissertation requirements, and internships/practical training."[7][5]
+    ],
+    "Fee Structure (UG/PG)": {
+      "Table": [
+        "| Course Name                   | One-Time Fee   | Tuition Fee       | Hostel Fee    | Total (UG, per year)      |",
+        "|-------------------------------|----------------|-------------------|---------------|--------------------------|",
+        "| B.E. / B.Tech                 | INR 61,000     | INR 1,25,000      | INR 61,500    | ~INR 2,46,000            |",
+        "| B.Arch                        | INR 61,000     | INR 1,25,000      | INR 61,500    | ~INR 2,46,000            |",
+        "| M.E./M.Tech                   | INR 52,500     | INR 35,000/sem.   | INR 27,800    | ~INR 1,40,000            |",
+        "| MBA                           | INR 52,500     | INR 70,000/sem.   | INR 27,800    | ~INR 1,40,000            |",
+        "| MCA/MSc                       | INR 52,500     | INR 15,000/sem.   | INR 27,800    | ~INR 1,40,000            |"
+      ],
+      "Income-based waivers": "Tuition fees vary: SC/ST/PwD students get full waivers. For families earning above ₹5 lakh, fees approximate ₹1.25 lakh/year. Scholarships and education loans are readily available.",[8][7]
+      "Fee details are regularly updated on the official NITC website and subject to revision as per government norms."[7][8]
+    }
+  },
+  "Admissions": {
+    "Overview": "Admissions are strictly merit-based via national-level entrance exams. No direct admissions are allowed.",[9][10]
+    "UG Admissions": [
+      "BTech/BArch: JEE Main (Paper-I/II) followed by JoSAA/CSAB counselling",
+      "BS: JEE Main / Institute-specific exam (select branches)",
+      "Eligibility: Pass 10+2 with Physics, Mathematics, and (Chemistry/Biology/Biotechnology/Technical Vocational Subject)"
+    ],
+    "PG Admissions": [
+      "MTech: GATE + CCMT Counselling",
+      "MBA: CAT, followed by GD/PI/Work Experience evaluation",
+      "M.Sc.: IIT JAM + CCMN Counselling",
+      "M.Plan: GATE/Institute exam + interview",
+      "MCA: NIMCET",
+      "Eligibility: Bachelor’s with minimum required aggregate (usually 60%)"
+    ],
+    "Ph.D. Admissions": [
+      "GATE/UGC-NET/CSIR-NET + Written Test + Interview",
+      "Eligibility: PG degree in a relevant field"
+    ],
+    "Admissions Process Steps": [
+      "Online entrance exam application",
+      "Appear for entrance/admission test",
+      "Participate in relevant national counselling (JoSAA, CCMT, CCMN, NIMCET, etc.)",
+      "Institute-level selection rounds—interview, written tests (as applicable for PG/Ph.D.)",
+      "Document submission and fee payment"
+    ],
+    "Seat Intake (Examples)": {
+      "BTech CSE": "Approximately 120",
+      "BTech ECE": "Approx. 80",
+      "MBA": "75",
+      "PhD (per department)": "Varies, typically 3-5"
+    },
+    "Direction": [
+      "UG admissions through JEE Main → JoSAA/CSAB counseling",
+      "PG admissions via GATE/IIT JAM/CAT/NIMCET → CCMT/CCMN/Institute rounds"
+    ]
+  },
+  "Placements": {
+    "Placement Highlights": [
+      "2024 placement rate: 85.38% (UG), 65.77% (PG)",[11][12]
+      "Highest salary: INR 51 LPA (CSE)",[12]
+      "Average salary (Overall): INR 12.41 LPA",
+      "Top recruiters: Amazon, Microsoft, American Express, Accenture, Bajaj Auto, ADP, Amdocs, etc.",[12][3]
+      "Number of offers (2024): 1080 (UG & PG combined)",[11][12]
+      "Internship placements: 116 (BTech), 71 (PG) in 2024"[11]
+    ],
+    "Branch-wise Placement Table": [
+      "| Branch       | Placement Rate | Highest Package (LPA) | Average (LPA) |",
+      "|--------------|----------------|----------------------|---------------|",
+      "| CSE          | 96.77%         | 51.0                 | 19.37         |",
+      "| ECE          | ~88%           | ~41.0                | ~15.0         |",
+      "| EE           | ~85%           | ~35.0                | ~14.0         |",
+      "| Mechanical   | ~82%           | ~30.5                | ~12.0         |",
+      "| Civil        | ~80%           | ~28.2                | ~10.5         |"
+    ],
+    "Internships": [
+      "BTech and PG students participate in summer internships, mostly in big tech and core companies.",
+      "Internship cell coordinates placements and training; 100+ recruiters participate annually."
+    ],
+    "Training & Industry Connect": [
+      "Rigorous pre-placement training",
+      "Regular guest lectures and workshops with industry leaders",
+      "Alumni networking and support"
+    ],
+    "Directions": [
+      "Strong placement cell → 80%+ success rate → Top tech and core companies → Progressive salary packages → Branch-wise career prospects"
+    ]
+  },
+  "Rankings": {
+    "Ranking Highlights": [
+      "NIRF Engineering (2025): 21",[13]
+      "NIRF Architecture (2025): 2",[13][3]
+      "NIRF Overall (2023): 54",[14]
+      "NIRF Innovation: 9",[14]
+      "Management (NIRF): 75",[14]
+      "Business Today Top B-School: 66"[14]
+    ],
+    "Recent Awards": [
+      "Awarded by Hon’ble Union Minister of Education in 2025",[13]
+      "Consistent top-25 engineering institute ranking since 2019"
+    ],
+    "Parameters": [
+      "Placement outcomes",
+      "Research and innovation",
+      "Learning and living standards",
+      "Selection process rigor",
+      "Future leadership potential"
+    ],
+    "Table": [
+      "| Ranking Body       | Year | Parameter     | Rank |",
+      "|-------------------|------|--------------|------|",
+      "| NIRF Engineering  | 2025 | Engineering  | 21   |",
+      "| NIRF Architecture | 2025 | Architecture | 2    |",
+      "| NIRF Overall      | 2023 | Overall      | 54   |",
+      "| NIRF Innovation   | 2023 | Innovation   | 9    |",
+      "| NIRF Management   | 2023 | Management   | 75   |",
+      "| Business Today    | 2023 | B-Schools    | 66   |"
+    ],
+    "Directions": [
+      "National rankings → Consistently top-tier in engineering and architecture"
+    ]
+  },
+  "Facilities": {
+    "Campus Details": [
+      "120-hectare green, residential campus",[15][16]
+      "13 hostels (10 boys, 3 girls); separate mess facilities",
+      "Central Computer Centre (CCC), modern academic blocks, workshops, and libraries"
+    ],
+    "Infrastructure & Labs": [
+      "Course-based specialized labs: Chemistry, Computer, Electrical, Electronics, Language, Mechanical, Physics, Building Science, VLSI",
+      "Auditorium, amphitheater, classrooms, CAAD, heat transfer labs, and environmental research labs"
+    ],
+    "Sports and Fitness": [
+      "25-station gymnasium",
+      "Playfields: Football, cricket, hockey",
+      "Swimming pool, cricket nets, practice pitch",
+      "Ladies’ fitness centre—a gymnasium, badminton court, table tennis"
+    ],
+    "Student Spaces": [
+      "Digital library, reading rooms",
+      "Cafeteria, guest house",
+      "Wi-Fi campus, open-air theatres"
+    ],
+    "Medical & Banking": [
+      "Hospital/day care center",
+      "ATMs (SBI & PNB), post office, transport system"
+    ],
+    "Other Facilities": [
+      "Student clubs (robotics, literary, entrepreneurship, sports)",
+      "Hostel amenities: 24/7 water, security, clean rooms, laundry, vehicle parking"
+    ],
+    "Directions": [
+      "Comprehensive residential amenities → Modern labs & sports infrastructure → Medical, banking, recreation facilities"
+    ]
+  },
+  "Faculty": {
+    "Faculty Overview": [
+      "312 faculty members, highly qualified (PhDs from IITs, IISc, foreign universities)",[17][18]
+      "Breakdown: Professor (HAG), Professor, Associate Professor, Assistant Professor",
+      "Average age: ~40 years; most are active researchers with industry exposure",
+      "Student-Faculty ratio: ~8:1"[18]
+    ],
+    "Faculty Expertise": [
+      "Extensive publications, patents, R&D projects",
+      "Industry collaborations and consulting",
+      "Award-winning educators in their fields"
+    ],
+    "Faculty Involvement": [
+      "Academic counseling, mentorship",
+      "Guest lectures, international collaborations",
+      "Extracurricular engagement: club mentors, fest organizers"
+    ],
+    "Teaching Approach": [
+      "Blend of theory, practicals, research orientation",
+      "Personalized attention, robust academic support",
+      "Core values: innovation, rigor, interdisciplinary learning"
+    ],
+    "Faculty Table": [
+      "| Department               | Number of Faculty | Avg. Qualification         | Specialization Areas                           |",
+      "|--------------------------|-------------------|----------------------------|------------------------------------------------|",
+      "| Computer Science & Engg  | ~32               | Ph.D.                      | Data Science, AI, Networks, Software Engg      |",
+      "| Electrical & Electronics | ~28               | Ph.D.                      | Power Systems, Control, Embedded Systems       |",
+      "| Mechanical Engineering   | ~30               | Ph.D.                      | Thermodynamics, CAD, Robotics                  |",
+      "| Civil Engineering        | ~25               | Ph.D.                      | Structural Engg, Environment, Geotech          |",
+      "| Electronics & Comm.      | ~27               | Ph.D.                      | VLSI, Communication, Signal Processing         |",
+      "| Mathematics              | ~20               | Ph.D.                      | Pure/Applied, Computational Math               |",
+      "| Architecture             | ~18               | Ph.D./M.Arch               | Planning, Design Theory, Sustainability        |"
+    ],
+    "Directions": [
+      "Highly-qualified faculty → Interdisciplinary research → Strong mentorship → Industry- and innovation-driven academics"
+    ]
+  },
+  "Reviews": {
+    "Student Reviews": [
+      "High academic rigor paired with freedom for exploration",[6][19]
+      "Majority of students appreciate the vibrant campus, multiple clubs, balanced attention to academics and extracurriculars, exposure to real-world challenges, and excellent placement prospects.",
+      "Faculty are generally approachable, and advisors provide strong academic support.",
+      "Hostel life, greenery, and facilities receive consistent praise.",
+      "Some complaints about fees for facilities like gym and occasional strictness of faculty, but overall satisfaction is high.",
+      "Students highlight the balance between technical curriculum, research opportunities, club activities, and social life."
+    ],
+    "Review Table": [
+      "| Parameter      | Student Rating   | Summary                         |",
+      "|---------------|------------------|---------------------------------|",
+      "| Academics     | 4.5/5            | Excellent depth, projects, lab  |",
+      "| Faculty       | 4.7/5            | Supportive, expert, friendly    |",
+      "| Campus Life   | 4.6/5            | Vibrant, clubs, events          |",
+      "| Infrastructure| 4.5/5            | Modern, green, hostels          |",
+      "| Placements    | 4.3/5            | Top companies, good salaries    |",
+      "| Facilities    | 4.5/5            | Comprehensive, sports/medical   |"
+    ],
+    "Directions": [
+      "Strong academics and faculty → Rich extracurriculars → Great placements → Some minor improvement areas"
+    ]
+  },
+  "Contact": {
+    "Full Address": "National Institute of Technology Calicut, NIT Campus PO, Kozhikode, Kerala- 673601, India",[20]
+    "Phone": "+91-495-2286106, +91-495-2286101",[20]
+    "Email": "registrar@nitc.ac.in",[20]
+    "Website": "https://nitc.ac.in",[20]
+    "Social Media": {
+      "Facebook": "facebook.com/nitcalicut",
+      "Twitter": "twitter.com/nitcalicut",
+      "LinkedIn": "linkedin.com/school/nitcalicut"
+    },
+    "Directions": [
+      "Contact registrar for administrative queries",
+      "Visit official website for updated notifications",
+      "Connect via social media for campus updates"
+    ] }
+}
+}
+
+[1](https://nitc.ac.in/about-us)
+[2](https://josaa.admissions.nic.in/seatinfo/root/InstProfile.aspx?instcd=206)
+[3](https://www.shiksha.com/college/nit-calicut-national-institute-of-technology-4288)
+[4](https://en.wikipedia.org/wiki/National_Institute_of_Technology_Calicut)
+[5](https://nitc.ac.in/imgserver/uploads/attachments/profile-of-nit-calicut_b0eb8beb-b4ef-4745-a18f-f9585f3ea07b_0.pdf)
+[6](https://www.collegebatch.com/reviews/25296-national-institute-of-technology-calicut)
+[7](https://www.shiksha.com/college/nit-calicut-national-institute-of-technology-4288/courses)
+[8](https://collegedunia.com/university/25651-national-institute-of-technology-nitc-calicut/bachelor-of-technology-btech-full-time)
+[9](https://www.shiksha.com/college/nit-calicut-national-institute-of-technology-4288/admission)
+[10](https://www.trainingskart.com/blog/how-to-get-a-seat-in-nit-calicut)
+[11](https://www.shiksha.com/college/nit-calicut-national-institute-of-technology-4288/placement)
+[12](https://www.iquanta.in/blog/nit-calicut-placement-2024/)
+[13](https://nitc.ac.in/news-and-events/nit-calicut-excels-in-nirf-2025-rankings)
+[14](https://collegedunia.com/university/25651-national-institute-of-technology-nitc-calicut/ranking)
+[15](https://www.shiksha.com/college/nit-calicut-national-institute-of-technology-4288/infrastructure)
+[16](https://www.telegraphindia.com/edugraph/colleges/national-institute-of-technology-calicut-nitc/infrastructure/529)
+[17](https://www.shiksha.com/college/nit-calicut-national-institute-of-technology-4288/faculty)
+[18](https://collegedunia.com/university/25651-national-institute-of-technology-nitc-calicut/faculty)
+[19](https://www.collegedekho.com/colleges/nit-calicut-reviews)
+[20](https://nitc.ac.in)

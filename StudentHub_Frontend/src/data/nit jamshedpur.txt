@@ -1,0 +1,154 @@
+{
+  "College Name": "NIT Jamshedpur",
+  "Overview": {
+    "Introduction": "National Institute of Technology Jamshedpur (NIT Jamshedpur), established in 1960, is one of the premier engineering institutes in India and is designated as an Institute of National Importance. The institute offers undergraduate, postgraduate, and doctoral programs across various engineering, science, and management disciplines.",[1][2]
+    "Historical Narrative": "Originally started as a Regional Institute of Technology, it was renamed and upgraded to NIT status in 2002. The institute has a long legacy and has continuously expanded its academic and research capabilities over the decades.",[3]
+    "Vision and Mission": "To provide quality education and promote research and innovation in engineering and technology with a focus on social responsibility and sustainable development.",[1]
+    "Academic Structure": "The institute comprises 12 academic departments offering programs such as B.Tech, M.Tech, MCA, M.Sc, and Ph.D. with rigorous curriculum integrating theory and practical knowledge.",[2]
+    "Student Life": "A lively campus environment with cultural, technical, and sports events; numerous student clubs and organizations promote holistic development.",[3]
+    "Diversity": "Students and faculty from diverse regions of India contribute to a multicultural academic atmosphere.",
+    "Research and Innovation": "NIT Jamshedpur has well-equipped labs, research centers, and collaborative projects with industry and academia encouraging innovative research.",[4][1]
+    "Community Engagement": "Outreach programs and industrial consultancies play an important role in the institute's engagement with society.",
+    "Governance": "Managed by a Director, Deans, and Senate ensuring smooth academic and administrative operations.",
+    "Unique Features": [
+      "Decades-long legacy in technical education",
+      "Strong research and innovation culture",
+      "Highly qualified faculty",
+      "Robust placement ecosystem"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      {
+        "UG": [
+          "B.Tech in 9 disciplines including CSE, Mechanical, Electrical, Civil, ECE, Metallurgical and Material Engineering, and Production Engineering"
+        ],
+        "PG": [
+          "M.Tech in 31 specializations",
+          "MBA",
+          "M.Sc",
+          "Ph.D"
+        ]
+      }
+    ],
+    "Fee Structure": {
+      "B.Tech": "₹ 5 Lakhs approx for 4 years",
+      "M.Tech": "₹ 1.4 Lakhs to ₹3.1 Lakhs depending on specialization",
+      "MBA": "Approx ₹2 Lakhs for 2 years",
+      "M.Sc": "Approx ₹2 Lakhs for duration",
+      "Hostel Fees": "₹50,000 to ₹60,000 annually",
+      "Fee Table": [
+        "| Course  | Duration | Approx. Total Fee | Hostel Fee (Annual) |",
+        "|---------|----------|-------------------|---------------------|",
+        "| B.Tech  | 4 years  | ₹5,00,000         | ₹50,000 - ₹60,000   |",
+        "| M.Tech  | 2 years  | ₹1,40,000 - ₹3,16,000 | Included in Tuition |",
+        "| MBA     | 2 years  | ₹2,00,000         | Included            |",
+        "| M.Sc    | 2 years  | ₹2,00,000         | Included            |"
+      ],
+      "Scholarships and waivers are available as per government norms."
+    }
+  },
+  "Admissions": {
+    "Overview": "Admissions are based on national-level examinations such as JEE Main for UG, GATE for PG programs, and JAM for MSc, followed by centralized counseling.",[5]
+    "UG Admissions": [
+      "Based on JEE Main ranks via JoSAA counseling",
+      "Eligibility: 12th with Physics and Mathematics as compulsory subjects with requisite scores"
+    ],
+    "PG Admissions": [
+      "M.Tech admission through GATE and CCMT counseling",
+      "M.Sc through JAM",
+      "MBA through CAT exam"
+    ],
+    "Ph.D Admissions": [
+      "Entrance test plus interview at institute level",
+      "Candidates with GATE, NET preferred"
+    ],
+    "Admission Steps": [
+      "Qualify in relevant entrance exam",
+      "Participate in joint seat allocation",
+      "Complete verification and fee payment"
+    ],
+    "Seat Intake": {
+      "B.Tech": 720 seats approx,
+      "M.Tech & Others": Varies by department and specialization
+    }
+  },
+  "Placements": {
+    "Placement Overview": [
+      "Placement rate: ~90% in recent years with more than 725 job offers from 260+ companies in 2024.",[6]
+      "Highest package: INR 82 Lakh per annum.",
+      "Average package: INR 22 Lakh per annum.",
+      "Top recruiters include Google, Microsoft, Oracle, Goldman Sachs, Amazon, Flipkart, and many others."
+    ],
+    "Branch-wise Placement": [
+      "| Branch                | Placement % | Highest Package | Average Package |",
+      "|-----------------------|-------------|-----------------|-----------------|",
+      "| Computer Science      | 90%         | ₹82 LPA         | ₹22 LPA         |",
+      "| Electronics & Comm.   | 85%         | ₹60 LPA         | ₹16 LPA         |",
+      "| Mechanical            | 80%         | ₹40 LPA         | ₹10 LPA         |",
+      "| Metallurgical         | 75%         | ₹30 LPA         | ₹9 LPA          |"
+    ]
+  },
+  "Rankings": {
+    "NIRF Ranking": {
+      "2025": 82,
+      "Position Among NITs": 17
+    },
+    "Additional Recognition": "Consistent improvement in national rankings with growing reputation in quality education and research."[7]
+  },
+  "Facilities": {
+    "Campus": [
+      "Fully Wi-Fi enabled, lush green campus with modern academic blocks.",
+      "Well-equipped lecture halls, seminar rooms, digital smart classrooms.",
+      "Around 11–12 boys' hostels and 6 girls' hostels; mess and recreational facilities.",
+      "Gymnasium, bus and transport services, medical clinics, and bank with ATM.",
+      "Auditorium, guest house, conference halls."
+    ]
+  },
+  "Faculty": {
+    "Strength": "Around 180 faculty members with most holding PhDs from premier institutes such as IITs and NITs.",[8]
+    "Profiles": "Include professors, associate and assistant professors specialized across various engineering and science disciplines with active research engagement.",
+    "Teaching & Research": "Faculty focus on blending theory and practice, supervise research projects, and provide student mentorship."
+  },
+  "Reviews": {
+    "Student Feedback": [
+      "Faculty described as knowledgeable and supportive though some note differences in teaching styles.",
+      "Good placement scenario especially in CSE and ECE branches.",
+      "Campus infrastructure deemed robust; hostels need periodic maintenance.",
+      "Diverse student life with vibrant tech and cultural festivals."
+    ]
+  },
+  "Contact": {
+    "Address": "National Institute of Technology Jamshedpur, Jamshedpur, Jharkhand - 831014",
+    "Phone": "+91-657-2371415, +91-657-2371331",
+    "Email": "registrar@nitjsr.ac.in",
+    "Website": "https://nitjsr.ac.in",
+    "Social Media": {
+      "Facebook": "facebook.com/nit.Jamshedpur.Official",
+      "Twitter": "twitter.com/nitjamshedpur",
+      "LinkedIn": "linkedin.com/school/nit-jamshedpur"dpur"
+    }
+  }
+}
+
+[1](https://www.nitjsr.ac.in)
+[2](https://www.shiksha.com/college/nit-jamshedpur-national-institute-of-technology-24366)
+[3](https://www.collegedekho.com/colleges/nit-jamshedpur-reviews)
+[4](https://vnit.ac.in/departments-research-area/)
+[5](https://www.careers360.com/university/national-institute-of-technology-jamshedpur/admission)
+[6](https://www.careers360.com/university/national-institute-of-technology-jamshedpur/placement)
+[7](https://avenuemail.in/nit-jamshedpur-secures-82nd-rank-in-top-100-engineering-institutions/)
+[8](https://collegedunia.com/university/25584-national-institute-of-technology-nit-jamshedpur/faculty)
+[9](https://collegedunia.com/university/25584-national-institute-of-technology-nit-jamshedpur/reviews)
+[10](https://josaa.admissions.nic.in/applicant/seatmatrix/InstProfile.aspx?instcd=219)
+[11](https://collegedunia.com/university/25584-national-institute-of-technology-nit-jamshedpur)
+[12](https://www.careers360.com/university/national-institute-of-technology-jamshedpur/courses)
+[13](https://www.shiksha.com/college/nit-jamshedpur-national-institute-of-technology-24366/placement)
+[14](https://www.shiksha.com/college/nit-jamshedpur-national-institute-of-technology-24366/infrastructure)
+[15](https://www.collegebatch.com/334-national-institute-of-technology-faculty-profiles-jamshedpur)
+[16](https://www.aakash.ac.in/blog/nit-jamshedpur-ranking-admissions-courses-fees-structure-eligibility-criteria-selection-process-and-placement/)
+[17](https://www.shiksha.com/college/nit-jamshedpur-national-institute-of-technology-24366/fees)
+[18](https://www.nitjsr.ac.in/academic/Admissions)
+[19](https://www.linkedin.com/posts/national-institute-of-technology-jamshedpur_nit-jamshedpur-secures-82nd-rank-in-nirf-activity-7372971655733784576-oyLc)
+[20](https://www.telegraphindia.com/edugraph/colleges/national-institute-of-technology-jamshedpur-nitj/infrastructure/105)
+[21](https://www.shiksha.com/college/nit-jamshedpur-national-institute-of-technology-24366/reviews)

@@ -1,0 +1,107 @@
+{
+  "College Name": "NIT Goa",
+  "Overview": {
+    "Introduction": "NIT Goa (National Institute of Technology Goa), established in 2010, is a prominent technical institute situated in Ponda, Goa. It is one of India's 31 National Institutes of Technology, recognized for its focus on research, innovation, and industry-oriented education.",[1][2]
+    "Historical Narrative": "NIT Goa was inaugurated in 2010 as part of the government’s initiative to spread technical education in western India. Over the years, it has quickly developed modern infrastructure, diverse academic programs, and strong collaborations with industry and academia.",[2][3]
+    "Vision and Mission": "The institute aims to be a leading center of technical education that fosters innovation, entrepreneurship, and sustainable development, contributing to regional and national progress.",[1]
+    "Academic Structure": "Offers B.Tech in core disciplines like Computer Science, Civil, Mechanical, and Electrical. Postgraduate programs include M.Tech in various specializations, along with research in emerging fields. Ph.D. programs are also available.",[3][4]
+    "Student Life": "Active campus life featuring cultural festivals, technical events, clubs, and sports facilities. Student exchange programs and entrepreneurship support are promoted.",[5]
+    "Diversity": "Students from across India and international scholars contribute to a vibrant, multicultural campus environment.",
+    "Research and Innovation": "Centers of excellence in areas such as renewable energy, material sciences, and digital systems foster cutting-edge research and industry interface.",[2]
+    "Community Engagement": "Extension activities include rural technology outreach, CSR collaborations, and sustainability projects.",
+    "Governance": "Managed by Director and administrative bodies ensuring high standards of academic and operational excellence.",
+    "Unique Features": [
+      "Strategic location in Goa with scenic environment",
+      "Modern research and academic infrastructure",
+      "Focus on sustainability and green energy research",
+      "Strong industry linkages for placements"
+    ],
+    "Narrative Flow": [
+      "Foundation and rapid development",
+      "Academic excellence and research focus",
+      "Campus and cultural vibrancy",
+      "Community outreach and sustainability"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      {
+        "UG": [
+          "B.Tech in Civil Engineering, Mechanical Engineering, Electrical Engineering, Computer Science & Engineering"
+        ],
+        "PG": [
+          "M.Tech in various specializations, Ph.D"
+        ]
+      }
+    ],
+    "Fee Structure": {
+      "B.Tech": "Approximately INR 5.49 Lakhs for the full course",
+      "M.Tech": "Approx INR 2.50 Lakhs for two years",
+      "Ph.D": "Approx INR 45,000 per annum",
+      "Hostel & Mess": "Approximately INR 75,000 per year",
+      "Fee Table": [
+        "| Program | Duration | Total Fees (INR) | Hostel & Mess (per Year) |",
+        "|---------|----------|------------------|---------------------------|",
+        "| B.Tech  | 4 years  | 5,49,000         | 75,000                   |",
+        "| M.Tech  | 2 years  | 2,50,000         | Included in fees         |",
+        "| Ph.D    | Varies   | 45,000/year      | Separate, based on usage |"
+      ],
+      "Scholarships": "SC/ST/PwD and other categories eligible for fee waivers and scholarships as per government norms."[6]
+    }
+  },
+  "Admissions": {
+    "Overview": "Admissions are through JEE Main for UG and GATE for PG, along with institute-specific procedures and interviews for research programs.",[7][5]
+    "UG": "JEE Main followed by counseling via JoSAA.",
+    "PG": "GATE and CCMT counseling.",
+    "Research": "Entrance exam and interview, with preference to GATE or NET qualified candidates.",
+    "Process": [
+      "Register on respective exam portals",
+      "Appear for exams",
+      "Participate in counseling",
+      "Complete document verification",
+      "Pay fees and confirm seat"
+    ],
+    "Seat Matrix": {
+      "Civil Engineering": "60 seats",
+      "Mechanical Engineering": "60 seats",
+      "ECE": "45 seats",
+      "CSE": "45 seats"
+    }
+  },
+  "Placements": {
+    "Highlights": "In 2024, the institute achieved a placement rate of approximately 88%, with the highest annual package exceeding INR 35 Lakhs and an average package over INR 12 Lakhs in core branches.",[8][9]
+    "Top Recruiters": ["Infosys", "Tata Steel", "Reliance", "Accenture", "L&T", "IBM"],
+    "Internships": "Internship programs supported actively, with many students placed in key industry roles during their course."
+  },
+  "Rankings": {
+    "National": "Ranked in the top 100 engineering institutes by NIRF in 2025.",
+    "Additional": "Recognized for research contributions in green energy and sustainable engineering."
+  },
+  "Facilities": {
+    "Campus": "Sprawling 250-acre scenic campus with laboratories, research centers, modern hostels, sports complex, auditorium, and library facilities.",
+    "Libraries & Labs": "Advanced laboratories, digital library with e-resources, and innovation hubs."
+  },
+  "Faculty": {
+    "Strength": "Approximately 150 qualified faculty with extensive research credentials and industry experience.",
+    "Research": "Active participants in funded projects, patents, and international collaborations."
+  },
+  "Reviews": {
+    "Feedback": "Students rate the campus highly for scenic environment, research opportunities, faculty support, and good industry connections."
+  },
+  "Contact": {
+    "Website": "https://nitgoa.ac.in",
+    "Location": "Menezes Braganza Road, Ponda, Goa, India",
+    "Phone": "+91-832-2298200",
+    "Email": "info@nitgoa.ac.in"
+  }
+}
+
+[1](https://collegedunia.com/university/25475-national-institute-of-technology-nit-south-goa)
+[2](https://www.boostmytalent.com/college/nit-goa-national-institute-of-technology-ponda)
+[3](https://www.careers360.com/university/national-institute-of-technology-goa)
+[4](https://www.shiksha.com/college/nit-manipur-national-institute-of-technology-imphal-38697)
+[5](https://collegedunia.com/university/25417-national-institute-of-technology-nitp-patna/reviews)
+[6](https://www.shiksha.com/college/nit-goa-national-institute-of-technology-ponda-32739)
+[7](https://engineering.collegesuggest.com/university/nitm-manipur/overview)
+[8](https://www.collegepravesh.com/engineering-colleges/nit-patna/)
+[9](https://www.shiksha.com/college/nit-srinagar-national-institute-of-technology-24264/admission)
