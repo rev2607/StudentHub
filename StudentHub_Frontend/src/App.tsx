@@ -58,9 +58,6 @@ import IITHyderabadPage from "./pages/Colleges/IITHyderabadPage";
 import IITGuwahatiPage from "./pages/Colleges/IITGuwahatiPage";
 import IITBHUVaranasiPage from "./pages/Colleges/IITBHUVaranasiPage";
 import NITTrichyPage from "./pages/Colleges/NITTrichyPage";
-<<<<<<< Updated upstream
-import AboutPage from "./pages/AboutPage/AboutPage";
-=======
 import NITRourkelaPage from "./pages/Colleges/NITRourkelaPage";
 import NITKarnatakaPage from "./pages/Colleges/NITKarnatakaPage";
 import NITCalicutPage from "./pages/Colleges/NITCalicutPage";
@@ -88,7 +85,7 @@ import NITAndhraPradeshPage from "./pages/Colleges/NITAndhraPradeshPage";
 import NITRaipurPage from "./pages/Colleges/NITRaipurPage";
 import NITSuratPage from "./pages/Colleges/NITSuratPage";
 import NITAssamPage from "./pages/Colleges/NITAssamPage";
->>>>>>> Stashed changes
+import AboutPage from "./pages/AboutPage/AboutPage";
 
 // import Search from "./pages/Other/Search";
 // import Test from "./pages/Other/Test";

@@ -564,34 +564,6 @@ const SOAPage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">About {collegeData.Name}</h3>
         <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
         
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <p className="text-gray-700 mb-3">
-            <strong>{collegeData.Name} offers courses at UG, PG, and Doctorate level across multiple disciplines.</strong> The university offers programs in Engineering, Medicine, Dental Sciences, Pharmacy, Law, Management, Science, and more. Available degrees include B.Tech, M.Tech, Ph.D, M.Sc, MBA, and various professional programs. Popular courses are B.Tech, M.Tech, MBA, and Ph.D.
-          </p>
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>{collegeData.Name} B.Tech Fees 2025-2026 is {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.FirstYearFeeINR)} per year.</strong> Total fees for 4 years: {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.TotalFeesINRApprox)}. Popular specializations: {collegeData.CoursesAndFees.Undergraduate.BTech.Branches.slice(0, 3).join(", ")}.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• {collegeData.Name} B.Tech CSE Fees is {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.FirstYearFeeINR)} per year.</li>
-                <li>• {collegeData.Name} B.Tech total fees for 4 years is {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.TotalFeesINRApprox)}.</li>
-              </ul>
-            </li>
-            <li>• <strong>{collegeData.Name} M.Tech is offered for {collegeData.CoursesAndFees.Postgraduate.MTech.DurationYears} years duration.</strong> Admission through {collegeData.CoursesAndFees.Postgraduate.MTech.Entrance.join(" or ")}. Popular specializations include Computer Science And Engineering, Data Science, and more.
-            </li>
-            <li>• <strong>{collegeData.Name} MBA is offered for {collegeData.CoursesAndFees.Postgraduate.MBA.DurationYears} years duration.</strong> Admission through {collegeData.CoursesAndFees.Postgraduate.MBA.Entrance.join(", ")}.
-            </li>
-            <li>• <strong>{collegeData.Name} Ph.D programs are available with typical duration of {collegeData.CoursesAndFees.Doctoral.PhD.TypicalDurationYears} years.</strong> Admission through {collegeData.CoursesAndFees.Doctoral.PhD.Entrance.join(", ")}. Research areas include Engineering, Medical Sciences, and more.
-            </li>
-            <li>• <strong>{collegeData.Name} Hostel Fee is {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Minimum)} to {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Maximum)} per year.</strong> {collegeData.CoursesAndFees.HostelFeeINRAnnual.Note}.</li>
-          </ul>
-        </div>
-        
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Established" value={collegeData.Established.Year} />
           <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2025.Overall} />
@@ -613,23 +585,6 @@ const SOAPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
         
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>{collegeData.Name} offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, medicine, management, law, and science disciplines.</strong> The university maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
-            <li>• <strong>Undergraduate Programs:</strong> B.Tech ({collegeData.CoursesAndFees.Undergraduate.BTech.Branches.length} specializations available, {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.FirstYearFeeINR)}/year, total fees {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.TotalFeesINRApprox)} for {collegeData.CoursesAndFees.Undergraduate.BTech.DurationYears} years). Admission through {collegeData.CoursesAndFees.Undergraduate.BTech.Entrance.join(" or ")}.</li>
-            <li>• <strong>Postgraduate Programs:</strong> M.Tech ({collegeData.CoursesAndFees.Postgraduate.MTech.DurationYears} years, admission through {collegeData.CoursesAndFees.Postgraduate.MTech.Entrance.join(" or ")}), MBA ({collegeData.CoursesAndFees.Postgraduate.MBA.DurationYears} years, admission through {collegeData.CoursesAndFees.Postgraduate.MBA.Entrance.join(", ")}), M.Sc ({collegeData.CoursesAndFees.Postgraduate.MSc.Disciplines.length} disciplines, {collegeData.CoursesAndFees.Postgraduate.MSc.DurationYears} years, admission through {collegeData.CoursesAndFees.Postgraduate.MSc.Entrance.join(", ")}).</li>
-            <li>• <strong>Doctoral Programs:</strong> PhD (typical duration {collegeData.CoursesAndFees.Doctoral.PhD.TypicalDurationYears} years). Admission through {collegeData.CoursesAndFees.Doctoral.PhD.Entrance.join(", ")}. Research focus areas include Engineering, Medical Sciences, Pharmaceutical Sciences, and interdisciplinary research.</li>
-            <li>• <strong>Hostel & Accommodation:</strong> Modern hostels with amenities including Wi-Fi, AC and Non-AC rooms, study rooms, mess halls, and recreation areas. Hostel fees range from {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Minimum)} to {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Maximum)} annually. {collegeData.CoursesAndFees.HostelFeeINRAnnual.Note}.</li>
-          </ul>
-        </div>
-        
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-4 bg-gray-50">
             <h4 className="font-semibold text-lg mb-3">Undergraduate Programs</h4>

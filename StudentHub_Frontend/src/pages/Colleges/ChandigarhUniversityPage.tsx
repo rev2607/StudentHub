@@ -569,23 +569,6 @@ const ChandigarhUniversityPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
         
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>{collegeData.Name} offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and design disciplines.</strong> The university maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
-            <li>• <strong>Undergraduate Programs:</strong> B.Tech ({collegeData.CoursesAndFees.Undergraduate.BTech.Seats || 'Multiple'} seats, {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.FirstYearFeeINR)}/year), B.Arch ({collegeData.CoursesAndFees.Undergraduate.BArch.Seats || 'Multiple'} seats, {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BArch.FirstYearFeeINR)}/year), B.Des ({collegeData.CoursesAndFees.Undergraduate.BDes.Seats || 'Multiple'} seats, {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BDes.FirstYearFeeINR)}/year). All programs require competitive entrance examinations with {collegeData.CoursesAndFees.Undergraduate.BTech.Entrance.join(' and ')} for B.Tech/B.Arch and {collegeData.CoursesAndFees.Undergraduate.BDes.Entrance.join(' and ')} for B.Des.</li>
-            <li>• <strong>Postgraduate Programs:</strong> M.Tech ({collegeData.CoursesAndFees.Postgraduate.MTech.Specializations || 'Multiple'} specializations, {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MTech.FirstYearFeeINR)}/year), MBA ({collegeData.CoursesAndFees.Postgraduate.MBA.Seats || 'Multiple'} seats, {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MBA.FirstYearFeeINR)}/year), M.Sc ({collegeData.CoursesAndFees.Postgraduate.MSc.Seats || 'Multiple'} seats across {collegeData.CoursesAndFees.Postgraduate.MSc.Disciplines.length} disciplines, {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MSc.FirstYearFeeINR)}/year). Admission through {collegeData.CoursesAndFees.Postgraduate.MTech.Entrance.join(', ')}, {collegeData.CoursesAndFees.Postgraduate.MBA.Entrance.join(', ')}, and {collegeData.CoursesAndFees.Postgraduate.MSc.Entrance.join(', ')} examinations respectively.</li>
-            <li>• <strong>Doctoral Programs:</strong> PhD ({collegeData.CoursesAndFees.Doctoral.PhD.Programs || 'Multiple'} programs, {collegeData.CoursesAndFees.Doctoral.PhD.SeatsMoreThan || 'Multiple'}+ seats, {formatCurrency(collegeData.CoursesAndFees.Doctoral.PhD.FeeINRPerYear)}/year). Duration typically {collegeData.CoursesAndFees.Doctoral.PhD.TypicalDurationYears} years with research focus areas including {collegeData.About.ResearchFocus.slice(0, 4).join(', ')}.</li>
-            <li>• <strong>Hostel & Accommodation:</strong> {collegeData.Facilities.Hostels.Number || 'Multiple'} hostels with modern amenities including Wi-Fi, study rooms, mess halls, and recreation areas. Hostel fees range from {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Minimum)} to {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Maximum)} annually (excluding mess charges).</li>
-          </ul>
-        </div>
-        
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-4 bg-gray-50">
             <h4 className="font-semibold text-lg mb-3">Undergraduate Programs</h4>
