@@ -565,6 +565,7 @@ const KalasalingamAcademyPage: React.FC = () => {
         <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
         
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         {/* Summary Bullet Points */}
         <div className="mb-6">
           <p className="text-gray-700 mb-3">
@@ -584,6 +585,8 @@ const KalasalingamAcademyPage: React.FC = () => {
           </ul>
         </div>
         
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
@@ -608,6 +611,7 @@ const KalasalingamAcademyPage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
         
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         {/* Summary Bullet Points */}
         <div className="mb-6">
           <ul className="space-y-2 text-gray-700">
@@ -619,6 +623,8 @@ const KalasalingamAcademyPage: React.FC = () => {
           </ul>
         </div>
         
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         <div className="grid md:grid-cols-3 gap-6">
