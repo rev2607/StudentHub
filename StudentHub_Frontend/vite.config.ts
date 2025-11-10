@@ -5,8 +5,8 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  // Load env vars from the current directory
-  envDir: ".",
+  // Load env vars from the parent directory (root .env file)
+  envDir: "..",
   // Ensure production bundles are fully minified
   build: {
     target: "es2017",
@@ -30,11 +30,11 @@ export default defineConfig({
     drop: ["console", "debugger"],
   },
   server: {
-    port: 3000,
+    port: 3000, // Frontend dev server on port 3000
     proxy: {
       // Proxy backend API during development
       "/api": {
-        target: "http://localhost:8000",
+        target: "http://localhost:8000", // Backend API server on port 8000
         changeOrigin: true,
         secure: false,
       },

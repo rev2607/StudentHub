@@ -2,8 +2,10 @@ import requests
 import os
 import json
 import re
+from pathlib import Path
 from dotenv import load_dotenv
 from fastapi import FastAPI, APIRouter, HTTPException, Response
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from typing import List
 
@@ -126,5 +128,54 @@ async def get_top_colleges():
     except Exception as e:
         print(f"❌ Error fetching colleges: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Error: {str(e)}")
+
+
+# API Route: Download College Brochure
+@router.get("/download/{college_slug}")
+async def download_brochure(college_slug: str):
+    """Download college brochure PDF"""
+    try:
+        # Map college slugs to PDF filenames
+        brochure_map = {
+            "iit-madras": "IIT_Madras_Brochure.pdf",
+            "iit-bombay": "IIT_Bombay_Brochure.pdf",
+            "iit-delhi": "IIT_Delhi_Brochure.pdf",
+            "iit-kanpur": "IIT_Kanpur_Brochure.pdf",
+            "iit-kharagpur": "IIT_Kharagpur_Brochure.pdf",
+            "iit-roorkee": "IIT_Roorkee_Brochure.pdf",
+            "iit-guwahati": "IIT_Guwahati_Brochure.pdf",
+            "iit-hyderabad": "IIT_Hyderabad_Brochure.pdf",
+            "iit-bhu-varanasi": "IIT_BHU_Varanasi_Brochure.pdf",
+            "nit-trichy": "NIT_Trichy_Brochure.pdf",
+            "vit-vellore": "VIT_Vellore_Brochure.pdf",
+            "bits-pilani": "BITS_Pilani_Brochure.pdf",
+        }
+        
+        pdf_filename = brochure_map.get(college_slug.lower())
+        if not pdf_filename:
+            raise HTTPException(status_code=404, detail=f"Brochure not found for {college_slug}")
+        
+        # Path to brochures directory (relative to backend root)
+        # In production, this would be in a static files directory
+        brochure_path = Path(__file__).parent.parent / "static" / "brochures" / pdf_filename
+        
+        # Fallback: check in frontend public directory (for development)
+        if not brochure_path.exists():
+            frontend_brochure_path = Path(__file__).parent.parent.parent / "StudentHub_Frontend" / "public" / "brochures" / pdf_filename
+            if frontend_brochure_path.exists():
+                brochure_path = frontend_brochure_path
+            else:
+                raise HTTPException(status_code=404, detail="Brochure file not found")
+        
+        return FileResponse(
+            path=brochure_path,
+            filename=pdf_filename,
+            media_type="application/pdf"
+        )
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"[ERROR] Error downloading brochure: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Error downloading brochure: {str(e)}")
 
 

@@ -578,10 +578,6 @@ function SearchPage() {
               <div>
                 <p className="font-semibold text-[11px] text-black">
                   VIT Vellore Chennai
-                  <span className="text-yellow-400 text-xs ml-1">
-                    <i className="fas fa-star"></i> 4.4
-                  </span>
-                  <span className="text-gray-500 text-[9px] ml-1">(345 Reviews)</span>
                 </p>
                 <p className="text-[9px] text-gray-600">BTech CSE: Course Details, Admission</p>
                 <p className="text-[9px] text-[#7AC142] font-semibold">242000 First Year Fee</p>
@@ -592,10 +588,6 @@ function SearchPage() {
               <div>
                 <p className="font-semibold text-[11px] text-black">
                   VIT Vellore Chennai
-                  <span className="text-yellow-400 text-xs ml-1">
-                    <i className="fas fa-star"></i> 4.4
-                  </span>
-                  <span className="text-gray-500 text-[9px] ml-1">(345 Reviews)</span>
                 </p>
                 <p className="text-[9px] text-gray-600">BTech CSE: Course Details, Admission</p>
                 <p className="text-[9px] text-[#7AC142] font-semibold">242000 First Year Fee</p>
@@ -606,10 +598,6 @@ function SearchPage() {
               <div>
                 <p className="font-semibold text-[11px] text-black">
                   VIT Vellore Chennai
-                  <span className="text-yellow-400 text-xs ml-1">
-                    <i className="fas fa-star"></i> 4.4
-                  </span>
-                  <span className="text-gray-500 text-[9px] ml-1">(345 Reviews)</span>
                 </p>
                 <p className="text-[9px] text-gray-600">BTech CSE: Course Details, Admission</p>
                 <p className="text-[9px] text-[#7AC142] font-semibold">242000 First Year Fee</p>
@@ -620,10 +608,6 @@ function SearchPage() {
               <div>
                 <p className="font-semibold text-[11px] text-black">
                   VIT Vellore Chennai
-                  <span className="text-yellow-400 text-xs ml-1">
-                    <i className="fas fa-star"></i> 4.4
-                  </span>
-                  <span className="text-gray-500 text-[9px] ml-1">(345 Reviews)</span>
                 </p>
                 <p className="text-[9px] text-gray-600">BTech CSE: Course Details, Admission</p>
                 <p className="text-[9px] text-[#7AC142] font-semibold">242000 First Year Fee</p>

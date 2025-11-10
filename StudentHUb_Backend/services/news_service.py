@@ -24,7 +24,7 @@ class NewsService:
         self.supabase_enabled = self.supabase is not None
         self.perplexity_enabled = bool(PERPLEXITY_API_KEY)
         if not self.supabase_enabled:
-            print("⚠️ NewsService: Supabase not available, will use fallback mode")
+            print("[WARNING] NewsService: Supabase not available, will use fallback mode")
         self.perplexity_instructions = """
         Search the internet and return the 5 most recent and real educational news articles published in India. Focus on:
         - JEE, NEET, EAMCET exam updates
@@ -113,7 +113,7 @@ class NewsService:
     def fetch_news_from_perplexity(self) -> List[Dict]:
         """Fetch latest education news from Perplexity API"""
         if not self.perplexity_enabled:
-            print("ℹ️ PERPLEXITY_API_KEY not set; skipping Perplexity fetch")
+            print("[INFO] PERPLEXITY_API_KEY not set; skipping Perplexity fetch")
             return []
         url = "https://api.perplexity.ai/chat/completions"
         headers = {
@@ -130,7 +130,7 @@ class NewsService:
         }
 
         try:
-            print("🔹 Fetching news from Perplexity API...")
+            print("[INFO] Fetching news from Perplexity API...")
             response = requests.post(url, json=payload, headers=headers)
             response.raise_for_status()
 
@@ -150,16 +150,16 @@ class NewsService:
             return self.extract_json_from_response(content)
 
         except requests.RequestException as e:
-            print(f"❌ Perplexity API request failed: {str(e)}")
+            print(f"[ERROR] Perplexity API request failed: {str(e)}")
             return []
         except Exception as e:
-            print(f"❌ Error processing Perplexity response: {str(e)}")
+            print(f"[ERROR] Error processing Perplexity response: {str(e)}")
             return []
 
     def parse_and_store_news(self, news_items: List[Dict]) -> bool:
         """Parse news items and store them in Supabase with upsert logic"""
         if not self.supabase_enabled:
-            print("⚠️ Supabase not available, skipping news storage")
+            print("[WARNING] Supabase not available, skipping news storage")
             return True  # Return True to not block the process
 
         try:
@@ -177,7 +177,7 @@ class NewsService:
                 articles_to_insert.append(article_data)
 
             if not articles_to_insert:
-                print("⚠️ No articles to insert")
+                print("[WARNING] No articles to insert")
                 return False
 
             # Upsert articles by link to prevent duplicates
@@ -190,49 +190,49 @@ class NewsService:
                     if existing.data:
                         # Update existing article
                         self.supabase.table('news_articles').update(article_data).eq('link', article_data['link']).execute()
-                        print(f"🔄 Updated existing article: {article_data['title'][:50]}...")
+                        print(f"[INFO] Updated existing article: {article_data['title'][:50]}...")
                     else:
                         # Insert new article
                         self.supabase.table('news_articles').insert(article_data).execute()
-                        print(f"➕ Inserted new article: {article_data['title'][:50]}...")
+                        print(f"[INFO] Inserted new article: {article_data['title'][:50]}...")
                     
                     upserted_count += 1
                 except Exception as e:
-                    print(f"❌ Error upserting article '{article_data['title'][:50]}...': {str(e)}")
+                    print(f"[ERROR] Error upserting article '{article_data['title'][:50]}...': {str(e)}")
                     continue
 
-            print(f"✅ Successfully processed {upserted_count}/{len(articles_to_insert)} news articles in Supabase")
+            print(f"[SUCCESS] Successfully processed {upserted_count}/{len(articles_to_insert)} news articles in Supabase")
             return upserted_count > 0
 
         except Exception as e:
-            print(f"❌ Error storing news in Supabase: {str(e)}")
+            print(f"[ERROR] Error storing news in Supabase: {str(e)}")
             return False
 
     def fetch_and_cache_news(self) -> bool:
         """Main method to fetch news from Perplexity and cache in Supabase"""
-        print("🔄 Starting news fetch and cache process...")
+        print("[INFO] Starting news fetch and cache process...")
         
         # Fetch news from Perplexity
         news_items = self.fetch_news_from_perplexity()
         
         if not news_items:
-            print("❌ No news items fetched from Perplexity")
+            print("[ERROR] No news items fetched from Perplexity")
             return False
         
         # Store in Supabase
         success = self.parse_and_store_news(news_items)
         
         if success:
-            print("✅ News fetch and cache process completed successfully")
+            print("[SUCCESS] News fetch and cache process completed successfully")
         else:
-            print("❌ News fetch and cache process failed")
+            print("[ERROR] News fetch and cache process failed")
         
         return success
 
     def get_cached_news(self, limit: int = 10) -> List[Dict]:
         """Get cached news from Supabase"""
         if not self.supabase_enabled:
-            print("⚠️ Supabase not available, returning empty news cache")
+            print("[WARNING] Supabase not available, returning empty news cache")
             return []
 
         try:
@@ -245,7 +245,7 @@ class NewsService:
             return result.data if result.data else []
 
         except Exception as e:
-            print(f"❌ Error fetching cached news: {str(e)}")
+            print(f"[ERROR] Error fetching cached news: {str(e)}")
             return []
 
 # Global instance
