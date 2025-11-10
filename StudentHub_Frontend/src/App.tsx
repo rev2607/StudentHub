@@ -58,6 +58,7 @@ import IITHyderabadPage from "./pages/Colleges/IITHyderabadPage";
 import IITGuwahatiPage from "./pages/Colleges/IITGuwahatiPage";
 import IITBHUVaranasiPage from "./pages/Colleges/IITBHUVaranasiPage";
 import NITTrichyPage from "./pages/Colleges/NITTrichyPage";
+import AboutPage from "./pages/AboutPage/AboutPage";
 
 // import Search from "./pages/Other/Search";
 // import Test from "./pages/Other/Test";
@@ -131,6 +132,7 @@ function App() {
             <Route path="/psychometric-test" element={<PsychometricTest />} />
             <Route path="/articles" element={<ArticlesLandingPage />} />
             <Route path="/articles/:slug" element={<ArticleDetailPage />} />
+            <Route path="/about" element={<AboutPage />} />
             <Route path="/engineering-colleges" element={<Navigate to="/colleges" replace />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Route>

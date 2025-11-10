@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { Menu, X, ChevronDown, Search } from "lucide-react";
+import { Menu, X, ChevronDown, Search, User } from "lucide-react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { supabase } from '../lib/supabaseClient';
 
@@ -20,6 +20,7 @@ const Navbar = () => {
     { title: "Colleges", path: "/colleges" },
     { title: "Mock Tests", path: "/mock-tests" },
     { title: "Career Guidance Test", path: "/psychometric-test" },
+    { title: "About", path: "/about" },
   ];
 
   // Check auth state on mount and subscribe to changes (non-blocking)
@@ -216,22 +217,14 @@ const Navbar = () => {
                 )}
               </div>
             ) : (
-              <div className="flex items-center space-x-3">
-                <Link
-                  to="/login"
-                  className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-[var(--site-green)] transition-colors duration-200"
-                  data-testid="nav-signin"
-                >
-                  Sign In
-                </Link>
-                <Link
-                  to="/signup"
-                  className="px-4 py-2 text-sm font-semibold bg-[var(--site-green)] hover:bg-[#7bb53a] text-[#262443] rounded-lg transition-all duration-200 shadow-sm hover:shadow-md"
-                  data-testid="nav-signup"
-                >
-                  Sign Up
-                </Link>
-              </div>
+              <Link
+                to="/signup"
+                className="flex items-center space-x-2 px-3 py-2 xl:px-4 text-sm font-medium text-[#262443] hover:opacity-80 transition-all duration-200 rounded-md"
+                data-testid="nav-signin-signup"
+              >
+                <User className="h-5 w-5 stroke-[#262443]" />
+                <span className="font-bold">Login</span>
+              </Link>
             )}
           </div>
 
@@ -333,24 +326,15 @@ const Navbar = () => {
                   </button>
                 </>
               ) : (
-                <div className="space-y-3">
-                  <Link
-                    to="/login"
-                    className="block w-full text-center px-4 py-3 rounded-lg text-base font-medium text-gray-700 bg-gray-50 hover:bg-gray-100 transition-all duration-200"
-                    onClick={() => setIsOpen(false)}
-                    data-testid="nav-signin"
-                  >
-                    Sign In
-                  </Link>
-                  <Link
-                    to="/signup"
-                    className="block w-full text-center px-4 py-3 rounded-lg text-base font-semibold bg-[var(--site-green)] hover:bg-[#7bb53a] text-[#262443] transition-all duration-200 shadow-sm"
-                    onClick={() => setIsOpen(false)}
-                    data-testid="nav-signup"
-                  >
-                    Sign Up
-                  </Link>
-                </div>
+                <Link
+                  to="/signup"
+                  className="flex items-center justify-center space-x-2 w-full px-4 py-3 text-[#262443] hover:opacity-80 transition-all duration-200"
+                  onClick={() => setIsOpen(false)}
+                  data-testid="nav-signin-signup"
+                >
+                  <User className="h-6 w-6 stroke-[#262443]" />
+                  <span className="text-lg font-bold">Login</span>
+                </Link>
               )}
             </div>
           </div>
