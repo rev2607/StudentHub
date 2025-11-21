@@ -15,8 +15,8 @@ import {
 import AdmissionPredictorModal from "../../components/AdmissionPredictorModal";
 import BrochureModal from "../../components/BrochureModal";
 
-// Import NIT Goa data service
-import { loadNITGoaData, type NITGoaData } from "../../services/collegeDataService";
+// Import IIT Roorkee data service
+import { loadIITRoorkeeData, type IITRoorkeeData } from "../../services/collegeDataService";
 
 interface TabProps {
   label: string;
@@ -44,9 +44,9 @@ const InfoCard: React.FC<{ label: string; value: string | number }> = ({ label, 
   </div>
 );
 
-const NITGoaPage: React.FC = () => {
+const IITRoorkeePage: React.FC = () => {
   const [activeTab, setActiveTab] = useState("overview");
-  const [collegeData, setCollegeData] = useState<NITGoaData | null>(null);
+  const [collegeData, setCollegeData] = useState<IITRoorkeeData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isPredictorModalOpen, setIsPredictorModalOpen] = useState(false);
@@ -77,7 +77,7 @@ const NITGoaPage: React.FC = () => {
     const loadData = async () => {
       try {
         setLoading(true);
-        const data = await loadNITGoaData();
+        const data = await loadIITRoorkeeData();
         setCollegeData(data);
         
         // Set page title
@@ -90,7 +90,7 @@ const NITGoaPage: React.FC = () => {
         document.head.appendChild(meta);
       } catch (err) {
         setError('Failed to load college data');
-        console.error('Error loading NIT Goa data:', err);
+        console.error('Error loading IIT Roorkee data:', err);
       } finally {
         setLoading(false);
       }
@@ -121,7 +121,7 @@ const NITGoaPage: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLeadModalOpen(true);
-      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_open', page: 'nit_goa' } })); } catch {}
+      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_open', page: 'iit_roorkee' } })); } catch {}
     }, 10000);
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setIsLeadModalOpen(false); };
     window.addEventListener('keydown', onKey);
@@ -148,10 +148,10 @@ const NITGoaPage: React.FC = () => {
         body: JSON.stringify({
           ...leadForm,
           college: collegeData?.Name,
-          source: 'nit_goa_page',
+          source: 'iit_roorkee_page',
         })
       });
-      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_submit', page: 'nit_goa' } })); } catch {}
+      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_submit', page: 'iit_roorkee' } })); } catch {}
       setIsLeadModalOpen(false);
     } catch (e) {
       // noop: could show toast
@@ -224,7 +224,7 @@ const NITGoaPage: React.FC = () => {
       {/* Admission Predictor CTA (moved to top) */}
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Predict Your Chances</h3>
-        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Goa based on your rank and category.</p>
+        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for IIT Roorkee based on your rank and category.</p>
         <button onClick={() => setIsPredictorModalOpen(true)} className="w-full px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Try Admission Predictor</button>
       </div>
 
@@ -235,7 +235,7 @@ const NITGoaPage: React.FC = () => {
           <div className="flex gap-3">
             <img src="/default-news.jpg" alt="News" className="w-16 h-16 object-cover rounded-lg flex-shrink-0" />
             <div className="flex-1 min-w-0">
-              <h4 className="text-sm font-medium text-gray-900 line-clamp-2">NIT Goa Begins PhD Admissions 2025-26</h4>
+              <h4 className="text-sm font-medium text-gray-900 line-clamp-2">IIT Roorkee Begins PhD Admissions 2025-26</h4>
               <p className="text-xs text-gray-500 mt-1">2 days ago</p>
             </div>
           </div>
@@ -252,26 +252,26 @@ const NITGoaPage: React.FC = () => {
 
       {/* Top Courses */}
       <div className="bg-white rounded-xl shadow-sm p-8">
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">Top Courses at NIT Goa</h3>
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Top Courses at IIT Roorkee</h3>
         <div className="space-y-3">
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
                 <p className="font-medium text-gray-900">B.Tech CSE</p>
-                <p className="text-xs text-gray-500">₹2.3L/year</p>
+                <p className="text-xs text-gray-500">₹8.87L - 11.09L</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
                 <p className="font-medium text-gray-900">M.Tech CSE</p>
-                <p className="text-xs text-gray-500">₹66,700/year</p>
+                <p className="text-xs text-gray-500">₹65,200</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
                 <p className="font-medium text-gray-900">MBA</p>
-                <p className="text-xs text-gray-500">₹4.33L/year</p>
+                <p className="text-xs text-gray-500">₹2.3L</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
@@ -333,12 +333,12 @@ const NITGoaPage: React.FC = () => {
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Upcoming Events</h3>
         <div className="space-y-3 text-sm">
           <div className="p-3 bg-gray-50 rounded-lg">
-            <div className="font-medium text-gray-900">Mood Indigo Cultural Festival</div>
-            <div className="text-gray-600">Dec • Asia's largest cultural fest</div>
+            <div className="font-medium text-gray-900">Thomso Cultural Festival</div>
+            <div className="text-gray-600">Nov • Workshops, concerts, competitions</div>
               </div>
           <div className="p-3 bg-gray-50 rounded-lg">
-            <div className="font-medium text-gray-900">Techfest</div>
-            <div className="text-gray-600">Jan • Hackathons, keynotes, expo</div>
+            <div className="font-medium text-gray-900">Cognizance Tech Fest</div>
+            <div className="text-gray-600">Mar • Hackathons, keynotes, expo</div>
           </div>
         </div>
       </div>
@@ -399,7 +399,7 @@ const NITGoaPage: React.FC = () => {
       {/* Admission Predictor CTA */}
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Predict Your Chances</h3>
-        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Goa based on your rank and category.</p>
+        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for IIT Roorkee based on your rank and category.</p>
         <button onClick={() => setIsPredictorModalOpen(true)} className="w-full px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Try Admission Predictor</button>
       </div>
 
@@ -434,16 +434,16 @@ const NITGoaPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Popular College Comparisons</h3>
         <div className="space-y-2 text-sm">
-          <Link to="/compare/nit-patna-vs-iit-bombay" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Goa vs IIT Bombay</span>
+          <Link to="/compare/iit-roorkee-vs-iit-delhi" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">IIT Roorkee vs IIT Delhi</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
-          <Link to="/compare/nit-patna-vs-iit-madras" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Goa vs IIT Madras</span>
+          <Link to="/compare/iit-roorkee-vs-iit-bombay" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">IIT Roorkee vs IIT Bombay</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
-          <Link to="/compare/nit-patna-vs-iit-delhi" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Goa vs IIT Delhi</span>
+          <Link to="/compare/iit-roorkee-vs-iit-kanpur" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">IIT Roorkee vs IIT Kanpur</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
         </div>
@@ -514,11 +514,11 @@ const NITGoaPage: React.FC = () => {
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Students Also View</h3>
         <div className="space-y-4 flex-1">
           {[
-            { name: "IIT Madras", rank: "1", type: "Engineering" },
-            { name: "NIT Goa", rank: "50", type: "Engineering" },
-            { name: "NIT Goa", rank: "31", type: "Engineering" },
-            { name: "NIT Warangal", rank: "35", type: "Engineering" },
-            { name: "IIT Roorkee", rank: "7", type: "Engineering" }
+            { name: "IIT Delhi", rank: "2", type: "Engineering" },
+            { name: "IIT Bombay", rank: "3", type: "Engineering" },
+            { name: "IIT Kanpur", rank: "4", type: "Engineering" },
+            { name: "IIT Kharagpur", rank: "5", type: "Engineering" },
+            { name: "IIT Madras", rank: "1", type: "Engineering" }
           ].map((college, index) => (
             <Link key={index} to="/colleges" className="flex items-center gap-3 p-3 hover:bg-gray-50 rounded-lg transition-colors">
               <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center text-white font-bold text-sm">
@@ -548,36 +548,6 @@ const NITGoaPage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">About {collegeData.Name}</h3>
         <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
         
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <p className="text-gray-700 mb-3">
-            <strong>NIT Goa Courses are offered at UG, PG, Doctorate level. The institute offers programs in Engineering, Science, Management disciplines. Available degrees include B.Tech, M.Tech, Ph.D, M.Sc, MBA, MCA. Popular courses are B.Tech, M.Tech, Ph.D.</strong>
-          </p>
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>NIT Goa Fees 2025-2026 is ₹6.14 Lakhs for B.Tech (4 years) across all offered courses.</strong> UG Fees: ₹6.14 Lakhs for B.Tech, Hostel Fees: ₹1.42 Lakhs for complete course</li>
-            <li>• <strong>NIT Goa B.Tech Fees is ₹6.14 Lakhs for the entire 4 years duration.</strong> Popular specializations: Computer Science & Engineering, Electronics & Communication Engineering, Mechanical Engineering.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• NIT Goa B.Tech total program fee: ₹6.14 Lakhs. First year fee: ₹1.53 Lakhs.</li>
-                <li>• B.Tech CSE is one of the most competitive programs with AIR 66 cutoff.</li>
-              </ul>
-            </li>
-            <li>• <strong>NIT Goa M.Tech Fees is ₹1.334 Lakhs for the entire 2 years duration.</strong> Popular specializations: Computer Science And Engineering, Data Science, AI & Machine Learning.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• NIT Goa M.Tech annual fee: ₹66,700</li>
-                <li>• 50+ M.Tech specializations available across various departments</li>
-              </ul>
-            </li>
-            <li>• <strong>NIT Goa Ph.D Fees is ₹1.32 Lakhs for 3 years duration.</strong> Popular specializations: All engineering, science, and management departments.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• Ph.D fee: ₹44,000 per year (₹1.32 Lakhs for 3 years)</li>
-                <li>• Over 1200+ Ph.D students enrolled across 50 programs</li>
-              </ul>
-            </li>
-            <li>• <strong>NIT Goa offers MBA through SJMSOM with total fee of ₹8.66 Lakhs (₹4.33 Lakhs per year).</strong> Admission through CAT examination.</li>
-            <li>• <strong>NIT Goa Hostel & Mess Fee is approximately ₹39,400 per semester.</strong></li>
-          </ul>
-        </div>
-        
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Established" value={collegeData.Established.Year} />
           <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2025.Overall} />
@@ -598,17 +568,6 @@ const NITGoaPage: React.FC = () => {
       {/* Academic Programs Overview */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
-        
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>NIT Goa offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and design disciplines.</strong> The institute maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
-            <li>• <strong>Undergraduate Programs:</strong> B.Tech (1200 seats, ₹2.3L/year), Dual Degree programs available, B.Des (15 seats, ₹2.3L/year). All programs require competitive entrance examinations with JEE Advanced for B.Tech and UCEED for B.Des.</li>
-            <li>• <strong>Postgraduate Programs:</strong> M.Tech (50 specializations, ₹66,700/year), MBA (120 seats, ₹4.33L/year), M.Sc (200 seats across 4 disciplines, ₹78,600/year). Admission through GATE, CAT, and IIT JAM examinations respectively.</li>
-            <li>• <strong>Doctoral Programs:</strong> PhD (50 programs, 1200+ seats, ₹44,000/year). Duration typically 3-5 years with research focus areas including AI, machine learning, sustainable energy, healthcare informatics, and electric mobility.</li>
-            <li>• <strong>Hostel & Accommodation:</strong> 18 hostels with modern amenities including Wi-Fi, study rooms, mess halls, recreation areas, and water purifiers. Hostel & mess fees approximately ₹39,400 per semester.</li>
-          </ul>
-        </div>
         
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-4 bg-gray-50">
@@ -643,7 +602,7 @@ const NITGoaPage: React.FC = () => {
       {/* Admission Process */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Admission Process & Cutoffs</h3>
-        <p className="text-gray-700 mb-6">Admissions at NIT Goa are highly competitive, with rigorous entrance examinations and strict cutoff criteria. The institute follows a merit-based selection process ensuring only the brightest minds join the community.</p>
+        <p className="text-gray-700 mb-6">Admissions at IIT Roorkee are highly competitive, with rigorous entrance examinations and strict cutoff criteria. The institute follows a merit-based selection process ensuring only the brightest minds join the community.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -681,7 +640,7 @@ const NITGoaPage: React.FC = () => {
       {/* Placements & Career Opportunities */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Placements & Career Opportunities</h3>
-        <p className="text-gray-700 mb-6">NIT Goa has an exceptional placement record with top-tier companies consistently recruiting students across all programs. The Career Development Cell ensures comprehensive preparation and support throughout the placement process.</p>
+        <p className="text-gray-700 mb-6">IIT Roorkee has an exceptional placement record with top-tier companies consistently recruiting students across all programs. The Career Development Cell ensures comprehensive preparation and support throughout the placement process.</p>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Total Offers (2024)" value={collegeData.Placements.Year2024.TotalOffers} />
@@ -722,7 +681,7 @@ const NITGoaPage: React.FC = () => {
       {/* Rankings & Recognition */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Rankings & Recognition</h3>
-        <p className="text-gray-700 mb-6">NIT Goa consistently ranks among the top engineering institutions in India and has gained international recognition for its academic excellence, research contributions, and innovation initiatives.</p>
+        <p className="text-gray-700 mb-6">IIT Roorkee consistently ranks among the top engineering institutions in India and has gained international recognition for its academic excellence, research contributions, and innovation initiatives.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -772,7 +731,7 @@ const NITGoaPage: React.FC = () => {
       {/* Facilities & Infrastructure */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Campus Facilities & Infrastructure</h3>
-        <p className="text-gray-700 mb-6">The sprawling 365-acre campus of NIT Goa houses world-class facilities including modern hostels, state-of-the-art laboratories, extensive library resources, and comprehensive sports infrastructure to support holistic development.</p>
+        <p className="text-gray-700 mb-6">The sprawling 365-acre campus of IIT Roorkee houses world-class facilities including modern hostels, state-of-the-art laboratories, extensive library resources, and comprehensive sports infrastructure to support holistic development.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -842,7 +801,7 @@ const NITGoaPage: React.FC = () => {
       {/* Faculty & Research */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty & Research Excellence</h3>
-        <p className="text-gray-700 mb-6">NIT Goa boasts a distinguished faculty of over 470 members across 23 departments, with the majority holding PhD degrees. The institute is at the forefront of research and innovation with significant contributions to various fields.</p>
+        <p className="text-gray-700 mb-6">IIT Roorkee boasts a distinguished faculty of over 470 members across 23 departments, with the majority holding PhD degrees. The institute is at the forefront of research and innovation with significant contributions to various fields.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -893,7 +852,7 @@ const NITGoaPage: React.FC = () => {
       {/* Student Life & Culture */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student Life & Campus Culture</h3>
-        <p className="text-gray-700 mb-6">The vibrant campus life at NIT Goa is characterized by a diverse community, rich cultural traditions, and numerous opportunities for personal and professional growth through clubs, societies, and events.</p>
+        <p className="text-gray-700 mb-6">The vibrant campus life at IIT Roorkee is characterized by a diverse community, rich cultural traditions, and numerous opportunities for personal and professional growth through clubs, societies, and events.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -975,7 +934,7 @@ const NITGoaPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Undergraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          NIT Goa's undergraduate offerings are designed to build a strong foundation in core disciplines while
+          IIT Roorkee's undergraduate offerings are designed to build a strong foundation in core disciplines while
           introducing students to cutting-edge technologies and interdisciplinary learning. With competitive intake,
           structured curricula, modern laboratories, and active industry projects, students graduate with both theoretical
           depth and hands-on problem-solving skills. The programs emphasize fundamentals, design thinking, and professional
@@ -1109,7 +1068,7 @@ const NITGoaPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Postgraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          The postgraduate ecosystem at NIT Goa is research-driven and industry-aligned. Programs in engineering,
+          The postgraduate ecosystem at IIT Roorkee is research-driven and industry-aligned. Programs in engineering,
           management, and sciences emphasize advanced coursework, electives in emerging areas, and strong thesis/project
           components. Students benefit from funded research labs, innovation centers, and frequent industry seminars.
         </p>
@@ -1244,7 +1203,7 @@ const NITGoaPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel & Accommodation</h3>
         <p className="text-gray-700 mb-4">
-          Hostel life at NIT Goa is known for its vibrant culture and supportive community. With modern rooms, study
+          Hostel life at IIT Roorkee is known for its vibrant culture and supportive community. With modern rooms, study
           areas, and recreational spaces, students find a conducive environment for personal growth. Residential living
           also fosters collaboration across programs through clubs, intramurals, and cultural festivals.
         </p>
@@ -1263,17 +1222,17 @@ const NITGoaPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Admissions at {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at <strong>NIT Goa</strong> are among the most merit-centric and transparent in Indian higher
+          Admissions at <strong>IIT Roorkee</strong> are among the most merit-centric and transparent in Indian higher
           education, governed by national-level examinations and centralized counseling platforms. The system ensures
           nationwide participation while adhering to Central Government reservation policies for SC, ST, OBC‑NCL, EWS,
           and PwD categories. Processes vary across undergraduate, postgraduate, and doctoral levels—each emphasizing
           academic rigor, exam performance, and interviews or research assessments where applicable.
         </p>
 
-        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of NIT Goa’s Admission Framework</h4>
+        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of IIT Roorkee’s Admission Framework</h4>
         <p className="text-gray-700 mb-3">
-          Founded in 1958 through Indo-Soviet collaboration, NIT Goa structures admissions to maintain academic
-          excellence and equitable access. All admissions—through <strong>JEE Advanced, GATE, CAT, IIT JAM,</strong> or
+          Founded in 1847 and converted into an IIT in 2001, IIT Roorkee structures admissions to maintain academic
+          excellence and equitable access. All admissions—through <strong>JEE Advanced, GATE, CAT, JAM,</strong> or
           <strong> UCEED</strong>—are aligned to centralized systems managed by national bodies such as
           <strong> JoSAA</strong>, <strong>COAP</strong>, and respective coordination portals.
           The core goal is to align candidate merit (exam performance) with program preferences, seat availability, and
@@ -1287,8 +1246,9 @@ const NITGoaPage: React.FC = () => {
           <li><strong>B.Des:</strong> Admission via <strong>UCEED</strong> with centralized counseling.</li>
         </ul>
         <p className="text-gray-700 mt-2">
-          <span className="font-medium">Recent Cutoffs (2025):</span> B.Tech CSE – AIR 66; Electrical Engineering – AIR 285; ECE – AIR 400;
-          Mechanical – AIR 1500; Civil – AIR 3000. Admissions are finalized over multiple JoSAA rounds; seats can fluctuate due to withdrawals and
+          <span className="font-medium">Recent Cutoffs (2025 Approx.):</span> B.Tech CSE – AIR 535; Data Science & AI – AIR 710; ECE – AIR 1394;
+          Electrical – AIR 1752; Mechanical – AIR 1900; Civil – AIR 2175; B.Arch (AAT) – Rank 16,596; B.Des General – AIR 111
+          (OBC – AIR 56). Admissions are finalized over multiple JoSAA rounds; seats can fluctuate due to withdrawals and
           category shifts.
         </p>
 
@@ -1339,9 +1299,9 @@ const NITGoaPage: React.FC = () => {
         </ul>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at NIT Goa</h3>
+        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at IIT Roorkee</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at NIT Goa are highly structured and merit-driven. Each program is tied to a national-level
+          Admissions at IIT Roorkee are highly structured and merit-driven. Each program is tied to a national-level
           examination with carefully defined counseling processes, category-based reservations, and institute-level
           verification. Shortlisted candidates typically proceed through centralized counseling where seat allotments are
           made based on rank, preferences, and availability.
@@ -1518,9 +1478,9 @@ const NITGoaPage: React.FC = () => {
   const renderPlacementsTab = () => (
     <div id="placements-root" className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Why Placements at NIT Goa Stand Out</h3>
+        <h3 className="text-2xl font-semibold mb-4">Why Placements at IIT Roorkee Stand Out</h3>
         <p className="text-gray-700 mb-3">
-          NIT Goa’s placement ecosystem blends academic rigor, early skill development, industry exposure, and a
+          IIT Roorkee’s placement ecosystem blends academic rigor, early skill development, industry exposure, and a
           powerful alumni network—resulting in consistently high packages and diverse global opportunities. Students are
           groomed to excel in high‑pressure, real‑world environments, not just to crack interviews.
         </p>
@@ -1802,9 +1762,9 @@ const NITGoaPage: React.FC = () => {
     <div id="rankings-root" className="space-y-6">
       {/* Rankings Narrative and Consolidated Tables (user-provided) */}
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">NIT Goa Rankings & Recognition</h3>
+        <h3 className="text-2xl font-semibold mb-4">IIT Roorkee Rankings & Recognition</h3>
         <p className="text-gray-700 mb-4">
-          NIT Goa is consistently ranked among India’s top institutions and continues to strengthen its global
+          IIT Roorkee is consistently ranked among India’s top institutions and continues to strengthen its global
           standing. The institute’s performance across teaching quality, research output, graduate outcomes, outreach,
           and perception is reflected in leading national and international ranking frameworks.
         </p>
@@ -1923,7 +1883,7 @@ const NITGoaPage: React.FC = () => {
         </div>
 
         <p className="text-gray-700 mb-4">
-          Nationally, NIT Goa ranks #7 overall (NIRF 2025), #6 in engineering, and #1 in architecture & planning.
+          Nationally, IIT Roorkee ranks #7 overall (NIRF 2025), #6 in engineering, and #1 in architecture & planning.
           Internationally, it is #335 in QS World (2026) and #130 in QS Asia (2025), with THE placing engineering in the
           301–400 band. These reflect strong academics, research, innovation, and global presence.
         </p>
@@ -1946,9 +1906,9 @@ const NITGoaPage: React.FC = () => {
         </div>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Understanding NIT Goa’s Rankings</h3>
+        <h3 className="text-2xl font-semibold mb-4">Understanding IIT Roorkee’s Rankings</h3>
         <p className="text-gray-700 mb-3">
-          Rankings reflect NIT Goa’s consistent performance in teaching, research output, innovation, graduate
+          Rankings reflect IIT Roorkee’s consistent performance in teaching, research output, innovation, graduate
           outcomes, and international visibility. Nationally, the institute is among the top engineering schools; globally,
           it features in reputed lists such as QS and THE, indicating strong competitiveness and alumni impact.
         </p>
@@ -2197,7 +2157,7 @@ const NITGoaPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel Facilities</h3>
         <p className="text-gray-700 mb-3">
-          Residential life anchors the NIT Goa experience. With 20 hostels spanning boys, girls, married and co‑ed
+          Residential life anchors the IIT Roorkee experience. With 20 hostels spanning boys, girls, married and co‑ed
           residences, students find a safe, connected environment. Wi‑Fi connectivity, common study rooms, recreation
           lounges and student‑run mess committees support academic focus and community bonding in equal measure.
         </p>
@@ -2380,7 +2340,7 @@ const NITGoaPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength, Research Culture & Global Collaborations</h3>
         <p className="text-gray-700 mb-3">
-          NIT Goa’s faculty and research ecosystem is among the strongest in India. With <strong>470+</strong> faculty
+          IIT Roorkee’s faculty and research ecosystem is among the strongest in India. With <strong>470+</strong> faculty
           across <strong>23 departments</strong>, the institute sustains a robust, interdisciplinary environment spanning
           fundamental sciences, engineering, and emerging domains. Faculty drive national missions, global partnerships,
           and translational research impacting both industry and society.
@@ -2431,7 +2391,7 @@ const NITGoaPage: React.FC = () => {
         <p className="text-gray-700 mb-3">
           Most faculty members hold doctorates from IITs, IISc, or global universities (Cambridge, ETH Zurich, MIT).
           Growth areas include the Department of Design Innovation and interdisciplinary centers like Biomedical
-          Engineering, reflecting NIT Goa’s future‑oriented academic model.
+          Engineering, reflecting IIT Roorkee’s future‑oriented academic model.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Key Research Centers and Specializations</h4>
@@ -2547,7 +2507,7 @@ const NITGoaPage: React.FC = () => {
         <h4 className="text-lg font-semibold mt-3 mb-2">Research Funding & Recognition</h4>
         <p className="text-gray-700">
           Funding sources include the Ministry of Education, DST, CSIR, DBT, ISRO, and international grants. Award‑winning
-          innovations span renewable energy, disaster mitigation, and AI‑assisted healthcare. NIT Goa balances academic
+          innovations span renewable energy, disaster mitigation, and AI‑assisted healthcare. IIT Roorkee balances academic
           rigor with national priorities and global partnerships, making it one of India’s most research‑driven academic
           communities.
         </p>
@@ -2555,7 +2515,7 @@ const NITGoaPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength & Research Culture</h3>
         <p className="text-gray-700 mb-3">
-          With a large cohort of accomplished faculty across departments, NIT Goa sustains a vibrant research
+          With a large cohort of accomplished faculty across departments, IIT Roorkee sustains a vibrant research
           ecosystem. Faculty members publish in leading venues, attract substantial research funding, and mentor student
           teams that participate in national and international competitions.
         </p>
@@ -2691,17 +2651,17 @@ const NITGoaPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student & Alumni Perspectives on {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Established in 1958 through Indo-Soviet collaboration, NIT Goa is widely regarded as a premier
+          Established in 1847 (as Thomason College of Civil Engineering), IIT Roorkee is widely regarded as a premier
           engineering and technology institution. Reviews consistently highlight a rigorous academic atmosphere, world‑class
-          faculty, and a highly competitive peer network set against a vibrant, 550-acre campus beside Powai Lake.
+          faculty, and a highly competitive peer network set against a vibrant, historic campus.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Expanded Student and Alumni Perspectives</h4>
         <p className="text-gray-700 mb-3">
           Students appreciate both theoretical depth and practical exposure through seminars, industry collaborations, and
           research projects. Peer culture is motivating; hostel life is community‑oriented with strong participation in
-          technical societies and cultural clubs.           Flagship fests like <em>Techfest</em> (tech) and <em>Mood Indigo</em>
-          (cultural) build leadership and event management skills. While demanding, the curriculum's rigor pays dividends
+          technical societies and cultural clubs. Flagship fests like <em>Cognizance</em> (tech) and <em>Thomso</em>
+          (cultural) build leadership and event management skills. While demanding, the curriculum’s rigor pays dividends
           for competitive exams, higher studies abroad, and corporate roles.
         </p>
 
@@ -2724,7 +2684,7 @@ const NITGoaPage: React.FC = () => {
           <li><strong>Technical societies</strong> (IEEE, ASME, robotics) build applied skills.</li>
           <li><strong>Sports</strong> culture features inter‑IIT participation and extensive facilities.</li>
           <li><strong>Arts & literature</strong> clubs run debates, music, dramatics, and publications.</li>
-          <li><strong>Festivals</strong> like Mood Indigo and Techfest draw national attention and celebrity line‑ups.</li>
+          <li><strong>Festivals</strong> like Thomso draw national attention and celebrity line‑ups.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mb-2">Areas That See Regular Debate</h4>
@@ -2736,7 +2696,7 @@ const NITGoaPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mb-2">Return on Investment & Prestige</h4>
         <p className="text-gray-700 mb-4">
-          With comparatively low fees and strong outcomes, ROI is considered excellent. The NIT Goa brand has global
+          With comparatively low fees and strong outcomes, ROI is considered excellent. The IIT Roorkee brand has global
           recognition; alumni progress into leadership roles across industry, academia, and public service.
         </p>
 
@@ -2782,7 +2742,7 @@ const NITGoaPage: React.FC = () => {
   const renderContactTab = () => (
     <div className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Contacting NIT Goa Effectively</h3>
+        <h3 className="text-2xl font-semibold mb-4">Contacting IIT Roorkee Effectively</h3>
         <p className="text-gray-700 mb-3">
           For admissions and program-specific queries, use official channels and include your application details (name,
           application ID, program, and question) for faster responses. For urgent issues, phone lines and the institute
@@ -2935,8 +2895,8 @@ const NITGoaPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/images/nit-patna-logo.png" 
-                    alt="NIT Goa Logo" 
+                    src="/data/colleges/IIT_Roorkee_Logo.svg" 
+                    alt="IIT Roorkee Logo" 
                     className="w-full h-full object-contain"
                   />
                 </div>
@@ -3032,15 +2992,15 @@ const NITGoaPage: React.FC = () => {
       <AdmissionPredictorModal
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
-        collegeName={collegeData?.Name || "NIT Goa"}
-        collegeLogo="/images/nit-patna-logo.png"
+        collegeName={collegeData?.Name || "IIT Roorkee"}
+        collegeLogo="/data/colleges/IIT_Roorkee_Logo.svg"
       />
 
       {/* Brochure Modal */}
       <BrochureModal
         isOpen={isBrochureModalOpen}
         onClose={() => setIsBrochureModalOpen(false)}
-        collegeName={collegeData?.Name || "NIT Goa"}
+        collegeName={collegeData?.Name || "IIT Roorkee"}
         collegeData={collegeData || undefined}
       />
 
@@ -3123,4 +3083,4 @@ const NITGoaPage: React.FC = () => {
   );
 };
 
-export default NITGoaPage;
+export default IITRoorkeePage;

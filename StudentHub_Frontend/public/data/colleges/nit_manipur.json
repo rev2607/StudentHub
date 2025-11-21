@@ -1,68 +1,60 @@
 {
-  "Name": "National Institute of Technology Kurukshetra (NIT Kurukshetra)",
+  "Name": "National Institute of Technology Manipur (NIT Manipur)",
   "Location": {
-    "City": "Kurukshetra",
-    "District": "Kurukshetra",
-    "State": "Haryana",
+    "City": "Imphal",
+    "District": "Imphal",
+    "State": "Manipur",
     "Country": "India",
-    "Pin": "136119",
-    "CampusAreaAcres": 300,
+    "Pin": "795001",
+    "CampusAreaAcres": 50,
     "Branches": [
       {
         "Name": "Main Campus",
-        "Location": "Kurukshetra, Haryana"
+        "Location": "Chandel Road, Takyelpat, Imphal, Manipur"
       }
     ]
   },
   "Established": {
-    "Year": 1963,
-    "OriginalName": "Regional Engineering College Kurukshetra",
-    "Renamed": [
-      {
-        "Year": 2002,
-        "Name": "National Institute of Technology Kurukshetra"
-      }
-    ],
-    "HistoricalSignificance": "Established in 1963 as a Regional Engineering College and converted to an NIT in 2002. Located in Kurukshetra, Haryana and recognized as an Institute of National Importance. One of the oldest NITs with a strong regional and national presence."
+    "Year": 2010,
+    "OriginalName": "National Institute of Technology Manipur",
+    "Renamed": [],
+    "HistoricalSignificance": "Started as a part of the government's plan to spread technical education to northeast India, NIT Manipur has swiftly developed modern facilities and academic programs adhering to national standards."
   },
   "UniversityType": [
     "Public Technical University",
     "Institute of National Importance"
   ],
   "About": {
-    "Overview": "National Institute of Technology Kurukshetra (NIT Kurukshetra) is a premier technical institute established in 1963 as a Regional Engineering College and converted to an NIT in 2002. It is located in Kurukshetra, Haryana and recognized as an Institute of National Importance.",
-    "StudentStrength": "Over 5,000 students including international nationals",
+    "Overview": "National Institute of Technology Manipur (NIT Manipur), established in 2010, is a centrally funded technical university located in Imphal, Manipur. It is an Institute of National Importance offering courses in engineering, science, and management disciplines.",
+    "StudentStrength": "Over 1,500 students including international nationals",
     "MajorEvents": [
-      "Annual cultural and technical festivals",
-      "Various student clubs and activities",
-      "Sports facilities and competitions"
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports events"
     ],
     "ResearchFocus": [
-      "Data Science",
-      "Artificial Intelligence",
-      "Robotics",
-      "Materials Engineering",
-      "Clean Energy",
-      "Cyber Security"
+      "Advanced Technologies",
+      "Industry Collaboration",
+      "Regional Development"
     ],
     "StartupsValuationINR": 0,
     "GlobalCollaborations": [
-      "International universities worldwide"
+      "International universities"
     ],
     "SocialInitiatives": [
-      "Outreach programs for rural development",
-      "Environmental sustainability",
-      "Technology-based social initiatives"
+      "Outreach programs",
+      "Technical training workshops",
+      "Environmental projects"
     ]
   },
   "Rankings": {
     "NIRF2025": {
-      "Overall": 81,
-      "Engineering": 81,
+      "Overall": 175,
+      "Engineering": 175,
       "ArchitecturePlanning": 0
     },
     "NIRF2024": {
-      "Overall": 81,
+      "Overall": 175,
       "Innovation": 0
     },
     "QSWorld2026": 0,
@@ -75,19 +67,17 @@
     "Undergraduate": {
       "BTech": {
         "Branches": [
-          "Civil Engineering",
-          "Computer Engineering",
-          "Electrical Engineering",
-          "Electronics & Communication Engineering",
+          "Computer Science and Engineering",
+          "Electronics and Communication Engineering",
+          "Electrical and Electronics Engineering",
           "Mechanical Engineering",
-          "Production & Industrial Engineering",
-          "Information Technology"
+          "Civil Engineering"
         ],
         "DurationYears": 4,
         "Entrance": ["JEE Main", "JoSAA counseling"],
-        "Seats": 1100,
-        "FirstYearFeeINR": 125000,
-        "TotalFeesINRApprox": 500000
+        "Seats": 300,
+        "FirstYearFeeINR": 161250,
+        "TotalFeesINRApprox": 645000
       },
       "BArch": {
         "DurationYears": 0,
@@ -106,35 +96,45 @@
     },
     "Postgraduate": {
       "MTech": {
-        "Specializations": 22,
+        "Specializations": 10,
         "DurationYears": 2,
         "Entrance": ["GATE", "CCMT"],
-        "FirstYearFeeINR": 65000,
+        "FirstYearFeeINR": 100000,
         "SeatsVaries": true
       },
       "MArchMPlanMDes": {
         "DurationYears": 0,
         "Entrance": [],
         "SeatsVaries": false,
-        "FeeInformation": "Not offered"
+        "FeeInformation": "N/A"
       },
       "MBA": {
         "DurationYears": 2,
-        "Entrance": ["CAT", "MAT"],
-        "Seats": 60,
-        "FirstYearFeeINR": 140000
+        "Entrance": ["CAT", "GMAT"],
+        "Seats": 30,
+        "FirstYearFeeINR": 120000
       },
       "MSc": {
-        "Disciplines": [],
-        "DurationYears": 0,
-        "Entrance": [],
-        "FirstYearFeeINR": 0,
-        "Seats": 0
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["JAM"],
+        "FirstYearFeeINR": 80000,
+        "Seats": 30
+      },
+      "MCA": {
+        "DurationYears": 3,
+        "Entrance": ["NIMCET"],
+        "Seats": 30,
+        "FirstYearFeeINR": 100000
       }
     },
     "Doctoral": {
       "PhD": {
-        "Programs": 15,
+        "Programs": 8,
         "Entrance": [
           "GATE",
           "UGC-NET",
@@ -143,13 +143,13 @@
           "Interview"
         ],
         "TypicalDurationYears": "3-5",
-        "FeeINRPerYear": 60000,
-        "SeatsMoreThan": 100
+        "FeeINRPerYear": 50000,
+        "SeatsMoreThan": 50
       }
     },
     "HostelFeeINRAnnual": {
-      "Minimum": 40000,
-      "Maximum": 60000,
+      "Minimum": 50000,
+      "Maximum": 50000,
       "Note": "Approximate hostel and mess charges"
     }
   },
@@ -158,25 +158,25 @@
       "BTechBArch": {
         "Exam": "JEE Main",
         "Counseling": "JoSAA online",
-        "AdditionalTestForBArch": "Not applicable"
+        "AdditionalTestForBArch": ""
       },
       "BDes": {
-        "Exam": "Not offered",
-        "Counseling": "Not applicable"
+        "Exam": "",
+        "Counseling": ""
       }
     },
     "Postgraduate": {
       "MTechMArchMPlanMDes": {
         "Exam": "GATE",
         "Counseling": "CCMT",
-        "AdditionalProcesses": "Interview for some branches"
+        "AdditionalProcesses": "Institute procedures"
       },
       "MBA": {
-        "Exam": "CAT or MAT",
+        "Exam": "CAT",
         "AdditionalSelection": ["GD", "PI"]
       },
       "MSc": {
-        "Exam": []
+        "Exam": ["IIT JAM"]
       }
     },
     "Doctoral": {
@@ -188,19 +188,26 @@
     },
     "ForeignNational": {
       "Requirement": ["JEE Main"],
-      "AdditionalProcess": "DASA"
+      "AdditionalProcess": "International Relations Office"
     },
     "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
     "ApplicationMode": "Online through official portals"
   },
   "CutoffInformation": {
     "JEEAdvanced2025": {
-      "BTechCSEClosingAIR": 15000,
+      "BTechCSEClosingAIR": 0,
       "DataScienceAIClosingAIR": 0,
-      "ECEClosingAIR": 20000,
-      "MechEngClosingAIR": 25000,
-      "ElectEngClosingAIR": 22000,
-      "CivilEngClosingAIR": 30000
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "JEEMain2025": {
+      "BTechCSEClosingRank": 15000,
+      "ECEClosingRank": 20000,
+      "MechEngClosingRank": 25000,
+      "ElectEngClosingRank": 22000,
+      "CivilEngClosingRank": 30000
     },
     "BArchAAT2025ClosingRank": 0,
     "BDesUCEED2025ClosingRanks": {
@@ -208,8 +215,8 @@
       "OBC": 0
     },
     "JAMMSc2025Cutoffs": {
-      "Economics": [0, 0],
       "Physics": [0, 0],
+      "Chemistry": [0, 0],
       "Mathematics": [0, 0]
     },
     "CATMBA2025Cutoffs": {
@@ -217,57 +224,49 @@
       "OBCPercentile": 65,
       "SCSTPercentileMin": 55
     },
-    "AdditionalDetails": "Cutoffs vary annually and across categories with six rounds of JoSAA counselling."
+    "AdditionalDetails": "Cutoffs vary annually and across categories with multiple rounds of JoSAA counselling."
   },
   "Placements": {
     "Year2024": {
-      "TotalOffers": 700,
-      "Recruiters": 150,
-      "HighestPackageINR": 5100000,
-      "HighestDomesticPackageINR": 5100000,
-      "OverallAveragePackageINR": 1400000,
-      "CSEAveragePackageINR": 1950000,
-      "ECEAveragePackageINR": 1200000,
-      "MBA median package INR": 0,
-      "PPOs": 50,
+      "TotalOffers": 200,
+      "Recruiters": 50,
+      "HighestPackageINR": 3500000,
+      "HighestDomesticPackageINR": 3500000,
+      "OverallAveragePackageINR": 750000,
+      "CSEAveragePackageINR": 900000,
+      "ECEAveragePackageINR": 800000,
+      "MBA median package INR": 600000,
+      "PPOs": 20,
       "TopRecruiters": [
-        "Tata",
+        "Amazon",
         "Infosys",
-        "Wipro",
-        "Reliance",
         "L&T",
         "TCS",
         "Accenture",
-        "Capgemini",
+        "Wipro",
         "HCL",
         "Tech Mahindra",
-        "Microsoft",
-        "Amazon",
-        "Adobe",
-        "Oracle",
-        "Intel"
+        "Capgemini"
       ],
       "JobProfiles": [
         "Software Development Engineer",
-        "Data Scientist",
-        "Business Analyst",
+        "Data Analyst",
+        "Associate Engineer",
+        "Consultant",
         "R&D Engineer",
-        "Process Engineer",
-        "Design Engineer",
-        "Consultant"
+        "Process Engineer"
       ],
       "PlacementPreparation": [
         "Resume workshops",
         "Mock interviews",
         "Technical seminars",
-        "Industry projects",
-        "Pre-placement training"
+        "Industry projects"
       ]
     }
   },
   "Facilities": {
     "Hostels": {
-      "Number": 12,
+      "Number": 4,
       "Types": ["Boys", "Girls"],
       "Amenities": [
         "Wi-Fi",
@@ -281,32 +280,28 @@
     "Library": {
       "Name": "Central Library",
       "AreaSqFt": 0,
-      "BookCount": 150000,
-      "EJournalsCount": 10000,
+      "BookCount": 25000,
+      "EJournalsCount": 2000,
       "Features": [
         "Digital resources",
         "24/7 access",
         "Group study zones",
-        "Computer terminals",
-        "Inter-library loan",
-        "Reference assistance"
+        "Computer terminals"
       ]
     },
     "Laboratories": {
-      "Quantity": 80,
+      "Quantity": 30,
       "FocusAreas": [
-        "Data Science",
-        "Artificial Intelligence",
-        "Robotics",
-        "Materials Engineering",
-        "Renewable Energy",
-        "Manufacturing",
-        "Communications"
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "Electrical"
       ],
       "Equipment": [
         "State-of-the-art instruments",
-        "Advanced fabrication facilities",
-        "High-performance computing"
+        "Advanced computing facilities",
+        "Modern fabrication equipment"
       ]
     },
     "SportsFacilities": {
@@ -317,19 +312,16 @@
         "Basketball Courts",
         "Volleyball Courts",
         "Badminton Courts",
-        "Indoor Games",
-        "Gymnasium",
-        "Sports Complex"
+        "Indoor Gymnasium"
       ]
     },
     "Medical": {
-      "FacilityName": "NIT Kurukshetra Medical Center",
+      "FacilityName": "NIT Manipur Medical Center",
       "Services": [
         "Primary Healthcare",
         "Emergency Services",
-        "24/7 doctor and nursing services",
-        "Pharmacy",
-        "Dispensary"
+        "24/7 doctor services",
+        "Pharmacy"
       ]
     },
     "Dining": {
@@ -356,11 +348,10 @@
       "24/7 Security"
     ],
     "StudentClubs": {
-      "Number": 30,
+      "Number": 20,
       "Types": [
-        "Technical (Robotics, Coding, IEEE)",
+        "Technical (Coding, IEEE)",
         "Cultural (Music, Dance, Drama)",
-        "Film and Media",
         "Entrepreneurship",
         "Photography",
         "Quizzing"
@@ -368,32 +359,25 @@
     }
   },
   "FacultyAndDepartments": {
-    "DepartmentsCount": 12,
+    "DepartmentsCount": 7,
     "DepartmentsList": [
-      "Civil Engineering",
-      "Computer Engineering",
-      "Electrical Engineering",
-      "Electronics & Communication Engineering",
+      "Computer Science and Engineering",
+      "Electronics and Communication Engineering",
+      "Electrical and Electronics Engineering",
       "Mechanical Engineering",
-      "Production & Industrial Engineering",
-      "Information Technology",
-      "Physics",
+      "Civil Engineering",
       "Chemistry",
-      "Mathematics",
-      "Humanities and Social Sciences",
-      "Management Studies"
+      "Humanities and Social Sciences"
     ],
     "ResearchCenters": [
-      "Centre for Data Science",
-      "Centre for Artificial Intelligence",
-      "Centre for Robotics",
-      "Centre for Materials Engineering"
+      "Centre for Advanced Research",
+      "Centre for Industry Collaboration"
     ],
     "Strength": {
-      "FacultyCount": 250,
+      "FacultyCount": 80,
       "PhDs": "Majority",
-      "Patents2024": 50,
-      "ResearchFundsINR2024": 50000000
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
     },
     "Collaborations": [
       "International universities",
@@ -406,7 +390,7 @@
       "Mentoring doctoral students",
       "Industry consultancy"
     ],
-    "StudentFeedback": "Experienced and qualified faculty team with PhDs and industry experience across departments. Faculty described as friendly and approachable with strong domain expertise."
+    "StudentFeedback": "Faculty with doctoral qualifications from reputed institutes, engaged in research, teaching, and community service"
   },
   "Scholarships": {
     "MeritCumMeans": {
@@ -423,7 +407,7 @@
     },
     "OtherScholarships": [
       "SC/ST/PwD Fee Concessions",
-      "EWS Reservations",
+      "EWS Tuition Fee Waiver",
       "Income-based fee waivers",
       "Merit-cum-means scholarships",
       "GATE/NET Fellowships",
@@ -442,42 +426,40 @@
     ]
   },
   "ReviewsAndRatings": {
-    "CollegeDuniaRating": 4.5,
-    "CollegeDuniaReviewsCount": 1500,
-    "Careers360Rating": 4.6,
+    "CollegeDuniaRating": 4.2,
+    "CollegeDuniaReviewsCount": 200,
+    "Careers360Rating": 4.1,
     "Strengths": [
-      "Strong research and teaching faculty",
-      "Good placement opportunities especially in core branches",
-      "Diverse multidisciplinary academic offerings",
-      "Strong industry and alumni networks",
-      "One of the oldest NITs",
-      "Robust research output"
+      "Young but rapidly growing institute",
+      "Strong regional significance for northeast India",
+      "Focused on fostering research and innovation",
+      "Coherent blend of academics and extracurricular activities",
+      "Personalized attention from faculty",
+      "Growing placement opportunities"
     ],
     "Weaknesses": [
       "Competitive admissions",
       "Academic pressure",
-      "Some hostel maintenance concerns"
+      "Limited infrastructure compared to older NITs"
     ],
     "ReturnOnInvestment": "Good"
   },
   "StudentLifeAndLifestyle": {
-    "Demographics": "Diverse student base from across India, with provisions for foreign students through DASA",
+    "Demographics": "Diverse student base from across India",
     "CulturalTraditions": [
-      "Annual cultural festivals",
-      "Technical festivals",
-      "Inter-hostel competitions",
-      "Sports events"
+      "Technical festival traditions",
+      "Cultural festival heritage",
+      "Sports events",
+      "Inter-hostel competitions"
     ],
     "Festivals": [
-      "Annual cultural and technical festivals",
-      "Sports competitions",
-      "Cultural events"
+      "Technical Festival",
+      "Cultural Festival",
+      "Sports Festival"
     ],
     "ClubsAndSocieties": [
-      "Robotics",
       "Coding (IEEE)",
       "Science and Technology Council",
-      "Film and Media Council",
       "Cultural Council",
       "Sports Council",
       "Music & Dance",
@@ -497,40 +479,36 @@
       "Medical facilities",
       "Counseling Services"
     ],
-    "Community": "Vibrant campus culture with annual cultural and technical festivals, various student clubs, sports facilities, and hostels supporting a collaborative learning environment"
+    "Community": "Active student community with cultural fests, technical events, sports, and student clubs. Hostels and amenities contribute to a supportive environment."
   },
   "HistoricalBackground": {
-    "FoundationYear": 1963,
-    "Founder": "Government of India and Government of Haryana",
-    "InitialFocus": "Regional Engineering College to meet educational demands of northern India",
+    "FoundationYear": 2010,
+    "Founder": "Government of India",
+    "InitialFocus": "Spread technical education to northeast India",
     "Evolution": [
-      "1963: Established as REC Kurukshetra",
-      "2002: Converted to National Institute of Technology Kurukshetra",
-      "Recognized as Institute of National Importance"
+      "2010: Established as National Institute of Technology Manipur",
+      "Developed modern facilities and academic programs adhering to national standards"
     ],
-    "Legacy": "One of the oldest NITs with a strong regional and national presence, robust research and teaching faculty",
-    "Heritage": "Premier technical institute with diverse multidisciplinary academic offerings"
+    "Legacy": "Young but rapidly growing institute with strong regional significance for northeast India",
+    "Heritage": "Part of the government's plan to spread technical education to northeast India"
   },
   "ResearchAndInnovation": {
     "FocusAreas": [
-      "Data Science",
-      "Artificial Intelligence",
-      "Robotics",
-      "Materials Engineering",
-      "Clean Energy",
-      "Cyber Security",
-      "Advanced Manufacturing"
+      "Advanced Technologies",
+      "Industry Collaboration",
+      "Regional Development"
     ],
-    "PatentsFiled2024": 50,
-    "ResearchFundingINR2024": 50000000,
-    "NotableInnovations": "Active research centers with focus areas like data science, AI, robotics, materials engineering, with numerous publications and patents",
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Research initiatives involve collaborations with industries and higher education institutions focusing on advanced technologies",
     "Startups": {
-      "Number": 30,
+      "Number": 5,
       "AggregateValuationINR": 0
     },
     "Collaborations": [
       "Government ministries",
       "Private industries",
+      "Regional industries",
       "Global academic institutions"
     ],
     "WomenInResearch": {
@@ -540,47 +518,32 @@
   },
   "NewsAndUpdates": [
     {
-      "Event": "NIT Kurukshetra Admissions 2025-26",
+      "Event": "NIT Manipur Admissions 2025-26",
       "Date": "2025-09-01",
       "Details": "Admissions open for various programs"
     },
     {
-      "Event": "Annual Technical Festival",
+      "Event": "Technical Festival 2025",
       "StartDate": "2025-03-15",
       "EndDate": "2025-03-19",
       "Theme": "Technical festival"
     },
     {
-      "Event": "Annual Cultural Festival",
+      "Event": "Cultural Festival 2025",
       "StartDate": "2025-10-05",
       "EndDate": "2025-10-09",
       "Theme": "Cultural festival"
-    },
-    {
-      "Event": "JEE Main 2025",
-      "Date": "2025-01-24"
-    },
-    {
-      "RecurringEvents": [
-        "Annual Tech Fest (Annually)",
-        "Annual Cultural Fest (Annually)",
-        "Sports Fest (Annually)",
-        "Inter-NIT Sports Meet"
-      ]
     }
   ],
   "OfficialContactInfo": {
-    "Website": "https://nitkkr.ac.in",
-    "Address": "National Institute of Technology Kurukshetra, Kurukshetra, Haryana - 136119",
-    "Phone": "+91-1744-238300, +91-1744-238301",
+    "Website": "https://nitmanipur.ac.in",
+    "Address": "National Institute of Technology Manipur, Chandel Road, Takyelpat, Imphal, Manipur-795001",
+    "Phone": "+91-387-2429413",
     "Emails": {
-      "Registrar": "registrar@nitkkr.ac.in",
-      "Admissions": "admissions@nitkkr.ac.in",
-      "PlacementCell": "placement@nitkkr.ac.in"
+      "Registrar": "registrar@nitmanipur.ac.in",
+      "Admissions": "admissions@nitmanipur.ac.in",
+      "PlacementCell": "placement@nitmanipur.ac.in"
     }
   }
 }
-
-
-
 

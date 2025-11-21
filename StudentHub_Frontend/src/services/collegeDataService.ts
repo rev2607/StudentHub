@@ -570,6 +570,12 @@ export const getCollegeDataBySlug = async (slug: string): Promise<IITRoorkeeData
   if (slug === 'nit-patna' || slug === 'nitp') {
     return await loadNITPatnaData();
   }
+  if (slug === 'nit-goa') {
+    return await loadNITGoaData();
+  }
+  if (slug === 'nit-manipur') {
+    return await loadNITManipurData();
+  }
   return null;
 };
 
@@ -911,6 +917,60 @@ export const loadNITPatnaData = async (): Promise<NITPatnaData> => {
     return data as NITPatnaData;
   } catch (error) {
     console.error('Error loading NIT Patna data:', error);
+    throw error;
+  }
+};
+
+// NIT Goa uses same structure as IIT Roorkee
+export type NITGoaData = IITRoorkeeData;
+
+// Function to load NIT Goa data
+export const loadNITGoaData = async (): Promise<NITGoaData> => {
+  try {
+    const response = await fetch('/data/colleges/nit_goa.json');
+    if (!response.ok) {
+      throw new Error('Failed to load NIT Goa data');
+    }
+    const data = await response.json();
+    return data as NITGoaData;
+  } catch (error) {
+    console.error('Error loading NIT Goa data:', error);
+    throw error;
+  }
+};
+
+// NIT Manipur uses same structure as IIT Roorkee
+export type NITManipurData = IITRoorkeeData;
+
+// Function to load NIT Manipur data
+export const loadNITManipurData = async (): Promise<NITManipurData> => {
+  try {
+    const response = await fetch('/data/colleges/nit_manipur.json');
+    if (!response.ok) {
+      throw new Error('Failed to load NIT Manipur data');
+    }
+    const data = await response.json();
+    return data as NITManipurData;
+  } catch (error) {
+    console.error('Error loading NIT Manipur data:', error);
+    throw error;
+  }
+};
+
+// NIT Hamirpur uses same structure as IIT Roorkee
+export type NITHamirpurData = IITRoorkeeData;
+
+// Function to load NIT Hamirpur data
+export const loadNITHamirpurData = async (): Promise<NITHamirpurData> => {
+  try {
+    const response = await fetch('/data/colleges/nit_hamirpur.json');
+    if (!response.ok) {
+      throw new Error('Failed to load NIT Hamirpur data');
+    }
+    const data = await response.json();
+    return data as NITHamirpurData;
+  } catch (error) {
+    console.error('Error loading NIT Hamirpur data:', error);
     throw error;
   }
 };

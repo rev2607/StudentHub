@@ -569,8 +569,6 @@ const ChandigarhUniversityPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
         
-<<<<<<< Updated upstream
-=======
         {/* Summary Bullet Points */}
         <div className="mb-6">
           <ul className="space-y-2 text-gray-700">
@@ -582,7 +580,6 @@ const ChandigarhUniversityPage: React.FC = () => {
           </ul>
         </div>
         
->>>>>>> Stashed changes
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-4 bg-gray-50">
             <h4 className="font-semibold text-lg mb-3">Undergraduate Programs</h4>

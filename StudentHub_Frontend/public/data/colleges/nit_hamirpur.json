@@ -1,0 +1,455 @@
+{
+  "Name": "National Institute of Technology Hamirpur (NIT Hamirpur)",
+  "Location": {
+    "City": "Hamirpur",
+    "District": "Hamirpur",
+    "State": "Himachal Pradesh",
+    "Country": "India",
+    "Pin": "177005",
+    "CampusAreaAcres": 320,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Hamirpur, Himachal Pradesh"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1986,
+    "OriginalName": "Regional Engineering College Hamirpur",
+    "Renamed": [
+      {
+        "Year": 2002,
+        "Name": "National Institute of Technology Hamirpur"
+      }
+    ],
+    "HistoricalSignificance": "Initially founded as Regional Engineering College Hamirpur, the institute was upgraded to NIT in 2002. From humble beginnings with only two departments, it has expanded to 13 departments offering a range of UG, PG, and doctoral programs in engineering, architecture, sciences, humanities, and management."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "National Institute of Technology Hamirpur (NIT Hamirpur), established in 1986, is one of the 31 NITs in India and recognized as an Institute of National Importance. It is located in Hamirpur, Himachal Pradesh. The institute offers comprehensive programs across engineering, architecture, science, management, and humanities disciplines, fostering a culture of research, innovation, and industry collaboration.",
+    "StudentStrength": "Over 3,000 students",
+    "MajorEvents": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports events"
+    ],
+    "ResearchFocus": [
+      "Energy",
+      "Material Science",
+      "Computational Engineering",
+      "Industry partnerships"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities worldwide"
+    ],
+    "SocialInitiatives": [
+      "Community service",
+      "Rural technology initiatives",
+      "Consultancy projects"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 97,
+      "Engineering": 97,
+      "ArchitecturePlanning": 30
+    },
+    "NIRF2024": {
+      "Overall": 97,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Civil Engineering",
+          "Computer Science and Engineering",
+          "Electrical Engineering",
+          "Mechanical Engineering",
+          "Chemical Engineering",
+          "Electronics and Communication Engineering",
+          "Architecture"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA counseling"],
+        "Seats": 600,
+        "FirstYearFeeINR": 192250,
+        "TotalFeesINRApprox": 769000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["JEE Main Paper 2"],
+        "Seats": 40,
+        "FirstYearFeeINR": 192250,
+        "TotalFeesINRApprox": 961250
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 20,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CCMT"],
+        "FirstYearFeeINR": 134200,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["GATE"],
+        "SeatsVaries": true,
+        "FeeInformation": "₹2-3 Lakhs"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "MAT"],
+        "Seats": 60,
+        "FirstYearFeeINR": 70000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["JAM"],
+        "FirstYearFeeINR": 80000,
+        "Seats": 60
+      },
+      "MCA": {
+        "DurationYears": 2,
+        "Entrance": ["NIMCET"],
+        "FirstYearFeeINR": 80000,
+        "Seats": 60
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 13,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-6",
+        "FeeINRPerYear": 50000,
+        "SeatsMoreThan": 100
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 50000,
+      "Maximum": 70000,
+      "Note": "Integrated in course fee or separate nominal fees"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main/JEE Main Paper 2",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": "Drawing Test"
+      },
+      "BDes": {
+        "Exam": "Not offered",
+        "Counseling": "Not applicable"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT/MAT",
+        "AdditionalSelection": ["GD", "PI"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM"]
+      },
+      "MCA": {
+        "Exam": ["NIMCET"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 70,
+      "OBCPercentile": 60,
+      "SCSTPercentileMin": 50
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories with multiple rounds of JoSAA counselling."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 629,
+      "Recruiters": 150,
+      "HighestPackageINR": 5600000,
+      "HighestDomesticPackageINR": 5600000,
+      "OverallAveragePackageINR": 1058000,
+      "CSEAveragePackageINR": 1200000,
+      "ECEAveragePackageINR": 1000000,
+      "MBA median package INR": 700000,
+      "PPOs": 50,
+      "PlacementPercentage": 92.23,
+      "TopRecruiters": [
+        "Microsoft",
+        "Amazon",
+        "Oracle",
+        "Intel",
+        "Samsung",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL",
+        "L&T",
+        "Mahindra",
+        "Maruti Suzuki"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Scientist",
+        "Business Analyst",
+        "R&D Engineer",
+        "Process Engineer",
+        "Design Engineer"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Technical seminars",
+        "Industry projects"
+      ],
+      "BranchWisePlacements": {
+        "CSE": {
+          "PlacementPercentage": 92,
+          "HighestPackageINR": 5600000,
+          "TotalOffers": 273
+        },
+        "ECE": {
+          "PlacementPercentage": 85,
+          "HighestPackageINR": 4100000,
+          "TotalOffers": 206
+        },
+        "Mechanical": {
+          "PlacementPercentage": 75,
+          "HighestPackageINR": 3000000,
+          "TotalOffers": 150
+        }
+      }
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 12,
+      "Types": ["Boys", "Girls"],
+      "BoysHostels": 8,
+      "GirlsHostels": 4,
+      "Amenities": [
+        "Wi-Fi",
+        "Badminton courts",
+        "Table tennis",
+        "Water supply",
+        "Power backup",
+        "Mess Halls",
+        "Common Study Rooms",
+        "Recreation Rooms"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "Books": "Extensive collection",
+      "DigitalResources": "E-books, journals, databases",
+      "SeatingCapacity": 0
+    },
+    "Laboratories": {
+      "Description": "State-of-the-art labs across all departments",
+      "SpecialLabs": [
+        "Computer labs",
+        "Research labs",
+        "Project labs"
+      ]
+    },
+    "Sports": {
+      "Facilities": [
+        "Sports complex",
+        "Various courts",
+        "Grounds",
+        "Indoor games facilities"
+      ]
+    },
+    "Medical": {
+      "HealthcareCenter": "Available on campus",
+      "Services": [
+        "Basic healthcare",
+        "Emergency services"
+      ]
+    },
+    "OtherFacilities": [
+      "Auditorium",
+      "Conference halls",
+      "Cafeterias",
+      "Bank and ATMs",
+      "Meditation center",
+      "Guest house",
+      "Wi-Fi campus"
+    ]
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 13,
+    "Strength": {
+      "FacultyCount": 200,
+      "PhDHolders": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Departments": [
+      "Civil Engineering",
+      "Computer Science and Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Chemical Engineering",
+      "Electronics and Communication Engineering",
+      "Architecture",
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Humanities",
+      "Management",
+      "Other departments"
+    ],
+    "ResearchCenters": [
+      "Energy",
+      "Material Science",
+      "Computational Engineering"
+    ],
+    "Collaborations": [
+      "Industry partnerships",
+      "Research collaborations"
+    ]
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Students from across India with provisions for international students",
+    "CulturalTraditions": [
+      "Cultural festivals",
+      "Technical festivals"
+    ],
+    "Festivals": [
+      "Technical fests",
+      "Cultural fests",
+      "Sports events"
+    ],
+    "ClubsAndSocieties": [
+      "Technical clubs",
+      "Cultural clubs",
+      "Sports clubs"
+    ],
+    "OutdoorActivities": [
+      "Sports",
+      "Recreational activities"
+    ],
+    "StudentGovernance": "Active student participation",
+    "WellbeingFacilities": [
+      "Healthcare center",
+      "Recreation facilities"
+    ],
+    "Community": "Multicultural environment"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1986,
+    "Founder": "Government of India",
+    "InitialFocus": "Engineering education",
+    "Evolution": [
+      "Started as Regional Engineering College Hamirpur",
+      "Upgraded to NIT in 2002",
+      "Expanded from 2 to 13 departments"
+    ],
+    "Legacy": "One of the 31 NITs in India, recognized as Institute of National Importance",
+    "Heritage": "Green campus with modern facilities"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Energy",
+      "Material Science",
+      "Computational Engineering"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Cutting-edge research and innovation with frequent industry partnerships",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Industry partnerships",
+      "Research collaborations"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": false
+    }
+  },
+  "NewsAndUpdates": [],
+  "OfficialContactInfo": {
+    "Website": "https://nith.ac.in",
+    "Address": "National Institute of Technology Hamirpur, Hamirpur, Himachal Pradesh - 177005",
+    "Phone": "+91-1972-223000",
+    "Emails": {
+      "Registrar": "registrar@nith.ac.in",
+      "Admissions": "admissions@nith.ac.in",
+      "PlacementCell": "placement@nith.ac.in"
+    }
+  }
+}
+

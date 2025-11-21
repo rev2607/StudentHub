@@ -1,68 +1,63 @@
 {
-  "Name": "National Institute of Technology Kurukshetra (NIT Kurukshetra)",
+  "Name": "National Institute of Technology Goa",
   "Location": {
-    "City": "Kurukshetra",
-    "District": "Kurukshetra",
-    "State": "Haryana",
+    "City": "Ponda",
+    "District": "South Goa",
+    "State": "Goa",
     "Country": "India",
-    "Pin": "136119",
-    "CampusAreaAcres": 300,
+    "Pin": "403401",
+    "CampusAreaAcres": 250,
     "Branches": [
       {
         "Name": "Main Campus",
-        "Location": "Kurukshetra, Haryana"
+        "Location": "Menezes Braganza Road, Ponda, Goa"
       }
     ]
   },
   "Established": {
-    "Year": 1963,
-    "OriginalName": "Regional Engineering College Kurukshetra",
-    "Renamed": [
-      {
-        "Year": 2002,
-        "Name": "National Institute of Technology Kurukshetra"
-      }
-    ],
-    "HistoricalSignificance": "Established in 1963 as a Regional Engineering College and converted to an NIT in 2002. Located in Kurukshetra, Haryana and recognized as an Institute of National Importance. One of the oldest NITs with a strong regional and national presence."
+    "Year": 2010,
+    "OriginalName": "National Institute of Technology Goa",
+    "Renamed": [],
+    "HistoricalSignificance": "Established in 2010 as part of the government's initiative to spread technical education in western India. Over the years, it has quickly developed modern infrastructure, diverse academic programs, and strong collaborations with industry and academia."
   },
   "UniversityType": [
     "Public Technical University",
     "Institute of National Importance"
   ],
   "About": {
-    "Overview": "National Institute of Technology Kurukshetra (NIT Kurukshetra) is a premier technical institute established in 1963 as a Regional Engineering College and converted to an NIT in 2002. It is located in Kurukshetra, Haryana and recognized as an Institute of National Importance.",
-    "StudentStrength": "Over 5,000 students including international nationals",
+    "Overview": "NIT Goa (National Institute of Technology Goa), established in 2010, is a prominent technical institute situated in Ponda, Goa. It is one of India's 31 National Institutes of Technology, recognized for its focus on research, innovation, and industry-oriented education. The institute aims to be a leading center of technical education that fosters innovation, entrepreneurship, and sustainable development, contributing to regional and national progress.",
+    "StudentStrength": "Over 1,500 students with 150+ faculty members",
     "MajorEvents": [
-      "Annual cultural and technical festivals",
-      "Various student clubs and activities",
-      "Sports facilities and competitions"
+      "Technical festivals",
+      "Cultural events",
+      "Sports competitions"
     ],
     "ResearchFocus": [
-      "Data Science",
-      "Artificial Intelligence",
-      "Robotics",
-      "Materials Engineering",
-      "Clean Energy",
-      "Cyber Security"
+      "Renewable Energy",
+      "Material Sciences",
+      "Digital Systems",
+      "Green Energy",
+      "Sustainable Engineering"
     ],
     "StartupsValuationINR": 0,
     "GlobalCollaborations": [
-      "International universities worldwide"
+      "International universities",
+      "Industry partners"
     ],
     "SocialInitiatives": [
-      "Outreach programs for rural development",
-      "Environmental sustainability",
-      "Technology-based social initiatives"
+      "Rural technology outreach",
+      "CSR collaborations",
+      "Sustainability projects"
     ]
   },
   "Rankings": {
     "NIRF2025": {
-      "Overall": 81,
-      "Engineering": 81,
+      "Overall": 95,
+      "Engineering": 75,
       "ArchitecturePlanning": 0
     },
     "NIRF2024": {
-      "Overall": 81,
+      "Overall": 100,
       "Innovation": 0
     },
     "QSWorld2026": 0,
@@ -75,19 +70,17 @@
     "Undergraduate": {
       "BTech": {
         "Branches": [
-          "Civil Engineering",
-          "Computer Engineering",
-          "Electrical Engineering",
-          "Electronics & Communication Engineering",
+          "Computer Science and Engineering",
+          "Electronics and Communication Engineering",
+          "Electrical and Electronics Engineering",
           "Mechanical Engineering",
-          "Production & Industrial Engineering",
-          "Information Technology"
+          "Civil Engineering"
         ],
         "DurationYears": 4,
         "Entrance": ["JEE Main", "JoSAA counseling"],
-        "Seats": 1100,
-        "FirstYearFeeINR": 125000,
-        "TotalFeesINRApprox": 500000
+        "Seats": 210,
+        "FirstYearFeeINR": 137250,
+        "TotalFeesINRApprox": 549000
       },
       "BArch": {
         "DurationYears": 0,
@@ -106,10 +99,10 @@
     },
     "Postgraduate": {
       "MTech": {
-        "Specializations": 22,
+        "Specializations": 8,
         "DurationYears": 2,
         "Entrance": ["GATE", "CCMT"],
-        "FirstYearFeeINR": 65000,
+        "FirstYearFeeINR": 125000,
         "SeatsVaries": true
       },
       "MArchMPlanMDes": {
@@ -119,10 +112,10 @@
         "FeeInformation": "Not offered"
       },
       "MBA": {
-        "DurationYears": 2,
-        "Entrance": ["CAT", "MAT"],
-        "Seats": 60,
-        "FirstYearFeeINR": 140000
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0
       },
       "MSc": {
         "Disciplines": [],
@@ -134,7 +127,7 @@
     },
     "Doctoral": {
       "PhD": {
-        "Programs": 15,
+        "Programs": 5,
         "Entrance": [
           "GATE",
           "UGC-NET",
@@ -142,15 +135,15 @@
           "Written test",
           "Interview"
         ],
-        "TypicalDurationYears": "3-5",
-        "FeeINRPerYear": 60000,
-        "SeatsMoreThan": 100
+        "TypicalDurationYears": "3-6",
+        "FeeINRPerYear": 45000,
+        "SeatsMoreThan": 50
       }
     },
     "HostelFeeINRAnnual": {
-      "Minimum": 40000,
-      "Maximum": 60000,
-      "Note": "Approximate hostel and mess charges"
+      "Minimum": 75000,
+      "Maximum": 75000,
+      "Note": "Approximate hostel and mess charges per year"
     }
   },
   "AdmissionProcessAndEntranceExams": {
@@ -172,8 +165,8 @@
         "AdditionalProcesses": "Interview for some branches"
       },
       "MBA": {
-        "Exam": "CAT or MAT",
-        "AdditionalSelection": ["GD", "PI"]
+        "Exam": "Not offered",
+        "AdditionalSelection": []
       },
       "MSc": {
         "Exam": []
@@ -183,12 +176,12 @@
       "PhD": {
         "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
         "Selection": "Interview and research proposal",
-        "AdditionalNotes": "Department-specific processes"
+        "AdditionalNotes": "Department-specific processes, preference to GATE or NET qualified candidates"
       }
     },
     "ForeignNational": {
       "Requirement": ["JEE Main"],
-      "AdditionalProcess": "DASA"
+      "AdditionalProcess": "International Relations Office"
     },
     "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
     "ApplicationMode": "Online through official portals"
@@ -213,61 +206,53 @@
       "Mathematics": [0, 0]
     },
     "CATMBA2025Cutoffs": {
-      "GeneralPercentile": 75,
-      "OBCPercentile": 65,
-      "SCSTPercentileMin": 55
+      "GeneralPercentile": 0,
+      "OBCPercentile": 0,
+      "SCSTPercentileMin": 0
     },
     "AdditionalDetails": "Cutoffs vary annually and across categories with six rounds of JoSAA counselling."
   },
   "Placements": {
     "Year2024": {
-      "TotalOffers": 700,
-      "Recruiters": 150,
-      "HighestPackageINR": 5100000,
-      "HighestDomesticPackageINR": 5100000,
-      "OverallAveragePackageINR": 1400000,
-      "CSEAveragePackageINR": 1950000,
-      "ECEAveragePackageINR": 1200000,
+      "TotalOffers": 180,
+      "Recruiters": 45,
+      "HighestPackageINR": 3500000,
+      "HighestDomesticPackageINR": 3500000,
+      "OverallAveragePackageINR": 1200000,
+      "CSEAveragePackageINR": 1400000,
+      "ECEAveragePackageINR": 1300000,
       "MBA median package INR": 0,
-      "PPOs": 50,
+      "PPOs": 25,
       "TopRecruiters": [
-        "Tata",
         "Infosys",
-        "Wipro",
+        "Tata Steel",
         "Reliance",
-        "L&T",
-        "TCS",
         "Accenture",
-        "Capgemini",
+        "L&T",
+        "IBM",
+        "TCS",
+        "Wipro",
         "HCL",
-        "Tech Mahindra",
-        "Microsoft",
-        "Amazon",
-        "Adobe",
-        "Oracle",
-        "Intel"
+        "Tech Mahindra"
       ],
       "JobProfiles": [
         "Software Development Engineer",
-        "Data Scientist",
-        "Business Analyst",
         "R&D Engineer",
         "Process Engineer",
-        "Design Engineer",
-        "Consultant"
+        "Consultant",
+        "Data Analyst"
       ],
       "PlacementPreparation": [
         "Resume workshops",
         "Mock interviews",
         "Technical seminars",
-        "Industry projects",
-        "Pre-placement training"
+        "Industry projects"
       ]
     }
   },
   "Facilities": {
     "Hostels": {
-      "Number": 12,
+      "Number": 4,
       "Types": ["Boys", "Girls"],
       "Amenities": [
         "Wi-Fi",
@@ -281,32 +266,29 @@
     "Library": {
       "Name": "Central Library",
       "AreaSqFt": 0,
-      "BookCount": 150000,
-      "EJournalsCount": 10000,
+      "BookCount": 25000,
+      "EJournalsCount": 5000,
       "Features": [
         "Digital resources",
         "24/7 access",
         "Group study zones",
         "Computer terminals",
-        "Inter-library loan",
-        "Reference assistance"
+        "E-resources"
       ]
     },
     "Laboratories": {
-      "Quantity": 80,
+      "Quantity": 30,
       "FocusAreas": [
-        "Data Science",
-        "Artificial Intelligence",
-        "Robotics",
-        "Materials Engineering",
         "Renewable Energy",
-        "Manufacturing",
-        "Communications"
+        "Material Sciences",
+        "Digital Systems",
+        "VLSI Design",
+        "Communication Systems"
       ],
       "Equipment": [
         "State-of-the-art instruments",
         "Advanced fabrication facilities",
-        "High-performance computing"
+        "Computing facilities"
       ]
     },
     "SportsFacilities": {
@@ -317,19 +299,17 @@
         "Basketball Courts",
         "Volleyball Courts",
         "Badminton Courts",
-        "Indoor Games",
-        "Gymnasium",
-        "Sports Complex"
+        "Indoor Gymnasium"
       ]
     },
     "Medical": {
-      "FacilityName": "NIT Kurukshetra Medical Center",
+      "FacilityName": "NIT Goa Medical Center",
       "Services": [
         "Primary Healthcare",
         "Emergency Services",
         "24/7 doctor and nursing services",
         "Pharmacy",
-        "Dispensary"
+        "Ambulance"
       ]
     },
     "Dining": {
@@ -349,18 +329,15 @@
       "Conference Halls",
       "Guest Houses",
       "Banks and ATMs",
-      "Post Office",
       "Shopping Complex",
-      "Places of Worship",
       "Parking",
       "24/7 Security"
     ],
     "StudentClubs": {
-      "Number": 30,
+      "Number": 20,
       "Types": [
         "Technical (Robotics, Coding, IEEE)",
         "Cultural (Music, Dance, Drama)",
-        "Film and Media",
         "Entrepreneurship",
         "Photography",
         "Quizzing"
@@ -368,32 +345,24 @@
     }
   },
   "FacultyAndDepartments": {
-    "DepartmentsCount": 12,
+    "DepartmentsCount": 5,
     "DepartmentsList": [
-      "Civil Engineering",
-      "Computer Engineering",
-      "Electrical Engineering",
-      "Electronics & Communication Engineering",
+      "Computer Science and Engineering",
+      "Electronics and Communication Engineering",
+      "Electrical and Electronics Engineering",
       "Mechanical Engineering",
-      "Production & Industrial Engineering",
-      "Information Technology",
-      "Physics",
-      "Chemistry",
-      "Mathematics",
-      "Humanities and Social Sciences",
-      "Management Studies"
+      "Civil Engineering"
     ],
     "ResearchCenters": [
-      "Centre for Data Science",
-      "Centre for Artificial Intelligence",
-      "Centre for Robotics",
-      "Centre for Materials Engineering"
+      "Centre for Renewable Energy",
+      "Centre for Material Sciences",
+      "Centre for Digital Systems"
     ],
     "Strength": {
-      "FacultyCount": 250,
+      "FacultyCount": 150,
       "PhDs": "Majority",
-      "Patents2024": 50,
-      "ResearchFundsINR2024": 50000000
+      "Patents2024": 5,
+      "ResearchFundsINR2024": 5000000
     },
     "Collaborations": [
       "International universities",
@@ -406,7 +375,7 @@
       "Mentoring doctoral students",
       "Industry consultancy"
     ],
-    "StudentFeedback": "Experienced and qualified faculty team with PhDs and industry experience across departments. Faculty described as friendly and approachable with strong domain expertise."
+    "StudentFeedback": "Highly knowledgeable faculty, excellent industry connections, good research opportunities"
   },
   "Scholarships": {
     "MeritCumMeans": {
@@ -423,7 +392,6 @@
     },
     "OtherScholarships": [
       "SC/ST/PwD Fee Concessions",
-      "EWS Reservations",
       "Income-based fee waivers",
       "Merit-cum-means scholarships",
       "GATE/NET Fellowships",
@@ -442,53 +410,52 @@
     ]
   },
   "ReviewsAndRatings": {
-    "CollegeDuniaRating": 4.5,
-    "CollegeDuniaReviewsCount": 1500,
-    "Careers360Rating": 4.6,
+    "CollegeDuniaRating": 4.2,
+    "CollegeDuniaReviewsCount": 500,
+    "Careers360Rating": 4.3,
     "Strengths": [
-      "Strong research and teaching faculty",
-      "Good placement opportunities especially in core branches",
-      "Diverse multidisciplinary academic offerings",
-      "Strong industry and alumni networks",
-      "One of the oldest NITs",
-      "Robust research output"
+      "Scenic location in Goa",
+      "Modern infrastructure",
+      "Good placements",
+      "Strong industry linkages",
+      "Focus on sustainability",
+      "Research opportunities"
     ],
     "Weaknesses": [
-      "Competitive admissions",
-      "Academic pressure",
-      "Some hostel maintenance concerns"
+      "Newer institute",
+      "Limited course offerings",
+      "Growing phase"
     ],
     "ReturnOnInvestment": "Good"
   },
   "StudentLifeAndLifestyle": {
-    "Demographics": "Diverse student base from across India, with provisions for foreign students through DASA",
+    "Demographics": "Diverse student base from across India and international scholars",
     "CulturalTraditions": [
-      "Annual cultural festivals",
-      "Technical festivals",
-      "Inter-hostel competitions",
-      "Sports events"
+      "Cultural festivals",
+      "Technical events",
+      "Sports competitions",
+      "Inter-hostel competitions"
     ],
     "Festivals": [
-      "Annual cultural and technical festivals",
-      "Sports competitions",
-      "Cultural events"
+      "Technical festivals",
+      "Cultural events",
+      "Sports festivals"
     ],
     "ClubsAndSocieties": [
       "Robotics",
       "Coding (IEEE)",
       "Science and Technology Council",
-      "Film and Media Council",
       "Cultural Council",
       "Sports Council",
       "Music & Dance",
-      "Drama",
       "Photography",
       "Quizzing"
     ],
     "OutdoorActivities": [
-      "Sports activities",
+      "Beach activities",
+      "Temple visits",
       "Cultural exploration",
-      "Community engagement"
+      "Sports activities"
     ],
     "StudentGovernance": "Student Councils and representative bodies",
     "WellbeingFacilities": [
@@ -497,35 +464,33 @@
       "Medical facilities",
       "Counseling Services"
     ],
-    "Community": "Vibrant campus culture with annual cultural and technical festivals, various student clubs, sports facilities, and hostels supporting a collaborative learning environment"
+    "Community": "Vibrant campus life with active student participation"
   },
   "HistoricalBackground": {
-    "FoundationYear": 1963,
-    "Founder": "Government of India and Government of Haryana",
-    "InitialFocus": "Regional Engineering College to meet educational demands of northern India",
+    "FoundationYear": 2010,
+    "Founder": "Government of India",
+    "InitialFocus": "Spread technical education in western India",
     "Evolution": [
-      "1963: Established as REC Kurukshetra",
-      "2002: Converted to National Institute of Technology Kurukshetra",
-      "Recognized as Institute of National Importance"
+      "2010: Established as NIT Goa",
+      "2010: Inaugurated as part of government initiative",
+      "Ongoing: Rapid development of infrastructure and programs"
     ],
-    "Legacy": "One of the oldest NITs with a strong regional and national presence, robust research and teaching faculty",
-    "Heritage": "Premier technical institute with diverse multidisciplinary academic offerings"
+    "Legacy": "Prominent technical institute with focus on research, innovation, and industry-oriented education",
+    "Heritage": "250-acre scenic campus in Goa, established to foster innovation and sustainable development"
   },
   "ResearchAndInnovation": {
     "FocusAreas": [
-      "Data Science",
-      "Artificial Intelligence",
-      "Robotics",
-      "Materials Engineering",
-      "Clean Energy",
-      "Cyber Security",
-      "Advanced Manufacturing"
+      "Renewable Energy",
+      "Material Sciences",
+      "Digital Systems",
+      "Green Energy",
+      "Sustainable Engineering"
     ],
-    "PatentsFiled2024": 50,
-    "ResearchFundingINR2024": 50000000,
-    "NotableInnovations": "Active research centers with focus areas like data science, AI, robotics, materials engineering, with numerous publications and patents",
+    "PatentsFiled2024": 5,
+    "ResearchFundingINR2024": 5000000,
+    "NotableInnovations": "Centers of excellence in renewable energy, material sciences, and digital systems",
     "Startups": {
-      "Number": 30,
+      "Number": 10,
       "AggregateValuationINR": 0
     },
     "Collaborations": [
@@ -540,21 +505,21 @@
   },
   "NewsAndUpdates": [
     {
-      "Event": "NIT Kurukshetra Admissions 2025-26",
+      "Event": "NIT Goa Admissions 2025-26",
       "Date": "2025-09-01",
       "Details": "Admissions open for various programs"
     },
     {
-      "Event": "Annual Technical Festival",
+      "Event": "Technical Festival 2025",
       "StartDate": "2025-03-15",
-      "EndDate": "2025-03-19",
-      "Theme": "Technical festival"
+      "EndDate": "2025-03-17",
+      "Theme": "Innovation and Technology"
     },
     {
-      "Event": "Annual Cultural Festival",
+      "Event": "Cultural Festival 2025",
       "StartDate": "2025-10-05",
-      "EndDate": "2025-10-09",
-      "Theme": "Cultural festival"
+      "EndDate": "2025-10-07",
+      "Theme": "Cultural diversity"
     },
     {
       "Event": "JEE Main 2025",
@@ -562,25 +527,23 @@
     },
     {
       "RecurringEvents": [
-        "Annual Tech Fest (Annually)",
-        "Annual Cultural Fest (Annually)",
+        "Technical Fest (Annually)",
+        "Cultural Fest (Annually)",
         "Sports Fest (Annually)",
         "Inter-NIT Sports Meet"
       ]
     }
   ],
   "OfficialContactInfo": {
-    "Website": "https://nitkkr.ac.in",
-    "Address": "National Institute of Technology Kurukshetra, Kurukshetra, Haryana - 136119",
-    "Phone": "+91-1744-238300, +91-1744-238301",
+    "Website": "https://nitgoa.ac.in",
+    "Address": "Menezes Braganza Road, Ponda, Goa, India",
+    "Phone": "+91-832-2298200",
     "Emails": {
-      "Registrar": "registrar@nitkkr.ac.in",
-      "Admissions": "admissions@nitkkr.ac.in",
-      "PlacementCell": "placement@nitkkr.ac.in"
+      "Registrar": "registrar@nitgoa.ac.in",
+      "Admissions": "info@nitgoa.ac.in",
+      "PlacementCell": "placement@nitgoa.ac.in"
     }
   }
 }
-
-
 
 

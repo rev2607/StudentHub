@@ -1,0 +1,164 @@
+{
+  "College Name": "NIT Hamirpur",
+  "Overview": {
+    "Introduction": "National Institute of Technology Hamirpur (NIT Hamirpur), established in 1986, is one of the 31 NITs in India and recognized as an Institute of National Importance. It is located in Hamirpur, Himachal Pradesh.",[1][2]
+    "Historical Narrative": "Initially founded as Regional Engineering College Hamirpur, the institute was upgraded to NIT in 2002. From humble beginnings with only two departments, it has expanded to 13 departments offering a range of UG, PG, and doctoral programs in engineering, architecture, sciences, humanities, and management.",[3][2]
+    "Vision and Mission": "To excel in education, research, and innovation that contribute to technological advancement and societal development in a sustainable and ethical manner.",[4]
+    "Academic Structure": "Offers B.Tech in multiple engineering branches, M.Tech specializations, MBA, MCA, M.Sc, and Ph.D programs. Emphasis on practical learning, research, and interdisciplinary collaboration.",[5]
+    "Student Life": "Vibrant campus life with numerous cultural, technical fests, sports, and clubs. Hostels provide comfortable living surrounded by nature's beauty.",[6][7]
+    "Diversity": "Welcomes students from across India with provisions for international students fostering a multicultural environment.",
+    "Research and Innovation": "Centers of excellence in energy, material science and computational engineering drive cutting-edge research and innovation with frequent industry partnerships.",[2][8]
+    "Community Engagement": "Active in community service, rural technology initiatives, and consultancy projects reinforcing social accountability.",
+    "Governance": "Managed by Director, Senate, and Boards overseeing academics, administration, finance, and student welfare.",[2]
+    "Unique Features": [
+      "Ranked among top 100 engineering institutes by NIRF",
+      "Diverse academic programs including architecture and management",
+      "Green campus with modern facilities",
+      "Strong placement and alumni network"
+    ],
+    "Narrative Flow": [
+      "Founding and growth trajectory",
+      "Robust academic and research framework",
+      "Student engagement and campus culture",
+      "Community initiatives and governance"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      {
+        "Undergraduate": [
+          "B.Tech in 11 branches such as Civil, CSE, Electrical, Mechanical, Chemical, Architecture, and more"
+        ],
+        "Postgraduate": [
+          "M.Tech in 20+ specializations",
+          "MBA",
+          "MCA",
+          "M.Sc",
+          "Ph.D."
+        ]
+      }
+    ],
+    "Fee Structure": {
+      "B.Tech": "Approximately INR 7.69 Lakhs for the entire course",
+      "M.Tech": "Around INR 2.68 Lakhs for two years",
+      "MBA": "Approx INR 1.4 Lakhs",
+      "M.Sc": "Approx INR 1.6 Lakhs",
+      "Hostel Fee": "Integrated in course fee or separate nominal fees",
+      "Fee Table": [
+        "| Course      | Total Fee (INR) | Duration |",
+        "|-------------|-----------------|----------|",
+        "| B.Tech      | 7,69,000        | 4 years  |",
+        "| M.Tech      | 2,68,400        | 2 years  |",
+        "| MBA         | 1,40,000        | 2 years  |",
+        "| M.Sc        | 1,60,000        | 2 years  |"
+      ],
+      "Scholarships": "Various scholarships available for SC/ST, economically weaker sections, and merit-based awards."[9]
+    }
+  },
+  "Admissions": {
+    "Overview": "Admissions are based on national level entrance exams with counseling. UG admissions through JEE Main and JoSAA, PG via GATE and CCMT, MBA via CAT/MAT, and M.Sc through JAM.",[10]
+    "UG Admissions": [
+      "JEE Main ranks and JoSAA counseling.",
+      "Eligibility includes 10+2 with Physics and Mathematics."
+    ],
+    "PG Admissions": [
+      "GATE for M.Tech.",
+      "CAT for MBA.",
+      "NIMCET for MCA.",
+      "JAM for M.Sc."
+    ],
+    "Ph.D Admissions": [
+      "Institute-level entrance test and interview.",
+      "Prior qualification like GATE/NET helps."
+    ],
+    "Admission Process": [
+      "Entrance exam registration",
+      "Centralized counseling",
+      "Verification and seat confirmation"
+    ]
+  },
+  "Placements": {
+    "Highlight Figures": [
+      "Placement index: 92.23% in 2024-25 session.",[11]
+      "Average package around INR 10.58 LPA.",
+      "Highest package reported INR 56 LPA.",
+      "Strong placement mainly in CSE, ECE, Mechanical and other core branches."
+    ],
+    "Placement Details": [
+      "| Branch   | Placement % | Highest Package (INR LPA) | Total Offers |",
+      "|----------|-------------|---------------------------|--------------|",
+      "| CSE      | 92          | 56                        | 273          |",
+      "| ECE      | 85          | 41                        | 206          |",
+      "| Mechanical | 75        | 30                        | 150          |"
+    ]
+  },
+  "Rankings": {
+    "NIRF 2025": {
+      "Engineering": 97,
+      "Architecture": 30
+    },
+    "Additional Notes": "Steady improvement in rankings; noted for infrastructure by World Bank."[12]
+  },
+  "Facilities": {
+    "Campus and Infrastructure": [
+      "320-acre green campus with state-of-the-art labs, libraries, IT infrastructure.",[13]
+      "Health care center, sports complex with various courts and grounds, auditorium, conference halls."
+    ],
+    "Hostels": [
+      "Eight boys and four girls hostels with amenities like badminton, table tennis, water supply, power backup."
+    ],
+    "Other Facilities": [
+      "Cafeterias, bank and ATMs, meditation center, guest house, and Wi-Fi campus."
+    ]
+  },
+  "Faculty": {
+    "Faculty Composition": [
+      "Approximately 200 qualified faculty, majority holding PhDs.",[14]
+      "Experienced in teaching and research with blend of academic and industry exposure.",
+      "Student-faculty ratio varies by department, favorable for learning and interaction."
+    ],
+    "Teaching and Research": [
+      "Focus on interactive sessions, continuous evaluation, project work, and research guidance."
+    ]
+  },
+  "Reviews": {
+    "Student Feedback": [
+      "Highly rated for academic rigor and faculty support.",[7][15]
+      "Hostel facilities and campus surroundings praised widely.",
+      "Placements strong with good industry connections.",
+      "Student life is active with clubs, tech fests, and cultural activities."
+    ]
+  },
+  "Contact": {
+    "Address": "National Institute of Technology Hamirpur, Hamirpur, Himachal Pradesh - 177005",
+    "Phone": "+91-1972-223000",
+    "Email": "registrar@nith.ac.in",
+    "Website": "https://nith.ac.in",
+    "Social Media": {
+      "Facebook": "facebook.com/nithamirpur",
+      "Twitter": "twitter.com/nithamirpur",
+      "LinkedIn": "linkedin.com/school/nit-hamirpur""
+    }
+  }
+}
+
+[1](https://nith.ac.in)
+[2](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Hamirpur)
+[3](https://www.shiksha.com/university/nit-hamirpur-national-institute-of-technology-24395)
+[4](https://nith.ac.in/nith)
+[5](https://www.careers360.com/university/national-institute-of-technology-hamirpur/courses)
+[6](https://collegedunia.com/university/25564-national-institute-of-technology-nit-hamirpur/reviews)
+[7](https://www.collegedekho.com/colleges/nit-hamirpur-reviews)
+[8](https://www.kollegeapply.com/college/nit-hamirpur-national-institute-of-technology-hamirpur-faculty)
+[9](https://www.shiksha.com/university/nit-hamirpur-national-institute-of-technology-24395/fees)
+[10](https://www.shiksha.com/university/nit-hamirpur-national-institute-of-technology-24395/admission)
+[11](https://www.upgrad.com/universities/nit-hamirpur/placements/)
+[12](https://collegedunia.com/university/25564-national-institute-of-technology-nit-hamirpur/ranking)
+[13](https://www.shiksha.com/university/nit-hamirpur-national-institute-of-technology-24395/infrastructure)
+[14](https://collegedunia.com/university/25564-national-institute-of-technology-nit-hamirpur/faculty)
+[15](https://www.shiksha.com/university/nit-hamirpur-national-institute-of-technology-24395/reviews)
+[16](https://www.collegepravesh.com/engineering-colleges/nit-hamirpur/)
+[17](https://www.careers360.com/university/national-institute-of-technology-hamirpur/admission)
+[18](https://www.shiksha.com/university/nit-hamirpur-national-institute-of-technology-24395/placement)
+[19](https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html)
+[20](https://www.pagalguy.com/colleges/national-institute-of-technology-nit-hamirpur/campus-facilities)

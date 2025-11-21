@@ -564,28 +564,37 @@ const KalasalingamAcademyPage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">About {collegeData.Name}</h3>
         <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
         
-<<<<<<< Updated upstream
-=======
         {/* Summary Bullet Points */}
         <div className="mb-6">
           <p className="text-gray-700 mb-3">
             <strong>{collegeData.Name} offers programs at UG, PG, and Doctorate levels across Engineering, Science, Management, Law, and other disciplines.</strong> Available degrees include B.Tech, M.Tech, Ph.D, M.Sc, MBA. Popular courses are B.Tech, M.Tech, and Ph.D.
           </p>
           <ul className="space-y-2 text-gray-700">
-            <li>• <strong>{collegeData.Name} B.Tech Fees is {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.TotalFeesINRApprox)} for the entire {collegeData.CoursesAndFees.Undergraduate.BTech.DurationYears} years duration.</strong> Popular specializations: {collegeData.CoursesAndFees.Undergraduate.BTech.Branches.slice(0, 3).join(", ")}.</li>
-            <li>• <strong>{collegeData.Name} M.Tech Fees is {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MTech.FirstYearFeeINR * collegeData.CoursesAndFees.Postgraduate.MTech.DurationYears)} for the entire {collegeData.CoursesAndFees.Postgraduate.MTech.DurationYears} years duration.</strong> {collegeData.CoursesAndFees.Postgraduate.MTech.Specializations} specializations available.</li>
-            <li>• <strong>{collegeData.Name} MBA Fees is {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MBA.FirstYearFeeINR * collegeData.CoursesAndFees.Postgraduate.MBA.DurationYears)} for the entire {collegeData.CoursesAndFees.Postgraduate.MBA.DurationYears} years duration.</strong></li>
-            <li>• <strong>{collegeData.Name} Ph.D Fees is {formatCurrency(collegeData.CoursesAndFees.Doctoral.PhD.FeeINRPerYear)} per year.</strong> Typical duration: {collegeData.CoursesAndFees.Doctoral.PhD.TypicalDurationYears} years.</li>
+            <li>
+              • <strong>{collegeData.Name} B.Tech Fees is {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.TotalFeesINRApprox)} for the entire {collegeData.CoursesAndFees.Undergraduate.BTech.DurationYears} years duration.</strong> Popular specializations: {collegeData.CoursesAndFees.Undergraduate.BTech.Branches.slice(0, 3).join(", ")}.
+            </li>
+            <li>
+              • <strong>{collegeData.Name} M.Tech Fees is {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MTech.FirstYearFeeINR * collegeData.CoursesAndFees.Postgraduate.MTech.DurationYears)} for the entire {collegeData.CoursesAndFees.Postgraduate.MTech.DurationYears} years duration.</strong> {collegeData.CoursesAndFees.Postgraduate.MTech.Specializations} specializations available.
+            </li>
+            <li>
+              • <strong>{collegeData.Name} MBA Fees is {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MBA.FirstYearFeeINR * collegeData.CoursesAndFees.Postgraduate.MBA.DurationYears)} for the entire {collegeData.CoursesAndFees.Postgraduate.MBA.DurationYears} years duration.</strong>
+            </li>
+            <li>
+              • <strong>{collegeData.Name} Ph.D Fees is {formatCurrency(collegeData.CoursesAndFees.Doctoral.PhD.FeeINRPerYear)} per year.</strong> Typical duration: {collegeData.CoursesAndFees.Doctoral.PhD.TypicalDurationYears} years.
+            </li>
             {collegeData.CoursesAndFees.HostelFeeINRAnnual.Minimum > 0 && (
-              <li>• <strong>{collegeData.Name} Hostel Fee is {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Minimum)} to {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Maximum)} annually.</strong></li>
+              <li>
+                • <strong>{collegeData.Name} Hostel Fee is {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Minimum)} to {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Maximum)} annually.</strong>
+              </li>
             )}
             {collegeData.CoursesAndFees.HostelFeeINRAnnual.Note && (
-              <li>• <strong>Hostel:</strong> {collegeData.CoursesAndFees.HostelFeeINRAnnual.Note}</li>
+              <li>
+                • <strong>Hostel:</strong> {collegeData.CoursesAndFees.HostelFeeINRAnnual.Note}
+              </li>
             )}
           </ul>
         </div>
         
->>>>>>> Stashed changes
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Established" value={collegeData.Established.Year} />
           <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2025.Overall} />
@@ -607,8 +616,6 @@ const KalasalingamAcademyPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
         
-<<<<<<< Updated upstream
-=======
         {/* Summary Bullet Points */}
         <div className="mb-6">
           <ul className="space-y-2 text-gray-700">
@@ -620,7 +627,6 @@ const KalasalingamAcademyPage: React.FC = () => {
           </ul>
         </div>
         
->>>>>>> Stashed changes
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-4 bg-gray-50">
             <h4 className="font-semibold text-lg mb-3">Undergraduate Programs</h4>
@@ -2893,7 +2899,7 @@ const KalasalingamAcademyPage: React.FC = () => {
             <Download className="w-5 h-5 mr-2" />
             Download Brochure
           </button>
-          <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             <Mail className="w-5 h-5 mr-2" />
             Apply Now
           </button>
@@ -3010,7 +3016,7 @@ const KalasalingamAcademyPage: React.FC = () => {
                 <Download className="w-5 h-5 mr-2" />
                 Download Brochure
               </button>
-              <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                 <Mail className="w-5 h-5 mr-2" />
                 Apply Now
               </button>
@@ -3144,10 +3150,5 @@ const KalasalingamAcademyPage: React.FC = () => {
     </div>
   );
 };
-
-  const openApplyForm = () => {
-    setIsLeadModalOpen(true);
-    try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'apply_now_click', page: 'kalasalingam_academy' } })); } catch {}
-  };
 
 export default KalasalingamAcademyPage;
