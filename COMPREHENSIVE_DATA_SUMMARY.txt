@@ -552,5 +552,10 @@ Perfect for decision-making! 📄✨
 
 
 
+<<<<<<< Updated upstream
+
+
+=======
+>>>>>>> Stashed changes
 
 

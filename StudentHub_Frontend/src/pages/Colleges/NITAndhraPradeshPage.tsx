@@ -34,5 +34,3 @@ const NITAndhraPradeshPage: React.FC = () => {
 export default NITAndhraPradeshPage;
 
 
-
-

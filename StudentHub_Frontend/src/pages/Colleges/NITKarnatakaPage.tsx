@@ -34,5 +34,3 @@ const NITKarnatakaPage: React.FC = () => {
 export default NITKarnatakaPage;
 
 
-
-

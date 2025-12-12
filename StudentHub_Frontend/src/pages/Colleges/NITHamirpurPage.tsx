@@ -158,6 +158,11 @@ const NITHamirpurPage: React.FC = () => {
     }
   };
 
+  const openApplyForm = () => {
+    setIsLeadModalOpen(true);
+    try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'apply_now_click', page: 'nit_hamirpur' } })); } catch {}
+  };
+
   if (loading) {
     return (
       <div className="max-w-7xl mx-auto p-4">
@@ -3081,10 +3086,5 @@ const NITHamirpurPage: React.FC = () => {
     </div>
   );
 };
-
-  const openApplyForm = () => {
-    setIsLeadModalOpen(true);
-      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'apply_now_click', page: 'nit_hamirpur' } })); } catch {}
-  };
 
 export default NITHamirpurPage;

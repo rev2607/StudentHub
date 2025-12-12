@@ -34,5 +34,3 @@ const NITSrinagarPage: React.FC = () => {
 export default NITSrinagarPage;
 
 
-
-

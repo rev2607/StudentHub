@@ -301,5 +301,10 @@ Use this same pattern for any college:
 
 
 
+<<<<<<< Updated upstream
+
+
+=======
+>>>>>>> Stashed changes
 
 

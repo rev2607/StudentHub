@@ -389,5 +389,10 @@ Check the documentation:
 
 
 
+<<<<<<< Updated upstream
+
+
+=======
+>>>>>>> Stashed changes
 
 

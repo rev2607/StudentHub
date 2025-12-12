@@ -34,5 +34,3 @@ const NITRourkelaPage: React.FC = () => {
 export default NITRourkelaPage;
 
 
-
-

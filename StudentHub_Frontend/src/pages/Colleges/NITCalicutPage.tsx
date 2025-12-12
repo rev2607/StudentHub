@@ -29,7 +29,7 @@ const Tab: React.FC<TabProps> = ({ label, isActive, onClick }) => (
     onClick={onClick}
     className={`px-4 py-2 text-sm font-medium transition-colors ${
       isActive
-        ? "text-blue-600 border-b-2 border-blue-600"
+        ? "text-blue-600"
         : "text-gray-500 hover:text-gray-700"
     }`}
   >
@@ -903,7 +903,7 @@ const NITCalicutPage: React.FC = () => {
                 <h5 className="font-medium">Major Festivals</h5>
                 <div className="text-sm text-gray-700 space-y-1">
                   {collegeData.StudentLifeAndLifestyle.Festivals.map((festival: string, index: number) => (
-                    <div key={index}>â€¢ {festival}</div>
+                    <div key={index}>• {festival}</div>
                   ))}
                 </div>
               </div>
@@ -911,7 +911,7 @@ const NITCalicutPage: React.FC = () => {
                 <h5 className="font-medium">Cultural Traditions</h5>
                 <div className="text-sm text-gray-700 space-y-1">
                   {collegeData.StudentLifeAndLifestyle.CulturalTraditions.map((tradition: string, index: number) => (
-                    <div key={index}>â€¢ {tradition}</div>
+                    <div key={index}>• {tradition}</div>
                   ))}
                 </div>
               </div>
@@ -931,7 +931,7 @@ const NITCalicutPage: React.FC = () => {
                 <h5 className="font-medium">Key Clubs</h5>
                 <div className="text-sm text-gray-700 space-y-1">
                   {collegeData.StudentLifeAndLifestyle.ClubsAndSocieties.slice(0, 4).map((club: string, index: number) => (
-                    <div key={index}>â€¢ {club}</div>
+                    <div key={index}>• {club}</div>
                   ))}
                 </div>
               </div>
@@ -2932,8 +2932,12 @@ const NITCalicutPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
-                <div className="w-32 h-32 rounded-lg flex items-center justify-center bg-gray-100 border border-gray-200">
-                  <div className="w-full h-full flex items-center justify-center text-gray-600 text-xs font-medium text-center p-2">NIT<br/>Calicut</div>
+                <div className="w-32 h-32 rounded-lg flex items-center justify-center">
+                  <img 
+                    src="/data/colleges/IIT_Roorkee_Logo.svg" 
+                    alt="NIT Calicut Logo" 
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 <div>
                   <h1 className="text-xl font-semibold text-gray-900 mb-2">

@@ -239,5 +239,10 @@ To verify everything works:
 
 
 
+<<<<<<< Updated upstream
+
+
+=======
+>>>>>>> Stashed changes
 
 

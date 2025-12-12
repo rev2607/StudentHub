@@ -34,5 +34,3 @@ const NITMizoramPage: React.FC = () => {
 export default NITMizoramPage;
 
 
-
-

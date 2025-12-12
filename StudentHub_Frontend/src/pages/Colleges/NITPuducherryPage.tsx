@@ -34,5 +34,3 @@ const NITPuducherryPage: React.FC = () => {
 export default NITPuducherryPage;
 
 
-
-

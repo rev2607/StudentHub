@@ -2946,18 +2946,11 @@ const NITKurukshetraPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
-                <div className="w-32 h-32 rounded-full flex items-center justify-center bg-gray-100 border-4 border-blue-600">
+                <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/nit-kurukshetra-logo.png" 
+                    src="/data/colleges/IIT_Roorkee_Logo.svg" 
                     alt="NIT Kurukshetra Logo" 
-                    className="w-24 h-24 object-contain"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = 'none';
-                      if (target.parentElement) {
-                        target.parentElement.innerHTML = '<div class="text-2xl font-bold text-blue-600">NIT<br/>KKR</div>';
-                      }
-                    }}
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <div>
@@ -2997,16 +2990,14 @@ const NITKurukshetraPage: React.FC = () => {
 
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
-                  NIRF Rank #{collegeData.Rankings.NIRF2025.Overall}
+                  NIRF Rank #{collegeData.Rankings.NIRF2025.Overall || 'N/A'}
                 </span>
                 <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
-                  Engineering Rank #{collegeData.Rankings.NIRF2025.Engineering}
+                  Engineering Rank #{collegeData.Rankings.NIRF2025.Engineering || 'N/A'}
                 </span>
-                {collegeData.Rankings.NIRF2025.ArchitecturePlanning > 0 && (
-                  <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">
-                    Architecture Rank #{collegeData.Rankings.NIRF2025.ArchitecturePlanning}
-                  </span>
-                )}
+                <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">
+                  Architecture Rank #{collegeData.Rankings.NIRF2025.ArchitecturePlanning || 'N/A'}
+                </span>
                 {/* Quick facts chips */}
                 <span className="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full">
                   {collegeData.About.StudentStrength}+ Students

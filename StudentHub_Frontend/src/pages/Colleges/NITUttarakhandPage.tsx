@@ -34,5 +34,3 @@ const NITUttarakhandPage: React.FC = () => {
 export default NITUttarakhandPage;
 
 
-
-

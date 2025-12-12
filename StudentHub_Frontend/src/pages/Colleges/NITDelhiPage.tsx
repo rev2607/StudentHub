@@ -305,12 +305,12 @@ const NITDelhiPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Entrance Resources</h3>
         <div className="space-y-2 text-sm">
-          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://jeemain.nta.ac.in" target="_blank" rel="noopener noreferrer">
-            <span className="font-medium text-gray-900">JEE Main (UG)</span>
+          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://jeeadv.ac.in" target="_blank" rel="noopener noreferrer">
+            <span className="font-medium text-gray-900">JEE Advanced (UG)</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </a>
           <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://josaa.nic.in" target="_blank" rel="noopener noreferrer">
-            <span className="font-medium text-gray-900">JoSAA/CSAB Counseling</span>
+            <span className="font-medium text-gray-900">JoSAA Counseling</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </a>
           <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://gate.iitr.ac.in" target="_blank" rel="noopener noreferrer">
@@ -360,15 +360,15 @@ const NITDelhiPage: React.FC = () => {
         <div className="grid grid-cols-2 gap-3 text-sm">
           <div className="p-3 bg-gray-50 rounded-lg">
             <div className="text-gray-600">B.Tech CSE</div>
-            <div className="font-medium text-gray-900">Rank ~{collegeData?.CutoffInformation.JEEAdvanced2025.BTechCSEClosingAIR}</div>
+            <div className="font-medium text-gray-900">AIR {collegeData?.CutoffInformation.JEEAdvanced2025.BTechCSEClosingAIR}</div>
           </div>
           <div className="p-3 bg-gray-50 rounded-lg">
-            <div className="text-gray-600">AI & DS</div>
-            <div className="font-medium text-gray-900">Rank ~{collegeData?.CutoffInformation.JEEAdvanced2025.DataScienceAIClosingAIR}</div>
+            <div className="text-gray-600">DS & AI</div>
+            <div className="font-medium text-gray-900">AIR {collegeData?.CutoffInformation.JEEAdvanced2025.DataScienceAIClosingAIR}</div>
           </div>
           <div className="p-3 bg-gray-50 rounded-lg">
             <div className="text-gray-600">ECE</div>
-            <div className="font-medium text-gray-900">Rank ~{collegeData?.CutoffInformation.JEEAdvanced2025.ECEClosingAIR}</div>
+            <div className="font-medium text-gray-900">AIR {collegeData?.CutoffInformation.JEEAdvanced2025.ECEClosingAIR}</div>
           </div>
         </div>
       </div>
@@ -2907,9 +2907,11 @@ const NITDelhiPage: React.FC = () => {
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
-                  <div className="w-full h-full flex items-center justify-center bg-gray-100 rounded-lg border border-gray-200">
-                    <span className="text-gray-600 font-semibold text-lg">NIT Delhi</span>
-                  </div>
+                  <img 
+                    src="/data/colleges/IIT_Roorkee_Logo.svg" 
+                    alt="NIT Delhi Logo" 
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 <div>
                   <h1 className="text-xl font-semibold text-gray-900 mb-2">
@@ -2933,17 +2935,21 @@ const NITDelhiPage: React.FC = () => {
               </div>
 
               <div className="flex flex-wrap gap-2 mb-4">
-                {collegeData.Rankings.NIRF2025.Engineering > 0 && (
-                  <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
-                    Engineering Rank #{collegeData.Rankings.NIRF2025.Engineering}
-                  </span>
-                )}
+                <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
+                  NIRF Rank #{collegeData.Rankings.NIRF2025.Overall || 'N/A'}
+                </span>
+                <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
+                  Engineering Rank #{collegeData.Rankings.NIRF2025.Engineering || 'N/A'}
+                </span>
+                <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">
+                  Architecture Rank #{collegeData.Rankings.NIRF2025.ArchitecturePlanning || 'N/A'}
+                </span>
                 {/* Quick facts chips */}
                 <span className="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full">
-                  {collegeData.About.StudentStrength}
+                  {collegeData.About.StudentStrength}+ Students
                 </span>
                 <span className="bg-pink-100 text-pink-800 text-xs px-2 py-1 rounded-full">
-                  {collegeData.CoursesAndFees.Undergraduate.BTech.Seats} UG Seats
+                  {collegeData.CoursesAndFees.Undergraduate.BTech.Seats}+ UG Seats
                 </span>
               </div>
             </div>
