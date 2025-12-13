@@ -576,6 +576,18 @@ export const getCollegeDataBySlug = async (slug: string): Promise<IITRoorkeeData
   if (slug === 'nit-manipur') {
     return await loadNITManipurData();
   }
+  if (slug === 'nit-hamirpur') {
+    return await loadNITHamirpurData();
+  }
+  if (slug === 'nit-uttarakhand') {
+    return await loadNITUttarakhandData();
+  }
+  if (slug === 'nit-arunachal-pradesh') {
+    return await loadNITArunachalPradeshData();
+  }
+  if (slug === 'nit-andhra-pradesh') {
+    return await loadNITAndhraPradeshData();
+  }
   return null;
 };
 
@@ -971,6 +983,222 @@ export const loadNITHamirpurData = async (): Promise<NITHamirpurData> => {
     return data as NITHamirpurData;
   } catch (error) {
     console.error('Error loading NIT Hamirpur data:', error);
+    throw error;
+  }
+};
+
+// NIT Uttarakhand uses same structure as IIT Roorkee
+export type NITUttarakhandData = IITRoorkeeData;
+
+// Function to load NIT Uttarakhand data
+export const loadNITUttarakhandData = async (): Promise<NITUttarakhandData> => {
+  try {
+    const response = await fetch('/data/colleges/nit_uttarakhand.json');
+    if (!response.ok) {
+      throw new Error('Failed to load NIT Uttarakhand data');
+    }
+    const data = await response.json();
+    return data as NITUttarakhandData;
+  } catch (error) {
+    console.error('Error loading NIT Uttarakhand data:', error);
+    throw error;
+  }
+};
+
+// NIT Arunachal Pradesh uses same structure as IIT Roorkee
+export type NITArunachalPradeshData = IITRoorkeeData;
+
+// Function to load NIT Arunachal Pradesh data
+export const loadNITArunachalPradeshData = async (): Promise<NITArunachalPradeshData> => {
+  try {
+    const response = await fetch('/data/colleges/nit_arunachal_pradesh.json');
+    if (!response.ok) {
+      throw new Error('Failed to load NIT Arunachal Pradesh data');
+    }
+    const data = await response.json();
+    return data as NITArunachalPradeshData;
+  } catch (error) {
+    console.error('Error loading NIT Arunachal Pradesh data:', error);
+    throw error;
+  }
+};
+
+// NIT Andhra Pradesh uses same structure as IIT Roorkee
+export type NITAndhraPradeshData = IITRoorkeeData;
+
+// Function to load NIT Andhra Pradesh data
+export const loadNITAndhraPradeshData = async (): Promise<NITAndhraPradeshData> => {
+  try {
+    const response = await fetch('/data/colleges/nit_andhra_pradesh.json');
+    if (!response.ok) {
+      throw new Error('Failed to load NIT Andhra Pradesh data');
+    }
+    const data = await response.json();
+    return data as NITAndhraPradeshData;
+  } catch (error) {
+    console.error('Error loading NIT Andhra Pradesh data:', error);
+    throw error;
+  }
+};
+
+// NIT Sikkim uses same structure as IIT Roorkee
+export type NITSikkimData = IITRoorkeeData;
+
+// Function to load NIT Sikkim data
+export const loadNITSikkimData = async (): Promise<NITSikkimData> => {
+  try {
+    const response = await fetch('/data/colleges/nit_sikkim.json');
+    if (!response.ok) {
+      throw new Error('Failed to load NIT Sikkim data');
+    }
+    const data = await response.json();
+    return data as NITSikkimData;
+  } catch (error) {
+    console.error('Error loading NIT Sikkim data:', error);
+    throw error;
+  }
+};
+
+// NIT Mizoram uses same structure as IIT Roorkee
+export type NITMizoramData = IITRoorkeeData;
+
+// Function to load NIT Mizoram data
+export const loadNITMizoramData = async (): Promise<NITMizoramData> => {
+  try {
+    const response = await fetch('/data/colleges/nit_mizoram.json');
+    if (!response.ok) {
+      throw new Error('Failed to load NIT Mizoram data');
+    }
+    const data = await response.json();
+    return data as NITMizoramData;
+  } catch (error) {
+    console.error('Error loading NIT Mizoram data:', error);
+    throw error;
+  }
+};
+
+// NIT Nagaland uses same structure as IIT Roorkee
+export type NITNagalandData = IITRoorkeeData;
+
+// Function to load NIT Nagaland data
+export const loadNITNagalandData = async (): Promise<NITNagalandData> => {
+  try {
+    const response = await fetch('/data/colleges/nit_nagaland.json');
+    if (!response.ok) {
+      throw new Error('Failed to load NIT Nagaland data');
+    }
+    const data = await response.json();
+    return data as NITNagalandData;
+  } catch (error) {
+    console.error('Error loading NIT Nagaland data:', error);
+    throw error;
+  }
+};
+
+// NIT Raipur uses same structure as IIT Roorkee
+export type NITRaipurData = IITRoorkeeData;
+
+// Function to load NIT Raipur data
+export const loadNITRaipurData = async (): Promise<NITRaipurData> => {
+  try {
+    const response = await fetch('/data/colleges/nit_raipur.json');
+    if (!response.ok) {
+      throw new Error('Failed to load NIT Raipur data');
+    }
+    const data = await response.json();
+    return data as NITRaipurData;
+  } catch (error) {
+    console.error('Error loading NIT Raipur data:', error);
+    throw error;
+  }
+};
+
+// NIT Surat uses same structure as IIT Roorkee
+export type NITSuratData = IITRoorkeeData;
+
+// Function to load NIT Surat data
+export const loadNITSuratData = async (): Promise<NITSuratData> => {
+  try {
+    const response = await fetch('/data/colleges/nit_surat.json');
+    if (!response.ok) {
+      throw new Error('Failed to load NIT Surat data');
+    }
+    const data = await response.json();
+    return data as NITSuratData;
+  } catch (error) {
+    console.error('Error loading NIT Surat data:', error);
+    throw error;
+  }
+};
+
+// NIT Assam uses same structure as IIT Roorkee
+export type NITAssamData = IITRoorkeeData;
+
+// Function to load NIT Assam data
+export const loadNITAssamData = async (): Promise<NITAssamData> => {
+  try {
+    const response = await fetch('/data/colleges/nit_assam.json');
+    if (!response.ok) {
+      throw new Error('Failed to load NIT Assam data');
+    }
+    const data = await response.json();
+    return data as NITAssamData;
+  } catch (error) {
+    console.error('Error loading NIT Assam data:', error);
+    throw error;
+  }
+};
+
+// NIT Meghalaya uses same structure as IIT Roorkee
+export type NITMeghalayaData = IITRoorkeeData;
+
+// Function to load NIT Meghalaya data
+export const loadNITMeghalayaData = async (): Promise<NITMeghalayaData> => {
+  try {
+    const response = await fetch('/data/colleges/nit_meghalaya.json');
+    if (!response.ok) {
+      throw new Error('Failed to load NIT Meghalaya data');
+    }
+    const data = await response.json();
+    return data as NITMeghalayaData;
+  } catch (error) {
+    console.error('Error loading NIT Meghalaya data:', error);
+    throw error;
+  }
+};
+
+// NIT Puducherry uses same structure as IIT Roorkee
+export type NITPuducherryData = IITRoorkeeData;
+
+// Function to load NIT Puducherry data
+export const loadNITPuducherryData = async (): Promise<NITPuducherryData> => {
+  try {
+    const response = await fetch('/data/colleges/nit_puducherry.json');
+    if (!response.ok) {
+      throw new Error('Failed to load NIT Puducherry data');
+    }
+    const data = await response.json();
+    return data as NITPuducherryData;
+  } catch (error) {
+    console.error('Error loading NIT Puducherry data:', error);
+    throw error;
+  }
+};
+
+// NIT Srinagar uses same structure as IIT Roorkee
+export type NITSrinagarData = IITRoorkeeData;
+
+// Function to load NIT Srinagar data
+export const loadNITSrinagarData = async (): Promise<NITSrinagarData> => {
+  try {
+    const response = await fetch('/data/colleges/nit_srinagar.json');
+    if (!response.ok) {
+      throw new Error('Failed to load NIT Srinagar data');
+    }
+    const data = await response.json();
+    return data as NITSrinagarData;
+  } catch (error) {
+    console.error('Error loading NIT Srinagar data:', error);
     throw error;
   }
 };

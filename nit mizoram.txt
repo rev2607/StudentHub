@@ -1,0 +1,97 @@
+{
+  "College Name": "NIT Mizoram",
+  "Overview": {
+    "Introduction": "National Institute of Technology Mizoram (NIT Mizoram or NITMZ) is a premier public engineering and research institute established in 2010. Located in Aizawl, Mizoram, it is an Institute of National Importance recognized by the Government of India.",[1]
+    "Historical Narrative": "NIT Mizoram was among ten new NITs initiated to expand technical education to the Northeast. Initially operating from a temporary campus in Aizawl, the institute is working towards developing its permanent campus near Lengpui. It is rapidly growing in academics, research, and infrastructure.",[2][1]
+    "Vision and Mission": "Dedicated to academic excellence and innovative research, NIT Mizoram aims to contribute to regional development and societal wellbeing through quality education and sustainable technologies.",
+    "Academic Structure": "Offers UG, PG, and doctoral courses with 9 departments spanning engineering, sciences, and humanities. Core programs include B.Tech, M.Tech, M.Sc, and Ph.D, emphasizing interdisciplinary learning, laboratory work, and industrial internships.",[3]
+    "Student Life": "NIT Mizoram supports a dynamic student environment with annual technical and cultural festivals, sports programs, and active student societies fostering holistic development.",[4][5]
+    "Diversity": "The campus hosts students and faculty from across various Indian regions, embracing cultural diversity and inclusivity.",
+    "Research and Innovation": "Hosts the PARM Kanchenjunga supercomputer for advanced computational research. Focuses on energy, materials, biotechnology, and data science research with funding and collaborative projects.",[6][4]
+    "Community Engagement": "Conducts outreach programs in education, environment, and social welfare aimed at community upliftment in northeastern India.",
+    "Governance": "Administratively led by the Director supported by academic councils and committees guaranteeing institutional governance and quality.",[1]
+    "Unique Features": [
+      "Cutting-edge supercomputing facility among NITs",
+      "Located in the Himalayan foothills with scenic campus",
+      "Strong focus on research and regional development",
+      "Emerging as a center for green tech innovation"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      "B.Tech in Civil, Computer Science, Electrical, Electronics & Communication, Mechanical, and Mathematics & Computing.",
+      "M.Tech specializations in core engineering fields.",
+      "M.Sc in basic sciences; Ph.D research in engineering and science."
+    ],
+    "Fee Structure": {
+      "Annual Tuition Fee": "Approx INR 1,20,000 - INR 1,55,000",
+      "Hostel Fee": "Approx INR 30,000 - INR 40,000 annually",
+      "Miscellaneous Fees": "Approximately INR 5,000",
+      "Total Course Fee": "Approx INR 5.5 - 6 Lakhs for B.Tech",
+      "Fee Table": [
+        "| Program | Tuition Fee/Year (INR) | Hostel & Mess (INR/Year) | Total Approx. Fee (INR) |",
+        "|---------|-----------------------|--------------------------|------------------------|",
+        "| B.Tech  | 1,20,000 - 1,55,000   | 30,000 - 40,000          | 5,50,000 - 6,00,000    |",
+        "| M.Tech  | Similar to UG fees     | Included                 | Approx 3,00,000 total  |"
+      ],
+      "Scholarships": "Government scholarships, fee waivers for reserved categories, and merit-based awards."
+    }
+  },
+  "Admissions": {
+    "UG Admissions": "Through JEE Main and JoSAA/CSAB counseling for seat allocation.",
+    "PG Admissions": "Through GATE score and CCMT counseling.",
+    "Ph.D Admissions": "Via institute-conducted entrance exam and interview; preference for GATE/NET qualified candidates.",
+    "Eligibility": "Minimum 75% in 10+2 for UG; bachelor's in relevant field for PG; master's degree for Ph.D.",
+    "Admission Process": "Entrance exam qualification → counseling → verification → admission confirmation."[7]
+  },
+  "Placements": {
+    "Placement Overview": "Placement rate around 80-85%, highest package INR 14.5 LPA, average package around INR 7-10 LPA in recent years.",[8]
+    "Top Recruiters": ["Adobe", "Deloitte", "IBM", "Tech Mahindra", "HCL"],
+    "Internship": "Robust industrial training and internship opportunities."
+  },
+  "Rankings": {
+    "NIRF 2025": "Ranked in the 101-150 band in Engineering category.",[9]
+    "National Recognition": "Noted for dynamism in growing quality and research."
+  },
+  "Facilities": {
+    "Campus": "Digital library, Wi-Fi campus, well-equipped labs, sports complex, and medical benefits tailored for students and staff.",[6]
+    "Hostel": "Spacious hostels, mess with varied cuisine, and recreational facilities."
+  },
+  "Faculty": {
+    "Faculty Profile": "About 200 faculty members with PhDs and research focus areas in engineering, applied sciences, and humanities."[10]
+  },
+  "Reviews": {
+    "Student Feedback": "Generally positive with appreciation for faculty expertise, modern labs, and good placement support; suggestions include infrastructure enhancements."[11][10]
+  },
+  "Contact": {
+    "Address": "National Institute of Technology, South Sikkim, Ravangla, Sikkim, India",
+    "Phone": "+91-9434000015",
+    "Email": "registrar@nitsikkim.ac.in",
+    "Website": "https://nitsikkim.ac.in"im.ac.in"
+  }
+}
+
+[1](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Mizoram)
+[2](https://www.shiksha.com/college/nit-mizoram-national-institute-of-technology-aizawl-39180)
+[3](https://www.shiksha.com/college/nit-sikkim-national-institute-of-technology-sikkim-other-39335/courses)
+[4](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Sikkim)
+[5](https://www.collegebatch.com/reviews/33166-national-institute-of-technology-south-sikkim)
+[6](https://www.careers360.com/university/national-institute-of-technology-sikkim/facilities)
+[7](https://www.shiksha.com/college/nit-sikkim-national-institute-of-technology-sikkim-other-39335/admission)
+[8](https://www.upgrad.com/universities/nit-sikkim/placements/)
+[9](https://www.shiksha.com/college/nit-sikkim-national-institute-of-technology-sikkim-other-39335/ranking)
+[10](https://www.shiksha.com/college/nit-sikkim-national-institute-of-technology-sikkim-other-39335/reviews)
+[11](https://www.indiascienceandtechnology.gov.in/nits/national-institute-technology-nit-sikkim)
+[12](https://www.nitmz.ac.in)
+[13](https://josaa.admissions.nic.in/applicant/seatmatrix/InstProfile.aspx?instcd=222)
+[14](https://collegedunia.com/university/28298-national-institute-of-technology-nit-aizawl)
+[15](https://www.aakash.ac.in/blog/national-institute-of-technology-nit-mizoram-ranking-admissions-courses-fees-placements-and-cutoff/)
+[16](https://www.indiascienceandtechnology.gov.in/nits/national-institute-technology-nit-mizoram)
+[17](https://www.collegedekho.com/colleges/nit-mizoram)
+[18](https://www.nitmz.ac.in/Other%20Activity/FInal_Information_Brochure.pdf)
+[19](https://www.careers360.com/university/national-institute-of-technology-mizoram)
+[20](https://www.collegepravesh.com/engineering-colleges/nit-mizoram/)
+[21](https://collegedunia.com/university/28298-national-institute-of-technology-nit-aizawl/reviews)
+[22](https://www.nitmz.ac.in/DisplayPage.aspx?page=kacgq&ItemID=caaqm)
+[23](https://www.shiksha.com/college/nit-mizoram-national-institute-of-technology-aizawl-39180/reviews)
+[24](https://www.youtube.com/watch?v=NR3lx6BMCvo)

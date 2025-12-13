@@ -172,9 +172,13 @@ The same comprehensive brochure data structure can be applied to other colleges:
 
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
 =======
 >>>>>>> Stashed changes
 
+
+=======
+>>>>>>> Stashed changes
 

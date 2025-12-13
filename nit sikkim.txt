@@ -1,0 +1,104 @@
+{
+  "College Name": "NIT Sikkim",
+  "Overview": {
+    "Introduction": "National Institute of Technology Sikkim (NIT Sikkim or NIT SKM) is a public engineering and research institution located in Ravangla, Sikkim, India. Established in 2010, it is one of the 31 NITs and recognized as an Institute of National Importance by the Government of India.",[1]
+    "Historical Narrative": "NIT Sikkim was established as a part of the government's initiative to expand technical education in the northeast region. The institute operates from a temporary campus in Ravangla, with plans to move to a permanent campus at Khamdong. It has rapidly developed academic and research programs, with emphasis on interdisciplinary learning and innovation.",
+    "Vision and Mission": "To develop globally competent professionals and researchers with enhanced technical, managerial and communication skills through quality education and research in science and technology.",[2]
+    "Academic Structure": "Offers undergraduate B.Tech programs in engineering disciplines such as Computer Science, Mechanical, Electrical, ECE, and AI & ML, along with M.Tech, M.Sc, and Ph.D programs. The medium of instruction and examination is English. The curriculum emphasizes practical laboratory work, project assignments, and internships.",[3][4]
+    "Student Life": "The campus promotes co-curricular and extracurricular activities including sports, technical and cultural festivals like 'Sports Week' and 'Xplode Cricket Cup'. Several clubs focus on entrepreneurship, robotics, literature, and other interests.",[5][1]
+    "Diversity": "Hosts students from diverse regions including international students, offering a multicultural learning environment.",
+    "Research and Innovation": "Home to the PARAM Kanchenjunga supercomputer, the fastest among NITs, supporting advanced computational research. The institute encourages publishing, patents, and industry tie-ups.",[6][1]
+    "Community Engagement": "Participates in regional development initiatives, workshops, and collaborations promoting the socio-economic upliftment of the region.",
+    "Governance": "Managed by a Director, supported by academic Senate and administrative bodies ensuring governance and quality education.",
+    "Unique Features": [
+      "Newest NIT in northeast India with rapidly improving infrastructure",
+      "Strong emphasis on high-performance computing",
+      "Diverse and active student community",
+      "Commitment to sustainability and regional development"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      "B.Tech in fields including Computer Science, Electrical, Mechanical, ECE, and AI & ML",
+      "M.Tech, M.Sc, Ph.D"
+    ],
+    "Fee Structure": {
+      "B.Tech Total Fee": "Approx INR 5 Lakh for 4 years",
+      "Semester Fee": "Approx INR 1.4 Lakh per annum",
+      "Hostel Fee": "Approx INR 19,500 annually",
+      "Fee Table": [
+        "| Program | Total Fee (INR) | Duration | Hostel Fee (Annual) |",
+        "|---------|-----------------|----------|---------------------|",
+        "| B.Tech  | 5,00,000        | 4 years  | 19,500              |",
+        "| M.Tech  | 1,40,000        | 2 years  | Included            |"
+      ],
+      "Scholarships": "Tuition fee waivers for SC/ST/PwD and financial assistance for deserving candidates."
+    }
+  },
+  "Admissions": {
+    "Overview": "Admissions are entrance exam-based. UG admission through JEE Main and JoSAA counseling, PG admission through GATE and CCMT, M.Sc through JAM, and Ph.D via institution conducted entrance and interview.",[7]
+    "Admission Process": [
+      "Online application for respective entrance exams",
+      "Counseling and seat allocation",
+      "Document verification and fee payment"
+    ],
+    "Eligibility": "Minimum aggregate marks in 10+2 (Physics, Chemistry, Maths) for UG; graduation for PG."
+  },
+  "Placements": {
+    "Statistics": {
+      "Placement Rate": "Approx 65% in 2024-25.",[8]
+      "Highest Package": "INR 44 LPA",
+      "Average Package": "Around INR 7 LPA",
+      "Top Recruiters": ["NVIDIA", "IBM", "Samsung", "Deloitte", "Infineon"]
+    }
+  },
+  "Rankings": {
+    "NIRF Ranking": "Ranked between 151-200 in Engineering Category (2024).",[9]
+    "Additional Ranking": "Recognized for growth and research output."
+  },
+  "Facilities": {
+    "Campus Facilities": [
+      "Accommodating boys and girls hostels with mess, recreation and sports facilities",
+      "Digital and physical libraries",
+      "Digital infrastructure including Wi-Fi and LAN connectivity",
+      "Sports complex offering cricket, football, badminton, table tennis, volleyball"
+    ]
+  },
+  "Faculty": {
+    "Details": [
+      "Approximately 200 faculty members, mostly Ph.D holders from IITs, NITs, and foreign universities.",[10]
+      "Active in research, teaching, faculty development, and consultancy services."
+    ]
+  },
+  "Reviews": {
+    "Summary": "Students praise faculty approachability, campus environment, and growing placement opportunities, though note the need for infrastructure expansion as the campus is relatively new."[11][10]
+  },
+  "Contact": {
+    "Address": "National Institute of Technology Sikkim, Ravangla, South Sikkim, Sikkim 737139, India",
+    "Phone": "+91-9434000015",
+    "Email": "registrar@nitsikkim.ac.in",
+    "Website": "https://www.nitsikkim.ac.in.in"
+  }
+}
+
+[1](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Sikkim)
+[2](https://www.nitm.ac.in)
+[3](https://www.shiksha.com/college/nit-sikkim-national-institute-of-technology-sikkim-other-39335)
+[4](https://www.shiksha.com/college/nit-sikkim-national-institute-of-technology-sikkim-other-39335/courses)
+[5](https://www.collegebatch.com/reviews/33166-national-institute-of-technology-south-sikkim)
+[6](https://www.careers360.com/university/national-institute-of-technology-sikkim/facilities)
+[7](https://www.shiksha.com/college/nit-sikkim-national-institute-of-technology-sikkim-other-39335/admission)
+[8](https://www.upgrad.com/universities/nit-sikkim/placements/)
+[9](https://www.shiksha.com/college/nit-sikkim-national-institute-of-technology-sikkim-other-39335/ranking)
+[10](https://www.shiksha.com/college/nit-sikkim-national-institute-of-technology-sikkim-other-39335/reviews)
+[11](https://www.indiascienceandtechnology.gov.in/nits/national-institute-technology-nit-sikkim)
+[12](https://nitsikkim.ac.in)
+[13](https://www.collegepravesh.com/engineering-colleges/nit-sikkim/)
+[14](https://collegedunia.com/university/28213-national-institute-of-technology-nit-south-sikkim)
+[15](https://math.nitsikkim.ac.in/faculty.php)
+[16](https://nitsikkim.ac.in/admission/fee_structure.php)
+[17](https://nitsikkimadm.samarth.edu.in/jee/index.php/site/login)
+[18](https://www.careers360.com/university/national-institute-of-technology-sikkim/placement)
+[19](https://edurank.org/uni/national-institute-of-technology-sikkim/rankings/)
+[20](https://www.telegraphindia.com/edugraph/colleges/national-institute-of-technology-sikkim-nits/infrastructure/172)
+[21](https://nitsikkim.ac.in/institute/administration/people.php)

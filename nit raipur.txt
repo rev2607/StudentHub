@@ -1,0 +1,118 @@
+{
+  "College Name": "NIT Raipur",
+  "Overview": {
+    "Introduction": "National Institute of Technology Raipur (NIT Raipur), established in 1956, is one of the oldest and premier technical institutions in India, located in Raipur, Chhattisgarh. It is recognized as an Institute of National Importance and offers diverse undergraduate, postgraduate, and doctoral programs in engineering, architecture, science, and management disciplines.",[1][2]
+    "Historical Narrative": "Originally established as Government Engineering College Raipur, the institution was designated an NIT in 2005 and has played significant roles in tribal and regional technology education. Over six decades, it has evolved with enhanced academic programs, research centers, and industry collaborations.",[3][4]
+    "Vision and Mission": "NIT Raipur aims to impart technical excellence, foster innovation and research, and contribute to socio-economic development through education and technology.",[2]
+    "Academic Profile": "Offers Bachelor of Technology (B.Tech), Bachelor of Architecture (B.Arch), Master of Technology (M.Tech), Master of Computer Applications (MCA), Master of Science (M.Sc), and Doctoral (Ph.D) programs across multiple departments with a curriculum balancing theory, practicals, and research projects.",
+    "Campus Life": "Active student participation in technical fests, cultural programs, sports, and entrepreneurial activities within a green campus enabling holistic development.",
+    "Governance and Values": "Managed under strict governance with a Director, Academic Council, and Senate, emphasizing transparency, quality, and sustainability.",
+    "Facilities": "Comprehensive infrastructure including modern lecture halls, workshops, labs, libraries, hostels, sports complexes, health centers, and transport facilities."
+  },
+  "Courses and Fee": {
+    "Courses Offered": {
+      "UG": ["B.Tech in 12 branches"],
+      "PG": ["M.Tech in 11 specializations", "MCA", "M.Sc", "Ph.D in 18 disciplines"],
+      "Others": ["B.Arch (5 years)"]
+    },
+    "Fee Details": {
+      "B.Tech": {
+        "Tuition": "Approx INR 1,25,000 per semester",
+        "Other Fees": "INR 20,000-30,000 approx per semester",
+        "Total Approx Fee": "INR 5 Lakhs for 4 years"
+      },
+      "M.Tech": {
+        "Tuition": "Approx INR 70,000 per semester",
+        "Total": "About INR 2 Lakhs for course duration"
+      },
+      "Ph.D": {
+        "Total Fees": "INR 5.19 Lakhs with semester-wise breakdown"
+      }
+    },
+    "Fee Table": [
+      "| Program | Duration | Tuition Fee (INR) | Other Fees (INR) | Total Fee (INR) |",
+      "|---------|----------|-------------------|------------------|-----------------|",
+      "| B.Tech  | 4 years  | 5,00,000 approx.  | Included         | 5,00,000 approx.|",
+      "| M.Tech  | 2 years  | 1,40,000 approx.  | Included         | 2,00,000 approx.|",
+      "| Ph.D    | Variable | 75,000 per year   | Included         | 5,19,000 total  |"
+    ]
+  },
+  "Admissions": {
+    "UG": "Through JEE Main and JoSAA counseling with requisite eligibility in 10+2 PCM subjects.",
+    "PG": "M.Tech admission through GATE and CCMT counseling; MCA through NIMCET; M.Sc through IIT JAM.",
+    "Ph.D": "Institute level entrance test and interview; preference to GATE/NET/JRF qualified candidates.",
+    "Eligibility": "Minimum qualifying marks per respective programs.",
+    "Admission Procedure": [
+      "Qualify entrance exams",
+      "Counseling",
+      "Document verification",
+      "Seat confirmation by fee payment"
+    ]
+  },
+  "Placements": {
+    "Overview": {
+      "Placement Rate": "Placements generally range between 80% and 90% for B.Tech students.",
+      "Highest Package": "INR 2 Crores (Meta/Facebook)",
+      "Average Package": "Approx INR 15 LPA for CSE/IT",
+      "Key Recruiters": ["Amazon", "Google", "Microsoft", "Goldman Sachs", "Adobe", "Infosys"]
+    },
+    "Branchwise Placements": [
+      "| Branch                 | Placement % | Highest Package (INR LPA) | Average Package |",
+      "|------------------------|-------------|-------------------------|-----------------|",
+      "| Computer Science       | ~99         | 200                      | 17              |",
+      "| Electronics & Comm.    | ~90         | 87                       | 14              |",
+      "| Mechanical Engineering | ~85         | 60                       | 12              |",
+      "| Civil Engineering      | ~75         | 50                       | 10              |"
+    ],
+    "Internships": "Strong internship culture with many students placed in reputed companies."
+  },
+  "Rankings": {
+    "NIRF": {
+      "2023": 70,
+      "2024": 71
+    },
+    "Additional Notes": "NIT Raipur consistently ranks among top 100 National engineering institutions, known for teaching and research standards."
+  },
+  "Facilities": {
+    "Academic Infrastructure": "Modern classrooms, specialized labs in core engineering fields, digital library with access to global digital resources.",
+    "Hostels": "Separate hostels for boys and girls with mess facilities and recreational areas.",
+    "Sports and Recreation": "Cricket, basketball, badminton courts, gymnasium, swimming pool, indoor games.",
+    "Medical": "On-campus hospital and emergency health services.",
+    "Other": "Banking, ATM, guest house, Wi-Fi enabled campus, auditorium."
+  },
+  "Faculty": {
+    "Composition": "More than 200 faculty members, mostly Ph.D. holders from IITs and reputed institutions.",
+    "Research and Teaching": "Active in research publications, consultancy projects and mentorship with favorable faculty-to-student ratio."
+  },
+  "Reviews": {
+    "Student Perspectives": "The academic environment is appreciated for rigor and support, placements highly rated especially in CS branches, campus infrastructure is overall solid with ongoing improvements.",
+    "Concerns": "Hostel maintenance, food services and some older infrastructure need modernization."
+  },
+  "Contact": {
+    "Address": "National Institute of Technology Raipur, A B Road, Raipur, Chhattisgarh, India - 492010",
+    "Phone": "+91-771-225-4052",
+    "Email": "registrar@nitrr.ac.in",
+    "Website": "https://www.nitrr.ac.in"
+  }
+}
+
+[1](https://www.nitrr.ac.in/downloads/NIT%20Raipur%20at%20a%20Glance09112021.pdf)
+[2](https://www.nitrr.ac.in/aboutus.php)
+[3](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Raipur)
+[4](https://www.nitrr.ac.in)
+[5](https://www.jagranjosh.com/colleges/national-institute-of-technology-nit-raipur-329)
+[6](https://collegedunia.com/university/25442-national-institute-of-technology-nit-raipur/courses-fees)
+[7](https://collegedunia.com/university/25442-national-institute-of-technology-nit-raipur/admission)
+[8](https://collegedunia.com/university/25442-national-institute-of-technology-nit-raipur/placement)
+[9](https://indianexpress.com/article/education/jeemain-2025-nit-raipur-a-look-at-last-five-year-performances-in-nirf-ranking-9473576/)
+[10](https://www.careers360.com/university/national-institute-of-technology-raipur/facilities)
+[11](https://collegedunia.com/university/25442-national-institute-of-technology-nit-raipur/faculty)
+[12](https://www.collegedekho.com/colleges/nit-raipur-reviews)
+[13](https://www.shiksha.com/college/nit-raipur-national-institute-of-technology-23645)
+[14](https://www.nitrr.ac.in/downloads/fees/Fees_2025/Fee%20Structure%202025-26.pdf)
+[15](https://www.shiksha.com/college/nit-raipur-national-institute-of-technology-23645/admission)
+[16](https://www.shiksha.com/college/nit-raipur-national-institute-of-technology-23645/placement)
+[17](https://nitrr.ac.in/nirf_rank.php)
+[18](https://www.shiksha.com/college/nit-raipur-national-institute-of-technology-23645/infrastructure)
+[19](https://nitrr.ac.in/fac_rnc_new.php)
+[20](https://www.shiksha.com/college/nit-raipur-national-institute-of-technology-23645/reviews)

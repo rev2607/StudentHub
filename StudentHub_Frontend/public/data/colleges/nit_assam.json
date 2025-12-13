@@ -1,0 +1,572 @@
+{
+  "Name": "National Institute of Technology Assam (NIT Assam)",
+  "Location": {
+    "City": "Silchar",
+    "District": "Cachar",
+    "State": "Assam",
+    "Country": "India",
+    "Pin": "788010",
+    "CampusAreaAcres": 600,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Silchar, Assam"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1967,
+    "OriginalName": "Regional Engineering College Silchar",
+    "Renamed": [
+      {
+        "Year": 2002,
+        "Name": "National Institute of Technology Silchar"
+      },
+      {
+        "Year": 2007,
+        "Name": "National Institute of Technology Assam"
+      }
+    ],
+    "HistoricalSignificance": "Established in 1967 as Regional Engineering College Silchar, it was upgraded to NIT Assam in 2007. One of the premier technical institutes in Northeast India, it has been a leader in engineering education in the region."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "National Institute of Technology Assam (NIT Assam), established in 1967 and upgraded to NIT in 2007, is a centrally funded technical university located in Silchar, Assam. It is an Institute of National Importance offering courses in engineering, science, and management disciplines.",
+    "StudentStrength": "Over 4,500 students including international nationals",
+    "MajorEvents": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports events"
+    ],
+    "ResearchFocus": [
+      "Advanced Technologies",
+      "Industry Collaboration",
+      "Regional Development",
+      "Earthquake Engineering",
+      "Water Resources"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities"
+    ],
+    "SocialInitiatives": [
+      "Outreach programs",
+      "Technical training workshops",
+      "Environmental projects",
+      "Community development"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 75,
+      "Engineering": 75,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 75,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Electronics and Communication Engineering",
+          "Electrical Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Electronics and Instrumentation Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA counseling"],
+        "Seats": 800,
+        "FirstYearFeeINR": 161250,
+        "TotalFeesINRApprox": 645000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 20,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CCMT"],
+        "FirstYearFeeINR": 100000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "N/A"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "GMAT"],
+        "Seats": 60,
+        "FirstYearFeeINR": 120000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["JAM"],
+        "FirstYearFeeINR": 80000,
+        "Seats": 50
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 18,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 50000,
+        "SeatsMoreThan": 150
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 50000,
+      "Maximum": 50000,
+      "Note": "Approximate hostel and mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": ""
+      },
+      "BDes": {
+        "Exam": "",
+        "Counseling": ""
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT",
+        "AdditionalProcesses": "Institute procedures"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["GD", "PI"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "JEEMain2025": {
+      "BTechCSEClosingRank": 14000,
+      "ECEClosingRank": 18000,
+      "MechEngClosingRank": 24000,
+      "ElectEngClosingRank": 21000,
+      "CivilEngClosingRank": 28000
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Physics": [0, 0],
+      "Chemistry": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 75,
+      "OBCPercentile": 65,
+      "SCSTPercentileMin": 55
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories with multiple rounds of JoSAA counselling."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 650,
+      "Recruiters": 120,
+      "HighestPackageINR": 4800000,
+      "HighestDomesticPackageINR": 4800000,
+      "OverallAveragePackageINR": 950000,
+      "CSEAveragePackageINR": 1300000,
+      "ECEAveragePackageINR": 1100000,
+      "MBA median package INR": 800000,
+      "PPOs": 50,
+      "TopRecruiters": [
+        "Amazon",
+        "Microsoft",
+        "Google",
+        "Infosys",
+        "L&T",
+        "TCS",
+        "Accenture",
+        "Wipro",
+        "HCL",
+        "Tech Mahindra",
+        "Capgemini"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Analyst",
+        "Associate Engineer",
+        "Consultant",
+        "R&D Engineer",
+        "Process Engineer"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Technical seminars",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 12,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Rooms"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 70000,
+      "EJournalsCount": 7000,
+      "Features": [
+        "Digital resources",
+        "24/7 access",
+        "Group study zones",
+        "Computer terminals"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 70,
+      "FocusAreas": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "Electrical",
+        "Chemical",
+        "Instrumentation"
+      ],
+      "Equipment": [
+        "State-of-the-art instruments",
+        "Advanced computing facilities",
+        "Modern fabrication equipment"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Cricket Ground",
+        "Football Ground",
+        "Tennis Courts",
+        "Basketball Courts",
+        "Volleyball Courts",
+        "Badminton Courts",
+        "Indoor Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "NIT Assam Medical Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "24/7 doctor services",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Food courts",
+        "Cafeterias"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Regional cuisines",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Guest Houses",
+      "Banks and ATMs",
+      "Post Office",
+      "Shopping Complex",
+      "Places of Worship",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 35,
+      "Types": [
+        "Technical (Coding, IEEE)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Photography",
+        "Quizzing"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 18,
+    "DepartmentsList": [
+      "Computer Science and Engineering",
+      "Electronics and Communication Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Chemical Engineering",
+      "Electronics and Instrumentation Engineering",
+      "Chemistry",
+      "Physics",
+      "Mathematics",
+      "Humanities and Social Sciences",
+      "Management Studies"
+    ],
+    "ResearchCenters": [
+      "Centre for Advanced Research",
+      "Centre for Industry Collaboration"
+    ],
+    "Strength": {
+      "FacultyCount": 200,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Government ministries",
+      "Private industries"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry consultancy"
+    ],
+    "StudentFeedback": "Faculty with doctoral qualifications from reputed institutes, engaged in research, teaching, and community service"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "SC/ST/PwD Fee Concessions",
+      "EWS Tuition Fee Waiver",
+      "Income-based fee waivers",
+      "Merit-cum-means scholarships",
+      "GATE/NET Fellowships",
+      "Research Fellowships",
+      "National Scholarship Portal schemes"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Support",
+      "Monthly Stipends",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.5,
+    "CollegeDuniaReviewsCount": 500,
+    "Careers360Rating": 4.4,
+    "Strengths": [
+      "Established institute with strong legacy",
+      "Excellent placement opportunities",
+      "Strong regional significance for Northeast India",
+      "Focused on fostering research and innovation",
+      "Coherent blend of academics and extracurricular activities",
+      "Personalized attention from faculty",
+      "Growing placement opportunities"
+    ],
+    "Weaknesses": [
+      "Competitive admissions",
+      "Academic pressure",
+      "Infrastructure can be improved in some areas"
+    ],
+    "ReturnOnInvestment": "Excellent"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India",
+    "CulturalTraditions": [
+      "Technical festival traditions",
+      "Cultural festival heritage",
+      "Sports events",
+      "Inter-hostel competitions"
+    ],
+    "Festivals": [
+      "Technical Festival",
+      "Cultural Festival",
+      "Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Coding (IEEE)",
+      "Science and Technology Council",
+      "Cultural Council",
+      "Sports Council",
+      "Music & Dance",
+      "Drama",
+      "Photography",
+      "Quizzing"
+    ],
+    "OutdoorActivities": [
+      "Sports activities",
+      "Cultural exploration",
+      "Community engagement",
+      "Nature activities"
+    ],
+    "StudentGovernance": "Student Councils and representative bodies",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Sports Facilities",
+      "Medical facilities",
+      "Counseling Services"
+    ],
+    "Community": "Active student community with cultural fests, technical events, sports, and student clubs. Hostels and amenities contribute to a supportive environment in the beautiful location of Assam."
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1967,
+    "Founder": "Government of India",
+    "InitialFocus": "Engineering education in Northeast India",
+    "Evolution": [
+      "1967: Established as Regional Engineering College Silchar",
+      "2002: Upgraded to National Institute of Technology Silchar",
+      "2007: Renamed to National Institute of Technology Assam",
+      "Accorded Institute of National Importance status"
+    ],
+    "Legacy": "One of the premier technical institutes in Northeast India, pioneering engineering education in the region",
+    "Heritage": "Strong commitment to technical advancement, ethical leadership, and global engagement"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Advanced Technologies",
+      "Industry Collaboration",
+      "Regional Development",
+      "Earthquake Engineering",
+      "Water Resources"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Research initiatives involve collaborations with industries and higher education institutions focusing on advanced technologies and regional development",
+    "Startups": {
+      "Number": 20,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Regional industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "NIT Assam Admissions 2025-26",
+      "Date": "2025-09-01",
+      "Details": "Admissions open for various programs"
+    },
+    {
+      "Event": "Technical Festival 2025",
+      "StartDate": "2025-03-15",
+      "EndDate": "2025-03-19",
+      "Theme": "Technical festival"
+    },
+    {
+      "Event": "Cultural Festival 2025",
+      "StartDate": "2025-10-05",
+      "EndDate": "2025-10-09",
+      "Theme": "Cultural festival"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.nits.ac.in",
+    "Address": "National Institute of Technology Assam, Silchar, Assam-788010",
+    "Phone": "+91-3842-224879",
+    "Emails": {
+      "Registrar": "registrar@nits.ac.in",
+      "Admissions": "admissions@nits.ac.in",
+      "PlacementCell": "placement@nits.ac.in"
+    }
+  }
+}
+

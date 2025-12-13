@@ -240,9 +240,13 @@ To verify everything works:
 
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
 =======
 >>>>>>> Stashed changes
 
+
+=======
+>>>>>>> Stashed changes
 

@@ -1,0 +1,131 @@
+{
+  "College Name": "NIT Meghalaya",
+  "Overview": {
+    "Introduction": "National Institute of Technology Meghalaya (NIT Meghalaya), established in 2010, is a premier technical institution located in Shillong, Meghalaya. It is an Institute of National Importance dedicated to excellence in engineering education and research.",[1][2]
+    "Historical Narrative": "NIT Meghalaya was established to meet the growing need for quality technical education in the Northeast region of India. It offers UG, PG, and doctoral programs and has rapidly evolved with a focus on innovation, infrastructure development, and research collaborations.",[2][3]
+    "Vision and Mission": "To be a vibrant centre of academic and research excellence fostering creativity, innovation, and technological advancements with a focus on regional and national development.",[1]
+    "Academic Structure": "The institute offers B.Tech in various engineering disciplines, M.Tech in select specializations, M.Sc, Ph.D, and dual degree programs. The curriculum emphasizes practical training, research, and innovation.",[4][5]
+    "Student Life": "Active student community with many technical, cultural, and sports events. Hostels and recreational facilities foster a balanced environment for learning and personal growth.",[6][7]
+    "Diversity": "The student body and faculty represent diverse regions, promoting an inclusive and cooperative academic culture.",
+    "Research and Innovation": "The institute hosts research centres focusing on engineering, science, and technology, with collaborations fostering patents and publications.",[1]
+    "Community Engagement": "NIT Meghalaya integrates outreach programs aimed at sustainable development and social welfare in the region.",
+    "Governance": "The institute is managed by a Director along with academic and administrative committees ensuring quality governance.",
+    "Unique Features": [
+      "Pioneer NIT in Northeast India",
+      "Recognized for research and innovation",
+      "Well-equipped campus with modern facilities",
+      "Encourages entrepreneurial spirit"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      {
+        "UG": [
+          "B.Tech in Electrical Engineering, Electronics & Communication, Computer Science, Civil Engineering, Mechanical Engineering"
+        ],
+        "PG": [
+          "M.Tech in select specializations",
+          "M.Sc in sciences",
+          "Ph.D. in engineering and sciences"
+        ]
+      }
+    ],
+    "Fee Structure": {
+      "Total B.Tech Fees": "Approximately INR 5.8 Lakhs for 4 years",
+      "M.Tech Fees": "INR 1.8 Lakhs for 2 years",
+      "M.Sc Fees": "Around INR 71,000",
+      "Hostel Fee": "Approximately INR 19,500 annually",
+      "Fee Table": [
+        "| Course | Duration | Total Fees (INR) | Hostel Fee (Annual) |",
+        "|--------|----------|------------------|---------------------|",
+        "| B.Tech | 4 years  | 5,80,000         | 19,500              |",
+        "| M.Tech | 2 years  | 1,80,000         | Included            |",
+        "| M.Sc   | 2 years  | 71,000           | Included            |"
+      ],
+      "Scholarships and Concessions": "Eligibility for full fee waivers for SC/ST/PwD students and financial aid based on merit and need."[5]
+    }
+  },
+  "Admissions": {
+    "Overview": "Admissions are based on national level entrance exams like JEE Main for UG, GATE for M.Tech, JAM for M.Sc, with counseling conducted by JoSAA, CCMT, and CCMN. Ph.D. admission involves a written test and interview conducted by the institute.",[8]
+    "UG Admission": [
+      "Selection via JEE Main and JoSAA counseling.",
+      "Eligibility: Minimum required marks in 10+2 with PCM."
+    ],
+    "PG Admission": [
+      "M.Tech through GATE + CCMT counseling",
+      "M.Sc through IIT JAM and CCMN",
+      "Ph.D through institute written test and interview"
+    ],
+    "Admission Process": [
+      "Online registration for entrance exams",
+      "Counseling participation",
+      "Document verification and confirmation"
+    ]
+  },
+  "Placements": {
+    "Placement Highlights": [
+      "Placement rate in 2023 was 79.6% with 199 total offers.",[9]
+      "Highest package reached INR 32 LPA.",
+      "Average salary package stood at INR 11 LPA.",
+      "51 recruiters participated in placement.",
+      "The placement cell provides training, group discussions, and interview preparation."
+    ]
+  },
+  "Rankings": {
+    "NIRF Ranking": "83 in the engineering category as of 2025.",[10]
+    "Additional": "Ranked 19th among the 31 NITs nationwide, highlighting its regional significance."
+  },
+  "Facilities": {
+    "Campus Infrastructure": [
+      "Well-maintained hostels with 8 boys’ and 2 girls’ hostels equipped with all necessary amenities, mess facilities, and recreation rooms.",[6]
+      "Sports complex with facilities for football, cricket, basketball, indoor games like table tennis, badminton, and chess.",
+      "Health and medical facilities available round-the-clock.",
+      "Modern classrooms, laboratories, digital library, and cafeteria."
+    ]
+  },
+  "Faculty": {
+    "Faculty Composition": [
+      "The institute has a strong faculty base with professors, associate professors, and assistant professors, many with PhDs from premier institutes.",[11]
+      "Active in research, publications, innovation, and academic guidance."
+    ]
+  },
+  "Reviews": {
+    "Student Feedback": [
+      "Praised for excellent faculty support, good placements especially in core branches, and beautiful campus infrastructure.",[7][12]
+      "Hostel facilities and campus life are considered conducive to learning and development.",
+      "Students feel well prepared for competitive industries."
+    ]
+  },
+  "Contact": {
+    "Address": "National Institute of Technology, Meghalaya, Bijni Complex, Laitumkhrah, Shillong, Meghalaya - 793003",
+    "Phone": "+91-364-2507250",
+    "Email": "registrar@nitm.ac.in",
+    "Website": "https://www.nitm.ac.in",
+    "Social Media": {
+      "Facebook": "facebook.com/nitshillong",
+      "Twitter": "twitter.com/nitshillong",
+      "LinkedIn": "linkedin.com/school/nit-meghalaya"
+    }
+  }
+}
+
+[1](https://www.nitm.ac.in)
+[2](https://www.nitm.ac.in/p/about)
+[3](https://collegedunia.com/university/25743-national-institute-of-technology-nit-meghalaya-shillong)
+[4](https://www.shiksha.com/college/nit-meghalaya-national-institute-of-technology-shillong-39060)
+[5](https://www.careers360.com/university/national-institute-of-technology-meghalaya/courses)
+[6](https://www.shiksha.com/college/nit-meghalaya-national-institute-of-technology-shillong-39060/infrastructure)
+[7](https://www.collegedekho.com/colleges/nit-meghalaya-reviews)
+[8](https://www.shiksha.com/college/nit-meghalaya-national-institute-of-technology-shillong-39060/admission)
+[9](https://www.careers360.com/university/national-institute-of-technology-meghalaya/placement)
+[10](https://theshillongtimes.com/2025/09/04/nit-meghalaya-at-83rd-position-in-engineering-category-of-nirf-2025-rankings/)
+[11](https://www.nitm.ac.in/department/computer-science-engineering/faculty-1)
+[12](https://www.careers360.com/university/national-institute-of-technology-meghalaya/reviews)
+[13](https://www.timeshighereducation.com/world-university-rankings/national-institute-technology-meghalaya)
+[14](https://www.nitm.ac.in/p/directory)
+[15](https://www.boostmytalent.com/college/nit-national-institute-of-technology-shillong)
+[16](https://collegedunia.com/university/25743-national-institute-of-technology-nit-meghalaya-shillong/courses-fees)
+[17](https://www.nitm.ac.in/p/ug-admission)
+[18](https://www.shiksha.com/college/nit-meghalaya-national-institute-of-technology-shillong-39060/placement)
+[19](https://collegedunia.com/university/25743-national-institute-of-technology-nit-meghalaya-shillong/ranking)
+[20](https://www.telegraphindia.com/edugraph/colleges/national-institute-of-technology-meghalaya-nitmeg/infrastructure/115)

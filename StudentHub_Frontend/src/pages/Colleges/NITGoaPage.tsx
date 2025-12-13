@@ -2935,7 +2935,7 @@ const NITGoaPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/images/nit-patna-logo.png" 
+                    src="/data/colleges/IIT_Roorkee_Logo.svg" 
                     alt="NIT Goa Logo" 
                     className="w-full h-full object-contain"
                   />
@@ -2963,13 +2963,13 @@ const NITGoaPage: React.FC = () => {
 
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
-                  NIRF Rank #{collegeData.Rankings.NIRF2025.Overall}
+                  NIRF Rank #{collegeData.Rankings.NIRF2025.Overall || 'N/A'}
                 </span>
                 <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
-                  Engineering Rank #{collegeData.Rankings.NIRF2025.Engineering}
+                  Engineering Rank #{collegeData.Rankings.NIRF2025.Engineering || 'N/A'}
                 </span>
                 <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">
-                  Architecture Rank #{collegeData.Rankings.NIRF2025.ArchitecturePlanning}
+                  Architecture Rank #{collegeData.Rankings.NIRF2025.ArchitecturePlanning || 'N/A'}
                 </span>
                 {/* Quick facts chips */}
                 <span className="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full">
@@ -3018,7 +3018,6 @@ const NITGoaPage: React.FC = () => {
           {/* Main Content */}
           <div ref={mainContentRef} className="flex-1">
             {renderTabContent()}
-
           </div>
           
           {/* Right Sidebar (fixed on large screens with its own scroll, stays till end) */}
@@ -3033,7 +3032,7 @@ const NITGoaPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "NIT Goa"}
-        collegeLogo="/images/nit-patna-logo.png"
+        collegeLogo="/data/colleges/IIT_Roorkee_Logo.svg"
       />
 
       {/* Brochure Modal */}
@@ -3085,7 +3084,7 @@ const NITGoaPage: React.FC = () => {
                   <div className="p-3 rounded-lg bg-white shadow-sm">📅 Application deadlines</div>
                 </div>
                 <div className="p-4 rounded-lg bg-white shadow-sm">
-                  <div className="text-sm text-gray-800 italic">“StudentHub made it easy to compare programs and finish my application on time.”</div>
+                  <div className="text-sm text-gray-800 italic">"StudentHub made it easy to compare programs and finish my application on time."</div>
                   <div className="text-xs text-gray-500 mt-2">— Gurmeet, B.Tech (2024)</div>
                 </div>
               </div>

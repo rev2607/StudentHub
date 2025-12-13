@@ -1,0 +1,495 @@
+{
+  "Name": "National Institute of Technology Andhra Pradesh (NIT Andhra Pradesh)",
+  "Location": {
+    "City": "Tadepalligudem",
+    "District": "West Godavari",
+    "State": "Andhra Pradesh",
+    "Country": "India",
+    "Pin": "534101",
+    "CampusAreaAcres": 0,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Tadepalligudem"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 2015,
+    "OriginalName": "NIT Andhra Pradesh",
+    "Renamed": [],
+    "HistoricalSignificance": "As the 31st NIT, it was founded to bolster technical education in Andhra Pradesh after the bifurcation of Telangana and Andhra Pradesh. Though a relatively young institute, it has rapidly developed infrastructure and academic programs and is mentored by NIT Warangal initially."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Autonomous Institute",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "National Institute of Technology Andhra Pradesh (NIT Andhra Pradesh or NITAP) was established in the academic year 2015-16 in Tadepalligudem, West Godavari District, Andhra Pradesh. It is recognized as an Institute of National Importance and is part of the chain of NITs set up by the Government of India.",
+    "StudentStrength": "Over 2,000 students",
+    "MajorEvents": [
+      "Technozion",
+      "Cultural festivals",
+      "Sports events",
+      "Startup forums"
+    ],
+    "ResearchFocus": [
+      "Biotechnology",
+      "Chemical engineering",
+      "Materials science",
+      "AI & data analytics",
+      "Renewable energy",
+      "Sustainable manufacturing"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "Industry collaborations",
+      "Research partnerships"
+    ],
+    "SocialInitiatives": [
+      "Extension activities",
+      "Community technical assistance",
+      "CSR projects"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 250,
+      "Engineering": 250,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 250,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Biotechnology",
+          "Chemical Engineering",
+          "Civil Engineering",
+          "Computer Science & Engineering",
+          "Electrical & Electronics Engineering",
+          "Electronics & Communication Engineering",
+          "Mechanical Engineering",
+          "Metallurgical & Materials Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA Counseling"],
+        "Seats": 0,
+        "FirstYearFeeINR": 125000,
+        "TotalFeesINRApprox": 500000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 0,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CCMT counseling"],
+        "FirstYearFeeINR": 140000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "Not offered"
+      },
+      "MBA": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0
+      },
+      "MSc": {
+        "Disciplines": [],
+        "DurationYears": 0,
+        "Entrance": [],
+        "FirstYearFeeINR": 0,
+        "Seats": 0
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 0,
+        "Entrance": [
+          "GATE",
+          "NET",
+          "Institute entrance exam"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 0,
+        "SeatsMoreThan": 0
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 30000,
+      "Maximum": 40000,
+      "Note": "Includes mess charges approximately"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": ""
+      },
+      "BDes": {
+        "Exam": "Not offered",
+        "Counseling": ""
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "",
+        "AdditionalSelection": []
+      },
+      "MSc": {
+        "Exam": []
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "NET", "Institute entrance exam"],
+        "Selection": "Written test/interview",
+        "AdditionalNotes": "Master's in relevant discipline required"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": [],
+      "AdditionalProcess": ""
+    },
+    "ReservationPolicy": "As per Government of India guidelines: SC/ST/OBC/EWS/PwD reservations applicable",
+    "ApplicationMode": "Online through official website and counseling portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [],
+      "Physics": [],
+      "Mathematics": []
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 0,
+      "OBCPercentile": 0,
+      "SCSTPercentileMin": 0
+    },
+    "AdditionalDetails": "Cutoffs vary annually based on JEE Main ranks."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 0,
+      "Recruiters": 0,
+      "HighestPackageINR": 4410000,
+      "HighestDomesticPackageINR": 4410000,
+      "OverallAveragePackageINR": 813000,
+      "CSEAveragePackageINR": 0,
+      "ECEAveragePackageINR": 0,
+      "MBA median package INR": 0,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "Google",
+        "Jio",
+        "Infosys",
+        "L&T"
+      ],
+      "JobProfiles": [
+        "Software Engineer",
+        "IT Sector",
+        "Core Engineering"
+      ],
+      "PlacementPreparation": [
+        "Pre-placement training",
+        "Resume workshops",
+        "Mock interviews"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 0,
+      "Types": [
+        "Boys hostels",
+        "Girls hostels"
+      ],
+      "Amenities": [
+        "Wi-Fi enabled",
+        "Mess facilities",
+        "Common rooms",
+        "Study rooms"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 0,
+      "EJournalsCount": 0,
+      "Features": [
+        "Digital resources",
+        "Reading halls",
+        "24/7 access"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 0,
+      "FocusAreas": [
+        "Biotechnology",
+        "Chemical engineering",
+        "Materials science",
+        "Computer science",
+        "Electronics",
+        "Mechanical",
+        "Civil"
+      ],
+      "Equipment": [
+        "Modern computer labs",
+        "Advanced workshops",
+        "Research equipment"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Sports complex",
+        "Playground",
+        "Indoor games",
+        "Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Medical center",
+      "Services": [
+        "24/7 medical services",
+        "Emergency care",
+        "General health services"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Mess halls",
+        "Canteens"
+      ],
+      "Services": [
+        "Vegetarian and non-vegetarian options",
+        "Multi-cuisine"
+      ]
+    },
+    "OtherAmenities": [
+      "Academic buildings",
+      "Seminar halls",
+      "Auditorium",
+      "Campus Wi-Fi",
+      "Recreational areas"
+    ],
+    "StudentClubs": {
+      "Number": 0,
+      "Types": [
+        "Technical societies",
+        "Cultural clubs",
+        "Sports clubs",
+        "Startup forums"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 8,
+    "DepartmentsList": [
+      "Biotechnology",
+      "Chemical Engineering",
+      "Civil Engineering",
+      "Computer Science & Engineering",
+      "Electrical & Electronics Engineering",
+      "Electronics & Communication Engineering",
+      "Mechanical Engineering",
+      "Metallurgical & Materials Engineering"
+    ],
+    "ResearchCenters": [
+      "Biotechnology research",
+      "Chemical engineering",
+      "Materials science",
+      "AI & data analytics",
+      "Renewable energy",
+      "Sustainable manufacturing"
+    ],
+    "Strength": {
+      "FacultyCount": 0,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "Industry collaborations",
+      "Research partnerships"
+    ],
+    "FacultyActivities": [
+      "Research publications",
+      "Industry consultancies",
+      "Student mentorship"
+    ],
+    "StudentFeedback": "Faculty members are experienced, largely holding PhDs from reputed institutions"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "SC/ST/PwD tuition exemption",
+      "Merit-based scholarships",
+      "Fee waivers for economically weaker sections"
+    ],
+    "Coverage": [
+      "Tuition fees",
+      "Hostel fees",
+      "Mess charges"
+    ],
+    "Application": [
+      "Through institute portal",
+      "Based on financial and merit criteria"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 0,
+    "CollegeDuniaReviewsCount": 0,
+    "Careers360Rating": 0,
+    "Strengths": [
+      "Modern facility and infrastructure",
+      "Strong industry collaboration",
+      "Multidisciplinary education",
+      "Strong placement growth"
+    ],
+    "Weaknesses": [
+      "Newer institute",
+      "Campus Wi-Fi needs improvement",
+      "Food options could be better"
+    ],
+    "ReturnOnInvestment": "Good ROI with strong placement growth and competitive packages."
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student body from across India",
+    "CulturalTraditions": [
+      "Technozion",
+      "Cultural festivals"
+    ],
+    "Festivals": [
+      "Technozion",
+      "Cultural fests",
+      "Sports events"
+    ],
+    "ClubsAndSocieties": [
+      "Technical societies",
+      "Cultural clubs",
+      "Sports clubs",
+      "Startup forums"
+    ],
+    "OutdoorActivities": [
+      "Sports tournaments",
+      "Campus celebrations"
+    ],
+    "StudentGovernance": "Active student bodies",
+    "WellbeingFacilities": [
+      "Medical center",
+      "Sports facilities",
+      "Recreation centers"
+    ],
+    "Community": "Inclusive and vibrant environment with multiple clubs"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 2015,
+    "Founder": "Government of India",
+    "InitialFocus": "Engineering education in Andhra Pradesh",
+    "Evolution": [
+      "Established in 2015-16",
+      "31st NIT",
+      "Mentored by NIT Warangal initially",
+      "Accorded Institute of National Importance status"
+    ],
+    "Legacy": "One of the newest NITs with modern facility and infrastructure",
+    "Heritage": "Strong commitment to academic excellence and innovation"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Biotechnology",
+      "Chemical engineering",
+      "Materials science",
+      "AI & data analytics",
+      "Renewable energy",
+      "Sustainable manufacturing"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Research in biotechnology, materials science, and AI",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Industry collaborations",
+      "Research partnerships"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": false
+    }
+  },
+  "NewsAndUpdates": [],
+  "OfficialContactInfo": {
+    "Website": "https://nitandhra.ac.in",
+    "Address": "NIT Andhra Pradesh, Tadepalligudem, West Godavari District, Andhra Pradesh, India",
+    "Phone": "+91-8818811111",
+    "Emails": {
+      "Registrar": "registrar@nitandhra.ac.in",
+      "Admissions": "admission@nitandhra.ac.in",
+      "PlacementCell": "placement@nitandhra.ac.in"
+    }
+  }
+}
+
+

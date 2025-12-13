@@ -1,0 +1,94 @@
+{
+  "College Name": "NIT Nagaland",
+  "Overview": {
+    "Introduction": "Established in 2010, National Institute of Technology Nagaland (NIT Nagaland) is a centrally funded technical institute located at Chümoukedima near Dimapur, Nagaland. It is an Institute of National Importance and offers various undergraduate, postgraduate and doctoral programs in engineering and sciences.",[1][2]
+    "Historical Narrative": "Founded to promote technical education in Nagaland, it initially operated under mentorship of NIT Silchar before moving to its permanent campus at Chümoukedima. The institute has steadily grown in infrastructure, academic programs and research output.",[3][1]
+    "Vision and Mission": "To impart quality education and research, nurture skilled professionals, and contribute to socio-economic development regionally and nationally.",[2]
+    "Academic Structure": "Offers B.Tech programs in 6 branches, M.Tech specializations, MSc, integrated MSc, and PhD degrees across engineering, science, and management domains.",[4][5]
+    "Student Life": "Vibrant with cultural and technical fests, various clubs, sports activities, and modern hostel facilities creating a supportive academic environment.",[6][7]
+    "Diversity": "Hosts students from diverse regions of India, promoting an inclusive and vibrant student community.",
+    "Research and Innovation": "Research centers focus on advanced topics like VLSI, power systems, communication engineering, with access to computing facilities and collaborations.",[8]
+    "Community Engagement": "Active in regional development through outreach programs and technology dissemination initiatives.",
+    "Governance": "Operated by a Director, supported by academic Senate, ensuring effective governance and quality control.",
+    "Unique Features": [
+      "Among the youngest NITs with modern facilities",
+      "Located strategically near Dimapur",
+      "Good placement record in core and IT sectors",
+      "Active research and incubation center"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      "B.Tech in Civil, CSE, Electrical & Electronics, Electronics & Instrumentation, Electronics & Communication, Mechanical Engineering",
+      "M.Tech specializations including Power System Engineering, VLSI Systems, Communication Engineering, Computer Science and Engineering",
+      "M.Sc in Physics, Integrated MSc in Material Science",
+      "Ph.D programs"
+    ],
+    "Fee Structure": {
+      "B.Tech": "Approx INR 5.97 Lakhs total over 4 years",
+      "M.Tech": "Approx INR 1.96 Lakhs for complete course",
+      "Hostel Fee": "Separate annual fees around INR 2.88 Lakhs",
+      "Fee Table": [
+        "| Course | One-Time Fee (INR) | Tuition Fee (INR) | Hostel Fee (INR) |",
+        "|--------|--------------------|------------------|------------------|",
+        "| B.Tech | 14,700             | 5,00,000         | 2,88,000         |",
+        "| M.Tech | 15,200             | 1,40,000         | 1,44,000         |",
+        "| M.Sc   | 15,200             | 30,000           | 1,44,000         |"
+      ],
+      "Scholarships": "Fee exemptions and scholarships available for reserved classes and economically weaker students."[8]
+    }
+  },
+  "Admissions": {
+    "Overview": "Admission to all programs is through national-level exams: JEE Main for B.Tech, GATE for M.Tech, IIT JAM for MSc, and institute-level tests for Ph.D.",[9]
+    "Process": [
+      "Qualify relevant entrance examination",
+      "Participate in centralized counseling (JoSAA, CCMT, CCMN)",
+      "Document verification, seat allotment, fee payment"
+    ],
+    "Eligibility": "Minimum prescribed marks at 10+2 for UG; relevant bachelor's degree for PG; master's for Ph.D."
+  },
+  "Placements": {
+    "Placement Overview": "61.54% placement in 2024 with 104 B.Tech and 2 M.Tech students placed. Highest package INR 13.95 LPA, average around INR 4.22 LPA.",[10]
+    "Recruitment Process": "Institutes invites recruiters for pre-placement talks, written tests, group discussions, and interviews.",
+    "Top Recruiters": "Recruiters include tech, core and consulting companies from across India."
+  },
+  "Rankings": {
+    "NIRF": "Ranked among the 101-150 engineering colleges in India in 2025 note significant improvement from previous years."[11]
+  },
+  "Facilities": {
+    "Infrastructure": "Hostels, library, sports facilities with indoor and outdoor games include cricket, football, badminton, and table tennis. 24/7 medical and internet services available."[12]
+  },
+  "Faculty": {
+    "Faculty Profile": "Experienced faculty with PhDs from reputed Indian and international institutions, engaged in quality teaching and research initiatives."[13]
+  },
+  "Reviews": {
+    "Student Feedback": "The overall rating is around 3.9/5 with positive remarks on faculty quality, infrastructure, placement support, and student community life."[14]
+  },
+  "Contact": {
+    "Address": "NIT Nagaland, Old DC Complex, Chümoukedima, Dimapur, Nagaland 797103",
+    "Phone": "+91-03862-235841",
+    "Email": "registrar@nitnagaland.ac.in",
+    "Website": "https://www.nitnagaland.acc.in"
+  }
+}
+
+[1](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Nagaland)
+[2](https://www.nitnagaland.ac.in)
+[3](https://environmentclearance.nic.in/writereaddata/Online/TOR/04_Jul_2017_154752933B9YBTGKOAnnexure-BriefSummaryofProject.pdf)
+[4](https://www.collegepravesh.com/engineering-colleges/nit-nagaland/)
+[5](https://www.shiksha.com/college/nit-nagaland-national-institute-of-technology-dimapur-39201/courses)
+[6](https://www.careers360.com/university/national-institute-of-technology-nagaland/facilities)
+[7](https://www.shiksha.com/college/nit-nagaland-national-institute-of-technology-dimapur-39201/reviews)
+[8](https://collegedunia.com/university/28219-national-institute-of-technology-nit-dimapur/courses-fees)
+[9](https://www.shiksha.com/college/nit-nagaland-national-institute-of-technology-dimapur-39201/admission)
+[10](https://www.careers360.com/university/national-institute-of-technology-nagaland/placement)
+[11](https://morungexpress.com/nagaland-university-and-nit-improve-ranking-in-nirf-2025)
+[12](https://www.shiksha.com/college/nit-nagaland-national-institute-of-technology-dimapur-39201/infrastructure)
+[13](https://collegedunia.com/university/28219-national-institute-of-technology-nit-dimapur/faculty)
+[14](https://www.careers360.com/university/national-institute-of-technology-nagaland/reviews)
+[15](https://www.shiksha.com/college/nit-nagaland-national-institute-of-technology-dimapur-39201)
+[16](https://collegeoption.in/national-institute-of-technology-nagaland/)
+[17](https://collegedunia.com/university/28219-national-institute-of-technology-nit-dimapur)
+[18](https://www.shiksha.com/college/nit-nagaland-national-institute-of-technology-dimapur-39201/placement)
+[19](https://byjus.com/jee/nit-nagaland/)
+[20](https://www.collegebatch.com/605-national-institute-of-technology-faculty-profiles-dimapur)

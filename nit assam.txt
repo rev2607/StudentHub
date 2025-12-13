@@ -1,0 +1,90 @@
+{
+  "College Name": "National Institute of Technology Silchar (NIT Assam)",
+  "Overview": {
+    "Introduction": "Established in 1967, NIT Silchar is a premier technical institute and an Institute of National Importance located in Silchar, Assam. It is one of the oldest National Institutes of Technology in India, providing quality education, research, and innovation across engineering, science, and management disciplines.",
+    "Legacy and Growth": "NIT Silchar began as a Regional Engineering College and was upgraded to an NIT in 2002. Over five decades, it has evolved with state-of-the-art infrastructure, a large student community, and a strong emphasis on research and industry collaboration.",
+    "Mission and Vision": "Committed to developing globally competent technologists and leaders through academic excellence, research innovation, and fostering an inclusive learning environment.",
+    "Academic Ethos": "Provides a multidisciplinary, credit-based curriculum designed to blend theoretical knowledge, practical skills, research, and entrepreneurship. Encourages student and faculty exchange programs and national/international collaborations.",
+    "Student Life": "Vibrant cultural and technical festivals, competitive sports activities, student clubs, and community service contribute to a comprehensive student experience.",
+    "Institutional Values": "Ethical integrity, inclusiveness, sustainability, and responsive governance guide the institute's functioning.",
+    "Infrastructure Highlights": "Modern classrooms, extensive laboratories, digital library, computing facilities, residential amenities, sports complexes, and healthcare provisions.",
+    "Institutional Rankings": "Consistently ranked among the top engineering institutes nationally, with recognized research contributions.",
+    "Campus Culture": "A pluralistic and cultural hospitable environment that respects diversity and encourages interdisciplinary interactions."
+  },
+  "Courses and Fee": {
+    "Academic Programs": {
+      "Undergraduate": ["B.Tech in Computer Science, Civil, Mechanical, Electrical, ECE, Chemical, Metallurgical, Industrial & Production Engineering"],
+      "Postgraduate": ["M.Tech in 20+ specializations", "MBA", "M.Sc in Science", "Ph.D programs"],
+      "Special Programs": ["Executive B.Tech and specialized diploma courses"]
+    },
+    "Fee Structure": {
+      "Overview": "Tuition and other fees vary by course and category.",
+      "Example Fee Table": [
+        "| Program      | Duration | Tuition Fee (INR) | Hostel & Mess (INR) | Total Approx Cost (INR) |",
+        "|--------------|----------|-------------------|---------------------|------------------------|",
+        "| B.Tech       | 4 years  | 1,25,000 per year | 70,000 per year     | 7,80,000 approx.       |",
+        "| M.Tech       | 2 years  | 1,40,000 per year | Included            | 2,80,000 approx.       |",
+        "| MBA          | 2 years  | 1,60,000 per year | Included            | 3,20,000 approx.       |",
+        "| M.Sc         | 2 years  | 35,000 per year   | Included            | 70,000 approx.         |"
+      ],
+      "Fee Concessions": "Available for SC/ST/OBC/PwD and economically weaker sections; scholarships based on merit and need."
+    }
+  },
+  "Admissions": {
+    "UG Admission": {
+      "Process": "Admission through JEE Main followed by counseling via JoSAA.",
+      "Eligibility": "12th pass with Physics, Chemistry, and Mathematics with qualifying marks."
+    },
+    "PG Admission": {
+      "Process": "Admission via GATE scores through CCMT counseling.",
+      "Programs": "M.Tech, M.Sc, MBA, MCA with requisite qualification criteria."
+    },
+    "Ph.D Admission": {
+      "Process": "Institute level entrance test and interview. Score in national exams like GATE/NET considered.",
+      "Eligibility": "Master’s degree in relevant fields."
+    },
+    "Admission Procedure": [
+      "Register and appear in entrance examinations",
+      "Participate in centralized counseling",
+      "Seat confirmation and fee payment"
+    ]
+  },
+  "Placements": {
+    "Placement Statistics": "Consistently strong performance in placements with a 90%+ placement rate for core branches.",
+    "Highest Packages": "Up to INR 44 LPA",
+    "Average Packages": "Around INR 13 LPA",
+    "Recruiters": ["Amazon", "Infosys", "Microsoft", "TCS", "Samsung"],
+    "Internships": "Robust summer internship culture with stipends and research projects.",
+    "Placement Process": "Includes pre-placement talks, written tests, group discussions, and interviews."
+  },
+  "Rankings": {
+    "National": "Ranked within top 50 engineering institutes in India by NIRF (2025).",
+    "International": "Recognized in Asian university rankings and various national surveys.",
+    "Awards": "Consistently awarded for teaching excellence and research output."
+  },
+  "Facilities": {
+    "Academic": "Well-equipped laboratories, modern classrooms, seminar halls, computer centers, and digital library with access to global journals and databases.",
+    "Hostels": "Separate hostels for boys and girls with mess, recreation rooms, indoor and outdoor sports facilities.",
+    "Sports": "Facilities for football, cricket, basketball, badminton, table tennis, gymnasium with fitness equipment.",
+    "Medical": "On-call campus medical facility and health center with emergency support.",
+    "Other": "Cafeterias, bank and ATM services, transport, Wi-Fi-enabled campus."
+  },
+  "Faculty": {
+    "Faculty Strength": "Over 200 highly qualified faculty members with PhDs from IITs, IISc, NITs, and reputed global institutions.",
+    "Research": "Faculty engaged in funded research projects in areas like AI, environmental engineering, material science, and renewable energy.",
+    "Student Interaction": "Emphasis on mentorship, workshops, collaborative projects, and interdisciplinary activities."
+  },
+  "Reviews": {
+    "Academic Quality": "Strong curriculum and project-based learning praised.",
+    "Faculty": "Described as approachable, knowledgeable, and innovative.",
+    "Placements": "High employability with good corporate interactions.",
+    "Campus Life": "Active student community with cultural, technical, and social events.",
+    "Infrastructure": "Well maintained with room for improvement in hostels and cafeteria quality."
+  },
+  "Contact": {
+    "Address": "National Institute of Technology Silchar, Assam, India, Pin-788010",
+    "Phone": "+91-384-2409603",
+    "Email": "registrar@nits.ac.in",
+    "Website": "https://www.nits.ac.in"
+  }
+}

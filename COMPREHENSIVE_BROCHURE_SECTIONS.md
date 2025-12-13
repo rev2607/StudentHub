@@ -240,9 +240,13 @@ This ensures that when someone clicks "Download Brochure", they get a COMPLETE, 
 
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
 =======
 >>>>>>> Stashed changes
 
+
+=======
+>>>>>>> Stashed changes
 

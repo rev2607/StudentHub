@@ -1,0 +1,480 @@
+{
+  "Name": "National Institute of Technology Uttarakhand (NIT Uttarakhand)",
+  "Location": {
+    "City": "Srinagar",
+    "District": "Garhwal",
+    "State": "Uttarakhand",
+    "Country": "India",
+    "Pin": "246174",
+    "CampusAreaAcres": 0,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Srinagar Garhwal"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 2011,
+    "OriginalName": "ENIT (Engineering College)",
+    "Renamed": [
+      {
+        "Year": 2016,
+        "Name": "National Institute of Technology Uttarakhand (NIT Uttarakhand)"
+      }
+    ],
+    "HistoricalSignificance": "NIT Uttarakhand (formerly known as ENIT) was established in 2011 and officially recognized as an Institute of National Importance in 2016. Located in Srinagar Garhwal, it aims to provide high-quality technical education and foster regional development through innovative research and industry collaborations."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Autonomous Institute",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "NIT Uttarakhand (formerly known as ENIT) was established in 2011 and officially recognized as an Institute of National Importance in 2016. Located in Srinagar Garhwal, it aims to provide high-quality technical education and foster regional development through innovative research and industry collaborations.",
+    "StudentStrength": "Over 2,000 students",
+    "MajorEvents": [
+      "Technical festivals",
+      "Cultural events",
+      "Sports tournaments"
+    ],
+    "ResearchFocus": [
+      "Sustainable energy",
+      "Environmental management",
+      "Information technology"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "Industry collaborations",
+      "Research partnerships"
+    ],
+    "SocialInitiatives": [
+      "Rural development programs",
+      "Disaster mitigation",
+      "Environmental conservation"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 98,
+      "Engineering": 98,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 98,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Civil Engineering",
+          "Mechanical Engineering",
+          "Electrical Engineering",
+          "Electronics & Communication Engineering",
+          "Computer Science & Engineering",
+          "Environmental Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA Counseling"],
+        "Seats": 280,
+        "FirstYearFeeINR": 112500,
+        "TotalFeesINRApprox": 450000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 0,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CCMT counseling"],
+        "FirstYearFeeINR": 90000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "Not offered"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "GMAT", "MAT", "CMAT", "GD/PI"],
+        "Seats": 0,
+        "FirstYearFeeINR": 60000
+      },
+      "MSc": {
+        "Disciplines": [],
+        "DurationYears": 2,
+        "Entrance": [],
+        "FirstYearFeeINR": 25000,
+        "Seats": 0
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 0,
+        "Entrance": [
+          "GATE",
+          "NET",
+          "Institute entrance exam"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 40000,
+        "SeatsMoreThan": 0
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 50000,
+      "Maximum": 60000,
+      "Note": "Includes mess charges approximately"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": ""
+      },
+      "BDes": {
+        "Exam": "Not offered",
+        "Counseling": ""
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT/GMAT/MAT/CMAT",
+        "AdditionalSelection": ["Group Discussion", "Personal Interview"]
+      },
+      "MSc": {
+        "Exam": []
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "NET", "Institute entrance exam"],
+        "Selection": "Written test/interview",
+        "AdditionalNotes": "Master's in relevant discipline required"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": [],
+      "AdditionalProcess": ""
+    },
+    "ReservationPolicy": "As per Government of India guidelines: SC/ST/OBC/EWS/PwD reservations applicable",
+    "ApplicationMode": "Online through official website and counseling portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [],
+      "Physics": [],
+      "Mathematics": []
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 0,
+      "OBCPercentile": 0,
+      "SCSTPercentileMin": 0
+    },
+    "AdditionalDetails": "Cutoffs vary annually based on JEE Main ranks."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 0,
+      "Recruiters": 0,
+      "HighestPackageINR": 4000000,
+      "HighestDomesticPackageINR": 4000000,
+      "OverallAveragePackageINR": 0,
+      "CSEAveragePackageINR": 0,
+      "ECEAveragePackageINR": 0,
+      "MBA median package INR": 0,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "Tata Steel",
+        "L&T",
+        "Reliance Industries",
+        "Infosys",
+        "TCS"
+      ],
+      "JobProfiles": [
+        "Software Engineer",
+        "Core Engineering",
+        "IT Sector"
+      ],
+      "PlacementPreparation": [
+        "Pre-placement training",
+        "Resume workshops",
+        "Mock interviews"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 0,
+      "Types": [
+        "Boys hostels",
+        "Girls hostels"
+      ],
+      "Amenities": [
+        "Wi-Fi enabled",
+        "Mess facilities",
+        "Common rooms",
+        "Study rooms"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 0,
+      "EJournalsCount": 0,
+      "Features": [
+        "Digital resources",
+        "Reading halls",
+        "24/7 access"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 0,
+      "FocusAreas": [
+        "Computer science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "Environmental"
+      ],
+      "Equipment": [
+        "Modern computer labs",
+        "Advanced workshops",
+        "Research equipment"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Sports complex",
+        "Playground",
+        "Indoor games",
+        "Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Medical center",
+      "Services": [
+        "24/7 medical services",
+        "Emergency care",
+        "General health services"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Mess halls",
+        "Canteens"
+      ],
+      "Services": [
+        "Vegetarian and non-vegetarian options",
+        "Multi-cuisine"
+      ]
+    },
+    "OtherAmenities": [
+      "Conference halls",
+      "Seminar halls",
+      "Auditorium",
+      "Campus Wi-Fi"
+    ],
+    "StudentClubs": {
+      "Number": 0,
+      "Types": [
+        "Technical societies",
+        "Cultural clubs",
+        "Sports clubs"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 6,
+    "DepartmentsList": [
+      "Civil Engineering",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Electronics & Communication Engineering",
+      "Computer Science & Engineering",
+      "Environmental Engineering"
+    ],
+    "ResearchCenters": [
+      "Sustainable energy research",
+      "Environmental management",
+      "Information technology"
+    ],
+    "Strength": {
+      "FacultyCount": 150,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "Industry collaborations",
+      "Research partnerships"
+    ],
+    "FacultyActivities": [
+      "Research publications",
+      "Industry consultancies",
+      "Student mentorship"
+    ],
+    "StudentFeedback": "Faculty highly supportive with strong research credentials"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "SC/ST/PwD tuition exemption",
+      "Merit-based scholarships",
+      "State government scholarships"
+    ],
+    "Coverage": [
+      "Tuition fees",
+      "Hostel fees",
+      "Mess charges"
+    ],
+    "Application": [
+      "Through institute portal",
+      "Based on financial and merit criteria"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 0,
+    "CollegeDuniaReviewsCount": 0,
+    "Careers360Rating": 0,
+    "Strengths": [
+      "Scenic campus location",
+      "Research environment",
+      "Faculty support",
+      "Industry connectivity"
+    ],
+    "Weaknesses": [
+      "Newer institute",
+      "Infrastructure development ongoing"
+    ],
+    "ReturnOnInvestment": "Good ROI with competitive packages and placement rates."
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student body from across India",
+    "CulturalTraditions": [
+      "Cultural festivals",
+      "Technical events"
+    ],
+    "Festivals": [
+      "Technical festivals",
+      "Cultural fests"
+    ],
+    "ClubsAndSocieties": [
+      "Technical societies",
+      "Cultural clubs",
+      "Sports clubs"
+    ],
+    "OutdoorActivities": [
+      "Sports tournaments",
+      "Campus celebrations"
+    ],
+    "StudentGovernance": "Active student bodies",
+    "WellbeingFacilities": [
+      "Medical center",
+      "Sports facilities",
+      "Recreation centers"
+    ],
+    "Community": "Close-knit community with strong campus culture"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 2011,
+    "Founder": "Government of India",
+    "InitialFocus": "Engineering education in Uttarakhand",
+    "Evolution": [
+      "Started as ENIT in 2011",
+      "Recognized as NIT in 2016",
+      "Accorded Institute of National Importance status"
+    ],
+    "Legacy": "Focus on sustainability and eco-friendly technologies",
+    "Heritage": "Strong commitment to regional development and innovation"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Sustainable energy",
+      "Environmental management",
+      "Information technology",
+      "Smart technology development"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Research in sustainable engineering and environmental sciences",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Industry collaborations",
+      "Research partnerships"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": false
+    }
+  },
+  "NewsAndUpdates": [],
+  "OfficialContactInfo": {
+    "Website": "https://www.nituk.ac.in",
+    "Address": "NIT Uttarakhand, Srinagar Garhwal, Uttarakhand",
+    "Phone": "+91-1346-252000",
+    "Emails": {
+      "Registrar": "director@nituk.ac.in",
+      "Admissions": "admission@nituk.ac.in",
+      "PlacementCell": "placement@nituk.ac.in"
+    }
+  }
+}
+
+

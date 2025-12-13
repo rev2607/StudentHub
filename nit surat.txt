@@ -1,0 +1,79 @@
+{
+  "College Name": "Sardar Vallabhbhai National Institute of Technology, Surat (SVNIT Surat)",
+  "Overview": {
+    "Introduction": "Established in 1961, SVNIT Surat is one of the oldest and prestigious National Institutes of Technology in India. It is recognized as an Institute of National Importance and is a significant center for technical education and research in Gujarat.",[1][2]
+    "History": "Originally named Sardar Vallabhbhai Regional College of Engineering & Technology, it was renamed after attaining Deemed University status in 2002 and later recognized as an Institute of National Importance in 2007. The institute has continuously evolved with expansions in academic programs, research, and infrastructure.",[1]
+    "Vision and Mission": "Dedicated to innovation, excellence in teaching, and research, contributing to societal and industrial development with ethical values and sustainability.",[2][1]
+    "Academic Environment": "Offers a multi-disciplinary curriculum across engineering, sciences, management, and architecture with focus on hands-on learning, research, and entrepreneurship. Emphasizes collaboration with industry and international institutions.",
+    "Campus Life": "Dynamic cultural and technical environment including flagship festivals MindBend and Sparsh, active student clubs, sports facilities, and development programs fostering all-round student growth.",
+    "Governance": "Managed by a Director under the guidance of a Board of Governors, with academic Senate steering curriculum and examination standards.",
+    "Infrastructure": "State-of-the-art laboratories, digital library with extensive resources, modern residential and recreational facilities, transport, and health care services."
+  },
+  "Courses and Fee": {
+    "Courses Offered": {
+      "Undergraduate": "B.Tech in multiple disciplines including Civil, Electrical, Mechanical, Metallurgical, Chemical, Computer Science, and Electronics.",
+      "Postgraduate": "M.Tech across 11 specializations, MBA, M.Sc, Ph.D, and B.Arch programs.",
+      "Fee Structure": "B.Tech total fees approx INR 5 Lakhs, Semester tuition fee approx INR 62,500, hostel and mess fees approx INR 30,000 per semester."
+    },
+    "Fee Details": [
+      "| Program | Duration | Tuition/Year (INR) | Hostel/Mess/year (INR) | Total Fees  |",
+      "|---------|----------|-------------------|-----------------------|-------------|",
+      "| B.Tech  | 4 Years  | 1,25,000 approx   | 60,000 approx         | 5,40,000    |",
+      "| M.Tech  | 2 Years  | 70,000 approx     | Included              | ~1,40,000   |",
+      "| MBA     | 2 Years  | 80,000 approx     | Included              | ~1,60,000   |",
+      "| B.Arch  | 5 Years  | 1,35,000 approx   | Included              | ~6,75,000   |"
+    ]
+  },
+  "Admissions": {
+    "UG Admissions": "Through JEE Main and JoSAA counseling with eligibility criteria as 10+2 science stream with PCM.",
+    "PG Admissions": "M.Tech admission through GATE and CCMT counseling; MBA through CAT; M.Sc through IIT JAM; B.Arch through JEE Paper 2 or DASA scheme.",
+    "Ph.D. Admissions": "Institute level exam and interview; preference for GATE/NET/JRF scores.",
+    "Admission Process": "Entrance exam → Counseling → Document verification → Fee payment → Confirmation."
+  },
+  "Placements": {
+    "Overview": "Strong placement record with 85-90% placement rate in core branches.",
+    "Highest Package": "INR 44 LPA for B.Tech; INR 48.75 LPA for M.Tech.",
+    "Average Package": "Around INR 10-15 LPA for core branches.",
+    "Top Recruiters": ["Google", "Microsoft", "Amazon", "TCS", "L&T", "Reliance"],
+    "Internship": "Robust internships with industry exposure and good stipends."
+  },
+  "Rankings": {
+    "NIRF 2025": "Ranked 66th among engineering institutes nationally.",
+    "Recognition": "Seen as a leading technical institute in Western India."
+  },
+  "Facilities": {
+    "Academic": "Well-equipped labs, seminar halls, templates and computing resources.",
+    "Hostels": "Multiple boys and girls hostels with mess, recreation rooms, and security.",
+    "Sports": "Facilities for cricket, football, badminton, tennis, gym classes.",
+    "Healthcare": "On-campus clinic and emergency medical services.",
+    "Other": "Banking facility, transport, Wi-Fi campus."
+  },
+  "Faculty": {
+    "Profile": "Experienced with majority having PhDs from IITs, IISc, and foreign universities.",
+    "Research": "Active research in emerging technologies, publications, and consultancies."
+  },
+  "Reviews": {
+    "Summary": "Praised for excellent academic environment, strong placements, lively campus life, and effective faculty with some suggestions for infrastructural upgrades."
+  },
+  "Contact": {
+    "Address": "Sardar Vallabhbhai National Institute of Technology, Surat, Gujarat 395007",
+    "Phone": "+91-261-2203223",
+    "Email": "registrar@svnit.ac.in",
+    "Website": "https://www.svnit.ac.in"
+  }
+}
+
+[1](https://en.wikipedia.org/wiki/Sardar_Vallabhbhai_National_Institute_of_Technology,_Surat)
+[2](https://www.svnit.ac.in/web/about-us.php)
+[3](https://www.svnit.ac.in)
+[4](https://www.shiksha.com/college/sardar-vallabhbhai-national-institute-of-technology-surat-24414)
+[5](https://www.careers360.com/university/sardar-vallabhbhai-national-institute-of-technology-surat)
+[6](https://www.collegebatch.com/reviews/31237-sardar-vallabhbhai-national-institute-of-technology-surat)
+[7](https://www.collegepravesh.com/engineering-colleges/nit-surat/)
+[8](https://www.youtube.com/watch?v=x8rbqpvQms0)
+[9](https://collegedunia.com/university/25509-sardar-vallabhbhai-national-institute-of-technology-svnit-surat/reviews)
+[10](https://www.shiksha.com/college/sardar-vallabhbhai-national-institute-of-technology-surat-24414/reviews)
+[11](https://www.reddit.com/r/Btechtards/comments/1keqhxu/nit_surat_college_review_for_incoming_freshmen/)
+[12](https://www.collegedekho.com/colleges/svnit-reviews)
+[13](https://www.colleges18.com/blog/1506-svnit-surat-detailed-review)
+[14](https://www.careers360.com/university/sardar-vallabhbhai-national-institute-of-technology-surat/reviews)

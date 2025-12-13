@@ -208,7 +208,13 @@ const NITAgartalaPage: React.FC = () => {
     { id: "contact", label: "Contact" }
   ];
 
-  const formatCurrency = (amount: number) => {
+  const formatCurrency = (amount: number | undefined | null) => {
+    if (amount === undefined || amount === null) {
+      return "N/A";
+    }
+    if (amount === 0) {
+      return "Free";
+    }
     if (amount >= 10000000) {
       return `₹${(amount / 10000000).toFixed(1)} Cr`;
     } else if (amount >= 100000) {
@@ -600,8 +606,8 @@ const NITAgartalaPage: React.FC = () => {
             <li>• <strong>{collegeData.Name.split('(')[0].trim()} offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and design disciplines.</strong> The institute maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
             <li>• <strong>Undergraduate Programs:</strong> B.Tech ({collegeData.CoursesAndFees.Undergraduate.BTech.Seats} seats, {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.FirstYearFeeINR)}/year), B.Arch ({collegeData.CoursesAndFees.Undergraduate.BArch.Seats} seats, {collegeData.CoursesAndFees.Undergraduate.BArch.FirstYearFeeINR > 0 ? formatCurrency(collegeData.CoursesAndFees.Undergraduate.BArch.FirstYearFeeINR) + '/year' : 'Not offered'}), B.Des ({collegeData.CoursesAndFees.Undergraduate.BDes.Seats} seats, {collegeData.CoursesAndFees.Undergraduate.BDes.FirstYearFeeINR > 0 ? formatCurrency(collegeData.CoursesAndFees.Undergraduate.BDes.FirstYearFeeINR) + '/year' : 'Not offered'}). All programs require competitive entrance examinations with {collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Exam} for B.Tech/B.Arch and {collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BDes.Exam !== 'Not offered' ? 'UCEED' : 'N/A'} for B.Des.</li>
             <li>• <strong>Postgraduate Programs:</strong> M.Tech ({collegeData.CoursesAndFees.Postgraduate.MTech.Specializations} specializations, {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MTech.FirstYearFeeINR)}/year), MBA ({collegeData.CoursesAndFees.Postgraduate.MBA.Seats} seats, {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MBA.FirstYearFeeINR)}/year), M.Sc ({collegeData.CoursesAndFees.Postgraduate.MSc.Seats} seats across {collegeData.CoursesAndFees.Postgraduate.MSc.Disciplines.length} disciplines, {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MSc.FirstYearFeeINR)}/year). Admission through {collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MTechMArchMPlanMDes.Exam}, {collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.Exam}, and {collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MSc.Exam.join(', ')} examinations respectively.</li>
-            <li>• <strong>Doctoral Programs:</strong> PhD ({collegeData.CoursesAndFees.Doctoral.PhD.Programs} programs, {collegeData.CoursesAndFees.Doctoral.PhD.SeatsMoreThan}+ seats, {formatCurrency(collegeData.CoursesAndFees.Doctoral.PhD.FeeINRPerYear)}/year). Duration typically {collegeData.CoursesAndFees.Doctoral.PhD.TypicalDurationYears} years with research focus areas including {collegeData.ResearchAndInnovation.FocusAreas.slice(0, 4).join(', ')}, and more.</li>
-            <li>• <strong>Hostel & Accommodation:</strong> {collegeData.Facilities.Hostels.Number} hostels with modern amenities including {collegeData.Facilities.Hostels.Amenities.slice(0, 4).join(', ')}. Hostel fees range from {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Minimum)} to {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Maximum)} annually ({collegeData.CoursesAndFees.HostelFeeINRAnnual.Note}).</li>
+            <li>• <strong>Doctoral Programs:</strong> PhD ({collegeData.CoursesAndFees.Doctoral.PhD.Programs} programs, {collegeData.CoursesAndFees.Doctoral.PhD.SeatsMoreThan}+ seats, {formatCurrency(collegeData.CoursesAndFees.Doctoral.PhD.FeeINRPerYear)}/year). Duration typically {collegeData.CoursesAndFees.Doctoral.PhD.TypicalDurationYears} years with research focus areas including {(collegeData.ResearchAndInnovation.FocusAreas || []).slice(0, 4).join(', ')}, and more.</li>
+            <li>• <strong>Hostel & Accommodation:</strong> {collegeData.Facilities.Hostels?.Number || 'Multiple'} hostels with modern amenities including {(collegeData.Facilities.Hostels?.Amenities || []).slice(0, 4).join(', ')}. Hostel fees range from {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Minimum)} to {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Maximum)} annually ({collegeData.CoursesAndFees.HostelFeeINRAnnual.Note}).</li>
           </ul>
         </div>
         
@@ -654,7 +660,7 @@ const NITAgartalaPage: React.FC = () => {
               </div>
               <div className="bg-gray-50 rounded-lg p-3">
                 <h5 className="font-medium">Doctoral (PhD)</h5>
-                <p className="text-sm text-gray-700">{collegeData.AdmissionProcessAndEntranceExams.Doctoral.PhD.Exam.slice(0, 3).join(", ")} and others</p>
+                <p className="text-sm text-gray-700">{(collegeData.AdmissionProcessAndEntranceExams.Doctoral?.PhD?.Exam || []).slice(0, 3).join(", ")} and others</p>
               </div>
             </div>
           </div>
@@ -693,7 +699,7 @@ const NITAgartalaPage: React.FC = () => {
           <div>
             <h4 className="font-semibold text-lg mb-3">Top Recruiting Companies</h4>
             <div className="flex flex-wrap gap-2">
-              {collegeData.Placements.Year2024.TopRecruiters.slice(0, 12).map((recruiter: string, index: number) => (
+              {(collegeData.Placements.Year2024.TopRecruiters || []).slice(0, 12).map((recruiter: string, index: number) => (
                 <span key={index} className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
                   {recruiter}
                 </span>
@@ -776,7 +782,7 @@ const NITAgartalaPage: React.FC = () => {
               <div className="bg-blue-50 rounded-lg p-3">
                 <h5 className="font-medium">Hostel Facilities</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-                  <div><span className="font-medium">{collegeData.Facilities.Hostels.Number} hostels</span> with {collegeData.Facilities.Hostels.Types.join(", ")} options</div>
+                  <div><span className="font-medium">{collegeData.Facilities.Hostels?.Number || 'Multiple'} hostels</span> with {(collegeData.Facilities.Hostels?.Types || []).join(", ")} options</div>
                   <div>Amenities: Wi-Fi, Study Rooms, Mess Halls, Recreation Areas</div>
                 </div>
               </div>
@@ -795,7 +801,7 @@ const NITAgartalaPage: React.FC = () => {
               <div className="bg-yellow-50 rounded-lg p-3">
                 <h5 className="font-medium">Library - {collegeData.Facilities.Library.Name}</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-                  <div><span className="font-medium">{collegeData.Facilities.Library.BookCount.toLocaleString()} books</span> and {collegeData.Facilities.Library.EJournalsCount.toLocaleString()} e-journals</div>
+                  <div><span className="font-medium">{collegeData.Facilities.Library.BookCount ? collegeData.Facilities.Library.BookCount.toLocaleString() : 'Extensive'} books</span> and {collegeData.Facilities.Library.EJournalsCount ? collegeData.Facilities.Library.EJournalsCount.toLocaleString() : 'Multiple'} e-journals</div>
                   <div>24/7 access with digital resources and group study zones</div>
                 </div>
               </div>
@@ -814,7 +820,7 @@ const NITAgartalaPage: React.FC = () => {
           <div className="grid md:grid-cols-2 gap-4">
             <div>
               <div className="text-sm text-gray-700 space-y-1">
-                {collegeData.Facilities.SportsFacilities.Features.map((facility: string, index: number) => (
+                {(collegeData.Facilities.SportsFacilities?.Features || (collegeData.Facilities as any).Sports?.Facilities || []).map((facility: string, index: number) => (
                   <div key={index} className="flex items-center">
                     <ChevronRight className="w-4 h-4 mr-2 text-green-600" />
                     {facility}
@@ -863,7 +869,7 @@ const NITAgartalaPage: React.FC = () => {
           <div>
             <h4 className="font-semibold text-lg mb-3">Key Departments</h4>
             <div className="grid grid-cols-2 gap-2 text-sm">
-              {collegeData.FacultyAndDepartments.DepartmentsList.slice(0, 8).map((dept: string, index: number) => (
+              {(collegeData.FacultyAndDepartments.DepartmentsList || (collegeData.FacultyAndDepartments as any).Departments || []).slice(0, 8).map((dept: string, index: number) => (
                 <div key={index} className="flex items-center">
                   <ChevronRight className="w-3 h-3 mr-1 text-blue-600" />
                   {dept}
@@ -919,13 +925,13 @@ const NITAgartalaPage: React.FC = () => {
               <div className="bg-blue-50 rounded-lg p-3">
                 <h5 className="font-medium">Active Organizations</h5>
                 <div className="text-sm text-gray-700">
-                  <span className="font-medium">{collegeData.Facilities.StudentClubs.Number} clubs</span> across technical, cultural, entrepreneurship, and social service domains
+                  <span className="font-medium">{collegeData.Facilities.StudentClubs?.Number || collegeData.StudentLifeAndLifestyle?.ClubsAndSocieties?.length || 'Multiple'} clubs</span> across technical, cultural, entrepreneurship, and social service domains
                 </div>
               </div>
               <div className="bg-green-50 rounded-lg p-3">
                 <h5 className="font-medium">Key Clubs</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-                  {collegeData.StudentLifeAndLifestyle.ClubsAndSocieties.slice(0, 4).map((club: string, index: number) => (
+                  {(collegeData.StudentLifeAndLifestyle.ClubsAndSocieties || []).slice(0, 4).map((club: string, index: number) => (
                     <div key={index}>• {club}</div>
                   ))}
                 </div>
@@ -1194,7 +1200,7 @@ const NITAgartalaPage: React.FC = () => {
             </div>
             <div>
               <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-              <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Doctoral.PhD.Entrance.slice(0, 3).join(", ")}...</p>
+              <p className="text-sm text-gray-700">{(collegeData.CoursesAndFees.Doctoral?.PhD?.Entrance || []).slice(0, 3).join(", ")}...</p>
             </div>
             <p className="text-gray-700 mt-3">
               Doctoral scholars work with faculty on sponsored projects, publish in reputed venues, and often collaborate
@@ -1392,7 +1398,7 @@ const NITAgartalaPage: React.FC = () => {
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">PhD</td>
-                <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Doctoral.PhD.Exam.slice(0,3).join(', ')}...</td>
+                <td className="py-2 pr-4">{(collegeData.AdmissionProcessAndEntranceExams.Doctoral?.PhD?.Exam || []).slice(0,3).join(', ')}...</td>
                 <td className="py-2 pr-4">Interview + Research Proposal</td>
                 <td className="py-2">Departmental shortlisting</td>
               </tr>
@@ -1487,7 +1493,7 @@ const NITAgartalaPage: React.FC = () => {
           <div>
             <h4 className="text-lg font-medium mb-3">Other Program Cutoffs</h4>
             <div className="grid md:grid-cols-2 gap-4">
-              <InfoCard label="B.Arch (AAT Closing Rank)" value={collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString()} />
+              <InfoCard label="B.Arch (AAT Closing Rank)" value={collegeData.CutoffInformation.BArchAAT2025ClosingRank ? collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString() : 'N/A'} />
               <InfoCard label="B.Des General" value={collegeData.CutoffInformation.BDesUCEED2025ClosingRanks.General} />
               <InfoCard label="B.Des OBC" value={collegeData.CutoffInformation.BDesUCEED2025ClosingRanks.OBC} />
             </div>
@@ -1757,7 +1763,7 @@ const NITAgartalaPage: React.FC = () => {
           <h4 className="text-lg font-medium mb-3">Top Recruiters</h4>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="space-y-2">
-              {collegeData.Placements.Year2024.TopRecruiters.slice(0, 9).map((recruiter: string, index: number) => (
+              {(collegeData.Placements.Year2024.TopRecruiters || []).slice(0, 9).map((recruiter: string, index: number) => (
                 <div key={index} className="flex items-center text-sm">
                   <ChevronRight className="w-4 h-4 mr-2 text-blue-600" />
                   {recruiter}
@@ -1765,7 +1771,7 @@ const NITAgartalaPage: React.FC = () => {
               ))}
             </div>
             <div className="space-y-2">
-              {collegeData.Placements.Year2024.TopRecruiters.slice(9).map((recruiter: string, index: number) => (
+              {(collegeData.Placements.Year2024.TopRecruiters || []).slice(9).map((recruiter: string, index: number) => (
                 <div key={index} className="flex items-center text-sm">
                   <ChevronRight className="w-4 h-4 mr-2 text-blue-600" />
                   {recruiter}
@@ -2084,7 +2090,7 @@ const NITAgartalaPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mb-2">Hostel and Residential Life</h4>
         <p className="text-gray-700 mb-3">
-          With <strong>{collegeData.Facilities.Hostels.Number} hostels</strong> for diverse needs, residences feature {collegeData.Facilities.Hostels.Amenities.slice(0, 4).join(', ')},
+          With <strong>{collegeData.Facilities.Hostels?.Number || 'Multiple'} hostels</strong> for diverse needs, residences feature {(collegeData.Facilities.Hostels?.Amenities || []).slice(0, 4).join(', ')},
           nutritious messes, student‑run quality committees, laundry, 24×7 water, and medical assistance. Cultural nights
           and inter‑hostel events create a vibrant community.
         </p>
@@ -2180,12 +2186,12 @@ const NITAgartalaPage: React.FC = () => {
               <tr>
                 <td className="py-2 pr-4 font-medium">Hostels</td>
                 <td className="py-2 pr-4">Wi‑Fi, study rooms, recreation</td>
-                <td className="py-2">{collegeData.Facilities.Hostels.Number} hostels</td>
+                <td className="py-2">{collegeData.Facilities.Hostels?.Number || 'Multiple'} hostels</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Library</td>
                 <td className="py-2 pr-4">24/7 access, digital resources</td>
-                <td className="py-2">{collegeData.Facilities.Library.BookCount.toLocaleString()} books, {collegeData.Facilities.Library.EJournalsCount.toLocaleString()} e‑journals</td>
+                <td className="py-2">{collegeData.Facilities.Library.BookCount ? collegeData.Facilities.Library.BookCount.toLocaleString() : 'Extensive'} books, {collegeData.Facilities.Library.EJournalsCount ? collegeData.Facilities.Library.EJournalsCount.toLocaleString() : 'Multiple'} e‑journals</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Labs</td>
@@ -2200,11 +2206,11 @@ const NITAgartalaPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel Facilities</h3>
         <p className="text-gray-700 mb-3">
-          Residential life anchors the {collegeData.Name.split('(')[0].trim()} experience. With {collegeData.Facilities.Hostels.Number} hostels spanning {collegeData.Facilities.Hostels.Types.join(', ')}, students find a safe, connected environment. {collegeData.Facilities.Hostels.Amenities.slice(0, 3).join(', ')} and student‑run mess committees support academic focus and community bonding in equal measure.
+          Residential life anchors the {collegeData.Name.split('(')[0].trim()} experience. With {collegeData.Facilities.Hostels?.Number || 'Multiple'} hostels spanning {(collegeData.Facilities.Hostels?.Types || []).join(', ')}, students find a safe, connected environment. {(collegeData.Facilities.Hostels?.Amenities || []).slice(0, 3).join(', ')} and student‑run mess committees support academic focus and community bonding in equal measure.
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <InfoCard label="Number of Hostels" value={collegeData.Facilities.Hostels.Number} />
+            <InfoCard label="Number of Hostels" value={collegeData.Facilities.Hostels?.Number || 'Multiple'} />
             <div className="mt-3">
               <h4 className="font-medium mb-2">Hostel Types</h4>
               <div className="flex flex-wrap gap-2">
@@ -2239,15 +2245,18 @@ const NITAgartalaPage: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-6">
           <div className="space-y-3">
             <InfoCard label="Name" value={collegeData.Facilities.Library.Name} />
-            <InfoCard label="Area" value={`${collegeData.Facilities.Library.AreaSqFt.toLocaleString()} sq ft`} />
-            <InfoCard label="Books" value={`${collegeData.Facilities.Library.BookCount.toLocaleString()}`} />
-            <InfoCard label="E-Journals" value={`${collegeData.Facilities.Library.EJournalsCount.toLocaleString()}`} />
+            <InfoCard label="Area" value={collegeData.Facilities.Library.AreaSqFt ? `${collegeData.Facilities.Library.AreaSqFt.toLocaleString()} sq ft` : 'N/A'} />
+            <InfoCard label="Books" value={collegeData.Facilities.Library.BookCount ? `${collegeData.Facilities.Library.BookCount.toLocaleString()}` : 'Extensive collection'} />
+            <InfoCard label="E-Journals" value={collegeData.Facilities.Library.EJournalsCount ? `${collegeData.Facilities.Library.EJournalsCount.toLocaleString()}` : 'Multiple'} />
           </div>
           
           <div>
             <h4 className="font-medium mb-2">Features</h4>
             <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-              {collegeData.Facilities.Library.Features.map((feature: string, index: number) => (
+              {(collegeData.Facilities.Library.Features || [
+                (collegeData.Facilities.Library as any).Books || "Extensive collection",
+                (collegeData.Facilities.Library as any).DigitalResources || "E-books, journals, databases"
+              ]).map((feature: string, index: number) => (
                 <li key={index}>{feature}</li>
               ))}
             </ul>
@@ -2299,7 +2308,7 @@ const NITAgartalaPage: React.FC = () => {
           Wellness programs at the Gym & Yoga Center build lifelong fitness habits.
         </p>
         <div className="grid md:grid-cols-2 gap-4">
-          {collegeData.Facilities.SportsFacilities.Features.map((facility: string, index: number) => (
+          {(collegeData.Facilities.SportsFacilities?.Features || (collegeData.Facilities as any).Sports?.Facilities || []).map((facility: string, index: number) => (
             <div key={index} className="flex items-center text-sm">
               <ChevronRight className="w-4 h-4 mr-2 text-green-600" />
               {facility}
@@ -2359,7 +2368,7 @@ const NITAgartalaPage: React.FC = () => {
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <InfoCard label="Total Clubs" value={collegeData.Facilities.StudentClubs.Number} />
+            <InfoCard label="Total Clubs" value={collegeData.Facilities.StudentClubs?.Number || collegeData.StudentLifeAndLifestyle?.ClubsAndSocieties?.length || 'Multiple'} />
           </div>
           
           <div>
@@ -2392,7 +2401,7 @@ const NITAgartalaPage: React.FC = () => {
           Centers of excellence and specialized laboratories connect departments and international partners. In 2024, the
           institute secured <strong>{formatCurrency(collegeData.FacultyAndDepartments.Strength.ResearchFundsINR2024)}</strong> in research funding, underscoring its prominence as an R&amp;D
           collaborator. Projects frequently link core disciplines with new‑age areas such
-          as {collegeData.ResearchAndInnovation.FocusAreas.slice(0, 3).join(', ')}. Faculty publish in high‑impact venues and hold fellowships. <strong>{collegeData.FacultyAndDepartments.Strength.Patents2024 > 0 ? collegeData.FacultyAndDepartments.Strength.Patents2024 : 'Multiple'}
+          as {(collegeData.ResearchAndInnovation.FocusAreas || []).slice(0, 3).join(', ')}. Faculty publish in high‑impact venues and hold fellowships. <strong>{collegeData.FacultyAndDepartments.Strength.Patents2024 > 0 ? collegeData.FacultyAndDepartments.Strength.Patents2024 : 'Multiple'}
           patents</strong> were filed in 2024, translating fundamental research into deployable technologies.
         </p>
 

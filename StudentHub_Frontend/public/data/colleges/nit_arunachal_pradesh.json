@@ -1,0 +1,475 @@
+{
+  "Name": "National Institute of Technology Arunachal Pradesh (NIT Arunachal Pradesh)",
+  "Location": {
+    "City": "Jote",
+    "District": "Papum Pare",
+    "State": "Arunachal Pradesh",
+    "Country": "India",
+    "Pin": "791113",
+    "CampusAreaAcres": 0,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Jote, Itanagar"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 2010,
+    "OriginalName": "NIT Arunachal Pradesh",
+    "Renamed": [],
+    "HistoricalSignificance": "NIT Arunachal Pradesh started functioning in a temporary campus before shifting to its permanent campus in Jote. It was among ten new NITs announced by the government in 2010 to ensure each Indian state has its own NIT. The institute focuses on providing quality technical education and research opportunities while supporting regional development."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Autonomous Institute",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "National Institute of Technology Arunachal Pradesh (NIT Arunachal Pradesh or NITAP) is a public technical and research institution located at Jote near Itanagar, the capital of Arunachal Pradesh. It was established in 2010 and is recognized as an Institute of National Importance.",
+    "StudentStrength": "Over 1,500 students",
+    "MajorEvents": [
+      "Technical festivals",
+      "Cultural events",
+      "Sports tournaments"
+    ],
+    "ResearchFocus": [
+      "Renewable energy",
+      "Fluid dynamics",
+      "Biomaterials",
+      "Computer science",
+      "Management systems"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "Research partnerships"
+    ],
+    "SocialInitiatives": [
+      "Regional technology needs",
+      "Social welfare programs"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 125,
+      "Engineering": 125,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 125,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science & Engineering",
+          "Electronics & Communication Engineering",
+          "Electrical Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA Counseling"],
+        "Seats": 0,
+        "FirstYearFeeINR": 129500,
+        "TotalFeesINRApprox": 518000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 0,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CCMT counseling"],
+        "FirstYearFeeINR": 79000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "Not offered"
+      },
+      "MBA": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0
+      },
+      "MSc": {
+        "Disciplines": [],
+        "DurationYears": 2,
+        "Entrance": [],
+        "FirstYearFeeINR": 0,
+        "Seats": 0
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 0,
+        "Entrance": [
+          "GATE",
+          "NET",
+          "Institute entrance exam"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 0,
+        "SeatsMoreThan": 0
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 0,
+      "Maximum": 0,
+      "Note": "Included in fees"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": ""
+      },
+      "BDes": {
+        "Exam": "Not offered",
+        "Counseling": ""
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "",
+        "AdditionalSelection": []
+      },
+      "MSc": {
+        "Exam": []
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "NET", "Institute entrance exam"],
+        "Selection": "Written test/interview",
+        "AdditionalNotes": "Master's in relevant discipline required"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": [],
+      "AdditionalProcess": ""
+    },
+    "ReservationPolicy": "As per Government of India guidelines: SC/ST/OBC/EWS/PwD reservations applicable",
+    "ApplicationMode": "Online through official website and counseling portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [],
+      "Physics": [],
+      "Mathematics": []
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 0,
+      "OBCPercentile": 0,
+      "SCSTPercentileMin": 0
+    },
+    "AdditionalDetails": "Cutoffs vary annually based on JEE Main ranks."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 0,
+      "Recruiters": 0,
+      "HighestPackageINR": 1900000,
+      "HighestDomesticPackageINR": 1900000,
+      "OverallAveragePackageINR": 800000,
+      "CSEAveragePackageINR": 0,
+      "ECEAveragePackageINR": 0,
+      "MBA median package INR": 0,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "TCS",
+        "Infosys",
+        "Deloitte",
+        "Samsung",
+        "Capgemini"
+      ],
+      "JobProfiles": [
+        "Software Engineer",
+        "IT Sector",
+        "Core Engineering"
+      ],
+      "PlacementPreparation": [
+        "Pre-placement training",
+        "Resume workshops",
+        "Mock interviews"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 0,
+      "Types": [
+        "Boys hostels",
+        "Girls hostels"
+      ],
+      "Amenities": [
+        "Wi-Fi enabled",
+        "Mess facilities",
+        "Common rooms",
+        "Study rooms"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 0,
+      "EJournalsCount": 0,
+      "Features": [
+        "Digital resources",
+        "Reading halls",
+        "24/7 access"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 0,
+      "FocusAreas": [
+        "Computer science",
+        "Electronics",
+        "Mechanical",
+        "Civil"
+      ],
+      "Equipment": [
+        "Modern computer labs",
+        "Advanced workshops",
+        "Research equipment"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Sports complex",
+        "Playground",
+        "Gymnasium",
+        "Indoor games"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Medical center",
+      "Services": [
+        "24/7 medical services",
+        "Emergency care",
+        "General health services"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Mess halls",
+        "Canteens"
+      ],
+      "Services": [
+        "Vegetarian and non-vegetarian options",
+        "Multi-cuisine"
+      ]
+    },
+    "OtherAmenities": [
+      "Computer center",
+      "Seminar halls",
+      "Auditorium",
+      "Campus Wi-Fi"
+    ],
+    "StudentClubs": {
+      "Number": 0,
+      "Types": [
+        "Technical societies",
+        "Cultural clubs",
+        "Sports clubs"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 9,
+    "DepartmentsList": [
+      "Computer Science & Engineering",
+      "Electronics & Communication Engineering",
+      "Electrical Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering"
+    ],
+    "ResearchCenters": [
+      "Renewable energy research",
+      "Fluid dynamics",
+      "Biomaterials",
+      "Computer science",
+      "Management systems"
+    ],
+    "Strength": {
+      "FacultyCount": 0,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "Research partnerships"
+    ],
+    "FacultyActivities": [
+      "Research publications",
+      "Student mentorship"
+    ],
+    "StudentFeedback": "Faculty praised for approachability, curriculum relevance, and research focus"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "SC/ST/PwD tuition exemption",
+      "Merit-based scholarships",
+      "Fee waivers for economically disadvantaged"
+    ],
+    "Coverage": [
+      "Tuition fees",
+      "Hostel fees",
+      "Mess charges"
+    ],
+    "Application": [
+      "Through institute portal",
+      "Based on financial and merit criteria"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 0,
+    "CollegeDuniaReviewsCount": 0,
+    "Careers360Rating": 0,
+    "Strengths": [
+      "Eco-friendly campus",
+      "Modern infrastructure",
+      "Faculty approachability",
+      "Research focus"
+    ],
+    "Weaknesses": [
+      "Newer institute",
+      "Infrastructure constraints",
+      "Moderate hostel food quality"
+    ],
+    "ReturnOnInvestment": "Good ROI with improving placement rates."
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student body from across India",
+    "CulturalTraditions": [
+      "Cultural festivals",
+      "Technical events"
+    ],
+    "Festivals": [
+      "Technical festivals",
+      "Cultural fests"
+    ],
+    "ClubsAndSocieties": [
+      "Technical societies",
+      "Cultural clubs",
+      "Sports clubs"
+    ],
+    "OutdoorActivities": [
+      "Sports tournaments",
+      "Campus celebrations"
+    ],
+    "StudentGovernance": "Active student bodies",
+    "WellbeingFacilities": [
+      "Medical center",
+      "Sports facilities",
+      "Recreation centers"
+    ],
+    "Community": "Proactive campus life with strong community"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 2010,
+    "Founder": "Government of India",
+    "InitialFocus": "Engineering education in Arunachal Pradesh",
+    "Evolution": [
+      "Established in 2010",
+      "Among ten new NITs",
+      "Accorded Institute of National Importance status"
+    ],
+    "Legacy": "Focus on northeastern India's technical education needs",
+    "Heritage": "Strong commitment to regional development"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Renewable energy",
+      "Fluid dynamics",
+      "Biomaterials",
+      "Computer science",
+      "Management systems",
+      "Nanomaterials",
+      "Biopolymers"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Research in renewable energy and biomaterials",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Research partnerships"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": false
+    }
+  },
+  "NewsAndUpdates": [],
+  "OfficialContactInfo": {
+    "Website": "https://www.nitap.ac.in",
+    "Address": "NIT Arunachal Pradesh, Jote, Papum Pare District, Arunachal Pradesh, India",
+    "Phone": "+91-360-2259030",
+    "Emails": {
+      "Registrar": "registrar@nitap.ac.in",
+      "Admissions": "admission@nitap.ac.in",
+      "PlacementCell": "placement@nitap.ac.in"
+    }
+  }
+}
+
+

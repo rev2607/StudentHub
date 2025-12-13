@@ -1,0 +1,548 @@
+{
+  "Name": "National Institute of Technology Puducherry (NIT Puducherry)",
+  "Location": {
+    "City": "Karaikal",
+    "District": "Karaikal",
+    "State": "Puducherry",
+    "Country": "India",
+    "Pin": "609609",
+    "CampusAreaAcres": 258,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Karaikal, Puducherry"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 2010,
+    "OriginalName": "National Institute of Technology Puducherry",
+    "Renamed": [],
+    "HistoricalSignificance": "Established as part of the government's plan to spread technical education across India, NIT Puducherry has developed modern facilities and academic programs adhering to national standards in the union territory of Puducherry."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "National Institute of Technology Puducherry (NIT Puducherry), established in 2010, is a centrally funded technical university located in Karaikal, Puducherry. It is an Institute of National Importance offering courses in engineering, science, and management disciplines.",
+    "StudentStrength": "Over 1,500 students including international nationals",
+    "MajorEvents": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports events"
+    ],
+    "ResearchFocus": [
+      "Advanced Technologies",
+      "Industry Collaboration",
+      "Regional Development",
+      "Sustainable Engineering"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities"
+    ],
+    "SocialInitiatives": [
+      "Outreach programs",
+      "Technical training workshops",
+      "Environmental projects",
+      "Community development"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 192,
+      "Engineering": 192,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 192,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Electronics and Communication Engineering",
+          "Electrical and Electronics Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA counseling"],
+        "Seats": 300,
+        "FirstYearFeeINR": 161250,
+        "TotalFeesINRApprox": 645000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 10,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CCMT"],
+        "FirstYearFeeINR": 100000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "N/A"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "GMAT"],
+        "Seats": 30,
+        "FirstYearFeeINR": 120000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["JAM"],
+        "FirstYearFeeINR": 80000,
+        "Seats": 30
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 8,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 50000,
+        "SeatsMoreThan": 50
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 50000,
+      "Maximum": 50000,
+      "Note": "Approximate hostel and mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": ""
+      },
+      "BDes": {
+        "Exam": "",
+        "Counseling": ""
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT",
+        "AdditionalProcesses": "Institute procedures"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["GD", "PI"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "JEEMain2025": {
+      "BTechCSEClosingRank": 20000,
+      "ECEClosingRank": 25000,
+      "MechEngClosingRank": 30000,
+      "ElectEngClosingRank": 28000,
+      "CivilEngClosingRank": 35000
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Physics": [0, 0],
+      "Chemistry": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 75,
+      "OBCPercentile": 65,
+      "SCSTPercentileMin": 55
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories with multiple rounds of JoSAA counselling."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 200,
+      "Recruiters": 50,
+      "HighestPackageINR": 3500000,
+      "HighestDomesticPackageINR": 3500000,
+      "OverallAveragePackageINR": 750000,
+      "CSEAveragePackageINR": 900000,
+      "ECEAveragePackageINR": 800000,
+      "MBA median package INR": 600000,
+      "PPOs": 20,
+      "TopRecruiters": [
+        "Amazon",
+        "Infosys",
+        "L&T",
+        "TCS",
+        "Accenture",
+        "Wipro",
+        "HCL",
+        "Tech Mahindra",
+        "Capgemini"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Analyst",
+        "Associate Engineer",
+        "Consultant",
+        "R&D Engineer",
+        "Process Engineer"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Technical seminars",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 4,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Rooms"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 25000,
+      "EJournalsCount": 2000,
+      "Features": [
+        "Digital resources",
+        "24/7 access",
+        "Group study zones",
+        "Computer terminals"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 30,
+      "FocusAreas": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Civil",
+        "Electrical"
+      ],
+      "Equipment": [
+        "State-of-the-art instruments",
+        "Advanced computing facilities",
+        "Modern fabrication equipment"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Cricket Ground",
+        "Football Ground",
+        "Tennis Courts",
+        "Basketball Courts",
+        "Volleyball Courts",
+        "Badminton Courts",
+        "Indoor Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "NIT Puducherry Medical Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "24/7 doctor services",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Food courts",
+        "Cafeterias"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Regional cuisines",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Guest Houses",
+      "Banks and ATMs",
+      "Post Office",
+      "Shopping Complex",
+      "Places of Worship",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 20,
+      "Types": [
+        "Technical (Coding, IEEE)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Photography",
+        "Quizzing"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 7,
+    "DepartmentsList": [
+      "Computer Science and Engineering",
+      "Electronics and Communication Engineering",
+      "Electrical and Electronics Engineering",
+      "Mechanical Engineering",
+      "Civil Engineering",
+      "Chemistry",
+      "Humanities and Social Sciences"
+    ],
+    "ResearchCenters": [
+      "Centre for Advanced Research",
+      "Centre for Industry Collaboration"
+    ],
+    "Strength": {
+      "FacultyCount": 80,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Government ministries",
+      "Private industries"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry consultancy"
+    ],
+    "StudentFeedback": "Faculty with doctoral qualifications from reputed institutes, engaged in research, teaching, and community service"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "SC/ST/PwD Fee Concessions",
+      "EWS Tuition Fee Waiver",
+      "Income-based fee waivers",
+      "Merit-cum-means scholarships",
+      "GATE/NET Fellowships",
+      "Research Fellowships",
+      "National Scholarship Portal schemes"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Support",
+      "Monthly Stipends",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.2,
+    "CollegeDuniaReviewsCount": 200,
+    "Careers360Rating": 4.1,
+    "Strengths": [
+      "Young but rapidly growing institute",
+      "Beautiful location in Puducherry",
+      "Strong regional significance",
+      "Focused on fostering research and innovation",
+      "Coherent blend of academics and extracurricular activities",
+      "Personalized attention from faculty",
+      "Growing placement opportunities"
+    ],
+    "Weaknesses": [
+      "Competitive admissions",
+      "Academic pressure",
+      "Limited infrastructure compared to older NITs"
+    ],
+    "ReturnOnInvestment": "Good"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India",
+    "CulturalTraditions": [
+      "Technical festival traditions",
+      "Cultural festival heritage",
+      "Sports events",
+      "Inter-hostel competitions"
+    ],
+    "Festivals": [
+      "Technical Festival",
+      "Cultural Festival",
+      "Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Coding (IEEE)",
+      "Science and Technology Council",
+      "Cultural Council",
+      "Sports Council",
+      "Music & Dance",
+      "Drama",
+      "Photography",
+      "Quizzing"
+    ],
+    "OutdoorActivities": [
+      "Sports activities",
+      "Cultural exploration",
+      "Community engagement",
+      "Nature activities"
+    ],
+    "StudentGovernance": "Student Councils and representative bodies",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Sports Facilities",
+      "Medical facilities",
+      "Counseling Services"
+    ],
+    "Community": "Active student community with cultural fests, technical events, sports, and student clubs. Hostels and amenities contribute to a supportive environment in the scenic location of Puducherry."
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 2010,
+    "Founder": "Government of India",
+    "InitialFocus": "Spread technical education across India",
+    "Evolution": [
+      "2010: Established as National Institute of Technology Puducherry",
+      "Developed modern facilities and academic programs adhering to national standards"
+    ],
+    "Legacy": "Young but rapidly growing institute with strong regional significance",
+    "Heritage": "Part of the government's plan to spread technical education across India, located in the union territory of Puducherry"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Advanced Technologies",
+      "Industry Collaboration",
+      "Regional Development",
+      "Sustainable Engineering"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Research initiatives involve collaborations with industries and higher education institutions focusing on advanced technologies and sustainable engineering",
+    "Startups": {
+      "Number": 5,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Regional industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "NIT Puducherry Admissions 2025-26",
+      "Date": "2025-09-01",
+      "Details": "Admissions open for various programs"
+    },
+    {
+      "Event": "Technical Festival 2025",
+      "StartDate": "2025-03-15",
+      "EndDate": "2025-03-19",
+      "Theme": "Technical festival"
+    },
+    {
+      "Event": "Cultural Festival 2025",
+      "StartDate": "2025-10-05",
+      "EndDate": "2025-10-09",
+      "Theme": "Cultural festival"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.nitpy.ac.in",
+    "Address": "National Institute of Technology Puducherry, Karaikal, Puducherry-609609",
+    "Phone": "+91-4368-265123",
+    "Emails": {
+      "Registrar": "registrar@nitpy.ac.in",
+      "Admissions": "admissions@nitpy.ac.in",
+      "PlacementCell": "placement@nitpy.ac.in"
+    }
+  }
+}
+

@@ -1,0 +1,103 @@
+{
+  "College Name": "NIT Arunachal Pradesh",
+  "Overview": {
+    "Introduction": "National Institute of Technology Arunachal Pradesh (NIT Arunachal Pradesh or NITAP) is a public technical and research institution located at Jote near Itanagar, the capital of Arunachal Pradesh. It was established in 2010 and is recognized as an Institute of National Importance.",[1][2]
+    "Historical Narrative": "NIT Arunachal Pradesh started functioning in a temporary campus before shifting to its permanent campus in Jote. It was among ten new NITs announced by the government in 2010 to ensure each Indian state has its own NIT. The institute focuses on providing quality technical education and research opportunities while supporting regional development.",[3]
+    "Vision and Mission": "NITAP aims to be a center of academic excellence and research fostering technology, innovation, and sustainable development for social welfare and regional progress.",[4]
+    "Academic Structure": "It offers undergraduate B.Tech programs, postgraduate M.Tech and M.Sc programs, as well as Ph.D. research across 9 departments encompassing engineering, basic sciences, and management.",[5][1]
+    "Student Life": "The campus hosts a vibrant student community involved in technical and cultural festivals, sports, and entrepreneurship activities. Hostel and recreational facilities foster holistic development.",[6][7]
+    "Diversity": "Students from across India and abroad contribute to a multicultural academic environment.",
+    "Research and Innovation": "NITAP promotes interdisciplinary research in key areas like renewable energy, fluid dynamics, biomaterials, computer science, and management systems, supported by advanced laboratories.",[8]
+    "Community Engagement": "The institute conducts outreach and extension activities addressing regional technology needs and social welfare.",
+    "Governance": "Governed by a Board of Governors with the Director handling day-to-day operations, under the Ministry of Education.",[1]
+    "Unique Features": [
+      "Newly established NIT focusing on regional upliftment",
+      "Eco-friendly campus with modern infrastructure",
+      "Emerging research excellence",
+      "Focus on northeastern India's technical education needs"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      "B.Tech in 8 engineering and science branches",
+      "M.Tech in multiple specializations",
+      "M.Sc in sciences",
+      "Ph.D. research in engineering and sciences"
+    ],
+    "Fee Structure": {
+      "B.Tech": "Approx INR 5.18 Lakhs total over 4 years",
+      "M.Tech": "Approx INR 1.58 Lakhs for complete course",
+      "Other Fees": "Includes hostel, mess, and miscellaneous charges",
+      "Fee Table": [
+        "| Program  | Total Fee (INR) | Duration |",
+        "|----------|-----------------|----------|",
+        "| B.Tech   | 5,18,000        | 4 years  |",
+        "| M.Tech   | 1,58,000        | 2 years  |"
+      ],
+      "Scholarships": "Fee waivers available for SC/ST/PwD and economically disadvantaged students."
+    }
+  },
+  "Admissions": {
+    "Overview": "Admissions are conducted via national entrance exams—JEE Main for UG, GATE for PG, and institute-specific tests for Ph.D., followed by centralized counselling.",[9]
+    "Process": [
+      "Appear for relevant entrance exams",
+      "Participate in JoSAA or CCMT counselling",
+      "Undergo document verification and fee submission"
+    ],
+    "Eligibility": "Minimal academic qualifications as per national standards and entrance exam results."
+  },
+  "Placements": {
+    "Placement Rate": "Between 60-73% in recent years with growing industry participation.",[10][11]
+    "Highest Package": "INR 19 LPA",
+    "Average Package": "Between INR 6 to 10 LPA",
+    "Top Recruiters": ["TCS", "Infosys", "Deloitte", "Samsung", "Capgemini"],
+    "Internships": "Students participate in summer internships with stipends up to INR 75,000 per month."
+  },
+  "Rankings": {
+    "NIRF 2025": "Ranked in 100-150 band in Engineering category.",
+    "Additional Recognition": "Improving rankings year by year reflecting growth and quality."
+  },
+  "Facilities": {
+    "Campus Features": "Fully residential campus with boys and girls hostels, mess, digital library, computer center, medical facilities, sports infrastructure including playgrounds and gymnasium.",[6]
+    "Technology": "Campus-wide Wi-Fi, LAN, modern laboratories equipped with latest instruments."
+  },
+  "Faculty": {
+    "Details": "Faculty members experienced in teaching and research, qualified with doctorates from reputed institutions.",[12]
+    "Research Areas": "Nanomaterials, Fluid dynamics, Renewable energy, Biopolymers, Biomaterials."
+  },
+  "Reviews": {
+    "Student Feedback": "Faculty praised for approachability, curriculum relevance, and research focus. Campus life is proactive with moderate hostel food quality and occasional infrastructure constraints."[13]
+  },
+  "Contact": {
+    "Address": "NIT Arunachal Pradesh, Jote, Papum Pare District, Arunachal Pradesh, India",
+    "Phone": "+91-360-2259030",
+    "Email": "registrar@nitap.ac.in",
+    "Website": "https://www.nitap.ac.in",
+    "Social Media": {
+      "Facebook": "facebook.com/NITArunachalPradesh",
+      "Twitter": "twitter.com/NIT_AP",
+      "LinkedIn": "linkedin.com/school/nit-arunachal-pradesh"sh"
+    }
+  }
+}
+
+[1](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Arunachal_Pradesh)
+[2](https://www.nitap.ac.in)
+[3](https://nitap.ac.in/page_details?name=Establishment-of-NIT%2C-AP&page=0c4671b5bd)
+[4](https://josaa.admissions.nic.in/applicant/seatmatrix/InstProfile.aspx?instcd=218)
+[5](https://www.shiksha.com/college/nit-arunachal-pradesh-national-institute-of-technology-arunachal-pradesh-other-32742)
+[6](https://www.careers360.com/university/national-institute-of-technology-arunachal-pradesh/facilities)
+[7](https://www.shiksha.com/college/nit-arunachal-pradesh-national-institute-of-technology-arunachal-pradesh-other-32742/reviews)
+[8](https://www.nitap.ac.in/department/faculty?faculty=381c47c0a0)
+[9](https://www.shiksha.com/college/nit-arunachal-pradesh-national-institute-of-technology-arunachal-pradesh-other-32742/admission)
+[10](https://collegedunia.com/university/25387-national-institute-of-technology-nit-papum-pare/placement)
+[11](https://www.shiksha.com/college/nit-arunachal-pradesh-national-institute-of-technology-arunachal-pradesh-other-32742/placement)
+[12](https://www.nitap.ac.in/department/faculty?faculty=66badff20c)
+[13](https://www.careers360.com/university/national-institute-of-technology-arunachal-pradesh/reviews)
+[14](https://collegedunia.com/university/25387-national-institute-of-technology-nit-papum-pare/courses-fees)
+[15](https://nitap.ac.in/page_details?name=NIRF-Report&page=c5274db324)
+[16](https://www.collegepravesh.com/engineering-colleges/nit-arunachal-pradesh/)
+[17](https://www.careers360.com/university/national-institute-of-technology-arunachal-pradesh/courses)
+[18](https://collegedunia.com/university/25387-national-institute-of-technology-nit-papum-pare)
+[19](https://iirfranking.com/college/national-institute-of-technology/656441e3bc425bc75cd00fce)
+[20](https://www.shiksha.com/college/nit-arunachal-pradesh-national-institute-of-technology-arunachal-pradesh-other-32742/infrastructure)

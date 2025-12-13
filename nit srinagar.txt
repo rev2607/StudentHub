@@ -1,0 +1,150 @@
+{
+  "College Name": "NIT Srinagar",
+  "Overview": {
+    "Introduction": "National Institute of Technology Srinagar (NIT Srinagar), established in 1960 as a Regional Engineering College and designated an Institute of National Importance in 2007, is located near Dal Lake in Srinagar, Jammu and Kashmir. It is one of the 31 NITs in India and offers UG, PG, and doctoral programs in engineering, sciences, and management.",[1][2]
+    "Historical Narrative": "Founded as one of the earliest Regional Engineering Colleges in India, it shifted to its current campus in 1965 and upgraded to NIT status in 2003. Since then, it has expanded academics, research, and infrastructure significantly, gaining deemed university status in 2003 and later Institute of National Importance status under the NIT Act, 2007.",[3][1]
+    "Vision and Mission": "NIT Srinagar aims to provide high-quality technical education and foster research that meets societal needs with ethical values and promotes sustainable development.",[2]
+    "Academic Structure": "Offers undergraduate B.Tech in 8 branches, M.Tech, MBA, MCA, M.Sc, and Ph.D degrees across engineering, science, and humanities disciplines. Curriculum focuses on theoretical and practical learning, research, and industry exposure.",[4]
+    "Student Life": "The campus has a vibrant student community with cultural, technical festivals, sports activities, various student clubs, and hostels with modern amenities.",[5]
+    "Diversity": "Students hail from across India enriching the campus with multicultural perspectives.",[6]
+    "Research and Innovation": "NIT Srinagar emphasizes research in emerging areas like AI, renewable energy, and materials science through well-equipped laboratories and collaboration.",[7]
+    "Community Engagement": "The institute engages in outreach programs, consultancy, and extension activities aimed at regional progress.",
+    "Governance": "The institute is managed by a Director, academic Senate, and boards responsible for smooth and transparent governance.",
+    "Unique Features": [
+      "One of the oldest NITs with a rich legacy",
+      "Strategic location near Dal Lake, Srinagar",
+      "Strong research centers and digital infrastructure",
+      "Supportive faculty and active student participation"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      {
+        "Undergraduate": [
+          "B.Tech courses offered in Civil Engineering, Mechanical, Electrical, Electronics & Communication, Computer Science, Information Technology, Chemical Engineering, Metallurgical Engineering"
+        ],
+        "Postgraduate": [
+          "M.Tech, MBA, MCA, M.Sc, and Ph.D programs."
+        ]
+      }
+    ],
+    "Fee Structure": {
+      "B.Tech Total Fees": "About INR 5.92 Lakhs for 4 years",
+      "M.Tech Fees": "Around INR 2.56 Lakhs for 2 years",
+      "MBA Total Fees": "Approx INR 1.76 Lakhs for 2 years",
+      "M.Sc Fees": "About INR 47,080 for 2 years",
+      "Ph.D Fees": "Total tuition around INR 45,000",
+      "Fee Table": [
+        "| Course | Total Fee (INR)  | Duration  |",
+        "|--------|------------------|-----------|",
+        "| B.Tech | 5,92,000         | 4 years   |",
+        "| M.Tech | 2,56,000         | 2 years   |",
+        "| MBA    | 1,76,000         | 2 years   |",
+        "| M.Sc   | 47,080           | 2 years   |",
+        "| Ph.D   | 45,000           | Varies    |"
+      ],
+      "Waivers and Scholarships": "Full or partial tuition fee waivers available for SC/ST/PwD and economically weaker sections as per government guidelines."[4]
+    }
+  },
+  "Admissions": {
+    "Overview": "Admissions are competitive and based on national-level examinations. UG admissions via JEE Main and JoSAA counselling; M.Tech through GATE and CCMT; MSc through IIT JAM; MBA through CAT; PhD through institute conducted entrance and interview.",[8]
+    "UG Admission": [
+      "Based on JEE Main score and JoSAA counseling.",
+      "Eligibility: 10+2 with Physics, Chemistry, Mathematics and minimum percentage adherence."
+    ],
+    "PG Admission": [
+      "M.Tech through GATE and CCMT counselling",
+      "MBA through CAT followed by group discussion and interview"
+    ],
+    "Ph.D Admission": [
+      "Entrance exam or interview; GATE and NET/JRF scores considered",
+      "Eligibility: Master's degree in relevant field."
+    ],
+    "Admission Process": [
+      "Register for and appear in entrance exams",
+      "Participate in counselling rounds",
+      "Document verification and fee payment for seat confirmation"
+    ]
+  },
+  "Placements": {
+    "Placement Overview": [
+      "Placement rate of approximately 77% for the 2023-24 batch with 724 job offers.",[9]
+      "Highest package recorded is INR 36.50 Lakhs per annum.",
+      "Average package about INR 13.80 Lakhs; median package INR 10.48 Lakhs.",
+      "Leading recruiters include Samsung, Cognizant, ACC among others."
+    ],
+    "Branch-wise Placement": [
+      "| Branch       | Placement % | Highest Package (INR LPA) | Average Package |",
+      "|--------------|-------------|---------------------------|-----------------|",
+      "| CSE          | 75          | 36.5                      | 14.5            |",
+      "| ECE          | 70          | 32                        | 12              |",
+      "| Mechanical   | 65          | 25                        | 10              |"
+    ]
+  },
+  "Rankings": {
+    "NIRF": {
+      "Engineering Category": 73,
+      "Year": 2024
+    },
+    "Additional Rankings": [
+      "Ranked among the top government engineering colleges in North India",
+      "Acknowledged for research and student placements"
+    ]
+  },
+  "Facilities": {
+    "Campus": [
+      "68-acre campus with academic blocks, state-of-the-art labs, and digital library with extensive resources.",[10]
+      "Separate boys and girls hostels with mess and recreational facilities.",
+      "Sports complex with courts for football, cricket, badminton, basketball, tennis; gym facilities.",
+      "24/7 medical facilities, transport service, banks, and ATM centers."
+    ]
+  },
+  "Faculty": {
+    "Overview": [
+      "About 122 faculty members with most holding PhDs from reputed institutions including IITs and foreign universities.",[11]
+      "Departments include Computer Science, Electrical, Civil, Mechanical, Metallurgical, Chemistry, Physics, and Humanities.",
+      "Faculty are involved in research, consulting, and mentorship, contributing to academic quality."
+    ]
+  },
+  "Reviews": {
+    "Overview": [
+      "Students appreciate supportive faculty and good academic environment.",[12][5]
+      "Hostel and campus facilities receive positive feedback; some concerns about food quality.",
+      "Placements are good especially in CSE and core branches, though overall placement percentage fluctuates.",
+      "Curriculum is comprehensive but students desire more latest technology exposure."
+    ]
+  },
+  "Contact": {
+    "Address": "National Institute of Technology Srinagar, Hazratbal Road, Hazratbal, Srinagar, Jammu and Kashmir, India - 190006",
+    "Phone": "+91-194-2416029",
+    "Email": "registrar@nitsri.ac.in",
+    "Website": "https://www.nitsri.ac.in",
+    "Social Media": {
+      "Facebook": "facebook.com/nitsrinagar",
+      "Twitter": "twitter.com/nitsrinagar",
+      "LinkedIn": "linkedin.com/school/nit-srinagar"gar"
+    }
+  }
+}
+
+[1](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Srinagar)
+[2](https://nitsri.ac.in)
+[3](https://www.careervira.com/en-IN/institute/national-institute-of-technology-srinagar-nit-srinagar)
+[4](https://www.careers360.com/university/national-institute-of-technology-srinagar/courses)
+[5](https://www.careers360.com/university/national-institute-of-technology-srinagar)
+[6](https://collegedunia.com/university/25571-national-institute-of-technology-nit-srinagar/reviews)
+[7](https://www.nitm.ac.in)
+[8](https://www.shiksha.com/college/nit-srinagar-national-institute-of-technology-24264/admission)
+[9](https://www.careers360.com/university/national-institute-of-technology-srinagar/placement)
+[10](https://www.pagalguy.com/colleges/national-institute-of-technology-nit-srinagar/campus-facilities)
+[11](https://collegedunia.com/university/25571-national-institute-of-technology-nit-srinagar/faculty)
+[12](https://www.collegedekho.com/colleges/nit-srinagar-reviews)
+[13](https://www.collegepravesh.com/engineering-colleges/nit-srinagar/)
+[14](https://www.shiksha.com/college/nit-srinagar-national-institute-of-technology-24264/placement)
+[15](https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html)
+[16](https://www.shiksha.com/college/nit-srinagar-national-institute-of-technology-24264/fees)
+[17](https://www.careers360.com/university/national-institute-of-technology-srinagar/admission)
+[18](https://nitsri.ac.in/Pages/DisplayPages.aspx?page=cacsq)
+[19](https://www.shiksha.com/college/nit-srinagar-national-institute-of-technology-24264/infrastructure)
+[20](https://nitsri.ac.in/Pages/DepartmentList.aspx)
+[21](https://www.careers360.com/university/national-institute-of-technology-srinagar/reviews)

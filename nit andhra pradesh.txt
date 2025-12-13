@@ -1,0 +1,92 @@
+{
+  "College Name": "NIT Andhra Pradesh",
+  "Overview": {
+    "Introduction": "National Institute of Technology Andhra Pradesh (NIT Andhra Pradesh or NITAP) was established in the academic year 2015-16 in Tadepalligudem, West Godavari District, Andhra Pradesh. It is recognized as an Institute of National Importance and is part of the chain of NITs set up by the Government of India.",[1][2]
+    "Historical Narrative": "As the 31st NIT, it was founded to bolster technical education in Andhra Pradesh after the bifurcation of Telangana and Andhra Pradesh. Though a relatively young institute, it has rapidly developed infrastructure and academic programs and is mentored by NIT Warangal initially.",[3][4]
+    "Vision and Mission": "The institute strives for academic excellence, innovative research, and promotion of entrepreneurship with a focus on societal impact and sustainable development.",[5]
+    "Academic Structure": "NIT Andhra Pradesh offers Bachelor of Technology (B.Tech) degrees in eight branches: Biotechnology, Chemical Engineering, Civil Engineering, Computer Science & Engineering, Electrical & Electronics Engineering, Electronics & Communication Engineering, Mechanical Engineering, and Metallurgical & Materials Engineering. Postgraduate programs include M.Tech in specializations like Bioprocess Engineering, Advanced Communication Systems, Manufacturing, Power Electronics, and Thermal Engineering. It also offers integrated MSc, Ph.D., MBA, and other programs through its various schools and departments.",[1][3]
+    "Student Life": "Students actively engage in cultural festivals such as Technozion, seminars, workshops, sports events, and startup and innovation forums. The campus fosters an inclusive and vibrant environment with multiple clubs and student bodies enabling holistic growth.",[3]
+    "Diversity": "Welcomes students from all Indian states and some international students, promoting cultural exchange and diverse perspectives.",
+    "Research and Innovation": "NIT Andhra Pradesh focuses on research in areas including biotechnology, chemical engineering, materials science, AI & data analytics, renewable energy, and sustainable manufacturing, supported by well-equipped labs and collaborations.",[1][3]
+    "Community Engagement": "It undertakes extension activities, community technical assistance, and CSR projects contributing to the socio-economic development of the region.",
+    "Governance": "Managed by a Director supported by academic councils and various committees in accordance with Ministry of Education guidelines.",
+    "Unique Features": [
+      "One of the newest NITs with modern facility and infrastructure",
+      "Strong collaboration with industries and academia",
+      "Focus on multidisciplinary education and research",
+      "Strong placement growth and entrepreneurship"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      "B.Tech in 8 engineering branches",
+      "M.Tech in key specializations",
+      "Integrated MSc, MBA, Ph.D."
+    ],
+    "Fee Structure": {
+      "B.Tech Fees": "Approx INR 1.25 Lakhs per year, total about INR 5 Lakhs for four years",
+      "Hostel Fees": "Approx INR 30,000-40,000 per year",
+      "Fee Table": [
+        "| Program | Annual Tuition (INR) | Hostel & Mess (INR/year) | Total Cost for Course |",
+        "|---------|----------------------|--------------------------|----------------------|",
+        "| B.Tech  | 1,25,000             | 30,000 - 40,000          | 5,00,000 approx.     |",
+        "| M.Tech  | 1,40,000             | Included                 | Approx 3,00,000      |"
+      ],
+      "Scholarships": "Available to SC/ST/PwD and economically weaker sections as per government policies."
+    }
+  },
+  "Admissions": {
+    "Overview": "Admissions for B.Tech are through JEE Main followed by JoSAA counseling; M.Tech via GATE and CCMT; other postgraduate admissions through respective entrance tests and interviews.",[6][7]
+    "Eligibility": "Candidates must have passed 10+2 with Physics, Chemistry, and Mathematics for UG. PG applicants must have appropriate bachelor's degrees.",
+    "Admission Procedure": [
+      "Qualify relevant national level entrance exams",
+      "Apply and participate in seat allocation counseling",
+      "Document verification and payment of fees"
+    ]
+  },
+  "Placements": {
+    "Placement Highlights": {
+      "Placement Rate": "Approximately 73.18% placement (2024)",
+      "Highest Package": "INR 44.1 LPA",
+      "Average Package": "INR 8.13 LPA",
+      "Major Recruiters": ["Google", "Jio", "Infosys", "L&T"]
+    }
+  },
+  "Rankings": {
+    "NIRF": "Ranked between 201-300 category for Engineering in 2025."
+  },
+  "Facilities": {
+    "Campus": "Spacious and modern campus with academic buildings, hostels, digital library, sports facilities, and recreational areas.",
+    "Labs": "Advanced labs supporting interdisciplinary research and projects."
+  },
+  "Faculty": {
+    "Profile": "Faculty members are experienced, largely holding PhDs from reputed institutions and actively engaged in research and mentoring."
+  },
+  "Reviews": {
+    "Summary": "Students appreciate the quality of teaching and facilities, though some desire better campus Wi-Fi and food options."
+  },
+  "Contact": {
+    "Address": "NIT Andhra Pradesh, Tadepalligudem, West Godavari District, Andhra Pradesh, India",
+    "Phone": "+91-8818811111",
+    "Email": "registrar@nitandhra.ac.in",
+    "Website": "https://nitandhra.ac.in""
+  }
+}
+
+[1](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Andhra_Pradesh)
+[2](https://nitandhra.ac.in/main/)
+[3](https://www.shiksha.com/college/nit-andhra-pradesh-national-institute-of-technology-tadepalligudem-59093)
+[4](https://www.indiascienceandtechnology.gov.in/nits/national-institute-technology-nit-andhra-pradesh)
+[5](https://www.shiksha.com/college/nit-puducherry-national-institute-of-technology-pondicherry-39238/reviews)
+[6](https://www.aakash.ac.in/blog/national-institute-of-technology-andhra-pradesh-admissions-eligibility-criteria-courses-fees-and-placement-statisticsnational-institute-of-technology-andhra-pradesh-admissions-eligibility-criteri/)
+[7](https://www.careers360.com/university/national-institute-of-technology-andhra-pradesh)
+[8](https://josaa.admissions.nic.in/seatinfo/root/InstProfile.aspx?instcd=231)
+[9](https://www.collegedekho.com/colleges/nit-andhra-pradesh)
+[10](https://www.collegepravesh.com/engineering-colleges/nit-andhra-pradesh/)
+[11](https://collegedunia.com/university/55796-national-institute-of-technology-nitap-tadepalligudem/reviews)
+[12](https://nitandhra.ac.in/tnp/files/TNP%20BROCHURE.pdf)
+[13](https://www.shiksha.com/college/nit-andhra-pradesh-national-institute-of-technology-tadepalligudem-59093/reviews)
+[14](https://in.linkedin.com/school/national-institute-of-technology-andhra-pradesh/)
+[15](https://www.youtube.com/watch?v=BvZRXLFSFec)
+[16](https://collegedunia.com/university/55796-national-institute-of-technology-nitap-tadepalligudem)
+[17](https://www.careers360.com/university/national-institute-of-technology-andhra-pradesh/reviews)

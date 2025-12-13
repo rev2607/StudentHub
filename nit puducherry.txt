@@ -1,0 +1,103 @@
+{
+  "College Name": "NIT Puducherry",
+  "Overview": {
+    "Introduction": "National Institute of Technology Puducherry (NIT Puducherry or NITPY) is a public autonomous technical and research university established in 2010 at Karaikal, part of the Union Territory of Puducherry. It is one of the 31 NITs in India and is recognized as an Institute of National Importance.",[1]
+    "Historical Narrative": "Started under the Eleventh Five-Year Plan, NIT Puducherry has evolved since its inception to cover diverse technical, scientific, and humanities disciplines. The institute moved to its permanent 256-acre campus near Poovam and Thiruvettakudy, Karaikal, providing modern academic, research, and residential facilities.",[2][1]
+    "Vision and Mission": "The institute aims to excel in quality technical education, research, and innovation, fostering holistic development and social commitment.",[3]
+    "Academic Structure": "NIT Puducherry offers undergraduate (B.Tech), postgraduate (M.Tech, M.Sc, MBA, MCA), and doctoral (Ph.D) programs through 10 departments spanning engineering, applied sciences, humanities, and management.",[4][3]
+    "Student Life": "Students actively participate in technical symposiums, cultural festivals, sports tournaments, and entrepreneurship activities. The campus hosts multiple clubs and societies promoting skill and personality development.",[4]
+    "Diversity": "The student and faculty community is diverse, representing various Indian states and some international students, cultivating an inclusive cultural environment.",
+    "Research and Innovation": "Focus areas include structural engineering, fluid mechanics, computer science, electronics, and sustainable technologies with faculty engaged in funded research and patents.",[5][4]
+    "Community Engagement": "The institute conducts outreach programs, training sessions, and consultancies to assist regional development.",
+    "Governance": "Directed by a Director, supported by various academic committees, and governed under the Ministry of Education's policies ensuring transparency and excellence.",
+    "Unique Features": [
+      "State-of-the-art campus with modern infrastructure",
+      "Digital library and computing facilities",
+      "Strong placement record with reputed recruiters",
+      "Integrated approach to science, technology, and humanities"
+    ],
+    "Narrative Flow": [
+      "Foundation and establishment",
+      "Academic growth and campus development",
+      "Research, student activities, and diversity",
+      "Institutional governance and outreach"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      "B.Tech programs in Civil, Computer Science, Electrical & Electronics, Electronics & Communication, Mechanical Engineering",
+      "M.Tech specializations, M.Sc, MBA, MCA, and Ph.D programs"
+    ],
+    "Fee Structure": {
+      "B.Tech Total Fee": "Approximates INR 5.48 Lakhs for full course",
+      "Semester Fees": "Rs. 72,400 approx for first semester, around Rs. 67,950 for following semesters",
+      "Hostel & Mess": "Approx Rs. 27,300 per semester for mess",
+      "Fee Table": [
+        "| Fee Head       | Amount (INR)     |",
+        "|----------------|------------------|",
+        "| Tuition Fee    | ₹ 45,510 - ₹ 41,060 per semester |",
+        "| Hostel Fee     | ₹ 39,300 per semester |",
+        "| Mess Charges   | ₹ 27,300 per semester |",
+        "| Total approx.  | ₹ 1.37 Lakhs per year |"
+      ],
+      "Scholarships & Waivers": "Available based on merit, category, and financial need as per government norms."
+    }
+  },
+  "Admissions": {
+    "Overview": "Admissions are entrance exam based for all courses. UG through JEE Main + JoSAA counseling; PG through GATE + CCMT counseling; M.Sc through IIT JAM; Ph.D through institute specific entrance and interviews.",[6]
+    "Process": [
+      "Qualify in appropriate entrance",
+      "Apply to JoSAA, CCMT, JAM as relevant",
+      "Seat allotment and verification",
+      "Fee payment"
+    ],
+    "Eligibility": "Higher secondary for UG; UG degree for PG; PG degree for Ph.D."
+  },
+  "Placements": {
+    "Placement Data": {
+      "Placement Rate": "Approximately 82.89% in 2024",
+      "Highest Package": "Around INR 24 LPA (ECE, M.Tech)",
+      "Average Package": "Approx INR 7.9 LPA",
+      "Recruiters": "More than 50 companies participated; prominent recruiters include Sobha, L&T, IT and core companies."[7]
+    }
+  },
+  "Rankings": {
+    "NIRF": "Ranked 99th among engineering colleges in India in 2025."[8][4]
+  },
+  "Facilities": {
+    "Campus": "Includes academic buildings, three hostels, sports complex with football, hockey, basketball, gym, auditorium, library with 7000+ books, and e-resources; medical and banking facilities available."[9]
+  },
+  "Faculty": {
+    "Overview": "Experienced faculty across various departments, including distinguished professors and researchers with relevant specializations."[10]
+  },
+  "Reviews": {
+    "Highlights": "Mixed reviews mention strong faculty and placement support but note infrastructural and Wi-Fi challenges. Mess quality receives criticism while academics and campus culture receive appreciation."[11]
+  },
+  "Contact": {
+    "Address": "National Institute of Technology Puducherry, Poovam, Thiruvettakudy, Karaikal - 609609",
+    "Phone": "+91-4368-230377",
+    "Email": "registrar@nitpy.ac.in",
+    "Website": "https://nitpy.ac.in"in"
+  }
+}
+
+[1](https://en.wikipedia.org/wiki/National_Institute_of_Technology,_Puducherry)
+[2](https://nitpy.ac.in/institute)
+[3](https://www.nitpy.ac.in)
+[4](https://www.shiksha.com/college/nit-puducherry-national-institute-of-technology-pondicherry-39238)
+[5](https://www.nitpy.ac.in/faculty/hodDirectory)
+[6](https://www.shiksha.com/college/nit-puducherry-national-institute-of-technology-pondicherry-39238/admission)
+[7](https://www.shiksha.com/college/nit-puducherry-national-institute-of-technology-pondicherry-39238/placement)
+[8](https://www.careers360.com/university/national-institute-of-technology-puducherry-karaikal)
+[9](https://www.telegraphindia.com/edugraph/colleges/national-institute-of-technology-puducherry-nitpud/infrastructure/131)
+[10](https://www.nitpy.ac.in/academics/departments/humanities/faculty)
+[11](https://www.shiksha.com/college/nit-puducherry-national-institute-of-technology-pondicherry-39238/reviews)
+[12](https://www.topuniversities.com/universities/national-institute-technology-puducherry)
+[13](https://www.careers360.com/university/national-institute-of-technology-puducherry-karaikal/courses)
+[14](https://byjus.com/jee/nit-puducherry/)
+[15](https://www.careers360.com/university/national-institute-of-technology-puducherry-karaikal/facilities)
+[16](https://www.youtube.com/watch?v=VeVPWzfm_Z4)
+[17](https://collegedunia.com/university/28218-national-institute-of-technology-nit-pondicherry/courses-fees)
+[18](https://nitpy.ac.in/students/admission)
+[19](https://www.collegedekho.com/colleges/nit-puducherry-placement)
+[20](https://nitpy.ac.in/assets/pdf/btech%20admission/2025%20-%202026/Opening%20and%20Closing%20Rank%20of%20JOSAA%20-%202024.pdf)

@@ -1,0 +1,87 @@
+{
+  "College Name": "NIT Uttarakhand",
+  "Overview": {
+    "Introduction": "NIT Uttarakhand (formerly known as ENIT) was established in 2011 and officially recognized as an Institute of National Importance in 2016. Located in Srinagar Garhwal, it aims to provide high-quality technical education and foster regional development through innovative research and industry collaborations.",
+    "Historical Narrative": "Initially started as a regional engineering institute, it gained the status of NIT in 2016, expanding its academic offerings and infrastructure rapidly. Over the years, it has focused on sustainable engineering, environmental sciences, and smart technology development.",
+    "Vision and Mission": "To become a world-class R&D and academic center in engineering and technology, serving societal needs through innovation, sustainability, and global partnerships.",
+    "Academic Structure": "Offers B.Tech, M.Tech, MBA, MCA, M.Sc., and Ph.D. programs in disciplines like Civil, Mechanical, Electrical, Electronics, Computer Science, and Environmental Engineering. Its curriculum emphasizes research, project work, internships, and experiential learning.",
+    "Student Life": "The campus boasts vibrant cultural and technical festivals, active student clubs, sports facilities, hostels with modern amenities, and a focus on holistic development.",
+    "Diversity": "The institute attracts students from across India and international research scholars, fostering an inclusive, multicultural learning atmosphere.",
+    "Research and Innovation": "Major research initiatives center around sustainable energy, environmental management, and information technology, supported by state-of-the-art laboratories and collaborations.",
+    "Community Engagement": "Involves outreach programs related to rural development, disaster mitigation, and environmental conservation initiatives within Uttarakhand and neighboring states.",
+    "Governance": "Managed by a Director, with governance structures including Senate, Academic Council, and various committees for academic and administrative oversight.",
+    "Unique Features": [
+      "Located in scenic Garhwal Himalayas",
+      "Focus on sustainability and eco-friendly technologies",
+      "Active research centers",
+      "Close industry-academia interface"
+    ],
+    "Narrative Flow": [
+      "Foundational growth and regional focus",
+      "Academic excellence and research leadership",
+      "Campus culture and environmental sensibility",
+      "Community outreach and regional development"
+    ]
+  },
+  "Courses and Fee": {
+    "Courses Offered": [
+      {
+        "UG": "B.Tech in Civil, Mechanical, Electrical, Electronics & Communication, Computer Science, Environmental Engineering",
+        "PG": "M.Tech in specialized fields, MBA, MCA, M.Sc, Ph.D."
+      }
+    ],
+    "Fee Structure": {
+      "B.Tech": "Approx INR 4.5 Lakhs for four years",
+      "M.Tech": "Approx INR 1.8 Lakhs for 2 years",
+      "MBA": "Approx INR 1.2 Lakhs for 2 years",
+      "M.Sc": "Approx INR 50,000 for 2 years",
+      "Ph.D": "INR 30,000-50,000 annual fee",
+      "Hostel & Mess": "INR 50,000-60,000 annually",
+      "Fee Table": [
+        "| Program | Duration | Total Fees (INR) | Hostel & Mess (Annual) |",
+        "|---------|----------|------------------|------------------------|",
+        "| B.Tech  | 4 years  | 4.50 Lakhs     | 50,000-60,000        |",
+        "| M.Tech  | 2 years  | 1.80 Lakhs     | Included             |",
+        "| MBA     | 2 years  | 1.20 Lakhs     | Included             |",
+        "| M.Sc    | 2 years  | 50,000         | Included             |",
+        "| Ph.D    | 3-5 yrs  | 30,000-50,000  | Separate, as per usage |"
+      ],
+      "Scholarships": "Merit-based, need-based, SC/ST/PwD fee waivers, and state government scholarships."
+    }
+  },
+  "Admissions": {
+    "Overview": "UG admissions through JEE Main via Central Counseling (JoSAA), PG via GATE, MBA via CAT, MCA via NIMCET, Ph.D. via institute entrance exam and interview.",
+    "Process": [
+      "Register for exams",
+      "Appear for JEE Main, GATE, CAT, NIMCET",
+      "Counseling and seat allotment",
+      "Verification and payment"
+    ],
+    "Eligibility": "Minimum 75% in 12th Science for UG; Bachelor's in relevant field for PG.",
+    "Seat Matrix": "Approx 280 UG seats, varied PG and research slots."
+  },
+  "Placements": {
+    "Highlights": "In 2024, placement rate reached 82%, with top packages exceeding INR 40 LPA, mainly in core engineering and IT sectors.",
+    "Top Recruiters": ["Tata Steel", "L&T", "Reliance Industries", "Infosys", "TCS"],
+    "Internships": "Internships and live projects facilitated through industry collaborations, with stipend provisions."
+  },
+  "Rankings": {
+    "NIRF 2025": "Ranked around 98 among engineering institutes nationally.",
+    "Additional": "Recognized for environmental sustainability research and regional impact."
+  },
+  "Facilities": {
+    "Campus": "Sprawling scenic campus with modern laboratories, digital library, conference halls, sports complex, Wi-Fi, and hostel facilities."
+  },
+  "Faculty": {
+    "Overview": "A dedicated team of approximately 150 faculty members with extensive research credentials from top institutions worldwide."
+  },
+  "Reviews": {
+    "Student Feedback": "Rated positively for scenic campus, research environment, faculty support, and industry connectivity."
+  },
+  "Contact": {
+    "Address": "NIT Manipur, Takyelpat, Imphal, Manipur-795001",
+    "Phone": "+91-383-2550940",
+    "Email": "registrar@nitmanipur.ac.in",
+    "Website": "https://nitmanipur.ac.in"
+  }
+}
