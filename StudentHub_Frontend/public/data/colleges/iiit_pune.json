@@ -1,0 +1,549 @@
+{
+  "Name": "Indian Institute of Information Technology Pune (IIIT Pune)",
+  "Location": {
+    "City": "Pune",
+    "District": "Pune",
+    "State": "Maharashtra",
+    "Country": "India",
+    "Pin": "411038",
+    "CampusAreaAcres": 50,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Pune, Maharashtra"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 2016,
+    "OriginalName": "Indian Institute of Information Technology Pune",
+    "Renamed": [],
+    "HistoricalSignificance": "Established in 2016, IIIT Pune is one of the premier institutes of information technology in India. It focuses on information technology, computer science, and related disciplines, providing quality education and research opportunities."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "Indian Institute of Information Technology Pune (IIIT Pune), established in 2016, is a centrally funded technical university located in Pune, Maharashtra. It is an Institute of National Importance offering courses in information technology, computer science, and related engineering disciplines.",
+    "StudentStrength": "Over 2,500 students including international nationals",
+    "MajorEvents": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports events"
+    ],
+    "ResearchFocus": [
+      "Information Technology",
+      "Computer Science",
+      "Data Science",
+      "Artificial Intelligence",
+      "Cybersecurity",
+      "Machine Learning"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities"
+    ],
+    "SocialInitiatives": [
+      "Outreach programs",
+      "Technical training workshops",
+      "Environmental projects",
+      "Community development"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 190,
+      "Engineering": 190,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 190,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Information Technology",
+          "Electronics and Communication Engineering",
+          "Electrical Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA counseling"],
+        "Seats": 450,
+        "FirstYearFeeINR": 220000,
+        "TotalFeesINRApprox": 880000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 10,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CCMT"],
+        "FirstYearFeeINR": 160000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "N/A"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "GMAT"],
+        "Seats": 60,
+        "FirstYearFeeINR": 160000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Computer Science",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["JAM"],
+        "FirstYearFeeINR": 110000,
+        "Seats": 40
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 8,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 70000,
+        "SeatsMoreThan": 100
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 70000,
+      "Maximum": 70000,
+      "Note": "Approximate hostel and mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": ""
+      },
+      "BDes": {
+        "Exam": "",
+        "Counseling": ""
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT",
+        "AdditionalProcesses": "Institute procedures"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["GD", "PI"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "JEEMain2025": {
+      "BTechCSEClosingRank": 6000,
+      "ITClosingRank": 8000,
+      "ECEClosingRank": 10000,
+      "ElectEngClosingRank": 12000
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Physics": [0, 0],
+      "Chemistry": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 85,
+      "OBCPercentile": 75,
+      "SCSTPercentileMin": 65
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories with multiple rounds of JoSAA counselling."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 400,
+      "Recruiters": 90,
+      "HighestPackageINR": 6000000,
+      "HighestDomesticPackageINR": 6000000,
+      "OverallAveragePackageINR": 1400000,
+      "CSEAveragePackageINR": 1700000,
+      "ITAveragePackageINR": 1600000,
+      "MBA median package INR": 1000000,
+      "PPOs": 50,
+      "TopRecruiters": [
+        "Amazon",
+        "Microsoft",
+        "Google",
+        "Adobe",
+        "Oracle",
+        "Infosys",
+        "TCS",
+        "Wipro",
+        "HCL",
+        "Tech Mahindra"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Scientist",
+        "Machine Learning Engineer",
+        "Product Manager",
+        "Consultant",
+        "R&D Engineer"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Technical seminars",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 7,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Rooms"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 45000,
+      "EJournalsCount": 4500,
+      "Features": [
+        "Digital resources",
+        "24/7 access",
+        "Group study zones",
+        "Computer terminals"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 45,
+      "FocusAreas": [
+        "Computer Science",
+        "Information Technology",
+        "Electronics",
+        "Electrical"
+      ],
+      "Equipment": [
+        "State-of-the-art instruments",
+        "Advanced computing facilities",
+        "Modern fabrication equipment"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Cricket Ground",
+        "Football Ground",
+        "Tennis Courts",
+        "Basketball Courts",
+        "Volleyball Courts",
+        "Badminton Courts",
+        "Indoor Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "IIIT Pune Medical Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "24/7 doctor services",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Food courts",
+        "Cafeterias"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Regional cuisines",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Guest Houses",
+      "Banks and ATMs",
+      "Post Office",
+      "Shopping Complex",
+      "Places of Worship",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 30,
+      "Types": [
+        "Technical (Coding, IEEE)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Photography",
+        "Quizzing"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 6,
+    "DepartmentsList": [
+      "Computer Science and Engineering",
+      "Information Technology",
+      "Electronics and Communication Engineering",
+      "Electrical Engineering",
+      "Mathematics",
+      "Humanities and Social Sciences"
+    ],
+    "ResearchCenters": [
+      "Centre for Advanced Research",
+      "Centre for Industry Collaboration"
+    ],
+    "Strength": {
+      "FacultyCount": 110,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Government ministries",
+      "Private industries"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry consultancy"
+    ],
+    "StudentFeedback": "Faculty with doctoral qualifications from reputed institutes, engaged in research, teaching, and community service"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "SC/ST/PwD Fee Concessions",
+      "EWS Tuition Fee Waiver",
+      "Income-based fee waivers",
+      "Merit-cum-means scholarships",
+      "GATE/NET Fellowships",
+      "Research Fellowships",
+      "National Scholarship Portal schemes"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Support",
+      "Monthly Stipends",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.6,
+    "CollegeDuniaReviewsCount": 500,
+    "Careers360Rating": 4.5,
+    "Strengths": [
+      "Excellent placement opportunities",
+      "Strong focus on IT and Computer Science",
+      "Good faculty-student ratio",
+      "Focused on fostering research and innovation",
+      "Coherent blend of academics and extracurricular activities",
+      "Personalized attention from faculty",
+      "Growing placement opportunities"
+    ],
+    "Weaknesses": [
+      "Competitive admissions",
+      "Academic pressure",
+      "Limited infrastructure compared to older IITs"
+    ],
+    "ReturnOnInvestment": "Excellent"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India",
+    "CulturalTraditions": [
+      "Technical festival traditions",
+      "Cultural festival heritage",
+      "Sports events",
+      "Inter-hostel competitions"
+    ],
+    "Festivals": [
+      "Technical Festival",
+      "Cultural Festival",
+      "Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Coding (IEEE)",
+      "Science and Technology Council",
+      "Cultural Council",
+      "Sports Council",
+      "Music & Dance",
+      "Drama",
+      "Photography",
+      "Quizzing"
+    ],
+    "OutdoorActivities": [
+      "Sports activities",
+      "Cultural exploration",
+      "Community engagement",
+      "Nature activities"
+    ],
+    "StudentGovernance": "Student Councils and representative bodies",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Sports Facilities",
+      "Medical facilities",
+      "Counseling Services"
+    ],
+    "Community": "Active student community with cultural fests, technical events, sports, and student clubs. Hostels and amenities contribute to a supportive environment."
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 2016,
+    "Founder": "Government of India",
+    "InitialFocus": "Information Technology education",
+    "Evolution": [
+      "2016: Established as Indian Institute of Information Technology Pune",
+      "Accorded Institute of National Importance status"
+    ],
+    "Legacy": "Premier institute for information technology education in India",
+    "Heritage": "Strong commitment to technical advancement, ethical leadership, and global engagement"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Information Technology",
+      "Computer Science",
+      "Data Science",
+      "Artificial Intelligence",
+      "Cybersecurity",
+      "Machine Learning"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Research initiatives involve collaborations with industries and higher education institutions focusing on information technology and computer science",
+    "Startups": {
+      "Number": 20,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Regional industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "IIIT Pune Admissions 2025-26",
+      "Date": "2025-09-01",
+      "Details": "Admissions open for various programs"
+    },
+    {
+      "Event": "Technical Festival 2025",
+      "StartDate": "2025-03-15",
+      "EndDate": "2025-03-19",
+      "Theme": "Technical festival"
+    },
+    {
+      "Event": "Cultural Festival 2025",
+      "StartDate": "2025-10-05",
+      "EndDate": "2025-10-09",
+      "Theme": "Cultural festival"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.iiitp.ac.in",
+    "Address": "Indian Institute of Information Technology Pune, Pune, Maharashtra-411038",
+    "Phone": "+91-80-020-26902000",
+    "Emails": {
+      "Registrar": "registrar@iiitp.ac.in",
+      "Admissions": "admissions@iiitp.ac.in",
+      "PlacementCell": "placement@iiitp.ac.in"
+    }
+  }
+}
+
+

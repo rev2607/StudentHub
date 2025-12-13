@@ -1,0 +1,546 @@
+{
+  "Name": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management Gwalior (ABV-IIITM Gwalior)",
+  "Location": {
+    "City": "Gwalior",
+    "District": "Gwalior",
+    "State": "Madhya Pradesh",
+    "Country": "India",
+    "Pin": "474015",
+    "CampusAreaAcres": 200,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Gwalior, Madhya Pradesh"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1997,
+    "OriginalName": "Indian Institute of Information Technology Gwalior",
+    "Renamed": [],
+    "HistoricalSignificance": "Established in 1997, IIIT Gwalior is one of the premier institutes of information technology in India. It focuses on information technology, computer science, and related disciplines, providing quality education and research opportunities."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management Gwalior (ABV-IIITM Gwalior), established in 1997, is a centrally funded technical university located in Gwalior, Madhya Pradesh. It is an Institute of National Importance offering courses in information technology, computer science, management, and related engineering disciplines.",
+    "StudentStrength": "Over 2,000 students including international nationals",
+    "MajorEvents": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports events"
+    ],
+    "ResearchFocus": [
+      "Information Technology",
+      "Computer Science",
+      "Data Science",
+      "Artificial Intelligence",
+      "Cybersecurity"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities"
+    ],
+    "SocialInitiatives": [
+      "Outreach programs",
+      "Technical training workshops",
+      "Environmental projects",
+      "Community development"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 101,
+      "Engineering": 101,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 101,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Information Technology",
+          "Electronics and Communication Engineering",
+          "Electrical Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA counseling"],
+        "Seats": 400,
+        "FirstYearFeeINR": 200000,
+        "TotalFeesINRApprox": 800000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 8,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CCMT"],
+        "FirstYearFeeINR": 150000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "N/A"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "GMAT"],
+        "Seats": 60,
+        "FirstYearFeeINR": 150000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Computer Science",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["JAM"],
+        "FirstYearFeeINR": 100000,
+        "Seats": 40
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 6,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 60000,
+        "SeatsMoreThan": 80
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 60000,
+      "Maximum": 60000,
+      "Note": "Approximate hostel and mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": ""
+      },
+      "BDes": {
+        "Exam": "",
+        "Counseling": ""
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT",
+        "AdditionalProcesses": "Institute procedures"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["GD", "PI"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "JEEMain2025": {
+      "BTechCSEClosingRank": 8000,
+      "ITClosingRank": 10000,
+      "ECEClosingRank": 12000,
+      "ElectEngClosingRank": 15000
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Physics": [0, 0],
+      "Chemistry": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 80,
+      "OBCPercentile": 70,
+      "SCSTPercentileMin": 60
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories with multiple rounds of JoSAA counselling."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 350,
+      "Recruiters": 80,
+      "HighestPackageINR": 5500000,
+      "HighestDomesticPackageINR": 5500000,
+      "OverallAveragePackageINR": 1200000,
+      "CSEAveragePackageINR": 1500000,
+      "ITAveragePackageINR": 1400000,
+      "MBA median package INR": 900000,
+      "PPOs": 40,
+      "TopRecruiters": [
+        "Amazon",
+        "Microsoft",
+        "Google",
+        "Adobe",
+        "Oracle",
+        "Infosys",
+        "TCS",
+        "Wipro",
+        "HCL",
+        "Tech Mahindra"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Scientist",
+        "Machine Learning Engineer",
+        "Product Manager",
+        "Consultant",
+        "R&D Engineer"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Technical seminars",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 6,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Rooms"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 40000,
+      "EJournalsCount": 4000,
+      "Features": [
+        "Digital resources",
+        "24/7 access",
+        "Group study zones",
+        "Computer terminals"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 40,
+      "FocusAreas": [
+        "Computer Science",
+        "Information Technology",
+        "Electronics",
+        "Electrical"
+      ],
+      "Equipment": [
+        "State-of-the-art instruments",
+        "Advanced computing facilities",
+        "Modern fabrication equipment"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Cricket Ground",
+        "Football Ground",
+        "Tennis Courts",
+        "Basketball Courts",
+        "Volleyball Courts",
+        "Badminton Courts",
+        "Indoor Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "IIIT Gwalior Medical Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "24/7 doctor services",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Food courts",
+        "Cafeterias"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Regional cuisines",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Guest Houses",
+      "Banks and ATMs",
+      "Post Office",
+      "Shopping Complex",
+      "Places of Worship",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 25,
+      "Types": [
+        "Technical (Coding, IEEE)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Photography",
+        "Quizzing"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 6,
+    "DepartmentsList": [
+      "Computer Science and Engineering",
+      "Information Technology",
+      "Electronics and Communication Engineering",
+      "Electrical Engineering",
+      "Mathematics",
+      "Humanities and Social Sciences"
+    ],
+    "ResearchCenters": [
+      "Centre for Advanced Research",
+      "Centre for Industry Collaboration"
+    ],
+    "Strength": {
+      "FacultyCount": 100,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Government ministries",
+      "Private industries"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry consultancy"
+    ],
+    "StudentFeedback": "Faculty with doctoral qualifications from reputed institutes, engaged in research, teaching, and community service"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "SC/ST/PwD Fee Concessions",
+      "EWS Tuition Fee Waiver",
+      "Income-based fee waivers",
+      "Merit-cum-means scholarships",
+      "GATE/NET Fellowships",
+      "Research Fellowships",
+      "National Scholarship Portal schemes"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Support",
+      "Monthly Stipends",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.5,
+    "CollegeDuniaReviewsCount": 400,
+    "Careers360Rating": 4.4,
+    "Strengths": [
+      "Excellent placement opportunities",
+      "Strong focus on IT and Computer Science",
+      "Good faculty-student ratio",
+      "Focused on fostering research and innovation",
+      "Coherent blend of academics and extracurricular activities",
+      "Personalized attention from faculty",
+      "Growing placement opportunities"
+    ],
+    "Weaknesses": [
+      "Competitive admissions",
+      "Academic pressure",
+      "Limited infrastructure compared to older IITs"
+    ],
+    "ReturnOnInvestment": "Excellent"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India",
+    "CulturalTraditions": [
+      "Technical festival traditions",
+      "Cultural festival heritage",
+      "Sports events",
+      "Inter-hostel competitions"
+    ],
+    "Festivals": [
+      "Technical Festival",
+      "Cultural Festival",
+      "Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Coding (IEEE)",
+      "Science and Technology Council",
+      "Cultural Council",
+      "Sports Council",
+      "Music & Dance",
+      "Drama",
+      "Photography",
+      "Quizzing"
+    ],
+    "OutdoorActivities": [
+      "Sports activities",
+      "Cultural exploration",
+      "Community engagement",
+      "Nature activities"
+    ],
+    "StudentGovernance": "Student Councils and representative bodies",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Sports Facilities",
+      "Medical facilities",
+      "Counseling Services"
+    ],
+    "Community": "Active student community with cultural fests, technical events, sports, and student clubs. Hostels and amenities contribute to a supportive environment."
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1997,
+    "Founder": "Government of India",
+    "InitialFocus": "Information Technology education",
+    "Evolution": [
+      "1997: Established as Indian Institute of Information Technology Gwalior",
+      "Accorded Institute of National Importance status"
+    ],
+    "Legacy": "Premier institute for information technology education in India",
+    "Heritage": "Strong commitment to technical advancement, ethical leadership, and global engagement"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Information Technology",
+      "Computer Science",
+      "Data Science",
+      "Artificial Intelligence",
+      "Cybersecurity"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Research initiatives involve collaborations with industries and higher education institutions focusing on information technology and computer science",
+    "Startups": {
+      "Number": 15,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Regional industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "IIIT Gwalior Admissions 2025-26",
+      "Date": "2025-09-01",
+      "Details": "Admissions open for various programs"
+    },
+    {
+      "Event": "Technical Festival 2025",
+      "StartDate": "2025-03-15",
+      "EndDate": "2025-03-19",
+      "Theme": "Technical festival"
+    },
+    {
+      "Event": "Cultural Festival 2025",
+      "StartDate": "2025-10-05",
+      "EndDate": "2025-10-09",
+      "Theme": "Cultural festival"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.iiitm.ac.in",
+    "Address": "Indian Institute of Information Technology Gwalior, Gwalior, Madhya Pradesh-474015",
+    "Phone": "+91-751-2449811",
+    "Emails": {
+      "Registrar": "registrar@iiitm.ac.in",
+      "Admissions": "admissions@iiitm.ac.in",
+      "PlacementCell": "placement@iiitm.ac.in"
+    }
+  }
+}
+

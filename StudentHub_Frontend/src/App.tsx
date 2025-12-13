@@ -85,6 +85,12 @@ import NITAndhraPradeshPage from "./pages/Colleges/NITAndhraPradeshPage";
 import NITRaipurPage from "./pages/Colleges/NITRaipurPage";
 import NITSuratPage from "./pages/Colleges/NITSuratPage";
 import NITAssamPage from "./pages/Colleges/NITAssamPage";
+import ABVIIITMGwaliorPage from "./pages/Colleges/ABVIIITMGwaliorPage";
+import IIITDMJabalpurPage from "./pages/Colleges/IIITDMJabalpurPage";
+import IIITDMKancheepuramPage from "./pages/Colleges/IIITDMKancheepuramPage";
+import IIITBangalorePage from "./pages/Colleges/IIITBangalorePage";
+import IIITPunePage from "./pages/Colleges/IIITPunePage";
+import IIITDelhiPage from "./pages/Colleges/IIITDelhiPage";
 import AboutPage from "./pages/AboutPage/AboutPage";
 
 // import Search from "./pages/Other/Search";
@@ -163,6 +169,12 @@ function App() {
             <Route path="/colleges/nit-raipur" element={<NITRaipurPage />} />
             <Route path="/colleges/nit-surat" element={<NITSuratPage />} />
             <Route path="/colleges/nit-assam" element={<NITAssamPage />} />
+            <Route path="/colleges/abv-iiitm-gwalior" element={<ABVIIITMGwaliorPage />} />
+            <Route path="/colleges/iiitdm-jabalpur" element={<IIITDMJabalpurPage />} />
+            <Route path="/colleges/iiitdm-kancheepuram" element={<IIITDMKancheepuramPage />} />
+            <Route path="/colleges/iiit-bangalore" element={<IIITBangalorePage />} />
+            <Route path="/colleges/iiit-pune" element={<IIITPunePage />} />
+            <Route path="/colleges/iiit-delhi" element={<IIITDelhiPage />} />
             <Route path="/colleges/amity-noida" element={<AmityNoidaPage />} />
             <Route path="/colleges/bits-pilani" element={<BITSPilaniPage />} />
             <Route path="/colleges/srm" element={<SRMPage />} />

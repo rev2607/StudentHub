@@ -1203,6 +1203,114 @@ export const loadNITSrinagarData = async (): Promise<NITSrinagarData> => {
   }
 };
 
+// ABV-IIITM Gwalior uses same structure as IIT Roorkee
+export type ABVIIITMGwaliorData = IITRoorkeeData;
+
+// Function to load ABV-IIITM Gwalior data
+export const loadABVIIITMGwaliorData = async (): Promise<ABVIIITMGwaliorData> => {
+  try {
+    const response = await fetch('/data/colleges/abv_iiitm_gwalior.json');
+    if (!response.ok) {
+      throw new Error('Failed to load ABV-IIITM Gwalior data');
+    }
+    const data = await response.json();
+    return data as ABVIIITMGwaliorData;
+  } catch (error) {
+    console.error('Error loading ABV-IIITM Gwalior data:', error);
+    throw error;
+  }
+};
+
+// IIITDM Jabalpur uses same structure as IIT Roorkee
+export type IIITDMJabalpurData = IITRoorkeeData;
+
+// Function to load IIITDM Jabalpur data
+export const loadIIITDMJabalpurData = async (): Promise<IIITDMJabalpurData> => {
+  try {
+    const response = await fetch('/data/colleges/iiitdm_jabalpur.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIITDM Jabalpur data');
+    }
+    const data = await response.json();
+    return data as IIITDMJabalpurData;
+  } catch (error) {
+    console.error('Error loading IIITDM Jabalpur data:', error);
+    throw error;
+  }
+};
+
+// IIITDM Kancheepuram uses same structure as IIT Roorkee
+export type IIITDMKancheepuramData = IITRoorkeeData;
+
+// Function to load IIITDM Kancheepuram data
+export const loadIIITDMKancheepuramData = async (): Promise<IIITDMKancheepuramData> => {
+  try {
+    const response = await fetch('/data/colleges/iiitdm_kancheepuram.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIITDM Kancheepuram data');
+    }
+    const data = await response.json();
+    return data as IIITDMKancheepuramData;
+  } catch (error) {
+    console.error('Error loading IIITDM Kancheepuram data:', error);
+    throw error;
+  }
+};
+
+// IIIT Bangalore uses same structure as IIT Roorkee
+export type IIITBangaloreData = IITRoorkeeData;
+
+// Function to load IIIT Bangalore data
+export const loadIIITBangaloreData = async (): Promise<IIITBangaloreData> => {
+  try {
+    const response = await fetch('/data/colleges/iiit_bangalore.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIIT Bangalore data');
+    }
+    const data = await response.json();
+    return data as IIITBangaloreData;
+  } catch (error) {
+    console.error('Error loading IIIT Bangalore data:', error);
+    throw error;
+  }
+};
+
+// IIIT Pune uses same structure as IIT Roorkee
+export type IIITPuneData = IITRoorkeeData;
+
+// Function to load IIIT Pune data
+export const loadIIITPuneData = async (): Promise<IIITPuneData> => {
+  try {
+    const response = await fetch('/data/colleges/iiit_pune.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIIT Pune data');
+    }
+    const data = await response.json();
+    return data as IIITPuneData;
+  } catch (error) {
+    console.error('Error loading IIIT Pune data:', error);
+    throw error;
+  }
+};
+
+// IIIT Delhi uses same structure as IIT Roorkee
+export type IIITDelhiData = IITRoorkeeData;
+
+// Function to load IIIT Delhi data
+export const loadIIITDelhiData = async (): Promise<IIITDelhiData> => {
+  try {
+    const response = await fetch('/data/colleges/iiit_delhi.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIIT Delhi data');
+    }
+    const data = await response.json();
+    return data as IIITDelhiData;
+  } catch (error) {
+    console.error('Error loading IIIT Delhi data:', error);
+    throw error;
+  }
+};
+
 // Lightweight loader for IIT Madras textual content split into tab sections (legacy support)
 export interface IITMadrasSections {
   overview: string;

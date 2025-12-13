@@ -1,0 +1,553 @@
+{
+  "Name": "Indian Institute of Information Technology, Design and Manufacturing Jabalpur (IIITDM Jabalpur)",
+  "Location": {
+    "City": "Jabalpur",
+    "District": "Jabalpur",
+    "State": "Madhya Pradesh",
+    "Country": "India",
+    "Pin": "482005",
+    "CampusAreaAcres": 200,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Jabalpur, Madhya Pradesh"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 2005,
+    "OriginalName": "Indian Institute of Information Technology, Design and Manufacturing Jabalpur",
+    "Renamed": [],
+    "HistoricalSignificance": "Established in 2005, IIITDM Jabalpur focuses on information technology, design, and manufacturing. It combines engineering design with information technology to create innovative solutions for manufacturing industries."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "Indian Institute of Information Technology, Design and Manufacturing Jabalpur (IIITDM Jabalpur), established in 2005, is a centrally funded technical university located in Jabalpur, Madhya Pradesh. It is an Institute of National Importance offering courses in information technology, design, and manufacturing engineering.",
+    "StudentStrength": "Over 2,500 students including international nationals",
+    "MajorEvents": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports events"
+    ],
+    "ResearchFocus": [
+      "Information Technology",
+      "Design Engineering",
+      "Manufacturing Technology",
+      "Product Design",
+      "Industrial Automation"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities"
+    ],
+    "SocialInitiatives": [
+      "Outreach programs",
+      "Technical training workshops",
+      "Environmental projects",
+      "Community development"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 72,
+      "Engineering": 72,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 72,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Electronics and Communication Engineering",
+          "Mechanical Engineering",
+          "Design Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA counseling"],
+        "Seats": 500,
+        "FirstYearFeeINR": 200000,
+        "TotalFeesINRApprox": 800000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 4,
+        "Entrance": ["UCEED"],
+        "Seats": 40,
+        "FirstYearFeeINR": 200000,
+        "TotalFeesINRApprox": 800000
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 10,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CCMT"],
+        "FirstYearFeeINR": 150000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "N/A"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "GMAT"],
+        "Seats": 60,
+        "FirstYearFeeINR": 150000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Computer Science",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["JAM"],
+        "FirstYearFeeINR": 100000,
+        "Seats": 40
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 8,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 60000,
+        "SeatsMoreThan": 100
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 60000,
+      "Maximum": 60000,
+      "Note": "Approximate hostel and mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": ""
+      },
+      "BDes": {
+        "Exam": "UCEED",
+        "Counseling": "UCEED counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT",
+        "AdditionalProcesses": "Institute procedures"
+      },
+      "MBA": {
+        "Exam": "CAT",
+        "AdditionalSelection": ["GD", "PI"]
+      },
+      "MSc": {
+        "Exam": ["IIT JAM"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms: SC 15%, ST 7.5%, OBC 27%, EWS 10%, PwD 5%",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "JEEMain2025": {
+      "BTechCSEClosingRank": 9000,
+      "ECEClosingRank": 11000,
+      "MechEngClosingRank": 13000,
+      "DesignEngClosingRank": 15000
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 500,
+      "OBC": 800
+    },
+    "JAMMSc2025Cutoffs": {
+      "Physics": [0, 0],
+      "Chemistry": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 80,
+      "OBCPercentile": 70,
+      "SCSTPercentileMin": 60
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories with multiple rounds of JoSAA counselling."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 400,
+      "Recruiters": 90,
+      "HighestPackageINR": 6000000,
+      "HighestDomesticPackageINR": 6000000,
+      "OverallAveragePackageINR": 1300000,
+      "CSEAveragePackageINR": 1600000,
+      "ECEAveragePackageINR": 1400000,
+      "MBA median package INR": 950000,
+      "PPOs": 45,
+      "TopRecruiters": [
+        "Amazon",
+        "Microsoft",
+        "Google",
+        "Adobe",
+        "Oracle",
+        "Infosys",
+        "TCS",
+        "Wipro",
+        "HCL",
+        "Tech Mahindra"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Design Engineer",
+        "Product Designer",
+        "Manufacturing Engineer",
+        "Consultant",
+        "R&D Engineer"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Technical seminars",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 8,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Rooms"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 50000,
+      "EJournalsCount": 5000,
+      "Features": [
+        "Digital resources",
+        "24/7 access",
+        "Group study zones",
+        "Computer terminals"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 50,
+      "FocusAreas": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Design",
+        "Manufacturing"
+      ],
+      "Equipment": [
+        "State-of-the-art instruments",
+        "Advanced computing facilities",
+        "Modern fabrication equipment",
+        "3D printing facilities"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Cricket Ground",
+        "Football Ground",
+        "Tennis Courts",
+        "Basketball Courts",
+        "Volleyball Courts",
+        "Badminton Courts",
+        "Indoor Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "IIITDM Jabalpur Medical Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "24/7 doctor services",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Food courts",
+        "Cafeterias"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Regional cuisines",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Guest Houses",
+      "Banks and ATMs",
+      "Post Office",
+      "Shopping Complex",
+      "Places of Worship",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 30,
+      "Types": [
+        "Technical (Coding, IEEE)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Photography",
+        "Quizzing",
+        "Design Clubs"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 8,
+    "DepartmentsList": [
+      "Computer Science and Engineering",
+      "Electronics and Communication Engineering",
+      "Mechanical Engineering",
+      "Design Engineering",
+      "Mathematics",
+      "Physics",
+      "Chemistry",
+      "Humanities and Social Sciences"
+    ],
+    "ResearchCenters": [
+      "Centre for Advanced Research",
+      "Centre for Industry Collaboration",
+      "Design and Manufacturing Research Center"
+    ],
+    "Strength": {
+      "FacultyCount": 120,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Government ministries",
+      "Private industries"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Industry consultancy"
+    ],
+    "StudentFeedback": "Faculty with doctoral qualifications from reputed institutes, engaged in research, teaching, and community service"
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "SC/ST/PwD Fee Concessions",
+      "EWS Tuition Fee Waiver",
+      "Income-based fee waivers",
+      "Merit-cum-means scholarships",
+      "GATE/NET Fellowships",
+      "Research Fellowships",
+      "National Scholarship Portal schemes"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Support",
+      "Monthly Stipends",
+      "Books and Study Material"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.4,
+    "CollegeDuniaReviewsCount": 350,
+    "Careers360Rating": 4.3,
+    "Strengths": [
+      "Excellent placement opportunities",
+      "Unique focus on design and manufacturing",
+      "Good faculty-student ratio",
+      "Focused on fostering research and innovation",
+      "Coherent blend of academics and extracurricular activities",
+      "Personalized attention from faculty",
+      "Growing placement opportunities"
+    ],
+    "Weaknesses": [
+      "Competitive admissions",
+      "Academic pressure",
+      "Limited infrastructure compared to older IITs"
+    ],
+    "ReturnOnInvestment": "Excellent"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India",
+    "CulturalTraditions": [
+      "Technical festival traditions",
+      "Cultural festival heritage",
+      "Sports events",
+      "Inter-hostel competitions"
+    ],
+    "Festivals": [
+      "Technical Festival",
+      "Cultural Festival",
+      "Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Coding (IEEE)",
+      "Science and Technology Council",
+      "Cultural Council",
+      "Sports Council",
+      "Music & Dance",
+      "Drama",
+      "Photography",
+      "Quizzing",
+      "Design Clubs"
+    ],
+    "OutdoorActivities": [
+      "Sports activities",
+      "Cultural exploration",
+      "Community engagement",
+      "Nature activities"
+    ],
+    "StudentGovernance": "Student Councils and representative bodies",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Sports Facilities",
+      "Medical facilities",
+      "Counseling Services"
+    ],
+    "Community": "Active student community with cultural fests, technical events, sports, and student clubs. Hostels and amenities contribute to a supportive environment."
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 2005,
+    "Founder": "Government of India",
+    "InitialFocus": "Information Technology, Design and Manufacturing education",
+    "Evolution": [
+      "2005: Established as Indian Institute of Information Technology, Design and Manufacturing Jabalpur",
+      "Accorded Institute of National Importance status"
+    ],
+    "Legacy": "Premier institute for IT, design, and manufacturing education in India",
+    "Heritage": "Strong commitment to technical advancement, ethical leadership, and global engagement"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Information Technology",
+      "Design Engineering",
+      "Manufacturing Technology",
+      "Product Design",
+      "Industrial Automation"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Research initiatives involve collaborations with industries and higher education institutions focusing on IT, design, and manufacturing",
+    "Startups": {
+      "Number": 18,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Regional industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "IIITDM Jabalpur Admissions 2025-26",
+      "Date": "2025-09-01",
+      "Details": "Admissions open for various programs"
+    },
+    {
+      "Event": "Technical Festival 2025",
+      "StartDate": "2025-03-15",
+      "EndDate": "2025-03-19",
+      "Theme": "Technical festival"
+    },
+    {
+      "Event": "Cultural Festival 2025",
+      "StartDate": "2025-10-05",
+      "EndDate": "2025-10-09",
+      "Theme": "Cultural festival"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.iiitdmj.ac.in",
+    "Address": "Indian Institute of Information Technology, Design and Manufacturing Jabalpur, Jabalpur, Madhya Pradesh-482005",
+    "Phone": "+91-761-2794000",
+    "Emails": {
+      "Registrar": "registrar@iiitdmj.ac.in",
+      "Admissions": "admissions@iiitdmj.ac.in",
+      "PlacementCell": "placement@iiitdmj.ac.in"
+    }
+  }
+}
+
