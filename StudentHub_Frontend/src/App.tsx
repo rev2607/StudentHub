@@ -91,6 +91,9 @@ import IIITDMKancheepuramPage from "./pages/Colleges/IIITDMKancheepuramPage";
 import IIITBangalorePage from "./pages/Colleges/IIITBangalorePage";
 import IIITPunePage from "./pages/Colleges/IIITPunePage";
 import IIITDelhiPage from "./pages/Colleges/IIITDelhiPage";
+import IIITGuwahatiPage from "./pages/Colleges/IIITGuwahatiPage";
+import IIITBhagalpurPage from "./pages/Colleges/IIITBhagalpurPage";
+import IIITRanchiPage from "./pages/Colleges/IIITRanchiPage";
 import AboutPage from "./pages/AboutPage/AboutPage";
 
 // import Search from "./pages/Other/Search";
@@ -175,6 +178,9 @@ function App() {
             <Route path="/colleges/iiit-bangalore" element={<IIITBangalorePage />} />
             <Route path="/colleges/iiit-pune" element={<IIITPunePage />} />
             <Route path="/colleges/iiit-delhi" element={<IIITDelhiPage />} />
+            <Route path="/colleges/iiit-guwahati" element={<IIITGuwahatiPage />} />
+            <Route path="/colleges/iiit-bhagalpur" element={<IIITBhagalpurPage />} />
+            <Route path="/colleges/iiit-ranchi" element={<IIITRanchiPage />} />
             <Route path="/colleges/amity-noida" element={<AmityNoidaPage />} />
             <Route path="/colleges/bits-pilani" element={<BITSPilaniPage />} />
             <Route path="/colleges/srm" element={<SRMPage />} />
