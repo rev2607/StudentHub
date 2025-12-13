@@ -1,8 +1,3 @@
-
-
-
-
-
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { 
@@ -20,8 +15,8 @@ import {
 import AdmissionPredictorModal from "../../components/AdmissionPredictorModal";
 import BrochureModal from "../../components/BrochureModal";
 
-// Import NIT Silchar data service
-import { loadNITSilcharData, type NITSilcharData } from "../../services/collegeDataService";
+// Import IIIT Lucknow data service
+import { loadIIITLucknowData, type IIITLucknowData } from "../../services/collegeDataService";
 
 interface TabProps {
   label: string;
@@ -49,9 +44,9 @@ const InfoCard: React.FC<{ label: string; value: string | number }> = ({ label, 
   </div>
 );
 
-const NITSilcharPage: React.FC = () => {
+const IIITLucknowPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState("overview");
-  const [collegeData, setCollegeData] = useState<NITSilcharData | null>(null);
+  const [collegeData, setCollegeData] = useState<IIITLucknowData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isPredictorModalOpen, setIsPredictorModalOpen] = useState(false);
@@ -82,7 +77,7 @@ const NITSilcharPage: React.FC = () => {
     const loadData = async () => {
       try {
         setLoading(true);
-        const data = await loadNITSilcharData();
+        const data = await loadIIITLucknowData();
         setCollegeData(data);
         
         // Set page title
@@ -95,7 +90,7 @@ const NITSilcharPage: React.FC = () => {
         document.head.appendChild(meta);
       } catch (err) {
         setError('Failed to load college data');
-        console.error('Error loading NIT Silchar data:', err);
+        console.error('Error loading IIIT Lucknow data:', err);
       } finally {
         setLoading(false);
       }
@@ -126,7 +121,7 @@ const NITSilcharPage: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLeadModalOpen(true);
-      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_open', page: 'nit_silchar' } })); } catch {}
+      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_open', page: 'iiit_lucknow' } })); } catch {}
     }, 10000);
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setIsLeadModalOpen(false); };
     window.addEventListener('keydown', onKey);
@@ -153,10 +148,10 @@ const NITSilcharPage: React.FC = () => {
         body: JSON.stringify({
           ...leadForm,
           college: collegeData?.Name,
-          source: 'nit_silchar_page',
+          source: 'iiit_lucknow_page',
         })
       });
-      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_submit', page: 'nit_silchar' } })); } catch {}
+      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_submit', page: 'iiit_lucknow' } })); } catch {}
       setIsLeadModalOpen(false);
     } catch (e) {
       // noop: could show toast
@@ -229,7 +224,7 @@ const NITSilcharPage: React.FC = () => {
       {/* Admission Predictor CTA (moved to top) */}
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Predict Your Chances</h3>
-        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Silchar based on your rank and category.</p>
+        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for IIIT Lucknow based on your rank and category.</p>
         <button onClick={() => setIsPredictorModalOpen(true)} className="w-full px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Try Admission Predictor</button>
       </div>
 
@@ -240,7 +235,7 @@ const NITSilcharPage: React.FC = () => {
           <div className="flex gap-3">
             <img src="/default-news.jpg" alt="News" className="w-16 h-16 object-cover rounded-lg flex-shrink-0" />
             <div className="flex-1 min-w-0">
-              <h4 className="text-sm font-medium text-gray-900 line-clamp-2">NIT Silchar Begins PhD Admissions 2025-26</h4>
+              <h4 className="text-sm font-medium text-gray-900 line-clamp-2">IIIT Lucknow Begins PhD Admissions 2025-26</h4>
               <p className="text-xs text-gray-500 mt-1">2 days ago</p>
             </div>
           </div>
@@ -257,26 +252,26 @@ const NITSilcharPage: React.FC = () => {
 
       {/* Top Courses */}
       <div className="bg-white rounded-xl shadow-sm p-8">
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">Top Courses at NIT Silchar</h3>
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Top Courses at IIIT Lucknow</h3>
         <div className="space-y-3">
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
                 <p className="font-medium text-gray-900">B.Tech CSE</p>
-                <p className="text-xs text-gray-500">₹1.5L/year</p>
+                <p className="text-xs text-gray-500">₹8.87L - 11.09L</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
                 <p className="font-medium text-gray-900">M.Tech CSE</p>
-                <p className="text-xs text-gray-500">₹45,000/year</p>
+                <p className="text-xs text-gray-500">₹65,200</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
                 <p className="font-medium text-gray-900">MBA</p>
-                <p className="text-xs text-gray-500">₹65,000/year</p>
+                <p className="text-xs text-gray-500">₹2.3L</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
@@ -338,12 +333,12 @@ const NITSilcharPage: React.FC = () => {
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Upcoming Events</h3>
         <div className="space-y-3 text-sm">
           <div className="p-3 bg-gray-50 rounded-lg">
-            <div className="font-medium text-gray-900">Technical Fest</div>
-            <div className="text-gray-600">Mar • Technical competitions and workshops</div>
+            <div className="font-medium text-gray-900">Thomso Cultural Festival</div>
+            <div className="text-gray-600">Nov • Workshops, concerts, competitions</div>
               </div>
           <div className="p-3 bg-gray-50 rounded-lg">
-            <div className="font-medium text-gray-900">Cultural Fest</div>
-            <div className="text-gray-600">Oct • Cultural performances and events</div>
+            <div className="font-medium text-gray-900">Cognizance Tech Fest</div>
+            <div className="text-gray-600">Mar • Hackathons, keynotes, expo</div>
           </div>
         </div>
       </div>
@@ -404,7 +399,7 @@ const NITSilcharPage: React.FC = () => {
       {/* Admission Predictor CTA */}
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Predict Your Chances</h3>
-        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Silchar based on your rank and category.</p>
+        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for IIIT Lucknow based on your rank and category.</p>
         <button onClick={() => setIsPredictorModalOpen(true)} className="w-full px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Try Admission Predictor</button>
       </div>
 
@@ -439,16 +434,16 @@ const NITSilcharPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Popular College Comparisons</h3>
         <div className="space-y-2 text-sm">
-          <Link to="/compare/nit-silchar-vs-nit-trichy" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Silchar vs NIT Trichy</span>
+          <Link to="/compare/iiit-lucknow-vs-iit-delhi" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">IIIT Lucknow vs IIT Delhi</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
-          <Link to="/compare/nit-silchar-vs-iit-guwahati" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Silchar vs IIT Guwahati</span>
+          <Link to="/compare/iiit-lucknow-vs-iit-bombay" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">IIIT Lucknow vs IIT Bombay</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
-          <Link to="/compare/nit-silchar-vs-nit-warangal" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Silchar vs NIT Warangal</span>
+          <Link to="/compare/iiit-lucknow-vs-iit-kanpur" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">IIIT Lucknow vs IIT Kanpur</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
         </div>
@@ -519,11 +514,11 @@ const NITSilcharPage: React.FC = () => {
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Students Also View</h3>
         <div className="space-y-4 flex-1">
           {[
-            { name: "NIT Trichy", rank: "31", type: "Engineering" },
-            { name: "NIT Warangal", rank: "35", type: "Engineering" },
-            { name: "NIT Calicut", rank: "42", type: "Engineering" },
-            { name: "IIT Guwahati", rank: "7", type: "Engineering" },
-            { name: "NIT Rourkela", rank: "38", type: "Engineering" }
+            { name: "IIT Delhi", rank: "2", type: "Engineering" },
+            { name: "IIT Bombay", rank: "3", type: "Engineering" },
+            { name: "IIT Kanpur", rank: "4", type: "Engineering" },
+            { name: "IIT Kharagpur", rank: "5", type: "Engineering" },
+            { name: "IIT Madras", rank: "1", type: "Engineering" }
           ].map((college, index) => (
             <Link key={index} to="/colleges" className="flex items-center gap-3 p-3 hover:bg-gray-50 rounded-lg transition-colors">
               <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center text-white font-bold text-sm">
@@ -553,36 +548,6 @@ const NITSilcharPage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">About {collegeData.Name}</h3>
         <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
         
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <p className="text-gray-700 mb-3">
-            <strong>NIT Silchar Courses are offered at UG, PG, Doctorate level.</strong> The institute offers programs in Engineering, Science, Management disciplines. Available degrees include B.Tech, M.Tech, Ph.D, M.Sc, MBA. Popular courses are B.Tech, M.Tech, Ph.D.
-          </p>
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>NIT Silchar Fees 2025-2026 is ₹6.14 Lakhs - 2 Lakhs across all offered courses.</strong> UG Fees: ₹6.14 Lakhs for B.Tech (4 years), PG Fees: ₹1.3 Lakhs to ₹2 Lakhs</li>
-            <li>• <strong>NIT Silchar B.Tech Fees is ₹6.14 Lakhs for the entire 4 years duration.</strong> Popular specializations: Computer Science & Engineering, Electronics & Communication Engineering, Electrical Engineering.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• NIT Silchar B.Tech total program fee: ₹6.14 Lakhs. Hostel fee: ~₹80,000 per year.</li>
-                <li>• B.Tech CSE and ECE are the most competitive programs with high placement rates.</li>
-              </ul>
-            </li>
-            <li>• <strong>NIT Silchar M.Tech Fees is ~₹2 Lakhs for the entire 2 years duration.</strong> Popular specializations: Computer Science And Engineering, Electronics & Communication Engineering.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• NIT Silchar M.Tech annual fee: ~₹45,000</li>
-                <li>• Multiple M.Tech specializations available across various departments</li>
-              </ul>
-            </li>
-            <li>• <strong>NIT Silchar Ph.D Fees is ~₹1.5 Lakhs for 3 years duration.</strong> Popular specializations: All engineering, science, and management departments.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• Ph.D fee: ~₹50,000 per year</li>
-                <li>• Approx. 100 annual intake for Ph.D programs</li>
-              </ul>
-            </li>
-            <li>• <strong>NIT Silchar offers MBA with total fee of ~₹1.3 Lakhs.</strong> Admission through CAT/CMAT examination.</li>
-            <li>• <strong>NIT Silchar Hostel Fee is approximately ₹30,000 to ₹80,000 annually.</strong></li>
-          </ul>
-        </div>
-        
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Established" value={collegeData.Established.Year} />
           <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2025.Overall} />
@@ -603,17 +568,6 @@ const NITSilcharPage: React.FC = () => {
       {/* Academic Programs Overview */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
-        
-        {/* Summary Bullet Points */}
-        <div className="mb-6">
-          <ul className="space-y-2 text-gray-700">
-            <li>• <strong>NIT Silchar offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, and management disciplines.</strong> The institute emphasizes practical exposure and research with state-of-the-art facilities and experienced faculty.</li>
-            <li>• <strong>Undergraduate Programs:</strong> B.Tech (632 seats, ~₹1.5L/year). Programs require competitive entrance examinations with JEE Main for B.Tech followed by JoSAA counseling.</li>
-            <li>• <strong>Postgraduate Programs:</strong> M.Tech (varies by specialization, ~₹45,000/year), MBA (60 seats, ~₹65,000/year), M.Sc (60 seats across 3 disciplines, ~₹10,000/year). Admission through GATE, CAT/CMAT, and IIT JAM examinations respectively.</li>
-            <li>• <strong>Doctoral Programs:</strong> PhD (11 programs, 100+ seats, ~₹50,000/year). Duration typically 3-5 years with research focus areas including interdisciplinary research, sustainable technology, and innovation.</li>
-            <li>• <strong>Hostel & Accommodation:</strong> 8 hostels with modern amenities including Wi-Fi, mess, laundry, recreation rooms. Hostel fees approximately ₹30,000 to ₹80,000 annually.</li>
-          </ul>
-        </div>
         
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-4 bg-gray-50">
@@ -648,7 +602,7 @@ const NITSilcharPage: React.FC = () => {
       {/* Admission Process */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Admission Process & Cutoffs</h3>
-        <p className="text-gray-700 mb-6">Admissions at NIT Silchar are entrance exam based, conducted via JEE Main for UG, GATE for PG, with counseling procedures ensuring transparency. The institute follows a merit-based selection process.</p>
+        <p className="text-gray-700 mb-6">Admissions at IIIT Lucknow are highly competitive, with rigorous entrance examinations and strict cutoff criteria. The institute follows a merit-based selection process ensuring only the brightest minds join the community.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -664,7 +618,7 @@ const NITSilcharPage: React.FC = () => {
               </div>
               <div className="bg-gray-50 rounded-lg p-3">
                 <h5 className="font-medium">Doctoral (PhD)</h5>
-
+                <p className="text-sm text-gray-700">{collegeData.AdmissionProcessAndEntranceExams.Doctoral.PhD.Exam.slice(0, 3).join(", ")} and others</p>
               </div>
             </div>
           </div>
@@ -676,7 +630,7 @@ const NITSilcharPage: React.FC = () => {
               <div className="flex justify-between"><span>Data Science & AI:</span> <span className="font-medium">AIR {collegeData.CutoffInformation.JEEAdvanced2025.DataScienceAIClosingAIR}</span></div>
               <div className="flex justify-between"><span>ECE:</span> <span className="font-medium">AIR {collegeData.CutoffInformation.JEEAdvanced2025.ECEClosingAIR}</span></div>
               <div className="flex justify-between"><span>Mechanical:</span> <span className="font-medium">AIR {collegeData.CutoffInformation.JEEAdvanced2025.MechEngClosingAIR}</span></div>
-
+              <div className="flex justify-between"><span>B.Arch:</span> <span className="font-medium">Rank {collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString()}</span></div>
               <div className="flex justify-between"><span>MBA (General):</span> <span className="font-medium">{collegeData.CutoffInformation.CATMBA2025Cutoffs.GeneralPercentile}%</span></div>
             </div>
           </div>
@@ -686,7 +640,7 @@ const NITSilcharPage: React.FC = () => {
       {/* Placements & Career Opportunities */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Placements & Career Opportunities</h3>
-        <p className="text-gray-700 mb-6">NIT Silchar has a strong placement record with placement rate of approximately 91% in 2024. Top-tier companies consistently recruit students, especially from CSE and ECE branches. The placement cell ensures comprehensive preparation and support.</p>
+        <p className="text-gray-700 mb-6">IIIT Lucknow has an exceptional placement record with top-tier companies consistently recruiting students across all programs. The Career Development Cell ensures comprehensive preparation and support throughout the placement process.</p>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Total Offers (2024)" value={collegeData.Placements.Year2024.TotalOffers} />
@@ -703,7 +657,7 @@ const NITSilcharPage: React.FC = () => {
           <div>
             <h4 className="font-semibold text-lg mb-3">Top Recruiting Companies</h4>
             <div className="flex flex-wrap gap-2">
-              {collegeData.Placements.Year2024.TopRecruiters.map((recruiter: string, index: number) => (
+              {collegeData.Placements.Year2024.TopRecruiters.slice(0, 12).map((recruiter: string, index: number) => (
                 <span key={index} className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
                   {recruiter}
                 </span>
@@ -727,7 +681,7 @@ const NITSilcharPage: React.FC = () => {
       {/* Rankings & Recognition */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Rankings & Recognition</h3>
-        <p className="text-gray-700 mb-6">NIT Silchar is ranked 50th in engineering and 97th overall in NIRF 2025 rankings. It is ranked among top government engineering colleges in East India and is the oldest NIT in Northeast India.</p>
+        <p className="text-gray-700 mb-6">IIIT Lucknow consistently ranks among the top engineering institutions in India and has gained international recognition for its academic excellence, research contributions, and innovation initiatives.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -777,7 +731,7 @@ const NITSilcharPage: React.FC = () => {
       {/* Facilities & Infrastructure */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Campus Facilities & Infrastructure</h3>
-        <p className="text-gray-700 mb-6">The 366-acre campus of NIT Silchar houses well-maintained facilities including modern hostels, state-of-the-art laboratories, extensive library resources (largest digital library in India), and comprehensive sports infrastructure to support holistic development.</p>
+        <p className="text-gray-700 mb-6">The modern campus of IIIT Lucknow houses world-class facilities including modern hostels, state-of-the-art laboratories, extensive library resources, and comprehensive sports infrastructure to support holistic development.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -786,7 +740,7 @@ const NITSilcharPage: React.FC = () => {
               <div className="bg-blue-50 rounded-lg p-3">
                 <h5 className="font-medium">Hostel Facilities</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-
+                  <div><span className="font-medium">{collegeData.Facilities.Hostels.Number} hostels</span> with {collegeData.Facilities.Hostels.Types.join(", ")} options</div>
                   <div>Amenities: Wi-Fi, Study Rooms, Mess Halls, Recreation Areas</div>
                 </div>
               </div>
@@ -805,7 +759,7 @@ const NITSilcharPage: React.FC = () => {
               <div className="bg-yellow-50 rounded-lg p-3">
                 <h5 className="font-medium">Library - {collegeData.Facilities.Library.Name}</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-
+                  <div><span className="font-medium">{collegeData.Facilities.Library.BookCount.toLocaleString()} books</span> and {collegeData.Facilities.Library.EJournalsCount.toLocaleString()} e-journals</div>
                   <div>24/7 access with digital resources and group study zones</div>
                 </div>
               </div>
@@ -847,7 +801,7 @@ const NITSilcharPage: React.FC = () => {
       {/* Faculty & Research */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty & Research Excellence</h3>
-        <p className="text-gray-700 mb-6">NIT Silchar has approximately 209 faculty members with 195 holding PhDs across 11 departments. The institute focuses on research, consultancy, mentorship, and innovative teaching with strong research culture and innovation centers.</p>
+        <p className="text-gray-700 mb-6">IIIT Lucknow boasts a distinguished faculty across multiple departments, with the majority holding PhD degrees. The institute is at the forefront of research and innovation with significant contributions to various fields.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -898,7 +852,7 @@ const NITSilcharPage: React.FC = () => {
       {/* Student Life & Culture */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student Life & Campus Culture</h3>
-        <p className="text-gray-700 mb-6">The vibrant campus life at NIT Silchar is characterized by a diverse student and faculty body from across India, promoting inclusive and collaborative learning. The campus hosts technical and cultural fests, sports events, and active clubs.</p>
+        <p className="text-gray-700 mb-6">The vibrant campus life at IIIT Lucknow is characterized by a diverse community, rich cultural traditions, and numerous opportunities for personal and professional growth through clubs, societies, and events.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -929,7 +883,7 @@ const NITSilcharPage: React.FC = () => {
               <div className="bg-blue-50 rounded-lg p-3">
                 <h5 className="font-medium">Active Organizations</h5>
                 <div className="text-sm text-gray-700">
-
+                  <span className="font-medium">{collegeData.Facilities.StudentClubs.Number} clubs</span> across technical, cultural, entrepreneurship, and social service domains
                 </div>
               </div>
               <div className="bg-green-50 rounded-lg p-3">
@@ -980,7 +934,7 @@ const NITSilcharPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Undergraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          NIT Silchar's undergraduate offerings are designed to build a strong foundation in core disciplines while
+          IIIT Lucknow's undergraduate offerings are designed to build a strong foundation in core disciplines while
           introducing students to cutting-edge technologies and interdisciplinary learning. With competitive intake,
           structured curricula, modern laboratories, and active industry projects, students graduate with both theoretical
           depth and hands-on problem-solving skills. The programs emphasize fundamentals, design thinking, and professional
@@ -1035,7 +989,7 @@ const NITSilcharPage: React.FC = () => {
           
           <div className="mt-3">
             <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-
+            <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Undergraduate.BTech.Entrance.join(", ")}</p>
           </div>
           <p className="text-gray-700 mt-3">
             The B.Tech programs balance rigorous coursework with project-based learning and elective flexibility. Core
@@ -1085,7 +1039,7 @@ const NITSilcharPage: React.FC = () => {
           </div>
           <div>
             <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-
+            <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Undergraduate.BArch.Entrance.join(", ")}</p>
           </div>
         </div>
 
@@ -1105,7 +1059,7 @@ const NITSilcharPage: React.FC = () => {
           </p>
           <div>
             <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-
+            <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Undergraduate.BDes.Entrance.join(", ")}</p>
           </div>
         </div>
       </div>
@@ -1114,7 +1068,7 @@ const NITSilcharPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Postgraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          The postgraduate ecosystem at NIT Silchar is research-driven and industry-aligned. Programs in engineering,
+          The postgraduate ecosystem at IIIT Lucknow is research-driven and industry-aligned. Programs in engineering,
           management, and sciences emphasize advanced coursework, electives in emerging areas, and strong thesis/project
           components. Students benefit from funded research labs, innovation centers, and frequent industry seminars.
         </p>
@@ -1130,7 +1084,7 @@ const NITSilcharPage: React.FC = () => {
             </div>
             <div>
               <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-
+              <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Postgraduate.MTech.Entrance.join(", ")}</p>
             </div>
             <p className="text-gray-700 mt-3">
               M.Tech students typically engage in lab-intensive courses, research assistantships, and collaborative
@@ -1149,7 +1103,7 @@ const NITSilcharPage: React.FC = () => {
             </div>
             <div>
               <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-
+              <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Postgraduate.MBA.Entrance.join(", ")}</p>
             </div>
             <p className="text-gray-700 mt-3">
               The MBA program blends analytics, leadership, and industry immersion. Case studies, capstone projects, and
@@ -1178,7 +1132,7 @@ const NITSilcharPage: React.FC = () => {
             </div>
             <div className="mt-2">
               <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-
+              <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Postgraduate.MSc.Entrance.join(", ")}</p>
             </div>
             <p className="text-gray-700 mt-3">
               M.Sc programs cultivate deep theoretical understanding and research skills, supporting pathways into PhD
@@ -1196,7 +1150,7 @@ const NITSilcharPage: React.FC = () => {
             </div>
             <div>
               <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-
+              <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Doctoral.PhD.Entrance.slice(0, 3).join(", ")}...</p>
             </div>
             <p className="text-gray-700 mt-3">
               Doctoral scholars work with faculty on sponsored projects, publish in reputed venues, and often collaborate
@@ -1237,7 +1191,7 @@ const NITSilcharPage: React.FC = () => {
                 <td className="py-2 pr-4">{collegeData.CoursesAndFees.Postgraduate.MSc.Seats}</td>
                 <td className="py-2 pr-4">{collegeData.CoursesAndFees.Postgraduate.MSc.DurationYears} years</td>
                 <td className="py-2 pr-4">{formatCurrency(collegeData.CoursesAndFees.Postgraduate.MSc.FirstYearFeeINR)}</td>
-
+                <td className="py-2">Disciplines: {collegeData.CoursesAndFees.Postgraduate.MSc.Disciplines.join(", ")}</td>
                 </tr>
               </tbody>
             </table>
@@ -1249,7 +1203,7 @@ const NITSilcharPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel & Accommodation</h3>
         <p className="text-gray-700 mb-4">
-          Hostel life at NIT Silchar is known for its vibrant culture and supportive community. With modern rooms, study
+          Hostel life at IIIT Lucknow is known for its vibrant culture and supportive community. With modern rooms, study
           areas, and recreational spaces, students find a conducive environment for personal growth. Residential living
           also fosters collaboration across programs through clubs, intramurals, and cultural festivals.
         </p>
@@ -1268,18 +1222,18 @@ const NITSilcharPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Admissions at {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at <strong>NIT Silchar</strong> are merit-based and transparent, conducted via JEE Main for UG, GATE for PG, with counseling procedures ensuring
+          Admissions at <strong>IIIT Lucknow</strong> are among the most merit-centric and transparent in Indian higher
           education, governed by national-level examinations and centralized counseling platforms. The system ensures
           nationwide participation while adhering to Central Government reservation policies for SC, ST, OBC‑NCL, EWS,
           and PwD categories. Processes vary across undergraduate, postgraduate, and doctoral levels—each emphasizing
           academic rigor, exam performance, and interviews or research assessments where applicable.
         </p>
 
-        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of NIT Silchar's Admission Framework</h4>
+        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of IIIT Lucknow’s Admission Framework</h4>
         <p className="text-gray-700 mb-3">
-          Established in 1967 as a Regional Engineering College, NIT Silchar structures admissions to maintain academic
-          excellence and equitable access. All admissions—through <strong>JEE Main, GATE, CAT/CMAT, IIT JAM,</strong> or
-          <strong> Institute-level entrance tests</strong>—are aligned to centralized systems managed by national bodies such as
+          Founded in 2015, IIIT Lucknow structures admissions to maintain academic
+          excellence and equitable access. All admissions—through <strong>JEE Advanced, GATE, CAT, JAM,</strong> or
+          <strong> UCEED</strong>—are aligned to centralized systems managed by national bodies such as
           <strong> JoSAA</strong>, <strong>COAP</strong>, and respective coordination portals.
           The core goal is to align candidate merit (exam performance) with program preferences, seat availability, and
           category-based reservations. Shortlisted candidates later verify documents and eligibility at the institute.
@@ -1292,8 +1246,9 @@ const NITSilcharPage: React.FC = () => {
           <li><strong>B.Des:</strong> Admission via <strong>UCEED</strong> with centralized counseling.</li>
         </ul>
         <p className="text-gray-700 mt-2">
-          <span className="font-medium">Recent Cutoffs (2025):</span> B.Tech CSE – AIR 66; Electrical Engineering – AIR 285; ECE – AIR 400;
-          Mechanical – AIR 1500; Civil – AIR 3000. Admissions are finalized over multiple JoSAA rounds; seats can fluctuate due to withdrawals and
+          <span className="font-medium">Recent Cutoffs (2025 Approx.):</span> B.Tech CSE – AIR 535; Data Science & AI – AIR 710; ECE – AIR 1394;
+          Electrical – AIR 1752; Mechanical – AIR 1900; Civil – AIR 2175; B.Arch (AAT) – Rank 16,596; B.Des General – AIR 111
+          (OBC – AIR 56). Admissions are finalized over multiple JoSAA rounds; seats can fluctuate due to withdrawals and
           category shifts.
         </p>
 
@@ -1344,15 +1299,15 @@ const NITSilcharPage: React.FC = () => {
         </ul>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at NIT Silchar</h3>
+        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at IIIT Lucknow</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at NIT Silchar are entrance exam based and merit-driven. Each program is tied to a national-level
+          Admissions at IIIT Lucknow are highly structured and merit-driven. Each program is tied to a national-level
           examination with carefully defined counseling processes, category-based reservations, and institute-level
           verification. Shortlisted candidates typically proceed through centralized counseling where seat allotments are
           made based on rank, preferences, and availability.
         </p>
         <p className="text-gray-700">
-          Undergraduate entries are primarily via JEE Main followed by JoSAA. Postgraduate programs rely on GATE,
+          Undergraduate entries are primarily via JEE Advanced followed by JoSAA. Postgraduate programs rely on GATE,
           CAT, JAM and institute processes, while PhD admissions combine national tests with interviews and research
           proposals. Below is a compact view of typical entry routes and recent indicative cutoffs.
         </p>
@@ -1377,12 +1332,12 @@ const NITSilcharPage: React.FC = () => {
                 <td className="py-2 pr-4 font-medium">B.Arch</td>
                 <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Exam} + AAT</td>
                 <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Counseling}</td>
-
+                <td className="py-2">AAT Rank {collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString()}</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">MBA</td>
                 <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.Exam}</td>
-
+                <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.AdditionalSelection.join(', ')}</td>
                 <td className="py-2">General {collegeData.CutoffInformation.CATMBA2025Cutoffs.GeneralPercentile}%</td>
               </tr>
               <tr>
@@ -1393,7 +1348,7 @@ const NITSilcharPage: React.FC = () => {
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">PhD</td>
-
+                <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Doctoral.PhD.Exam.slice(0,3).join(', ')}...</td>
                 <td className="py-2 pr-4">Interview + Research Proposal</td>
                 <td className="py-2">Departmental shortlisting</td>
               </tr>
@@ -1448,7 +1403,7 @@ const NITSilcharPage: React.FC = () => {
                 <h5 className="font-medium mb-2">MBA</h5>
                 <div className="space-y-2 text-sm">
                   <div><span className="font-medium">Exam:</span> {collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.Exam}</div>
-
+                  <div><span className="font-medium">Selection Process:</span> {collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.AdditionalSelection.join(", ")}</div>
                 </div>
               </div>
             </div>
@@ -1458,7 +1413,7 @@ const NITSilcharPage: React.FC = () => {
           <div>
             <h4 className="text-lg font-medium mb-3">Doctoral Admissions</h4>
             <div className="space-y-2 text-sm">
-
+              <div><span className="font-medium">Exams:</span> {collegeData.AdmissionProcessAndEntranceExams.Doctoral.PhD.Exam.join(", ")}</div>
               <div><span className="font-medium">Selection:</span> {collegeData.AdmissionProcessAndEntranceExams.Doctoral.PhD.Selection}</div>
               <div><span className="font-medium">Additional:</span> {collegeData.AdmissionProcessAndEntranceExams.Doctoral.PhD.AdditionalNotes}</div>
             </div>
@@ -1488,7 +1443,7 @@ const NITSilcharPage: React.FC = () => {
           <div>
             <h4 className="text-lg font-medium mb-3">Other Program Cutoffs</h4>
             <div className="grid md:grid-cols-2 gap-4">
-
+              <InfoCard label="B.Arch (AAT Closing Rank)" value={collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString()} />
               <InfoCard label="B.Des General" value={collegeData.CutoffInformation.BDesUCEED2025ClosingRanks.General} />
               <InfoCard label="B.Des OBC" value={collegeData.CutoffInformation.BDesUCEED2025ClosingRanks.OBC} />
             </div>
@@ -1523,10 +1478,10 @@ const NITSilcharPage: React.FC = () => {
   const renderPlacementsTab = () => (
     <div id="placements-root" className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Why Placements at NIT Silchar Stand Out</h3>
+        <h3 className="text-2xl font-semibold mb-4">Why Placements at IIIT Lucknow Stand Out</h3>
         <p className="text-gray-700 mb-3">
-          NIT Silchar's placement ecosystem blends academic rigor, early skill development, industry exposure, and a
-          powerful alumni network—resulting in strong placement rates (91% in 2024) and diverse opportunities, especially in CSE and ECE branches. Students are
+          IIIT Lucknow’s placement ecosystem blends academic rigor, early skill development, industry exposure, and a
+          powerful alumni network—resulting in consistently high packages and diverse global opportunities. Students are
           groomed to excel in high‑pressure, real‑world environments, not just to crack interviews.
         </p>
 
@@ -1807,10 +1762,11 @@ const NITSilcharPage: React.FC = () => {
     <div id="rankings-root" className="space-y-6">
       {/* Rankings Narrative and Consolidated Tables (user-provided) */}
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">NIT Silchar Rankings & Recognition</h3>
+        <h3 className="text-2xl font-semibold mb-4">IIIT Lucknow Rankings & Recognition</h3>
         <p className="text-gray-700 mb-4">
-          NIT Silchar is ranked 50th in engineering and 97th overall in NIRF 2025 rankings. It is ranked among top government engineering colleges in East India and is the oldest NIT in Northeast India. The institute's performance across teaching quality, research output, graduate outcomes, outreach,
-          and perception is reflected in leading national ranking frameworks.
+          IIIT Lucknow is consistently ranked among India’s top institutions and continues to strengthen its global
+          standing. The institute’s performance across teaching quality, research output, graduate outcomes, outreach,
+          and perception is reflected in leading national and international ranking frameworks.
         </p>
 
         <div className="overflow-x-auto mb-6">
@@ -1927,8 +1883,9 @@ const NITSilcharPage: React.FC = () => {
         </div>
 
         <p className="text-gray-700 mb-4">
-          Nationally, NIT Silchar ranks #97 overall (NIRF 2025) and #50 in engineering.
-          These rankings reflect strong academics, research, innovation, and regional presence as the oldest NIT in Northeast India.
+          IIIT Lucknow is a growing institute with a focus on IT education and research excellence.
+          Internationally, it is #335 in QS World (2026) and #130 in QS Asia (2025), with THE placing engineering in the
+          301–400 band. These reflect strong academics, research, innovation, and global presence.
         </p>
 
         <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-700">
@@ -1949,10 +1906,11 @@ const NITSilcharPage: React.FC = () => {
         </div>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Understanding NIT Silchar's Rankings</h3>
+        <h3 className="text-2xl font-semibold mb-4">Understanding IIIT Lucknow’s Rankings</h3>
         <p className="text-gray-700 mb-3">
-          Rankings reflect NIT Silchar's performance in teaching, research output, innovation, graduate
-          outcomes, and visibility. Nationally, the institute is ranked 50th in engineering and 97th overall, indicating strong competitiveness and alumni impact in the Northeast region.
+          Rankings reflect IIIT Lucknow’s consistent performance in teaching, research output, innovation, graduate
+          outcomes, and international visibility. Nationally, the institute is among the top engineering schools; globally,
+          it features in reputed lists such as QS and THE, indicating strong competitiveness and alumni impact.
         </p>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
@@ -2083,7 +2041,7 @@ const NITSilcharPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mb-2">Hostel and Residential Life</h4>
         <p className="text-gray-700 mb-3">
-          With <strong>20 hostels</strong> for diverse needs, residences feature Wi‑Fi, study rooms, lounges, indoor games,
+          With modern hostels for diverse needs, residences feature Wi‑Fi, study rooms, lounges, indoor games,
           nutritious messes, student‑run quality committees, laundry, 24×7 water, and medical assistance. Cultural nights
           and inter‑hostel events create a vibrant community.
         </p>
@@ -2162,7 +2120,7 @@ const NITSilcharPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Campus Facilities & Student Experience</h3>
         <p className="text-gray-700 mb-3">
-          The 365-acre campus is planned for academic rigor and balanced living. High-quality hostels, libraries,
+          The 200-acre campus is planned for academic rigor and balanced living. High-quality hostels, libraries,
           laboratories, sports complexes, and medical services create a complete ecosystem that supports learning and
           wellbeing. Student clubs and maker spaces further enhance hands-on creativity and leadership.
         </p>
@@ -2179,12 +2137,12 @@ const NITSilcharPage: React.FC = () => {
               <tr>
                 <td className="py-2 pr-4 font-medium">Hostels</td>
                 <td className="py-2 pr-4">Wi‑Fi, study rooms, recreation</td>
-
+                <td className="py-2">{collegeData.Facilities.Hostels.Number} hostels</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Library</td>
                 <td className="py-2 pr-4">24/7 access, digital resources</td>
-
+                <td className="py-2">{collegeData.Facilities.Library.BookCount.toLocaleString()} books, {collegeData.Facilities.Library.EJournalsCount.toLocaleString()} e‑journals</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Labs</td>
@@ -2199,7 +2157,7 @@ const NITSilcharPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel Facilities</h3>
         <p className="text-gray-700 mb-3">
-          Residential life anchors the NIT Silchar experience. With 8 hostels spanning boys and girls
+          Residential life anchors the IIIT Lucknow experience. With modern hostels spanning boys, girls, married and co‑ed
           residences, students find a safe, connected environment. Wi‑Fi connectivity, common study rooms, recreation
           lounges and student‑run mess committees support academic focus and community bonding in equal measure.
         </p>
@@ -2240,7 +2198,9 @@ const NITSilcharPage: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-6">
           <div className="space-y-3">
             <InfoCard label="Name" value={collegeData.Facilities.Library.Name} />
-
+            <InfoCard label="Area" value={`${collegeData.Facilities.Library.AreaSqFt.toLocaleString()} sq ft`} />
+            <InfoCard label="Books" value={`${collegeData.Facilities.Library.BookCount.toLocaleString()}`} />
+            <InfoCard label="E-Journals" value={`${collegeData.Facilities.Library.EJournalsCount.toLocaleString()}`} />
           </div>
           
           <div>
@@ -2358,7 +2318,7 @@ const NITSilcharPage: React.FC = () => {
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-
+            <InfoCard label="Total Clubs" value={collegeData.Facilities.StudentClubs.Number} />
           </div>
           
           <div>
@@ -2380,8 +2340,8 @@ const NITSilcharPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength, Research Culture & Global Collaborations</h3>
         <p className="text-gray-700 mb-3">
-          NIT Silchar's faculty and research ecosystem is strong. With <strong>209</strong> faculty members, <strong>195</strong> holding PhDs
-          across <strong>11 departments</strong>, the institute sustains a robust, interdisciplinary environment spanning
+          IIIT Lucknow's faculty and research ecosystem is among the strongest in India. With a strong faculty
+          across multiple departments, the institute sustains a robust, interdisciplinary environment spanning
           fundamental sciences, engineering, and emerging domains. Faculty drive national missions, global partnerships,
           and translational research impacting both industry and society.
         </p>
@@ -2409,7 +2369,7 @@ const NITSilcharPage: React.FC = () => {
               <tbody className="divide-y divide-gray-100">
                 <tr className="hover:bg-gray-50">
                   <td className="py-2 pr-4 font-medium">Faculty Strength</td>
-                  <td className="py-2 pr-4">209 across 11 departments</td>
+                  <td className="py-2 pr-4">Strong faculty across multiple departments</td>
                   <td className="py-2">Majority PhD‑qualified</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
@@ -2431,7 +2391,7 @@ const NITSilcharPage: React.FC = () => {
         <p className="text-gray-700 mb-3">
           Most faculty members hold doctorates from IITs, IISc, or global universities (Cambridge, ETH Zurich, MIT).
           Growth areas include the Department of Design Innovation and interdisciplinary centers like Biomedical
-          Engineering, reflecting NIT Silchar's future‑oriented academic model.
+          Engineering, reflecting IIIT Lucknow’s future‑oriented academic model.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Key Research Centers and Specializations</h4>
@@ -2547,7 +2507,7 @@ const NITSilcharPage: React.FC = () => {
         <h4 className="text-lg font-semibold mt-3 mb-2">Research Funding & Recognition</h4>
         <p className="text-gray-700">
           Funding sources include the Ministry of Education, DST, CSIR, DBT, ISRO, and international grants. Award‑winning
-          innovations span sustainable technology, regional development, and social causes. NIT Silchar balances academic
+          innovations span renewable energy, disaster mitigation, and AI‑assisted healthcare. IIIT Lucknow balances academic
           rigor with national priorities and global partnerships, making it one of India’s most research‑driven academic
           communities.
         </p>
@@ -2555,7 +2515,7 @@ const NITSilcharPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength & Research Culture</h3>
         <p className="text-gray-700 mb-3">
-          With a cohort of accomplished faculty across 11 departments, NIT Silchar sustains a vibrant research
+          With a large cohort of accomplished faculty across departments, IIIT Lucknow sustains a vibrant research
           ecosystem. Faculty members publish in leading venues, attract substantial research funding, and mentor student
           teams that participate in national and international competitions.
         </p>
@@ -2691,17 +2651,17 @@ const NITSilcharPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student & Alumni Perspectives on {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Established in 1967 as a Regional Engineering College, NIT Silchar is widely regarded as a premier
-          engineering and technology institution in Northeast India. Reviews consistently highlight a rigorous academic atmosphere, experienced and supportive
-          faculty, and a diverse peer network set against a vibrant, 366-acre campus in Silchar, Assam.
+          Established in 2015, IIIT Lucknow is widely regarded as a premier
+          engineering and technology institution. Reviews consistently highlight a rigorous academic atmosphere, world‑class
+          faculty, and a highly competitive peer network set against a vibrant, historic campus.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Expanded Student and Alumni Perspectives</h4>
         <p className="text-gray-700 mb-3">
           Students appreciate both theoretical depth and practical exposure through seminars, industry collaborations, and
           research projects. Peer culture is motivating; hostel life is community‑oriented with strong participation in
-          technical societies and cultural clubs.           Flagship fests like <em>Techfest</em> (tech) and <em>Mood Indigo</em>
-          (cultural) build leadership and event management skills. While demanding, the curriculum's rigor pays dividends
+          technical societies and cultural clubs. Flagship fests like <em>Cognizance</em> (tech) and <em>Thomso</em>
+          (cultural) build leadership and event management skills. While demanding, the curriculum’s rigor pays dividends
           for competitive exams, higher studies abroad, and corporate roles.
         </p>
 
@@ -2724,7 +2684,7 @@ const NITSilcharPage: React.FC = () => {
           <li><strong>Technical societies</strong> (IEEE, ASME, robotics) build applied skills.</li>
           <li><strong>Sports</strong> culture features inter‑IIT participation and extensive facilities.</li>
           <li><strong>Arts & literature</strong> clubs run debates, music, dramatics, and publications.</li>
-          <li><strong>Festivals</strong> like Mood Indigo and Techfest draw national attention and celebrity line‑ups.</li>
+          <li><strong>Festivals</strong> like Thomso draw national attention and celebrity line‑ups.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mb-2">Areas That See Regular Debate</h4>
@@ -2736,7 +2696,7 @@ const NITSilcharPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mb-2">Return on Investment & Prestige</h4>
         <p className="text-gray-700 mb-4">
-          With comparatively low fees and strong outcomes, ROI is considered good. The NIT Silchar brand has recognition
+          With comparatively low fees and strong outcomes, ROI is considered excellent. The IIIT Lucknow brand has global
           recognition; alumni progress into leadership roles across industry, academia, and public service.
         </p>
 
@@ -2782,7 +2742,7 @@ const NITSilcharPage: React.FC = () => {
   const renderContactTab = () => (
     <div className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Contacting NIT Silchar Effectively</h3>
+        <h3 className="text-2xl font-semibold mb-4">Contacting IIIT Lucknow Effectively</h3>
         <p className="text-gray-700 mb-3">
           For admissions and program-specific queries, use official channels and include your application details (name,
           application ID, program, and question) for faster responses. For urgent issues, phone lines and the institute
@@ -2935,8 +2895,8 @@ const NITSilcharPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/images/nit-trichy-logo.png" 
-                    alt="NIT Silchar Logo" 
+                    src="/data/colleges/IIIT_Lucknow_Logo.svg" 
+                    alt="IIIT Lucknow Logo" 
                     className="w-full h-full object-contain"
                   />
                 </div>
@@ -3032,95 +2992,95 @@ const NITSilcharPage: React.FC = () => {
       <AdmissionPredictorModal
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
-        collegeName={collegeData?.Name || "NIT Silchar"}
-        collegeLogo="/images/nit-trichy-logo.png"
+        collegeName={collegeData?.Name || "IIIT Lucknow"}
+        collegeLogo="/data/colleges/IIIT_Lucknow_Logo.svg"
       />
 
       {/* Brochure Modal */}
       <BrochureModal
         isOpen={isBrochureModalOpen}
         onClose={() => setIsBrochureModalOpen(false)}
-        collegeName={collegeData?.Name || "NIT Silchar"}
+        collegeName={collegeData?.Name || "IIIT Lucknow"}
         collegeData={collegeData || undefined}
       />
 
-      {/* Floating Back-to-Top */}
-      {showBackToTop && (
-        <button
-          aria-label="Back to top"
-          className="fixed bottom-6 right-6 bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 rounded-full shadow-md transition-colors"
-          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-        >
-          ↑ Top
-        </button>
-      )}
+    {/* Floating Back-to-Top */}
+    {showBackToTop && (
+      <button
+        aria-label="Back to top"
+        className="fixed bottom-6 right-6 bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 rounded-full shadow-md transition-colors"
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+      >
+        ↑ Top
+      </button>
+    )}
 
-      {/* Register to Apply Modal */}
-      {isLeadModalOpen && (
-        <div className="fixed inset-0 z-40">
-          {/* Backdrop */}
-          <div onClick={() => setIsLeadModalOpen(false)} className="absolute inset-0 bg-black/40 backdrop-blur-[1px] opacity-100 transition-opacity" />
-          {/* Modal Panel */}
-          <div className="absolute inset-x-0 bottom-0 md:inset-0 flex items-end md:items-center justify-center">
-            <div className="w-full md:max-w-4xl bg-white rounded-t-2xl md:rounded-2xl shadow-xl overflow-hidden transform transition-all md:scale-100 md:opacity-100 relative">
-              {/* Desktop close (X) */}
-              <button
-                onClick={() => setIsLeadModalOpen(false)}
-                aria-label="Close"
-                className="hidden md:flex absolute top-3 right-3 h-8 w-8 items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200"
-              >
-                ×
-              </button>
-              <div className="grid md:grid-cols-2">
-                {/* Left: Features/Testimonial */}
-                <div className="p-6 md:p-8 bg-gray-50">
-                  <h3 className="text-xl font-semibold mb-4">Register Now to Apply</h3>
-                  <p className="text-sm text-gray-700 mb-4">Fast‑track your application workflow for {collegeData?.Name}. Get counselling, fee details, scholarships and deadline reminders.</p>
-                  <div className="grid grid-cols-2 gap-3 mb-6 text-sm">
-                    <div className="p-3 rounded-lg bg-white shadow-sm">📄 Brochure details</div>
-                    <div className="p-3 rounded-lg bg-white shadow-sm">💰 Check detailed fees</div>
-                    <div className="p-3 rounded-lg bg-white shadow-sm">✅ Shortlist & apply</div>
-                    <div className="p-3 rounded-lg bg-white shadow-sm">🧑‍💼 24/7 counselling</div>
-                    <div className="p-3 rounded-lg bg-white shadow-sm">🎓 Scholarships</div>
-                    <div className="p-3 rounded-lg bg-white shadow-sm">📅 Application deadlines</div>
-                  </div>
-                  <div className="p-4 rounded-lg bg-white shadow-sm">
-                    <div className="text-sm text-gray-800 italic">"StudentHub made it easy to compare programs and finish my application on time."</div>
-                    <div className="text-xs text-gray-500 mt-2">— Gurmeet, B.Tech (2024)</div>
-                  </div>
+    {/* Register to Apply Modal */}
+    {isLeadModalOpen && (
+      <div className="fixed inset-0 z-40">
+        {/* Backdrop */}
+        <div onClick={() => setIsLeadModalOpen(false)} className="absolute inset-0 bg-black/40 backdrop-blur-[1px] opacity-100 transition-opacity" />
+        {/* Modal Panel */}
+        <div className="absolute inset-x-0 bottom-0 md:inset-0 flex items-end md:items-center justify-center">
+          <div className="w-full md:max-w-4xl bg-white rounded-t-2xl md:rounded-2xl shadow-xl overflow-hidden transform transition-all md:scale-100 md:opacity-100 relative">
+            {/* Desktop close (X) */}
+            <button
+              onClick={() => setIsLeadModalOpen(false)}
+              aria-label="Close"
+              className="hidden md:flex absolute top-3 right-3 h-8 w-8 items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200"
+            >
+              ×
+            </button>
+            <div className="grid md:grid-cols-2">
+              {/* Left: Features/Testimonial */}
+              <div className="p-6 md:p-8 bg-gray-50">
+                <h3 className="text-xl font-semibold mb-4">Register Now to Apply</h3>
+                <p className="text-sm text-gray-700 mb-4">Fast‑track your application workflow for {collegeData?.Name}. Get counselling, fee details, scholarships and deadline reminders.</p>
+                <div className="grid grid-cols-2 gap-3 mb-6 text-sm">
+                  <div className="p-3 rounded-lg bg-white shadow-sm">📄 Brochure details</div>
+                  <div className="p-3 rounded-lg bg-white shadow-sm">💰 Check detailed fees</div>
+                  <div className="p-3 rounded-lg bg-white shadow-sm">✅ Shortlist & apply</div>
+                  <div className="p-3 rounded-lg bg-white shadow-sm">🧑‍💼 24/7 counselling</div>
+                  <div className="p-3 rounded-lg bg-white shadow-sm">🎓 Scholarships</div>
+                  <div className="p-3 rounded-lg bg-white shadow-sm">📅 Application deadlines</div>
                 </div>
-                {/* Right: Form */}
-                <div className="p-6 md:p-8">
-                  <button onClick={() => setIsLeadModalOpen(false)} aria-label="Close" className="md:hidden float-right -mt-2 -mr-2 text-gray-500">✕</button>
-                  <div className="grid grid-cols-1 gap-3">
-                    <input value={leadForm.fullName} onChange={(e) => setLeadForm({ ...leadForm, fullName: e.target.value })} placeholder="Full Name *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.fullName ? 'ring-1 ring-red-500' : ''}`} />
-                    {leadErrors.fullName && <span className="text-xs text-red-600">{leadErrors.fullName}</span>}
-                    <input value={leadForm.email} onChange={(e) => setLeadForm({ ...leadForm, email: e.target.value })} placeholder="Email Address *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.email ? 'ring-1 ring-red-500' : ''}`} />
-                    {leadErrors.email && <span className="text-xs text-red-600">{leadErrors.email}</span>}
-                    <input value={leadForm.phone} onChange={(e) => setLeadForm({ ...leadForm, phone: e.target.value })} placeholder="Mobile Number *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.phone ? 'ring-1 ring-red-500' : ''}`} />
-                    {leadErrors.phone && <span className="text-xs text-red-600">{leadErrors.phone}</span>}
-                    <input value={leadForm.city} onChange={(e) => setLeadForm({ ...leadForm, city: e.target.value })} placeholder="City You Live In *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.city ? 'ring-1 ring-red-500' : ''}`} />
-                    {leadErrors.city && <span className="text-xs text-red-600">{leadErrors.city}</span>}
-                    <select value={leadForm.course} onChange={(e) => setLeadForm({ ...leadForm, course: e.target.value })} className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.course ? 'ring-1 ring-red-500' : ''}`}>
-                      <option value="">Course Interested In *</option>
-                      <option value="B.Tech">B.Tech</option>
-                      <option value="M.Tech">M.Tech</option>
-                      <option value="MBA">MBA</option>
-                      <option value="M.Sc">M.Sc</option>
-                      <option value="PhD">PhD</option>
-                    </select>
-                    {leadErrors.course && <span className="text-xs text-red-600">{leadErrors.course}</span>}
-                    <button onClick={submitLead} className="mt-1 px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-lg">Submit</button>
-                    <button onClick={() => setIsLeadModalOpen(false)} className="text-xs text-gray-500">Already registered? Close to continue</button>
-                  </div>
+                <div className="p-4 rounded-lg bg-white shadow-sm">
+                  <div className="text-sm text-gray-800 italic">“StudentHub made it easy to compare programs and finish my application on time.”</div>
+                  <div className="text-xs text-gray-500 mt-2">— Gurmeet, B.Tech (2024)</div>
+                </div>
+              </div>
+              {/* Right: Form */}
+              <div className="p-6 md:p-8">
+                <button onClick={() => setIsLeadModalOpen(false)} aria-label="Close" className="md:hidden float-right -mt-2 -mr-2 text-gray-500">✕</button>
+                <div className="grid grid-cols-1 gap-3">
+                  <input value={leadForm.fullName} onChange={(e) => setLeadForm({ ...leadForm, fullName: e.target.value })} placeholder="Full Name *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.fullName ? 'ring-1 ring-red-500' : ''}`} />
+                  {leadErrors.fullName && <span className="text-xs text-red-600">{leadErrors.fullName}</span>}
+                  <input value={leadForm.email} onChange={(e) => setLeadForm({ ...leadForm, email: e.target.value })} placeholder="Email Address *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.email ? 'ring-1 ring-red-500' : ''}`} />
+                  {leadErrors.email && <span className="text-xs text-red-600">{leadErrors.email}</span>}
+                  <input value={leadForm.phone} onChange={(e) => setLeadForm({ ...leadForm, phone: e.target.value })} placeholder="Mobile Number *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.phone ? 'ring-1 ring-red-500' : ''}`} />
+                  {leadErrors.phone && <span className="text-xs text-red-600">{leadErrors.phone}</span>}
+                  <input value={leadForm.city} onChange={(e) => setLeadForm({ ...leadForm, city: e.target.value })} placeholder="City You Live In *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.city ? 'ring-1 ring-red-500' : ''}`} />
+                  {leadErrors.city && <span className="text-xs text-red-600">{leadErrors.city}</span>}
+                  <select value={leadForm.course} onChange={(e) => setLeadForm({ ...leadForm, course: e.target.value })} className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.course ? 'ring-1 ring-red-500' : ''}`}>
+                    <option value="">Course Interested In *</option>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="M.Tech">M.Tech</option>
+                    <option value="MBA">MBA</option>
+                    <option value="M.Sc">M.Sc</option>
+                    <option value="PhD">PhD</option>
+                  </select>
+                  {leadErrors.course && <span className="text-xs text-red-600">{leadErrors.course}</span>}
+                  <button onClick={submitLead} className="mt-1 px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-lg">Submit</button>
+                  <button onClick={() => setIsLeadModalOpen(false)} className="text-xs text-gray-500">Already registered? Close to continue</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      )}
+      </div>
+    )}
     </div>
   );
 };
 
-export default NITSilcharPage;
+export default IIITLucknowPage;

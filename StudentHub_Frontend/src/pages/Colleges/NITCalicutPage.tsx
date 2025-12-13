@@ -1,4 +1,4 @@
-﻿import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { 
   Star, 
@@ -29,8 +29,8 @@ const Tab: React.FC<TabProps> = ({ label, isActive, onClick }) => (
     onClick={onClick}
     className={`px-4 py-2 text-sm font-medium transition-colors ${
       isActive
-        ? "text-blue-600"
-        : "text-gray-500 hover:text-gray-700"
+
+? "text-blue-600"        : "text-gray-500 hover:text-gray-700"
     }`}
   >
     {label}
@@ -176,7 +176,7 @@ const NITCalicutPage: React.FC = () => {
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Error Loading College Data</h2>
           <p className="text-gray-600 mb-4">{error}</p>
           <Link to="/colleges" className="text-blue-600 hover:underline">
-            â† Back to Colleges
+            ← Back to Colleges
           </Link>
         </div>
       </div>
@@ -189,7 +189,7 @@ const NITCalicutPage: React.FC = () => {
         <div className="text-center py-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">College Not Found</h2>
           <Link to="/colleges" className="text-blue-600 hover:underline">
-            â† Back to Colleges
+            ← Back to Colleges
           </Link>
         </div>
       </div>
@@ -210,11 +210,11 @@ const NITCalicutPage: React.FC = () => {
 
   const formatCurrency = (amount: number) => {
     if (amount >= 10000000) {
-      return `â‚¹${(amount / 10000000).toFixed(1)} Cr`;
+      return `₹${(amount / 10000000).toFixed(1)} Cr`;
     } else if (amount >= 100000) {
-      return `â‚¹${(amount / 100000).toFixed(1)} L`;
+      return `₹${(amount / 100000).toFixed(1)} L`;
     } else {
-      return `â‚¹${amount.toLocaleString()}`;
+      return `₹${amount.toLocaleString()}`;
     }
   };
 
@@ -257,21 +257,21 @@ const NITCalicutPage: React.FC = () => {
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
                 <p className="font-medium text-gray-900">B.Tech CSE</p>
-                <p className="text-xs text-gray-500">â‚¹2.3L/year</p>
+                <p className="text-xs text-gray-500">₹2.3L/year</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
                 <p className="font-medium text-gray-900">M.Tech CSE</p>
-                <p className="text-xs text-gray-500">â‚¹66,700/year</p>
+                <p className="text-xs text-gray-500">₹66,700/year</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
                 <p className="font-medium text-gray-900">MBA</p>
-                <p className="text-xs text-gray-500">â‚¹4.33L/year</p>
+                <p className="text-xs text-gray-500">₹4.33L/year</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
@@ -334,11 +334,11 @@ const NITCalicutPage: React.FC = () => {
         <div className="space-y-3 text-sm">
           <div className="p-3 bg-gray-50 rounded-lg">
             <div className="font-medium text-gray-900">Ragam Cultural Festival</div>
-            <div className="text-gray-600">Mar • Cultural events, concerts, competitions</div>
+            <div className="text-gray-600">Mar � Cultural events, concerts, competitions</div>
               </div>
           <div className="p-3 bg-gray-50 rounded-lg">
             <div className="font-medium text-gray-900">Tathva Tech Fest</div>
-            <div className="text-gray-600">Oct • Hackathons, keynotes, expo</div>
+            <div className="text-gray-600">Oct � Hackathons, keynotes, expo</div>
           </div>
         </div>
       </div>
@@ -347,10 +347,10 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Scholarships</h3>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-          <li>Meritâ€‘cumâ€‘Means (UG)</li>
+          <li>Merit‑cum‑Means (UG)</li>
           <li>EWS Tuition Fee Waiver</li>
           <li>SC/ST Scholarships</li>
-          <li>Industryâ€‘sponsored Fellowships (PG/PhD)</li>
+          <li>Industry‑sponsored Fellowships (PG/PhD)</li>
         </ul>
       </div>
 
@@ -390,7 +390,7 @@ const NITCalicutPage: React.FC = () => {
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </li>
           <li className="flex items-center justify-between">
-            <span>Founders & Deepâ€‘Tech Startups</span>
+            <span>Founders & Deep‑Tech Startups</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </li>
         </ul>
@@ -406,7 +406,7 @@ const NITCalicutPage: React.FC = () => {
       {/* Talk to a Counsellor */}
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Talk to a Counsellor</h3>
-        <p className="text-sm text-gray-700 mb-3">Confused about branches, fees or cutoffs? Get a free 10â€‘min call.</p>
+        <p className="text-sm text-gray-700 mb-3">Confused about branches, fees or cutoffs? Get a free 10‑min call.</p>
         <button className="w-full px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">Request a Callback</button>
       </div>
 
@@ -466,7 +466,7 @@ const NITCalicutPage: React.FC = () => {
       {/* Mock Tests */}
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Practice Mock Tests</h3>
-        <p className="text-sm text-gray-700 mb-3">Boost your readiness with full-length, examâ€‘pattern mock tests. Instant scores and detailed solutions.</p>
+        <p className="text-sm text-gray-700 mb-3">Boost your readiness with full-length, exam‑pattern mock tests. Instant scores and detailed solutions.</p>
         <div className="grid grid-cols-1 gap-2 text-sm">
           <Link to="/mocktests/jee-main" className="px-3 py-2 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 font-medium transition-colors">JEE Main Mock Test</Link>
           <Link to="/mocktests/jee-advanced" className="px-3 py-2 rounded-lg bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-medium transition-colors">JEE Advanced Mock Test</Link>
@@ -526,7 +526,7 @@ const NITCalicutPage: React.FC = () => {
               </div>
               <div className="flex-1">
                 <p className="font-medium text-gray-900">{college.name}</p>
-                <p className="text-xs text-gray-500">NIRF Rank #{college.rank} â€¢ {college.type}</p>
+                <p className="text-xs text-gray-500">NIRF Rank #{college.rank} • {college.type}</p>
               </div>
               <ChevronRight className="w-4 h-4 text-gray-400" />
             </Link>
@@ -554,27 +554,27 @@ const NITCalicutPage: React.FC = () => {
             <strong>NIT Calicut Courses are offered at UG, PG, Doctorate level. There are 129 courses offered at NIT Calicut.</strong> The institute offers programs in Architecture, Engineering, Science, Management disciplines. Available degrees include B.Tech, M.Tech, Ph.D, B.Arch, M.Sc, MBA, M.Arch, BS + MS, B.Tech + M.Tech, Executive MBA. Popular courses are B.Tech, M.Tech, Ph.D.
           </p>
           <ul className="space-y-2 text-gray-700">
-            <li>â€¢ <strong>NIT Calicut Fees 2025-2026 range from â‚¹44,000 to â‚¹8.66 Lakhs across all offered courses.</strong> UG Fees: â‚¹9.2 Lakhs for B.Tech (4 years), PG Fees: â‚¹1.334 Lakhs to â‚¹8.66 Lakhs</li>
-            <li>â€¢ <strong>NIT Calicut B.Tech Fees is â‚¹9.2 Lakhs for the entire 4 years duration.</strong> Popular specializations: Computer Science & Engineering, Electrical Engineering, Mechanical Engineering.
+            <li>• <strong>NIT Calicut Fees 2025-2026 range from ₹44,000 to ₹8.66 Lakhs across all offered courses.</strong> UG Fees: ₹9.2 Lakhs for B.Tech (4 years), PG Fees: ₹1.334 Lakhs to ₹8.66 Lakhs</li>
+            <li>• <strong>NIT Calicut B.Tech Fees is ₹9.2 Lakhs for the entire 4 years duration.</strong> Popular specializations: Computer Science & Engineering, Electrical Engineering, Mechanical Engineering.
               <ul className="ml-4 mt-1 space-y-1">
-                <li>â€¢ NIT Calicut B.Tech total program fee: â‚¹9.2 Lakhs. First year fee: â‚¹2.3 Lakhs.</li>
-                <li>â€¢ B.Tech CSE is one of the most competitive programs with AIR 66 cutoff.</li>
+                <li>• NIT Calicut B.Tech total program fee: ₹9.2 Lakhs. First year fee: ₹2.3 Lakhs.</li>
+                <li>• B.Tech CSE is one of the most competitive programs with AIR 66 cutoff.</li>
               </ul>
             </li>
-            <li>â€¢ <strong>NIT Calicut M.Tech Fees is â‚¹1.334 Lakhs for the entire 2 years duration.</strong> Popular specializations: Computer Science And Engineering, Data Science, AI & Machine Learning.
+            <li>• <strong>NIT Calicut M.Tech Fees is ₹1.334 Lakhs for the entire 2 years duration.</strong> Popular specializations: Computer Science And Engineering, Data Science, AI & Machine Learning.
               <ul className="ml-4 mt-1 space-y-1">
-                <li>â€¢ NIT Calicut M.Tech annual fee: â‚¹66,700</li>
-                <li>â€¢ 50+ M.Tech specializations available across various departments</li>
+                <li>• NIT Calicut M.Tech annual fee: ₹66,700</li>
+                <li>• 50+ M.Tech specializations available across various departments</li>
               </ul>
             </li>
-            <li>â€¢ <strong>NIT Calicut Ph.D Fees is â‚¹1.32 Lakhs for 3 years duration.</strong> Popular specializations: All engineering, science, and management departments.
+            <li>• <strong>NIT Calicut Ph.D Fees is ₹1.32 Lakhs for 3 years duration.</strong> Popular specializations: All engineering, science, and management departments.
               <ul className="ml-4 mt-1 space-y-1">
-                <li>â€¢ Ph.D fee: â‚¹44,000 per year (â‚¹1.32 Lakhs for 3 years)</li>
-                <li>â€¢ Over 1200+ Ph.D students enrolled across 50 programs</li>
+                <li>• Ph.D fee: ₹44,000 per year (₹1.32 Lakhs for 3 years)</li>
+                <li>• Over 1200+ Ph.D students enrolled across 50 programs</li>
               </ul>
             </li>
-            <li>â€¢ <strong>NIT Calicut offers MBA through SJMSOM with total fee of â‚¹8.66 Lakhs (â‚¹4.33 Lakhs per year).</strong> Admission through CAT examination.</li>
-            <li>â€¢ <strong>NIT Calicut Hostel & Mess Fee is approximately â‚¹39,400 per semester.</strong></li>
+            <li>• <strong>NIT Calicut offers MBA through SJMSOM with total fee of ₹8.66 Lakhs (₹4.33 Lakhs per year).</strong> Admission through CAT examination.</li>
+            <li>• <strong>NIT Calicut Hostel & Mess Fee is approximately ₹39,400 per semester.</strong></li>
           </ul>
         </div>
         
@@ -602,11 +602,11 @@ const NITCalicutPage: React.FC = () => {
         {/* Summary Bullet Points */}
         <div className="mb-6">
           <ul className="space-y-2 text-gray-700">
-            <li>â€¢ <strong>NIT Calicut offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and design disciplines.</strong> The institute maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
-            <li>â€¢ <strong>Undergraduate Programs:</strong> B.Tech (1200 seats, â‚¹2.3L/year), Dual Degree programs available, B.Des (15 seats, â‚¹2.3L/year). All programs require competitive entrance examinations with JEE Advanced for B.Tech and UCEED for B.Des.</li>
-            <li>â€¢ <strong>Postgraduate Programs:</strong> M.Tech (50 specializations, â‚¹66,700/year), MBA (120 seats, â‚¹4.33L/year), M.Sc (200 seats across 4 disciplines, â‚¹78,600/year). Admission through GATE, CAT, and IIT JAM examinations respectively.</li>
-            <li>â€¢ <strong>Doctoral Programs:</strong> PhD (50 programs, 1200+ seats, â‚¹44,000/year). Duration typically 3-5 years with research focus areas including AI, machine learning, sustainable energy, healthcare informatics, and electric mobility.</li>
-            <li>â€¢ <strong>Hostel & Accommodation:</strong> 18 hostels with modern amenities including Wi-Fi, study rooms, mess halls, recreation areas, and water purifiers. Hostel & mess fees approximately â‚¹39,400 per semester.</li>
+            <li>• <strong>NIT Calicut offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and design disciplines.</strong> The institute maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
+            <li>• <strong>Undergraduate Programs:</strong> B.Tech (1200 seats, ₹2.3L/year), Dual Degree programs available, B.Des (15 seats, ₹2.3L/year). All programs require competitive entrance examinations with JEE Advanced for B.Tech and UCEED for B.Des.</li>
+            <li>• <strong>Postgraduate Programs:</strong> M.Tech (50 specializations, ₹66,700/year), MBA (120 seats, ₹4.33L/year), M.Sc (200 seats across 4 disciplines, ₹78,600/year). Admission through GATE, CAT, and IIT JAM examinations respectively.</li>
+            <li>• <strong>Doctoral Programs:</strong> PhD (50 programs, 1200+ seats, ₹44,000/year). Duration typically 3-5 years with research focus areas including AI, machine learning, sustainable energy, healthcare informatics, and electric mobility.</li>
+            <li>• <strong>Hostel & Accommodation:</strong> 18 hostels with modern amenities including Wi-Fi, study rooms, mess halls, recreation areas, and water purifiers. Hostel & mess fees approximately ₹39,400 per semester.</li>
           </ul>
         </div>
         
@@ -788,7 +788,7 @@ const NITCalicutPage: React.FC = () => {
               <div className="bg-green-50 rounded-lg p-3">
                 <h5 className="font-medium">Dining & Food</h5>
                 <div className="text-sm text-gray-700">
-                  Multiple messes, cafÃ©s, food courts with daily menu rotation and dietary options
+                  Multiple messes, cafés, food courts with daily menu rotation and dietary options
                 </div>
               </div>
             </div>
@@ -903,16 +903,16 @@ const NITCalicutPage: React.FC = () => {
                 <h5 className="font-medium">Major Festivals</h5>
                 <div className="text-sm text-gray-700 space-y-1">
                   {collegeData.StudentLifeAndLifestyle.Festivals.map((festival: string, index: number) => (
-                    <div key={index}>• {festival}</div>
-                  ))}
+
+<div key={index} className="flex items-center"><ChevronRight className="w-4 h-4 mr-2 text-pink-600" />{festival}</div>                  ))}
                 </div>
               </div>
               <div className="bg-pink-50 rounded-lg p-3">
                 <h5 className="font-medium">Cultural Traditions</h5>
                 <div className="text-sm text-gray-700 space-y-1">
                   {collegeData.StudentLifeAndLifestyle.CulturalTraditions.map((tradition: string, index: number) => (
-                    <div key={index}>• {tradition}</div>
-                  ))}
+
+<div key={index} className="flex items-center"><ChevronRight className="w-4 h-4 mr-2 text-pink-600" />{tradition}</div>                  ))}
                 </div>
               </div>
             </div>
@@ -931,8 +931,8 @@ const NITCalicutPage: React.FC = () => {
                 <h5 className="font-medium">Key Clubs</h5>
                 <div className="text-sm text-gray-700 space-y-1">
                   {collegeData.StudentLifeAndLifestyle.ClubsAndSocieties.slice(0, 4).map((club: string, index: number) => (
-                    <div key={index}>• {club}</div>
-                  ))}
+
+<div key={index} className="flex items-center"><ChevronRight className="w-4 h-4 mr-2 text-green-600" />{club}</div>                  ))}
                 </div>
               </div>
             </div>
@@ -1222,7 +1222,7 @@ const NITCalicutPage: React.FC = () => {
                 </tr>
                 <tr className="hover:bg-gray-50">
                 <td className="py-2 pr-4 font-medium">M.Tech</td>
-                <td className="py-2 pr-4">â€”</td>
+                <td className="py-2 pr-4">—</td>
                 <td className="py-2 pr-4">{collegeData.CoursesAndFees.Postgraduate.MTech.DurationYears} years</td>
                 <td className="py-2 pr-4">{formatCurrency(collegeData.CoursesAndFees.Postgraduate.MTech.FirstYearFeeINR)}</td>
                 <td className="py-2">{collegeData.CoursesAndFees.Postgraduate.MTech.Specializations} specializations</td>
@@ -1265,16 +1265,16 @@ const NITCalicutPage: React.FC = () => {
         <p className="text-gray-700 mb-3">
           Admissions at <strong>NIT Calicut</strong> are among the most merit-centric and transparent in Indian higher
           education, governed by national-level examinations and centralized counseling platforms. The system ensures
-          nationwide participation while adhering to Central Government reservation policies for SC, ST, OBCâ€‘NCL, EWS,
-          and PwD categories. Processes vary across undergraduate, postgraduate, and doctoral levelsâ€”each emphasizing
+          nationwide participation while adhering to Central Government reservation policies for SC, ST, OBC‑NCL, EWS,
+          and PwD categories. Processes vary across undergraduate, postgraduate, and doctoral levels—each emphasizing
           academic rigor, exam performance, and interviews or research assessments where applicable.
         </p>
 
-        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of NIT Calicutâ€™s Admission Framework</h4>
+        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of NIT Calicut’s Admission Framework</h4>
         <p className="text-gray-700 mb-3">
           Founded in 1958 through Indo-Soviet collaboration, NIT Calicut structures admissions to maintain academic
-          excellence and equitable access. All admissionsâ€”through <strong>JEE Advanced, GATE, CAT, IIT JAM,</strong> or
-          <strong> UCEED</strong>â€”are aligned to centralized systems managed by national bodies such as
+          excellence and equitable access. All admissions—through <strong>JEE Advanced, GATE, CAT, IIT JAM,</strong> or
+          <strong> UCEED</strong>—are aligned to centralized systems managed by national bodies such as
           <strong> JoSAA</strong>, <strong>COAP</strong>, and respective coordination portals.
           The core goal is to align candidate merit (exam performance) with program preferences, seat availability, and
           category-based reservations. Shortlisted candidates later verify documents and eligibility at the institute.
@@ -1287,8 +1287,8 @@ const NITCalicutPage: React.FC = () => {
           <li><strong>B.Des:</strong> Admission via <strong>UCEED</strong> with centralized counseling.</li>
         </ul>
         <p className="text-gray-700 mt-2">
-          <span className="font-medium">Recent Cutoffs (2025):</span> B.Tech CSE â€“ AIR 66; Electrical Engineering â€“ AIR 285; ECE â€“ AIR 400;
-          Mechanical â€“ AIR 1500; Civil â€“ AIR 3000. Admissions are finalized over multiple JoSAA rounds; seats can fluctuate due to withdrawals and
+          <span className="font-medium">Recent Cutoffs (2025):</span> B.Tech CSE – AIR 66; Electrical Engineering – AIR 285; ECE – AIR 400;
+          Mechanical – AIR 1500; Civil – AIR 3000. Admissions are finalized over multiple JoSAA rounds; seats can fluctuate due to withdrawals and
           category shifts.
         </p>
 
@@ -1296,13 +1296,13 @@ const NITCalicutPage: React.FC = () => {
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
           <li><strong>M.Tech, M.Arch, M.Plan, M.Des:</strong> Primarily through <strong>GATE</strong> with offers handled via <strong>COAP</strong>.
             Some departments may conduct interviews or portfolio reviews.</li>
-          <li><strong>MBA:</strong> Based on <strong>CAT</strong> percentile followed by <strong>GD/PI</strong>. Indicative cutoffs: General â€“ 94%, OBC â€“ 74.5%, SC/ST â€“ 65%.</li>
+          <li><strong>MBA:</strong> Based on <strong>CAT</strong> percentile followed by <strong>GD/PI</strong>. Indicative cutoffs: General – 94%, OBC – 74.5%, SC/ST – 65%.</li>
           <li><strong>M.Sc & Integrated Programs:</strong> Admission through <strong>IIT JAM</strong> with counseling via JOAPS.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Doctoral Admissions (PhD)</h4>
         <p className="text-gray-700 mb-2">
-          PhD admissions blend national test scores (<strong>GATE, JEST, CSIRâ€‘NET, UGCâ€‘NET, CEED</strong>, etc.) with research
+          PhD admissions blend national test scores (<strong>GATE, JEST, CSIR‑NET, UGC‑NET, CEED</strong>, etc.) with research
           potential assessments. Typical stages include shortlisting, a written test and/or interview, and evaluation of a
           research proposal aligned with departmental areas. Some departments admit exceptional integrated degree holders or
           sponsored professionals without GATE.
@@ -1317,22 +1317,22 @@ const NITCalicutPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Reservation Policy & Verification</h4>
         <p className="text-gray-700 mb-2">
-          Reservations strictly follow Central Government norms: OBCâ€‘NCL 27%, SC 15%, ST 7.5%, EWS 10%, and PwD 5%
+          Reservations strictly follow Central Government norms: OBC‑NCL 27%, SC 15%, ST 7.5%, EWS 10%, and PwD 5%
           horizontal reservation. Candidates must produce original certificates at the time of admission verification; failure
           results in cancellation of provisional admission.
         </p>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Eligibility & Application Modes</h4>
         <p className="text-gray-700 mb-2">
-          Applications are <strong>online</strong> through official national or IIT-specific portals: JEE Advanced â†’ jeeadv.ac.in; GATE â†’
-          gate.iitr.ac.in; CAT â†’ iimcat.ac.in; JAM/UCEED â†’ respective organizing IIT websites. Foreign nationals and NRIs may
+          Applications are <strong>online</strong> through official national or IIT-specific portals: JEE Advanced → jeeadv.ac.in; GATE →
+          gate.iitr.ac.in; CAT → iimcat.ac.in; JAM/UCEED → respective organizing IIT websites. Foreign nationals and NRIs may
           apply via <strong>DASA</strong> or <strong>ICCR scholarships</strong> with separate eligibility and fee structures.
         </p>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Key Insights on Admission Trends</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-          <li><strong>CSE and DS&AI</strong> remain highly competitive with subâ€‘1000 AIR closing ranks.</li>
-          <li><strong>Core branches</strong> (Mechanical, Civil, Electrical) generally close between AIR 1500â€“2500.</li>
+          <li><strong>CSE and DS&AI</strong> remain highly competitive with sub‑1000 AIR closing ranks.</li>
+          <li><strong>Core branches</strong> (Mechanical, Civil, Electrical) generally close between AIR 1500–2500.</li>
           <li>For postgraduate programs, <strong>GATE cutoffs</strong> vary sharply; CS/ECE often above 600 for General category.</li>
           <li><strong>MBA</strong> has strong recruiter traction (e.g., Deloitte, Amazon, Tata Steel).</li>
           <li>The <strong>PhD pipeline</strong> is growing in AI, water resources, renewable energy, and sustainable construction technologies.</li>
@@ -1520,24 +1520,24 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Why Placements at NIT Calicut Stand Out</h3>
         <p className="text-gray-700 mb-3">
-          NIT Calicutâ€™s placement ecosystem blends academic rigor, early skill development, industry exposure, and a
-          powerful alumni networkâ€”resulting in consistently high packages and diverse global opportunities. Students are
-          groomed to excel in highâ€‘pressure, realâ€‘world environments, not just to crack interviews.
+          NIT Calicut’s placement ecosystem blends academic rigor, early skill development, industry exposure, and a
+          powerful alumni network—resulting in consistently high packages and diverse global opportunities. Students are
+          groomed to excel in high‑pressure, real‑world environments, not just to crack interviews.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Institutional Strengths Driving Placements</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1 mb-4">
-          <li><strong>Established Global Reputation</strong> with recruiters tracking IITRâ€™s talent pool annually.</li>
+          <li><strong>Established Global Reputation</strong> with recruiters tracking IITR’s talent pool annually.</li>
           <li><strong>Diverse Recruiter Base</strong> (~170 companies across tech, consulting, finance, analytics, R&D, core).</li>
           <li><strong>Premier Alumni Network</strong> in FAANG, Wall Street, consulting majors, semiconductor giants, and labs.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mb-2">Advanced Placement Preparation</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1 mb-4">
-          <li>Yearâ€‘long training (aptitude, case interviews) integrated from the second year.</li>
+          <li>Year‑long training (aptitude, case interviews) integrated from the second year.</li>
           <li>Domain workshops: CP bootcamps for CSE; design/prototyping for core branches.</li>
-          <li>Industryâ€‘linked projects with ISRO, DRDO, and private R&D labs.</li>
-          <li>Softâ€‘skill development: public speaking, client handling, crossâ€‘cultural teamwork.</li>
+          <li>Industry‑linked projects with ISRO, DRDO, and private R&D labs.</li>
+          <li>Soft‑skill development: public speaking, client handling, cross‑cultural teamwork.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mb-2">Placement Statistics Context (2024)</h4>
@@ -1556,15 +1556,15 @@ const NITCalicutPage: React.FC = () => {
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Highest Package</td>
-                <td className="py-2">â‚¹20.5 Cr (international)</td>
+                <td className="py-2">₹20.5 Cr (international)</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Average Package</td>
-                <td className="py-2">â‚¹19.6 L overall; CSE ~â‚¹34.0 L; ECE ~â‚¹30.8 L</td>
+                <td className="py-2">₹19.6 L overall; CSE ~₹34.0 L; ECE ~₹30.8 L</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Domestic Highest</td>
-                <td className="py-2">â‚¹1.2 Cr</td>
+                <td className="py-2">₹1.2 Cr</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">PPOs</td>
@@ -1576,14 +1576,14 @@ const NITCalicutPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mb-2">Types of Roles Offered</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1 mb-4">
-          <li><strong>Technology</strong> â€“ SDE, data engineering (Microsoft, Google, Amazon, Oracle, Apple, Qualcomm).</li>
-          <li><strong>Analytics & Data Science</strong> â€“ JP Morgan, Goldman Sachs, BCG, Flipkart.</li>
-          <li><strong>Core & Hardware</strong> â€“ TSMC, Intel, Tata Steel, ISRO, DRDO.</li>
-          <li><strong>Consulting</strong> â€“ BCG, Accenture Japan.</li>
-          <li><strong>Finance</strong> â€“ Goldman Sachs, JP Morgan (algo trading, IB, risk).</li>
+          <li><strong>Technology</strong> – SDE, data engineering (Microsoft, Google, Amazon, Oracle, Apple, Qualcomm).</li>
+          <li><strong>Analytics & Data Science</strong> – JP Morgan, Goldman Sachs, BCG, Flipkart.</li>
+          <li><strong>Core & Hardware</strong> – TSMC, Intel, Tata Steel, ISRO, DRDO.</li>
+          <li><strong>Consulting</strong> – BCG, Accenture Japan.</li>
+          <li><strong>Finance</strong> – Goldman Sachs, JP Morgan (algo trading, IB, risk).</li>
         </ul>
 
-        <h4 className="text-lg font-semibold mb-2">Additional Context â€“ Why Students Excel</h4>
+        <h4 className="text-lg font-semibold mb-2">Additional Context – Why Students Excel</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1 mb-4">
           <li>International recruiter exposure (Japan, Taiwan, USA, Europe).</li>
           <li>Specialized cells: Entrepreneurship, Industrial Relations, International Relations.</li>
@@ -1591,7 +1591,7 @@ const NITCalicutPage: React.FC = () => {
           <li>High internship quality; &gt;90% of offers stem from paid internships with deliverables.</li>
         </ul>
 
-        <h4 className="text-lg font-semibold mb-2">Recent Years: 2022â€“2025 Snapshot</h4>
+        <h4 className="text-lg font-semibold mb-2">Recent Years: 2022–2025 Snapshot</h4>
         <div className="overflow-x-auto mb-4">
           <div className="rounded-lg bg-white">
             <table className="w-full text-sm">
@@ -1604,26 +1604,26 @@ const NITCalicutPage: React.FC = () => {
               <tbody className="divide-y divide-gray-100">
                 <tr className="hover:bg-gray-50">
                 <td className="py-2 pr-4 font-medium">2025</td>
-                <td className="py-2">CSE â‚¹34.05L; ECE â‚¹30.81L; EE â‚¹28.36L; Civil â‚¹16.62L; 163 recruiters; 742 offers (Phase 1); 222 PPOs</td>
+                <td className="py-2">CSE ₹34.05L; ECE ₹30.81L; EE ₹28.36L; Civil ₹16.62L; 163 recruiters; 742 offers (Phase 1); 222 PPOs</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                 <td className="py-2 pr-4 font-medium">2024</td>
-                <td className="py-2">Avg ~â‚¹20L; Intl highest â‚¹2.05 Cr; Domestic highest â‚¹1.2 Cr; CSE &gt;â‚¹34L</td>
+                <td className="py-2">Avg ~₹20L; Intl highest ₹2.05 Cr; Domestic highest ₹1.2 Cr; CSE &gt;₹34L</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                 <td className="py-2 pr-4 font-medium">2023</td>
-                <td className="py-2">UG avg ~â‚¹17L; MBA ~â‚¹18.3L (100%); top recruiters: Google, Microsoft, GS, Oracle, Cisco</td>
+                <td className="py-2">UG avg ~₹17L; MBA ~₹18.3L (100%); top recruiters: Google, Microsoft, GS, Oracle, Cisco</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                 <td className="py-2 pr-4 font-medium">2022</td>
-                <td className="py-2">Domestic highest â‚¹2.15 Cr; CSE/ECE avgs &gt;â‚¹30L; Mech/Civil ~â‚¹18â€“20L</td>
+                <td className="py-2">Domestic highest ₹2.15 Cr; CSE/ECE avgs &gt;₹30L; Mech/Civil ~₹18–20L</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
 
-        <h4 className="text-lg font-semibold mb-2">Branchâ€‘Wise Average Packages (2024)</h4>
+        <h4 className="text-lg font-semibold mb-2">Branch‑Wise Average Packages (2024)</h4>
         <div className="overflow-x-auto mb-4">
           <div className="rounded-lg bg-white">
             <table className="w-full text-sm">
@@ -1677,11 +1677,11 @@ const NITCalicutPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mb-2">International vs. Domestic Packages</h4>
         <p className="text-gray-700 mb-4">
-          International packages frequently exceed â‚¹1 Cr (software, hardware, consulting), while domestic topâ€‘end offers
-          have crossed â‚¹1.2 Cr in recent cycles, signaling strong outcomes for both overseas and Indiaâ€‘based roles.
+          International packages frequently exceed ₹1 Cr (software, hardware, consulting), while domestic top‑end offers
+          have crossed ₹1.2 Cr in recent cycles, signaling strong outcomes for both overseas and India‑based roles.
         </p>
 
-        <h4 className="text-lg font-semibold mb-2">Summary: Package & Recruiter Trends (2021â€“2025)</h4>
+        <h4 className="text-lg font-semibold mb-2">Summary: Package & Recruiter Trends (2021–2025)</h4>
         <div className="overflow-x-auto">
           <div className="rounded-lg bg-white">
             <table className="w-full text-sm">
@@ -1699,32 +1699,32 @@ const NITCalicutPage: React.FC = () => {
                 <tr className="hover:bg-gray-50">
                 <td className="py-2 pr-4 font-medium">2025</td>
                 <td className="py-2 pr-4">20.0+</td>
-                <td className="py-2 pr-4">â‚¹1.2 Cr</td>
-                <td className="py-2 pr-4">â‚¹2.05 Cr</td>
+                <td className="py-2 pr-4">₹1.2 Cr</td>
+                <td className="py-2 pr-4">₹2.05 Cr</td>
                 <td className="py-2 pr-4">163</td>
                 <td className="py-2">222</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                 <td className="py-2 pr-4 font-medium">2024</td>
                 <td className="py-2 pr-4">~20.0</td>
-                <td className="py-2 pr-4">â‚¹1.2 Cr</td>
-                <td className="py-2 pr-4">â‚¹2.05 Cr</td>
+                <td className="py-2 pr-4">₹1.2 Cr</td>
+                <td className="py-2 pr-4">₹2.05 Cr</td>
                 <td className="py-2 pr-4">261</td>
                 <td className="py-2">213</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                 <td className="py-2 pr-4 font-medium">2023</td>
                 <td className="py-2 pr-4">~17.0</td>
-                <td className="py-2 pr-4">â‚¹1.3 Cr</td>
-                <td className="py-2 pr-4">â‚¹1.06 Cr</td>
+                <td className="py-2 pr-4">₹1.3 Cr</td>
+                <td className="py-2 pr-4">₹1.06 Cr</td>
                 <td className="py-2 pr-4">180+</td>
                 <td className="py-2">200+</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                 <td className="py-2 pr-4 font-medium">2022</td>
                 <td className="py-2 pr-4">~16.0</td>
-                <td className="py-2 pr-4">â‚¹2.15 Cr</td>
-                <td className="py-2 pr-4">â‚¹2.15 Cr</td>
+                <td className="py-2 pr-4">₹2.15 Cr</td>
+                <td className="py-2 pr-4">₹2.15 Cr</td>
                 <td className="py-2 pr-4">175+</td>
                 <td className="py-2">180</td>
                 </tr>
@@ -1804,8 +1804,8 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">NIT Calicut Rankings & Recognition</h3>
         <p className="text-gray-700 mb-4">
-          NIT Calicut is consistently ranked among Indiaâ€™s top institutions and continues to strengthen its global
-          standing. The instituteâ€™s performance across teaching quality, research output, graduate outcomes, outreach,
+          NIT Calicut is consistently ranked among India’s top institutions and continues to strengthen its global
+          standing. The institute’s performance across teaching quality, research output, graduate outcomes, outreach,
           and perception is reflected in leading national and international ranking frameworks.
         </p>
 
@@ -1833,7 +1833,7 @@ const NITCalicutPage: React.FC = () => {
                 <td className="py-2 px-3">Engineering Institutions</td>
                 <td className="py-2 px-3">6</td>
                 <td className="py-2 px-3">6</td>
-                <td className="py-2 px-3">Score ~72.05; consistently topâ€‘10 for engineering</td>
+                <td className="py-2 px-3">Score ~72.05; consistently top‑10 for engineering</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">NIRF Architecture & Planning</td>
@@ -1853,14 +1853,14 @@ const NITCalicutPage: React.FC = () => {
                 <td className="py-2 px-3 font-medium">QS World University Rankings</td>
                 <td className="py-2 px-3">Worldwide</td>
                 <td className="py-2 px-3">335</td>
-                <td className="py-2 px-3">â€”</td>
+                <td className="py-2 px-3">—</td>
                 <td className="py-2 px-3">Global research, teaching, international outlook</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">QS Asia University Rankings</td>
                 <td className="py-2 px-3">Asia</td>
                 <td className="py-2 px-3">130</td>
-                <td className="py-2 px-3">â€”</td>
+                <td className="py-2 px-3">—</td>
                 <td className="py-2 px-3">Strong among Asian technical universities</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
@@ -1873,15 +1873,15 @@ const NITCalicutPage: React.FC = () => {
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">THE Engineering Band</td>
                 <td className="py-2 px-3">Global</td>
-                <td className="py-2 px-3">301â€“400</td>
-                <td className="py-2 px-3">â€”</td>
+                <td className="py-2 px-3">301–400</td>
+                <td className="py-2 px-3">—</td>
                 <td className="py-2 px-3">Global competitiveness in engineering</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">ARIIA</td>
                 <td className="py-2 px-3">Innovation & Entrepreneurship</td>
                 <td className="py-2 px-3">Excellent</td>
-                <td className="py-2 px-3">â€”</td>
+                <td className="py-2 px-3">—</td>
                 <td className="py-2 px-3">Awards for outstanding innovation efforts</td>
               </tr>
             </tbody>
@@ -1925,14 +1925,14 @@ const NITCalicutPage: React.FC = () => {
         <p className="text-gray-700 mb-4">
           Nationally, NIT Calicut ranks #7 overall (NIRF 2025), #6 in engineering, and #1 in architecture & planning.
           Internationally, it is #335 in QS World (2026) and #130 in QS Asia (2025), with THE placing engineering in the
-          301â€“400 band. These reflect strong academics, research, innovation, and global presence.
+          301–400 band. These reflect strong academics, research, innovation, and global presence.
         </p>
 
         <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-700">
           <div>
             <h5 className="font-semibold mb-2">Research Excellence & Impact</h5>
             <p>
-              Broad, wellâ€‘funded research portfolio with national missions (e.g., water, sustainability, disaster
+              Broad, well‑funded research portfolio with national missions (e.g., water, sustainability, disaster
               resilience) and international collaborations translating into societal outcomes.
             </p>
           </div>
@@ -1946,9 +1946,9 @@ const NITCalicutPage: React.FC = () => {
         </div>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Understanding NIT Calicutâ€™s Rankings</h3>
+        <h3 className="text-2xl font-semibold mb-4">Understanding NIT Calicut’s Rankings</h3>
         <p className="text-gray-700 mb-3">
-          Rankings reflect NIT Calicutâ€™s consistent performance in teaching, research output, innovation, graduate
+          Rankings reflect NIT Calicut’s consistent performance in teaching, research output, innovation, graduate
           outcomes, and international visibility. Nationally, the institute is among the top engineering schools; globally,
           it features in reputed lists such as QS and THE, indicating strong competitiveness and alumni impact.
         </p>
@@ -2024,11 +2024,11 @@ const NITCalicutPage: React.FC = () => {
     <div id="facilities-root" className="space-y-6">
       {/* Rich Facilities Narrative (user-provided) */}
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">A Holistic, Selfâ€‘Contained 365â€‘Acre Campus</h3>
+        <h3 className="text-2xl font-semibold mb-4">A Holistic, Self‑Contained 365‑Acre Campus</h3>
         <p className="text-gray-700 mb-4">
-          The campus is not only an academic hub but a selfâ€‘contained environment designed to nurture holistic student
+          The campus is not only an academic hub but a self‑contained environment designed to nurture holistic student
           development, innovation, and community living. Beyond classrooms and labs, modern infrastructure blends with
-          ecoâ€‘sustainability to support intellectual, physical, and social growth.
+          eco‑sustainability to support intellectual, physical, and social growth.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Academic and Research Environment</h4>
@@ -2036,14 +2036,14 @@ const NITCalicutPage: React.FC = () => {
           The institute promotes interdisciplinary collaboration through more than 120 laboratories and specialized
           centers in <strong>artificial intelligence, machine learning, nanotechnology, robotics, biotechnology,</strong>
           and <strong>sustainable engineering</strong>. Incubation centers and industry partnerships empower prototyping,
-          patents, and highâ€‘impact publications.
+          patents, and high‑impact publications.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Learning Infrastructure</h4>
         <p className="text-gray-700 mb-3">
-          The <strong>Mahatma Gandhi Central Library</strong> (â‰ˆ85,000 sq ft) anchors the academic ecosystem with
-          <strong>360,000+ books</strong> and <strong>8,000+ eâ€‘journals</strong>, AIâ€‘powered catalogues, digital pods, and
-          quiet zones. It operates 24/7, supports interâ€‘library loans nationwide, and hosts seminars and author talks.
+          The <strong>Mahatma Gandhi Central Library</strong> (≈85,000 sq ft) anchors the academic ecosystem with
+          <strong>360,000+ books</strong> and <strong>8,000+ e‑journals</strong>, AI‑powered catalogues, digital pods, and
+          quiet zones. It operates 24/7, supports inter‑library loans nationwide, and hosts seminars and author talks.
         </p>
 
         <div className="overflow-x-auto mb-4">
@@ -2060,7 +2060,7 @@ const NITCalicutPage: React.FC = () => {
                 <tr className="hover:bg-gray-50">
                   <td className="py-2 pr-4 font-medium">Central Library</td>
                   <td className="py-2 pr-4">AI catalogue, digital pods, 24/7 access</td>
-                  <td className="py-2">85k sq ft â€¢ 3.6L+ books â€¢ 8k+ eâ€‘journals</td>
+                  <td className="py-2">85k sq ft • 3.6L+ books • 8k+ e‑journals</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="py-2 pr-4 font-medium">Research Labs</td>
@@ -2081,28 +2081,28 @@ const NITCalicutPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mb-2">Hostel and Residential Life</h4>
         <p className="text-gray-700 mb-3">
-          With <strong>20 hostels</strong> for diverse needs, residences feature Wiâ€‘Fi, study rooms, lounges, indoor games,
-          nutritious messes, studentâ€‘run quality committees, laundry, 24Ã—7 water, and medical assistance. Cultural nights
-          and interâ€‘hostel events create a vibrant community.
+          With <strong>20 hostels</strong> for diverse needs, residences feature Wi‑Fi, study rooms, lounges, indoor games,
+          nutritious messes, student‑run quality committees, laundry, 24×7 water, and medical assistance. Cultural nights
+          and inter‑hostel events create a vibrant community.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Wellness and Sports</h4>
         <p className="text-gray-700 mb-3">
-          The campus supports sport and wellâ€‘being with an <strong>Olympicâ€‘size pool</strong>, synthetic tracks, indoor
+          The campus supports sport and well‑being with an <strong>Olympic‑size pool</strong>, synthetic tracks, indoor
           stadium, and courts for cricket, hockey, football, tennis, and badminton. The <strong>Gym & Yoga Center</strong>
           and a dedicated <strong>Wellness Cell</strong> provide training, meditation, workshops, and peer counselling.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Medical and Support Services</h4>
         <p className="text-gray-700 mb-3">
-          <strong>B.C. Roy Hospital</strong> offers 24Ã—7 primary care, emergency response, specialist OPD, ambulance, and
-          pharmacy support, coordinating with nearby hospitals for advanced treatment and preventive checkâ€‘ups.
+          <strong>B.C. Roy Hospital</strong> offers 24×7 primary care, emergency response, specialist OPD, ambulance, and
+          pharmacy support, coordinating with nearby hospitals for advanced treatment and preventive check‑ups.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Community & Daily Amenities</h4>
         <p className="text-gray-700 mb-3">
-          Daily life is seamless with onâ€‘campus <strong>banks, ATMs, bookstores, post office, supermarkets, guest houses,
-          day care, auditoriums,</strong> and <strong>conference halls</strong>. Ecoâ€‘friendly shuttles and ample parking aid
+          Daily life is seamless with on‑campus <strong>banks, ATMs, bookstores, post office, supermarkets, guest houses,
+          day care, auditoriums,</strong> and <strong>conference halls</strong>. Eco‑friendly shuttles and ample parking aid
           mobility; campus safety is ensured via CCTV, emergency helplines, and 24/7 monitoring.
         </p>
 
@@ -2115,8 +2115,8 @@ const NITCalicutPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mb-2">Sustainability and Green Practices</h4>
         <p className="text-gray-700 mb-3">
-          The campus emphasizes environmental responsibility through energyâ€‘efficient buildings, solar lighting, waste
-          segregation, water recycling, treeâ€‘lined avenues, and biodiversity gardensâ€”blending technology with ecology.
+          The campus emphasizes environmental responsibility through energy‑efficient buildings, solar lighting, waste
+          segregation, water recycling, tree‑lined avenues, and biodiversity gardens—blending technology with ecology.
         </p>
 
         <div className="overflow-x-auto">
@@ -2132,18 +2132,18 @@ const NITCalicutPage: React.FC = () => {
               <tbody className="divide-y divide-gray-100">
                 <tr className="hover:bg-gray-50">
                   <td className="py-2 pr-4 font-medium">Innovation</td>
-                  <td className="py-2 pr-4">Prototype â†’ Patent â†’ Product</td>
+                  <td className="py-2 pr-4">Prototype → Patent → Product</td>
                   <td className="py-2">Maker spaces, drone lab, supercomputing</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
-                  <td className="py-2 pr-4 font-medium">Wellâ€‘being</td>
+                  <td className="py-2 pr-4 font-medium">Well‑being</td>
                   <td className="py-2 pr-4">Physical & mental health</td>
                   <td className="py-2">Pool, stadium, Gym/Yoga, Wellness Cell</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="py-2 pr-4 font-medium">Community</td>
                   <td className="py-2 pr-4">Inclusive campus culture</td>
-                  <td className="py-2">50+ clubs, festivals, openâ€‘mics</td>
+                  <td className="py-2">50+ clubs, festivals, open‑mics</td>
                 </tr>
               </tbody>
             </table>
@@ -2152,9 +2152,9 @@ const NITCalicutPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mt-2 mb-2">Overall Student Experience</h4>
         <p className="text-gray-700">
-          The atmosphere balances <strong>academic intensity</strong> with <strong>emotional wellâ€‘being</strong> and
+          The atmosphere balances <strong>academic intensity</strong> with <strong>emotional well‑being</strong> and
           <strong> community belonging</strong>. With global exchanges, leadership programs, and mentorship, students
-          graduate industryâ€‘ready and personally enriched.
+          graduate industry‑ready and personally enriched.
         </p>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
@@ -2176,13 +2176,13 @@ const NITCalicutPage: React.FC = () => {
             <tbody>
               <tr>
                 <td className="py-2 pr-4 font-medium">Hostels</td>
-                <td className="py-2 pr-4">Wiâ€‘Fi, study rooms, recreation</td>
+                <td className="py-2 pr-4">Wi‑Fi, study rooms, recreation</td>
                 <td className="py-2">{collegeData.Facilities.Hostels.Number} hostels</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Library</td>
                 <td className="py-2 pr-4">24/7 access, digital resources</td>
-                <td className="py-2">{collegeData.Facilities.Library.BookCount.toLocaleString()} books, {collegeData.Facilities.Library.EJournalsCount.toLocaleString()} eâ€‘journals</td>
+                <td className="py-2">{collegeData.Facilities.Library.BookCount.toLocaleString()} books, {collegeData.Facilities.Library.EJournalsCount.toLocaleString()} e‑journals</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Labs</td>
@@ -2197,9 +2197,9 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel Facilities</h3>
         <p className="text-gray-700 mb-3">
-          Residential life anchors the NIT Calicut experience. With 20 hostels spanning boys, girls, married and coâ€‘ed
-          residences, students find a safe, connected environment. Wiâ€‘Fi connectivity, common study rooms, recreation
-          lounges and studentâ€‘run mess committees support academic focus and community bonding in equal measure.
+          Residential life anchors the NIT Calicut experience. With 20 hostels spanning boys, girls, married and co‑ed
+          residences, students find a safe, connected environment. Wi‑Fi connectivity, common study rooms, recreation
+          lounges and student‑run mess committees support academic focus and community bonding in equal measure.
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -2231,8 +2231,8 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Library Facilities</h3>
         <p className="text-gray-700 mb-3">
-          The Mahatma Gandhi Central Library functions as the academic nucleus. Its 24/7 access policy and rich printâ€‘andâ€‘
-          digital collections enable uninterrupted research. From group study zones to AIâ€‘assisted search, the spaces are
+          The Mahatma Gandhi Central Library functions as the academic nucleus. Its 24/7 access policy and rich print‑and‑
+          digital collections enable uninterrupted research. From group study zones to AI‑assisted search, the spaces are
           engineered to support deep work, collaboration and scholarly dissemination.
         </p>
         <div className="grid md:grid-cols-2 gap-6">
@@ -2258,7 +2258,7 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Laboratory Facilities</h3>
         <p className="text-gray-700 mb-3">
-          Laboratories translate classroom theory into handsâ€‘on exploration. Supercomputing clusters, advanced sensors,
+          Laboratories translate classroom theory into hands‑on exploration. Supercomputing clusters, advanced sensors,
           additive manufacturing and prototyping devices empower students to iterate quickly and publish credible results
           in collaboration with faculty and research centers.
         </p>
@@ -2293,7 +2293,7 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Sports Facilities</h3>
         <p className="text-gray-700 mb-3">
-          A comprehensive athletics ecosystem balances academic intensity with wellbeing. From the Olympicâ€‘size pool to
+          A comprehensive athletics ecosystem balances academic intensity with wellbeing. From the Olympic‑size pool to
           indoor arenas and outdoor fields, facilities accommodate both competitive athletes and recreational users.
           Wellness programs at the Gym & Yoga Center build lifelong fitness habits.
         </p>
@@ -2334,7 +2334,7 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Other Amenities</h3>
         <p className="text-gray-700 mb-3">
-          Dayâ€‘toâ€‘day conveniencesâ€”from banks and bookstores to guest houses and campus shuttlesâ€”make the 365â€‘acre campus
+          Day‑to‑day conveniences—from banks and bookstores to guest houses and campus shuttles—make the 365‑acre campus
           function like a compact city. Event infrastructure (auditoriums and conference halls) keeps the academic and
           cultural calendar active throughout the year.
         </p>
@@ -2353,7 +2353,7 @@ const NITCalicutPage: React.FC = () => {
         <h3 className="text-xl font-semibold mb-4">Student Clubs & Societies</h3>
         <p className="text-gray-700 mb-3">
           Clubs act as launchpads for leadership and creativity. Technical teams compete internationally; cultural
-          societies sustain a vibrant campus life; Eâ€‘Cell and social impact clubs channel ideas into products and service.
+          societies sustain a vibrant campus life; E‑Cell and social impact clubs channel ideas into products and service.
           With 50+ active groups, there is a niche for every interest area.
         </p>
         <div className="grid md:grid-cols-2 gap-6">
@@ -2380,7 +2380,7 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength, Research Culture & Global Collaborations</h3>
         <p className="text-gray-700 mb-3">
-          NIT Calicutâ€™s faculty and research ecosystem is among the strongest in India. With <strong>470+</strong> faculty
+          NIT Calicut’s faculty and research ecosystem is among the strongest in India. With <strong>470+</strong> faculty
           across <strong>23 departments</strong>, the institute sustains a robust, interdisciplinary environment spanning
           fundamental sciences, engineering, and emerging domains. Faculty drive national missions, global partnerships,
           and translational research impacting both industry and society.
@@ -2389,9 +2389,9 @@ const NITCalicutPage: React.FC = () => {
         <h4 className="text-lg font-semibold mb-2">Research Ecosystem and Culture</h4>
         <p className="text-gray-700 mb-3">
           Centers of excellence and specialized laboratories connect departments and international partners. In 2024, the
-          institute secured <strong>â‚¹399 crore</strong> in research funding, underscoring its prominence as an R&amp;D
-          collaborator. Projects frequently link core disciplines (Civil, Mechanical, Electrical) with newâ€‘age areas such
-          as AI, climate science, and bioengineering. Faculty publish in highâ€‘impact venues (Nature Communications, IEEE
+          institute secured <strong>₹399 crore</strong> in research funding, underscoring its prominence as an R&amp;D
+          collaborator. Projects frequently link core disciplines (Civil, Mechanical, Electrical) with new‑age areas such
+          as AI, climate science, and bioengineering. Faculty publish in high‑impact venues (Nature Communications, IEEE
           Transactions, ACS Applied Materials &amp; Interfaces) and hold fellowships (INAE, NASI, IEEE). <strong>146
           patents</strong> were filed in 2024, translating fundamental research into deployable technologies.
         </p>
@@ -2410,12 +2410,12 @@ const NITCalicutPage: React.FC = () => {
                 <tr className="hover:bg-gray-50">
                   <td className="py-2 pr-4 font-medium">Faculty Strength</td>
                   <td className="py-2 pr-4">470+ across 23 departments</td>
-                  <td className="py-2">Majority PhDâ€‘qualified</td>
+                  <td className="py-2">Majority PhD‑qualified</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="py-2 pr-4 font-medium">Research Funding</td>
                   <td className="py-2 pr-4">Govt. missions &amp; industry grants</td>
-                  <td className="py-2">â‰ˆ â‚¹399 Cr</td>
+                  <td className="py-2">≈ ₹399 Cr</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="py-2 pr-4 font-medium">Patents &amp; IP</td>
@@ -2431,16 +2431,16 @@ const NITCalicutPage: React.FC = () => {
         <p className="text-gray-700 mb-3">
           Most faculty members hold doctorates from IITs, IISc, or global universities (Cambridge, ETH Zurich, MIT).
           Growth areas include the Department of Design Innovation and interdisciplinary centers like Biomedical
-          Engineering, reflecting NIT Calicutâ€™s futureâ€‘oriented academic model.
+          Engineering, reflecting NIT Calicut’s future‑oriented academic model.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Key Research Centers and Specializations</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1 mb-4">
-          <li><strong>Disaster Management &amp; Water Resources</strong> â€“ Hydrology, flood risk, policy frameworks.</li>
-          <li><strong>Smart Materials &amp; Nanotechnology</strong> â€“ Energy harvesting, flexible electronics, sensors.</li>
-          <li><strong>Biomedical Engineering</strong> â€“ Lowâ€‘cost diagnostics and bioinformatics.</li>
-          <li><strong>Energy &amp; Environment</strong> â€“ Renewables, wasteâ€‘toâ€‘energy, carbon capture.</li>
-          <li><strong>Entrepreneurship Cell</strong> â€“ Bridges research and startup incubation.</li>
+          <li><strong>Disaster Management &amp; Water Resources</strong> – Hydrology, flood risk, policy frameworks.</li>
+          <li><strong>Smart Materials &amp; Nanotechnology</strong> – Energy harvesting, flexible electronics, sensors.</li>
+          <li><strong>Biomedical Engineering</strong> – Low‑cost diagnostics and bioinformatics.</li>
+          <li><strong>Energy &amp; Environment</strong> – Renewables, waste‑to‑energy, carbon capture.</li>
+          <li><strong>Entrepreneurship Cell</strong> – Bridges research and startup incubation.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mb-2">Global and Industry Collaborations</h4>
@@ -2531,12 +2531,12 @@ const NITCalicutPage: React.FC = () => {
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="py-2 pr-4 font-medium">Design Innovation</td>
-                  <td className="py-2 pr-4">Humanâ€‘centered design, systems engineering</td>
+                  <td className="py-2 pr-4">Human‑centered design, systems engineering</td>
                   <td className="py-2">Prof. Apurbba Kumar (HoD)</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="py-2 pr-4 font-medium">Civil &amp; Data Science</td>
-                  <td className="py-2 pr-4">Transportation systems, dataâ€‘driven planning</td>
+                  <td className="py-2 pr-4">Transportation systems, data‑driven planning</td>
                   <td className="py-2">Prof. Indrajit Ghosh</td>
                 </tr>
               </tbody>
@@ -2546,9 +2546,9 @@ const NITCalicutPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mt-3 mb-2">Research Funding & Recognition</h4>
         <p className="text-gray-700">
-          Funding sources include the Ministry of Education, DST, CSIR, DBT, ISRO, and international grants. Awardâ€‘winning
-          innovations span renewable energy, disaster mitigation, and AIâ€‘assisted healthcare. NIT Calicut balances academic
-          rigor with national priorities and global partnerships, making it one of Indiaâ€™s most researchâ€‘driven academic
+          Funding sources include the Ministry of Education, DST, CSIR, DBT, ISRO, and international grants. Award‑winning
+          innovations span renewable energy, disaster mitigation, and AI‑assisted healthcare. NIT Calicut balances academic
+          rigor with national priorities and global partnerships, making it one of India’s most research‑driven academic
           communities.
         </p>
       </div>
@@ -2592,7 +2592,7 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Faculty Overview</h3>
         <p className="text-gray-700 mb-3">
-          The following metrics summarize scale and momentumâ€”headcount, departments, research funding and patentsâ€”while
+          The following metrics summarize scale and momentum—headcount, departments, research funding and patents—while
           the narrative above adds color on how these translate into publications, prototypes and policy impact.
         </p>
         
@@ -2619,8 +2619,8 @@ const NITCalicutPage: React.FC = () => {
         <h3 className="text-xl font-semibold mb-4">Departments</h3>
         <p className="text-gray-700 mb-3">
           Departments span classical engineering, sciences, management, humanities and design. This breadth enables
-          interdisciplinary electives and coâ€‘advised research, increasingly important for dataâ€‘driven engineering and
-          sustainabilityâ€‘centric work.
+          interdisciplinary electives and co‑advised research, increasingly important for data‑driven engineering and
+          sustainability‑centric work.
         </p>
         <div className="grid md:grid-cols-2 gap-4">
           {collegeData.FacultyAndDepartments.DepartmentsList.map((dept: string, index: number) => (
@@ -2653,8 +2653,8 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Global Collaborations</h3>
         <p className="text-gray-700 mb-3">
-          International MoUs translate into joint advisement, shared facilities and coâ€‘authored work. They also open
-          mobility pathways for doctoral candidates and strengthen the instituteâ€™s visibility in global rankings.
+          International MoUs translate into joint advisement, shared facilities and co‑authored work. They also open
+          mobility pathways for doctoral candidates and strengthen the institute’s visibility in global rankings.
         </p>
         <div className="grid md:grid-cols-2 gap-4">
           {collegeData.FacultyAndDepartments.Collaborations.map((collab: string, index: number) => (
@@ -2670,7 +2670,7 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Faculty Activities</h3>
         <p className="text-gray-700 mb-3">
-          Activities reflect a researchâ€‘led teaching culture: conference keynotes, editorial board roles, and doctoral
+          Activities reflect a research‑led teaching culture: conference keynotes, editorial board roles, and doctoral
           mentoring sit alongside consulting and standards contributions.
         </p>
         <div className="space-y-2">
@@ -2692,14 +2692,14 @@ const NITCalicutPage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">Student & Alumni Perspectives on {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
           Established in 1958 through Indo-Soviet collaboration, NIT Calicut is widely regarded as a premier
-          engineering and technology institution. Reviews consistently highlight a rigorous academic atmosphere, worldâ€‘class
+          engineering and technology institution. Reviews consistently highlight a rigorous academic atmosphere, world‑class
           faculty, and a highly competitive peer network set against a vibrant, 550-acre campus beside Powai Lake.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Expanded Student and Alumni Perspectives</h4>
         <p className="text-gray-700 mb-3">
           Students appreciate both theoretical depth and practical exposure through seminars, industry collaborations, and
-          research projects. Peer culture is motivating; hostel life is communityâ€‘oriented with strong participation in
+          research projects. Peer culture is motivating; hostel life is community‑oriented with strong participation in
           technical societies and cultural clubs. Flagship fests like <em>Tathva</em> (tech) and <em>Ragam</em> (cultural) build leadership and event management skills. While demanding, the curriculum's rigor pays dividends
           for competitive exams, higher studies abroad, and corporate roles.
         </p>
@@ -2707,21 +2707,21 @@ const NITCalicutPage: React.FC = () => {
         <h4 className="text-lg font-semibold mb-2">Placement Ecosystem</h4>
         <p className="text-gray-700 mb-3">
           Recruiters span top MNCs, consulting firms, and tech giants. Offers cut across core engineering, software,
-          finance, analytics, and research roles. International packages sometimes exceed â‚¹1 Cr, while domestic medians are
-          robust across branches. A responsive alumni network supports internships, mentorship, and offâ€‘campus pathways.
+          finance, analytics, and research roles. International packages sometimes exceed ₹1 Cr, while domestic medians are
+          robust across branches. A responsive alumni network supports internships, mentorship, and off‑campus pathways.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Research & Innovation Landscape</h4>
         <p className="text-gray-700 mb-3">
-          Centers of excellence, global tieâ€‘ups, and grants (DST, CSIR, international) encourage participation in
+          Centers of excellence, global tie‑ups, and grants (DST, CSIR, international) encourage participation in
           hydrology, advanced computing, nanotechnology, renewables, and AI. Competition for lab positions is strong,
-          reflecting high demand for cuttingâ€‘edge projects.
+          reflecting high demand for cutting‑edge projects.
         </p>
 
-        <h4 className="text-lg font-semibold mb-2">Cultural & Coâ€‘Curricular Life</h4>
+        <h4 className="text-lg font-semibold mb-2">Cultural & Co‑Curricular Life</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1 mb-3">
           <li><strong>Technical societies</strong> (IEEE, ASME, robotics) build applied skills.</li>
-          <li><strong>Sports</strong> culture features interâ€‘IIT participation and extensive facilities.</li>
+          <li><strong>Sports</strong> culture features inter‑IIT participation and extensive facilities.</li>
           <li><strong>Arts & literature</strong> clubs run debates, music, dramatics, and publications.</li>
           <li><strong>Festivals</strong> like Ragam and Tathva draw national attention and celebrity line-ups.</li>
         </ul>
@@ -2730,7 +2730,7 @@ const NITCalicutPage: React.FC = () => {
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1 mb-3">
           <li>Mess food quality can be inconsistent; menus feel repetitive at times.</li>
           <li>Infrastructure strain during peak usage leads to occasional lab and elective bottlenecks.</li>
-          <li>Academic intensity leaves limited flexibility for selfâ€‘paced learning or entrepreneurship for some.</li>
+          <li>Academic intensity leaves limited flexibility for self‑paced learning or entrepreneurship for some.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mb-2">Return on Investment & Prestige</h4>
@@ -2768,7 +2768,7 @@ const NITCalicutPage: React.FC = () => {
                 <tr className="hover:bg-gray-50">
                   <td className="py-2 pr-4 font-medium">Challenges</td>
                   <td className="py-2 pr-4">Mess variety, lab bottlenecks, intense pace</td>
-                  <td className="py-2">Timeâ€‘management and planning needed</td>
+                  <td className="py-2">Time‑management and planning needed</td>
                 </tr>
               </tbody>
             </table>
@@ -2932,13 +2932,6 @@ const NITCalicutPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
-                <div className="w-32 h-32 rounded-lg flex items-center justify-center">
-                  <img 
-                    src="/data/colleges/IIT_Roorkee_Logo.svg" 
-                    alt="NIT Calicut Logo" 
-                    className="w-full h-full object-contain"
-                  />
-                </div>
                 <div>
                   <h1 className="text-xl font-semibold text-gray-900 mb-2">
                     {collegeData.Name}
@@ -3050,7 +3043,7 @@ const NITCalicutPage: React.FC = () => {
         className="fixed bottom-6 right-6 bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 rounded-full shadow-md transition-colors"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
-        â†‘ Top
+        ↑ Top
       </button>
     )}
 
@@ -3068,29 +3061,29 @@ const NITCalicutPage: React.FC = () => {
               aria-label="Close"
               className="hidden md:flex absolute top-3 right-3 h-8 w-8 items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200"
             >
-              Ã—
+              ×
             </button>
             <div className="grid md:grid-cols-2">
               {/* Left: Features/Testimonial */}
               <div className="p-6 md:p-8 bg-gray-50">
                 <h3 className="text-xl font-semibold mb-4">Register Now to Apply</h3>
-                <p className="text-sm text-gray-700 mb-4">Fastâ€‘track your application workflow for {collegeData?.Name}. Get counselling, fee details, scholarships and deadline reminders.</p>
+                <p className="text-sm text-gray-700 mb-4">Fast‑track your application workflow for {collegeData?.Name}. Get counselling, fee details, scholarships and deadline reminders.</p>
                 <div className="grid grid-cols-2 gap-3 mb-6 text-sm">
-                  <div className="p-3 rounded-lg bg-white shadow-sm">ðŸ“„ Brochure details</div>
-                  <div className="p-3 rounded-lg bg-white shadow-sm">ðŸ’° Check detailed fees</div>
-                  <div className="p-3 rounded-lg bg-white shadow-sm">âœ… Shortlist & apply</div>
-                  <div className="p-3 rounded-lg bg-white shadow-sm">ðŸ§‘â€ðŸ’¼ 24/7 counselling</div>
-                  <div className="p-3 rounded-lg bg-white shadow-sm">ðŸŽ“ Scholarships</div>
-                  <div className="p-3 rounded-lg bg-white shadow-sm">ðŸ“… Application deadlines</div>
+                  <div className="p-3 rounded-lg bg-white shadow-sm">📄 Brochure details</div>
+                  <div className="p-3 rounded-lg bg-white shadow-sm">💰 Check detailed fees</div>
+                  <div className="p-3 rounded-lg bg-white shadow-sm">✅ Shortlist & apply</div>
+                  <div className="p-3 rounded-lg bg-white shadow-sm">🧑‍💼 24/7 counselling</div>
+                  <div className="p-3 rounded-lg bg-white shadow-sm">🎓 Scholarships</div>
+                  <div className="p-3 rounded-lg bg-white shadow-sm">📅 Application deadlines</div>
                 </div>
                 <div className="p-4 rounded-lg bg-white shadow-sm">
-                  <div className="text-sm text-gray-800 italic">â€œStudentHub made it easy to compare programs and finish my application on time.â€</div>
-                  <div className="text-xs text-gray-500 mt-2">â€” Gurmeet, B.Tech (2024)</div>
+                  <div className="text-sm text-gray-800 italic">“StudentHub made it easy to compare programs and finish my application on time.”</div>
+                  <div className="text-xs text-gray-500 mt-2">— Gurmeet, B.Tech (2024)</div>
                 </div>
               </div>
               {/* Right: Form */}
               <div className="p-6 md:p-8">
-                <button onClick={() => setIsLeadModalOpen(false)} aria-label="Close" className="md:hidden float-right -mt-2 -mr-2 text-gray-500">âœ•</button>
+                <button onClick={() => setIsLeadModalOpen(false)} aria-label="Close" className="md:hidden float-right -mt-2 -mr-2 text-gray-500">✕</button>
                 <div className="grid grid-cols-1 gap-3">
                   <input value={leadForm.fullName} onChange={(e) => setLeadForm({ ...leadForm, fullName: e.target.value })} placeholder="Full Name *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.fullName ? 'ring-1 ring-red-500' : ''}`} />
                   {leadErrors.fullName && <span className="text-xs text-red-600">{leadErrors.fullName}</span>}

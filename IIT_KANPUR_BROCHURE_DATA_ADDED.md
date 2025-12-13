@@ -173,6 +173,7 @@ The same comprehensive brochure data structure can be applied to other colleges:
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
 =======
@@ -181,4 +182,10 @@ The same comprehensive brochure data structure can be applied to other colleges:
 
 =======
 >>>>>>> Stashed changes
+
+=======
+>>>>>>> Stashed changes
+
+
+
 

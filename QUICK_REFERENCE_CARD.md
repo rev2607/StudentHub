@@ -241,6 +241,7 @@ To verify everything works:
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
 =======
@@ -249,4 +250,10 @@ To verify everything works:
 
 =======
 >>>>>>> Stashed changes
+
+=======
+>>>>>>> Stashed changes
+
+
+
 

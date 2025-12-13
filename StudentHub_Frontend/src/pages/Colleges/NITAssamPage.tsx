@@ -121,7 +121,7 @@ const NITAssamPage: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLeadModalOpen(true);
-      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_open', page: 'nit_Assam' } })); } catch {}
+      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_open', page: 'nit_calicut' } })); } catch {}
     }, 10000);
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setIsLeadModalOpen(false); };
     window.addEventListener('keydown', onKey);
@@ -148,10 +148,10 @@ const NITAssamPage: React.FC = () => {
         body: JSON.stringify({
           ...leadForm,
           college: collegeData?.Name,
-          source: 'nit_Assam_page',
+          source: 'nit_calicut_page',
         })
       });
-      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_submit', page: 'nit_Assam' } })); } catch {}
+      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_submit', page: 'nit_calicut' } })); } catch {}
       setIsLeadModalOpen(false);
     } catch (e) {
       // noop: could show toast
@@ -159,7 +159,7 @@ const NITAssamPage: React.FC = () => {
   };
 
   if (loading) {
-  return (
+    return (
       <div className="max-w-7xl mx-auto p-4">
         <div className="animate-pulse">
           <div className="h-8 bg-gray-200 rounded w-1/3 mb-4"></div>
@@ -208,13 +208,7 @@ const NITAssamPage: React.FC = () => {
     { id: "contact", label: "Contact" }
   ];
 
-  const formatCurrency = (amount: number | undefined | null) => {
-    if (amount === undefined || amount === null) {
-      return "N/A";
-    }
-    if (amount === 0) {
-      return "Free";
-    }
+  const formatCurrency = (amount: number) => {
     if (amount >= 10000000) {
       return `₹${(amount / 10000000).toFixed(1)} Cr`;
     } else if (amount >= 100000) {
@@ -228,11 +222,11 @@ const NITAssamPage: React.FC = () => {
   const RightSidebar = () => (
     <div className="w-full lg:w-80 space-y-8">
       {/* Admission Predictor CTA (moved to top) */}
-        <div className="bg-white rounded-xl shadow-sm p-8">
+      <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Predict Your Chances</h3>
-        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for {collegeData.Name.split('(')[0].trim()} based on your rank and category.</p>
+        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Calicut based on your rank and category.</p>
         <button onClick={() => setIsPredictorModalOpen(true)} className="w-full px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Try Admission Predictor</button>
-            </div>
+      </div>
 
       {/* News */}
       <div className="bg-white rounded-xl shadow-sm p-8">
@@ -241,7 +235,7 @@ const NITAssamPage: React.FC = () => {
           <div className="flex gap-3">
             <img src="/default-news.jpg" alt="News" className="w-16 h-16 object-cover rounded-lg flex-shrink-0" />
             <div className="flex-1 min-w-0">
-              <h4 className="text-sm font-medium text-gray-900 line-clamp-2">NIT Assam Begins PhD Admissions 2025-26</h4>
+              <h4 className="text-sm font-medium text-gray-900 line-clamp-2">NIT Calicut Begins PhD Admissions 2025-26</h4>
               <p className="text-xs text-gray-500 mt-1">2 days ago</p>
             </div>
           </div>
@@ -258,26 +252,26 @@ const NITAssamPage: React.FC = () => {
 
       {/* Top Courses */}
       <div className="bg-white rounded-xl shadow-sm p-8">
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">Top Courses at NIT Assam</h3>
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Top Courses at NIT Calicut</h3>
         <div className="space-y-3">
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
-            <div>
+              <div>
                 <p className="font-medium text-gray-900">B.Tech CSE</p>
-                <p className="text-xs text-gray-500">₹5.73L</p>
+                <p className="text-xs text-gray-500">₹2.3L/year</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
-                <p className="font-medium text-gray-900">M.Tech</p>
-                <p className="text-xs text-gray-500">₹1.80L</p>
+                <p className="font-medium text-gray-900">M.Tech CSE</p>
+                <p className="text-xs text-gray-500">₹66,700/year</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
                 <p className="font-medium text-gray-900">MBA</p>
-                <p className="text-xs text-gray-500">₹1.30L</p>
+                <p className="text-xs text-gray-500">₹4.33L/year</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
@@ -339,12 +333,12 @@ const NITAssamPage: React.FC = () => {
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Upcoming Events</h3>
         <div className="space-y-3 text-sm">
           <div className="p-3 bg-gray-50 rounded-lg">
-            <div className="font-medium text-gray-900">Thomso Cultural Festival</div>
-            <div className="text-gray-600">Nov • Workshops, concerts, competitions</div>
+            <div className="font-medium text-gray-900">Ragam Cultural Festival</div>
+            <div className="text-gray-600">Mar � Cultural events, concerts, competitions</div>
               </div>
           <div className="p-3 bg-gray-50 rounded-lg">
-            <div className="font-medium text-gray-900">Cognizance Tech Fest</div>
-            <div className="text-gray-600">Mar • Hackathons, keynotes, expo</div>
+            <div className="font-medium text-gray-900">Tathva Tech Fest</div>
+            <div className="text-gray-600">Oct � Hackathons, keynotes, expo</div>
           </div>
         </div>
       </div>
@@ -405,7 +399,7 @@ const NITAssamPage: React.FC = () => {
       {/* Admission Predictor CTA */}
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Predict Your Chances</h3>
-        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for {collegeData.Name.split('(')[0].trim()} based on your rank and category.</p>
+        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Calicut based on your rank and category.</p>
         <button onClick={() => setIsPredictorModalOpen(true)} className="w-full px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Try Admission Predictor</button>
       </div>
 
@@ -440,16 +434,16 @@ const NITAssamPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Popular College Comparisons</h3>
         <div className="space-y-2 text-sm">
-          <Link to="/compare/nit-agartala-vs-nit-trichy" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Agartala vs NIT Trichy</span>
+          <Link to="/compare/nit-trichy-vs-iit-bombay" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">NIT Calicut vs IIT Bombay</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
-          <Link to="/compare/nit-agartala-vs-nit-warangal" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Agartala vs NIT Warangal</span>
+          <Link to="/compare/nit-trichy-vs-iit-madras" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">NIT Calicut vs IIT Madras</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
-          <Link to="/compare/nit-agartala-vs-nit-calicut" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Agartala vs NIT Calicut</span>
+          <Link to="/compare/nit-trichy-vs-iit-delhi" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">NIT Calicut vs IIT Delhi</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
         </div>
@@ -520,11 +514,11 @@ const NITAssamPage: React.FC = () => {
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Students Also View</h3>
         <div className="space-y-4 flex-1">
           {[
-            { name: "IIT Delhi", rank: "2", type: "Engineering" },
-            { name: "IIT Bombay", rank: "3", type: "Engineering" },
-            { name: "IIT Kanpur", rank: "4", type: "Engineering" },
-            { name: "IIT Kharagpur", rank: "5", type: "Engineering" },
-            { name: "IIT Madras", rank: "1", type: "Engineering" }
+            { name: "IIT Madras", rank: "1", type: "Engineering" },
+            { name: "NIT Calicut", rank: "2", type: "Engineering" },
+            { name: "NIT Calicut", rank: "4", type: "Engineering" },
+            { name: "NIT Calicut", rank: "5", type: "Engineering" },
+            { name: "IIT Roorkee", rank: "7", type: "Engineering" }
           ].map((college, index) => (
             <Link key={index} to="/colleges" className="flex items-center gap-3 p-3 hover:bg-gray-50 rounded-lg transition-colors">
               <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center text-white font-bold text-sm">
@@ -557,25 +551,30 @@ const NITAssamPage: React.FC = () => {
         {/* Summary Bullet Points */}
         <div className="mb-6">
           <p className="text-gray-700 mb-3">
-            <strong>{collegeData.Name} offers courses at UG, PG, and Doctorate levels.</strong> The institute offers programs in Engineering, Science, and Management disciplines. Available degrees include B.Tech, M.Tech, Ph.D, M.Sc, MBA, MCA. Popular courses are B.Tech, M.Tech, Ph.D.
+            <strong>NIT Calicut Courses are offered at UG, PG, Doctorate level. There are 129 courses offered at NIT Calicut.</strong> The institute offers programs in Architecture, Engineering, Science, Management disciplines. Available degrees include B.Tech, M.Tech, Ph.D, B.Arch, M.Sc, MBA, M.Arch, BS + MS, B.Tech + M.Tech, Executive MBA. Popular courses are B.Tech, M.Tech, Ph.D.
           </p>
           <ul className="space-y-2 text-gray-700">
-            <li>• <strong>{collegeData.Name} Fees 2025-2026 is {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MSc.FirstYearFeeINR)} - {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.TotalFeesINRApprox)} across all offered courses.</strong> UG Fees: {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.TotalFeesINRApprox)}, PG Fees: {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MSc.FirstYearFeeINR)} - {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MTech.FirstYearFeeINR * 2)}</li>
-            <li>• <strong>{collegeData.Name} B.Tech Fees is {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.TotalFeesINRApprox)} for the entire {collegeData.CoursesAndFees.Undergraduate.BTech.DurationYears} years duration.</strong> Popular specializations: {collegeData.CoursesAndFees.Undergraduate.BTech.Branches.slice(0, 4).join(", ")}.
+            <li>• <strong>NIT Calicut Fees 2025-2026 range from ₹44,000 to ₹8.66 Lakhs across all offered courses.</strong> UG Fees: ₹9.2 Lakhs for B.Tech (4 years), PG Fees: ₹1.334 Lakhs to ₹8.66 Lakhs</li>
+            <li>• <strong>NIT Calicut B.Tech Fees is ₹9.2 Lakhs for the entire 4 years duration.</strong> Popular specializations: Computer Science & Engineering, Electrical Engineering, Mechanical Engineering.
               <ul className="ml-4 mt-1 space-y-1">
-                <li>• {collegeData.Name} B.Tech CSE Fees is {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.TotalFeesINRApprox)} (total for {collegeData.CoursesAndFees.Undergraduate.BTech.DurationYears} years).</li>
-                <li>• {collegeData.Name} B.Tech ECE Fees is {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.TotalFeesINRApprox)} (total for {collegeData.CoursesAndFees.Undergraduate.BTech.DurationYears} years).</li>
+                <li>• NIT Calicut B.Tech total program fee: ₹9.2 Lakhs. First year fee: ₹2.3 Lakhs.</li>
+                <li>• B.Tech CSE is one of the most competitive programs with AIR 66 cutoff.</li>
               </ul>
             </li>
-            <li>• <strong>{collegeData.Name} M.Tech Fees is {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MTech.FirstYearFeeINR * 2)} for the entire {collegeData.CoursesAndFees.Postgraduate.MTech.DurationYears} years duration.</strong> Popular specializations: Computer Science And Engineering, Electronics & Communication Engineering.
+            <li>• <strong>NIT Calicut M.Tech Fees is ₹1.334 Lakhs for the entire 2 years duration.</strong> Popular specializations: Computer Science And Engineering, Data Science, AI & Machine Learning.
               <ul className="ml-4 mt-1 space-y-1">
-                <li>• {collegeData.Name} M.Tech Computer Science And Engineering Fees is {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MTech.FirstYearFeeINR * 2)} (total for {collegeData.CoursesAndFees.Postgraduate.MTech.DurationYears} years).</li>
-                <li>• {collegeData.Name} M.Tech ECE Fees is {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MTech.FirstYearFeeINR * 2)} (total for {collegeData.CoursesAndFees.Postgraduate.MTech.DurationYears} years).</li>
+                <li>• NIT Calicut M.Tech annual fee: ₹66,700</li>
+                <li>• 50+ M.Tech specializations available across various departments</li>
               </ul>
             </li>
-            <li>• <strong>{collegeData.Name} Ph.D Fees is approximately {formatCurrency(collegeData.CoursesAndFees.Doctoral.PhD.FeeINRPerYear)} per year.</strong> Duration typically {collegeData.CoursesAndFees.Doctoral.PhD.TypicalDurationYears} years. Programs available across {collegeData.FacultyAndDepartments.DepartmentsCount} departments.</li>
-            <li>• <strong>{collegeData.Name} MBA Fees is {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MBA.FirstYearFeeINR * 2)} for the entire {collegeData.CoursesAndFees.Postgraduate.MBA.DurationYears} years duration.</strong></li>
-            <li>• <strong>{collegeData.Name} Hostel Fee is approximately {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Minimum)} per year (including mess charges).</strong></li>
+            <li>• <strong>NIT Calicut Ph.D Fees is ₹1.32 Lakhs for 3 years duration.</strong> Popular specializations: All engineering, science, and management departments.
+              <ul className="ml-4 mt-1 space-y-1">
+                <li>• Ph.D fee: ₹44,000 per year (₹1.32 Lakhs for 3 years)</li>
+                <li>• Over 1200+ Ph.D students enrolled across 50 programs</li>
+              </ul>
+            </li>
+            <li>• <strong>NIT Calicut offers MBA through SJMSOM with total fee of ₹8.66 Lakhs (₹4.33 Lakhs per year).</strong> Admission through CAT examination.</li>
+            <li>• <strong>NIT Calicut Hostel & Mess Fee is approximately ₹39,400 per semester.</strong></li>
           </ul>
         </div>
         
@@ -603,11 +602,11 @@ const NITAssamPage: React.FC = () => {
         {/* Summary Bullet Points */}
         <div className="mb-6">
           <ul className="space-y-2 text-gray-700">
-            <li>• <strong>{collegeData.Name.split('(')[0].trim()} offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and design disciplines.</strong> The institute maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
-            <li>• <strong>Undergraduate Programs:</strong> B.Tech ({collegeData.CoursesAndFees.Undergraduate.BTech.Seats} seats, {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.FirstYearFeeINR)}/year), B.Arch ({collegeData.CoursesAndFees.Undergraduate.BArch.Seats} seats, {collegeData.CoursesAndFees.Undergraduate.BArch.FirstYearFeeINR > 0 ? formatCurrency(collegeData.CoursesAndFees.Undergraduate.BArch.FirstYearFeeINR) + '/year' : 'Not offered'}), B.Des ({collegeData.CoursesAndFees.Undergraduate.BDes.Seats} seats, {collegeData.CoursesAndFees.Undergraduate.BDes.FirstYearFeeINR > 0 ? formatCurrency(collegeData.CoursesAndFees.Undergraduate.BDes.FirstYearFeeINR) + '/year' : 'Not offered'}). All programs require competitive entrance examinations with {collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Exam} for B.Tech/B.Arch and {collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BDes.Exam !== 'Not offered' ? 'UCEED' : 'N/A'} for B.Des.</li>
-            <li>• <strong>Postgraduate Programs:</strong> M.Tech ({collegeData.CoursesAndFees.Postgraduate.MTech.Specializations} specializations, {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MTech.FirstYearFeeINR)}/year), MBA ({collegeData.CoursesAndFees.Postgraduate.MBA.Seats} seats, {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MBA.FirstYearFeeINR)}/year), M.Sc ({collegeData.CoursesAndFees.Postgraduate.MSc.Seats} seats across {collegeData.CoursesAndFees.Postgraduate.MSc.Disciplines.length} disciplines, {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MSc.FirstYearFeeINR)}/year). Admission through {collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MTechMArchMPlanMDes.Exam}, {collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.Exam}, and {collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MSc.Exam.join(', ')} examinations respectively.</li>
-            <li>• <strong>Doctoral Programs:</strong> PhD ({collegeData.CoursesAndFees.Doctoral.PhD.Programs} programs, {collegeData.CoursesAndFees.Doctoral.PhD.SeatsMoreThan}+ seats, {formatCurrency(collegeData.CoursesAndFees.Doctoral.PhD.FeeINRPerYear)}/year). Duration typically {collegeData.CoursesAndFees.Doctoral.PhD.TypicalDurationYears} years with research focus areas including {(collegeData.ResearchAndInnovation.FocusAreas || []).slice(0, 4).join(', ')}, and more.</li>
-            <li>• <strong>Hostel & Accommodation:</strong> {collegeData.Facilities.Hostels?.Number || 'Multiple'} hostels with modern amenities including {(collegeData.Facilities.Hostels?.Amenities || []).slice(0, 4).join(', ')}. Hostel fees range from {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Minimum)} to {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Maximum)} annually ({collegeData.CoursesAndFees.HostelFeeINRAnnual.Note}).</li>
+            <li>• <strong>NIT Calicut offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and design disciplines.</strong> The institute maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
+            <li>• <strong>Undergraduate Programs:</strong> B.Tech (1200 seats, ₹2.3L/year), Dual Degree programs available, B.Des (15 seats, ₹2.3L/year). All programs require competitive entrance examinations with JEE Advanced for B.Tech and UCEED for B.Des.</li>
+            <li>• <strong>Postgraduate Programs:</strong> M.Tech (50 specializations, ₹66,700/year), MBA (120 seats, ₹4.33L/year), M.Sc (200 seats across 4 disciplines, ₹78,600/year). Admission through GATE, CAT, and IIT JAM examinations respectively.</li>
+            <li>• <strong>Doctoral Programs:</strong> PhD (50 programs, 1200+ seats, ₹44,000/year). Duration typically 3-5 years with research focus areas including AI, machine learning, sustainable energy, healthcare informatics, and electric mobility.</li>
+            <li>• <strong>Hostel & Accommodation:</strong> 18 hostels with modern amenities including Wi-Fi, study rooms, mess halls, recreation areas, and water purifiers. Hostel & mess fees approximately ₹39,400 per semester.</li>
           </ul>
         </div>
         
@@ -635,7 +634,7 @@ const NITAssamPage: React.FC = () => {
             <div className="space-y-2 text-sm">
               <div><span className="font-medium">PhD:</span> {collegeData.CoursesAndFees.Doctoral.PhD.Programs} programs</div>
               <div><span className="font-medium">Duration:</span> {collegeData.CoursesAndFees.Doctoral.PhD.TypicalDurationYears} years</div>
-              <div><span className="font-medium">Seats:</span> {collegeData.CoursesAndFees.Doctoral.PhD.SeatsMoreThan}+ available</div>
+              <div><span className="font-medium">Seats:</span> 900+ available</div>
             </div>
           </div>
         </div>
@@ -644,7 +643,7 @@ const NITAssamPage: React.FC = () => {
       {/* Admission Process */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Admission Process & Cutoffs</h3>
-        <p className="text-gray-700 mb-6">Admissions at {collegeData.Name.split('(')[0].trim()} are highly competitive, with rigorous entrance examinations and strict cutoff criteria. The institute follows a merit-based selection process ensuring only the brightest minds join the community.</p>
+        <p className="text-gray-700 mb-6">Admissions at NIT Calicut are highly competitive, with rigorous entrance examinations and strict cutoff criteria. The institute follows a merit-based selection process ensuring only the brightest minds join the community.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -660,7 +659,7 @@ const NITAssamPage: React.FC = () => {
               </div>
               <div className="bg-gray-50 rounded-lg p-3">
                 <h5 className="font-medium">Doctoral (PhD)</h5>
-                <p className="text-sm text-gray-700">{(collegeData.AdmissionProcessAndEntranceExams.Doctoral?.PhD?.Exam || []).slice(0, 3).join(", ")} and others</p>
+                <p className="text-sm text-gray-700">{collegeData.AdmissionProcessAndEntranceExams.Doctoral.PhD.Exam.slice(0, 3).join(", ")} and others</p>
               </div>
             </div>
           </div>
@@ -672,8 +671,8 @@ const NITAssamPage: React.FC = () => {
               <div className="flex justify-between"><span>Data Science & AI:</span> <span className="font-medium">AIR {collegeData.CutoffInformation.JEEAdvanced2025.DataScienceAIClosingAIR}</span></div>
               <div className="flex justify-between"><span>ECE:</span> <span className="font-medium">AIR {collegeData.CutoffInformation.JEEAdvanced2025.ECEClosingAIR}</span></div>
               <div className="flex justify-between"><span>Mechanical:</span> <span className="font-medium">AIR {collegeData.CutoffInformation.JEEAdvanced2025.MechEngClosingAIR}</span></div>
-              <div className="flex justify-between"><span>B.Arch:</span> <span className="font-medium">Rank {collegeData.CutoffInformation.BArchAAT2025ClosingRank > 0 ? collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString() : 'N/A'}</span></div>
-              <div className="flex justify-between"><span>MBA (General):</span> <span className="font-medium">{collegeData.CutoffInformation.CATMBA2025Cutoffs.GeneralPercentile > 0 ? collegeData.CutoffInformation.CATMBA2025Cutoffs.GeneralPercentile + '%' : 'N/A'}</span></div>
+              <div className="flex justify-between"><span>B.Arch:</span> <span className="font-medium">Rank {collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString()}</span></div>
+              <div className="flex justify-between"><span>MBA (General):</span> <span className="font-medium">{collegeData.CutoffInformation.CATMBA2025Cutoffs.GeneralPercentile}%</span></div>
             </div>
           </div>
         </div>
@@ -682,7 +681,7 @@ const NITAssamPage: React.FC = () => {
       {/* Placements & Career Opportunities */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Placements & Career Opportunities</h3>
-        <p className="text-gray-700 mb-6">{collegeData.Name.split('(')[0].trim()} has an exceptional placement record with top-tier companies consistently recruiting students across all programs. The Career Development Cell ensures comprehensive preparation and support throughout the placement process.</p>
+        <p className="text-gray-700 mb-6">NIT Calicut has an exceptional placement record with top-tier companies consistently recruiting students across all programs. The Career Development Cell ensures comprehensive preparation and support throughout the placement process.</p>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Total Offers (2024)" value={collegeData.Placements.Year2024.TotalOffers} />
@@ -699,7 +698,7 @@ const NITAssamPage: React.FC = () => {
           <div>
             <h4 className="font-semibold text-lg mb-3">Top Recruiting Companies</h4>
             <div className="flex flex-wrap gap-2">
-              {(collegeData.Placements.Year2024.TopRecruiters || []).slice(0, 12).map((recruiter: string, index: number) => (
+              {collegeData.Placements.Year2024.TopRecruiters.slice(0, 12).map((recruiter: string, index: number) => (
                 <span key={index} className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
                   {recruiter}
                 </span>
@@ -723,7 +722,7 @@ const NITAssamPage: React.FC = () => {
       {/* Rankings & Recognition */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Rankings & Recognition</h3>
-        <p className="text-gray-700 mb-6">{collegeData.Name.split('(')[0].trim()} consistently ranks among the top engineering institutions in India and has gained international recognition for its academic excellence, research contributions, and innovation initiatives.</p>
+        <p className="text-gray-700 mb-6">NIT Calicut consistently ranks among the top engineering institutions in India and has gained international recognition for its academic excellence, research contributions, and innovation initiatives.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -773,7 +772,7 @@ const NITAssamPage: React.FC = () => {
       {/* Facilities & Infrastructure */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Campus Facilities & Infrastructure</h3>
-        <p className="text-gray-700 mb-6">The sprawling {collegeData.Location.CampusAreaAcres}-acre campus of {collegeData.Name.split('(')[0].trim()} houses world-class facilities including modern hostels, state-of-the-art laboratories, extensive library resources, and comprehensive sports infrastructure to support holistic development.</p>
+        <p className="text-gray-700 mb-6">The sprawling 365-acre campus of NIT Calicut houses world-class facilities including modern hostels, state-of-the-art laboratories, extensive library resources, and comprehensive sports infrastructure to support holistic development.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -782,7 +781,7 @@ const NITAssamPage: React.FC = () => {
               <div className="bg-blue-50 rounded-lg p-3">
                 <h5 className="font-medium">Hostel Facilities</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-                  <div><span className="font-medium">{collegeData.Facilities.Hostels?.Number || 'Multiple'} hostels</span> with {(collegeData.Facilities.Hostels?.Types || []).join(", ")} options</div>
+                  <div><span className="font-medium">{collegeData.Facilities.Hostels.Number} hostels</span> with {collegeData.Facilities.Hostels.Types.join(", ")} options</div>
                   <div>Amenities: Wi-Fi, Study Rooms, Mess Halls, Recreation Areas</div>
                 </div>
               </div>
@@ -801,7 +800,7 @@ const NITAssamPage: React.FC = () => {
               <div className="bg-yellow-50 rounded-lg p-3">
                 <h5 className="font-medium">Library - {collegeData.Facilities.Library.Name}</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-                  <div><span className="font-medium">{collegeData.Facilities.Library.BookCount ? collegeData.Facilities.Library.BookCount.toLocaleString() : 'Extensive'} books</span> and {collegeData.Facilities.Library.EJournalsCount ? collegeData.Facilities.Library.EJournalsCount.toLocaleString() : 'Multiple'} e-journals</div>
+                  <div><span className="font-medium">{collegeData.Facilities.Library.BookCount.toLocaleString()} books</span> and {collegeData.Facilities.Library.EJournalsCount.toLocaleString()} e-journals</div>
                   <div>24/7 access with digital resources and group study zones</div>
                 </div>
               </div>
@@ -820,7 +819,7 @@ const NITAssamPage: React.FC = () => {
           <div className="grid md:grid-cols-2 gap-4">
             <div>
               <div className="text-sm text-gray-700 space-y-1">
-                {(collegeData.Facilities.SportsFacilities?.Features || (collegeData.Facilities as any).Sports?.Facilities || []).map((facility: string, index: number) => (
+                {collegeData.Facilities.SportsFacilities.Features.map((facility: string, index: number) => (
                   <div key={index} className="flex items-center">
                     <ChevronRight className="w-4 h-4 mr-2 text-green-600" />
                     {facility}
@@ -843,7 +842,7 @@ const NITAssamPage: React.FC = () => {
       {/* Faculty & Research */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty & Research Excellence</h3>
-        <p className="text-gray-700 mb-6">{collegeData.Name.split('(')[0].trim()} boasts a distinguished faculty of over {collegeData.FacultyAndDepartments.Strength.FacultyCount} members across {collegeData.FacultyAndDepartments.DepartmentsCount} departments, with the majority holding PhD degrees. The institute is at the forefront of research and innovation with significant contributions to various fields.</p>
+        <p className="text-gray-700 mb-6">NIT Calicut boasts a distinguished faculty of over 470 members across 23 departments, with the majority holding PhD degrees. The institute is at the forefront of research and innovation with significant contributions to various fields.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -869,7 +868,7 @@ const NITAssamPage: React.FC = () => {
           <div>
             <h4 className="font-semibold text-lg mb-3">Key Departments</h4>
             <div className="grid grid-cols-2 gap-2 text-sm">
-              {(collegeData.FacultyAndDepartments.DepartmentsList || (collegeData.FacultyAndDepartments as any).Departments || []).slice(0, 8).map((dept: string, index: number) => (
+              {collegeData.FacultyAndDepartments.DepartmentsList.slice(0, 8).map((dept: string, index: number) => (
                 <div key={index} className="flex items-center">
                   <ChevronRight className="w-3 h-3 mr-1 text-blue-600" />
                   {dept}
@@ -894,7 +893,7 @@ const NITAssamPage: React.FC = () => {
       {/* Student Life & Culture */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student Life & Campus Culture</h3>
-        <p className="text-gray-700 mb-6">The vibrant campus life at {collegeData.Name.split('(')[0].trim()} is characterized by a diverse community, rich cultural traditions, and numerous opportunities for personal and professional growth through clubs, societies, and events.</p>
+        <p className="text-gray-700 mb-6">The vibrant campus life at NIT Calicut is characterized by a diverse community, rich cultural traditions, and numerous opportunities for personal and professional growth through clubs, societies, and events.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -904,7 +903,10 @@ const NITAssamPage: React.FC = () => {
                 <h5 className="font-medium">Major Festivals</h5>
                 <div className="text-sm text-gray-700 space-y-1">
                   {collegeData.StudentLifeAndLifestyle.Festivals.map((festival: string, index: number) => (
-                    <div key={index}>• {festival}</div>
+                    <div key={index} className="flex items-center">
+                      <ChevronRight className="w-4 h-4 mr-2 text-pink-600" />
+                      {festival}
+                    </div>
                   ))}
                 </div>
               </div>
@@ -912,7 +914,10 @@ const NITAssamPage: React.FC = () => {
                 <h5 className="font-medium">Cultural Traditions</h5>
                 <div className="text-sm text-gray-700 space-y-1">
                   {collegeData.StudentLifeAndLifestyle.CulturalTraditions.map((tradition: string, index: number) => (
-                    <div key={index}>• {tradition}</div>
+                    <div key={index} className="flex items-center">
+                      <ChevronRight className="w-4 h-4 mr-2 text-pink-600" />
+                      {tradition}
+                    </div>
                   ))}
                 </div>
               </div>
@@ -925,14 +930,17 @@ const NITAssamPage: React.FC = () => {
               <div className="bg-blue-50 rounded-lg p-3">
                 <h5 className="font-medium">Active Organizations</h5>
                 <div className="text-sm text-gray-700">
-                  <span className="font-medium">{collegeData.Facilities.StudentClubs?.Number || collegeData.StudentLifeAndLifestyle?.ClubsAndSocieties?.length || 'Multiple'} clubs</span> across technical, cultural, entrepreneurship, and social service domains
+                  <span className="font-medium">{collegeData.Facilities.StudentClubs.Number} clubs</span> across technical, cultural, entrepreneurship, and social service domains
                 </div>
               </div>
               <div className="bg-green-50 rounded-lg p-3">
                 <h5 className="font-medium">Key Clubs</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-                  {(collegeData.StudentLifeAndLifestyle.ClubsAndSocieties || []).slice(0, 4).map((club: string, index: number) => (
-                    <div key={index}>• {club}</div>
+                  {collegeData.StudentLifeAndLifestyle.ClubsAndSocieties.slice(0, 4).map((club: string, index: number) => (
+                    <div key={index} className="flex items-center">
+                      <ChevronRight className="w-4 h-4 mr-2 text-green-600" />
+                      {club}
+                    </div>
                   ))}
                 </div>
               </div>
@@ -976,7 +984,7 @@ const NITAssamPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Undergraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          {collegeData.Name.split('(')[0].trim()}'s undergraduate offerings are designed to build a strong foundation in core disciplines while
+          NIT Calicut's undergraduate offerings are designed to build a strong foundation in core disciplines while
           introducing students to cutting-edge technologies and interdisciplinary learning. With competitive intake,
           structured curricula, modern laboratories, and active industry projects, students graduate with both theoretical
           depth and hands-on problem-solving skills. The programs emphasize fundamentals, design thinking, and professional
@@ -1041,84 +1049,76 @@ const NITAssamPage: React.FC = () => {
           </p>
         </div>
 
-        {/* B.Arch - Only show if offered */}
-        {collegeData.CoursesAndFees.Undergraduate.BArch.DurationYears > 0 && (
-          <div className="mb-6">
-            <h4 className="text-lg font-medium mb-3">B.Arch Program</h4>
-            <div className="grid md:grid-cols-2 gap-4 mb-4">
-              <InfoCard label="Duration" value={`${collegeData.CoursesAndFees.Undergraduate.BArch.DurationYears} years`} />
-              <InfoCard label="Seats" value={collegeData.CoursesAndFees.Undergraduate.BArch.Seats} />
-              <InfoCard label="First Year Fee" value={formatCurrency(collegeData.CoursesAndFees.Undergraduate.BArch.FirstYearFeeINR)} />
-              <InfoCard label="Total Fees (Approx)" value={formatCurrency(collegeData.CoursesAndFees.Undergraduate.BArch.TotalFeesINRApprox)} />
-            </div>
-            <p className="text-gray-700 mb-3">
-              The B.Arch program nurtures design sensitivity, sustainable thinking, and structural awareness. Studios and
-              juried reviews simulate industry practice, while workshops and site visits expose students to real-world
-              constraints and innovative materials.
-            </p>
-            <div className="overflow-x-auto">
-              <div className="rounded-lg bg-white">
-                <table className="w-full text-sm">
-                  <thead className="bg-gray-50 text-gray-700">
-                  <tr>
-                    <th className="text-left py-2 pr-4">Program</th>
-                    <th className="text-left py-2 pr-4">Duration</th>
-                    <th className="text-left py-2 pr-4">Seats</th>
-                    <th className="text-left py-2 pr-4">First Year Fee</th>
-                    <th className="text-left py-2">Total Fees (Approx)</th>
+        {/* B.Arch */}
+        <div className="mb-6">
+          <h4 className="text-lg font-medium mb-3">B.Arch Program</h4>
+          <div className="grid md:grid-cols-2 gap-4 mb-4">
+            <InfoCard label="Duration" value={`${collegeData.CoursesAndFees.Undergraduate.BArch.DurationYears} years`} />
+            <InfoCard label="Seats" value={collegeData.CoursesAndFees.Undergraduate.BArch.Seats} />
+            <InfoCard label="First Year Fee" value={formatCurrency(collegeData.CoursesAndFees.Undergraduate.BArch.FirstYearFeeINR)} />
+            <InfoCard label="Total Fees (Approx)" value={formatCurrency(collegeData.CoursesAndFees.Undergraduate.BArch.TotalFeesINRApprox)} />
+          </div>
+          <p className="text-gray-700 mb-3">
+            The B.Arch program nurtures design sensitivity, sustainable thinking, and structural awareness. Studios and
+            juried reviews simulate industry practice, while workshops and site visits expose students to real-world
+            constraints and innovative materials.
+          </p>
+          <div className="overflow-x-auto">
+            <div className="rounded-lg bg-white">
+              <table className="w-full text-sm">
+                <thead className="bg-gray-50 text-gray-700">
+                <tr>
+                  <th className="text-left py-2 pr-4">Program</th>
+                  <th className="text-left py-2 pr-4">Duration</th>
+                  <th className="text-left py-2 pr-4">Seats</th>
+                  <th className="text-left py-2 pr-4">First Year Fee</th>
+                  <th className="text-left py-2">Total Fees (Approx)</th>
+                </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-100">
+                  <tr className="hover:bg-gray-50">
+                  <td className="py-2 pr-4 font-medium">B.Arch</td>
+                  <td className="py-2 pr-4">{collegeData.CoursesAndFees.Undergraduate.BArch.DurationYears} years</td>
+                  <td className="py-2 pr-4">{collegeData.CoursesAndFees.Undergraduate.BArch.Seats}</td>
+                  <td className="py-2 pr-4">{formatCurrency(collegeData.CoursesAndFees.Undergraduate.BArch.FirstYearFeeINR)}</td>
+                  <td className="py-2">{formatCurrency(collegeData.CoursesAndFees.Undergraduate.BArch.TotalFeesINRApprox)}</td>
                   </tr>
-                  </thead>
-                  <tbody className="divide-y divide-gray-100">
-                    <tr className="hover:bg-gray-50">
-                    <td className="py-2 pr-4 font-medium">B.Arch</td>
-                    <td className="py-2 pr-4">{collegeData.CoursesAndFees.Undergraduate.BArch.DurationYears} years</td>
-                    <td className="py-2 pr-4">{collegeData.CoursesAndFees.Undergraduate.BArch.Seats}</td>
-                    <td className="py-2 pr-4">{formatCurrency(collegeData.CoursesAndFees.Undergraduate.BArch.FirstYearFeeINR)}</td>
-                    <td className="py-2">{formatCurrency(collegeData.CoursesAndFees.Undergraduate.BArch.TotalFeesINRApprox)}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+                </tbody>
+              </table>
             </div>
-            {collegeData.CoursesAndFees.Undergraduate.BArch.Entrance.length > 0 && (
-              <div>
-                <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-                <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Undergraduate.BArch.Entrance.join(", ")}</p>
-              </div>
-            )}
           </div>
-        )}
-
-        {/* B.Des - Only show if offered */}
-        {collegeData.CoursesAndFees.Undergraduate.BDes.DurationYears > 0 && (
           <div>
-            <h4 className="text-lg font-medium mb-3">B.Des Program</h4>
-            <div className="grid md:grid-cols-2 gap-4 mb-4">
-              <InfoCard label="Duration" value={`${collegeData.CoursesAndFees.Undergraduate.BDes.DurationYears} years`} />
-              <InfoCard label="Seats" value={collegeData.CoursesAndFees.Undergraduate.BDes.Seats} />
-              <InfoCard label="First Year Fee" value={formatCurrency(collegeData.CoursesAndFees.Undergraduate.BDes.FirstYearFeeINR)} />
-              <InfoCard label="Total Fees (Approx)" value={formatCurrency(collegeData.CoursesAndFees.Undergraduate.BDes.TotalFeesINRApprox)} />
-            </div>
-            <p className="text-gray-700 mb-3">
-              The B.Des curriculum blends user research, visual thinking, prototyping, and digital fabrication. Students
-              engage with real users and iterate on solutions across domains such as UI/UX, product design, and service
-              systems, showcasing their work through studio exhibitions and juries.
-            </p>
-            {collegeData.CoursesAndFees.Undergraduate.BDes.Entrance.length > 0 && (
-              <div>
-                <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-                <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Undergraduate.BDes.Entrance.join(", ")}</p>
-              </div>
-            )}
+            <h5 className="font-medium mb-1">Entrance Requirements:</h5>
+            <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Undergraduate.BArch.Entrance.join(", ")}</p>
           </div>
-        )}
+        </div>
+
+        {/* B.Des */}
+        <div>
+          <h4 className="text-lg font-medium mb-3">B.Des Program</h4>
+          <div className="grid md:grid-cols-2 gap-4 mb-4">
+            <InfoCard label="Duration" value={`${collegeData.CoursesAndFees.Undergraduate.BDes.DurationYears} years`} />
+            <InfoCard label="Seats" value={collegeData.CoursesAndFees.Undergraduate.BDes.Seats} />
+            <InfoCard label="First Year Fee" value={formatCurrency(collegeData.CoursesAndFees.Undergraduate.BDes.FirstYearFeeINR)} />
+            <InfoCard label="Total Fees (Approx)" value={formatCurrency(collegeData.CoursesAndFees.Undergraduate.BDes.TotalFeesINRApprox)} />
+          </div>
+          <p className="text-gray-700 mb-3">
+            The B.Des curriculum blends user research, visual thinking, prototyping, and digital fabrication. Students
+            engage with real users and iterate on solutions across domains such as UI/UX, product design, and service
+            systems, showcasing their work through studio exhibitions and juries.
+          </p>
+          <div>
+            <h5 className="font-medium mb-1">Entrance Requirements:</h5>
+            <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Undergraduate.BDes.Entrance.join(", ")}</p>
+          </div>
+        </div>
       </div>
 
       {/* Postgraduate Programs */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Postgraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          The postgraduate ecosystem at {collegeData.Name.split('(')[0].trim()} is research-driven and industry-aligned. Programs in engineering,
+          The postgraduate ecosystem at NIT Calicut is research-driven and industry-aligned. Programs in engineering,
           management, and sciences emphasize advanced coursework, electives in emerging areas, and strong thesis/project
           components. Students benefit from funded research labs, innovation centers, and frequent industry seminars.
         </p>
@@ -1200,7 +1200,7 @@ const NITAssamPage: React.FC = () => {
             </div>
             <div>
               <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-              <p className="text-sm text-gray-700">{(collegeData.CoursesAndFees.Doctoral?.PhD?.Entrance || []).slice(0, 3).join(", ")}...</p>
+              <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Doctoral.PhD.Entrance.slice(0, 3).join(", ")}...</p>
             </div>
             <p className="text-gray-700 mt-3">
               Doctoral scholars work with faculty on sponsored projects, publish in reputed venues, and often collaborate
@@ -1253,9 +1253,9 @@ const NITAssamPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel & Accommodation</h3>
         <p className="text-gray-700 mb-4">
-          Hostel life at {collegeData.Name.split('(')[0].trim()} is known for its vibrant culture and supportive community. With modern rooms, study
+          Hostel life at NIT Calicut is known for its vibrant culture and supportive community. With modern rooms, study
           areas, and recreational spaces, students find a conducive environment for personal growth. Residential living
-          also fosters collaboration across programs through clubs, intramurals, and cultural festivals.
+          also fosters collaboration across programs through clubs, intramurals, and festivals.
         </p>
         <div className="grid md:grid-cols-2 gap-4">
           <InfoCard label="Hostel Fee (Min)" value={formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Minimum)} />
@@ -1272,19 +1272,19 @@ const NITAssamPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Admissions at {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at <strong>{collegeData.Name.split('(')[0].trim()}</strong> are among the most merit-centric and transparent in Indian higher
+          Admissions at <strong>NIT Calicut</strong> are among the most merit-centric and transparent in Indian higher
           education, governed by national-level examinations and centralized counseling platforms. The system ensures
           nationwide participation while adhering to Central Government reservation policies for SC, ST, OBC‑NCL, EWS,
           and PwD categories. Processes vary across undergraduate, postgraduate, and doctoral levels—each emphasizing
           academic rigor, exam performance, and interviews or research assessments where applicable.
         </p>
 
-        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of {collegeData.Name.split('(')[0].trim()}'s Admission Framework</h4>
+        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of NIT Calicut’s Admission Framework</h4>
         <p className="text-gray-700 mb-3">
-          Founded in {collegeData.Established.Year} {collegeData.Established.Renamed.length > 0 ? `and ${collegeData.Established.Renamed[0].Year === 2006 ? 'converted into an NIT' : 'renamed'} in ${collegeData.Established.Renamed[0].Year}` : ''}, {collegeData.Name.split('(')[0].trim()} structures admissions to maintain academic
-          excellence and equitable access. All admissions—through <strong>{collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Exam}, {collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MTechMArchMPlanMDes.Exam}, {collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.Exam}, {collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MSc.Exam.join(', ')},</strong> or
-          <strong> {collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BDes.Exam !== 'Not offered' ? 'UCEED' : ''}</strong>—are aligned to centralized systems managed by national bodies such as
-          <strong> {collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Counseling.split('/')[0]}</strong>, <strong>{collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MTechMArchMPlanMDes.Counseling}</strong>, and respective coordination portals.
+          Founded in 1958 through Indo-Soviet collaboration, NIT Calicut structures admissions to maintain academic
+          excellence and equitable access. All admissions—through <strong>JEE Advanced, GATE, CAT, IIT JAM,</strong> or
+          <strong> UCEED</strong>—are aligned to centralized systems managed by national bodies such as
+          <strong> JoSAA</strong>, <strong>COAP</strong>, and respective coordination portals.
           The core goal is to align candidate merit (exam performance) with program preferences, seat availability, and
           category-based reservations. Shortlisted candidates later verify documents and eligibility at the institute.
         </p>
@@ -1296,9 +1296,8 @@ const NITAssamPage: React.FC = () => {
           <li><strong>B.Des:</strong> Admission via <strong>UCEED</strong> with centralized counseling.</li>
         </ul>
         <p className="text-gray-700 mt-2">
-          <span className="font-medium">Recent Cutoffs (2025 Approx.):</span> B.Tech CSE – AIR 535; Data Science & AI – AIR 710; ECE – AIR 1394;
-          Electrical – AIR 1752; Mechanical – AIR 1900; Civil – AIR 2175; B.Arch (AAT) – Rank 16,596; B.Des General – AIR 111
-          (OBC – AIR 56). Admissions are finalized over multiple JoSAA rounds; seats can fluctuate due to withdrawals and
+          <span className="font-medium">Recent Cutoffs (2025):</span> B.Tech CSE – AIR 66; Electrical Engineering – AIR 285; ECE – AIR 400;
+          Mechanical – AIR 1500; Civil – AIR 3000. Admissions are finalized over multiple JoSAA rounds; seats can fluctuate due to withdrawals and
           category shifts.
         </p>
 
@@ -1349,9 +1348,9 @@ const NITAssamPage: React.FC = () => {
         </ul>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at {collegeData.Name.split('(')[0].trim()}</h3>
+        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at NIT Calicut</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at {collegeData.Name.split('(')[0].trim()} are highly structured and merit-driven. Each program is tied to a national-level
+          Admissions at NIT Calicut are highly structured and merit-driven. Each program is tied to a national-level
           examination with carefully defined counseling processes, category-based reservations, and institute-level
           verification. Shortlisted candidates typically proceed through centralized counseling where seat allotments are
           made based on rank, preferences, and availability.
@@ -1382,13 +1381,13 @@ const NITAssamPage: React.FC = () => {
                 <td className="py-2 pr-4 font-medium">B.Arch</td>
                 <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Exam} + AAT</td>
                 <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Counseling}</td>
-                <td className="py-2">AAT Rank {collegeData.CutoffInformation.BArchAAT2025ClosingRank > 0 ? collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString() : 'N/A'}</td>
+                <td className="py-2">AAT Rank {collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString()}</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">MBA</td>
                 <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.Exam}</td>
                 <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.AdditionalSelection.join(', ')}</td>
-                <td className="py-2">General {collegeData.CutoffInformation.CATMBA2025Cutoffs.GeneralPercentile > 0 ? collegeData.CutoffInformation.CATMBA2025Cutoffs.GeneralPercentile + '%' : 'N/A'}</td>
+                <td className="py-2">General {collegeData.CutoffInformation.CATMBA2025Cutoffs.GeneralPercentile}%</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">M.Tech</td>
@@ -1398,7 +1397,7 @@ const NITAssamPage: React.FC = () => {
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">PhD</td>
-                <td className="py-2 pr-4">{(collegeData.AdmissionProcessAndEntranceExams.Doctoral?.PhD?.Exam || []).slice(0,3).join(', ')}...</td>
+                <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Doctoral.PhD.Exam.slice(0,3).join(', ')}...</td>
                 <td className="py-2 pr-4">Interview + Research Proposal</td>
                 <td className="py-2">Departmental shortlisting</td>
               </tr>
@@ -1493,7 +1492,7 @@ const NITAssamPage: React.FC = () => {
           <div>
             <h4 className="text-lg font-medium mb-3">Other Program Cutoffs</h4>
             <div className="grid md:grid-cols-2 gap-4">
-              <InfoCard label="B.Arch (AAT Closing Rank)" value={collegeData.CutoffInformation.BArchAAT2025ClosingRank ? collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString() : 'N/A'} />
+              <InfoCard label="B.Arch (AAT Closing Rank)" value={collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString()} />
               <InfoCard label="B.Des General" value={collegeData.CutoffInformation.BDesUCEED2025ClosingRanks.General} />
               <InfoCard label="B.Des OBC" value={collegeData.CutoffInformation.BDesUCEED2025ClosingRanks.OBC} />
             </div>
@@ -1528,9 +1527,9 @@ const NITAssamPage: React.FC = () => {
   const renderPlacementsTab = () => (
     <div id="placements-root" className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Why Placements at {collegeData.Name.split('(')[0].trim()} Stand Out</h3>
+        <h3 className="text-2xl font-semibold mb-4">Why Placements at NIT Calicut Stand Out</h3>
         <p className="text-gray-700 mb-3">
-          {collegeData.Name.split('(')[0].trim()}'s placement ecosystem blends academic rigor, early skill development, industry exposure, and a
+          NIT Calicut’s placement ecosystem blends academic rigor, early skill development, industry exposure, and a
           powerful alumni network—resulting in consistently high packages and diverse global opportunities. Students are
           groomed to excel in high‑pressure, real‑world environments, not just to crack interviews.
         </p>
@@ -1763,7 +1762,7 @@ const NITAssamPage: React.FC = () => {
           <h4 className="text-lg font-medium mb-3">Top Recruiters</h4>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="space-y-2">
-              {(collegeData.Placements.Year2024.TopRecruiters || []).slice(0, 9).map((recruiter: string, index: number) => (
+              {collegeData.Placements.Year2024.TopRecruiters.slice(0, 9).map((recruiter: string, index: number) => (
                 <div key={index} className="flex items-center text-sm">
                   <ChevronRight className="w-4 h-4 mr-2 text-blue-600" />
                   {recruiter}
@@ -1771,7 +1770,7 @@ const NITAssamPage: React.FC = () => {
               ))}
             </div>
             <div className="space-y-2">
-              {(collegeData.Placements.Year2024.TopRecruiters || []).slice(9).map((recruiter: string, index: number) => (
+              {collegeData.Placements.Year2024.TopRecruiters.slice(9).map((recruiter: string, index: number) => (
                 <div key={index} className="flex items-center text-sm">
                   <ChevronRight className="w-4 h-4 mr-2 text-blue-600" />
                   {recruiter}
@@ -1812,10 +1811,10 @@ const NITAssamPage: React.FC = () => {
     <div id="rankings-root" className="space-y-6">
       {/* Rankings Narrative and Consolidated Tables (user-provided) */}
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">{collegeData.Name.split('(')[0].trim()} Rankings & Recognition</h3>
+        <h3 className="text-2xl font-semibold mb-4">NIT Calicut Rankings & Recognition</h3>
         <p className="text-gray-700 mb-4">
-          {collegeData.Name.split('(')[0].trim()} is consistently ranked among India's top institutions and continues to strengthen its global
-          standing. The institute's performance across teaching quality, research output, graduate outcomes, outreach,
+          NIT Calicut is consistently ranked among India’s top institutions and continues to strengthen its global
+          standing. The institute’s performance across teaching quality, research output, graduate outcomes, outreach,
           and perception is reflected in leading national and international ranking frameworks.
         </p>
 
@@ -1834,42 +1833,42 @@ const NITAssamPage: React.FC = () => {
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">NIRF Overall</td>
                 <td className="py-2 px-3">Overall Institution</td>
-                <td className="py-2 px-3">{collegeData.Rankings.NIRF2025.Overall}</td>
-                <td className="py-2 px-3">{collegeData.Rankings.NIRF2024.Overall}</td>
-                <td className="py-2 px-3">Teaching, Research, Outcomes, Outreach, Perception</td>
+                <td className="py-2 px-3">7</td>
+                <td className="py-2 px-3">8</td>
+                <td className="py-2 px-3">Score ~73.06; Teaching, Research, Outcomes, Outreach, Perception</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">NIRF Engineering</td>
                 <td className="py-2 px-3">Engineering Institutions</td>
-                <td className="py-2 px-3">{collegeData.Rankings.NIRF2025.Engineering}</td>
-                <td className="py-2 px-3">{collegeData.Rankings.NIRF2025.Engineering}</td>
-                <td className="py-2 px-3">Consistently ranked among top engineering institutions</td>
+                <td className="py-2 px-3">6</td>
+                <td className="py-2 px-3">6</td>
+                <td className="py-2 px-3">Score ~72.05; consistently top‑10 for engineering</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">NIRF Architecture & Planning</td>
                 <td className="py-2 px-3">Architecture & Planning</td>
-                <td className="py-2 px-3">{collegeData.Rankings.NIRF2025.ArchitecturePlanning > 0 ? collegeData.Rankings.NIRF2025.ArchitecturePlanning : 'N/A'}</td>
-                <td className="py-2 px-3">{collegeData.Rankings.NIRF2025.ArchitecturePlanning > 0 ? collegeData.Rankings.NIRF2025.ArchitecturePlanning : 'N/A'}</td>
-                <td className="py-2 px-3">{collegeData.Rankings.NIRF2025.ArchitecturePlanning > 0 ? 'Recognized in architecture & planning' : 'Not applicable'}</td>
+                <td className="py-2 px-3">1</td>
+                <td className="py-2 px-3">1</td>
+                <td className="py-2 px-3">Consistently #1 in India</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">NIRF Innovation</td>
                 <td className="py-2 px-3">Innovation & Startups</td>
-                <td className="py-2 px-3">{collegeData.Rankings.NIRF2024.Innovation > 0 ? collegeData.Rankings.NIRF2024.Innovation : 'N/A'}</td>
-                <td className="py-2 px-3">{collegeData.Rankings.NIRF2024.Innovation > 0 ? collegeData.Rankings.NIRF2024.Innovation : 'N/A'}</td>
-                <td className="py-2 px-3">{collegeData.Rankings.NIRF2024.Innovation > 0 ? 'Recognized for a strong innovation ecosystem' : 'Not ranked'}</td>
+                <td className="py-2 px-3">25</td>
+                <td className="py-2 px-3">25</td>
+                <td className="py-2 px-3">Recognized for a strong innovation ecosystem</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">QS World University Rankings</td>
                 <td className="py-2 px-3">Worldwide</td>
-                <td className="py-2 px-3">{collegeData.Rankings.QSWorld2026 > 0 ? collegeData.Rankings.QSWorld2026 : 'N/A'}</td>
+                <td className="py-2 px-3">335</td>
                 <td className="py-2 px-3">—</td>
                 <td className="py-2 px-3">Global research, teaching, international outlook</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">QS Asia University Rankings</td>
                 <td className="py-2 px-3">Asia</td>
-                <td className="py-2 px-3">{collegeData.Rankings.QSAsia2025 > 0 ? collegeData.Rankings.QSAsia2025 : 'N/A'}</td>
+                <td className="py-2 px-3">130</td>
                 <td className="py-2 px-3">—</td>
                 <td className="py-2 px-3">Strong among Asian technical universities</td>
               </tr>
@@ -1933,8 +1932,9 @@ const NITAssamPage: React.FC = () => {
         </div>
 
         <p className="text-gray-700 mb-4">
-          Nationally, {collegeData.Name.split('(')[0].trim()} ranks #{collegeData.Rankings.NIRF2025.Overall} overall (NIRF 2025), #{collegeData.Rankings.NIRF2025.Engineering} in engineering, and #{collegeData.Rankings.NIRF2025.ArchitecturePlanning > 0 ? collegeData.Rankings.NIRF2025.ArchitecturePlanning : 'N/A'} in architecture & planning.
-          Internationally, it is #{collegeData.Rankings.QSWorld2026 > 0 ? collegeData.Rankings.QSWorld2026 : 'N/A'} in QS World (2026) and #{collegeData.Rankings.QSAsia2025 > 0 ? collegeData.Rankings.QSAsia2025 : 'N/A'} in QS Asia (2025){collegeData.Rankings.THEEngineering2020Band ? `, with THE placing engineering in the ${collegeData.Rankings.THEEngineering2020Band} band` : ''}. These reflect strong academics, research, innovation, and global presence.
+          Nationally, NIT Calicut ranks #7 overall (NIRF 2025), #6 in engineering, and #1 in architecture & planning.
+          Internationally, it is #335 in QS World (2026) and #130 in QS Asia (2025), with THE placing engineering in the
+          301–400 band. These reflect strong academics, research, innovation, and global presence.
         </p>
 
         <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-700">
@@ -1955,9 +1955,9 @@ const NITAssamPage: React.FC = () => {
         </div>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Understanding {collegeData.Name.split('(')[0].trim()}'s Rankings</h3>
+        <h3 className="text-2xl font-semibold mb-4">Understanding NIT Calicut’s Rankings</h3>
         <p className="text-gray-700 mb-3">
-          Rankings reflect {collegeData.Name.split('(')[0].trim()}'s consistent performance in teaching, research output, innovation, graduate
+          Rankings reflect NIT Calicut’s consistent performance in teaching, research output, innovation, graduate
           outcomes, and international visibility. Nationally, the institute is among the top engineering schools; globally,
           it features in reputed lists such as QS and THE, indicating strong competitiveness and alumni impact.
         </p>
@@ -2090,7 +2090,7 @@ const NITAssamPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mb-2">Hostel and Residential Life</h4>
         <p className="text-gray-700 mb-3">
-          With <strong>{collegeData.Facilities.Hostels?.Number || 'Multiple'} hostels</strong> for diverse needs, residences feature {(collegeData.Facilities.Hostels?.Amenities || []).slice(0, 4).join(', ')},
+          With <strong>20 hostels</strong> for diverse needs, residences feature Wi‑Fi, study rooms, lounges, indoor games,
           nutritious messes, student‑run quality committees, laundry, 24×7 water, and medical assistance. Cultural nights
           and inter‑hostel events create a vibrant community.
         </p>
@@ -2186,12 +2186,12 @@ const NITAssamPage: React.FC = () => {
               <tr>
                 <td className="py-2 pr-4 font-medium">Hostels</td>
                 <td className="py-2 pr-4">Wi‑Fi, study rooms, recreation</td>
-                <td className="py-2">{collegeData.Facilities.Hostels?.Number || 'Multiple'} hostels</td>
+                <td className="py-2">{collegeData.Facilities.Hostels.Number} hostels</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Library</td>
                 <td className="py-2 pr-4">24/7 access, digital resources</td>
-                <td className="py-2">{collegeData.Facilities.Library.BookCount ? collegeData.Facilities.Library.BookCount.toLocaleString() : 'Extensive'} books, {collegeData.Facilities.Library.EJournalsCount ? collegeData.Facilities.Library.EJournalsCount.toLocaleString() : 'Multiple'} e‑journals</td>
+                <td className="py-2">{collegeData.Facilities.Library.BookCount.toLocaleString()} books, {collegeData.Facilities.Library.EJournalsCount.toLocaleString()} e‑journals</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Labs</td>
@@ -2206,11 +2206,13 @@ const NITAssamPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel Facilities</h3>
         <p className="text-gray-700 mb-3">
-          Residential life anchors the {collegeData.Name.split('(')[0].trim()} experience. With {collegeData.Facilities.Hostels?.Number || 'Multiple'} hostels spanning {(collegeData.Facilities.Hostels?.Types || []).join(', ')}, students find a safe, connected environment. {(collegeData.Facilities.Hostels?.Amenities || []).slice(0, 3).join(', ')} and student‑run mess committees support academic focus and community bonding in equal measure.
+          Residential life anchors the NIT Calicut experience. With 20 hostels spanning boys, girls, married and co‑ed
+          residences, students find a safe, connected environment. Wi‑Fi connectivity, common study rooms, recreation
+          lounges and student‑run mess committees support academic focus and community bonding in equal measure.
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <InfoCard label="Number of Hostels" value={collegeData.Facilities.Hostels?.Number || 'Multiple'} />
+            <InfoCard label="Number of Hostels" value={collegeData.Facilities.Hostels.Number} />
             <div className="mt-3">
               <h4 className="font-medium mb-2">Hostel Types</h4>
               <div className="flex flex-wrap gap-2">
@@ -2245,18 +2247,15 @@ const NITAssamPage: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-6">
           <div className="space-y-3">
             <InfoCard label="Name" value={collegeData.Facilities.Library.Name} />
-            <InfoCard label="Area" value={collegeData.Facilities.Library.AreaSqFt ? `${collegeData.Facilities.Library.AreaSqFt.toLocaleString()} sq ft` : 'N/A'} />
-            <InfoCard label="Books" value={collegeData.Facilities.Library.BookCount ? `${collegeData.Facilities.Library.BookCount.toLocaleString()}` : 'Extensive collection'} />
-            <InfoCard label="E-Journals" value={collegeData.Facilities.Library.EJournalsCount ? `${collegeData.Facilities.Library.EJournalsCount.toLocaleString()}` : 'Multiple'} />
+            <InfoCard label="Area" value={`${collegeData.Facilities.Library.AreaSqFt.toLocaleString()} sq ft`} />
+            <InfoCard label="Books" value={`${collegeData.Facilities.Library.BookCount.toLocaleString()}`} />
+            <InfoCard label="E-Journals" value={`${collegeData.Facilities.Library.EJournalsCount.toLocaleString()}`} />
           </div>
           
           <div>
             <h4 className="font-medium mb-2">Features</h4>
             <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-              {(collegeData.Facilities.Library.Features || [
-                (collegeData.Facilities.Library as any).Books || "Extensive collection",
-                (collegeData.Facilities.Library as any).DigitalResources || "E-books, journals, databases"
-              ]).map((feature: string, index: number) => (
+              {collegeData.Facilities.Library.Features.map((feature: string, index: number) => (
                 <li key={index}>{feature}</li>
               ))}
             </ul>
@@ -2308,7 +2307,7 @@ const NITAssamPage: React.FC = () => {
           Wellness programs at the Gym & Yoga Center build lifelong fitness habits.
         </p>
         <div className="grid md:grid-cols-2 gap-4">
-          {(collegeData.Facilities.SportsFacilities?.Features || (collegeData.Facilities as any).Sports?.Facilities || []).map((facility: string, index: number) => (
+          {collegeData.Facilities.SportsFacilities.Features.map((facility: string, index: number) => (
             <div key={index} className="flex items-center text-sm">
               <ChevronRight className="w-4 h-4 mr-2 text-green-600" />
               {facility}
@@ -2368,7 +2367,7 @@ const NITAssamPage: React.FC = () => {
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <InfoCard label="Total Clubs" value={collegeData.Facilities.StudentClubs?.Number || collegeData.StudentLifeAndLifestyle?.ClubsAndSocieties?.length || 'Multiple'} />
+            <InfoCard label="Total Clubs" value={collegeData.Facilities.StudentClubs.Number} />
           </div>
           
           <div>
@@ -2390,8 +2389,8 @@ const NITAssamPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength, Research Culture & Global Collaborations</h3>
         <p className="text-gray-700 mb-3">
-          {collegeData.Name.split('(')[0].trim()}'s faculty and research ecosystem is among the strongest in India. With <strong>{collegeData.FacultyAndDepartments.Strength.FacultyCount}+</strong> faculty
-          across <strong>{collegeData.FacultyAndDepartments.DepartmentsCount} departments</strong>, the institute sustains a robust, interdisciplinary environment spanning
+          NIT Calicut’s faculty and research ecosystem is among the strongest in India. With <strong>470+</strong> faculty
+          across <strong>23 departments</strong>, the institute sustains a robust, interdisciplinary environment spanning
           fundamental sciences, engineering, and emerging domains. Faculty drive national missions, global partnerships,
           and translational research impacting both industry and society.
         </p>
@@ -2399,9 +2398,10 @@ const NITAssamPage: React.FC = () => {
         <h4 className="text-lg font-semibold mb-2">Research Ecosystem and Culture</h4>
         <p className="text-gray-700 mb-3">
           Centers of excellence and specialized laboratories connect departments and international partners. In 2024, the
-          institute secured <strong>{formatCurrency(collegeData.FacultyAndDepartments.Strength.ResearchFundsINR2024)}</strong> in research funding, underscoring its prominence as an R&amp;D
-          collaborator. Projects frequently link core disciplines with new‑age areas such
-          as {(collegeData.ResearchAndInnovation.FocusAreas || []).slice(0, 3).join(', ')}. Faculty publish in high‑impact venues and hold fellowships. <strong>{collegeData.FacultyAndDepartments.Strength.Patents2024 > 0 ? collegeData.FacultyAndDepartments.Strength.Patents2024 : 'Multiple'}
+          institute secured <strong>₹399 crore</strong> in research funding, underscoring its prominence as an R&amp;D
+          collaborator. Projects frequently link core disciplines (Civil, Mechanical, Electrical) with new‑age areas such
+          as AI, climate science, and bioengineering. Faculty publish in high‑impact venues (Nature Communications, IEEE
+          Transactions, ACS Applied Materials &amp; Interfaces) and hold fellowships (INAE, NASI, IEEE). <strong>146
           patents</strong> were filed in 2024, translating fundamental research into deployable technologies.
         </p>
 
@@ -2418,18 +2418,18 @@ const NITAssamPage: React.FC = () => {
               <tbody className="divide-y divide-gray-100">
                 <tr className="hover:bg-gray-50">
                   <td className="py-2 pr-4 font-medium">Faculty Strength</td>
-                  <td className="py-2 pr-4">{collegeData.FacultyAndDepartments.Strength.FacultyCount}+ across {collegeData.FacultyAndDepartments.DepartmentsCount} departments</td>
-                  <td className="py-2">{collegeData.FacultyAndDepartments.Strength.PhDs}</td>
+                  <td className="py-2 pr-4">470+ across 23 departments</td>
+                  <td className="py-2">Majority PhD‑qualified</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="py-2 pr-4 font-medium">Research Funding</td>
                   <td className="py-2 pr-4">Govt. missions &amp; industry grants</td>
-                  <td className="py-2">{formatCurrency(collegeData.FacultyAndDepartments.Strength.ResearchFundsINR2024)}</td>
+                  <td className="py-2">≈ ₹399 Cr</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                   <td className="py-2 pr-4 font-medium">Patents &amp; IP</td>
                   <td className="py-2 pr-4">Translational R&amp;D and incubation</td>
-                  <td className="py-2">{collegeData.FacultyAndDepartments.Strength.Patents2024} patents filed</td>
+                  <td className="py-2">146 patents filed</td>
                 </tr>
               </tbody>
             </table>
@@ -2440,7 +2440,7 @@ const NITAssamPage: React.FC = () => {
         <p className="text-gray-700 mb-3">
           Most faculty members hold doctorates from IITs, IISc, or global universities (Cambridge, ETH Zurich, MIT).
           Growth areas include the Department of Design Innovation and interdisciplinary centers like Biomedical
-          Engineering, reflecting {collegeData.Name.split('(')[0].trim()}'s future‑oriented academic model.
+          Engineering, reflecting NIT Calicut’s future‑oriented academic model.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Key Research Centers and Specializations</h4>
@@ -2556,15 +2556,15 @@ const NITAssamPage: React.FC = () => {
         <h4 className="text-lg font-semibold mt-3 mb-2">Research Funding & Recognition</h4>
         <p className="text-gray-700">
           Funding sources include the Ministry of Education, DST, CSIR, DBT, ISRO, and international grants. Award‑winning
-          innovations span {collegeData.ResearchAndInnovation.FocusAreas.slice(0, 3).join(', ')}. {collegeData.Name.split('(')[0].trim()} balances academic
-          rigor with national priorities and global partnerships, making it one of India's most research‑driven academic
+          innovations span renewable energy, disaster mitigation, and AI‑assisted healthcare. NIT Calicut balances academic
+          rigor with national priorities and global partnerships, making it one of India’s most research‑driven academic
           communities.
         </p>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength & Research Culture</h3>
         <p className="text-gray-700 mb-3">
-          With a large cohort of accomplished faculty across departments, {collegeData.Name.split('(')[0].trim()} sustains a vibrant research
+          With a large cohort of accomplished faculty across departments, NIT Calicut sustains a vibrant research
           ecosystem. Faculty members publish in leading venues, attract substantial research funding, and mentor student
           teams that participate in national and international competitions.
         </p>
@@ -2700,17 +2700,16 @@ const NITAssamPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student & Alumni Perspectives on {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Established in {collegeData.Established.Year} {collegeData.Established.OriginalName ? `(as ${collegeData.Established.OriginalName})` : ''}, {collegeData.Name.split('(')[0].trim()} is widely regarded as a premier
+          Established in 1958 through Indo-Soviet collaboration, NIT Calicut is widely regarded as a premier
           engineering and technology institution. Reviews consistently highlight a rigorous academic atmosphere, world‑class
-          faculty, and a highly competitive peer network set against a vibrant, historic campus.
+          faculty, and a highly competitive peer network set against a vibrant, 550-acre campus beside Powai Lake.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Expanded Student and Alumni Perspectives</h4>
         <p className="text-gray-700 mb-3">
           Students appreciate both theoretical depth and practical exposure through seminars, industry collaborations, and
           research projects. Peer culture is motivating; hostel life is community‑oriented with strong participation in
-          technical societies and cultural clubs. Flagship fests like <em>Cognizance</em> (tech) and <em>Thomso</em>
-          (cultural) build leadership and event management skills. While demanding, the curriculum’s rigor pays dividends
+          technical societies and cultural clubs. Flagship fests like <em>Tathva</em> (tech) and <em>Ragam</em> (cultural) build leadership and event management skills. While demanding, the curriculum's rigor pays dividends
           for competitive exams, higher studies abroad, and corporate roles.
         </p>
 
@@ -2733,7 +2732,7 @@ const NITAssamPage: React.FC = () => {
           <li><strong>Technical societies</strong> (IEEE, ASME, robotics) build applied skills.</li>
           <li><strong>Sports</strong> culture features inter‑IIT participation and extensive facilities.</li>
           <li><strong>Arts & literature</strong> clubs run debates, music, dramatics, and publications.</li>
-          <li><strong>Festivals</strong> like Thomso draw national attention and celebrity line‑ups.</li>
+          <li><strong>Festivals</strong> like Ragam and Tathva draw national attention and celebrity line-ups.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mb-2">Areas That See Regular Debate</h4>
@@ -2745,7 +2744,7 @@ const NITAssamPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mb-2">Return on Investment & Prestige</h4>
         <p className="text-gray-700 mb-4">
-          With comparatively low fees and strong outcomes, ROI is considered excellent. The {collegeData.Name.split('(')[0].trim()} brand has global
+          With comparatively low fees and strong outcomes, ROI is considered excellent. The NIT Calicut brand has global
           recognition; alumni progress into leadership roles across industry, academia, and public service.
         </p>
 
@@ -2791,7 +2790,7 @@ const NITAssamPage: React.FC = () => {
   const renderContactTab = () => (
     <div className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Contacting {collegeData.Name.split('(')[0].trim()} Effectively</h3>
+        <h3 className="text-2xl font-semibold mb-4">Contacting NIT Calicut Effectively</h3>
         <p className="text-gray-700 mb-3">
           For admissions and program-specific queries, use official channels and include your application details (name,
           application ID, program, and question) for faster responses. For urgent issues, phone lines and the institute
@@ -2942,37 +2941,26 @@ const NITAssamPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
-                <div className="w-32 h-32 rounded-lg flex items-center justify-center">
-                  <img 
-                    src="/data/colleges/NIT_Agartala_Logo.svg" 
-                    alt="NIT Agartala Logo" 
-                    className="w-full h-full object-contain"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = "https://via.placeholder.com/128?text=NIT+Agartala";
-                    }}
-                  />
-                </div>
                 <div>
                   <h1 className="text-xl font-semibold text-gray-900 mb-2">
                     {collegeData.Name}
                   </h1>
-              <div className="flex items-center gap-4 text-sm text-gray-600">
+                  <div className="flex items-center gap-4 text-sm text-gray-600">
                     <div className="flex items-center">
                       <MapPin className="w-4 h-4 mr-1" />
                       {collegeData.Location.City}, {collegeData.Location.State}
-              </div>
+                    </div>
                     <div className="flex items-center">
                       <Building className="w-4 h-4 mr-1" />
                       {collegeData.UniversityType[0]}
-            </div>
+                    </div>
                     <div className="flex items-center">
                       <Calendar className="w-4 h-4 mr-1" />
                       Estd {collegeData.Established.Year}
-          </div>
-            </div>
-          </div>
-        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
@@ -2991,7 +2979,7 @@ const NITAssamPage: React.FC = () => {
                 <span className="bg-pink-100 text-pink-800 text-xs px-2 py-1 rounded-full">
                   {collegeData.CoursesAndFees.Undergraduate.BTech.Seats}+ UG Seats
                 </span>
-      </div>
+              </div>
             </div>
 
             {/* Action Buttons */}
@@ -3045,15 +3033,15 @@ const NITAssamPage: React.FC = () => {
       <AdmissionPredictorModal
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
-        collegeName={collegeData?.Name || "NIT Agartala"}
-        collegeLogo="/data/colleges/NIT_Agartala_Logo.svg"
+        collegeName={collegeData?.Name || "NIT Calicut"}
+        collegeLogo=""
       />
 
       {/* Brochure Modal */}
       <BrochureModal
         isOpen={isBrochureModalOpen}
         onClose={() => setIsBrochureModalOpen(false)}
-        collegeName={collegeData?.Name || "NIT Agartala"}
+        collegeName={collegeData?.Name || "NIT Calicut"}
         collegeData={collegeData || undefined}
       />
 
@@ -3137,4 +3125,3 @@ const NITAssamPage: React.FC = () => {
 };
 
 export default NITAssamPage;
-

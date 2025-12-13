@@ -15,8 +15,8 @@ import {
 import AdmissionPredictorModal from "../../components/AdmissionPredictorModal";
 import BrochureModal from "../../components/BrochureModal";
 
-// Import NIT Hamirpur data service
-import { loadNITHamirpurData, type NITHamirpurData } from "../../services/collegeDataService";
+// Import NIT Calicut data service
+import { loadNITCalicutData, type NITCalicutData } from "../../services/collegeDataService";
 
 interface TabProps {
   label: string;
@@ -29,6 +29,7 @@ const Tab: React.FC<TabProps> = ({ label, isActive, onClick }) => (
     onClick={onClick}
     className={`px-4 py-2 text-sm font-medium transition-colors ${
       isActive
+
         ? "text-blue-600"
         : "text-gray-500 hover:text-gray-700"
     }`}
@@ -44,9 +45,9 @@ const InfoCard: React.FC<{ label: string; value: string | number }> = ({ label, 
   </div>
 );
 
-const NITHamirpurPage: React.FC = () => {
+const NITCalicutPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState("overview");
-  const [collegeData, setCollegeData] = useState<NITHamirpurData | null>(null);
+  const [collegeData, setCollegeData] = useState<NITCalicutData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isPredictorModalOpen, setIsPredictorModalOpen] = useState(false);
@@ -77,7 +78,7 @@ const NITHamirpurPage: React.FC = () => {
     const loadData = async () => {
       try {
         setLoading(true);
-        const data = await loadNITHamirpurData();
+        const data = await loadNITCalicutData();
         setCollegeData(data);
         
         // Set page title
@@ -90,7 +91,7 @@ const NITHamirpurPage: React.FC = () => {
         document.head.appendChild(meta);
       } catch (err) {
         setError('Failed to load college data');
-        console.error('Error loading NIT Hamirpur data:', err);
+        console.error('Error loading NIT Calicut data:', err);
       } finally {
         setLoading(false);
       }
@@ -121,7 +122,7 @@ const NITHamirpurPage: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLeadModalOpen(true);
-      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_open', page: 'nit_hamirpur' } })); } catch {}
+      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_open', page: 'nit_calicut' } })); } catch {}
     }, 10000);
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setIsLeadModalOpen(false); };
     window.addEventListener('keydown', onKey);
@@ -148,19 +149,14 @@ const NITHamirpurPage: React.FC = () => {
         body: JSON.stringify({
           ...leadForm,
           college: collegeData?.Name,
-          source: 'nit_hamirpur_page',
+          source: 'nit_calicut_page',
         })
       });
-      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_submit', page: 'nit_hamirpur' } })); } catch {}
+      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_submit', page: 'nit_calicut' } })); } catch {}
       setIsLeadModalOpen(false);
     } catch (e) {
       // noop: could show toast
     }
-  };
-
-  const openApplyForm = () => {
-    setIsLeadModalOpen(true);
-    try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'apply_now_click', page: 'nit_hamirpur' } })); } catch {}
   };
 
   if (loading) {
@@ -213,13 +209,7 @@ const NITHamirpurPage: React.FC = () => {
     { id: "contact", label: "Contact" }
   ];
 
-  const formatCurrency = (amount: number | undefined | null) => {
-    if (amount === undefined || amount === null) {
-      return "N/A";
-    }
-    if (amount === 0) {
-      return "Free";
-    }
+  const formatCurrency = (amount: number) => {
     if (amount >= 10000000) {
       return `₹${(amount / 10000000).toFixed(1)} Cr`;
     } else if (amount >= 100000) {
@@ -235,7 +225,7 @@ const NITHamirpurPage: React.FC = () => {
       {/* Admission Predictor CTA (moved to top) */}
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Predict Your Chances</h3>
-        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Hamirpur based on your rank and category.</p>
+        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Calicut based on your rank and category.</p>
         <button onClick={() => setIsPredictorModalOpen(true)} className="w-full px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Try Admission Predictor</button>
       </div>
 
@@ -246,7 +236,7 @@ const NITHamirpurPage: React.FC = () => {
           <div className="flex gap-3">
             <img src="/default-news.jpg" alt="News" className="w-16 h-16 object-cover rounded-lg flex-shrink-0" />
             <div className="flex-1 min-w-0">
-              <h4 className="text-sm font-medium text-gray-900 line-clamp-2">NIT Hamirpur Begins PhD Admissions 2025-26</h4>
+              <h4 className="text-sm font-medium text-gray-900 line-clamp-2">NIT Calicut Begins PhD Admissions 2025-26</h4>
               <p className="text-xs text-gray-500 mt-1">2 days ago</p>
             </div>
           </div>
@@ -263,7 +253,7 @@ const NITHamirpurPage: React.FC = () => {
 
       {/* Top Courses */}
       <div className="bg-white rounded-xl shadow-sm p-8">
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">Top Courses at NIT Hamirpur</h3>
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Top Courses at NIT Calicut</h3>
         <div className="space-y-3">
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
@@ -344,12 +334,12 @@ const NITHamirpurPage: React.FC = () => {
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Upcoming Events</h3>
         <div className="space-y-3 text-sm">
           <div className="p-3 bg-gray-50 rounded-lg">
-            <div className="font-medium text-gray-900">Mood Indigo Cultural Festival</div>
-            <div className="text-gray-600">Dec • Asia's largest cultural fest</div>
+            <div className="font-medium text-gray-900">Ragam Cultural Festival</div>
+            <div className="text-gray-600">Mar � Cultural events, concerts, competitions</div>
               </div>
           <div className="p-3 bg-gray-50 rounded-lg">
-            <div className="font-medium text-gray-900">Techfest</div>
-            <div className="text-gray-600">Jan • Hackathons, keynotes, expo</div>
+            <div className="font-medium text-gray-900">Tathva Tech Fest</div>
+            <div className="text-gray-600">Oct � Hackathons, keynotes, expo</div>
           </div>
         </div>
       </div>
@@ -410,7 +400,7 @@ const NITHamirpurPage: React.FC = () => {
       {/* Admission Predictor CTA */}
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Predict Your Chances</h3>
-        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Hamirpur based on your rank and category.</p>
+        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Calicut based on your rank and category.</p>
         <button onClick={() => setIsPredictorModalOpen(true)} className="w-full px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Try Admission Predictor</button>
       </div>
 
@@ -446,15 +436,15 @@ const NITHamirpurPage: React.FC = () => {
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Popular College Comparisons</h3>
         <div className="space-y-2 text-sm">
           <Link to="/compare/nit-trichy-vs-iit-bombay" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Hamirpur vs IIT Bombay</span>
+            <span className="font-medium text-gray-900">NIT Calicut vs IIT Bombay</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
           <Link to="/compare/nit-trichy-vs-iit-madras" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Hamirpur vs IIT Madras</span>
+            <span className="font-medium text-gray-900">NIT Calicut vs IIT Madras</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
           <Link to="/compare/nit-trichy-vs-iit-delhi" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Hamirpur vs IIT Delhi</span>
+            <span className="font-medium text-gray-900">NIT Calicut vs IIT Delhi</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
         </div>
@@ -526,9 +516,9 @@ const NITHamirpurPage: React.FC = () => {
         <div className="space-y-4 flex-1">
           {[
             { name: "IIT Madras", rank: "1", type: "Engineering" },
-            { name: "NIT Hamirpur", rank: "2", type: "Engineering" },
-            { name: "NIT Hamirpur", rank: "4", type: "Engineering" },
-            { name: "NIT Hamirpur", rank: "5", type: "Engineering" },
+            { name: "NIT Calicut", rank: "2", type: "Engineering" },
+            { name: "NIT Calicut", rank: "4", type: "Engineering" },
+            { name: "NIT Calicut", rank: "5", type: "Engineering" },
             { name: "IIT Roorkee", rank: "7", type: "Engineering" }
           ].map((college, index) => (
             <Link key={index} to="/colleges" className="flex items-center gap-3 p-3 hover:bg-gray-50 rounded-lg transition-colors">
@@ -559,6 +549,36 @@ const NITHamirpurPage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">About {collegeData.Name}</h3>
         <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
         
+        {/* Summary Bullet Points */}
+        <div className="mb-6">
+          <p className="text-gray-700 mb-3">
+            <strong>NIT Calicut Courses are offered at UG, PG, Doctorate level. There are 129 courses offered at NIT Calicut.</strong> The institute offers programs in Architecture, Engineering, Science, Management disciplines. Available degrees include B.Tech, M.Tech, Ph.D, B.Arch, M.Sc, MBA, M.Arch, BS + MS, B.Tech + M.Tech, Executive MBA. Popular courses are B.Tech, M.Tech, Ph.D.
+          </p>
+          <ul className="space-y-2 text-gray-700">
+            <li>• <strong>NIT Calicut Fees 2025-2026 range from ₹44,000 to ₹8.66 Lakhs across all offered courses.</strong> UG Fees: ₹9.2 Lakhs for B.Tech (4 years), PG Fees: ₹1.334 Lakhs to ₹8.66 Lakhs</li>
+            <li>• <strong>NIT Calicut B.Tech Fees is ₹9.2 Lakhs for the entire 4 years duration.</strong> Popular specializations: Computer Science & Engineering, Electrical Engineering, Mechanical Engineering.
+              <ul className="ml-4 mt-1 space-y-1">
+                <li>• NIT Calicut B.Tech total program fee: ₹9.2 Lakhs. First year fee: ₹2.3 Lakhs.</li>
+                <li>• B.Tech CSE is one of the most competitive programs with AIR 66 cutoff.</li>
+              </ul>
+            </li>
+            <li>• <strong>NIT Calicut M.Tech Fees is ₹1.334 Lakhs for the entire 2 years duration.</strong> Popular specializations: Computer Science And Engineering, Data Science, AI & Machine Learning.
+              <ul className="ml-4 mt-1 space-y-1">
+                <li>• NIT Calicut M.Tech annual fee: ₹66,700</li>
+                <li>• 50+ M.Tech specializations available across various departments</li>
+              </ul>
+            </li>
+            <li>• <strong>NIT Calicut Ph.D Fees is ₹1.32 Lakhs for 3 years duration.</strong> Popular specializations: All engineering, science, and management departments.
+              <ul className="ml-4 mt-1 space-y-1">
+                <li>• Ph.D fee: ₹44,000 per year (₹1.32 Lakhs for 3 years)</li>
+                <li>• Over 1200+ Ph.D students enrolled across 50 programs</li>
+              </ul>
+            </li>
+            <li>• <strong>NIT Calicut offers MBA through SJMSOM with total fee of ₹8.66 Lakhs (₹4.33 Lakhs per year).</strong> Admission through CAT examination.</li>
+            <li>• <strong>NIT Calicut Hostel & Mess Fee is approximately ₹39,400 per semester.</strong></li>
+          </ul>
+        </div>
+        
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Established" value={collegeData.Established.Year} />
           <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2025.Overall} />
@@ -580,6 +600,17 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
         
+        {/* Summary Bullet Points */}
+        <div className="mb-6">
+          <ul className="space-y-2 text-gray-700">
+            <li>• <strong>NIT Calicut offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and design disciplines.</strong> The institute maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
+            <li>• <strong>Undergraduate Programs:</strong> B.Tech (1200 seats, ₹2.3L/year), Dual Degree programs available, B.Des (15 seats, ₹2.3L/year). All programs require competitive entrance examinations with JEE Advanced for B.Tech and UCEED for B.Des.</li>
+            <li>• <strong>Postgraduate Programs:</strong> M.Tech (50 specializations, ₹66,700/year), MBA (120 seats, ₹4.33L/year), M.Sc (200 seats across 4 disciplines, ₹78,600/year). Admission through GATE, CAT, and IIT JAM examinations respectively.</li>
+            <li>• <strong>Doctoral Programs:</strong> PhD (50 programs, 1200+ seats, ₹44,000/year). Duration typically 3-5 years with research focus areas including AI, machine learning, sustainable energy, healthcare informatics, and electric mobility.</li>
+            <li>• <strong>Hostel & Accommodation:</strong> 18 hostels with modern amenities including Wi-Fi, study rooms, mess halls, recreation areas, and water purifiers. Hostel & mess fees approximately ₹39,400 per semester.</li>
+          </ul>
+        </div>
+        
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-4 bg-gray-50">
             <h4 className="font-semibold text-lg mb-3">Undergraduate Programs</h4>
@@ -595,7 +626,7 @@ const NITHamirpurPage: React.FC = () => {
             <div className="space-y-2 text-sm">
               <div><span className="font-medium">M.Tech:</span> {collegeData.CoursesAndFees.Postgraduate.MTech.Specializations} specializations</div>
               <div><span className="font-medium">MBA:</span> {collegeData.CoursesAndFees.Postgraduate.MBA.Seats} seats</div>
-              <div><span className="font-medium">M.Sc:</span> {collegeData.CoursesAndFees.Postgraduate.MSc.Seats} seats across {(collegeData.CoursesAndFees.Postgraduate.MSc.Disciplines || []).length} disciplines</div>
+              <div><span className="font-medium">M.Sc:</span> {collegeData.CoursesAndFees.Postgraduate.MSc.Seats} seats across {collegeData.CoursesAndFees.Postgraduate.MSc.Disciplines.length} disciplines</div>
             </div>
           </div>
           
@@ -613,7 +644,7 @@ const NITHamirpurPage: React.FC = () => {
       {/* Admission Process */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Admission Process & Cutoffs</h3>
-        <p className="text-gray-700 mb-6">Admissions at NIT Hamirpur are highly competitive, with rigorous entrance examinations and strict cutoff criteria. The institute follows a merit-based selection process ensuring only the brightest minds join the community.</p>
+        <p className="text-gray-700 mb-6">Admissions at NIT Calicut are highly competitive, with rigorous entrance examinations and strict cutoff criteria. The institute follows a merit-based selection process ensuring only the brightest minds join the community.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -629,7 +660,7 @@ const NITHamirpurPage: React.FC = () => {
               </div>
               <div className="bg-gray-50 rounded-lg p-3">
                 <h5 className="font-medium">Doctoral (PhD)</h5>
-                <p className="text-sm text-gray-700">{(collegeData.AdmissionProcessAndEntranceExams.Doctoral?.PhD?.Exam || []).slice(0, 3).join(", ")} and others</p>
+                <p className="text-sm text-gray-700">{collegeData.AdmissionProcessAndEntranceExams.Doctoral.PhD.Exam.slice(0, 3).join(", ")} and others</p>
               </div>
             </div>
           </div>
@@ -641,7 +672,7 @@ const NITHamirpurPage: React.FC = () => {
               <div className="flex justify-between"><span>Data Science & AI:</span> <span className="font-medium">AIR {collegeData.CutoffInformation.JEEAdvanced2025.DataScienceAIClosingAIR}</span></div>
               <div className="flex justify-between"><span>ECE:</span> <span className="font-medium">AIR {collegeData.CutoffInformation.JEEAdvanced2025.ECEClosingAIR}</span></div>
               <div className="flex justify-between"><span>Mechanical:</span> <span className="font-medium">AIR {collegeData.CutoffInformation.JEEAdvanced2025.MechEngClosingAIR}</span></div>
-              <div className="flex justify-between"><span>B.Arch:</span> <span className="font-medium">Rank {collegeData.CutoffInformation.BArchAAT2025ClosingRank ? collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString() : 'N/A'}</span></div>
+              <div className="flex justify-between"><span>B.Arch:</span> <span className="font-medium">Rank {collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString()}</span></div>
               <div className="flex justify-between"><span>MBA (General):</span> <span className="font-medium">{collegeData.CutoffInformation.CATMBA2025Cutoffs.GeneralPercentile}%</span></div>
             </div>
           </div>
@@ -651,7 +682,7 @@ const NITHamirpurPage: React.FC = () => {
       {/* Placements & Career Opportunities */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Placements & Career Opportunities</h3>
-        <p className="text-gray-700 mb-6">NIT Hamirpur has an exceptional placement record with top-tier companies consistently recruiting students across all programs. The Career Development Cell ensures comprehensive preparation and support throughout the placement process.</p>
+        <p className="text-gray-700 mb-6">NIT Calicut has an exceptional placement record with top-tier companies consistently recruiting students across all programs. The Career Development Cell ensures comprehensive preparation and support throughout the placement process.</p>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Total Offers (2024)" value={collegeData.Placements.Year2024.TotalOffers} />
@@ -668,7 +699,7 @@ const NITHamirpurPage: React.FC = () => {
           <div>
             <h4 className="font-semibold text-lg mb-3">Top Recruiting Companies</h4>
             <div className="flex flex-wrap gap-2">
-              {(collegeData.Placements.Year2024.TopRecruiters || []).slice(0, 12).map((recruiter: string, index: number) => (
+              {collegeData.Placements.Year2024.TopRecruiters.slice(0, 12).map((recruiter: string, index: number) => (
                 <span key={index} className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
                   {recruiter}
                 </span>
@@ -679,7 +710,7 @@ const NITHamirpurPage: React.FC = () => {
           <div>
             <h4 className="font-semibold text-lg mb-3">Job Profiles</h4>
             <div className="flex flex-wrap gap-2">
-              {(collegeData.Placements.Year2024.JobProfiles || []).map((profile: string, index: number) => (
+              {collegeData.Placements.Year2024.JobProfiles.map((profile: string, index: number) => (
                 <span key={index} className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
                   {profile}
                 </span>
@@ -692,7 +723,7 @@ const NITHamirpurPage: React.FC = () => {
       {/* Rankings & Recognition */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Rankings & Recognition</h3>
-        <p className="text-gray-700 mb-6">NIT Hamirpur consistently ranks among the top engineering institutions in India and has gained international recognition for its academic excellence, research contributions, and innovation initiatives.</p>
+        <p className="text-gray-700 mb-6">NIT Calicut consistently ranks among the top engineering institutions in India and has gained international recognition for its academic excellence, research contributions, and innovation initiatives.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -742,7 +773,7 @@ const NITHamirpurPage: React.FC = () => {
       {/* Facilities & Infrastructure */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Campus Facilities & Infrastructure</h3>
-        <p className="text-gray-700 mb-6">The sprawling 365-acre campus of NIT Hamirpur houses world-class facilities including modern hostels, state-of-the-art laboratories, extensive library resources, and comprehensive sports infrastructure to support holistic development.</p>
+        <p className="text-gray-700 mb-6">The sprawling 365-acre campus of NIT Calicut houses world-class facilities including modern hostels, state-of-the-art laboratories, extensive library resources, and comprehensive sports infrastructure to support holistic development.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -751,7 +782,7 @@ const NITHamirpurPage: React.FC = () => {
               <div className="bg-blue-50 rounded-lg p-3">
                 <h5 className="font-medium">Hostel Facilities</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-                  <div><span className="font-medium">{collegeData.Facilities.Hostels?.Number || 'Multiple'} hostels</span> with {(collegeData.Facilities.Hostels?.Types || []).join(", ")} options</div>
+                  <div><span className="font-medium">{collegeData.Facilities.Hostels.Number} hostels</span> with {collegeData.Facilities.Hostels.Types.join(", ")} options</div>
                   <div>Amenities: Wi-Fi, Study Rooms, Mess Halls, Recreation Areas</div>
                 </div>
               </div>
@@ -770,14 +801,14 @@ const NITHamirpurPage: React.FC = () => {
               <div className="bg-yellow-50 rounded-lg p-3">
                 <h5 className="font-medium">Library - {collegeData.Facilities.Library.Name}</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-                  <div><span className="font-medium">{collegeData.Facilities.Library.BookCount ? collegeData.Facilities.Library.BookCount.toLocaleString() : 'Extensive'} books</span> and {collegeData.Facilities.Library.EJournalsCount ? collegeData.Facilities.Library.EJournalsCount.toLocaleString() : 'Multiple'} e-journals</div>
+                  <div><span className="font-medium">{collegeData.Facilities.Library.BookCount.toLocaleString()} books</span> and {collegeData.Facilities.Library.EJournalsCount.toLocaleString()} e-journals</div>
                   <div>24/7 access with digital resources and group study zones</div>
                 </div>
               </div>
               <div className="bg-purple-50 rounded-lg p-3">
                 <h5 className="font-medium">Laboratories</h5>
                 <div className="text-sm text-gray-700">
-                  <span className="font-medium">{collegeData.Facilities.Laboratories.Quantity || collegeData.Facilities.Laboratories.SpecialLabs?.length || 'Multiple'} labs</span> focusing on AI, ML, VLSI, IoT, Nanotechnology, and more
+                  <span className="font-medium">{collegeData.Facilities.Laboratories.Quantity} labs</span> focusing on AI, ML, VLSI, IoT, Nanotechnology, and more
                 </div>
               </div>
             </div>
@@ -789,7 +820,7 @@ const NITHamirpurPage: React.FC = () => {
           <div className="grid md:grid-cols-2 gap-4">
             <div>
               <div className="text-sm text-gray-700 space-y-1">
-                {(collegeData.Facilities.SportsFacilities?.Features || collegeData.Facilities.Sports?.Facilities || []).map((facility: string, index: number) => (
+                {collegeData.Facilities.SportsFacilities.Features.map((facility: string, index: number) => (
                   <div key={index} className="flex items-center">
                     <ChevronRight className="w-4 h-4 mr-2 text-green-600" />
                     {facility}
@@ -801,7 +832,7 @@ const NITHamirpurPage: React.FC = () => {
               <div className="bg-orange-50 rounded-lg p-3">
                 <h5 className="font-medium">Medical Facilities</h5>
                 <div className="text-sm text-gray-700">
-                  <div>{collegeData.Facilities.Medical.FacilityName || collegeData.Facilities.Medical.HealthcareCenter || 'Health Centre'} with emergency services, specialist consultations, and pharmacy</div>
+                  <div>{collegeData.Facilities.Medical.FacilityName} with emergency services, specialist consultations, and pharmacy</div>
                 </div>
               </div>
             </div>
@@ -812,7 +843,7 @@ const NITHamirpurPage: React.FC = () => {
       {/* Faculty & Research */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty & Research Excellence</h3>
-        <p className="text-gray-700 mb-6">NIT Hamirpur boasts a distinguished faculty of over 470 members across 23 departments, with the majority holding PhD degrees. The institute is at the forefront of research and innovation with significant contributions to various fields.</p>
+        <p className="text-gray-700 mb-6">NIT Calicut boasts a distinguished faculty of over 470 members across 23 departments, with the majority holding PhD degrees. The institute is at the forefront of research and innovation with significant contributions to various fields.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -838,7 +869,7 @@ const NITHamirpurPage: React.FC = () => {
           <div>
             <h4 className="font-semibold text-lg mb-3">Key Departments</h4>
             <div className="grid grid-cols-2 gap-2 text-sm">
-              {(collegeData.FacultyAndDepartments.DepartmentsList || (collegeData.FacultyAndDepartments as any).Departments || []).slice(0, 8).map((dept: string, index: number) => (
+              {collegeData.FacultyAndDepartments.DepartmentsList.slice(0, 8).map((dept: string, index: number) => (
                 <div key={index} className="flex items-center">
                   <ChevronRight className="w-3 h-3 mr-1 text-blue-600" />
                   {dept}
@@ -851,7 +882,7 @@ const NITHamirpurPage: React.FC = () => {
         <div className="mt-6">
           <h4 className="font-semibold text-lg mb-3">Research Focus Areas</h4>
           <div className="flex flex-wrap gap-2">
-            {(collegeData.ResearchAndInnovation.FocusAreas || []).map((area: string, index: number) => (
+            {collegeData.ResearchAndInnovation.FocusAreas.map((area: string, index: number) => (
               <span key={index} className="bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full">
                 {area}
               </span>
@@ -863,7 +894,7 @@ const NITHamirpurPage: React.FC = () => {
       {/* Student Life & Culture */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student Life & Campus Culture</h3>
-        <p className="text-gray-700 mb-6">The vibrant campus life at NIT Hamirpur is characterized by a diverse community, rich cultural traditions, and numerous opportunities for personal and professional growth through clubs, societies, and events.</p>
+        <p className="text-gray-700 mb-6">The vibrant campus life at NIT Calicut is characterized by a diverse community, rich cultural traditions, and numerous opportunities for personal and professional growth through clubs, societies, and events.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -872,17 +903,17 @@ const NITHamirpurPage: React.FC = () => {
               <div className="bg-yellow-50 rounded-lg p-3">
                 <h5 className="font-medium">Major Festivals</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-                  {(collegeData.StudentLifeAndLifestyle.Festivals || []).map((festival: string, index: number) => (
-                    <div key={index}>• {festival}</div>
-                  ))}
+                  {collegeData.StudentLifeAndLifestyle.Festivals.map((festival: string, index: number) => (
+
+<div key={index} className="flex items-center"><ChevronRight className="w-4 h-4 mr-2 text-pink-600" />{festival}</div>                  ))}
                 </div>
               </div>
               <div className="bg-pink-50 rounded-lg p-3">
                 <h5 className="font-medium">Cultural Traditions</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-                  {(collegeData.StudentLifeAndLifestyle.CulturalTraditions || []).map((tradition: string, index: number) => (
-                    <div key={index}>• {tradition}</div>
-                  ))}
+                  {collegeData.StudentLifeAndLifestyle.CulturalTraditions.map((tradition: string, index: number) => (
+
+<div key={index} className="flex items-center"><ChevronRight className="w-4 h-4 mr-2 text-pink-600" />{tradition}</div>                  ))}
                 </div>
               </div>
             </div>
@@ -894,15 +925,15 @@ const NITHamirpurPage: React.FC = () => {
               <div className="bg-blue-50 rounded-lg p-3">
                 <h5 className="font-medium">Active Organizations</h5>
                 <div className="text-sm text-gray-700">
-                  <span className="font-medium">{collegeData.Facilities.StudentClubs?.Number || collegeData.StudentLifeAndLifestyle?.ClubsAndSocieties?.length || 'Multiple'} clubs</span> across technical, cultural, entrepreneurship, and social service domains
+                  <span className="font-medium">{collegeData.Facilities.StudentClubs.Number} clubs</span> across technical, cultural, entrepreneurship, and social service domains
                 </div>
               </div>
               <div className="bg-green-50 rounded-lg p-3">
                 <h5 className="font-medium">Key Clubs</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-                  {(collegeData.StudentLifeAndLifestyle.ClubsAndSocieties || []).slice(0, 4).map((club: string, index: number) => (
-                    <div key={index}>• {club}</div>
-                  ))}
+                  {collegeData.StudentLifeAndLifestyle.ClubsAndSocieties.slice(0, 4).map((club: string, index: number) => (
+
+<div key={index} className="flex items-center"><ChevronRight className="w-4 h-4 mr-2 text-green-600" />{club}</div>                  ))}
                 </div>
               </div>
             </div>
@@ -945,7 +976,7 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Undergraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          NIT Hamirpur's undergraduate offerings are designed to build a strong foundation in core disciplines while
+          NIT Calicut's undergraduate offerings are designed to build a strong foundation in core disciplines while
           introducing students to cutting-edge technologies and interdisciplinary learning. With competitive intake,
           structured curricula, modern laboratories, and active industry projects, students graduate with both theoretical
           depth and hands-on problem-solving skills. The programs emphasize fundamentals, design thinking, and professional
@@ -990,7 +1021,7 @@ const NITHamirpurPage: React.FC = () => {
           <div>
             <h5 className="font-medium mb-2">Available Branches:</h5>
             <div className="flex flex-wrap gap-2">
-              {(collegeData.CoursesAndFees.Undergraduate.BTech.Branches || []).map((branch: string, index: number) => (
+              {collegeData.CoursesAndFees.Undergraduate.BTech.Branches.map((branch: string, index: number) => (
                 <span key={index} className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
                   {branch}
                 </span>
@@ -1000,7 +1031,7 @@ const NITHamirpurPage: React.FC = () => {
           
           <div className="mt-3">
             <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-            <p className="text-sm text-gray-700">{(collegeData.CoursesAndFees.Undergraduate.BTech.Entrance || []).join(", ")}</p>
+            <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Undergraduate.BTech.Entrance.join(", ")}</p>
           </div>
           <p className="text-gray-700 mt-3">
             The B.Tech programs balance rigorous coursework with project-based learning and elective flexibility. Core
@@ -1050,7 +1081,7 @@ const NITHamirpurPage: React.FC = () => {
           </div>
           <div>
             <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-            <p className="text-sm text-gray-700">{(collegeData.CoursesAndFees.Undergraduate.BArch.Entrance || []).join(", ")}</p>
+            <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Undergraduate.BArch.Entrance.join(", ")}</p>
           </div>
         </div>
 
@@ -1070,7 +1101,7 @@ const NITHamirpurPage: React.FC = () => {
           </p>
           <div>
             <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-            <p className="text-sm text-gray-700">{(collegeData.CoursesAndFees.Undergraduate.BDes.Entrance || []).join(", ")}</p>
+            <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Undergraduate.BDes.Entrance.join(", ")}</p>
           </div>
         </div>
       </div>
@@ -1079,7 +1110,7 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Postgraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          The postgraduate ecosystem at NIT Hamirpur is research-driven and industry-aligned. Programs in engineering,
+          The postgraduate ecosystem at NIT Calicut is research-driven and industry-aligned. Programs in engineering,
           management, and sciences emphasize advanced coursework, electives in emerging areas, and strong thesis/project
           components. Students benefit from funded research labs, innovation centers, and frequent industry seminars.
         </p>
@@ -1095,7 +1126,7 @@ const NITHamirpurPage: React.FC = () => {
             </div>
             <div>
               <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-              <p className="text-sm text-gray-700">{(collegeData.CoursesAndFees.Postgraduate.MTech.Entrance || []).join(", ")}</p>
+              <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Postgraduate.MTech.Entrance.join(", ")}</p>
             </div>
             <p className="text-gray-700 mt-3">
               M.Tech students typically engage in lab-intensive courses, research assistantships, and collaborative
@@ -1114,7 +1145,7 @@ const NITHamirpurPage: React.FC = () => {
             </div>
             <div>
               <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-              <p className="text-sm text-gray-700">{(collegeData.CoursesAndFees.Postgraduate.MBA.Entrance || []).join(", ")}</p>
+              <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Postgraduate.MBA.Entrance.join(", ")}</p>
             </div>
             <p className="text-gray-700 mt-3">
               The MBA program blends analytics, leadership, and industry immersion. Case studies, capstone projects, and
@@ -1134,7 +1165,7 @@ const NITHamirpurPage: React.FC = () => {
             <div>
               <h5 className="font-medium mb-1">Available Disciplines:</h5>
               <div className="flex flex-wrap gap-1">
-                {(collegeData.CoursesAndFees.Postgraduate.MSc.Disciplines || []).map((discipline: string, index: number) => (
+                {collegeData.CoursesAndFees.Postgraduate.MSc.Disciplines.map((discipline: string, index: number) => (
                   <span key={index} className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">
                     {discipline}
                   </span>
@@ -1143,7 +1174,7 @@ const NITHamirpurPage: React.FC = () => {
             </div>
             <div className="mt-2">
               <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-              <p className="text-sm text-gray-700">{(collegeData.CoursesAndFees.Postgraduate.MSc.Entrance || []).join(", ")}</p>
+              <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Postgraduate.MSc.Entrance.join(", ")}</p>
             </div>
             <p className="text-gray-700 mt-3">
               M.Sc programs cultivate deep theoretical understanding and research skills, supporting pathways into PhD
@@ -1161,7 +1192,7 @@ const NITHamirpurPage: React.FC = () => {
             </div>
             <div>
               <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-              <p className="text-sm text-gray-700">{(collegeData.CoursesAndFees.Doctoral?.PhD?.Entrance || []).slice(0, 3).join(", ")}...</p>
+              <p className="text-sm text-gray-700">{collegeData.CoursesAndFees.Doctoral.PhD.Entrance.slice(0, 3).join(", ")}...</p>
             </div>
             <p className="text-gray-700 mt-3">
               Doctoral scholars work with faculty on sponsored projects, publish in reputed venues, and often collaborate
@@ -1202,7 +1233,7 @@ const NITHamirpurPage: React.FC = () => {
                 <td className="py-2 pr-4">{collegeData.CoursesAndFees.Postgraduate.MSc.Seats}</td>
                 <td className="py-2 pr-4">{collegeData.CoursesAndFees.Postgraduate.MSc.DurationYears} years</td>
                 <td className="py-2 pr-4">{formatCurrency(collegeData.CoursesAndFees.Postgraduate.MSc.FirstYearFeeINR)}</td>
-                <td className="py-2">Disciplines: {(collegeData.CoursesAndFees.Postgraduate.MSc.Disciplines || []).join(", ")}</td>
+                <td className="py-2">Disciplines: {collegeData.CoursesAndFees.Postgraduate.MSc.Disciplines.join(", ")}</td>
                 </tr>
               </tbody>
             </table>
@@ -1214,9 +1245,9 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel & Accommodation</h3>
         <p className="text-gray-700 mb-4">
-          Hostel life at NIT Hamirpur is known for its vibrant culture and supportive community. With modern rooms, study
+          Hostel life at NIT Calicut is known for its vibrant culture and supportive community. With modern rooms, study
           areas, and recreational spaces, students find a conducive environment for personal growth. Residential living
-          also fosters collaboration across programs through clubs, intramurals, and cultural festivals.
+          also fosters collaboration across programs through clubs, intramurals, and festivals.
         </p>
         <div className="grid md:grid-cols-2 gap-4">
           <InfoCard label="Hostel Fee (Min)" value={formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Minimum)} />
@@ -1233,16 +1264,16 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Admissions at {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at <strong>NIT Hamirpur</strong> are among the most merit-centric and transparent in Indian higher
+          Admissions at <strong>NIT Calicut</strong> are among the most merit-centric and transparent in Indian higher
           education, governed by national-level examinations and centralized counseling platforms. The system ensures
           nationwide participation while adhering to Central Government reservation policies for SC, ST, OBC‑NCL, EWS,
           and PwD categories. Processes vary across undergraduate, postgraduate, and doctoral levels—each emphasizing
           academic rigor, exam performance, and interviews or research assessments where applicable.
         </p>
 
-        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of NIT Hamirpur’s Admission Framework</h4>
+        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of NIT Calicut’s Admission Framework</h4>
         <p className="text-gray-700 mb-3">
-          Founded in 1958 through Indo-Soviet collaboration, NIT Hamirpur structures admissions to maintain academic
+          Founded in 1958 through Indo-Soviet collaboration, NIT Calicut structures admissions to maintain academic
           excellence and equitable access. All admissions—through <strong>JEE Advanced, GATE, CAT, IIT JAM,</strong> or
           <strong> UCEED</strong>—are aligned to centralized systems managed by national bodies such as
           <strong> JoSAA</strong>, <strong>COAP</strong>, and respective coordination portals.
@@ -1309,9 +1340,9 @@ const NITHamirpurPage: React.FC = () => {
         </ul>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at NIT Hamirpur</h3>
+        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at NIT Calicut</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at NIT Hamirpur are highly structured and merit-driven. Each program is tied to a national-level
+          Admissions at NIT Calicut are highly structured and merit-driven. Each program is tied to a national-level
           examination with carefully defined counseling processes, category-based reservations, and institute-level
           verification. Shortlisted candidates typically proceed through centralized counseling where seat allotments are
           made based on rank, preferences, and availability.
@@ -1342,12 +1373,12 @@ const NITHamirpurPage: React.FC = () => {
                 <td className="py-2 pr-4 font-medium">B.Arch</td>
                 <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Exam} + AAT</td>
                 <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Counseling}</td>
-                <td className="py-2">AAT Rank {collegeData.CutoffInformation.BArchAAT2025ClosingRank ? collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString() : 'N/A'}</td>
+                <td className="py-2">AAT Rank {collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString()}</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">MBA</td>
                 <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.Exam}</td>
-                <td className="py-2 pr-4">{(collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.AdditionalSelection || []).join(', ')}</td>
+                <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.AdditionalSelection.join(', ')}</td>
                 <td className="py-2">General {collegeData.CutoffInformation.CATMBA2025Cutoffs.GeneralPercentile}%</td>
               </tr>
               <tr>
@@ -1358,7 +1389,7 @@ const NITHamirpurPage: React.FC = () => {
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">PhD</td>
-                <td className="py-2 pr-4">{(collegeData.AdmissionProcessAndEntranceExams.Doctoral?.PhD?.Exam || []).slice(0,3).join(', ')}...</td>
+                <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Doctoral.PhD.Exam.slice(0,3).join(', ')}...</td>
                 <td className="py-2 pr-4">Interview + Research Proposal</td>
                 <td className="py-2">Departmental shortlisting</td>
               </tr>
@@ -1453,7 +1484,7 @@ const NITHamirpurPage: React.FC = () => {
           <div>
             <h4 className="text-lg font-medium mb-3">Other Program Cutoffs</h4>
             <div className="grid md:grid-cols-2 gap-4">
-              <InfoCard label="B.Arch (AAT Closing Rank)" value={collegeData.CutoffInformation.BArchAAT2025ClosingRank ? collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString() : 'N/A'} />
+              <InfoCard label="B.Arch (AAT Closing Rank)" value={collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString()} />
               <InfoCard label="B.Des General" value={collegeData.CutoffInformation.BDesUCEED2025ClosingRanks.General} />
               <InfoCard label="B.Des OBC" value={collegeData.CutoffInformation.BDesUCEED2025ClosingRanks.OBC} />
             </div>
@@ -1488,9 +1519,9 @@ const NITHamirpurPage: React.FC = () => {
   const renderPlacementsTab = () => (
     <div id="placements-root" className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Why Placements at NIT Hamirpur Stand Out</h3>
+        <h3 className="text-2xl font-semibold mb-4">Why Placements at NIT Calicut Stand Out</h3>
         <p className="text-gray-700 mb-3">
-          NIT Hamirpur’s placement ecosystem blends academic rigor, early skill development, industry exposure, and a
+          NIT Calicut’s placement ecosystem blends academic rigor, early skill development, industry exposure, and a
           powerful alumni network—resulting in consistently high packages and diverse global opportunities. Students are
           groomed to excel in high‑pressure, real‑world environments, not just to crack interviews.
         </p>
@@ -1723,7 +1754,7 @@ const NITHamirpurPage: React.FC = () => {
           <h4 className="text-lg font-medium mb-3">Top Recruiters</h4>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="space-y-2">
-              {(collegeData.Placements.Year2024.TopRecruiters || []).slice(0, 9).map((recruiter: string, index: number) => (
+              {collegeData.Placements.Year2024.TopRecruiters.slice(0, 9).map((recruiter: string, index: number) => (
                 <div key={index} className="flex items-center text-sm">
                   <ChevronRight className="w-4 h-4 mr-2 text-blue-600" />
                   {recruiter}
@@ -1731,7 +1762,7 @@ const NITHamirpurPage: React.FC = () => {
               ))}
             </div>
             <div className="space-y-2">
-              {(collegeData.Placements.Year2024.TopRecruiters || []).slice(9).map((recruiter: string, index: number) => (
+              {collegeData.Placements.Year2024.TopRecruiters.slice(9).map((recruiter: string, index: number) => (
                 <div key={index} className="flex items-center text-sm">
                   <ChevronRight className="w-4 h-4 mr-2 text-blue-600" />
                   {recruiter}
@@ -1745,7 +1776,7 @@ const NITHamirpurPage: React.FC = () => {
         <div className="mb-6">
           <h4 className="text-lg font-medium mb-3">Job Profiles</h4>
           <div className="flex flex-wrap gap-2">
-            {(collegeData.Placements.Year2024.JobProfiles || []).map((profile: string, index: number) => (
+            {collegeData.Placements.Year2024.JobProfiles.map((profile: string, index: number) => (
               <span key={index} className="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">
                 {profile}
               </span>
@@ -1757,7 +1788,7 @@ const NITHamirpurPage: React.FC = () => {
         <div>
           <h4 className="text-lg font-medium mb-3">Placement Preparation Support</h4>
           <div className="flex flex-wrap gap-2">
-            {(collegeData.Placements.Year2024.PlacementPreparation || []).map((prep: string, index: number) => (
+            {collegeData.Placements.Year2024.PlacementPreparation.map((prep: string, index: number) => (
               <span key={index} className="bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full">
                 {prep}
               </span>
@@ -1772,9 +1803,9 @@ const NITHamirpurPage: React.FC = () => {
     <div id="rankings-root" className="space-y-6">
       {/* Rankings Narrative and Consolidated Tables (user-provided) */}
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">NIT Hamirpur Rankings & Recognition</h3>
+        <h3 className="text-2xl font-semibold mb-4">NIT Calicut Rankings & Recognition</h3>
         <p className="text-gray-700 mb-4">
-          NIT Hamirpur is consistently ranked among India’s top institutions and continues to strengthen its global
+          NIT Calicut is consistently ranked among India’s top institutions and continues to strengthen its global
           standing. The institute’s performance across teaching quality, research output, graduate outcomes, outreach,
           and perception is reflected in leading national and international ranking frameworks.
         </p>
@@ -1893,7 +1924,7 @@ const NITHamirpurPage: React.FC = () => {
         </div>
 
         <p className="text-gray-700 mb-4">
-          Nationally, NIT Hamirpur ranks #7 overall (NIRF 2025), #6 in engineering, and #1 in architecture & planning.
+          Nationally, NIT Calicut ranks #7 overall (NIRF 2025), #6 in engineering, and #1 in architecture & planning.
           Internationally, it is #335 in QS World (2026) and #130 in QS Asia (2025), with THE placing engineering in the
           301–400 band. These reflect strong academics, research, innovation, and global presence.
         </p>
@@ -1916,9 +1947,9 @@ const NITHamirpurPage: React.FC = () => {
         </div>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Understanding NIT Hamirpur’s Rankings</h3>
+        <h3 className="text-2xl font-semibold mb-4">Understanding NIT Calicut’s Rankings</h3>
         <p className="text-gray-700 mb-3">
-          Rankings reflect NIT Hamirpur’s consistent performance in teaching, research output, innovation, graduate
+          Rankings reflect NIT Calicut’s consistent performance in teaching, research output, innovation, graduate
           outcomes, and international visibility. Nationally, the institute is among the top engineering schools; globally,
           it features in reputed lists such as QS and THE, indicating strong competitiveness and alumni impact.
         </p>
@@ -2147,17 +2178,17 @@ const NITHamirpurPage: React.FC = () => {
               <tr>
                 <td className="py-2 pr-4 font-medium">Hostels</td>
                 <td className="py-2 pr-4">Wi‑Fi, study rooms, recreation</td>
-                <td className="py-2">{collegeData.Facilities.Hostels?.Number || 'Multiple'} hostels</td>
+                <td className="py-2">{collegeData.Facilities.Hostels.Number} hostels</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Library</td>
                 <td className="py-2 pr-4">24/7 access, digital resources</td>
-                <td className="py-2">{collegeData.Facilities.Library.BookCount ? collegeData.Facilities.Library.BookCount.toLocaleString() : 'Extensive'} books, {collegeData.Facilities.Library.EJournalsCount ? collegeData.Facilities.Library.EJournalsCount.toLocaleString() : 'Multiple'} e‑journals</td>
+                <td className="py-2">{collegeData.Facilities.Library.BookCount.toLocaleString()} books, {collegeData.Facilities.Library.EJournalsCount.toLocaleString()} e‑journals</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Labs</td>
                 <td className="py-2 pr-4">AI, VLSI, IoT, Nano, more</td>
-                <td className="py-2">{collegeData.Facilities.Laboratories.Quantity || collegeData.Facilities.Laboratories.SpecialLabs?.length || 'Multiple'} laboratories</td>
+                <td className="py-2">{collegeData.Facilities.Laboratories.Quantity} laboratories</td>
               </tr>
             </tbody>
           </table>
@@ -2167,17 +2198,17 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel Facilities</h3>
         <p className="text-gray-700 mb-3">
-          Residential life anchors the NIT Hamirpur experience. With 20 hostels spanning boys, girls, married and co‑ed
+          Residential life anchors the NIT Calicut experience. With 20 hostels spanning boys, girls, married and co‑ed
           residences, students find a safe, connected environment. Wi‑Fi connectivity, common study rooms, recreation
           lounges and student‑run mess committees support academic focus and community bonding in equal measure.
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <InfoCard label="Number of Hostels" value={collegeData.Facilities.Hostels?.Number || 'Multiple'} />
+            <InfoCard label="Number of Hostels" value={collegeData.Facilities.Hostels.Number} />
             <div className="mt-3">
               <h4 className="font-medium mb-2">Hostel Types</h4>
               <div className="flex flex-wrap gap-2">
-                {(collegeData.Facilities.Hostels?.Types || []).map((type: string, index: number) => (
+                {collegeData.Facilities.Hostels.Types.map((type: string, index: number) => (
                   <span key={index} className="bg-blue-100 text-blue-800 text-sm px-2 py-1 rounded-full">
                     {type}
                   </span>
@@ -2189,7 +2220,7 @@ const NITHamirpurPage: React.FC = () => {
           <div>
             <h4 className="font-medium mb-2">Amenities</h4>
             <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-              {(collegeData.Facilities.Hostels?.Amenities || []).map((amenity: string, index: number) => (
+              {collegeData.Facilities.Hostels.Amenities.map((amenity: string, index: number) => (
                 <li key={index}>{amenity}</li>
               ))}
             </ul>
@@ -2208,18 +2239,15 @@ const NITHamirpurPage: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-6">
           <div className="space-y-3">
             <InfoCard label="Name" value={collegeData.Facilities.Library.Name} />
-            <InfoCard label="Area" value={collegeData.Facilities.Library.AreaSqFt ? `${collegeData.Facilities.Library.AreaSqFt.toLocaleString()} sq ft` : 'N/A'} />
-            <InfoCard label="Books" value={collegeData.Facilities.Library.BookCount ? `${collegeData.Facilities.Library.BookCount.toLocaleString()}` : 'Extensive collection'} />
-            <InfoCard label="E-Journals" value={collegeData.Facilities.Library.EJournalsCount ? `${collegeData.Facilities.Library.EJournalsCount.toLocaleString()}` : 'Multiple'} />
+            <InfoCard label="Area" value={`${collegeData.Facilities.Library.AreaSqFt.toLocaleString()} sq ft`} />
+            <InfoCard label="Books" value={`${collegeData.Facilities.Library.BookCount.toLocaleString()}`} />
+            <InfoCard label="E-Journals" value={`${collegeData.Facilities.Library.EJournalsCount.toLocaleString()}`} />
           </div>
           
           <div>
             <h4 className="font-medium mb-2">Features</h4>
             <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-              {(collegeData.Facilities.Library?.Features || [
-                (collegeData.Facilities.Library as any)?.Books || "Extensive collection",
-                (collegeData.Facilities.Library as any)?.DigitalResources || "E-books, journals, databases"
-              ]).map((feature: string, index: number) => (
+              {collegeData.Facilities.Library.Features.map((feature: string, index: number) => (
                 <li key={index}>{feature}</li>
               ))}
             </ul>
@@ -2237,12 +2265,12 @@ const NITHamirpurPage: React.FC = () => {
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <InfoCard label="Number of Labs" value={collegeData.Facilities.Laboratories.Quantity || collegeData.Facilities.Laboratories.SpecialLabs?.length || 'Multiple'} />
+            <InfoCard label="Number of Labs" value={collegeData.Facilities.Laboratories.Quantity} />
             
             <div className="mt-4">
               <h4 className="font-medium mb-2">Focus Areas</h4>
               <div className="flex flex-wrap gap-2">
-                {(collegeData.Facilities.Laboratories.FocusAreas || collegeData.Facilities.Laboratories.SpecialLabs || []).map((area: string, index: number) => (
+                {collegeData.Facilities.Laboratories.FocusAreas.map((area: string, index: number) => (
                   <span key={index} className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">
                     {area}
                   </span>
@@ -2254,7 +2282,7 @@ const NITHamirpurPage: React.FC = () => {
           <div>
             <h4 className="font-medium mb-2">Equipment</h4>
             <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-              {(collegeData.Facilities.Laboratories.Equipment || ['State-of-the-art equipment across all departments']).map((equipment: string, index: number) => (
+              {collegeData.Facilities.Laboratories.Equipment.map((equipment: string, index: number) => (
                 <li key={index}>{equipment}</li>
               ))}
             </ul>
@@ -2271,7 +2299,7 @@ const NITHamirpurPage: React.FC = () => {
           Wellness programs at the Gym & Yoga Center build lifelong fitness habits.
         </p>
         <div className="grid md:grid-cols-2 gap-4">
-          {(collegeData.Facilities.SportsFacilities?.Features || collegeData.Facilities.Sports?.Facilities || []).map((facility: string, index: number) => (
+          {collegeData.Facilities.SportsFacilities.Features.map((facility: string, index: number) => (
             <div key={index} className="flex items-center text-sm">
               <ChevronRight className="w-4 h-4 mr-2 text-green-600" />
               {facility}
@@ -2289,13 +2317,13 @@ const NITHamirpurPage: React.FC = () => {
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <InfoCard label="Facility Name" value={collegeData.Facilities.Medical.FacilityName || collegeData.Facilities.Medical.HealthcareCenter || 'Health Centre'} />
+            <InfoCard label="Facility Name" value={collegeData.Facilities.Medical.FacilityName} />
           </div>
           
           <div>
             <h4 className="font-medium mb-2">Services</h4>
             <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-              {(collegeData.Facilities.Medical.Services || []).map((service: string, index: number) => (
+              {collegeData.Facilities.Medical.Services.map((service: string, index: number) => (
                 <li key={index}>{service}</li>
               ))}
             </ul>
@@ -2312,7 +2340,7 @@ const NITHamirpurPage: React.FC = () => {
           cultural calendar active throughout the year.
         </p>
         <div className="grid md:grid-cols-3 gap-4">
-          {(collegeData.Facilities.OtherAmenities || []).map((amenity: string, index: number) => (
+          {collegeData.Facilities.OtherAmenities.map((amenity: string, index: number) => (
             <div key={index} className="flex items-center text-sm">
               <ChevronRight className="w-4 h-4 mr-2 text-blue-600" />
               {amenity}
@@ -2331,13 +2359,13 @@ const NITHamirpurPage: React.FC = () => {
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <InfoCard label="Total Clubs" value={collegeData.Facilities.StudentClubs?.Number || collegeData.StudentLifeAndLifestyle?.ClubsAndSocieties?.length || 'Multiple'} />
+            <InfoCard label="Total Clubs" value={collegeData.Facilities.StudentClubs.Number} />
           </div>
           
           <div>
             <h4 className="font-medium mb-2">Club Types</h4>
             <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-              {(collegeData.Facilities.StudentClubs?.Types || collegeData.StudentLifeAndLifestyle?.ClubsAndSocieties || []).map((type: string, index: number) => (
+              {collegeData.Facilities.StudentClubs.Types.map((type: string, index: number) => (
                 <li key={index}>{type}</li>
               ))}
             </ul>
@@ -2353,7 +2381,7 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength, Research Culture & Global Collaborations</h3>
         <p className="text-gray-700 mb-3">
-          NIT Hamirpur’s faculty and research ecosystem is among the strongest in India. With <strong>470+</strong> faculty
+          NIT Calicut’s faculty and research ecosystem is among the strongest in India. With <strong>470+</strong> faculty
           across <strong>23 departments</strong>, the institute sustains a robust, interdisciplinary environment spanning
           fundamental sciences, engineering, and emerging domains. Faculty drive national missions, global partnerships,
           and translational research impacting both industry and society.
@@ -2404,7 +2432,7 @@ const NITHamirpurPage: React.FC = () => {
         <p className="text-gray-700 mb-3">
           Most faculty members hold doctorates from IITs, IISc, or global universities (Cambridge, ETH Zurich, MIT).
           Growth areas include the Department of Design Innovation and interdisciplinary centers like Biomedical
-          Engineering, reflecting NIT Hamirpur’s future‑oriented academic model.
+          Engineering, reflecting NIT Calicut’s future‑oriented academic model.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Key Research Centers and Specializations</h4>
@@ -2520,7 +2548,7 @@ const NITHamirpurPage: React.FC = () => {
         <h4 className="text-lg font-semibold mt-3 mb-2">Research Funding & Recognition</h4>
         <p className="text-gray-700">
           Funding sources include the Ministry of Education, DST, CSIR, DBT, ISRO, and international grants. Award‑winning
-          innovations span renewable energy, disaster mitigation, and AI‑assisted healthcare. NIT Hamirpur balances academic
+          innovations span renewable energy, disaster mitigation, and AI‑assisted healthcare. NIT Calicut balances academic
           rigor with national priorities and global partnerships, making it one of India’s most research‑driven academic
           communities.
         </p>
@@ -2528,7 +2556,7 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength & Research Culture</h3>
         <p className="text-gray-700 mb-3">
-          With a large cohort of accomplished faculty across departments, NIT Hamirpur sustains a vibrant research
+          With a large cohort of accomplished faculty across departments, NIT Calicut sustains a vibrant research
           ecosystem. Faculty members publish in leading venues, attract substantial research funding, and mentor student
           teams that participate in national and international competitions.
         </p>
@@ -2596,7 +2624,7 @@ const NITHamirpurPage: React.FC = () => {
           sustainability‑centric work.
         </p>
         <div className="grid md:grid-cols-2 gap-4">
-          {(collegeData.FacultyAndDepartments.DepartmentsList || (collegeData.FacultyAndDepartments as any).Departments || []).map((dept: string, index: number) => (
+          {collegeData.FacultyAndDepartments.DepartmentsList.map((dept: string, index: number) => (
             <div key={index} className="flex items-center text-sm">
               <ChevronRight className="w-4 h-4 mr-2 text-blue-600" />
               {dept}
@@ -2613,7 +2641,7 @@ const NITHamirpurPage: React.FC = () => {
           nanotechnology and biomedical engineering, these hubs connect faculty with national missions and industry labs.
         </p>
         <div className="grid md:grid-cols-2 gap-4">
-          {(collegeData.FacultyAndDepartments.ResearchCenters || []).map((center: string, index: number) => (
+          {collegeData.FacultyAndDepartments.ResearchCenters.map((center: string, index: number) => (
             <div key={index} className="flex items-center text-sm">
               <ChevronRight className="w-4 h-4 mr-2 text-green-600" />
               {center}
@@ -2630,7 +2658,7 @@ const NITHamirpurPage: React.FC = () => {
           mobility pathways for doctoral candidates and strengthen the institute’s visibility in global rankings.
         </p>
         <div className="grid md:grid-cols-2 gap-4">
-          {(collegeData.FacultyAndDepartments.Collaborations || []).map((collab: string, index: number) => (
+          {collegeData.FacultyAndDepartments.Collaborations.map((collab: string, index: number) => (
             <div key={index} className="flex items-center text-sm">
               <ChevronRight className="w-4 h-4 mr-2 text-purple-600" />
               {collab}
@@ -2647,7 +2675,7 @@ const NITHamirpurPage: React.FC = () => {
           mentoring sit alongside consulting and standards contributions.
         </p>
         <div className="space-y-2">
-          {(collegeData.FacultyAndDepartments.FacultyActivities || []).map((activity: string, index: number) => (
+          {collegeData.FacultyAndDepartments.FacultyActivities.map((activity: string, index: number) => (
             <div key={index} className="flex items-center text-sm">
               <ChevronRight className="w-4 h-4 mr-2 text-orange-600" />
               {activity}
@@ -2664,7 +2692,7 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student & Alumni Perspectives on {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Established in 1958 through Indo-Soviet collaboration, NIT Hamirpur is widely regarded as a premier
+          Established in 1958 through Indo-Soviet collaboration, NIT Calicut is widely regarded as a premier
           engineering and technology institution. Reviews consistently highlight a rigorous academic atmosphere, world‑class
           faculty, and a highly competitive peer network set against a vibrant, 550-acre campus beside Powai Lake.
         </p>
@@ -2673,8 +2701,7 @@ const NITHamirpurPage: React.FC = () => {
         <p className="text-gray-700 mb-3">
           Students appreciate both theoretical depth and practical exposure through seminars, industry collaborations, and
           research projects. Peer culture is motivating; hostel life is community‑oriented with strong participation in
-          technical societies and cultural clubs.           Flagship fests like <em>Techfest</em> (tech) and <em>Mood Indigo</em>
-          (cultural) build leadership and event management skills. While demanding, the curriculum's rigor pays dividends
+          technical societies and cultural clubs. Flagship fests like <em>Tathva</em> (tech) and <em>Ragam</em> (cultural) build leadership and event management skills. While demanding, the curriculum's rigor pays dividends
           for competitive exams, higher studies abroad, and corporate roles.
         </p>
 
@@ -2697,7 +2724,7 @@ const NITHamirpurPage: React.FC = () => {
           <li><strong>Technical societies</strong> (IEEE, ASME, robotics) build applied skills.</li>
           <li><strong>Sports</strong> culture features inter‑IIT participation and extensive facilities.</li>
           <li><strong>Arts & literature</strong> clubs run debates, music, dramatics, and publications.</li>
-          <li><strong>Festivals</strong> like Mood Indigo and Techfest draw national attention and celebrity line‑ups.</li>
+          <li><strong>Festivals</strong> like Ragam and Tathva draw national attention and celebrity line-ups.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mb-2">Areas That See Regular Debate</h4>
@@ -2709,7 +2736,7 @@ const NITHamirpurPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mb-2">Return on Investment & Prestige</h4>
         <p className="text-gray-700 mb-4">
-          With comparatively low fees and strong outcomes, ROI is considered excellent. The NIT Hamirpur brand has global
+          With comparatively low fees and strong outcomes, ROI is considered excellent. The NIT Calicut brand has global
           recognition; alumni progress into leadership roles across industry, academia, and public service.
         </p>
 
@@ -2755,7 +2782,7 @@ const NITHamirpurPage: React.FC = () => {
   const renderContactTab = () => (
     <div className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Contacting NIT Hamirpur Effectively</h3>
+        <h3 className="text-2xl font-semibold mb-4">Contacting NIT Calicut Effectively</h3>
         <p className="text-gray-700 mb-3">
           For admissions and program-specific queries, use official channels and include your application details (name,
           application ID, program, and question) for faster responses. For urgent issues, phone lines and the institute
@@ -2847,7 +2874,7 @@ const NITHamirpurPage: React.FC = () => {
             <Download className="w-5 h-5 mr-2" />
             Download Brochure
           </button>
-          <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+          <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
             <Mail className="w-5 h-5 mr-2" />
             Apply Now
           </button>
@@ -2906,13 +2933,6 @@ const NITHamirpurPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
-                <div className="w-32 h-32 rounded-lg flex items-center justify-center">
-                  <img 
-                    src="/data/colleges/IIT_Roorkee_Logo.svg" 
-                    alt="NIT Hamirpur Logo" 
-                    className="w-full h-full object-contain"
-                  />
-                </div>
                 <div>
                   <h1 className="text-xl font-semibold text-gray-900 mb-2">
                     {collegeData.Name}
@@ -2936,13 +2956,13 @@ const NITHamirpurPage: React.FC = () => {
 
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
-                  NIRF Rank #{collegeData.Rankings.NIRF2025.Overall || 'N/A'}
+                  NIRF Rank #{collegeData.Rankings.NIRF2025.Overall}
                 </span>
                 <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
-                  Engineering Rank #{collegeData.Rankings.NIRF2025.Engineering || 'N/A'}
+                  Engineering Rank #{collegeData.Rankings.NIRF2025.Engineering}
                 </span>
                 <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">
-                  Architecture Rank #{collegeData.Rankings.NIRF2025.ArchitecturePlanning || 'N/A'}
+                  Architecture Rank #{collegeData.Rankings.NIRF2025.ArchitecturePlanning}
                 </span>
                 {/* Quick facts chips */}
                 <span className="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full">
@@ -2960,7 +2980,7 @@ const NITHamirpurPage: React.FC = () => {
                 <Download className="w-5 h-5 mr-2" />
                 Download Brochure
               </button>
-              <button type="button" onClick={openApplyForm} className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+              <button className="flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
                 <Mail className="w-5 h-5 mr-2" />
                 Apply Now
               </button>
@@ -2991,6 +3011,7 @@ const NITHamirpurPage: React.FC = () => {
           {/* Main Content */}
           <div ref={mainContentRef} className="flex-1">
             {renderTabContent()}
+
           </div>
           
           {/* Right Sidebar (fixed on large screens with its own scroll, stays till end) */}
@@ -3004,15 +3025,15 @@ const NITHamirpurPage: React.FC = () => {
       <AdmissionPredictorModal
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
-        collegeName={collegeData?.Name || "NIT Hamirpur"}
-        collegeLogo="/data/colleges/IIT_Roorkee_Logo.svg"
+        collegeName={collegeData?.Name || "NIT Calicut"}
+        collegeLogo=""
       />
 
       {/* Brochure Modal */}
       <BrochureModal
         isOpen={isBrochureModalOpen}
         onClose={() => setIsBrochureModalOpen(false)}
-        collegeName={collegeData?.Name || "NIT Hamirpur"}
+        collegeName={collegeData?.Name || "NIT Calicut"}
         collegeData={collegeData || undefined}
       />
 
@@ -3057,7 +3078,7 @@ const NITHamirpurPage: React.FC = () => {
                   <div className="p-3 rounded-lg bg-white shadow-sm">📅 Application deadlines</div>
                 </div>
                 <div className="p-4 rounded-lg bg-white shadow-sm">
-                  <div className="text-sm text-gray-800 italic">"StudentHub made it easy to compare programs and finish my application on time."</div>
+                  <div className="text-sm text-gray-800 italic">“StudentHub made it easy to compare programs and finish my application on time.”</div>
                   <div className="text-xs text-gray-500 mt-2">— Gurmeet, B.Tech (2024)</div>
                 </div>
               </div>
@@ -3095,4 +3116,4 @@ const NITHamirpurPage: React.FC = () => {
   );
 };
 
-export default NITHamirpurPage;
+export default NITCalicutPage;

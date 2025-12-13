@@ -2910,7 +2910,7 @@ const NITJamshedpurPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/IIT_Roorkee_Logo.svg" 
+
                     alt="NIT Jamshedpur Logo" 
                     className="w-full h-full object-contain"
                   />
@@ -2938,13 +2938,7 @@ const NITJamshedpurPage: React.FC = () => {
 
               <div className="flex flex-wrap gap-2 mb-4">
                 <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
-                  NIRF Rank #{collegeData.Rankings.NIRF2025.Overall || 'N/A'}
-                </span>
-                <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
-                  Engineering Rank #{collegeData.Rankings.NIRF2025.Engineering || 'N/A'}
-                </span>
-                <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">
-                  Architecture Rank #{collegeData.Rankings.NIRF2025.ArchitecturePlanning || 'N/A'}
+
                 </span>
                 {/* Quick facts chips */}
                 <span className="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full">

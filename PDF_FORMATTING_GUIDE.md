@@ -217,6 +217,7 @@ interface BrochureData {
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
 =======
@@ -225,4 +226,10 @@ interface BrochureData {
 
 =======
 >>>>>>> Stashed changes
+
+=======
+>>>>>>> Stashed changes
+
+
+
 

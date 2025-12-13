@@ -554,6 +554,7 @@ Perfect for decision-making! 📄✨
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
 =======
@@ -562,4 +563,10 @@ Perfect for decision-making! 📄✨
 
 =======
 >>>>>>> Stashed changes
+
+=======
+>>>>>>> Stashed changes
+
+
+
 

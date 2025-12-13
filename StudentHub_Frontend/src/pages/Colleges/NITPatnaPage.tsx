@@ -208,13 +208,7 @@ const NITPatnaPage: React.FC = () => {
     { id: "contact", label: "Contact" }
   ];
 
-  const formatCurrency = (amount: number | undefined | null) => {
-    if (amount === undefined || amount === null) {
-      return "N/A";
-    }
-    if (amount === 0) {
-      return "Free";
-    }
+  const formatCurrency = (amount: number) => {
     if (amount >= 10000000) {
       return `₹${(amount / 10000000).toFixed(1)} Cr`;
     } else if (amount >= 100000) {
@@ -665,7 +659,7 @@ const NITPatnaPage: React.FC = () => {
               </div>
               <div className="bg-gray-50 rounded-lg p-3">
                 <h5 className="font-medium">Doctoral (PhD)</h5>
-                <p className="text-sm text-gray-700">{(collegeData.AdmissionProcessAndEntranceExams.Doctoral?.PhD?.Exam || []).slice(0, 3).join(", ")} and others</p>
+
               </div>
             </div>
           </div>
@@ -677,7 +671,7 @@ const NITPatnaPage: React.FC = () => {
               <div className="flex justify-between"><span>Data Science & AI:</span> <span className="font-medium">AIR {collegeData.CutoffInformation.JEEAdvanced2025.DataScienceAIClosingAIR}</span></div>
               <div className="flex justify-between"><span>ECE:</span> <span className="font-medium">AIR {collegeData.CutoffInformation.JEEAdvanced2025.ECEClosingAIR}</span></div>
               <div className="flex justify-between"><span>Mechanical:</span> <span className="font-medium">AIR {collegeData.CutoffInformation.JEEAdvanced2025.MechEngClosingAIR}</span></div>
-              <div className="flex justify-between"><span>B.Arch:</span> <span className="font-medium">Rank {collegeData.CutoffInformation.BArchAAT2025ClosingRank ? collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString() : 'N/A'}</span></div>
+
               <div className="flex justify-between"><span>MBA (General):</span> <span className="font-medium">{collegeData.CutoffInformation.CATMBA2025Cutoffs.GeneralPercentile}%</span></div>
             </div>
           </div>
@@ -704,7 +698,7 @@ const NITPatnaPage: React.FC = () => {
           <div>
             <h4 className="font-semibold text-lg mb-3">Top Recruiting Companies</h4>
             <div className="flex flex-wrap gap-2">
-              {(collegeData.Placements.Year2024.TopRecruiters || []).slice(0, 12).map((recruiter: string, index: number) => (
+              {collegeData.Placements.Year2024.TopRecruiters.map((recruiter: string, index: number) => (
                 <span key={index} className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
                   {recruiter}
                 </span>
@@ -715,7 +709,7 @@ const NITPatnaPage: React.FC = () => {
           <div>
             <h4 className="font-semibold text-lg mb-3">Job Profiles</h4>
             <div className="flex flex-wrap gap-2">
-              {(collegeData.Placements.Year2024.JobProfiles || []).map((profile: string, index: number) => (
+              {collegeData.Placements.Year2024.JobProfiles.map((profile: string, index: number) => (
                 <span key={index} className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
                   {profile}
                 </span>
@@ -787,7 +781,7 @@ const NITPatnaPage: React.FC = () => {
               <div className="bg-blue-50 rounded-lg p-3">
                 <h5 className="font-medium">Hostel Facilities</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-                  <div><span className="font-medium">{collegeData.Facilities.Hostels?.Number || 'Multiple'} hostels</span> with {(collegeData.Facilities.Hostels?.Types || []).join(", ")} options</div>
+
                   <div>Amenities: Wi-Fi, Study Rooms, Mess Halls, Recreation Areas</div>
                 </div>
               </div>
@@ -806,7 +800,7 @@ const NITPatnaPage: React.FC = () => {
               <div className="bg-yellow-50 rounded-lg p-3">
                 <h5 className="font-medium">Library - {collegeData.Facilities.Library.Name}</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-                  <div><span className="font-medium">{collegeData.Facilities.Library.BookCount ? collegeData.Facilities.Library.BookCount.toLocaleString() : 'Extensive'} books</span> and {collegeData.Facilities.Library.EJournalsCount ? collegeData.Facilities.Library.EJournalsCount.toLocaleString() : 'Multiple'} e-journals</div>
+
                   <div>24/7 access with digital resources and group study zones</div>
                 </div>
               </div>
@@ -825,7 +819,7 @@ const NITPatnaPage: React.FC = () => {
           <div className="grid md:grid-cols-2 gap-4">
             <div>
               <div className="text-sm text-gray-700 space-y-1">
-                {(collegeData.Facilities.SportsFacilities?.Features || (collegeData.Facilities as any).Sports?.Facilities || []).map((facility: string, index: number) => (
+                {collegeData.Facilities.SportsFacilities.Features.map((facility: string, index: number) => (
                   <div key={index} className="flex items-center">
                     <ChevronRight className="w-4 h-4 mr-2 text-green-600" />
                     {facility}
@@ -874,7 +868,7 @@ const NITPatnaPage: React.FC = () => {
           <div>
             <h4 className="font-semibold text-lg mb-3">Key Departments</h4>
             <div className="grid grid-cols-2 gap-2 text-sm">
-              {(collegeData.FacultyAndDepartments.DepartmentsList || (collegeData.FacultyAndDepartments as any).Departments || []).slice(0, 8).map((dept: string, index: number) => (
+              {collegeData.FacultyAndDepartments.DepartmentsList.slice(0, 8).map((dept: string, index: number) => (
                 <div key={index} className="flex items-center">
                   <ChevronRight className="w-3 h-3 mr-1 text-blue-600" />
                   {dept}
@@ -887,7 +881,7 @@ const NITPatnaPage: React.FC = () => {
         <div className="mt-6">
           <h4 className="font-semibold text-lg mb-3">Research Focus Areas</h4>
           <div className="flex flex-wrap gap-2">
-            {(collegeData.ResearchAndInnovation.FocusAreas || []).map((area: string, index: number) => (
+            {collegeData.ResearchAndInnovation.FocusAreas.map((area: string, index: number) => (
               <span key={index} className="bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full">
                 {area}
               </span>
@@ -908,7 +902,7 @@ const NITPatnaPage: React.FC = () => {
               <div className="bg-yellow-50 rounded-lg p-3">
                 <h5 className="font-medium">Major Festivals</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-                  {(collegeData.StudentLifeAndLifestyle.Festivals || []).map((festival: string, index: number) => (
+                  {collegeData.StudentLifeAndLifestyle.Festivals.map((festival: string, index: number) => (
                     <div key={index}>• {festival}</div>
                   ))}
                 </div>
@@ -916,7 +910,7 @@ const NITPatnaPage: React.FC = () => {
               <div className="bg-pink-50 rounded-lg p-3">
                 <h5 className="font-medium">Cultural Traditions</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-                  {(collegeData.StudentLifeAndLifestyle.CulturalTraditions || []).map((tradition: string, index: number) => (
+                  {collegeData.StudentLifeAndLifestyle.CulturalTraditions.map((tradition: string, index: number) => (
                     <div key={index}>• {tradition}</div>
                   ))}
                 </div>
@@ -930,13 +924,13 @@ const NITPatnaPage: React.FC = () => {
               <div className="bg-blue-50 rounded-lg p-3">
                 <h5 className="font-medium">Active Organizations</h5>
                 <div className="text-sm text-gray-700">
-                  <span className="font-medium">{collegeData.Facilities.StudentClubs?.Number || collegeData.StudentLifeAndLifestyle?.ClubsAndSocieties?.length || 'Multiple'} clubs</span> across technical, cultural, entrepreneurship, and social service domains
+
                 </div>
               </div>
               <div className="bg-green-50 rounded-lg p-3">
                 <h5 className="font-medium">Key Clubs</h5>
                 <div className="text-sm text-gray-700 space-y-1">
-                  {(collegeData.StudentLifeAndLifestyle.ClubsAndSocieties || []).slice(0, 4).map((club: string, index: number) => (
+                  {collegeData.StudentLifeAndLifestyle.ClubsAndSocieties.slice(0, 4).map((club: string, index: number) => (
                     <div key={index}>• {club}</div>
                   ))}
                 </div>
@@ -1026,7 +1020,7 @@ const NITPatnaPage: React.FC = () => {
           <div>
             <h5 className="font-medium mb-2">Available Branches:</h5>
             <div className="flex flex-wrap gap-2">
-              {(collegeData.CoursesAndFees.Undergraduate.BTech.Branches || []).map((branch: string, index: number) => (
+              {collegeData.CoursesAndFees.Undergraduate.BTech.Branches.map((branch: string, index: number) => (
                 <span key={index} className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
                   {branch}
                 </span>
@@ -1036,7 +1030,7 @@ const NITPatnaPage: React.FC = () => {
           
           <div className="mt-3">
             <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-            <p className="text-sm text-gray-700">{(collegeData.CoursesAndFees.Undergraduate.BTech.Entrance || []).join(", ")}</p>
+
           </div>
           <p className="text-gray-700 mt-3">
             The B.Tech programs balance rigorous coursework with project-based learning and elective flexibility. Core
@@ -1086,7 +1080,7 @@ const NITPatnaPage: React.FC = () => {
           </div>
           <div>
             <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-            <p className="text-sm text-gray-700">{(collegeData.CoursesAndFees.Undergraduate.BArch.Entrance || []).join(", ")}</p>
+
           </div>
         </div>
 
@@ -1106,7 +1100,7 @@ const NITPatnaPage: React.FC = () => {
           </p>
           <div>
             <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-            <p className="text-sm text-gray-700">{(collegeData.CoursesAndFees.Undergraduate.BDes.Entrance || []).join(", ")}</p>
+
           </div>
         </div>
       </div>
@@ -1131,7 +1125,7 @@ const NITPatnaPage: React.FC = () => {
             </div>
             <div>
               <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-              <p className="text-sm text-gray-700">{(collegeData.CoursesAndFees.Postgraduate.MTech.Entrance || []).join(", ")}</p>
+
             </div>
             <p className="text-gray-700 mt-3">
               M.Tech students typically engage in lab-intensive courses, research assistantships, and collaborative
@@ -1150,7 +1144,7 @@ const NITPatnaPage: React.FC = () => {
             </div>
             <div>
               <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-              <p className="text-sm text-gray-700">{(collegeData.CoursesAndFees.Postgraduate.MBA.Entrance || []).join(", ")}</p>
+
             </div>
             <p className="text-gray-700 mt-3">
               The MBA program blends analytics, leadership, and industry immersion. Case studies, capstone projects, and
@@ -1170,7 +1164,7 @@ const NITPatnaPage: React.FC = () => {
             <div>
               <h5 className="font-medium mb-1">Available Disciplines:</h5>
               <div className="flex flex-wrap gap-1">
-                {(collegeData.CoursesAndFees.Postgraduate.MSc.Disciplines || []).map((discipline: string, index: number) => (
+                {collegeData.CoursesAndFees.Postgraduate.MSc.Disciplines.map((discipline: string, index: number) => (
                   <span key={index} className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">
                     {discipline}
                   </span>
@@ -1179,7 +1173,7 @@ const NITPatnaPage: React.FC = () => {
             </div>
             <div className="mt-2">
               <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-              <p className="text-sm text-gray-700">{(collegeData.CoursesAndFees.Postgraduate.MSc.Entrance || []).join(", ")}</p>
+
             </div>
             <p className="text-gray-700 mt-3">
               M.Sc programs cultivate deep theoretical understanding and research skills, supporting pathways into PhD
@@ -1197,7 +1191,7 @@ const NITPatnaPage: React.FC = () => {
             </div>
             <div>
               <h5 className="font-medium mb-1">Entrance Requirements:</h5>
-              <p className="text-sm text-gray-700">{(collegeData.CoursesAndFees.Doctoral?.PhD?.Entrance || []).slice(0, 3).join(", ")}...</p>
+
             </div>
             <p className="text-gray-700 mt-3">
               Doctoral scholars work with faculty on sponsored projects, publish in reputed venues, and often collaborate
@@ -1238,7 +1232,7 @@ const NITPatnaPage: React.FC = () => {
                 <td className="py-2 pr-4">{collegeData.CoursesAndFees.Postgraduate.MSc.Seats}</td>
                 <td className="py-2 pr-4">{collegeData.CoursesAndFees.Postgraduate.MSc.DurationYears} years</td>
                 <td className="py-2 pr-4">{formatCurrency(collegeData.CoursesAndFees.Postgraduate.MSc.FirstYearFeeINR)}</td>
-                <td className="py-2">Disciplines: {(collegeData.CoursesAndFees.Postgraduate.MSc.Disciplines || []).join(", ")}</td>
+
                 </tr>
               </tbody>
             </table>
@@ -1378,12 +1372,12 @@ const NITPatnaPage: React.FC = () => {
                 <td className="py-2 pr-4 font-medium">B.Arch</td>
                 <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Exam} + AAT</td>
                 <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Counseling}</td>
-                <td className="py-2">AAT Rank {collegeData.CutoffInformation.BArchAAT2025ClosingRank ? collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString() : 'N/A'}</td>
+
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">MBA</td>
                 <td className="py-2 pr-4">{collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.Exam}</td>
-                <td className="py-2 pr-4">{(collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.AdditionalSelection || []).join(', ')}</td>
+
                 <td className="py-2">General {collegeData.CutoffInformation.CATMBA2025Cutoffs.GeneralPercentile}%</td>
               </tr>
               <tr>
@@ -1394,7 +1388,7 @@ const NITPatnaPage: React.FC = () => {
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">PhD</td>
-                <td className="py-2 pr-4">{(collegeData.AdmissionProcessAndEntranceExams.Doctoral?.PhD?.Exam || []).slice(0,3).join(', ')}...</td>
+
                 <td className="py-2 pr-4">Interview + Research Proposal</td>
                 <td className="py-2">Departmental shortlisting</td>
               </tr>
@@ -1449,7 +1443,7 @@ const NITPatnaPage: React.FC = () => {
                 <h5 className="font-medium mb-2">MBA</h5>
                 <div className="space-y-2 text-sm">
                   <div><span className="font-medium">Exam:</span> {collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.Exam}</div>
-                  <div><span className="font-medium">Selection Process:</span> {(collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.AdditionalSelection || []).join(", ")}</div>
+
                 </div>
               </div>
             </div>
@@ -1459,7 +1453,7 @@ const NITPatnaPage: React.FC = () => {
           <div>
             <h4 className="text-lg font-medium mb-3">Doctoral Admissions</h4>
             <div className="space-y-2 text-sm">
-              <div><span className="font-medium">Exams:</span> {(collegeData.AdmissionProcessAndEntranceExams.Doctoral?.PhD?.Exam || []).join(", ")}</div>
+
               <div><span className="font-medium">Selection:</span> {collegeData.AdmissionProcessAndEntranceExams.Doctoral.PhD.Selection}</div>
               <div><span className="font-medium">Additional:</span> {collegeData.AdmissionProcessAndEntranceExams.Doctoral.PhD.AdditionalNotes}</div>
             </div>
@@ -1489,7 +1483,7 @@ const NITPatnaPage: React.FC = () => {
           <div>
             <h4 className="text-lg font-medium mb-3">Other Program Cutoffs</h4>
             <div className="grid md:grid-cols-2 gap-4">
-              <InfoCard label="B.Arch (AAT Closing Rank)" value={collegeData.CutoffInformation.BArchAAT2025ClosingRank ? collegeData.CutoffInformation.BArchAAT2025ClosingRank.toLocaleString() : 'N/A'} />
+
               <InfoCard label="B.Des General" value={collegeData.CutoffInformation.BDesUCEED2025ClosingRanks.General} />
               <InfoCard label="B.Des OBC" value={collegeData.CutoffInformation.BDesUCEED2025ClosingRanks.OBC} />
             </div>
@@ -1759,7 +1753,7 @@ const NITPatnaPage: React.FC = () => {
           <h4 className="text-lg font-medium mb-3">Top Recruiters</h4>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="space-y-2">
-              {(collegeData.Placements.Year2024.TopRecruiters || []).slice(0, 9).map((recruiter: string, index: number) => (
+              {collegeData.Placements.Year2024.TopRecruiters.slice(0, 9).map((recruiter: string, index: number) => (
                 <div key={index} className="flex items-center text-sm">
                   <ChevronRight className="w-4 h-4 mr-2 text-blue-600" />
                   {recruiter}
@@ -1767,7 +1761,7 @@ const NITPatnaPage: React.FC = () => {
               ))}
             </div>
             <div className="space-y-2">
-              {(collegeData.Placements.Year2024.TopRecruiters || []).slice(9).map((recruiter: string, index: number) => (
+              {collegeData.Placements.Year2024.TopRecruiters.slice(9).map((recruiter: string, index: number) => (
                 <div key={index} className="flex items-center text-sm">
                   <ChevronRight className="w-4 h-4 mr-2 text-blue-600" />
                   {recruiter}
@@ -1781,7 +1775,7 @@ const NITPatnaPage: React.FC = () => {
         <div className="mb-6">
           <h4 className="text-lg font-medium mb-3">Job Profiles</h4>
           <div className="flex flex-wrap gap-2">
-            {(collegeData.Placements.Year2024.JobProfiles || []).map((profile: string, index: number) => (
+            {collegeData.Placements.Year2024.JobProfiles.map((profile: string, index: number) => (
               <span key={index} className="bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">
                 {profile}
               </span>
@@ -1793,7 +1787,7 @@ const NITPatnaPage: React.FC = () => {
         <div>
           <h4 className="text-lg font-medium mb-3">Placement Preparation Support</h4>
           <div className="flex flex-wrap gap-2">
-            {(collegeData.Placements.Year2024.PlacementPreparation || []).map((prep: string, index: number) => (
+            {collegeData.Placements.Year2024.PlacementPreparation.map((prep: string, index: number) => (
               <span key={index} className="bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full">
                 {prep}
               </span>
@@ -2183,12 +2177,12 @@ const NITPatnaPage: React.FC = () => {
               <tr>
                 <td className="py-2 pr-4 font-medium">Hostels</td>
                 <td className="py-2 pr-4">Wi‑Fi, study rooms, recreation</td>
-                <td className="py-2">{collegeData.Facilities.Hostels?.Number || 'Multiple'} hostels</td>
+
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Library</td>
                 <td className="py-2 pr-4">24/7 access, digital resources</td>
-                <td className="py-2">{collegeData.Facilities.Library.BookCount ? collegeData.Facilities.Library.BookCount.toLocaleString() : 'Extensive'} books, {collegeData.Facilities.Library.EJournalsCount ? collegeData.Facilities.Library.EJournalsCount.toLocaleString() : 'Multiple'} e‑journals</td>
+
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Labs</td>
@@ -2209,11 +2203,11 @@ const NITPatnaPage: React.FC = () => {
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <InfoCard label="Number of Hostels" value={collegeData.Facilities.Hostels?.Number || 'Multiple'} />
+            <InfoCard label="Number of Hostels" value={collegeData.Facilities.Hostels.Number} />
             <div className="mt-3">
               <h4 className="font-medium mb-2">Hostel Types</h4>
               <div className="flex flex-wrap gap-2">
-                {(collegeData.Facilities.Hostels?.Types || []).map((type: string, index: number) => (
+                {collegeData.Facilities.Hostels.Types.map((type: string, index: number) => (
                   <span key={index} className="bg-blue-100 text-blue-800 text-sm px-2 py-1 rounded-full">
                     {type}
                   </span>
@@ -2225,7 +2219,7 @@ const NITPatnaPage: React.FC = () => {
           <div>
             <h4 className="font-medium mb-2">Amenities</h4>
             <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-              {(collegeData.Facilities.Hostels?.Amenities || []).map((amenity: string, index: number) => (
+              {collegeData.Facilities.Hostels.Amenities.map((amenity: string, index: number) => (
                 <li key={index}>{amenity}</li>
               ))}
             </ul>
@@ -2244,18 +2238,13 @@ const NITPatnaPage: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-6">
           <div className="space-y-3">
             <InfoCard label="Name" value={collegeData.Facilities.Library.Name} />
-            <InfoCard label="Area" value={collegeData.Facilities.Library.AreaSqFt ? `${collegeData.Facilities.Library.AreaSqFt.toLocaleString()} sq ft` : 'N/A'} />
-            <InfoCard label="Books" value={collegeData.Facilities.Library.BookCount ? `${collegeData.Facilities.Library.BookCount.toLocaleString()}` : 'Extensive collection'} />
-            <InfoCard label="E-Journals" value={collegeData.Facilities.Library.EJournalsCount ? `${collegeData.Facilities.Library.EJournalsCount.toLocaleString()}` : 'Multiple'} />
+
           </div>
           
           <div>
             <h4 className="font-medium mb-2">Features</h4>
             <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-              {(collegeData.Facilities.Library.Features || [
-                (collegeData.Facilities.Library as any)?.Books || "Extensive collection",
-                (collegeData.Facilities.Library as any)?.DigitalResources || "E-books, journals, databases"
-              ]).map((feature: string, index: number) => (
+              {collegeData.Facilities.Library.Features.map((feature: string, index: number) => (
                 <li key={index}>{feature}</li>
               ))}
             </ul>
@@ -2278,7 +2267,7 @@ const NITPatnaPage: React.FC = () => {
             <div className="mt-4">
               <h4 className="font-medium mb-2">Focus Areas</h4>
               <div className="flex flex-wrap gap-2">
-                {(collegeData.Facilities.Laboratories.FocusAreas || collegeData.Facilities.Laboratories.SpecialLabs || []).map((area: string, index: number) => (
+                {collegeData.Facilities.Laboratories.FocusAreas.map((area: string, index: number) => (
                   <span key={index} className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">
                     {area}
                   </span>
@@ -2290,7 +2279,7 @@ const NITPatnaPage: React.FC = () => {
           <div>
             <h4 className="font-medium mb-2">Equipment</h4>
             <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-              {(collegeData.Facilities.Laboratories.Equipment || ['State-of-the-art equipment across all departments']).map((equipment: string, index: number) => (
+              {collegeData.Facilities.Laboratories.Equipment.map((equipment: string, index: number) => (
                 <li key={index}>{equipment}</li>
               ))}
             </ul>
@@ -2307,7 +2296,7 @@ const NITPatnaPage: React.FC = () => {
           Wellness programs at the Gym & Yoga Center build lifelong fitness habits.
         </p>
         <div className="grid md:grid-cols-2 gap-4">
-          {(collegeData.Facilities.SportsFacilities?.Features || (collegeData.Facilities as any).Sports?.Facilities || []).map((facility: string, index: number) => (
+          {collegeData.Facilities.SportsFacilities.Features.map((facility: string, index: number) => (
             <div key={index} className="flex items-center text-sm">
               <ChevronRight className="w-4 h-4 mr-2 text-green-600" />
               {facility}
@@ -2331,7 +2320,7 @@ const NITPatnaPage: React.FC = () => {
           <div>
             <h4 className="font-medium mb-2">Services</h4>
             <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-              {(collegeData.Facilities.Medical.Services || []).map((service: string, index: number) => (
+              {collegeData.Facilities.Medical.Services.map((service: string, index: number) => (
                 <li key={index}>{service}</li>
               ))}
             </ul>
@@ -2348,7 +2337,7 @@ const NITPatnaPage: React.FC = () => {
           cultural calendar active throughout the year.
         </p>
         <div className="grid md:grid-cols-3 gap-4">
-          {(collegeData.Facilities.OtherAmenities || []).map((amenity: string, index: number) => (
+          {collegeData.Facilities.OtherAmenities.map((amenity: string, index: number) => (
             <div key={index} className="flex items-center text-sm">
               <ChevronRight className="w-4 h-4 mr-2 text-blue-600" />
               {amenity}
@@ -2367,13 +2356,13 @@ const NITPatnaPage: React.FC = () => {
         </p>
         <div className="grid md:grid-cols-2 gap-6">
           <div>
-            <InfoCard label="Total Clubs" value={collegeData.Facilities.StudentClubs?.Number || collegeData.StudentLifeAndLifestyle?.ClubsAndSocieties?.length || 'Multiple'} />
+
           </div>
           
           <div>
             <h4 className="font-medium mb-2">Club Types</h4>
             <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-              {(collegeData.Facilities.StudentClubs?.Types || collegeData.StudentLifeAndLifestyle?.ClubsAndSocieties || []).map((type: string, index: number) => (
+              {collegeData.Facilities.StudentClubs.Types.map((type: string, index: number) => (
                 <li key={index}>{type}</li>
               ))}
             </ul>
@@ -2632,7 +2621,7 @@ const NITPatnaPage: React.FC = () => {
           sustainability‑centric work.
         </p>
         <div className="grid md:grid-cols-2 gap-4">
-          {(collegeData.FacultyAndDepartments.DepartmentsList || (collegeData.FacultyAndDepartments as any).Departments || []).map((dept: string, index: number) => (
+          {collegeData.FacultyAndDepartments.DepartmentsList.map((dept: string, index: number) => (
             <div key={index} className="flex items-center text-sm">
               <ChevronRight className="w-4 h-4 mr-2 text-blue-600" />
               {dept}
@@ -2649,7 +2638,7 @@ const NITPatnaPage: React.FC = () => {
           nanotechnology and biomedical engineering, these hubs connect faculty with national missions and industry labs.
         </p>
         <div className="grid md:grid-cols-2 gap-4">
-          {(collegeData.FacultyAndDepartments.ResearchCenters || []).map((center: string, index: number) => (
+          {collegeData.ResearchAndInnovation.ResearchCenters.map((center: string, index: number) => (
             <div key={index} className="flex items-center text-sm">
               <ChevronRight className="w-4 h-4 mr-2 text-green-600" />
               {center}
@@ -2666,7 +2655,7 @@ const NITPatnaPage: React.FC = () => {
           mobility pathways for doctoral candidates and strengthen the institute’s visibility in global rankings.
         </p>
         <div className="grid md:grid-cols-2 gap-4">
-          {(collegeData.FacultyAndDepartments.Collaborations || []).map((collab: string, index: number) => (
+          {collegeData.ResearchAndInnovation.Collaborations.map((collab: string, index: number) => (
             <div key={index} className="flex items-center text-sm">
               <ChevronRight className="w-4 h-4 mr-2 text-purple-600" />
               {collab}
@@ -2683,7 +2672,7 @@ const NITPatnaPage: React.FC = () => {
           mentoring sit alongside consulting and standards contributions.
         </p>
         <div className="space-y-2">
-          {(collegeData.FacultyAndDepartments.FacultyActivities || []).map((activity: string, index: number) => (
+          {collegeData.FacultyAndDepartments.FacultyActivities.map((activity: string, index: number) => (
             <div key={index} className="flex items-center text-sm">
               <ChevronRight className="w-4 h-4 mr-2 text-orange-600" />
               {activity}

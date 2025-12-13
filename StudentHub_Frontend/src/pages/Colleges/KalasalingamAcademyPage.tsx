@@ -570,28 +570,6 @@ const KalasalingamAcademyPage: React.FC = () => {
             <strong>{collegeData.Name} offers programs at UG, PG, and Doctorate levels across Engineering, Science, Management, Law, and other disciplines.</strong> Available degrees include B.Tech, M.Tech, Ph.D, M.Sc, MBA. Popular courses are B.Tech, M.Tech, and Ph.D.
           </p>
           <ul className="space-y-2 text-gray-700">
-            <li>
-              • <strong>{collegeData.Name} B.Tech Fees is {formatCurrency(collegeData.CoursesAndFees.Undergraduate.BTech.TotalFeesINRApprox)} for the entire {collegeData.CoursesAndFees.Undergraduate.BTech.DurationYears} years duration.</strong> Popular specializations: {collegeData.CoursesAndFees.Undergraduate.BTech.Branches.slice(0, 3).join(", ")}.
-            </li>
-            <li>
-              • <strong>{collegeData.Name} M.Tech Fees is {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MTech.FirstYearFeeINR * collegeData.CoursesAndFees.Postgraduate.MTech.DurationYears)} for the entire {collegeData.CoursesAndFees.Postgraduate.MTech.DurationYears} years duration.</strong> {collegeData.CoursesAndFees.Postgraduate.MTech.Specializations} specializations available.
-            </li>
-            <li>
-              • <strong>{collegeData.Name} MBA Fees is {formatCurrency(collegeData.CoursesAndFees.Postgraduate.MBA.FirstYearFeeINR * collegeData.CoursesAndFees.Postgraduate.MBA.DurationYears)} for the entire {collegeData.CoursesAndFees.Postgraduate.MBA.DurationYears} years duration.</strong>
-            </li>
-            <li>
-              • <strong>{collegeData.Name} Ph.D Fees is {formatCurrency(collegeData.CoursesAndFees.Doctoral.PhD.FeeINRPerYear)} per year.</strong> Typical duration: {collegeData.CoursesAndFees.Doctoral.PhD.TypicalDurationYears} years.
-            </li>
-            {collegeData.CoursesAndFees.HostelFeeINRAnnual.Minimum > 0 && (
-              <li>
-                • <strong>{collegeData.Name} Hostel Fee is {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Minimum)} to {formatCurrency(collegeData.CoursesAndFees.HostelFeeINRAnnual.Maximum)} annually.</strong>
-              </li>
-            )}
-            {collegeData.CoursesAndFees.HostelFeeINRAnnual.Note && (
-              <li>
-                • <strong>Hostel:</strong> {collegeData.CoursesAndFees.HostelFeeINRAnnual.Note}
-              </li>
-            )}
           </ul>
         </div>
         
@@ -3072,81 +3050,81 @@ const KalasalingamAcademyPage: React.FC = () => {
         collegeData={collegeData || undefined}
       />
 
-    {/* Floating Back-to-Top */}
-    {showBackToTop && (
-      <button
-        aria-label="Back to top"
-        className="fixed bottom-6 right-6 bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 rounded-full shadow-md transition-colors"
-        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-      >
-        ↑ Top
-      </button>
-    )}
+      {/* Floating Back-to-Top */}
+      {showBackToTop && (
+        <button
+          aria-label="Back to top"
+          className="fixed bottom-6 right-6 bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 rounded-full shadow-md transition-colors"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        >
+          ↑ Top
+        </button>
+      )}
 
-    {/* Register to Apply Modal */}
-    {isLeadModalOpen && (
-      <div className="fixed inset-0 z-40">
-        {/* Backdrop */}
-        <div onClick={() => setIsLeadModalOpen(false)} className="absolute inset-0 bg-black/40 backdrop-blur-[1px] opacity-100 transition-opacity" />
-        {/* Modal Panel */}
-        <div className="absolute inset-x-0 bottom-0 md:inset-0 flex items-end md:items-center justify-center">
-          <div className="w-full md:max-w-4xl bg-white rounded-t-2xl md:rounded-2xl shadow-xl overflow-hidden transform transition-all md:scale-100 md:opacity-100 relative">
-            {/* Desktop close (X) */}
-            <button
-              onClick={() => setIsLeadModalOpen(false)}
-              aria-label="Close"
-              className="hidden md:flex absolute top-3 right-3 h-8 w-8 items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200"
-            >
-              ×
-            </button>
-            <div className="grid md:grid-cols-2">
-              {/* Left: Features/Testimonial */}
-              <div className="p-6 md:p-8 bg-gray-50">
-                <h3 className="text-xl font-semibold mb-4">Register Now to Apply</h3>
-                <p className="text-sm text-gray-700 mb-4">Fast‑track your application workflow for {collegeData?.Name}. Get counselling, fee details, scholarships and deadline reminders.</p>
-                <div className="grid grid-cols-2 gap-3 mb-6 text-sm">
-                  <div className="p-3 rounded-lg bg-white shadow-sm">📄 Brochure details</div>
-                  <div className="p-3 rounded-lg bg-white shadow-sm">💰 Check detailed fees</div>
-                  <div className="p-3 rounded-lg bg-white shadow-sm">✅ Shortlist & apply</div>
-                  <div className="p-3 rounded-lg bg-white shadow-sm">🧑‍💼 24/7 counselling</div>
-                  <div className="p-3 rounded-lg bg-white shadow-sm">🎓 Scholarships</div>
-                  <div className="p-3 rounded-lg bg-white shadow-sm">📅 Application deadlines</div>
+      {/* Register to Apply Modal */}
+      {isLeadModalOpen && (
+        <div className="fixed inset-0 z-40">
+          {/* Backdrop */}
+          <div onClick={() => setIsLeadModalOpen(false)} className="absolute inset-0 bg-black/40 backdrop-blur-[1px] opacity-100 transition-opacity" />
+          {/* Modal Panel */}
+          <div className="absolute inset-x-0 bottom-0 md:inset-0 flex items-end md:items-center justify-center">
+            <div className="w-full md:max-w-4xl bg-white rounded-t-2xl md:rounded-2xl shadow-xl overflow-hidden transform transition-all md:scale-100 md:opacity-100 relative">
+              {/* Desktop close (X) */}
+              <button
+                onClick={() => setIsLeadModalOpen(false)}
+                aria-label="Close"
+                className="hidden md:flex absolute top-3 right-3 h-8 w-8 items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200"
+              >
+                ×
+              </button>
+              <div className="grid md:grid-cols-2">
+                {/* Left: Features/Testimonial */}
+                <div className="p-6 md:p-8 bg-gray-50">
+                  <h3 className="text-xl font-semibold mb-4">Register Now to Apply</h3>
+                  <p className="text-sm text-gray-700 mb-4">Fast‑track your application workflow for {collegeData?.Name}. Get counselling, fee details, scholarships and deadline reminders.</p>
+                  <div className="grid grid-cols-2 gap-3 mb-6 text-sm">
+                    <div className="p-3 rounded-lg bg-white shadow-sm">📄 Brochure details</div>
+                    <div className="p-3 rounded-lg bg-white shadow-sm">💰 Check detailed fees</div>
+                    <div className="p-3 rounded-lg bg-white shadow-sm">✅ Shortlist & apply</div>
+                    <div className="p-3 rounded-lg bg-white shadow-sm">🧑‍💼 24/7 counselling</div>
+                    <div className="p-3 rounded-lg bg-white shadow-sm">🎓 Scholarships</div>
+                    <div className="p-3 rounded-lg bg-white shadow-sm">📅 Application deadlines</div>
+                  </div>
+                  <div className="p-4 rounded-lg bg-white shadow-sm">
+                    <div className="text-sm text-gray-800 italic">"StudentHub made it easy to compare programs and finish my application on time."</div>
+                    <div className="text-xs text-gray-500 mt-2">— Gurmeet, B.Tech (2024)</div>
+                  </div>
                 </div>
-                <div className="p-4 rounded-lg bg-white shadow-sm">
-                  <div className="text-sm text-gray-800 italic">“StudentHub made it easy to compare programs and finish my application on time.”</div>
-                  <div className="text-xs text-gray-500 mt-2">— Gurmeet, B.Tech (2024)</div>
-                </div>
-              </div>
-              {/* Right: Form */}
-              <div className="p-6 md:p-8">
-                <button onClick={() => setIsLeadModalOpen(false)} aria-label="Close" className="md:hidden float-right -mt-2 -mr-2 text-gray-500">✕</button>
-                <div className="grid grid-cols-1 gap-3">
-                  <input value={leadForm.fullName} onChange={(e) => setLeadForm({ ...leadForm, fullName: e.target.value })} placeholder="Full Name *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.fullName ? 'ring-1 ring-red-500' : ''}`} />
-                  {leadErrors.fullName && <span className="text-xs text-red-600">{leadErrors.fullName}</span>}
-                  <input value={leadForm.email} onChange={(e) => setLeadForm({ ...leadForm, email: e.target.value })} placeholder="Email Address *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.email ? 'ring-1 ring-red-500' : ''}`} />
-                  {leadErrors.email && <span className="text-xs text-red-600">{leadErrors.email}</span>}
-                  <input value={leadForm.phone} onChange={(e) => setLeadForm({ ...leadForm, phone: e.target.value })} placeholder="Mobile Number *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.phone ? 'ring-1 ring-red-500' : ''}`} />
-                  {leadErrors.phone && <span className="text-xs text-red-600">{leadErrors.phone}</span>}
-                  <input value={leadForm.city} onChange={(e) => setLeadForm({ ...leadForm, city: e.target.value })} placeholder="City You Live In *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.city ? 'ring-1 ring-red-500' : ''}`} />
-                  {leadErrors.city && <span className="text-xs text-red-600">{leadErrors.city}</span>}
-                  <select value={leadForm.course} onChange={(e) => setLeadForm({ ...leadForm, course: e.target.value })} className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.course ? 'ring-1 ring-red-500' : ''}`}>
-                    <option value="">Course Interested In *</option>
-                    <option value="B.Tech">B.Tech</option>
-                    <option value="M.Tech">M.Tech</option>
-                    <option value="MBA">MBA</option>
-                    <option value="M.Sc">M.Sc</option>
-                    <option value="PhD">PhD</option>
-                  </select>
-                  {leadErrors.course && <span className="text-xs text-red-600">{leadErrors.course}</span>}
-                  <button onClick={submitLead} className="mt-1 px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-lg">Submit</button>
-                  <button onClick={() => setIsLeadModalOpen(false)} className="text-xs text-gray-500">Already registered? Close to continue</button>
+                {/* Right: Form */}
+                <div className="p-6 md:p-8">
+                  <button onClick={() => setIsLeadModalOpen(false)} aria-label="Close" className="md:hidden float-right -mt-2 -mr-2 text-gray-500">✕</button>
+                  <div className="grid grid-cols-1 gap-3">
+                    <input value={leadForm.fullName} onChange={(e) => setLeadForm({ ...leadForm, fullName: e.target.value })} placeholder="Full Name *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.fullName ? 'ring-1 ring-red-500' : ''}`} />
+                    {leadErrors.fullName && <span className="text-xs text-red-600">{leadErrors.fullName}</span>}
+                    <input value={leadForm.email} onChange={(e) => setLeadForm({ ...leadForm, email: e.target.value })} placeholder="Email Address *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.email ? 'ring-1 ring-red-500' : ''}`} />
+                    {leadErrors.email && <span className="text-xs text-red-600">{leadErrors.email}</span>}
+                    <input value={leadForm.phone} onChange={(e) => setLeadForm({ ...leadForm, phone: e.target.value })} placeholder="Mobile Number *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.phone ? 'ring-1 ring-red-500' : ''}`} />
+                    {leadErrors.phone && <span className="text-xs text-red-600">{leadErrors.phone}</span>}
+                    <input value={leadForm.city} onChange={(e) => setLeadForm({ ...leadForm, city: e.target.value })} placeholder="City You Live In *" className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.city ? 'ring-1 ring-red-500' : ''}`} />
+                    {leadErrors.city && <span className="text-xs text-red-600">{leadErrors.city}</span>}
+                    <select value={leadForm.course} onChange={(e) => setLeadForm({ ...leadForm, course: e.target.value })} className={`px-3 py-2 rounded bg-gray-50 outline-none ${leadErrors.course ? 'ring-1 ring-red-500' : ''}`}>
+                      <option value="">Course Interested In *</option>
+                      <option value="B.Tech">B.Tech</option>
+                      <option value="M.Tech">M.Tech</option>
+                      <option value="MBA">MBA</option>
+                      <option value="M.Sc">M.Sc</option>
+                      <option value="PhD">PhD</option>
+                    </select>
+                    {leadErrors.course && <span className="text-xs text-red-600">{leadErrors.course}</span>}
+                    <button onClick={submitLead} className="mt-1 px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white rounded-lg">Submit</button>
+                    <button onClick={() => setIsLeadModalOpen(false)} className="text-xs text-gray-500">Already registered? Close to continue</button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    )}
+      )}
     </div>
   );
 };

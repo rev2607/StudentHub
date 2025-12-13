@@ -1,0 +1,501 @@
+{
+  "Name": "Indian Institute of Information Technology Bhopal (IIIT Bhopal)",
+  "Location": {
+    "City": "Bhopal",
+    "District": "Bhopal",
+    "State": "Madhya Pradesh",
+    "Country": "India",
+    "Pin": "462003",
+    "CampusAreaAcres": 50,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Bhopal, Madhya Pradesh"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 2017,
+    "OriginalName": "Indian Institute of Information Technology Bhopal",
+    "Renamed": [],
+    "HistoricalSignificance": "Established in 2017, IIIT Bhopal is one of the premier institutes of information technology in India. It focuses on information technology, computer science, and related disciplines, providing quality education and research opportunities."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "Indian Institute of Information Technology Bhopal (IIIT Bhopal), established in 2017, is a centrally funded technical university located in Bhopal, Madhya Pradesh. It is an Institute of National Importance offering courses in information technology, computer science, and related engineering disciplines. The institute focuses on providing quality education with emphasis on research and innovation.",
+    "StudentStrength": "Over 1,500 students including international nationals",
+    "MajorEvents": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports events",
+      "Hackathons"
+    ],
+    "ResearchFocus": [
+      "Information Technology",
+      "Computer Science",
+      "Data Science",
+      "Artificial Intelligence",
+      "Cybersecurity",
+      "Machine Learning",
+      "Internet of Things"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities",
+      "Research organizations"
+    ],
+    "SocialInitiatives": [
+      "Outreach programs",
+      "Technical training workshops",
+      "Environmental projects",
+      "Community development"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 0,
+      "Engineering": 0,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 0,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Information Technology",
+          "Electronics and Communication Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "JoSAA counseling"],
+        "Seats": 300,
+        "FirstYearFeeINR": 220000,
+        "TotalFeesINRApprox": 880000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 8,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "CCMT"],
+        "FirstYearFeeINR": 160000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "Not applicable"
+      },
+      "MBA": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0
+      },
+      "MSc": {
+        "Disciplines": [],
+        "DurationYears": 0,
+        "Entrance": [],
+        "FirstYearFeeINR": 0,
+        "Seats": 0
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 6,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-UGC",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 70000,
+        "SeatsMoreThan": 50
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 70000,
+      "Maximum": 80000,
+      "Note": "Approximate hostel and mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main",
+        "Counseling": "JoSAA online",
+        "AdditionalTestForBArch": "Not applicable"
+      },
+      "BDes": {
+        "Exam": "Not applicable",
+        "Counseling": "Not applicable"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT",
+        "AdditionalProcesses": "Institute procedures"
+      },
+      "MBA": {
+        "Exam": "Not applicable",
+        "AdditionalSelection": []
+      },
+      "MSc": {
+        "Exam": []
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-UGC", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Department-specific processes"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["JEE Main"],
+      "AdditionalProcess": "International Relations Office"
+    },
+    "ReservationPolicy": "As per Central Government norms for SC, ST, OBC, EWS, PwD",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {},
+    "CATMBA2025Cutoffs": {},
+    "AdditionalDetails": "Cutoffs vary annually and across categories. JEE Main scores are used for admission through JoSAA counseling."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 0,
+      "Recruiters": 0,
+      "HighestPackageINR": 0,
+      "HighestDomesticPackageINR": 0,
+      "OverallAveragePackageINR": 0,
+      "CSEAveragePackageINR": 0,
+      "ECEAveragePackageINR": 0,
+      "MBA median package INR": 0,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "Microsoft",
+        "Amazon",
+        "Google",
+        "Adobe",
+        "Oracle",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Accenture",
+        "Capgemini"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Scientist",
+        "System Engineer",
+        "Research Engineer",
+        "Product Engineer"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Company-specific preparation",
+        "Coding practice"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 4,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Areas"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 0,
+      "EJournalsCount": 0,
+      "Features": [
+        "Digital resources",
+        "Online resources",
+        "Campus-wide high-speed internet",
+        "Research databases"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 20,
+      "FocusAreas": [
+        "Computer Science",
+        "Information Technology",
+        "Electronics and Communication",
+        "Data Science",
+        "Artificial Intelligence",
+        "Internet of Things"
+      ],
+      "Equipment": [
+        "High-performance computing facilities",
+        "Specialized hardware",
+        "Prototype devices"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Sports grounds",
+        "Indoor games",
+        "Gym",
+        "Recreation spaces"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Medical Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Mess halls",
+        "Canteens"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Banks and ATMs",
+      "24/7 Security",
+      "High-speed internet"
+    ],
+    "StudentClubs": {
+      "Number": 15,
+      "Types": [
+        "Technical (Coding, AI)",
+        "Cultural (Music, Dance)",
+        "Entrepreneurship",
+        "Social Service"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 3,
+    "DepartmentsList": [
+      "Computer Science and Engineering",
+      "Information Technology",
+      "Electronics and Communication Engineering"
+    ],
+    "ResearchCenters": [
+      "AI Research Center",
+      "Data Science Lab",
+      "IoT Lab",
+      "Cybersecurity Lab"
+    ],
+    "Strength": {
+      "FacultyCount": 50,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Research organizations",
+      "Industry partners"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Active research projects"
+    ],
+    "StudentFeedback": "Faculty are dedicated and provide quality education with emphasis on practical learning."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": false,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Education loans",
+      "Financial support for eligible students",
+      "Stipends for PhD students"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Stipends",
+      "Project funding"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.0,
+    "CollegeDuniaReviewsCount": 200,
+    "Careers360Rating": 4.1,
+    "Strengths": [
+      "Good placements",
+      "Quality faculty",
+      "Modern infrastructure",
+      "Focus on practical learning",
+      "Industry connections"
+    ],
+    "Weaknesses": [
+      "Newer institute (established 2017)",
+      "Limited campus facilities compared to older institutes",
+      "Fewer alumni network"
+    ],
+    "ReturnOnInvestment": "Good for students focused on IT and CS"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India",
+    "CulturalTraditions": [
+      "Technical festivals",
+      "Cultural events",
+      "Sports activities"
+    ],
+    "Festivals": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Sports events",
+      "Hackathons"
+    ],
+    "ClubsAndSocieties": [
+      "Coding clubs",
+      "AI/ML clubs",
+      "Cultural clubs",
+      "Social Service"
+    ],
+    "OutdoorActivities": [
+      "Sports activities",
+      "Recreation",
+      "Campus events"
+    ],
+    "StudentGovernance": "Active student participation in institute activities",
+    "WellbeingFacilities": [
+      "Gym",
+      "Sports facilities",
+      "Recreation areas"
+    ],
+    "Community": "Supportive academic environment with focus on learning and growth"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 2017,
+    "Founder": "Government of India",
+    "InitialFocus": "Information Technology and Computer Science",
+    "Evolution": [
+      "2017: Established as IIIT Bhopal"
+    ],
+    "Legacy": "Growing institute focused on IT education and research",
+    "Heritage": "Modern campus designed for academic and research excellence"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Data Science",
+      "Cybersecurity",
+      "Internet of Things"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Active research in AI, ML, and related fields",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Research organizations",
+      "Industry partners"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "Admissions 2025",
+      "Date": "2025",
+      "Details": "JEE Main based admissions through JoSAA"
+    },
+    {
+      "RecurringEvents": [
+        "Technical festivals (annually)",
+        "Cultural festivals (annually)",
+        "Hackathons and coding contests"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.iiitbhopal.ac.in",
+    "Address": "Indian Institute of Information Technology Bhopal, Bhopal, Madhya Pradesh 462003, India",
+    "Phone": "+91-755-2696000",
+    "Emails": {
+      "Registrar": "Not listed",
+      "Admissions": "admission@iiitbhopal.ac.in",
+      "PlacementCell": "placement@iiitbhopal.ac.in"
+    }
+  }
+}
+

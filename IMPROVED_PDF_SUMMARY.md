@@ -369,6 +369,7 @@ The improved PDF brochure system is fully implemented, tested, and ready to prov
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
 =======
@@ -377,4 +378,10 @@ The improved PDF brochure system is fully implemented, tested, and ready to prov
 
 =======
 >>>>>>> Stashed changes
+
+=======
+>>>>>>> Stashed changes
+
+
+
 

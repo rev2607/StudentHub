@@ -1,0 +1,525 @@
+{
+  "Name": "International Institute of Information Technology, Hyderabad (IIIT Hyderabad)",
+  "Location": {
+    "City": "Hyderabad",
+    "District": "Hyderabad",
+    "State": "Telangana",
+    "Country": "India",
+    "Pin": "500032",
+    "CampusAreaAcres": 66,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Gachibowli, Hyderabad"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1998,
+    "OriginalName": "International Institute of Information Technology, Hyderabad",
+    "Renamed": [],
+    "HistoricalSignificance": "India's first IIIT established under a public-private partnership model. It has grown into one of the most respected CS-centric institutes in India, with a reputation for deep research, strong coding culture, and close ties with industry and research organizations."
+  },
+  "UniversityType": [
+    "Autonomous Institute",
+    "Public-Private Partnership",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "IIIT Hyderabad is a small, intense, and highly focused institute built almost entirely around computer science, electronics, and research. It suits students who genuinely enjoy coding, math, and problem-solving, and who are comfortable with a demanding pace rather than a laid-back college life. The campus is compact but dense with labs and academic spaces, which shapes a more 'workshop' feel than a sprawling traditional university. Student intake is relatively small, leading to a tight-knit community where peers, seniors, and faculty interact frequently, and students are pushed early into research groups and advanced courses.",
+    "StudentStrength": "Over 2,500 students including international nationals",
+    "MajorEvents": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Coding contests",
+      "Hackathons"
+    ],
+    "ResearchFocus": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Robotics",
+      "Computational Sciences",
+      "Data Science",
+      "Cybersecurity"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities and research organizations"
+    ],
+    "SocialInitiatives": [
+      "Outreach programs",
+      "Technical training workshops",
+      "Community development"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 0,
+      "Engineering": 0,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 0,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Electronics and Communication Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main", "UGEE"],
+        "Seats": 300,
+        "FirstYearFeeINR": 300000,
+        "TotalFeesINRApprox": 1200000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 10,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "Institute test"],
+        "FirstYearFeeINR": 250000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "Not applicable"
+      },
+      "MBA": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0
+      },
+      "MSc": {
+        "Disciplines": [],
+        "DurationYears": 0,
+        "Entrance": [],
+        "FirstYearFeeINR": 0,
+        "Seats": 0
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 6,
+        "Entrance": [
+          "GATE",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 0,
+        "SeatsMoreThan": 200
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 60000,
+      "Maximum": 80000,
+      "Note": "Excludes mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main / UGEE",
+        "Counseling": "Institute counseling",
+        "AdditionalTestForBArch": "Not applicable"
+      },
+      "BDes": {
+        "Exam": "Not applicable",
+        "Counseling": "Not applicable"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "Institute process",
+        "AdditionalProcesses": "Interview for some specializations"
+      },
+      "MBA": {
+        "Exam": "Not applicable",
+        "AdditionalSelection": []
+      },
+      "MSc": {
+        "Exam": []
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Focus on academic background, research interest, and problem-solving ability"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["GRE", "TOEFL"],
+      "AdditionalProcess": "Credential verification"
+    },
+    "ReservationPolicy": "As per Central Government norms for SC, ST, OBC, EWS, PwD",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {},
+    "CATMBA2025Cutoffs": {},
+    "AdditionalDetails": "Cutoffs for IIIT Hyderabad are very high, especially for CSE and ECE programs, reflecting limited seats and strong demand. Competition is intense, comparable with some of the most sought-after CS branches in the country."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 0,
+      "Recruiters": 0,
+      "HighestPackageINR": 0,
+      "HighestDomesticPackageINR": 0,
+      "OverallAveragePackageINR": 0,
+      "CSEAveragePackageINR": 0,
+      "ECEAveragePackageINR": 0,
+      "MBA median package INR": 0,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "Microsoft",
+        "Google",
+        "Amazon",
+        "Apple",
+        "Meta",
+        "Adobe",
+        "Oracle",
+        "Goldman Sachs",
+        "JP Morgan",
+        "Flipkart",
+        "Startups and product companies"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Scientist",
+        "Research Engineer",
+        "Product Engineer",
+        "Machine Learning Engineer",
+        "Computer Vision Engineer",
+        "NLP Engineer"
+      ],
+      "PlacementPreparation": [
+        "Resume guidance",
+        "Mock interviews",
+        "Company-specific preparation",
+        "Peer-driven coding practice",
+        "Coding contests"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 6,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Areas"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 0,
+      "EJournalsCount": 0,
+      "Features": [
+        "Digital resources",
+        "Online resources",
+        "Campus-wide high-speed internet",
+        "Research databases"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 30,
+      "FocusAreas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Computer Vision",
+        "Natural Language Processing",
+        "Robotics",
+        "VLSI Design",
+        "Embedded Systems",
+        "Data Science"
+      ],
+      "Equipment": [
+        "High-performance computing clusters",
+        "Specialized AI/ML hardware",
+        "Robotics equipment",
+        "Prototype devices"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Sports grounds",
+        "Indoor games",
+        "Gym",
+        "Recreation spaces"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Medical Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Mess halls",
+        "Canteens",
+        "External food options nearby"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Banks and ATMs",
+      "24/7 Security",
+      "High-speed internet"
+    ],
+    "StudentClubs": {
+      "Number": 20,
+      "Types": [
+        "Technical (Coding, AI, Robotics)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Social Service"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 6,
+    "DepartmentsList": [
+      "Computer Science and Engineering",
+      "Electronics and Communication Engineering",
+      "Computational Natural Sciences",
+      "Computational Linguistics",
+      "IT in Building Science",
+      "Humanities"
+    ],
+    "ResearchCenters": [
+      "AI Research Center",
+      "Machine Learning Lab",
+      "Computer Vision Lab",
+      "NLP Lab",
+      "Robotics Lab",
+      "VLSI Design Lab"
+    ],
+    "Strength": {
+      "FacultyCount": 100,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Research organizations",
+      "Industry partners"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students",
+      "Active research projects"
+    ],
+    "StudentFeedback": "Faculty are approachable but demanding. Courses are rigorous, deadlines are tight, and expectations for assignments and projects are high."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": false,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Education loans (SBI tie-ups)",
+      "Financial support for eligible students",
+      "Stipends for MS/PhD students"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Stipends",
+      "Project funding"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.5,
+    "CollegeDuniaReviewsCount": 500,
+    "Careers360Rating": 4.6,
+    "Strengths": [
+      "Excellent placements",
+      "Strong coding culture",
+      "Research exposure early in program",
+      "Highly qualified faculty",
+      "Close industry ties",
+      "Peer-driven learning environment"
+    ],
+    "Weaknesses": [
+      "High academic pressure and workload",
+      "Limited variety in branches (CS/ECE-centric)",
+      "Smaller campus size",
+      "Higher fees compared to government institutes"
+    ],
+    "ReturnOnInvestment": "Very high for CS-focused students"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India and internationally, with focus on CS/ECE enthusiasts",
+    "CulturalTraditions": [
+      "Tight-knit community",
+      "Peer interactions",
+      "Faculty-student interactions",
+      "Research group activities"
+    ],
+    "Festivals": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Coding contests",
+      "Hackathons"
+    ],
+    "ClubsAndSocieties": [
+      "Coding clubs",
+      "AI/ML clubs",
+      "Robotics",
+      "Entrepreneurship Cell",
+      "Cultural clubs",
+      "Social Service"
+    ],
+    "OutdoorActivities": [
+      "Sports activities",
+      "Recreation",
+      "Nearby IT hub access"
+    ],
+    "StudentGovernance": "Active student participation in institute activities",
+    "WellbeingFacilities": [
+      "Gym",
+      "Sports facilities",
+      "Recreation areas"
+    ],
+    "Community": "Academically intense environment with focus on coding, research, and problem-solving"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1998,
+    "Founder": "Public-Private Partnership",
+    "InitialFocus": "Computer science, electronics, and research",
+    "Evolution": [
+      "1998: Established as India's first IIIT under PPP model",
+      "Grown into one of the most respected CS-centric institutes"
+    ],
+    "Legacy": "Pioneer in CS-focused education and research in India",
+    "Heritage": "Modern, compact campus designed for intensive academic and research work"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Robotics",
+      "Computational Sciences",
+      "Data Science"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Strong research output in AI, ML, and related fields",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Research organizations",
+      "Industry partners"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "UGEE 2025",
+      "Date": "2025",
+      "Details": "Undergraduate Entrance Examination for dual degree and research-oriented programs"
+    },
+    {
+      "Event": "Admissions 2025",
+      "Date": "2025",
+      "Details": "JEE Main and UGEE based admissions"
+    },
+    {
+      "RecurringEvents": [
+        "Technical festivals (annually)",
+        "Cultural festivals (annually)",
+        "Coding contests and hackathons",
+        "Research conferences"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.iiit.ac.in",
+    "Address": "Prof. C. R. Rao Road, Gachibowli, Hyderabad – 500 032, Telangana, India",
+    "Phone": "+91-40-6653 1000",
+    "Emails": {
+      "Registrar": "Not listed",
+      "Admissions": "ugadmissions@iiit.ac.in",
+      "PlacementCell": "placements@iiit.ac.in"
+    }
+  }
+}
+

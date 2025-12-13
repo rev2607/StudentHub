@@ -312,6 +312,7 @@ Solution: Check Tailwind CSS colors, verify bg-[color]-50 classes
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
 =======
@@ -320,4 +321,10 @@ Solution: Check Tailwind CSS colors, verify bg-[color]-50 classes
 
 =======
 >>>>>>> Stashed changes
+
+=======
+>>>>>>> Stashed changes
+
+
+
 

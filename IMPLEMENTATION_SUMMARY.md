@@ -257,6 +257,7 @@ See `PDF_FORMATTING_GUIDE.md` troubleshooting section for solutions to:
 
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
 =======
@@ -265,4 +266,10 @@ See `PDF_FORMATTING_GUIDE.md` troubleshooting section for solutions to:
 
 =======
 >>>>>>> Stashed changes
+
+=======
+>>>>>>> Stashed changes
+
+
+
 
