@@ -1509,6 +1509,60 @@ export const loadIIITKotayamData = async (): Promise<IIITKotayamData> => {
   }
 };
 
+// IIIT Agartala uses same structure as IIT Roorkee
+export type IIITAgartalaData = IITRoorkeeData;
+
+// Function to load IIIT Agartala data
+export const loadIIITAgartalaData = async (): Promise<IIITAgartalaData> => {
+  try {
+    const response = await fetch('/data/colleges/iiit_agartala.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIIT Agartala data');
+    }
+    const data = await response.json();
+    return data as IIITAgartalaData;
+  } catch (error) {
+    console.error('Error loading IIIT Agartala data:', error);
+    throw error;
+  }
+};
+
+// IIIT Sonepat uses same structure as IIT Roorkee
+export type IIITSonepatData = IITRoorkeeData;
+
+// Function to load IIIT Sonepat data
+export const loadIIITSonepatData = async (): Promise<IIITSonepatData> => {
+  try {
+    const response = await fetch('/data/colleges/iiit_sonepat.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIIT Sonepat data');
+    }
+    const data = await response.json();
+    return data as IIITSonepatData;
+  } catch (error) {
+    console.error('Error loading IIIT Sonepat data:', error);
+    throw error;
+  }
+};
+
+// IIIT Kota uses same structure as IIT Roorkee
+export type IIITKotaData = IITRoorkeeData;
+
+// Function to load IIIT Kota data
+export const loadIIITKotaData = async (): Promise<IIITKotaData> => {
+  try {
+    const response = await fetch('/data/colleges/iiit_kota.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIIT Kota data');
+    }
+    const data = await response.json();
+    return data as IIITKotaData;
+  } catch (error) {
+    console.error('Error loading IIIT Kota data:', error);
+    throw error;
+  }
+};
+
 // Lightweight loader for IIT Madras textual content split into tab sections (legacy support)
 export interface IITMadrasSections {
   overview: string;

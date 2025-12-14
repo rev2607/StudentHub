@@ -1,0 +1,165 @@
+IIIT Agartala (Indian Institute of Information Technology, Agartala) is a young IIIT established in 2018 under the PPP model, mentored by NIT Agartala, and currently operates from the NIT Agartala campus with access to its core facilities.  It is still in a growth phase but offers a focused CSE program, low mess/hostel cost, and improving placement traction, making it an emerging option for JEE Main aspirants, especially from the North‑East.[1][2][3][4]
+
+***
+
+## Overview
+
+- IIIT Agartala was set up in 2018 under the IIIT (Public–Private Partnership) Act 2017 as a Not‑for‑Profit PPP institution, and holds the status of “Institute of National Importance”.[2][5][1]
+- The institute is located in Barjala, Jirania, Tripura, and functions from within the NIT Agartala campus as a new IIIT, which allows it to share key infrastructure like classrooms, labs, library and hostels.[4][1]
+
+### Key identity and mentoring
+
+- NIT Agartala is the official mentor institute, providing academic and administrative support, which is important for a young IIIT still stabilising its own systems.[6][1]
+- IIIT Agartala currently offers a core B.Tech program in Computer Science and Engineering (CSE), with a vision to expand in IT and allied areas and to build strong R&D in software and information technologies.[7][1]
+
+***
+
+## Courses and Fee
+
+At present, IIIT Agartala is a single‑branch institute at the UG level focused on CSE.[3][1][7]
+
+### Courses offered
+
+| Level | Program | Notes |
+|-------|---------|-------|
+| UG    | B.Tech in Computer Science and Engineering (CSE) | Flagship and currently the only regular degree program listed across major portals. [1][3][4] |
+
+- The academic structure generally follows standard four‑year B.Tech with core CS courses (DSA, OS, DBMS, Networks, etc.), labs, electives and projects; specifics are aligned closely with NIT/IIIT norms.[1][7]
+
+### Indicative fee structure (B.Tech CSE)
+
+Total 4‑year programme cost from recent fee data: about ₹8.1 lakh for tuition and associated academic charges, excluding mess/hostel.[8][9]
+
+| Component (B.Tech)                             | Approx. amount | Remarks |
+|------------------------------------------------|----------------|---------|
+| Total academic fees for 4 years                | About ₹8.0–8.1 lakh | As per recent compiled fee tables. [8][9] |
+| One‑time charges (admission, dev., ID, caution)| About ₹11,200  | Paid at admission; caution money is refundable. [8][3] |
+| Hostel fee per year                            | Varies; hostel uses NIT Agartala infrastructure, so charges follow that structure. [1][4] |
+| Mess charges                                   | About ₹9,000–10,000 per semester as per student reviews, considered quite minimal. [3] |
+
+- Actual semester‑wise fee breakup includes tuition, exam registration, grade card, ID card and convocation charges; detailed splits are usually circulated via official notices and covered in video explainers.[10][9]
+- Scholarships and fee concessions may be available per central/state norms or specific schemes, so students are advised to check updated notifications each year.[4]
+
+***
+
+## Admissions
+
+Admissions to IIIT Agartala are via JEE Main and central counselling, similar to other IIITs under PPP.[7][1][4]
+
+### Mode and eligibility
+
+- B.Tech CSE admission is through JEE Main (current year) followed by JoSAA/CSAB counselling, where candidates must fill IIIT Agartala and CSE in their choice list.[1][4]
+- Academic eligibility follows JEE Main norms: 10+2 with Physics, Mathematics and another specified subject, with percentage criteria and category relaxations as per central rules.[5][4]
+
+### Admission process steps
+
+1. Appear in JEE Main and obtain an All India Rank.[4]
+2. Register for JoSAA and participate in choice filling, including “Indian Institute of Information Technology, Agartala – CSE”.[4]
+3. Seat allotment occurs based on rank, category, quota, and preferences; candidates confirm the seat by document verification and payment of the initial fee.[1][4]
+
+- Cut-offs are currently on the more accessible side compared to older IIITs, which reflects the young age of the institute and limited awareness, not necessarily academic quality.[11][1][4]
+- There is no separate entrance test conducted by IIIT Agartala itself for the B.Tech programme.[7][1]
+
+***
+
+## Placements
+
+Being a 2018‑born institute, IIIT Agartala’s placement ecosystem is still developing, but recent batches show improving outcomes, helped by the NIT Agartala ecosystem and growing alumni.[12][1][4]
+
+### Placement snapshot (indicative)
+
+| Aspect                     | Recent trend / observations |
+|----------------------------|-----------------------------|
+| Placement coordination     | Often integrated with or mentored by NIT Agartala’s Training & Placement ecosystem. [1][4] |
+| Sectors                    | IT services, software development, support/analyst profiles and initial product‑based offers. [1][12] |
+| Packages                   | Average packages are modest but improving; specific recent figures vary year to year and are typically in lower double‑digit or high single‑digit LPA band, per reviews and reports. [12][13] |
+
+- Major portals note that detailed official placement reports are limited as only a few batches have graduated, so statistics reported are often based on partial data and student inputs.[12][1][4]
+- Students often leverage coding platforms, self‑projects and NIT Agartala networks to secure internships and off‑campus opportunities alongside campus placements.[13][6][1]
+
+***
+
+## Rankings
+
+Because it is very new and small, IIIT Agartala generally does not feature as a separate entry in large national rankings such as NIRF yet.[6][4]
+
+- IIIT Agartala is still recognised in policy terms as an “Institute of National Importance” due to its inclusion under the IIIT PPP Act, which is more significant than private ranking lists.[2][5]
+- In comparative IIIT discussions and videos, it is usually placed in the lower–middle segment among IIITs, mainly due to its young age, temporary nature of independent infrastructure and evolving placements, rather than academic intent or mentor quality.[11][13][6]
+
+***
+
+## Facilities
+
+IIIT Agartala shares NIT Agartala’s campus facilities, which is a key advantage for a new institute.[1][4]
+
+### Academic infrastructure
+
+- Students get access to classrooms, computer labs, workshops and department labs situated within the NIT Agartala campus, providing stable infrastructure from day one.[7][1]
+- A well‑stocked library, computer centre and various laboratories relevant to CSE are available through the shared campus, along with internet and basic e‑resources.[4][1]
+
+### Hostel and campus life
+
+| Facility                     | Details |
+|------------------------------|---------|
+| Hostels                      | IIIT Agartala students use NIT Agartala hostels; rooms, infrastructure and rules follow NIT norms. [1][3] |
+| Mess                         | Mess charges are relatively low, around ₹9,000–10,000 per semester as per student reviews, with additional food options around the campus. [3] |
+| Clubs and activities         | Students can take part in various NIT Agartala clubs and activities (technical, cultural, sports) because both institutes share the same premises. [1][7] |
+| Other campus amenities       | Sports grounds, healthcare facilities, canteens and campus shops from NIT Agartala ecosystem are accessible to IIIT Agartala students. [1][4] |
+
+- Being on the outskirts of Agartala, the campus offers a quieter environment with a self‑contained ecosystem, which many students use to focus on academics and coding practice.[1][4]
+
+***
+
+## Faculty
+
+- IIIT Agartala has a small but growing faculty body focused on Computer Science and related areas, supported by the academic ecosystem and faculty of NIT Agartala as the mentor.[6][7][1]
+- Faculty members work to build capability in core CS areas such as algorithms, programming, networks and software engineering, while also supporting student projects and research aspirations.[7][1]
+
+### Academic environment
+
+| Aspect       | Description |
+|-------------|-------------|
+| Teaching     | Mix of young faculty and experienced mentors from NIT Agartala; class sizes are relatively small, allowing more interaction. [1][7] |
+| Curriculum   | Designed to align with national IIIT standards, with emphasis on strong programming foundations and practical work. [1][4] |
+| Support      | Students often mention that teachers are approachable and supportive, especially for doubts and project work, though some processes are still evolving due to newness. [1][6] |
+
+***
+
+## Reviews (Student Perspective)
+
+- Student reviews on portals describe IIIT Agartala as “upcoming” or “decent” with the big plus of being on NIT Agartala’s campus, but also highlight that it is still in its early years, so brand value and placement records are in the building phase.[3][4][1]
+- Positives frequently mentioned: low mess fees, access to NIT infrastructure, helpful faculty, opportunity to grow with the institute and relatively better option than many private colleges for those with moderate JEE Main ranks.[3][6][1]
+- Concerns: limited dedicated IIIT identity so far, fewer branch options (only CSE), evolving placement scenario and typical hostel/mess issues faced in many government campuses.[13][3][1]
+
+***
+
+## Contact
+
+For queries, students and parents generally use the contact numbers and address associated with IIIT Agartala at the Barjala, Jirania location.  
+
+- Address (as listed with institute location): Barjala, Jirania, Agartala – 799046, Tripura, India.[14]
+- Phone: 0381‑2546629 is commonly listed as the contact number for support.[15][14]
+- Detailed official email IDs and additional helplines may be provided through central counselling brochures or official notices linked from JoSAA/IIIT listings, and should be checked each admission year.[6][4]
+
+This structure should plug directly into your StudentHub template; you can expand each header into long‑form, humanised content while keeping the same logical flow, tables and emphasis on “young but mentored by NIT Agartala, CSE‑focused, low mess cost, and growing placements.”
+
+[1](https://www.shiksha.com/college/iiit-agartala-indian-institute-of-information-technology-63989)
+[2](https://en.wikipedia.org/wiki/Indian_Institute_of_Information_Technology,_Agartala)
+[3](https://collegedunia.com/college/60078-indian-institute-of-information-technology-iiit-agartala)
+[4](https://www.careers360.com/university/indian-institute-of-information-technology-agartala)
+[5](https://en.wikipedia.org/wiki/Indian_Institutes_of_Information_Technology)
+[6](https://collegekaka.com/indian-institute-of-information-technology-agartala/)
+[7](https://www.collegedekho.com/colleges/indian-institute-of-information-technology-agartala)
+[8](https://www.shiksha.com/college/iiit-agartala-indian-institute-of-information-technology-63989/fees)
+[9](https://www.careers360.com/university/indian-institute-of-information-technology-agartala/fees)
+[10](https://www.youtube.com/watch?v=Duc9Efz4W3Q)
+[11](https://www.shiksha.com/college/iiit-agartala-indian-institute-of-information-technology-63989/courses/be-btech-bc)
+[12](https://collegedunia.com/college/60078-indian-institute-of-information-technology-iiit-agartala/placement)
+[13](https://www.youtube.com/watch?v=l4rrBscuKp4)
+[14](https://www.collegebatch.com/15963-indian-institute-of-information-technology-contact-number-address-map-agartala)
+[15](https://www.indiacustomercare.com/indian-institute-info-technology-agartala-no-0381-254-6629)
+[16](https://titagartala.ac.in/contact-us/)
+[17](https://www.iiits.ac.in)
+[18](https://www.iiitg.ac.in)
+[19](https://www.iiit.ac.in/contact-us/)
+[20](https://www.chunocollege.com/compare/iiit-bhagalpur-indian-institute-of-information-technology-vs-iiit-agartala-indian-institute-of-information-technology)

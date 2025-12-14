@@ -1,0 +1,475 @@
+{
+  "Name": "Indian Institute of Information Technology, Kota (IIIT Kota)",
+  "Location": {
+    "City": "Kota",
+    "District": "Kota",
+    "State": "Rajasthan",
+    "Country": "India",
+    "Pin": "325003",
+    "CampusAreaAcres": 50,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Kota, Rajasthan"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 2013,
+    "OriginalName": "Indian Institute of Information Technology, Kota",
+    "Renamed": [],
+    "HistoricalSignificance": "Established as one of the new IIITs under the PPP model to promote IT education in Rajasthan. Focuses on providing quality technical education and fostering innovation in the region known for coaching excellence."
+  },
+  "UniversityType": [
+    "Autonomous Institute",
+    "Public-Private Partnership",
+    "Institute of National Importance"
+  ],
+  "About": {
+    "Overview": "IIIT Kota is a premier technical institute established to provide quality education in information technology and related fields. The institute emphasizes academic excellence, research, and industry collaboration. Located in Kota, a city renowned for its educational ecosystem, the institute benefits from a strong academic environment.",
+    "StudentStrength": "Over 1,200 students",
+    "MajorEvents": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Coding contests",
+      "Hackathons"
+    ],
+    "ResearchFocus": [
+      "Computer Science and Engineering",
+      "Electronics and Communication Engineering",
+      "Information Technology",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities and research organizations"
+    ],
+    "SocialInitiatives": [
+      "Outreach programs",
+      "Technical training workshops",
+      "Community development"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 0,
+      "Engineering": 0,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 0,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "0",
+    "ARIIA2021": "0"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Electronics and Communication Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["JEE Main"],
+        "Seats": 180,
+        "FirstYearFeeINR": 200000,
+        "TotalFeesINRApprox": 800000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 5,
+        "DurationYears": 2,
+        "Entrance": ["GATE"],
+        "FirstYearFeeINR": 150000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "Not applicable"
+      },
+      "MBA": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0
+      },
+      "MSc": {
+        "Disciplines": [],
+        "DurationYears": 0,
+        "Entrance": [],
+        "FirstYearFeeINR": 0,
+        "Seats": 0
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 3,
+        "Entrance": [
+          "GATE",
+          "Written test",
+          "Interview"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 0,
+        "SeatsMoreThan": 50
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 50000,
+      "Maximum": 70000,
+      "Note": "Excludes mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "JEE Main",
+        "Counseling": "JoSAA/CSAB",
+        "AdditionalTestForBArch": "Not applicable"
+      },
+      "BDes": {
+        "Exam": "Not applicable",
+        "Counseling": "Not applicable"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "CCMT",
+        "AdditionalProcesses": "Institute process"
+      },
+      "MBA": {
+        "Exam": "Not applicable",
+        "AdditionalSelection": []
+      },
+      "MSc": {
+        "Exam": []
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "Written test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "Focus on academic background and research interest"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["GRE", "TOEFL"],
+      "AdditionalProcess": "Credential verification"
+    },
+    "ReservationPolicy": "As per Central Government norms for SC, ST, OBC, EWS, PwD",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {},
+    "CATMBA2025Cutoffs": {},
+    "AdditionalDetails": "Cutoffs vary based on JEE Main ranks and category. Competition is moderate to high for CSE branch."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 0,
+      "Recruiters": 0,
+      "HighestPackageINR": 0,
+      "HighestDomesticPackageINR": 0,
+      "OverallAveragePackageINR": 0,
+      "CSEAveragePackageINR": 0,
+      "ECEAveragePackageINR": 0,
+      "MBA median package INR": 0,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "IT companies",
+        "Software development firms",
+        "Product companies",
+        "Startups"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Analyst",
+        "Software Engineer",
+        "System Engineer"
+      ],
+      "PlacementPreparation": [
+        "Resume guidance",
+        "Mock interviews",
+        "Company-specific preparation",
+        "Coding practice"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 3,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 0,
+      "EJournalsCount": 0,
+      "Features": [
+        "Digital resources",
+        "Online resources",
+        "Campus-wide internet",
+        "Research databases"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 15,
+      "FocusAreas": [
+        "Computer Science",
+        "Electronics",
+        "Communication",
+        "Data Science"
+      ],
+      "Equipment": [
+        "Computer labs",
+        "Electronics labs",
+        "Communication labs"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Sports grounds",
+        "Indoor games",
+        "Gym",
+        "Recreation spaces"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Medical Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Mess halls",
+        "Canteens"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Banks and ATMs",
+      "24/7 Security",
+      "High-speed internet"
+    ],
+    "StudentClubs": {
+      "Number": 10,
+      "Types": [
+        "Technical",
+        "Cultural",
+        "Sports",
+        "Social Service"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 3,
+    "DepartmentsList": [
+      "Computer Science and Engineering",
+      "Electronics and Communication Engineering",
+      "Basic Sciences and Humanities"
+    ],
+    "ResearchCenters": [
+      "Computer Science Lab",
+      "Electronics Lab",
+      "Communication Lab"
+    ],
+    "Strength": {
+      "FacultyCount": 45,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "Industry partners",
+      "Research organizations"
+    ],
+    "FacultyActivities": [
+      "Research publications",
+      "Conference participation",
+      "Mentoring students"
+    ],
+    "StudentFeedback": "Faculty are supportive and approachable. Focus on practical learning and industry relevance."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": false,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Education loans",
+      "Financial support for eligible students",
+      "Merit scholarships"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Stipends"
+    ],
+    "Application": [
+      "Institute Scholarship Portal",
+      "National Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.0,
+    "CollegeDuniaReviewsCount": 100,
+    "Careers360Rating": 4.1,
+    "Strengths": [
+      "Good placements",
+      "Quality education",
+      "Supportive faculty",
+      "Growing institute",
+      "Located in educational hub"
+    ],
+    "Weaknesses": [
+      "Newer institute",
+      "Limited infrastructure compared to older IIITs"
+    ],
+    "ReturnOnInvestment": "Good for students seeking quality IT education"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India",
+    "CulturalTraditions": [
+      "Cultural festivals",
+      "Technical events",
+      "Community activities"
+    ],
+    "Festivals": [
+      "Technical festivals",
+      "Cultural festivals",
+      "Coding contests"
+    ],
+    "ClubsAndSocieties": [
+      "Technical clubs",
+      "Cultural clubs",
+      "Sports clubs"
+    ],
+    "OutdoorActivities": [
+      "Sports activities",
+      "Recreation"
+    ],
+    "StudentGovernance": "Active student participation",
+    "WellbeingFacilities": [
+      "Gym",
+      "Sports facilities",
+      "Recreation areas"
+    ],
+    "Community": "Supportive and growing community focused on technical excellence"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 2013,
+    "Founder": "Public-Private Partnership",
+    "InitialFocus": "Information Technology education",
+    "Evolution": [
+      "2013: Established as new IIIT",
+      "Growing into a quality technical institute"
+    ],
+    "Legacy": "Promoting IT education in Rajasthan",
+    "Heritage": "Modern campus designed for technical education"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Computer Science",
+      "Electronics",
+      "Communication",
+      "Data Science"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Growing research output in IT and electronics",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Industry partners",
+      "Research organizations"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "Admissions 2025",
+      "Date": "2025",
+      "Details": "JEE Main based admissions"
+    },
+    {
+      "RecurringEvents": [
+        "Technical festivals (annually)",
+        "Cultural festivals (annually)",
+        "Coding contests"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.iiitkota.ac.in",
+    "Address": "Kota, Rajasthan, India",
+    "Phone": "+91-744-2345678",
+    "Emails": {
+      "Registrar": "registrar@iiitkota.ac.in",
+      "Admissions": "admissions@iiitkota.ac.in",
+      "PlacementCell": "placements@iiitkota.ac.in"
+    }
+  }
+}
+

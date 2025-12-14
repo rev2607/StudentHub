@@ -1,0 +1,166 @@
+IIIT Sonepat (Indian Institute of Information Technology, Sonepat) is a small, focused IIIT set up under the PPP model in Haryana, known mainly for its CSE and ECE B.Tech programs and improving placements, but with some constraints because it operates from a transit campus.[1][2]
+
+Below is a concise, structured overview tailored for your website; you can later expand each part into long-form content.
+
+***
+
+## Overview
+
+- IIIT Sonepat was established in 2014 under the Ministry of Education (PPP model) and is currently functioning from IIT Delhi Technopark at Rajiv Gandhi Education City, Rai, Sonepat, Haryana.[2][3]
+- It focuses on Information Technology–centric disciplines, primarily Computer Science and Engineering (CSE) and Electronics and Communication Engineering (ECE), with a growing ecosystem of labs, coding culture and start-up activities.[1][2]
+- The institute is still developing its permanent campus, so students get the advantage of small batches and close mentoring, but some facilities are more “functional” than premium compared to old, fully developed IIITs.[4][2]
+
+***
+
+## Courses and Fees
+
+IIIT Sonepat mainly offers B.Tech programs, with some additional specialisations and higher degree options mentioned in recent profiles.[2][1]
+
+### Major Programs
+
+- B.Tech in Computer Science and Engineering (CSE)  
+- B.Tech in Electronics and Communication Engineering (ECE)  
+- Some sources also list CSE specialisations (e.g., AI/Data-related) or additional PG/PhD options under planning or limited intake; students should always cross-check the current academic year brochure.[2]
+
+### Indicative Fee Structure (B.Tech)
+
+| Component                 | Approx. Amount per year (INR) | Notes |
+|--------------------------|--------------------------------|-------|
+| Tuition fee              | ~1.6–1.8 lakh per year         | Varies slightly by batch/notification. [1][2] |
+| Hostel + mess charges    | ~0.8–1.0 lakh per year         | Shared accommodation, common mess. [5][6] |
+| One-time & misc. charges | ~10,000–20,000 (one-time/annual) | Includes registration, caution deposit, etc. [2] |
+
+- Total annual cost for a typical B.Tech student usually comes in the ~2.4–2.8 lakh per year range before scholarships.[1][2]
+- Fee waivers and scholarships may be available for reserved categories or based on family income, often aligned with central government norms; students must check latest official notices.[2]
+
+***
+
+## Admissions
+
+- B.Tech admissions to IIIT Sonepat are through JEE Main ranks followed by JoSAA/CSAB counselling, like other centrally funded technical institutes (IITs excluded).[7][1][2]
+- Candidates must meet JEE Main eligibility (10+2 with Physics, Mathematics and specified subjects) and participate in central counselling, selecting “Indian Institute of Information Technology, Sonepat” and branch preferences.[7]
+
+### Typical Cut-off Trend (Indicative)
+
+- CSE generally closes at a better rank than ECE; being a newer IIIT, cut-offs are usually more relaxed than top IIITs but stricter than many private colleges.[8][1][2]
+- Home state vs other state quota, category (GEN/OBC/SC/ST/EWS) and year-to-year seat matrix changes significantly influence closing ranks.[1][2]
+
+### Key Admission Points
+
+- Mode: JEE Main + JoSAA/CSAB counselling.[7]
+- No separate UG entrance exam conducted by IIIT Sonepat.[1][2]
+- For any PG/PhD seats that open, admissions are typically via national tests (e.g., GATE) and institute-level shortlisting; check the official website for current notifications.[2]
+
+***
+
+## Placements
+
+- IIIT Sonepat’s placement record has been improving with each batch as alumni strength and industry connect grow.[1][2]
+- Placement drives focus largely on software development, product roles, analytics and some core electronics roles for ECE students.[2][1]
+
+### Placement Snapshot (Recent Batches – Approx.)
+
+| Metric                        | Recent Range / Highlight        |
+|------------------------------|----------------------------------|
+| Highest package (B.Tech)     | Often in the upper tens of LPA, with a few marquee offers. [1][2] |
+| Average package (overall)    | Generally in mid-teens LPA range for CSE; slightly lower for ECE. [1][2] |
+| Placement percentage (CSE)   | Typically high (majority of eligible students placed). [1][2] |
+| Placement percentage (ECE)   | Good but usually a bit lower than CSE, with more students considering higher studies as well. [1][2] |
+
+- Recruiters include product-based tech companies, IT services firms and some emerging start-ups; specifics vary each year.[1][2]
+- The Training and Placement Office (TPO) coordinates internships, pre-placement talks and career guidance sessions, and can be contacted separately (TPO contact given in the contact section).[3]
+
+***
+
+## Rankings
+
+- Being relatively new and small, IIIT Sonepat often does not appear as a separate name in top bands of national rankings like NIRF, which tend to focus on larger and older institutes.[9][10][11]
+- In most “List of IIITs in India” articles, IIIT Sonepat is placed in the mid–lower segment of IIITs, mainly due to young age, limited research volume and developing infrastructure, not necessarily academic quality.[9][8][7]
+
+### How to Interpret Its Standing
+
+- For a JEE aspirant, IIIT Sonepat generally sits below the premier IIITs (Hyderabad, Allahabad, Delhi, etc.), but can be a strong option compared to many Tier‑2 private colleges for CSE/ECE.[8][9][7]
+- Its PPP status and association with IIT Delhi Techno Park add some academic and industry connect, which may not reflect fully in broad national rankings yet.[4][2]
+
+***
+
+## Facilities
+
+IIIT Sonepat currently runs from a transit campus but offers essential academic and student-life facilities.[5][12][4]
+
+### Campus and Academic Infrastructure
+
+- Classrooms and labs are equipped with projectors, basic computing resources and internet connectivity; infrastructure is functional, though less “grand” than old NIT/IIT campuses.[13][12]
+- The central library provides technical books, reference material and digital resources; it is a key study space for students preparing for internships and competitive exams.[12][5]
+
+### Hostel and Student Amenities
+
+- Separate hostels for boys and girls are provided, generally with shared rooms, common washrooms and study spaces; capacity and exact room type may vary by batch.[6][5][12]
+- Mess, cafeteria, basic sports facilities and medical support are available; students often highlight the supportive peer environment more than “luxury” infrastructure.[5][13][12]
+
+***
+
+## Faculty
+
+- The core faculty pool consists largely of young PhD holders and experienced academicians in CSE, ECE, Mathematics and Humanities.[3][2]
+- Many faculty members have research interests in areas such as algorithms, machine learning, networks, embedded systems, signal processing and applied mathematics, which shapes elective offerings and projects.[3][2]
+
+### Sample Faculty Structure (Academic Areas)
+
+| Department                     | Example Roles / Profiles                           |
+|--------------------------------|----------------------------------------------------|
+| Computer Science & Engineering | Multiple Assistant Professors with PhDs, active in teaching core CS subjects and supervising projects. [3] |
+| Electronics & Communication    | Faculty handling digital/analog electronics, communication systems, VLSI and related labs. [3] |
+| Mathematics                    | Faculty covering engineering mathematics, probability, optimisation, etc. [3] |
+| Humanities                     | Faculty focusing on communication skills, social sciences and professional ethics. [3] |
+
+- The relatively small batch size allows closer interaction with faculty, which many students use for project guidance, competitive programming preparation and referral for higher studies.[2][1]
+
+***
+
+## Reviews (Student Perspective)
+
+- Student reviews on major portals describe IIIT Sonepat as academically strong for CSE/ECE with good coding culture, but with “work‑in‑progress” infrastructure due to the temporary campus.[13][1][2]
+- Positives commonly noted: friendly peer group, helpful faculty, increasing placements and better opportunities than many local private colleges for tech roles.[1][2]
+- Concerns often raised: limited campus size, fewer non-tech extracurricular facilities compared to big universities and the usual hostel/mess quality fluctuations.[13][2][1]
+
+***
+
+## Contact
+
+Official campus and key contact details:  
+
+- Address: Indian Institute of Information Technology Sonepat, IIT Delhi Techno Park, Rajiv Gandhi Education City, Rai, Sonepat, Haryana – 131029, India.[14][15][3]
+- General phone (institute): +91‑130‑2987910 (recent listing).[15][3]
+- General email: sonepatiiit@gmail.com; director@iiitsonepat.ac.in (for official communications).[14][3]
+
+### Helpful Helplines and TPO
+
+- Training & Placement Office (TPO): Phone: 0130‑2987902; Email: tnpoffice@iiitsonepat.ac.in.[3]
+- Admission helplines (as per recent listing): 74969 66902, 97290 77477, 74969 66903 (timings usually 9 am–5 pm; confirm from official site each year).[3]
+
+***
+
+If you want, a next step can be:  
+- a detailed markdown expansion for each section (Overview, Courses & Fees, etc.) specifically phrased for SEO pages on StudentHub, including separate pages for “IIIT Sonepat Placements”, “IIIT Sonepat Cutoff”, and “IIIT Sonepat Campus Life”.
+
+[1](https://www.shiksha.com/college/iiit-sonepat-indian-institute-of-information-technology-59105)
+[2](https://collegedunia.com/college/59481-indian-institute-of-information-technology-iiit-sonepat)
+[3](https://www.indiacustomercare.com/iiit-sonepat-query-contact-01744233223)
+[4](https://iiitsonepat.ac.in/campus-life)
+[5](https://universitykart.com/university/universitydetails/iiit-sonepat/facilities)
+[6](https://iiitsonepat.ac.in/hostels)
+[7](https://www.getmyuni.com/articles/iiits-in-india)
+[8](https://collegedunia.com/iiits-in-india)
+[9](https://www.shiksha.com/engineering/articles/iiits-in-india-blogId-19997)
+[10](https://engineering.careers360.com/articles/list-of-indian-institutes-of-information-technology-iiits)
+[11](https://www.nirfindia.org/Rankings/2024/EngineeringRanking.html)
+[12](https://www.careers360.com/university/indian-institute-of-information-technology-sonipat/facilities)
+[13](https://www.shiksha.com/college/iiit-sonepat-indian-institute-of-information-technology-59105/infrastructure)
+[14](https://iiitsonepat.ac.in/contact)
+[15](https://www.collegebatch.com/15393-indian-institute-of-information-technology-contact-number-address-map-sonipat)
+[16](https://www.careers360.com/university/indian-institute-of-information-technology-sonipat/compare)
+[17](https://www.iiit.ac.in/nirf-report/)
+[18](https://iiitsonepat.ac.in/helpline)
+[19](https://collegekaka.com/indian-institute-of-information-technologyiiit-kilohrad-sonepat-haryana/)
+[20](https://www.iiit.ac.in/rankings/)

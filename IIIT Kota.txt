@@ -1,0 +1,170 @@
+IIIT Kota (Indian Institute of Information Technology, Kota) is an Institute of National Importance under the IIIT (PPP) Act, mentored by MNIT Jaipur, known for its CSE and ECE B.Tech programs, growing placements, and hostel-based campus life in Kota, Rajasthan.  It is still relatively young but now has a clear identity, its own permanent campus development, and a consistent placement trajectory that makes it a serious option for JEE Main aspirants.[1][2][3][4]
+
+***
+
+## Overview
+
+- IIIT Kota was established in 2013 under the Public–Private Partnership model with the Government of India, Government of Rajasthan and industry partners; it has since been declared an Institute of National Importance.[2][3][5]
+- Academically, the institute focuses on Information Technology and allied areas with B.Tech programs in Computer Science & Engineering (CSE) and Electronics & Communication Engineering (ECE), along with higher degree and research options mentioned in recent institute and guide profiles.[4][1][2]
+
+### Identity and mentoring
+
+- In its initial years, IIIT Kota operated from the campus of its mentor, MNIT Jaipur; more recent information and contact listings show a distinct permanent campus address in Kota, Rajasthan (pincode 325003), indicating progress towards full physical independence.[6][3][5]
+- The institute positions itself as a technology‑driven campus with focus on coding culture, projects and industry interaction through its Training and Placement Cell and collaborations.[7][4]
+
+***
+
+## Courses and Fee
+
+IIIT Kota’s core offerings at UG level are tech-centric, with CSE being the primary high‑demand course.[8][1][2]
+
+### Programs offered
+
+| Level | Programme examples | Notes |
+|-------|--------------------|-------|
+| UG    | B.Tech in Computer Science and Engineering (CSE) | Flagship, highest demand in cut-offs. [1][2][5] |
+| UG    | B.Tech in Electronics and Communication Engineering (ECE) | Second main branch. [1][2][5] |
+| PG / PhD | M.Tech / PhD in select areas (as per recent guides) | Mentioned in some 2025 guides as ongoing/developing offerings; details vary by year. [9][4] |
+
+### Indicative fee structure (B.Tech)
+
+Different portals and the institute page provide consistent ballpark figures for the B.Tech fee.[9][10]
+
+| Component                         | Approx. amount (latest data) | Notes |
+|-----------------------------------|-------------------------------|-------|
+| Total tuition for 4 years (B.Tech)| Around ₹7.0–7.2 lakh         | Tuition only estimate. [9][10] |
+| Hostel fees (per year)           | In tens of thousands (exact varies by room and year) | Separate from tuition. [11][12] |
+| Mess charges                      | Charged separately based on usage; typically per semester. [11][12] |
+| One-time/other charges            | Admission, caution, etc., as per institute fee table. [10] |
+
+- One detailed guide notes B.Tech tuition as roughly ₹7.2 lakh total for four years for the 2025–26 cycle, with M.Tech and PhD fees lower due to shorter duration and/or stipends.[9]
+- Hostel and mess fees are additional; hostel fee structures and mess bills are updated periodically and should always be cross‑checked with the official IIIT Kota fee page for the current academic year.[11][10][12]
+
+***
+
+## Admissions
+
+Admissions to IIIT Kota follow the standard centrally run counselling model based on JEE Main.[13][1][8]
+
+### Mode and eligibility
+
+- Entry to B.Tech CSE and ECE is through JEE Main followed by JoSAA/CSAB counselling; candidates must choose “Indian Institute of Information Technology (IIIT) Kota” in their choice filling.[1][8][13]
+- Eligibility is as per JEE Main rules: 10+2 or equivalent with Physics and Mathematics and specified subjects, with percentage criteria and relaxations as per category norms of the Government of India.[5][8]
+
+### Admission process
+
+1. Appear in JEE Main of the relevant year and obtain an All India Rank.[8]
+2. Register for JoSAA counselling, fill in IIIT Kota and preferred branches (CSE/ECE).[13][8]
+3. Seat allotment happens based on rank, category, seat matrix and preferences; candidates confirm by document verification and paying the initial fee.[5][1]
+
+- CSE typically has a significantly higher closing rank stringency than ECE, reflecting demand and placement outcomes.[1][8]
+- There is no separate entrance test by IIIT Kota itself for B.Tech admissions; all seats go through JoSAA/CSAB.[8][1]
+
+***
+
+## Placements
+
+IIIT Kota has reached a stage where its placement statistics are robust for CSE and reasonably good for ECE, with clear year‑on‑year progression.[14][15][16][1]
+
+### Recent placement snapshot (B.Tech)
+
+From 2025 placement reports on public portals:[15][16][14]
+
+| Metric (2025)            | Value / trend |
+|--------------------------|---------------|
+| Highest package          | About ₹54 LPA. [14][16] |
+| Average package (overall)| Around ₹11.1 LPA. [14][15] |
+| Placement rate           | Around 71–72% overall. [14][15] |
+
+- CSE usually sees higher average and median packages compared to ECE due to the nature of recruiter demand.[16][1]
+- The Training and Placement Cell (TnP) emphasises both technical preparation (coding, projects) and soft skills, and notes active participation from product companies, IT services and start‑ups among recruiters.[7][4]
+
+***
+
+## Rankings
+
+Rankings for IIIT Kota reflect its status as an Institute of National Importance but also its relatively young age compared to long‑established NITs/IITs.[2][1][8]
+
+- Official institute pages and JoSAA documents emphasise the legal status under an Act of Parliament more than commercial ranking lists, which gives it strong recognition for government and public sector opportunities.[3][5]
+- In popular comparison articles and guides, IIIT Kota is usually placed in the mid‑range cluster among IIITs—below premier IIITs like Hyderabad or Allahabad, but comparable or superior to many newer IIITs and several private colleges, especially for CSE.[4][2][9]
+
+***
+
+## Facilities
+
+IIIT Kota offers core academic and residential facilities consistent with a government technical institute, with continuing improvement as the campus is built out.[17][18][19]
+
+### Academic and campus infrastructure
+
+- The campus provides classrooms, labs, computer facilities and Wi‑Fi‑enabled spaces to support B.Tech teaching and project work, as described in infrastructure sections on major portals.[19][17][1]
+- Library access, IT infrastructure and basic sports facilities are available on campus, with incremental upgrades as per institute development plans.[17][19]
+
+### Hostel and student life
+
+| Facility        | Key details |
+|-----------------|-------------|
+| Boys’ hostels   | On‑campus hostel with basic furnishings like cots, mats, study tables, water coolers and heating as required. [17][12] |
+| Girls’ hostels  | Separate hostel within campus premises with similar basic amenities and security provisions. [17][18][12] |
+| Connectivity    | Hostel Wi‑Fi, drinking water, housekeeping and common areas for recreation and study. [11][12] |
+| Mess & food     | Central mess with hygienic food, charged separately as mess fees; students may have access to canteens and small eateries in or near campus. [11][19] |
+
+- Facility descriptions emphasize that hostels are functional and equipped with essential amenities rather than luxury, which suits students focused on exam prep and coding in a city like Kota.[11][19][17]
+
+***
+
+## Faculty
+
+IIIT Kota has a growing faculty base aligned to its two main branches, supported by the experience of its mentor MNIT Jaipur.[3][2][1]
+
+- Faculty members span core Computer Science and Electronics domains, with advanced degrees and research interests in algorithms, systems, communication, VLSI and related areas.[2][1]
+- Being a smaller institute, class sizes are comparatively compact, allowing reasonable faculty–student interaction, which is useful for doubt clearing and project mentoring.[4][1]
+
+Typical academic areas include:  
+
+- Computer Science & Engineering: data structures, algorithms, OS, DBMS, AI/ML, software systems.[1][2]
+- Electronics & Communication Engineering: signals, systems, communication engineering, digital and analog circuits, embedded systems.[2][1]
+
+***
+
+## Reviews (Student Perspective)
+
+- Student reviews on large education portals describe IIIT Kota as strong academically for CSE, with decent to good placements and a campus that is still evolving, sometimes mentioning that hostel life and infrastructure are adequate but not exceptional.[19][1][2]
+- Positives highlighted include: coding culture, improving placement packages, approachable faculty and the advantage of studying in a focused tech institute with Institute of National Importance status.[4][1][2]
+- Pain points noted: campus development still in progress, limited number of branches compared with bigger NITs/IITs, and typical government‑college issues like mess variety or administrative delays.[19][1][2]
+
+***
+
+## Contact
+
+Key contact information for IIIT Kota is publicly listed and useful for admission or general queries.  
+
+| Type          | Details |
+|---------------|---------|
+| Address       | IIIT Kota Permanent Campus, Kota – 325003, Rajasthan, India. [6] |
+| Institute phone | 0744‑2667000 (permanent campus contact). [6] |
+| Admission toll‑free | 0744‑2667010 for admission‑related queries. [6] |
+
+- Additional email IDs for academic office, T&P Cell and other departments are provided on the official website (iiitkota.ac.in) under administration and contact sections, and should be used for specific queries like placements or certificates.[20][3]
+
+This structure can be directly adapted into your StudentHub template, with each heading expanded into longer, human‑friendly copy while retaining the same logical flow and tables.
+
+[1](https://www.shiksha.com/college/iiit-kota-indian-institute-of-information-technology-51894)
+[2](https://collegedunia.com/university/55788-indian-institute-of-information-technology-iiitk-kota)
+[3](https://iiitkota.ac.in/administration)
+[4](https://www.upgrad.com/universities/iiit-kota/)
+[5](https://josaa.admissions.nic.in/seatinfo/root/InstProfile.aspx?instcd=302)
+[6](https://www.indiacustomercare.com/iiit-kota-contact-no-01412713494)
+[7](https://tpcell.iiitkota.ac.in)
+[8](https://www.careers360.com/university/indian-institute-of-information-technology-kota)
+[9](https://smartachievers.online/iiit-kota-admissions-2025-courses-fees-cutoffs-placements-ranking)
+[10](https://iiitkota.ac.in/fees)
+[11](https://www.kollegeapply.com/college/indian-institute-of-information-technology-iiit-kota-jaipur-hostel)
+[12](https://collegedunia.com/university/55788-indian-institute-of-information-technology-iiitk-kota/hostel)
+[13](https://josaa.admissions.nic.in/applicant/seatmatrix/InstProfile.aspx?enc=wEaVaSp8sOoFoPUWllvAsBWsqt6EgANPDIYlC6jBNFw%3D)
+[14](https://www.shiksha.com/college/iiit-kota-indian-institute-of-information-technology-51894/placement)
+[15](https://www.careers360.com/university/indian-institute-of-information-technology-kota/placement)
+[16](https://collegedunia.com/university/55788-indian-institute-of-information-technology-iiitk-kota/placement)
+[17](https://www.careers360.com/university/indian-institute-of-information-technology-kota/facilities)
+[18](https://iiitkota.ac.in/hostels)
+[19](https://www.shiksha.com/college/iiit-kota-indian-institute-of-information-technology-51894/infrastructure)
+[20](https://iiitkota.ac.in/office-staff)
