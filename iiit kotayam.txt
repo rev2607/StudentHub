@@ -1,0 +1,287 @@
+
+IIIT Kottayam is a relatively young Institute of National Importance with a fully residential, green campus at Valavoor (near Pala, Kottayam), a strong focus on CSE‑centric branches, and fast‑improving placements, especially for students serious about coding and product‑based roles. It suits students who want an IT‑focused degree, a peaceful Kerala campus environment, and are comfortable with a campus that is still growing in scale but already solid in academics and placements.[1][2][3][4]
+
+***
+
+## 1. Overview  
+
+IIIT Kottayam (Indian Institute of Information Technology Kottayam) was established in 2015 under the PPP model by the Ministry of Education (then MHRD), Government of India, Government of Kerala, and industry partners, and functions as an autonomous Institute of National Importance. The permanent campus is located at Valavoor, P.O. Pala, Kottayam, spread over a lush green hilly area that gives the institute a quiet, residential feel compared to more urban campuses.[2][3][5]
+
+The institute’s academic portfolio is centred on Computer Science and allied areas with B.Tech specialisations, M.Tech programmes and Ph.D. in CSE, ECE and related domains. Students benefit from a curriculum that covers core computing (DSA, OS, DBMS, networks), electronics for relevant branches, and new‑age topics like AI, Data Science, Cyber Security, and Cloud Computing through specialisations and electives.[6][7][8][4][2]
+
+IIIT Kottayam is fully residential for B.Tech with separate hostels for boys and girls, and a campus that includes sports facilities, labs, library, canteens and 24×7 internet. Campus life revolves around a mix of academic activities, coding culture, cultural events, and sports, with students highlighting the peaceful environment and strong peer network as key positives.[3][9][10][11][1]
+
+***
+
+## 2. Courses and Fees  
+
+IIIT Kottayam offers B.Tech, M.Tech and Ph.D programmes primarily in CSE and related disciplines. Below is a structured snapshot suitable for counselling or website content.[7][2]
+
+### 2.1 Programmes Offered  
+
+| Level | Programme / Specialisation | Duration | Mode | Key Focus | Source |
+|------|----------------------------|----------|------|-----------|--------|
+| UG | B.Tech Computer Science and Engineering (CSE) | 4 years | Full‑time | Core CS fundamentals, systems, software development | [7][1] |
+| UG | B.Tech CSE (Artificial Intelligence & Data Science) | 4 years | Full‑time | AI, ML, data analytics, big data | [7][12][13] |
+| UG | B.Tech CSE (Cyber Security) | 4 years | Full‑time | Security, cryptography, network and system security | [7][12] |
+| UG | B.Tech Electronics and Communication Engineering (ECE) | 4 years | Full‑time | Electronics, communication systems, embedded systems | [7][12] |
+| PG | M.Tech in CSE and allied specialisations (e.g., AI, Cyber Security, Data Engineering – exact titles as per year) | 2 years | Full‑time | Advanced computing, research‑oriented courses | [6][7][8] |
+| Doctoral | Ph.D in CSE/ECE and related areas | Variable | Full‑time / Part‑time | Research in computing, electronics, interdisciplinary areas | [7][2] |
+
+### 2.2 Fee Structure (Indicative)  
+
+Exact fees change over time; below are recent approximate ranges from multiple fee sources (helpful for overall planning, not as final numbers).[14][15][16][17]
+
+#### B.Tech Fees (Approximate)  
+
+- Recent data indicates total B.Tech fee around ₹11.9 lakh for the 4‑year programme (tuition plus institute charges, excluding personal expenses).[16]
+- Earlier total UG fee ranged between about ₹9.7–10.8 lakh, showing upward revisions over recent years.[15][16]
+
+| Item (B.Tech) | Approximate Amount | Note | Source |
+|---------------|--------------------|------|--------|
+| Total programme fee (4 years) | ~₹11.9 lakh | Overall tuition + academic charges | [16] |
+| Earlier total UG fee band | ~₹9.76–10.81 lakh | Older batches | [16] |
+| Per‑semester tuition (recent range) | In the ballpark of ₹1.3–1.5 lakh | Varies by year | [14][16] |
+| Hostel rent (per semester) | Around ₹20,400 | As per hostel fee listing | [3] |
+| Mess fee (per semester) | Around ₹21,000 (approx.) | May adjust with food cost | [3] |
+
+#### M.Tech Fees (Approximate)  
+
+- M.Tech total programme fee is around ₹5.24 lakh for two years as per recent fee data.[15][16]
+- Tuition forms the major component; hostel and mess are additional similar to B.Tech.  
+
+| Item (M.Tech) | Approximate Amount | Source |
+|---------------|--------------------|--------|
+| Total programme fee (2 years) | ~₹5.24 lakh | [15][16] |
+| Tuition range noted | ₹3–5.24 lakh (programme‑wise) | [15] |
+
+#### Ph.D Fees (Approximate)  
+
+- Ph.D total fee is around ₹1.47–1.53 lakh for the entire programme (excluding stipend situation).[16][15]
+
+| Item (Ph.D) | Approximate Amount | Source |
+|-------------|--------------------|--------|
+| Total programme fee | ~₹1.47–1.53 lakh | [15][16] |
+
+For your StudentHub content, you can present this as “indicative fee” with a clear disclaimer to check the latest official IIIT Kottayam fee notification before finalising budgets.  
+
+***
+
+## 3. Admissions  
+
+Admissions to B.Tech at IIIT Kottayam happen through JEE Main followed by JoSAA/CSAB counselling, while M.Tech and Ph.D admissions involve GATE and institute‑level processes.[18][12][2]
+
+### 3.1 B.Tech Admission  
+
+**Eligibility:**  
+
+- 10+2 (Physics, Mathematics and another approved subject) with the minimum percentage/normalisation norms as applicable for JEE Main and JoSAA.[12][2]
+- A valid JEE Main score in the admission year; NTA’s JEE Main eligibility including age and attempts applies.[18][12]
+
+**Selection Process (B.Tech):**  
+
+1. Appear for JEE Main in the admission year.  
+2. Register on JoSAA portal using JEE Main application details.  
+3. Fill IIIT Kottayam B.Tech options (CSE, CSE‑AI & DS, CSE‑Cyber Security, ECE) as per preference order.  
+4. Seat allotment occurs in multiple rounds based on All India Rank, category, and choices.[13][12][18]
+
+Recent cut‑off indications for General (All India) category:[12][13]
+
+| Year / Round | Branch | Closing Rank (General AI – indicative figure) |
+|--------------|--------|----------------------------------------------|
+| 2025 Round 1 | B.Tech CSE | Around 33,766 | [12] |
+| 2025 Round 1 | B.Tech CSE (AI & Data Science) | Around 29,054 | [12][13] |
+| 2025 Round 1 | B.Tech CSE (Cyber Security) | Around 34,406 | [12] |
+| 2025 Round 1 | B.Tech ECE | Around 35,831 | [12] |
+| 2025 Last round | B.Tech core branches | General AI closing ranks roughly between 39,587 and 55,979 | [13] |
+
+These numbers are very helpful when showing students what rank band realistically converts to an IIIT Kottayam seat in each branch.  
+
+### 3.2 M.Tech Admission  
+
+- Eligibility: B.E./B.Tech (or equivalent) in relevant discipline with about 60% marks or equivalent CGPA (exact threshold as per IIIT Kottayam’s current prospectus).[6][7]
+- Entrance: GATE in a relevant paper is usually required; admission can be via centralised counselling or institute‑specific application (M.Tech@IIITK portal).[8][6]
+- Shortlisting & admission: Based on GATE score, category, and availability of seats, followed by document verification and fee payment.[8][6]
+
+### 3.3 Ph.D Admission  
+
+Ph.D admissions typically involve:  
+
+- Eligibility: Master’s degree in a relevant discipline with minimum marks/CGPA as per institute norms.[7][2]
+- Entrance: GATE/NET or institute’s own test plus interview, depending on department policy.[2][7]
+
+***
+
+## 4. Placements  
+
+Placements at IIIT Kottayam have been trending upwards, particularly in the last few batches, with strong outcomes for CSE‑oriented branches.[19][20][21][22]
+
+### 4.1 Recent Placement Statistics  
+
+Different sources quote slightly different numbers, but the broad picture is consistent: double‑digit average packages and very competitive top offers.  
+
+Some consolidated data points:[20][21][22][19]
+
+| Metric | Recent Value (latest batches – indicative) | Source |
+|--------|--------------------------------------------|--------|
+| Highest domestic package | ~₹45–50 LPA | [19][20][21] |
+| Highest international package | Around ₹23 LPA (reported in some stats) | [19] |
+| Average package (overall B.Tech) | Roughly ₹11.9–12.7 LPA | [19][20][21] |
+| Median package | Around ₹10 LPA | [19][20] |
+| Offers made | Around 169–219 offers in recent years | [19][20] |
+| Number of companies | Around 80–90 companies visiting per season | [19][20][21] |
+| Approximate placement rate | Around 83–88% for eligible B.Tech students | [19][20] |
+
+M.Tech placement percentages tend to be lower than B.Tech but still reasonably good relative to many regional colleges, especially for students with solid project and research profiles.[21][22]
+
+### 4.2 Recruiters and Roles  
+
+Top recruiters mentioned include TCS, Infosys, Bosch, Amazon, IBM, Nissan and several other IT/product and analytics companies, offering roles like Software Development Engineer, full‑stack developer, data engineer, system engineer, and related IT profiles. The Training & Placement Cell is active in conducting pre‑placement talks, mock interviews and internship drives, which students often appreciate in reviews.[23][20][21]
+
+For your counselling narrative, you can honestly say: “If you have strong coding skills and use the institute’s opportunities, IIIT Kottayam can deliver double‑digit LPA outcomes that compare well with many NITs of similar rank range.”[19][20][21]
+
+***
+
+## 5. Rankings  
+
+IIIT Kottayam is a new‑generation IIIT and may not always appear at the top of NIRF ranking lists, but it is recognised as an autonomous, centrally supported Institute of National Importance. Private ranking portals typically place it in the “good” to “emerging strong” category among IIITs and engineering colleges, particularly for CSE‑related programmes.[24][5][1][2]
+
+Some portals assign overall and stream‑wise ranks for IIIT Kottayam in engineering categories, although the methodologies differ and are not equivalent to government rankings. In practice, counsellors and students generally view IIIT Kottayam as a solid mid‑tier IIIT option: typically better than many private institutes for CS, and competitive with several newer NITs/IIITs in the same JEE Main rank bracket.[24][1][2]
+
+***
+
+## 6. Facilities  
+
+IIIT Kottayam’s permanent campus is at Valavoor (Pala), with a residential set‑up and a naturally green setting. Facilities are still expanding, but core academic and residential infrastructure is in place.[10][5][3]
+
+### 6.1 Academic Infrastructure  
+
+- Classrooms: Spacious and equipped with projectors/smart boards, designed for interactive teaching.[3][10]
+- Laboratories: Computer labs, electronics labs, networking labs, and IoT/robotics labs with modern hardware and software tools.[25][10][3]
+- Library: A 24×7 library facility is available, with thousands of books, digital resources, e‑books, and subscriptions to journals; it is digitally managed and integrated with campus networks.[9][3]
+
+### 6.2 Hostel and Mess  
+
+IIIT Kottayam is a residential campus with separate hostels for boys and girls.  
+
+Key hostel features:[11][9][3]
+
+- Well‑maintained hostel buildings, typically 2–3 students per room, with beds, study tables, chairs, shelves and LAN ports.  
+- 7‑floor hostel blocks with around 100 rooms per floor, 24/7 high‑speed internet, washing machines and water coolers on each wing.[11]
+- Common rooms, recreational areas, indoor sports facilities and 24×7 water and power backup.[3][11]
+- Mess: On‑campus mess with strict hygiene protocols; approximate fee reported as about ₹21,000 per semester, with daily meals and regular audits.[10][3]
+
+### 6.3 Campus Amenities and Sports  
+
+- Sports: Facilities for football, volleyball, badminton, table tennis, chess and other indoor/outdoor games, with dedicated sports complex areas.[9][25][3]
+- Internet: Campus‑wide Wi‑Fi with roughly 1 Gbps bandwidth and no strict time limits on internet usage according to student‑facing descriptions.[9][3]
+- Other amenities:  
+  - Canteens/cafeterias (multiple outlets like “Milma” and “Scoops” mentioned in student feedback).  
+  - 24×7 SBI ATM on campus.  
+  - Medical support access and basic first‑aid on campus.[10][9]
+
+Students often describe the campus as “close to nature”, with plenty of greenery and a cool climate, making it comfortable even though hostels are not air‑conditioned.[11][10]
+
+***
+
+## 7. Faculty  
+
+IIIT Kottayam’s faculty strength is growing and includes experienced professors, particularly in CSE and ECE, many with Ph.D degrees from reputed IITs/NITs and other leading institutes.[26][27][28][29]
+
+Highlights:[27][28][26]
+
+- Faculty designation mix: Professors, Associate Professors and Assistant Professors across CSE, ECE, Computational Sciences & Humanities, Cyber Security and allied areas.  
+- Examples of faculty and roles (from public faculty lists):  
+  - Prof. Prasad Krishna – Director.  
+  - Dr. Jayakrushna Sahoo – HOD, CSE.  
+  - Dr. Ananth A. – HOD, ECE.  
+  - Dr. Dhanyamol M.V. – HOD, Computational Science & Humanities.  
+  - Dr. Panchami – HOD, Cyber Security.[28]
+
+Student‑facing portals emphasise that many faculty members hold Ph.Ds and have significant teaching and research experience.[29][27]
+
+| Aspect | Details | Source |
+|--------|---------|--------|
+| Qualification profile | Majority of core faculty are Ph.D holders; some with IIT/NIT/leading university backgrounds | [26][27][29] |
+| Departments | CSE, ECE, Computational Science & Humanities, Cyber Security | [28][29] |
+| Areas of expertise | Cloud computing, cryptography, AI/ML, reconfigurable computing, cyber security, mathematics, etc. | [26][28][29] |
+| Student feedback | Faculty often described as knowledgeable and supportive; institute also invites guest faculty and organises faculty/student exchange programmes | [27][1] |
+
+For your content, you can highlight that the combination of young, research‑active faculty and some senior mentors gives students good exposure to both fundamentals and current technologies.  
+
+***
+
+## 8. Reviews and Student Experience  
+
+Public reviews portray IIIT Kottayam as a place where academic and placement outcomes are strong relative to its age, with the main trade‑off being that the campus is still developing and located in a relatively quiet, non‑metro area.[1][2][9][10]
+
+Positives commonly mentioned:[1][2][9]
+
+- Strong CSE‑centric curriculum and good coding culture, with plenty of opportunities for projects and contests.  
+- Increasingly strong placements with double‑digit average packages for B.Tech CSE branches.  
+- Green, peaceful campus and decent hostel facilities that support focused study.  
+- Helpful faculty and supportive administration in academic matters.  
+
+Concerns or downsides from some students:[1][10][11]
+
+- Campus is in a semi‑rural area, so off‑campus entertainment and city exposure are limited.  
+- Infrastructure, while improving, is still being expanded; some labs and recreational facilities are newer and evolving.  
+- Academic workload can be heavy, which may feel stressful to students not used to rigorous CS programmes.  
+
+Overall, reviews suggest IIIT Kottayam is a good fit for students who genuinely want to study CS/ECE, are comfortable living on a residential campus away from big‑city distractions, and are ready to work hard for strong placement outcomes.[2][9][1]
+
+***
+
+## 9. Contact Details  
+
+For accurate, up‑to‑date official information, always rely on institute channels.  
+
+| Purpose | Details |
+|---------|---------|
+| Official website | https://www.iiitkottayam.ac.in – main source for notifications, admissions, academics and contact details.[4][5] |
+| Postal address | Indian Institute of Information Technology Kottayam, Valavoor Post Office, Pala, Kottayam – 686635, Kerala, India.[30][5] |
+| General phone numbers (examples from public sources) | +91‑0482‑2202100; other contact numbers like 0471‑2597459 and 2700222 appear in some directories, but students should prefer numbers listed on the official site.[31][30] |
+| Email (admissions/administration – sample) | registrar@iiitkottayam.ac.in, ugadmissions@iiitkottayam.ac.in as shown in admission contact listings.[30] |
+
+When you present this on StudentHub, it is good practice to add a line that students should confirm phone numbers and email IDs from the official site before calling or mailing, as those are subject to change.[4][5]
+
+If you want, a follow‑up can be a rank‑wise comparison table (e.g., IIIT Kottayam vs IIIT Vadodara vs specific NITs) or ready‑to‑paste content blocks (hero section, FAQ, pros/cons) tailored for your portal.
+
+[1](https://www.shiksha.com/college/indian-institute-of-information-technology-kottayam-53868)
+[2](https://www.careers360.com/university/indian-institute-of-information-technology-kottayam)
+[3](https://www.careers360.com/university/indian-institute-of-information-technology-kottayam/facilities)
+[4](https://iiitkottayam.ac.in)
+[5](https://careermudhra.com/colleges/indian-institute-of-information-technology-iiit-kottayam/)
+[6](https://www.iiitkottayam.ac.in)
+[7](https://www.careers360.com/university/indian-institute-of-information-technology-kottayam/courses)
+[8](https://mtech.iiitkottayam.ac.in)
+[9](https://www.shiksha.com/college/indian-institute-of-information-technology-kottayam-53868/infrastructure)
+[10](https://www.collegedekho.com/colleges/indian-institute-of-information-technology-kottayam-campus)
+[11](https://collegedunia.com/university/57975-indian-institute-of-information-technology-iiit-kottayam/hostel)
+[12](https://www.careers360.com/university/indian-institute-of-information-technology-kottayam/cut-off)
+[13](https://www.shiksha.com/college/indian-institute-of-information-technology-kottayam-53868/cutoff)
+[14](https://www.shiksha.com/college/indian-institute-of-information-technology-kottayam-53868/fees)
+[15](https://collegedunia.com/university/57975-indian-institute-of-information-technology-iiit-kottayam/courses-fees)
+[16](https://zollege.in/university/217296-indian-institute-of-information-technology-iiit-kottayam/courses-fees)
+[17](https://www.collegedekho.com/colleges/indian-institute-of-information-technology-kottayam-fee-structure)
+[18](https://engineering.careers360.com/articles/jee-main-cutoff-for-iiit-kottayam)
+[19](https://www.kollegeapply.com/college/iiit-kottayam-kottayam-placement)
+[20](https://www.collegedekho.com/colleges/indian-institute-of-information-technology-kottayam-placement)
+[21](https://www.careers360.com/university/indian-institute-of-information-technology-kottayam/placement)
+[22](https://collegedunia.com/university/57975-indian-institute-of-information-technology-iiit-kottayam/placement)
+[23](https://www.shiksha.com/college/indian-institute-of-information-technology-kottayam-53868/placement)
+[24](https://collegedunia.com/university/57975-indian-institute-of-information-technology-iiit-kottayam)
+[25](https://universitykart.com/university/universitydetails/iiit-kottayam/facilities)
+[26](https://www.kollegeapply.com/college/iiit-kottayam-kottayam-faculty)
+[27](https://www.shiksha.com/college/indian-institute-of-information-technology-kottayam-53868/faculty)
+[28](https://www.collegebatch.com/13578-indian-institute-of-information-technology-faculty-profiles-kottayam)
+[29](https://www.iiitkottayam.ac.in/)
+[30](https://collegekaka.com/indian-institute-of-information-technologyiiit-kottayam/)
+[31](https://www.collegebatch.com/13578-indian-institute-of-information-technology-contact-number-address-map-kottayam)
+[32](https://www.shiksha.com/articles/iiit-kottayam-cutoff-2024-check-category-wise-jee-main-cutoff-ranks-blogId-183760)
+[33](https://collegedunia.com/university/57975-indian-institute-of-information-technology-iiit-kottayam/cutoff)
+[34](https://zollege.in/university/217296-indian-institute-of-information-technology-iiit-kottayam/hostel)
+[35](https://www.aajtakcampus.in/college/iiit-kottayam)
+[36](https://www.telegraphindia.com/edugraph/colleges/indian-institute-of-information-technology-kottayam-iiitk/infrastructure/1864)
+[37](https://www.dtashion.com/customer-care/iiit-kottayam-contact-no)
+[38](https://www.kollegeapply.com/colleges/iiit-kottayam-kottayam-7004748/hostel)

@@ -1473,6 +1473,42 @@ export const loadIIITDharwadData = async (): Promise<IIITDharwadData> => {
   }
 };
 
+// IIIT Tiruchirappalli uses same structure as IIT Roorkee
+export type IIITTiruchirappalliData = IITRoorkeeData;
+
+// Function to load IIIT Tiruchirappalli data
+export const loadIIITTiruchirappalliData = async (): Promise<IIITTiruchirappalliData> => {
+  try {
+    const response = await fetch('/data/colleges/iiit_tiruchirappalli.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIIT Tiruchirappalli data');
+    }
+    const data = await response.json();
+    return data as IIITTiruchirappalliData;
+  } catch (error) {
+    console.error('Error loading IIIT Tiruchirappalli data:', error);
+    throw error;
+  }
+};
+
+// IIIT Kotayam uses same structure as IIT Roorkee
+export type IIITKotayamData = IITRoorkeeData;
+
+// Function to load IIIT Kotayam data
+export const loadIIITKotayamData = async (): Promise<IIITKotayamData> => {
+  try {
+    const response = await fetch('/data/colleges/iiit_kotayam.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIIT Kotayam data');
+    }
+    const data = await response.json();
+    return data as IIITKotayamData;
+  } catch (error) {
+    console.error('Error loading IIIT Kotayam data:', error);
+    throw error;
+  }
+};
+
 // Lightweight loader for IIT Madras textual content split into tab sections (legacy support)
 export interface IITMadrasSections {
   overview: string;

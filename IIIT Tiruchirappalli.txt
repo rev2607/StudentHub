@@ -1,0 +1,280 @@
+IIIT Tiruchirappalli (IIIT Trichy) is a young Institute of National Importance set up under the PPP model, currently operating from a transit campus in Tiruchirappalli with its permanent campus coming up at Sethurapatti on the Trichy–Madurai highway. It is a compact, CS/ECE‑focused institute with rising placements, but students must be comfortable with developing infrastructure and a shared arrangement with NIT Trichy for some facilities like hostels and mess.[1][2][3][4][5]
+
+***
+
+## 1. Overview  
+
+IIIT Tiruchirappalli was established in 2013 under the Ministry of Education (then MHRD), Government of India, in partnership with the Government of Tamil Nadu and industry partners (TCS, CTS, Infosys, Ramco Systems, ELCOT, Navitas, etc.). It has been declared an Institute of National Importance, which gives statutory recognition to its degrees and supports growth in academics and research.[6][2][4]
+
+Initially, IIIT Trichy functioned from a temporary campus inside the premises of Bharathidasan Institute of Technology (BIT) at Tiruchirappalli and later shifted its academic activities while continuing to develop its own permanent campus at Sethurapatti on the Trichy–Madurai national highway. The institute focuses on two core engineering branches at the undergraduate level – Computer Science & Engineering (CSE) and Electronics & Communication Engineering (ECE) – and offers M.Tech, M.Sc and Ph.D programmes in allied domains.[7][2][4]
+
+The curriculum is designed around strong computer science and electronics foundations: programming, data structures, algorithms, OS, DBMS, networks, signals and systems, digital/analog electronics, communication theory, along with electives in advanced topics such as AI, data science and VLSI depending on the programme. Being a young IIIT, it has smaller batch sizes and a relatively close student–faculty interaction, but the trade‑off is that some infrastructure is still maturing compared to older NITs and central institutes.[8][2][9][3][10][7]
+
+***
+
+## 2. Courses and Fees  
+
+IIIT Trichy offers a compact basket of programmes focusing on information technology and electronics at UG level and expanding into specialised M.Tech/M.Sc and Ph.D at higher levels.[11][12][7]
+
+### 2.1 Programmes Offered  
+
+| Level | Programme | Duration | Mode | Key Focus | Source |
+|------|-----------|----------|------|-----------|--------|
+| UG | B.Tech in Computer Science and Engineering (CSE) | 4 years | Full‑time | Core CS, software systems, algorithms, networking | [7][2] |
+| UG | B.Tech in Electronics and Communication Engineering (ECE) | 4 years | Full‑time | Electronics, communication systems, embedded, VLSI basics | [7][2] |
+| PG | M.Tech in Computer Science and Engineering | 2 years | Full‑time | Advanced computing, research‑oriented CS | [7][2] |
+| PG | M.Tech in VLSI System Design (ECE) | 2 years | Full‑time | VLSI, chip design, digital design | [7][2] |
+| PG | M.Sc (two programmes – e.g., in Mathematics/CS related areas) | 2 years | Full‑time | Applied sciences supporting engineering | [11][7] |
+| Doctoral | Ph.D (Engineering/Sciences) | Variable | Full‑time/Part‑time | Research in CSE/ECE and allied fields | [7][2] |
+
+### 2.2 Fee Structure (Indicative)  
+
+Exact fees change each academic year; below are recent indicative totals useful for planning and for StudentHub‑style content.  
+
+From consolidated fee data:[12][11]
+
+- Total B.Tech tuition fee for 4 years is around ₹9.22–10.67 lakh depending on the source and whether only tuition or some additional heads are included.[11][12]
+- M.Tech tuition fee for 2 years is around ₹1.68–2.53 lakh.[12][11]
+- M.Sc programmes cost around ₹80,000 in total, and Ph.D programme fee is roughly ₹60,000 (excluding stipend/funding aspects).[11]
+
+#### B.Tech Fees (Recent Data)  
+
+| Programme | Total Programme Fee (approx.) | Comment | Source |
+|-----------|-------------------------------|---------|--------|
+| B.Tech (CSE) | ~₹10.67 lakh for 4 years | 2025 cycle tuition total; earlier around ₹10.48 lakh | [12][13] |
+| B.Tech (ECE) | ~₹10.67 lakh for 4 years | Similar to CSE | [12] |
+| B.Tech (all branches – other listing) | ~₹9.22 lakh | Alternate aggregate from another portal | [11] |
+
+Hostel + mess fees (approximate from recent documents/sites):  
+
+- Institute and hostel fee circulars show hostel and mess charges per semester on top of tuition; hostel/mess can be around ₹40,000–50,000 per semester as a rough ballpark when clubbed (exact splits and deposits vary by year).[13][12]
+
+#### M.Tech / M.Sc / Ph.D Fees  
+
+| Programme | Approx. Total Fee | Note | Source |
+|-----------|-------------------|------|--------|
+| M.Tech (CSE / VLSI) | ~₹1.68–2.53 lakh (2 years) | Tuition only; hostel/mess extra | [11][12] |
+| M.Sc (2 programmes) | ~₹80,000 total | For full duration | [11] |
+| Ph.D (2 categories) | ~₹60,000 total | Excluding stipend | [11] |
+
+For your portal, it is best to mark these as “indicative” and link students to the official fee PDF (e.g., B.Tech_Fee_structure_2024.pdf) for current numbers.[13]
+
+***
+
+## 3. Admissions  
+
+Admissions to IIIT Trichy B.Tech programmes are through JEE Main followed by JoSAA/CSAB counselling, while M.Tech admissions rely on GATE and CCMT or institute‑level processes; Ph.D has its own test/interview cycle.[14][15][2]
+
+### 3.1 B.Tech Admission  
+
+**Eligibility**  
+
+- 10+2 (or equivalent) with Physics, Mathematics and another relevant subject, with minimum marks/percentile as per JEE Main norms.[2][14]
+- A valid JEE Main score in the year of admission is mandatory.[15][16]
+
+**Admission Process (UG):**  
+
+1. Appear for JEE Main.  
+2. Register on JoSAA portal after JEE Main results.  
+3. Fill in IIIT Tiruchirappalli CSE/ECE as preferences in JoSAA choice list.  
+4. JoSAA publishes round‑wise seat allotments based on All India Rank, category and preferences; if seats remain, CSAB special rounds may follow.[16][17][15]
+5. After allotment, complete online reporting, document verification and fee payment as per schedule.[14][2]
+
+**Cutoff Snapshot (2025 Round 1 – General category):**[15]
+
+| Branch | Opening Rank | Closing Rank (Round 1, Gen) |
+|--------|--------------|-----------------------------|
+| B.Tech CSE | 4,992 | 24,734 |
+| B.Tech ECE | 15,553 | 31,337 |
+
+Careers360 summarises that JEE Main 2025 Round‑1 cutoffs for general category across IIIT Trichy ranges from an opening rank around 2,806 up to closing ranks about 31,337 across branches, with later rounds extending bands slightly.[18][15]
+
+### 3.2 M.Tech Admission  
+
+- Eligibility: B.E./B.Tech in relevant discipline with minimum marks/CGPA as notified (often 60% or equivalent).[7][2]
+- Entrance: GATE in the relevant paper; GATE score is used for CCMT or institute‑specific counselling.[2][15]
+- CCMT 2025 Round‑1 GATE cutoff for General category ranges roughly between 460 and 589 depending on specialisation.[15]
+
+### 3.3 M.Sc and Ph.D Admission  
+
+- M.Sc admissions (two programmes) use graduate‑level eligibility in relevant subjects and may rely on institutional procedures/entrance tests; details vary by year.[7][11]
+- Ph.D admissions usually require a Master’s degree in a relevant discipline plus GATE/NET or institute test, followed by interview.[2][7]
+
+***
+
+## 4. Placements  
+
+Placements at IIIT Trichy have shown good growth for a new IIIT, especially in CSE, though being a young and small institute, the absolute numbers of students and offers are modest compared to older NITs.[19][20][1]
+
+### 4.1 Recent Placement Statistics  
+
+Careers360 reports the official placement summary for 2024 as:[1]
+
+| Metric (2024 batch) | Value | Source |
+|---------------------|-------|--------|
+| Percentage placed | 74% | [1] |
+| Highest CTC | ₹46 LPA | [1] |
+| Average CTC | ₹10 LPA | [1] |
+| Median CTC | ₹7 LPA | [1] |
+| CSE average CTC | ₹12 LPA | [1] |
+| ECE average CTC | ₹7 LPA | [1] |
+| CSE highest CTC | ₹46 LPA | [1] |
+| ECE highest CTC | ₹10 LPA | [1] |
+
+A Shiksha snapshot for 2024 and early 2025 shows the same top CTC but a higher average for the smaller 2025 batch phase:[19]
+
+| Year | Highest Package | Average Package | Median Package | Placement Rate |
+|------|-----------------|-----------------|----------------|----------------|
+| 2024 | ₹46 LPA | ₹10 LPA | ₹7 LPA | 74% |
+| 2025 (ongoing sample) | ₹46.67 LPA | ₹19.28 LPA | ₹8 LPA | 40% |
+
+Collegedunia and other portals corroborate that CSE students see better average packages than ECE, which is common in IT‑dominated placement seasons.[20][1][19]
+
+### 4.2 Recruiters and Roles  
+
+Top recruiters include IT services, product companies and startups across software development, systems engineering, and related roles; specific names vary year to year but generally include well‑known IT firms in India. The dedicated Training and Placement Cell states its vision as achieving excellence in ICT education and coordinates internships, training, and placement drives; it maintains its own portal for company interaction and student preparation resources.[21][1][19]
+
+For counselling, you can position IIIT Trichy as: “If you get CSE here and actively build your skills, you can realistically target mid–to–high single digit and even double‑digit LPA packages, with top performers reaching 40+ LPA in recent batches.”[1][19]
+
+***
+
+## 5. Rankings  
+
+IIIT Tiruchirappalli is a young Institute of National Importance and may not have very high NIRF ranks yet, but is recognised in national engineering lists as a centrally funded IIIT. Private ranking portals describe it as an emerging institute for CSE and ECE with growing placement outcomes, typically placing it in the mid‑tier among IIITs.[4][8][6][2]
+
+Given the limited age and batch size, most serious evaluation among aspirants is done via cut‑off trends and placement statistics rather than pure rank numbers: JoSAA opening ranks for CSE starting within the top 5,000 and closing within 25,000 in 2025 Round‑1 indicates a healthy demand from JEE Main aspirants. In practical choice lists, students often evaluate IIIT Trichy alongside other newer IIITs and mid‑range NITs in similar JEE rank bands, prioritising CSE here if they are specifically targeting IT careers.[18][15][2]
+
+***
+
+## 6. Facilities  
+
+Because IIIT Trichy is still transitioning from transit arrangements toward a fully developed permanent campus, facilities are a mix of its own infrastructure and shared resources (especially with NIT Trichy for hostels and mess).[9][22][3]
+
+### 6.1 Academic Infrastructure  
+
+- Transit campus classrooms: Equipped with projectors and basic AV equipment, adequate for regular lectures and tutorials.[3][9]
+- Laboratories: Computer labs and ECE labs with the necessary systems and equipment for programming, digital/analog experiments and communication systems work.[23][9][7]
+- Library: Access to library resources and digital collections, frequently supported by shared or networked facilities while the permanent campus library develops.[9][23]
+
+### 6.2 Hostel and Mess  
+
+IIIT Trichy uses NIT Trichy hostels and mess facilities for many of its students, which is an important detail for lifestyle expectations.[24][3]
+
+Key points:[25][3][24]
+
+- First‑year UG boys may be allotted four‑seater hostels (capacity around 308 students), while second‑year boys may get single‑seater Topaz Hostel (around 126 capacity), as per facilities information referencing NIT‑Trichy arrangements.[3]
+- Mess: Meals are provided via NIT Trichy messes; there are about ten different messes offering varied cuisines, giving students options.[24][3]
+- Separate hostel accommodation is also arranged for girl students, with typical facilities like Wi‑Fi, common rooms, security and basic sports/recreation.[25][3]
+
+### 6.3 Other Amenities  
+
+- Sports: Access to common sports facilities (grounds and courts) via shared campus infrastructure, so basic outdoor and indoor games are available.[23][9]
+- Internet and IT: Campus and hostels have internet access suitable for coursework and coding practice, though speeds and access patterns depend on the shared infrastructure policies.[9][3]
+- Canteen and basic services: On‑campus canteen/snacks options and proximity to NIT Trichy canteen ecosystem; medical and banking facilities are accessible within or near the combined campus area.[3][23][9]
+
+Students often note that while facilities are adequate, the “own campus” feel is still evolving and there can be some inconvenience due to sharing and distance between academic and hostel locations.[26][9]
+
+***
+
+## 7. Faculty  
+
+IIIT Trichy’s faculty base is building up with Assistant and Associate Professors in CSE and ECE, many with Ph.D qualifications. Being a young institute, there is a higher proportion of early‑career faculty, but several senior members with substantial experience anchor departments.[27][28][2]
+
+Examples from public faculty profiles include:[29][28][27]
+
+- CSE department:  
+  - Dr. G. Devasena – Head of Department, Assistant Professor (CSE), as per public contact listings.  
+  - Other assistant professors with expertise in algorithms, networks, data science, etc.  
+
+- ECE department:  
+  - Dr. M. Senthil Sivakumar – HOD (CSE mentioned in some profiles, but also prominent in institutional leadership).  
+  - Dr. G. Seetharaman – Professor, ECE, and also Chairperson for UG Admissions.[30][27]
+  - Additional ECE faculty including Dr. R. Krishnamurthy, Dr. Velmurugan and others.[27]
+
+| Aspect | Details | Source |
+|--------|---------|--------|
+| Departments | Computer Science & Engineering, Electronics & Communication Engineering, Sciences | [7][2] |
+| Faculty qualifications | Majority with Ph.D; some with IIT/NIT and reputed university backgrounds | [27][29][28] |
+| Roles | HODs, Professors, Associate/Assistant Professors leading teaching and research | [27][30] |
+| Student feedback | Faculty generally rated as knowledgeable and supportive; some students mention strictness and workload as part of the academic culture | [8][26] |
+
+This mix tends to create a rigorous academic environment; motivated students can get good guidance for projects and placements, but must cope with a demanding curriculum.  
+
+***
+
+## 8. Reviews and Student Experience  
+
+Student reviews on major portals give a balanced picture that is very useful for counselling.[8][26][9]
+
+Common positives:[26][8]
+
+- Good quality of teaching in core CSE and ECE subjects, with many students appreciating the knowledge level of faculty.  
+- Strong coding and technical culture, with good exposure to placements considering the institute’s age and size.  
+- Exposure to NIT Trichy campus environment and facilities via shared hostels/mess is seen as a plus by some students.  
+
+Common concerns:[8][26][9]
+
+- Transit campus and shared infrastructure with NIT Trichy can lead to logistical issues and less distinct campus identity.  
+- Hostel and classroom distances, plus dependence on NIT’s facilities, sometimes create minor inconveniences.  
+- Infrastructure is still developing; some students wish for faster progress on the permanent campus and dedicated facilities.  
+
+Overall, students who join IIIT Trichy primarily for CSE and are focused on placements tend to be satisfied, while those expecting fully established, independent campus facilities like older NITs might feel underwhelmed.[26][8][2]
+
+***
+
+## 9. Contact Details  
+
+For accurate and updated information, aspirants should contact IIIT Trichy through official channels.  
+
+| Purpose | Details |
+|---------|---------|
+| Official website | https://iiitt.ac.in – primary site for admissions, notices, academics and contacts.[10][5] |
+| UG admissions page | Dedicated “Admission” section on the website with B.Tech admission details and calendar.[14] |
+| Postal address | IIIT Tiruchirappalli, Sethurapatti, Trichy–Madurai Highway, Tiruchirappalli, Tamil Nadu – 620012 (mailing details often worded as “IIIT, Tiruchirappalli, Sethurapatti, Tiruchirappalli, Tamil Nadu 620012”).[30][31] |
+| General email | office@iiitt.ac.in (administrative), as per institutional listings.[31] |
+| Admissions email | admissions@iiitt.ac.in for B.Tech queries; alternate UG admissions email for Chairperson Admissions also published.[30][29] |
+| Contact person (UG Admissions) | Dr. G. Seetharaman, Chairperson Admissions (UG), email admissions@iiitt.ac.in / gsraman@iiitt.ac.in, mobile around 9486631181.[30] |
+| Phone (institute office – example) | Approx. contact numbers like 09489600124 are listed in directories; students should always cross‑verify from the official “Contact Us” page.[29][31][32] |
+
+When you publish this on StudentHub, include a clear note advising users to reconfirm phone numbers and email IDs from the official IIIT Trichy website before reaching out, since these can change across sessions and years.[32][10]
+
+[1](https://www.careers360.com/university/indian-institute-of-information-technology-tiruchirappalli/placement)
+[2](https://www.careers360.com/university/indian-institute-of-information-technology-tiruchirappalli)
+[3](https://www.careers360.com/university/indian-institute-of-information-technology-tiruchirappalli/facilities)
+[4](https://en.wikipedia.org/wiki/Indian_Institute_of_Information_Technology,_Tiruchirappalli)
+[5](http://www.iiitt.ac.in)
+[6](https://dial4college.com/college/iiit-tiruchirappalli-in-trichirappalli)
+[7](https://www.careers360.com/university/indian-institute-of-information-technology-tiruchirappalli/courses)
+[8](https://www.shiksha.com/college/iiit-trichy-indian-institute-of-information-technology-tiruchirappalli-53872)
+[9](https://www.shiksha.com/college/iiit-trichy-indian-institute-of-information-technology-tiruchirappalli-53872/infrastructure)
+[10](https://iiitt.ac.in)
+[11](https://www.shiksha.com/college/iiit-trichy-indian-institute-of-information-technology-tiruchirappalli-53872/fees)
+[12](https://collegedunia.com/university/59205-indian-institute-of-information-technology-iiit-tiruchirappalli/courses-fees)
+[13](https://iiitt.ac.in/downloads/admission/BTech_Fee_structure_2024.pdf)
+[14](https://iiitt.ac.in/admission_ug)
+[15](https://www.careers360.com/university/indian-institute-of-information-technology-tiruchirappalli/cut-off)
+[16](https://www.shiksha.com/college/iiit-trichy-indian-institute-of-information-technology-tiruchirappalli-53872/cutoff)
+[17](https://josaa.admissions.nic.in/applicant/seatmatrix/InstProfile.aspx?enc=wEaVaSp8sOoFoPUWllvAsDZjQR+XVphT3OEZWjVxXIY%3D)
+[18](https://engineering.careers360.com/articles/jee-main-cutoff-for-top-iiits)
+[19](https://www.shiksha.com/college/iiit-trichy-indian-institute-of-information-technology-tiruchirappalli-53872/placement)
+[20](https://collegedunia.com/university/59205-indian-institute-of-information-technology-iiit-tiruchirappalli/placement)
+[21](http://placement.iiitt.ac.in)
+[22](https://www.collegedekho.com/colleges/iiit-srirangam-campus)
+[23](https://universitykart.com/university/universitydetails/iiitt-tiruchirappalli/facilities)
+[24](https://iiitt.ac.in/hostel)
+[25](https://www.kollegeapply.com/college/iiit-trichy-tiruchirappalli-hostel)
+[26](https://www.shiksha.com/college/iiit-trichy-indian-institute-of-information-technology-tiruchirappalli-53872/reviews)
+[27](https://www.collegebatch.com/14957-indian-institute-of-information-technology-faculty-profiles-tiruchirappalli)
+[28](http://dev.iiitt.ac.in/facultypeople)
+[29](https://www.indiacustomercare.com/iiit-tiruchirappalli-contacts-9489600129)
+[30](https://collegekaka.com/indian-institute-of-information-technology-tiruchirappalli/)
+[31](https://www.findmyedu.in/college/indian-institute-of-information-technology-tiruchirappalli/)
+[32](https://iiitt.ac.in/contactus)
+[33](https://collegedunia.com/university/59205-indian-institute-of-information-technology-iiit-tiruchirappalli/bachelor-of-technology-btech-full-time)
+[34](https://collegedunia.com/exams/jee-main/cut-off-for-iiits)
+[35](https://www.shiksha.com/university/international-institute-of-information-technology-bangalore-26396/cutoff)
+[36](https://collegedunia.com/university/59205-indian-institute-of-information-technology-iiit-tiruchirappalli/hostel)
+[37](https://iittp.ac.in/hostel/hostel.php)
+[38](https://www.iiitdm.ac.in/people/faculty)
+[39](https://eduethic.com/INDIAN-INSTITUTE-OF-INFORMATION-TECHNOLOGY-TIRUCHIRAPPALLI-TAMIL-NADU-INDIA.html)
+[40](http://iiitt.ac.in/faqs)
