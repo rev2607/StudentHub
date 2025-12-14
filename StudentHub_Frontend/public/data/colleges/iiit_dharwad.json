@@ -1,32 +1,32 @@
 {
-  "Name": "Indian Institute of Information Technology Lucknow (IIIT Lucknow)",
+  "Name": "Indian Institute of Information Technology Dharwad (IIIT Dharwad)",
   "Location": {
-    "City": "Lucknow",
-    "District": "Lucknow",
-    "State": "Uttar Pradesh",
+    "City": "Dharwad",
+    "District": "Dharwad",
+    "State": "Karnataka",
     "Country": "India",
-    "Pin": "226002",
+    "Pin": "580009",
     "CampusAreaAcres": 50,
     "Branches": [
       {
         "Name": "Main Campus",
-        "Location": "Lucknow, Uttar Pradesh"
+        "Location": "Dharwad, Karnataka"
       }
     ]
   },
   "Established": {
     "Year": 2015,
-    "OriginalName": "Indian Institute of Information Technology Lucknow",
+    "OriginalName": "Indian Institute of Information Technology Dharwad",
     "Renamed": [],
-    "HistoricalSignificance": "Established in 2015, IIIT Lucknow is one of the premier institutes of information technology in India. It focuses on information technology, computer science, and related disciplines, providing quality education and research opportunities."
+    "HistoricalSignificance": "Established in 2015, IIIT Dharwad is one of the premier institutes of information technology in India. It focuses on information technology, computer science, and related disciplines, providing quality education and research opportunities."
   },
   "UniversityType": [
     "Public Technical University",
     "Institute of National Importance"
   ],
   "About": {
-    "Overview": "Indian Institute of Information Technology Lucknow (IIIT Lucknow), established in 2015, is a centrally funded technical university located in Lucknow, Uttar Pradesh. It is an Institute of National Importance offering courses in information technology, computer science, and related engineering disciplines. The institute focuses on providing quality education with emphasis on research and innovation.",
-    "StudentStrength": "Over 1,800 students including international nationals",
+    "Overview": "Indian Institute of Information Technology Dharwad (IIIT Dharwad), established in 2015, is a centrally funded technical university located in Dharwad, Karnataka. It is an Institute of National Importance offering courses in information technology, computer science, and related engineering disciplines. The institute focuses on providing quality education with emphasis on research and innovation.",
+    "StudentStrength": "Over 1,600 students including international nationals",
     "MajorEvents": [
       "Technical festivals",
       "Cultural festivals",
@@ -80,7 +80,7 @@
         ],
         "DurationYears": 4,
         "Entrance": ["JEE Main", "JoSAA counseling"],
-        "Seats": 360,
+        "Seats": 300,
         "FirstYearFeeINR": 220000,
         "TotalFeesINRApprox": 880000
       },
@@ -139,7 +139,7 @@
         ],
         "TypicalDurationYears": "3-5",
         "FeeINRPerYear": 70000,
-        "SeatsMoreThan": 60
+        "SeatsMoreThan": 45
       }
     },
     "HostelFeeINRAnnual": {
@@ -246,7 +246,7 @@
   },
   "Facilities": {
     "Hostels": {
-      "Number": 5,
+      "Number": 4,
       "Types": ["Boys", "Girls"],
       "Amenities": [
         "Wi-Fi",
@@ -270,7 +270,7 @@
       ]
     },
     "Laboratories": {
-      "Quantity": 25,
+      "Quantity": 22,
       "FocusAreas": [
         "Computer Science",
         "Information Technology",
@@ -319,7 +319,7 @@
       "High-speed internet"
     ],
     "StudentClubs": {
-      "Number": 18,
+      "Number": 16,
       "Types": [
         "Technical (Coding, AI)",
         "Cultural (Music, Dance)",
@@ -342,7 +342,7 @@
       "Cybersecurity Lab"
     ],
     "Strength": {
-      "FacultyCount": 60,
+      "FacultyCount": 45,
       "PhDs": "Majority",
       "Patents2024": 0,
       "ResearchFundsINR2024": 0
@@ -389,16 +389,15 @@
     ]
   },
   "ReviewsAndRatings": {
-    "CollegeDuniaRating": 4.2,
-    "CollegeDuniaReviewsCount": 250,
-    "Careers360Rating": 4.3,
+    "CollegeDuniaRating": 4.0,
+    "CollegeDuniaReviewsCount": 170,
+    "Careers360Rating": 4.1,
     "Strengths": [
       "Good placements",
       "Quality faculty",
       "Modern infrastructure",
       "Focus on practical learning",
-      "Industry connections",
-      "Growing reputation"
+      "Industry connections"
     ],
     "Weaknesses": [
       "Newer institute (established 2015)",
@@ -444,7 +443,7 @@
     "Founder": "Government of India",
     "InitialFocus": "Information Technology and Computer Science",
     "Evolution": [
-      "2015: Established as IIIT Lucknow"
+      "2015: Established as IIIT Dharwad"
     ],
     "Legacy": "Growing institute focused on IT education and research",
     "Heritage": "Modern campus designed for academic and research excellence"
@@ -489,13 +488,13 @@
     }
   ],
   "OfficialContactInfo": {
-    "Website": "https://www.iiitl.ac.in",
-    "Address": "Indian Institute of Information Technology Lucknow, Lucknow, Uttar Pradesh 226002, India",
-    "Phone": "+91-522-2970200",
+    "Website": "https://www.iiitdwd.ac.in",
+    "Address": "Indian Institute of Information Technology Dharwad, Dharwad, Karnataka 580009, India",
+    "Phone": "+91-836-2212835",
     "Emails": {
       "Registrar": "Not listed",
-      "Admissions": "admission@iiitl.ac.in",
-      "PlacementCell": "placement@iiitl.ac.in"
+      "Admissions": "admission@iiitdwd.ac.in",
+      "PlacementCell": "placement@iiitdwd.ac.in"
     }
   }
 }

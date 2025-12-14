@@ -1,0 +1,266 @@
+IIIT Vadodara is a young, technical Institute of National Importance with a strong focus on Computer Science and IT, decent placements in software roles, and a campus life that is still evolving because the permanent campus is under development and academics currently run from a temporary campus in Gandhinagar with off‑campus hostels. It suits students who want CSE/IT–oriented academics, are comfortable with a developing campus, and are mainly targeting software/product‑based jobs via JEE Main.[1][2]
+
+***
+
+## 1. Overview  
+
+IIIT Vadodara (Indian Institute of Information Technology Vadodara) was established in 2013 under the PPP (Public Private Partnership) model by the Ministry of Education, Government of India, Government of Gujarat, and industry partners. It has been granted the status of “Institute of National Importance”, which gives it autonomy in academic and administrative matters and helps in attracting good faculty and recruiters.[2][1]
+
+The institute currently operates from a temporary campus located inside Government Engineering College (GEC), Sector‑28, Gandhinagar, while a dedicated permanent campus for IIIT Vadodara is under development. Academic focus is strongly centered on Computer Science & Engineering and Information Technology at the B.Tech level, along with selected M.Tech programmes and research opportunities.[3][4][5][1][2]
+
+IIIT Vadodara follows a credit‑based curriculum aligned with modern CS/IT trends, typically including core computing fundamentals (DSA, OS, DBMS, Networks), electronics basics, and advanced electives in areas like AI, ML, systems, security and data science depending on the semester offerings. The institute also runs an International Campus at Diu (IIITV‑ICD), but admissions to that campus are usually processed as a separate option and students should carefully distinguish between the Gandhinagar main campus and the Diu international campus in counselling.[6][5][1][2]
+
+Student life is evolving: there are annual cultural, technical, literary, and sports fests such as Kreiva (cultural), Cerebro (technical), Alfaaz (literature), and Ventura (sports), as well as multiple clubs in coding, cultural activities and sports. Because the hostel is off‑campus, students typically commute by institute buses, which shapes daily life: more peer interaction in hostels, slightly less “walkable” campus feel, but still a tight‑knit community due to relatively small batch sizes.[7][8][9][2]
+
+***
+
+## 2. Courses and Fees  
+
+IIIT Vadodara focuses on a small but specialized set of programmes, mainly in CS/IT and related areas. Exact fees can vary year to year, so always check the latest official notification, but recent public data gives a good ballpark.[5][2]
+
+### 2.1 Major Programmes  
+
+| Programme | Duration | Mode | Key Focus | Source |
+|----------|----------|------|-----------|--------|
+| B.Tech in Computer Science and Engineering (CSE) | 4 years | Full‑time | Core CS fundamentals, systems, algorithms, advanced electives | [5][2] |
+| B.Tech in Information Technology (IT) | 4 years | Full‑time | Software development, networking, information systems, applied CS | [5][2] |
+| M.Tech (CSE/IT‑related specialisations) | 2 years | Full‑time | Advanced computing, research‑oriented courses | [5][2] |
+| Ph.D (selected areas) | Variable | Full‑time | Research in CS, ECE, and allied areas | [1][5] |
+
+Public sources sometimes list additional variants/specialisations or part of the International Campus at Diu, so you should cross‑check programme names when filling forms.[6][2]
+
+### 2.2 Fee Structure (Indicative)  
+
+Different portals show slightly different totals because they either include/exclude hostel, mess, and other charges. The figures below are useful for an approximate financial planning; always verify with the official fee circular.[10][11][5]
+
+#### B.Tech Fees (Gandhinagar – Indicative Recent Data)  
+
+- Tuition fee per semester is commonly in the range of about ₹1.20–1.35 lakh, depending on the academic year.[5][10]
+- Some sources estimate total B.Tech fee for 4 years at around ₹9.5–10.9 lakh, largely driven by tuition; other components (hostel, mess, caution deposit) are additional.[11][10][5]
+
+Example (from recent data; exact heads may differ year to year):[10][5]
+
+| Item (B.Tech, per programme) | Approximate Amount | Note |
+|------------------------------|--------------------|------|
+| Total B.Tech tuition for 4 years | ~₹9.6–10.9 lakh | Tuition over 8 semesters, excluding hostel/mess | [5][10] |
+| Per semester tuition fee | ~₹1.25 lakh (variable by year) | Often revised periodically | [5][10] |
+| Caution deposit | ~₹10,000–₹20,000 | Refundable, paid once | [5][11] |
+| Other charges (registration, exam, etc.) | Few thousand per semester | Varies | [5][11] |
+| Hostel + mess per semester | Commonly a few tens of thousands | Off‑campus hostel; different for each year | [8][9] |
+
+#### M.Tech Fees (Indicative)  
+
+- M.Tech total tuition fee for 2 years is in the ballpark of ₹3.0 lakh according to recent structured data.[5][10]
+- Tuition per semester is roughly ₹60,000, with additional caution deposit and small institute development contribution in initial semesters.[5]
+
+| Item (M.Tech, overall) | Approximate Amount | Note |
+|------------------------|--------------------|------|
+| Total tuition for 2 years | ~₹3.0 lakh | Tuition only | [5][10] |
+| Per semester tuition | ~₹60,000 | Indicative | [5] |
+| Caution deposit | ~₹20,000 | Refundable | [5] |
+| Institute development contribution | ~₹5,000 (first 1–2 semesters) | One‑time/limited | [5] |
+
+Hostel and mess charges for M.Tech students are usually comparable to B.Tech hostel charges, but detailed slab structure should be checked in the latest hostel circular.[8][9]
+
+***
+
+## 3. Admissions  
+
+Admissions to B.Tech at IIIT Vadodara are through JEE Main followed by centralized JoSAA/CSAB counselling, while postgraduate admissions typically use GATE (or central counselling like CCMT/Institute procedure) depending on the particular programme.[12][13][2]
+
+### 3.1 B.Tech Admission Process  
+
+- Eligibility: Completion of 10+2 (or equivalent) with Physics, Mathematics and a relevant third subject, along with minimum percentage criteria as defined by JEE Main and counselling authorities.[14][2]
+- Entrance exam: JEE Main; based on JEE Main scores/ranks, JoSAA publishes opening and closing ranks for IIIT Vadodara in multiple rounds.[15][13][12]
+- Counselling:  
+  - Register for JoSAA with JEE Main credentials.  
+  - Fill choices including “Indian Institute of Information Technology Vadodara” and desired branches (CSE / IT).  
+  - Seats are allotted based on rank, category, and preferences.[13][12][15]
+
+Recent JEE Main closing ranks (to give an idea; numbers slightly vary across sources and rounds):  
+
+| Year / Category | Branch | Last‑round closing rank (General, All India – indicative) | Source |
+|-----------------|--------|-----------------------------------------------------------|--------|
+| 2024 | B.Tech CSE | Around 21,800 (Round‑5 overall mention) | [12] |
+| 2024 | B.Tech IT | Around 21,900 (Round‑5 for IT) | [12] |
+| 2025 (General AI, last round) | CSE | Within roughly 36,000 | [15] |
+| 2025 (General AI, last round) | Other core (e.g., ECE at related IIIT context) | Ranks going up to around 58,600 | [15] |
+
+Note that some portals aggregate or mix IIITV and IIITV‑ICD data; always read the labels carefully when analysing cut‑offs.[16][15]
+
+### 3.2 M.Tech and Other Admissions  
+
+For M.Tech:  
+
+- Eligibility: B.E./B.Tech in relevant discipline (typically CSE/IT/ECE or related) with minimum CGPA/percentage as per institute norms.[14][5]
+- Entrance: Usually GATE in relevant paper; centralized CCMT or institute‑level procedure may be followed depending on the year’s policy.[2][14]
+- Shortlisting is typically on the basis of GATE score and availability of seats, followed by document verification and fee payment.[2][14]
+
+For international/Study in India candidates, IIIT Vadodara participates in schemes such as “Study in India” where foreign students can apply through a centralized portal with separate seat allocation rules.[17]
+
+***
+
+## 4. Placements  
+
+IIIT Vadodara’s placements are a major attraction for students aiming at software and product‑based roles. Because it is a CS‑focused institute, almost all recruiting is in IT/CS domains.[18][19][20]
+
+### 4.1 Recent Placement Highlights  
+
+Statistics vary slightly depending on whether you look at the institute T&P report or third‑party portals, but the trends are consistent: decent average and strong top packages for B.Tech CSE/IT.  
+
+From recent data:[19][20][21][18]
+
+| Metric (B.Tech) | 2023 / 2024 Figures (indicative) | Source |
+|-----------------|-----------------------------------|--------|
+| Highest package (on‑campus) | Around ₹43–56 LPA in recent batches | [18][19][20] |
+| Highest package (off‑campus reported) | Around ₹1.02–1.33 crore per annum | [18][19] |
+| Average package (B.Tech) | Roughly ₹11–15 LPA depending on batch | [18][19][20] |
+| Median package (B.Tech) | Around ₹9–13.5 LPA in recent years | [18][19] |
+| Number of offers (2023 example) | Around 230+ offers with ~170+ students placed | [18][20] |
+
+For M.Tech, average packages tend to be lower than B.Tech, with median package around ₹6 LPA as per recent aggregate data. Placement percentage for M.Tech is also typically lower than for B.Tech since M.Tech batch size is small and includes students targeting research or higher studies.[18][19]
+
+### 4.2 Recruiters and Profiles  
+
+Prominent recruiters include leading IT services firms, product companies, startups, and some analytics/fintech players, typically in roles such as SDE, full‑stack developer, data engineer, and related profiles. The Training & Placement Cell coordinates campus drives, internships, and pre‑placement talks, and operates from within the institute with contact details publicly listed.[22][20][21][19][18]
+
+***
+
+## 5. Rankings  
+
+IIIT Vadodara is a relatively new IIIT, so rankings are still evolving and may not always appear at the very top of national lists, but it is consistently classified among government IIITs and recognized for its specialization in IT and CSE.[23][2]
+
+Some education portals mention that IIIT Vadodara is viewed as a reputable engineering institute in India, especially for CSE/IT, and may list notional positions among IIIT/engineering categories, though such private rankings use their own methodologies and should be interpreted cautiously. NIRF‑style official rankings for IIITs may club multiple institutions or present them in broad bands; students should look at accreditation, degree recognition, and placement outcomes rather than only a single rank number.[23][18][2]
+
+In practice, for a CSE/IT aspirant, IIIT Vadodara is usually considered a mid‑tier government IIIT option: stronger than many private colleges for CS, but below older NITs and top IIITs such as IIIT Hyderabad/Delhi/Allahabad in general perception.[24][23][2]
+
+***
+
+## 6. Facilities  
+
+Because the permanent campus is still under development, facilities are split between the academic block at GEC Gandhinagar and off‑campus hostels, but core needs (classrooms, labs, library, hostel, mess) are covered.[25][26][27][7]
+
+### 6.1 Academic Infrastructure  
+
+- Classrooms: Standard lecture halls with projector facilities and Wi‑Fi support, housed within the Government Engineering College block where IIIT Vadodara runs its classes.[26][25]
+- Labs: Departmental labs in Computer Science and Electronics, equipped with necessary software tools and computing resources for programming, networks, and electronics experiments.[27][25]
+- Library: A digital‑friendly library providing access to textbooks, reference material, e‑resources (OPAC, National Digital Library of India, open access journals, etc.), with reading space for students.[25][26][27]
+
+### 6.2 Hostel and Mess  
+
+- Hostel: Separate hostels for boys and girls, typically off‑campus, about 18–20 km away from the academic block; commuting is handled by institute buses running at fixed timings.[9][7][8]
+- Rooms: Generally shared by 3–4 students, semi‑furnished with bed, table, chair and cupboard.[7][8][25]
+- Facilities: Wi‑Fi, water purifiers, mess, TV/common room, basic indoor recreation, laundry services, security, and vehicle for medical emergencies.[8][7]
+- Mess: Dining halls serve multiple meals per day with varying menus; feedback from students suggests hygienic and reasonably good quality food for a typical IIIT‑level hostel mess.[9][25]
+
+### 6.3 Other Amenities and Campus Life  
+
+- Sports and Gym: Indoor facilities and a gym are available, though the limited permanent campus space means large playgrounds may not be on‑site; some activities use nearby grounds.[26][27][25]
+- Medical: Basic first‑aid and medical assistance, with arrangements for hospital visits in emergencies.[27][25]
+- Events: Cultural, technical, literary and sports fests held annually; clubs organize coding contests, hackathons, and cultural nights which somewhat compensate for the absence of a large campus.[9][2]
+
+***
+
+## 7. Faculty  
+
+IIIT Vadodara has a faculty base dominated by Assistant Professors and a smaller number of senior Professors/Associate Professors, largely with Ph.D. degrees from reputed institutes in India and abroad. This is typical of young IIITs where the age profile skews younger but research and teaching energy is high.[28][29][30][31]
+
+According to recent faculty listings and profiles:[29][31][28]
+
+- Departments:  
+  - Computer Science & Engineering  
+  - Electronics & Communication Engineering  
+  - Science, Mathematics & Humanities  
+
+- Many faculty members hold Ph.D. degrees from institutes such as DAIICT and other established universities; for example, profiles like Dr. Ashish Phophalia (CSE), Bhupendra Kumar (ECE), Ajay Nath and others are mentioned across directories and profiles.[28][29]
+
+Summary view:  
+
+| Aspect | Details | Source |
+|--------|---------|--------|
+| Faculty composition | Mix of Assistant, Associate Professors and Professors, majority with Ph.D. | [28][29][30][31] |
+| Main departments | CSE, ECE, Science/Math/Humanities | [29][31] |
+| Areas of expertise | Cryptography, ML, vision, systems, networks, mathematics, etc. | [32][29][31] |
+| Student feedback (general) | Faculty often rated as knowledgeable and approachable; some feedback mentions heavy workload and fast‑paced curriculum typical of IIITs | [28][30] |
+
+For a student, this means relatively close interaction with teachers, especially in higher semesters and elective/research projects, but also a demanding academic schedule with rigorous CS/IT content.[30][28]
+
+***
+
+## 8. Reviews and Student Experience  
+
+Public reviews on education portals highlight both strengths and pain points, which is useful if you are counseling students. These are subjective but patterns are fairly clear.[7][28][8][9][2]
+
+Common positives:[19][28][8][7]
+
+- Strong CS/IT‑centric curriculum and coding culture, good for students who want software engineering careers.  
+- Decent to very good placement outcomes compared to many private colleges, with attractive top packages for high performers.  
+- Faculty typically rated as qualified and supportive, particularly in core CS subjects.  
+
+Common concerns:[8][7][9][2]
+
+- Off‑campus hostel creates daily commute; some students feel this reduces “real campus” feel and spontaneous campus activities.  
+- Limited physical campus infrastructure as long as the institute continues in the temporary campus; less greenery/open spaces compared to older residential campuses.  
+- Workload is intense, and some students feel academic pressure is high, which is typical of focused CS institutes.  
+
+Overall, reviews present IIIT Vadodara as a good choice for motivated CSE/IT students who prioritize learning and placements over traditional campus lifestyle, and who are comfortable with a developing infrastructure scenario.[28][19][7][2]
+
+***
+
+## 9. Contact Details  
+
+For the latest official updates, always refer directly to the institute. Key contact points are as follows:[4][33][3][1]
+
+| Purpose | Details |
+|---------|---------|
+| Institute website | https://iiitvadodara.ac.in (main official site with academics, admissions, notices) [1] |
+| Postal address (Gandhinagar campus) | Indian Institute of Information Technology Vadodara, C/o Block No. 9 (IC Department), Government Engineering College, Sector‑28, Gandhinagar, Gujarat – 382028, India [3][4] |
+| General landline (examples from public directories) | 079‑2975 0281 / related numbers; for RTI/official queries there are listed contacts for director and CPIO on telephone directory pages | [3][33] |
+| Official email example | registrar@iiitvadodara.ac.in (for many formal communications as per public contact listings) | [4][1] |
+| Training & Placement Cell | Dedicated T&P contact details are published on placement pages and T&P site for recruiter coordination | [22][21] |
+
+For students and parents, the safest approach is to use the website contact and official email IDs, and to double‑check phone numbers from the official telephone directory section rather than third‑party sites.[33][1]
+
+***
+
+If you want, a follow‑up can focus on: (a) detailed comparison of IIIT Vadodara vs specific NIT/IIIT options at similar JEE ranks, or (b) a counseling‑style script and structured content you can directly plug into StudentHub (overview blocks, FAQ, call‑to‑action sections).
+
+[1](https://iiitvadodara.ac.in)
+[2](https://collegedunia.com/university/55787-indian-institute-of-information-technology-vadodara-iiitv-gandhinagar)
+[3](https://www.indiacustomercare.com/iiit-vadodara-contact-no-079-2975-0281)
+[4](https://www.collegeindia.in/college/7105-indian-institute-of-information-technology-iiit-vadodara/contact)
+[5](https://www.careers360.com/university/indian-institute-of-information-technology-vadodara/courses)
+[6](https://www.careers360.com/colleges/indian-institute-of-information-technology-vadodara-international-campus-diu/facilities)
+[7](https://www.shiksha.com/college/iiit-vadodara-indian-institute-of-information-technology-gandhinagar-39392/infrastructure)
+[8](https://collegedunia.com/university/55787-indian-institute-of-information-technology-vadodara-iiitv-gandhinagar/hostel)
+[9](https://zollege.in/university/215108-indian-institute-of-information-technology-vadodara-iiitv-gandhi-nagar/hostel)
+[10](https://collegedunia.com/university/55787-indian-institute-of-information-technology-vadodara-iiitv-gandhinagar/courses-fees)
+[11](https://www.collegedekho.com/colleges/iiit-vadodara-fee-structure)
+[12](https://www.collegedekho.com/colleges/iiit-vadodara-cutoff)
+[13](https://engineering.careers360.com/articles/jee-main-cutoff-for-iiit-vadodara)
+[14](https://www.collegedekho.com/colleges/iiit-vadodara)
+[15](https://www.shiksha.com/college/iiit-vadodara-indian-institute-of-information-technology-gandhinagar-39392/cutoff)
+[16](https://www.shiksha.com/articles/iiit-vadodara-cutoff-2024-check-category-wise-jee-main-cutoff-blogId-187952)
+[17](https://iiitvadodara.ac.in/sii.php)
+[18](https://www.careers360.com/university/indian-institute-of-information-technology-vadodara/placement)
+[19](https://www.shiksha.com/college/iiit-vadodara-indian-institute-of-information-technology-gandhinagar-39392/placement)
+[20](https://collegedunia.com/university/55787-indian-institute-of-information-technology-vadodara-iiitv-gandhinagar/placement)
+[21](https://iiitvadodara.ac.in/placement.php)
+[22](https://sites.google.com/iiitvadodara.ac.in/placement2021/contact-us)
+[23](https://www.chunocollege.com/college/iiit-vadodara-indian-institute-of-information-technology)
+[24](https://collegedunia.com/exams/jee-main/cut-off-for-iiits)
+[25](https://www.careers360.com/university/indian-institute-of-information-technology-vadodara/facilities)
+[26](https://www.collegedekho.com/colleges/iiit-vadodara-campus)
+[27](https://universitykart.com/university/universitydetails/iiit-vadodara/facilities)
+[28](https://www.shiksha.com/college/iiit-vadodara-indian-institute-of-information-technology-gandhinagar-39392)
+[29](https://www.kollegeapply.com/college/indian-institute-of-information-technology-vadodara-iiit-v-gandhinagar-faculty)
+[30](https://www.shiksha.com/college/iiit-vadodara-indian-institute-of-information-technology-gandhinagar-39392/faculty)
+[31](https://iiitvadodara.ac.in/faculty.php)
+[32](https://www.collegebatch.com/21279-iiit-vadodara-international-campus-faculty-profiles-diu)
+[33](https://iiitvadodara.ac.in/itd.php)
+[34](https://iiitvadodara.ac.in/hostel.php)
+[35](https://www.shiksha.com/college/indian-institute-of-information-technology-vadodara-international-diu-campus-daman-diu-146129/infrastructure)
+[36](https://collegekaka.com/indian-institute-of-information-technologyiiit-vadodara-gujrat/)
+[37](https://www.shiksha.com/college/iiit-vadodara-indian-institute-of-information-technology-gandhinagar-39392/fees)
+[38](https://www.collegedekho.com/colleges/iiit-vadodara-placement)
+[39](https://www.getmyuni.com/college/indian-institute-of-information-technologyiiitv-vadodara-courses-fees)

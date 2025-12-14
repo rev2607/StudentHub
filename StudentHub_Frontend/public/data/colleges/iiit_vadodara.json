@@ -1,32 +1,32 @@
 {
-  "Name": "Indian Institute of Information Technology Lucknow (IIIT Lucknow)",
+  "Name": "Indian Institute of Information Technology Vadodara (IIIT Vadodara)",
   "Location": {
-    "City": "Lucknow",
-    "District": "Lucknow",
-    "State": "Uttar Pradesh",
+    "City": "Vadodara",
+    "District": "Vadodara",
+    "State": "Gujarat",
     "Country": "India",
-    "Pin": "226002",
+    "Pin": "391760",
     "CampusAreaAcres": 50,
     "Branches": [
       {
         "Name": "Main Campus",
-        "Location": "Lucknow, Uttar Pradesh"
+        "Location": "Vadodara, Gujarat"
       }
     ]
   },
   "Established": {
-    "Year": 2015,
-    "OriginalName": "Indian Institute of Information Technology Lucknow",
+    "Year": 2013,
+    "OriginalName": "Indian Institute of Information Technology Vadodara",
     "Renamed": [],
-    "HistoricalSignificance": "Established in 2015, IIIT Lucknow is one of the premier institutes of information technology in India. It focuses on information technology, computer science, and related disciplines, providing quality education and research opportunities."
+    "HistoricalSignificance": "Established in 2013, IIIT Vadodara is one of the premier institutes of information technology in India. It focuses on information technology, computer science, and related disciplines, providing quality education and research opportunities."
   },
   "UniversityType": [
     "Public Technical University",
     "Institute of National Importance"
   ],
   "About": {
-    "Overview": "Indian Institute of Information Technology Lucknow (IIIT Lucknow), established in 2015, is a centrally funded technical university located in Lucknow, Uttar Pradesh. It is an Institute of National Importance offering courses in information technology, computer science, and related engineering disciplines. The institute focuses on providing quality education with emphasis on research and innovation.",
-    "StudentStrength": "Over 1,800 students including international nationals",
+    "Overview": "Indian Institute of Information Technology Vadodara (IIIT Vadodara), established in 2013, is a centrally funded technical university located in Vadodara, Gujarat. It is an Institute of National Importance offering courses in information technology, computer science, and related engineering disciplines. The institute focuses on providing quality education with emphasis on research and innovation.",
+    "StudentStrength": "Over 2,000 students including international nationals",
     "MajorEvents": [
       "Technical festivals",
       "Cultural festivals",
@@ -40,7 +40,7 @@
       "Artificial Intelligence",
       "Cybersecurity",
       "Machine Learning",
-      "Cloud Computing"
+      "Software Engineering"
     ],
     "StartupsValuationINR": 0,
     "GlobalCollaborations": [
@@ -139,7 +139,7 @@
         ],
         "TypicalDurationYears": "3-5",
         "FeeINRPerYear": 70000,
-        "SeatsMoreThan": 60
+        "SeatsMoreThan": 50
       }
     },
     "HostelFeeINRAnnual": {
@@ -277,7 +277,7 @@
         "Electronics and Communication",
         "Data Science",
         "Artificial Intelligence",
-        "Cloud Computing"
+        "Software Engineering"
       ],
       "Equipment": [
         "High-performance computing facilities",
@@ -338,11 +338,11 @@
     "ResearchCenters": [
       "AI Research Center",
       "Data Science Lab",
-      "Cloud Computing Lab",
+      "Software Engineering Lab",
       "Cybersecurity Lab"
     ],
     "Strength": {
-      "FacultyCount": 60,
+      "FacultyCount": 55,
       "PhDs": "Majority",
       "Patents2024": 0,
       "ResearchFundsINR2024": 0
@@ -389,19 +389,18 @@
     ]
   },
   "ReviewsAndRatings": {
-    "CollegeDuniaRating": 4.2,
-    "CollegeDuniaReviewsCount": 250,
-    "Careers360Rating": 4.3,
+    "CollegeDuniaRating": 4.1,
+    "CollegeDuniaReviewsCount": 200,
+    "Careers360Rating": 4.2,
     "Strengths": [
       "Good placements",
       "Quality faculty",
       "Modern infrastructure",
       "Focus on practical learning",
-      "Industry connections",
-      "Growing reputation"
+      "Industry connections"
     ],
     "Weaknesses": [
-      "Newer institute (established 2015)",
+      "Newer institute (established 2013)",
       "Limited campus facilities compared to older institutes",
       "Fewer alumni network"
     ],
@@ -440,11 +439,11 @@
     "Community": "Supportive academic environment with focus on learning and growth"
   },
   "HistoricalBackground": {
-    "FoundationYear": 2015,
+    "FoundationYear": 2013,
     "Founder": "Government of India",
     "InitialFocus": "Information Technology and Computer Science",
     "Evolution": [
-      "2015: Established as IIIT Lucknow"
+      "2013: Established as IIIT Vadodara"
     ],
     "Legacy": "Growing institute focused on IT education and research",
     "Heritage": "Modern campus designed for academic and research excellence"
@@ -455,7 +454,7 @@
       "Machine Learning",
       "Data Science",
       "Cybersecurity",
-      "Cloud Computing"
+      "Software Engineering"
     ],
     "PatentsFiled2024": 0,
     "ResearchFundingINR2024": 0,
@@ -489,13 +488,13 @@
     }
   ],
   "OfficialContactInfo": {
-    "Website": "https://www.iiitl.ac.in",
-    "Address": "Indian Institute of Information Technology Lucknow, Lucknow, Uttar Pradesh 226002, India",
-    "Phone": "+91-522-2970200",
+    "Website": "https://www.iiitvadodara.ac.in",
+    "Address": "Indian Institute of Information Technology Vadodara, Vadodara, Gujarat 391760, India",
+    "Phone": "+91-265-2212835",
     "Emails": {
       "Registrar": "Not listed",
-      "Admissions": "admission@iiitl.ac.in",
-      "PlacementCell": "placement@iiitl.ac.in"
+      "Admissions": "admission@iiitvadodara.ac.in",
+      "PlacementCell": "placement@iiitvadodara.ac.in"
     }
   }
 }

@@ -1419,6 +1419,60 @@ export const loadIIITLucknowData = async (): Promise<IIITLucknowData> => {
   }
 };
 
+// IIIT Vadodara uses same structure as IIT Roorkee
+export type IIITVadodaraData = IITRoorkeeData;
+
+// Function to load IIIT Vadodara data
+export const loadIIITVadodaraData = async (): Promise<IIITVadodaraData> => {
+  try {
+    const response = await fetch('/data/colleges/iiit_vadodara.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIIT Vadodara data');
+    }
+    const data = await response.json();
+    return data as IIITVadodaraData;
+  } catch (error) {
+    console.error('Error loading IIIT Vadodara data:', error);
+    throw error;
+  }
+};
+
+// IIIT Nagpur uses same structure as IIT Roorkee
+export type IIITNagpurData = IITRoorkeeData;
+
+// Function to load IIIT Nagpur data
+export const loadIIITNagpurData = async (): Promise<IIITNagpurData> => {
+  try {
+    const response = await fetch('/data/colleges/iiit_nagpur.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIIT Nagpur data');
+    }
+    const data = await response.json();
+    return data as IIITNagpurData;
+  } catch (error) {
+    console.error('Error loading IIIT Nagpur data:', error);
+    throw error;
+  }
+};
+
+// IIIT Dharwad uses same structure as IIT Roorkee
+export type IIITDharwadData = IITRoorkeeData;
+
+// Function to load IIIT Dharwad data
+export const loadIIITDharwadData = async (): Promise<IIITDharwadData> => {
+  try {
+    const response = await fetch('/data/colleges/iiit_dharwad.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIIT Dharwad data');
+    }
+    const data = await response.json();
+    return data as IIITDharwadData;
+  } catch (error) {
+    console.error('Error loading IIIT Dharwad data:', error);
+    throw error;
+  }
+};
+
 // Lightweight loader for IIT Madras textual content split into tab sections (legacy support)
 export interface IITMadrasSections {
   overview: string;
