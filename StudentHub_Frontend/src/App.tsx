@@ -16,6 +16,9 @@ import CollegeDetailPage from "./pages/Colleges/CollegeDetailPage";
 import IITRoorkeePage from "./pages/Colleges/IITRoorkeePage";
 import AmityNoidaPage from "./pages/Colleges/AmityNoidaPage";
 import BITSPilaniPage from "./pages/Colleges/BITSPilaniPage";
+import BITSGoaPage from "./pages/Colleges/BITSGoaPage";
+import BITSHyderabadPage from "./pages/Colleges/BITSHyderabadPage";
+import BITSMumbaiPage from "./pages/Colleges/BITSMumbaiPage";
 import SRMPage from "./pages/Colleges/SRMPage";
 import ThaparPage from "./pages/Colleges/ThaparPage";
 import AmritaCoimbatorePage from "./pages/Colleges/AmritaCoimbatorePage";
@@ -207,6 +210,9 @@ function App() {
             <Route path="/colleges/iiit-sri-city" element={<IIITSriCityPage />} />
             <Route path="/colleges/amity-noida" element={<AmityNoidaPage />} />
             <Route path="/colleges/bits-pilani" element={<BITSPilaniPage />} />
+            <Route path="/colleges/bits-goa" element={<BITSGoaPage />} />
+            <Route path="/colleges/bits-hyderabad" element={<BITSHyderabadPage />} />
+            <Route path="/colleges/bits-mumbai" element={<BITSMumbaiPage />} />
             <Route path="/colleges/srm" element={<SRMPage />} />
             <Route path="/colleges/srmist" element={<SRMPage />} />
             <Route path="/colleges/srm-institute-of-science-technology" element={<SRMPage />} />

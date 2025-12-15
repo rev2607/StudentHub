@@ -391,6 +391,60 @@ export const loadBITSPilaniData = async (): Promise<BITSPilaniData> => {
   }
 };
 
+// BITS Goa uses same structure as IIT Roorkee
+export type BITSGoaData = IITRoorkeeData;
+
+// Function to load BITS Goa data
+export const loadBITSGoaData = async (): Promise<BITSGoaData> => {
+  try {
+    const response = await fetch('/data/colleges/bits_goa.json');
+    if (!response.ok) {
+      throw new Error('Failed to load BITS Goa data');
+    }
+    const data = await response.json();
+    return data as BITSGoaData;
+  } catch (error) {
+    console.error('Error loading BITS Goa data:', error);
+    throw error;
+  }
+};
+
+// BITS Hyderabad uses same structure as IIT Roorkee
+export type BITSHyderabadData = IITRoorkeeData;
+
+// Function to load BITS Hyderabad data
+export const loadBITSHyderabadData = async (): Promise<BITSHyderabadData> => {
+  try {
+    const response = await fetch('/data/colleges/bits_hyderabad.json');
+    if (!response.ok) {
+      throw new Error('Failed to load BITS Hyderabad data');
+    }
+    const data = await response.json();
+    return data as BITSHyderabadData;
+  } catch (error) {
+    console.error('Error loading BITS Hyderabad data:', error);
+    throw error;
+  }
+};
+
+// BITS Mumbai uses same structure as IIT Roorkee
+export type BITSMumbaiData = IITRoorkeeData;
+
+// Function to load BITS Mumbai data
+export const loadBITSMumbaiData = async (): Promise<BITSMumbaiData> => {
+  try {
+    const response = await fetch('/data/colleges/bits_mumbai.json');
+    if (!response.ok) {
+      throw new Error('Failed to load BITS Mumbai data');
+    }
+    const data = await response.json();
+    return data as BITSMumbaiData;
+  } catch (error) {
+    console.error('Error loading BITS Mumbai data:', error);
+    throw error;
+  }
+};
+
 // Function to load SRM data
 export const loadSRMData = async (): Promise<SRMData> => {
   try {

@@ -1,0 +1,495 @@
+{
+  "Name": "Birla Institute of Technology and Science (BITS) Mumbai",
+  "Location": {
+    "City": "Mumbai",
+    "District": "Mumbai",
+    "State": "Maharashtra",
+    "Country": "India",
+    "Pin": "400076",
+    "CampusAreaAcres": 60,
+    "Branches": [
+      {
+        "Name": "Mumbai Campus",
+        "Location": "Mumbai, Maharashtra"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 2024,
+    "OriginalName": "Birla Institute of Technology and Science (BITS) Mumbai",
+    "Renamed": [],
+    "HistoricalSignificance": "Established as the newest campus of BITS Pilani in the financial capital of India. The campus extends BITS' excellence to Mumbai, providing students with access to India's largest commercial and industrial hub while maintaining the same academic standards and Practice School system."
+  },
+  "UniversityType": [
+    "Private Deemed University",
+    "Autonomous Institute",
+    "Multi-Disciplinary Technical University"
+  ],
+  "About": {
+    "Overview": "BITS Mumbai is the newest campus of BITS Pilani, strategically located in the financial capital of India. The campus maintains the same academic rigor, innovative Practice School system, and industry connections as other BITS campuses. Located in Mumbai, students have access to numerous opportunities in finance, technology, and industry sectors.",
+    "StudentStrength": "Over 1,500 students",
+    "MajorEvents": [
+      "APOGEE - Technical festival",
+      "OASIS - Cultural festival",
+      "BOSM - Sports festival",
+      "Practice School conclaves"
+    ],
+    "ResearchFocus": [
+      "Computer Science and AI",
+      "Electronics and Communication",
+      "Engineering Technologies",
+      "Interdisciplinary Research"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities",
+      "Industry partners in Mumbai"
+    ],
+    "SocialInitiatives": [
+      "Merit-based Scholarships (up to 100% fee waiver)",
+      "Need-based Financial Assistance",
+      "Practice School internships"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 0,
+      "Engineering": 0,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 0,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Electronics and Communication Engineering",
+          "Electrical and Electronics Engineering",
+          "Mechanical Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["BITSAT"],
+        "Seats": 400,
+        "FirstYearFeeINR": 500000,
+        "TotalFeesINRApprox": 2200000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 15,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "BITS Entrance"],
+        "FirstYearFeeINR": 200000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "Not applicable"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "MAT", "XAT", "GMAT", "BITS Entrance"],
+        "Seats": 100,
+        "FirstYearFeeINR": 400000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["BITS Entrance"],
+        "Seats": 40,
+        "FirstYearFeeINR": 75000
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 8,
+        "Entrance": ["BITS Entrance", "GATE", "CSIR-NET", "UGC-NET"],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 50000,
+        "SeatsMoreThan": 60
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 90000,
+      "Maximum": 110000,
+      "Note": "Separate from tuition, includes hostel and mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "BITSAT",
+        "Counseling": "Online through BITS admission portal with iterations",
+        "AdditionalTestForBArch": "NATA"
+      },
+      "BDes": {
+        "Exam": "BITSAT",
+        "Counseling": "Online through BITS admission portal"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE or BITS Entrance",
+        "Counseling": "Online application",
+        "AdditionalProcesses": "Personal Interview mandatory"
+      },
+      "MBA": {
+        "Exam": "CAT/MAT/XAT/GMAT or BITS Entrance",
+        "AdditionalSelection": ["Group Discussion", "Personal Interview"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["BITS Entrance", "GATE", "CSIR-NET", "UGC-NET"],
+        "Selection": "Interview and research proposal assessment",
+        "AdditionalNotes": "Master's degree in relevant discipline required"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["Valid Passport", "Equivalence Certificate"],
+      "AdditionalProcess": "Student Visa application"
+    },
+    "ReservationPolicy": "Merit-based admissions with no caste, religion, or state-based reservations. Need-based scholarships available (up to 100% fee waiver for economically weaker meritorious students).",
+    "ApplicationMode": "Online through official BITS admission portal"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BITSAT2025": {
+      "BTechCSEClosingScore": "320-350+",
+      "BTechECEClosingScore": "300-330",
+      "BTechMechClosingScore": "280-310",
+      "BTechCivilClosingScore": "260-290",
+      "Note": "BITSAT scores out of 450. Cutoffs vary by iteration."
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": "Varies",
+      "OBCPercentile": "Varies",
+      "SCSTPercentileMin": "Varies"
+    },
+    "AdditionalDetails": "Admission based on BITSAT scores (out of 450) plus 12th standard marks. Formula: (BITSAT score/450 × 100) + (12th PCM percentage). Cutoffs decrease with each iteration during counseling."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 0,
+      "Recruiters": 0,
+      "HighestPackageINR": 0,
+      "HighestDomesticPackageINR": 0,
+      "OverallAveragePackageINR": 0,
+      "CSEAveragePackageINR": 0,
+      "ECEAveragePackageINR": 0,
+      "MBA median package INR": 0,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Adobe",
+        "Oracle",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Mumbai-based companies",
+        "Financial services companies"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Scientist",
+        "Machine Learning Engineer",
+        "Product Manager",
+        "Full Stack Developer",
+        "Financial Analyst"
+      ],
+      "PlacementPreparation": [
+        "Practice School internships",
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 3,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "LAN connectivity",
+        "Fully furnished rooms",
+        "Mess Halls",
+        "Common Rooms",
+        "Laundry Services",
+        "24x7 Security"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 0,
+      "EJournalsCount": 0,
+      "Features": [
+        "Digital resources",
+        "E-books and E-journals",
+        "Online catalogue",
+        "24x7 access"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 40,
+      "FocusAreas": [
+        "Computer Science",
+        "Electronics",
+        "Electrical Engineering",
+        "Mechanical Engineering"
+      ],
+      "Equipment": [
+        "State-of-the-art instruments",
+        "Advanced computing facilities"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Swimming Pool",
+        "Football Field",
+        "Cricket Pitch",
+        "Tennis Courts",
+        "Basketball Courts",
+        "Badminton Courts",
+        "Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Medical Facility",
+      "Services": [
+        "24x7 Medical Services",
+        "Doctors on campus",
+        "First Aid",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Hostel Messes",
+        "Food Courts",
+        "Cafeterias"
+      ],
+      "Services": [
+        "Varied menu",
+        "Hygienic food preparation"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Banks and ATMs",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 15,
+      "Types": [
+        "Technical",
+        "Cultural",
+        "Sports",
+        "Entrepreneurship"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "Strength": {
+      "FacultyCount": 100,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "DepartmentsCount": 6,
+    "DepartmentsList": [
+      "Computer Science and Engineering",
+      "Electronics and Communication Engineering",
+      "Electrical and Electronics Engineering",
+      "Mechanical Engineering",
+      "Physics",
+      "Mathematics"
+    ],
+    "ResearchCenters": [
+      "Centers of Excellence",
+      "Innovation Labs"
+    ],
+    "Collaborations": [
+      "Industry partners in Mumbai",
+      "International universities"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "Journal publications",
+      "Mentoring students"
+    ],
+    "StudentFeedback": "Positive feedback on new campus with BITS standards and Mumbai location advantages."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Merit-based Scholarships (75%, 50%, 25% fee waiver)",
+      "Need-based Scholarships (up to 100% fee waiver)",
+      "Performance-based Continuation Scholarships"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Partial Fee Waiver"
+    ],
+    "Application": [
+      "BITS Admission Portal",
+      "Financial Aid Office"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.3,
+    "CollegeDuniaReviewsCount": 200,
+    "Careers360Rating": 4.2,
+    "Strengths": [
+      "BITS brand value",
+      "Excellent placement record",
+      "Strong industry connections in Mumbai",
+      "Practice School system",
+      "Strategic location in financial capital"
+    ],
+    "Weaknesses": [
+      "High fee structure",
+      "Newest campus, still developing"
+    ],
+    "ReturnOnInvestment": "Good ROI expected with BITS brand and Mumbai location"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student community from across India",
+    "CulturalTraditions": [
+      "Practice School culture",
+      "Merit-based community"
+    ],
+    "Festivals": [
+      "APOGEE - Technical Festival",
+      "OASIS - Cultural Festival",
+      "BOSM - Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Technical Clubs",
+      "Cultural Clubs",
+      "Sports Clubs"
+    ],
+    "OutdoorActivities": [
+      "Sports tournaments",
+      "Cultural events",
+      "Mumbai city exploration",
+      "Practice School internships"
+    ],
+    "StudentGovernance": "Active student participation in campus activities",
+    "WellbeingFacilities": [
+      "Medical facilities",
+      "Sports facilities",
+      "Recreation areas"
+    ],
+    "Community": "Vibrant community with Mumbai lifestyle and academic excellence"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 2024,
+    "Founder": "BITS Pilani",
+    "InitialFocus": "Extending BITS excellence to Mumbai",
+    "Evolution": [
+      "2024: Established as newest BITS campus",
+      "Growing into quality technical institute"
+    ],
+    "Legacy": "Newest campus maintaining BITS Pilani standards",
+    "Heritage": "Modern campus in financial capital of India"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Computer Science and AI",
+      "Electronics and Communication",
+      "Engineering Technologies"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Growing research output aligned with BITS Pilani standards",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Industry partners in Mumbai",
+      "International universities"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": false
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "Admissions 2025",
+      "Date": "2025",
+      "Details": "BITSAT based admissions"
+    },
+    {
+      "RecurringEvents": [
+        "Technical festivals (annually)",
+        "Cultural festivals (annually)",
+        "Sports festivals"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.bits-pilani.ac.in/mumbai",
+    "Address": "BITS Pilani, Mumbai Campus, Mumbai - 400076, Maharashtra, India",
+    "Phone": "+91-22-23456789",
+    "Emails": {
+      "Registrar": "registrar@mumbai.bits-pilani.ac.in",
+      "Admissions": "admissions@mumbai.bits-pilani.ac.in",
+      "PlacementCell": "placement@mumbai.bits-pilani.ac.in"
+    }
+  }
+}
+

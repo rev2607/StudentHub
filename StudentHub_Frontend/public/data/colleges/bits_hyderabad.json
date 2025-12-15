@@ -1,0 +1,503 @@
+{
+  "Name": "Birla Institute of Technology and Science (BITS) Hyderabad",
+  "Location": {
+    "City": "Hyderabad",
+    "District": "Medchal-Malkajgiri",
+    "State": "Telangana",
+    "Country": "India",
+    "Pin": "500078",
+    "CampusAreaAcres": 200,
+    "Branches": [
+      {
+        "Name": "Hyderabad Campus",
+        "Location": "Jawahar Nagar, Shameerpet Mandal, Hyderabad"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 2008,
+    "OriginalName": "Birla Institute of Technology and Science (BITS) Hyderabad",
+    "Renamed": [],
+    "HistoricalSignificance": "Established as the third campus of BITS Pilani in the IT hub of Hyderabad. The campus specializes in IT and Electronics with a focus on industry integration, leveraging Hyderabad's position as a major technology center in India."
+  },
+  "UniversityType": [
+    "Private Deemed University",
+    "Autonomous Institute",
+    "Multi-Disciplinary Technical University"
+  ],
+  "About": {
+    "Overview": "BITS Hyderabad is one of the premier campuses of BITS Pilani, strategically located in the IT capital of India. The campus maintains the same academic rigor and innovative Practice School system as the main Pilani campus, with a specialized focus on IT and Electronics. The location provides excellent opportunities for industry collaboration, internships, and placements.",
+    "StudentStrength": "Over 3,000 students",
+    "MajorEvents": [
+      "APOGEE - Technical festival",
+      "OASIS - Cultural festival",
+      "BOSM - Sports festival",
+      "Practice School conclaves"
+    ],
+    "ResearchFocus": [
+      "Computer Science and AI",
+      "Electronics and Communication",
+      "IT/Electronics hub",
+      "Interdisciplinary Research"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "International universities",
+      "Industry partners in Hyderabad"
+    ],
+    "SocialInitiatives": [
+      "Merit-based Scholarships (up to 100% fee waiver)",
+      "Need-based Financial Assistance",
+      "Practice School internships"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 0,
+      "Engineering": 0,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 0,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "Electronics and Communication Engineering",
+          "Electrical and Electronics Engineering",
+          "Mechanical Engineering",
+          "Chemical Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["BITSAT"],
+        "Seats": 700,
+        "FirstYearFeeINR": 500000,
+        "TotalFeesINRApprox": 2200000
+      },
+      "BArch": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 25,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "BITS Entrance"],
+        "FirstYearFeeINR": 200000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "SeatsVaries": false,
+        "FeeInformation": "Not applicable"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "MAT", "XAT", "GMAT", "BITS Entrance"],
+        "Seats": 150,
+        "FirstYearFeeINR": 400000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["BITS Entrance"],
+        "Seats": 60,
+        "FirstYearFeeINR": 75000
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 12,
+        "Entrance": ["BITS Entrance", "GATE", "CSIR-NET", "UGC-NET"],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 50000,
+        "SeatsMoreThan": 120
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 90000,
+      "Maximum": 110000,
+      "Note": "Separate from tuition, includes hostel and mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "BITSAT",
+        "Counseling": "Online through BITS admission portal with iterations",
+        "AdditionalTestForBArch": "NATA"
+      },
+      "BDes": {
+        "Exam": "BITSAT",
+        "Counseling": "Online through BITS admission portal"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE or BITS Entrance",
+        "Counseling": "Online application",
+        "AdditionalProcesses": "Personal Interview mandatory"
+      },
+      "MBA": {
+        "Exam": "CAT/MAT/XAT/GMAT or BITS Entrance",
+        "AdditionalSelection": ["Group Discussion", "Personal Interview"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["BITS Entrance", "GATE", "CSIR-NET", "UGC-NET"],
+        "Selection": "Interview and research proposal assessment",
+        "AdditionalNotes": "Master's degree in relevant discipline required"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["Valid Passport", "Equivalence Certificate"],
+      "AdditionalProcess": "Student Visa application"
+    },
+    "ReservationPolicy": "Merit-based admissions with no caste, religion, or state-based reservations. Need-based scholarships available (up to 100% fee waiver for economically weaker meritorious students).",
+    "ApplicationMode": "Online through official BITS admission portal"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BITSAT2025": {
+      "BTechCSEClosingScore": "330-360+",
+      "BTechECEClosingScore": "310-340",
+      "BTechMechClosingScore": "290-320",
+      "BTechCivilClosingScore": "270-300",
+      "Note": "BITSAT scores out of 450. Cutoffs vary by iteration."
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": "Varies",
+      "OBCPercentile": "Varies",
+      "SCSTPercentileMin": "Varies"
+    },
+    "AdditionalDetails": "Admission based on BITSAT scores (out of 450) plus 12th standard marks. Formula: (BITSAT score/450 × 100) + (12th PCM percentage). Cutoffs decrease with each iteration during counseling."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 0,
+      "Recruiters": 0,
+      "HighestPackageINR": 0,
+      "HighestDomesticPackageINR": 0,
+      "OverallAveragePackageINR": 0,
+      "CSEAveragePackageINR": 0,
+      "ECEAveragePackageINR": 0,
+      "MBA median package INR": 0,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "Google",
+        "Microsoft",
+        "Amazon",
+        "Adobe",
+        "Oracle",
+        "Intel",
+        "Qualcomm",
+        "Samsung",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Hyderabad IT companies"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Scientist",
+        "Machine Learning Engineer",
+        "Product Manager",
+        "Full Stack Developer",
+        "Electronics Engineer"
+      ],
+      "PlacementPreparation": [
+        "Practice School internships",
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 5,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "LAN connectivity",
+        "Fully furnished rooms",
+        "Mess Halls",
+        "Common Rooms",
+        "Laundry Services",
+        "24x7 Security"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 0,
+      "EJournalsCount": 0,
+      "Features": [
+        "Digital resources",
+        "E-books and E-journals",
+        "Online catalogue",
+        "24x7 access"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 60,
+      "FocusAreas": [
+        "Computer Science",
+        "Electronics",
+        "Electrical Engineering",
+        "Mechanical Engineering",
+        "Chemical Engineering"
+      ],
+      "Equipment": [
+        "State-of-the-art instruments",
+        "Advanced computing facilities",
+        "IT/Electronics specialized labs"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Swimming Pool",
+        "Football Field",
+        "Cricket Pitch",
+        "Tennis Courts",
+        "Basketball Courts",
+        "Badminton Courts",
+        "Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Medical Facility",
+      "Services": [
+        "24x7 Medical Services",
+        "Doctors on campus",
+        "First Aid",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Hostel Messes",
+        "Food Courts",
+        "Cafeterias"
+      ],
+      "Services": [
+        "Varied menu",
+        "Hygienic food preparation"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Banks and ATMs",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 25,
+      "Types": [
+        "Technical",
+        "Cultural",
+        "Sports",
+        "Entrepreneurship"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "Strength": {
+      "FacultyCount": 200,
+      "PhDs": "Majority",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "DepartmentsCount": 9,
+    "DepartmentsList": [
+      "Computer Science and Engineering",
+      "Electronics and Communication Engineering",
+      "Electrical and Electronics Engineering",
+      "Mechanical Engineering",
+      "Chemical Engineering",
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Management Studies"
+    ],
+    "ResearchCenters": [
+      "Centers of Excellence",
+      "IT/Electronics Innovation Labs"
+    ],
+    "Collaborations": [
+      "Industry partners in Hyderabad",
+      "International universities"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "Journal publications",
+      "Mentoring students"
+    ],
+    "StudentFeedback": "Positive feedback on IT/Electronics focus and industry connections in Hyderabad."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Merit-based Scholarships (75%, 50%, 25% fee waiver)",
+      "Need-based Scholarships (up to 100% fee waiver)",
+      "Performance-based Continuation Scholarships"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Partial Fee Waiver"
+    ],
+    "Application": [
+      "BITS Admission Portal",
+      "Financial Aid Office"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.4,
+    "CollegeDuniaReviewsCount": 1000,
+    "Careers360Rating": 4.3,
+    "Strengths": [
+      "IT/Electronics specialization",
+      "Excellent placement record",
+      "Strong industry connections in Hyderabad",
+      "Practice School system",
+      "Strategic location in IT hub"
+    ],
+    "Weaknesses": [
+      "High fee structure",
+      "Newer campus compared to Pilani"
+    ],
+    "ReturnOnInvestment": "Excellent ROI with strong placements and IT industry connections"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student community from across India",
+    "CulturalTraditions": [
+      "Practice School culture",
+      "Merit-based community"
+    ],
+    "Festivals": [
+      "APOGEE - Technical Festival",
+      "OASIS - Cultural Festival",
+      "BOSM - Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Technical Clubs",
+      "Cultural Clubs",
+      "Sports Clubs"
+    ],
+    "OutdoorActivities": [
+      "Sports tournaments",
+      "Cultural events",
+      "Industry visits",
+      "Practice School internships"
+    ],
+    "StudentGovernance": "Active student participation in campus activities",
+    "WellbeingFacilities": [
+      "Medical facilities",
+      "Sports facilities",
+      "Recreation areas"
+    ],
+    "Community": "Vibrant community with IT focus and industry integration"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 2008,
+    "Founder": "BITS Pilani",
+    "InitialFocus": "IT/Electronics education in Hyderabad",
+    "Evolution": [
+      "2008: Established as third BITS campus",
+      "Growing into IT/Electronics hub"
+    ],
+    "Legacy": "IT/Electronics specialized campus maintaining BITS Pilani standards",
+    "Heritage": "Modern campus in IT capital of India"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Computer Science and AI",
+      "Electronics and Communication",
+      "IT/Electronics hub"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Growing research output in IT and Electronics aligned with industry needs",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Industry partners in Hyderabad",
+      "International universities"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": false
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "Admissions 2025",
+      "Date": "2025",
+      "Details": "BITSAT based admissions"
+    },
+    {
+      "RecurringEvents": [
+        "Technical festivals (annually)",
+        "Cultural festivals (annually)",
+        "Sports festivals"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.bits-pilani.ac.in/hyderabad",
+    "Address": "BITS Pilani, Hyderabad Campus, Jawahar Nagar, Shameerpet Mandal, Hyderabad - 500078, Telangana, India",
+    "Phone": "+91-40-66303500",
+    "Emails": {
+      "Registrar": "registrar@hyderabad.bits-pilani.ac.in",
+      "Admissions": "admissions@hyderabad.bits-pilani.ac.in",
+      "PlacementCell": "placement@hyderabad.bits-pilani.ac.in"
+    }
+  }
+}
+
