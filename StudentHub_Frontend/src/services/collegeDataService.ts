@@ -1563,6 +1563,24 @@ export const loadIIITKotaData = async (): Promise<IIITKotaData> => {
   }
 };
 
+// IIIT Sri City uses same structure as IIT Roorkee
+export type IIITSriCityData = IITRoorkeeData;
+
+// Function to load IIIT Sri City data
+export const loadIIITSriCityData = async (): Promise<IIITSriCityData> => {
+  try {
+    const response = await fetch('/data/colleges/iiit_sri_city.json');
+    if (!response.ok) {
+      throw new Error('Failed to load IIIT Sri City data');
+    }
+    const data = await response.json();
+    return data as IIITSriCityData;
+  } catch (error) {
+    console.error('Error loading IIIT Sri City data:', error);
+    throw error;
+  }
+};
+
 // Lightweight loader for IIT Madras textual content split into tab sections (legacy support)
 export interface IITMadrasSections {
   overview: string;

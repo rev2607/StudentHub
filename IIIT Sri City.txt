@@ -1,0 +1,165 @@
+IIIT Sri City (Indian Institute of Information Technology, Sri City, Chittoor) is a PPP-model institute of national importance established in 2013, known for strong CSE/ECE programs, a fully residential campus, and consistently rising placements.[1][2]
+
+Below is a compact, well-structured profile you can directly adapt and later expand section-wise for long-form content.
+
+***
+
+## Overview
+
+- IIIT Sri City was set up in 2013 under the Government of India’s IIIT PPP initiative, funded by Government of India, Government of Andhra Pradesh, and industry partners via Sri City Foundation.[3][1]
+- The campus is located inside Sri City, a large integrated business city near Chennai, giving students strong industry exposure through nearby tech, manufacturing and logistics companies.[2][1]
+- The institute focuses on Information Technology and allied fields, with flagship B.Tech programs in Computer Science and Engineering (CSE) and Electronics and Communication Engineering (ECE), plus higher degree programs in specialized areas.[1][2]
+
+***
+
+## Courses and Fee
+
+IIIT Sri City offers undergraduate, postgraduate and doctoral programs centred around IT and electronics.[4][2][1]
+
+### Major Programs
+
+| Level   | Program examples |
+|---------|------------------|
+| UG      | B.Tech in CSE, B.Tech in ECE. [1][2] |
+| PG      | M.Tech / MS by Research in CSE-related areas (AI, data science, etc., as listed in recent brochures). [1][5] |
+| Doctoral | PhD in Computer Science, Electronics and related disciplines. [1][2] |
+
+### Indicative Fee Structure (B.Tech – recent data)
+
+(First-year structure from a leading portal; amounts are approximate and subject to revision each year.)
+
+| Component                          | Approx. amount            |
+|------------------------------------|---------------------------|
+| Tuition fee (per semester)        | Around 1.5–1.6 lakh. [6] |
+| Admission fee (one-time)          | About 15,000. [6] |
+| Caution deposit (refundable)      | About 15,000. [6] |
+| Hostel establishment (per sem.)   | Around 20,000. [6] |
+| Mess fee (per semester)           | Around 20,000. [6] |
+| Medical/insurance (per year)      | Around 2,000. [6] |
+
+- Some sources also list older/alternate fee blocks with lower tuition for specific years or categories; always confirm using the current official fee circular.[6][7]
+- Total annual cost for a typical hosteller is roughly in the 3–3.5 lakh per year band including tuition, hostel and mess, before any scholarships.[6][2]
+
+***
+
+## Admissions
+
+- B.Tech admissions are through JEE Main followed by centralized JoSAA/CSAB counselling, where candidates must choose “Indian Institute of Information Technology, Sri City, Chittoor” and preferred branches.[7][8][2]
+- Eligibility broadly follows JEE Main norms: 10+2 with Physics and Mathematics plus specified subjects, minimum marks as per category, and other central criteria.[8][7]
+
+### Admission Flow (B.Tech)
+
+1. Appear for JEE Main in the relevant year.[7]
+2. Register for JoSAA counselling, fill in IIIT Sri City and branch choices.[2][8]
+3. Seat allotment as per rank, category, quota and preferences; then report for document verification and fee payment.[2]
+
+- Higher degree admissions (M.Tech/PhD) typically use GATE or equivalent national exams plus institute-level shortlisting and interviews.[5][1]
+- Cut-offs for CSE are usually tighter than ECE, reflecting demand and placement trends; ranks vary by year, quota and category.[8][6][2]
+
+***
+
+## Placements
+
+IIIT Sri City has developed a strong placement record among newer IIITs, particularly for CSE.[9][6][2]
+
+### Recent Placement Snapshot (B.Tech – indicative)
+
+| Metric                            | Recent trend / range |
+|----------------------------------|----------------------|
+| Highest package (B.Tech)         | Reported up to around 1+ crore LPA in recent drives. [9] |
+| Average package (overall B.Tech) | In the mid–high teens LPA range across branches, higher for CSE. [9][2] |
+| Placement percentage             | Generally high for CSE and good for ECE, with most eligible students placed. [9][2] |
+
+- Recruiters include product-based software firms, IT services, fintech and start-ups, with roles in SDE, data, systems and some core electronics areas.[9][2]
+- The Training and Placement Cell also coordinates internships, industry projects and soft skills sessions, which helps students get interview-ready.[6][2]
+
+***
+
+## Rankings
+
+- IIIT Sri City is recognised as an “Institute of National Importance” under the IIIT (PPP) Act, giving it strong academic and legal standing even if it does not always appear prominently in every national ranking table.[10][1]
+- In most independent “IIIT lists”, it is placed in the upper–middle cluster of IIITs, below very old players like IIIT Hyderabad/Allahabad but competitive with many newer government tech institutes.[4][8][2]
+
+- Articles discussing IIITs often highlight IIIT Sri City for its industry-connected location in Sri City and rising placement outcomes, which positively influence its practical reputation among JEE aspirants.[1][8][2]
+
+***
+
+## Facilities
+
+IIIT Sri City is a fully residential, WiFi-enabled campus with academic and living facilities designed around tech education.[11][12][13]
+
+### Academic Infrastructure
+
+- Smart classrooms, computing labs and project spaces support programming, electronics and research work, with campus-wide internet connectivity.[11][2]
+- The central library offers technical books, journals and digital resources, used extensively for coursework, project research and competitive programming preparation.[11][2]
+
+### Hostel and Campus Life
+
+| Facility          | Key details |
+|-------------------|-------------|
+| Hostels           | Separate hostels for boys and girls, with 2–3 seater rooms, basic furniture and security. [11][14][15] |
+| Hostel fee        | Rough range of 17,000–22,000 per semester (hostel) plus about 17,000–20,000 per semester for mess, depending on block/year. [14][15] |
+| Amenities         | Dining halls, recreation/common rooms, washing machines, filtered water, WiFi (some students mention scope for improvement). [14][15] |
+| Campus services   | Cafeteria, bus facility (especially for girls’ hostel where applicable), medical support and basic sports facilities. [11][12][14] |
+
+- Co-curricular life includes clubs for cybersecurity, dance, literature and other interests, along with cultural and technical events that add to the residential campus experience.[16][11]
+
+***
+
+## Faculty
+
+- Core faculty members are largely PhD holders or experienced academicians in Computer Science, Electronics, Mathematics and related domains, backed by visiting faculty and industry experts from Sri City companies.[4][1]
+- Research and teaching interests span algorithms, AI/ML, data science, computer networks, embedded systems and communication engineering, which translates into advanced electives and project opportunities.[1][2]
+
+### Typical Academic Divisions
+
+| Area / Department                 | Focus |
+|----------------------------------|-------|
+| Computer Science & Engineering   | Core CS courses, programming, systems, AI/ML, data science. [1][2] |
+| Electronics & Communication Engg | Digital/analog electronics, communication systems, embedded systems, VLSI. [1][5] |
+| Mathematics & Basic Sciences     | Engineering mathematics, statistics, optimisation, foundational sciences. [1] |
+| Humanities & Management          | Communication skills, soft skills, economics, management and ethics. [1][4] |
+
+- With smaller batches compared to big universities, students generally get reasonable access to faculty for academic help, research guidance and recommendation letters.[2][4]
+
+***
+
+## Reviews (Student Perspective)
+
+- Student reviews on major portals often praise the coding culture, supportive faculty and strong placements for CSE, while mentioning that workload is high and expectations in core courses are rigorous.[8][6][2]
+- Positives highlighted: good hostel life, active clubs, helpful seniors, strong peer group, and the advantage of being located in an emerging industrial region.[14][11][2]
+- Common concerns: academic pressure, limited “big-city” social life as Sri City is a planned industrial region, and the usual mess/hostel issues that vary by batch.[15][14][2]
+
+***
+
+## Contact
+
+You can direct students and parents to the official contact channels below.  
+
+- Official website: https://www.iiits.ac.in[1]
+- Address: Indian Institute of Information Technology, Sri City, Chittoor, 630 Gnan Marg, Sri City, Chittoor District, Andhra Pradesh – 517646, India.[17][3]
+- General phone / helpline: A listed toll-free support number is 73064 73364 (for contact support).[16]
+- Email (from official contact page): admin/office contacts and specific department emails are provided on the institute website’s contact section for admissions, academics and T&P queries.[17][3]
+
+For your StudentHub pages, each heading above can be expanded into a dedicated, longer section (Overview, Courses & Fees, Admissions, Placements, Campus Life, Reviews) while keeping this structure and tables as the backbone.
+
+[1](https://www.iiits.ac.in)
+[2](https://collegedunia.com/university/55789-indian-institute-of-information-technology-sri-city-iiit-sri-city)
+[3](https://iiits.ac.in/contact-us/)
+[4](https://www.collegepucho.com/colleges/iiit-sri-city-indian-institute-of-information-technology-chittoor-9004381)
+[5](https://www.kollegeapply.com/college/iiit-sri-city-chittoor-me-mtech)
+[6](https://www.shiksha.com/college/iiit-sri-city-indian-institute-of-information-technology-chittoor-39366)
+[7](https://www.aakash.ac.in/blog/indian-institute-of-information-technology-iiit-sri-city-chittoor-admissions-eligibility-criteria-courses-fees-structure-and-placement-statistics/)
+[8](https://www.getmyuni.com/college/indian-institue-of-information-technology-iiit-sri-city-chittoor)
+[9](https://www.shiksha.com/college/iiit-sri-city-indian-institute-of-information-technology-chittoor-39366/placement)
+[10](https://en.wikipedia.org/wiki/Indian_Institute_of_Information_Technology,_Sri_City)
+[11](https://www.careers360.com/university/indian-institute-of-information-technology-sri-city/facilities)
+[12](https://www.collegedekho.com/colleges/iiit-sri-city-campus)
+[13](https://www.iiits.ac.in/home/infrastructure/hostels-dining/)
+[14](https://www.collegebatch.com/11514-indian-institute-of-information-technology-sri-city-hostel-fees-facilities-chittoor)
+[15](https://collegedunia.com/university/55789-indian-institute-of-information-technology-sri-city-iiit-sri-city/hostel)
+[16](https://www.indiacustomercare.com/iiit-sri-city-chittoor-contact-no)
+[17](https://www.iiits.ac.in/contact-us/)
+[18](https://www.selectyouruniversity.com/college/indian-institute-of-information-technology-iiit-sri-city-cid-55789)
+[19](https://www.chunocollege.com/college/iiit-sri-city-indian-institute-of-information-technology)
+[20](https://cep.digivarsity.com/iiit-sricity/contact-us.html)

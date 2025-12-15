@@ -105,6 +105,7 @@ import IIITKotayamPage from "./pages/Colleges/IIITKotayamPage";
 import IIITAgartalaPage from "./pages/Colleges/IIITAgartalaPage";
 import IIITSonepatPage from "./pages/Colleges/IIITSonepatPage";
 import IIITKotaPage from "./pages/Colleges/IIITKotaPage";
+import IIITSriCityPage from "./pages/Colleges/IIITSriCityPage";
 import AboutPage from "./pages/AboutPage/AboutPage";
 
 // import Search from "./pages/Other/Search";
@@ -203,6 +204,7 @@ function App() {
             <Route path="/colleges/iiit-agartala" element={<IIITAgartalaPage />} />
             <Route path="/colleges/iiit-sonepat" element={<IIITSonepatPage />} />
             <Route path="/colleges/iiit-kota" element={<IIITKotaPage />} />
+            <Route path="/colleges/iiit-sri-city" element={<IIITSriCityPage />} />
             <Route path="/colleges/amity-noida" element={<AmityNoidaPage />} />
             <Route path="/colleges/bits-pilani" element={<BITSPilaniPage />} />
             <Route path="/colleges/srm" element={<SRMPage />} />
