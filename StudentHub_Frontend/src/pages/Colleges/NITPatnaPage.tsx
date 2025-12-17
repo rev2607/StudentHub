@@ -2638,7 +2638,7 @@ const NITPatnaPage: React.FC = () => {
           nanotechnology and biomedical engineering, these hubs connect faculty with national missions and industry labs.
         </p>
         <div className="grid md:grid-cols-2 gap-4">
-          {collegeData.ResearchAndInnovation.ResearchCenters.map((center: string, index: number) => (
+          {collegeData.FacultyAndDepartments.ResearchCenters.map((center: string, index: number) => (
             <div key={index} className="flex items-center text-sm">
               <ChevronRight className="w-4 h-4 mr-2 text-green-600" />
               {center}
@@ -2652,10 +2652,10 @@ const NITPatnaPage: React.FC = () => {
         <h3 className="text-xl font-semibold mb-4">Global Collaborations</h3>
         <p className="text-gray-700 mb-3">
           International MoUs translate into joint advisement, shared facilities and co‑authored work. They also open
-          mobility pathways for doctoral candidates and strengthen the institute’s visibility in global rankings.
+          mobility pathways for doctoral candidates and strengthen the institute's visibility in global rankings.
         </p>
         <div className="grid md:grid-cols-2 gap-4">
-          {collegeData.ResearchAndInnovation.Collaborations.map((collab: string, index: number) => (
+          {collegeData.FacultyAndDepartments.Collaborations.map((collab: string, index: number) => (
             <div key={index} className="flex items-center text-sm">
               <ChevronRight className="w-4 h-4 mr-2 text-purple-600" />
               {collab}
