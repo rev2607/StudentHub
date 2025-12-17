@@ -1,0 +1,510 @@
+{
+  "Name": "Vellore Institute of Technology (VIT) Bhopal",
+  "Location": {
+    "City": "Bhopal",
+    "District": "Bhopal",
+    "State": "Madhya Pradesh",
+    "Country": "India",
+    "Pin": "466114",
+    "CampusAreaAcres": 250,
+    "Branches": [
+      {
+        "Name": "Bhopal Campus",
+        "Location": "Bhopal, Madhya Pradesh"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 2017,
+    "OriginalName": "VIT University Bhopal",
+    "Renamed": [
+      {
+        "Year": 2017,
+        "Name": "Vellore Institute of Technology (VIT) Bhopal"
+      }
+    ],
+    "HistoricalSignificance": "Established as the fourth campus of VIT, located in Bhopal, Madhya Pradesh. The campus extends VIT's excellence to central India, maintaining the same academic standards, FFCS system, and industry connections as other VIT campuses."
+  },
+  "UniversityType": [
+    "Private Deemed University",
+    "Autonomous Institute"
+  ],
+  "About": {
+    "Overview": "VIT Bhopal is one of the premier campuses of VIT, established to extend the institute's excellence to central India. The campus maintains the same academic rigor, innovative Fully Flexible Credit System (FFCS), and industry connections as other VIT campuses. Located in Bhopal, the campus provides quality technical education with modern infrastructure.",
+    "StudentStrength": "Over 8,000 students",
+    "MajorEvents": [
+      "Riviera - Annual cultural festival",
+      "Gravitas - Technical festival",
+      "VIT Sports Meet"
+    ],
+    "ResearchFocus": [
+      "Artificial Intelligence and Machine Learning",
+      "Data Science and Analytics",
+      "Cybersecurity",
+      "VLSI Design",
+      "Biotechnology",
+      "Renewable Energy"
+    ],
+    "StartupsValuationINR": 0,
+    "GlobalCollaborations": [
+      "Universities across USA, UK, Europe, Australia",
+      "Industry partnerships worldwide"
+    ],
+    "SocialInitiatives": [
+      "Sustainability initiatives",
+      "Green campus initiatives",
+      "Community outreach programs"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 0,
+      "Engineering": 0,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 0,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": "High Performance"
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science and Engineering",
+          "CSE (AI & Machine Learning)",
+          "CSE (AI & Data Engineering)",
+          "CSE (Cyber Security)",
+          "Electrical and Electronics Engineering",
+          "Electronics and Communication Engineering",
+          "Information Technology",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Biotechnology"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["VITEEE"],
+        "Seats": 1500,
+        "FirstYearFeeINR": 198000,
+        "TotalFeesINRApprox": 780000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["NATA"],
+        "Seats": 0,
+        "FirstYearFeeINR": 178000,
+        "TotalFeesINRApprox": 865000
+      },
+      "BDes": {
+        "DurationYears": 0,
+        "Entrance": [],
+        "Seats": 0,
+        "FirstYearFeeINR": 0,
+        "TotalFeesINRApprox": 0
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 20,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "VIT Entrance Test"],
+        "FirstYearFeeINR": 0,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["GATE"],
+        "SeatsVaries": true,
+        "FeeInformation": "Available on official website"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "MAT", "XAT", "NMAT"],
+        "Seats": 0,
+        "FirstYearFeeINR": 0
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Biotechnology"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["VIT Entrance Test"],
+        "FirstYearFeeINR": 0,
+        "Seats": 0
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 8,
+        "Entrance": [
+          "VIT Entrance Test",
+          "Interview",
+          "Research Proposal"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 0,
+        "SeatsMoreThan": 0
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 50000,
+      "Maximum": 80000,
+      "Note": "Varies by accommodation type (AC/Non-AC, sharing)"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "VITEEE",
+        "Counseling": "VIT Counselling",
+        "AdditionalTestForBArch": "NATA"
+      },
+      "BDes": {
+        "Exam": "Not applicable",
+        "Counseling": "Not applicable"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE",
+        "Counseling": "VIT Counselling",
+        "AdditionalProcesses": "Interview for some programs"
+      },
+      "MBA": {
+        "Exam": "CAT/MAT/XAT/NMAT",
+        "AdditionalSelection": ["Group Discussion", "Personal Interview"]
+      },
+      "MSc": {
+        "Exam": ["VIT Entrance Test"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["VIT Entrance Test"],
+        "Selection": "Written test, interview, and research proposal evaluation",
+        "AdditionalNotes": "Must secure faculty supervisor"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["Valid passport", "Academic transcripts"],
+      "AdditionalProcess": "Credential verification"
+    },
+    "ReservationPolicy": "No caste/religion/state-based reservations - purely merit-based. Scholarships available based on performance.",
+    "ApplicationMode": "Online through VIT official website"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {},
+    "CATMBA2025Cutoffs": {},
+    "AdditionalDetails": "VITEEE cutoffs vary by program. CSE at Bhopal campus: Last rank approximately 12,000-15,000."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 0,
+      "Recruiters": 0,
+      "HighestPackageINR": 0,
+      "HighestDomesticPackageINR": 0,
+      "OverallAveragePackageINR": 0,
+      "CSEAveragePackageINR": 0,
+      "ECEAveragePackageINR": 0,
+      "MBA median package INR": 0,
+      "PPOs": 0,
+      "TopRecruiters": [
+        "Microsoft",
+        "Google",
+        "Amazon",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "HCL",
+        "Tech Mahindra",
+        "Cognizant",
+        "Accenture"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Scientist",
+        "Full Stack Developer",
+        "Machine Learning Engineer"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 8,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi and LAN connectivity",
+        "AC and Non-AC options",
+        "Single, double, and triple sharing",
+        "Mess facilities",
+        "TV rooms",
+        "Recreation areas",
+        "Common rooms",
+        "Laundry services",
+        "24x7 security"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 0,
+      "BookCount": 0,
+      "EJournalsCount": 0,
+      "Features": [
+        "Digital resources",
+        "E-books and e-journals",
+        "Reading halls",
+        "24x7 access during examination periods"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 40,
+      "FocusAreas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Data Science",
+        "Cybersecurity",
+        "VLSI Design"
+      ],
+      "Equipment": [
+        "Computer centers",
+        "Specialized equipment for each discipline"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Swimming pools",
+        "Cricket ground",
+        "Football field",
+        "Tennis courts",
+        "Basketball courts",
+        "Badminton courts",
+        "Gymnasium"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Health Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Outpatient facilities",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Hostel messes",
+        "Food courts",
+        "Cafeterias"
+      ],
+      "Services": [
+        "Diverse menu",
+        "Daily meal service"
+      ]
+    },
+    "OtherAmenities": [
+      "Banks and ATMs",
+      "Campus shuttle services",
+      "24/7 Security",
+      "Green campus"
+    ],
+    "StudentClubs": {
+      "Number": 25,
+      "Types": [
+        "Technical clubs",
+        "Cultural clubs",
+        "Sports clubs",
+        "Entrepreneurship clubs"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 7,
+    "DepartmentsList": [
+      "School of Advanced Sciences (SAS)",
+      "School of Bio-Sciences and Technology (SBST)",
+      "School of Civil Engineering (SCE)",
+      "School of Computer Science and Engineering (SCOPE)",
+      "School of Electrical Engineering (SENSE)",
+      "School of Electronics Engineering (SELECT)",
+      "School of Mechanical Engineering (SMEC)"
+    ],
+    "ResearchCenters": [
+      "Research Centers focusing on cutting-edge areas"
+    ],
+    "Strength": {
+      "FacultyCount": 150,
+      "PhDs": "Majority hold Ph.D. degrees",
+      "Patents2024": 0,
+      "ResearchFundsINR2024": 0
+    },
+    "Collaborations": [
+      "International universities",
+      "Industry partners"
+    ],
+    "FacultyActivities": [
+      "Research publications",
+      "Industry collaborations",
+      "Student mentorship"
+    ],
+    "StudentFeedback": "Positive feedback on new campus with VIT standards."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 0,
+      "FullFeeWaiver": false,
+      "IncomeBetweenINR_Lax": 0,
+      "IncomeUpToINR_Lax": 0,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "VITEEE-based scholarships (25-100% fee waiver)",
+      "JEE Main-based scholarships",
+      "Board exam-based scholarships (95%+ marks)"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Fee concessions based on performance"
+    ],
+    "Application": [
+      "Through VITEEE performance",
+      "Based on JEE Main percentiles"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.2,
+    "CollegeDuniaReviewsCount": 500,
+    "Careers360Rating": 4.1,
+    "Strengths": [
+      "Excellent placements",
+      "FFCS system",
+      "Strong industry connections",
+      "Modern infrastructure",
+      "VIT brand value"
+    ],
+    "Weaknesses": [
+      "Newer campus",
+      "Some infrastructure still developing"
+    ],
+    "ReturnOnInvestment": "Good ROI with VIT brand and strong placements"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India",
+    "CulturalTraditions": [
+      "Riviera - Annual cultural festival",
+      "Gravitas - Technical festival"
+    ],
+    "Festivals": [
+      "Riviera - Cultural Festival",
+      "Gravitas - Technical Festival",
+      "VIT Sports Meet"
+    ],
+    "ClubsAndSocieties": [
+      "Technical clubs",
+      "Cultural clubs",
+      "Sports clubs"
+    ],
+    "OutdoorActivities": [
+      "Sports activities",
+      "Campus events",
+      "Hackathons"
+    ],
+    "StudentGovernance": "Student representation in committees",
+    "WellbeingFacilities": [
+      "Sports complex",
+      "Gymnasium",
+      "Recreation areas"
+    ],
+    "Community": "Vibrant campus life with growing student population"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 2017,
+    "Founder": "VIT Group",
+    "InitialFocus": "Extending VIT excellence to central India",
+    "Evolution": [
+      "2017: Established as fourth VIT campus",
+      "Growing into quality technical institute"
+    ],
+    "Legacy": "Bhopal campus maintaining VIT standards",
+    "Heritage": "Modern campus infrastructure in Bhopal"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Artificial Intelligence and Machine Learning",
+      "Data Science and Analytics",
+      "Cybersecurity",
+      "VLSI Design"
+    ],
+    "PatentsFiled2024": 0,
+    "ResearchFundingINR2024": 0,
+    "NotableInnovations": "Growing research output aligned with VIT standards",
+    "Startups": {
+      "Number": 0,
+      "AggregateValuationINR": 0
+    },
+    "Collaborations": [
+      "Industry partners",
+      "International universities"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 0,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "VITEEE 2026",
+      "Date": "2026",
+      "Details": "VIT Engineering Entrance Examination"
+    },
+    {
+      "RecurringEvents": [
+        "Riviera Cultural Fest (annually)",
+        "Gravitas Tech Fest (annually)"
+      ]
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://bhopal.vit.ac.in",
+    "Address": "VIT Bhopal, Bhopal-Indore Highway, Kothrikalan, Sehore, Madhya Pradesh 466114, India",
+    "Phone": "+91 755 665 0644",
+    "Emails": {
+      "Registrar": "registrar@bhopal.vit.ac.in",
+      "Admissions": "admissions@bhopal.vit.ac.in",
+      "PlacementCell": "placement@bhopal.vit.ac.in"
+    }
+  }
+}
+
+

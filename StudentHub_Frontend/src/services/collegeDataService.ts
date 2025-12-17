@@ -580,6 +580,78 @@ export const loadVitVelloreData = async (): Promise<VitVelloreData> => {
   }
 };
 
+// VIT Chennai uses same structure as IIT Roorkee
+export type VitChennaiData = IITRoorkeeData;
+
+// Function to load VIT Chennai data
+export const loadVitChennaiData = async (): Promise<VitChennaiData> => {
+  try {
+    const response = await fetch('/data/colleges/vit_chennai.json');
+    if (!response.ok) {
+      throw new Error('Failed to load VIT Chennai data');
+    }
+    const data = await response.json();
+    return data as VitChennaiData;
+  } catch (error) {
+    console.error('Error loading VIT Chennai data:', error);
+    throw error;
+  }
+};
+
+// VIT Bhopal uses same structure as IIT Roorkee
+export type VitBhopalData = IITRoorkeeData;
+
+// Function to load VIT Bhopal data
+export const loadVitBhopalData = async (): Promise<VitBhopalData> => {
+  try {
+    const response = await fetch('/data/colleges/vit_bhopal.json');
+    if (!response.ok) {
+      throw new Error('Failed to load VIT Bhopal data');
+    }
+    const data = await response.json();
+    return data as VitBhopalData;
+  } catch (error) {
+    console.error('Error loading VIT Bhopal data:', error);
+    throw error;
+  }
+};
+
+// VIT Amaravati uses same structure as IIT Roorkee
+export type VitAmaravatiData = IITRoorkeeData;
+
+// Function to load VIT Amaravati data
+export const loadVitAmaravatiData = async (): Promise<VitAmaravatiData> => {
+  try {
+    const response = await fetch('/data/colleges/vit_amaravati.json');
+    if (!response.ok) {
+      throw new Error('Failed to load VIT Amaravati data');
+    }
+    const data = await response.json();
+    return data as VitAmaravatiData;
+  } catch (error) {
+    console.error('Error loading VIT Amaravati data:', error);
+    throw error;
+  }
+};
+
+// VIT Bangalore uses same structure as IIT Roorkee
+export type VitBangaloreData = IITRoorkeeData;
+
+// Function to load VIT Bangalore data
+export const loadVitBangaloreData = async (): Promise<VitBangaloreData> => {
+  try {
+    const response = await fetch('/data/colleges/vit_bangalore.json');
+    if (!response.ok) {
+      throw new Error('Failed to load VIT Bangalore data');
+    }
+    const data = await response.json();
+    return data as VitBangaloreData;
+  } catch (error) {
+    console.error('Error loading VIT Bangalore data:', error);
+    throw error;
+  }
+};
+
 // Function to get college data by slug
 export const getCollegeDataBySlug = async (slug: string): Promise<IITRoorkeeData | null> => {
   if (slug === 'iit-roorkee') {

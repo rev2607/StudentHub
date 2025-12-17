@@ -2944,12 +2944,20 @@ const IIITGuwahatiPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/IIIT_Agartala_Logo.svg" 
-                    alt="IIIT Agartala Logo" 
+                    src="/images/iiit-guwahati-logo.png" 
+                    alt="IIIT Guwahati Logo" 
                     className="w-full h-full object-contain"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.src = "https://via.placeholder.com/128?text=IIIT+Agartala";
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="white" stroke="#6b7280" stroke-width="2"/><circle cx="50" cy="50" r="35" fill="#fbbf24"/><path d="M 50 20 Q 30 30, 30 50 Q 30 70, 50 60" fill="#dc2626"/><circle cx="50" cy="30" r="5" fill="white"/><path d="M 50 20 Q 70 30, 70 50 Q 70 70, 50 60" fill="#2563eb"/><circle cx="70" cy="50" r="5" fill="white"/><circle cx="50" cy="70" r="5" fill="white"/><text x="50" y="90" font-family="Arial, sans-serif" font-size="7" fill="#6b7280" text-anchor="middle">IIIT GUWAHATI</text>';
+                        parent.appendChild(svg);
+                      }
                     }}
                   />
                 </div>
@@ -3046,7 +3054,7 @@ const IIITGuwahatiPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "IIIT Agartala"}
-        collegeLogo="/data/colleges/IIIT_Agartala_Logo.svg"
+        collegeLogo="/images/iiit-guwahati-logo.png"
       />
 
       {/* Brochure Modal */}

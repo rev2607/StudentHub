@@ -2895,9 +2895,21 @@ const IIITKotaPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/IIIT_Kota_Logo.svg" 
+                    src="/images/iiit-kota-logo.png" 
                     alt="IIIT Kota Logo" 
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="#1e40af" stroke="#3b82f6" stroke-width="2"/><path d="M 30 60 Q 50 30, 70 60 Q 50 50, 30 60" fill="#f97316" stroke="#ea580c" stroke-width="2"/><path d="M 35 65 Q 50 40, 65 65 Q 50 55, 35 65" fill="white" opacity="0.9"/><rect x="45" y="65" width="10" height="8" fill="#1e40af"/><circle cx="50" cy="40" r="5" fill="#1e40af"/><circle cx="40" cy="50" r="3" fill="#1e40af"/><circle cx="60" cy="50" r="3" fill="#1e40af"/><text x="50" y="85" font-family="Arial, sans-serif" font-size="7" fill="white" text-anchor="middle">KOTA</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
                   />
                 </div>
                 <div>
@@ -2993,7 +3005,7 @@ const IIITKotaPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "IIIT Kota"}
-        collegeLogo="/data/colleges/IIIT_Kota_Logo.svg"
+        collegeLogo="/images/iiit-kota-logo.png"
       />
 
       {/* Brochure Modal */}

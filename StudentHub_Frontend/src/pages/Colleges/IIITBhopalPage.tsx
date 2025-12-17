@@ -2895,9 +2895,21 @@ const IIITBhopalPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/IIIT_Bhopal_Logo.svg" 
+                    src="/images/iiit-bhopal-logo.png" 
                     alt="IIIT Bhopal Logo" 
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="#1e40af" stroke="#3b82f6" stroke-width="2"/><circle cx="50" cy="50" r="35" fill="#e5e7eb"/><rect x="30" y="40" width="8" height="30" fill="#f97316"/><rect x="42" y="35" width="8" height="35" fill="white"/><rect x="54" y="30" width="8" height="40" fill="#10b981"/><rect x="66" y="35" width="20" height="8" fill="#1e40af"/><rect x="66" y="50" width="20" height="8" fill="#1e40af"/><circle cx="34" cy="38" r="3" fill="white"/><path d="M 34 35 Q 30 30, 26 30 Q 30 25, 34 30" fill="white" opacity="0.8"/><text x="50" y="85" font-family="Arial, sans-serif" font-size="7" fill="#1e40af" text-anchor="middle">BHOPAL</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
                   />
                 </div>
                 <div>
@@ -2993,7 +3005,7 @@ const IIITBhopalPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "IIIT Bhopal"}
-        collegeLogo="/data/colleges/IIIT_Bhopal_Logo.svg"
+        collegeLogo="/images/iiit-bhopal-logo.png"
       />
 
       {/* Brochure Modal */}

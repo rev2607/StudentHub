@@ -2944,12 +2944,20 @@ const IIITDelhiPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/IIIT_Agartala_Logo.svg" 
-                    alt="IIIT Agartala Logo" 
+                    src="/images/iiit-delhi-logo.png" 
+                    alt="IIIT Delhi Logo" 
                     className="w-full h-full object-contain"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.src = "https://via.placeholder.com/128?text=IIIT+Agartala";
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<rect x="10" y="20" width="12" height="60" fill="#6b7280"/><rect x="26" y="20" width="12" height="60" fill="#6b7280"/><rect x="42" y="20" width="12" height="60" fill="#6b7280"/><rect x="58" y="20" width="12" height="60" fill="#6b7280"/><path d="M 70 20 L 70 80 L 90 50 Z" fill="#14b8a6" stroke="#0d9488" stroke-width="2"/><text x="50" y="95" font-family="Arial, sans-serif" font-size="8" fill="#6b7280" text-anchor="middle">IIITD</text>';
+                        parent.appendChild(svg);
+                      }
                     }}
                   />
                 </div>
@@ -3046,7 +3054,7 @@ const IIITDelhiPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "IIIT Agartala"}
-        collegeLogo="/data/colleges/IIIT_Agartala_Logo.svg"
+        collegeLogo="/images/iiit-delhi-logo.png"
       />
 
       {/* Brochure Modal */}

@@ -2895,9 +2895,21 @@ const IIITNagpurPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/IIIT_Nagpur_Logo.svg" 
+                    src="/images/iiit-nagpur-logo.png" 
                     alt="IIIT Nagpur Logo" 
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<rect x="15" y="30" width="12" height="50" fill="#6b7280"/><rect x="31" y="30" width="12" height="50" fill="#6b7280"/><rect x="47" y="30" width="12" height="50" fill="#6b7280"/><path d="M 63 30 L 63 80 L 85 55 Z" fill="#a855f7" stroke="#9333ea" stroke-width="2"/><circle cx="85" cy="30" r="4" fill="#a855f7"/><path d="M 85 26 Q 80 20, 75 20 Q 80 15, 85 20" fill="#a855f7" opacity="0.6"/><text x="50" y="95" font-family="Arial, sans-serif" font-size="7" fill="#6b7280" text-anchor="middle">IIIT NAGPUR</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
                   />
                 </div>
                 <div>
@@ -2993,7 +3005,7 @@ const IIITNagpurPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "IIIT Nagpur"}
-        collegeLogo="/data/colleges/IIIT_Nagpur_Logo.svg"
+        collegeLogo="/images/iiit-nagpur-logo.png"
       />
 
       {/* Brochure Modal */}

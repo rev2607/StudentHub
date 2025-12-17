@@ -2895,9 +2895,21 @@ const IIITLucknowPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/IIIT_Lucknow_Logo.svg" 
+                    src="/images/iiit-lucknow-logo.png" 
                     alt="IIIT Lucknow Logo" 
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<rect x="15" y="30" width="12" height="50" fill="#6b7280"/><rect x="31" y="30" width="12" height="50" fill="#6b7280"/><rect x="47" y="30" width="12" height="50" fill="#6b7280"/><rect x="63" y="30" width="12" height="50" fill="#6b7280"/><path d="M 20 20 Q 50 10, 80 20 Q 50 30, 20 20" fill="#f97316" stroke="#ea580c" stroke-width="2"/><circle cx="30" cy="15" r="2" fill="#16a34a"/><circle cx="50" cy="12" r="2" fill="#16a34a"/><circle cx="70" cy="15" r="2" fill="#16a34a"/><path d="M 30 15 Q 50 25, 70 15" stroke="#16a34a" stroke-width="1" fill="none"/><text x="50" y="90" font-family="Arial, sans-serif" font-size="7" fill="#2563eb" text-anchor="middle">IIITL</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
                   />
                 </div>
                 <div>
@@ -2993,7 +3005,7 @@ const IIITLucknowPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "IIIT Lucknow"}
-        collegeLogo="/data/colleges/IIIT_Lucknow_Logo.svg"
+        collegeLogo="/images/iiit-lucknow-logo.png"
       />
 
       {/* Brochure Modal */}

@@ -2944,12 +2944,20 @@ const IIITRanchiPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/IIIT_Agartala_Logo.svg" 
-                    alt="IIIT Agartala Logo" 
+                    src="/images/iiit-ranchi-logo.png" 
+                    alt="IIIT Ranchi Logo" 
                     className="w-full h-full object-contain"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.src = "https://via.placeholder.com/128?text=IIIT+Agartala";
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="#2563eb" stroke="#1e40af" stroke-width="3"/><circle cx="50" cy="50" r="35" fill="white"/><circle cx="50" cy="50" r="20" fill="#2563eb"/><circle cx="50" cy="35" r="8" fill="#10b981"/><circle cx="35" cy="50" r="8" fill="#dc2626"/><circle cx="65" cy="50" r="8" fill="#000000"/><rect x="35" y="60" width="30" height="8" rx="2" fill="#2563eb"/><text x="50" y="85" font-family="Arial, sans-serif" font-size="7" fill="white" text-anchor="middle">RANCHI</text>';
+                        parent.appendChild(svg);
+                      }
                     }}
                   />
                 </div>
@@ -3046,7 +3054,7 @@ const IIITRanchiPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "IIIT Agartala"}
-        collegeLogo="/data/colleges/IIIT_Agartala_Logo.svg"
+        collegeLogo="/images/iiit-ranchi-logo.png"
       />
 
       {/* Brochure Modal */}

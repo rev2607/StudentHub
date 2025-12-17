@@ -2895,9 +2895,21 @@ const IIITDharwadPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/IIIT_Dharwad_Logo.svg" 
+                    src="/images/iiit-dharwad-logo.png" 
                     alt="IIIT Dharwad Logo" 
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<rect x="15" y="20" width="8" height="25" fill="#1e40af"/><rect x="27" y="15" width="8" height="30" fill="#1e40af"/><rect x="39" y="10" width="8" height="35" fill="#1e40af"/><rect x="51" y="15" width="8" height="30" fill="#1e40af"/><rect x="63" y="20" width="8" height="25" fill="#1e40af"/><rect x="75" y="15" width="8" height="30" fill="#1e40af"/><rect x="10" y="50" width="80" height="12" fill="#1e40af"/><text x="50" y="62" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">DHARWAD</text><text x="50" y="85" font-family="Arial, sans-serif" font-size="6" fill="#1e40af" text-anchor="middle">ज्ञानेन विकासः</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
                   />
                 </div>
                 <div>
@@ -2993,7 +3005,7 @@ const IIITDharwadPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "IIIT Dharwad"}
-        collegeLogo="/data/colleges/IIIT_Dharwad_Logo.svg"
+        collegeLogo="/images/iiit-dharwad-logo.png"
       />
 
       {/* Brochure Modal */}

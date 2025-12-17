@@ -2895,9 +2895,21 @@ const IIITSonepatPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/IIIT_Sonepat_Logo.svg" 
+                    src="/images/iiit-sonepat-logo.png" 
                     alt="IIIT Sonepat Logo" 
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="#1e40af" stroke="#3b82f6" stroke-width="2"/><circle cx="50" cy="50" r="35" fill="white"/><path d="M 50 20 Q 30 30, 30 50 Q 30 70, 50 60 Q 70 70, 70 50 Q 70 30, 50 20" fill="#f59e0b" stroke="#d97706" stroke-width="2"/><circle cx="50" cy="50" r="12" fill="#1e40af"/><circle cx="50" cy="35" r="3" fill="white"/><circle cx="40" cy="45" r="2" fill="white"/><circle cx="60" cy="45" r="2" fill="white"/><circle cx="50" cy="55" r="2" fill="white"/><text x="50" y="85" font-family="Arial, sans-serif" font-size="7" fill="#1e40af" text-anchor="middle">SONEPAT</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
                   />
                 </div>
                 <div>
@@ -2993,7 +3005,7 @@ const IIITSonepatPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "IIIT Sonepat"}
-        collegeLogo="/data/colleges/IIIT_Sonepat_Logo.svg"
+        collegeLogo="/images/iiit-sonepat-logo.png"
       />
 
       {/* Brochure Modal */}

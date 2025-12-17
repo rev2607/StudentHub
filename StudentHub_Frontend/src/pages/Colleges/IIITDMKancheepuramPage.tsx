@@ -55,6 +55,7 @@ const IIITDMKancheepuramPage: React.FC = () => {
   const mainContentRef = useRef<HTMLDivElement | null>(null);
   const sidebarRef = useRef<HTMLDivElement | null>(null);
   const [isLeadModalOpen, setIsLeadModalOpen] = useState(false);
+  const [logoError, setLogoError] = useState(false);
   const [leadForm, setLeadForm] = useState({
     fullName: "",
     email: "",
@@ -2944,12 +2945,20 @@ const IIITDMKancheepuramPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/IIITDM_Agartala_Logo.svg" 
-                    alt="IIITDM Agartala Logo" 
+                    src="/images/iiitdm-kancheepuram-logo.png" 
+                    alt="IIITDM Kancheepuram Logo" 
                     className="w-full h-full object-contain"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.src = "https://via.placeholder.com/128?text=IIITDM+Agartala";
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="40" fill="#059669" stroke="#10b981" stroke-width="3"/><circle cx="50" cy="50" r="25" fill="none" stroke="white" stroke-width="2"/><text x="50" y="35" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white" text-anchor="middle">IIITDM</text><text x="50" y="70" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">KANCHEEPURAM</text>';
+                        parent.appendChild(svg);
+                      }
                     }}
                   />
                 </div>
@@ -3046,7 +3055,7 @@ const IIITDMKancheepuramPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "IIITDM Agartala"}
-        collegeLogo="/data/colleges/IIITDM_Agartala_Logo.svg"
+        collegeLogo="/images/iiitdm-kancheepuram-logo.png"
       />
 
       {/* Brochure Modal */}

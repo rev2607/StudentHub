@@ -2935,7 +2935,7 @@ const NITSilcharPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/images/nit-trichy-logo.png" 
+                    src="/images/nit-silchar-logo.png" 
                     alt="NIT Silchar Logo" 
                     className="w-full h-full object-contain"
                   />
@@ -3033,7 +3033,7 @@ const NITSilcharPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "NIT Silchar"}
-        collegeLogo="/images/nit-trichy-logo.png"
+        collegeLogo="/images/nit-silchar-logo.png"
       />
 
       {/* Brochure Modal */}

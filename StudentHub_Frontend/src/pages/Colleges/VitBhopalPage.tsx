@@ -15,8 +15,8 @@ import {
 import AdmissionPredictorModal from "../../components/AdmissionPredictorModal";
 import BrochureModal from "../../components/BrochureModal";
 
-// Import IIIT Hyderabad data service
-import { loadIIITHyderabadData, type IIITHyderabadData } from "../../services/collegeDataService";
+// Import VIT Bhopal data service
+import { loadVitBhopalData, type VitBhopalData } from "../../services/collegeDataService";
 
 interface TabProps {
   label: string;
@@ -44,9 +44,9 @@ const InfoCard: React.FC<{ label: string; value: string | number }> = ({ label, 
   </div>
 );
 
-const IIITHyderabadPage: React.FC = () => {
+const VitBhopalPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState("overview");
-  const [collegeData, setCollegeData] = useState<IIITHyderabadData | null>(null);
+  const [collegeData, setCollegeData] = useState<VitBhopalData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isPredictorModalOpen, setIsPredictorModalOpen] = useState(false);
@@ -55,7 +55,6 @@ const IIITHyderabadPage: React.FC = () => {
   const mainContentRef = useRef<HTMLDivElement | null>(null);
   const sidebarRef = useRef<HTMLDivElement | null>(null);
   const [isLeadModalOpen, setIsLeadModalOpen] = useState(false);
-  const [logoError, setLogoError] = useState(false);
   const [leadForm, setLeadForm] = useState({
     fullName: "",
     email: "",
@@ -78,7 +77,7 @@ const IIITHyderabadPage: React.FC = () => {
     const loadData = async () => {
       try {
         setLoading(true);
-        const data = await loadIIITHyderabadData();
+        const data = await loadVitBhopalData();
         setCollegeData(data);
         
         // Set page title
@@ -91,7 +90,7 @@ const IIITHyderabadPage: React.FC = () => {
         document.head.appendChild(meta);
       } catch (err) {
         setError('Failed to load college data');
-        console.error('Error loading IIIT Hyderabad data:', err);
+        console.error('Error loading VIT Bhopal data:', err);
       } finally {
         setLoading(false);
       }
@@ -122,7 +121,7 @@ const IIITHyderabadPage: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLeadModalOpen(true);
-      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_open', page: 'iiit_hyderabad' } })); } catch {}
+      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_open', page: 'vit_bhopal' } })); } catch {}
     }, 10000);
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setIsLeadModalOpen(false); };
     window.addEventListener('keydown', onKey);
@@ -149,10 +148,10 @@ const IIITHyderabadPage: React.FC = () => {
         body: JSON.stringify({
           ...leadForm,
           college: collegeData?.Name,
-          source: 'iiit_hyderabad_page',
+          source: 'vit_bhopal_page',
         })
       });
-      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_submit', page: 'iiit_hyderabad' } })); } catch {}
+      try { window.dispatchEvent(new CustomEvent('analytics', { detail: { event: 'lead_submit', page: 'vit_bhopal' } })); } catch {}
       setIsLeadModalOpen(false);
     } catch (e) {
       // noop: could show toast
@@ -225,7 +224,7 @@ const IIITHyderabadPage: React.FC = () => {
       {/* Admission Predictor CTA (moved to top) */}
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Predict Your Chances</h3>
-        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for IIIT Hyderabad based on your rank and category.</p>
+        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for VIT Bhopal based on your rank and category.</p>
         <button onClick={() => setIsPredictorModalOpen(true)} className="w-full px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Try Admission Predictor</button>
       </div>
 
@@ -236,14 +235,14 @@ const IIITHyderabadPage: React.FC = () => {
           <div className="flex gap-3">
             <img src="/default-news.jpg" alt="News" className="w-16 h-16 object-cover rounded-lg flex-shrink-0" />
             <div className="flex-1 min-w-0">
-              <h4 className="text-sm font-medium text-gray-900 line-clamp-2">IIIT Hyderabad Begins PhD Admissions 2025-26</h4>
+              <h4 className="text-sm font-medium text-gray-900 line-clamp-2">VITEEE 2026 Registration Opens</h4>
               <p className="text-xs text-gray-500 mt-1">2 days ago</p>
             </div>
           </div>
           <div className="flex gap-3">
             <img src="/default-news.jpg" alt="News" className="w-16 h-16 object-cover rounded-lg flex-shrink-0" />
             <div className="flex-1 min-w-0">
-              <h4 className="text-sm font-medium text-gray-900 line-clamp-2">CAT 2025 Registration Opens</h4>
+              <h4 className="text-sm font-medium text-gray-900 line-clamp-2">VIT Bhopal Placements 2025: 409 Recruiters, 10,458 Offers</h4>
               <p className="text-xs text-gray-500 mt-1">5 days ago</p>
             </div>
           </div>
@@ -253,26 +252,26 @@ const IIITHyderabadPage: React.FC = () => {
 
       {/* Top Courses */}
       <div className="bg-white rounded-xl shadow-sm p-8">
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">Top Courses at IIIT Hyderabad</h3>
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Top Courses at VIT Bhopal</h3>
         <div className="space-y-3">
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
                 <p className="font-medium text-gray-900">B.Tech CSE</p>
-                <p className="text-xs text-gray-500">₹8.87L - 11.09L</p>
+                <p className="text-xs text-gray-500">₹7.80L (4 years)</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
-                <p className="font-medium text-gray-900">M.Tech CSE</p>
-                <p className="text-xs text-gray-500">₹65,200</p>
+                <p className="font-medium text-gray-900">B.Tech ECE</p>
+                <p className="text-xs text-gray-500">₹7.80L (4 years)</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
-                <p className="font-medium text-gray-900">MBA</p>
-                <p className="text-xs text-gray-500">₹2.3L</p>
+                <p className="font-medium text-gray-900">B.Arch</p>
+                <p className="text-xs text-gray-500">₹8.65L (5 years)</p>
             </div>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </div>
@@ -306,26 +305,22 @@ const IIITHyderabadPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Entrance Resources</h3>
         <div className="space-y-2 text-sm">
-          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://jeeadv.ac.in" target="_blank" rel="noopener noreferrer">
-            <span className="font-medium text-gray-900">JEE Advanced (UG)</span>
+          <Link to="/exams/viteee" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">VITEEE (UG)</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
-          </a>
-          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://josaa.nic.in" target="_blank" rel="noopener noreferrer">
-            <span className="font-medium text-gray-900">JoSAA Counseling</span>
+          </Link>
+          <Link to="/exams/nata" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">NATA (B.Arch)</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
-          </a>
-          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://gate.iitr.ac.in" target="_blank" rel="noopener noreferrer">
+          </Link>
+          <Link to="/exams/gate" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
             <span className="font-medium text-gray-900">GATE (PG Engineering)</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
-          </a>
-          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://iimcat.ac.in" target="_blank" rel="noopener noreferrer">
+          </Link>
+          <Link to="/exams/cat" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
             <span className="font-medium text-gray-900">CAT (MBA)</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
-          </a>
-          <a className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors" href="https://jam.iitm.ac.in" target="_blank" rel="noopener noreferrer">
-            <span className="font-medium text-gray-900">IIT JAM (M.Sc)</span>
-            <ChevronRight className="w-4 h-4 text-gray-400" />
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -334,12 +329,12 @@ const IIITHyderabadPage: React.FC = () => {
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Upcoming Events</h3>
         <div className="space-y-3 text-sm">
           <div className="p-3 bg-gray-50 rounded-lg">
-            <div className="font-medium text-gray-900">Thomso Cultural Festival</div>
-            <div className="text-gray-600">Nov • Workshops, concerts, competitions</div>
+            <div className="font-medium text-gray-900">Riviera Cultural Festival</div>
+            <div className="text-gray-600">Annual • Workshops, concerts, competitions</div>
               </div>
           <div className="p-3 bg-gray-50 rounded-lg">
-            <div className="font-medium text-gray-900">Cognizance Tech Fest</div>
-            <div className="text-gray-600">Mar • Hackathons, keynotes, expo</div>
+            <div className="font-medium text-gray-900">Gravitas Tech Fest</div>
+            <div className="text-gray-600">Annual • Hackathons, keynotes, expo</div>
           </div>
         </div>
       </div>
@@ -348,10 +343,11 @@ const IIITHyderabadPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Scholarships</h3>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-          <li>Merit‑cum‑Means (UG)</li>
-          <li>EWS Tuition Fee Waiver</li>
-          <li>SC/ST Scholarships</li>
-          <li>Industry‑sponsored Fellowships (PG/PhD)</li>
+          <li>VITEEE-based scholarships (25-100% fee waiver)</li>
+          <li>JEE Main-based scholarships</li>
+          <li>Board exam-based scholarships (95%+ marks)</li>
+          <li>Sports quota scholarships</li>
+          <li>Need-based scholarships</li>
         </ul>
       </div>
 
@@ -361,19 +357,19 @@ const IIITHyderabadPage: React.FC = () => {
         <div className="grid grid-cols-2 gap-3 text-sm">
           <div className="p-3 bg-gray-50 rounded-lg">
             <div className="text-gray-600">B.Tech CSE</div>
-            <div className="font-medium text-gray-900">AIR {collegeData?.CutoffInformation.JEEAdvanced2025.BTechCSEClosingAIR}</div>
+            <div className="font-medium text-gray-900">Rank 8,000-9,000</div>
           </div>
           <div className="p-3 bg-gray-50 rounded-lg">
-            <div className="text-gray-600">DS & AI</div>
-            <div className="font-medium text-gray-900">AIR {collegeData?.CutoffInformation.JEEAdvanced2025.DataScienceAIClosingAIR}</div>
+            <div className="text-gray-600">B.Tech ECE</div>
+            <div className="font-medium text-gray-900">Rank 15,000-20,000</div>
           </div>
           <div className="p-3 bg-gray-50 rounded-lg">
-            <div className="text-gray-600">ECE</div>
-            <div className="font-medium text-gray-900">AIR {collegeData?.CutoffInformation.JEEAdvanced2025.ECEClosingAIR}</div>
+            <div className="text-gray-600">B.Tech Mech</div>
+            <div className="font-medium text-gray-900">Rank 25,000-35,000</div>
           </div>
           <div className="p-3 bg-gray-50 rounded-lg">
             <div className="text-gray-600">MBA (General)</div>
-            <div className="font-medium text-gray-900">{collegeData?.CutoffInformation.CATMBA2025Cutoffs.GeneralPercentile}%</div>
+            <div className="font-medium text-gray-900">CAT Based</div>
           </div>
         </div>
       </div>
@@ -400,7 +396,7 @@ const IIITHyderabadPage: React.FC = () => {
       {/* Admission Predictor CTA */}
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Predict Your Chances</h3>
-        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for IIIT Hyderabad based on your rank and category.</p>
+        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for VIT Bhopal based on your rank and category.</p>
         <button onClick={() => setIsPredictorModalOpen(true)} className="w-full px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Try Admission Predictor</button>
       </div>
 
@@ -415,7 +411,7 @@ const IIITHyderabadPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Trending Exams</h3>
         <div className="space-y-2 text-sm">
-          <Link to="/exams/jee-advanced" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"><span className="font-medium text-gray-900">JEE Advanced</span><ChevronRight className="w-4 h-4 text-gray-400"/></Link>
+          <Link to="/exams/viteee" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"><span className="font-medium text-gray-900">VITEEE</span><ChevronRight className="w-4 h-4 text-gray-400"/></Link>
           <Link to="/exams/gate" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"><span className="font-medium text-gray-900">GATE</span><ChevronRight className="w-4 h-4 text-gray-400"/></Link>
           <Link to="/exams/cat" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors"><span className="font-medium text-gray-900">CAT</span><ChevronRight className="w-4 h-4 text-gray-400"/></Link>
         </div>
@@ -435,16 +431,16 @@ const IIITHyderabadPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Popular College Comparisons</h3>
         <div className="space-y-2 text-sm">
-          <Link to="/compare/iiit-hyderabad-vs-iit-delhi" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">IIIT Hyderabad vs IIT Delhi</span>
+          <Link to="/compare/vit-vellore-vs-bits-pilani" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">VIT Bhopal vs BITS Pilani</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
-          <Link to="/compare/iiit-hyderabad-vs-iit-bombay" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">IIIT Hyderabad vs IIT Bombay</span>
+          <Link to="/compare/vit-vellore-vs-srm" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">VIT Bhopal vs SRM</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
-          <Link to="/compare/iiit-hyderabad-vs-iit-kanpur" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">IIIT Hyderabad vs IIT Kanpur</span>
+          <Link to="/compare/vit-vellore-vs-manipal" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">VIT Bhopal vs Manipal</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
         </div>
@@ -549,6 +545,36 @@ const IIITHyderabadPage: React.FC = () => {
         <h3 className="text-2xl font-semibold mb-4">About {collegeData.Name}</h3>
         <p className="text-gray-700 text-lg leading-relaxed mb-6">{collegeData.About.Overview}</p>
         
+        {/* Summary Bullet Points */}
+        <div className="mb-6">
+          <p className="text-gray-700 mb-3">
+            <strong>VIT Bhopal Courses are offered at UG, PG, Doctorate level. There are 15 undergraduate programs, 30 postgraduate programs, and doctoral programs offered at VIT Bhopal.</strong> The institute offers programs in Architecture, Engineering, Science, Management disciplines. Available degrees include B.Tech, M.Tech, Ph.D, B.Arch, M.Sc, MBA, M.Arch, Integrated M.Sc. Popular courses are B.Tech, M.Tech, Ph.D.
+          </p>
+          <ul className="space-y-2 text-gray-700">
+            <li>• <strong>VIT Bhopal Fees 2025-2026 is ₹1.73 Lakhs - 7.80 Lakhs across all offered courses.</strong> UG Fees: ₹6.92 Lakhs - 7.80 Lakhs, PG Fees: Varies by program</li>
+            <li>• <strong>VIT Bhopal B.Tech Fees is ₹6.92 Lakhs - 7.80 Lakhs for the entire 4 years duration.</strong> Popular specializations: Computer Science and Engineering, Electronics and Communication Engineering, Mechanical Engineering.
+              <ul className="ml-4 mt-1 space-y-1">
+                <li>• VIT Bhopal B.Tech (Group A) Fees is ₹6.92 Lakhs for 4 years.</li>
+                <li>• VIT Bhopal B.Tech CSE (Group B) Fees is ₹7.80 Lakhs for 4 years.</li>
+              </ul>
+            </li>
+            <li>• <strong>VIT Bhopal M.Tech Fees varies by specialization for the entire 2 years duration.</strong> Popular specializations: Computer Science And Engineering, Data Science, VLSI Design.
+              <ul className="ml-4 mt-1 space-y-1">
+                <li>• VIT Bhopal M.Tech Computer Science And Engineering fees available on official website.</li>
+                <li>• VIT Bhopal M.Tech Data Science fees available on official website.</li>
+              </ul>
+            </li>
+            <li>• <strong>VIT Bhopal Ph.D Fees are nominal for research scholars.</strong> Popular specializations: All engineering, sciences, and management disciplines.
+              <ul className="ml-4 mt-1 space-y-1">
+                <li>• VIT Bhopal Ph.D fees are nominal with fellowship support available.</li>
+                <li>• VIT Bhopal Ph.D programs available across all disciplines.</li>
+              </ul>
+            </li>
+            <li>• <strong>VIT Bhopal offers integrated programs and various specializations.</strong> Popular programs include B.Tech with specializations in AI, Data Science, Cyber Security.</li>
+            <li>• <strong>VIT Bhopal Hostel Fee is ₹50,000 to 80,000 per year (varies by accommodation type).</strong></li>
+          </ul>
+        </div>
+        
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Established" value={collegeData.Established.Year} />
           <InfoCard label="NIRF Rank (Overall)" value={collegeData.Rankings.NIRF2025.Overall} />
@@ -569,6 +595,17 @@ const IIITHyderabadPage: React.FC = () => {
       {/* Academic Programs Overview */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Academic Programs & Fees</h3>
+        
+        {/* Summary Bullet Points */}
+        <div className="mb-6">
+          <ul className="space-y-2 text-gray-700">
+            <li>• <strong>VIT Bhopal offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and architecture disciplines.</strong> The institute is known for its Fully Flexible Credit System (FFCS), modern facilities, and strong industry connections.</li>
+            <li>• <strong>Undergraduate Programs:</strong> B.Tech (3000+ seats, ₹1.73L-1.95L/year), B.Arch (5 years, ₹1.73L/year). All programs require competitive entrance examinations with VITEEE for B.Tech and NATA for B.Arch.</li>
+            <li>• <strong>Postgraduate Programs:</strong> M.Tech (30+ specializations), MBA, M.Sc programs. Admission through GATE, CAT/MAT/XAT/NMAT, and VIT entrance test respectively.</li>
+            <li>• <strong>Doctoral Programs:</strong> PhD (13 research centers, nominal fees). Duration typically 3-5 years with research focus areas including AI, data science, cybersecurity, VLSI, and biotechnology.</li>
+            <li>• <strong>Hostel & Accommodation:</strong> 24 hostels accommodating 21,936 students with modern amenities including Wi-Fi, AC/Non-AC options, mess facilities, and recreation areas. Hostel fees range from ₹50,000 to ₹80,000 annually (varies by accommodation type).</li>
+          </ul>
+        </div>
         
         <div className="grid md:grid-cols-3 gap-6">
           <div className="rounded-lg p-4 bg-gray-50">
@@ -603,7 +640,7 @@ const IIITHyderabadPage: React.FC = () => {
       {/* Admission Process */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Admission Process & Cutoffs</h3>
-        <p className="text-gray-700 mb-6">Admissions at IIIT Hyderabad are highly competitive, with rigorous entrance examinations and strict cutoff criteria. The institute follows a merit-based selection process ensuring only the brightest minds join the community.</p>
+        <p className="text-gray-700 mb-6">Admissions at VIT Bhopal are merit-based through VITEEE (VIT Engineering Entrance Examination) for undergraduate programs. The institute follows a transparent, purely merit-based selection process with no caste, religion, or state-based reservations.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -641,7 +678,7 @@ const IIITHyderabadPage: React.FC = () => {
       {/* Placements & Career Opportunities */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Placements & Career Opportunities</h3>
-        <p className="text-gray-700 mb-6">IIIT Hyderabad has an exceptional placement record with top-tier companies consistently recruiting students across all programs. The Career Development Cell ensures comprehensive preparation and support throughout the placement process.</p>
+        <p className="text-gray-700 mb-6">VIT Bhopal has an exceptional placement record with over 95% placement rate. The Class of 2025 saw 409 recruiters making 10,458 offers with highest package of ₹100 LPA. Top companies like Microsoft, Google, Amazon, TCS, and Infosys consistently recruit students.</p>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Total Offers (2024)" value={collegeData.Placements.Year2024.TotalOffers} />
@@ -682,7 +719,7 @@ const IIITHyderabadPage: React.FC = () => {
       {/* Rankings & Recognition */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Rankings & Recognition</h3>
-        <p className="text-gray-700 mb-6">IIIT Hyderabad consistently ranks among the top engineering institutions in India and has gained international recognition for its academic excellence, research contributions, and innovation initiatives.</p>
+        <p className="text-gray-700 mb-6">VIT Bhopal consistently ranks among the top private engineering institutions in India. NIRF 2025: 16th in Engineering, 14th in University category, 21st Overall. Internationally, VIT ranks 791-800 in QS World Rankings 2025 and 142nd globally in Engineering & Technology.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -732,7 +769,7 @@ const IIITHyderabadPage: React.FC = () => {
       {/* Facilities & Infrastructure */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Campus Facilities & Infrastructure</h3>
-        <p className="text-gray-700 mb-6">The sprawling 200-acre campus of IIIT Hyderabad houses world-class facilities including modern hostels, state-of-the-art laboratories, extensive library resources, and comprehensive sports infrastructure to support holistic development.</p>
+        <p className="text-gray-700 mb-6">The sprawling 372-acre campus of VIT Bhopal houses world-class facilities including 24 hostels accommodating 21,936 students, state-of-the-art laboratories, Periyar Central Library, 20-acre sports complex, and comprehensive amenities to support holistic development.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -802,7 +839,7 @@ const IIITHyderabadPage: React.FC = () => {
       {/* Faculty & Research */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty & Research Excellence</h3>
-        <p className="text-gray-700 mb-6">IIIT Hyderabad boasts a distinguished faculty across multiple departments, with the majority holding PhD degrees. The institute is at the forefront of research and innovation with significant contributions to various fields.</p>
+        <p className="text-gray-700 mb-6">VIT Bhopal boasts a distinguished faculty of over 400 members across 9 schools, with the majority holding PhD degrees from premier institutions. 76 VIT professors are among the Top 2% Scientists globally. The institute has 13 research centers and strong industry collaborations.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -853,7 +890,7 @@ const IIITHyderabadPage: React.FC = () => {
       {/* Student Life & Culture */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student Life & Campus Culture</h3>
-        <p className="text-gray-700 mb-6">The vibrant campus life at IIIT Hyderabad is characterized by a diverse community, rich cultural traditions, and numerous opportunities for personal and professional growth through clubs, societies, and events.</p>
+        <p className="text-gray-700 mb-6">The vibrant campus life at VIT Bhopal is characterized by a diverse community, rich cultural traditions, and numerous opportunities for personal and professional growth through clubs, societies, and events. {collegeData.About.StudentStrength}</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -935,7 +972,7 @@ const IIITHyderabadPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Undergraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          IIIT Hyderabad's undergraduate offerings are designed to build a strong foundation in core disciplines while
+          {collegeData.About.Overview} VIT Bhopal's undergraduate offerings are designed to build a strong foundation in core disciplines while
           introducing students to cutting-edge technologies and interdisciplinary learning. With competitive intake,
           structured curricula, modern laboratories, and active industry projects, students graduate with both theoretical
           depth and hands-on problem-solving skills. The programs emphasize fundamentals, design thinking, and professional
@@ -1069,7 +1106,7 @@ const IIITHyderabadPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Postgraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          The postgraduate ecosystem at IIIT Hyderabad is research-driven and industry-aligned. Programs in engineering,
+          The postgraduate ecosystem at VIT Bhopal is research-driven and industry-aligned. Programs in engineering,
           management, and sciences emphasize advanced coursework, electives in emerging areas, and strong thesis/project
           components. Students benefit from funded research labs, innovation centers, and frequent industry seminars.
         </p>
@@ -1204,7 +1241,7 @@ const IIITHyderabadPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel & Accommodation</h3>
         <p className="text-gray-700 mb-4">
-          Hostel life at IIIT Hyderabad is known for its vibrant culture and supportive community. With modern rooms, study
+          Hostel life at VIT Bhopal is known for its vibrant culture and supportive community. With modern rooms, study
           areas, and recreational spaces, students find a conducive environment for personal growth. Residential living
           also fosters collaboration across programs through clubs, intramurals, and cultural festivals.
         </p>
@@ -1223,42 +1260,36 @@ const IIITHyderabadPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Admissions at {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at <strong>IIIT Hyderabad</strong> are among the most merit-centric and transparent in Indian higher
-          education, governed by national-level examinations and centralized counseling platforms. The system ensures
-          nationwide participation while adhering to Central Government reservation policies for SC, ST, OBC‑NCL, EWS,
-          and PwD categories. Processes vary across undergraduate, postgraduate, and doctoral levels—each emphasizing
+          Admissions at <strong>VIT Bhopal</strong> are merit-centric and transparent, governed by the VIT Engineering Entrance Examination (VITEEE) and other national-level examinations. The system ensures
+          nationwide participation while maintaining a purely merit-based approach. {collegeData.AdmissionProcessAndEntranceExams.ReservationPolicy} Processes vary across undergraduate, postgraduate, and doctoral levels—each emphasizing
           academic rigor, exam performance, and interviews or research assessments where applicable.
         </p>
 
-        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of IIIT Hyderabad’s Admission Framework</h4>
+        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of VIT Bhopal's Admission Framework</h4>
         <p className="text-gray-700 mb-3">
-          Founded in 1847 and converted into an IIT in 2001, IIIT Hyderabad structures admissions to maintain academic
-          excellence and equitable access. All admissions—through <strong>JEE Advanced, GATE, CAT, JAM,</strong> or
-          <strong> UCEED</strong>—are aligned to centralized systems managed by national bodies such as
-          <strong> JoSAA</strong>, <strong>COAP</strong>, and respective coordination portals.
+          Founded in {collegeData.Established.Year} (as {collegeData.Established.OriginalName}), VIT Bhopal structures admissions to maintain academic
+          excellence and equitable access. All admissions—through <strong>VITEEE, GATE, CAT, MAT, XAT, NMAT,</strong> or
+          <strong> NATA</strong>—are aligned to centralized systems managed by VIT and respective coordination portals.
           The core goal is to align candidate merit (exam performance) with program preferences, seat availability, and
-          category-based reservations. Shortlisted candidates later verify documents and eligibility at the institute.
+          scholarship opportunities. Shortlisted candidates later verify documents and eligibility at the institute.
         </p>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Undergraduate Admissions</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-          <li><strong>B.Tech & B.Arch:</strong> JEE Advanced + centralized counseling via <strong>JoSAA</strong>.</li>
-          <li><strong>B.Arch:</strong> Also requires qualifying the <strong>AAT (Architecture Aptitude Test)</strong>.</li>
-          <li><strong>B.Des:</strong> Admission via <strong>UCEED</strong> with centralized counseling.</li>
+          <li><strong>B.Tech:</strong> {collegeData.AdmissionProcessAndEntranceExams.Undergraduate.BTechBArch.Exam} + centralized counseling via <strong>VIT Counselling</strong>.</li>
+          <li><strong>B.Arch:</strong> Also requires qualifying the <strong>NATA (National Aptitude Test in Architecture)</strong>.</li>
+          <li><strong>B.Des:</strong> Admission process as per VIT guidelines.</li>
         </ul>
         <p className="text-gray-700 mt-2">
-          <span className="font-medium">Recent Cutoffs (2025 Approx.):</span> B.Tech CSE – AIR 535; Data Science & AI – AIR 710; ECE – AIR 1394;
-          Electrical – AIR 1752; Mechanical – AIR 1900; Civil – AIR 2175; B.Arch (AAT) – Rank 16,596; B.Des General – AIR 111
-          (OBC – AIR 56). Admissions are finalized over multiple JoSAA rounds; seats can fluctuate due to withdrawals and
-          category shifts.
+          <span className="font-medium">Recent Cutoffs (2025 Approx.):</span> {collegeData.CutoffInformation.AdditionalDetails} Admissions are finalized over multiple VITEEE rounds; seats can fluctuate based on merit and availability.
         </p>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Postgraduate Admissions</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-          <li><strong>M.Tech, M.Arch, M.Plan, M.Des:</strong> Primarily through <strong>GATE</strong> with offers handled via <strong>COAP</strong>.
+          <li><strong>M.Tech, M.Arch, M.Plan, M.Des:</strong> Primarily through <strong>GATE</strong> with offers handled via <strong>VIT Counselling</strong>.
             Some departments may conduct interviews or portfolio reviews.</li>
-          <li><strong>MBA:</strong> Based on <strong>CAT</strong> percentile followed by <strong>GD/PI</strong>. Indicative cutoffs: General – 94%, OBC – 74.5%, SC/ST – 65%.</li>
-          <li><strong>M.Sc & Integrated Programs:</strong> Admission through <strong>IIT JAM</strong> with counseling via JOAPS.</li>
+          <li><strong>MBA:</strong> Based on <strong>{collegeData.AdmissionProcessAndEntranceExams.Postgraduate.MBA.Exam}</strong> percentile followed by <strong>GD/PI</strong>.</li>
+          <li><strong>M.Sc:</strong> Admission through <strong>VIT Entrance Test</strong> with counseling via VIT.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Doctoral Admissions (PhD)</h4>
@@ -1271,23 +1302,22 @@ const IIITHyderabadPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Counseling Mechanisms</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1">
-          <li><strong>JoSAA:</strong> Manages nationwide B.Tech/B.Arch seat allocation for all IITs.</li>
-          <li><strong>COAP:</strong> Coordinates M.Tech seat offers across IITs.</li>
-          <li><strong>UCEED/JAM Portals:</strong> Centralized counseling for Design and M.Sc programs respectively.</li>
+          <li><strong>VIT Counselling:</strong> Manages nationwide B.Tech/B.Arch seat allocation for VIT campuses.</li>
+          <li><strong>VIT Counselling:</strong> Coordinates M.Tech seat offers across VIT campuses.</li>
+          <li><strong>VIT Entrance Test:</strong> Centralized counseling for M.Sc and other programs.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Reservation Policy & Verification</h4>
         <p className="text-gray-700 mb-2">
-          Reservations strictly follow Central Government norms: OBC‑NCL 27%, SC 15%, ST 7.5%, EWS 10%, and PwD 5%
-          horizontal reservation. Candidates must produce original certificates at the time of admission verification; failure
+          {collegeData.AdmissionProcessAndEntranceExams.ReservationPolicy} Candidates must produce original certificates at the time of admission verification; failure
           results in cancellation of provisional admission.
         </p>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Eligibility & Application Modes</h4>
         <p className="text-gray-700 mb-2">
-          Applications are <strong>online</strong> through official national or IIT-specific portals: JEE Advanced → jeeadv.ac.in; GATE →
-          gate.iitr.ac.in; CAT → iimcat.ac.in; JAM/UCEED → respective organizing IIT websites. Foreign nationals and NRIs may
-          apply via <strong>DASA</strong> or <strong>ICCR scholarships</strong> with separate eligibility and fee structures.
+          Applications are <strong>online</strong> through {collegeData.AdmissionProcessAndEntranceExams.ApplicationMode}: VITEEE → vit.ac.in; GATE →
+          gate.iitr.ac.in; CAT/MAT/XAT/NMAT → respective websites. Foreign nationals and NRIs may
+          apply with separate eligibility and fee structures.
         </p>
 
         <h4 className="text-lg font-semibold mt-4 mb-2">Key Insights on Admission Trends</h4>
@@ -1300,16 +1330,16 @@ const IIITHyderabadPage: React.FC = () => {
         </ul>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at IIIT Hyderabad</h3>
+        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at VIT Bhopal</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at IIIT Hyderabad are highly structured and merit-driven. Each program is tied to a national-level
-          examination with carefully defined counseling processes, category-based reservations, and institute-level
+          Admissions at VIT Bhopal are highly structured and merit-driven. Each program is tied to a national-level
+          examination with carefully defined counseling processes, merit-based selection, and institute-level
           verification. Shortlisted candidates typically proceed through centralized counseling where seat allotments are
           made based on rank, preferences, and availability.
         </p>
         <p className="text-gray-700">
-          Undergraduate entries are primarily via JEE Advanced followed by JoSAA. Postgraduate programs rely on GATE,
-          CAT, JAM and institute processes, while PhD admissions combine national tests with interviews and research
+          Undergraduate entries are primarily via VITEEE followed by VIT Counselling. Postgraduate programs rely on GATE,
+          CAT, MAT, XAT, NMAT and institute processes, while PhD admissions combine VIT Entrance Test with interviews and research
           proposals. Below is a compact view of typical entry routes and recent indicative cutoffs.
         </p>
         <div className="overflow-x-auto mt-4">
@@ -1479,17 +1509,17 @@ const IIITHyderabadPage: React.FC = () => {
   const renderPlacementsTab = () => (
     <div id="placements-root" className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Why Placements at IIIT Hyderabad Stand Out</h3>
+        <h3 className="text-2xl font-semibold mb-4">Why Placements at VIT Bhopal Stand Out</h3>
         <p className="text-gray-700 mb-3">
-          IIIT Hyderabad’s placement ecosystem blends academic rigor, early skill development, industry exposure, and a
+          VIT Bhopal's placement ecosystem blends academic rigor, early skill development, industry exposure, and a
           powerful alumni network—resulting in consistently high packages and diverse global opportunities. Students are
           groomed to excel in high‑pressure, real‑world environments, not just to crack interviews.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Institutional Strengths Driving Placements</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1 mb-4">
-          <li><strong>Established Global Reputation</strong> with recruiters tracking IITR’s talent pool annually.</li>
-          <li><strong>Diverse Recruiter Base</strong> (~170 companies across tech, consulting, finance, analytics, R&D, core).</li>
+          <li><strong>Established Global Reputation</strong> with recruiters tracking VIT Bhopal's talent pool annually.</li>
+          <li><strong>Diverse Recruiter Base</strong> ({collegeData.Placements.Year2024.Recruiters} companies across tech, consulting, finance, analytics, R&D, core).</li>
           <li><strong>Premier Alumni Network</strong> in FAANG, Wall Street, consulting majors, semiconductor giants, and labs.</li>
         </ul>
 
@@ -1513,23 +1543,23 @@ const IIITHyderabadPage: React.FC = () => {
             <tbody>
               <tr>
                 <td className="py-2 pr-4 font-medium">Total Offers</td>
-                <td className="py-2">805 (near 100% for eligible students)</td>
+                <td className="py-2">{collegeData.Placements.Year2024.TotalOffers} (near 100% for eligible students)</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Highest Package</td>
-                <td className="py-2">₹20.5 Cr (international)</td>
+                <td className="py-2">{formatCurrency(collegeData.Placements.Year2024.HighestPackageINR)} (international)</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Average Package</td>
-                <td className="py-2">₹19.6 L overall; CSE ~₹34.0 L; ECE ~₹30.8 L</td>
+                <td className="py-2">{formatCurrency(collegeData.Placements.Year2024.OverallAveragePackageINR)} overall; CSE ~{formatCurrency(collegeData.Placements.Year2024.CSEAveragePackageINR)}; ECE ~{formatCurrency(collegeData.Placements.Year2024.ECEAveragePackageINR)}</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">Domestic Highest</td>
-                <td className="py-2">₹1.2 Cr</td>
+                <td className="py-2">{formatCurrency(collegeData.Placements.Year2024.HighestDomesticPackageINR)}</td>
               </tr>
               <tr>
                 <td className="py-2 pr-4 font-medium">PPOs</td>
-                <td className="py-2">155</td>
+                <td className="py-2">{collegeData.Placements.Year2024.PPOs || 'N/A'}</td>
               </tr>
             </tbody>
           </table>
@@ -1569,7 +1599,7 @@ const IIITHyderabadPage: React.FC = () => {
                 </tr>
                 <tr className="hover:bg-gray-50">
                 <td className="py-2 pr-4 font-medium">2024</td>
-                <td className="py-2">Avg ~₹20L; Intl highest ₹2.05 Cr; Domestic highest ₹1.2 Cr; CSE &gt;₹34L</td>
+                <td className="py-2">Avg {formatCurrency(collegeData.Placements.Year2024.OverallAveragePackageINR)}; Intl highest {formatCurrency(collegeData.Placements.Year2024.HighestPackageINR)}; Domestic highest {formatCurrency(collegeData.Placements.Year2024.HighestDomesticPackageINR)}; CSE {formatCurrency(collegeData.Placements.Year2024.CSEAveragePackageINR)}; {collegeData.Placements.Year2024.Recruiters} recruiters; {collegeData.Placements.Year2024.TotalOffers} offers</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
                 <td className="py-2 pr-4 font-medium">2023</td>
@@ -1763,10 +1793,10 @@ const IIITHyderabadPage: React.FC = () => {
     <div id="rankings-root" className="space-y-6">
       {/* Rankings Narrative and Consolidated Tables (user-provided) */}
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">IIIT Hyderabad Rankings & Recognition</h3>
+        <h3 className="text-2xl font-semibold mb-4">VIT Bhopal Rankings & Recognition</h3>
         <p className="text-gray-700 mb-4">
-          IIIT Hyderabad is consistently ranked among India’s top institutions and continues to strengthen its global
-          standing. The institute’s performance across teaching quality, research output, graduate outcomes, outreach,
+          VIT Bhopal is consistently ranked among India's top institutions and continues to strengthen its global
+          standing. The institute's performance across teaching quality, research output, graduate outcomes, outreach,
           and perception is reflected in leading national and international ranking frameworks.
         </p>
 
@@ -1785,42 +1815,42 @@ const IIITHyderabadPage: React.FC = () => {
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">NIRF Overall</td>
                 <td className="py-2 px-3">Overall Institution</td>
-                <td className="py-2 px-3">7</td>
-                <td className="py-2 px-3">8</td>
-                <td className="py-2 px-3">Score ~73.06; Teaching, Research, Outcomes, Outreach, Perception</td>
+                <td className="py-2 px-3">{collegeData.Rankings.NIRF2025.Overall}</td>
+                <td className="py-2 px-3">{collegeData.Rankings.NIRF2024.Overall}</td>
+                <td className="py-2 px-3">Teaching, Research, Outcomes, Outreach, Perception</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">NIRF Engineering</td>
                 <td className="py-2 px-3">Engineering Institutions</td>
-                <td className="py-2 px-3">6</td>
-                <td className="py-2 px-3">6</td>
-                <td className="py-2 px-3">Score ~72.05; consistently top‑10 for engineering</td>
+                <td className="py-2 px-3">{collegeData.Rankings.NIRF2025.Engineering}</td>
+                <td className="py-2 px-3">—</td>
+                <td className="py-2 px-3">Consistently top-ranked for engineering</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">NIRF Architecture & Planning</td>
                 <td className="py-2 px-3">Architecture & Planning</td>
-                <td className="py-2 px-3">1</td>
-                <td className="py-2 px-3">1</td>
-                <td className="py-2 px-3">Consistently #1 in India</td>
+                <td className="py-2 px-3">{collegeData.Rankings.NIRF2025.ArchitecturePlanning || '—'}</td>
+                <td className="py-2 px-3">—</td>
+                <td className="py-2 px-3">Recognized for architecture programs</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">NIRF Innovation</td>
                 <td className="py-2 px-3">Innovation & Startups</td>
-                <td className="py-2 px-3">25</td>
-                <td className="py-2 px-3">25</td>
+                <td className="py-2 px-3">{collegeData.Rankings.NIRF2024.Innovation || '—'}</td>
+                <td className="py-2 px-3">—</td>
                 <td className="py-2 px-3">Recognized for a strong innovation ecosystem</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">QS World University Rankings</td>
                 <td className="py-2 px-3">Worldwide</td>
-                <td className="py-2 px-3">335</td>
+                <td className="py-2 px-3">{collegeData.Rankings.QSWorld2026 || '—'}</td>
                 <td className="py-2 px-3">—</td>
                 <td className="py-2 px-3">Global research, teaching, international outlook</td>
               </tr>
               <tr className="odd:bg-gray-50 hover:bg-gray-100/60 transition-colors">
                 <td className="py-2 px-3 font-medium">QS Asia University Rankings</td>
                 <td className="py-2 px-3">Asia</td>
-                <td className="py-2 px-3">130</td>
+                <td className="py-2 px-3">{collegeData.Rankings.QSAsia2025 || '—'}</td>
                 <td className="py-2 px-3">—</td>
                 <td className="py-2 px-3">Strong among Asian technical universities</td>
               </tr>
@@ -1884,9 +1914,8 @@ const IIITHyderabadPage: React.FC = () => {
         </div>
 
         <p className="text-gray-700 mb-4">
-          Nationally, IIIT Hyderabad ranks #7 overall (NIRF 2025), #6 in engineering, and #1 in architecture & planning.
-          Internationally, it is #335 in QS World (2026) and #130 in QS Asia (2025), with THE placing engineering in the
-          301–400 band. These reflect strong academics, research, innovation, and global presence.
+          Nationally, VIT Bhopal ranks #{collegeData.Rankings.NIRF2025.Overall} overall (NIRF 2025), #{collegeData.Rankings.NIRF2025.Engineering} in engineering.
+          Internationally, it is #{collegeData.Rankings.QSWorld2026} in QS World (2026) and #{collegeData.Rankings.QSAsia2025 || '—'} in QS Asia (2025). These reflect strong academics, research, innovation, and global presence.
         </p>
 
         <div className="grid md:grid-cols-2 gap-4 text-sm text-gray-700">
@@ -1907,9 +1936,9 @@ const IIITHyderabadPage: React.FC = () => {
         </div>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Understanding IIIT Hyderabad’s Rankings</h3>
+        <h3 className="text-2xl font-semibold mb-4">Understanding VIT Bhopal's Rankings</h3>
         <p className="text-gray-700 mb-3">
-          Rankings reflect IIIT Hyderabad’s consistent performance in teaching, research output, innovation, graduate
+          Rankings reflect VIT Bhopal's consistent performance in teaching, research output, innovation, graduate
           outcomes, and international visibility. Nationally, the institute is among the top engineering schools; globally,
           it features in reputed lists such as QS and THE, indicating strong competitiveness and alumni impact.
         </p>
@@ -2042,7 +2071,7 @@ const IIITHyderabadPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mb-2">Hostel and Residential Life</h4>
         <p className="text-gray-700 mb-3">
-          With modern hostels for diverse needs, residences feature Wi‑Fi, study rooms, lounges, indoor games,
+          With <strong>20 hostels</strong> for diverse needs, residences feature Wi‑Fi, study rooms, lounges, indoor games,
           nutritious messes, student‑run quality committees, laundry, 24×7 water, and medical assistance. Cultural nights
           and inter‑hostel events create a vibrant community.
         </p>
@@ -2121,7 +2150,7 @@ const IIITHyderabadPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Campus Facilities & Student Experience</h3>
         <p className="text-gray-700 mb-3">
-          The 200-acre campus is planned for academic rigor and balanced living. High-quality hostels, libraries,
+          The 365-acre campus is planned for academic rigor and balanced living. High-quality hostels, libraries,
           laboratories, sports complexes, and medical services create a complete ecosystem that supports learning and
           wellbeing. Student clubs and maker spaces further enhance hands-on creativity and leadership.
         </p>
@@ -2158,7 +2187,7 @@ const IIITHyderabadPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel Facilities</h3>
         <p className="text-gray-700 mb-3">
-          Residential life anchors the IIIT Hyderabad experience. With modern hostels spanning boys, girls, married and co‑ed
+          Residential life anchors the VIT Bhopal experience. With {collegeData.Facilities.Hostels.Number} hostels spanning boys and girls
           residences, students find a safe, connected environment. Wi‑Fi connectivity, common study rooms, recreation
           lounges and student‑run mess committees support academic focus and community bonding in equal measure.
         </p>
@@ -2341,8 +2370,8 @@ const IIITHyderabadPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength, Research Culture & Global Collaborations</h3>
         <p className="text-gray-700 mb-3">
-          IIIT Hyderabad's faculty and research ecosystem is among the strongest in India. With a strong faculty
-          across multiple departments, the institute sustains a robust, interdisciplinary environment spanning
+          VIT Bhopal's faculty and research ecosystem is among the strongest in India. With <strong>{collegeData.FacultyAndDepartments.Strength.FacultyCount}+</strong> faculty
+          across <strong>{collegeData.FacultyAndDepartments.DepartmentsCount} departments</strong>, the institute sustains a robust, interdisciplinary environment spanning
           fundamental sciences, engineering, and emerging domains. Faculty drive national missions, global partnerships,
           and translational research impacting both industry and society.
         </p>
@@ -2370,7 +2399,7 @@ const IIITHyderabadPage: React.FC = () => {
               <tbody className="divide-y divide-gray-100">
                 <tr className="hover:bg-gray-50">
                   <td className="py-2 pr-4 font-medium">Faculty Strength</td>
-                  <td className="py-2 pr-4">Strong faculty across multiple departments</td>
+                  <td className="py-2 pr-4">470+ across 23 departments</td>
                   <td className="py-2">Majority PhD‑qualified</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
@@ -2391,8 +2420,7 @@ const IIITHyderabadPage: React.FC = () => {
         <h4 className="text-lg font-semibold mb-2">Faculty Composition & Academic Leadership</h4>
         <p className="text-gray-700 mb-3">
           Most faculty members hold doctorates from IITs, IISc, or global universities (Cambridge, ETH Zurich, MIT).
-          Growth areas include the Department of Design Innovation and interdisciplinary centers like Biomedical
-          Engineering, reflecting IIIT Hyderabad’s future‑oriented academic model.
+          Growth areas include interdisciplinary centers and research labs, reflecting VIT Bhopal's future‑oriented academic model.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Key Research Centers and Specializations</h4>
@@ -2508,15 +2536,15 @@ const IIITHyderabadPage: React.FC = () => {
         <h4 className="text-lg font-semibold mt-3 mb-2">Research Funding & Recognition</h4>
         <p className="text-gray-700">
           Funding sources include the Ministry of Education, DST, CSIR, DBT, ISRO, and international grants. Award‑winning
-          innovations span renewable energy, disaster mitigation, and AI‑assisted healthcare. IIIT Hyderabad balances academic
-          rigor with national priorities and global partnerships, making it one of India’s most research‑driven academic
+          innovations span renewable energy, disaster mitigation, and AI‑assisted healthcare. VIT Bhopal balances academic
+          rigor with national priorities and global partnerships, making it one of India's most research‑driven academic
           communities.
         </p>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength & Research Culture</h3>
         <p className="text-gray-700 mb-3">
-          With a large cohort of accomplished faculty across departments, IIIT Hyderabad sustains a vibrant research
+          With a large cohort of accomplished faculty across departments, VIT Bhopal sustains a vibrant research
           ecosystem. Faculty members publish in leading venues, attract substantial research funding, and mentor student
           teams that participate in national and international competitions.
         </p>
@@ -2652,17 +2680,17 @@ const IIITHyderabadPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student & Alumni Perspectives on {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Established in 1847 (as Thomason College of Civil Engineering), IIIT Hyderabad is widely regarded as a premier
+          Established in {collegeData.Established.Year} (as {collegeData.Established.OriginalName}), VIT Bhopal is widely regarded as a premier
           engineering and technology institution. Reviews consistently highlight a rigorous academic atmosphere, world‑class
-          faculty, and a highly competitive peer network set against a vibrant, historic campus.
+          faculty, and a highly competitive peer network set against a vibrant, modern campus.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Expanded Student and Alumni Perspectives</h4>
         <p className="text-gray-700 mb-3">
           Students appreciate both theoretical depth and practical exposure through seminars, industry collaborations, and
           research projects. Peer culture is motivating; hostel life is community‑oriented with strong participation in
-          technical societies and cultural clubs. Flagship fests like <em>Cognizance</em> (tech) and <em>Thomso</em>
-          (cultural) build leadership and event management skills. While demanding, the curriculum’s rigor pays dividends
+          technical societies and cultural clubs. Flagship fests like <em>Gravitas</em> (tech) and <em>Riviera</em>
+          (cultural) build leadership and event management skills. While demanding, the curriculum's rigor pays dividends
           for competitive exams, higher studies abroad, and corporate roles.
         </p>
 
@@ -2683,9 +2711,9 @@ const IIITHyderabadPage: React.FC = () => {
         <h4 className="text-lg font-semibold mb-2">Cultural & Co‑Curricular Life</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1 mb-3">
           <li><strong>Technical societies</strong> (IEEE, ASME, robotics) build applied skills.</li>
-          <li><strong>Sports</strong> culture features inter‑IIT participation and extensive facilities.</li>
+          <li><strong>Sports</strong> culture features extensive participation and facilities.</li>
           <li><strong>Arts & literature</strong> clubs run debates, music, dramatics, and publications.</li>
-          <li><strong>Festivals</strong> like Thomso draw national attention and celebrity line‑ups.</li>
+          <li><strong>Festivals</strong> like Riviera and Gravitas draw national attention and celebrity line‑ups.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mb-2">Areas That See Regular Debate</h4>
@@ -2697,7 +2725,7 @@ const IIITHyderabadPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mb-2">Return on Investment & Prestige</h4>
         <p className="text-gray-700 mb-4">
-          With comparatively low fees and strong outcomes, ROI is considered excellent. The IIIT Hyderabad brand has global
+          With competitive fees and strong outcomes, ROI is considered excellent. The VIT Bhopal brand has global
           recognition; alumni progress into leadership roles across industry, academia, and public service.
         </p>
 
@@ -2743,7 +2771,7 @@ const IIITHyderabadPage: React.FC = () => {
   const renderContactTab = () => (
     <div className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Contacting IIIT Hyderabad Effectively</h3>
+        <h3 className="text-2xl font-semibold mb-4">Contacting VIT Bhopal Effectively</h3>
         <p className="text-gray-700 mb-3">
           For admissions and program-specific queries, use official channels and include your application details (name,
           application ID, program, and question) for faster responses. For urgent issues, phone lines and the institute
@@ -2896,21 +2924,9 @@ const IIITHyderabadPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/images/iiit-hyderabad-logo.png" 
-                    alt="IIIT Hyderabad Logo" 
+                    src="/images/viteee-logo.jpeg" 
+                    alt="VIT Bhopal Logo" 
                     className="w-full h-full object-contain"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.style.display = 'none';
-                      const parent = target.parentElement;
-                      if (parent && !parent.querySelector('.logo-svg')) {
-                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-                        svg.setAttribute('viewBox', '0 0 100 100');
-                        svg.setAttribute('class', 'logo-svg w-full h-full');
-                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="#1e40af" stroke="#3b82f6" stroke-width="2"/><text x="50" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">IIIT</text><text x="50" y="55" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">HYD</text>';
-                        parent.appendChild(svg);
-                      }
-                    }}
                   />
                 </div>
                 <div>
@@ -2941,9 +2957,11 @@ const IIITHyderabadPage: React.FC = () => {
                 <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded-full">
                   Engineering Rank #{collegeData.Rankings.NIRF2025.Engineering}
                 </span>
-                <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">
-                  Architecture Rank #{collegeData.Rankings.NIRF2025.ArchitecturePlanning}
-                </span>
+                {collegeData.Rankings.NIRF2025.ArchitecturePlanning > 0 && (
+                  <span className="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded-full">
+                    Architecture Rank #{collegeData.Rankings.NIRF2025.ArchitecturePlanning}
+                  </span>
+                )}
                 {/* Quick facts chips */}
                 <span className="bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded-full">
                   {collegeData.About.StudentStrength}+ Students
@@ -3005,15 +3023,15 @@ const IIITHyderabadPage: React.FC = () => {
       <AdmissionPredictorModal
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
-        collegeName={collegeData?.Name || "IIIT Hyderabad"}
-        collegeLogo="/images/iiit-hyderabad-logo.png"
+        collegeName={collegeData?.Name || "VIT Bhopal"}
+        collegeLogo="/images/viteee-logo.jpeg"
       />
 
       {/* Brochure Modal */}
       <BrochureModal
         isOpen={isBrochureModalOpen}
         onClose={() => setIsBrochureModalOpen(false)}
-        collegeName={collegeData?.Name || "IIIT Hyderabad"}
+        collegeName={collegeData?.Name || "VIT Bhopal"}
         collegeData={collegeData || undefined}
       />
 
@@ -3096,4 +3114,4 @@ const IIITHyderabadPage: React.FC = () => {
   );
 };
 
-export default IIITHyderabadPage;
+export default VitBhopalPage;

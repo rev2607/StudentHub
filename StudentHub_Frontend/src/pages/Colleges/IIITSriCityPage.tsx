@@ -2895,9 +2895,21 @@ const IIITSriCityPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/IIIT_Sri_City_Logo.svg" 
+                    src="/images/iiit-sri-city-logo.png" 
                     alt="IIIT Sri City Logo" 
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="white" stroke="#dc2626" stroke-width="2"/><path d="M 50 30 Q 30 40, 30 50 Q 30 60, 50 70 Q 70 60, 70 50 Q 70 40, 50 30" fill="#f97316"/><path d="M 50 35 Q 35 42, 35 50 Q 35 58, 50 65 Q 65 58, 65 50 Q 65 42, 50 35" fill="#fbbf24"/><path d="M 50 40 Q 40 45, 40 50 Q 40 55, 50 60 Q 60 55, 60 50 Q 60 45, 50 40" fill="#fef3c7"/><circle cx="50" cy="50" r="8" fill="#dc2626"/><circle cx="45" cy="45" r="2" fill="#dc2626"/><circle cx="55" cy="45" r="2" fill="#dc2626"/><text x="50" y="85" font-family="Arial, sans-serif" font-size="7" fill="#dc2626" text-anchor="middle">SRICITY</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
                   />
                 </div>
                 <div>
@@ -2993,7 +3005,7 @@ const IIITSriCityPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "IIIT Sri City"}
-        collegeLogo="/data/colleges/IIIT_Sri_City_Logo.svg"
+        collegeLogo="/images/iiit-sri-city-logo.png"
       />
 
       {/* Brochure Modal */}

@@ -2895,9 +2895,21 @@ const IIITAgartalaPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/IIIT_Agartala_Logo.svg" 
+                    src="/images/iiit-agartala-logo.png" 
                     alt="IIIT Agartala Logo" 
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="white" stroke="#000000" stroke-width="2"/><rect x="25" y="40" width="8" height="30" fill="#3b82f6" opacity="0.7"/><rect x="37" y="35" width="8" height="35" fill="#6b7280"/><circle cx="41" cy="30" r="4" fill="#f97316"/><rect x="51" y="30" width="8" height="40" fill="#6b7280"/><rect x="63" y="35" width="8" height="35" fill="#000000"/><path d="M 75 35 L 85 35 L 80 50 L 75 50 Z" fill="#000000"/><text x="50" y="85" font-family="Arial, sans-serif" font-size="7" fill="#000000" text-anchor="middle">AGARTALA</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
                   />
                 </div>
                 <div>
@@ -2993,7 +3005,7 @@ const IIITAgartalaPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "IIIT Agartala"}
-        collegeLogo="/data/colleges/IIIT_Agartala_Logo.svg"
+        collegeLogo="/images/iiit-agartala-logo.png"
       />
 
       {/* Brochure Modal */}

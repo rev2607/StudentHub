@@ -334,11 +334,11 @@ const NITAgartalaPage: React.FC = () => {
         <div className="space-y-3 text-sm">
           <div className="p-3 bg-gray-50 rounded-lg">
             <div className="font-medium text-gray-900">Ragam Cultural Festival</div>
-            <div className="text-gray-600">Mar � Cultural events, concerts, competitions</div>
+            <div className="text-gray-600">Mar • Cultural events, concerts, competitions</div>
               </div>
           <div className="p-3 bg-gray-50 rounded-lg">
             <div className="font-medium text-gray-900">Tathva Tech Fest</div>
-            <div className="text-gray-600">Oct � Hackathons, keynotes, expo</div>
+            <div className="text-gray-600">Oct • Hackathons, keynotes, expo</div>
           </div>
         </div>
       </div>
@@ -434,16 +434,16 @@ const NITAgartalaPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Popular College Comparisons</h3>
         <div className="space-y-2 text-sm">
-          <Link to="/compare/nit-trichy-vs-iit-bombay" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+          <Link to="/compare/nit-agartala-vs-iit-delhi" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">NIT Agartala vs IIT Delhi</span>
+            <ChevronRight className="w-4 h-4 text-gray-400" />
+          </Link>
+          <Link to="/compare/nit-agartala-vs-iit-bombay" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
             <span className="font-medium text-gray-900">NIT Agartala vs IIT Bombay</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
-          <Link to="/compare/nit-trichy-vs-iit-madras" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Agartala vs IIT Madras</span>
-            <ChevronRight className="w-4 h-4 text-gray-400" />
-          </Link>
-          <Link to="/compare/nit-trichy-vs-iit-delhi" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Agartala vs IIT Delhi</span>
+          <Link to="/compare/nit-agartala-vs-iit-kanpur" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
+            <span className="font-medium text-gray-900">NIT Agartala vs IIT Kanpur</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
         </div>
@@ -515,10 +515,10 @@ const NITAgartalaPage: React.FC = () => {
         <div className="space-y-4 flex-1">
           {[
             { name: "IIT Madras", rank: "1", type: "Engineering" },
-            { name: "NIT Agartala", rank: "2", type: "Engineering" },
-            { name: "NIT Agartala", rank: "4", type: "Engineering" },
-            { name: "NIT Agartala", rank: "5", type: "Engineering" },
-            { name: "IIT Roorkee", rank: "7", type: "Engineering" }
+            { name: "IIT Delhi", rank: "2", type: "Engineering" },
+            { name: "IIT Bombay", rank: "3", type: "Engineering" },
+            { name: "IIT Kanpur", rank: "4", type: "Engineering" },
+            { name: "IIT Kharagpur", rank: "5", type: "Engineering" }
           ].map((college, index) => (
             <Link key={index} to="/colleges" className="flex items-center gap-3 p-3 hover:bg-gray-50 rounded-lg transition-colors">
               <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center text-white font-bold text-sm">
@@ -2700,16 +2700,17 @@ const NITAgartalaPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student & Alumni Perspectives on {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Established in 1958 through Indo-Soviet collaboration, NIT Agartala is widely regarded as a premier
+          Established in 1965 (as Tripura Engineering College), NIT Agartala is widely regarded as a premier
           engineering and technology institution. Reviews consistently highlight a rigorous academic atmosphere, world‑class
-          faculty, and a highly competitive peer network set against a vibrant, 550-acre campus beside Powai Lake.
+          faculty, and a highly competitive peer network set against a vibrant, historic campus.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Expanded Student and Alumni Perspectives</h4>
         <p className="text-gray-700 mb-3">
           Students appreciate both theoretical depth and practical exposure through seminars, industry collaborations, and
           research projects. Peer culture is motivating; hostel life is community‑oriented with strong participation in
-          technical societies and cultural clubs. Flagship fests like <em>Tathva</em> (tech) and <em>Ragam</em> (cultural) build leadership and event management skills. While demanding, the curriculum's rigor pays dividends
+          technical societies and cultural clubs. Flagship fests like <em>Tathva</em> (tech) and <em>Ragam</em>
+          (cultural) build leadership and event management skills. While demanding, the curriculum's rigor pays dividends
           for competitive exams, higher studies abroad, and corporate roles.
         </p>
 
@@ -2723,16 +2724,16 @@ const NITAgartalaPage: React.FC = () => {
         <h4 className="text-lg font-semibold mb-2">Research & Innovation Landscape</h4>
         <p className="text-gray-700 mb-3">
           Centers of excellence, global tie‑ups, and grants (DST, CSIR, international) encourage participation in
-          hydrology, advanced computing, nanotechnology, renewables, and AI. Competition for lab positions is strong,
+          seismic science, hydroinformatics, computational physics, engineering biology, and chemical innovation. Competition for lab positions is strong,
           reflecting high demand for cutting‑edge projects.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Cultural & Co‑Curricular Life</h4>
         <ul className="list-disc ml-5 text-sm text-gray-700 space-y-1 mb-3">
           <li><strong>Technical societies</strong> (IEEE, ASME, robotics) build applied skills.</li>
-          <li><strong>Sports</strong> culture features inter‑IIT participation and extensive facilities.</li>
+          <li><strong>Sports</strong> culture features inter‑NIT participation and extensive facilities.</li>
           <li><strong>Arts & literature</strong> clubs run debates, music, dramatics, and publications.</li>
-          <li><strong>Festivals</strong> like Ragam and Tathva draw national attention and celebrity line-ups.</li>
+          <li><strong>Festivals</strong> like Ragam and Tathva draw national attention and celebrity line‑ups.</li>
         </ul>
 
         <h4 className="text-lg font-semibold mb-2">Areas That See Regular Debate</h4>
@@ -2941,6 +2942,13 @@ const NITAgartalaPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
+                <div className="w-32 h-32 rounded-lg flex items-center justify-center">
+                  <img 
+                    src="/images/nit-agartala-logo.png" 
+                    alt="NIT Agartala Logo" 
+                    className="w-full h-full object-contain"
+                  />
+                </div>
                 <div>
                   <h1 className="text-xl font-semibold text-gray-900 mb-2">
                     {collegeData.Name}
@@ -3034,7 +3042,7 @@ const NITAgartalaPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "NIT Agartala"}
-        collegeLogo=""
+        collegeLogo="/images/nit-agartala-logo.png"
       />
 
       {/* Brochure Modal */}

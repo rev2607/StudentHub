@@ -2895,9 +2895,21 @@ const IIITVadodaraPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/IIIT_Vadodara_Logo.svg" 
+                    src="/images/iiit-vadodara-logo.png" 
                     alt="IIIT Vadodara Logo" 
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="white" stroke="#000000" stroke-width="2"/><rect x="25" y="40" width="8" height="25" fill="#000000"/><rect x="37" y="35" width="8" height="30" fill="#000000"/><rect x="49" y="30" width="8" height="35" fill="#000000"/><path d="M 60 30 L 75 30 L 75 65 L 60 65 Z" fill="#000000"/><text x="50" y="80" font-family="Arial, sans-serif" font-size="6" fill="#000000" text-anchor="middle">VADODARA</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
                   />
                 </div>
                 <div>
@@ -2993,7 +3005,7 @@ const IIITVadodaraPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "IIIT Vadodara"}
-        collegeLogo="/data/colleges/IIIT_Vadodara_Logo.svg"
+        collegeLogo="/images/iiit-vadodara-logo.png"
       />
 
       {/* Brochure Modal */}

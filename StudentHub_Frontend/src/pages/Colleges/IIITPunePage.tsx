@@ -2944,12 +2944,20 @@ const IIITPunePage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/IIIT_Agartala_Logo.svg" 
-                    alt="IIIT Agartala Logo" 
+                    src="/images/iiit-pune-logo.png" 
+                    alt="IIIT Pune Logo" 
                     className="w-full h-full object-contain"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.src = "https://via.placeholder.com/128?text=IIIT+Agartala";
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<path d="M 20 20 L 50 10 L 80 20 L 50 30 Z" fill="#dc2626" stroke="#991b1b" stroke-width="2"/><rect x="25" y="35" width="50" height="50" rx="3" fill="white" stroke="#6b7280" stroke-width="2"/><circle cx="50" cy="50" r="15" fill="#2563eb"/><text x="50" y="30" font-family="Arial, sans-serif" font-size="8" fill="white" text-anchor="middle">IIIT</text><text x="50" y="75" font-family="Arial, sans-serif" font-size="7" fill="#6b7280" text-anchor="middle">PUNE</text>';
+                        parent.appendChild(svg);
+                      }
                     }}
                   />
                 </div>
@@ -3046,7 +3054,7 @@ const IIITPunePage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "IIIT Agartala"}
-        collegeLogo="/data/colleges/IIIT_Agartala_Logo.svg"
+        collegeLogo="/images/iiit-pune-logo.png"
       />
 
       {/* Brochure Modal */}

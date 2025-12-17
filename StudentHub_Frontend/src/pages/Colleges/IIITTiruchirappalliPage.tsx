@@ -2895,9 +2895,21 @@ const IIITTiruchirappalliPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/IIIT_Tiruchirappalli_Logo.svg" 
+                    src="/images/iiit-tiruchirappalli-logo.png" 
                     alt="IIIT Tiruchirappalli Logo" 
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="white" stroke="#059669" stroke-width="3"/><path d="M 30 25 L 50 15 L 70 25 L 65 45 L 50 50 L 35 45 Z" fill="#059669" opacity="0.3"/><path d="M 35 30 L 50 20 L 65 30 L 60 40 L 50 45 L 40 40 Z" fill="#059669" opacity="0.5"/><rect x="40" y="50" width="20" height="15" rx="2" fill="#059669"/><text x="50" y="85" font-family="Arial, sans-serif" font-size="6" fill="#059669" text-anchor="middle">SRIRANGAM</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
                   />
                 </div>
                 <div>
@@ -2993,7 +3005,7 @@ const IIITTiruchirappalliPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "IIIT Tiruchirappalli"}
-        collegeLogo="/data/colleges/IIIT_Tiruchirappalli_Logo.svg"
+        collegeLogo="/images/iiit-tiruchirappalli-logo.png"
       />
 
       {/* Brochure Modal */}

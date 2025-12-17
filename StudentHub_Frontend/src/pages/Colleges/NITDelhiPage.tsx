@@ -2895,7 +2895,11 @@ const NITDelhiPage: React.FC = () => {
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
-
+                  <img 
+                    src="/images/nit-delhi-logo.png" 
+                    alt="NIT Delhi Logo" 
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 <div>
                   <h1 className="text-xl font-semibold text-gray-900 mb-2">
@@ -2990,7 +2994,7 @@ const NITDelhiPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "NIT Delhi"}
-        collegeLogo=""
+        collegeLogo="/images/nit-delhi-logo.png"
       />
 
       {/* Brochure Modal */}

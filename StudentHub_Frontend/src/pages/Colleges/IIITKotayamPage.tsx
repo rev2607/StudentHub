@@ -2895,9 +2895,21 @@ const IIITKotayamPage: React.FC = () => {
               <div className="flex items-start gap-6 mb-4">
                 <div className="w-32 h-32 rounded-lg flex items-center justify-center">
                   <img 
-                    src="/data/colleges/IIIT_Kotayam_Logo.svg" 
-                    alt="IIIT Kotayam Logo" 
+                    src="/images/iiit-kottayam-logo.png" 
+                    alt="IIIT Kottayam Logo" 
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<rect x="30" y="30" width="40" height="40" rx="5" transform="rotate(45 50 50)" fill="#10b981" stroke="#059669" stroke-width="2"/><path d="M 35 45 Q 50 35, 65 45 Q 50 55, 35 45" fill="#3b82f6" opacity="0.8"/><path d="M 35 50 Q 50 40, 65 50 Q 50 60, 35 50" fill="#2563eb" opacity="0.9"/><path d="M 35 55 Q 50 45, 65 55 Q 50 65, 35 55" fill="#1e40af"/><text x="50" y="85" font-family="Arial, sans-serif" font-size="7" fill="#10b981" text-anchor="middle">KOTTAYAM</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
                   />
                 </div>
                 <div>
@@ -2993,7 +3005,7 @@ const IIITKotayamPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "IIIT Kotayam"}
-        collegeLogo="/data/colleges/IIIT_Kotayam_Logo.svg"
+        collegeLogo="/images/iiit-kottayam-logo.png"
       />
 
       {/* Brochure Modal */}

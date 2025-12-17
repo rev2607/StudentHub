@@ -27,6 +27,10 @@ import ChandigarhUniversityPage from "./pages/Colleges/ChandigarhUniversityPage"
 import KLUniversityPage from "./pages/Colleges/KLUniversityPage";
 import KalasalingamAcademyPage from "./pages/Colleges/KalasalingamAcademyPage";
 import VitVellorePage from "./pages/Colleges/VitVellorePage";
+import VitChennaiPage from "./pages/Colleges/VitChennaiPage";
+import VitBhopalPage from "./pages/Colleges/VitBhopalPage";
+import VitAmaravatiPage from "./pages/Colleges/VitAmaravatiPage";
+import VitBangalorePage from "./pages/Colleges/VitBangalorePage";
 import NewsLandingPage from "./pages/News/NewsLandingPage";
 import NewsDetailPage from "./pages/News/NewsDetailPage";
 import SimpleNewsDetailPage from "./pages/News/SimpleNewsDetailPage";
@@ -232,6 +236,11 @@ function App() {
             <Route path="/colleges/kare" element={<KalasalingamAcademyPage />} />
             <Route path="/colleges/vit-vellore" element={<VitVellorePage />} />
             <Route path="/colleges/vit" element={<VitVellorePage />} />
+            <Route path="/colleges/vit-chennai" element={<VitChennaiPage />} />
+            <Route path="/colleges/vit-bhopal" element={<VitBhopalPage />} />
+            <Route path="/colleges/vit-amaravati" element={<VitAmaravatiPage />} />
+            <Route path="/colleges/vit-ap" element={<VitAmaravatiPage />} />
+            <Route path="/colleges/vit-bangalore" element={<VitBangalorePage />} />
             <Route path="/psychometric-test" element={<PsychometricTest />} />
             <Route path="/articles" element={<ArticlesLandingPage />} />
             <Route path="/articles/:slug" element={<ArticleDetailPage />} />
