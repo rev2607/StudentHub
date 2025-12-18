@@ -15,8 +15,8 @@ import {
 import AdmissionPredictorModal from "../../components/AdmissionPredictorModal";
 import BrochureModal from "../../components/BrochureModal";
 
-// Import NIT Calicut data service
-import { loadNITCalicutData, type NITCalicutData } from "../../services/collegeDataService";
+// Import NIT Srinagar data service
+import { loadNITSrinagarData, type NITSrinagarData } from "../../services/collegeDataService";
 
 interface TabProps {
   label: string;
@@ -45,9 +45,9 @@ const InfoCard: React.FC<{ label: string; value: string | number }> = ({ label, 
   </div>
 );
 
-const NITCalicutPage: React.FC = () => {
+const NITSrinagarPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState("overview");
-  const [collegeData, setCollegeData] = useState<NITCalicutData | null>(null);
+  const [collegeData, setCollegeData] = useState<NITSrinagarData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isPredictorModalOpen, setIsPredictorModalOpen] = useState(false);
@@ -78,7 +78,7 @@ const NITCalicutPage: React.FC = () => {
     const loadData = async () => {
       try {
         setLoading(true);
-        const data = await loadNITCalicutData();
+        const data = await loadNITSrinagarData();
         setCollegeData(data);
         
         // Set page title
@@ -91,7 +91,7 @@ const NITCalicutPage: React.FC = () => {
         document.head.appendChild(meta);
       } catch (err) {
         setError('Failed to load college data');
-        console.error('Error loading NIT Calicut data:', err);
+        console.error('Error loading NIT Srinagar data:', err);
       } finally {
         setLoading(false);
       }
@@ -225,7 +225,7 @@ const NITCalicutPage: React.FC = () => {
       {/* Admission Predictor CTA (moved to top) */}
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Predict Your Chances</h3>
-        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Calicut based on your rank and category.</p>
+        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Srinagar based on your rank and category.</p>
         <button onClick={() => setIsPredictorModalOpen(true)} className="w-full px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Try Admission Predictor</button>
       </div>
 
@@ -236,7 +236,7 @@ const NITCalicutPage: React.FC = () => {
           <div className="flex gap-3">
             <img src="/default-news.jpg" alt="News" className="w-16 h-16 object-cover rounded-lg flex-shrink-0" />
             <div className="flex-1 min-w-0">
-              <h4 className="text-sm font-medium text-gray-900 line-clamp-2">NIT Calicut Begins PhD Admissions 2025-26</h4>
+              <h4 className="text-sm font-medium text-gray-900 line-clamp-2">NIT Srinagar Begins PhD Admissions 2025-26</h4>
               <p className="text-xs text-gray-500 mt-1">2 days ago</p>
             </div>
           </div>
@@ -253,7 +253,7 @@ const NITCalicutPage: React.FC = () => {
 
       {/* Top Courses */}
       <div className="bg-white rounded-xl shadow-sm p-8">
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">Top Courses at NIT Calicut</h3>
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Top Courses at NIT Srinagar</h3>
         <div className="space-y-3">
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
@@ -400,7 +400,7 @@ const NITCalicutPage: React.FC = () => {
       {/* Admission Predictor CTA */}
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Predict Your Chances</h3>
-        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Calicut based on your rank and category.</p>
+        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Srinagar based on your rank and category.</p>
         <button onClick={() => setIsPredictorModalOpen(true)} className="w-full px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Try Admission Predictor</button>
       </div>
 
@@ -436,15 +436,15 @@ const NITCalicutPage: React.FC = () => {
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Popular College Comparisons</h3>
         <div className="space-y-2 text-sm">
           <Link to="/compare/nit-trichy-vs-iit-bombay" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Calicut vs IIT Bombay</span>
+            <span className="font-medium text-gray-900">NIT Srinagar vs IIT Bombay</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
           <Link to="/compare/nit-trichy-vs-iit-madras" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Calicut vs IIT Madras</span>
+            <span className="font-medium text-gray-900">NIT Srinagar vs IIT Madras</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
           <Link to="/compare/nit-trichy-vs-iit-delhi" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Calicut vs IIT Delhi</span>
+            <span className="font-medium text-gray-900">NIT Srinagar vs IIT Delhi</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
         </div>
@@ -516,9 +516,9 @@ const NITCalicutPage: React.FC = () => {
         <div className="space-y-4 flex-1">
           {[
             { name: "IIT Madras", rank: "1", type: "Engineering" },
-            { name: "NIT Calicut", rank: "2", type: "Engineering" },
-            { name: "NIT Calicut", rank: "4", type: "Engineering" },
-            { name: "NIT Calicut", rank: "5", type: "Engineering" },
+            { name: "NIT Srinagar", rank: "73", type: "Engineering" },
+            { name: "NIT Srinagar", rank: "Top", type: "North India" },
+            { name: "NIT Srinagar", rank: "Recognized", type: "Research" },
             { name: "IIT Roorkee", rank: "7", type: "Engineering" }
           ].map((college, index) => (
             <Link key={index} to="/colleges" className="flex items-center gap-3 p-3 hover:bg-gray-50 rounded-lg transition-colors">
@@ -3025,7 +3025,7 @@ const NITCalicutPage: React.FC = () => {
       <AdmissionPredictorModal
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
-        collegeName={collegeData?.Name || "NIT Calicut"}
+        collegeName={collegeData?.Name || "NIT Srinagar"}
         collegeLogo=""
       />
 
@@ -3033,7 +3033,7 @@ const NITCalicutPage: React.FC = () => {
       <BrochureModal
         isOpen={isBrochureModalOpen}
         onClose={() => setIsBrochureModalOpen(false)}
-        collegeName={collegeData?.Name || "NIT Calicut"}
+        collegeName={collegeData?.Name || "NIT Srinagar"}
         collegeData={collegeData || undefined}
       />
 
@@ -3116,4 +3116,4 @@ const NITCalicutPage: React.FC = () => {
   );
 };
 
-export default NITCalicutPage;
+export default NITSrinagarPage;
