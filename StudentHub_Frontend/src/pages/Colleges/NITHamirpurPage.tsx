@@ -553,30 +553,25 @@ const NITHamirpurPage: React.FC = () => {
         {/* Summary Bullet Points */}
         <div className="mb-6">
           <p className="text-gray-700 mb-3">
-            <strong>NIT Calicut Courses are offered at UG, PG, Doctorate level. There are 129 courses offered at NIT Calicut.</strong> The institute offers programs in Architecture, Engineering, Science, Management disciplines. Available degrees include B.Tech, M.Tech, Ph.D, B.Arch, M.Sc, MBA, M.Arch, BS + MS, B.Tech + M.Tech, Executive MBA. Popular courses are B.Tech, M.Tech, Ph.D.
+            <strong>NIT Hamirpur Courses are offered at UG, PG, Doctorate level.</strong> The institute offers programs in Architecture, Engineering, Science, Management, and Humanities disciplines. Available degrees include B.Tech (11 branches), M.Tech (20+ specializations), Ph.D, B.Arch, M.Sc, MBA, MCA. Popular courses are B.Tech, M.Tech, Ph.D.
           </p>
           <ul className="space-y-2 text-gray-700">
-            <li>• <strong>NIT Calicut Fees 2025-2026 range from ₹44,000 to ₹8.66 Lakhs across all offered courses.</strong> UG Fees: ₹9.2 Lakhs for B.Tech (4 years), PG Fees: ₹1.334 Lakhs to ₹8.66 Lakhs</li>
-            <li>• <strong>NIT Calicut B.Tech Fees is ₹9.2 Lakhs for the entire 4 years duration.</strong> Popular specializations: Computer Science & Engineering, Electrical Engineering, Mechanical Engineering.
+            <li>• <strong>NIT Hamirpur Fees 2025-2026:</strong> B.Tech: ₹7.69 Lakhs (entire course), M.Tech: ₹2.68 Lakhs (2 years), MBA: ₹1.4 Lakhs, M.Sc: ₹1.6 Lakhs</li>
+            <li>• <strong>NIT Hamirpur B.Tech Fees is ₹7.69 Lakhs for the entire 4 years duration.</strong> Popular specializations: Civil Engineering, Computer Science & Engineering, Electrical Engineering, Mechanical Engineering, Chemical Engineering, Electronics and Communication Engineering, Architecture.
               <ul className="ml-4 mt-1 space-y-1">
-                <li>• NIT Calicut B.Tech total program fee: ₹9.2 Lakhs. First year fee: ₹2.3 Lakhs.</li>
-                <li>• B.Tech CSE is one of the most competitive programs with AIR 66 cutoff.</li>
+                <li>• NIT Hamirpur B.Tech total program fee: ₹7.69 Lakhs. First year fee: ₹1.92 Lakhs.</li>
+                <li>• B.Tech is offered in 11 branches with competitive JEE Main cutoffs.</li>
               </ul>
             </li>
-            <li>• <strong>NIT Calicut M.Tech Fees is ₹1.334 Lakhs for the entire 2 years duration.</strong> Popular specializations: Computer Science And Engineering, Data Science, AI & Machine Learning.
+            <li>• <strong>NIT Hamirpur M.Tech Fees is ₹2.68 Lakhs for the entire 2 years duration.</strong> Popular specializations: Multiple specializations across engineering departments.
               <ul className="ml-4 mt-1 space-y-1">
-                <li>• NIT Calicut M.Tech annual fee: ₹66,700</li>
-                <li>• 50+ M.Tech specializations available across various departments</li>
+                <li>• NIT Hamirpur M.Tech annual fee: ₹1.34 Lakhs</li>
+                <li>• 20+ M.Tech specializations available across various departments</li>
               </ul>
             </li>
-            <li>• <strong>NIT Calicut Ph.D Fees is ₹1.32 Lakhs for 3 years duration.</strong> Popular specializations: All engineering, science, and management departments.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• Ph.D fee: ₹44,000 per year (₹1.32 Lakhs for 3 years)</li>
-                <li>• Over 1200+ Ph.D students enrolled across 50 programs</li>
-              </ul>
-            </li>
-            <li>• <strong>NIT Calicut offers MBA through SJMSOM with total fee of ₹8.66 Lakhs (₹4.33 Lakhs per year).</strong> Admission through CAT examination.</li>
-            <li>• <strong>NIT Calicut Hostel & Mess Fee is approximately ₹39,400 per semester.</strong></li>
+            <li>• <strong>NIT Hamirpur MBA Fees is ₹1.4 Lakhs for 2 years duration.</strong> Admission through CAT/MAT examination.</li>
+            <li>• <strong>NIT Hamirpur M.Sc Fees is ₹1.6 Lakhs for 2 years duration.</strong> Admission through IIT JAM examination.</li>
+            <li>• <strong>NIT Hamirpur Hostel facilities are available with integrated fees or separate nominal charges.</strong></li>
           </ul>
         </div>
         
@@ -604,11 +599,11 @@ const NITHamirpurPage: React.FC = () => {
         {/* Summary Bullet Points */}
         <div className="mb-6">
           <ul className="space-y-2 text-gray-700">
-            <li>• <strong>NIT Calicut offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and design disciplines.</strong> The institute maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
-            <li>• <strong>Undergraduate Programs:</strong> B.Tech (1200 seats, ₹2.3L/year), Dual Degree programs available, B.Des (15 seats, ₹2.3L/year). All programs require competitive entrance examinations with JEE Advanced for B.Tech and UCEED for B.Des.</li>
-            <li>• <strong>Postgraduate Programs:</strong> M.Tech (50 specializations, ₹66,700/year), MBA (120 seats, ₹4.33L/year), M.Sc (200 seats across 4 disciplines, ₹78,600/year). Admission through GATE, CAT, and IIT JAM examinations respectively.</li>
-            <li>• <strong>Doctoral Programs:</strong> PhD (50 programs, 1200+ seats, ₹44,000/year). Duration typically 3-5 years with research focus areas including AI, machine learning, sustainable energy, healthcare informatics, and electric mobility.</li>
-            <li>• <strong>Hostel & Accommodation:</strong> 18 hostels with modern amenities including Wi-Fi, study rooms, mess halls, recreation areas, and water purifiers. Hostel & mess fees approximately ₹39,400 per semester.</li>
+            <li>• <strong>NIT Hamirpur offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, architecture, science, management, and humanities disciplines.</strong> The institute maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
+            <li>• <strong>Undergraduate Programs:</strong> B.Tech (600 seats, ₹1.92L/year), B.Arch (40 seats, ₹1.92L/year). All programs require competitive entrance examinations with JEE Main for B.Tech and JEE Main Paper 2 for B.Arch.</li>
+            <li>• <strong>Postgraduate Programs:</strong> M.Tech (20+ specializations, ₹1.34L/year), MBA (60 seats, ₹70,000/year), M.Sc (50 seats, ₹80,000/year), MCA (60 seats, ₹40,000/year). Admission through GATE, CAT/MAT, IIT JAM, and NIMCET examinations respectively.</li>
+            <li>• <strong>Doctoral Programs:</strong> PhD programs available across engineering, science, and management departments. Duration typically 3-5 years with research focus areas including Energy, Material Science, and Computational Engineering.</li>
+            <li>• <strong>Hostel & Accommodation:</strong> 12 hostels (8 boys, 4 girls) with modern amenities including Wi-Fi, badminton courts, table tennis, water supply, power backup, mess halls, common study rooms, and recreation rooms.</li>
           </ul>
         </div>
         
@@ -645,7 +640,7 @@ const NITHamirpurPage: React.FC = () => {
       {/* Admission Process */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Admission Process & Cutoffs</h3>
-        <p className="text-gray-700 mb-6">Admissions at NIT Calicut are highly competitive, with rigorous entrance examinations and strict cutoff criteria. The institute follows a merit-based selection process ensuring only the brightest minds join the community.</p>
+        <p className="text-gray-700 mb-6">Admissions at NIT Hamirpur are based on national level entrance exams with counseling. UG admissions through JEE Main and JoSAA, PG via GATE and CCMT, MBA via CAT/MAT, and M.Sc through IIT JAM. The institute follows a merit-based selection process ensuring quality education.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -683,7 +678,7 @@ const NITHamirpurPage: React.FC = () => {
       {/* Placements & Career Opportunities */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Placements & Career Opportunities</h3>
-        <p className="text-gray-700 mb-6">NIT Calicut has an exceptional placement record with top-tier companies consistently recruiting students across all programs. The Career Development Cell ensures comprehensive preparation and support throughout the placement process.</p>
+        <p className="text-gray-700 mb-6">NIT Hamirpur has a strong placement record with placement index of 92.23% in 2024-25 session. Average package around ₹10.58 LPA with highest package reported ₹56 LPA. Strong placements mainly in CSE, ECE, Mechanical and other core branches with 150+ recruiters visiting campus.</p>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Total Offers (2024)" value={collegeData.Placements.Year2024.TotalOffers} />
@@ -724,7 +719,7 @@ const NITHamirpurPage: React.FC = () => {
       {/* Rankings & Recognition */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Rankings & Recognition</h3>
-        <p className="text-gray-700 mb-6">NIT Calicut consistently ranks among the top engineering institutions in India and has gained international recognition for its academic excellence, research contributions, and innovation initiatives.</p>
+        <p className="text-gray-700 mb-6">NIT Hamirpur is ranked among top 100 engineering institutes by NIRF. NIRF 2025 Engineering Rank: 97, Architecture Rank: 30. The institute has shown steady improvement in rankings and is noted for infrastructure by World Bank.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -774,7 +769,7 @@ const NITHamirpurPage: React.FC = () => {
       {/* Facilities & Infrastructure */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Campus Facilities & Infrastructure</h3>
-        <p className="text-gray-700 mb-6">The sprawling 365-acre campus of NIT Calicut houses world-class facilities including modern hostels, state-of-the-art laboratories, extensive library resources, and comprehensive sports infrastructure to support holistic development.</p>
+        <p className="text-gray-700 mb-6">The sprawling 320-acre green campus of NIT Hamirpur houses world-class facilities including modern hostels (12 hostels), state-of-the-art laboratories, extensive library resources, healthcare center, sports complex with various courts and grounds, auditorium, conference halls, cafeterias, bank and ATMs, meditation center, guest house, and Wi-Fi campus.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -844,7 +839,7 @@ const NITHamirpurPage: React.FC = () => {
       {/* Faculty & Research */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty & Research Excellence</h3>
-        <p className="text-gray-700 mb-6">NIT Calicut boasts a distinguished faculty of over 470 members across 23 departments, with the majority holding PhD degrees. The institute is at the forefront of research and innovation with significant contributions to various fields.</p>
+        <p className="text-gray-700 mb-6">NIT Hamirpur boasts approximately 200 qualified faculty members across 13 departments, with the majority holding PhDs. The faculty is experienced in teaching and research with a blend of academic and industry exposure. The institute focuses on interactive sessions, continuous evaluation, project work, and research guidance.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -895,7 +890,7 @@ const NITHamirpurPage: React.FC = () => {
       {/* Student Life & Culture */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student Life & Campus Culture</h3>
-        <p className="text-gray-700 mb-6">The vibrant campus life at NIT Calicut is characterized by a diverse community, rich cultural traditions, and numerous opportunities for personal and professional growth through clubs, societies, and events.</p>
+        <p className="text-gray-700 mb-6">The vibrant campus life at NIT Hamirpur is characterized by a diverse community welcoming students from across India with provisions for international students. Campus life includes numerous cultural and technical fests, sports activities, and clubs. Hostels provide comfortable living surrounded by nature's beauty.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -977,7 +972,7 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Undergraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          NIT Calicut's undergraduate offerings are designed to build a strong foundation in core disciplines while
+          NIT Hamirpur's undergraduate offerings are designed to build a strong foundation in core disciplines while
           introducing students to cutting-edge technologies and interdisciplinary learning. With competitive intake,
           structured curricula, modern laboratories, and active industry projects, students graduate with both theoretical
           depth and hands-on problem-solving skills. The programs emphasize fundamentals, design thinking, and professional
@@ -1111,7 +1106,7 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Postgraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          The postgraduate ecosystem at NIT Calicut is research-driven and industry-aligned. Programs in engineering,
+          The postgraduate ecosystem at NIT Hamirpur is research-driven and industry-aligned. Programs in engineering,
           management, and sciences emphasize advanced coursework, electives in emerging areas, and strong thesis/project
           components. Students benefit from funded research labs, innovation centers, and frequent industry seminars.
         </p>
@@ -1246,7 +1241,7 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel & Accommodation</h3>
         <p className="text-gray-700 mb-4">
-          Hostel life at NIT Calicut is known for its vibrant culture and supportive community. With modern rooms, study
+          Hostel life at NIT Hamirpur is known for its vibrant culture and supportive community. With modern rooms, study
           areas, and recreational spaces, students find a conducive environment for personal growth. Residential living
           also fosters collaboration across programs through clubs, intramurals, and festivals.
         </p>
@@ -1265,16 +1260,16 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Admissions at {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at <strong>NIT Calicut</strong> are among the most merit-centric and transparent in Indian higher
+          Admissions at <strong>NIT Hamirpur</strong> are among the most merit-centric and transparent in Indian higher
           education, governed by national-level examinations and centralized counseling platforms. The system ensures
           nationwide participation while adhering to Central Government reservation policies for SC, ST, OBC‑NCL, EWS,
           and PwD categories. Processes vary across undergraduate, postgraduate, and doctoral levels—each emphasizing
           academic rigor, exam performance, and interviews or research assessments where applicable.
         </p>
 
-        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of NIT Calicut’s Admission Framework</h4>
+        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of NIT Hamirpur's Admission Framework</h4>
         <p className="text-gray-700 mb-3">
-          Founded in 1958 through Indo-Soviet collaboration, NIT Calicut structures admissions to maintain academic
+          Founded in 1986 as Regional Engineering College Hamirpur and upgraded to NIT in 2002, NIT Hamirpur structures admissions to maintain academic
           excellence and equitable access. All admissions—through <strong>JEE Advanced, GATE, CAT, IIT JAM,</strong> or
           <strong> UCEED</strong>—are aligned to centralized systems managed by national bodies such as
           <strong> JoSAA</strong>, <strong>COAP</strong>, and respective coordination portals.
@@ -1341,9 +1336,9 @@ const NITHamirpurPage: React.FC = () => {
         </ul>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at NIT Calicut</h3>
+        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at NIT Hamirpur</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at NIT Calicut are highly structured and merit-driven. Each program is tied to a national-level
+          Admissions at NIT Hamirpur are highly structured and merit-driven. Each program is tied to a national-level
           examination with carefully defined counseling processes, category-based reservations, and institute-level
           verification. Shortlisted candidates typically proceed through centralized counseling where seat allotments are
           made based on rank, preferences, and availability.
@@ -1520,9 +1515,9 @@ const NITHamirpurPage: React.FC = () => {
   const renderPlacementsTab = () => (
     <div id="placements-root" className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Why Placements at NIT Calicut Stand Out</h3>
+        <h3 className="text-2xl font-semibold mb-4">Why Placements at NIT Hamirpur Stand Out</h3>
         <p className="text-gray-700 mb-3">
-          NIT Calicut’s placement ecosystem blends academic rigor, early skill development, industry exposure, and a
+          NIT Hamirpur's placement ecosystem blends academic rigor, early skill development, industry exposure, and a
           powerful alumni network—resulting in consistently high packages and diverse global opportunities. Students are
           groomed to excel in high‑pressure, real‑world environments, not just to crack interviews.
         </p>
@@ -1804,9 +1799,9 @@ const NITHamirpurPage: React.FC = () => {
     <div id="rankings-root" className="space-y-6">
       {/* Rankings Narrative and Consolidated Tables (user-provided) */}
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">NIT Calicut Rankings & Recognition</h3>
+        <h3 className="text-2xl font-semibold mb-4">NIT Hamirpur Rankings & Recognition</h3>
         <p className="text-gray-700 mb-4">
-          NIT Calicut is consistently ranked among India’s top institutions and continues to strengthen its global
+          NIT Hamirpur is ranked among top 100 engineering institutes by NIRF and continues to strengthen its global
           standing. The institute’s performance across teaching quality, research output, graduate outcomes, outreach,
           and perception is reflected in leading national and international ranking frameworks.
         </p>
@@ -1925,7 +1920,7 @@ const NITHamirpurPage: React.FC = () => {
         </div>
 
         <p className="text-gray-700 mb-4">
-          Nationally, NIT Calicut ranks #7 overall (NIRF 2025), #6 in engineering, and #1 in architecture & planning.
+          Nationally, NIT Hamirpur ranks #97 in engineering (NIRF 2025) and #30 in architecture & planning.
           Internationally, it is #335 in QS World (2026) and #130 in QS Asia (2025), with THE placing engineering in the
           301–400 band. These reflect strong academics, research, innovation, and global presence.
         </p>
@@ -1948,9 +1943,9 @@ const NITHamirpurPage: React.FC = () => {
         </div>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Understanding NIT Calicut’s Rankings</h3>
+        <h3 className="text-2xl font-semibold mb-4">Understanding NIT Hamirpur's Rankings</h3>
         <p className="text-gray-700 mb-3">
-          Rankings reflect NIT Calicut’s consistent performance in teaching, research output, innovation, graduate
+          Rankings reflect NIT Hamirpur's consistent performance in teaching, research output, innovation, graduate
           outcomes, and international visibility. Nationally, the institute is among the top engineering schools; globally,
           it features in reputed lists such as QS and THE, indicating strong competitiveness and alumni impact.
         </p>
@@ -2162,7 +2157,7 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Campus Facilities & Student Experience</h3>
         <p className="text-gray-700 mb-3">
-          The 365-acre campus is planned for academic rigor and balanced living. High-quality hostels, libraries,
+          The 320-acre green campus is planned for academic rigor and balanced living. High-quality hostels, libraries,
           laboratories, sports complexes, and medical services create a complete ecosystem that supports learning and
           wellbeing. Student clubs and maker spaces further enhance hands-on creativity and leadership.
         </p>
@@ -2199,7 +2194,7 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel Facilities</h3>
         <p className="text-gray-700 mb-3">
-          Residential life anchors the NIT Calicut experience. With 20 hostels spanning boys, girls, married and co‑ed
+          Residential life anchors the NIT Hamirpur experience. With 12 hostels (8 boys, 4 girls) providing comfortable living
           residences, students find a safe, connected environment. Wi‑Fi connectivity, common study rooms, recreation
           lounges and student‑run mess committees support academic focus and community bonding in equal measure.
         </p>
@@ -2388,7 +2383,7 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength, Research Culture & Global Collaborations</h3>
         <p className="text-gray-700 mb-3">
-          NIT Calicut’s faculty and research ecosystem is among the strongest in India. With <strong>470+</strong> faculty
+          NIT Hamirpur's faculty and research ecosystem is strong. With <strong>200+</strong> faculty
           across <strong>23 departments</strong>, the institute sustains a robust, interdisciplinary environment spanning
           fundamental sciences, engineering, and emerging domains. Faculty drive national missions, global partnerships,
           and translational research impacting both industry and society.
@@ -2417,7 +2412,7 @@ const NITHamirpurPage: React.FC = () => {
               <tbody className="divide-y divide-gray-100">
                 <tr className="hover:bg-gray-50">
                   <td className="py-2 pr-4 font-medium">Faculty Strength</td>
-                  <td className="py-2 pr-4">470+ across 23 departments</td>
+                  <td className="py-2 pr-4">200+ across 13 departments</td>
                   <td className="py-2">Majority PhD‑qualified</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
@@ -2439,7 +2434,7 @@ const NITHamirpurPage: React.FC = () => {
         <p className="text-gray-700 mb-3">
           Most faculty members hold doctorates from IITs, IISc, or global universities (Cambridge, ETH Zurich, MIT).
           Growth areas include the Department of Design Innovation and interdisciplinary centers like Biomedical
-          Engineering, reflecting NIT Calicut’s future‑oriented academic model.
+          Engineering, reflecting NIT Hamirpur's future‑oriented academic model.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Key Research Centers and Specializations</h4>
@@ -2555,7 +2550,7 @@ const NITHamirpurPage: React.FC = () => {
         <h4 className="text-lg font-semibold mt-3 mb-2">Research Funding & Recognition</h4>
         <p className="text-gray-700">
           Funding sources include the Ministry of Education, DST, CSIR, DBT, ISRO, and international grants. Award‑winning
-          innovations span renewable energy, disaster mitigation, and AI‑assisted healthcare. NIT Calicut balances academic
+          innovations span energy, material science, and computational engineering. NIT Hamirpur balances academic
           rigor with national priorities and global partnerships, making it one of India’s most research‑driven academic
           communities.
         </p>
@@ -2563,7 +2558,7 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength & Research Culture</h3>
         <p className="text-gray-700 mb-3">
-          With a large cohort of accomplished faculty across departments, NIT Calicut sustains a vibrant research
+          With accomplished faculty across 13 departments, NIT Hamirpur sustains a vibrant research
           ecosystem. Faculty members publish in leading venues, attract substantial research funding, and mentor student
           teams that participate in national and international competitions.
         </p>
@@ -2699,7 +2694,7 @@ const NITHamirpurPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student & Alumni Perspectives on {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Established in 1958 through Indo-Soviet collaboration, NIT Calicut is widely regarded as a premier
+          Established in 1986 as Regional Engineering College Hamirpur and upgraded to NIT in 2002, NIT Hamirpur is widely regarded as a premier
           engineering and technology institution. Reviews consistently highlight a rigorous academic atmosphere, world‑class
           faculty, and a highly competitive peer network set against a vibrant, 550-acre campus beside Powai Lake.
         </p>
@@ -2743,7 +2738,7 @@ const NITHamirpurPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mb-2">Return on Investment & Prestige</h4>
         <p className="text-gray-700 mb-4">
-          With comparatively low fees and strong outcomes, ROI is considered excellent. The NIT Calicut brand has global
+          With comparatively low fees and strong outcomes, ROI is considered excellent. The NIT Hamirpur brand has growing
           recognition; alumni progress into leadership roles across industry, academia, and public service.
         </p>
 
@@ -2789,7 +2784,7 @@ const NITHamirpurPage: React.FC = () => {
   const renderContactTab = () => (
     <div className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Contacting NIT Calicut Effectively</h3>
+        <h3 className="text-2xl font-semibold mb-4">Contacting NIT Hamirpur Effectively</h3>
         <p className="text-gray-700 mb-3">
           For admissions and program-specific queries, use official channels and include your application details (name,
           application ID, program, and question) for faster responses. For urgent issues, phone lines and the institute
