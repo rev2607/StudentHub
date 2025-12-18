@@ -15,8 +15,8 @@ import {
 import AdmissionPredictorModal from "../../components/AdmissionPredictorModal";
 import BrochureModal from "../../components/BrochureModal";
 
-// Import NIT Calicut data service
-import { loadNITCalicutData, type NITCalicutData } from "../../services/collegeDataService";
+// Import NIT Uttarakhand data service
+import { loadNITUttarakhandData, type NITUttarakhandData } from "../../services/collegeDataService";
 
 interface TabProps {
   label: string;
@@ -45,9 +45,9 @@ const InfoCard: React.FC<{ label: string; value: string | number }> = ({ label, 
   </div>
 );
 
-const NITCalicutPage: React.FC = () => {
+const NITUttarakhandPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState("overview");
-  const [collegeData, setCollegeData] = useState<NITCalicutData | null>(null);
+  const [collegeData, setCollegeData] = useState<NITUttarakhandData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [isPredictorModalOpen, setIsPredictorModalOpen] = useState(false);
@@ -78,7 +78,7 @@ const NITCalicutPage: React.FC = () => {
     const loadData = async () => {
       try {
         setLoading(true);
-        const data = await loadNITCalicutData();
+        const data = await loadNITUttarakhandData();
         setCollegeData(data);
         
         // Set page title
@@ -91,7 +91,7 @@ const NITCalicutPage: React.FC = () => {
         document.head.appendChild(meta);
       } catch (err) {
         setError('Failed to load college data');
-        console.error('Error loading NIT Calicut data:', err);
+        console.error('Error loading NIT Uttarakhand data:', err);
       } finally {
         setLoading(false);
       }
@@ -225,7 +225,7 @@ const NITCalicutPage: React.FC = () => {
       {/* Admission Predictor CTA (moved to top) */}
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Predict Your Chances</h3>
-        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Calicut based on your rank and category.</p>
+        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Uttarakhand based on your rank and category.</p>
         <button onClick={() => setIsPredictorModalOpen(true)} className="w-full px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Try Admission Predictor</button>
       </div>
 
@@ -236,7 +236,7 @@ const NITCalicutPage: React.FC = () => {
           <div className="flex gap-3">
             <img src="/default-news.jpg" alt="News" className="w-16 h-16 object-cover rounded-lg flex-shrink-0" />
             <div className="flex-1 min-w-0">
-              <h4 className="text-sm font-medium text-gray-900 line-clamp-2">NIT Calicut Begins PhD Admissions 2025-26</h4>
+              <h4 className="text-sm font-medium text-gray-900 line-clamp-2">NIT Uttarakhand Begins PhD Admissions 2025-26</h4>
               <p className="text-xs text-gray-500 mt-1">2 days ago</p>
             </div>
           </div>
@@ -253,7 +253,7 @@ const NITCalicutPage: React.FC = () => {
 
       {/* Top Courses */}
       <div className="bg-white rounded-xl shadow-sm p-8">
-        <h3 className="text-lg font-semibold text-gray-900 mb-4">Top Courses at NIT Calicut</h3>
+        <h3 className="text-lg font-semibold text-gray-900 mb-4">Top Courses at NIT Uttarakhand</h3>
         <div className="space-y-3">
           <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
               <div>
@@ -400,7 +400,7 @@ const NITCalicutPage: React.FC = () => {
       {/* Admission Predictor CTA */}
       <div className="bg-white rounded-xl shadow-sm p-8">
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Predict Your Chances</h3>
-        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Calicut based on your rank and category.</p>
+        <p className="text-sm text-gray-700 mb-3">Get a personalized prediction for NIT Uttarakhand based on your rank and category.</p>
         <button onClick={() => setIsPredictorModalOpen(true)} className="w-full px-4 py-2 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Try Admission Predictor</button>
       </div>
 
@@ -436,15 +436,15 @@ const NITCalicutPage: React.FC = () => {
         <h3 className="text-lg font-semibold text-gray-900 mb-4">Popular College Comparisons</h3>
         <div className="space-y-2 text-sm">
           <Link to="/compare/nit-trichy-vs-iit-bombay" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Calicut vs IIT Bombay</span>
+            <span className="font-medium text-gray-900">NIT Uttarakhand vs IIT Bombay</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
           <Link to="/compare/nit-trichy-vs-iit-madras" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Calicut vs IIT Madras</span>
+            <span className="font-medium text-gray-900">NIT Uttarakhand vs IIT Madras</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
           <Link to="/compare/nit-trichy-vs-iit-delhi" className="flex items-center justify-between p-3 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors">
-            <span className="font-medium text-gray-900">NIT Calicut vs IIT Delhi</span>
+            <span className="font-medium text-gray-900">NIT Uttarakhand vs IIT Delhi</span>
             <ChevronRight className="w-4 h-4 text-gray-400" />
           </Link>
         </div>
@@ -516,9 +516,9 @@ const NITCalicutPage: React.FC = () => {
         <div className="space-y-4 flex-1">
           {[
             { name: "IIT Madras", rank: "1", type: "Engineering" },
-            { name: "NIT Calicut", rank: "2", type: "Engineering" },
-            { name: "NIT Calicut", rank: "4", type: "Engineering" },
-            { name: "NIT Calicut", rank: "5", type: "Engineering" },
+            { name: "NIT Uttarakhand", rank: "98", type: "Engineering" },
+            { name: "NIT Uttarakhand", rank: "Recognized", type: "Sustainability" },
+            { name: "NIT Uttarakhand", rank: "Regional", type: "Impact" },
             { name: "IIT Roorkee", rank: "7", type: "Engineering" }
           ].map((college, index) => (
             <Link key={index} to="/colleges" className="flex items-center gap-3 p-3 hover:bg-gray-50 rounded-lg transition-colors">
@@ -552,30 +552,26 @@ const NITCalicutPage: React.FC = () => {
         {/* Summary Bullet Points */}
         <div className="mb-6">
           <p className="text-gray-700 mb-3">
-            <strong>NIT Calicut Courses are offered at UG, PG, Doctorate level. There are 129 courses offered at NIT Calicut.</strong> The institute offers programs in Architecture, Engineering, Science, Management disciplines. Available degrees include B.Tech, M.Tech, Ph.D, B.Arch, M.Sc, MBA, M.Arch, BS + MS, B.Tech + M.Tech, Executive MBA. Popular courses are B.Tech, M.Tech, Ph.D.
+            <strong>NIT Uttarakhand Courses are offered at UG, PG, Doctorate level.</strong> The institute offers programs in Engineering disciplines. Available degrees include B.Tech (Civil, Mechanical, Electrical, Electronics & Communication, Computer Science, Environmental Engineering), M.Tech (specialized fields), MBA, MCA, M.Sc, and Ph.D. Popular courses are B.Tech, M.Tech, Ph.D.
           </p>
           <ul className="space-y-2 text-gray-700">
-            <li>• <strong>NIT Calicut Fees 2025-2026 range from ₹44,000 to ₹8.66 Lakhs across all offered courses.</strong> UG Fees: ₹9.2 Lakhs for B.Tech (4 years), PG Fees: ₹1.334 Lakhs to ₹8.66 Lakhs</li>
-            <li>• <strong>NIT Calicut B.Tech Fees is ₹9.2 Lakhs for the entire 4 years duration.</strong> Popular specializations: Computer Science & Engineering, Electrical Engineering, Mechanical Engineering.
+            <li>• <strong>NIT Uttarakhand Fees 2025-2026:</strong> B.Tech: ₹4.5 Lakhs (4 years), M.Tech: ₹1.8 Lakhs (2 years), MBA: ₹1.2 Lakhs (2 years), M.Sc: ₹50,000 (2 years), Ph.D: ₹30,000-50,000 (annual), Hostel & Mess: ₹50,000-60,000 annually</li>
+            <li>• <strong>NIT Uttarakhand B.Tech Fees is ₹4.5 Lakhs for the entire 4 years duration.</strong> Popular specializations: Civil Engineering, Mechanical Engineering, Electrical Engineering, Electronics & Communication, Computer Science, Environmental Engineering.
               <ul className="ml-4 mt-1 space-y-1">
-                <li>• NIT Calicut B.Tech total program fee: ₹9.2 Lakhs. First year fee: ₹2.3 Lakhs.</li>
-                <li>• B.Tech CSE is one of the most competitive programs with AIR 66 cutoff.</li>
+                <li>• NIT Uttarakhand B.Tech total program fee: ₹4.5 Lakhs. First year fee: ₹1.125 Lakhs.</li>
+                <li>• B.Tech programs require JEE Main and JoSAA counseling for admission. Approximately 280 UG seats available.</li>
               </ul>
             </li>
-            <li>• <strong>NIT Calicut M.Tech Fees is ₹1.334 Lakhs for the entire 2 years duration.</strong> Popular specializations: Computer Science And Engineering, Data Science, AI & Machine Learning.
+            <li>• <strong>NIT Uttarakhand M.Tech Fees is ₹1.8 Lakhs for the entire 2 years duration.</strong> Popular specializations: Specialized fields across engineering departments.
               <ul className="ml-4 mt-1 space-y-1">
-                <li>• NIT Calicut M.Tech annual fee: ₹66,700</li>
-                <li>• 50+ M.Tech specializations available across various departments</li>
+                <li>• NIT Uttarakhand M.Tech annual fee: ₹90,000</li>
+                <li>• M.Tech admission through GATE and CCMT counseling</li>
               </ul>
             </li>
-            <li>• <strong>NIT Calicut Ph.D Fees is ₹1.32 Lakhs for 3 years duration.</strong> Popular specializations: All engineering, science, and management departments.
-              <ul className="ml-4 mt-1 space-y-1">
-                <li>• Ph.D fee: ₹44,000 per year (₹1.32 Lakhs for 3 years)</li>
-                <li>• Over 1200+ Ph.D students enrolled across 50 programs</li>
-              </ul>
-            </li>
-            <li>• <strong>NIT Calicut offers MBA through SJMSOM with total fee of ₹8.66 Lakhs (₹4.33 Lakhs per year).</strong> Admission through CAT examination.</li>
-            <li>• <strong>NIT Calicut Hostel & Mess Fee is approximately ₹39,400 per semester.</strong></li>
+            <li>• <strong>NIT Uttarakhand MBA Fees is ₹1.2 Lakhs for 2 years duration.</strong> Admission through CAT examination.</li>
+            <li>• <strong>NIT Uttarakhand M.Sc Fees is ₹50,000 for 2 years duration.</strong> Admission through relevant entrance examinations.</li>
+            <li>• <strong>NIT Uttarakhand Ph.D Fees is ₹30,000-50,000 per annum.</strong> Admission through institute entrance exam and interview.</li>
+            <li>• <strong>NIT Uttarakhand Hostel & Mess Fee is approximately ₹50,000-60,000 annually.</strong> Modern hostels with all necessary amenities.</li>
           </ul>
         </div>
         
@@ -603,11 +599,11 @@ const NITCalicutPage: React.FC = () => {
         {/* Summary Bullet Points */}
         <div className="mb-6">
           <ul className="space-y-2 text-gray-700">
-            <li>• <strong>NIT Calicut offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering, science, management, and design disciplines.</strong> The institute maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
-            <li>• <strong>Undergraduate Programs:</strong> B.Tech (1200 seats, ₹2.3L/year), Dual Degree programs available, B.Des (15 seats, ₹2.3L/year). All programs require competitive entrance examinations with JEE Advanced for B.Tech and UCEED for B.Des.</li>
-            <li>• <strong>Postgraduate Programs:</strong> M.Tech (50 specializations, ₹66,700/year), MBA (120 seats, ₹4.33L/year), M.Sc (200 seats across 4 disciplines, ₹78,600/year). Admission through GATE, CAT, and IIT JAM examinations respectively.</li>
-            <li>• <strong>Doctoral Programs:</strong> PhD (50 programs, 1200+ seats, ₹44,000/year). Duration typically 3-5 years with research focus areas including AI, machine learning, sustainable energy, healthcare informatics, and electric mobility.</li>
-            <li>• <strong>Hostel & Accommodation:</strong> 18 hostels with modern amenities including Wi-Fi, study rooms, mess halls, recreation areas, and water purifiers. Hostel & mess fees approximately ₹39,400 per semester.</li>
+            <li>• <strong>NIT Uttarakhand offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across engineering disciplines.</strong> The institute maintains a balance between theoretical knowledge and practical application with state-of-the-art facilities and experienced faculty.</li>
+            <li>• <strong>Undergraduate Programs:</strong> B.Tech (approximately 280 seats, ₹1.125L/year) in Civil, Mechanical, Electrical, Electronics & Communication, Computer Science, and Environmental Engineering. All programs require competitive entrance examinations with JEE Main for B.Tech and JoSAA counseling.</li>
+            <li>• <strong>Postgraduate Programs:</strong> M.Tech (specialized fields, ₹90,000/year), MBA (₹60,000/year), MCA, M.Sc (₹25,000/year). Admission through GATE and CCMT for M.Tech, CAT for MBA, NIMCET for MCA.</li>
+            <li>• <strong>Doctoral Programs:</strong> Ph.D programs available in engineering and sciences. Duration typically 3-5 years with research focus areas including sustainable energy, environmental management, and information technology.</li>
+            <li>• <strong>Hostel & Accommodation:</strong> Modern hostels with all necessary amenities including Wi-Fi, sports facilities, and recreational areas. Hostel & mess fees approximately ₹50,000-60,000 annually.</li>
           </ul>
         </div>
         
@@ -644,7 +640,7 @@ const NITCalicutPage: React.FC = () => {
       {/* Admission Process */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Admission Process & Cutoffs</h3>
-        <p className="text-gray-700 mb-6">Admissions at NIT Calicut are highly competitive, with rigorous entrance examinations and strict cutoff criteria. The institute follows a merit-based selection process ensuring only the brightest minds join the community.</p>
+        <p className="text-gray-700 mb-6">Admissions at NIT Uttarakhand are through JEE Main via Central Counseling (JoSAA) for UG, GATE for PG, CAT for MBA, NIMCET for MCA, Ph.D via institute entrance exam and interview. The institute follows a merit-based selection process ensuring quality education.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -682,7 +678,7 @@ const NITCalicutPage: React.FC = () => {
       {/* Placements & Career Opportunities */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Placements & Career Opportunities</h3>
-        <p className="text-gray-700 mb-6">NIT Calicut has an exceptional placement record with top-tier companies consistently recruiting students across all programs. The Career Development Cell ensures comprehensive preparation and support throughout the placement process.</p>
+        <p className="text-gray-700 mb-6">NIT Uttarakhand has a strong placement record with placement rate reaching 82% in 2024, with top packages exceeding ₹40 LPA, mainly in core engineering and IT sectors. Top recruiters include Tata Steel, L&T, Reliance Industries, Infosys, TCS. Internships and live projects facilitated through industry collaborations.</p>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           <InfoCard label="Total Offers (2024)" value={collegeData.Placements.Year2024.TotalOffers} />
@@ -723,7 +719,7 @@ const NITCalicutPage: React.FC = () => {
       {/* Rankings & Recognition */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Rankings & Recognition</h3>
-        <p className="text-gray-700 mb-6">NIT Calicut consistently ranks among the top engineering institutions in India and has gained international recognition for its academic excellence, research contributions, and innovation initiatives.</p>
+        <p className="text-gray-700 mb-6">NIT Uttarakhand is ranked around 98 among engineering institutes nationally by NIRF 2025. Recognized for environmental sustainability research and regional impact.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -773,7 +769,7 @@ const NITCalicutPage: React.FC = () => {
       {/* Facilities & Infrastructure */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Campus Facilities & Infrastructure</h3>
-        <p className="text-gray-700 mb-6">The sprawling 365-acre campus of NIT Calicut houses world-class facilities including modern hostels, state-of-the-art laboratories, extensive library resources, and comprehensive sports infrastructure to support holistic development.</p>
+        <p className="text-gray-700 mb-6">The sprawling scenic campus of NIT Uttarakhand houses world-class facilities including modern laboratories, digital library, conference halls, sports complex, Wi-Fi, and hostel facilities. Located in scenic Garhwal Himalayas with focus on sustainability and eco-friendly technologies.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -843,7 +839,7 @@ const NITCalicutPage: React.FC = () => {
       {/* Faculty & Research */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty & Research Excellence</h3>
-        <p className="text-gray-700 mb-6">NIT Calicut boasts a distinguished faculty of over 470 members across 23 departments, with the majority holding PhD degrees. The institute is at the forefront of research and innovation with significant contributions to various fields.</p>
+        <p className="text-gray-700 mb-6">NIT Uttarakhand has a dedicated team of approximately 150 faculty members with extensive research credentials from top institutions worldwide. Faculty are active in research, project work, internships, and experiential learning.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -894,7 +890,7 @@ const NITCalicutPage: React.FC = () => {
       {/* Student Life & Culture */}
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student Life & Campus Culture</h3>
-        <p className="text-gray-700 mb-6">The vibrant campus life at NIT Calicut is characterized by a diverse community, rich cultural traditions, and numerous opportunities for personal and professional growth through clubs, societies, and events.</p>
+        <p className="text-gray-700 mb-6">The vibrant campus life at NIT Uttarakhand is characterized by vibrant cultural and technical festivals, active student clubs, sports facilities, hostels with modern amenities, and a focus on holistic development. The institute attracts students from across India and international research scholars, fostering an inclusive, multicultural learning atmosphere.</p>
         
         <div className="grid md:grid-cols-2 gap-6">
           <div>
@@ -976,11 +972,11 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Undergraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          NIT Calicut's undergraduate offerings are designed to build a strong foundation in core disciplines while
-          introducing students to cutting-edge technologies and interdisciplinary learning. With competitive intake,
+          NIT Uttarakhand's undergraduate offerings are designed to build a strong foundation in core engineering disciplines while
+          introducing students to cutting-edge technologies and practical learning. With competitive intake,
           structured curricula, modern laboratories, and active industry projects, students graduate with both theoretical
-          depth and hands-on problem-solving skills. The programs emphasize fundamentals, design thinking, and professional
-          readiness through internships, hackathons, and mentorship from accomplished faculty.
+          depth and hands-on problem-solving skills. The programs emphasize fundamentals, research, project work, internships, and professional
+          readiness through experiential learning and mentorship from accomplished faculty.
         </p>
         
         {/* B.Tech */}
@@ -1110,9 +1106,9 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Postgraduate Programs</h3>
         <p className="text-gray-700 mb-4">
-          The postgraduate ecosystem at NIT Calicut is research-driven and industry-aligned. Programs in engineering,
+          The postgraduate ecosystem at NIT Uttarakhand is research-driven and industry-aligned. Programs in engineering,
           management, and sciences emphasize advanced coursework, electives in emerging areas, and strong thesis/project
-          components. Students benefit from funded research labs, innovation centers, and frequent industry seminars.
+          components. Students benefit from research labs, innovation centers, and frequent industry collaborations.
         </p>
         
         <div className="grid md:grid-cols-2 gap-6">
@@ -1245,7 +1241,7 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel & Accommodation</h3>
         <p className="text-gray-700 mb-4">
-          Hostel life at NIT Calicut is known for its vibrant culture and supportive community. With modern rooms, study
+          Hostel life at NIT Uttarakhand is known for its vibrant culture and supportive community. With modern rooms, study
           areas, and recreational spaces, students find a conducive environment for personal growth. Residential living
           also fosters collaboration across programs through clubs, intramurals, and festivals.
         </p>
@@ -1264,16 +1260,16 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Admissions at {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at <strong>NIT Calicut</strong> are among the most merit-centric and transparent in Indian higher
+          Admissions at <strong>NIT Uttarakhand</strong> are among the most merit-centric and transparent in Indian higher
           education, governed by national-level examinations and centralized counseling platforms. The system ensures
           nationwide participation while adhering to Central Government reservation policies for SC, ST, OBC‑NCL, EWS,
           and PwD categories. Processes vary across undergraduate, postgraduate, and doctoral levels—each emphasizing
           academic rigor, exam performance, and interviews or research assessments where applicable.
         </p>
 
-        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of NIT Calicut’s Admission Framework</h4>
+        <h4 className="text-lg font-semibold mt-4 mb-2">Overview of NIT Uttarakhand's Admission Framework</h4>
         <p className="text-gray-700 mb-3">
-          Founded in 1958 through Indo-Soviet collaboration, NIT Calicut structures admissions to maintain academic
+          Established in 2011 and officially recognized as an Institute of National Importance in 2016, NIT Uttarakhand structures admissions to maintain academic
           excellence and equitable access. All admissions—through <strong>JEE Advanced, GATE, CAT, IIT JAM,</strong> or
           <strong> UCEED</strong>—are aligned to centralized systems managed by national bodies such as
           <strong> JoSAA</strong>, <strong>COAP</strong>, and respective coordination portals.
@@ -1340,9 +1336,9 @@ const NITCalicutPage: React.FC = () => {
         </ul>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at NIT Calicut</h3>
+        <h3 className="text-2xl font-semibold mb-4">How Admissions Work at NIT Uttarakhand</h3>
         <p className="text-gray-700 mb-3">
-          Admissions at NIT Calicut are highly structured and merit-driven. Each program is tied to a national-level
+          Admissions at NIT Uttarakhand are highly structured and merit-driven. Each program is tied to a national-level
           examination with carefully defined counseling processes, category-based reservations, and institute-level
           verification. Shortlisted candidates typically proceed through centralized counseling where seat allotments are
           made based on rank, preferences, and availability.
@@ -1519,9 +1515,9 @@ const NITCalicutPage: React.FC = () => {
   const renderPlacementsTab = () => (
     <div id="placements-root" className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Why Placements at NIT Calicut Stand Out</h3>
+        <h3 className="text-2xl font-semibold mb-4">Why Placements at NIT Uttarakhand Stand Out</h3>
         <p className="text-gray-700 mb-3">
-          NIT Calicut’s placement ecosystem blends academic rigor, early skill development, industry exposure, and a
+          NIT Uttarakhand's placement ecosystem blends academic rigor, early skill development, industry exposure, and a
           powerful alumni network—resulting in consistently high packages and diverse global opportunities. Students are
           groomed to excel in high‑pressure, real‑world environments, not just to crack interviews.
         </p>
@@ -1803,9 +1799,9 @@ const NITCalicutPage: React.FC = () => {
     <div id="rankings-root" className="space-y-6">
       {/* Rankings Narrative and Consolidated Tables (user-provided) */}
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">NIT Calicut Rankings & Recognition</h3>
+        <h3 className="text-2xl font-semibold mb-4">NIT Uttarakhand Rankings & Recognition</h3>
         <p className="text-gray-700 mb-4">
-          NIT Calicut is consistently ranked among India’s top institutions and continues to strengthen its global
+          NIT Uttarakhand is ranked around 98 among engineering institutes nationally by NIRF 2025 and continues to strengthen its regional
           standing. The institute’s performance across teaching quality, research output, graduate outcomes, outreach,
           and perception is reflected in leading national and international ranking frameworks.
         </p>
@@ -1924,7 +1920,7 @@ const NITCalicutPage: React.FC = () => {
         </div>
 
         <p className="text-gray-700 mb-4">
-          Nationally, NIT Calicut ranks #7 overall (NIRF 2025), #6 in engineering, and #1 in architecture & planning.
+          Nationally, NIT Uttarakhand ranks #98 in engineering (NIRF 2025) and is recognized for environmental sustainability research and regional impact.
           Internationally, it is #335 in QS World (2026) and #130 in QS Asia (2025), with THE placing engineering in the
           301–400 band. These reflect strong academics, research, innovation, and global presence.
         </p>
@@ -1947,9 +1943,9 @@ const NITCalicutPage: React.FC = () => {
         </div>
       </div>
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Understanding NIT Calicut’s Rankings</h3>
+        <h3 className="text-2xl font-semibold mb-4">Understanding NIT Uttarakhand's Rankings</h3>
         <p className="text-gray-700 mb-3">
-          Rankings reflect NIT Calicut’s consistent performance in teaching, research output, innovation, graduate
+          Rankings reflect NIT Uttarakhand's consistent performance in teaching, research output, innovation, graduate
           outcomes, and international visibility. Nationally, the institute is among the top engineering schools; globally,
           it features in reputed lists such as QS and THE, indicating strong competitiveness and alumni impact.
         </p>
@@ -2161,7 +2157,7 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Campus Facilities & Student Experience</h3>
         <p className="text-gray-700 mb-3">
-          The 365-acre campus is planned for academic rigor and balanced living. High-quality hostels, libraries,
+          The scenic campus is planned for academic rigor and balanced living. High-quality hostels, libraries,
           laboratories, sports complexes, and medical services create a complete ecosystem that supports learning and
           wellbeing. Student clubs and maker spaces further enhance hands-on creativity and leadership.
         </p>
@@ -2198,7 +2194,7 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-xl font-semibold mb-4">Hostel Facilities</h3>
         <p className="text-gray-700 mb-3">
-          Residential life anchors the NIT Calicut experience. With 20 hostels spanning boys, girls, married and co‑ed
+          Residential life anchors the NIT Uttarakhand experience. With modern hostels providing comfortable living
           residences, students find a safe, connected environment. Wi‑Fi connectivity, common study rooms, recreation
           lounges and student‑run mess committees support academic focus and community bonding in equal measure.
         </p>
@@ -2381,7 +2377,7 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength, Research Culture & Global Collaborations</h3>
         <p className="text-gray-700 mb-3">
-          NIT Calicut’s faculty and research ecosystem is among the strongest in India. With <strong>470+</strong> faculty
+          NIT Uttarakhand's faculty and research ecosystem is strong. With <strong>150</strong> faculty
           across <strong>23 departments</strong>, the institute sustains a robust, interdisciplinary environment spanning
           fundamental sciences, engineering, and emerging domains. Faculty drive national missions, global partnerships,
           and translational research impacting both industry and society.
@@ -2410,7 +2406,7 @@ const NITCalicutPage: React.FC = () => {
               <tbody className="divide-y divide-gray-100">
                 <tr className="hover:bg-gray-50">
                   <td className="py-2 pr-4 font-medium">Faculty Strength</td>
-                  <td className="py-2 pr-4">470+ across 23 departments</td>
+                  <td className="py-2 pr-4">150 across engineering departments</td>
                   <td className="py-2">Majority PhD‑qualified</td>
                 </tr>
                 <tr className="hover:bg-gray-50">
@@ -2432,7 +2428,7 @@ const NITCalicutPage: React.FC = () => {
         <p className="text-gray-700 mb-3">
           Most faculty members hold doctorates from IITs, IISc, or global universities (Cambridge, ETH Zurich, MIT).
           Growth areas include the Department of Design Innovation and interdisciplinary centers like Biomedical
-          Engineering, reflecting NIT Calicut’s future‑oriented academic model.
+          Engineering, reflecting NIT Uttarakhand's future‑oriented academic model.
         </p>
 
         <h4 className="text-lg font-semibold mb-2">Key Research Centers and Specializations</h4>
@@ -2548,7 +2544,7 @@ const NITCalicutPage: React.FC = () => {
         <h4 className="text-lg font-semibold mt-3 mb-2">Research Funding & Recognition</h4>
         <p className="text-gray-700">
           Funding sources include the Ministry of Education, DST, CSIR, DBT, ISRO, and international grants. Award‑winning
-          innovations span renewable energy, disaster mitigation, and AI‑assisted healthcare. NIT Calicut balances academic
+          innovations span sustainable energy, environmental management, and information technology. NIT Uttarakhand balances academic
           rigor with national priorities and global partnerships, making it one of India’s most research‑driven academic
           communities.
         </p>
@@ -2556,7 +2552,7 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Faculty Strength & Research Culture</h3>
         <p className="text-gray-700 mb-3">
-          With a large cohort of accomplished faculty across departments, NIT Calicut sustains a vibrant research
+          With accomplished faculty across departments, NIT Uttarakhand sustains a vibrant research
           ecosystem. Faculty members publish in leading venues, attract substantial research funding, and mentor student
           teams that participate in national and international competitions.
         </p>
@@ -2692,7 +2688,7 @@ const NITCalicutPage: React.FC = () => {
       <div className="bg-white rounded-xl shadow-sm p-6">
         <h3 className="text-2xl font-semibold mb-4">Student & Alumni Perspectives on {collegeData.Name.split('(')[0].trim()}</h3>
         <p className="text-gray-700 mb-3">
-          Established in 1958 through Indo-Soviet collaboration, NIT Calicut is widely regarded as a premier
+          Established in 2011 and officially recognized as an Institute of National Importance in 2016, NIT Uttarakhand is widely regarded as a premier
           engineering and technology institution. Reviews consistently highlight a rigorous academic atmosphere, world‑class
           faculty, and a highly competitive peer network set against a vibrant, 550-acre campus beside Powai Lake.
         </p>
@@ -2736,7 +2732,7 @@ const NITCalicutPage: React.FC = () => {
 
         <h4 className="text-lg font-semibold mb-2">Return on Investment & Prestige</h4>
         <p className="text-gray-700 mb-4">
-          With comparatively low fees and strong outcomes, ROI is considered excellent. The NIT Calicut brand has global
+          With comparatively low fees and strong outcomes, ROI is considered excellent. The NIT Uttarakhand brand has growing
           recognition; alumni progress into leadership roles across industry, academia, and public service.
         </p>
 
@@ -2782,7 +2778,7 @@ const NITCalicutPage: React.FC = () => {
   const renderContactTab = () => (
     <div className="space-y-6">
       <div className="bg-white rounded-xl shadow-sm p-6">
-        <h3 className="text-2xl font-semibold mb-4">Contacting NIT Calicut Effectively</h3>
+        <h3 className="text-2xl font-semibold mb-4">Contacting NIT Uttarakhand Effectively</h3>
         <p className="text-gray-700 mb-3">
           For admissions and program-specific queries, use official channels and include your application details (name,
           application ID, program, and question) for faster responses. For urgent issues, phone lines and the institute
@@ -3025,7 +3021,7 @@ const NITCalicutPage: React.FC = () => {
       <AdmissionPredictorModal
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
-        collegeName={collegeData?.Name || "NIT Calicut"}
+        collegeName={collegeData?.Name || "NIT Uttarakhand"}
         collegeLogo=""
       />
 
@@ -3033,7 +3029,7 @@ const NITCalicutPage: React.FC = () => {
       <BrochureModal
         isOpen={isBrochureModalOpen}
         onClose={() => setIsBrochureModalOpen(false)}
-        collegeName={collegeData?.Name || "NIT Calicut"}
+        collegeName={collegeData?.Name || "NIT Uttarakhand"}
         collegeData={collegeData || undefined}
       />
 
@@ -3116,4 +3112,4 @@ const NITCalicutPage: React.FC = () => {
   );
 };
 
-export default NITCalicutPage;
+export default NITUttarakhandPage;
