@@ -2941,6 +2941,25 @@ const NITSuratPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
+                <div className="w-32 h-32 rounded-lg flex items-center justify-center bg-gray-50">
+                  <img 
+                    src="/images/nit-surat-logo.png" 
+                    alt="NIT Surat Logo" 
+                    className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="none" stroke="#6b7280" stroke-width="2"/><circle cx="50" cy="50" r="35" fill="#60a5fa"/><line x1="50" y1="15" x2="50" y2="85" stroke="#1e40af" stroke-width="2"/><line x1="15" y1="50" x2="85" y2="50" stroke="#1e40af" stroke-width="2"/><circle cx="50" cy="50" r="6" fill="#1e40af"/><rect x="30" y="30" width="15" height="15" fill="#3b82f6" opacity="0.5"/><rect x="55" y="30" width="15" height="15" fill="#3b82f6" opacity="0.5"/><rect x="30" y="55" width="15" height="15" fill="#3b82f6" opacity="0.5"/><circle cx="50" cy="50" r="10" fill="none" stroke="#1e40af" stroke-width="1.5"/><path d="M 50 40 L 46 45 L 50 50 L 54 45 Z" fill="#1e40af"/><text x="50" y="95" font-family="Arial, sans-serif" font-size="7" fill="#1e40af" text-anchor="middle" font-weight="bold">SVNIT</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
+                  />
+                </div>
                 <div>
                   <h1 className="text-xl font-semibold text-gray-900 mb-2">
                     {collegeData.Name}
@@ -3034,7 +3053,7 @@ const NITSuratPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "NIT Calicut"}
-        collegeLogo=""
+        collegeLogo="/images/nit-surat-logo.png"
       />
 
       {/* Brochure Modal */}

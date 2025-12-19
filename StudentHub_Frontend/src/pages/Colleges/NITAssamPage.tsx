@@ -2941,6 +2941,25 @@ const NITAssamPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
+                <div className="w-32 h-32 rounded-lg flex items-center justify-center bg-gray-50">
+                  <img 
+                    src="/images/nit-assam-logo.png" 
+                    alt="NIT Assam Logo" 
+                    className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="#3b82f6" stroke="#2563eb" stroke-width="2"/><circle cx="50" cy="50" r="35" fill="white"/><path d="M 30 50 Q 50 30, 70 50 Q 50 70, 30 50" fill="none" stroke="#16a34a" stroke-width="2"/><circle cx="50" cy="40" r="8" fill="none" stroke="#dc2626" stroke-width="2"/><circle cx="50" cy="40" r="12" fill="none" stroke="#dc2626" stroke-width="1.5"/><circle cx="50" cy="40" r="5" fill="#dc2626"/><rect x="42" y="60" width="16" height="12" fill="white" rx="1" stroke="#3b82f6" stroke-width="1"/><path d="M 50 60 L 50 72" stroke="#3b82f6" stroke-width="1"/><text x="50" y="85" font-family="Arial, sans-serif" font-size="7" fill="#3b82f6" text-anchor="middle" font-weight="bold">NITA</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
+                  />
+                </div>
                 <div>
                   <h1 className="text-xl font-semibold text-gray-900 mb-2">
                     {collegeData.Name}
@@ -3034,7 +3053,7 @@ const NITAssamPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "NIT Calicut"}
-        collegeLogo=""
+        collegeLogo="/images/nit-assam-logo.png"
       />
 
       {/* Brochure Modal */}

@@ -2928,6 +2928,25 @@ const NITArunachalPradeshPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
+                <div className="w-32 h-32 rounded-lg flex items-center justify-center bg-gray-50">
+                  <img 
+                    src="/images/nit-arunachal-pradesh-logo.png" 
+                    alt="NIT Arunachal Pradesh Logo" 
+                    className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="#15803d" stroke="#16a34a" stroke-width="2"/><path d="M 25 30 Q 35 20, 45 30 Q 50 25, 55 30 Q 65 20, 75 30 Q 75 35, 70 40 L 30 40 Q 25 35, 25 30" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/><circle cx="50" cy="35" r="6" fill="#fbbf24"/><path d="M 45 30 L 55 30" stroke="#fbbf24" stroke-width="1.5" stroke-linecap="round"/><rect x="40" y="55" width="20" height="15" fill="white" rx="1"/><path d="M 40 55 L 50 50 L 60 55" fill="none" stroke="#16a34a" stroke-width="2"/><path d="M 50 50 L 50 48" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/><path d="M 50 48 L 48 46 L 50 47 L 52 46 Z" fill="#16a34a"/><path d="M 35 70 Q 40 65, 45 70" fill="none" stroke="#16a34a" stroke-width="2"/><path d="M 55 70 Q 60 65, 65 70" fill="none" stroke="#16a34a" stroke-width="2"/><text x="50" y="90" font-family="Arial, sans-serif" font-size="7" fill="#15803d" text-anchor="middle" font-weight="bold">NITAP</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
+                  />
+                </div>
                 <div>
                   <h1 className="text-xl font-semibold text-gray-900 mb-2">
                     {collegeData.Name}
@@ -3021,7 +3040,7 @@ const NITArunachalPradeshPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "NIT Arunachal Pradesh"}
-        collegeLogo=""
+        collegeLogo="/images/nit-arunachal-pradesh-logo.png"
       />
 
       {/* Brochure Modal */}

@@ -2941,6 +2941,25 @@ const NITRaipurPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
+                <div className="w-32 h-32 rounded-lg flex items-center justify-center bg-gray-50">
+                  <img 
+                    src="/images/nit-raipur-logo.png" 
+                    alt="NIT Raipur Logo" 
+                    className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="none" stroke="black" stroke-width="3"/><circle cx="50" cy="50" r="40" fill="none" stroke="black" stroke-width="2"/><line x1="50" y1="10" x2="50" y2="90" stroke="black" stroke-width="2"/><line x1="10" y1="50" x2="90" y2="50" stroke="black" stroke-width="2"/><circle cx="50" cy="50" r="8" fill="#fbbf24"/><path d="M 50 42 L 50 30" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/><path d="M 42 50 L 30 50" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/><path d="M 58 50 L 70 50" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/><path d="M 50 58 L 50 70" stroke="#dc2626" stroke-width="2" stroke-linecap="round"/><rect x="25" y="25" width="20" height="20" fill="#60a5fa" opacity="0.3"/><rect x="55" y="25" width="20" height="20" fill="#3b82f6" opacity="0.3"/><rect x="25" y="55" width="20" height="20" fill="#ec4899" opacity="0.3"/><rect x="55" y="55" width="20" height="20" fill="#fbbf24" opacity="0.3"/><text x="50" y="95" font-family="Arial, sans-serif" font-size="7" fill="black" text-anchor="middle" font-weight="bold">NITR</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
+                  />
+                </div>
                 <div>
                   <h1 className="text-xl font-semibold text-gray-900 mb-2">
                     {collegeData.Name}
@@ -3034,7 +3053,7 @@ const NITRaipurPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "NIT Calicut"}
-        collegeLogo=""
+        collegeLogo="/images/nit-raipur-logo.png"
       />
 
       {/* Brochure Modal */}

@@ -2927,6 +2927,25 @@ const NITMizoramPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
+                <div className="w-32 h-32 rounded-lg flex items-center justify-center bg-gray-50">
+                  <img 
+                    src="/images/nit-mizoram-logo.png" 
+                    alt="NIT Mizoram Logo" 
+                    className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/><circle cx="50" cy="50" r="35" fill="#16a34a" stroke="#15803d" stroke-width="2"/><circle cx="50" cy="50" r="28" fill="white"/><circle cx="50" cy="40" r="8" fill="none" stroke="black" stroke-width="2"/><circle cx="50" cy="40" r="12" fill="none" stroke="black" stroke-width="1.5"/><circle cx="50" cy="40" r="16" fill="none" stroke="black" stroke-width="1.5"/><circle cx="50" cy="40" r="5" fill="black"/><rect x="42" y="60" width="16" height="12" fill="white" rx="1"/><path d="M 50 60 L 50 72" stroke="#eab308" stroke-width="1.5"/><path d="M 35 50 Q 50 35, 65 50" fill="none" stroke="#fbbf24" stroke-width="2"/><path d="M 35 50 Q 50 65, 65 50" fill="none" stroke="#fbbf24" stroke-width="2"/><text x="50" y="85" font-family="Arial, sans-serif" font-size="7" fill="#f59e0b" text-anchor="middle" font-weight="bold">NITM</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
+                  />
+                </div>
                 <div>
                   <h1 className="text-xl font-semibold text-gray-900 mb-2">
                     {collegeData.Name}
@@ -3020,7 +3039,7 @@ const NITMizoramPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "NIT Mizoram"}
-        collegeLogo=""
+        collegeLogo="/images/nit-mizoram-logo.png"
       />
 
       {/* Brochure Modal */}
