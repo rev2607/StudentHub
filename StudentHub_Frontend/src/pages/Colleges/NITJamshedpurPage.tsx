@@ -2908,11 +2908,23 @@ const NITJamshedpurPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
-                <div className="w-32 h-32 rounded-lg flex items-center justify-center">
+                <div className="w-32 h-32 rounded-lg flex items-center justify-center bg-gray-50">
                   <img 
-
+                    src="/images/nit-jamshedpur-logo.png" 
                     alt="NIT Jamshedpur Logo" 
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<path d="M 20 20 L 30 15 L 40 20 L 50 15 L 60 20 L 70 15 L 80 20 L 80 80 L 70 85 L 60 80 L 50 85 L 40 80 L 30 85 L 20 80 Z" fill="#92400e" stroke="#78350f" stroke-width="2"/><circle cx="50" cy="45" r="15" fill="none" stroke="#78350f" stroke-width="2"/><path d="M 30 55 L 25 60 L 75 60 L 70 55" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/><path d="M 35 65 L 40 70 L 60 70 L 65 65" fill="#16a34a" stroke="#15803d" stroke-width="1.5"/><text x="50" y="90" font-family="Arial, sans-serif" font-size="7" fill="#78350f" text-anchor="middle" font-weight="bold">NITJ</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
                   />
                 </div>
                 <div>
@@ -3002,7 +3014,7 @@ const NITJamshedpurPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "NIT Jamshedpur"}
-        collegeLogo="/default-college-logo.png"
+        collegeLogo="/images/nit-jamshedpur-logo.png"
       />
 
       {/* Brochure Modal */}

@@ -2935,6 +2935,25 @@ const NITHamirpurPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
+                <div className="w-32 h-32 rounded-lg flex items-center justify-center bg-gray-50">
+                  <img 
+                    src="/images/nit-hamirpur-logo.png" 
+                    alt="NIT Hamirpur Logo" 
+                    className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="none" stroke="#92400e" stroke-width="2"/><circle cx="50" cy="50" r="30" fill="none" stroke="#92400e" stroke-width="1.5" stroke-dasharray="5,5"/><path d="M 30 30 Q 50 20, 70 30" fill="none" stroke="#78350f" stroke-width="2"/><path d="M 25 55 Q 50 45, 75 55" fill="none" stroke="#78350f" stroke-width="2"/><path d="M 30 70 Q 50 80, 70 70" fill="none" stroke="#78350f" stroke-width="2"/><rect x="42" y="72" width="16" height="8" fill="#92400e" rx="1"/><text x="50" y="92" font-family="Arial, sans-serif" font-size="7" fill="#92400e" text-anchor="middle" font-weight="bold">NITH</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
+                  />
+                </div>
                 <div>
                   <h1 className="text-xl font-semibold text-gray-900 mb-2">
                     {collegeData.Name}
@@ -3028,7 +3047,7 @@ const NITHamirpurPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "NIT Hamirpur"}
-        collegeLogo=""
+        collegeLogo="/images/nit-hamirpur-logo.png"
       />
 
       {/* Brochure Modal */}

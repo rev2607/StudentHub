@@ -2927,6 +2927,25 @@ const NITMeghalayaPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
+                <div className="w-32 h-32 rounded-lg flex items-center justify-center bg-gray-50">
+                  <img 
+                    src="/images/nit-meghalaya-logo.png" 
+                    alt="NIT Meghalaya Logo" 
+                    className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="#3b82f6" stroke="#2563eb" stroke-width="2"/><circle cx="50" cy="50" r="35" fill="#60a5fa" opacity="0.3"/><circle cx="50" cy="50" r="25" fill="none" stroke="white" stroke-width="2"/><circle cx="50" cy="50" r="18" fill="none" stroke="white" stroke-width="1.5"/><circle cx="50" cy="50" r="12" fill="none" stroke="white" stroke-width="1.5"/><circle cx="50" cy="50" r="6" fill="#991b1b"/><path d="M 50 44 L 50 38" stroke="#fbbf24" stroke-width="3" stroke-linecap="round"/><text x="50" y="85" font-family="Arial, sans-serif" font-size="7" fill="#3b82f6" text-anchor="middle" font-weight="bold">NITM</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
+                  />
+                </div>
                 <div>
                   <h1 className="text-xl font-semibold text-gray-900 mb-2">
                     {collegeData.Name}
@@ -3020,7 +3039,7 @@ const NITMeghalayaPage: React.FC = () => {
         isOpen={isPredictorModalOpen}
         onClose={() => setIsPredictorModalOpen(false)}
         collegeName={collegeData?.Name || "NIT Meghalaya"}
-        collegeLogo=""
+        collegeLogo="/images/nit-meghalaya-logo.png"
       />
 
       {/* Brochure Modal */}

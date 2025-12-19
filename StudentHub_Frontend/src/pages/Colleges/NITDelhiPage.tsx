@@ -2894,11 +2894,23 @@ const NITDelhiPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
-                <div className="w-32 h-32 rounded-lg flex items-center justify-center">
+                <div className="w-32 h-32 rounded-lg flex items-center justify-center bg-gray-50">
                   <img 
                     src="/images/nit-delhi-logo.png" 
                     alt="NIT Delhi Logo" 
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<path d="M 20 20 L 30 15 L 40 20 L 50 15 L 60 20 L 70 15 L 80 20 L 80 30 L 75 40 L 80 50 L 75 60 L 80 70 L 80 80 L 70 85 L 60 80 L 50 85 L 40 80 L 30 85 L 20 80 L 20 70 L 25 60 L 20 50 L 25 40 L 20 30 Z" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/><rect x="35" y="35" width="30" height="30" fill="white" opacity="0.3"/><text x="50" y="55" font-family="Arial, sans-serif" font-size="10" fill="white" text-anchor="middle" font-weight="bold">NITD</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
                   />
                 </div>
                 <div>

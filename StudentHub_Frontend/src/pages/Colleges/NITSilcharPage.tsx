@@ -2933,11 +2933,23 @@ const NITSilcharPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
-                <div className="w-32 h-32 rounded-lg flex items-center justify-center">
+                <div className="w-32 h-32 rounded-lg flex items-center justify-center bg-gray-50">
                   <img 
                     src="/images/nit-silchar-logo.png" 
                     alt="NIT Silchar Logo" 
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="none" stroke="#1e40af" stroke-width="2"/><circle cx="50" cy="50" r="20" fill="#92400e" stroke="#78350f" stroke-width="1.5"/><path d="M 30 50 Q 50 35, 70 50 Q 50 65, 30 50" fill="none" stroke="#92400e" stroke-width="2"/><path d="M 40 50 Q 50 40, 60 50 Q 50 60, 40 50" fill="none" stroke="#92400e" stroke-width="1.5"/><text x="50" y="80" font-family="Arial, sans-serif" font-size="7" fill="#1e40af" text-anchor="middle" font-weight="bold">NITS</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
                   />
                 </div>
                 <div>

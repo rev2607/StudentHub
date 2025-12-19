@@ -2931,11 +2931,23 @@ const NITPatnaPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
-                <div className="w-32 h-32 rounded-lg flex items-center justify-center">
+                <div className="w-32 h-32 rounded-lg flex items-center justify-center bg-gray-50">
                   <img 
                     src="/images/nit-patna-logo.png" 
                     alt="NIT Patna Logo" 
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="#fbbf24" stroke="#f59e0b" stroke-width="2"/><circle cx="50" cy="50" r="35" fill="#fcd34d" opacity="0.5"/><path d="M 50 20 L 60 45 L 50 40 L 40 45 Z" fill="#dc2626"/><path d="M 50 25 L 65 50 L 50 45 L 35 50 Z" fill="#ef4444"/><path d="M 50 30 L 70 55 L 50 50 L 30 55 Z" fill="#f87171"/><circle cx="50" cy="50" r="8" fill="#dc2626"/><text x="50" y="75" font-family="Arial, sans-serif" font-size="8" fill="#991b1b" text-anchor="middle" font-weight="bold">NIT PATNA</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
                   />
                 </div>
                 <div>

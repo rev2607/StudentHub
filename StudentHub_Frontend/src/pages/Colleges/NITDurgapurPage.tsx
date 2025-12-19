@@ -2931,11 +2931,23 @@ const NITDurgapurPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
-                <div className="w-32 h-32 rounded-lg flex items-center justify-center">
+                <div className="w-32 h-32 rounded-lg flex items-center justify-center bg-gray-50">
                   <img 
                     src="/images/nit-durgapur-logo.png" 
                     alt="NIT Durgapur Logo" 
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="none" stroke="#000" stroke-width="3"/><path d="M 50 20 L 50 50 L 30 65 Z" fill="#000"/><circle cx="50" cy="50" r="5" fill="#dc2626"/><path d="M 50 55 L 50 75" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/><text x="50" y="90" font-family="Arial, sans-serif" font-size="7" fill="#000" text-anchor="middle" font-weight="bold">NITD</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
                   />
                 </div>
                 <div>

@@ -2932,11 +2932,23 @@ const NITCalicutPage: React.FC = () => {
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
             <div className="flex-1">
               <div className="flex items-start gap-6 mb-4">
-                <div className="w-32 h-32 rounded-lg flex items-center justify-center">
+                <div className="w-32 h-32 rounded-lg flex items-center justify-center bg-gray-50">
                   <img 
                     src="/images/nit-calicut-logo.png" 
                     alt="NIT Calicut Logo" 
                     className="w-full h-full object-contain"
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent && !parent.querySelector('.logo-svg')) {
+                        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                        svg.setAttribute('viewBox', '0 0 100 100');
+                        svg.setAttribute('class', 'logo-svg w-full h-full');
+                        svg.innerHTML = '<circle cx="50" cy="50" r="45" fill="none" stroke="#1e40af" stroke-width="3"/><circle cx="50" cy="50" r="30" fill="none" stroke="#1e40af" stroke-width="2" stroke-dasharray="5,5"/><circle cx="50" cy="50" r="15" fill="#1e40af"/><path d="M 50 35 L 50 45 M 50 55 L 50 65 M 35 50 L 45 50 M 55 50 L 65 50" stroke="#1e40af" stroke-width="2" stroke-linecap="round"/><text x="50" y="85" font-family="Arial, sans-serif" font-size="8" fill="#1e40af" text-anchor="middle" font-weight="bold">NITC</text>';
+                        parent.appendChild(svg);
+                      }
+                    }}
                   />
                 </div>
                 <div>
