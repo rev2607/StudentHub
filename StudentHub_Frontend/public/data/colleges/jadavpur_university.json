@@ -1,0 +1,522 @@
+{
+  "Name": "Jadavpur University",
+  "Location": {
+    "City": "Kolkata",
+    "District": "Kolkata",
+    "State": "West Bengal",
+    "Country": "India",
+    "Pin": "700032",
+    "CampusAreaAcres": 70,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Kolkata"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1906,
+    "OriginalName": "Bengal Technical Institute",
+    "Renamed": [
+      {
+        "Year": 1955,
+        "Name": "Jadavpur University"
+      }
+    ],
+    "HistoricalSignificance": "One of the premier technical and liberal arts universities in India, established as a national movement for technical education."
+  },
+  "UniversityType": [
+    "Public State University",
+    "Autonomous Institute"
+  ],
+  "About": {
+    "Overview": "A premier multidisciplinary university recognized for excellence in engineering, science, arts, and humanities. The university is known for its strong academic programs, research contributions, and vibrant campus culture. It offers comprehensive programs across engineering, science, arts, and humanities disciplines.",
+    "StudentStrength": "Over 12,000 students",
+    "MajorEvents": [
+      "Techno-India",
+      "Mela",
+      "Cultural festivals"
+    ],
+    "ResearchFocus": [
+      "Engineering sciences",
+      "Natural sciences",
+      "Social sciences",
+      "Humanities",
+      "Interdisciplinary research"
+    ],
+    "StartupsValuationINR": 500000000,
+    "GlobalCollaborations": [
+      "International universities",
+      "Research organizations"
+    ],
+    "SocialInitiatives": [
+      "Community engagement",
+      "Social awareness programs"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 10,
+      "Engineering": 10,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 10,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science & Engineering",
+          "Electrical Engineering",
+          "Electronics & Communication Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Information Technology"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["WBJEE", "JEE Main"],
+        "Seats": 1200,
+        "FirstYearFeeINR": 6000,
+        "TotalFeesINRApprox": 24000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["NATA", "WBJEE"],
+        "Seats": 40,
+        "FirstYearFeeINR": 6000,
+        "TotalFeesINRApprox": 30000
+      },
+      "BDes": {
+        "DurationYears": 4,
+        "Entrance": ["UCEED"],
+        "Seats": 20,
+        "FirstYearFeeINR": 6000,
+        "TotalFeesINRApprox": 24000
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 25,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "University Entrance"],
+        "FirstYearFeeINR": 10000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["GATE", "University Entrance"],
+        "SeatsVaries": true,
+        "FeeInformation": "As per university norms"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "MAT", "University Entrance"],
+        "Seats": 60,
+        "FirstYearFeeINR": 50000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Applied Sciences"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["University Entrance"],
+        "FirstYearFeeINR": 5000,
+        "Seats": 200
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 15,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-NET",
+          "University Entrance Test"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 10000,
+        "SeatsMoreThan": 400
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 30000,
+      "Maximum": 50000,
+      "Note": "Excludes mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "WBJEE / JEE Main",
+        "Counseling": "West Bengal Joint Entrance Examinations Board",
+        "AdditionalTestForBArch": "NATA"
+      },
+      "BDes": {
+        "Exam": "UCEED",
+        "Counseling": "Centralized counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE / University Entrance",
+        "Counseling": "University counseling",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT / MAT / University Entrance",
+        "AdditionalSelection": ["Personal Interview", "Group Discussion"]
+      },
+      "MSc": {
+        "Exam": ["University Entrance"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-NET", "University Entrance Test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "May include written tests in some departments"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["GRE", "TOEFL"],
+      "AdditionalProcess": "Credential verification"
+    },
+    "ReservationPolicy": "As per West Bengal Government norms for SC, ST, OBC, PwD",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 85,
+      "OBCPercentile": 75,
+      "SCSTPercentileMin": 65
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories. Check official WBJEE website for current year cutoffs."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 1200,
+      "Recruiters": 150,
+      "HighestPackageINR": 45000000,
+      "HighestDomesticPackageINR": 45000000,
+      "OverallAveragePackageINR": 900000,
+      "CSEAveragePackageINR": 1500000,
+      "ECEAveragePackageINR": 1200000,
+      "MBA median package INR": 800000,
+      "PPOs": 80,
+      "TopRecruiters": [
+        "Microsoft",
+        "Google",
+        "Amazon",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Accenture",
+        "Cognizant",
+        "Tata Steel",
+        "Reliance"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Science",
+        "Research and Development",
+        "Consulting",
+        "Analytics"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 8,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 40000,
+      "BookCount": 250000,
+      "EJournalsCount": 4000,
+      "Features": [
+        "Digital resources",
+        "Theses archive",
+        "24/7 access",
+        "Group study zones"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 60,
+      "FocusAreas": [
+        "Engineering",
+        "Sciences",
+        "Research",
+        "Computer Applications"
+      ],
+      "Equipment": [
+        "Computing Labs",
+        "Research Equipment",
+        "Advanced Instruments"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Sports Ground",
+        "Indoor Games",
+        "Basketball Courts",
+        "Tennis Courts",
+        "Cricket Ground",
+        "Gym",
+        "Yoga Center"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "University Health Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Cafés",
+        "Food Courts"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Dietary options",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Banks and ATMs",
+      "Bookstores",
+      "Guest Houses",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 30,
+      "Types": [
+        "Technical",
+        "Cultural",
+        "Entrepreneurship",
+        "Social Service"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 15,
+    "DepartmentsList": [
+      "Civil Engineering",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Electronics and Communication Engineering",
+      "Computer Science",
+      "Information Technology",
+      "Chemical Engineering",
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Management Studies",
+      "Architecture & Planning"
+    ],
+    "ResearchCenters": [
+      "Centre for Research",
+      "Innovation Lab",
+      "Engineering Research"
+    ],
+    "Strength": {
+      "FacultyCount": 350,
+      "PhDs": "Majority",
+      "Patents2024": 30,
+      "ResearchFundsINR2024": 300000000
+    },
+    "Collaborations": [
+      "International universities",
+      "Industry partners",
+      "Research organizations"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students"
+    ],
+    "StudentFeedback": "Generally positive with focus on academic excellence."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 100000,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 100000,
+      "IncomeUpToINR_Lax": 500000,
+      "TwoThirdFeeWaiver": true
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Merit Scholarships",
+      "SC/ST Scholarships",
+      "OBC Scholarships"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Waiver",
+      "Cash Prizes"
+    ],
+    "Application": [
+      "University Scholarship Portal",
+      "State Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.6,
+    "CollegeDuniaReviewsCount": 800,
+    "Careers360Rating": 4.7,
+    "Strengths": [
+      "Excellent placements",
+      "Highly qualified faculty",
+      "Strong academic programs",
+      "Good campus infrastructure"
+    ],
+    "Weaknesses": [
+      "Large batch sizes",
+      "Competitive academics"
+    ],
+    "ReturnOnInvestment": "Very high"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from West Bengal and across India",
+    "CulturalTraditions": [
+      "Cultural festivals",
+      "Fresher's Welcome",
+      "Regular gatherings"
+    ],
+    "Festivals": [
+      "Techno-India",
+      "Mela",
+      "Cultural Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Technical Clubs",
+      "Cultural Clubs",
+      "Entrepreneurship Cell",
+      "Social Service"
+    ],
+    "OutdoorActivities": [
+      "Sports competitions",
+      "Cultural events",
+      "Technical competitions"
+    ],
+    "StudentGovernance": "Student council with regular feedback mechanisms",
+    "WellbeingFacilities": [
+      "Gym",
+      "Yoga Center",
+      "Recreation Areas"
+    ],
+    "Community": "Inclusive ecosystem with cultural diversity"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1906,
+    "Founder": "National Council of Education",
+    "InitialFocus": "Technical and liberal arts education",
+    "Evolution": [
+      "1955: Jadavpur University established"
+    ],
+    "Legacy": "Pioneer in technical and liberal arts education in West Bengal",
+    "Heritage": "Historic campus with modern infrastructure"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Engineering Sciences",
+      "Natural Sciences",
+      "Social Sciences",
+      "Humanities",
+      "Interdisciplinary Research"
+    ],
+    "PatentsFiled2024": 30,
+    "ResearchFundingINR2024": 300000000,
+    "NotableInnovations": "Various research contributions across disciplines",
+    "Startups": {
+      "Number": 30,
+      "AggregateValuationINR": 500000000
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 30,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "Admissions 2025",
+      "Date": "2025-04-01",
+      "Details": "WBJEE registration opens"
+    },
+    {
+      "Event": "Techno-India",
+      "Date": "2025-02-15",
+      "Theme": "Technology and Innovation"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.jaduniv.edu.in",
+    "Address": "Jadavpur University, 188, Raja S.C. Mallick Rd, Kolkata, West Bengal 700032, India",
+    "Phone": "+91 33 2457 2227",
+    "Emails": {
+      "Registrar": "registrar@jadavpuruniversity.in",
+      "Admissions": "admission@jadavpuruniversity.in",
+      "PlacementCell": "placement@jadavpuruniversity.in"
+    }
+  }
+}
+

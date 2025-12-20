@@ -652,6 +652,60 @@ export const loadVitBangaloreData = async (): Promise<VitBangaloreData> => {
   }
 };
 
+// Anna University CEG uses same structure as IIT Roorkee
+export type AnnaUniversityCEGData = IITRoorkeeData;
+
+// Function to load Anna University CEG data
+export const loadAnnaUniversityCEGData = async (): Promise<AnnaUniversityCEGData> => {
+  try {
+    const response = await fetch('/data/colleges/anna_university_ceg.json');
+    if (!response.ok) {
+      throw new Error('Failed to load Anna University CEG data');
+    }
+    const data = await response.json();
+    return data as AnnaUniversityCEGData;
+  } catch (error) {
+    console.error('Error loading Anna University CEG data:', error);
+    throw error;
+  }
+};
+
+// Jadavpur University uses same structure as IIT Roorkee
+export type JadavpurUniversityData = IITRoorkeeData;
+
+// Function to load Jadavpur University data
+export const loadJadavpurUniversityData = async (): Promise<JadavpurUniversityData> => {
+  try {
+    const response = await fetch('/data/colleges/jadavpur_university.json');
+    if (!response.ok) {
+      throw new Error('Failed to load Jadavpur University data');
+    }
+    const data = await response.json();
+    return data as JadavpurUniversityData;
+  } catch (error) {
+    console.error('Error loading Jadavpur University data:', error);
+    throw error;
+  }
+};
+
+// Manipal Institute of Technology uses same structure as IIT Roorkee
+export type ManipalMITData = IITRoorkeeData;
+
+// Function to load Manipal Institute of Technology data
+export const loadManipalMITData = async (): Promise<ManipalMITData> => {
+  try {
+    const response = await fetch('/data/colleges/manipal_mit.json');
+    if (!response.ok) {
+      throw new Error('Failed to load Manipal Institute of Technology data');
+    }
+    const data = await response.json();
+    return data as ManipalMITData;
+  } catch (error) {
+    console.error('Error loading Manipal Institute of Technology data:', error);
+    throw error;
+  }
+};
+
 // Function to get college data by slug
 export const getCollegeDataBySlug = async (slug: string): Promise<IITRoorkeeData | null> => {
   if (slug === 'iit-roorkee') {
@@ -713,6 +767,15 @@ export const getCollegeDataBySlug = async (slug: string): Promise<IITRoorkeeData
   }
   if (slug === 'nit-andhra-pradesh') {
     return await loadNITAndhraPradeshData();
+  }
+  if (slug === 'anna-university-ceg' || slug === 'anna-university') {
+    return await loadAnnaUniversityCEGData();
+  }
+  if (slug === 'jadavpur-university' || slug === 'jadavpur') {
+    return await loadJadavpurUniversityData();
+  }
+  if (slug === 'manipal-mit' || slug === 'manipal-institute-of-technology' || slug === 'mit-manipal') {
+    return await loadManipalMITData();
   }
   return null;
 };

@@ -316,8 +316,6 @@ export const colleges: College[] = [
   createCollege({ id: "clg-16", slug: "jadavpur-university", name: "Jadavpur University", state: "West Bengal", location: "Kolkata, West Bengal", nirfRank: 10, establishmentYear: 1906 }),
   createCollege({ id: "clg-17", slug: "manipal-mit", name: "Manipal Institute of Technology", state: "Karnataka", location: "Manipal, Karnataka", nirfRank: 43, establishmentYear: 1957 }),
   createCollege({ id: "clg-18", slug: "amrita-coimbatore", name: "Amrita Vishwa Vidyapeetham (Coimbatore)", state: "Tamil Nadu", location: "Coimbatore, Tamil Nadu", nirfRank: 19, establishmentYear: 1994 }),
-  createCollege({ id: "clg-19", slug: "psg-tech", name: "PSG College of Technology", state: "Tamil Nadu", location: "Coimbatore, Tamil Nadu", nirfRank: 63, establishmentYear: 1951 }),
-  createCollege({ id: "clg-20", slug: "dtu-delhi", name: "Delhi Technological University (DTU)", state: "Delhi", location: "New Delhi, Delhi", nirfRank: 29, establishmentYear: 1941 }),
   createCollege({ id: "clg-21", slug: "srm", name: "SRM Institute of Science and Technology", state: "Tamil Nadu", location: "Chennai, Tamil Nadu", nirfRank: 14, establishmentYear: 1985 }),
   createCollege({ id: "clg-22", slug: "thapar", name: "Thapar Institute of Engineering and Technology", state: "Punjab", location: "Patiala, Punjab", nirfRank: 29, establishmentYear: 1956 }),
   createCollege({ id: "clg-23", slug: "soa-bhubaneswar", name: "Siksha 'O' Anusandhan (SOA) Bhubaneswar", state: "Odisha", location: "Bhubaneswar, Odisha", nirfRank: 22, establishmentYear: 1996 }),
@@ -326,7 +324,6 @@ export const colleges: College[] = [
   createCollege({ id: "clg-26", slug: "kl-university", name: "KL University (KLEF)", state: "Andhra Pradesh", location: "Vaddeswaram, Guntur", nirfRank: 35, establishmentYear: 1980 }),
   createCollege({ id: "clg-27", slug: "kalasalingam", name: "Kalasalingam Academy of Research and Education", state: "Tamil Nadu", location: "Krishnankoil, Virudhunagar", nirfRank: 33, establishmentYear: 1984 }),
   // NIT Colleges
-  createCollege({ id: "clg-28", slug: "nit-rourkela", name: "National Institute of Technology Rourkela", state: "Odisha", location: "Rourkela, Odisha", nirfRank: 15, establishmentYear: 1961 }),
   createCollege({ id: "clg-30", slug: "nit-calicut", name: "National Institute of Technology Calicut", state: "Kerala", location: "Calicut, Kerala", nirfRank: 16, establishmentYear: 1961 }),
   createCollege({ id: "clg-31", slug: "nit-agartala", name: "National Institute of Technology Agartala", state: "Tripura", location: "Agartala, Tripura", nirfRank: 45, establishmentYear: 2006 }),
   createCollege({ id: "clg-32", slug: "nit-delhi", name: "National Institute of Technology Delhi", state: "Delhi", location: "New Delhi, Delhi", nirfRank: 25, establishmentYear: 2010 }),
@@ -368,11 +365,9 @@ export const colleges: College[] = [
   createCollege({ id: "clg-67", slug: "iiit-vadodara", name: "IIIT Vadodara", state: "Gujarat", location: "Vadodara, Gujarat", nirfRank: 179, establishmentYear: 2013 }),
   createCollege({ id: "clg-68", slug: "iiit-kottayam", name: "IIIT Kottayam", state: "Kerala", location: "Kottayam, Kerala", nirfRank: 181, establishmentYear: 2015 }),
   createCollege({ id: "clg-69", slug: "iiit-tiruchirappalli", name: "IIIT Tiruchirappalli", state: "Tamil Nadu", location: "Tiruchirappalli, Tamil Nadu", nirfRank: 185, establishmentYear: 2016 }),
-  createCollege({ id: "clg-70", slug: "iiit-una", name: "IIIT Una", state: "Himachal Pradesh", location: "Una, Himachal Pradesh", nirfRank: 180, establishmentYear: 2014 }),
   createCollege({ id: "clg-71", slug: "iiit-sonepat", name: "IIIT Sonepat", state: "Haryana", location: "Sonepat, Haryana", nirfRank: 183, establishmentYear: 2014 }),
   createCollege({ id: "clg-72", slug: "iiit-sri-city", name: "IIIT Sri City (Chittoor)", state: "Andhra Pradesh", location: "Sri City, Andhra Pradesh", nirfRank: 176, establishmentYear: 2013 }),
   createCollege({ id: "clg-73", slug: "iiit-kota", name: "IIIT Kota", state: "Rajasthan", location: "Kota, Rajasthan", nirfRank: 178, establishmentYear: 2013 }),
-  createCollege({ id: "clg-74", slug: "iiit-kalyani", name: "IIIT Kalyani", state: "West Bengal", location: "Kalyani, West Bengal", nirfRank: 177, establishmentYear: 2014 }),
   createCollege({ id: "clg-75", slug: "iiit-agartala", name: "IIIT Agartala", state: "Tripura", location: "Agartala, Tripura", nirfRank: 191, establishmentYear: 2018 }),
   createCollege({ id: "clg-76", slug: "iiit-manipur", name: "IIIT Manipur", state: "Manipur", location: "Imphal, Manipur", nirfRank: 188, establishmentYear: 2015 }),
 ];

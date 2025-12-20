@@ -14,6 +14,9 @@ import RequireAuth from "./components/RequireAuth";
 import CollegesListPage from "./pages/Colleges/CollegesListPage";
 import CollegeDetailPage from "./pages/Colleges/CollegeDetailPage";
 import IITRoorkeePage from "./pages/Colleges/IITRoorkeePage";
+import AnnaUniversityCEGPage from "./pages/Colleges/AnnaUniversityCEGPage";
+import JadavpurUniversityPage from "./pages/Colleges/JadavpurUniversityPage";
+import ManipalMITPage from "./pages/Colleges/ManipalMITPage";
 import AmityNoidaPage from "./pages/Colleges/AmityNoidaPage";
 import BITSPilaniPage from "./pages/Colleges/BITSPilaniPage";
 import BITSGoaPage from "./pages/Colleges/BITSGoaPage";
@@ -65,7 +68,6 @@ import IITHyderabadPage from "./pages/Colleges/IITHyderabadPage";
 import IITGuwahatiPage from "./pages/Colleges/IITGuwahatiPage";
 import IITBHUVaranasiPage from "./pages/Colleges/IITBHUVaranasiPage";
 import NITTrichyPage from "./pages/Colleges/NITTrichyPage";
-import NITRourkelaPage from "./pages/Colleges/NITRourkelaPage";
 import NITKarnatakaPage from "./pages/Colleges/NITKarnatakaPage";
 import NITCalicutPage from "./pages/Colleges/NITCalicutPage";
 import NITWarangalPage from "./pages/Colleges/NITWarangalPage";
@@ -155,6 +157,9 @@ function App() {
             <Route path="/colleges" element={<CollegesListPage />} />
             <Route path="/colleges/:slug" element={<CollegeDetailPage />} />
             <Route path="/colleges/iit-roorkee" element={<IITRoorkeePage />} />
+            <Route path="/colleges/anna-university-ceg" element={<AnnaUniversityCEGPage />} />
+            <Route path="/colleges/jadavpur-university" element={<JadavpurUniversityPage />} />
+            <Route path="/colleges/manipal-mit" element={<ManipalMITPage />} />
             <Route path="/colleges/iit-madras" element={<IITMadrasPage />} />
             <Route path="/colleges/iit-bombay" element={<IITBombayPage />} />
             <Route path="/colleges/iit-delhi" element={<IITDelhiPage />} />
@@ -164,7 +169,6 @@ function App() {
             <Route path="/colleges/iit-guwahati" element={<IITGuwahatiPage />} />
             <Route path="/colleges/iit-bhu-varanasi" element={<IITBHUVaranasiPage />} />
             <Route path="/colleges/nit-trichy" element={<NITTrichyPage />} />
-            <Route path="/colleges/nit-rourkela" element={<NITRourkelaPage />} />
             <Route path="/colleges/nit-karnataka" element={<NITKarnatakaPage />} />
             <Route path="/colleges/nit-calicut" element={<NITCalicutPage />} />
             <Route path="/colleges/nit-warangal" element={<NITWarangalPage />} />

@@ -1,0 +1,534 @@
+{
+  "Name": "Manipal Institute of Technology (MIT)",
+  "Location": {
+    "City": "Manipal",
+    "District": "Udupi",
+    "State": "Karnataka",
+    "Country": "India",
+    "Pin": "576104",
+    "CampusAreaAcres": 150,
+    "Branches": [
+      {
+        "Name": "Main Campus",
+        "Location": "Manipal"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1957,
+    "OriginalName": "Manipal Institute of Technology",
+    "Renamed": [],
+    "HistoricalSignificance": "One of the oldest private engineering institutes in India, established as part of the Manipal Academy of Higher Education."
+  },
+  "UniversityType": [
+    "Private Deemed University",
+    "Autonomous Institute"
+  ],
+  "About": {
+    "Overview": "A premier private engineering institute known for its excellent infrastructure, strong industry connections, and comprehensive engineering programs. The institute offers modern curriculum with emphasis on practical learning, industry internships, and research opportunities. Students benefit from state-of-the-art laboratories, experienced faculty, and a vibrant campus life.",
+    "StudentStrength": "Over 8,000 students",
+    "MajorEvents": [
+      "TechTatva",
+      "Revels",
+      "Cultural festivals"
+    ],
+    "ResearchFocus": [
+      "Engineering innovation",
+      "Applied research",
+      "Industry collaboration",
+      "Entrepreneurship",
+      "Technology development"
+    ],
+    "StartupsValuationINR": 2000000000,
+    "GlobalCollaborations": [
+      "International universities",
+      "Industry partners"
+    ],
+    "SocialInitiatives": [
+      "Community service",
+      "Social awareness programs"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 43,
+      "Engineering": 43,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 43,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science & Engineering",
+          "Electrical Engineering",
+          "Electronics & Communication Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Chemical Engineering",
+          "Information Technology",
+          "Aerospace Engineering",
+          "Automobile Engineering"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["MET", "JEE Main"],
+        "Seats": 2000,
+        "FirstYearFeeINR": 380000,
+        "TotalFeesINRApprox": 1520000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["NATA", "MET"],
+        "Seats": 80,
+        "FirstYearFeeINR": 380000,
+        "TotalFeesINRApprox": 1900000
+      },
+      "BDes": {
+        "DurationYears": 4,
+        "Entrance": ["UCEED"],
+        "Seats": 30,
+        "FirstYearFeeINR": 380000,
+        "TotalFeesINRApprox": 1520000
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 30,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "MET"],
+        "FirstYearFeeINR": 200000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["GATE", "MET"],
+        "SeatsVaries": true,
+        "FeeInformation": "As per university norms"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["CAT", "GMAT", "MET"],
+        "Seats": 180,
+        "FirstYearFeeINR": 500000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Applied Sciences"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["MET"],
+        "FirstYearFeeINR": 150000,
+        "Seats": 120
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 20,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-NET",
+          "University Entrance Test"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 150000,
+        "SeatsMoreThan": 300
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 100000,
+      "Maximum": 150000,
+      "Note": "Excludes mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "MET / JEE Main",
+        "Counseling": "Manipal Academy of Higher Education",
+        "AdditionalTestForBArch": "NATA"
+      },
+      "BDes": {
+        "Exam": "UCEED",
+        "Counseling": "Centralized counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE / MET",
+        "Counseling": "University counseling",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "CAT / GMAT / MET",
+        "AdditionalSelection": ["Personal Interview", "Group Discussion"]
+      },
+      "MSc": {
+        "Exam": ["MET"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-NET", "University Entrance Test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "May include written tests in some departments"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["GRE", "TOEFL"],
+      "AdditionalProcess": "Credential verification"
+    },
+    "ReservationPolicy": "Merit-based admission with some seats reserved as per government norms",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 75,
+      "OBCPercentile": 65,
+      "SCSTPercentileMin": 55
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories. Check official MET website for current year cutoffs."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 1800,
+      "Recruiters": 250,
+      "HighestPackageINR": 60000000,
+      "HighestDomesticPackageINR": 60000000,
+      "OverallAveragePackageINR": 950000,
+      "CSEAveragePackageINR": 1800000,
+      "ECEAveragePackageINR": 1400000,
+      "MBA median package INR": 1200000,
+      "PPOs": 120,
+      "TopRecruiters": [
+        "Microsoft",
+        "Google",
+        "Amazon",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Accenture",
+        "Cognizant",
+        "Bosch",
+        "Siemens"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Science",
+        "Research and Development",
+        "Consulting",
+        "Analytics",
+        "Product Management"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects",
+        "Aptitude training"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 20,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services",
+        "Recreation Areas",
+        "Air-conditioned Rooms"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 60000,
+      "BookCount": 300000,
+      "EJournalsCount": 6000,
+      "Features": [
+        "Digital resources",
+        "Theses archive",
+        "24/7 access",
+        "Group study zones",
+        "Online databases"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 100,
+      "FocusAreas": [
+        "Engineering",
+        "Sciences",
+        "Research",
+        "Advanced Technology"
+      ],
+      "Equipment": [
+        "Advanced Computing Labs",
+        "Research Equipment",
+        "Industry-standard Instruments"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Olympic-size Swimming Pool",
+        "Sports Complex",
+        "Indoor Stadium",
+        "Basketball Courts",
+        "Tennis Courts",
+        "Football Ground",
+        "Cricket Ground",
+        "Gym",
+        "Yoga Center"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "Kasturba Medical College Hospital",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Specialist Consultations",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Cafés",
+        "Food Courts",
+        "Restaurants"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Dietary options",
+        "Hygiene controlled",
+        "Variety of cuisines"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Banks and ATMs",
+      "Bookstores",
+      "Guest Houses",
+      "Shopping Complex",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 50,
+      "Types": [
+        "Technical",
+        "Cultural",
+        "Entrepreneurship",
+        "Social Service",
+        "Sports"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 18,
+    "DepartmentsList": [
+      "Civil Engineering",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Electronics and Communication Engineering",
+      "Computer Science",
+      "Information Technology",
+      "Chemical Engineering",
+      "Aerospace Engineering",
+      "Automobile Engineering",
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Management Studies"
+    ],
+    "ResearchCenters": [
+      "Centre for Research",
+      "Innovation Lab",
+      "Industry Collaboration Center"
+    ],
+    "Strength": {
+      "FacultyCount": 400,
+      "PhDs": "Majority",
+      "Patents2024": 40,
+      "ResearchFundsINR2024": 400000000
+    },
+    "Collaborations": [
+      "International universities",
+      "Industry partners",
+      "Research organizations"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students"
+    ],
+    "StudentFeedback": "Generally positive with focus on industry-relevant curriculum and infrastructure."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 100000,
+      "FullFeeWaiver": false,
+      "IncomeBetweenINR_Lax": 100000,
+      "IncomeUpToINR_Lax": 500000,
+      "TwoThirdFeeWaiver": false
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Merit Scholarships",
+      "Sports Scholarships",
+      "Need-based Scholarships"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Cash Prizes",
+      "Special discounts"
+    ],
+    "Application": [
+      "University Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.5,
+    "CollegeDuniaReviewsCount": 1200,
+    "Careers360Rating": 4.6,
+    "Strengths": [
+      "Excellent placements",
+      "World-class infrastructure",
+      "Strong industry connections",
+      "Vibrant campus life"
+    ],
+    "Weaknesses": [
+      "High fees",
+      "Large batch sizes"
+    ],
+    "ReturnOnInvestment": "Good"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from across India and internationally",
+    "CulturalTraditions": [
+      "Cultural festivals",
+      "Fresher's Welcome",
+      "Regular events"
+    ],
+    "Festivals": [
+      "TechTatva",
+      "Revels",
+      "Cultural Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Technical Clubs",
+      "Cultural Clubs",
+      "Entrepreneurship Cell",
+      "Social Service",
+      "Sports Clubs"
+    ],
+    "OutdoorActivities": [
+      "Sports competitions",
+      "Cultural events",
+      "Beach activities",
+      "Technical competitions"
+    ],
+    "StudentGovernance": "Student council with regular feedback mechanisms",
+    "WellbeingFacilities": [
+      "Gym",
+      "Yoga Center",
+      "Recreation Areas",
+      "Beach access"
+    ],
+    "Community": "Vibrant and inclusive ecosystem with students from diverse backgrounds"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1957,
+    "Founder": "Dr. T.M.A. Pai",
+    "InitialFocus": "Engineering education",
+    "Evolution": [
+      "Part of Manipal Academy of Higher Education"
+    ],
+    "Legacy": "Pioneer in private engineering education in India",
+    "Heritage": "Modern campus with excellent infrastructure"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Engineering Innovation",
+      "Applied Research",
+      "Industry Collaboration",
+      "Technology Development",
+      "Entrepreneurship"
+    ],
+    "PatentsFiled2024": 40,
+    "ResearchFundingINR2024": 400000000,
+    "NotableInnovations": "Various research contributions and industry collaborations",
+    "Startups": {
+      "Number": 60,
+      "AggregateValuationINR": 2000000000
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 40,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "Admissions 2025",
+      "Date": "2025-03-01",
+      "Details": "MET registration opens"
+    },
+    {
+      "Event": "TechTatva",
+      "Date": "2025-10-15",
+      "Theme": "Technology and Innovation"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://manipal.edu/mit.html",
+    "Address": "Manipal Institute of Technology, Manipal, Udupi District, Karnataka 576104, India",
+    "Phone": "+91 820 292 2400",
+    "Emails": {
+      "Registrar": "registrar@manipal.edu",
+      "Admissions": "admission@manipal.edu",
+      "PlacementCell": "placement@manipal.edu"
+    }
+  }
+}
+

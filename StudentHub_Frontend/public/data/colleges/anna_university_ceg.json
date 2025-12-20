@@ -1,0 +1,530 @@
+{
+  "Name": "Anna University (CEG)",
+  "Location": {
+    "City": "Chennai",
+    "District": "Chennai",
+    "State": "Tamil Nadu",
+    "Country": "India",
+    "Pin": "600025",
+    "CampusAreaAcres": 200,
+    "Branches": [
+      {
+        "Name": "College of Engineering, Guindy (CEG)",
+        "Location": "Chennai"
+      }
+    ]
+  },
+  "Established": {
+    "Year": 1794,
+    "OriginalName": "College of Engineering, Guindy",
+    "Renamed": [
+      {
+        "Year": 1978,
+        "Name": "Anna University"
+      }
+    ],
+    "HistoricalSignificance": "One of the oldest technical institutions in India, established during the British colonial period."
+  },
+  "UniversityType": [
+    "Public Technical University",
+    "State University",
+    "Autonomous Institute"
+  ],
+  "About": {
+    "Overview": "A nationally top-ranked institute recognized for interdisciplinary research, rigorous academics, and deep industry engagement. The campus houses multiple Centers of Excellence and incubation facilities that support student startups from idea to scale. Undergraduate programs emphasize strong fundamentals while offering modern electives in AI/ML, data engineering, cybersecurity, and product design. Students benefit from project-based learning, competitive hackathons, and semester-long capstone projects mentored by faculty and industry practitioners.",
+    "StudentStrength": "Over 15,000 students",
+    "MajorEvents": [
+      "Techfest",
+      "Cultural festivals",
+      "Sports events"
+    ],
+    "ResearchFocus": [
+      "Artificial intelligence",
+      "Data science",
+      "Cybersecurity",
+      "Renewable energy",
+      "Smart cities"
+    ],
+    "StartupsValuationINR": 1000000000,
+    "GlobalCollaborations": [
+      "International universities",
+      "Industry partners"
+    ],
+    "SocialInitiatives": [
+      "Community outreach programs",
+      "Skill development initiatives"
+    ]
+  },
+  "Rankings": {
+    "NIRF2025": {
+      "Overall": 22,
+      "Engineering": 22,
+      "ArchitecturePlanning": 0
+    },
+    "NIRF2024": {
+      "Overall": 22,
+      "Innovation": 0
+    },
+    "QSWorld2026": 0,
+    "QSAsia2025": 0,
+    "IndiaTodayEngineering2024": 0,
+    "THEEngineering2020Band": "",
+    "ARIIA2021": ""
+  },
+  "CoursesAndFees": {
+    "Undergraduate": {
+      "BTech": {
+        "Branches": [
+          "Computer Science & Engineering",
+          "Electrical Engineering",
+          "Electronics & Communication Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering",
+          "Information Technology"
+        ],
+        "DurationYears": 4,
+        "Entrance": ["TNEA", "TANCET"],
+        "Seats": 1500,
+        "FirstYearFeeINR": 50000,
+        "TotalFeesINRApprox": 200000
+      },
+      "BArch": {
+        "DurationYears": 5,
+        "Entrance": ["NATA", "TANCA"],
+        "Seats": 60,
+        "FirstYearFeeINR": 50000,
+        "TotalFeesINRApprox": 250000
+      },
+      "BDes": {
+        "DurationYears": 4,
+        "Entrance": ["UCEED"],
+        "Seats": 30,
+        "FirstYearFeeINR": 50000,
+        "TotalFeesINRApprox": 200000
+      }
+    },
+    "Postgraduate": {
+      "MTech": {
+        "Specializations": 30,
+        "DurationYears": 2,
+        "Entrance": ["GATE", "TANCET"],
+        "FirstYearFeeINR": 50000,
+        "SeatsVaries": true
+      },
+      "MArchMPlanMDes": {
+        "DurationYears": 2,
+        "Entrance": ["GATE", "TANCA"],
+        "SeatsVaries": true,
+        "FeeInformation": "As per university norms"
+      },
+      "MBA": {
+        "DurationYears": 2,
+        "Entrance": ["TANCET", "CAT"],
+        "Seats": 120,
+        "FirstYearFeeINR": 100000
+      },
+      "MSc": {
+        "Disciplines": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Applied Sciences"
+        ],
+        "DurationYears": 2,
+        "Entrance": ["TANCET"],
+        "FirstYearFeeINR": 30000,
+        "Seats": 100
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Programs": 20,
+        "Entrance": [
+          "GATE",
+          "UGC-NET",
+          "CSIR-NET",
+          "University Entrance Test"
+        ],
+        "TypicalDurationYears": "3-5",
+        "FeeINRPerYear": 50000,
+        "SeatsMoreThan": 500
+      }
+    },
+    "HostelFeeINRAnnual": {
+      "Minimum": 40000,
+      "Maximum": 60000,
+      "Note": "Excludes mess charges"
+    }
+  },
+  "AdmissionProcessAndEntranceExams": {
+    "Undergraduate": {
+      "BTechBArch": {
+        "Exam": "TNEA",
+        "Counseling": "Tamil Nadu Engineering Admission",
+        "AdditionalTestForBArch": "NATA"
+      },
+      "BDes": {
+        "Exam": "UCEED",
+        "Counseling": "Centralized counseling"
+      }
+    },
+    "Postgraduate": {
+      "MTechMArchMPlanMDes": {
+        "Exam": "GATE / TANCET",
+        "Counseling": "TANCA",
+        "AdditionalProcesses": "Interview for some branches"
+      },
+      "MBA": {
+        "Exam": "TANCET / CAT",
+        "AdditionalSelection": ["Personal Interview", "Group Discussion"]
+      },
+      "MSc": {
+        "Exam": ["TANCET"]
+      }
+    },
+    "Doctoral": {
+      "PhD": {
+        "Exam": ["GATE", "UGC-NET", "CSIR-NET", "University Entrance Test"],
+        "Selection": "Interview and research proposal",
+        "AdditionalNotes": "May include written tests in some departments"
+      }
+    },
+    "ForeignNational": {
+      "Requirement": ["GRE", "TOEFL"],
+      "AdditionalProcess": "Credential verification"
+    },
+    "ReservationPolicy": "As per Tamil Nadu Government norms for SC, ST, BC, MBC, OC, PwD",
+    "ApplicationMode": "Online through official portals"
+  },
+  "CutoffInformation": {
+    "JEEAdvanced2025": {
+      "BTechCSEClosingAIR": 0,
+      "DataScienceAIClosingAIR": 0,
+      "ECEClosingAIR": 0,
+      "MechEngClosingAIR": 0,
+      "ElectEngClosingAIR": 0,
+      "CivilEngClosingAIR": 0
+    },
+    "BArchAAT2025ClosingRank": 0,
+    "BDesUCEED2025ClosingRanks": {
+      "General": 0,
+      "OBC": 0
+    },
+    "JAMMSc2025Cutoffs": {
+      "Economics": [0, 0],
+      "Physics": [0, 0],
+      "Mathematics": [0, 0]
+    },
+    "CATMBA2025Cutoffs": {
+      "GeneralPercentile": 80,
+      "OBCPercentile": 70,
+      "SCSTPercentileMin": 60
+    },
+    "AdditionalDetails": "Cutoffs vary annually and across categories. Check official TNEA/TANCA website for current year cutoffs."
+  },
+  "Placements": {
+    "Year2024": {
+      "TotalOffers": 1500,
+      "Recruiters": 200,
+      "HighestPackageINR": 50000000,
+      "HighestDomesticPackageINR": 50000000,
+      "OverallAveragePackageINR": 800000,
+      "CSEAveragePackageINR": 1200000,
+      "ECEAveragePackageINR": 1000000,
+      "MBA median package INR": 800000,
+      "PPOs": 100,
+      "TopRecruiters": [
+        "Microsoft",
+        "Google",
+        "Amazon",
+        "TCS",
+        "Infosys",
+        "Wipro",
+        "Accenture",
+        "Cognizant",
+        "Zoho",
+        "Flipkart"
+      ],
+      "JobProfiles": [
+        "Software Development Engineer",
+        "Data Science",
+        "Research and Development",
+        "Consulting",
+        "Analytics"
+      ],
+      "PlacementPreparation": [
+        "Resume workshops",
+        "Mock interviews",
+        "Industry projects"
+      ]
+    }
+  },
+  "Facilities": {
+    "Hostels": {
+      "Number": 15,
+      "Types": ["Boys", "Girls"],
+      "Amenities": [
+        "Wi-Fi",
+        "Common Study Rooms",
+        "Mess Halls",
+        "Indoor Games",
+        "Laundry Services"
+      ]
+    },
+    "Library": {
+      "Name": "Central Library",
+      "AreaSqFt": 50000,
+      "BookCount": 200000,
+      "EJournalsCount": 5000,
+      "Features": [
+        "Digital resources",
+        "Theses archive",
+        "24/7 access",
+        "Group study zones"
+      ]
+    },
+    "Laboratories": {
+      "Quantity": 80,
+      "FocusAreas": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "VLSI Design",
+        "Internet of Things",
+        "Robotics"
+      ],
+      "Equipment": [
+        "Computing Clusters",
+        "3D Printing",
+        "Advanced Sensors"
+      ]
+    },
+    "SportsFacilities": {
+      "Features": [
+        "Swimming Pool",
+        "Athletics Tracks",
+        "Indoor Stadium",
+        "Basketball Courts",
+        "Tennis, Badminton Courts",
+        "Football, Cricket Grounds",
+        "Yoga Center",
+        "Gym"
+      ]
+    },
+    "Medical": {
+      "FacilityName": "University Health Center",
+      "Services": [
+        "Primary Healthcare",
+        "Emergency Services",
+        "Specialist Consultations",
+        "Pharmacy"
+      ]
+    },
+    "Dining": {
+      "Outlets": [
+        "Multiple messes",
+        "Cafés",
+        "Food Courts"
+      ],
+      "Services": [
+        "Daily menu rotation",
+        "Dietary options",
+        "Hygiene controlled"
+      ]
+    },
+    "OtherAmenities": [
+      "Auditoriums",
+      "Conference Halls",
+      "Banks and ATMs",
+      "Bookstores",
+      "Guest Houses",
+      "Campus Shuttle",
+      "Parking",
+      "24/7 Security"
+    ],
+    "StudentClubs": {
+      "Number": 40,
+      "Types": [
+        "Technical (Robotics, Coding)",
+        "Cultural (Music, Dance, Drama)",
+        "Entrepreneurship",
+        "Social Service (NSS, NCC)"
+      ]
+    }
+  },
+  "FacultyAndDepartments": {
+    "DepartmentsCount": 20,
+    "DepartmentsList": [
+      "Civil Engineering",
+      "Mechanical Engineering",
+      "Electrical Engineering",
+      "Electronics and Communication Engineering",
+      "Computer Science",
+      "Information Technology",
+      "Biotechnology",
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Management Studies",
+      "Architecture & Planning"
+    ],
+    "ResearchCenters": [
+      "Centre for Research",
+      "Innovation Lab",
+      "Nanotechnology",
+      "Energy and Environment"
+    ],
+    "Strength": {
+      "FacultyCount": 400,
+      "PhDs": "Majority",
+      "Patents2024": 50,
+      "ResearchFundsINR2024": 500000000
+    },
+    "Collaborations": [
+      "International universities",
+      "Industry partners",
+      "Research organizations"
+    ],
+    "FacultyActivities": [
+      "International conference participation",
+      "National and international journal publications",
+      "Mentoring doctoral students"
+    ],
+    "StudentFeedback": "Generally positive with focus on industry-relevant curriculum."
+  },
+  "Scholarships": {
+    "MeritCumMeans": {
+      "IncomeLessThanINR_Lax": 100000,
+      "FullFeeWaiver": true,
+      "IncomeBetweenINR_Lax": 100000,
+      "IncomeUpToINR_Lax": 500000,
+      "TwoThirdFeeWaiver": true
+    },
+    "JamesThomasonScholarship": {
+      "EligibilityJEEAdvancedRank": 0,
+      "StipendINRPerMonth": 0,
+      "MinimumCGPA": 0
+    },
+    "OtherScholarships": [
+      "Merit Scholarships",
+      "SC/ST Scholarships",
+      "BC/MBC Scholarships"
+    ],
+    "Coverage": [
+      "Tuition Fee Waiver",
+      "Hostel Fee Waiver",
+      "Cash Prizes"
+    ],
+    "Application": [
+      "University Scholarship Portal",
+      "State Scholarship Portal"
+    ]
+  },
+  "ReviewsAndRatings": {
+    "CollegeDuniaRating": 4.5,
+    "CollegeDuniaReviewsCount": 1000,
+    "Careers360Rating": 4.6,
+    "Strengths": [
+      "Excellent placements",
+      "Highly qualified faculty",
+      "Strong industry connections",
+      "Good campus infrastructure"
+    ],
+    "Weaknesses": [
+      "Large batch sizes",
+      "Competitive academics"
+    ],
+    "ReturnOnInvestment": "High"
+  },
+  "StudentLifeAndLifestyle": {
+    "Demographics": "Diverse student base from Tamil Nadu and across India",
+    "CulturalTraditions": [
+      "Cultural festivals",
+      "Fresher's Welcome",
+      "Regular informal gatherings"
+    ],
+    "Festivals": [
+      "Techfest",
+      "Cultural Festival",
+      "Sports Festival"
+    ],
+    "ClubsAndSocieties": [
+      "Robotics",
+      "Coding",
+      "Entrepreneurship Cell",
+      "Literature & Debate",
+      "Music & Dance",
+      "Social Service (NSS, NCC)"
+    ],
+    "OutdoorActivities": [
+      "Sports competitions",
+      "Cultural events",
+      "Technical competitions"
+    ],
+    "StudentGovernance": "Student council with regular feedback mechanisms",
+    "WellbeingFacilities": [
+      "Gymnasiums",
+      "Yoga Studios",
+      "Recreation Areas"
+    ],
+    "Community": "Inclusive ecosystem with cultural and linguistic diversity"
+  },
+  "HistoricalBackground": {
+    "FoundationYear": 1794,
+    "Founder": "British Administration",
+    "InitialFocus": "Technical education and engineering",
+    "Evolution": [
+      "1978: Anna University established"
+    ],
+    "Legacy": "Pioneer in technical education in Tamil Nadu",
+    "Heritage": "Historic campus with modern infrastructure"
+  },
+  "ResearchAndInnovation": {
+    "FocusAreas": [
+      "Artificial Intelligence",
+      "Data Science",
+      "Cybersecurity",
+      "Renewable Energy",
+      "Smart Cities",
+      "Sustainable Development"
+    ],
+    "PatentsFiled2024": 50,
+    "ResearchFundingINR2024": 500000000,
+    "NotableInnovations": "Various research contributions in engineering and technology",
+    "Startups": {
+      "Number": 50,
+      "AggregateValuationINR": 1000000000
+    },
+    "Collaborations": [
+      "Government ministries",
+      "Private industries",
+      "Global academic institutions"
+    ],
+    "WomenInResearch": {
+      "WomenPhDsAwarded2025": 50,
+      "FellowshipsForWomenResearchers": true
+    }
+  },
+  "NewsAndUpdates": [
+    {
+      "Event": "Admissions 2025",
+      "Date": "2025-05-01",
+      "Details": "TNEA/TANCA registration opens"
+    },
+    {
+      "Event": "Techfest",
+      "Date": "2025-03-15",
+      "Theme": "Innovation and Technology"
+    }
+  ],
+  "OfficialContactInfo": {
+    "Website": "https://www.annauniv.edu",
+    "Address": "Anna University, College of Engineering, Guindy, Chennai, Tamil Nadu 600025, India",
+    "Phone": "+91 44 2235 1551",
+    "Emails": {
+      "Registrar": "registrar@annauniv.edu",
+      "Admissions": "admission@annauniv.edu",
+      "PlacementCell": "placement@annauniv.edu"
+    }
+  }
+}
+

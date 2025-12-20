@@ -499,7 +499,7 @@ const NITDelhiPage: React.FC = () => {
             { name: "NIT Warangal", rank: "32", type: "Engineering" },
             { name: "NIT Calicut", rank: "33", type: "Engineering" },
             { name: "IIT Delhi", rank: "4", type: "Engineering" },
-            { name: "NIT Rourkela", rank: "34", type: "Engineering" }
+            { name: "NIT Karnataka", rank: "15", type: "Engineering" }
           ].map((college, index) => (
             <Link key={index} to="/colleges" className="flex items-center gap-3 p-3 hover:bg-gray-50 rounded-lg transition-colors">
               <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center text-white font-bold text-sm">
