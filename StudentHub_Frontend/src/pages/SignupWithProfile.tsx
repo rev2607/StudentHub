@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useNavigate, useSearchParams, Link } from 'react-router-dom';
 import { supabase } from '../lib/supabaseClient';
 
 interface FormData {
@@ -39,6 +39,7 @@ const SignupWithProfile: React.FC = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string>('');
   const [infoMsg, setInfoMsg] = useState<string>('');
+  const [agreedToTerms, setAgreedToTerms] = useState(false);
 
   // Subscribe to auth state changes for debugging
   useEffect(() => {
@@ -144,6 +145,12 @@ const SignupWithProfile: React.FC = () => {
 
     // 1. Validate client-side
     if (!validateForm()) {
+      return;
+    }
+
+    // Check if user agreed to terms
+    if (!agreedToTerms) {
+      setErrorMsg('Please accept the Privacy Policy and Terms & Conditions to continue.');
       return;
     }
 
@@ -474,10 +481,45 @@ const SignupWithProfile: React.FC = () => {
             </div>
           </div>
 
+          {/* Terms and Conditions Checkbox */}
+          <div className="flex items-start">
+            <div className="flex items-center h-5">
+              <input
+                id="agree-terms"
+                name="agree-terms"
+                type="checkbox"
+                checked={agreedToTerms}
+                onChange={(e) => setAgreedToTerms(e.target.checked)}
+                className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+              />
+            </div>
+            <div className="ml-3 text-sm">
+              <label htmlFor="agree-terms" className="text-gray-700">
+                I agree to receive communications via SMS, RCS, and WhatsApp, and I accept the{' '}
+                <Link
+                  to="/privacy-policy"
+                  target="_blank"
+                  className="text-blue-600 hover:text-blue-800 underline"
+                >
+                  Privacy Policy
+                </Link>
+                {' '}and{' '}
+                <Link
+                  to="/terms-and-conditions"
+                  target="_blank"
+                  className="text-blue-600 hover:text-blue-800 underline"
+                >
+                  Terms & Conditions
+                </Link>
+                .
+              </label>
+            </div>
+          </div>
+
           <div>
             <button
               type="submit"
-              disabled={isLoading}
+              disabled={isLoading || !agreedToTerms}
               className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed"
               data-testid="signup-submit"
             >

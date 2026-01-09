@@ -1,6 +1,7 @@
 from fastapi import APIRouter, HTTPException, Depends
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
+from typing import Optional
 import random
 
 from database import get_db
@@ -16,7 +17,7 @@ class OTPRequest(BaseModel):
 class OTPVerifyRequest(BaseModel):
     phone: str
     otp: int
-    location: str | None = None
+    location: Optional[str] = None
 
 @router.post("/login")
 async def send_otp(request: OTPRequest):

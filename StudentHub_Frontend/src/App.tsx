@@ -10,6 +10,9 @@ import MockTestsStart from "./pages/MockTestsStart";
 import SignupWithProfile from "./pages/SignupWithProfile";
 import Login from "./pages/Login";
 import ProfileEdit from "./pages/ProfileEdit";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsAndConditions from "./pages/TermsAndConditions";
+import ContactUs from "./pages/ContactUs";
 import RequireAuth from "./components/RequireAuth";
 import CollegesListPage from "./pages/Colleges/CollegesListPage";
 import CollegeDetailPage from "./pages/Colleges/CollegeDetailPage";
@@ -249,6 +252,10 @@ function App() {
             <Route path="/articles" element={<ArticlesLandingPage />} />
             <Route path="/articles/:slug" element={<ArticleDetailPage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact-us" element={<ContactUs />} />
+            <Route path="/contact" element={<ContactUs />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
             <Route path="/engineering-colleges" element={<Navigate to="/colleges" replace />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Route>
