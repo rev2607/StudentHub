@@ -6,7 +6,6 @@ interface ContactFormData {
   name: string;
   email: string;
   phone: string;
-  subject: string;
   message: string;
 }
 
@@ -16,7 +15,6 @@ const ContactUs: React.FC = () => {
     name: '',
     email: '',
     phone: '',
-    subject: '',
     message: ''
   });
 
@@ -55,10 +53,6 @@ const ContactUs: React.FC = () => {
       newErrors.phone = 'Phone number is required';
     } else if (!/^[0-9]{10}$/.test(formData.phone.replace(/\D/g, ''))) {
       newErrors.phone = 'Phone must be exactly 10 digits';
-    }
-
-    if (!formData.subject.trim()) {
-      newErrors.subject = 'Subject is required';
     }
 
     if (!formData.message.trim()) {
@@ -109,7 +103,6 @@ const ContactUs: React.FC = () => {
         name: '',
         email: '',
         phone: '',
-        subject: '',
         message: ''
       });
       setAgreementAccepted(false);
@@ -309,55 +302,26 @@ const ContactUs: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {/* Phone */}
-                  <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                      Phone Number *
-                    </label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      value={formData.phone}
-                      onChange={handleInputChange}
-                      className={`w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${
-                        errors.phone ? 'border-red-300' : 'border-gray-300'
-                      }`}
-                      placeholder="Enter your 10 digit number"
-                      maxLength={10}
-                    />
-                    {errors.phone && (
-                      <p className="mt-1 text-sm text-red-600">{errors.phone}</p>
-                    )}
-                  </div>
-
-                  {/* Subject */}
-                  <div>
-                    <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                      Subject *
-                    </label>
-                    <select
-                      id="subject"
-                      name="subject"
-                      value={formData.subject}
-                      onChange={handleInputChange}
-                      className={`w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${
-                        errors.subject ? 'border-red-300' : 'border-gray-300'
-                      }`}
-                    >
-                      <option value="">Select a subject</option>
-                      <option value="general">General Inquiry</option>
-                      <option value="technical">Technical Support</option>
-                      <option value="billing">Billing Question</option>
-                      <option value="feedback">Feedback</option>
-                      <option value="partnership">Partnership</option>
-                      <option value="other">Other</option>
-                    </select>
-                    {errors.subject && (
-                      <p className="mt-1 text-sm text-red-600">{errors.subject}</p>
-                    )}
-                  </div>
+                {/* Phone */}
+                <div>
+                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                    Phone Number *
+                  </label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleInputChange}
+                    className={`w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 ${
+                      errors.phone ? 'border-red-300' : 'border-gray-300'
+                    }`}
+                    placeholder="Enter your 10 digit number"
+                    maxLength={10}
+                  />
+                  {errors.phone && (
+                    <p className="mt-1 text-sm text-red-600">{errors.phone}</p>
+                  )}
                 </div>
 
                 {/* Message */}
@@ -421,12 +385,12 @@ const ContactUs: React.FC = () => {
                     {isSubmitting ? (
                       <>
                         <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-white mr-2"></div>
-                        Sending...
+                        Submitting...
                       </>
                     ) : (
                       <>
                         <Send className="w-5 h-5 mr-2" />
-                        Send Message
+                        Submit
                       </>
                     )}
                   </button>
