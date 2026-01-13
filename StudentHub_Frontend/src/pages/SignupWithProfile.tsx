@@ -9,7 +9,6 @@ interface FormData {
   password: string;
   confirmPassword: string;
   city: string;
-  target_exam: string;
 }
 
 interface ValidationErrors {
@@ -19,7 +18,6 @@ interface ValidationErrors {
   password?: string;
   confirmPassword?: string;
   city?: string;
-  target_exam?: string;
 }
 
 const SignupWithProfile: React.FC = () => {
@@ -31,8 +29,7 @@ const SignupWithProfile: React.FC = () => {
     email: '',
     password: '',
     confirmPassword: '',
-    city: '',
-    target_exam: ''
+    city: ''
   });
   
   const [errors, setErrors] = useState<ValidationErrors>({});
@@ -91,11 +88,6 @@ const SignupWithProfile: React.FC = () => {
     // City validation
     if (!formData.city.trim()) {
       newErrors.city = 'City is required';
-    }
-
-    // Target exam validation
-    if (!formData.target_exam) {
-      newErrors.target_exam = 'Please select a target exam';
     }
 
     setErrors(newErrors);
@@ -166,8 +158,7 @@ const SignupWithProfile: React.FC = () => {
           data: {
             full_name: formData.full_name.trim(),
             phone: formData.phone.trim(),
-            city: formData.city.trim(),
-            target_exam: formData.target_exam
+            city: formData.city.trim()
           }
         }
       });
@@ -234,8 +225,7 @@ const SignupWithProfile: React.FC = () => {
           user_id: session.user.id,
           full_name: formData.full_name.trim(),
           phone: formData.phone.trim(),
-          city: formData.city.trim(),
-          target_exam: formData.target_exam
+          city: formData.city.trim()
         }]).select();
 
         console.log('Profile insert response:', { data: profileData, error: profileError });
@@ -452,33 +442,6 @@ const SignupWithProfile: React.FC = () => {
               )}
             </div>
 
-            {/* Target Exam */}
-            <div>
-              <label htmlFor="target_exam" className="block text-sm font-medium text-gray-700">
-                Target Exam *
-              </label>
-              <select
-                id="target_exam"
-                name="target_exam"
-                required
-                value={formData.target_exam}
-                onChange={handleInputChange}
-                className={`mt-1 block w-full px-3 py-2 border rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 ${
-                  errors.target_exam ? 'border-red-300' : 'border-gray-300'
-                }`}
-                data-testid="signup-exam"
-              >
-                <option value="">Select your target exam</option>
-                <option value="JEE Mains">JEE Mains</option>
-                <option value="JEE Advanced">JEE Advanced</option>
-                <option value="EAMCET">EAMCET</option>
-                <option value="NEET">NEET</option>
-                <option value="Other">Other</option>
-              </select>
-              {errors.target_exam && (
-                <p className="mt-1 text-sm text-red-600">{errors.target_exam}</p>
-              )}
-            </div>
           </div>
 
           {/* Terms and Conditions Checkbox */}
