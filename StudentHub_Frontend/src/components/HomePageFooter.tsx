@@ -119,7 +119,6 @@ const HomePageFooter = () => {
               <ul className="space-y-2 text-sm">
                 <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Admission Process</li>
                 <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Scholarships</li>
-                <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Education Loans</li>
                 <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Study Abroad</li>
                 <li className="hover:text-[var(--site-green)] transition-colors cursor-pointer">Career Guidance</li>
               </ul>
@@ -277,21 +276,12 @@ const HomePageFooter = () => {
           
           {/* Legal Links */}
           <div className="flex flex-wrap justify-center lg:justify-end gap-4 text-sm">
-            <a className="text-gray-300 hover:text-[var(--site-green)] transition-colors" href="#">
+            <Link to="/privacy-policy" className="text-gray-300 hover:text-[var(--site-green)] transition-colors">
               Privacy Policy
-            </a>
-            <a className="text-gray-300 hover:text-[var(--site-green)] transition-colors" href="#">
+            </Link>
+            <Link to="/terms-and-conditions" className="text-gray-300 hover:text-[var(--site-green)] transition-colors">
               Terms of Service
-            </a>
-            <a className="text-gray-300 hover:text-[var(--site-green)] transition-colors" href="#">
-              Cookie Policy
-            </a>
-            <a className="text-gray-300 hover:text-[var(--site-green)] transition-colors" href="#">
-              Advertise With Us
-            </a>
-            <a className="text-gray-300 hover:text-[var(--site-green)] transition-colors" href="#">
-              Education Loans
-            </a>
+            </Link>
           </div>
         </div>
         
@@ -299,10 +289,6 @@ const HomePageFooter = () => {
         <div className="mt-6 pt-6 border-t border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-400">
             <div className="flex items-center gap-6">
-              <span>Trusted by 10,000+ Students</span>
-              <span>•</span>
-              <span>100+ Partner Colleges</span>
-              <span>•</span>
               <span>24/7 Support</span>
             </div>
             <div className="flex items-center gap-2">
