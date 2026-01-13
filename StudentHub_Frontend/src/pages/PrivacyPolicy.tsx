@@ -125,8 +125,8 @@ const PrivacyPolicy: React.FC = () => {
               </p>
               <p className="text-gray-700">
                 📧 <strong>Email:</strong>{' '}
-                <a href="mailto:support@studenthub.in" className="text-blue-600 hover:text-blue-800 underline">
-                  support@studenthub.in
+                <a href="mailto:info@studenthub.in" className="text-blue-600 hover:text-blue-800 underline">
+                  info@studenthub.in
                 </a>
               </p>
             </section>

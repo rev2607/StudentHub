@@ -187,8 +187,8 @@ const ContactUs: React.FC = () => {
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Email Us</h3>
                   <p className="text-gray-600 mb-2">Send us an email anytime</p>
-                  <a href="mailto:support@studenthub.in" className="text-blue-600 hover:text-blue-800">
-                    support@studenthub.in
+                  <a href="mailto:info@studenthub.in" className="text-blue-600 hover:text-blue-800">
+                    info@studenthub.in
                   </a>
                 </div>
               </div>
@@ -202,8 +202,8 @@ const ContactUs: React.FC = () => {
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Call Us</h3>
                   <p className="text-gray-600 mb-2">Mon - Sat, 9:00 AM - 6:00 PM</p>
-                  <a href="tel:+911234567890" className="text-blue-600 hover:text-blue-800">
-                    +91 123 456 7890
+                  <a href="tel:+916301511066" className="text-blue-600 hover:text-blue-800">
+                    +91 6301511066
                   </a>
                 </div>
               </div>
@@ -218,12 +218,12 @@ const ContactUs: React.FC = () => {
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">WhatsApp</h3>
                   <p className="text-gray-600 mb-2">Chat with us on WhatsApp</p>
                   <a 
-                    href="https://wa.me/911234567890" 
+                    href="https://wa.me/916301511066" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:text-blue-800"
                   >
-                    +91 123 456 7890
+                    +91 6301511066
                   </a>
                 </div>
               </div>
@@ -237,9 +237,10 @@ const ContactUs: React.FC = () => {
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">Visit Us</h3>
                   <p className="text-gray-600">
-                    StudentHub Headquarters<br />
-                    Hyderabad, Telangana<br />
-                    India - 500001
+                    D No. 3-35, Manduva vari palem<br />
+                    Manduvavaripalem, Ongole<br />
+                    Prakasam - 523262<br />
+                    Andhra Pradesh, India
                   </p>
                 </div>
               </div>

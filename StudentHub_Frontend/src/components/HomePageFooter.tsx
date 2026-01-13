@@ -239,9 +239,10 @@ const HomePageFooter = () => {
                 <div>
                   <p className="font-semibold text-sm text-white">Office Address</p>
                   <p className="text-xs text-gray-300 leading-relaxed">
-                    Inorbit Mall Rd, APIIC Software Layout,<br />
-                    Mindspace, Madhapur,<br />
-                    Telangana 500081
+                    D No. 3-35, Manduva vari palem,<br />
+                    Manduvavaripalem, Ongole,<br />
+                    Prakasam - 523262,<br />
+                    Andhra Pradesh, India
                   </p>
                 </div>
               </div>
@@ -264,7 +265,7 @@ const HomePageFooter = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
           {/* Copyright */}
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            <p className="text-sm text-gray-300">© 2025 StudentHub.in. All Rights Reserved.</p>
+            <p className="text-sm text-gray-300">© 2026 STUDENT HUB (OPC) PRIVATE LIMITED. All Rights Reserved.</p>
             <div className="flex items-center gap-2 text-xs text-gray-400">
               <span>Made with</span>
               <svg className="w-4 h-4 text-red-500" fill="currentColor" viewBox="0 0 20 20">
