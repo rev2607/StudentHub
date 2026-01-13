@@ -396,7 +396,7 @@ const ContactUs: React.FC = () => {
                     className="mt-1 h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
                   />
                   <label htmlFor="agreement" className="ml-3 text-sm text-gray-700">
-                    ☑️ I agree to receive communications via SMS, RCS, and WhatsApp, and I accept the{' '}
+                    I agree to receive communications via SMS, RCS, and WhatsApp, and I accept the{' '}
                     <Link to="/privacy-policy" className="text-blue-600 hover:text-blue-800 underline">
                       Privacy Policy
                     </Link>
