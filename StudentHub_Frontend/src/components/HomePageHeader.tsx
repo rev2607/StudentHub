@@ -55,7 +55,7 @@ const HomePageHeader = () => {
             </a>
             {/* Social Media Icons */}
             <div className="flex items-center gap-4">
-              <a href="https://youtube.com/@jaya6711?si=tqTX_VY-vV_CHc9W" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.youtube.com/@studenthub_telugu/videos" target="_blank" rel="noopener noreferrer">
                 <img src={ytIcon} alt="YouTube" className="w-6 h-6 sm:w-8 sm:h-8 hover:opacity-80 transition" />
               </a>
               <a href="https://www.instagram.com/studenthub.in?igsh=MWU1Y3FvZjE0dW5wMQ==" target="_blank" rel="noopener noreferrer">
