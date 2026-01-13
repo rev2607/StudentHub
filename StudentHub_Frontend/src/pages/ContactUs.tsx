@@ -20,9 +20,10 @@ const ContactUs: React.FC = () => {
     message: ''
   });
 
-  const [errors, setErrors] = useState<Partial<ContactFormData>>({});
+  const [errors, setErrors] = useState<Partial<ContactFormData & { agreement?: string }>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitMessage, setSubmitMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
+  const [agreementAccepted, setAgreementAccepted] = useState(false);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
@@ -66,6 +67,12 @@ const ContactUs: React.FC = () => {
       newErrors.message = 'Message must be at least 10 characters';
     }
 
+    if (!agreementAccepted) {
+      // Add a generic error for agreement
+      setErrors(prev => ({ ...prev, agreement: 'You must accept the Privacy Policy and Terms & Conditions' }));
+      return false;
+    }
+
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
@@ -105,6 +112,7 @@ const ContactUs: React.FC = () => {
         subject: '',
         message: ''
       });
+      setAgreementAccepted(false);
     } catch (error) {
       console.error('Error submitting form:', error);
       setSubmitMessage({
@@ -371,6 +379,36 @@ const ContactUs: React.FC = () => {
                     <p className="mt-1 text-sm text-red-600">{errors.message}</p>
                   )}
                 </div>
+
+                {/* Agreement Checkbox */}
+                <div className="flex items-start">
+                  <input
+                    type="checkbox"
+                    id="agreement"
+                    checked={agreementAccepted}
+                    onChange={(e) => {
+                      setAgreementAccepted(e.target.checked);
+                      if (errors.agreement) {
+                        setErrors(prev => ({ ...prev, agreement: undefined }));
+                      }
+                    }}
+                    className="mt-1 h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+                  />
+                  <label htmlFor="agreement" className="ml-3 text-sm text-gray-700">
+                    ☑️ I agree to receive communications via SMS, RCS, and WhatsApp, and I accept the{' '}
+                    <Link to="/privacy-policy" className="text-blue-600 hover:text-blue-800 underline">
+                      Privacy Policy
+                    </Link>
+                    {' '}and{' '}
+                    <Link to="/terms-and-conditions" className="text-blue-600 hover:text-blue-800 underline">
+                      Terms & Conditions
+                    </Link>
+                    .
+                  </label>
+                </div>
+                {errors.agreement && (
+                  <p className="mt-1 text-sm text-red-600">{errors.agreement}</p>
+                )}
 
                 {/* Submit Button */}
                 <div>
